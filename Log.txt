@@ -1,0 +1,32 @@
+6/26/2015 Started to create library for pokemon, struggled with the structure
+6/27/2015 Finished the library, I decided on using all generation one stats, 
+6/28/2015 Started to work on the attack library
+6/29/2015 Finished the attack libary, started to link pokemon to their attack sets.
+6/30/2015 continued to link attacks to individual pokemon, redid the generation one base stats to match the most current versions after researching and getting confused with gen 1 math
+6/31/2015 continued to link attacks to individual pokemon
+7/1/2015 
+7/2/2015 Continued to link attacks to individual pokemon and got animated gifs to work in unity!
+7/3/2015 I am going to use gist apparently to comminicate across computers
+7/4/2015 Happy 4th of July!
+7/5/2015 I hate linking atacks to lists of individual pokemon. On the bright side I set up pokemon creation ingame with stats... onto attacks next I suppose
+7/6/2015 
+7/7/2015 I made the back sprites and creator now work by copy pasting a bunch of things and doing some slight renaming also setup for damage multiplier based on individual types/dual types
+7/8/2015 I finished setting up pokemon multiplier weaknesses and the code is now over 2250 lines of code........ wow thats a lot. Averaging 165 lines per day and it all works! I mean it included blank lines but hey that's still something am I right. To generalize what I am doing is using a massive structure system for al of the data and putting those structures into lists that are going to be used for my calculations soon but hey my pokemon creator with stats works so thats something good. Now I need to finish linking attacks adn then actually calculating damage. Interesting stuff but the hardest part will be finishing that attack script......... less than 30 pokemon finished and 1000+ lines of code. Maybe there is an easier way to do this. IDK but I will have to impliment a loading screen at some point to let my lists populate themselves beacuse there is a shit ton of data. 
+7/9/2015 I added some pokemon attacks linking but didnt do as many as I would have liked to, about 6 pokemon done :/
+7/10/2015 Another 6 pokemon done, up to 40 done now.
+7/11/2015 I'm now up to 52 Pokemon done with attack linking.... Round 2: Finished pokemon 59 ARCANINE! Round 3: 65 Alakazam! And of course I found a better and more efficient way to do things so.... yeah, now reworking all 65 pokemon attack stuff XD
+7/12/2015 I reworked all 65 pokemon so far and will hopefully come close to finishing the attack linking, its very optimized now and a lot less code. If i come across a better method that requires less code I will do it if possible. I think in the end I will have saved about 2-3 thousand lines of code, I was doing it quite inefficiently and no longer making every a new attack index because that's just poor optimization. Also I am not at pokemon #85 completed! I also did some public to private methods to keep it orderly and proper...Now Im on pokemon #95!
+7/13/2015 Finished up to 102 and set up another 25!... Round 2: Finished #117! Round 3: Finished #126, 25 more to go! Round 4: Setup for the remaining 25 pokemon. 
+7/14/2015 So I have now finished #141 10 more to go!!!! Round 2: All 151 pokemon have all, each and every single damn one of their attacks linked to them took almost 3200 lines of code but we're all good :D
+7/15/2016 
+7/16/2015 Outlined GUI
+7/17/2015 Figuring out hot to get the random attacks and some scripting and editing of the GUI some more
+7/18/2015 
+7/19/2015 
+7/20/2015 Okay today was hell straight up hell. 0 fun, and 0 free time wo work on this project.
+7/21/2015 I guess I finally got around to updating Gist today and I hope that this commit is one that is appreciated because lol I have been super busy and have barely had tome to do any work
+7/22/2015
+7/23/2015 Finishing up some GUI Changes
+7/24/2015 Finally getting around to finishing getting the attacks randomly generated for the player and enemy pokemon. This is looking good so far.
+7/25/2015 All that is left I believe is for me to finish the damage calculations so, I have been working on that. I'll look into some more details about printing text about damage later.
+7/26/2015 This was a deadline I had in mind. Finish it in 30 days or so, the thing I still have left to do however, it the damage calulations.
