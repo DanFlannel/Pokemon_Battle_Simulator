@@ -5,6 +5,7 @@ public class AttackDamageCalc : MonoBehaviour {
 
 	private PokemonCreatorBack pcb;
 	private PokemonCreatorFront pcf;
+    private PokemonAttacks attacks;
 
 	private string frontAttack1;
 	private string frontAttack2;
@@ -15,6 +16,11 @@ public class AttackDamageCalc : MonoBehaviour {
 	private string backAttack2;
 	private string backAttack3;
 	private string backAttack4;
+
+    private string topType1;
+    private string topType2;
+    private string bottomType1;
+    private string bottomType2;
 
 	private int topLevel;
 	private int bottomLevel;
@@ -32,6 +38,7 @@ public class AttackDamageCalc : MonoBehaviour {
 	void Start () {
 		pcf = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
 		pcb = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
+        attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
 	}
 	
 	// Update is called once per frame
@@ -77,7 +84,11 @@ public class AttackDamageCalc : MonoBehaviour {
 	}
 
 	private void getPokemonTypes(){
+        topType1 = pcb.Type1;
+        topType2 = pcb.Type2;
 
+        bottomType1 = pcf.Type1;
+        bottomType2 = pcf.Type2;
 	}
 
 	private int rndNum(int n){
@@ -90,7 +101,7 @@ public class AttackDamageCalc : MonoBehaviour {
 
 	//This script should calculate the damage for every attack along with the probability of a pokemon getting a status
 	//Buff or debuff
-	private void calculateDamage(string name){
+	private void calculateDamage(string name, bool isPlayer){
 
 		//Damage = (( 2 * level + 10)/250)
 		//Damage *= (attack/defense)
@@ -98,15 +109,59 @@ public class AttackDamageCalc : MonoBehaviour {
 		//Modifier = STAB * Type * Critical * other * Random.Range(.85f,1f);
 
 		int heal = 0;
+        int index;
 
 		float levelMod = (2f*topLevel + 10f);
 		levelMod /= 250f;
 
 		switch(name){
-		case "Absorb": 
-				getAttack("Normal");
+		case "Absorb":
+                index = getAttackListIndex(name);
+                string attackType = attacks.attackList[index].type;
+                bool stab = isStab(attackType, isPlayer);
 				break;
 		}
 	}
+
+    private void modifier()
+    {
+        //Modifier = STAB * Type * Critical * other * Random.Range(.85f,1f);
+    }
+
+    private bool isStab(string aType, bool isP) 
+    {
+        if (isP) {
+            if (aType == bottomType1 || aType == bottomType2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            if(aType == topType1 || aType == topType2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+
+    private int getAttackListIndex(string n)
+    {
+        for(int i = 0; i < attacks.attackList.Count; i++)
+        {
+            if (n == attacks.attackList[i].name)
+                return i;
+        }
+        Debug.Log("No Attack with name " + n + " found");
+        return 0;
+    }
 
 }

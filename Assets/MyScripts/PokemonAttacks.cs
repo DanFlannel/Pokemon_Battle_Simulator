@@ -11,7 +11,7 @@ public class PokemonAttacks : MonoBehaviour
 	public List<attacks> attackList = new List<attacks> ();	
 	public List<attackIndex> HM_List = new List<attackIndex>();
 	public List<attackIndex> TM_List = new List<attackIndex>();
-	public List<masterList> master_list = new List<masterList> ();	//master list of the lists of attacks
+	public List<masterList> master_attack_list = new List<masterList> ();	//master list of the lists of attacks
 
 	#region TM names to number associating
 	private int MegaPunch = 1;
@@ -736,7 +736,7 @@ public class PokemonAttacks : MonoBehaviour
 
 		int[] hm = {Cut};
 		searchHMList(BulbasarAttacks, hm);
-		master_list.Add(new masterList("Bulbasar", BulbasarAttacks));
+		master_attack_list.Add(new masterList("Bulbasar", BulbasarAttacks));
 	}
 	
 	private void Ivysaur ()
@@ -757,7 +757,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(IvysaurAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(IvysaurAttacks, hm);
-		master_list.Add(new masterList("Ivysaur", IvysaurAttacks));
+		master_attack_list.Add(new masterList("Ivysaur", IvysaurAttacks));
 	}
 	
 	private void Venusaur ()
@@ -778,7 +778,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] hm = {Cut};
 		searchHMList(VenusaurAttacks, hm);
 
-		master_list.Add(new masterList("Venusaur", VenusaurAttacks));
+		master_attack_list.Add(new masterList("Venusaur", VenusaurAttacks));
 	}
 
 	private void Charmander ()
@@ -800,7 +800,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] hm = {Cut, Strength};
 		searchHMList(CharmanderAttacks, hm);
 
-		master_list.Add(new masterList("Charmander", CharmanderAttacks));
+		master_attack_list.Add(new masterList("Charmander", CharmanderAttacks));
 	}
 	
 	private void Charmeleon ()
@@ -821,7 +821,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] hm = {Cut, Strength};
 		searchHMList(CharmeleonAttacks, hm);
 
-		master_list.Add(new masterList("Charmeleon", CharmeleonAttacks));
+		master_attack_list.Add(new masterList("Charmeleon", CharmeleonAttacks));
 	}
 	
 	private void Charizard ()
@@ -842,7 +842,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] hm = {Cut, Fly, Strength};
 		searchHMList(CharmeleonAttacks, hm);
 
-		master_list.Add(new masterList("Charizard", CharizardAttacks));
+		master_attack_list.Add(new masterList("Charizard", CharizardAttacks));
 	}
 
 	private void Squirtle ()
@@ -862,7 +862,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SquirtleAttacks, tm);
 		int[] hm = {Surf, Strength};
 		searchHMList(SquirtleAttacks, hm);
-		master_list.Add(new masterList("Squirtle", SquirtleAttacks));
+		master_attack_list.Add(new masterList("Squirtle", SquirtleAttacks));
 	}
 	
 	private void Wartortle ()
@@ -882,7 +882,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(WartortleAttacks, tm);
 		int[] hm = {Surf, Strength};
 		searchHMList(WartortleAttacks, hm);
-		master_list.Add(new masterList("Wartortle", WartortleAttacks));
+		master_attack_list.Add(new masterList("Wartortle", WartortleAttacks));
 	}
 	
 	private void Blastoise ()
@@ -902,20 +902,20 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(BlastoiseAttacks, tm);
 		int[] hm = {Surf, Strength};
 		searchHMList(BlastoiseAttacks, hm);
-		master_list.Add(new masterList("Blastoise", BlastoiseAttacks));
+		master_attack_list.Add(new masterList("Blastoise", BlastoiseAttacks));
 	}
 
 	private void Caterpie ()
 	{
 		CaterpieAttacks.Add (new attackIndex (searchAttackList ("Tackle"), 1));
 		CaterpieAttacks.Add (new attackIndex (searchAttackList ("String Shot"), 1));
-		master_list.Add(new masterList("Caterpie", CaterpieAttacks));
+		master_attack_list.Add(new masterList("Caterpie", CaterpieAttacks));
 	}
 	
 	private void Metapod ()
 	{
 		MetapodAttacks.Add (new attackIndex (searchAttackList ("Harden"), 1));
-		master_list.Add(new masterList("Metapod", MetapodAttacks));
+		master_attack_list.Add(new masterList("Metapod", MetapodAttacks));
 	}
 	
 	private void Butterfree ()
@@ -931,20 +931,20 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {RazorWind,Whirlwind, Toxic, TakeDown, DoubleEdge,HyperBeam,Rage,MegaDrain,SolarBeam,Psychic,Teleport,
 			Mimic, DoubleTeam, Reflect, Bide, Swift, Rest,Psywave, Substitute};
 		searchTMList(ButterfreeAttacks, tm);
-		master_list.Add(new masterList("Butterfree", ButterfreeAttacks));
+		master_attack_list.Add(new masterList("Butterfree", ButterfreeAttacks));
 	}
 
 	private void Weedle ()
 	{
 		WeedleAttacks.Add (new attackIndex (searchAttackList ("Poison Sting"), 1));
 		WeedleAttacks.Add (new attackIndex (searchAttackList ("String Shot"), 1));
-		master_list.Add(new masterList("Weedle", WeedleAttacks));
+		master_attack_list.Add(new masterList("Weedle", WeedleAttacks));
 	}
 	
 	private void Kakuna ()
 	{
 		KakunaAttacks.Add (new attackIndex (searchAttackList ("Harden"), 1));
-		master_list.Add(new masterList("Kakuna", KakunaAttacks));
+		master_attack_list.Add(new masterList("Kakuna", KakunaAttacks));
 	}
 	
 	private void Beedrill ()
@@ -961,7 +961,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(BeedrillAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList (BeedrillAttacks, hm);
-		master_list.Add(new masterList("Beedrill", BeedrillAttacks));
+		master_attack_list.Add(new masterList("Beedrill", BeedrillAttacks));
 	}
 
 	private void Pidgey ()
@@ -979,7 +979,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PidgeyAttacks, tm);
 		int[] hm = {Fly};
 		searchHMList (PidgeyAttacks, hm);
-		master_list.Add(new masterList("Pidgey", PidgeyAttacks));
+		master_attack_list.Add(new masterList("Pidgey", PidgeyAttacks));
 	}
 	
 	private void Pidgeotto ()
@@ -997,7 +997,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PidgeottoAttacks, tm);
 		int[] hm = {Fly};
 		searchHMList (PidgeottoAttacks, hm);
-		master_list.Add(new masterList("Pidgeotto", PidgeottoAttacks));
+		master_attack_list.Add(new masterList("Pidgeotto", PidgeottoAttacks));
 	}
 	
 	private void Pidgeot ()
@@ -1015,7 +1015,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PidgeotAttacks, tm);
 		int[] hm = {Fly};
 		searchHMList (PidgeotAttacks, hm);
-		master_list.Add(new masterList("Pidgeot", PidgeotAttacks));
+		master_attack_list.Add(new masterList("Pidgeot", PidgeotAttacks));
 	}
 
 	private void Rattata ()
@@ -1030,7 +1030,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic, BodySlam,TakeDown, DoubleEdge,WaterGun,BubbleBeam,Blizzard, Rage,ThunderBolt,Thunder,
 			Mimic, DoubleTeam, Bide, Swift,SkullBash, Rest, Substitute};
 		searchTMList(RattataAttacks, tm);
-		master_list.Add(new masterList("Rattata", RattataAttacks));
+		master_attack_list.Add(new masterList("Rattata", RattataAttacks));
 	}
 	
 	private void Raticate ()
@@ -1045,7 +1045,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic, BodySlam,TakeDown, DoubleEdge,WaterGun,BubbleBeam,IceBeam, Blizzard,HyperBeam,
 			Rage,ThunderBolt,Thunder,Dig,Mimic, DoubleTeam, Bide, Swift,SkullBash, Rest, Substitute};
 		searchTMList(RaticateAttacks, tm);
-		master_list.Add(new masterList("Raticate", RaticateAttacks));
+		master_attack_list.Add(new masterList("Raticate", RaticateAttacks));
 	}
 	
 	private void Spearow ()
@@ -1063,7 +1063,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SpearowAttacks, tm);
 		int[] hm = {Fly};
 		searchHMList (SpearowAttacks, hm);
-		master_list.Add(new masterList("Spearow", SpearowAttacks));
+		master_attack_list.Add(new masterList("Spearow", SpearowAttacks));
 	}
 	
 	private void Fearow ()
@@ -1081,7 +1081,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(FearowAttacks, tm);
 		int[] hm = {Fly};
 		searchHMList (FearowAttacks, hm);
-		master_list.Add(new masterList("Fearow", FearowAttacks));
+		master_attack_list.Add(new masterList("Fearow", FearowAttacks));
 	}
 	
 	private void Ekans ()
@@ -1099,7 +1099,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(EkansAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(EkansAttacks, hm);
-		master_list.Add(new masterList("Ekans", EkansAttacks));
+		master_attack_list.Add(new masterList("Ekans", EkansAttacks));
 	}
 	
 	private void Arbok ()
@@ -1117,7 +1117,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ArbokAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(ArbokAttacks, hm);
-		master_list.Add(new masterList("Arbok", ArbokAttacks));
+		master_attack_list.Add(new masterList("Arbok", ArbokAttacks));
 	}
 	#endregion
 	
@@ -1139,7 +1139,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PikachuAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(PikachuAttacks, hm);
-		master_list.Add(new masterList("Pikachu", PikachuAttacks));
+		master_attack_list.Add(new masterList("Pikachu", PikachuAttacks));
 	}
 	
 	public void Raichu ()
@@ -1154,7 +1154,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(RaichuAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(RaichuAttacks, hm);
-		master_list.Add(new masterList("Raichu", RaichuAttacks));
+		master_attack_list.Add(new masterList("Raichu", RaichuAttacks));
 	}
 	
 	public void Sandshrew ()
@@ -1171,7 +1171,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SandshrewAttacks, tm);
 		int[] hm = {Cut,Strength};
 		searchHMList(SandshrewAttacks, hm);
-		master_list.Add(new masterList("Sandshrew", SandshrewAttacks));
+		master_attack_list.Add(new masterList("Sandshrew", SandshrewAttacks));
 	}
 	
 	public void Sandslash ()
@@ -1188,7 +1188,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SandshrewAttacks, tm);
 		int[] hm = {Cut,Strength};
 		searchHMList(SandshrewAttacks, hm);
-		master_list.Add(new masterList("Sandslash", SandslashAttacks));
+		master_attack_list.Add(new masterList("Sandslash", SandslashAttacks));
 	}
 	
 	public void Nidoran_F ()
@@ -1205,7 +1205,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {SwordsDance, Toxic, BodySlam,DoubleEdge,Blizzard,Rage, Mimic, DoubleTeam,Reflect, Bide,SkullBash,
 			Rest, Substitute};
 		searchTMList(Nidoran_FAttacks, tm);
-		master_list.Add(new masterList("Nidoran_F", Nidoran_FAttacks));
+		master_attack_list.Add(new masterList("Nidoran_F", Nidoran_FAttacks));
 	}
 	
 	public void Nidorina ()
@@ -1222,7 +1222,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,HornDrill, BodySlam,TakeDown, DoubleEdge,WaterGun,IceBeam, Blizzard,Rage,ThunderBolt,Thunder,
 			Mimic, DoubleTeam,Reflect, Bide,SkullBash, Rest, Substitute};
 		searchTMList(NidorinaAttacks, tm);
-		master_list.Add(new masterList("Nidorina", NidorinaAttacks));
+		master_attack_list.Add(new masterList("Nidorina", NidorinaAttacks));
 	}
 	
 	public void NidoQueen ()
@@ -1239,7 +1239,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(NidoqueenAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(NidoqueenAttacks,hm);
-		master_list.Add(new masterList("Nidoqueen", NidoqueenAttacks));
+		master_attack_list.Add(new masterList("Nidoqueen", NidoqueenAttacks));
 	}
 	
 	public void Nidoran_M ()
@@ -1256,7 +1256,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic, BodySlam,TakeDown, DoubleEdge,Blizzard,Rage,ThunderBolt,Thunder, Mimic, DoubleTeam,Reflect, 
 			Bide,SkullBash,	Rest, Substitute};
 		searchTMList(Nidoran_MAttacks, tm);
-		master_list.Add(new masterList("Nidoran_M", Nidoran_MAttacks));
+		master_attack_list.Add(new masterList("Nidoran_M", Nidoran_MAttacks));
 	}
 	
 	public void Nidorino ()
@@ -1273,7 +1273,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,HornDrill, BodySlam,TakeDown, DoubleEdge,WaterGun,BubbleBeam, IceBeam, Blizzard,Rage,ThunderBolt,Thunder,
 			Mimic, DoubleTeam,Reflect, Bide,SkullBash, Rest, Substitute};
 		searchTMList(NidorinoAttacks, tm);	
-		master_list.Add(new masterList("Nidorino", NidorinoAttacks));
+		master_attack_list.Add(new masterList("Nidorino", NidorinoAttacks));
 	}
 	
 	public void NidoKing ()
@@ -1289,7 +1289,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(NidokingAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(NidokingAttacks,hm);
-		master_list.Add(new masterList("Nidoking", NidoqueenAttacks));
+		master_attack_list.Add(new masterList("Nidoking", NidoqueenAttacks));
 	}
 	
 	public void Clefairy ()
@@ -1309,7 +1309,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ClefairyAttacks, tm);
 		int[] hm = {Strength,Flash};
 		searchHMList(ClefairyAttacks,hm);
-		master_list.Add(new masterList("Clefairy", ClefairyAttacks));
+		master_attack_list.Add(new masterList("Clefairy", ClefairyAttacks));
 	}
 	
 	public void Clefable ()
@@ -1325,7 +1325,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ClefableAttacks, tm);
 		int[] hm = {Strength,Flash};
 		searchHMList(ClefableAttacks,hm);
-		master_list.Add(new masterList("Clefable", ClefableAttacks));
+		master_attack_list.Add(new masterList("Clefable", ClefableAttacks));
 	}
 	
 	public void Vulpix ()
@@ -1340,7 +1340,7 @@ public class PokemonAttacks : MonoBehaviour
 
 		int[] tm = {Toxic, BodySlam,TakeDown, DoubleEdge,Rage,Dig,Mimic, DoubleTeam, Reflect,Bide,FireBlast, Swift,Substitute};
 		searchTMList(VulpixAttacks, tm);
-		master_list.Add(new masterList("Vulpix", VulpixAttacks));
+		master_attack_list.Add(new masterList("Vulpix", VulpixAttacks));
 	}
 	
 	public void Ninetails ()
@@ -1353,7 +1353,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic, BodySlam,TakeDown, DoubleEdge,HyperBeam, Rage,Dig,Mimic, DoubleTeam, Reflect,
 			Bide,FireBlast, Swift,Substitute};
 		searchTMList(NinetailsAttacks, tm);
-		master_list.Add(new masterList("Ninetails", NinetailsAttacks));
+		master_attack_list.Add(new masterList("Ninetails", NinetailsAttacks));
 	}
 	
 	public void Jigglypuff ()
@@ -1373,7 +1373,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(JigglypuffAttacks, tm);
 		int[] hm = {Strength,Flash};
 		searchHMList(JigglypuffAttacks,hm);
-		master_list.Add(new masterList("Jigglypuff", JigglypuffAttacks));
+		master_attack_list.Add(new masterList("Jigglypuff", JigglypuffAttacks));
 	}
 	
 	public void Wigglytuff ()
@@ -1389,7 +1389,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(WigglytuffAttacks, tm);
 		int[] hm = {Strength,Flash};
 		searchHMList(WigglytuffAttacks,hm);
-		master_list.Add(new masterList("Wigglytuff", WigglytuffAttacks));
+		master_attack_list.Add(new masterList("Wigglytuff", WigglytuffAttacks));
 	}
 	
 	public void Zubat ()
@@ -1403,7 +1403,7 @@ public class PokemonAttacks : MonoBehaviour
 
 		int[] tm = {RazorWind,Whirlwind, Toxic,TakeDown, DoubleEdge,Rage,MegaDrain,Mimic, DoubleTeam, Bide,Swift,Rest,Substitute};
 		searchTMList(ZubatAttacks, tm);
-		master_list.Add(new masterList("Zubat", ZubatAttacks));
+		master_attack_list.Add(new masterList("Zubat", ZubatAttacks));
 	}
 	
 	public void Golbat ()
@@ -1419,7 +1419,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {RazorWind,Whirlwind, Toxic,TakeDown, DoubleEdge,Rage,MegaDrain,Mimic, DoubleTeam, HyperBeam,
 			Bide,Swift,Rest,Substitute};
 		searchTMList(GolbattAttacks, tm);
-		master_list.Add(new masterList("Golbat", GolbattAttacks));
+		master_attack_list.Add(new masterList("Golbat", GolbattAttacks));
 	}
 	
 	public void Oddish ()
@@ -1437,7 +1437,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(OddishAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(OddishAttacks,hm);
-		master_list.Add(new masterList("Oddish", OddishAttacks));
+		master_attack_list.Add(new masterList("Oddish", OddishAttacks));
 	}
 	
 	public void Gloom ()
@@ -1455,7 +1455,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(GloomAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(GloomAttacks,hm);
-		master_list.Add(new masterList("Gloom", GloomAttacks));
+		master_attack_list.Add(new masterList("Gloom", GloomAttacks));
 	}
 	
 	public void Vileplume ()
@@ -1471,7 +1471,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(VileplumeAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(VileplumeAttacks,hm);
-		master_list.Add(new masterList("Vileplume", VileplumeAttacks));
+		master_attack_list.Add(new masterList("Vileplume", VileplumeAttacks));
 	}
 	
 	public void Paras ()
@@ -1488,7 +1488,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ParasAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(ParasAttacks,hm);
-		master_list.Add(new masterList("Paras", ParasAttacks));
+		master_attack_list.Add(new masterList("Paras", ParasAttacks));
 	}
 	
 	public void Parasect ()
@@ -1505,7 +1505,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ParasectAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(ParasectAttacks,hm);
-		master_list.Add(new masterList("Parasect", ParasectAttacks));
+		master_attack_list.Add(new masterList("Parasect", ParasectAttacks));
 	}
 	
 	public void Venonat ()
@@ -1522,7 +1522,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,TakeDown, DoubleEdge,Rage,MegaDrain, SolarBeam,Psychic,Mimic, DoubleTeam,
 			Reflect,Bide, Rest,Psywave, Substitute};
 		searchTMList(VenonatAttacks, tm);
-		master_list.Add(new masterList("Venonat", VenonatAttacks));
+		master_attack_list.Add(new masterList("Venonat", VenonatAttacks));
 	}
 	
 	public void Venomoth ()
@@ -1539,7 +1539,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {RazorWind,Whirlwind,Toxic,TakeDown, DoubleEdge,HyperBeam, Rage,MegaDrain, SolarBeam,Psychic,Teleport,
 			Mimic, DoubleTeam, Reflect,Bide, Rest,Psywave, Substitute};
 		searchTMList(VenomothAttacks, tm);
-		master_list.Add(new masterList("Venomoth", VenomothAttacks));
+		master_attack_list.Add(new masterList("Venomoth", VenomothAttacks));
 	}
 	
 	public void Digglet ()
@@ -1554,7 +1554,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,BodySlam, TakeDown, DoubleEdge, Rage,Earthquake,Fissure,Dig,
 			Mimic, DoubleTeam,Bide, Rest,RockSlide, Substitute};
 		searchTMList(DiglettAttacks, tm);
-		master_list.Add(new masterList("Digglet", DiglettAttacks));
+		master_attack_list.Add(new masterList("Digglet", DiglettAttacks));
 	}
 	
 	public void Dugtrio ()
@@ -1569,7 +1569,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,BodySlam, TakeDown, DoubleEdge, HyperBeam,Rage,Earthquake,Fissure,Dig,
 			Mimic, DoubleTeam,Bide, Rest,RockSlide, Substitute};
 		searchTMList(DugtrioAttacks, tm);
-		master_list.Add(new masterList("Dugtrio", DugtrioAttacks));
+		master_attack_list.Add(new masterList("Dugtrio", DugtrioAttacks));
 	}
 	#endregion
 	
@@ -1587,7 +1587,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,BodySlam, TakeDown, DoubleEdge,BubbleBeam,WaterGun,Payday,Rage,ThunderBolt,Thunder,
 			Mimic, DoubleTeam,Bide,Swift,SkullBash, Rest,Substitute};
 		searchTMList(MeowthAttacks, tm);
-		master_list.Add(new masterList("Meowth", MeowthAttacks));
+		master_attack_list.Add(new masterList("Meowth", MeowthAttacks));
 	}
 	
 	private void Persian ()
@@ -1603,7 +1603,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,BodySlam, TakeDown, DoubleEdge,HyperBeam, BubbleBeam,WaterGun,Payday,Rage,ThunderBolt,Thunder,
 			Mimic, DoubleTeam,Bide,Swift,SkullBash, Rest,Substitute};
 		searchTMList(PersianAttacks, tm);
-		master_list.Add(new masterList("Persian", PersianAttacks));
+		master_attack_list.Add(new masterList("Persian", PersianAttacks));
 	}
 	
 	private void Psyduck ()
@@ -1620,7 +1620,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PsyduckAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(PsyduckAttacks,hm);
-		master_list.Add(new masterList("Psyduck", PsyduckAttacks));
+		master_attack_list.Add(new masterList("Psyduck", PsyduckAttacks));
 	}
 	
 	private void Golduck ()
@@ -1637,7 +1637,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(GolduckAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(GolduckAttacks,hm);
-		master_list.Add(new masterList("Golduck", GolduckAttacks));
+		master_attack_list.Add(new masterList("Golduck", GolduckAttacks));
 	}
 	
 	private void Mankey ()
@@ -1655,7 +1655,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MankeyAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(MankeyAttacks,hm);
-		master_list.Add(new masterList("Mankey", MankeyAttacks));
+		master_attack_list.Add(new masterList("Mankey", MankeyAttacks));
 	}
 	
 	private void Primeape ()
@@ -1673,7 +1673,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PrimeapeAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(PrimeapeAttacks,hm);
-		master_list.Add(new masterList("Primeape", PrimeapeAttacks));
+		master_attack_list.Add(new masterList("Primeape", PrimeapeAttacks));
 	}
 	
 	private void Growlithe ()
@@ -1689,7 +1689,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,BodySlam, TakeDown, DoubleEdge,Rage,DragonRage,Dig,Mimic, DoubleTeam,Reflect, Bide,FireBlast,
 			Swift,SkullBash, Rest, Substitute};
 		searchTMList(GrowlitheAttacks, tm);
-		master_list.Add(new masterList("Growlithe", GrowlitheAttacks));
+		master_attack_list.Add(new masterList("Growlithe", GrowlitheAttacks));
 	}
 	
 	private void Arcanine ()
@@ -1702,7 +1702,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,BodySlam, TakeDown, DoubleEdge,HyperBeam, Rage,DragonRage,Dig,Mimic, DoubleTeam,Reflect, 
 			Bide,FireBlast,	Swift,SkullBash, Rest, Substitute};
 		searchTMList(ArcanineAttacks, tm);
-		master_list.Add(new masterList("Arcanine", ArcanineAttacks));
+		master_attack_list.Add(new masterList("Arcanine", ArcanineAttacks));
 	}
 	
 	private void Poliwag ()
@@ -1720,7 +1720,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PoliwagAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(PoliwagAttacks,hm);
-		master_list.Add(new masterList("Poliwag", PoliwagAttacks));
+		master_attack_list.Add(new masterList("Poliwag", PoliwagAttacks));
 	}
 	
 	private void Poliwhirl ()
@@ -1739,7 +1739,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PoliwhirlAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(PoliwhirlAttacks,hm);
-		master_list.Add(new masterList("Poliwhirl", PoliwhirlAttacks));
+		master_attack_list.Add(new masterList("Poliwhirl", PoliwhirlAttacks));
 	}
 	
 	private void Poliwrath ()
@@ -1755,7 +1755,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PoliwhirlAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(PoliwhirlAttacks,hm);
-		master_list.Add(new masterList("Poliwrath", PoliwrathAttacks));
+		master_attack_list.Add(new masterList("Poliwrath", PoliwrathAttacks));
 	}
 	
 	private void Abra ()
@@ -1767,7 +1767,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(AbraAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(AbraAttacks,hm);
-		master_list.Add(new masterList("Abra", AbraAttacks));
+		master_attack_list.Add(new masterList("Abra", AbraAttacks));
 	}
 	
 	private void Kadabra ()
@@ -1786,7 +1786,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(KadabraAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(KadabraAttacks,hm);
-		master_list.Add(new masterList("Kadabra", KadabraAttacks));
+		master_attack_list.Add(new masterList("Kadabra", KadabraAttacks));
 	}
 	
 	private void Alakazam ()
@@ -1805,7 +1805,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(AlakazamAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(AlakazamAttacks,hm);
-		master_list.Add(new masterList("Alakazam", AlakazamAttacks));
+		master_attack_list.Add(new masterList("Alakazam", AlakazamAttacks));
 	}
 	
 	private void Machop ()
@@ -1823,7 +1823,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MachopAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(MachopAttacks,hm);
-		master_list.Add(new masterList("Machop", MachopAttacks));
+		master_attack_list.Add(new masterList("Machop", MachopAttacks));
 	}
 	
 	private void Machoke ()
@@ -1841,7 +1841,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MachokeAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(MachokeAttacks,hm);
-		master_list.Add(new masterList("Machoke", MachokeAttacks));
+		master_attack_list.Add(new masterList("Machoke", MachokeAttacks));
 	}
 	
 	private void Machamp ()
@@ -1859,7 +1859,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MachokeAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(MachokeAttacks,hm);
-		master_list.Add(new masterList("Machamp", MachampAttacks));
+		master_attack_list.Add(new masterList("Machamp", MachampAttacks));
 	}
 	
 	private void Bellsprout ()
@@ -1879,7 +1879,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(BellsproutAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(BellsproutAttacks,hm);
-		master_list.Add(new masterList("Bellsprout", BellsproutAttacks));
+		master_attack_list.Add(new masterList("Bellsprout", BellsproutAttacks));
 	}
 	
 	private void Weepinbell ()
@@ -1899,7 +1899,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(WeepinbellAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(WeepinbellAttacks,hm);
-		master_list.Add(new masterList("Weepinbell", WeepinbellAttacks));
+		master_attack_list.Add(new masterList("Weepinbell", WeepinbellAttacks));
 	}
 	
 	private void Victreebel ()
@@ -1916,7 +1916,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(VictreebelAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(VictreebelAttacks,hm);
-		master_list.Add(new masterList("Victreebel", VictreebelAttacks));
+		master_attack_list.Add(new masterList("Victreebel", VictreebelAttacks));
 	}
 	
 	private void Tentacool ()
@@ -1936,7 +1936,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(TentacoolAttacks, tm);
 		int[] hm = {Cut, Surf};
 		searchHMList(TentacoolAttacks,hm);
-		master_list.Add(new masterList("Tentacool", TentacoolAttacks));
+		master_attack_list.Add(new masterList("Tentacool", TentacoolAttacks));
 	}
 	
 	private void Tentacruel ()
@@ -1956,7 +1956,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(TentacoolAttacks, tm);
 		int[] hm = {Cut, Surf};
 		searchHMList(TentacoolAttacks,hm);
-		master_list.Add(new masterList("Tentacruel", TentacruelAttacks));
+		master_attack_list.Add(new masterList("Tentacruel", TentacruelAttacks));
 	}
 	
 	private void Geodude ()
@@ -1974,7 +1974,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(GeodudeAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(GeodudeAttacks,hm);
-		master_list.Add(new masterList("Geodude", GeodudeAttacks));
+		master_attack_list.Add(new masterList("Geodude", GeodudeAttacks));
 	}
 	
 	private void Gravler ()
@@ -1992,7 +1992,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(GravlerAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(GravlerAttacks,hm);
-		master_list.Add(new masterList("Gravler", GravlerAttacks));
+		master_attack_list.Add(new masterList("Gravler", GravlerAttacks));
 	}
 	
 	private void Golem ()
@@ -2010,7 +2010,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(GolemAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(GolemAttacks,hm);
-		master_list.Add(new masterList("Golem", GolemAttacks));
+		master_attack_list.Add(new masterList("Golem", GolemAttacks));
 	}
 	#endregion
 
@@ -2027,7 +2027,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,HornDrill, BodySlam, TakeDown, DoubleEdge,Rage,Mimic, DoubleTeam,Reflect, Bide,FireBlast,
 			Swift,SkullBash, Rest,Substitute};
 		searchTMList(PonytaAttacks, tm);
-		master_list.Add(new masterList("Ponyta", PonytaAttacks));
+		master_attack_list.Add(new masterList("Ponyta", PonytaAttacks));
 	}
 
 	private void Rapidash(){
@@ -2042,7 +2042,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,HornDrill, BodySlam, TakeDown, DoubleEdge,HyperBeam, Rage,Mimic, DoubleTeam,Reflect, 
 			Bide,FireBlast,	Swift,SkullBash, Rest,Substitute};
 		searchTMList(RapidashAttacks, tm);
-		master_list.Add(new masterList("Rapidash", RapidashAttacks));
+		master_attack_list.Add(new masterList("Rapidash", RapidashAttacks));
 	}
 
 	private void Slowpoke(){
@@ -2060,7 +2060,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SlowpokeAttacks, tm);
 		int[] hm = {Surf,Strength,Flash};
 		searchHMList(SlowpokeAttacks, hm);
-		master_list.Add(new masterList("Slowpoke", SlowpokeAttacks));
+		master_attack_list.Add(new masterList("Slowpoke", SlowpokeAttacks));
 	}
 
 	private void Slowbro(){
@@ -2079,7 +2079,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SlowbroAttacks, tm);
 		int[] hm = {Surf,Strength,Flash};
 		searchHMList(SlowbroAttacks, hm);
-		master_list.Add(new masterList("Slowbro", SlowbroAttacks));
+		master_attack_list.Add(new masterList("Slowbro", SlowbroAttacks));
 	}
 
 	private void Magnemite(){
@@ -2096,7 +2096,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MagnemiteAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(MagnemiteAttacks, hm);
-		master_list.Add(new masterList("Magnemite", MagnemiteAttacks));
+		master_attack_list.Add(new masterList("Magnemite", MagnemiteAttacks));
 	}
 
 	private void Magneton(){
@@ -2113,7 +2113,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MagnemiteAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(MagnemiteAttacks, hm);
-		master_list.Add(new masterList("Magneton", MagnetonAttacks));
+		master_attack_list.Add(new masterList("Magneton", MagnetonAttacks));
 	}
 
 	private void Farfetchd(){
@@ -2130,7 +2130,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(FarfetchdAttacks, tm);
 		int[] hm = {Cut,Fly};
 		searchHMList(FarfetchdAttacks, hm);
-		master_list.Add(new masterList("Farfetchd", FarfetchdAttacks));
+		master_attack_list.Add(new masterList("Farfetchd", FarfetchdAttacks));
 	}
 
 	private void Doduo (){
@@ -2147,7 +2147,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(DoduoAttacks, tm);
 		int[] hm = {Fly};
 		searchHMList(DoduoAttacks, hm);
-		master_list.Add(new masterList("Doduo", DoduoAttacks));
+		master_attack_list.Add(new masterList("Doduo", DoduoAttacks));
 	}
 
 	private void Dodrio(){
@@ -2164,7 +2164,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(DodrioAttacks, tm);
 		int[] hm = {Fly};
 		searchHMList(DodrioAttacks, hm);
-		master_list.Add(new masterList("Dodrio", DodrioAttacks));
+		master_attack_list.Add(new masterList("Dodrio", DodrioAttacks));
 	}
 
 	private void Seel(){
@@ -2180,7 +2180,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SeelAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(SeelAttacks, hm);
-		master_list.Add(new masterList("Seel", SeelAttacks));
+		master_attack_list.Add(new masterList("Seel", SeelAttacks));
 	}
 
 	private void Dewgong(){
@@ -2196,7 +2196,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(DewgongAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(DewgongAttacks, hm);
-		master_list.Add(new masterList("Dewgong", DewgongAttacks));
+		master_attack_list.Add(new masterList("Dewgong", DewgongAttacks));
 	}
 
 	private void Grimer(){
@@ -2212,7 +2212,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic, BodySlam,Rage,MegaDrain,ThunderBolt,Thunder, Mimic,DoubleTeam, Bide,SelfDestruct,FireBlast,
 			Rest,Explosion, Substitute};
 		searchTMList(GrimerAttacks, tm);
-		master_list.Add(new masterList("Grimer", GrimerAttacks));
+		master_attack_list.Add(new masterList("Grimer", GrimerAttacks));
 	}
 
 	private void Muk(){
@@ -2228,7 +2228,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic, BodySlam,HyperBeam, Rage,MegaDrain,ThunderBolt,Thunder, Mimic,DoubleTeam, Bide,
 			SelfDestruct,FireBlast,	Rest,Explosion, Substitute};
 		searchTMList(MukAttacks, tm);
-		master_list.Add(new masterList("Muk", MukAttacks));
+		master_attack_list.Add(new masterList("Muk", MukAttacks));
 	}
 
 	private void Shellder(){
@@ -2244,7 +2244,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ShellderAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(ShellderAttacks, hm);
-		master_list.Add(new masterList("Shellder", ShellderAttacks));
+		master_attack_list.Add(new masterList("Shellder", ShellderAttacks));
 	}
 
 	private void Cloyster(){
@@ -2261,7 +2261,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(CloysterAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(CloysterAttacks, hm);
-		master_list.Add(new masterList("Cloyster", CloysterAttacks));
+		master_attack_list.Add(new masterList("Cloyster", CloysterAttacks));
 	}
 
 	private void Gastly(){
@@ -2274,7 +2274,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,Rage,MegaDrain,ThunderBolt,Thunder,Psychic,Mimic,DoubleTeam, Bide,SelfDestruct, DreamEater,
 			Rest,Psywave,Explosion,Substitute};
 		searchTMList(GastlyAttacks, tm);
-		master_list.Add(new masterList("Gastly", GastlyAttacks));
+		master_attack_list.Add(new masterList("Gastly", GastlyAttacks));
 	}
 
 	private void Haunter(){
@@ -2287,7 +2287,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,Rage,MegaDrain,ThunderBolt,Thunder,Psychic,Mimic,DoubleTeam, Bide,SelfDestruct, DreamEater,
 			Rest,Psywave,Explosion,Substitute};
 		searchTMList(HaunterAttacks, tm);
-		master_list.Add(new masterList("Haunter", HaunterAttacks));
+		master_attack_list.Add(new masterList("Haunter", HaunterAttacks));
 	}
 
 	private void Gengar(){
@@ -2303,7 +2303,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(GengarAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(GengarAttacks, hm);
-		master_list.Add(new masterList("Gengar", GengarAttacks));
+		master_attack_list.Add(new masterList("Gengar", GengarAttacks));
 	}
 
 	private void Onix(){
@@ -2318,7 +2318,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(OnixAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(OnixAttacks, hm);
-		master_list.Add(new masterList("Onix", OnixAttacks));
+		master_attack_list.Add(new masterList("Onix", OnixAttacks));
 	}
 
 	private void Drowzee(){
@@ -2338,7 +2338,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(DrowzeeAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(DrowzeeAttacks, hm);
-		master_list.Add(new masterList("Drowzee", DrowzeeAttacks));
+		master_attack_list.Add(new masterList("Drowzee", DrowzeeAttacks));
 	}
 
 	private void Hypno(){
@@ -2357,7 +2357,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(HypnoAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(HypnoAttacks, hm);
-		master_list.Add(new masterList("Hypno", HypnoAttacks));
+		master_attack_list.Add(new masterList("Hypno", HypnoAttacks));
 	}
 
 	private void Krabby(){
@@ -2374,7 +2374,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(KrabbyAttacks, tm);
 		int[] hm = {Cut,Surf,Strength};
 		searchHMList(KrabbyAttacks, hm);
-		master_list.Add(new masterList("Krabby", KrabbyAttacks));
+		master_attack_list.Add(new masterList("Krabby", KrabbyAttacks));
 	}
 
 	private void Kingler(){
@@ -2391,7 +2391,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(KinglerAttacks, tm);
 		int[] hm = {Cut,Surf,Strength};
 		searchHMList(KinglerAttacks, hm);
-		master_list.Add(new masterList("Kingler", KinglerAttacks));
+		master_attack_list.Add(new masterList("Kingler", KinglerAttacks));
 	}
 
 	private void Voltorb(){
@@ -2408,7 +2408,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(VoltorbAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(VoltorbAttacks, hm);
-		master_list.Add(new masterList("Voltorb", VoltorbAttacks));
+		master_attack_list.Add(new masterList("Voltorb", VoltorbAttacks));
 	}
 
 	private void Electrode(){
@@ -2425,7 +2425,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(VoltorbAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(VoltorbAttacks, hm);
-		master_list.Add(new masterList("Electrode", ElectrodeAttacks));
+		master_attack_list.Add(new masterList("Electrode", ElectrodeAttacks));
 	}
 	#endregion
 
@@ -2443,7 +2443,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic, TakeDown, DoubleEdge,Rage,Psychic,Teleport, Mimic, DoubleTeam,Reflect, Bide,SelfDestruct,
 			EggBomb,Rest,Psywave,Explosion,Substitute};
 		searchTMList(ExeggcuteAttacks, tm);
-		master_list.Add(new masterList("Exeggcute", ExeggcuteAttacks));
+		master_attack_list.Add(new masterList("Exeggcute", ExeggcuteAttacks));
 	}
 
 	private void Exeggutor(){
@@ -2456,7 +2456,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ExegutorAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(ExegutorAttacks, hm);
-		master_list.Add(new masterList("Exeggutor", ExegutorAttacks));
+		master_attack_list.Add(new masterList("Exeggutor", ExegutorAttacks));
 	}
 
 	private  void Cubone(){
@@ -2474,7 +2474,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(CuboneAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(CuboneAttacks, hm);
-		master_list.Add(new masterList("Cubone", CuboneAttacks));
+		master_attack_list.Add(new masterList("Cubone", CuboneAttacks));
 	}
 
 	private void Marowak(){
@@ -2492,7 +2492,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MarowakAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(MarowakAttacks, hm);
-		master_list.Add(new masterList("Marowak", MarowakAttacks));
+		master_attack_list.Add(new masterList("Marowak", MarowakAttacks));
 	}
 
 	private void Hitmonlee(){
@@ -2509,7 +2509,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(HitmonleeAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(HitmonleeAttacks, hm);
-		master_list.Add(new masterList("Hitmonlee", HitmonleeAttacks));
+		master_attack_list.Add(new masterList("Hitmonlee", HitmonleeAttacks));
 	}
 
 	private void Hitmonchan(){
@@ -2526,7 +2526,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(HitmonchanAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(HitmonchanAttacks, hm);
-		master_list.Add(new masterList("Hitmonchan", HitmonchanAttacks));
+		master_attack_list.Add(new masterList("Hitmonchan", HitmonchanAttacks));
 	}
 
 	private void Lickitung(){
@@ -2544,7 +2544,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(LickitungAttacks, tm);
 		int[] hm = {Cut, Surf, Strength};
 		searchHMList(LickitungAttacks, hm);
-		master_list.Add(new masterList("Lickitung", LickitungAttacks));
+		master_attack_list.Add(new masterList("Lickitung", LickitungAttacks));
 	}
 
 	private void Koffing(){
@@ -2559,7 +2559,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,Rage,ThunderBolt,Thunder,Mimic,DoubleTeam,Bide,SelfDestruct,FireBlast,Rest,Explosion,
 			Substitute};
 		searchTMList(KoffingAttacks, tm);
-		master_list.Add(new masterList("Koffing", KoffingAttacks));
+		master_attack_list.Add(new masterList("Koffing", KoffingAttacks));
 	}
 
 	private void Weezing(){
@@ -2574,7 +2574,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,Rage,ThunderBolt,Thunder,Mimic,DoubleTeam,Bide,SelfDestruct,FireBlast,Rest,Explosion,
 			Substitute};
 		searchTMList(WeezingAttacks, tm);
-		master_list.Add(new masterList("Weezing", WeezingAttacks));
+		master_attack_list.Add(new masterList("Weezing", WeezingAttacks));
 	}
 
 	private void Rhyhorn(){
@@ -2591,7 +2591,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(RhyhornAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(RhyhornAttacks, hm);
-		master_list.Add(new masterList("Rhyhorn", RhyhornAttacks));
+		master_attack_list.Add(new masterList("Rhyhorn", RhyhornAttacks));
 	}
 
 	private void Rhydon(){
@@ -2609,7 +2609,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(RhydonAttacks, tm);
 		int[] hm = {Surf, Strength};
 		searchHMList(RhydonAttacks, hm);
-		master_list.Add(new masterList("Rhydon", RhydonAttacks));
+		master_attack_list.Add(new masterList("Rhydon", RhydonAttacks));
 	}
 
 	private void Chansey(){
@@ -2629,7 +2629,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ChanseyAttacks, tm);
 		int[] hm = {Strength,Flash};
 		searchHMList(ChanseyAttacks, hm);
-		master_list.Add(new masterList("Chansey", ChanseyAttacks));
+		master_attack_list.Add(new masterList("Chansey", ChanseyAttacks));
 	}
 
 	private void Tangela(){
@@ -2647,7 +2647,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(TangelaAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(TangelaAttacks, hm);
-		master_list.Add(new masterList("Tangela", TangelaAttacks));
+		master_attack_list.Add(new masterList("Tangela", TangelaAttacks));
 	}
 
 	private void Kangaskhan(){
@@ -2665,7 +2665,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(KangaskhanAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(KangaskhanAttacks, hm);
-		master_list.Add(new masterList("Kangaskhan", KangaskhanAttacks));
+		master_attack_list.Add(new masterList("Kangaskhan", KangaskhanAttacks));
 	}
 
 	private void Horsea(){
@@ -2681,7 +2681,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(HorseaAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(HorseaAttacks, hm);
-		master_list.Add(new masterList("Horsea", HorseaAttacks));
+		master_attack_list.Add(new masterList("Horsea", HorseaAttacks));
 	}
 
 	private void Seadra(){
@@ -2697,7 +2697,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SeadraAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(SeadraAttacks, hm);
-		master_list.Add(new masterList("Seadra", SeadraAttacks));
+		master_attack_list.Add(new masterList("Seadra", SeadraAttacks));
 	}
 
 	private void Goldeen(){
@@ -2715,7 +2715,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(GoldeenAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(GoldeenAttacks, hm);
-		master_list.Add(new masterList("Goldeen", GoldeenAttacks));
+		master_attack_list.Add(new masterList("Goldeen", GoldeenAttacks));
 	}
 
 	private void Seaking(){
@@ -2733,7 +2733,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SeakingAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(SeakingAttacks, hm);
-		master_list.Add(new masterList("Seaking", SeakingAttacks));
+		master_attack_list.Add(new masterList("Seaking", SeakingAttacks));
 	}
 
 	private void Staryu(){
@@ -2751,7 +2751,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(StaryuAttacks, tm);
 		int[] hm = {Flash,Surf};
 		searchHMList(StaryuAttacks, hm);
-		master_list.Add(new masterList("Staryu", StaryuAttacks));
+		master_attack_list.Add(new masterList("Staryu", StaryuAttacks));
 	}
 
 	private void Starmie(){
@@ -2765,7 +2765,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(StarmieAttacks, tm);
 		int[] hm = {Flash,Surf};
 		searchHMList(StarmieAttacks, hm);
-		master_list.Add(new masterList("Starmie", StarmieAttacks));
+		master_attack_list.Add(new masterList("Starmie", StarmieAttacks));
 	}
 
 	private void MrMime(){
@@ -2782,7 +2782,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MrMimeAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(MrMimeAttacks, hm);
-		master_list.Add(new masterList("MrMime", MrMimeAttacks));
+		master_attack_list.Add(new masterList("MrMime", MrMimeAttacks));
 	}
 
 	private void Scyther(){
@@ -2799,7 +2799,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ScytherAttacks, tm);
 		int[] hm = {Cut};
 		searchHMList(ScytherAttacks, hm);
-		master_list.Add(new masterList("Scyther", ScytherAttacks));
+		master_attack_list.Add(new masterList("Scyther", ScytherAttacks));
 	}
 
 	private void Jynx(){
@@ -2816,7 +2816,7 @@ public class PokemonAttacks : MonoBehaviour
 			Submission,Counter,SeismicToss,Rage,Psychic,Teleport,Mimic,DoubleTeam,Reflect,Bide,Metronome,SkullBash,Rest,
 			Psywave,Substitute};
 		searchTMList(JynxAttacks, tm);
-		master_list.Add(new masterList("Jynx", JynxAttacks));
+		master_attack_list.Add(new masterList("Jynx", JynxAttacks));
 	}
 
 	private void Electrabuzz(){
@@ -2834,7 +2834,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ElectrabuzzAttacks, tm);
 		int[] hm = {Strength,Flash};
 		searchHMList(ElectrabuzzAttacks, hm);
-		master_list.Add(new masterList("Electrabuzz", ElectrabuzzAttacks));
+		master_attack_list.Add(new masterList("Electrabuzz", ElectrabuzzAttacks));
 	}
 
 	private void Magmar(){
@@ -2851,7 +2851,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MagmarAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(MagmarAttacks, hm);
-		master_list.Add(new masterList("Magmar", MagmarAttacks));
+		master_attack_list.Add(new masterList("Magmar", MagmarAttacks));
 	}
 
 	#endregion
@@ -2871,7 +2871,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PinsirAttacks, tm);
 		int[] hm = {Cut,Strength};
 		searchHMList(PinsirAttacks, hm);
-		master_list.Add(new masterList("Pinsir", PinsirAttacks));
+		master_attack_list.Add(new masterList("Pinsir", PinsirAttacks));
 	}
 
 	private void Tauros(){
@@ -2887,13 +2887,13 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PinsirAttacks, tm);
 		int[] hm = {Strength};
 		searchHMList(PinsirAttacks, hm);
-		master_list.Add(new masterList("Tauros", TaurosAttacks));
+		master_attack_list.Add(new masterList("Tauros", TaurosAttacks));
 	}
 
 	private void Magikarp(){
 		MagikarpAttacks.Add (new attackIndex (searchAttackList ("Splash"), 1));
 		MagikarpAttacks.Add (new attackIndex (searchAttackList ("Tackle"), 15));
-		master_list.Add(new masterList("Magikarp", MagikarpAttacks));
+		master_attack_list.Add(new masterList("Magikarp", MagikarpAttacks));
 	}
 
 	private void Gyarados(){
@@ -2908,7 +2908,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(GyaradosAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(GyaradosAttacks, hm);
-		master_list.Add(new masterList("Gyarados", GyaradosAttacks));
+		master_attack_list.Add(new masterList("Gyarados", GyaradosAttacks));
 	}
 
 	private void Lapras(){
@@ -2927,12 +2927,12 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(LaprasAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(LaprasAttacks, hm);
-		master_list.Add(new masterList("Lapras", LaprasAttacks));
+		master_attack_list.Add(new masterList("Lapras", LaprasAttacks));
 	}	
 
 	private void Dittio(){
 		DittoAttacks.Add (new attackIndex (searchAttackList ("Transform"), 1));
-		master_list.Add(new masterList("Ditto", DittoAttacks));
+		master_attack_list.Add(new masterList("Ditto", DittoAttacks));
 	}
 
 	private void Eevee(){
@@ -2946,7 +2946,7 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {Toxic,BodySlam,TakeDown,DoubleEdge,Rage,Mimic,DoubleTeam,Reflect,Bide,Swift,SkullBash,Rest,
 			Substitute}; 
 		searchTMList(LaprasAttacks, tm);
-		master_list.Add(new masterList("Eevee", EeveeAttacks));
+		master_attack_list.Add(new masterList("Eevee", EeveeAttacks));
 	}
 
 	private void Vaporeon(){
@@ -2966,7 +2966,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(VaporeonAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(VaporeonAttacks, hm);
-		master_list.Add(new masterList("Vaporeon", VaporeonAttacks));
+		master_attack_list.Add(new masterList("Vaporeon", VaporeonAttacks));
 	}
 
 	private void Jolteon(){
@@ -2986,7 +2986,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(JolteonAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(JolteonAttacks, hm);
-		master_list.Add(new masterList("Jolteon", JolteonAttacks));
+		master_attack_list.Add(new masterList("Jolteon", JolteonAttacks));
 	}
 
 	private void Flareon(){
@@ -3006,7 +3006,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(FlareonAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(FlareonAttacks, hm);
-		master_list.Add(new masterList("Flareon", FlareonAttacks));
+		master_attack_list.Add(new masterList("Flareon", FlareonAttacks));
 	}
 
 	private void Porygon(){
@@ -3024,7 +3024,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(PorygonAttacks, tm);
 		int[] hm = {Flash};
 		searchHMList(PorygonAttacks, hm);
-		master_list.Add(new masterList("Porygon", PorygonAttacks));
+		master_attack_list.Add(new masterList("Porygon", PorygonAttacks));
 	}
 
 	private void Omanyte(){
@@ -3040,7 +3040,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(OmanyteAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(OmanyteAttacks, hm);
-		master_list.Add(new masterList("Omanyte", OmanyteAttacks));
+		master_attack_list.Add(new masterList("Omanyte", OmanyteAttacks));
 	}
 
 	private void Omastar(){
@@ -3056,7 +3056,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(OmastarAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(OmastarAttacks, hm);
-		master_list.Add(new masterList("Omastar", OmastarAttacks));
+		master_attack_list.Add(new masterList("Omastar", OmastarAttacks));
 	}
 
 	private void Kabuto(){
@@ -3072,7 +3072,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(KabutoAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(KabutoAttacks, hm);
-		master_list.Add(new masterList("Kabuto", KabutoAttacks));
+		master_attack_list.Add(new masterList("Kabuto", KabutoAttacks));
 	}
 
 	private void Kabutops(){
@@ -3088,7 +3088,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(KabutopsAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(KabutopsAttacks, hm);
-		master_list.Add(new masterList("Kabutops", KabutopsAttacks));
+		master_attack_list.Add(new masterList("Kabutops", KabutopsAttacks));
 	}
 
 	private void Aeordactyl(){
@@ -3104,7 +3104,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(AeordactylAttacks, tm);
 		int[] hm = {Fly};
 		searchHMList(AeordactylAttacks, hm);
-		master_list.Add(new masterList("Aerodactyl", AeordactylAttacks));
+		master_attack_list.Add(new masterList("Aerodactyl", AeordactylAttacks));
 	}
 
 	private void Snorlax(){
@@ -3123,7 +3123,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(SnorlaxAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(SnorlaxAttacks, hm);
-		master_list.Add(new masterList("Snorlax", SnorlaxAttacks));
+		master_attack_list.Add(new masterList("Snorlax", SnorlaxAttacks));
 	}
 
 	private void Articuno(){
@@ -3138,7 +3138,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ArticunoAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(ArticunoAttacks, hm);
-		master_list.Add(new masterList("Articuno", ArticunoAttacks));
+		master_attack_list.Add(new masterList("Articuno", ArticunoAttacks));
 	}
 
 	private void Zapdos(){
@@ -3153,7 +3153,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(ZapdosAttacks, tm);
 		int[] hm = {Fly,Flash};
 		searchHMList(ZapdosAttacks, hm);
-		master_list.Add(new masterList("Zapados", ZapdosAttacks));
+		master_attack_list.Add(new masterList("Zapados", ZapdosAttacks));
 	}
 
 	private void Moltres(){
@@ -3168,7 +3168,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MoltresAttacks, tm);
 		int[] hm = {Fly};
 		searchHMList(MoltresAttacks, hm);
-		master_list.Add(new masterList("Moltres", MoltresAttacks));
+		master_attack_list.Add(new masterList("Moltres", MoltresAttacks));
 	}
 
 	private void Dratini(){
@@ -3185,7 +3185,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(DratiniAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(DratiniAttacks, hm);
-		master_list.Add(new masterList("Dratini", DratiniAttacks));
+		master_attack_list.Add(new masterList("Dratini", DratiniAttacks));
 	}
 
 	private void Dragonair(){
@@ -3202,7 +3202,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(DragonairAttacks, tm);
 		int[] hm = {Surf};
 		searchHMList(DragonairAttacks, hm);
-		master_list.Add(new masterList("Dragonair", DragonairAttacks));
+		master_attack_list.Add(new masterList("Dragonair", DragonairAttacks));
 	}
 
 	private void Dragonite(){
@@ -3220,7 +3220,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(DragoniteAttacks, tm);
 		int[] hm = {Surf,Strength};
 		searchHMList(DragoniteAttacks, hm);
-		master_list.Add(new masterList("Dragonite", DragoniteAttacks));
+		master_attack_list.Add(new masterList("Dragonite", DragoniteAttacks));
 	}
 
 	private void MewTwo(){
@@ -3240,7 +3240,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MewtwoAttacks, tm);
 		int[] hm = {Strength,Flash};
 		searchHMList(MewtwoAttacks, hm);
-		master_list.Add(new masterList("Mewtwo", MewtwoAttacks));
+		master_attack_list.Add(new masterList("Mewtwo", MewtwoAttacks));
 	}
 
 	private void Mew(){
@@ -3258,7 +3258,7 @@ public class PokemonAttacks : MonoBehaviour
 		searchTMList(MewAttacks, tm);
 		int[] hm = {Cut,Fly,Surf,Strength,Flash};
 		searchHMList(MewAttacks, hm);
-		master_list.Add(new masterList("Mew", MewAttacks));
+		master_attack_list.Add(new masterList("Mew", MewAttacks));
 
 		completedDatabaseInitalization = true;
 	}
@@ -3278,11 +3278,11 @@ public class PokemonAttacks : MonoBehaviour
 	}
 	
 	public List<attackIndex> masterGetAttacks(int id){
-		return master_list[id].ai;
+		return master_attack_list[id].ai;
 	}
 
 	public string masterGetName(int id){
-		return master_list[id].name;
+		return master_attack_list[id].name;
 	}
 	
 	private void searchTMList (List<attackIndex> pokemon,int[] attacks){
