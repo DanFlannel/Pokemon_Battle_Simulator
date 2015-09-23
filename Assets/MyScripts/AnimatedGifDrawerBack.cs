@@ -3,6 +3,9 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using UnityEngine;
 
+/// <summary>
+/// This class converts the images in the resource folder to a readable GIF by Unity
+/// </summary>
 public class AnimatedGifDrawerBack : MonoBehaviour
 {
 	public string loadingGifPath;

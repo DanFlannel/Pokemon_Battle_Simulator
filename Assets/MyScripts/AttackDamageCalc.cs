@@ -6,6 +6,7 @@ public class AttackDamageCalc : MonoBehaviour {
 	private PokemonCreatorBack pcb;
 	private PokemonCreatorFront pcf;
     private PokemonAttacks attacks;
+    private PokemonDamageMultipliers pdm;
 
 	private string frontAttack1;
 	private string frontAttack2;
@@ -39,6 +40,7 @@ public class AttackDamageCalc : MonoBehaviour {
 		pcf = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
 		pcb = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        pdm = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
 	}
 	
 	// Update is called once per frame
@@ -115,11 +117,11 @@ public class AttackDamageCalc : MonoBehaviour {
 		levelMod /= 250f;
 
 		switch(name){
-		case "Absorb":
-                index = getAttackListIndex(name);
-                string attackType = attacks.attackList[index].type;
-                bool stab = isStab(attackType, isPlayer);
-				break;
+		    case "Absorb":
+                    index = getAttackListIndex(name);
+                    string attackType = attacks.attackList[index].type;
+                    bool stab = isStab(attackType, isPlayer);
+				    break;
 		}
 	}
 
@@ -161,6 +163,11 @@ public class AttackDamageCalc : MonoBehaviour {
                 return i;
         }
         Debug.Log("No Attack with name " + n + " found");
+        return 0;
+    }
+
+    private int getTypeMultiplier(string name)
+    {
         return 0;
     }
 
