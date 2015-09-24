@@ -51,8 +51,9 @@ public class GUIScript : MonoBehaviour {
 		}
 	}
 
-	
-
+    /// <summary>
+    /// Gets the Pokemon's name and displays it on the GUI
+    /// </summary>
 	private void names(){
 		bottomName = pcb.PokemonName;
 		topName = pcf.PokemonName;
@@ -61,6 +62,9 @@ public class GUIScript : MonoBehaviour {
 		topNameText.text = topName;
 	}
 
+    /// <summary>
+    /// Gets the Pokemon's level and displays it on the GUI
+    /// </summary>
 	private void level(){
 		bottomLevel = pcb.Level;
 		topLevel = pcf.Level;
@@ -69,6 +73,9 @@ public class GUIScript : MonoBehaviour {
 		topLevelText.text = "Lv"+topLevel;
 	}
 
+    /// <summary>
+    /// Gets the Pokemon's health and displays it on the GUI
+    /// </summary>
 	private void health(){
 		maxHealth = pcb.maxHP;
 		curHealth = pcb.curHp;
@@ -76,12 +83,18 @@ public class GUIScript : MonoBehaviour {
 		bottomHealth.text = curHealth + " / " + maxHealth;
 	}
 
+    /// <summary>
+    /// Function to generate all the attack stats
+    /// </summary>
 	private void generatePokemonStats(){
 		names();
 		level();
 		health();
 	}
 
+    /// <summary>
+    /// Gets the attack names from the randomly generated attack list
+    /// </summary>
 	private void attackNames(){
 		playerAttack1.text = attackGen.playerAttackName[0];
 		playerAttack2.text = attackGen.playerAttackName[1];

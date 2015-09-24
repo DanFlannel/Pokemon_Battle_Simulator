@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// This class is created to take the damage done by each attack when a button is pressed. It is meant to work on every single attack.
+/// </summary>
 public class AttackDamageCalc : MonoBehaviour {
 
 	private PokemonCreatorBack pcb;
@@ -45,10 +48,10 @@ public class AttackDamageCalc : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		GetAttack(); //To be optimized later
+		getAttack(); //To be optimized later
 	}
 
-	private void GetAttack(){
+	private void getAttack(){
 		frontAttack1 = pcf.Attack_1_Name;
 		frontAttack2 = pcf.Attack_2_Name;
 		frontAttack3 = pcf.Attack_3_Name;
@@ -116,9 +119,11 @@ public class AttackDamageCalc : MonoBehaviour {
 		float levelMod = (2f*topLevel + 10f);
 		levelMod /= 250f;
 
-		switch(name){
+        index = getAttackListIndex(name);
+
+        switch (name){
 		    case "Absorb":
-                    index = getAttackListIndex(name);
+                    
                     string attackType = attacks.attackList[index].type;
                     bool stab = isStab(attackType, isPlayer);
 				    break;
