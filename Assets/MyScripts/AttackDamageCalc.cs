@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 /// <summary>
 /// This class is created to take the damage done by each attack when a button is pressed. It is meant to work on every single attack.
@@ -11,129 +12,144 @@ public class AttackDamageCalc : MonoBehaviour {
     private PokemonAttacks attacks;
     private PokemonDamageMultipliers damage_mult;
 
-    private string status = "status";
+	private string enemyAttack1;
+	private string enemyAttack2;
+	private string enemyAttack3;
+	private string enemyAttack4;
 
-	private string frontAttack1;
-	private string frontAttack2;
-	private string frontAttack3;
-	private string frontAttack4;
+	private string playerAttack1;
+	private string playerAttack2;
+	private string playerAttack3;
+	private string playerAttack4;
 
-	private string backAttack1;
-	private string backAttack2;
-	private string backAttack3;
-	private string backAttack4;
-
-	private string topType1;
-    private string topType2;
-    private string bottomType1;
-    private string bottomType2;
-
-	private int topLevel;
-	private int bottomLevel;
-
-	private int topAttack;
-	private int bottomAttack;
-
-	private int topDefense;
-	private int bottomDefense;
+	private string enemyType1;
+    private string enemyType2;
+    private string playerType1;
+    private string playerType2;
 
 	private dmgMult playerDamageMultiplier;
 	private dmgMult enemyDamageMultiplier;
+    private GenerateAttacks genAttacks;
 
-	// Use this for initialization
-	void Start () {
+    private bool isPlayer;
+    private string attack_name;
+
+    public Text playerAttack1Text;
+    public Text playerAttack2Text;
+    public Text playerAttack3Text;
+    public Text playerAttack4Text;
+
+    // Use this for initialization
+    void Start () {
 		enemyStats = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
 		playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		getAttack(); //To be optimized later
 	}
 
-	private void getAttack(){
-		frontAttack1 = enemyStats.Attack_1_Name;
-		frontAttack2 = enemyStats.Attack_2_Name;
-		frontAttack3 = enemyStats.Attack_3_Name;
-		frontAttack4 = enemyStats.Attack_4_Name;
+	private void getPokemonAttacks(){
+        if(enemyAttack1 != enemyStats.Attack_1_Name)
+		    enemyAttack1 = enemyStats.Attack_1_Name;
+		if(enemyAttack2 != enemyStats.Attack_2_Name)
+            enemyAttack2 = enemyStats.Attack_2_Name;
+        if(enemyAttack3 != enemyStats.Attack_3_Name)
+            enemyAttack3 = enemyStats.Attack_3_Name;
+        if(enemyAttack4 != enemyStats.Attack_4_Name)
+            enemyAttack3 = enemyStats.Attack_3_Name;
 
-		backAttack1 = playerStats.Attack_1_Name;
-		backAttack2 = playerStats.Attack_2_Name;
-		backAttack3 = playerStats.Attack_3_Name;
-		backAttack4 = playerStats.Attack_4_Name;
-	}
-
-	private void getLevel(){
-		topLevel = enemyStats.Level;
-		bottomLevel = playerStats.Level;
-	}
-
-	private void getAttack(string type){
-		if(type == "Normal"){
-			topAttack = enemyStats.Attack;
-			bottomAttack = playerStats.Attack;
-		}else{
-			topAttack = enemyStats.Special_Attack;
-			bottomAttack = playerStats.Special_Attack;
-		}
-	}
-
-	private void getDefense(string type){
-		if(type == "Normal"){
-			topDefense = enemyStats.Defense;
-			bottomDefense = playerStats.Defense;
-		}else{
-			topDefense = enemyStats.Special_Defense;
-			bottomDefense = playerStats.Special_Defense;
-		}
-	}
+        if (genAttacks.attackDatabaseCompiled)
+        {
+            playerAttack1 = genAttacks.playerAttackName[0];
+            playerAttack2 = genAttacks.playerAttackName[1];
+            playerAttack3 = genAttacks.playerAttackName[2];
+            playerAttack4 = genAttacks.playerAttackName[3];
+        }
+    }
 
 	private void getPokemonTypes(){
-        topType1 = playerStats.Type1;
-        topType2 = playerStats.Type2;
+        enemyType1 = playerStats.Type1;
+        enemyType2 = playerStats.Type2;
 
-        bottomType1 = enemyStats.Type1;
-        bottomType2 = enemyStats.Type2;
+        playerType1 = enemyStats.Type1;
+        playerType2 = enemyStats.Type2;
 	}
 
-	private int rndNum(int n){
-		return Random.Range(0,n);
-	}
+    public void isPlayer_Button(bool p)
+    {
+        isPlayer = p;
+    }
 
-	private int damage(){
-		return 0;
-	}
+    public void get_attack_name(int index)
+    {
+        getPokemonAttacks();
+        if (isPlayer) {
+            if (index == 1)
+            {
+                attack_name = playerAttack1;
+            }
+            if(index == 2)
+            {
+                attack_name = playerAttack2;
+            }
+            if(index == 3)
+            {
+                attack_name = playerAttack3;
+            }
+            if( index == 4)
+            {
+                attack_name = playerAttack4;
+            }
+        }
+        else
+        {
+            if (index == 1)
+            {
+                attack_name = enemyAttack1;
+            }
+            if (index == 2)
+            {
+                attack_name = enemyAttack2;
+            }
+            if (index == 3)
+            {
+                attack_name = enemyAttack3;
+            }
+            if (index == 4)
+            {
+                attack_name = enemyAttack4;
+            }
+        }
+    }
 
 	//This script should calculate the damage for every attack along with the probability of a pokemon getting a status
 	//Buff or debuff
-	public void calculateDamage(string name, bool isPlayer){
-
-		
+	public void calculateDamage(){
+        string name = attack_name;
+        Debug.Log("Attack Damage for " + name + " to be calculated");
 		//Modifier = STAB * Type * Critical * other * Random.Range(.85f,1f);
         int attack_index = getAttackListIndex(name);
         string attackType = attacks.attackList[attack_index].type;
 
-        float damage;
+        float final_damage;
 
         float level_mod = levelModifier(isPlayer);                  //Damage = (( 2 * level + 10)/250)
-        float att_def = attack_div_defense(attackType, isPlayer);   //Damage *= (attack/defense)
+        float att_def = attack_div_defense(attack_index, isPlayer);   //Damage *= (attack/defense)
         float base_power = baseAttackPower(attack_index);           //Damage *= Base + 2
 
-        damage = level_mod * att_def;
-        damage *= base_power;            
-        damage += 2;
+        final_damage = level_mod * att_def;
+        final_damage *= base_power;            
+        final_damage += 2;
 
         float damage_mod = modifier(attack_index, attackType, isPlayer);
 
-        damage *= damage_mod;
+        final_damage *= damage_mod;
 
-        switch (name){
-		    case "Absorb":
-                    bool stab = isStab(attackType, isPlayer);
-				    break;
-		}
+        Debug.Log("prediceted damage: " + final_damage);
 	}
 
     private float modifier(int index, string attackType, bool isPlayer)
@@ -150,7 +166,7 @@ public class AttackDamageCalc : MonoBehaviour {
             stab = 1f;
         }
 
-        float typeMultiplier = getTypeMultiplier(index, attackType, isPlayer);
+        float typeMultiplier = getTypeMultiplier(attackType, isPlayer);
         float critical = 1f;
         //Critical
 
@@ -168,30 +184,31 @@ public class AttackDamageCalc : MonoBehaviour {
         float modifier;
         if (isPlayer)
         {
-            level = bottomLevel;
+            level = playerStats.Level;
         }
         else
         {
-            level = topLevel;
+            level = enemyStats.Level;
         }
 
         modifier = 2 * level + 10;
         modifier /= 250f;
 
+        Debug.Log("Level modifier" + modifier);
         return modifier;
 
     }
 
-    private float attack_div_defense(string attackType, bool isPlayer)
+    private float attack_div_defense(int attack_index, bool isPlayer)
     {
         float modifier;
 
-
+        float attack_mod = 0;
+        float defense_mod = 0;
+        string attackType = attacks.attackList[attack_index].cat;
+        Debug.Log("attack type for attack/defense: " + attackType);
         if (attackType != attacks.status)
         {
-            float attack_mod = 0;
-            float defense_mod = 0;
-
             if (attackType == attacks.special)                  //we are calculating a special attack
             {
                 if (isPlayer)                                   //the player is using a special attack
@@ -225,10 +242,15 @@ public class AttackDamageCalc : MonoBehaviour {
         {
             modifier = 0;
         }
-
+        Debug.Log("Attack: " + attack_mod);
+        Debug.Log("Defense: " + defense_mod);
+        Debug.Log("Attack/Defense = " + modifier);
         return modifier;
     }
 
+    /// <summary>
+    /// Takes the index or location of the pokemon in the attack list so we can fetch the base attack power for that attack
+    /// </summary>
     private float baseAttackPower(int index)
     {
         float base_damage = 0;
@@ -236,10 +258,14 @@ public class AttackDamageCalc : MonoBehaviour {
         return base_damage;
     }
 
+    /// <summary>
+    ///  checks if the current attack is a STAB type attack or same type attack
+    /// </summary>
     private bool isStab(string aType, bool isPlayer) 
     {
+        getPokemonTypes();
         if (isPlayer) {
-            if (aType == bottomType1 || aType == bottomType2)
+            if (aType == playerType1 || aType == playerType2)
             {
                 return true;
             }
@@ -250,7 +276,7 @@ public class AttackDamageCalc : MonoBehaviour {
         }
         else
         {
-            if(aType == topType1 || aType == topType2)
+            if(aType == enemyType1 || aType == enemyType2)
             {
                 return true;
             }
@@ -261,40 +287,50 @@ public class AttackDamageCalc : MonoBehaviour {
         }
     }
 
-    private int getAttackListIndex(string n)
+    /// <summary>
+    /// Gets the index of the pokemon in the attack list so we can use this index later rather than having to get it multiple times
+    /// </summary>
+    private int getAttackListIndex(string name)
     {
         for(int i = 0; i < attacks.attackList.Count; i++)
         {
-            if (n == attacks.attackList[i].name)
+            if (name == attacks.attackList[i].name)
                 return i;
         }
-        Debug.Log("No Attack with name " + n + " found");
+        Debug.Log("No Attack with name " + name + " found");
         return 0;
     }
 
-    private float getTypeMultiplier(int index, string attackType, bool isPlayer)
+    private float getTypeMultiplier(string attackType, bool isPlayer)
     {
         float modifier = 0f;
+        
         if (isPlayer)
         {
-            if(enemyStats.name == damage_mult.master_list[index].name)
+            int index = enemyStats.PokemonID - 1;
+            if (enemyStats.PokemonName == damage_mult.master_list[index].name)
             {
                 modifier = fetchAttackTypeIndex(attackType, index);
             }
             else
             {
                 Debug.Log("name did not match when searching for multiplier");
+                Debug.Log("searched for " + enemyStats.PokemonName);
+                Debug.Log("found " + damage_mult.master_list[index].name);
             }
         }
         else
         {
-            if(playerStats.name == damage_mult.master_list[index].name)
+            int index = playerStats.PokemonID - 1;
+            if (playerStats.PokemonName == damage_mult.master_list[index].name)
             {
                 modifier = fetchAttackTypeIndex(attackType, index);
             }
             else
             {
                 Debug.Log("name did not match when searching for multiplier");
+                Debug.Log("searched for " + enemyStats.PokemonName);
+                Debug.Log("found " + damage_mult.master_list[index].name);
             }
         }
         Debug.Log("Type modifier for attacs is: " + modifier);
@@ -306,7 +342,10 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     private float fetchAttackTypeIndex(string attackType, int index)
     {
-        float modifier = 0f; 
+        float modifier = 0f;
+        //Debug.Log("Pokemon dmg mult modifier for normal " + damage_mult.master_list[index].damage.normal);
+        //Debug.Log("dmg mult attack type" + attackType);
+        attackType = attackType.ToLower();
         switch (attackType)
         {
             case "normal":
@@ -366,5 +405,6 @@ public class AttackDamageCalc : MonoBehaviour {
         }
         return modifier;
     }
+
 
 }

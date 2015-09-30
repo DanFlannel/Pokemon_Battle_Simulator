@@ -186,7 +186,7 @@ public class PokemonDamageMultipliers : MonoBehaviour {
 		master_list.Add(new pokemon_dmg_multipliers("Tentacool", water_poison));
 		master_list.Add(new pokemon_dmg_multipliers("Tentacruel", water_poison));
 		master_list.Add(new pokemon_dmg_multipliers("Geodude", rock_ground));
-		master_list.Add(new pokemon_dmg_multipliers("Gravler", rock_ground));
+		master_list.Add(new pokemon_dmg_multipliers("Graveler", rock_ground));
 		master_list.Add(new pokemon_dmg_multipliers("Golem", rock_ground));
 		master_list.Add(new pokemon_dmg_multipliers("Ponyta", fire));
 		master_list.Add(new pokemon_dmg_multipliers("Rapidash", fire));
@@ -241,7 +241,7 @@ public class PokemonDamageMultipliers : MonoBehaviour {
 		master_list.Add(new pokemon_dmg_multipliers("Pinsir", bug));
 		master_list.Add(new pokemon_dmg_multipliers("Tauros", normal));
 		master_list.Add(new pokemon_dmg_multipliers("Magikarp", water));
-		master_list.Add(new pokemon_dmg_multipliers("Gyrados", water_flying));
+		master_list.Add(new pokemon_dmg_multipliers("Gyarados", water_flying));
 		master_list.Add(new pokemon_dmg_multipliers("Lapras", water_ice));
 		master_list.Add(new pokemon_dmg_multipliers("Ditto", normal));
 		master_list.Add(new pokemon_dmg_multipliers("Eevee", normal));

@@ -130,9 +130,9 @@ public class GenerateAttacks : MonoBehaviour {
 		for (int i = 0; i < moves; i++){
 			//Debug.Log("attack" + i + ": " + playerAttackList1[randomBackList[i]].attack.name);
 			playerAttackName.Add(playerAttackList1[randomBackList[i]].attack.name);
-			attackDatabaseCompiled = true;
 		}
-	}
+        attackDatabaseCompiled = true;
+    }
 
 	private void genAttackEnemy(){
 
