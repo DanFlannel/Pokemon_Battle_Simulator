@@ -6,10 +6,17 @@ using System.Collections;
 /// </summary>
 public class AttackDamageCalc : MonoBehaviour {
 
+<<<<<<< HEAD
 	private PokemonCreatorBack playerStats;
 	private PokemonCreatorFront enemyStats;
     private PokemonAttacks attacks;
     private PokemonDamageMultipliers pdm;
+=======
+	private PokemonCreatorBack pcb;
+	private PokemonCreatorFront pcf;
+    	private PokemonAttacks attacks;
+	private PokemonDamageMultipliers pdm;
+>>>>>>> origin/master
 
     private string status = "status";
 
@@ -23,10 +30,10 @@ public class AttackDamageCalc : MonoBehaviour {
 	private string backAttack3;
 	private string backAttack4;
 
-    private string topType1;
-    private string topType2;
-    private string bottomType1;
-    private string bottomType2;
+	private string topType1;
+    	private string topType2;
+    	private string bottomType1;
+    	private string bottomType2;
 
 	private int topLevel;
 	private int bottomLevel;
