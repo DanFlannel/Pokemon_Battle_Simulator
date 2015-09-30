@@ -75,9 +75,9 @@ public class PokemonAttacks : MonoBehaviour
 	#endregion
 	
 	#region Easier to clean up for the structure
-	private string physical = "Physical";
-	private string special = "Special";
-	private string status = "Status";
+	public string physical = "Physical";
+	public string special = "Special";
+	public string status = "Status";
 	private string normal = "Normal";
 	private string fighting = "Fighting";
 	private string water = "Water";

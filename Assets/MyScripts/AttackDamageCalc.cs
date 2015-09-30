@@ -6,10 +6,12 @@ using System.Collections;
 /// </summary>
 public class AttackDamageCalc : MonoBehaviour {
 
-	private PokemonCreatorBack pcb;
-	private PokemonCreatorFront pcf;
+	private PokemonCreatorBack playerStats;
+	private PokemonCreatorFront enemyStats;
     private PokemonAttacks attacks;
     private PokemonDamageMultipliers pdm;
+
+    private string status = "status";
 
 	private string frontAttack1;
 	private string frontAttack2;
@@ -40,8 +42,8 @@ public class AttackDamageCalc : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		pcf = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
-		pcb = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
+		enemyStats = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
+		playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         pdm = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
 	}
@@ -52,48 +54,48 @@ public class AttackDamageCalc : MonoBehaviour {
 	}
 
 	private void getAttack(){
-		frontAttack1 = pcf.Attack_1_Name;
-		frontAttack2 = pcf.Attack_2_Name;
-		frontAttack3 = pcf.Attack_3_Name;
-		frontAttack4 = pcf.Attack_4_Name;
+		frontAttack1 = enemyStats.Attack_1_Name;
+		frontAttack2 = enemyStats.Attack_2_Name;
+		frontAttack3 = enemyStats.Attack_3_Name;
+		frontAttack4 = enemyStats.Attack_4_Name;
 
-		backAttack1 = pcb.Attack_1_Name;
-		backAttack2 = pcb.Attack_2_Name;
-		backAttack3 = pcb.Attack_3_Name;
-		backAttack4 = pcb.Attack_4_Name;
+		backAttack1 = playerStats.Attack_1_Name;
+		backAttack2 = playerStats.Attack_2_Name;
+		backAttack3 = playerStats.Attack_3_Name;
+		backAttack4 = playerStats.Attack_4_Name;
 	}
 
 	private void getLevel(){
-		topLevel = pcf.Level;
-		bottomLevel = pcb.Level;
+		topLevel = enemyStats.Level;
+		bottomLevel = playerStats.Level;
 	}
 
 	private void getAttack(string type){
 		if(type == "Normal"){
-			topAttack = pcf.Attack;
-			bottomAttack = pcb.Attack;
+			topAttack = enemyStats.Attack;
+			bottomAttack = playerStats.Attack;
 		}else{
-			topAttack = pcf.Special_Attack;
-			bottomAttack = pcb.Special_Attack;
+			topAttack = enemyStats.Special_Attack;
+			bottomAttack = playerStats.Special_Attack;
 		}
 	}
 
 	private void getDefense(string type){
 		if(type == "Normal"){
-			topDefense = pcf.Defense;
-			bottomDefense = pcb.Defense;
+			topDefense = enemyStats.Defense;
+			bottomDefense = playerStats.Defense;
 		}else{
-			topDefense = pcf.Special_Defense;
-			bottomDefense = pcb.Special_Defense;
+			topDefense = enemyStats.Special_Defense;
+			bottomDefense = playerStats.Special_Defense;
 		}
 	}
 
 	private void getPokemonTypes(){
-        topType1 = pcb.Type1;
-        topType2 = pcb.Type2;
+        topType1 = playerStats.Type1;
+        topType2 = playerStats.Type2;
 
-        bottomType1 = pcf.Type1;
-        bottomType2 = pcf.Type2;
+        bottomType1 = enemyStats.Type1;
+        bottomType2 = enemyStats.Type2;
 	}
 
 	private int rndNum(int n){
@@ -106,38 +108,122 @@ public class AttackDamageCalc : MonoBehaviour {
 
 	//This script should calculate the damage for every attack along with the probability of a pokemon getting a status
 	//Buff or debuff
-	private void calculateDamage(string name, bool isPlayer){
+	public void calculateDamage(string name, bool isPlayer){
 
-		//Damage = (( 2 * level + 10)/250)
-		//Damage *= (attack/defense)
-		//Damage *= Base + 2
+		
 		//Modifier = STAB * Type * Critical * other * Random.Range(.85f,1f);
+        int attack_index = getAttackListIndex(name);
+        string attackType = attacks.attackList[attack_index].type;
 
-		int heal = 0;
-        int index;
+        float damage;
 
-		float levelMod = (2f*topLevel + 10f);
-		levelMod /= 250f;
+        float level_mod = levelModifier(isPlayer);                  //Damage = (( 2 * level + 10)/250)
+        float att_def = attack_div_defense(attackType, isPlayer);   //Damage *= (attack/defense)
+        float base_power = baseAttackPower(attack_index);           //Damage *= Base + 2
 
-        index = getAttackListIndex(name);
+        damage = level_mod * att_def;
+        damage *= base_power;            
+        damage += 2;
 
         switch (name){
 		    case "Absorb":
-                    
-                    string attackType = attacks.attackList[index].type;
                     bool stab = isStab(attackType, isPlayer);
 				    break;
 		}
 	}
 
-    private void modifier()
+    private void modifier(string attackType, bool isPlayer)
     {
         //Modifier = STAB * Type * Critical * other * Random.Range(.85f,1f);
+        float STAB = 1;
+        if(isStab(attackType, isPlayer))
+        {
+            STAB = 1.5f;
+        }
+
+        float rnd = Random.Range(.85f, 1f);
+
+
     }
 
-    private bool isStab(string aType, bool isP) 
+    private float levelModifier(bool isPlayer)
     {
-        if (isP) {
+        //(2 * level + 10)/250
+        float level;
+        float modifier;
+        if (isPlayer)
+        {
+            level = bottomLevel;
+        }
+        else
+        {
+            level = topLevel;
+        }
+
+        modifier = 2 * level + 10;
+        modifier /= 250f;
+
+        return modifier;
+
+    }
+
+    private float attack_div_defense(string attackType, bool isPlayer)
+    {
+        float modifier;
+
+
+        if (attackType != attacks.status)
+        {
+            float attack_mod = 0;
+            float defense_mod = 0;
+
+            if (attackType == attacks.special)                  //we are calculating a special attack
+            {
+                if (isPlayer)                                   //the player is using a special attack
+                {
+                    attack_mod = playerStats.Special_Attack;
+                    defense_mod = enemyStats.Special_Defense;
+                }
+                else                                            //the enemy is using a special attack
+                {
+                    attack_mod = playerStats.Attack;
+                    defense_mod = enemyStats.Defense;
+                }
+            }
+            if(attackType == attacks.physical)                  //we are calculating a physical attack
+            {
+                if (isPlayer)                                   //the player is using a physical attack
+                {
+                    attack_mod = playerStats.Special_Attack;
+                    defense_mod = enemyStats.Special_Defense;
+
+                }
+                else                                            //the enemy is using a physical attack
+                {
+                    attack_mod = enemyStats.Special_Attack;
+                    defense_mod = playerStats.Special_Defense;
+                }
+            }
+            modifier = attack_mod / defense_mod;
+        }
+        else                                                    //it is a status move
+        {
+            modifier = 0;
+        }
+
+        return modifier;
+    }
+
+    private float baseAttackPower(int index)
+    {
+        float base_damage = 0;
+        base_damage = (float)attacks.attackList[index].power;
+        return base_damage;
+    }
+
+    private bool isStab(string aType, bool isPlayer) 
+    {
+        if (isPlayer) {
             if (aType == bottomType1 || aType == bottomType2)
             {
                 return true;
@@ -171,7 +257,7 @@ public class AttackDamageCalc : MonoBehaviour {
         return 0;
     }
 
-    private int getTypeMultiplier(string name)
+    private float getTypeMultiplier(string name)
     {
         return 0;
     }

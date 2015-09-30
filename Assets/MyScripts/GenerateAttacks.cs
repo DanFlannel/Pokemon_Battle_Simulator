@@ -138,5 +138,5 @@ public class GenerateAttacks : MonoBehaviour {
 
 	}
 
-    //TODO: Generate Enemy attacks.
+    //TODO Generate Enemy attacks.
 }
