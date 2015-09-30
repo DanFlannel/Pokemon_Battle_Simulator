@@ -9,7 +9,7 @@ public class AttackDamageCalc : MonoBehaviour {
 	private PokemonCreatorBack playerStats;
 	private PokemonCreatorFront enemyStats;
     private PokemonAttacks attacks;
-    private PokemonDamageMultipliers pdm;
+    private PokemonDamageMultipliers damage_mult;
 
     private string status = "status";
 
@@ -24,9 +24,9 @@ public class AttackDamageCalc : MonoBehaviour {
 	private string backAttack4;
 
 	private string topType1;
-    	private string topType2;
-    	private string bottomType1;
-    	private string bottomType2;
+    private string topType2;
+    private string bottomType1;
+    private string bottomType2;
 
 	private int topLevel;
 	private int bottomLevel;
@@ -45,7 +45,7 @@ public class AttackDamageCalc : MonoBehaviour {
 		enemyStats = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
 		playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
-        pdm = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
+        damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
 	}
 	
 	// Update is called once per frame
@@ -125,6 +125,10 @@ public class AttackDamageCalc : MonoBehaviour {
         damage *= base_power;            
         damage += 2;
 
+        float damage_mod = modifier(attack_index, attackType, isPlayer);
+
+        damage *= damage_mod;
+
         switch (name){
 		    case "Absorb":
                     bool stab = isStab(attackType, isPlayer);
@@ -132,17 +136,28 @@ public class AttackDamageCalc : MonoBehaviour {
 		}
 	}
 
-    private void modifier(string attackType, bool isPlayer)
+    private float modifier(int index, string attackType, bool isPlayer)
     {
         //Modifier = STAB * Type * Critical * other * Random.Range(.85f,1f);
-        float STAB = 1;
+        float modifier;
+        float stab;
         if(isStab(attackType, isPlayer))
         {
-            STAB = 1.5f;
+            stab = 1.5f;
         }
+        else
+        {
+            stab = 1f;
+        }
+
+        float typeMultiplier = getTypeMultiplier(index, attackType, isPlayer);
+        float critical = 1f;
+        //Critical
 
         float rnd = Random.Range(.85f, 1f);
 
+        modifier = stab * typeMultiplier * critical * rnd;
+        return modifier;
 
     }
 
@@ -257,9 +272,99 @@ public class AttackDamageCalc : MonoBehaviour {
         return 0;
     }
 
-    private float getTypeMultiplier(string name)
+    private float getTypeMultiplier(int index, string attackType, bool isPlayer)
     {
-        return 0;
+        float modifier = 0f;
+        if (isPlayer)
+        {
+            if(enemyStats.name == damage_mult.master_list[index].name)
+            {
+                modifier = fetchAttackTypeIndex(attackType, index);
+            }
+            else
+            {
+                Debug.Log("name did not match when searching for multiplier");
+            }
+        }
+        else
+        {
+            if(playerStats.name == damage_mult.master_list[index].name)
+            {
+                modifier = fetchAttackTypeIndex(attackType, index);
+            }
+            else
+            {
+                Debug.Log("name did not match when searching for multiplier");
+            }
+        }
+        Debug.Log("Type modifier for attacs is: " + modifier);
+        return modifier;
+    }
+
+    /// <summary>
+    /// uses the index to get the type multiplier from the master list in the damage multiplier class
+    /// </summary>
+    private float fetchAttackTypeIndex(string attackType, int index)
+    {
+        float modifier = 0f; 
+        switch (attackType)
+        {
+            case "normal":
+                modifier = damage_mult.master_list[index].damage.normal;
+                break;
+            case "fighting":
+                modifier = damage_mult.master_list[index].damage.fighting;
+                break;
+            case "flying":
+                modifier = damage_mult.master_list[index].damage.flying;
+                break;
+            case "poison":
+                modifier = damage_mult.master_list[index].damage.poison;
+                break;
+            case "ground":
+                modifier = damage_mult.master_list[index].damage.ground;
+                break;
+            case "rock":
+                modifier = damage_mult.master_list[index].damage.rock;
+                break;
+            case "bug":
+                modifier = damage_mult.master_list[index].damage.bug;
+                break;
+            case "ghost":
+                modifier = damage_mult.master_list[index].damage.ghost;
+                break;
+            case "steel":
+                modifier = damage_mult.master_list[index].damage.steel;
+                break;
+            case "fire":
+                modifier = damage_mult.master_list[index].damage.fire;
+                break;
+            case "water":
+                modifier = damage_mult.master_list[index].damage.water;
+                break;
+            case "grass":
+                modifier = damage_mult.master_list[index].damage.grass;
+                break;
+            case "electric":
+                modifier = damage_mult.master_list[index].damage.electric;
+                break;
+            case "psychic":
+                modifier = damage_mult.master_list[index].damage.psychic;
+                break;
+            case "ice":
+                modifier = damage_mult.master_list[index].damage.ice;
+                break;
+            case "dragon":
+                modifier = damage_mult.master_list[index].damage.dragon;
+                break;
+            case "dark":
+                modifier = damage_mult.master_list[index].damage.dark;
+                break;
+            case "fairy":
+                modifier = damage_mult.master_list[index].damage.fairy;
+                break;
+        }
+        return modifier;
     }
 
 }
