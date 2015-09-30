@@ -7,7 +7,8 @@ using UnityEngine.UI;
 /// </summary>
 public class AttackDamageCalc : MonoBehaviour {
 
-	private PokemonCreatorBack playerStats;
+    #region Declared Variables
+    private PokemonCreatorBack playerStats;
 	private PokemonCreatorFront enemyStats;
     private PokemonAttacks attacks;
     private PokemonDamageMultipliers damage_mult;
@@ -36,11 +37,7 @@ public class AttackDamageCalc : MonoBehaviour {
 
     private bool isPlayer;
     private string attack_name;
-
-    public Text playerAttack1Text;
-    public Text playerAttack2Text;
-    public Text playerAttack3Text;
-    public Text playerAttack4Text;
+    #endregion
 
     // Use this for initialization
     void Start () {
@@ -53,6 +50,7 @@ public class AttackDamageCalc : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 	}
 
 	private void getPokemonAttacks(){
@@ -74,6 +72,9 @@ public class AttackDamageCalc : MonoBehaviour {
         }
     }
 
+    /// <summary>
+    /// Gets the pokemon Types for the Type modifier in the damage calculation
+    /// </summary>
 	private void getPokemonTypes(){
         enemyType1 = playerStats.Type1;
         enemyType2 = playerStats.Type2;
@@ -82,11 +83,17 @@ public class AttackDamageCalc : MonoBehaviour {
         playerType2 = enemyStats.Type2;
 	}
 
+    /// <summary>
+    /// Button method, makes sure that if the button was clicked, the isPlayer boolean is true
+    /// </summary>
     public void isPlayer_Button(bool p)
     {
         isPlayer = p;
     }
 
+    /// <summary>
+    /// Button method, tells this script which attack has been called based off an integer between 1 and 4
+    /// </summary>
     public void get_attack_name(int index)
     {
         getPokemonAttacks();
@@ -129,36 +136,32 @@ public class AttackDamageCalc : MonoBehaviour {
         }
     }
 
-	//This script should calculate the damage for every attack along with the probability of a pokemon getting a status
-	//Buff or debuff
+	/// <summary>
+    /// This method calculates the damage that each attack will do based off the serebii.net damage formula
+    /// </summary>
 	public void calculateDamage(){
-        string name = attack_name;
-        Debug.Log("Attack Damage for " + name + " to be calculated");
-
+        //Setup for the methods that will get different aspects of the damage calculation
         int attack_index = getAttackListIndex(name);
         string attackType = attacks.attackList[attack_index].type;
         string attackCat = attacks.attackList[attack_index].cat;
-        set_attack_and_def(attack_index, isPlayer);
 
-        float final_damage;
+        //Setup for the damage calculations
+        set_attack_and_def(attack_index, isPlayer, attackCat);
         float level_mod = levelModifier(isPlayer);
-        //Debug.Log("level mod: " + level_mod);
-
         float att_div_defense = baseAttackPower(attack_index) / defense_mod;
-        //Debug.Log("attack/defense: " + att_div_defense);
+        float damage_mod = modifier(attack_index, attackType, isPlayer);
 
+        //Damage Calculations here
+        float final_damage;
         final_damage = level_mod;
         final_damage *= attack_mod;
         final_damage *= att_div_defense;
         final_damage /= 50;
         final_damage += 2;
-
-        float damage_mod = modifier(attack_index, attackType, isPlayer);
-        //Debug.Log("final modifier = " + damage_mod);
-
         final_damage *= damage_mod;
         final_damage = Mathf.Round(final_damage);
         Debug.Log("prediceted damage = " + final_damage);
+
 	}
 
     /// <summary>
@@ -177,14 +180,12 @@ public class AttackDamageCalc : MonoBehaviour {
             stab = 1f;
         }
 
-        float typeMultiplier = getTypeMultiplier(attackType, isPlayer);
+        //TODO: Calculate critical chance and apply it
         float critical = 1f;
-        //Critical
-
         float rnd = Random.Range(.85f, 1f);
-
         float base_attack = baseAttackPower(index);
-        
+        float typeMultiplier = getTypeMultiplier(attackType, isPlayer);
+
         modifier = stab * typeMultiplier * critical * rnd;
         Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
         return modifier;
@@ -193,11 +194,11 @@ public class AttackDamageCalc : MonoBehaviour {
 
 
     /// <summary>
-    /// Sets the level multiplier (2 * level + 10)/250 
+    /// Sets the level multiplier (2 * level / 5) + 2
     /// </summary>
     private float levelModifier(bool isPlayer)
     {
-        //(2 * level + 10 / 250
+        //(2 * level / 5) + 2
         float level;
         float modifier;
         if (isPlayer)
@@ -218,11 +219,10 @@ public class AttackDamageCalc : MonoBehaviour {
     /// <summary>
     ///  Sets the player and enemy attack and defense based on the attack category (physical, status, special)
     /// </summary>
-    private void set_attack_and_def(int attack_index, bool isPlayer)//
+    private void set_attack_and_def(int attack_index, bool isPlayer, string attackCat)//
     {
         float modifier;
-        string attackCat = attacks.attackList[attack_index].cat;
-        Debug.Log("attack type for attack/defense: " + attackCat);
+        //Debug.Log("attack type for attack/defense: " + attackCat);
         if (attackCat != attacks.status)
         {
             if (attackCat == attacks.special)                  //we are calculating a special attack
@@ -360,8 +360,6 @@ public class AttackDamageCalc : MonoBehaviour {
     private float fetchAttackTypeIndex(string attackType, int index)
     {
         float modifier = 0f;
-        //Debug.Log("Pokemon dmg mult modifier for normal " + damage_mult.master_list[index].damage.normal);
-        //Debug.Log("dmg mult attack type" + attackType);
         attackType = attackType.ToLower();
         switch (attackType)
         {

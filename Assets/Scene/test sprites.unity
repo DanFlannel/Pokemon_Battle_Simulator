@@ -359,7 +359,7 @@ GameObject:
   - 114: {fileID: 204420189}
   - 114: {fileID: 204420187}
   m_Layer: 0
-  m_Name: Pokemon Top Right
+  m_Name: Enemy Pokemon
   m_TagString: PTR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,10 +425,6 @@ MonoBehaviour:
   CanEvolve: 0
   Type1: 
   Type2: 
-  Attack_1_Name: 
-  Attack_2_Name: 
-  Attack_3_Name: 
-  Attack_4_Name: 
   curHp: 0
   maxHP: 0
 --- !u!1 &251324656
@@ -2139,7 +2135,7 @@ GameObject:
   - 114: {fileID: 1398198467}
   - 114: {fileID: 1398198468}
   m_Layer: 0
-  m_Name: Pokemon Bottom Left
+  m_Name: Player Pokemon
   m_TagString: PBL
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2174,10 +2170,6 @@ MonoBehaviour:
   CanEvolve: 0
   Type1: 
   Type2: 
-  Attack_1_Name: 
-  Attack_2_Name: 
-  Attack_3_Name: 
-  Attack_4_Name: 
   curHp: 0
   maxHP: 0
 --- !u!114 &1398198468
