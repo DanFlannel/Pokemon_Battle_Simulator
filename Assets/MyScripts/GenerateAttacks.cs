@@ -53,7 +53,7 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void checkInitalGen(){
 		if(pcb.PokemonName != playerPokemonName1){
-			Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
+			//Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
 			genAttacksPlayer();
 		}
 	}
@@ -105,8 +105,8 @@ public class GenerateAttacks : MonoBehaviour {
 			playerAttackList1 = attackData.masterGetAttacks(id);
             lengthOfList = playerAttackList1.Count;
 
-            Debug.Log("length of player attack lis: " + lengthOfList);
-            Debug.Log("Pokemon ID" + pcb.PokemonID);
+            //Debug.Log("length of player attack lis: " + lengthOfList);
+            //Debug.Log("Pokemon ID" + pcb.PokemonID);
 
             generateRandomList(randomBackList, lengthOfList);
             //Debug.Log(attackData.masterGetName(id));

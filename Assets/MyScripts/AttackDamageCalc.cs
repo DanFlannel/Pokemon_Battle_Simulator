@@ -144,19 +144,21 @@ public class AttackDamageCalc : MonoBehaviour {
         float level_mod = levelModifier(isPlayer);
         //Debug.Log("level mod: " + level_mod);
 
-        float att_div_defense = attack_mod / defense_mod;
+        float att_div_defense = baseAttackPower(attack_index) / defense_mod;
         //Debug.Log("attack/defense: " + att_div_defense);
 
         final_damage = level_mod;
+        final_damage *= attack_mod;
         final_damage *= att_div_defense;
+        final_damage /= 50;
         final_damage += 2;
 
         float damage_mod = modifier(attack_index, attackType, isPlayer);
         //Debug.Log("final modifier = " + damage_mod);
 
         final_damage *= damage_mod;
-
-        Debug.Log("prediceted damage = " + level_mod + " x " + att_div_defense + " x " + damage_mod + " = " + final_damage);
+        final_damage = Mathf.Round(final_damage);
+        Debug.Log("prediceted damage = " + final_damage);
 	}
 
     /// <summary>
@@ -183,8 +185,8 @@ public class AttackDamageCalc : MonoBehaviour {
 
         float base_attack = baseAttackPower(index);
         
-        modifier = base_attack * stab * typeMultiplier * critical * rnd;
-        Debug.Log("modifier = Base: " + base_attack + "Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
+        modifier = stab * typeMultiplier * critical * rnd;
+        Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
         return modifier;
 
     }
@@ -208,8 +210,8 @@ public class AttackDamageCalc : MonoBehaviour {
         }
 
         modifier = 2 * level;
-        modifier += 10;
-        modifier /= 250;;
+        modifier /= 5;
+        modifier += 2;;
         return modifier;
     }
 
