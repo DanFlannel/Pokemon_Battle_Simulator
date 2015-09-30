@@ -24,11 +24,6 @@ public class PokemonCreatorFront : MonoBehaviour {
 	public string Type1;
 	public string Type2;
 	
-	public string Attack_1_Name;
-	public string Attack_2_Name;
-	public string Attack_3_Name;
-	public string Attack_4_Name;
-	
 	private PokemonLibrary pl;
 	private PokemonAttacks pa;
 	private AnimatedGifDrawerFront gif;

@@ -31,6 +31,9 @@ public class AttackDamageCalc : MonoBehaviour {
 	private dmgMult enemyDamageMultiplier;
     private GenerateAttacks genAttacks;
 
+    private float attack_mod;
+    private float defense_mod;
+
     private bool isPlayer;
     private string attack_name;
 
@@ -53,14 +56,14 @@ public class AttackDamageCalc : MonoBehaviour {
 	}
 
 	private void getPokemonAttacks(){
-        if(enemyAttack1 != enemyStats.Attack_1_Name)
+        /*if(enemyAttack1 != enemyStats.Attack_1_Name)
 		    enemyAttack1 = enemyStats.Attack_1_Name;
 		if(enemyAttack2 != enemyStats.Attack_2_Name)
             enemyAttack2 = enemyStats.Attack_2_Name;
         if(enemyAttack3 != enemyStats.Attack_3_Name)
             enemyAttack3 = enemyStats.Attack_3_Name;
         if(enemyAttack4 != enemyStats.Attack_4_Name)
-            enemyAttack3 = enemyStats.Attack_3_Name;
+            enemyAttack3 = enemyStats.Attack_3_Name;*/
 
         if (genAttacks.attackDatabaseCompiled)
         {
@@ -131,30 +134,36 @@ public class AttackDamageCalc : MonoBehaviour {
 	public void calculateDamage(){
         string name = attack_name;
         Debug.Log("Attack Damage for " + name + " to be calculated");
-		//Modifier = STAB * Type * Critical * other * Random.Range(.85f,1f);
+
         int attack_index = getAttackListIndex(name);
         string attackType = attacks.attackList[attack_index].type;
+        string attackCat = attacks.attackList[attack_index].cat;
+        set_attack_and_def(attack_index, isPlayer);
 
         float final_damage;
+        float level_mod = levelModifier(isPlayer);
+        //Debug.Log("level mod: " + level_mod);
 
-        float level_mod = levelModifier(isPlayer);                  //Damage = (( 2 * level + 10)/250)
-        float att_def = attack_div_defense(attack_index, isPlayer);   //Damage *= (attack/defense)
-        float base_power = baseAttackPower(attack_index);           //Damage *= Base + 2
+        float att_div_defense = attack_mod / defense_mod;
+        //Debug.Log("attack/defense: " + att_div_defense);
 
-        final_damage = level_mod * att_def;
-        final_damage *= base_power;            
+        final_damage = level_mod;
+        final_damage *= att_div_defense;
         final_damage += 2;
 
         float damage_mod = modifier(attack_index, attackType, isPlayer);
+        //Debug.Log("final modifier = " + damage_mod);
 
         final_damage *= damage_mod;
 
-        Debug.Log("prediceted damage: " + final_damage);
+        Debug.Log("prediceted damage = " + level_mod + " x " + att_div_defense + " x " + damage_mod + " = " + final_damage);
 	}
 
+    /// <summary>
+    /// Sets the multiplier Base Power * STAB * Type modifier * Critical * other * randomNum(.85,1)
+    /// </summary>
     private float modifier(int index, string attackType, bool isPlayer)
     {
-        //Modifier = STAB * Type * Critical * other * Random.Range(.85f,1f);
         float modifier;
         float stab;
         if(isStab(attackType, isPlayer))
@@ -172,14 +181,21 @@ public class AttackDamageCalc : MonoBehaviour {
 
         float rnd = Random.Range(.85f, 1f);
 
-        modifier = stab * typeMultiplier * critical * rnd;
+        float base_attack = baseAttackPower(index);
+        
+        modifier = base_attack * stab * typeMultiplier * critical * rnd;
+        Debug.Log("modifier = Base: " + base_attack + "Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
         return modifier;
 
     }
 
+
+    /// <summary>
+    /// Sets the level multiplier (2 * level + 10)/250 
+    /// </summary>
     private float levelModifier(bool isPlayer)
     {
-        //(2 * level + 10)/250
+        //(2 * level + 10 / 250
         float level;
         float modifier;
         if (isPlayer)
@@ -191,25 +207,23 @@ public class AttackDamageCalc : MonoBehaviour {
             level = enemyStats.Level;
         }
 
-        modifier = 2 * level + 10;
-        modifier /= 250f;
-
-        Debug.Log("Level modifier" + modifier);
+        modifier = 2 * level;
+        modifier += 10;
+        modifier /= 250;;
         return modifier;
-
     }
 
-    private float attack_div_defense(int attack_index, bool isPlayer)
+    /// <summary>
+    ///  Sets the player and enemy attack and defense based on the attack category (physical, status, special)
+    /// </summary>
+    private void set_attack_and_def(int attack_index, bool isPlayer)//
     {
         float modifier;
-
-        float attack_mod = 0;
-        float defense_mod = 0;
-        string attackType = attacks.attackList[attack_index].cat;
-        Debug.Log("attack type for attack/defense: " + attackType);
-        if (attackType != attacks.status)
+        string attackCat = attacks.attackList[attack_index].cat;
+        Debug.Log("attack type for attack/defense: " + attackCat);
+        if (attackCat != attacks.status)
         {
-            if (attackType == attacks.special)                  //we are calculating a special attack
+            if (attackCat == attacks.special)                  //we are calculating a special attack
             {
                 if (isPlayer)                                   //the player is using a special attack
                 {
@@ -218,22 +232,21 @@ public class AttackDamageCalc : MonoBehaviour {
                 }
                 else                                            //the enemy is using a special attack
                 {
-                    attack_mod = playerStats.Attack;
-                    defense_mod = enemyStats.Defense;
+                    attack_mod = enemyStats.Special_Attack;
+                    defense_mod = playerStats.Special_Defense;
                 }
             }
-            if(attackType == attacks.physical)                  //we are calculating a physical attack
+            if(attackCat == attacks.physical)                  //we are calculating a physical attack
             {
                 if (isPlayer)                                   //the player is using a physical attack
                 {
-                    attack_mod = playerStats.Special_Attack;
-                    defense_mod = enemyStats.Special_Defense;
-
+                    attack_mod = playerStats.Attack;
+                    defense_mod = enemyStats.Defense;
                 }
                 else                                            //the enemy is using a physical attack
                 {
-                    attack_mod = enemyStats.Special_Attack;
-                    defense_mod = playerStats.Special_Defense;
+                    attack_mod = enemyStats.Attack;
+                    defense_mod = playerStats.Defense;
                 }
             }
             modifier = attack_mod / defense_mod;
@@ -242,10 +255,9 @@ public class AttackDamageCalc : MonoBehaviour {
         {
             modifier = 0;
         }
-        Debug.Log("Attack: " + attack_mod);
-        Debug.Log("Defense: " + defense_mod);
-        Debug.Log("Attack/Defense = " + modifier);
-        return modifier;
+        //Debug.Log("Attack: " + attack_mod);
+        //Debug.Log("Defense: " + defense_mod);
+        //Debug.Log("Attack/Defense = " + modifier);
     }
 
     /// <summary>
@@ -301,6 +313,9 @@ public class AttackDamageCalc : MonoBehaviour {
         return 0;
     }
 
+    /// <summary>
+    ///  Returns the type modifier for the attack based off of the pokemon's damange multiplier for that specific type of attack 
+    /// </summary>
     private float getTypeMultiplier(string attackType, bool isPlayer)
     {
         float modifier = 0f;
@@ -333,7 +348,7 @@ public class AttackDamageCalc : MonoBehaviour {
                 Debug.Log("found " + damage_mult.master_list[index].name);
             }
         }
-        Debug.Log("Type modifier for attacs is: " + modifier);
+        //Debug.Log("Type modifier for attacs is: " + modifier);
         return modifier;
     }
 
