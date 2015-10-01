@@ -421,5 +421,43 @@ public class AttackDamageCalc : MonoBehaviour {
         return modifier;
     }
 
+    //TODO Generate Special Attacks
+    private bool stunProbability(float prob, bool isPlayer)
+    {
+        bool stun = false;
+        prob /= 100;
+        return stun;
+    }
 
+    private string stunType(string name)
+    {
+        return name;
+    }
+
+    private void stunEnemy(string name, bool isPlayer)
+    {
+        name = name.ToLower();
+        string flinch = "flinched";
+        string frozen = "frozen";
+        string paralized = "paralized";
+        switch (name)
+        {
+            case "bite":
+                stunProbability(30, isPlayer);
+                stunType(flinch);
+                break;
+            case "blizzard":
+                stunProbability(10, isPlayer);
+                stunType(frozen);
+                break;
+            case "body slam":
+                stunProbability(30, isPlayer);
+                stunType(paralized);
+                break;
+            case "bone club":
+                stunProbability(10, isPlayer);
+                stunType(flinch);
+                break;
+        }
+    }
 }

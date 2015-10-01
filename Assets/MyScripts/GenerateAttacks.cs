@@ -134,9 +134,10 @@ public class GenerateAttacks : MonoBehaviour {
         attackDatabaseCompiled = true;
     }
 
-	private void genAttackEnemy(){
-
-	}
-
     //TODO Generate Enemy attacks.
+    private void generateEnemyAttacks()
+    {
+
+    }
+
 }
