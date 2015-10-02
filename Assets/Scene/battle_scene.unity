@@ -3803,7 +3803,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a27ba681c03f684dbafc88749580ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAttack1Text: {fileID: 0}
-  playerAttack2Text: {fileID: 0}
-  playerAttack3Text: {fileID: 0}
-  playerAttack4Text: {fileID: 0}

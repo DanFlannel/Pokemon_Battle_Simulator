@@ -141,7 +141,8 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
 	public void calculateDamage(){
         //Setup for the methods that will get different aspects of the damage calculation
-        int attack_index = getAttackListIndex(name);
+        int attack_index = getAttackListIndex(attack_name);
+        //Debug.Log("attack index: " + attack_index);
         string attackType = attacks.attackList[attack_index].type;
         string attackCat = attacks.attackList[attack_index].cat;
 
@@ -183,7 +184,6 @@ public class AttackDamageCalc : MonoBehaviour {
         //TODO: Calculate critical chance and apply it
         float critical = 1f;
         float rnd = Random.Range(.85f, 1f);
-        float base_attack = baseAttackPower(index);
         float typeMultiplier = getTypeMultiplier(attackType, isPlayer);
 
         modifier = stab * typeMultiplier * critical * rnd;
@@ -212,7 +212,9 @@ public class AttackDamageCalc : MonoBehaviour {
 
         modifier = 2 * level;
         modifier /= 5;
-        modifier += 2;;
+        modifier += 2;
+
+        Debug.Log("Level modifier: " + modifier);
         return modifier;
     }
 
@@ -269,6 +271,7 @@ public class AttackDamageCalc : MonoBehaviour {
     {
         float base_damage = 0;
         base_damage = (float)attacks.attackList[index].power;
+        Debug.Log("Base Damage: " + base_damage);
         return base_damage;
     }
 
@@ -306,10 +309,14 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     private int getAttackListIndex(string name)
     {
-        for(int i = 0; i < attacks.attackList.Count; i++)
+        //Debug.Log("called Attack List Index");
+        for (int i = 0; i < attacks.attackList.Count; i++)
         {
-            if (name == attacks.attackList[i].name)
+            if (name.ToLower() == attacks.attackList[i].name.ToLower())
+            {
+                //Debug.Log("Calculating Damage for " + name);
                 return i;
+            }
         }
         Debug.Log("No Attack with name " + name + " found");
         return 0;
