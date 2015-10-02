@@ -103,5 +103,10 @@ public class GUIScript : MonoBehaviour {
 		generatedAttacks = true;
 	}
 
+    public void main_menu()
+    {
+        Application.LoadLevel("main menu");
+    }
+
 
 }

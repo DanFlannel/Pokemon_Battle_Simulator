@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// This class converts the images in the resource folder to a readable GIF by Unity
@@ -27,19 +28,18 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 	
 	void OnGUI ()
 	{
-		//Debug.Log("Width: " + gifFrames[0].width);
-		//Debug.Log("Height: " + gifFrames[0].height);
-		//GUI.DrawTexture (new Rect (drawPosition.x, drawPosition.y, 200/*gifFrames [0].width*/, 200/*gifFrames [0].height*/), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
+        //GUI.DrawTexture (new Rect (drawPosition.x, drawPosition.y, 200/*gifFrames [0].width*/, 200/*gifFrames [0].height*/), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
 		//GUI.DrawTexture (new Rect (drawPosition.x, drawPosition.y, (int)((float)gifFrames [0].width * 1.5f),(int)((float)gifFrames [0].height), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
-		height = (float)Screen.height - 100f * percentage;
-		GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
-	}
+		//height = (float)Screen.height - 100f * percentage;
+        //GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
+        GUI.DrawTexture (new Rect (positionPlaceHolder.x/1.5f, positionPlaceHolder.y/1.5f, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+    }
 	public void loadImage ()
 	{
-			loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Back/" + pName + ".gif";
+		loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Back/" + pName + ".gif";
 
 		//Debug.Log (loadingGifPath);
-		var gifImage = Image.FromFile (loadingGifPath);
+		var gifImage = System.Drawing.Image.FromFile (loadingGifPath);
 		//var gifImage = (Image)Resources.Load ("/Sprites/squirtle");
 		var dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
 		int frameCount = gifImage.GetFrameCount (dimension);
