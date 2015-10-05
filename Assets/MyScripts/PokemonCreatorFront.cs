@@ -28,6 +28,7 @@ public class PokemonCreatorFront : MonoBehaviour {
 	public int Special_Defense;
     public int spDefense_stage = 0;
 	public int Speed;
+    public int speed_stage = 0;
 	
 	public string Type1;
 	public string Type2;
@@ -130,6 +131,11 @@ public class PokemonCreatorFront : MonoBehaviour {
                 float spdBonus = (float)baseSpecial_Defense * levelCalc;
                 Special_Defense = (int)spdBonus + levelBonus;
                 Special_Defense = (int)(Special_Defense * multiplier);
+                break;
+            case "speed":
+                float spBonus = (float)baseSpeed * levelCalc;
+                Speed = (int)spBonus + levelBonus;
+                Speed = (int)(Speed * multiplier);
                 break;
             default:
                 Debug.Log("no type " + type + " found");
