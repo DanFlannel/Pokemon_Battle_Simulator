@@ -4,27 +4,35 @@ using System.Collections;
 public class PokemonCreatorBack : MonoBehaviour {
 	
 	private int levelBonus;
-	
-	public int PokemonID;
-	public string PokemonName;
-	public int baseHP;
-	public int baseAttack;
-	public int baseDefense;
-	public int baseSpecial_Attack;
-	public int baseSpecial_Defense;
-	public int baseSpeed;
-	public int Level;
-	public int HP;
-	public int Attack;
-	public int Defense;
-	public int Special_Attack;
-	public int Special_Defense;
-	public int Speed;
-	public bool CanEvolve;
-	public string Type1;
-	public string Type2;
 
-	private PokemonLibrary pl;
+    public int PokemonID;
+    public string PokemonName;
+
+    private int baseHP;
+    private int baseAttack;
+    private int baseDefense;
+    private int baseSpecial_Attack;
+    private int baseSpecial_Defense;
+    private int baseSpeed;
+    private bool CanEvolve;
+
+    public int Level;
+    public int HP;
+
+    public int Attack;
+    public int attack_Stage = 0;
+    public int Defense;
+    public int defense_Stage = 0;
+    public int Special_Attack;
+    public int spAttack_Stage = 0;
+    public int Special_Defense;
+    public int spDefense_stage = 0;
+    public int Speed;
+
+    public string Type1;
+    public string Type2;
+
+    private PokemonLibrary pl;
 	private PokemonAttacks pa;
 	private AnimatedGifDrawerBack gif;
 
@@ -49,7 +57,7 @@ public class PokemonCreatorBack : MonoBehaviour {
 		
 	}
 	
-	public void GetPokemonBaseData(int id){
+	private void GetPokemonBaseData(int id){
 		PokemonName = pl.GetName(id);
 		gif.pName = PokemonName.ToLower();
 		gif.loadImage();
@@ -65,7 +73,7 @@ public class PokemonCreatorBack : MonoBehaviour {
 		Type2 = pl.GetType2(id);
 	}
 	
-	public void StatsBasedOffLevel(){
+	private void StatsBasedOffLevel(){
 		
 		//max hp = 2* base stat + 110
 		//max other stats = 1.79* stat + 5(levelBonus)
