@@ -17,6 +17,7 @@ public class Attack_Switch_Case : MonoBehaviour {
     private string attack = "attack";
     private string spAttack = "spAttack";
     private string spDefense = "spDefense";
+    private string speed = "speed";
 
 
     void Start()
@@ -28,11 +29,42 @@ public class Attack_Switch_Case : MonoBehaviour {
     public void statusAttacks(string name, bool isPlayer)
     {
         name = name.ToLower();
+        switch (name)
+        {
+            default:
+                Debug.Log("No attack with name " + name + " found");
+                break;
+            case "acid armor":
+                changeStats(defense, 2, isPlayer);
+                break;
+            case "agility":
+                changeStats(speed, 2, isPlayer);
+                break;
+            case "amnesia":
+                changeStats(spDefense, 2, isPlayer);
+                break;
+            case "barrier":
+                changeStats(defense, 2, isPlayer);
+                break;
+        }
     }
 
     public void physicalAttacks(string name, float predictedDamage, bool isPlayer)
     {
         name = name.ToLower();
+        switch (name)
+        {
+            default:
+                Debug.Log("No attack with name " + name + " found");
+                break;
+            case "barrage":
+                int rnd = Random.Range(2, 5);
+                predictedDamage *= rnd;
+                break;
+            case "bide":
+                //waits 2 turns then deals back double.... :(
+                break;
+        }
     }
 
     public void specialAttacks(string name, float predictedDamage, bool isPlayer)
@@ -42,17 +74,28 @@ public class Attack_Switch_Case : MonoBehaviour {
         bool stunHit = false;
         switch (name)
         {
+            default:
+                Debug.Log("No attack with name " + name + " found");
+                break;
             case "absorb":
                 final_heal = predictedDamage / 2f;
                 break;
             case "acid":
-                stunHit = stunProbability(1, isPlayer);
+                stunHit = stunProbability(1);
                 if (stunHit)
                 {
-                    changeStats(spDefense, 1, !isPlayer);
+                    changeStats(spDefense, -1, !isPlayer);
+                }
+                break;
+            case "aurora beam":
+                stunHit = stunProbability(1);
+                if (stunHit)
+                {
+                    changeStats(attack, -1, !isPlayer);
                 }
                 break;
         }
+        Debug.Log("Effect hit = " + stunHit);
     }
 
 
@@ -61,10 +104,8 @@ public class Attack_Switch_Case : MonoBehaviour {
     /// if the guess is any of those unique random numbers the method returns true, otherwise the attack did not stun the 
     /// enemy pokemon
     /// </summary>
-    private bool stunProbability(int prob, bool isPlayer)
+    private bool stunProbability(int prob)
     {
-        isPlayerStunned = false;
-        isEnemyStunned = false;
         bool stunHit = false;
         List<int> probability = new List<int>();
         for (int i = 0; i < prob; i++)
@@ -125,6 +166,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                 case "spDefense":
                     statStage = playerStats.spDefense_stage;
                     break;
+                case "speed":
+                    statStage = playerStats.speed_stage;
+                    break;
                 default:
                     Debug.Log("no type " + type + " found");
                     break;
@@ -145,6 +189,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                     break;
                 case "spDefense":
                     statStage = enemyStats.spDefense_stage;
+                    break;
+                case "speed":
+                    statStage = enemyStats.speed_stage;
                     break;
                 default:
                     Debug.Log("no type " + type + " found");
@@ -172,6 +219,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                 case "spDefense":
                     playerStats.spDefense_stage = newStage;
                     break;
+                case "speed":
+                    playerStats.speed_stage = newStage;
+                    break;
                 default:
                     Debug.Log("no type " + type + " found");
                     break;
@@ -192,6 +242,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                     break;
                 case "spDefense":
                     enemyStats.spDefense_stage = newStage;
+                    break;
+                case "speed":
+                    enemyStats.speed_stage = newStage;
                     break;
                 default:
                     Debug.Log("no type " + type + " found");
