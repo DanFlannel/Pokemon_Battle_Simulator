@@ -409,20 +409,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PokemonID: 0
   PokemonName: 
-  baseHP: 0
-  baseAttack: 0
-  baseDefense: 0
-  baseSpecial_Attack: 0
-  baseSpecial_Defense: 0
-  baseSpeed: 0
   Level: 0
   HP: 0
   Attack: 0
+  attack_Stage: 0
   Defense: 0
+  defense_Stage: 0
   Special_Attack: 0
+  spAttack_Stage: 0
   Special_Defense: 0
+  spDefense_stage: 0
   Speed: 0
-  CanEvolve: 0
+  speed_stage: 0
   Type1: 
   Type2: 
   curHp: 0
@@ -508,7 +506,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 2144975218}
-        m_MethodName: calculateDamage
+        m_MethodName: calculateAttackEffect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -636,7 +634,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2144975218}
-        m_MethodName: calculateDamage
+        m_MethodName: calculateAttackEffect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1122,7 +1120,7 @@ RectTransform:
   - {fileID: 820078249}
   - {fileID: 346443351}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1918,7 +1916,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!114 &1073198969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2154,20 +2152,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PokemonID: 0
   PokemonName: 
-  baseHP: 0
-  baseAttack: 0
-  baseDefense: 0
-  baseSpecial_Attack: 0
-  baseSpecial_Defense: 0
-  baseSpeed: 0
   Level: 0
   HP: 0
   Attack: 0
+  attack_Stage: 0
   Defense: 0
+  defense_Stage: 0
   Special_Attack: 0
+  spAttack_Stage: 0
   Special_Defense: 0
+  spDefense_stage: 0
   Speed: 0
-  CanEvolve: 0
+  speed_stage: 0
   Type1: 
   Type2: 
   curHp: 0
@@ -2572,6 +2568,7 @@ GameObject:
   - 4: {fileID: 1643421012}
   - 114: {fileID: 1643421013}
   - 114: {fileID: 1643421014}
+  - 114: {fileID: 1643421015}
   m_Layer: 0
   m_Name: Attacks
   m_TagString: Attacks
@@ -2621,6 +2618,21 @@ MonoBehaviour:
   attackDatabaseCompiled: 0
   playerAttackName: []
   enemyAttackName: []
+--- !u!114 &1643421015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643421011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d49d962f8e24654bb96e45799ef9800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  final_damage: 0
+  final_heal: 0
+  isPlayerStunned: 0
+  isEnemyStunned: 0
 --- !u!1 &1658109066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3050,7 +3062,7 @@ RectTransform:
   - {fileID: 1563986824}
   - {fileID: 2144975217}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 250, y: 156.394455}
@@ -3179,7 +3191,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2144975218}
-        m_MethodName: calculateDamage
+        m_MethodName: calculateAttackEffect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3442,7 +3454,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2144975218}
-        m_MethodName: calculateDamage
+        m_MethodName: calculateAttackEffect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

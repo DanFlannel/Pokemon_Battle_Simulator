@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 /// <summary>
 /// This class is created to take the damage done by each attack when a button is pressed. It is meant to work on every single attack.
@@ -46,6 +47,7 @@ public class AttackDamageCalc : MonoBehaviour {
 		playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
+        attack_Switch_Case = GameObject.FindGameObjectWithTag("Attacks").GetComponent<Attack_Switch_Case>();
         damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
 	}
 	
@@ -150,7 +152,15 @@ public class AttackDamageCalc : MonoBehaviour {
         string attackCat = attacks.attackList[attack_index].cat;
 
         float predictedDamage = calculateDamage();
+        int accuracy = attacks.attackList[attack_index].accuracy;
+        Debug.Log("Predicted Damage: " + predictedDamage);
 
+        bool hit = moveHitProbability(accuracy);
+        if (!hit)
+        {
+            Debug.Log("The move missed!");
+            return;
+        }
         switch (attackCat)
         {
             case "Status":
@@ -164,8 +174,6 @@ public class AttackDamageCalc : MonoBehaviour {
                 break;
 
         }
-        Debug.Log("prediceted damage = " + predictedDamage);
-
 	}
 
     /// <summary>
@@ -173,7 +181,7 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     private float calculateDamage()
     {
-        float final_damage;
+        float final_damage = 0;
         //Setup for the methods that will get different aspects of the damage calculation
         int attack_index = getAttackListIndex(attack_name);
         //Debug.Log("attack index: " + attack_index);
@@ -221,9 +229,7 @@ public class AttackDamageCalc : MonoBehaviour {
         modifier = stab * typeMultiplier * critical * rnd;
         Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
         return modifier;
-
     }
-
 
     /// <summary>
     /// Sets the level multiplier (2 * level / 5) + 2
@@ -482,5 +488,41 @@ public class AttackDamageCalc : MonoBehaviour {
                 playerStats.curHp = 0;
             }
         }
+    }
+
+    /// <summary>
+    /// This method takes in the acuracy of the pokemon (always divisible by 5) and calculates if it hits or not and returns a boolean
+    /// value based on if it hits
+    /// </summary>
+    private bool moveHitProbability(int accuracy)
+    {
+        bool hit = true;
+        int hitProb = accuracy / 5;
+        int missProb = 20 - hitProb;
+        //Debug.Log("accuracy = " + hitProb);
+        Debug.Log("miss probability = " + missProb + "/20");
+        List<int> missNums = new List<int>();
+    
+        for(int i = 0; i < missProb; i++)
+        {
+            int chance = Mathf.RoundToInt(Random.Range(1, 20));
+            while (missNums.Contains(chance))
+            {
+                chance = Mathf.RoundToInt(Random.Range(1, 20));
+            }
+            missNums.Add(chance);
+        }
+
+        int guess = Mathf.RoundToInt(Random.Range(1, 20));
+        for(int i = 0; i < missProb; i++)
+        {
+            if(missNums[i] == guess)
+            {
+                hit = false;
+                return hit;
+            }
+        }
+
+        return hit;
     }
 }
