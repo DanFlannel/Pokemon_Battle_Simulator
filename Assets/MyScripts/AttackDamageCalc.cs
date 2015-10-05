@@ -179,7 +179,7 @@ public class AttackDamageCalc : MonoBehaviour {
     /// <summary>
     /// This method calculates the damage that each attack will do based off the serebii.net damage formula
     /// </summary>
-    private float calculateDamage()
+    public float calculateDamage()
     {
         float final_damage = 0;
         //Setup for the methods that will get different aspects of the damage calculation
@@ -223,6 +223,12 @@ public class AttackDamageCalc : MonoBehaviour {
 
         //TODO: Calculate critical chance and apply it
         float critical = 1f;
+        bool crit = isCrit();
+        if (crit)
+        {
+            Debug.Log("Critical HIT!");
+            critical = 1.5f;
+        }
         float rnd = Random.Range(.85f, 1f);
         float typeMultiplier = getTypeMultiplier(attackType, isPlayer);
 
@@ -345,7 +351,7 @@ public class AttackDamageCalc : MonoBehaviour {
     /// <summary>
     /// Gets the index of the pokemon in the attack list so we can use this index later rather than having to get it multiple times
     /// </summary>
-    private int getAttackListIndex(string name)
+    public int getAttackListIndex(string name)
     {
         //Debug.Log("called Attack List Index");
         for (int i = 0; i < attacks.attackList.Count; i++)
@@ -524,5 +530,23 @@ public class AttackDamageCalc : MonoBehaviour {
         }
 
         return hit;
+    }
+
+    /// <summary>
+    /// Calculates the 1/16 chance every move has for getting a critical strike
+    /// </summary>
+    private bool isCrit()
+    {
+        bool crit = false;
+
+        int guess = Random.Range(1, 16);
+        int guess2 = Random.Range(1, 16);
+
+        if(guess == guess2)
+        {
+            crit = true;
+        }
+
+        return crit;
     }
 }
