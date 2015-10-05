@@ -32,6 +32,10 @@ public class PokemonCreatorFront : MonoBehaviour {
 	
 	public string Type1;
 	public string Type2;
+
+    public bool isUnderground = false;
+    public bool canAttack = true;
+    public bool canBeAttacked = true;
 	
 	private PokemonLibrary pl;
 	private PokemonAttacks pa;
