@@ -58,7 +58,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 //then we cause the pokemon to be confused
                 break;
             case "conversion":
-                conversion(isPlayer, name);                
+                conversion(isPlayer, name);
                 break;
             case "defense curl":
                 changeStats(defense, 1, isPlayer);
@@ -66,7 +66,15 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "disable":
                 //disables the enemies last move
                 break;
-            
+            case "double team":
+                //raises user evasive stage by one
+                break;
+            case "flash":
+                break;
+            case "focus energy":
+                //increases crit ratio
+                break;
+
         }
     }
 
@@ -75,6 +83,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         name = name.ToLower();
         bool stunHit = false;
         int rnd;
+        float recoil;
         switch (name)
         {
             default:
@@ -107,8 +116,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 stunHit = stunProbability(3);
                 break;
             case "bone club":
-                //if the enemy hasnt attacked yet
-                stunHit = stunProbability(1);
+                predictedDamage = boneClub(isPlayer, predictedDamage);
                 break;
             case "bonemerang":
                 rnd = 2;
@@ -137,13 +145,26 @@ public class Attack_Switch_Case : MonoBehaviour {
                     changeStats(speed, -1, !isPlayer);
                 }
                 break;
+            case "counter":
+                //hits back with 2x power iff is hit with physical attack
+                break;
             case "crabhammer":
                 //has a 1/8 crit ratio not a 1/16.... have to recalculate for this
                 break;
-            case "cut": //attack without modifiers
+            case "cut": //no additional effects
                 break;
             case "dig":
-                //user goes underground for 1 turn then deals the damage
+                if (isPlayer)
+                {
+                    playerStats.isUnderground = true;
+                    playerStats.cachedDamage = predictedDamage;
+                }
+                else
+                {
+                    enemyStats.isUnderground = true;
+                    enemyStats.cachedDamage = predictedDamage;
+                }
+                predictedDamage = 0;
                 break;
             case "dizzy punch":
                 stunHit = stunProbability(2);
@@ -155,6 +176,71 @@ public class Attack_Switch_Case : MonoBehaviour {
                         playerStats.isConfused = true;
                 }
                 break;
+            case "double kick":
+                rnd = 2;
+                stackAttacks(predictedDamage, rnd);
+                break;
+            case "double slap":
+                rnd = Random.Range(2, 5);
+                stackAttacks(predictedDamage, rnd);
+                break;
+            case "double edge":
+                recoil = predictedDamage / 3f;
+                recoil = Mathf.Round(recoil);
+                break;
+            case "drill peck":  //no additional effects
+                break;
+            case "earthquake":
+                predictedDamage = earthQuake(isPlayer, predictedDamage);
+                break;
+            case "egg bomb":   //no additional effects 
+                break;
+            case "explosion":       //causes user to faint
+                if (isPlayer)
+                    playerStats.curHp = 0;
+                else
+                    enemyStats.curHp = 0;
+                break;
+            case "fire punch":
+                isBurned(isPlayer, 1);
+                break;
+            case "fissure":
+                int acc;
+                if (isPlayer)
+                    acc = playerStats.Level - enemyStats.Level + 30;
+                else
+                    acc = enemyStats.Level - playerStats.Level + 30;
+                if (attackCalc.moveHitProbability(acc))
+                {
+                    if (isPlayer)
+                        enemyStats.curHp = 0;
+                    else
+                        playerStats.curHp = 0;
+                }
+                break;
+            case "fly":
+                if (isPlayer)
+                {
+                    playerStats.isFlying = true;
+                    playerStats.cachedDamage = predictedDamage;
+                }
+                else
+                {
+                    enemyStats.isFlying = true;
+                    enemyStats.cachedDamage = predictedDamage;
+                }
+                predictedDamage = 0; 
+                break;
+            case "fury attack":
+                rnd = Random.Range(2, 5);
+                stackAttacks(predictedDamage, rnd);
+                break;
+            case "fury swipes":
+                rnd = Random.Range(2, 5);
+                stackAttacks(predictedDamage, rnd);
+                break;
+            
+
         }
     }
 
@@ -162,6 +248,7 @@ public class Attack_Switch_Case : MonoBehaviour {
     {
         name = name.ToLower();
         final_heal = 0;
+        int rnd;
         bool stunHit = false;
         switch (name)
         {
@@ -174,39 +261,56 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "acid":
                 stunHit = stunProbability(1);
                 if (stunHit)
-                {
                     changeStats(spDefense, -1, !isPlayer);
-                }
                 break;
             case "aurora beam":
                 stunHit = stunProbability(1);
                 if (stunHit)
-                {
                     changeStats(attack, -1, !isPlayer);
-                }
                 break;
             case "blizzard":
-                stunHit = stunProbability(1);
+                isFrozen(isPlayer, 1);
                 break;
             case "bubble":
                 stunHit = stunProbability(1);
                 if (stunHit)
-                {
                     changeStats(speed, -1, !isPlayer);
-                }
                 break;
             case "bubble beam":
                 stunHit = stunProbability(1);
                 if (stunHit)
-                {
                     changeStats(speed, -1, !isPlayer);
-                }
                 break;
             case "confusion":
                 stunHit = stunProbability(1);
-                //confuse the target if true
+                if (stunHit)
+                {
+                    if (isPlayer)
+                        enemyStats.isConfused = true;
+                    else
+                        playerStats.isConfused = true;
+                }
                 break;
-            
+            case "dragon rage":
+                predictedDamage = 40;
+                break;
+            case "dream eater":
+                predictedDamage = dreamEater(isPlayer, predictedDamage);
+                break;
+            case "ember":
+                isBurned(isPlayer, 1);
+                break;
+            case "fire blast":
+                isBurned(isPlayer, 1);
+                break;
+
+            case "fire spin":
+                rnd = Random.Range(4, 5);
+                //burn for 1/16 for 4-5 turns
+                break;
+            case "flamethrower":
+                isBurned(isPlayer, 1);
+                break;
         }
         Debug.Log("Effect hit = " + stunHit);
     }
@@ -434,11 +538,59 @@ public class Attack_Switch_Case : MonoBehaviour {
     private float stackAttacks(float predictedDamage, int rnd)
     {
         predictedDamage = 0;
-        for(int i = 0; i < rnd; i++)
+        for (int i = 0; i < rnd; i++)
         {
             predictedDamage += attackCalc.calculateDamage();
         }
 
+        return predictedDamage;
+    }
+
+    private void isBurned(bool isPlayer, int prob)
+    {
+        bool stunHit = stunProbability(prob);
+        if (stunHit)
+        {
+            if (isPlayer)
+                enemyStats.isBurned = true;
+            else
+                playerStats.isBurned = true;
+        }
+    }
+
+    private void isFrozen(bool isPlayer, int prob)
+    {
+        bool stunHit = stunProbability(prob);
+        if (stunHit)
+        {
+            if (isPlayer)
+                enemyStats.isFrozen = true;
+            else
+                playerStats.isFrozen = true;
+        }
+    }
+
+    private float boneClub(bool isPlayer, float predictedDamage)
+    {
+        bool stunHit = false;
+        if (isPlayer)
+        {
+            if (!enemyStats.hasAttacked)
+            {
+                stunHit = stunProbability(1);
+                if (stunHit)
+                    enemyStats.isFlinched = true;
+            }
+        }
+        else
+        {
+            if (!playerStats.hasAttacked)
+            {
+                stunHit = stunProbability(1);
+                if (stunHit)
+                    playerStats.isFlinched = true;
+            }
+        }
         return predictedDamage;
     }
 
@@ -458,6 +610,55 @@ public class Attack_Switch_Case : MonoBehaviour {
             string attack_type = attacks.attackList[attack_index].type;
             playerStats.Type1 = attack_type;
         }
+    }
+
+    private float dreamEater(bool isPlayer, float predictedDamage)
+    {
+
+        if (isPlayer)
+        {
+            if (enemyStats.isSleeping)
+            {
+                final_heal = Mathf.Round(predictedDamage / 2f);
+            }
+            else
+            {
+                predictedDamage = 0;
+            }
+        }
+        else
+        {
+            if (playerStats.isSleeping)
+            {
+                final_heal = Mathf.Round(predictedDamage / 2f);
+            }
+            else
+            {
+                predictedDamage = 0;
+            }
+        }
+
+        return predictedDamage;
+    }
+
+    private float earthQuake(bool isPlayer, float predictedDamage){
+
+        if (isPlayer)
+        {
+            if (enemyStats.isUnderground)
+            {
+                predictedDamage *=2f;
+            }
+        }
+        else
+        {
+            if (playerStats.isUnderground)
+            {
+                predictedDamage *= 2f;
+            }
+        }
+
+        return predictedDamage;
     }
 
 }

@@ -221,7 +221,6 @@ public class AttackDamageCalc : MonoBehaviour {
             stab = 1f;
         }
 
-        //TODO: Calculate critical chance and apply it
         float critical = 1f;
         bool crit = isCrit();
         if (crit)
@@ -500,7 +499,7 @@ public class AttackDamageCalc : MonoBehaviour {
     /// This method takes in the acuracy of the pokemon (always divisible by 5) and calculates if it hits or not and returns a boolean
     /// value based on if it hits
     /// </summary>
-    private bool moveHitProbability(int accuracy)
+    public bool moveHitProbability(int accuracy)
     {
         bool hit = true;
         int hitProb = accuracy / 5;

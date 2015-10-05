@@ -586,7 +586,7 @@ public class PokemonAttacks : MonoBehaviour
 		
 		#region Attacks 51-75
 		attackList.Add (new attacks ("Fury Swipes", normal, physical, 18, 80, 15));
-		attackList.Add (new attacks ("Glare", normal, status, 0, 100, 30));
+		attackList.Add (new attacks ("Glare", normal, status, 0, 75, 30));
 		attackList.Add (new attacks ("Growl", normal, status, 0, 100, 40));
 		attackList.Add (new attacks ("Growth", normal, status, 0, 0, 40));
 		attackList.Add (new attacks ("Guillotine", normal, physical, 0, 0, 5));
