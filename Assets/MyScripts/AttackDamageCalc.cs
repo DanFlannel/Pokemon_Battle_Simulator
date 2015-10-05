@@ -12,6 +12,7 @@ public class AttackDamageCalc : MonoBehaviour {
 	private PokemonCreatorFront enemyStats;
     private PokemonAttacks attacks;
     private PokemonDamageMultipliers damage_mult;
+    private Attack_Switch_Case attack_Switch_Case;
 
 	private string enemyAttack1;
 	private string enemyAttack2;
@@ -137,9 +138,39 @@ public class AttackDamageCalc : MonoBehaviour {
     }
 
 	/// <summary>
+    /// This method takes the name of the attack and then passes it into other methods in the Attack_Switch_Case to get the effect
+    /// of the attack on the enemy or player pokemon, if it is a status type of attack or one that deals damage or stuns...ect.
+    /// </summary>
+	public void calculateAttackEffect(){
+        int attack_index = getAttackListIndex(attack_name);
+        //Debug.Log("attack index: " + attack_index);
+        string attackCat = attacks.attackList[attack_index].cat;
+
+        float predictedDamage = calculateDamage();
+
+        switch (attackCat)
+        {
+            case "Status":
+                attack_Switch_Case.statusAttacks(attack_name, isPlayer);
+                break;
+            case "Physical":
+                attack_Switch_Case.physicalAttacks(attack_name, predictedDamage, isPlayer);
+                break;
+            case "Special":
+                attack_Switch_Case.specialAttacks(attack_name, predictedDamage, isPlayer);
+                break;
+
+        }
+        Debug.Log("prediceted damage = " + predictedDamage);
+
+	}
+
+    /// <summary>
     /// This method calculates the damage that each attack will do based off the serebii.net damage formula
     /// </summary>
-	public void calculateDamage(){
+    private float calculateDamage()
+    {
+        float final_damage;
         //Setup for the methods that will get different aspects of the damage calculation
         int attack_index = getAttackListIndex(attack_name);
         //Debug.Log("attack index: " + attack_index);
@@ -153,7 +184,6 @@ public class AttackDamageCalc : MonoBehaviour {
         float damage_mod = modifier(attack_index, attackType, isPlayer);
 
         //Damage Calculations here
-        float final_damage;
         final_damage = level_mod;
         final_damage *= attack_mod;
         final_damage *= att_div_defense;
@@ -161,9 +191,8 @@ public class AttackDamageCalc : MonoBehaviour {
         final_damage += 2;
         final_damage *= damage_mod;
         final_damage = Mathf.Round(final_damage);
-        Debug.Log("prediceted damage = " + final_damage);
-
-	}
+        return final_damage;
+    }
 
     /// <summary>
     /// Sets the multiplier Base Power * STAB * Type modifier * Critical * other * randomNum(.85,1)
@@ -428,43 +457,27 @@ public class AttackDamageCalc : MonoBehaviour {
         return modifier;
     }
 
-    //TODO Generate Special Attacks
-    private bool stunProbability(float prob, bool isPlayer)
+    /// <summary>
+    /// Impliments the damage done by the attack and updates the text and health bars
+    /// </summary>
+    private void implimentDamage(float damage, bool isPlayer)
     {
-        bool stun = false;
-        prob /= 100;
-        return stun;
-    }
-
-    private string stunType(string name)
-    {
-        return name;
-    }
-
-    private void stunEnemy(string name, bool isPlayer)
-    {
-        name = name.ToLower();
-        string flinch = "flinched";
-        string frozen = "frozen";
-        string paralized = "paralized";
-        switch (name)
+        int final_damage = Mathf.RoundToInt(damage);
+        if (!isPlayer)
         {
-            case "bite":
-                stunProbability(30, isPlayer);
-                stunType(flinch);
-                break;
-            case "blizzard":
-                stunProbability(10, isPlayer);
-                stunType(frozen);
-                break;
-            case "body slam":
-                stunProbability(30, isPlayer);
-                stunType(paralized);
-                break;
-            case "bone club":
-                stunProbability(10, isPlayer);
-                stunType(flinch);
-                break;
+            enemyStats.curHp -= final_damage;
+            if(enemyStats.curHp < 0)
+            {
+                enemyStats.curHp = 0;
+            }
+        }
+        else
+        {
+            playerStats.curHp -= final_damage;
+            if (playerStats.curHp < 0)
+            {
+                playerStats.curHp = 0;
+            }
         }
     }
 }
