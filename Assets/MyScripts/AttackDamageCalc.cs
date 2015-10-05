@@ -54,6 +54,9 @@ public class AttackDamageCalc : MonoBehaviour {
 
 	}
 
+    /// <summary>
+    /// Gets the generated pokemon attacks
+    /// </summary>
 	private void getPokemonAttacks(){
         /*if(enemyAttack1 != enemyStats.Attack_1_Name)
 		    enemyAttack1 = enemyStats.Attack_1_Name;

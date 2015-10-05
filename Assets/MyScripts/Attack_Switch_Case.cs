@@ -13,6 +13,11 @@ public class Attack_Switch_Case : MonoBehaviour {
     private PokemonCreatorBack playerStats;
     private PokemonCreatorFront enemyStats;
 
+    private string defense = "defense";
+    private string attack = "attack";
+    private string spAttack = "spAttack";
+    private string spDefense = "spDefense";
+
 
     void Start()
     {
@@ -42,6 +47,10 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "acid":
                 stunHit = stunProbability(1, isPlayer);
+                if (stunHit)
+                {
+                    changeStats(spDefense, 1, !isPlayer);
+                }
                 break;
         }
     }
@@ -92,6 +101,8 @@ public class Attack_Switch_Case : MonoBehaviour {
             newStage = -6;
 
         setStatStage(type, newStage, isPlayer);
+        float multiplier = stageToMultiplier(newStage);
+
     }
 
     private int getStatStage(string type, bool isPlayer)
@@ -174,6 +185,67 @@ public class Attack_Switch_Case : MonoBehaviour {
                     break;
             }
         }
+    }
+
+    private void updateStatChange(string type, float multiplier, bool isPlayer)
+    {
+        if (isPlayer)
+        {
+            playerStats.updateStatStage(type, multiplier);
+        }
+        else
+        {
+            enemyStats.updateStatStage(type, multiplier);
+        }
+    }
+
+    private float stageToMultiplier(int stage)
+    {
+
+        float multiplier = 1;
+        switch (stage)
+        {
+            case -6:
+                multiplier = .25f;
+                break;
+            case -5:
+                multiplier = .285f;
+                break;
+            case -4:
+                multiplier = .33f;
+                break;
+            case -3:
+                multiplier = .4f;
+                break;
+            case -2:
+                multiplier = .5f;
+                break;
+            case -1:
+                multiplier = .66f;
+                break;
+            case 0:
+                multiplier = 1;
+                break;
+            case 1:
+                multiplier = 1.5f;
+                break;
+            case 2:
+                multiplier = 2f;
+                break;
+            case 3:
+                multiplier = 2.5f;
+                break;
+            case 4:
+                multiplier = 3f;
+                break;
+            case 5:
+                multiplier = 3.5f;
+                break;
+            case 6:
+                multiplier = 4f;
+                break;
+        }
+        return multiplier;
     }
 
 }

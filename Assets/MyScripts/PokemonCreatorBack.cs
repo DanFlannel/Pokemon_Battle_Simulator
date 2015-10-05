@@ -104,5 +104,36 @@ public class PokemonCreatorBack : MonoBehaviour {
 		float hpLevelBonus = 110f* (float)Level/100f;
 		HP = (int)hpBonus + (int)hpLevelBonus;
 	}
-	
+
+    public void updateStatStage(string type, float multiplier)
+    {
+        float levelCalc = .79f + ((float)Level / 100);
+        switch (type)
+        {
+            case "attack":
+                float attackCalc = (float)baseAttack * levelCalc;
+                Attack = (int)attackCalc + levelBonus;
+                Attack = (int)(Attack * multiplier);
+                break;
+            case "defense":
+                float defenseCalc = (float)baseDefense * levelCalc;
+                Defense = (int)defenseCalc + levelBonus;
+                Defense = (int)(Defense * multiplier);
+                break;
+            case "spAttack":
+                float spaBonus = (float)baseSpecial_Attack * levelCalc;
+                Special_Attack = (int)spaBonus + levelBonus;
+                Special_Attack = (int)(Special_Attack * multiplier);
+                break;
+            case "spDefense":
+                float spdBonus = (float)baseSpecial_Defense * levelCalc;
+                Special_Defense = (int)spdBonus + levelBonus;
+                Special_Defense = (int)(Special_Defense * multiplier);
+                break;
+            default:
+                Debug.Log("no type " + type + " found");
+                break;
+        }
+    }
+
 }

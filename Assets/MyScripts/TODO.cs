@@ -9,7 +9,6 @@ public class TODO : MonoBehaviour {
             Finish checking for stun attacks
             Check for Status moves
             Calculate for status moves
-            Caclulate stun probability
             Finish calculating all other moves
             Enemy AI
      */
