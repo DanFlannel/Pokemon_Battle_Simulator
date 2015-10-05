@@ -93,8 +93,8 @@ public class Attack_Switch_Case : MonoBehaviour {
     private void changeStats(string type, int stageMod, bool isPlayer)
     {
         int newStage = getStatStage(type, isPlayer);
-
         newStage += stageMod;
+
         if (newStage > 6)
             newStage = 6;
         if (newStage < -6)
@@ -102,6 +102,7 @@ public class Attack_Switch_Case : MonoBehaviour {
 
         setStatStage(type, newStage, isPlayer);
         float multiplier = stageToMultiplier(newStage);
+        updateStatChange(type, multiplier, isPlayer);
 
     }
 
@@ -124,6 +125,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                 case "spDefense":
                     statStage = playerStats.spDefense_stage;
                     break;
+                default:
+                    Debug.Log("no type " + type + " found");
+                    break;
             }
         }
         else
@@ -141,6 +145,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                     break;
                 case "spDefense":
                     statStage = enemyStats.spDefense_stage;
+                    break;
+                default:
+                    Debug.Log("no type " + type + " found");
                     break;
             }
         }
@@ -165,6 +172,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                 case "spDefense":
                     playerStats.spDefense_stage = newStage;
                     break;
+                default:
+                    Debug.Log("no type " + type + " found");
+                    break;
             }
         }
         else
@@ -182,6 +192,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                     break;
                 case "spDefense":
                     enemyStats.spDefense_stage = newStage;
+                    break;
+                default:
+                    Debug.Log("no type " + type + " found");
                     break;
             }
         }
