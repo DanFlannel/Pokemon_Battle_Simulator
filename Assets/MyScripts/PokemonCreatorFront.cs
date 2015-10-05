@@ -36,6 +36,7 @@ public class PokemonCreatorFront : MonoBehaviour {
     public bool isUnderground = false;
     public bool canAttack = true;
     public bool canBeAttacked = true;
+    public bool isConfused = false;
 	
 	private PokemonLibrary pl;
 	private PokemonAttacks pa;

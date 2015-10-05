@@ -12,6 +12,9 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     private PokemonCreatorBack playerStats;
     private PokemonCreatorFront enemyStats;
+    private AttackDamageCalc attackCalc;
+    private GenerateAttacks genAttacks;
+    private PokemonAttacks attacks;
 
     private string defense = "defense";
     private string attack = "attack";
@@ -24,12 +27,16 @@ public class Attack_Switch_Case : MonoBehaviour {
     {
         enemyStats = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
         playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
+        attackCalc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
+        genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
+        attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
     }
 
     public void statusAttacks(string name, bool isPlayer)
     {
-        name = name.ToLower();
-        switch (name)
+        string tempname = name.ToLower();
+        int rnd;
+        switch (tempname)
         {
             default:
                 Debug.Log("No attack with name " + name + " found");
@@ -46,23 +53,107 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "barrier":
                 changeStats(defense, 2, isPlayer);
                 break;
+            case "confuse ray":
+                rnd = Random.Range(1, 4);
+                //then we cause the pokemon to be confused
+                break;
+            case "conversion":
+                conversion(isPlayer, name);                
+                break;
+            case "defense curl":
+                changeStats(defense, 1, isPlayer);
+                break;
+            case "disable":
+                //disables the enemies last move
+                break;
+            
         }
     }
 
     public void physicalAttacks(string name, float predictedDamage, bool isPlayer)
     {
         name = name.ToLower();
+        bool stunHit = false;
+        int rnd;
         switch (name)
         {
             default:
                 Debug.Log("No attack with name " + name + " found");
                 break;
             case "barrage":
-                int rnd = Random.Range(2, 5);
-                predictedDamage *= rnd;
+                rnd = Random.Range(2, 5);
+                predictedDamage = stackAttacks(predictedDamage, rnd);
                 break;
             case "bide":
                 //waits 2 turns then deals back double.... :(
+                break;
+            case "bind":
+                //need to create a damage over time effect here for rndBind turns
+                rnd = Random.Range(4, 5);
+                if (isPlayer)
+                {
+                    predictedDamage = enemyStats.maxHP / 16f;
+                }
+                else
+                {
+                    predictedDamage = playerStats.maxHP / 16f;
+                }
+                predictedDamage = Mathf.Round(predictedDamage);
+                break;
+            case "bite":
+                stunHit = stunProbability(3);
+                break;
+            case "body slam":
+                stunHit = stunProbability(3);
+                break;
+            case "bone club":
+                //if the enemy hasnt attacked yet
+                stunHit = stunProbability(1);
+                break;
+            case "bonemerang":
+                rnd = 2;
+                predictedDamage = stackAttacks(predictedDamage, rnd);
+                break;
+            case "clamp":
+                rnd = Random.Range(4, 5);
+                if (isPlayer)
+                {
+                    predictedDamage = enemyStats.maxHP / 16f;
+                }
+                else
+                {
+                    predictedDamage = playerStats.maxHP / 16f;
+                }
+                predictedDamage = Mathf.Round(predictedDamage);
+                break;
+            case "comet punch":
+                rnd = Random.Range(2, 5);
+                predictedDamage = stackAttacks(predictedDamage, rnd);
+                break;
+            case "constrict":
+                stunHit = stunProbability(1);
+                if (stunHit)
+                {
+                    changeStats(speed, -1, !isPlayer);
+                }
+                break;
+            case "crabhammer":
+                //has a 1/8 crit ratio not a 1/16.... have to recalculate for this
+                break;
+            case "cut": //attack without modifiers
+                break;
+            case "dig":
+                //user goes underground for 1 turn then deals the damage
+                break;
+            case "dizzy punch":
+                stunHit = stunProbability(2);
+                if (stunHit)
+                {
+                    if (isPlayer)
+                        enemyStats.isConfused = true;
+                    if (!isPlayer)
+                        playerStats.isConfused = true;
+                }
                 break;
         }
     }
@@ -94,6 +185,28 @@ public class Attack_Switch_Case : MonoBehaviour {
                     changeStats(attack, -1, !isPlayer);
                 }
                 break;
+            case "blizzard":
+                stunHit = stunProbability(1);
+                break;
+            case "bubble":
+                stunHit = stunProbability(1);
+                if (stunHit)
+                {
+                    changeStats(speed, -1, !isPlayer);
+                }
+                break;
+            case "bubble beam":
+                stunHit = stunProbability(1);
+                if (stunHit)
+                {
+                    changeStats(speed, -1, !isPlayer);
+                }
+                break;
+            case "confusion":
+                stunHit = stunProbability(1);
+                //confuse the target if true
+                break;
+            
         }
         Debug.Log("Effect hit = " + stunHit);
     }
@@ -312,6 +425,39 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
         }
         return multiplier;
+    }
+
+    /// <summary>
+    /// this method takes in the amount of times the attack gets calculated so that the total damage accounts for 
+    /// each attack as its own sperate attack rather than multiplying by the number
+    /// </summary>
+    private float stackAttacks(float predictedDamage, int rnd)
+    {
+        predictedDamage = 0;
+        for(int i = 0; i < rnd; i++)
+        {
+            predictedDamage += attackCalc.calculateDamage();
+        }
+
+        return predictedDamage;
+    }
+
+    private void conversion(bool isPlayer, string name)
+    {
+        if (isPlayer)
+        {
+            string tempName = genAttacks.playerAttackName[0];
+            int attack_index = attackCalc.getAttackListIndex(name);
+            string attack_type = attacks.attackList[attack_index].type;
+            playerStats.Type1 = attack_type;
+        }
+        else
+        {
+            string tempName = genAttacks.playerAttackName[0];
+            int attack_index = attackCalc.getAttackListIndex(name);
+            string attack_type = attacks.attackList[attack_index].type;
+            playerStats.Type1 = attack_type;
+        }
     }
 
 }
