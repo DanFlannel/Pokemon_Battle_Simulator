@@ -37,6 +37,14 @@ public class PokemonCreatorFront : MonoBehaviour {
     public bool canAttack = true;
     public bool canBeAttacked = true;
     public bool isConfused = false;
+    public bool isSleeping = false;
+    public bool hasAttacked = false;
+    public bool isStunned = false;
+    public bool isFlinched = false;
+    public bool isBurned = false;
+    public bool isFrozen = false;
+    public bool isFlying = false;
+    public float cachedDamage = 0;
 	
 	private PokemonLibrary pl;
 	private PokemonAttacks pa;
