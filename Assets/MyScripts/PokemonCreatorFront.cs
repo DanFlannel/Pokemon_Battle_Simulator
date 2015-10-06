@@ -45,6 +45,7 @@ public class PokemonCreatorFront : MonoBehaviour {
     public bool isFrozen = false;
     public bool isFlying = false;
     public float cachedDamage = 0;
+    public int confusedDuration = 0;
 	
 	private PokemonLibrary pl;
 	private PokemonAttacks pa;
