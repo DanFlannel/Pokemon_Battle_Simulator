@@ -615,7 +615,7 @@ public class PokemonAttacks : MonoBehaviour
 		#region Attacks 76 - 100
 		attackList.Add (new attacks ("Light Screen", psychic, status, 0, 0, 30));
 		attackList.Add (new attacks ("Lovely Kiss", normal, status, 0, 75, 10));
-		attackList.Add (new attacks ("Low Kick", fighting, physical, 0, 100, 20));
+		attackList.Add (new attacks ("Low Kick", fighting, physical, 50, 100, 20));
 		attackList.Add (new attacks ("Meditate", psychic, status, 0, 0, 40));
 		attackList.Add (new attacks ("Mega Drain", grass, special, 40, 100, 15));
 		attackList.Add (new attacks ("Mega Kick", normal, physical, 120, 75, 5));

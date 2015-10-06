@@ -6,10 +6,8 @@ public class TODO : MonoBehaviour {
 	/*
         TODO List:
             generate Enemy attacks
-            Finish checking for stun attacks
-            Check for Status moves
-            Calculate for status moves
-            Finish calculating all other moves
-            Enemy AI
+            Calculate all moves
+            Generate a turn based sytem
+            Enemy AI (randomly choose an attack)
      */
 }

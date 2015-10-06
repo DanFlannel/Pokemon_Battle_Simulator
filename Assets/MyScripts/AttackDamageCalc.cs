@@ -361,7 +361,7 @@ public class AttackDamageCalc : MonoBehaviour {
                 return i;
             }
         }
-        Debug.Log("No Attack with name " + name + " found");
+        Debug.Log("No Attack with name " + name.ToLower() + " found");
         return 0;
     }
 

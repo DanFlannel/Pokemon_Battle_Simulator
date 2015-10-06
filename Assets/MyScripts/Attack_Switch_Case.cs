@@ -39,7 +39,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         switch (tempname)
         {
             default:
-                Debug.Log("No attack with name " + name + " found");
+                Debug.Log("No status move with name " + name + " found");
                 break;
             case "acid armor":
                 changeStats(defense, 2, isPlayer);
@@ -70,6 +70,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 //raises user evasive stage by one
                 break;
             case "flash":
+                //Do something
                 break;
             case "focus energy":
                 //increases crit ratio
@@ -95,20 +96,55 @@ public class Attack_Switch_Case : MonoBehaviour {
                 updateStatChange(spAttack, 1, !isPlayer);
                 updateStatChange(spDefense, 1, !isPlayer);
                 break;
+            case "hypnosis":
+                rnd = Random.Range(1, 3);
+                //puts the user to sleep for rnd turns
+                break;
+            case "kinesis":
+                //lower enemy accuracy by 1 stage
+                break;
+            case "leech seed":
+                //drain 1/8hp per turn at the end of the turn and restore it to the user
+                break;
+            case "leer":
+                changeStats(defense, -1, !isPlayer);
+                break;
+            case "light screen":
+                if (isPlayer)
+                {
+                    playerStats.hasLightScreen = true;
+                    playerStats.lightScreenDuration = 5;
+                }
+                else
+                {
+                    enemyStats.hasLightScreen = true;
+                    enemyStats.lightScreenDuration = 5;
+                }
+                break;
+            case "lovely kiss":
+                rnd = Random.Range(1, 3);
+                //puts the user to sleep for rnd turns
+                break;
+            case "meditate":
+                changeStats(attack, 1, isPlayer);
+                break;
 
         }
+        Debug.Log("Did a status move!");
     }
 
     public void physicalAttacks(string name, float predictedDamage, bool isPlayer)
     {
+        final_damage = 0;
+        final_heal = 0;
         name = name.ToLower();
         bool stunHit = false;
         int rnd;
         float recoil;
-        switch (name)
+        switch (name.ToLower())
         {
             default:
-                Debug.Log("No attack with name " + name + " found");
+                Debug.Log("No physical attack with name " + name.ToLower() + " found");
                 break;
             case "barrage":
                 rnd = Random.Range(2, 5);
@@ -257,20 +293,43 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "horn drill":
                 oneHitKO(isPlayer);
                 break;
+            case "hyper fang":
+                isFlinched(isPlayer, 1);
+                break;
+            case "ice punch":
+                isFrozen(isPlayer, 1);
+                break;
+            case "jump kick":
+                //lose 1/2 hp is the user misses just like high jump kick
+                break;
+            case "karate chop":
+                //high crit ratio 1/8 versus 1/16
+                break;
+            case "leech life":
+                final_heal = Mathf.Round(predictedDamage / 2f);
+                break;
+            case "low kick":
+                isFlinched(isPlayer, 3);
+                break;
 
         }
+        final_damage = predictedDamage;
+        Debug.Log("final heal = " + final_heal);
+        Debug.Log("final damage = " + final_damage);
+        Debug.Log("Effect hit = " + stunHit);
     }
 
     public void specialAttacks(string name, float predictedDamage, bool isPlayer)
     {
-        name = name.ToLower();
+        final_damage = 0;
         final_heal = 0;
+        name = name.ToLower();
         int rnd;
         bool stunHit = false;
         switch (name)
         {
             default:
-                Debug.Log("No attack with name " + name + " found");
+                Debug.Log("No special attack with name " + name + " found");
                 break;
             case "absorb":
                 final_heal = predictedDamage / 2f;
@@ -335,7 +394,23 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "hydro pump":  //no additional effect
                 break;
+            case "hyper beam":  //cannot move next turn
+                if (isPlayer)
+                    playerStats.canAttack = false;
+                else
+                    enemyStats.canAttack = false;
+                break;
+            case "ice beam":
+                isFrozen(isPlayer, 1);
+                break;
+            case "mega drain":
+                final_heal = Mathf.Round(predictedDamage / 2f);
+                break;
         }
+        //Check for lightscreen to halve special attack damage
+        final_damage = predictedDamage;
+        Debug.Log("final heal = " + final_heal);
+        Debug.Log("final damage = " + final_damage);
         Debug.Log("Effect hit = " + stunHit);
     }
 
@@ -588,9 +663,15 @@ public class Attack_Switch_Case : MonoBehaviour {
         if (stunHit)
         {
             if (isPlayer)
-                enemyStats.isFrozen = true;
+            {
+                if(enemyStats.Type1.ToLower() != "ice" && enemyStats.Type2.ToLower() != "ice")
+                    enemyStats.isFrozen = true;
+            }
             else
-                playerStats.isFrozen = true;
+            {
+                if (playerStats.Type1.ToLower() != "ice" && playerStats.Type2.ToLower() != "ice")
+                    playerStats.isFrozen = true;
+            }
         }
     }
 
@@ -640,13 +721,19 @@ public class Attack_Switch_Case : MonoBehaviour {
         {
             if (isPlayer)
             {
-                enemyStats.isFrozen = true;
-                changeStats(speed, -6, !isPlayer);
+                if (enemyStats.Type1.ToLower() != "electric" && enemyStats.Type2.ToLower() != "electric" && !enemyStats.hasSubstitute)
+                {
+                    enemyStats.isFrozen = true;
+                    changeStats(speed, -6, !isPlayer);
+                }
             }
             else
             {
-                playerStats.isFrozen = true;
-                changeStats(speed, -6, isPlayer);
+                if (playerStats.Type1.ToLower() != "electric" && playerStats.Type2.ToLower() != "electric" && !playerStats.hasSubstitute)
+                {
+                    playerStats.isFrozen = true;
+                    changeStats(speed, -6, isPlayer);
+                }
             }
         }
     }
