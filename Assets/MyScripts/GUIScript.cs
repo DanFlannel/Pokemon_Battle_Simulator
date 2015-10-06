@@ -39,15 +39,15 @@ public class GUIScript : MonoBehaviour {
 		pcb = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
 		pcf = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
 		attackGen = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
-		generatePokemonStats();
-		attackNames();
+
 	}	
 	
 	// Update is called once per frame
 	void Update () { 
 
 		if(attackGen.attackDatabaseCompiled && !generatedAttacks){
-			attackNames();
+            generatePokemonStats();
+            attackNames();
 		}
 	}
 
