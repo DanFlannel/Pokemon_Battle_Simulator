@@ -34,6 +34,7 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     public void statusAttacks(string name, bool isPlayer)
     {
+        Debug.Log("attack name: " + name);
         string tempname = name.ToLower();
         int rnd;
         switch (tempname)
@@ -135,20 +136,21 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     public void physicalAttacks(string name, float predictedDamage, bool isPlayer)
     {
+        Debug.Log("attack name: " + name);
         final_damage = 0;
         final_heal = 0;
-        name = name.ToLower();
+        string tempname = name.ToLower();
         bool stunHit = false;
         int rnd;
         float recoil;
-        switch (name.ToLower())
+        switch (tempname)
         {
             default:
                 Debug.Log("No physical attack with name " + name.ToLower() + " found");
                 break;
             case "barrage":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(predictedDamage, rnd);
+                predictedDamage = stackAttacks(predictedDamage, rnd, name);
                 break;
             case "bide":
                 //waits 2 turns then deals back double.... :(
@@ -177,7 +179,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "bonemerang":
                 rnd = 2;
-                predictedDamage = stackAttacks(predictedDamage, rnd);
+                predictedDamage = stackAttacks(predictedDamage, rnd, name);
                 break;
             case "clamp":   //traps for 4-5 turns dealing 1/16th damage
                 rnd = Random.Range(4, 5);
@@ -193,7 +195,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "comet punch":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(predictedDamage, rnd);
+                predictedDamage = stackAttacks(predictedDamage, rnd,name);
                 break;
             case "constrict":
                 stunHit = stunProbability(1);
@@ -229,11 +231,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "double kick":
                 rnd = 2;
-                stackAttacks(predictedDamage, rnd);
+                stackAttacks(predictedDamage, rnd,name);
                 break;
             case "double slap":
                 rnd = Random.Range(2, 5);
-                stackAttacks(predictedDamage, rnd);
+                stackAttacks(predictedDamage, rnd,name);
                 break;
             case "double edge":
                 recoil = predictedDamage / 3f;
@@ -273,11 +275,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "fury attack":
                 rnd = Random.Range(2, 5);
-                stackAttacks(predictedDamage, rnd);
+                stackAttacks(predictedDamage, rnd,name);
                 break;
             case "fury swipes":
                 rnd = Random.Range(2, 5);
-                stackAttacks(predictedDamage, rnd);
+                stackAttacks(predictedDamage, rnd,name);
                 break;
             case "guillotine":
                 oneHitKO(isPlayer);
@@ -321,12 +323,13 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     public void specialAttacks(string name, float predictedDamage, bool isPlayer)
     {
+        Debug.Log("attack name: " + name);
         final_damage = 0;
         final_heal = 0;
-        name = name.ToLower();
+        string tempname = name.ToLower();
         int rnd;
         bool stunHit = false;
-        switch (name)
+        switch (tempname)
         {
             default:
                 Debug.Log("No special attack with name " + name + " found");
@@ -634,12 +637,13 @@ public class Attack_Switch_Case : MonoBehaviour {
     /// this method takes in the amount of times the attack gets calculated so that the total damage accounts for 
     /// each attack as its own sperate attack rather than multiplying by the number
     /// </summary>
-    private float stackAttacks(float predictedDamage, int rnd)
+    private float stackAttacks(float predictedDamage, int rnd, string name)
     {
+        Debug.Log("Final name check:" + name);
         predictedDamage = 0;
         for (int i = 0; i < rnd; i++)
         {
-            predictedDamage += attackCalc.calculateDamage();
+            predictedDamage += attackCalc.calculateDamage(name);
         }
 
         return predictedDamage;

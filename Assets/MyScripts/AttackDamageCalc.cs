@@ -151,7 +151,7 @@ public class AttackDamageCalc : MonoBehaviour {
         //Debug.Log("attack index: " + attack_index);
         string attackCat = attacks.attackList[attack_index].cat;
 
-        float predictedDamage = calculateDamage();
+        float predictedDamage = calculateDamage(attack_name);
         int accuracy = attacks.attackList[attack_index].accuracy;
         Debug.Log("Predicted Damage: " + predictedDamage);
 
@@ -161,6 +161,7 @@ public class AttackDamageCalc : MonoBehaviour {
             Debug.Log("The move missed!");
             return;
         }
+        Debug.Log("Attak Name: " + attack_name);
         switch (attackCat)
         {
             case "Status":
@@ -179,11 +180,11 @@ public class AttackDamageCalc : MonoBehaviour {
     /// <summary>
     /// This method calculates the damage that each attack will do based off the serebii.net damage formula
     /// </summary>
-    public float calculateDamage()
+    public float calculateDamage(string name)
     {
         float final_damage = 0;
         //Setup for the methods that will get different aspects of the damage calculation
-        int attack_index = getAttackListIndex(attack_name);
+        int attack_index = getAttackListIndex(name);
         //Debug.Log("attack index: " + attack_index);
         string attackType = attacks.attackList[attack_index].type;
         string attackCat = attacks.attackList[attack_index].cat;
@@ -361,7 +362,7 @@ public class AttackDamageCalc : MonoBehaviour {
                 return i;
             }
         }
-        Debug.Log("No Attack with name " + name.ToLower() + " found");
+        Debug.Log("No Attack with name " + name + " found");
         return 0;
     }
 
