@@ -38,9 +38,9 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
     private string[] pathGen()
     {
-        loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Front/" + pName + ".gif";
+        loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Back/" + pName + ".gif";
         string temp = "Sprites/" + "Front/" + pName + ".gif";
-        string temp2 = Application.dataPath + "/Resources" + "/Sprites/" + "Front/";
+        string temp2 = Application.dataPath + "/Resources" + "/Sprites/" + "Back/";
         string temp3 = pName + "*";
         string[] path = Directory.GetFiles(temp2, temp3);
 

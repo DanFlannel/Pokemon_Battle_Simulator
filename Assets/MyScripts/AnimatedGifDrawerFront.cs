@@ -16,9 +16,16 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 	public float height;
 	public float percentage;
 	public Vector2 positionPlaceHolder;
+    public Text debugText;
     private SpriteImageArray sia;
 	
 	List<Texture2D> gifFrames = new List<Texture2D> ();
+
+    void Awake()
+    {
+        string[] path = pathGen();
+        debugText.text = path[0];
+    }
 
 	void Start ()
 	{
