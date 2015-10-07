@@ -71,7 +71,8 @@ public class PokemonCreatorFront : MonoBehaviour {
 		StatsBasedOffLevel();
 		maxHP = HP;
 		curHp = maxHP;
-	}
+        Debug.Log("Scene has now loaded with enemy: " + PokemonName);
+    }
 	
 	// Update is called once per frame
 	void Update () {

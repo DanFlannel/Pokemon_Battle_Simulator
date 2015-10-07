@@ -2,6 +2,8 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 using UnityEngine;
+using System.IO;
+using UnityEngine.UI;
 
 public class AnimatedGifDrawerFront : MonoBehaviour
 {
@@ -14,12 +16,15 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 	public float height;
 	public float percentage;
 	public Vector2 positionPlaceHolder;
+    private SpriteImageArray sia;
 	
 	List<Texture2D> gifFrames = new List<Texture2D> ();
+
 	void Start ()
 	{
 		percentage = 1f;	
 		positionPlaceHolder = GameObject.FindGameObjectWithTag("PTRPlace").transform.position;
+        sia = GameObject.FindGameObjectWithTag("FrontImages").GetComponent<SpriteImageArray>();
 	}
 	
 	void OnGUI ()
@@ -30,21 +35,34 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         GUI.DrawTexture(new Rect(positionPlaceHolder.x, Screen.height - positionPlaceHolder.y, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
 
     }
+    private string[] pathGen()
+    {
+        loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Front/" + pName + ".gif";
+        string temp = "Sprites/" + "Front/" + pName + ".gif";
+        string temp2 = Application.dataPath + "/Resources" + "/Sprites/" + "Front/";
+        string temp3 = pName + "*";
+        string[] path = Directory.GetFiles(temp2, temp3);
 
-    public void loadImage ()
-	{
-			loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Front/" + pName + ".gif";
+        return path;
+    }
 
-		//Debug.Log (loadingGifPath);
-		var gifImage = Image.FromFile (loadingGifPath);
-		//var gifImage = (Image)Resources.Load ("/Sprites/squirtle");
-		var dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
+    public void loadImage()
+    {
+
+        string[] path = pathGen();
+
+        Debug.Log (path[0]);
+        Debug.Log(loadingGifPath);
+        //Debug.Log(Resources.Load(temp));
+        System.Drawing.Image gifImage = System.Drawing.Image.FromFile(path[0].ToString());
+
+        FrameDimension dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
 		int frameCount = gifImage.GetFrameCount (dimension);
 		for (int i = 0; i < frameCount; i++) {
 			gifImage.SelectActiveFrame (dimension, i);
-			var frame = new Bitmap (gifImage.Width, gifImage.Height);
+			Bitmap frame = new Bitmap (gifImage.Width, gifImage.Height);
 			System.Drawing.Graphics.FromImage (frame).DrawImage (gifImage, Point.Empty);
-			var frameTexture = new Texture2D (frame.Width, frame.Height);
+			Texture2D frameTexture = new Texture2D (frame.Width, frame.Height);
 			for (int x = 0; x < frame.Width; x++)
 				for (int y = 0; y < frame.Height; y++) {
 					System.Drawing.Color sourceColor = frame.GetPixel (x, y);

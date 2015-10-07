@@ -591,7 +591,7 @@ public class PokemonAttacks : MonoBehaviour
 		attackList.Add (new attacks ("Growth", normal, status, 0, 0, 40));
 		attackList.Add (new attacks ("Guillotine", normal, physical, 0, 0, 5));
 		attackList.Add (new attacks ("Gust", normal, special, 40, 100, 35));
-		attackList.Add (new attacks ("Harden", normal, status, 0, 0, 30));
+		attackList.Add (new attacks ("Harden", normal, status, 0, 100, 30));
 		attackList.Add (new attacks ("Haze", ice, status, 0, 0, 30));
 		attackList.Add (new attacks ("Headbutt", normal, physical, 70, 100, 15));
 		attackList.Add (new attacks ("High Jump Kick", fighting, physical, 70, 100, 15));

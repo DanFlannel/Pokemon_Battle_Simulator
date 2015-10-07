@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,14 +35,29 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         //GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
         GUI.DrawTexture (new Rect (positionPlaceHolder.x/1.5f, positionPlaceHolder.y/1.5f, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
     }
+
+    private string[] pathGen()
+    {
+        loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Front/" + pName + ".gif";
+        string temp = "Sprites/" + "Front/" + pName + ".gif";
+        string temp2 = Application.dataPath + "/Resources" + "/Sprites/" + "Front/";
+        string temp3 = pName + "*";
+        string[] path = Directory.GetFiles(temp2, temp3);
+
+        return path;
+    }
+
 	public void loadImage ()
 	{
-		loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Back/" + pName + ".gif";
 
-		//Debug.Log (loadingGifPath);
-		var gifImage = System.Drawing.Image.FromFile (loadingGifPath);
-		//var gifImage = (Image)Resources.Load ("/Sprites/squirtle");
-		var dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
+        string[] path = pathGen();
+
+        Debug.Log(path[0]);
+        Debug.Log(loadingGifPath);
+        //Debug.Log(Resources.Load(temp));
+        System.Drawing.Image gifImage = System.Drawing.Image.FromFile(path[0].ToString());
+
+        var dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
 		int frameCount = gifImage.GetFrameCount (dimension);
 		for (int i = 0; i < frameCount; i++) {
 			gifImage.SelectActiveFrame (dimension, i);

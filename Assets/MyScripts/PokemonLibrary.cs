@@ -32,7 +32,7 @@ public class PokemonLibrary : MonoBehaviour
 	// Use this for initialization
 	void Awake ()
 	{
-		libraryBaseStats ();
+        libraryBaseStats ();
 	}
 	
 	// Update is called once per frame
