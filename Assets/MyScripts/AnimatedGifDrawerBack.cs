@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
@@ -10,67 +11,109 @@ using UnityEngine.UI;
 /// </summary>
 public class AnimatedGifDrawerBack : MonoBehaviour
 {
-	public string loadingGifPath;
-	public float speed = 1;
-	public Vector2 drawPosition;
-	public string pName;
-	public bool test = false;
-	public float width;
-	public float height;
-	public float percentage;
-	public Vector2 positionPlaceHolder;
-	
-	List<Texture2D> gifFrames = new List<Texture2D> ();
-	void Start ()
-	{
-		percentage = 1.3f;
-		positionPlaceHolder = GameObject.FindGameObjectWithTag("PBLPlace").transform.position;
-	}
-	
-	void OnGUI ()
-	{
-        //GUI.DrawTexture (new Rect (drawPosition.x, drawPosition.y, 200/*gifFrames [0].width*/, 200/*gifFrames [0].height*/), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
-		//GUI.DrawTexture (new Rect (drawPosition.x, drawPosition.y, (int)((float)gifFrames [0].width * 1.5f),(int)((float)gifFrames [0].height), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
-		//height = (float)Screen.height - 100f * percentage;
-        //GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
-        GUI.DrawTexture (new Rect (positionPlaceHolder.x/1.5f, positionPlaceHolder.y/1.5f, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
-    }
+    public string loadingGifPath;
+    public float speed = 1;
+    public Vector2 drawPosition;
+    public string pName;
 
-    private string[] pathGen()
+    public float width;
+    public float height;
+    public float percentage;
+    public Vector2 positionPlaceHolder;
+    //public Text debugText;
+    private SpriteImageArray sia;
+    private string assetPath;
+    public bool canLoadImage;
+
+    List<Texture2D> gifFrames = new List<Texture2D> ();
+
+    void Start ()
     {
-        loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Back/" + pName + ".gif";
-        string temp = "Sprites/" + "Front/" + pName + ".gif";
-        string temp2 = Application.dataPath + "/Resources" + "/Sprites/" + "Back/";
-        string temp3 = pName + "*";
-        string[] path = Directory.GetFiles(temp2, temp3);
+        Debug.Log("Started back gen");
+        percentage = 1.3f;
+        positionPlaceHolder = GameObject.FindGameObjectWithTag("PTRPlace").transform.position;
+        sia = GameObject.FindGameObjectWithTag("FrontImages").GetComponent<SpriteImageArray>();
+        Debug.Log("Finished start method");
 
-        return path;
     }
 
-	public void loadImage ()
-	{
+    void OnGUI ()
+    {
+        height = (float)Screen.height - 80f / percentage;
 
-        string[] path = pathGen();
+        //GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
+        GUI.DrawTexture(new Rect(positionPlaceHolder.x, Screen.height - positionPlaceHolder.y, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
 
-        Debug.Log(path[0]);
-        Debug.Log(loadingGifPath);
+    }
+
+    public IEnumerator pathGen()
+    {
+        if (Application.isEditor)
+        {
+            assetPath = Application.dataPath + "/Bundle.Unity3D";
+        }
+        else
+        {
+            assetPath = Application.dataPath + "/Bundle.Unity3D";
+        }
+        WWW load = new WWW(assetPath);
+        yield return load;
+
+    }
+
+    public System.Drawing.Image Texture2Image(Texture2D texture)
+    {
+        System.Drawing.Image img;
+
+        texture.EncodeToPNG();
+        string path = Application.dataPath + "/Resources/Sprites/Back/" + pName + ".gif";
+        img = Bitmap.FromFile(path);
+
+        return img;
+    }
+
+    private int getSpriteInArray(string name)
+    {
+        int index = 5;
+        Debug.Log("Searching for " + name + " index in sprite array");
+        for (int i = 0; i < sia.spriteArray.Length; i++)
+        {
+            if (name == sia.spriteArray[i].name.ToLower())
+            {
+                index = i;
+                Debug.Log(pName + " sprite found");
+                return index;
+            }
+        }
+        Debug.Log("sprite not founc");
+        return index;
+    }
+
+    public void loadImage()
+    {
+
+        //Debug.Log(loadingGifPath);
         //Debug.Log(Resources.Load(temp));
-        System.Drawing.Image gifImage = System.Drawing.Image.FromFile(path[0].ToString());
+        int index = getSpriteInArray(pName);
+        Texture2D temp = sia.spriteArray[index];
+        System.Drawing.Image gifImage = Texture2Image(temp);
 
-        var dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
-		int frameCount = gifImage.GetFrameCount (dimension);
-		for (int i = 0; i < frameCount; i++) {
-			gifImage.SelectActiveFrame (dimension, i);
-			var frame = new Bitmap (gifImage.Width, gifImage.Height);
-			System.Drawing.Graphics.FromImage (frame).DrawImage (gifImage, Point.Empty);
-			var frameTexture = new Texture2D (frame.Width, frame.Height);
-			for (int x = 0; x < frame.Width; x++)
-				for (int y = 0; y < frame.Height; y++) {
-					System.Drawing.Color sourceColor = frame.GetPixel (x, y);
-					frameTexture.SetPixel (frame.Width - 1 + x, - y, new Color32 (sourceColor.R, sourceColor.G, sourceColor.B, sourceColor.A)); // for some reason, x is flipped
-				}
-			frameTexture.Apply ();
-			gifFrames.Add (frameTexture);
-		}
-	}
+        FrameDimension dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
+        int frameCount = gifImage.GetFrameCount (dimension);
+        for (int i = 0; i < frameCount; i++)
+        {
+            gifImage.SelectActiveFrame (dimension, i);
+            Bitmap frame = new Bitmap (gifImage.Width, gifImage.Height);
+            System.Drawing.Graphics.FromImage (frame).DrawImage (gifImage, Point.Empty);
+            Texture2D frameTexture = new Texture2D (frame.Width, frame.Height);
+            for (int x = 0; x < frame.Width; x++)
+                for (int y = 0; y < frame.Height; y++)
+                {
+                    System.Drawing.Color sourceColor = frame.GetPixel (x, y);
+                    frameTexture.SetPixel (frame.Width - 1 + x, - y, new Color32 (sourceColor.R, sourceColor.G, sourceColor.B, sourceColor.A)); // for some reason, x is flipped
+                }
+            frameTexture.Apply ();
+            gifFrames.Add (frameTexture);
+        }
+    }
 }
