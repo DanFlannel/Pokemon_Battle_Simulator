@@ -36,9 +36,4 @@ public class LoadLevel : MonoBehaviour {
         yield return (0);
        
     }
-
-    public void loadLevelInput(string name)
-    {
-        Application.LoadLevel(name);
-    }
 }
