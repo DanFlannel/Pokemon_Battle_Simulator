@@ -536,7 +536,7 @@ public class PokemonAttacks : MonoBehaviour
 		attackList.Add (new attacks ("Amnesia", psychic, status, 0, 0, 20));
 		attackList.Add (new attacks ("Aurora Beam", ice, special, 65, 100, 20));
 		attackList.Add (new attacks ("Barrage", normal, physical, 15, 85, 20));
-		attackList.Add (new attacks ("Barrier", psychic, status, 0, 0, 20));
+		attackList.Add (new attacks ("Barrier", psychic, status, 0, 100, 20));
 		attackList.Add (new attacks ("Bide", normal, physical, 0, 0, 10));
 		attackList.Add (new attacks ("Bind", normal, physical, 15, 85, 20));
 		attackList.Add (new attacks ("Bite", dark, physical, 60, 100, 25));
@@ -551,7 +551,7 @@ public class PokemonAttacks : MonoBehaviour
 		attackList.Add (new attacks ("Confuse Ray", ghost, status, 0, 100, 10));
 		attackList.Add (new attacks ("Confusion", physical, special, 50, 100, 25));
 		attackList.Add (new attacks ("Constrict", normal, physical, 10, 100, 35));
-		attackList.Add (new attacks ("Conversion", normal, status, 0, 0, 30));
+		attackList.Add (new attacks ("Conversion", normal, status, 0, 100, 30));
 		attackList.Add (new attacks ("Counter", fighting, physical, 0, 100, 20));
 		attackList.Add (new attacks ("Crabhammer", water, physical, 100, 90, 10));
 		#endregion
