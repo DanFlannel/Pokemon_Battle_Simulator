@@ -12,6 +12,8 @@ TagManager:
   - GUIScripts
   - PTRPlace
   - PBLPlace
+  - FrontImages
+  - BackImages
   layers:
   - Default
   - TransparentFX
