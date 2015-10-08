@@ -42,15 +42,14 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     {
         while (hasWWW == false)
         {
+            Debug.Log("in while loop");
             if (this.GetComponent<PokemonCreatorFront>().name == "")
             {
 
             }
             else
             {
-                url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorFront>().PokemonName.ToLower() + ".gif";
-                Debug.Log(url);
-                
+                url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorFront>().PokemonName.ToLower() + ".gif";           
 
                 StartCoroutine(WaitForRequest(positionPlaceHolderGO, url));
                 hasWWW = true;
@@ -107,17 +106,15 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         }
         MemoryStream ms = new MemoryStream(byteArrayIn);
         System.Drawing.Image returnImage = System.Drawing.Image.FromStream(ms);
+        finishedWWW = true;
         return returnImage;
     }
 
     public void loadImage()
     {
-        //string[] path = pathGen();
-        //string path2 = url;
-        //Debug.Log (path2);
-
+        Debug.Log("Called Load Image");
         System.Drawing.Image gifImage = ByteArrayToImage(www.bytes);
-        canOnGUI = true;
+
 
         FrameDimension dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
 		int frameCount = gifImage.GetFrameCount (dimension);
@@ -133,6 +130,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 				}
 			frameTexture.Apply ();
 			gifFrames.Add (frameTexture);
-		}
-	}
+        }
+        canOnGUI = true;
+    }
 }

@@ -83,6 +83,7 @@ public class PokemonCreatorFront : MonoBehaviour {
             if (hasloaded == false)
             {
                 gif.loadImage();
+                hasloaded = true;
             }
         }
 
