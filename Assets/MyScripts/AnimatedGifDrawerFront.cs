@@ -24,6 +24,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     private WWW www;
     public bool finishedWWW = false;
     public bool hasWWW = false;
+    public bool canOnGUI = false;
 	
 	List<Texture2D> gifFrames = new List<Texture2D> ();
 
@@ -62,7 +63,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 		height = (float)Screen.height - 80f / percentage;
 
 		//GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
-        if(finishedWWW)
+        if(canOnGUI)
             GUI.DrawTexture(new Rect(positionPlaceHolder.x, Screen.height - positionPlaceHolder.y, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
 
     }
@@ -90,51 +91,33 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         {
             Debug.Log("WWW Error: " + www.error);
         }
-
-        go.GetComponent<RawImage>().texture = www.texture;
         finishedWWW = true;
     }
 
-    public System.Drawing.Image Texture2Image(Texture2D texture)
+    public System.Drawing.Image ByteArrayToImage(byte[] byteArrayIn)
     {
         if(finishedWWW == false)
         {
             Debug.Log("Called too early");
         }
-        if (texture == null)
+        if (byteArrayIn == null)
         {
-            Debug.Log("Null texture");
+            Debug.Log("Null byte array");
             return null;
         }
-        //Save the texture to the stream.
-        byte[] bytes = texture.EncodeToPNG();
-
-        //Memory stream to store the bitmap data.
-        MemoryStream ms = new MemoryStream(bytes);
-
-        //Seek the beginning of the stream.
-        ms.Seek(0, SeekOrigin.Begin);
-
-        //Create an image from a stream.
-        System.Drawing.Image bmp2 = System.Drawing.Bitmap.FromStream(ms);
-
-        //Close the stream, we nolonger need it.
-        ms.Close();
-        ms = null;
-
-        return bmp2;
+        MemoryStream ms = new MemoryStream(byteArrayIn);
+        System.Drawing.Image returnImage = System.Drawing.Image.FromStream(ms);
+        return returnImage;
     }
 
     public void loadImage()
     {
+        //string[] path = pathGen();
+        //string path2 = url;
+        //Debug.Log (path2);
 
-        string[] path = pathGen();
-        string path2 = url;
-        Debug.Log (path2);
-
-
-
-        System.Drawing.Image gifImage = Texture2Image(www.texture);
+        System.Drawing.Image gifImage = ByteArrayToImage(www.bytes);
+        canOnGUI = true;
 
         FrameDimension dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
 		int frameCount = gifImage.GetFrameCount (dimension);

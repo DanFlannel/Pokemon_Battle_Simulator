@@ -60,7 +60,7 @@ public class PokemonCreatorFront : MonoBehaviour {
 	public int curHp;
 	public int maxHP;
 
-    private bool loaded = false;
+    private bool hasloaded = false;
 	
 	
 	// Use this for initialization
@@ -74,14 +74,13 @@ public class PokemonCreatorFront : MonoBehaviour {
         maxHP = HP;
         curHp = maxHP;
         Debug.Log("Scene has now loaded with enemy: " + PokemonName);
-        loaded = true;
     }
 	
 	// Update is called once per frame
 	void Update () {
         if (gif.finishedWWW)
         {
-            if (loaded == false)
+            if (hasloaded == false)
             {
                 gif.loadImage();
             }
