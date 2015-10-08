@@ -385,8 +385,10 @@ MonoBehaviour:
   percentage: 0
   positionPlaceHolderGO: {fileID: 0}
   positionPlaceHolder: {x: 0, y: 0}
-  debugText: {fileID: 0}
+  debugText: {fileID: 1797416166}
   finishedWWW: 0
+  hasWWW: 0
+  canOnGUI: 0
 --- !u!4 &204420188
 Transform:
   m_ObjectHideFlags: 0
@@ -733,8 +735,8 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -154.300003, y: 1.39999998}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchoredPosition: {x: -150, y: 25}
+  m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &346443352
 MonoBehaviour:
@@ -748,7 +750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1549,8 +1551,8 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 115.400002, y: 70.5}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchoredPosition: {x: 120, y: 70}
+  m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &820078250
 MonoBehaviour:
@@ -1564,7 +1566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2220,11 +2222,15 @@ MonoBehaviour:
   speed: .699999988
   drawPosition: {x: 100, y: 175}
   pName: 
-  test: 0
   width: 450
   height: 175
   percentage: 0
+  positionPlaceHolderGO: {fileID: 0}
   positionPlaceHolder: {x: 0, y: 0}
+  debugText: {fileID: 1797416166}
+  finishedWWW: 0
+  hasWWW: 0
+  canOnGUI: 0
 --- !u!4 &1398198469
 Transform:
   m_ObjectHideFlags: 0

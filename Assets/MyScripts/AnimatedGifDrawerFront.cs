@@ -104,6 +104,8 @@ public class AnimatedGifDrawerFront : MonoBehaviour
             Debug.Log("Null byte array");
             return null;
         }
+        //rcv
+        //Debug.Log(byteArrayIn.);
         MemoryStream ms = new MemoryStream(byteArrayIn);
         System.Drawing.Image returnImage = System.Drawing.Image.FromStream(ms);
         finishedWWW = true;
@@ -112,7 +114,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
     public void loadImage()
     {
-        Debug.Log("Called Load Image");
+        Debug.Log("Called Load Image FRONT");
         System.Drawing.Image gifImage = ByteArrayToImage(www.bytes);
 
 
@@ -131,6 +133,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 			frameTexture.Apply ();
 			gifFrames.Add (frameTexture);
         }
+        Debug.Log("Starting ON GUI!");
         canOnGUI = true;
     }
 }

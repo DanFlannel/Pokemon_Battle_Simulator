@@ -58,43 +58,56 @@ public class PokemonCreatorBack : MonoBehaviour {
 
 	private int temp;
 	public int curHp;
-	public int maxHP;	
-	
-	// Use this for initialization
-	void Start () {
-		temp = Random.Range(0,151);
-		pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
-		pa = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
-		gif = GameObject.FindGameObjectWithTag("PBL").GetComponent<AnimatedGifDrawerBack>();
-		GetPokemonBaseData(temp);	//testing to see if bulbasar pops up
-		StatsBasedOffLevel();
-		maxHP = HP;
-		curHp = maxHP;
-        Debug.Log("Scene has now loaded with player: " + PokemonName);
+	public int maxHP;
+
+    private bool hasloaded = false;
+
+
+    // Use this for initialization
+    void Start()
+    {
+        temp = Random.Range(0, 151);
+        pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
+        pa = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        gif = GameObject.FindGameObjectWithTag("PBL").GetComponent<AnimatedGifDrawerBack>();
+        GetPokemonBaseData(temp);   //testing to see if bulbasar pops up
+        StatsBasedOffLevel();
+        maxHP = HP;
+        curHp = maxHP;
+        Debug.Log("Scene has now loaded with enemy: " + PokemonName);
     }
 
-	// Update is called once per frame
-	void Update () {
-		
-	}
-	
-	private void GetPokemonBaseData(int id){
-		PokemonName = pl.GetName(id);
-		gif.pName = PokemonName.ToLower();
-		gif.loadImage();
-		PokemonID = id+1;
-		baseHP = pl.GetHP(id);
-		baseAttack = pl.GetAttack(id);
-		baseDefense = pl.GetDefense(id);
-		baseSpecial_Attack = pl.GetSpecialAttack(id);
-		baseSpecial_Defense = pl.GetSpecialDefense(id);
-		baseSpeed = pl.GetSpeed(id);
-		CanEvolve = pl.GetCanEvolve(id);
-		Type1 = pl.GetType1(id);
-		Type2 = pl.GetType2(id);
-	}
-	
-	private void StatsBasedOffLevel(){
+    // Update is called once per frame
+    void Update()
+    {
+        if (gif.finishedWWW)
+        {
+            if (hasloaded == false)
+            {
+                gif.loadImage();
+                hasloaded = true;
+            }
+        }
+
+    }
+
+    private void GetPokemonBaseData(int id)
+    {
+        PokemonName = pl.GetName(id);
+        gif.pName = PokemonName.ToLower();
+        PokemonID = id + 1;
+        baseHP = pl.GetHP(id);
+        baseAttack = pl.GetAttack(id);
+        baseDefense = pl.GetDefense(id);
+        baseSpecial_Attack = pl.GetSpecialAttack(id);
+        baseSpecial_Defense = pl.GetSpecialDefense(id);
+        baseSpeed = pl.GetSpeed(id);
+        CanEvolve = pl.GetCanEvolve(id);
+        Type1 = pl.GetType1(id);
+        Type2 = pl.GetType2(id);
+    }
+
+    private void StatsBasedOffLevel(){
 		
 		//max hp = 2* base stat + 110
 		//max other stats = 1.79* stat + 5(levelBonus)
