@@ -383,7 +383,10 @@ MonoBehaviour:
   width: 200
   height: 250
   percentage: 0
+  positionPlaceHolderGO: {fileID: 0}
   positionPlaceHolder: {x: 0, y: 0}
+  debugText: {fileID: 0}
+  finishedWWW: 0
 --- !u!4 &204420188
 Transform:
   m_ObjectHideFlags: 0
@@ -423,6 +426,24 @@ MonoBehaviour:
   speed_stage: 0
   Type1: 
   Type2: 
+  isUnderground: 0
+  canAttack: 1
+  canBeAttacked: 1
+  isConfused: 0
+  isSleeping: 0
+  hasAttacked: 0
+  isStunned: 0
+  isFlinched: 0
+  isBurned: 0
+  isFrozen: 0
+  isFlying: 0
+  cachedDamage: 0
+  sleepDuration: 0
+  confusedDuration: 0
+  hasSubstitute: 0
+  substitueHP: 0
+  hasLightScreen: 0
+  lightScreenDuration: 0
   curHp: 0
   maxHP: 0
 --- !u!1 &251324656
@@ -713,7 +734,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -154.300003, y: 1.39999998}
-  m_SizeDelta: {x: 10, y: 10}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &346443352
 MonoBehaviour:
@@ -723,25 +744,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 346443350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: -98529514, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!222 &346443353
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1530,7 +1550,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 115.400002, y: 70.5}
-  m_SizeDelta: {x: 10, y: 10}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &820078250
 MonoBehaviour:
@@ -1540,25 +1560,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 820078248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: -98529514, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!222 &820078251
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2166,6 +2185,24 @@ MonoBehaviour:
   speed_stage: 0
   Type1: 
   Type2: 
+  isUnderground: 0
+  canAttack: 1
+  canBeAttacked: 1
+  isConfused: 0
+  isSleeping: 0
+  hasAttacked: 0
+  isStunned: 0
+  isFlinched: 0
+  isBurned: 0
+  isFrozen: 0
+  isFlying: 0
+  cachedDamage: 0
+  sleepDuration: 0
+  confusedDuration: 0
+  hasSubstitute: 0
+  hasLightScreen: 0
+  lightScreenDuration: 0
+  substitueHP: 0
   curHp: 0
   maxHP: 0
 --- !u!114 &1398198468

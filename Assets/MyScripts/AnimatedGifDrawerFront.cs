@@ -16,33 +16,54 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 	public float width;
 	public float height;
 	public float percentage;
-	public Vector2 positionPlaceHolder;
+	public GameObject positionPlaceHolderGO;
+    public Vector2 positionPlaceHolder;
     public Text debugText;
     private SpriteImageArray sia;
     private string url;
     private WWW www;
     public bool finishedWWW = false;
+    public bool hasWWW = false;
 	
 	List<Texture2D> gifFrames = new List<Texture2D> ();
 
 	void Start ()
 	{
-        url = "http://www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/articuno.gif";
-
-        WWWForm form = new WWWForm();
-        www = new WWW(url);
-        StartCoroutine(WaitForRequest(www));
+        
 
         percentage = 1f;	
-		positionPlaceHolder = GameObject.FindGameObjectWithTag("PTRPlace").transform.position;
-	}
+		positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PTRPlace");
+        positionPlaceHolder = positionPlaceHolderGO.transform.position;
+
+    }
+
+    void Update()
+    {
+        while (hasWWW == false)
+        {
+            if (this.GetComponent<PokemonCreatorFront>().name == "")
+            {
+
+            }
+            else
+            {
+                url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorFront>().PokemonName.ToLower() + ".gif";
+                Debug.Log(url);
+                
+
+                StartCoroutine(WaitForRequest(positionPlaceHolderGO, url));
+                hasWWW = true;
+            }
+        }
+    }
 	
 	void OnGUI ()
 	{
 		height = (float)Screen.height - 80f / percentage;
 
 		//GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
-        GUI.DrawTexture(new Rect(positionPlaceHolder.x, Screen.height - positionPlaceHolder.y, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+        if(finishedWWW)
+            GUI.DrawTexture(new Rect(positionPlaceHolder.x, Screen.height - positionPlaceHolder.y, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
 
     }
 
@@ -57,17 +78,20 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         return path;
     }
 
-    IEnumerator WaitForRequest(WWW www)
+    IEnumerator WaitForRequest(GameObject go, string url)
     {
+        www = new WWW(url);
         yield return www;
         if(www.error == null)
         {
-            Debug.Log("WWW Ok!: " + www.text);
+            Debug.Log("WWW Ok!: " + www.texture.name);
         }
         else
         {
             Debug.Log("WWW Error: " + www.error);
         }
+
+        go.GetComponent<RawImage>().texture = www.texture;
         finishedWWW = true;
     }
 
@@ -107,6 +131,8 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         string[] path = pathGen();
         string path2 = url;
         Debug.Log (path2);
+
+
 
         System.Drawing.Image gifImage = Texture2Image(www.texture);
 
