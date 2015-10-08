@@ -4,6 +4,7 @@ using System.Drawing.Imaging;
 using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
+using System.Collections;
 
 public class AnimatedGifDrawerFront : MonoBehaviour
 {
@@ -18,20 +19,22 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 	public Vector2 positionPlaceHolder;
     public Text debugText;
     private SpriteImageArray sia;
+    private string url;
+    private WWW www;
+    public bool finishedWWW = false;
 	
 	List<Texture2D> gifFrames = new List<Texture2D> ();
 
-    void Awake()
-    {
-        string[] path = pathGen();
-        debugText.text = path[0];
-    }
-
 	void Start ()
 	{
-		percentage = 1f;	
+        url = "http://www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/articuno.gif";
+
+        WWWForm form = new WWWForm();
+        www = new WWW(url);
+        StartCoroutine(WaitForRequest(www));
+
+        percentage = 1f;	
 		positionPlaceHolder = GameObject.FindGameObjectWithTag("PTRPlace").transform.position;
-        sia = GameObject.FindGameObjectWithTag("FrontImages").GetComponent<SpriteImageArray>();
 	}
 	
 	void OnGUI ()
@@ -42,6 +45,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         GUI.DrawTexture(new Rect(positionPlaceHolder.x, Screen.height - positionPlaceHolder.y, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
 
     }
+
     private string[] pathGen()
     {
         loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Front/" + pName + ".gif";
@@ -53,15 +57,58 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         return path;
     }
 
+    IEnumerator WaitForRequest(WWW www)
+    {
+        yield return www;
+        if(www.error == null)
+        {
+            Debug.Log("WWW Ok!: " + www.text);
+        }
+        else
+        {
+            Debug.Log("WWW Error: " + www.error);
+        }
+        finishedWWW = true;
+    }
+
+    public System.Drawing.Image Texture2Image(Texture2D texture)
+    {
+        if(finishedWWW == false)
+        {
+            Debug.Log("Called too early");
+        }
+        if (texture == null)
+        {
+            Debug.Log("Null texture");
+            return null;
+        }
+        //Save the texture to the stream.
+        byte[] bytes = texture.EncodeToPNG();
+
+        //Memory stream to store the bitmap data.
+        MemoryStream ms = new MemoryStream(bytes);
+
+        //Seek the beginning of the stream.
+        ms.Seek(0, SeekOrigin.Begin);
+
+        //Create an image from a stream.
+        System.Drawing.Image bmp2 = System.Drawing.Bitmap.FromStream(ms);
+
+        //Close the stream, we nolonger need it.
+        ms.Close();
+        ms = null;
+
+        return bmp2;
+    }
+
     public void loadImage()
     {
 
         string[] path = pathGen();
+        string path2 = url;
+        Debug.Log (path2);
 
-        Debug.Log (path[0]);
-        Debug.Log(loadingGifPath);
-        //Debug.Log(Resources.Load(temp));
-        System.Drawing.Image gifImage = System.Drawing.Image.FromFile(path[0].ToString());
+        System.Drawing.Image gifImage = Texture2Image(www.texture);
 
         FrameDimension dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
 		int frameCount = gifImage.GetFrameCount (dimension);

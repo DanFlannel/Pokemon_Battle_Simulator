@@ -4,17 +4,18 @@ timeCreated: 1437081829
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
+    8900000: generatedCubemap
     21300000: blastoise_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
-    fadeOut: 0
+    fadeOut: 1
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
-    mipMapFadeDistanceEnd: 3
+    mipMapFadeDistanceEnd: 2
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
@@ -23,14 +24,14 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
-  cubemapConvolution: 0
+  cubemapConvolution: 1
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 2
     aniso: 16
     mipBias: -1
     wrapMode: 1

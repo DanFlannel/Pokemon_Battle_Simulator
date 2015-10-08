@@ -59,6 +59,8 @@ public class PokemonCreatorFront : MonoBehaviour {
 	private int temp;
 	public int curHp;
 	public int maxHP;
+
+    private bool loaded = false;
 	
 	
 	// Use this for initialization
@@ -67,16 +69,24 @@ public class PokemonCreatorFront : MonoBehaviour {
 		pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
 		pa = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
 		gif = GameObject.FindGameObjectWithTag("PTR").GetComponent<AnimatedGifDrawerFront>();
-		GetPokemonBaseData(temp);	//testing to see if bulbasar pops up
-		StatsBasedOffLevel();
-		maxHP = HP;
-		curHp = maxHP;
-        Debug.Log("Scene has now loaded with enemy: " + PokemonName);
+		
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (gif.finishedWWW)
+        {
+            if (loaded == false)
+            {
+                GetPokemonBaseData(temp);   //testing to see if bulbasar pops up
+                StatsBasedOffLevel();
+                maxHP = HP;
+                curHp = maxHP;
+                Debug.Log("Scene has now loaded with enemy: " + PokemonName);
+                loaded = true;
+            }
+        }
+
 	}
 	
 	private void GetPokemonBaseData(int id){

@@ -51,11 +51,12 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 	{
 
         string[] path = pathGen();
+        //string path2 = "http://www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/articuno.gif";
 
-        Debug.Log(path[0]);
-        Debug.Log(loadingGifPath);
+        //Debug.Log(path[0]);
+        //Debug.Log(loadingGifPath);
         //Debug.Log(Resources.Load(temp));
-        System.Drawing.Image gifImage = System.Drawing.Image.FromFile(path[0].ToString());
+        System.Drawing.Image gifImage = System.Drawing.Image.FromFile(path[0]);
 
         var dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
 		int frameCount = gifImage.GetFrameCount (dimension);
