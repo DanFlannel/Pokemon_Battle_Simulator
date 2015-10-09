@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Imaging;
+
 using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
@@ -8,15 +7,15 @@ using System.Collections;
 
 public class AnimatedGifDrawerFront : MonoBehaviour
 {
-	public string loadingGifPath;
-	public float speed = 1;
-	public Vector2 drawPosition;
-	public string pName;
+    public string loadingGifPath;
+    public float speed = 1;
+    public Vector2 drawPosition;
+    public string pName;
 
-	public float width;
-	public float height;
-	public float percentage;
-	public GameObject positionPlaceHolderGO;
+    public float width;
+    public float height;
+    public float percentage;
+    public GameObject positionPlaceHolderGO;
     public Vector2 positionPlaceHolder;
     public Text debugText;
     private SpriteImageArray sia;
@@ -25,15 +24,15 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     public bool finishedWWW = false;
     public bool hasWWW = false;
     public bool canOnGUI = false;
-	
-	List<Texture2D> gifFrames = new List<Texture2D> ();
 
-	void Start ()
-	{
-        
+    List<Texture2D> gifFrames = new List<Texture2D>();
 
-        percentage = 1f;	
-		positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PTRPlace");
+    void Start()
+    {
+
+
+        percentage = 1f;
+        positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PTRPlace");
         positionPlaceHolder = positionPlaceHolderGO.transform.position;
 
     }
@@ -42,47 +41,37 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     {
         while (hasWWW == false)
         {
-            Debug.Log("in while loop");
+            //Debug.Log("in while loop");
             if (this.GetComponent<PokemonCreatorFront>().name == "")
             {
 
             }
             else
             {
-                url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorFront>().PokemonName.ToLower() + ".gif";           
+                url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorFront>().PokemonName.ToLower() + ".gif";
 
                 StartCoroutine(WaitForRequest(positionPlaceHolderGO, url));
                 hasWWW = true;
             }
         }
     }
-	
-	void OnGUI ()
-	{
-		height = (float)Screen.height - 80f / percentage;
 
-		//GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
-        if(canOnGUI)
+    void OnGUI()
+    {
+        height = (float)Screen.height - 80f / percentage;
+
+        //GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
+        if (canOnGUI)
             GUI.DrawTexture(new Rect(positionPlaceHolder.x, Screen.height - positionPlaceHolder.y, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
 
     }
 
-    private string[] pathGen()
-    {
-        loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Front/" + pName + ".gif";
-        string temp = "Sprites/" + "Front/" + pName + ".gif";
-        string temp2 = Application.dataPath + "/Resources" + "/Sprites/" + "Front/";
-        string temp3 = pName + "*";
-        string[] path = Directory.GetFiles(temp2, temp3);
-
-        return path;
-    }
 
     IEnumerator WaitForRequest(GameObject go, string url)
     {
         www = new WWW(url);
         yield return www;
-        if(www.error == null)
+        if (www.error == null)
         {
             Debug.Log("WWW Ok!: " + www.texture.name);
         }
@@ -95,7 +84,8 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
     public System.Drawing.Image ByteArrayToImage(byte[] byteArrayIn)
     {
-        if(finishedWWW == false)
+        System.Drawing.Image returnImage;
+        if (finishedWWW == false)
         {
             Debug.Log("Called too early");
         }
@@ -104,13 +94,23 @@ public class AnimatedGifDrawerFront : MonoBehaviour
             Debug.Log("Null byte array");
             return null;
         }
-        //rcv
-        //Debug.Log(byteArrayIn.);
+        Debug.Log("Bytra array in length: " + byteArrayIn.GetLongLength(0));
         MemoryStream ms = new MemoryStream(byteArrayIn);
-        System.Drawing.Image returnImage = System.Drawing.Image.FromStream(ms);
+        returnImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
         finishedWWW = true;
+        debugText.text = "System.Image Created";
         return returnImage;
     }
+
+    /*public System.Drawing.Bitmap byteArrayToBitMap(byte[] data){
+        System.Drawing.Bitmap bmp;
+
+        System.Drawing.ImageConverter ic = new System.Drawing.ImageConverter();
+        bmp = (System.Drawing.Bitmap)ic.ConvertFrom(data);
+        Debug.Log("Converted byteArray to bit map");
+        return bmp;
+
+    }*/
 
     public void loadImage()
     {
@@ -118,12 +118,12 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         System.Drawing.Image gifImage = ByteArrayToImage(www.bytes);
 
 
-        FrameDimension dimension = new FrameDimension (gifImage.FrameDimensionsList [0]);
+        var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList [0]);
 		int frameCount = gifImage.GetFrameCount (dimension);
 		for (int i = 0; i < frameCount; i++) {
 			gifImage.SelectActiveFrame (dimension, i);
-			Bitmap frame = new Bitmap (gifImage.Width, gifImage.Height);
-			System.Drawing.Graphics.FromImage (frame).DrawImage (gifImage, Point.Empty);
+			var frame = new System.Drawing.Bitmap(gifImage.Width, gifImage.Height);
+			System.Drawing.Graphics.FromImage (frame).DrawImage (gifImage, System.Drawing.Point.Empty);
 			Texture2D frameTexture = new Texture2D (frame.Width, frame.Height);
 			for (int x = 0; x < frame.Width; x++)
 				for (int y = 0; y < frame.Height; y++) {
@@ -133,7 +133,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 			frameTexture.Apply ();
 			gifFrames.Add (frameTexture);
         }
-        Debug.Log("Starting ON GUI!");
+        //Debug.Log("Starting ON GUI!");
         canOnGUI = true;
     }
 }

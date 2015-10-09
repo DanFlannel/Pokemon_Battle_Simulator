@@ -84,8 +84,10 @@ public class PokemonCreatorBack : MonoBehaviour {
         {
             if (hasloaded == false)
             {
-                gif.loadImage();
+                Debug.Log("Calling Load Image BACK");
                 hasloaded = true;
+                gif.loadImage();
+                
             }
         }
 
