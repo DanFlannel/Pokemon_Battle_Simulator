@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Imaging;
 using UnityEngine;
 using System.IO;
-using UnityEngine.UI;
+using System;
 using System.Collections;
+using UnityEngine.UI;
 
 public class AnimatedGifDrawerBack : MonoBehaviour
 {
@@ -25,6 +24,9 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     public bool finishedWWW = false;
     public bool hasWWW = false;
     public bool canOnGUI = false;
+    public bool calledLoadImage = false;
+    public bool createdImage = false;
+    private System.Drawing.Image returnImage;
 
     List<Texture2D> gifFrames = new List<Texture2D>();
 
@@ -49,12 +51,12 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             }
             else
             {
-                debugText.text = "Name Found";
+                //debugText.text = "Name Found";
                 url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorBack>().PokemonName.ToLower() + ".gif";
 
                 StartCoroutine(WaitForRequest(positionPlaceHolderGO, url));
                 hasWWW = true;
-                debugText.text = "hawWWW = true";
+                //debugText.text = "hawWWW = true";
             }
         }
     }
@@ -65,19 +67,8 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
         //GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
         if (canOnGUI)
-            GUI.DrawTexture(new Rect(positionPlaceHolder.x, positionPlaceHolder.y, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+            GUI.DrawTexture(new Rect(positionPlaceHolder.x/2f, positionPlaceHolder.y/2f, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
 
-    }
-
-    private string[] pathGen()
-    {
-        loadingGifPath = Application.dataPath + "/Resources" + "/Sprites/" + "Front/" + pName + ".gif";
-        string temp = "Sprites/" + "Front/" + pName + ".gif";
-        string temp2 = Application.dataPath + "/Resources" + "/Sprites/" + "Front/";
-        string temp3 = pName + "*";
-        string[] path = Directory.GetFiles(temp2, temp3);
-
-        return path;
     }
 
     IEnumerator WaitForRequest(GameObject go, string url)
@@ -98,6 +89,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
     public System.Drawing.Image ByteArrayToImage(byte[] byteArrayIn)
     {
+        System.Drawing.Image returnImage;
         if (finishedWWW == false)
         {
             Debug.Log("Called too early");
@@ -105,30 +97,57 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         if (byteArrayIn == null)
         {
             Debug.Log("Null byte array");
-            return null;
         }
-        byteArrayIn.Initialize();
-        MemoryStream ms = new MemoryStream(byteArrayIn);
-        System.Drawing.Image returnImage = System.Drawing.Image.FromStream(ms);
-        finishedWWW = true;
-        debugText.text = "System.Image Created";
-        return returnImage;
+
+        Debug.Log("Bytra array in length: " + byteArrayIn.GetLongLength(0));
+       
+
+        try
+        {
+            MemoryStream ms = new MemoryStream(byteArrayIn);
+            returnImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
+            debugText.text = "System.Image Created";
+            Debug.Log("Created image from stream");
+            finishedWWW = true;
+            return returnImage;
+        }
+        catch (Exception e)
+        {
+            debugText.text = e.Message.ToString();
+            return null;
+            /*System.Drawing.Bitmap bmp = byteArrayToBitMap(byteArrayIn);
+            returnImage = System.Drawing.Image.FromHbitmap(bmp.GetHbitmap());
+            Debug.Log("Created image from hbitmap");
+            finishedWWW = true;*/
+        }
+        
     }
+
+    public System.Drawing.Bitmap byteArrayToBitMap(byte[] data){
+       System.Drawing.Bitmap bmp;
+
+       System.Drawing.ImageConverter ic = new System.Drawing.ImageConverter();
+       bmp = (System.Drawing.Bitmap)ic.ConvertFrom(data);
+       Debug.Log("Converted byteArray to bit map");
+       return bmp;
+
+   }
 
     public void loadImage()
     {
-        Debug.Log("Called Load Image BACK");
-        debugText.text = "Called Load Image BACK";
+        Debug.Log("Called Load Image FRONT");
         System.Drawing.Image gifImage = ByteArrayToImage(www.bytes);
 
+        if (gifImage == null)
+            return;
 
-        FrameDimension dimension = new FrameDimension(gifImage.FrameDimensionsList[0]);
+        var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList[0]);
         int frameCount = gifImage.GetFrameCount(dimension);
         for (int i = 0; i < frameCount; i++)
         {
             gifImage.SelectActiveFrame(dimension, i);
-            Bitmap frame = new Bitmap(gifImage.Width, gifImage.Height);
-            System.Drawing.Graphics.FromImage(frame).DrawImage(gifImage, Point.Empty);
+            var frame = new System.Drawing.Bitmap(gifImage.Width, gifImage.Height);
+            System.Drawing.Graphics.FromImage(frame).DrawImage(gifImage, System.Drawing.Point.Empty);
             Texture2D frameTexture = new Texture2D(frame.Width, frame.Height);
             for (int x = 0; x < frame.Width; x++)
                 for (int y = 0; y < frame.Height; y++)
@@ -139,8 +158,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             frameTexture.Apply();
             gifFrames.Add(frameTexture);
         }
-        Debug.Log("Starting ON GUI!");
-        debugText.text = "Starting OnGUI";
+        //Debug.Log("Starting ON GUI!");
         canOnGUI = true;
     }
 }
