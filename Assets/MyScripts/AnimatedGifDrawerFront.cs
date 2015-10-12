@@ -104,12 +104,10 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
     /*public System.Drawing.Bitmap byteArrayToBitMap(byte[] data){
         System.Drawing.Bitmap bmp;
-
         System.Drawing.ImageConverter ic = new System.Drawing.ImageConverter();
         bmp = (System.Drawing.Bitmap)ic.ConvertFrom(data);
         Debug.Log("Converted byteArray to bit map");
         return bmp;
-
     }*/
 
     public void loadImage()
@@ -118,20 +116,22 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         System.Drawing.Image gifImage = ByteArrayToImage(www.bytes);
 
 
-        var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList [0]);
-		int frameCount = gifImage.GetFrameCount (dimension);
-		for (int i = 0; i < frameCount; i++) {
-			gifImage.SelectActiveFrame (dimension, i);
-			var frame = new System.Drawing.Bitmap(gifImage.Width, gifImage.Height);
-			System.Drawing.Graphics.FromImage (frame).DrawImage (gifImage, System.Drawing.Point.Empty);
-			Texture2D frameTexture = new Texture2D (frame.Width, frame.Height);
-			for (int x = 0; x < frame.Width; x++)
-				for (int y = 0; y < frame.Height; y++) {
-					System.Drawing.Color sourceColor = frame.GetPixel (x, y);
-					frameTexture.SetPixel (frame.Width - 1 + x, - y, new Color32 (sourceColor.R, sourceColor.G, sourceColor.B, sourceColor.A)); // for some reason, x is flipped
-				}
-			frameTexture.Apply ();
-			gifFrames.Add (frameTexture);
+        var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList[0]);
+        int frameCount = gifImage.GetFrameCount(dimension);
+        for (int i = 0; i < frameCount; i++)
+        {
+            gifImage.SelectActiveFrame(dimension, i);
+            var frame = new System.Drawing.Bitmap(gifImage.Width, gifImage.Height);
+            System.Drawing.Graphics.FromImage(frame).DrawImage(gifImage, System.Drawing.Point.Empty);
+            Texture2D frameTexture = new Texture2D(frame.Width, frame.Height);
+            for (int x = 0; x < frame.Width; x++)
+                for (int y = 0; y < frame.Height; y++)
+                {
+                    System.Drawing.Color sourceColor = frame.GetPixel(x, y);
+                    frameTexture.SetPixel(frame.Width - 1 + x, -y, new Color32(sourceColor.R, sourceColor.G, sourceColor.B, sourceColor.A)); // for some reason, x is flipped
+                }
+            frameTexture.Apply();
+            gifFrames.Add(frameTexture);
         }
         //Debug.Log("Starting ON GUI!");
         canOnGUI = true;
