@@ -2988,7 +2988,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 13
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -2998,7 +2998,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Debug Text or Battle Text here
+  m_Text: 'Debug Text or Battle Text here
+
+    And here
+
+    And here'
 --- !u!222 &1797416167
 CanvasRenderer:
   m_ObjectHideFlags: 0
