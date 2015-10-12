@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 public class AnimatedGifDrawerFront : MonoBehaviour
 {
@@ -41,17 +42,19 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     {
         while (hasWWW == false)
         {
-            //Debug.Log("in while loop");
+            Debug.Log("in while loop");
             if (this.GetComponent<PokemonCreatorFront>().name == "")
             {
 
             }
             else
             {
+                //debugText.text = "Name Found";
                 url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorFront>().PokemonName.ToLower() + ".gif";
 
                 StartCoroutine(WaitForRequest(positionPlaceHolderGO, url));
                 hasWWW = true;
+                //debugText.text = "hawWWW = true";
             }
         }
     }
@@ -66,7 +69,6 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
     }
 
-
     IEnumerator WaitForRequest(GameObject go, string url)
     {
         www = new WWW(url);
@@ -79,6 +81,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         {
             Debug.Log("WWW Error: " + www.error);
         }
+        debugText.text = "finishedWWW = true";
         finishedWWW = true;
     }
 
@@ -92,29 +95,50 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         if (byteArrayIn == null)
         {
             Debug.Log("Null byte array");
-            return null;
         }
+
         Debug.Log("Bytra array in length: " + byteArrayIn.GetLongLength(0));
-        MemoryStream ms = new MemoryStream(byteArrayIn);
-        returnImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
-        finishedWWW = true;
-        debugText.text = "System.Image Created";
-        return returnImage;
+
+
+        try
+        {
+            MemoryStream ms = new MemoryStream(byteArrayIn);
+            returnImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
+            debugText.text = "System.Image Created";
+            Debug.Log("Created image from stream");
+            finishedWWW = true;
+            return returnImage;
+        }
+        catch (Exception e)
+        {
+            debugText.text = e.Message.ToString();
+            return null;
+            /*System.Drawing.Bitmap bmp = byteArrayToBitMap(byteArrayIn);
+            returnImage = System.Drawing.Image.FromHbitmap(bmp.GetHbitmap());
+            Debug.Log("Created image from hbitmap");
+            finishedWWW = true;*/
+        }
+
     }
 
-    /*public System.Drawing.Bitmap byteArrayToBitMap(byte[] data){
+    public System.Drawing.Bitmap byteArrayToBitMap(byte[] data)
+    {
         System.Drawing.Bitmap bmp;
+
         System.Drawing.ImageConverter ic = new System.Drawing.ImageConverter();
         bmp = (System.Drawing.Bitmap)ic.ConvertFrom(data);
         Debug.Log("Converted byteArray to bit map");
         return bmp;
-    }*/
+
+    }
 
     public void loadImage()
     {
         Debug.Log("Called Load Image FRONT");
         System.Drawing.Image gifImage = ByteArrayToImage(www.bytes);
 
+        if (gifImage == null)
+            return;
 
         var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList[0]);
         int frameCount = gifImage.GetFrameCount(dimension);
