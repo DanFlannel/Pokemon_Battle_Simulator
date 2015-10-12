@@ -83,7 +83,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         {
             Debug.Log("WWW Error: " + www.error);
         }
-        debugText.text = "finishedWWW = true";
+        //debugText.text = "finishedWWW = true";
         finishedWWW = true;
     }
 
@@ -106,14 +106,14 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         {
             MemoryStream ms = new MemoryStream(byteArrayIn);
             returnImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
-            debugText.text = "System.Image Created";
+            //debugText.text = "System.Image Created";
             Debug.Log("Created image from stream");
             finishedWWW = true;
             return returnImage;
         }
         catch (Exception e)
         {
-            debugText.text = e.Message.ToString();
+            //debugText.text = e.Message.ToString();
             return null;
             /*System.Drawing.Bitmap bmp = byteArrayToBitMap(byteArrayIn);
             returnImage = System.Drawing.Image.FromHbitmap(bmp.GetHbitmap());
