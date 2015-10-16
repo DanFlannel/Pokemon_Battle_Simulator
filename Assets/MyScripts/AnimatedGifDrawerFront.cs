@@ -10,11 +10,12 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 {
     public string loadingGifPath;
     public float speed = 1;
-    public Vector2 drawPosition;
     public string pName;
 
     public float width;
+    public float widthCalc;
     public float height;
+    public float heightCalc;
     public float percentage;
     public GameObject positionPlaceHolderGO;
     public Vector2 positionPlaceHolder;
@@ -25,15 +26,14 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     public bool finishedWWW = false;
     public bool hasWWW = false;
     public bool canOnGUI = false;
+    private System.Drawing.Image gifImage;
 
     List<Texture2D> gifFrames = new List<Texture2D>();
 
     void Start()
     {
-        percentage = 1f;
         positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PTRPlace");
-        positionPlaceHolder = positionPlaceHolderGO.transform.position;
-
+        positionPlaceHolder = positionPlaceHolderGO.GetComponent<RectTransform>().anchoredPosition;
     }
 
     void Update()
@@ -56,8 +56,14 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
     void OnGUI()
     {
-        if (canOnGUI) { 
-            GUI.DrawTexture(new Rect(positionPlaceHolder.x, Screen.height - positionPlaceHolder.y, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+
+        if (canOnGUI) {
+            height = gifImage.Height/2f;    //y
+            heightCalc = positionPlaceHolder.y;
+            width = gifImage.Width/2f;      //x
+            widthCalc = positionPlaceHolder.x;
+
+            GUI.DrawTexture(new Rect(Screen.width - (positionPlaceHolder.x + width), positionPlaceHolder.y - height, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
         }
     }
 
@@ -89,6 +95,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
             Debug.Log("Null byte array");
             return null;
         }
+        Debug.Log("Bytra array in length: " + byteArrayIn.GetLongLength(0));
 
         try
         {
@@ -107,7 +114,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
     public void loadImage()
     {
-        System.Drawing.Image gifImage = ByteArrayToImage(www.bytes);
+        gifImage = ByteArrayToImage(www.bytes);
 
         if (gifImage == null)
             return;

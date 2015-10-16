@@ -32,12 +32,8 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
     void Start()
     {
-
-
-        percentage = 1.3f;
         positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PBLPlace");
         positionPlaceHolder = positionPlaceHolderGO.transform.position;
-
     }
 
     void Update()

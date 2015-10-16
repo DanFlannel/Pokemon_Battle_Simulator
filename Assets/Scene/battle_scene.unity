@@ -381,7 +381,7 @@ MonoBehaviour:
   pName: 
   width: 200
   height: 250
-  percentage: 0
+  percentage: 1.5
   positionPlaceHolderGO: {fileID: 0}
   positionPlaceHolder: {x: 0, y: 0}
   debugText: {fileID: 1797416166}
@@ -2223,7 +2223,7 @@ MonoBehaviour:
   pName: 
   width: 450
   height: 175
-  percentage: 0
+  percentage: 1.75
   positionPlaceHolderGO: {fileID: 0}
   positionPlaceHolder: {x: 0, y: 0}
   debugText: {fileID: 1797416166}
