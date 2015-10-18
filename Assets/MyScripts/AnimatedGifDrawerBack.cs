@@ -13,7 +13,9 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     public string pName;
 
     public float width;
+    public float widthCalc;
     public float height;
+    public float heightCalc;
     public float percentage;
     public GameObject positionPlaceHolderGO;
     public Vector2 positionPlaceHolder;
@@ -26,14 +28,14 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     public bool canOnGUI = false;
     public bool calledLoadImage = false;
     public bool createdImage = false;
-    private System.Drawing.Image returnImage;
+    private System.Drawing.Image gifImage;
 
     List<Texture2D> gifFrames = new List<Texture2D>();
 
     void Start()
     {
         positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PBLPlace");
-        positionPlaceHolder = positionPlaceHolderGO.transform.position;
+        positionPlaceHolder = positionPlaceHolderGO.GetComponent<RectTransform>().anchoredPosition;
     }
 
     void Update()
@@ -63,8 +65,14 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
         //GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
         if (canOnGUI)
-            GUI.DrawTexture(new Rect(positionPlaceHolder.x/2f, positionPlaceHolder.y/2f, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+        {
+            height = gifImage.Height / 2f;    //y
+            heightCalc = positionPlaceHolder.y;
+            width = gifImage.Width /2f;      //x
+            widthCalc = positionPlaceHolder.x;
 
+            GUI.DrawTexture(new Rect(Screen.width/4f + widthCalc, Screen.height/3f + (heightCalc* percentage), gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+        }
     }
 
     IEnumerator WaitForRequest(GameObject go, string url)
@@ -85,7 +93,6 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
     public System.Drawing.Image ByteArrayToImage(byte[] byteArrayIn)
     {
-        System.Drawing.Image returnImage;
         if (finishedWWW == false)
         {
             Debug.Log("Called too early");
@@ -101,11 +108,11 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         try
         {
             MemoryStream ms = new MemoryStream(byteArrayIn);
-            returnImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
+            gifImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
             //debugText.text = "System.Image Created";
             Debug.Log("Created image from stream");
             finishedWWW = true;
-            return returnImage;
+            return gifImage;
         }
         catch (Exception e)
         {
@@ -132,7 +139,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     public void loadImage()
     {
         Debug.Log("Called Load Image FRONT");
-        System.Drawing.Image gifImage = ByteArrayToImage(www.bytes);
+        gifImage = ByteArrayToImage(www.bytes);
 
         if (gifImage == null)
             return;
