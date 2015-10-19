@@ -129,6 +129,86 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "meditate":
                 changeStats(attack, 1, isPlayer);
                 break;
+            case "metronome":       //preforms any move in the game at random? WTF?
+                break;
+            case "mimic":           //copies the opponents last move and replaces mimic with that
+                break;
+            case "minimize":        //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
+                break;
+            case "mirror move":     //preforms the opponents last move....
+                break;
+            case "mist":    //no stat changes for 5 turns
+                break;
+            case "poison gas":  //poisons the target so they lose 1/8 their hp per turn
+                break;
+            case "poison powder": //poisons the target so they lose 1/8 their hp per turn
+                break;
+            case "recover":
+                if (isPlayer)
+                {
+                    final_heal = playerStats.maxHP / 2f;
+                }
+                else
+                {
+                    final_heal = enemyStats.maxHP / 2f;
+                }
+                break;
+            case "reflect": //halves the damage from physical attacks for 5 turns
+                break;
+            case "rest":        //user falls asleep for 2 turns but health is fully recovered
+                if (isPlayer)
+                {
+                    final_heal = playerStats.maxHP;
+                }
+                else
+                {
+                    final_heal = enemyStats.maxHP;
+                }
+                break;
+            case "roar":    //opponent switches pokemon out
+                break;
+            case "sand attack": //lowers opponent accuracy by one stage
+                break;
+            case "screech":
+                changeStats(defense, -2, !isPlayer);
+                break;
+            case "sharpen":
+                changeStats(attack, 1, isPlayer);
+                break;
+            case "sing":    //puts the user to sleep for 1-3 turns
+                rnd = Random.Range(1, 3);
+                break;
+            case "smokescreen": //lower accuracy by one stage
+                break;
+            case "soft boiled":
+                if (isPlayer)
+                {
+                    final_heal = playerStats.maxHP/2f;
+                }
+                else
+                {
+                    final_heal = enemyStats.maxHP/2f;
+                }
+                break;
+            case "splash":      //This does nothing
+                final_damage = 0;
+                break;
+            case "spore":   //puts the opponent to sleep for 1-3 turns
+                rnd = Random.Range(1, 3);
+                break;
+            case "string shot":
+                changeStats(speed, -2, !isPlayer);
+                break;
+            case "stun spore":
+                isParalized(isPlayer, 10);
+                break;
+            case "substitute":
+                substitute(isPlayer);
+                break;
+            case "supersonic":
+                rnd = Random.Range(1, 4);
+                isConfused(isPlayer, 10, rnd);
+                break;
 
         }
         Debug.Log("Did a status move!");
@@ -150,7 +230,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "barrage":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(predictedDamage, rnd, name);
+                predictedDamage = stackAttacks(rnd, name);
                 break;
             case "bide":
                 //waits 2 turns then deals back double.... :(
@@ -179,7 +259,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "bonemerang":
                 rnd = 2;
-                predictedDamage = stackAttacks(predictedDamage, rnd, name);
+                predictedDamage = stackAttacks(rnd, name);
                 break;
             case "clamp":   //traps for 4-5 turns dealing 1/16th damage
                 rnd = Random.Range(4, 5);
@@ -195,7 +275,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "comet punch":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(predictedDamage, rnd,name);
+                predictedDamage = stackAttacks(rnd,name);
                 break;
             case "constrict":
                 stunHit = stunProbability(1);
@@ -231,11 +311,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "double kick":
                 rnd = 2;
-                stackAttacks(predictedDamage, rnd,name);
+                predictedDamage = stackAttacks(rnd,name);
                 break;
             case "double slap":
                 rnd = Random.Range(2, 5);
-                stackAttacks(predictedDamage, rnd,name);
+                predictedDamage = stackAttacks(rnd,name);
                 break;
             case "double edge":
                 recoil = predictedDamage / 3f;
@@ -275,11 +355,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "fury attack":
                 rnd = Random.Range(2, 5);
-                stackAttacks(predictedDamage, rnd,name);
+                predictedDamage = stackAttacks(rnd,name);
                 break;
             case "fury swipes":
                 rnd = Random.Range(2, 5);
-                stackAttacks(predictedDamage, rnd,name);
+                predictedDamage = stackAttacks(rnd,name);
                 break;
             case "guillotine":
                 oneHitKO(isPlayer);
@@ -313,7 +393,85 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "low kick":
                 isFlinched(isPlayer, 3);
                 break;
-
+            case "mega kick": //no additional effect
+                break;
+            case "mega punch":  //no additional effect
+                break;
+            case "pay day": //small amount of money at the end of the battle
+                break;
+            case "peck":    //no additional effect
+                break;
+            case "pin missile":
+                rnd = Random.Range(2, 5);
+                predictedDamage = stackAttacks(rnd, name);
+                break;
+            case "poison sting":        //chance to poison the target
+                stunHit = stunProbability(3);
+                break;
+            case "pound":   //no additional effect
+                break;
+            case "quick attack":    //has +1 priority
+                break;
+            case "rage":    //while rage is active, user increases his/her attack by one stage each time the user is hit
+                break;
+            case "razor leaf": //high crit ratio
+                break;
+            case "razor wind": //charges the first turn then attacks the second
+                final_damage = 0;
+                break;
+            case "rock slide":
+                isFlinched(isPlayer, 3);
+                break;
+            case "rock throw":  //no additional effect
+                break;
+            case "rolling kick":
+                isFlinched(isPlayer, 3);
+                break;
+            case "scratch": //no additional effect
+                break;
+            case "self destruct":   //user faints
+                if (isPlayer)
+                {
+                    playerStats.curHp = 0;
+                }
+                else
+                {
+                    enemyStats.curHp = 0;
+                }
+                break;
+            case "skull bash":  //charges first turn, raising defense, hits on the second turn
+                break;
+            case "sky attack":  //charges on first turn, hits on second, 30% flinch chance
+                isFlinched(isPlayer, 3);
+                break;
+            case "slam":    //no additional effect
+                break;
+            case "slash":   //high crit ratio 1/8 not 1/16
+                break;
+            case "spike cannon":
+                rnd = Random.Range(2, 5);
+                predictedDamage = stackAttacks(rnd, name);
+                break;
+            case "stomp":               //if minimized *2 damage
+                isFlinched(isPlayer, 3);
+                break;
+            case "strength":        //no additional effect
+                break;
+            case "struggle":    //hurts the user if all the pp are gone
+                break;
+            case "submission":
+                final_heal = (final_damage / 4f) * -1;
+                break;
+            case "super fang":
+                if (isPlayer)
+                {
+                    predictedDamage = enemyStats.curHp / 2f;
+                }
+                else
+                {
+                    predictedDamage = playerStats.curHp / 2f;
+                }
+                break;
         }
         final_damage = predictedDamage;
         Debug.Log("final heal = " + final_heal);
@@ -408,6 +566,33 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "mega drain":
                 final_heal = Mathf.Round(predictedDamage / 2f);
+                break;
+            case "night shade":
+                predictedDamage = levelBasedDamage(isPlayer);
+                break;
+            case "petal dance": //attacks for 2-3 turns, cannot be switched out, then becomes confused
+                break;
+            case "psybeam":
+                rnd = Random.Range(1, 4);
+                isConfused(isPlayer, 1, rnd);
+                break;
+            case "psychic":
+                stunHit = stunProbability(1);
+                if (stunHit)
+                    changeStats(spDefense, -1, !isPlayer);
+                break;
+            case "psywave":
+                float mod = Random.Range(.5f, 1.5f);
+                predictedDamage = levelBasedDamage(isPlayer) * mod;
+                break;
+            case "sludge":  //30% chance to poison the target
+                break;
+            case "smog":    //40% chance to poison the target
+                break;
+            case "solar beam":  //charges on the fist turn, hits on the second
+                break;
+            case "sonic boom":
+                predictedDamage = sonicBoom(isPlayer);
                 break;
         }
         //Check for lightscreen to halve special attack damage
@@ -637,16 +822,16 @@ public class Attack_Switch_Case : MonoBehaviour {
     /// this method takes in the amount of times the attack gets calculated so that the total damage accounts for 
     /// each attack as its own sperate attack rather than multiplying by the number
     /// </summary>
-    private float stackAttacks(float predictedDamage, int rnd, string name)
+    private float stackAttacks(int rnd, string name)
     {
         Debug.Log("Final name check:" + name);
-        predictedDamage = 0;
+        float damage = 0;
         for (int i = 0; i < rnd; i++)
         {
-            predictedDamage += attackCalc.calculateDamage(name);
+            damage += attackCalc.calculateDamage(name);
         }
 
-        return predictedDamage;
+        return damage;
     }
 
     private void isBurned(bool isPlayer, int prob)
@@ -822,6 +1007,68 @@ public class Attack_Switch_Case : MonoBehaviour {
                 enemyStats.curHp = 0;
             else
                 playerStats.curHp = 0;
+        }
+    }
+
+    private float levelBasedDamage(bool isPlayer)
+    {
+        float damage = 0;
+        if (isPlayer)
+        {
+            damage = enemyStats.Level;
+        }
+        else
+        {
+            damage = playerStats.Level;
+        }
+        return damage;
+    }
+
+    private float sonicBoom(bool isPlayer)
+    {
+        float damage = 0;
+        if (isPlayer)
+        {
+            if (enemyStats.Type1 == "Ghost" || enemyStats.Type2 == "Ghost")
+            {
+                damage = 0;
+            }
+            else
+            {
+                damage = 20;
+            }
+        }
+        else
+        {
+            if (playerStats.Type1 == "Ghost" || playerStats.Type2 == "Ghost")
+            {
+                damage = 0;
+            }
+            else
+            {
+                damage = 20;
+            }
+        }
+        return damage;
+    }
+
+    private void substitute(bool isPlayer)
+    {
+        if (isPlayer)
+        {
+            if(playerStats.curHp > (playerStats.maxHP / 4f))
+            {
+                playerStats.hasSubstitute = true;
+                final_heal = -1 * (playerStats.maxHP / 4f);
+            }
+        }
+        else
+        {
+            if(enemyStats.curHp > (enemyStats.maxHP / 4f))
+            {
+                enemyStats.hasSubstitute = true;
+                final_heal = -1 * (playerStats.maxHP / 4f);
+            }
         }
     }
 

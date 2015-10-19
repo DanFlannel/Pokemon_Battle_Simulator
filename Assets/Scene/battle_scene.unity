@@ -377,11 +377,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingGifPath: 
   speed: .699999988
-  drawPosition: {x: 400, y: 50}
   pName: 
   width: 200
+  widthCalc: 0
   height: 250
-  percentage: 1.5
+  heightCalc: 0
+  percentage: 1.75
   positionPlaceHolderGO: {fileID: 0}
   positionPlaceHolder: {x: 0, y: 0}
   debugText: {fileID: 1797416166}
@@ -2222,8 +2223,10 @@ MonoBehaviour:
   drawPosition: {x: 100, y: 175}
   pName: 
   width: 450
+  widthCalc: 0
   height: 175
-  percentage: 1.75
+  heightCalc: 0
+  percentage: 2
   positionPlaceHolderGO: {fileID: 0}
   positionPlaceHolder: {x: 0, y: 0}
   debugText: {fileID: 1797416166}

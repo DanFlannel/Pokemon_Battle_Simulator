@@ -33,6 +33,7 @@ public class PokemonCreatorBack : MonoBehaviour {
     public string Type1;
     public string Type2;
 
+    public bool isChargingAttack = false;
     public bool isUnderground = false;
     public bool canAttack = true;
     public bool canBeAttacked = true;
@@ -51,6 +52,7 @@ public class PokemonCreatorBack : MonoBehaviour {
     public bool hasLightScreen = false;
     public int lightScreenDuration = 0;
     public int substitueHP = 0;
+    public string cachedAttackName;
 
     private PokemonLibrary pl;
 	private PokemonAttacks pa;
