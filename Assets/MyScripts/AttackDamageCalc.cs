@@ -507,6 +507,12 @@ public class AttackDamageCalc : MonoBehaviour {
         int missProb = 20 - hitProb;
         //Debug.Log("accuracy = " + hitProb);
         Debug.Log("miss probability = " + missProb + "/20");
+
+        if (missProb >= 20)
+        {
+            hit = true;
+            return hit;
+        }
         List<int> missNums = new List<int>();
     
         for(int i = 0; i < missProb; i++)
