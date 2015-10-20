@@ -35,7 +35,7 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     public void statusAttacks(string name, bool isPlayer)
     {
-        Debug.Log("attack name: " + name);
+        //Debug.Log("attack name: " + name);
         string tempname = name.ToLower();
         int rnd;
         switch (tempname)
@@ -237,7 +237,7 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     public void physicalAttacks(string name, float predictedDamage, bool isPlayer)
     {
-        Debug.Log("attack name: " + name);
+        //Debug.Log("attack name: " + name);
         final_damage = 0;
         final_heal = 0;
         string tempname = name.ToLower();
@@ -513,12 +513,11 @@ public class Attack_Switch_Case : MonoBehaviour {
         final_damage = predictedDamage;
         Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
-        Debug.Log("Effect hit = " + stunHit);
     }
 
     public void specialAttacks(string name, float predictedDamage, bool isPlayer)
     {
-        Debug.Log("attack name: " + name);
+        //Debug.Log("attack name: " + name);
         final_damage = 0;
         final_heal = 0;
         string tempname = name.ToLower();
@@ -656,7 +655,6 @@ public class Attack_Switch_Case : MonoBehaviour {
         final_damage = predictedDamage;
         Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
-        Debug.Log("Effect hit = " + stunHit);
     }
 
 
@@ -896,6 +894,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         bool stunHit = stunProbability(prob);
         if (stunHit)
         {
+            Debug.Log("Target Pokemon is now burned");
             if (isPlayer)
                 enemyStats.isBurned = true;
             else
@@ -908,15 +907,22 @@ public class Attack_Switch_Case : MonoBehaviour {
         bool stunHit = stunProbability(prob);
         if (stunHit)
         {
+            Debug.Log("target should be frozen");
             if (isPlayer)
             {
-                if(enemyStats.Type1.ToLower() != "ice" && enemyStats.Type2.ToLower() != "ice")
+                if (enemyStats.Type1.ToLower() != "ice" && enemyStats.Type2.ToLower() != "ice")
+                {
+                    Debug.Log("Target Pokemon is now Frozen");
                     enemyStats.isFrozen = true;
+                }
             }
             else
             {
                 if (playerStats.Type1.ToLower() != "ice" && playerStats.Type2.ToLower() != "ice")
+                {
+                    Debug.Log("Target Pokemon is now Frozen");
                     playerStats.isFrozen = true;
+                }
             }
         }
     }
@@ -928,11 +934,13 @@ public class Attack_Switch_Case : MonoBehaviour {
         {
             if (isPlayer)
             {
+                Debug.Log("Target Pokemon is now Confused");
                 enemyStats.isConfused = true;
                 enemyStats.confusedDuration = duration;
             }
             else
             {
+                Debug.Log("Target Pokemon is now Confused");
                 playerStats.isConfused = true;
                 playerStats.confusedDuration = duration;
             }
@@ -948,6 +956,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             {
                 if (!enemyStats.hasAttacked)
                 {
+                    Debug.Log("Target Pokemon is now Flinched");
                     enemyStats.isFlinched = true;
                 }
             }
@@ -955,6 +964,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             {
                 if (!playerStats.hasAttacked)
                 {
+                    Debug.Log("Target Pokemon is now Flinched");
                     playerStats.isFlinched = true;
                 }
             }
@@ -969,6 +979,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             {
                 if (enemyStats.Type1.ToLower() != "electric" && enemyStats.Type2.ToLower() != "electric" && !enemyStats.hasSubstitute)
                 {
+                    Debug.Log("Target Pokemon is now paralized");
                     enemyStats.isFrozen = true;
                     changeStats(speed, -6, !isPlayer);
                 }
@@ -977,6 +988,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             {
                 if (playerStats.Type1.ToLower() != "electric" && playerStats.Type2.ToLower() != "electric" && !playerStats.hasSubstitute)
                 {
+                    Debug.Log("Target Pokemon is now paralized");
                     playerStats.isFrozen = true;
                     changeStats(speed, -6, isPlayer);
                 }

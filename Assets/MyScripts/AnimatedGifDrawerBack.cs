@@ -42,7 +42,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     {
         while (hasWWW == false)
         {
-            Debug.Log("in while loop");
+            //Debug.Log("in while loop");
             if (this.GetComponent<PokemonCreatorBack>().name == "")
             {
 
@@ -81,7 +81,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         yield return www;
         if (www.error == null)
         {
-            Debug.Log("WWW Ok!: " + www.texture.name);
+            //Debug.Log("WWW Ok!: " + www.texture.name);
         }
         else
         {
@@ -110,7 +110,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             MemoryStream ms = new MemoryStream(byteArrayIn);
             gifImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
             //debugText.text = "System.Image Created";
-            Debug.Log("Created image from stream");
+            //Debug.Log("Created image from stream");
             finishedWWW = true;
             return gifImage;
         }
@@ -131,14 +131,14 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
        System.Drawing.ImageConverter ic = new System.Drawing.ImageConverter();
        bmp = (System.Drawing.Bitmap)ic.ConvertFrom(data);
-       Debug.Log("Converted byteArray to bit map");
+       //Debug.Log("Converted byteArray to bit map");
        return bmp;
 
    }
 
     public void loadImage()
     {
-        Debug.Log("Called Load Image FRONT");
+        //Debug.Log("Called Load Image BACK");
         gifImage = ByteArrayToImage(www.bytes);
 
         if (gifImage == null)

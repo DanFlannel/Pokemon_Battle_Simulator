@@ -40,7 +40,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     {
         while (hasWWW == false)
         {
-            Debug.Log("in while loop");
+            //Debug.Log("in while loop");
             if (this.GetComponent<PokemonCreatorFront>().name == "")
             {
 
@@ -73,7 +73,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         yield return www;
         if (www.error == null)
         {
-            Debug.Log("WWW Ok!: ");
+            //Debug.Log("WWW Ok!: ");
         }
         else
         {
@@ -95,7 +95,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
             Debug.Log("Null byte array");
             return null;
         }
-        Debug.Log("Bytra array in length: " + byteArrayIn.GetLongLength(0));
+        //Debug.Log("Bytra array in length: " + byteArrayIn.GetLongLength(0));
 
         try
         {

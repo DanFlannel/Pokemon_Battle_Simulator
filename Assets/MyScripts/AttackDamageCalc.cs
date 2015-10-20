@@ -153,7 +153,7 @@ public class AttackDamageCalc : MonoBehaviour {
 
         float predictedDamage = calculateDamage(attack_name);
         int accuracy = attacks.attackList[attack_index].accuracy;
-        Debug.Log("Predicted Damage: " + predictedDamage);
+        //Debug.Log("Predicted Damage: " + predictedDamage);
 
         bool hit = moveHitProbability(accuracy);
         if (!hit)
@@ -161,7 +161,7 @@ public class AttackDamageCalc : MonoBehaviour {
             Debug.Log("The move missed!");
             return;
         }
-        Debug.Log("Attak Name: " + attack_name);
+        //Debug.Log("Attak Name: " + attack_name);
         switch (attackCat)
         {
             case "Status":
@@ -182,6 +182,7 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     public float calculateDamage(string name)
     {
+        Debug.Log("Attack Name: " + name);
         float final_damage = 0;
         //Setup for the methods that will get different aspects of the damage calculation
         int attack_index = getAttackListIndex(name);
@@ -233,7 +234,8 @@ public class AttackDamageCalc : MonoBehaviour {
         float typeMultiplier = getTypeMultiplier(attackType, isPlayer);
 
         modifier = stab * typeMultiplier * critical * rnd;
-        Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
+        //Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
+        Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: ");
         return modifier;
     }
 
@@ -258,7 +260,7 @@ public class AttackDamageCalc : MonoBehaviour {
         modifier /= 5;
         modifier += 2;
 
-        Debug.Log("Level modifier: " + modifier);
+        //Debug.Log("Level modifier: " + modifier);
         return modifier;
     }
 
@@ -315,7 +317,7 @@ public class AttackDamageCalc : MonoBehaviour {
     {
         float base_damage = 0;
         base_damage = (float)attacks.attackList[index].power;
-        Debug.Log("Base Damage: " + base_damage);
+        //Debug.Log("Base Damage: " + base_damage);
         return base_damage;
     }
 
