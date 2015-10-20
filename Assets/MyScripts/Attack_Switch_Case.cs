@@ -6,6 +6,7 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     public float final_damage;
     public float final_heal;
+    public float recoil;
 
     public bool isPlayerStunned;
     public bool isEnemyStunned;
@@ -56,7 +57,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "confuse ray":
                 rnd = Random.Range(1, 4);
-                //then we cause the pokemon to be confused
+                isConfused(isPlayer, 10, rnd);                      
                 break;
             case "conversion":
                 conversion(isPlayer, name);
@@ -65,16 +66,16 @@ public class Attack_Switch_Case : MonoBehaviour {
                 changeStats(defense, 1, isPlayer);
                 break;
             case "disable":
-                //disables the enemies last move
+                                        //disables the enemies last move
                 break;
             case "double team":
-                //raises user evasive stage by one
+                                        //raises user evasive stage by one
                 break;
             case "flash":
-                //Do something
+                                        //Do something
                 break;
             case "focus energy":
-                //increases crit ratio
+                                        //increases crit ratio...
                 break;
             case "growl":
                 changeStats(attack, -1, !isPlayer);
@@ -99,13 +100,13 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "hypnosis":
                 rnd = Random.Range(1, 3);
-                //puts the user to sleep for rnd turns
+                                        //puts the user to sleep for rnd turns
                 break;
             case "kinesis":
-                //lower enemy accuracy by 1 stage
+                                        //lower enemy accuracy by 1 stage
                 break;
             case "leech seed":
-                //drain 1/8hp per turn at the end of the turn and restore it to the user
+                                        //drain 1/8hp per turn at the end of the turn and restore it to the user
                 break;
             case "leer":
                 changeStats(defense, -1, !isPlayer);
@@ -124,24 +125,24 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "lovely kiss":
                 rnd = Random.Range(1, 3);
-                //puts the user to sleep for rnd turns
+                                        //puts the user to sleep for rnd turns
                 break;
             case "meditate":
                 changeStats(attack, 1, isPlayer);
                 break;
-            case "metronome":       //preforms any move in the game at random? WTF?
+            case "metronome":           //preforms any move in the game at random? WTF?
                 break;
-            case "mimic":           //copies the opponents last move and replaces mimic with that
+            case "mimic":               //copies the opponents last move and replaces mimic with that
                 break;
-            case "minimize":        //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
+            case "minimize":            //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
                 break;
-            case "mirror move":     //preforms the opponents last move....
+            case "mirror move":         //preforms the opponents last move....
                 break;
-            case "mist":    //no stat changes for 5 turns
+            case "mist":                //no stat changes for 5 turns
                 break;
-            case "poison gas":  //poisons the target so they lose 1/8 their hp per turn
+            case "poison gas":          //poisons the target so they lose 1/8 their hp per turn
                 break;
-            case "poison powder": //poisons the target so they lose 1/8 their hp per turn
+            case "poison powder":       //poisons the target so they lose 1/8 their hp per turn
                 break;
             case "recover":
                 if (isPlayer)
@@ -153,9 +154,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                     final_heal = enemyStats.maxHP / 2f;
                 }
                 break;
-            case "reflect": //halves the damage from physical attacks for 5 turns
+            case "reflect":             //halves the damage from physical attacks for 5 turns
                 break;
-            case "rest":        //user falls asleep for 2 turns but health is fully recovered
+            case "rest":                //user falls asleep for 2 turns but health is fully recovered
                 if (isPlayer)
                 {
                     final_heal = playerStats.maxHP;
@@ -165,9 +166,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                     final_heal = enemyStats.maxHP;
                 }
                 break;
-            case "roar":    //opponent switches pokemon out
+            case "roar":                //opponent switches pokemon out
                 break;
-            case "sand attack": //lowers opponent accuracy by one stage
+            case "sand attack":         //lowers opponent accuracy by one stage
                 break;
             case "screech":
                 changeStats(defense, -2, !isPlayer);
@@ -175,10 +176,10 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "sharpen":
                 changeStats(attack, 1, isPlayer);
                 break;
-            case "sing":    //puts the user to sleep for 1-3 turns
+            case "sing":                //puts the user to sleep for 1-3 turns
                 rnd = Random.Range(1, 3);
                 break;
-            case "smokescreen": //lower accuracy by one stage
+            case "smokescreen":         //lower accuracy by one stage
                 break;
             case "soft boiled":
                 if (isPlayer)
@@ -190,10 +191,10 @@ public class Attack_Switch_Case : MonoBehaviour {
                     final_heal = enemyStats.maxHP/2f;
                 }
                 break;
-            case "splash":      //This does nothing
+            case "splash":              //This does nothing
                 final_damage = 0;
                 break;
-            case "spore":   //puts the opponent to sleep for 1-3 turns
+            case "spore":               //puts the opponent to sleep for 1-3 turns
                 rnd = Random.Range(1, 3);
                 break;
             case "string shot":
@@ -209,7 +210,27 @@ public class Attack_Switch_Case : MonoBehaviour {
                 rnd = Random.Range(1, 4);
                 isConfused(isPlayer, 10, rnd);
                 break;
-
+            case "swords dance":
+                changeStats(attack, 2, isPlayer);
+                break;
+            case "tail whip":
+                changeStats(defense, -1, !isPlayer);
+                break;
+            case "teleport":
+                //say something stupid here
+                break;
+            case "thunder wave":
+                isParalized(isPlayer, 10);
+                break;
+            case "toxic":               //increasingly does more toxic damage at the end of each turn, starts at 1/16 
+                break;
+            case "transform":           //takes the attacks of the opponent
+                break;
+            case "whirlwind":           //blows the opponent away if they are a lower level
+                break;
+            case "withdraw":
+                changeStats(defense, 1, isPlayer);
+                break;
         }
         Debug.Log("Did a status move!");
     }
@@ -222,7 +243,6 @@ public class Attack_Switch_Case : MonoBehaviour {
         string tempname = name.ToLower();
         bool stunHit = false;
         int rnd;
-        float recoil;
         switch (tempname)
         {
             default:
@@ -230,13 +250,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "barrage":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(rnd, name);
+                predictedDamage = multiAttack(rnd, name);
                 break;
-            case "bide":
-                //waits 2 turns then deals back double.... :(
+            case "bide":                //waits 2 turns then deals back double.... :(
                 break;
-            case "bind":
-                //need to create a damage over time effect here for rndBind turns
+            case "bind":                //need to create a damage over time effect here for rndBind turns
                 rnd = Random.Range(4, 5);
                 if (isPlayer)
                 {
@@ -259,9 +277,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "bonemerang":
                 rnd = 2;
-                predictedDamage = stackAttacks(rnd, name);
+                predictedDamage = multiAttack(rnd, name);
                 break;
-            case "clamp":   //traps for 4-5 turns dealing 1/16th damage
+            case "clamp":               //traps for 4-5 turns dealing 1/16th damage
                 rnd = Random.Range(4, 5);
                 if (isPlayer)
                 {
@@ -275,7 +293,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "comet punch":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(rnd,name);
+                predictedDamage = multiAttack(rnd,name);
                 break;
             case "constrict":
                 stunHit = stunProbability(1);
@@ -284,13 +302,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                     changeStats(speed, -1, !isPlayer);
                 }
                 break;
-            case "counter":
-                //hits back with 2x power iff is hit with physical attack
+            case "counter":             //hits back with 2x power iff is hit with physical attack
                 break;
-            case "crabhammer":
-                //has a 1/8 crit ratio not a 1/16.... have to recalculate for this
+            case "crabhammer":          //has a 1/8 crit ratio not a 1/16.... have to recalculate for this
                 break;
-            case "cut": //no additional effects
+            case "cut":                 //no additional effects
                 break;
             case "dig":
                 if (isPlayer)
@@ -311,24 +327,24 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "double kick":
                 rnd = 2;
-                predictedDamage = stackAttacks(rnd,name);
+                predictedDamage = multiAttack(rnd,name);
                 break;
             case "double slap":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(rnd,name);
+                predictedDamage = multiAttack(rnd,name);
                 break;
             case "double edge":
                 recoil = predictedDamage / 3f;
                 recoil = Mathf.Round(recoil);
                 break;
-            case "drill peck":  //no additional effects
+            case "drill peck":          //no additional effects
                 break;
             case "earthquake":
                 predictedDamage = earthQuake(isPlayer, predictedDamage);
                 break;
-            case "egg bomb":   //no additional effects 
+            case "egg bomb":            //no additional effects 
                 break;
-            case "explosion":       //causes user to faint
+            case "explosion":           //causes user to faint
                 if (isPlayer)
                     playerStats.curHp = 0;
                 else
@@ -355,11 +371,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "fury attack":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(rnd,name);
+                predictedDamage = multiAttack(rnd,name);
                 break;
             case "fury swipes":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(rnd,name);
+                predictedDamage = multiAttack(rnd,name);
                 break;
             case "guillotine":
                 oneHitKO(isPlayer);
@@ -367,10 +383,9 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "headbutt":
                 isFlinched(isPlayer, 3);
                 break;
-            case "high jump kick":
-                //if this misses it casues 1/2 of the damage it would have inflicted on the user
+            case "high jump kick":      //if this misses it casues 1/2 of the damage it would have inflicted on the user
                 break;
-            case "horn attack": //no additional effect
+            case "horn attack":         //no additional effect
                 break;
             case "horn drill":
                 oneHitKO(isPlayer);
@@ -381,11 +396,9 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "ice punch":
                 isFrozen(isPlayer, 1);
                 break;
-            case "jump kick":
-                //lose 1/2 hp is the user misses just like high jump kick
+            case "jump kick":           //lose 1/2 hp is the user misses just like high jump kick
                 break;
-            case "karate chop":
-                //high crit ratio 1/8 versus 1/16
+            case "karate chop":         //high crit ratio 1/8 versus 1/16
                 break;
             case "leech life":
                 final_heal = Mathf.Round(predictedDamage / 2f);
@@ -393,43 +406,43 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "low kick":
                 isFlinched(isPlayer, 3);
                 break;
-            case "mega kick": //no additional effect
+            case "mega kick":           //no additional effect
                 break;
-            case "mega punch":  //no additional effect
+            case "mega punch":          //no additional effect
                 break;
-            case "pay day": //small amount of money at the end of the battle
+            case "pay day":             //small amount of money at the end of the battle
                 break;
-            case "peck":    //no additional effect
+            case "peck":                //no additional effect
                 break;
             case "pin missile":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(rnd, name);
+                predictedDamage = multiAttack(rnd, name);
                 break;
             case "poison sting":        //chance to poison the target
                 stunHit = stunProbability(3);
                 break;
-            case "pound":   //no additional effect
+            case "pound":               //no additional effect
                 break;
-            case "quick attack":    //has +1 priority
+            case "quick attack":        //has +1 priority
                 break;
-            case "rage":    //while rage is active, user increases his/her attack by one stage each time the user is hit
+            case "rage":                //while rage is active, user increases his/her attack by one stage each time the user is hit
                 break;
-            case "razor leaf": //high crit ratio
+            case "razor leaf":          //high crit ratio
                 break;
-            case "razor wind": //charges the first turn then attacks the second
+            case "razor wind":          //charges the first turn then attacks the second
                 final_damage = 0;
                 break;
             case "rock slide":
                 isFlinched(isPlayer, 3);
                 break;
-            case "rock throw":  //no additional effect
+            case "rock throw":          //no additional effect
                 break;
             case "rolling kick":
                 isFlinched(isPlayer, 3);
                 break;
-            case "scratch": //no additional effect
+            case "scratch":             //no additional effect
                 break;
-            case "self destruct":   //user faints
+            case "self destruct":       //user faints
                 if (isPlayer)
                 {
                     playerStats.curHp = 0;
@@ -439,28 +452,28 @@ public class Attack_Switch_Case : MonoBehaviour {
                     enemyStats.curHp = 0;
                 }
                 break;
-            case "skull bash":  //charges first turn, raising defense, hits on the second turn
+            case "skull bash":          //charges first turn, raising defense, hits on the second turn
                 break;
-            case "sky attack":  //charges on first turn, hits on second, 30% flinch chance
+            case "sky attack":          //charges on first turn, hits on second, 30% flinch chance
                 isFlinched(isPlayer, 3);
                 break;
-            case "slam":    //no additional effect
+            case "slam":                //no additional effect
                 break;
-            case "slash":   //high crit ratio 1/8 not 1/16
+            case "slash":               //high crit ratio 1/8 not 1/16
                 break;
             case "spike cannon":
                 rnd = Random.Range(2, 5);
-                predictedDamage = stackAttacks(rnd, name);
+                predictedDamage = multiAttack(rnd, name);
                 break;
             case "stomp":               //if minimized *2 damage
                 isFlinched(isPlayer, 3);
                 break;
-            case "strength":        //no additional effect
+            case "strength":            //no additional effect
                 break;
-            case "struggle":    //hurts the user if all the pp are gone
+            case "struggle":            //hurts the user if all the pp are gone
                 break;
             case "submission":
-                final_heal = (final_damage / 4f) * -1;
+                recoil = Mathf.Round(final_damage / 4f);
                 break;
             case "super fang":
                 if (isPlayer)
@@ -471,6 +484,30 @@ public class Attack_Switch_Case : MonoBehaviour {
                 {
                     predictedDamage = playerStats.curHp / 2f;
                 }
+                break;
+            case "tackle":              //no additional effect
+                break;
+            case "take down":
+                recoil = Mathf.Round(predictedDamage / 4f);
+                break;
+            case "thrash":              //attacks for 2-3 turns, but cannot switch out or use a different attack
+                break;
+            case "thunder punch":
+                isParalized(isPlayer, 1);
+                break;
+            case "twineedle":           //20% chance to poison the target
+                multiAttack(2, name);
+                break;
+            case "vice grip":           //no additional effect
+                break;
+            case "vine whip":           //no additional effect
+                break;
+            case "waterfall":
+                isFlinched(isPlayer, 2);
+                break;
+            case "wing attack":         //no additional effect, can hit non-adjacent pokemon in triple battles
+                break;
+            case "wrap":                //causes 1/16th damage for 4-5 turns
                 break;
         }
         final_damage = predictedDamage;
@@ -534,9 +571,9 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "fire blast":
                 isBurned(isPlayer, 1);
                 break;
-            case "fire spin":
+            case "fire spin":           //burns the target for 4-5 turns
                 rnd = Random.Range(4, 5);
-                //burn for 1/16 for 4-5 turns
+                isBurned(isPlayer, 10);
                 break;
             case "flamethrower":
                 isBurned(isPlayer, 1);
@@ -553,9 +590,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                         predictedDamage *= 2f;
                 }
                 break;
-            case "hydro pump":  //no additional effect
+            case "hydro pump":          //no additional effect
                 break;
-            case "hyper beam":  //cannot move next turn
+            case "hyper beam":          //cannot move next turn
                 if (isPlayer)
                     playerStats.canAttack = false;
                 else
@@ -570,7 +607,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "night shade":
                 predictedDamage = levelBasedDamage(isPlayer);
                 break;
-            case "petal dance": //attacks for 2-3 turns, cannot be switched out, then becomes confused
+            case "petal dance":         //attacks for 2-3 turns, cannot be switched out, then becomes confused
                 break;
             case "psybeam":
                 rnd = Random.Range(1, 4);
@@ -585,14 +622,34 @@ public class Attack_Switch_Case : MonoBehaviour {
                 float mod = Random.Range(.5f, 1.5f);
                 predictedDamage = levelBasedDamage(isPlayer) * mod;
                 break;
-            case "sludge":  //30% chance to poison the target
+            case "sludge":              //30% chance to poison the target
                 break;
-            case "smog":    //40% chance to poison the target
+            case "smog":                //40% chance to poison the target
                 break;
-            case "solar beam":  //charges on the fist turn, hits on the second
+            case "solar beam":          //charges on the fist turn, hits on the second
                 break;
             case "sonic boom":
                 predictedDamage = sonicBoom(isPlayer);
+                break;
+            case "surf":                //does double damage if the pokemon used dive(introduced in gen3)
+                break;
+            case "swift":               //ignores evasiveness and accuracy
+                break;
+            case "thunder":
+                isParalized(isPlayer, 3);
+                break;
+            case "thunder shock":
+                isParalized(isPlayer, 1);
+                break;
+            case "thunder bolt":
+                isParalized(isPlayer, 1);
+                break;
+            case "tri attack":          //I changed this from 6.67% chance for each to 10%
+                isParalized(isPlayer, 1);
+                isBurned(isPlayer, 1);
+                isFrozen(isPlayer, 1);
+                break;
+            case "water gun":           //no additional effect
                 break;
         }
         //Check for lightscreen to halve special attack damage
@@ -822,7 +879,7 @@ public class Attack_Switch_Case : MonoBehaviour {
     /// this method takes in the amount of times the attack gets calculated so that the total damage accounts for 
     /// each attack as its own sperate attack rather than multiplying by the number
     /// </summary>
-    private float stackAttacks(int rnd, string name)
+    private float multiAttack(int rnd, string name)
     {
         Debug.Log("Final name check:" + name);
         float damage = 0;
@@ -1059,7 +1116,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             if(playerStats.curHp > (playerStats.maxHP / 4f))
             {
                 playerStats.hasSubstitute = true;
-                final_heal = -1 * (playerStats.maxHP / 4f);
+                recoil = playerStats.maxHP / 4f;
             }
         }
         else
@@ -1067,7 +1124,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             if(enemyStats.curHp > (enemyStats.maxHP / 4f))
             {
                 enemyStats.hasSubstitute = true;
-                final_heal = -1 * (playerStats.maxHP / 4f);
+                recoil = playerStats.maxHP / 4f;
             }
         }
     }
