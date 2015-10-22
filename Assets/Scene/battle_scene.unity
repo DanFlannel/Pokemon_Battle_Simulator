@@ -428,6 +428,7 @@ MonoBehaviour:
   speed_stage: 0
   Type1: 
   Type2: 
+  isChargingAttack: 0
   isUnderground: 0
   canAttack: 1
   canBeAttacked: 1
@@ -446,6 +447,7 @@ MonoBehaviour:
   substitueHP: 0
   hasLightScreen: 0
   lightScreenDuration: 0
+  cachedAttackName: 
   curHp: 0
   maxHP: 0
 --- !u!1 &251324656
@@ -2187,6 +2189,7 @@ MonoBehaviour:
   speed_stage: 0
   Type1: 
   Type2: 
+  isChargingAttack: 0
   isUnderground: 0
   canAttack: 1
   canBeAttacked: 1
@@ -2205,6 +2208,7 @@ MonoBehaviour:
   hasLightScreen: 0
   lightScreenDuration: 0
   substitueHP: 0
+  cachedAttackName: 
   curHp: 0
   maxHP: 0
 --- !u!114 &1398198468
@@ -2616,6 +2620,7 @@ GameObject:
   - 114: {fileID: 1643421013}
   - 114: {fileID: 1643421014}
   - 114: {fileID: 1643421015}
+  - 114: {fileID: 1643421016}
   m_Layer: 0
   m_Name: Attacks
   m_TagString: Attacks
@@ -2678,8 +2683,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   final_damage: 0
   final_heal: 0
+  recoil: 0
   isPlayerStunned: 0
   isEnemyStunned: 0
+--- !u!114 &1643421016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643421011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a27ba681c03f684dbafc88749580ef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1658109066
 GameObject:
   m_ObjectHideFlags: 0

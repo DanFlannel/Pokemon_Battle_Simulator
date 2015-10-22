@@ -95,7 +95,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
             Debug.Log("Null byte array");
             return null;
         }
-        //Debug.Log("Bytra array in length: " + byteArrayIn.GetLongLength(0));
+        Debug.Log("Bytra array in length: " + byteArrayIn.Length);
 
         try
         {
