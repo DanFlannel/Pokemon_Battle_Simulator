@@ -16,6 +16,7 @@ public class Attack_Switch_Case : MonoBehaviour {
     private AttackDamageCalc attackCalc;
     private GenerateAttacks genAttacks;
     private PokemonAttacks attacks;
+    private TurnController tc;
 
     private string defense = "defense";
     private string attack = "attack";
@@ -31,6 +32,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         attackCalc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
     }
 
     public void statusAttacks(string name, bool isPlayer)
@@ -237,7 +239,6 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     public void physicalAttacks(string name, float predictedDamage, bool isPlayer)
     {
-        //Debug.Log("attack name: " + name);
         final_damage = 0;
         final_heal = 0;
         string tempname = name.ToLower();
@@ -511,6 +512,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
         }
         final_damage = predictedDamage;
+        updateTurnController(isPlayer, name);
         Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
     }
@@ -653,6 +655,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         }
         //Check for lightscreen to halve special attack damage
         final_damage = predictedDamage;
+        updateTurnController(isPlayer, name);        
         Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
     }
@@ -1139,6 +1142,55 @@ public class Attack_Switch_Case : MonoBehaviour {
                 recoil = playerStats.maxHP / 4f;
             }
         }
+    }
+
+    private void updateTurnController(bool isPlayer, string name)
+    {
+        if (isPlayer)
+        {
+            tc.PlayerDamage =  (int) final_damage;
+            tc.PlayerHeal = (int)final_heal;
+            tc.PlayerRecoil = (int)recoil;
+            tc.PlayerDataComplete = true;
+            tc.Player_attackName = name;
+        }
+        else
+        {
+            tc.EnemyDamage = (int)final_damage;
+            tc.EnemyHeal = (int)final_heal;
+            tc.EnemyRecoil = (int)recoil;
+            tc.EnemyDataCompelte = true;
+            tc.Enemy_attackName = name;
+        }
+    }
+
+    private bool checkForStatus(bool isPlayer)
+    {
+        bool applyEffect = false;
+        if (isPlayer)
+        {
+            if (playerStats.Speed > enemyStats.Speed)
+            {
+                applyEffect = true;
+            }
+            else
+            {
+                applyEffect = false;
+            }
+        }
+        else
+        {
+            if (enemyStats.Speed > playerStats.Speed)
+            {
+                applyEffect = true;
+            }
+            else
+            {
+                applyEffect = false;
+            }
+        }
+
+        return applyEffect;
     }
 
 }
