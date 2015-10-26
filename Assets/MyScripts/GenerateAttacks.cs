@@ -23,14 +23,14 @@ public class GenerateAttacks : MonoBehaviour {
 
     [Header("Player")]
     [SerializeField]
-    private List<int> randomBackList = new List<int>();
+    private List<int> randomPlayerIndex = new List<int>();
     private string playerPokemonName1;
 	private List<attackIndex> playerAttackList1 = new List<attackIndex>();
 	public List<string> playerAttackName = new List<string>();
 
     [Header("Enemy")]
     [SerializeField]
-    private List<int> randomFrontList = new List<int>();
+    private List<int> randomEnemyIndex = new List<int>();
 	private string enemyPokemonName1;
 	private List<attackIndex> enemyAttackList1 = new List<attackIndex>();
 	public List<string> enemyAttackName = new List<string>();
@@ -68,8 +68,8 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void debugList(){
 		for(int i = 0; i < moves; i++){
-			Debug.Log("Front" + randomFrontList[i]);
-			Debug.Log("Back" + randomBackList[i]);
+			Debug.Log("Front" + randomEnemyIndex[i]);
+			Debug.Log("Back" + randomPlayerIndex[i]);
 		}
 	}
 
@@ -80,7 +80,7 @@ public class GenerateAttacks : MonoBehaviour {
         int id = pcb.PokemonID -1;
 		playerAttackList1 = attackData.masterGetAttacks(id);
         lengthOfList = playerAttackList1.Count;
-	    generateRandomList(randomBackList, playerAttackList1.Count);
+	    generateRandomList(randomPlayerIndex, playerAttackList1.Count);
 	}
 
     /// <summary>
@@ -89,7 +89,7 @@ public class GenerateAttacks : MonoBehaviour {
 	private void EnemyPlayerPokemonGen(){
         int id = pcf.PokemonID - 1;
         enemyAttackList1 = attackData.masterGetAttacks(id);
-        generateRandomList(randomFrontList,enemyAttackList1.Count);
+        generateRandomList(randomEnemyIndex,enemyAttackList1.Count);
 	}
 
     /// <summary>
@@ -130,8 +130,14 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void returnPlayerAttacks(){
 		for (int i = 0; i < moves; i++){
-			//Debug.Log("attack" + i + ": " + playerAttackList1[randomBackList[i]].attack.name);
-			playerAttackName.Add(playerAttackList1[randomBackList[i]].attack.name);
+            if (i < randomPlayerIndex.Count)
+            {
+                playerAttackName.Add(playerAttackList1[randomPlayerIndex[i]].attack.name);
+            }
+            else
+            {
+                playerAttackName.Add(playerAttackList1[randomPlayerIndex[0]].attack.name);
+            }
 		}
         attackDatabaseCompiled = true;
     }
@@ -140,7 +146,14 @@ public class GenerateAttacks : MonoBehaviour {
     {
         for(int i = 0; i < moves; i++)
         {
-            enemyAttackName.Add(enemyAttackList1[randomFrontList[i]].attack.name);
+            if (i < randomEnemyIndex.Count)
+            {
+                enemyAttackName.Add(enemyAttackList1[randomEnemyIndex[i]].attack.name);
+            }
+            else
+            {
+                enemyAttackName.Add(enemyAttackList1[randomEnemyIndex[0]].attack.name);
+            }
         }
     }
 

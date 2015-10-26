@@ -4,6 +4,7 @@ using System.Collections;
 public class TurnController : MonoBehaviour {
 
     [Header("Player")]
+    public int PlayerHealth;
     public int PlayerDamage;
     public int PlayerHeal;
     public int PlayerRecoil;
@@ -17,6 +18,7 @@ public class TurnController : MonoBehaviour {
 
 
     [Header("Enemy")]
+    public int EnemyHealth;
     public int EnemyDamage;
     public int EnemyHeal;
     public int EnemyRecoil;
@@ -36,6 +38,8 @@ public class TurnController : MonoBehaviour {
     void Start () {
         enemyStats = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
         playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
+        EnemyHealth = enemyStats.curHp;
+        PlayerHealth = playerStats.curHp;
         checkSpeed();
     }
 	
@@ -46,7 +50,7 @@ public class TurnController : MonoBehaviour {
 
     public void checkSpeed()
     {
-        if(playerStats.Speed > enemyStats.Speed)
+        if(playerStats.Speed >= enemyStats.Speed)
         {
             Player_AttacksFirst = true;
             Enemy_AttacksFirst = false;
