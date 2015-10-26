@@ -14,6 +14,7 @@ public class AttackDamageCalc : MonoBehaviour {
     private PokemonAttacks attacks;
     private PokemonDamageMultipliers damage_mult;
     private Attack_Switch_Case attack_Switch_Case;
+    private TurnController tc;
 
 	private string enemyAttack1;
 	private string enemyAttack2;
@@ -49,6 +50,7 @@ public class AttackDamageCalc : MonoBehaviour {
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         attack_Switch_Case = GameObject.FindGameObjectWithTag("Attacks").GetComponent<Attack_Switch_Case>();
         damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
+        tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
 	}
 	
 	// Update is called once per frame
@@ -553,6 +555,28 @@ public class AttackDamageCalc : MonoBehaviour {
         if(guess == guess2)
         {
             crit = true;
+        }
+        if (crit)
+        {
+            if (isPlayer)
+            {
+                tc.PlayerCriticalStrike = true;
+            }
+            else
+            {
+                tc.EnemyCriticalStrike = true;
+            }
+        }
+        else
+        {
+            if (isPlayer)
+            {
+                tc.PlayerCriticalStrike = false;
+            }
+            else
+            {
+                tc.EnemyCriticalStrike = false;
+            }
         }
 
         return crit;

@@ -430,9 +430,6 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "razor leaf":          //high crit ratio
                 break;
-            case "razor wind":          //charges the first turn then attacks the second
-                final_damage = 0;
-                break;
             case "rock slide":
                 isFlinched(isPlayer, 3);
                 break;
@@ -622,6 +619,9 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "psywave":
                 float mod = Random.Range(.5f, 1.5f);
                 predictedDamage = levelBasedDamage(isPlayer) * mod;
+                break;
+            case "razor wind":          //charges the first turn then attacks the second
+                final_damage = 0;
                 break;
             case "sludge":              //30% chance to poison the target
                 break;
