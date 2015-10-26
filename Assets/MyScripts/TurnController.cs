@@ -8,6 +8,7 @@ public class TurnController : MonoBehaviour {
     public int PlayerHeal;
     public int PlayerRecoil;
     public bool PlayerCriticalStrike = false;
+    public bool PlayerMissed = false;
     public string Player_attackName;
     public bool Player_AttacksFirst = false;
     public bool PlayerDataComplete = false;
@@ -20,6 +21,7 @@ public class TurnController : MonoBehaviour {
     public int EnemyHeal;
     public int EnemyRecoil;
     public bool EnemyCriticalStrike = false;
+    public bool EnemyMissed = false;
     public string Enemy_attackName;
     public bool Enemy_AttacksFirst = false;
     public bool EnemyDataCompelte = false;

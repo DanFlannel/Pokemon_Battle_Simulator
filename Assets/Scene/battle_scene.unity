@@ -2336,7 +2336,7 @@ GameObject:
   - 224: {fileID: 1423660750}
   - 114: {fileID: 1423660751}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: TurnController
   m_TagString: TurnController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2373,6 +2373,7 @@ MonoBehaviour:
   PlayerDamage: 0
   PlayerHeal: 0
   PlayerRecoil: 0
+  PlayerCriticalStrike: 0
   Player_attackName: 
   Player_AttacksFirst: 0
   PlayerDataComplete: 0
@@ -2381,6 +2382,7 @@ MonoBehaviour:
   EnemyDamage: 0
   EnemyHeal: 0
   EnemyRecoil: 0
+  EnemyCriticalStrike: 0
   Enemy_attackName: 
   Enemy_AttacksFirst: 0
   EnemyDataCompelte: 0

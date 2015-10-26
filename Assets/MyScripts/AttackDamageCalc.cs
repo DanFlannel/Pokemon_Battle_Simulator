@@ -535,7 +535,37 @@ public class AttackDamageCalc : MonoBehaviour {
             if(missNums[i] == guess)
             {
                 hit = false;
-                return hit;
+            }
+        }
+        if (!hit)
+        {
+            if (isPlayer)
+            {
+                tc.PlayerMissed = true;
+                tc.PlayerDamage = 0;
+                tc.PlayerHeal = 0;
+                tc.PlayerRecoil = 0;
+                tc.PlayerDataComplete = true;
+
+            }
+            else
+            {
+                tc.EnemyMissed = true;
+                tc.EnemyDamage = 0;
+                tc.EnemyRecoil = 0;
+                tc.EnemyHeal = 0;
+                tc.EnemyDataCompelte = true;
+            }
+        }
+        else
+        {
+            if (isPlayer)
+            {
+                tc.PlayerMissed = false;
+            }
+            else
+            {
+                tc.EnemyMissed = false;
             }
         }
 
