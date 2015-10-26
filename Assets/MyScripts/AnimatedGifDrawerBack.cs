@@ -102,7 +102,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             Debug.Log("Null byte array");
         }
 
-        Debug.Log("Bytra array in length: " + byteArrayIn.Length);
+        Debug.Log("KB array in length: " + Mathf.RoundToInt(byteArrayIn.Length/1000f));
        
 
         try
