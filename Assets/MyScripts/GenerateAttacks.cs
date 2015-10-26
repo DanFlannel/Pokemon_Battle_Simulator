@@ -21,18 +21,14 @@ public class GenerateAttacks : MonoBehaviour {
 
 	private List<masterList> masterList = new List<masterList>();
 
-    [Header("Player")]
-	public List<int> playerIndexList = new List<int>();
-	private string playerPokemonName;
-    public int playerTotalMoves;
-	private List<attackIndex> playerAttackList = new List<attackIndex>();
+	private List<int> randomFrontList = new List<int>();
+	private string playerPokemonName1;
+	private List<attackIndex> playerAttackList1 = new List<attackIndex>();
 	public List<string> playerAttackName = new List<string>();
 
-    [Header("Enemy")]
-	public List<int> enemyIndexList = new List<int>();
-	private string enemyPokemonName;
-    public int enemyTotalMoves;
-	private List<attackIndex> enemyAttackList = new List<attackIndex>();
+	private List<int> randomBackList = new List<int>();
+	private string enemyPokemonName1;
+	private List<attackIndex> enemyAttackList1 = new List<attackIndex>();
 	public List<string> enemyAttackName = new List<string>();
 
 	// Use this for initialization
@@ -41,7 +37,8 @@ public class GenerateAttacks : MonoBehaviour {
 		pcb = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack> ();
 		attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
 
-        generateRandomList(enemyIndexList, moves);
+        PlayerPokemonGen();
+        EnemyPlayerPokemonGen();
     }
 
 
@@ -55,23 +52,34 @@ public class GenerateAttacks : MonoBehaviour {
     /// generation of the attacks again.
     /// </summary>
 	private void checkInitalGen(){
-		if(pcb.PokemonName != playerPokemonName){
+		if(pcb.PokemonName != playerPokemonName1){
 			//Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
-			genAttacksPlayer();		
-            //Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
-            //generateEnemyAttacks();
-        }
-
-    }
+			genAttacksPlayer();
+		}
+	}
 
     /// <summary>
     /// A simple debug function that debugs all the attacks each pokemon can use
     /// </summary>
 	private void debugList(){
 		for(int i = 0; i < moves; i++){
-			Debug.Log("Front" + playerIndexList[i]);
-			Debug.Log("Back" + enemyIndexList[i]);
+			Debug.Log("Front" + randomFrontList[i]);
+			Debug.Log("Back" + randomBackList[i]);
 		}
+	}
+
+    /// <summary>
+    /// Generates the random list of player attacks
+    /// </summary>
+	private void PlayerPokemonGen(){
+		//generateRandomList(randomBackList, backMoveList);
+	}
+
+    /// <summary>
+    /// Generates the random list of enemy attacks
+    /// </summary>
+	private void EnemyPlayerPokemonGen(){
+		generateRandomList(randomFrontList,frontMoveList);
 	}
 
     /// <summary>
@@ -89,20 +97,20 @@ public class GenerateAttacks : MonoBehaviour {
 
 	private void genAttacksPlayer(){
 		bool goForward = attackData.completedDatabaseInitalization;
-		playerPokemonName = pcb.PokemonName;
+		playerPokemonName1 = pcb.PokemonName;
 		if(goForward == false){
 			//Debug.Log("Nope");
 		}else{
 			int id = pcb.PokemonID -1;
-			playerAttackList = attackData.masterGetAttacks(id);
-            playerTotalMoves = playerAttackList.Count;
+			playerAttackList1 = attackData.masterGetAttacks(id);
+            lengthOfList = playerAttackList1.Count;
 
             //Debug.Log("length of player attack lis: " + lengthOfList);
             //Debug.Log("Pokemon ID" + pcb.PokemonID);
 
-            generateRandomList(playerIndexList, playerTotalMoves);
+            generateRandomList(randomBackList, lengthOfList);
             //Debug.Log(attackData.masterGetName(id));
-            returnAttacks(playerIndexList);
+            returnPlayerAttacks();
 		}
 	}
 
@@ -118,10 +126,10 @@ public class GenerateAttacks : MonoBehaviour {
     /// <summary>
     /// the moves is always 4, 
     /// </summary>
-	private void returnAttacks(List<int> list){
+	private void returnPlayerAttacks(){
 		for (int i = 0; i < moves; i++){
 			//Debug.Log("attack" + i + ": " + playerAttackList1[randomBackList[i]].attack.name);
-			playerAttackName.Add(playerAttackList[list[i]].attack.name);
+			playerAttackName.Add(playerAttackList1[randomBackList[i]].attack.name);
 		}
         attackDatabaseCompiled = true;
     }
@@ -129,18 +137,7 @@ public class GenerateAttacks : MonoBehaviour {
     //TODO Generate Enemy attacks.
     private void generateEnemyAttacks()
     {
-        bool goForward = attackData.completedDatabaseInitalization;
-        playerPokemonName = pcf.PokemonName;
-        if (goForward == false)
-        { }
-        else
-        {
-            int id = pcb.PokemonID - 1;
-            enemyAttackList = attackData.masterGetAttacks(id);
-            enemyTotalMoves = enemyAttackList.Count;
-            //generateRandomList(enemyIndexList, enemyTotalMoves);
-            //returnAttacks(enemyIndexList);
-        }
+
     }
 
 }
