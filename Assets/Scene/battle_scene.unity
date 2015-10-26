@@ -2326,6 +2326,66 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Attack
+--- !u!1 &1423660749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1423660750}
+  - 114: {fileID: 1423660751}
+  m_Layer: 5
+  m_Name: GameObject
+  m_TagString: TurnController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1423660750
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1423660749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1816233928}
+  m_RootOrder: 4
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &1423660751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1423660749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d362b6090f86a746975003bb02812c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerDamage: 0
+  PlayerHeal: 0
+  PlayerRecoil: 0
+  Player_attackName: 
+  Player_AttacksFirst: 0
+  PlayerDataComplete: 0
+  Player_StatusMove: 0
+  Player_AppliedStatusEffect: 0
+  EnemyDamage: 0
+  EnemyHeal: 0
+  EnemyRecoil: 0
+  Enemy_attackName: 
+  Enemy_AttacksFirst: 0
+  EnemyDataCompelte: 0
+  Enemy_StatusMove: 0
+  Enemy_AppliedStatusEffect: 0
 --- !u!1 &1465882008
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,6 +3117,7 @@ RectTransform:
   - {fileID: 1643421012}
   - {fileID: 1563986824}
   - {fileID: 2144975217}
+  - {fileID: 1423660750}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_AnchorMin: {x: .5, y: .5}
