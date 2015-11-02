@@ -13,6 +13,7 @@
   ---
 
   Details of the latest version can be found here on GitHub [here](https://github.com/DanFlannel/Pokemon_Battle_Simulator)
+  Origional Gist commits can be found [here](https://gist.github.com/DanFlannel/3a784369da08a71bdb85)
 
   
   **Licensing**
