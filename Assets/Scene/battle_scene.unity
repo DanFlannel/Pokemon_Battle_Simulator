@@ -504,7 +504,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 251324658}
+  m_TargetGraphic: {fileID: 1944449360}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -528,7 +528,7 @@ MonoBehaviour:
           m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2144975218}
         m_MethodName: calculateAttackEffect
@@ -539,7 +539,40 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: isPlayer_Button
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: get_attack_name
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: calculateAttackEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -632,7 +665,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 295687510}
+  m_TargetGraphic: {fileID: 1944449360}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -654,6 +687,39 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: calculateAttackEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: isPlayer_Button
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: get_attack_name
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2370,19 +2436,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d362b6090f86a746975003bb02812c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerHealth: 0
   PlayerDamage: 0
   PlayerHeal: 0
   PlayerRecoil: 0
   PlayerCriticalStrike: 0
+  PlayerMissed: 0
   Player_attackName: 
   Player_AttacksFirst: 0
   PlayerDataComplete: 0
   Player_StatusMove: 0
   Player_AppliedStatusEffect: 0
+  EnemyHealth: 0
   EnemyDamage: 0
   EnemyHeal: 0
   EnemyRecoil: 0
   EnemyCriticalStrike: 0
+  EnemyMissed: 0
   Enemy_attackName: 
   Enemy_AttacksFirst: 0
   EnemyDataCompelte: 0
@@ -2730,7 +2800,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDatabaseCompiled: 0
+  randomPlayerIndex: 
   playerAttackName: []
+  randomEnemyIndex: 
   enemyAttackName: []
 --- !u!114 &1643421015
 MonoBehaviour:
@@ -2759,6 +2831,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a27ba681c03f684dbafc88749580ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAttack1: 
+  playerAttack2: 
+  playerAttack3: 
+  playerAttack4: 
+  enemyAttack1: 
+  enemyAttack2: 
+  enemyAttack3: 
+  enemyAttack4: 
 --- !u!1 &1658109066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3260,6 +3340,39 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: isPlayer_Button
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: get_attack_name
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: calculateAttackEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1944449360
@@ -3486,7 +3599,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2032096478}
+  m_TargetGraphic: {fileID: 1944449360}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -3508,6 +3621,39 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: calculateAttackEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: isPlayer_Button
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2144975218}
+        m_MethodName: get_attack_name
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3885,3 +4031,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a27ba681c03f684dbafc88749580ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAttack1: 
+  playerAttack2: 
+  playerAttack3: 
+  playerAttack4: 
+  enemyAttack1: 
+  enemyAttack2: 
+  enemyAttack3: 
+  enemyAttack4: 

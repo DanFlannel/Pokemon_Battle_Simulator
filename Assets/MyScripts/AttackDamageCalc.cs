@@ -16,15 +16,19 @@ public class AttackDamageCalc : MonoBehaviour {
     private Attack_Switch_Case attack_Switch_Case;
     private TurnController tc;
 
-	private string enemyAttack1;
-	private string enemyAttack2;
-	private string enemyAttack3;
-	private string enemyAttack4;
+    [Header("Player")]
+    public string playerAttack1;
+    public string playerAttack2;
+    public string playerAttack3;
+    public string playerAttack4;
 
-	private string playerAttack1;
-	private string playerAttack2;
-	private string playerAttack3;
-	private string playerAttack4;
+    [Header("Enemy")]
+    public string enemyAttack1;
+	public string enemyAttack2;
+	public string enemyAttack3;
+	public string enemyAttack4;
+
+
 
 	private string enemyType1;
     private string enemyType2;
@@ -59,28 +63,6 @@ public class AttackDamageCalc : MonoBehaviour {
 	}
 
     /// <summary>
-    /// Gets the generated pokemon attacks
-    /// </summary>
-	private void getPokemonAttacks(){
-        /*if(enemyAttack1 != enemyStats.Attack_1_Name)
-		    enemyAttack1 = enemyStats.Attack_1_Name;
-		if(enemyAttack2 != enemyStats.Attack_2_Name)
-            enemyAttack2 = enemyStats.Attack_2_Name;
-        if(enemyAttack3 != enemyStats.Attack_3_Name)
-            enemyAttack3 = enemyStats.Attack_3_Name;
-        if(enemyAttack4 != enemyStats.Attack_4_Name)
-            enemyAttack3 = enemyStats.Attack_3_Name;*/
-
-        if (genAttacks.attackDatabaseCompiled)
-        {
-            playerAttack1 = genAttacks.playerAttackName[0];
-            playerAttack2 = genAttacks.playerAttackName[1];
-            playerAttack3 = genAttacks.playerAttackName[2];
-            playerAttack4 = genAttacks.playerAttackName[3];
-        }
-    }
-
-    /// <summary>
     /// Gets the pokemon Types for the Type modifier in the damage calculation
     /// </summary>
 	private void getPokemonTypes(){
@@ -104,42 +86,50 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     public void get_attack_name(int index)
     {
-        getPokemonAttacks();
+        /*Debug.Log("Player Attack 1" + genAttacks.playerAttackName[0]);
+        Debug.Log("Player Attack 2" + genAttacks.playerAttackName[1]);
+        Debug.Log("Player Attack 3" + genAttacks.playerAttackName[2]);
+        Debug.Log("Player Attack 4" + genAttacks.playerAttackName[3]);
+        Debug.Log("Enemy Attack 1" + genAttacks.enemyAttackName[0]);
+        Debug.Log("Enemy Attack 2" + genAttacks.enemyAttackName[1]);
+        Debug.Log("Enemy Attack 3" + genAttacks.enemyAttackName[2]);
+        Debug.Log("Enemy Attack 4" + genAttacks.enemyAttackName[3]);*/
         if (isPlayer) {
             if (index == 1)
             {
-                attack_name = playerAttack1;
+                attack_name = genAttacks.playerAttackName[0];
             }
             if(index == 2)
             {
-                attack_name = playerAttack2;
+                attack_name = genAttacks.playerAttackName[1];
             }
             if(index == 3)
             {
-                attack_name = playerAttack3;
+                attack_name = genAttacks.playerAttackName[2];
             }
             if( index == 4)
             {
-                attack_name = playerAttack4;
+                attack_name = genAttacks.playerAttackName[3];
             }
         }
         else
         {
+            index = (int)Random.Range(1, 5);;
             if (index == 1)
             {
-                attack_name = enemyAttack1;
+                attack_name = genAttacks.enemyAttackName[0];
             }
             if (index == 2)
             {
-                attack_name = enemyAttack2;
+                attack_name = genAttacks.enemyAttackName[1];
             }
             if (index == 3)
             {
-                attack_name = enemyAttack3;
+                attack_name = genAttacks.enemyAttackName[2];
             }
             if (index == 4)
             {
-                attack_name = enemyAttack4;
+                attack_name = genAttacks.enemyAttackName[3];
             }
         }
     }

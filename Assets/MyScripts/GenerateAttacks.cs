@@ -13,6 +13,7 @@ public class GenerateAttacks : MonoBehaviour {
 	private PokemonCreatorFront pcf;
 	private PokemonCreatorBack pcb;
 	private PokemonAttacks attackData;
+    private AttackDamageCalc adc;
 	private int frontMoveList = 15;
 	private int lengthOfList = 15;
 	private int moves = 4;
@@ -40,6 +41,7 @@ public class GenerateAttacks : MonoBehaviour {
 		pcf = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
 		pcb = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack> ();
 		attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        adc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
 
         PlayerPokemonGen();
         EnemyPlayerPokemonGen();
@@ -114,7 +116,11 @@ public class GenerateAttacks : MonoBehaviour {
             //Debug.Log(attackData.masterGetName(id));
             returnPlayerAttacks();
 		}
-	}
+        adc.playerAttack1 = playerAttackName[0];
+        adc.playerAttack2 = playerAttackName[1];
+        adc.playerAttack3 = playerAttackName[2];
+        adc.playerAttack4= playerAttackName[3];
+    }
 
     /// <summary>
     /// Simple check of the generated attack list.
@@ -169,6 +175,10 @@ public class GenerateAttacks : MonoBehaviour {
         {
             returnEnemyAttacks();
         }
+        adc.enemyAttack1 = enemyAttackName[0];
+        adc.enemyAttack2 = enemyAttackName[1];
+        adc.enemyAttack3 = enemyAttackName[2];
+        adc.enemyAttack4 = enemyAttackName[3];
     }
 
 }

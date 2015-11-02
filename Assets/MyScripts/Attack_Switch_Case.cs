@@ -38,6 +38,9 @@ public class Attack_Switch_Case : MonoBehaviour {
     public void statusAttacks(string name, bool isPlayer)
     {
         //Debug.Log("attack name: " + name);
+        final_damage = 0;
+        final_heal = 0;
+        recoil = 0;
         string tempname = name.ToLower();
         int rnd;
         switch (tempname)
@@ -235,12 +238,14 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
         }
         Debug.Log("Did a status move!");
+        updateTurnController(isPlayer, name);
     }
 
     public void physicalAttacks(string name, float predictedDamage, bool isPlayer)
     {
         final_damage = 0;
         final_heal = 0;
+        recoil = 0;
         string tempname = name.ToLower();
         bool stunHit = false;
         int rnd;
@@ -519,6 +524,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         //Debug.Log("attack name: " + name);
         final_damage = 0;
         final_heal = 0;
+        recoil = 0;
         string tempname = name.ToLower();
         int rnd;
         bool stunHit = false;
