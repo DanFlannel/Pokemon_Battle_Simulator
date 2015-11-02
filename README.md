@@ -1,2 +1,32 @@
 # Pokemon_Battle_Simulator
-  The purpose of this project is to create a working standlone client that is a full and complete pokemon battle simulator for the generation 1 pokemon. The platform being used is Unity 3D. The reasoning behind this project is that Pokemon is an extremely complex game in terms of how many different things will happen so I figured that this would be a good coding challenge for myself. I also plan on makeing this work for the mobile version if possible, if the mobile build in Unity will allow the full usage of .Net 2.0 not .Net 2.0 subset. 
+  What is it?
+  -----------
+
+  The Pokemon Battle Simulator is a powerful yet lightweight generation
+  1 battle simulator. Originally designed as an intended mobile version of
+  Pokemon Showdown, and as a friend's challenege. As a personal project, I 
+  intend to keep the code robust and expandable for anyone to possibly add
+  further generations of Pokemon and their attacks.
+  
+  The Latest Version
+  ------------------
+
+  Details of the latest version can be found here on GitHub
+  under https://github.com/DanFlannel/Pokemon_Battle_Simulator
+  
+  Licensing
+  ---------
+
+  Please see the file called LICENSE.txt
+  
+  Downloading
+  -----------
+  
+  You must have Unity 5 installed, the current version is being built 
+  on 5.2.0f3
+  
+  You should save this in its own folder, then go under open project in
+  unity and navigate to the main folder of this project.
+
+  
+  
