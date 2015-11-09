@@ -30,6 +30,26 @@ public class TurnController : MonoBehaviour {
     public bool Enemy_StatusMove = false;
     public bool Enemy_AppliedStatusEffect = false;
 
+    [Header("Post Damage Conditions")]
+    public bool player_one_sixteenth = false;
+    public int player_one_sixteenth_duration = -1;
+    public bool player_one_eigth = false;
+    public int player_one_eigth_duration = -1;
+    public bool enemy_one_sixteen = false;
+    public int enemy_one_sixteenth_duration = -1;
+    public bool enemy_one_eigth = false;
+    public int enemy_one_eigth_duration = -1;
+
+    public bool player_leech_seed = false;
+    public bool enemy_leech_seed = false;
+
+    public bool player_toxic = false;
+    public int player_toxic_mult = 0;
+
+    public bool enemy_toxic = false;
+    public int enemy_toxic_mult = 0;
+
+
     private PokemonCreatorBack playerStats;
     private PokemonCreatorFront enemyStats;
 

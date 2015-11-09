@@ -111,7 +111,8 @@ public class Attack_Switch_Case : MonoBehaviour {
                                         //lower enemy accuracy by 1 stage
                 break;
             case "leech seed":
-                                        //drain 1/8hp per turn at the end of the turn and restore it to the user
+                one_eigth_perm(isPlayer);
+                leech_seed(isPlayer);
                 break;
             case "leer":
                 changeStats(defense, -1, !isPlayer);
@@ -146,8 +147,10 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "mist":                //no stat changes for 5 turns
                 break;
             case "poison gas":          //poisons the target so they lose 1/8 their hp per turn
+                one_eigth_perm(isPlayer);
                 break;
             case "poison powder":       //poisons the target so they lose 1/8 their hp per turn
+                one_eigth_perm(isPlayer);
                 break;
             case "recover":
                 if (isPlayer)
@@ -227,7 +230,8 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "thunder wave":
                 isParalized(isPlayer, 10);
                 break;
-            case "toxic":               //increasingly does more toxic damage at the end of each turn, starts at 1/16 
+            case "toxic":               //increasingly does more toxic damage at the end of each turn, starts at 1/16
+                toxic(isPlayer); 
                 break;
             case "transform":           //takes the attacks of the opponent
                 break;
@@ -287,15 +291,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "clamp":               //traps for 4-5 turns dealing 1/16th damage
                 rnd = Random.Range(4, 5);
-                if (isPlayer)
-                {
-                    predictedDamage = enemyStats.maxHP / 16f;
-                }
-                else
-                {
-                    predictedDamage = playerStats.maxHP / 16f;
-                }
-                predictedDamage = Mathf.Round(predictedDamage);
+                one_sixteenth_temp(isPlayer, rnd);
                 break;
             case "comet punch":
                 rnd = Random.Range(2, 5);
@@ -357,7 +353,8 @@ public class Attack_Switch_Case : MonoBehaviour {
                     enemyStats.curHp = 0;
                 break;
             case "fire punch":
-                isBurned(isPlayer, 1);
+                rnd = Random.Range(4, 5);
+                isBurned(isPlayer, 1, rnd);
                 break;
             case "fissure":
                 oneHitKO(isPlayer);
@@ -416,7 +413,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "mega punch":          //no additional effect
                 break;
-            case "pay day":             //small amount of money at the end of the battle
+            case "pay day":             //small amount of money at the end of the battle??
                 break;
             case "peck":                //no additional effect
                 break;
@@ -511,6 +508,8 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "wing attack":         //no additional effect, can hit non-adjacent pokemon in triple battles
                 break;
             case "wrap":                //causes 1/16th damage for 4-5 turns
+                rnd = Random.Range(4, 5);
+                one_sixteenth_temp(isPlayer, rnd);
                 break;
         }
         final_damage = predictedDamage;
@@ -570,17 +569,20 @@ public class Attack_Switch_Case : MonoBehaviour {
                 predictedDamage = dreamEater(isPlayer, predictedDamage);
                 break;
             case "ember":
-                isBurned(isPlayer, 1);
+                rnd = Random.Range(4, 5);
+                isBurned(isPlayer, 1, rnd);
                 break;
             case "fire blast":
-                isBurned(isPlayer, 1);
+                rnd = Random.Range(4, 5);
+                isBurned(isPlayer, 1, rnd);
                 break;
             case "fire spin":           //burns the target for 4-5 turns
                 rnd = Random.Range(4, 5);
-                isBurned(isPlayer, 10);
+                isBurned(isPlayer, 10, rnd);
                 break;
             case "flamethrower":
-                isBurned(isPlayer, 1);
+                rnd = Random.Range(4, 5);
+                isBurned(isPlayer, 1, rnd);
                 break;
             case "gust":
                 if (isPlayer)
@@ -652,8 +654,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                 isParalized(isPlayer, 1);
                 break;
             case "tri attack":          //I changed this from 6.67% chance for each to 10%
+                rnd = Random.Range(4, 5);
                 isParalized(isPlayer, 1);
-                isBurned(isPlayer, 1);
+                isBurned(isPlayer, 1, rnd);
                 isFrozen(isPlayer, 1);
                 break;
             case "water gun":           //no additional effect
@@ -665,7 +668,6 @@ public class Attack_Switch_Case : MonoBehaviour {
         Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
     }
-
 
     /// <summary>
     /// Takes in the probability of getting a stun for a move out of ten, then makes a list of that many unique random numbers
@@ -898,11 +900,12 @@ public class Attack_Switch_Case : MonoBehaviour {
         return damage;
     }
 
-    private void isBurned(bool isPlayer, int prob)
+    private void isBurned(bool isPlayer, int prob, int duration)  //lose 1/16th
     {
         bool stunHit = stunProbability(prob);
         if (stunHit)
         {
+            one_eigth_temp(isPlayer, duration);
             Debug.Log("Target Pokemon is now burned");
             if (isPlayer)
                 enemyStats.isBurned = true;
@@ -1197,6 +1200,82 @@ public class Attack_Switch_Case : MonoBehaviour {
         }
 
         return applyEffect;
+    }
+
+    private void one_sixteenth_perm(bool isPlayer)
+    {
+        if (isPlayer)
+        {
+            tc.enemy_one_sixteen = true;
+        }
+        else
+        {
+            tc.player_one_sixteenth = true;
+        }
+    }
+
+    private void one_sixteenth_temp(bool isPlayer, int duration)
+    {
+        if (isPlayer)
+        {
+            tc.enemy_one_sixteen = true;
+            tc.enemy_one_sixteenth_duration = duration;
+        }
+        else
+        {
+            tc.player_one_sixteenth = true;
+            tc.player_one_sixteenth_duration = duration;
+        }
+    }
+
+    private void one_eigth_perm(bool isPlayer)
+    {
+        if (isPlayer)
+        {
+            tc.enemy_one_eigth = true;
+        }
+        else
+        {
+            tc.player_one_eigth = true;
+        }
+    }
+
+    private void one_eigth_temp(bool isPlayer, int duration)
+    {
+        if (isPlayer)
+        {
+            tc.enemy_one_eigth = true;
+            tc.enemy_one_eigth_duration = duration;
+        }
+        else
+        {
+            tc.player_one_eigth = true;
+            tc.player_one_eigth_duration = duration;
+        }
+    }
+
+    private void toxic(bool isPlayer)
+    {
+        if (isPlayer)
+        {
+            tc.enemy_toxic = true;
+        }
+        else
+        {
+            tc.player_toxic = true;
+        }
+    }
+
+    private void leech_seed(bool isPlayer)
+    {
+        if (isPlayer)
+        {
+            tc.enemy_leech_seed = true;
+        }
+        else
+        {
+            tc.player_leech_seed = true;
+        }
     }
 
 }
