@@ -266,15 +266,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "bind":                //need to create a damage over time effect here for rndBind turns
                 rnd = Random.Range(4, 5);
-                if (isPlayer)
-                {
-                    predictedDamage = enemyStats.maxHP / 16f;
-                }
-                else
-                {
-                    predictedDamage = playerStats.maxHP / 16f;
-                }
-                predictedDamage = Mathf.Round(predictedDamage);
+                one_sixteenth_temp(isPlayer, rnd);
                 break;
             case "bite":
                 isFlinched(isPlayer, 3);
@@ -900,7 +892,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         return damage;
     }
 
-    private void isBurned(bool isPlayer, int prob, int duration)  //lose 1/16th
+    private void isBurned(bool isPlayer, int prob, int duration)  //lose 1/8th
     {
         bool stunHit = stunProbability(prob);
         if (stunHit)
