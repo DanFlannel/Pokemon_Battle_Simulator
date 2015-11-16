@@ -1145,26 +1145,6 @@ public class Attack_Switch_Case : MonoBehaviour {
         }
     }
 
-    private void updateTurnController(bool isPlayer, string name)
-    {
-        if (isPlayer)
-        {
-            tc.PlayerDamage =  (int) final_damage;
-            tc.PlayerHeal = (int)final_heal;
-            tc.PlayerRecoil = (int)recoil;
-            tc.PlayerDataComplete = true;
-            tc.Player_attackName = name;
-        }
-        else
-        {
-            tc.EnemyDamage = (int)final_damage;
-            tc.EnemyHeal = (int)final_heal;
-            tc.EnemyRecoil = (int)recoil;
-            tc.EnemyDataCompelte = true;
-            tc.Enemy_attackName = name;
-        }
-    }
-
     private bool checkForStatus(bool isPlayer)
     {
         bool applyEffect = false;
@@ -1267,6 +1247,26 @@ public class Attack_Switch_Case : MonoBehaviour {
         else
         {
             tc.player_leech_seed = true;
+        }
+    }
+
+    private void updateTurnController(bool isPlayer, string name)
+    {
+        if (isPlayer)
+        {
+            tc.PlayerDamage = (int)final_damage;
+            tc.PlayerHeal = (int)final_heal;
+            tc.PlayerRecoil = (int)recoil;
+            tc.PlayerDataComplete = true;
+            tc.Player_attackName = name;
+        }
+        else
+        {
+            tc.EnemyDamage = (int)final_damage;
+            tc.EnemyHeal = (int)final_heal;
+            tc.EnemyRecoil = (int)recoil;
+            tc.EnemyDataComplete = true;
+            tc.Enemy_attackName = name;
         }
     }
 

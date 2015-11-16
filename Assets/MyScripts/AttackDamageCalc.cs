@@ -544,7 +544,7 @@ public class AttackDamageCalc : MonoBehaviour {
                 tc.EnemyDamage = 0;
                 tc.EnemyRecoil = 0;
                 tc.EnemyHeal = 0;
-                tc.EnemyDataCompelte = true;
+                tc.EnemyDataComplete = true;
             }
         }
         else

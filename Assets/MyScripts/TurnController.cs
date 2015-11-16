@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class TurnController : MonoBehaviour {
 
@@ -15,6 +16,8 @@ public class TurnController : MonoBehaviour {
     public bool PlayerDataComplete = false;
     public bool Player_StatusMove = false;
     public bool Player_AppliedStatusEffect = false;
+    public Slider playerHealthBar;
+
 
 
     [Header("Enemy")]
@@ -26,9 +29,10 @@ public class TurnController : MonoBehaviour {
     public bool EnemyMissed = false;
     public string Enemy_attackName;
     public bool Enemy_AttacksFirst = false;
-    public bool EnemyDataCompelte = false;
+    public bool EnemyDataComplete = false;
     public bool Enemy_StatusMove = false;
     public bool Enemy_AppliedStatusEffect = false;
+    public Slider enemyHealthBar;
 
     [Header("Post Damage Conditions")]
     public bool player_one_sixteenth = false;
@@ -65,7 +69,52 @@ public class TurnController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+	    if(PlayerDataComplete && EnemyDataComplete)
+        {
+            float newValue;
+            if (Player_AttacksFirst)    //player attacks first so we do this
+            {
+                if (PlayerDamage > 0)
+                {
+                    enemyStats.curHp -= PlayerDamage;
+                    Debug.Log(enemyStats.curHp + "/" + enemyStats.maxHP);
+                }
+                newValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;   //have to move the enemy health bar to this new value in range 0 to 1
+                Debug.Log("new value: " + newValue);
+                enemyHealthBar.value = newValue;
+
+                if (EnemyDamage > 0)
+                {
+                    playerStats.curHp -= EnemyDamage;
+                    Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
+                }
+                newValue = (float)playerStats.curHp / (float)playerStats.maxHP;
+                Debug.Log("new value: " + newValue);
+                playerHealthBar.value = newValue;
+            }
+            else                        //enemy attacks first so we do this
+            {
+                if (EnemyDamage > 0)
+                {
+                    playerStats.curHp -= EnemyDamage;
+                    Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
+                }
+                newValue = (float)playerStats.curHp / (float)playerStats.maxHP;
+                Debug.Log("new value: " + newValue);
+                playerHealthBar.value = newValue;
+
+                if (PlayerDamage > 0)
+                {
+                    enemyStats.curHp -= PlayerDamage;
+                    Debug.Log(enemyStats.curHp + "/" + enemyStats.maxHP);
+                }
+                newValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;   //have to move the enemy health bar to this new value in range 0 to 1
+                Debug.Log("new value: " + newValue);
+                enemyHealthBar.value = newValue;
+            }
+            PlayerDataComplete = false;
+            EnemyDataComplete = false;
+        }
 	}
 
     public void checkSpeed()
@@ -82,8 +131,18 @@ public class TurnController : MonoBehaviour {
         }
     }
 
-    public void checkStats()
+    public void ApplyDamage()
     {
 
+    }
+
+    public void ApplyEffects()
+    {
+
+    }
+
+    IEnumerator Wait(float duration)
+    {
+        yield return new WaitForSeconds(duration);
     }
 }
