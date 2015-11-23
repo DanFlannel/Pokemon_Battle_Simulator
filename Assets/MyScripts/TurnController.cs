@@ -74,6 +74,7 @@ public class TurnController : MonoBehaviour {
             float newValue;
             if (Player_AttacksFirst)    //player attacks first so we do this
             {
+                //apply damage
                 if (PlayerDamage > 0)
                 {
                     enemyStats.curHp -= PlayerDamage;
@@ -83,6 +84,14 @@ public class TurnController : MonoBehaviour {
                 Debug.Log("new value: " + newValue);
                 enemyHealthBar.value = newValue;
 
+                //then heal the player
+                playerStats.curHp += PlayerHeal;
+                if (playerStats.curHp > playerStats.maxHP)
+                {
+                    playerStats.curHp = playerStats.maxHP;
+                }
+
+                //apply damage
                 if (EnemyDamage > 0)
                 {
                     playerStats.curHp -= EnemyDamage;
@@ -91,6 +100,9 @@ public class TurnController : MonoBehaviour {
                 newValue = (float)playerStats.curHp / (float)playerStats.maxHP;
                 Debug.Log("new value: " + newValue);
                 playerHealthBar.value = newValue;
+
+                //then heal the enemy
+
             }
             else                        //enemy attacks first so we do this
             {
