@@ -69,26 +69,29 @@ public class TurnController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    if(PlayerDataComplete && EnemyDataComplete)
+	    if(PlayerDataComplete && EnemyDataComplete) //check these conditions so that we can run the attack calls
         {
-            checkSpeed();
-            if (Player_AttacksFirst)    //player attacks first so we do this
+            checkSpeed();   //checks the speed to see who attacks first
+            if (Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)    //player attacks first so we do this
             {
-                //apply damage to enemy if there is any
-                damage_Player_to_Enemy();
+                //apply damage to enemy if there is any and check to make sure the enemy is alive still
+                damage_Player_to_Enemy();           
 
                 //then heal the player
                 healPlayer();
 
-                //apply damage to player
-                damage_Enemy_to_Player();
+                //apply damage to player and check if the player is still alive
+                if (enemyStats.curHp > 0)   //checks to see that the enemy is still alive before the enemy attacks
+                {
+                    damage_Enemy_to_Player();
 
-                //then heal the enemy
-                healEnemy();
+                    //then heal the enemy
+                    healEnemy();
+                }
 
 
             }
-            else                        //enemy attacks first so we do this
+            else if(!Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)                      //enemy attacks first so we do this
             {
                 //apply damage to the player
                 damage_Enemy_to_Player();
@@ -96,11 +99,14 @@ public class TurnController : MonoBehaviour {
                 //heal the enemy
                 healEnemy();
 
-                //apply damage to the enemy
-                damage_Player_to_Enemy();
+                if (playerStats.curHp > 0)
+                {
+                    //apply damage to the enemy
+                    damage_Player_to_Enemy();
 
-                //heal the player
-                healPlayer();
+                    //heal the player
+                    healPlayer();
+                }
             }
             PlayerDataComplete = false;
             EnemyDataComplete = false;
@@ -180,6 +186,25 @@ public class TurnController : MonoBehaviour {
         {
             enemyStats.curHp += EnemyHeal;
         }
+    }
+
+    private bool checkDead()
+    {
+        bool isDead = false;
+        if (playerStats.curHp <= 0)
+        {
+            //the player is dead
+            isDead =  true;
+        }if(enemyStats.curHp <= 0) {
+            //the ennemy is dead
+            isDead = true;
+        }
+        if (isDead)
+        {
+            PlayerDataComplete = false;
+            EnemyDataComplete = false;
+        }
+        return isDead;
     }
 
     IEnumerator Wait(float duration)
