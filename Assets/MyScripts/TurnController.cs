@@ -71,58 +71,36 @@ public class TurnController : MonoBehaviour {
 	void Update () {
 	    if(PlayerDataComplete && EnemyDataComplete)
         {
-            float newValue;
+            checkSpeed();
             if (Player_AttacksFirst)    //player attacks first so we do this
             {
-                //apply damage
-                if (PlayerDamage > 0)
-                {
-                    enemyStats.curHp -= PlayerDamage;
-                    Debug.Log(enemyStats.curHp + "/" + enemyStats.maxHP);
-                }
-                newValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;   //have to move the enemy health bar to this new value in range 0 to 1
-                Debug.Log("new value: " + newValue);
-                enemyHealthBar.value = newValue;
+                //apply damage to enemy if there is any
+                damage_Player_to_Enemy();
 
                 //then heal the player
-                playerStats.curHp += PlayerHeal;
-                if (playerStats.curHp > playerStats.maxHP)
-                {
-                    playerStats.curHp = playerStats.maxHP;
-                }
+                healPlayer();
 
-                //apply damage
-                if (EnemyDamage > 0)
-                {
-                    playerStats.curHp -= EnemyDamage;
-                    Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
-                }
-                newValue = (float)playerStats.curHp / (float)playerStats.maxHP;
-                Debug.Log("new value: " + newValue);
-                playerHealthBar.value = newValue;
+                //apply damage to player
+                damage_Enemy_to_Player();
 
                 //then heal the enemy
+                healEnemy();
+
 
             }
             else                        //enemy attacks first so we do this
             {
-                if (EnemyDamage > 0)
-                {
-                    playerStats.curHp -= EnemyDamage;
-                    Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
-                }
-                newValue = (float)playerStats.curHp / (float)playerStats.maxHP;
-                Debug.Log("new value: " + newValue);
-                playerHealthBar.value = newValue;
+                //apply damage to the player
+                damage_Enemy_to_Player();
 
-                if (PlayerDamage > 0)
-                {
-                    enemyStats.curHp -= PlayerDamage;
-                    Debug.Log(enemyStats.curHp + "/" + enemyStats.maxHP);
-                }
-                newValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;   //have to move the enemy health bar to this new value in range 0 to 1
-                Debug.Log("new value: " + newValue);
-                enemyHealthBar.value = newValue;
+                //heal the enemy
+                healEnemy();
+
+                //apply damage to the enemy
+                damage_Player_to_Enemy();
+
+                //heal the player
+                healPlayer();
             }
             PlayerDataComplete = false;
             EnemyDataComplete = false;
@@ -151,6 +129,57 @@ public class TurnController : MonoBehaviour {
     public void ApplyEffects()
     {
 
+    }
+
+    private void healPlayer()
+    {
+        if (playerStats.curHp + PlayerHeal > playerStats.maxHP)
+        {
+            playerStats.curHp = playerStats.maxHP;
+        }
+        else
+        {
+            playerStats.curHp += PlayerHeal;
+        }
+    }
+
+    private void damage_Player_to_Enemy()
+    {
+        float newValue;
+        if (PlayerDamage > 0)
+        {
+            enemyStats.curHp -= PlayerDamage;
+            Debug.Log(enemyStats.curHp + "/" + enemyStats.maxHP);
+            newValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;   //have to move the enemy health bar to this new value in range 0 to 1
+            Debug.Log("new value: " + newValue);
+            enemyHealthBar.value = newValue;
+        }
+    }
+
+    private void damage_Enemy_to_Player()
+    {
+        float newValue;
+        if (EnemyDamage > 0)
+        {
+            playerStats.curHp -= EnemyDamage;
+            Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
+            newValue = (float)playerStats.curHp / (float)playerStats.maxHP;
+            Debug.Log("new value: " + newValue);
+            playerHealthBar.value = newValue;
+        }
+
+    }
+
+    private void healEnemy()
+    {
+        if (enemyStats.curHp + EnemyHeal > enemyStats.maxHP)
+        {
+            enemyStats.curHp = enemyStats.maxHP;
+        }
+        else
+        {
+            enemyStats.curHp += EnemyHeal;
+        }
     }
 
     IEnumerator Wait(float duration)
