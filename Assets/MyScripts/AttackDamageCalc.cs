@@ -376,9 +376,9 @@ public class AttackDamageCalc : MonoBehaviour {
             }
             else
             {
-                Debug.Log("name did not match when searching for multiplier");
-                Debug.Log("searched for " + enemyStats.PokemonName);
-                Debug.Log("found " + damage_mult.master_list[index].name);
+                Debug.LogError("name did not match when searching for multiplier");
+                Debug.LogError("searched for " + enemyStats.PokemonName);
+                Debug.LogError("found " + damage_mult.master_list[index].name);
             }
         }
         else
@@ -390,9 +390,9 @@ public class AttackDamageCalc : MonoBehaviour {
             }
             else
             {
-                Debug.Log("name did not match when searching for multiplier");
-                Debug.Log("searched for " + enemyStats.PokemonName);
-                Debug.Log("found " + damage_mult.master_list[index].name);
+                Debug.LogError("name did not match when searching for multiplier");
+                Debug.LogError("searched for " + playerStats.PokemonName);
+                Debug.LogError("found " + damage_mult.master_list[index].name);
             }
         }
         //Debug.Log("Type modifier for attacs is: " + modifier);
@@ -500,7 +500,7 @@ public class AttackDamageCalc : MonoBehaviour {
         int hitProb = accuracy / 5;
         int missProb = 20 - hitProb;
         //Debug.Log("accuracy = " + hitProb);
-        Debug.Log("miss probability = " + missProb + "/20");
+        //Debug.Log("miss probability = " + missProb + "/20");
 
         if (missProb >= 20)
         {

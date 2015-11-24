@@ -116,7 +116,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         }
         catch (Exception e)
         {
-            //debugText.text = e.Message.ToString();
+            debugText.text = e.Message.ToString();
             return null;
             /*System.Drawing.Bitmap bmp = byteArrayToBitMap(byteArrayIn);
             returnImage = System.Drawing.Image.FromHbitmap(bmp.GetHbitmap());

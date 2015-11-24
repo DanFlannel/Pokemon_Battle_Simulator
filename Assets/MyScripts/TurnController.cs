@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class TurnController : MonoBehaviour {
 
+    private float timerLength = 1f;
+    public float timeRemaining = 1f;
+
     [Header("Player")]
     public int PlayerHealth;
     public int PlayerDamage;
@@ -74,11 +77,17 @@ public class TurnController : MonoBehaviour {
             checkSpeed();   //checks the speed to see who attacks first
             if (Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)    //player attacks first so we do this
             {
+                timeRemaining = timerLength;
+                StartCoroutine(Wait(1));
+
                 //apply damage to enemy if there is any and check to make sure the enemy is alive still
                 damage_Player_to_Enemy();           
 
                 //then heal the player
                 healPlayer();
+
+                timeRemaining = timerLength;
+                StartCoroutine(Wait(1));
 
                 //apply damage to player and check if the player is still alive
                 if (enemyStats.curHp > 0)   //checks to see that the enemy is still alive before the enemy attacks
@@ -88,16 +97,30 @@ public class TurnController : MonoBehaviour {
                     //then heal the enemy
                     healEnemy();
                 }
+                else
+                {
+                    //the enemy died with tthis turn's attack
+                }
+
+                if(playerStats.curHp <= 0)
+                {
+                    //the player died with this turn's attack
+                }
 
 
             }
             else if(!Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)                      //enemy attacks first so we do this
             {
+                timeRemaining = timerLength;
+                StartCoroutine(Wait(1));
                 //apply damage to the player
                 damage_Enemy_to_Player();
 
                 //heal the enemy
                 healEnemy();
+
+                timeRemaining = timerLength;
+                StartCoroutine(Wait(1));
 
                 if (playerStats.curHp > 0)
                 {
@@ -106,6 +129,15 @@ public class TurnController : MonoBehaviour {
 
                     //heal the player
                     healPlayer();
+                }
+                else
+                {
+                    //the player died with this turn's attack
+                }
+
+                if(enemyStats.curHp <= 0)
+                {
+                    //the enemy died with this turn's attack
                 }
             }
             PlayerDataComplete = false;
@@ -139,6 +171,11 @@ public class TurnController : MonoBehaviour {
 
     private void healPlayer()
     {
+        if(PlayerHeal <= 0)
+        {
+            return;
+        }
+
         if (playerStats.curHp + PlayerHeal > playerStats.maxHP)
         {
             playerStats.curHp = playerStats.maxHP;
@@ -205,6 +242,11 @@ public class TurnController : MonoBehaviour {
             EnemyDataComplete = false;
         }
         return isDead;
+    }
+
+    private void timerControl()
+    {
+        timeRemaining -= Time.deltaTime;
     }
 
     IEnumerator Wait(float duration)

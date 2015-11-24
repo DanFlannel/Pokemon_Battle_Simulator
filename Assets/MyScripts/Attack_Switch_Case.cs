@@ -434,6 +434,9 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "scratch":             //no additional effect
                 break;
+            case "seismic toss":
+                levelBasedDamage(isPlayer);
+                break;
             case "self destruct":       //user faints
                 if (isPlayer)
                 {
