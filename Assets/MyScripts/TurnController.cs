@@ -47,6 +47,7 @@ public class TurnController : MonoBehaviour {
     public bool enemy_one_eigth = false;
     public int enemy_one_eigth_duration = -1;
 
+    [Header("Special Effects")]
     public bool player_leech_seed = false;
     public bool enemy_leech_seed = false;
 
@@ -55,6 +56,13 @@ public class TurnController : MonoBehaviour {
 
     public bool enemy_toxic = false;
     public int enemy_toxic_mult = 0;
+
+    [Header("Sleep")]
+    public bool player_isAsleep = false;
+    public int player_sleepDur = 0;
+
+    public bool enemy_isAsleep = false;
+    public int enemy_sleepDur = 0;
 
 
     private PokemonCreatorBack playerStats;

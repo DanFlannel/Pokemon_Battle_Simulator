@@ -415,6 +415,10 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "poison sting":        //chance to poison the target
                 stunHit = stunProbability(3);
+                if (stunHit)
+                {
+                    one_eigth_perm(isPlayer);
+                }
                 break;
             case "pound":               //no additional effect
                 break;
@@ -492,6 +496,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "twineedle":           //20% chance to poison the target
                 multiAttack(2, name);
+                stunHit = stunProbability(2);
+                if (stunHit)
+                {
+                    one_eigth_perm(isPlayer);
+                }
                 break;
             case "vice grip":           //no additional effect
                 break;
@@ -627,8 +636,18 @@ public class Attack_Switch_Case : MonoBehaviour {
                 final_damage = 0;
                 break;
             case "sludge":              //30% chance to poison the target
+                stunHit = stunProbability(3);
+                if (stunHit)
+                {
+                    one_eigth_perm(isPlayer);
+                }
                 break;
             case "smog":                //40% chance to poison the target
+                stunHit = stunProbability(4);
+                if (stunHit)
+                {
+                    one_eigth_perm(isPlayer);
+                }
                 break;
             case "solar beam":          //charges on the fist turn, hits on the second
                 break;
