@@ -94,6 +94,9 @@ public class TurnController : MonoBehaviour {
                 //then heal the player
                 healPlayer();
 
+                //then apply damage effects to the player
+                damage_Player_Effects();
+
                 timeRemaining = timerLength;
                 StartCoroutine(Wait(1));
 
@@ -104,6 +107,9 @@ public class TurnController : MonoBehaviour {
 
                     //then heal the enemy
                     healEnemy();
+
+                    //then damage effects on the enemy
+                    damage_Enemy_Effects();
                 }
                 else
                 {
@@ -127,6 +133,9 @@ public class TurnController : MonoBehaviour {
                 //heal the enemy
                 healEnemy();
 
+                //take damage effects
+                damage_Player_Effects();
+
                 timeRemaining = timerLength;
                 StartCoroutine(Wait(1));
 
@@ -137,6 +146,9 @@ public class TurnController : MonoBehaviour {
 
                     //heal the player
                     healPlayer();
+
+                    //enemy effects
+                    damage_Enemy_Effects();
                 }
                 else
                 {
@@ -167,16 +179,6 @@ public class TurnController : MonoBehaviour {
         }
     }
 
-    public void ApplyDamage()
-    {
-
-    }
-
-    public void ApplyEffects()
-    {
-
-    }
-
     private void healPlayer()
     {
         if(PlayerHeal <= 0)
@@ -196,27 +198,21 @@ public class TurnController : MonoBehaviour {
 
     private void damage_Player_to_Enemy()
     {
-        float newValue;
         if (PlayerDamage > 0)
         {
             enemyStats.curHp -= PlayerDamage;
             Debug.Log(enemyStats.curHp + "/" + enemyStats.maxHP);
-            newValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;   //have to move the enemy health bar to this new value in range 0 to 1
-            Debug.Log("new value: " + newValue);
-            enemyHealthBar.value = newValue;
+            changeEnemyHealthBar();
         }
     }
 
     private void damage_Enemy_to_Player()
     {
-        float newValue;
         if (EnemyDamage > 0)
         {
             playerStats.curHp -= EnemyDamage;
             Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
-            newValue = (float)playerStats.curHp / (float)playerStats.maxHP;
-            Debug.Log("new value: " + newValue);
-            playerHealthBar.value = newValue;
+            changePlayerHealthBar();
         }
 
     }
@@ -232,6 +228,110 @@ public class TurnController : MonoBehaviour {
             enemyStats.curHp += EnemyHeal;
         }
     }
+
+    private void damage_Enemy_Effects()
+    {
+        if(!enemy_one_eigth && !enemy_one_sixteen)
+        {
+            return;
+        }
+        if (enemy_one_eigth)    //there is an effect that takes away 1/8th of the enemies health
+        {
+            //base case this is permanant
+            if(enemy_one_eigth_duration == -1)
+            {
+            }
+            else if(enemy_one_eigth_duration > 0)
+            {
+                enemy_one_eigth_duration--; //keep going down each turn based off inital damage
+            }
+            else if(enemy_one_eigth_duration == 0)  //the effect will end after this turn is over
+            {
+                enemy_one_eigth = false;
+            }
+            float damage = (float)enemyStats.maxHP * (float)(1f / 8f);  //gets the exact value
+            enemyStats.curHp -= Mathf.RoundToInt(damage);   //round the damage
+            changeEnemyHealthBar();       
+        }
+        if (enemy_one_sixteen)  //there is an effect that is taking away 1/16th of the enemy's health
+        {
+            //base case this is permanant
+            if (enemy_one_sixteenth_duration == -1)
+            {
+            }
+            //this effect is lasting
+            else if (enemy_one_sixteenth_duration > 0)
+            {
+                enemy_one_sixteenth_duration--;
+            }
+            //this effect is ending
+            else if (enemy_one_sixteenth_duration == 0)
+            {
+                enemy_one_sixteen = false;
+            }
+            float damage = (float)enemyStats.maxHP * (float)(1f / 16f);  //gets the exact value
+            enemyStats.curHp -= Mathf.RoundToInt(damage);   //round the damage and apply it
+            changeEnemyHealthBar(); //apply the damage to the health bar
+        }
+    }
+
+    private void damage_Player_Effects()
+    {
+        if (!player_one_eigth && !player_one_sixteenth)
+        {
+            return;
+        }
+        if (player_one_eigth)    //there is an effect that takes away 1/8th of the enemies health
+        {
+            //base case this is permanant
+            if (player_one_eigth_duration == -1)
+            {
+            }
+            else if (player_one_eigth_duration > 0)
+            {
+                player_one_eigth_duration--; //keep going down each turn based off inital damage
+            }
+            else if (player_one_eigth_duration == 0)  //the effect will end after this turn is over
+            {
+                player_one_eigth = false;
+            }
+            float damage = (float)playerStats.maxHP * (float)(1f / 8f);  //gets the exact value
+            playerStats.curHp -= Mathf.RoundToInt(damage);   //round the damage
+            changePlayerHealthBar();
+        }
+        if (player_one_sixteenth)  //there is an effect that is taking away 1/16th of the enemy's health
+        {
+            //base case this is permanant
+            if (player_one_sixteenth_duration == -1)
+            {
+            }
+            //this effect is lasting
+            else if (player_one_sixteenth_duration > 0)
+            {
+                player_one_sixteenth_duration--;
+            }
+            //this effect is ending
+            else if (player_one_sixteenth_duration == 0)
+            {
+                player_one_sixteenth = false;
+            }
+            float damage = (float)playerStats.maxHP * (float)(1f / 16f);  //gets the exact value
+            playerStats.curHp -= Mathf.RoundToInt(damage);   //round the damage and apply it
+            changePlayerHealthBar(); //apply the damage to the health bar
+        }
+    }
+
+    private void changeEnemyHealthBar()
+    {
+        float newValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;
+        enemyHealthBar.value = newValue;
+    }       //changes the health bar of the enemy
+
+    private void changePlayerHealthBar()
+    {
+        float newValue = (float)playerStats.curHp / (float)playerStats.maxHP;
+        playerHealthBar.value = newValue;
+    }      //changes the health bar of the player
 
     private bool checkDead()
     {
