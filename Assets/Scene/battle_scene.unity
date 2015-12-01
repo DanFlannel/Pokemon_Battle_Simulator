@@ -571,7 +571,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1944449360}
+  m_TargetGraphic: {fileID: 251324658}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -732,7 +732,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1944449360}
+  m_TargetGraphic: {fileID: 295687510}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2770,12 +2770,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d362b6090f86a746975003bb02812c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeRemaining: 1
   PlayerHealth: 0
   PlayerDamage: 0
   PlayerHeal: 0
   PlayerRecoil: 0
   PlayerCriticalStrike: 0
-  PlayerMissed: 0
+  PlayerMissed: 1
   Player_attackName: 
   Player_AttacksFirst: 0
   PlayerDataComplete: 0
@@ -2808,6 +2809,10 @@ MonoBehaviour:
   player_toxic_mult: 0
   enemy_toxic: 0
   enemy_toxic_mult: 0
+  player_isAsleep: 0
+  player_sleepDur: 0
+  enemy_isAsleep: 0
+  enemy_sleepDur: 0
 --- !u!1 &1465882008
 GameObject:
   m_ObjectHideFlags: 0
@@ -3949,7 +3954,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1944449360}
+  m_TargetGraphic: {fileID: 2032096478}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
