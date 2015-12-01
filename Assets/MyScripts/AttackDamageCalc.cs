@@ -186,7 +186,7 @@ public class AttackDamageCalc : MonoBehaviour {
         set_attack_and_def(attack_index, isPlayer, attackCat);
         float level_mod = levelModifier(isPlayer);
         float att_div_defense = baseAttackPower(attack_index) / defense_mod;
-        float damage_mod = modifier(attack_index, attackType, isPlayer);
+        float damage_mod = modifier(attack_index, attackType, isPlayer, name);
 
         //Damage Calculations here
         final_damage = level_mod;
@@ -202,7 +202,7 @@ public class AttackDamageCalc : MonoBehaviour {
     /// <summary>
     /// Sets the multiplier Base Power * STAB * Type modifier * Critical * other * randomNum(.85,1)
     /// </summary>
-    private float modifier(int index, string attackType, bool isPlayer)
+    private float modifier(int index, string attackType, bool isPlayer, string name)
     {
         float modifier;
         float stab;
@@ -216,7 +216,9 @@ public class AttackDamageCalc : MonoBehaviour {
         }
 
         float critical = 1f;
-        bool crit = isCrit();
+        int critProb = critChance(name);
+        Debug.Log("Crit chance: 1 /" + critProb);
+        bool crit = isCrit(critProb);
         if (crit)
         {
             Debug.Log("Critical HIT!");
@@ -565,12 +567,12 @@ public class AttackDamageCalc : MonoBehaviour {
     /// <summary>
     /// Calculates the 1/16 chance every move has for getting a critical strike
     /// </summary>
-    private bool isCrit()
+    public bool isCrit(int n)
     {
         bool crit = false;
 
-        int guess = Random.Range(1, 16);
-        int guess2 = Random.Range(1, 16);
+        int guess = Random.Range(1, n);
+        int guess2 = Random.Range(1, n);
 
         if(guess == guess2)
         {
@@ -600,5 +602,33 @@ public class AttackDamageCalc : MonoBehaviour {
         }
 
         return crit;
+    }
+
+    /// <summary>
+    /// Handles the cases where the move has a high probability of getting a critical hit
+    /// </summary>
+    private int critChance(string name)
+    {
+        int chance;
+        switch (name.ToLower())
+        {
+            default:
+                chance = 16;
+                break;
+            case "crabhamer":
+                chance = 8;
+                break;
+            case "karate chop":
+                chance = 8;
+                break;
+            case "razor leaf":
+                chance = 8;
+                break;
+            case "slash":
+                chance = 8;
+                break;
+        }
+
+        return chance;
     }
 }
