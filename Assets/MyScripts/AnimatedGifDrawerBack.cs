@@ -5,29 +5,40 @@ using System;
 using System.Collections;
 using UnityEngine.UI;
 
+/// <summary>
+/// This class handles the animations for the Player, or the Pokemon with its back facing the camera.
+/// </summary>
 public class AnimatedGifDrawerBack : MonoBehaviour
 {
-    public string loadingGifPath;
+
+    /***************************
+        Public Variables
+    ****************************/
     public float speed = 1;
-    public Vector2 drawPosition;
+    public float percentage;
+
     public string pName;
 
-    public float width;
-    public float widthCalc;
-    public float height;
-    public float heightCalc;
-    public float percentage;
+    public bool finishedWWW = false;
+
     public GameObject positionPlaceHolderGO;
-    public Vector2 positionPlaceHolder;
-    public Text debugText;
-    private SpriteImageArray sia;
+    private Vector2 positionPlaceHolder;
+    
+
+    /***************************
+        Private Variables
+    ****************************/
+    //OnGUI variables for gif height and width
+    private float width;
+    private float widthCalc;
+    private float height;
+    private float heightCalc;
+
+    private bool hasWWW = false;
+    private bool canOnGUI = false;
+
     private string url;
     private WWW www;
-    public bool finishedWWW = false;
-    public bool hasWWW = false;
-    public bool canOnGUI = false;
-    public bool calledLoadImage = false;
-    public bool createdImage = false;
     private System.Drawing.Image gifImage;
 
     List<Texture2D> gifFrames = new List<Texture2D>();
@@ -49,12 +60,12 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             }
             else
             {
-                //debugText.text = "Name Found";
+                //Debug.log("Name Found");
                 url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorBack>().PokemonName.ToLower() + ".gif";
 
                 StartCoroutine(WaitForRequest(positionPlaceHolderGO, url));
                 hasWWW = true;
-                //debugText.text = "hawWWW = true";
+                //Debug.log("hawWWW = true");
             }
         }
     }
@@ -62,8 +73,6 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     void OnGUI()
     {
         height = (float)Screen.height - 80f / percentage;
-
-        //GUI.DrawTexture (new Rect (Screen.width-width, Screen.height - height, gifFrames [0].width * percentage, gifFrames [0].height * percentage), gifFrames [(int)(Time.frameCount * speed) % gifFrames.Count]);
         if (canOnGUI)
         {
             height = gifImage.Height / 2f;    //y
@@ -87,7 +96,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         {
             Debug.Log("WWW Error: " + www.error);
         }
-        //debugText.text = "finishedWWW = true";
+        //Debug.log("finishedWWW = true");
         finishedWWW = true;
     }
 
@@ -109,14 +118,13 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         {
             MemoryStream ms = new MemoryStream(byteArrayIn);
             gifImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
-            //debugText.text = "System.Image Created";
             //Debug.Log("Created image from stream");
             finishedWWW = true;
             return gifImage;
         }
         catch (Exception e)
         {
-            debugText.text = e.Message.ToString();
+            Debug.Log(e.Message.ToString());
             return null;
             /*System.Drawing.Bitmap bmp = byteArrayToBitMap(byteArrayIn);
             returnImage = System.Drawing.Image.FromHbitmap(bmp.GetHbitmap());

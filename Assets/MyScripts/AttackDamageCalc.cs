@@ -605,7 +605,7 @@ public class AttackDamageCalc : MonoBehaviour {
     }
 
     /// <summary>
-    /// Handles the cases where the move has a high probability of getting a critical hit
+    /// Handles the cases where the move has a high probability of getting a critical hit (1/8) versus (1/16)
     /// </summary>
     private int critChance(string name)
     {
@@ -628,7 +628,6 @@ public class AttackDamageCalc : MonoBehaviour {
                 chance = 8;
                 break;
         }
-
         return chance;
     }
 }
