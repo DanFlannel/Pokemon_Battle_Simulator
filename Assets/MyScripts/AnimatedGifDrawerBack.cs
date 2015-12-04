@@ -41,7 +41,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     private WWW www;
     private System.Drawing.Image gifImage;
 
-    List<Texture2D> gifFrames = new List<Texture2D>();
+    private List<Texture2D> gifFrames = new List<Texture2D>();
 
     void Start()
     {
@@ -70,6 +70,9 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// OnGUI method called to draw the gif image brought in from the byte array
+    /// </summary>
     void OnGUI()
     {
         height = (float)Screen.height - 80f / percentage;
@@ -84,6 +87,12 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// This checks the url for being a proper url with the gif image.
+    /// </summary>
+    /// <param name="go"> a game object </param>
+    /// <param name="url"> the url that the gif image is sotred in</param>
+    /// <returns></returns>
     IEnumerator WaitForRequest(GameObject go, string url)
     {
         www = new WWW(url);
@@ -100,6 +109,11 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         finishedWWW = true;
     }
 
+    /// <summary>
+    /// This converts a byte array to a System.Drawing.Image type
+    /// </summary>
+    /// <param name="byteArrayIn"> the byte array to be converted</param>
+    /// <returns></returns>
     public System.Drawing.Image ByteArrayToImage(byte[] byteArrayIn)
     {
         if (finishedWWW == false)
@@ -134,6 +148,11 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// This method converts the read in byte arry to a System.Drawing.Bitmap
+    /// </summary>
+    /// <param name="data"> the byte array to be convereted</param>
+    /// <returns></returns>
     public System.Drawing.Bitmap byteArrayToBitMap(byte[] data){
        System.Drawing.Bitmap bmp;
 
@@ -144,6 +163,9 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
    }
 
+    /// <summary>
+    /// This handles loading all fo the data from the given url and converts it into a readable image type and then allows the OnGUI function to draw the gif
+    /// </summary>
     public void loadImage()
     {
         //Debug.Log("Called Load Image BACK");

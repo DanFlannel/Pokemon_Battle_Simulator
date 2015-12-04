@@ -75,6 +75,7 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     /// Button method, makes sure that if the button was clicked, the isPlayer boolean is true
+    /// <param name="p">a boolean to set the isPlayer boolean</param>
     /// </summary>
     public void isPlayer_Button(bool p)
     {
@@ -83,6 +84,7 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     /// Button method, tells this script which attack has been called based off an integer between 1 and 4
+    /// <param name="index">the index of the current attack in the list of attacks</param>
     /// </summary>
     public void get_attack_name(int index)
     {
@@ -170,7 +172,9 @@ public class AttackDamageCalc : MonoBehaviour {
 	}
 
     /// <summary>
-    /// This method calculates the damage that each attack will do based off the serebii.net damage formula
+    /// This method calculates the damage that each attack will do based off the serebii.net damage formula, this does not take into effect the different modifiers or attack calculations each specific move has
+    /// <param name="name">takes in the name of the current attack being passed in</param>
+    /// <returns>the final basic damage based on all modifiers and multipliers</returns>
     /// </summary>
     public float calculateDamage(string name)
     {
@@ -201,6 +205,11 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     /// Sets the multiplier Base Power * STAB * Type modifier * Critical * other * randomNum(.85,1)
+    /// <param name="index">the index of the move in the attack list</param>
+    /// <param name="attackType">the attack type of the move being passed in</param>
+    /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
+    /// <param name="name">the name of the move being passed in</param>
+    /// <returns>the final value of all the modifiers</returns>
     /// </summary>
     private float modifier(int index, string attackType, bool isPlayer, string name)
     {
@@ -235,6 +244,8 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     /// Sets the level multiplier (2 * level / 5) + 2
+    /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
+    /// <returns>a float value of the level modifier</returns>
     /// </summary>
     private float levelModifier(bool isPlayer)
     {
@@ -260,8 +271,11 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     ///  Sets the player and enemy attack and defense based on the attack category (physical, status, special)
+    /// <param name="attack_index">the index of the move in the list of attacks</param>
+    /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
+    /// <param name="attackCat">the category of the attack move, either special, status, or physical</param>
     /// </summary>
-    private void set_attack_and_def(int attack_index, bool isPlayer, string attackCat)//
+    private void set_attack_and_def(int attack_index, bool isPlayer, string attackCat)
     {
         float modifier;
         //Debug.Log("attack type for attack/defense: " + attackCat);
@@ -306,6 +320,8 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     /// Takes the index or location of the pokemon in the attack list so we can fetch the base attack power for that attack
+    /// <param name="index">the index of the move in the list of attacks</param>
+    /// <returns> the base damage of the move</returns>
     /// </summary>
     private float baseAttackPower(int index)
     {
@@ -317,12 +333,15 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     ///  checks if the current attack is a STAB type attack or same type attack
+    /// <param name="attackType">the attack type of the move being passed in</param>
+    /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
+    /// <returns>a boolean that is true if the move is a stab type move or not</returns>
     /// </summary>
-    private bool isStab(string aType, bool isPlayer) 
+    private bool isStab(string attackType, bool isPlayer) 
     {
         getPokemonTypes();
         if (isPlayer) {
-            if (aType == playerType1 || aType == playerType2)
+            if (attackType == playerType1 || attackType == playerType2)
             {
                 return true;
             }
@@ -333,7 +352,7 @@ public class AttackDamageCalc : MonoBehaviour {
         }
         else
         {
-            if(aType == enemyType1 || aType == enemyType2)
+            if(attackType == enemyType1 || attackType == enemyType2)
             {
                 return true;
             }
@@ -346,6 +365,8 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     /// Gets the index of the pokemon in the attack list so we can use this index later rather than having to get it multiple times
+    /// <param name="name">the name of the move being passed in</param>
+    /// <returns>the index of the move being passed in, within the attack list</returns>
     /// </summary>
     public int getAttackListIndex(string name)
     {
@@ -364,6 +385,9 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     ///  Returns the type modifier for the attack based off of the pokemon's damange multiplier for that specific type of attack 
+    /// <param name="attackType">the attack type or the mvoe being passed in</param>
+    /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
+    /// <returns>the multiplier as a float</returns>
     /// </summary>
     private float getTypeMultiplier(string attackType, bool isPlayer)
     {
@@ -402,7 +426,10 @@ public class AttackDamageCalc : MonoBehaviour {
     }
 
     /// <summary>
-    /// uses the index to get the type multiplier from the master list in the damage multiplier class
+    /// Uses the index to get the type multiplier from the master list in the damage multiplier class
+    /// <param name="attackType">the type of the attack</param>
+    /// <param name="index">the index of the attack move in the attack list</param>
+    /// <returns>the modifier of the attack move based off its attack type</returns>
     /// </summary>
     private float fetchAttackTypeIndex(string attackType, int index)
     {
@@ -470,6 +497,8 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     /// Impliments the damage done by the attack and updates the text and health bars
+    /// <param name="damage">the amount of damage to eb implimented</param>
+    /// <param name="isPlayer">boolean to check if the player is using a move or the enemy</param>
     /// </summary>
     private void implimentDamage(float damage, bool isPlayer)
     {
@@ -495,6 +524,8 @@ public class AttackDamageCalc : MonoBehaviour {
     /// <summary>
     /// This method takes in the acuracy of the pokemon (always divisible by 5) and calculates if it hits or not and returns a boolean
     /// value based on if it hits
+    /// <param name="accuracy">the accuracy of the move being passed in</param>
+    /// <returns>true if the move hit, false if it missed</returns>
     /// </summary>
     public bool moveHitProbability(int accuracy)
     {
@@ -566,13 +597,15 @@ public class AttackDamageCalc : MonoBehaviour {
 
     /// <summary>
     /// Calculates the 1/16 chance every move has for getting a critical strike
-    /// </summary>
-    public bool isCrit(int n)
+    /// <param name="chance">the chance probability either (1/8) or (1/16)</param>
+    /// <returns>true if the move crit, false if it did not</returns>
+    ///</summary>
+    public bool isCrit(int chance)
     {
         bool crit = false;
 
-        int guess = Random.Range(1, n);
-        int guess2 = Random.Range(1, n);
+        int guess = Random.Range(1, chance);
+        int guess2 = Random.Range(1, chance);
 
         if(guess == guess2)
         {
@@ -607,6 +640,8 @@ public class AttackDamageCalc : MonoBehaviour {
     /// <summary>
     /// Handles the cases where the move has a high probability of getting a critical hit (1/8) versus (1/16)
     /// </summary>
+    /// <param name="name"> the name of the attack</param>
+    /// <returns>the crit chance of the move either (1/8) or (1/16)</returns>
     private int critChance(string name)
     {
         int chance;
