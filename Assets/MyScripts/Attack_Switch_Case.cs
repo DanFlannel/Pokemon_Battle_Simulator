@@ -4,12 +4,9 @@ using System.Collections.Generic;
 
 public class Attack_Switch_Case : MonoBehaviour {
 
-    public float final_damage;
-    public float final_heal;
-    public float recoil;
-
-    public bool isPlayerStunned;
-    public bool isEnemyStunned;
+    private float final_damage;
+    private float final_heal;
+    private float recoil;
 
     private PokemonCreatorBack playerStats;
     private PokemonCreatorFront enemyStats;
@@ -302,7 +299,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
             case "cut":                 //no additional effects
                 break;
-            case "dig":
+            case "dig":                 //redo based off of turn controller
                 if (isPlayer)
                 {
                     playerStats.isUnderground = true;
@@ -1024,16 +1021,19 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     private void conversion(bool isPlayer, string name)
     {
+        List<string> tempList = new List<string>();
         if (isPlayer)
         {
-            string tempName = genAttacks.playerAttackName[0];
+            tempList = genAttacks.get_playerAttackName();
+            string tempName = tempList[0];
             int attack_index = attackCalc.getAttackListIndex(name);
             string attack_type = attacks.attackList[attack_index].type;
             playerStats.Type1 = attack_type;
         }
         else
         {
-            string tempName = genAttacks.playerAttackName[0];
+            tempList = genAttacks.get_enemyAttackName();
+            string tempName = tempList[0];
             int attack_index = attackCalc.getAttackListIndex(name);
             string attack_type = attacks.attackList[attack_index].type;
             playerStats.Type1 = attack_type;

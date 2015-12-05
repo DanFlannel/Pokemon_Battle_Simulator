@@ -28,8 +28,6 @@ public class AttackDamageCalc : MonoBehaviour {
 	public string enemyAttack3;
 	public string enemyAttack4;
 
-
-
 	private string enemyType1;
     private string enemyType2;
     private string playerType1;
@@ -88,50 +86,44 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     public void get_attack_name(int index)
     {
-        /*Debug.Log("Player Attack 1" + genAttacks.playerAttackName[0]);
-        Debug.Log("Player Attack 2" + genAttacks.playerAttackName[1]);
-        Debug.Log("Player Attack 3" + genAttacks.playerAttackName[2]);
-        Debug.Log("Player Attack 4" + genAttacks.playerAttackName[3]);
-        Debug.Log("Enemy Attack 1" + genAttacks.enemyAttackName[0]);
-        Debug.Log("Enemy Attack 2" + genAttacks.enemyAttackName[1]);
-        Debug.Log("Enemy Attack 3" + genAttacks.enemyAttackName[2]);
-        Debug.Log("Enemy Attack 4" + genAttacks.enemyAttackName[3]);*/
         if (isPlayer) {
+            List<string> playerAttackName = genAttacks.get_playerAttackName();
             if (index == 1)
             {
-                attack_name = genAttacks.playerAttackName[0];
+                attack_name = playerAttackName[0];
             }
             if(index == 2)
             {
-                attack_name = genAttacks.playerAttackName[1];
+                attack_name = playerAttackName[1];
             }
             if(index == 3)
             {
-                attack_name = genAttacks.playerAttackName[2];
+                attack_name = playerAttackName[2];
             }
             if( index == 4)
             {
-                attack_name = genAttacks.playerAttackName[3];
+                attack_name = playerAttackName[3];
             }
         }
         else
         {
-            index = (int)Random.Range(1, 5);;
+            index = (int)Random.Range(1, 5);
+            List<string> enemyAttackName = genAttacks.get_enemyAttackName();
             if (index == 1)
             {
-                attack_name = genAttacks.enemyAttackName[0];
+                attack_name = enemyAttackName[0];
             }
             if (index == 2)
             {
-                attack_name = genAttacks.enemyAttackName[1];
+                attack_name = enemyAttackName[1];
             }
             if (index == 3)
             {
-                attack_name = genAttacks.enemyAttackName[2];
+                attack_name = enemyAttackName[2];
             }
             if (index == 4)
             {
-                attack_name = genAttacks.enemyAttackName[3];
+                attack_name = enemyAttackName[3];
             }
         }
     }
@@ -277,7 +269,6 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     private void set_attack_and_def(int attack_index, bool isPlayer, string attackCat)
     {
-        float modifier;
         //Debug.Log("attack type for attack/defense: " + attackCat);
         if (attackCat != attacks.status)
         {
@@ -307,15 +298,9 @@ public class AttackDamageCalc : MonoBehaviour {
                     defense_mod = playerStats.Defense;
                 }
             }
-            modifier = attack_mod / defense_mod;
-        }
-        else                                                    //it is a status move
-        {
-            modifier = 0;
         }
         //Debug.Log("Attack: " + attack_mod);
         //Debug.Log("Defense: " + defense_mod);
-        //Debug.Log("Attack/Defense = " + modifier);
     }
 
     /// <summary>
@@ -409,7 +394,7 @@ public class AttackDamageCalc : MonoBehaviour {
         }
         else
         {
-            int index = playerStats.PokemonID - 1;
+            int index = playerStats.getPokemonID() - 1;
             if (playerStats.PokemonName == damage_mult.master_list[index].name)
             {
                 modifier = fetchAttackTypeIndex(attackType, index);

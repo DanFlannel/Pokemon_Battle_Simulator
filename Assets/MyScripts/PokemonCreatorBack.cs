@@ -5,7 +5,7 @@ public class PokemonCreatorBack : MonoBehaviour {
 	
 	private int levelBonus;
 
-    public int PokemonID;
+    private int PokemonID;
     public string PokemonName;
 
     private int baseHP;
@@ -55,7 +55,6 @@ public class PokemonCreatorBack : MonoBehaviour {
     public string cachedAttackName;
 
     private PokemonLibrary pl;
-	private PokemonAttacks pa;
 	private AnimatedGifDrawerBack gif;
 
 	private int temp;
@@ -70,7 +69,6 @@ public class PokemonCreatorBack : MonoBehaviour {
     {
         temp = Random.Range(0, 151);
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
-        pa = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         gif = GameObject.FindGameObjectWithTag("PBL").GetComponent<AnimatedGifDrawerBack>();
         GetPokemonBaseData(temp);   //testing to see if bulbasar pops up
         StatsBasedOffLevel();
@@ -177,6 +175,16 @@ public class PokemonCreatorBack : MonoBehaviour {
                 Debug.Log("no type " + type + " found");
                 break;
         }
+    }
+
+    public int getPokemonID()
+    {
+        return PokemonID;
+    }
+
+    public void setPokemonID(int id)
+    {
+        PokemonID = id;
     }
 
 }

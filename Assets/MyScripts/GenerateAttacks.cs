@@ -7,34 +7,29 @@ using System.Collections.Generic;
 /// in the PokemonAttacks script and then picks 4 attacks from the list of attacks the specified pokemon can use and
 /// sends the data to the GUI so the user can see what attacks he/she can has at his/her disposal.
 /// </summary>
-
 public class GenerateAttacks : MonoBehaviour {
 
 	private PokemonCreatorFront pcf;
 	private PokemonCreatorBack pcb;
 	private PokemonAttacks attackData;
     private AttackDamageCalc adc;
-	private int frontMoveList = 15;
-	private int lengthOfList = 15;
 	private int moves = 4;
-	private int maxNum = 15;
-	public bool attackDatabaseCompiled = false;
 
-	private List<masterList> masterList = new List<masterList>();
+    public bool attackDatabaseCompiled = false;
 
     [Header("Player")]
     [SerializeField]
     private List<int> randomPlayerIndex = new List<int>();
     private string playerPokemonName1;
 	private List<attackIndex> playerAttackList1 = new List<attackIndex>();
-	public List<string> playerAttackName = new List<string>();
+    private List<string> playerAttackName = new List<string>();
 
     [Header("Enemy")]
     [SerializeField]
     private List<int> randomEnemyIndex = new List<int>();
 	private string enemyPokemonName1;
 	private List<attackIndex> enemyAttackList1 = new List<attackIndex>();
-	public List<string> enemyAttackName = new List<string>();
+    private List<string> enemyAttackName = new List<string>();
 
 	// Use this for initialization
 	void Start () {
@@ -79,9 +74,8 @@ public class GenerateAttacks : MonoBehaviour {
     /// Generates the random list of player attacks
     /// </summary>
 	private void PlayerPokemonGen(){
-        int id = pcb.PokemonID -1;
+        int id = pcb.getPokemonID() -1;
 		playerAttackList1 = attackData.masterGetAttacks(id);
-        lengthOfList = playerAttackList1.Count;
 	    generateRandomList(randomPlayerIndex, playerAttackList1.Count);
 	}
 
@@ -107,7 +101,10 @@ public class GenerateAttacks : MonoBehaviour {
 		}
 	}
 
-	private void genPlayerAttacks(){
+    /// <summary>
+    /// generates the Player attack names
+    /// </summary>
+    private void genPlayerAttacks(){
 		bool goForward = attackData.completedDatabaseInitalization;
 		playerPokemonName1 = pcb.PokemonName;
 		if(goForward == false){
@@ -148,6 +145,9 @@ public class GenerateAttacks : MonoBehaviour {
         attackDatabaseCompiled = true;
     }
 
+    /// <summary>
+    /// Adds an attack to the enemyAttack string list based off if that pokemon can use it
+    /// </summary>
     private void returnEnemyAttacks()
     {
         for(int i = 0; i < moves; i++)
@@ -163,7 +163,9 @@ public class GenerateAttacks : MonoBehaviour {
         }
     }
 
-    //TODO Generate Enemy attacks.
+    /// <summary>
+    /// generates the Enemy attack names
+    /// </summary>
     private void genEnemyAttacks()
     {
         bool goForward = attackData.completedDatabaseInitalization;
@@ -179,6 +181,24 @@ public class GenerateAttacks : MonoBehaviour {
         adc.enemyAttack2 = enemyAttackName[1];
         adc.enemyAttack3 = enemyAttackName[2];
         adc.enemyAttack4 = enemyAttackName[3];
+    }
+
+    /// <summary>
+    /// Gets the playerAttackName string list
+    /// </summary>
+    /// <returns>The playerAttackName string list variable</returns>
+    public List<string> get_playerAttackName()
+    {
+        return playerAttackName;
+    }
+
+    /// <summary>
+    /// Gets the enemyAttackName string list
+    /// </summary>
+    /// <returns>The enemyAttackName string list variable</returns>
+    public List<string> get_enemyAttackName()
+    {
+        return enemyAttackName;
     }
 
 }

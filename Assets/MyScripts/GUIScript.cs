@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class GUIScript : MonoBehaviour {
 
@@ -96,13 +97,18 @@ public class GUIScript : MonoBehaviour {
     /// Gets the attack names from the randomly generated attack list
     /// </summary>
 	private void attackNames(){
-		playerAttack1.text = attackGen.playerAttackName[0];
-		playerAttack2.text = attackGen.playerAttackName[1];
-		playerAttack3.text = attackGen.playerAttackName[2];
-		playerAttack4.text = attackGen.playerAttackName[3];
+        List<string> playerAttackName = attackGen.get_playerAttackName();
+
+		playerAttack1.text = playerAttackName[0];
+		playerAttack2.text = playerAttackName[1];
+		playerAttack3.text = playerAttackName[2];
+		playerAttack4.text = playerAttackName[3];
 		generatedAttacks = true;
 	}
 
+    /// <summary>
+    /// Returns the application to the main menu screen
+    /// </summary>
     public void main_menu()
     {
         Application.LoadLevel("main menu");
