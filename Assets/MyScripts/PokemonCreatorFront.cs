@@ -90,9 +90,9 @@ public class PokemonCreatorFront : MonoBehaviour {
     }
 
     private void GetPokemonBaseData(int id) {
-        PokemonName = pl.GetName(id);
+        _PokemonName = pl.GetName(id);
         gif.pName = PokemonName.ToLower();
-        PokemonID = id + 1;
+        _PokemonID = id + 1;
         baseHP = pl.GetHP(id);
         baseAttack = pl.GetAttack(id);
         baseDefense = pl.GetDefense(id);

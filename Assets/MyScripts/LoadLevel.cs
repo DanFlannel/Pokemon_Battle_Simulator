@@ -30,7 +30,7 @@ public class LoadLevel : MonoBehaviour {
     {
         async = Application.LoadLevelAsync(levelName);
         progress = async.progress;
-        Debug.Log(progress);
+        //Debug.Log(progress);
         map.fillAmount = progress;
         async.allowSceneActivation = false;
         yield return (0);
