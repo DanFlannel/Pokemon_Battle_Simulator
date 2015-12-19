@@ -12,10 +12,6 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     public float speed = 1;
     public string pName;
 
-    public float width;
-    public float widthCalc;
-    public float height;
-    public float heightCalc;
     public float percentage;
     public GameObject positionPlaceHolderGO;
     public Vector2 positionPlaceHolder;
@@ -27,6 +23,20 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     public bool hasWWW = false;
     public bool canOnGUI = false;
     private System.Drawing.Image gifImage;
+
+    /***************************
+    Private Variables
+    ****************************/
+
+    //OnGUI variables for gif height and width
+    private float width;
+    private float widthCalc;
+    private float height;
+    private float heightCalc;
+
+    private float nativeWidth = 1024;
+    private float nativeHeight = 786;
+
 
     List<Texture2D> gifFrames = new List<Texture2D>();
 
@@ -58,12 +68,15 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     {
 
         if (canOnGUI) {
-            height = gifImage.Height/2f;    //y
+            height = Screen.height / nativeHeight;
             heightCalc = positionPlaceHolder.y;
-            width = gifImage.Width/2f;      //x
+            width = Screen.width / nativeWidth;
             widthCalc = positionPlaceHolder.x;
 
-            GUI.DrawTexture(new Rect(Screen.width - (positionPlaceHolder.x + width), positionPlaceHolder.y - height, gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+            GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(width, height, 1));
+            //Debug.Log((gifFrames[0].height * 3.5f) / 50f);
+            float temp = gifFrames[0].width * 2.5f;
+            GUI.DrawTexture(new Rect(750, 50, gifFrames[0].width * 2.5f, gifFrames[0].height * 2.5f), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
         }
     }
 

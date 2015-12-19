@@ -34,6 +34,9 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     private float height;
     private float heightCalc;
 
+    private float nativeWidth = 1024;
+    private float nativeHeight = 786;
+
     private bool hasWWW = false;
     private bool canOnGUI = false;
 
@@ -78,12 +81,14 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         height = (float)Screen.height - 80f / percentage;
         if (canOnGUI)
         {
-            height = gifImage.Height / 2f;    //y
+            height = Screen.height / nativeHeight;
             heightCalc = positionPlaceHolder.y;
-            width = gifImage.Width /2f;      //x
+            width = Screen.width / nativeWidth;
             widthCalc = positionPlaceHolder.x;
 
-            GUI.DrawTexture(new Rect(Screen.width/4f + widthCalc, Screen.height/3f + (heightCalc* percentage), gifFrames[0].width * percentage, gifFrames[0].height * percentage), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+            GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(width, height,1));
+            Debug.Log((gifFrames[0].height * 3.5f)/50f);
+            GUI.DrawTexture(new Rect(50,200, gifFrames[0].width * 3.5f, gifFrames[0].height * 3.5f), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
         }
     }
 
