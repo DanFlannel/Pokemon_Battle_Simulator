@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class LoadLevel : MonoBehaviour {
 
 
-    public string levelName;
+    public int levelName;
     public Image map;
     public float progress;
     AsyncOperation async;
@@ -28,7 +29,7 @@ public class LoadLevel : MonoBehaviour {
 
     IEnumerator loadLevel()
     {
-        async = Application.LoadLevelAsync(levelName);
+        async = SceneManager.LoadSceneAsync(levelName);
         progress = async.progress;
         //Debug.Log(progress);
         map.fillAmount = progress;

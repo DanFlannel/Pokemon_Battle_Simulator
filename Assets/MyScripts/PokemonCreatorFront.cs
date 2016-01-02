@@ -109,8 +109,8 @@ public class PokemonCreatorFront : MonoBehaviour {
         //max hp = 2* base stat + 110
         //max other stats = 1.79 * stat + 5(levelBonus)
         //level bonus cannot exceed 5
-        Level = (int)Random.Range(70f, 100f) + 1;
-        Level = 100;
+        _Level = (int)Random.Range(70f, 100f) + 1;
+        _Level = 100;
         levelBonus = Level / (int)(Random.Range(16f, 20f) + 1); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
 
         float hpLevelCalc = 1f + ((float)Level / 100);

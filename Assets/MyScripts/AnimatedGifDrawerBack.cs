@@ -87,6 +87,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             widthCalc = positionPlaceHolder.x;
 
             GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(width, height,1));
+            
             //Debug.Log((gifFrames[0].height * 3.5f)/50f);
             float calc = (gifFrames[0].height * 3.5f) / 50f;
             float prediction = 0f;
@@ -196,7 +197,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
                 for (int y = 0; y < frame.Height; y++)
                 {
                     System.Drawing.Color sourceColor = frame.GetPixel(x, y);
-                    frameTexture.SetPixel(frame.Width + x, -y, new Color32(sourceColor.R, sourceColor.G, sourceColor.B, sourceColor.A)); // for some reason, x is flipped
+                    frameTexture.SetPixel(frame.Width + x + 1, -y, new Color32(sourceColor.R, sourceColor.G, sourceColor.B, sourceColor.A)); // for some reason, x is flipped
                 }
             frameTexture.Apply();
             gifFrames.Add(frameTexture);
