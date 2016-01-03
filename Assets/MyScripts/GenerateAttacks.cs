@@ -83,7 +83,7 @@ public class GenerateAttacks : MonoBehaviour {
     /// Generates the random list of enemy attacks
     /// </summary>
 	private void EnemyPlayerPokemonGen(){
-        Debug.Log(pcf.PokemonID);
+        //Debug.Log(pcf.PokemonID);
         int id = pcf.PokemonID - 1;
         enemyAttackList1 = attackData.masterGetAttacks(id);
         generateRandomList(randomEnemyIndex,enemyAttackList1.Count);

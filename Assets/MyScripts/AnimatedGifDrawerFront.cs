@@ -68,6 +68,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     {
 
         if (canOnGUI) {
+            //Debug.logger.Log("count of frames: " + gifFrames.Count);
             height = Screen.height / nativeHeight;
             heightCalc = positionPlaceHolder.y;
             width = Screen.width / nativeWidth;
@@ -108,7 +109,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
             Debug.Log("Null byte array");
             return null;
         }
-        Debug.Log("KB array in length: " + Mathf.RoundToInt(byteArrayIn.Length / 1000f));
+        //Debug.Log("KB array in length: " + Mathf.RoundToInt(byteArrayIn.Length / 1000f));
 
         try
         {
@@ -140,6 +141,8 @@ public class AnimatedGifDrawerFront : MonoBehaviour
             var frame = new System.Drawing.Bitmap(gifImage.Width, gifImage.Height);
             System.Drawing.Graphics.FromImage(frame).DrawImage(gifImage, System.Drawing.Point.Empty);
             Texture2D frameTexture = new Texture2D(frame.Width, frame.Height);
+
+            //Debug.logger.Log("width: " + frame.Width + " height: " + frame.Height + " frame count: " + frameCount + " total: " + (frame.Width * frame.Height * frameCount));
             for (int x = 0; x < frame.Width; x++)
                 for (int y = 0; y < frame.Height; y++)
                 {
