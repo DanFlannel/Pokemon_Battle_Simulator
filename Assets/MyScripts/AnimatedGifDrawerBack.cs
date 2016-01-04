@@ -31,11 +31,33 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     { 'e', "1110" },
     { 'f', "1111" }
 };
+
+    private Dictionary<int, string> codeTable = new Dictionary<int, string>();
+
     private int gifWidth;
     private int gifHeigt;
     private bool uses_GlobalColorTable;
     private int colorResolution;
     private bool uses_SortFlag;
+    private bool user_input_flag;
+    private bool transparentColorFlag;
+    private string reservedForFutureUseGCE;
+    private string GCE_DisposalMethod;
+    private string transparentColorIndex;
+
+    private string Header;
+    private string LogicalScreenDescriptor;
+    private string GlobalColorTable;
+
+    private string ApplicationExtensionBlock;   //optional
+
+    private string GraphicsControlExtension;
+    private string ImageDescriptor;
+
+    //drawing the image variables
+    private int
+        drawLeft, drawTop, drawWidth, drawHeight;
+    private List<string> ImageDataBlocks = new List<string>();
 
 
     /***************************
@@ -51,7 +73,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
     public GameObject positionPlaceHolderGO;
     private Vector2 positionPlaceHolder;
-    
+
 
     /***************************
         Private Variables
@@ -73,6 +95,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     private System.Drawing.Image gifImage;
 
     private List<Texture2D> gifFrames = new List<Texture2D>();
+    private List<Texture2D> custom_gifFrames = new List<Texture2D>();
     private byte[] bytearrayholder;
 
     void Start()
@@ -116,15 +139,15 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             width = Screen.width / nativeWidth;
             widthCalc = positionPlaceHolder.x;
 
-            GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(width, height,1));
-            
+            GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(width, height, 1));
+
             //Debug.Log((gifFrames[0].height * 3.5f)/50f);
             float calc = (gifFrames[0].height * 3.5f) / 50f;
             float prediction = 0f;
-            prediction = 150f + ((7.5f-calc) * 55.375f);
+            prediction = 150f + ((7.5f - calc) * 55.375f);
             prediction = Mathf.RoundToInt(prediction);
             //Debug.Log("predicted position " + prediction);
-            GUI.DrawTexture(new Rect(50,prediction, gifFrames[0].width * 3.5f, gifFrames[0].height * 3.5f), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+            GUI.DrawTexture(new Rect(50, prediction, gifFrames[0].width * 3.5f, gifFrames[0].height * 3.5f), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
         }
     }
 
@@ -186,7 +209,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             Debug.Log("Created image from hbitmap");
             finishedWWW = true;*/
         }
-        
+
     }
 
     /// <summary>
@@ -217,6 +240,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
         var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList[0]);
         int frameCount = gifImage.GetFrameCount(dimension);
+        Debug.Log("Dimensions: Frames: " + frameCount + " Width: " + gifImage.Width + " Height: " + gifImage.Height);
         int width;
         int height;
         for (int i = 0; i < frameCount; i++)
@@ -250,28 +274,43 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         string hex = ByteArrayToString(byteArrayIn);
         file.Write(hex);
         file.Close();
-        Debug.logger.Log("est width: " + byteArrayIn[6] + " est height: " + bytearrayholder[8] + " est frames: ");
 
-        //here we are splitting up the file for our own purposes
-        string header = gif_Header(hex);
-
-        string descriptor = gif_logicalScreenDescriptor(hex);
-
-        int gTableLen = descriptor_PacketFieldConversion(descriptor);
-        string gTable = hex.Substring(26, gTableLen*2);
-        Debug.LogWarning("Global Table: " + gTable);
-
-        graphicsControlExtension(hex);
-
-
+        //this is the one that we as humans can read
         string hex2 = ByteArrayToStringReadable(byteArrayIn);
         file2.Write(hex2);
         file2.Close();
-        Debug.Log("width: " + width + " height: " + height + " count: " + frameCount);
-        //71 73 70 56 57 97 standard first six bytes in the text file
-        //115   0   82 these are the next three bytes in the text file ex:
-        //Width     Height 
-        
+
+        int myframeCount = findFrameCount(hex);
+        Debug.LogWarning("frame count: " + frameCount);
+
+        //here we are splitting up the file for our own purposes into each associated block
+        Header = gif_Header(hex);
+
+        LogicalScreenDescriptor = logicalScreenDescriptor(hex);
+
+        int gTableLen = LSD_packetfield(LogicalScreenDescriptor);
+
+        GlobalColorTable = hex.Substring(26, gTableLen * 2);
+        Debug.LogWarning("Global Table: " + GlobalColorTable);
+
+        GraphicsControlExtension = graphicsControlExtension(hex);
+
+        ApplicationExtensionBlock = applicationExtensionBlock(hex);
+
+        ImageDescriptor = ImageDescriptorBlock(hex);
+
+        //Now that we have everything setup we are on to the drawing data
+
+        int ImageDataLength = findLengthOfImageData(hex);
+        int bytesInImageData = ImageDataLength / 2;
+        string ImageData = hex.Substring(curGifByteIndex * 2, ImageDataLength);
+        splitDataIntoBlocks(ImageData);
+        curGifByteIndex += bytesInImageData;
+
+        Debug.Log("Image Data for 1st frame: " + ImageData);
+        GraphicsControlExtension = graphicsControlExtension(hex);
+        ImageDescriptor = ImageDescriptorBlock(hex);
+
     }
 
     #region outputting the data to a text file
@@ -296,7 +335,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     {
         //this is the first 6 bytes of the file, this is always 6 bytes
         string header = "";
-        for(int i = 0; i < 11; i+=2)
+        for (int i = 0; i < 11; i += 2)
         {
             header += hex.Substring(i, 2);
         }
@@ -306,10 +345,11 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             Debug.logger.Log("gif header: " + header + " cur index: " + curGifByteIndex);
             if (header.Contains("383961"))
             {
-                Debug.Log("Gif Version: 87A");
-            }else if (header.Contains("383961"))
+                Debug.LogWarning("Gif Version: 87A");
+            }
+            else if (header.Contains("383961"))
             {
-                Debug.Log("Gif Version: 87A");
+                Debug.LogWarning("Gif Version: 87A");
             }
             else
             {
@@ -324,46 +364,50 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         }
     }
 
+
+
     /// <summary>
     /// this handles the logical screen descriptor part of the gif packets
     /// </summary>
     /// <param name="hex">the entire hex string</param>
     /// <returns> the logical descriptor part of it</returns>
-    public string gif_logicalScreenDescriptor(string hex)
+    public string logicalScreenDescriptor(string hex)
     {
         //the next 7 bytes after the header, this is always 7 bytes so we can hard code this
         string logicalScreenDescriptor = "";
         int bytesToAdd = 7 * 2;
-        int length = (curGifByteIndex * 2) +bytesToAdd;
-        for(int i = curGifByteIndex * 2; i < length; i+=2)
+        int length = (curGifByteIndex * 2) + bytesToAdd;
+        for (int i = curGifByteIndex * 2; i < length; i += 2)
         {
             logicalScreenDescriptor += hex.Substring(i, 2);
         }
 
-        string widthHex = logicalScreenDescriptor.Substring(2, 2) + logicalScreenDescriptor.Substring(0,2);
-        string heightHex = logicalScreenDescriptor.Substring(6,2) + logicalScreenDescriptor.Substring(4, 2);
+        string widthHex = logicalScreenDescriptor.Substring(2, 2) + logicalScreenDescriptor.Substring(0, 2);
+        string heightHex = logicalScreenDescriptor.Substring(6, 2) + logicalScreenDescriptor.Substring(4, 2);
 
-        gifWidth = int.Parse(widthHex, System.Globalization.NumberStyles.HexNumber);
-        gifHeigt = int.Parse(heightHex, System.Globalization.NumberStyles.HexNumber);
+        gifWidth = HexToDecimal(widthHex);
+        gifHeigt = HexToDecimal(heightHex);
 
         Debug.LogWarning("width: " + gifWidth + " height: " + gifHeigt);
 
         curGifByteIndex += logicalScreenDescriptor.Length / 2;
         Debug.Log("gif logical_descriptor: " + logicalScreenDescriptor + " cur index: " + curGifByteIndex);
-        
-        
-
 
         return logicalScreenDescriptor;
     }
 
-    public int descriptor_PacketFieldConversion(string descriptor)
+    /// <summary>
+    /// Logical Screen Descriptor packet field conversion
+    /// </summary>
+    /// <param name="descriptor"></param>
+    /// <returns></returns>
+    public int LSD_packetfield(string descriptor)
     { //although we can usually assume this to be 768 we cannot be completely sure
         //this also should be noted that the packet field is always the 5th bit in the descriptor string
         string binary = HexStringToBinary(descriptor.Substring(8, 2));
         Debug.LogWarning("Binary byte: " + descriptor.Substring(8, 2));
         //we only need the last three bits of those two bytes
-        
+
         Debug.LogWarning("Size of Color Table BINARY: " + binary);
 
         set_globalColorTableFlag(binary.Substring(0, 1));
@@ -373,14 +417,21 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         binary = binary.Substring(5, 3);
         Debug.LogWarning("Size bytes: " + binary);
 
-        long length = Convert.ToInt64(binary, 2);
+        long length = Convert.ToInt64(binary, 2);   //converts to decimal
         float size = length + 1;
-        float final = Mathf.Pow(2,size) * 3;
+        float final = Mathf.Pow(2, size) * 3;
         curGifByteIndex += (int)final;
         Debug.Log("Size of Color Table DECIMAL: " + final + " cur index: " + curGifByteIndex);
         return (int)final;
     }
 
+    /// <summary>
+    /// GIFs can have either a global color table or local color tables for each sub-image. 
+    /// Each color table consists of a list of RGB (Red-Green-Blue) color component intensities, three bytes for each color
+    /// the length of the global color table is 2^(N+1) entries where N is the value of the color depth field in the logical screen descriptor
+    /// The table will take up 3*2^(N+1) bytes in the stream.
+    /// </summary>
+    /// <param name="hex"></param>
     private void set_globalColorTableFlag(string hex)
     {
         Debug.LogWarning("color table flag input: " + hex);
@@ -392,7 +443,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         {
             uses_GlobalColorTable = true;
         }
-        Debug.Log("The Gif uses the global color table: " + uses_GlobalColorTable);
+        Debug.LogWarning("The Gif uses the global color table: " + uses_GlobalColorTable);
     }
 
     private void set_colorResolution(string hex)
@@ -400,7 +451,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         Debug.LogWarning("Color Resolution input: " + hex);
         long resolution = Convert.ToInt64(hex, 2);
         colorResolution = (int)resolution + 1;
-        Debug.Log("Gif Color Resolution: " + colorResolution);
+        Debug.LogWarning("Gif Color Resolution: " + colorResolution);
     }
 
     private void set_sortFlag(string hex)
@@ -414,30 +465,187 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         {
             uses_SortFlag = true;
         }
-        Debug.Log("The Gif sorts the global color table: " + uses_SortFlag);
+        Debug.LogWarning("The Gif sorts the global color table: " + uses_SortFlag);
     }
 
+
+    /// <summary>
+    /// Graphic control extension blocks are used to specify transparency settings and control animations. They are an optional GIF89 extension.
+    /// 8 bytes long
+    /// </summary>
+    /// <param name="hex"></param>
+    /// <returns></returns>
     private string graphicsControlExtension(string hex)
     {
         string GCE = "";
-        GCE = hex.Substring(curGifByteIndex * 2, 16);
-        curGifByteIndex += 16;
-        Debug.Log("Graphics control extension: " + GCE);
-        if(GCE.Substring(0,2) != "21")
+        int bytesToAdd = 8;
+        int subStringLen = bytesToAdd * 2;
+        GCE = hex.Substring(curGifByteIndex * 2, subStringLen);
+        curGifByteIndex += bytesToAdd;
+        Debug.Log("Graphics control extension: " + GCE + " cur index: " + curGifByteIndex);
+        if (GCE.Substring(0, 2) != "21")
         {
             Debug.LogWarning("Not an extension block");
         }
-        if(GCE.Substring(2,2) != "F9")
+        if (GCE.Substring(2, 2) != "F9")
         {
             Debug.LogWarning("this is not an graphics control extension block");
         }
-        if(GCE.Substring(14,2) != "00")
+        if (GCE.Substring(14, 2) != "00")
         {
             Debug.LogWarning("GCE Terminator missing");
         }
 
+        string binary = GCE.Substring(4, 2);
+
+        Debug.LogWarning("GCE byte size: " + binary);
+        binary = HexStringToBinary(binary);
+        long length = Convert.ToInt64(binary, 2);
+        Debug.LogWarning("GCE block size: " + length);
+
+
+        GCE_packetfield(GCE);
+
+        string delayTime = GCE.Substring(8, 4);
+        Debug.LogWarning("GCE Delay Time: " + delayTime);
+        if (transparentColorFlag)
+        {
+            transparentColorIndex = GCE.Substring(12, 2);
+            Debug.Log("Transparent Color Index HEX: " + transparentColorIndex);
+            Debug.Log("Transparent Color Index DECIMAL: " + HexToDecimal(transparentColorIndex));
+
+        }
+
         return GCE;
     }
+
+    private void GCE_packetfield(string GCE)
+    {
+        string packetField = GCE.Substring(6, 2);
+        Debug.LogWarning("Packet Field HEX: " + packetField);
+        packetField = HexStringToBinary(packetField);
+        Debug.LogWarning("Packet Field BINARY: " + packetField);
+
+
+        set_userInputFlag(packetField.Substring(6, 1));
+        set_transparentColorFlag(packetField.Substring(7, 1));
+
+    }
+
+    private void set_userInputFlag(string hex)
+    {
+        if (hex == "0")
+        {
+            user_input_flag = false;
+        }
+        else if (hex == "1")
+        {
+            user_input_flag = true;
+        }
+        else
+        {
+            Debug.LogError("User input field error");
+        }
+        Debug.LogWarning("User Input Flag: " + user_input_flag);
+    }
+
+    private void set_transparentColorFlag(string hex)
+    {
+        if (hex == "0")
+        {
+            transparentColorFlag = false;
+        }
+        else if (hex == "1")
+        {
+            transparentColorFlag = true;
+        }
+        else
+        {
+            Debug.LogError("Transparent Color Flag error");
+        }
+        Debug.LogWarning("Transparent Color Flag: " + transparentColorFlag);
+    }
+
+
+
+    /// <summary>
+    /// The GIF89 specification allows for application-specific information to be embedded in the GIF file itself. This capability is not much used.
+    /// 19 bytes long
+    /// </summary>
+    /// <param name="hex"></param>
+    /// <returns></returns>
+    private string applicationExtensionBlock(string hex)
+    {
+        string appExtensionBlock = "";
+        int bytesToAdd = 19;
+        int subStringLen = bytesToAdd * 2;
+        appExtensionBlock = hex.Substring(curGifByteIndex * 2, subStringLen);
+        curGifByteIndex += bytesToAdd;
+        Debug.Log("Application Extension: " + appExtensionBlock + " cur index: " + curGifByteIndex);
+        return appExtensionBlock;
+    }
+
+    /// <summary>
+    /// A single GIF file may contain multiple images. multiple images are normally used for animations. Each image begins with an image descriptor block. 
+    /// This block is exactly 10 bytes long
+    /// </summary>
+    /// <param name="hex"></param>
+    /// <returns></returns>
+    private string ImageDescriptorBlock(string hex)
+    {
+        string descriptor = "";
+        int bytesToAdd = 10;
+        int subStringLen = bytesToAdd * 2;
+        descriptor = hex.Substring(curGifByteIndex * 2, subStringLen);
+        curGifByteIndex += bytesToAdd;
+        Debug.Log("Image Descriptor: " + descriptor + " cur index: " + curGifByteIndex);
+        if (descriptor.Substring(0, 2) != "2C")
+        {
+            Debug.LogError("This is not a descriptor");
+        }
+
+        string redrawLeftHex = descriptor.Substring(4, 2) + descriptor.Substring(2, 2);
+        drawLeft = HexToDecimal(redrawLeftHex);
+        Debug.LogWarning("Resize Left: " + drawLeft);
+
+        string redrawTopHex = descriptor.Substring(8, 2) + descriptor.Substring(6, 2);
+        drawTop = HexToDecimal(redrawTopHex);
+        Debug.LogWarning("Resize Top: " + drawTop);
+
+        string redrawWidthHex = descriptor.Substring(12, 2) + descriptor.Substring(10, 2);
+        drawWidth = HexToDecimal(redrawWidthHex);
+        Debug.LogWarning("Resize Width: " + drawWidth);
+
+        string redrawHeightHex = descriptor.Substring(16, 2) + descriptor.Substring(14, 2);
+        drawHeight = HexToDecimal(redrawHeightHex);
+        Debug.LogWarning("Resize Height: " + drawHeight);
+
+        string PacketField = descriptor.Substring(18, 2);
+        Debug.LogWarning("PacketField: " + PacketField);
+
+        return descriptor;
+    }
+
+
+    private int findLengthOfImageData(string hex)
+    {
+        int length = 0;
+        for (int i = (curGifByteIndex * 2); i < hex.Length - 4; i += 2)
+        {
+            if (hex.Substring(i, 4) == "21F9")
+            {
+                Debug.LogWarning("we found a GCE Block");
+                return length;
+            }
+            else
+            {
+                length += 2;
+            }
+        }
+        return length;
+    }
+
+
 
     /// <summary>
     /// Converts Hex to Binary
@@ -458,7 +666,16 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         return result.ToString();
     }
 
-
+    /// <summary>
+    /// Hex to decimal
+    /// </summary>
+    /// <param name="hex">the hex you want to convert to decimal</param>
+    /// <returns>decimal form of the hex input</returns>
+    private int HexToDecimal(string hex)
+    {
+        int n = int.Parse(hex, System.Globalization.NumberStyles.HexNumber);
+        return n;
+    }
 
     /// <summary>
     /// Converts little endian hex to hex
@@ -473,6 +690,77 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         foreach (byte b in bytes)
             retval += b.ToString("X2");
         return retval;
+    }
+
+    private int findFrameCount(string hex)
+    {
+        int frameCount = 0;
+        string search = "21f9";
+
+        for (int i = 0; i < hex.Length - 4; i++)
+        {
+            string temp = hex.Substring(i, 4).ToLower();
+            if (temp == search)
+            {
+                frameCount++;
+            }
+        }
+
+        return frameCount;
+    }
+
+    /// <summary>
+    /// This splits our Image Data into sub blocks based off of the LZW compression
+    /// </summary>
+    /// <param name="imageData">takes in a string of image data</param>
+    private void splitDataIntoBlocks(string imageData)
+    {
+        int index ,total, subBlockLength;
+        string temp;
+        
+        Debug.LogWarning("LZW minimum code size: " + imageData.Substring(0, 2));
+        index = 2;
+        total = 2;
+
+        for (int i = 0; i < imageData.Length; i++)
+        {
+            subBlockLength = HexToDecimal(imageData.Substring(index, 2)) * 2;
+            index += 2;
+            if (subBlockLength == 0)
+            {
+                Debug.LogWarning("byte index in image data: " + index + " /" + imageData.Length.ToString());
+                Debug.Log("number of sub blocks:" + ImageDataBlocks.Count);
+                return;
+            }
+            Debug.LogWarning("sub block length: " + subBlockLength);
+            total += subBlockLength + 2;
+            
+            temp = imageData.Substring(index, subBlockLength);
+            index += subBlockLength;
+            ImageDataBlocks.Add(temp);
+            Debug.LogWarning("byte index in image data: " + index + " /" + imageData.Length.ToString());
+
+        }
+    }
+
+    //The likely hood of this next coding working is minimal at best but I will do my best anyways
+    private void LZW_Decompress(string hex)
+    {
+        List<int> data = new List<int>();
+        //convert the strig data to a list of integers
+        for (int i = 0; i < hex.Length; i += 2)
+        {
+            string temp = hex.Substring(i, 2);
+            data.Add(HexToDecimal(temp));
+        }
+
+        //create our dictionary or code table
+        //our dictionary is the doce table
+        for (int i = 0; i < 256; i++)
+        {
+            codeTable.Add(i, ((char)i).ToString());
+        }
+
     }
 
 

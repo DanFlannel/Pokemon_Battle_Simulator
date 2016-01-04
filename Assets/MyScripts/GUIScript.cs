@@ -69,7 +69,7 @@ public class GUIScript : MonoBehaviour {
 	private void level(){
 		bottomLevel = pcb.Level;
 		topLevel = pcf.Level;
-        Debug.logger.Log("enemy level: " + topLevel);
+        //Debug.logger.Log("enemy level: " + topLevel);
 
 		bottomLevelText.text = "Lv"+bottomLevel;
 		topLevelText.text = "Lv"+topLevel;
