@@ -24,6 +24,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     GifGraphicsControlExtension.GraphicsControlExtension GraphicsControlExtension = new GifGraphicsControlExtension.GraphicsControlExtension();
     GifImageDescriptor.ImageDescriptor ImageDescriptor = new GifImageDescriptor.ImageDescriptor();
     GifApplicationExtension.ApplicationExtension ApplicationExtensionBlock = new GifApplicationExtension.ApplicationExtension();
+    GifImageData.ImageData ImageData = new GifImageData.ImageData();
 
 
     //private string ImageDescriptor;
@@ -174,7 +175,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             Debug.Log("Null byte array");
         }
 
-        Debug.Log("KB array in length: " + Mathf.RoundToInt(byteArrayIn.Length));
+        Debug.Log("Array in length: " + Mathf.RoundToInt(byteArrayIn.Length));
 
         try
         {
@@ -225,8 +226,8 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList[0]);
         int frameCount = gifImage.GetFrameCount(dimension);
         Debug.Log("Dimensions: Frames: " + frameCount + " Width: " + gifImage.Width + " Height: " + gifImage.Height);
-        int width;
-        int height;
+        int width = 0;
+        int height = 0;
         for (int i = 0; i < frameCount; i++)
         {
             gifImage.SelectActiveFrame(dimension, i);
@@ -269,41 +270,36 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         //here we are splitting up the file for our own purposes into each associated block
         Header.Set(hex.Substring(0, Header.bits));
         curGifByteIndex += Header.bits / 2;
-        Debug.LogWarning("CUR INDEX: " + curGifByteIndex);
+        Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
         LogicalScreenDescriptor.Set(hex.Substring(Header.bits, LogicalScreenDescriptor.bits));
         curGifByteIndex += LogicalScreenDescriptor.bits / 2;
-        Debug.LogWarning("CUR INDEX: " + curGifByteIndex);
+        Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
         GlobalColorTable.Set(hex.Substring(curGifByteIndex * 2, LogicalScreenDescriptor.GlobalColorTableSize * 2));
         curGifByteIndex += LogicalScreenDescriptor.GlobalColorTableSize;
         Debug.LogWarning("GLOBAL COLOR TABLE LENGTH: " + LogicalScreenDescriptor.GlobalColorTableSize);
-        Debug.LogWarning("CUR INDEX: " + curGifByteIndex);
+        Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
         GraphicsControlExtension.Set(hex.Substring(curGifByteIndex * 2, GraphicsControlExtension.bits));
         curGifByteIndex += GraphicsControlExtension.bits / 2;
-        Debug.LogWarning("CUR INDEX: " + curGifByteIndex);
+        Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
         ApplicationExtensionBlock.Set(hex.Substring(curGifByteIndex * 2, ApplicationExtensionBlock.bits));
         curGifByteIndex += ApplicationExtensionBlock.bits / 2;
-        Debug.LogWarning("CUR INDEX: " + curGifByteIndex);
+        Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
         ImageDescriptor.Set(hex.Substring(curGifByteIndex * 2, ImageDescriptor.bits));
         curGifByteIndex += ImageDescriptor.bits / 2;
-        Debug.LogWarning("CUR INDEX: " + curGifByteIndex);
+        Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
 
         //Now that we have everything setup we are on to the drawing data
-        /*
-        int ImageDataLength = findLengthOfImageData(hex);
-        int bytesInImageData = ImageDataLength / 2;
-        string ImageData = hex.Substring(curGifByteIndex * 2, ImageDataLength);
-        splitDataIntoBlocks(ImageData);
-        curGifByteIndex += bytesInImageData;
-
-        Debug.Log("Image Data for 1st frame: " + ImageData);*/
-        //ImageDescriptor = ImageDescriptorBlock(hex);
-
+        int ImageDataLength = findLengthOfImageData(hex.Substring(curGifByteIndex * 2));
+        ImageData.Set(hex.Substring(curGifByteIndex * 2, ImageDataLength));
+        ImageData.bits = ImageDataLength;
+        curGifByteIndex += ImageData.bits/2;
+        Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length/2));
     }
 
     #region outputting the data to a text file
@@ -328,15 +324,12 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         {
             if (hex.Substring(i, 4) == "21F9")
             {
-                Debug.LogWarning("we found a GCE Block");
-                return length;
-            }
-            else
-            {
-                length += 2;
+                Debug.LogWarning("we found a GCE Block at byte : " + (i + (curGifByteIndex * 2)));
+                Debug.LogWarning("IMAGE DATA LENGTH: " + i);
+                return i;
             }
         }
-        return length;
+        return -1;
     }
 
     /// <summary>
