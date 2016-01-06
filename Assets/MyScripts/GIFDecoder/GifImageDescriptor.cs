@@ -62,5 +62,21 @@ public class GifImageDescriptor : MonoBehaviour {
             ResevedForFutureUse = packetField.Substring(3, 2);
             LocalColorTableSize = GifHelper.HexToDecimal(packetField.Substring(5, 3));
         }
+
+        public void DebugLog()
+        {
+            Debug.Log("Left: " + Left);
+            Debug.Log("Top: " + Top);
+            Debug.Log("Width : " + Width);
+            Debug.Log("Height: " + Height);
+
+            Debug.Log("Local Color Table: " + LocalColorTableFlag);
+            Debug.Log("Local Color Table Sorted: " + SortFlag);
+            Debug.Log("Local Color Table Size: " + LocalColorTableSize);
+
+            Debug.Log("Interlace: " + InterlaceFlag);
+            Debug.Log("Reserved for future use: " + ResevedForFutureUse);
+
+        }
     }
 }

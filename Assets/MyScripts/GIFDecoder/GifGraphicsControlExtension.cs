@@ -73,6 +73,17 @@ public class GifGraphicsControlExtension : MonoBehaviour
             HasTransparency  = packetField.Substring(7, 1) == "1";
         }
 
+        public void DebugLog()
+        {
+            Debug.Log("Future Use: " + FutureUse);
+            Debug.Log("Block Size: " + BlockSize);
+            Debug.Log("Disposal Method: " + DisposalMethod);
+            Debug.Log("Use Input: " + UserInput);
+            Debug.Log("Has Transparency: " + HasTransparency);
+            Debug.Log("Delay: " + Delay);
+            Debug.Log("Transparency Color Index: " + TransparencyIndex);
+        }
+
     }
     
 }

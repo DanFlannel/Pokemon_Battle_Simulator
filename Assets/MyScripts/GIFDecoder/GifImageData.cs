@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class GifImageData : MonoBehaviour
 {
@@ -14,15 +15,19 @@ public class GifImageData : MonoBehaviour
 
         public void Set(string stream)
         {
+            
             SubBlocks = new List<string>();
             Debug.Log("IMAGE DATA: " + stream);
-            int index, total, subBlockLength;
-            string temp;
 
-            Debug.LogWarning("LZW minimum code size: " + stream.Substring(0, 2));
+            int index, total, subBlockLength;
+            string temp; 
+
+            LZWCompressionSize = GifHelper.HexToDecimal(stream.Substring(0, 2));
+            Debug.LogError("LZW minimum code size: " + LZWCompressionSize);
+            
+
             index = 2;
             total = 2;
-
             for (int i = 0; i < stream.Length; i++)
             {
                 subBlockLength = GifHelper.HexToDecimal(stream.Substring(index, 2)) * 2;
@@ -31,7 +36,7 @@ public class GifImageData : MonoBehaviour
                 {
                     Debug.LogWarning("byte index in image data: " + index + " /" + stream.Length.ToString());
                     //Debug.Log("number of sub blocks:" + SubBlocks.Count);
-                    return;
+                    break;
                 }
                 Debug.LogWarning("sub block length: " + subBlockLength);
                 total += subBlockLength + 2;
@@ -41,6 +46,40 @@ public class GifImageData : MonoBehaviour
                 SubBlocks.Add(temp);
                 //Debug.LogWarning("byte index in image data: " + index + " /" + stream.Length.ToString());
             }
+
+            DecryptImageData(stream);
+
+
+
+        }
+        //GIF files use LSB-First packing order so I have to account for this.
+        private void DecryptImageData(string stream)
+        {
+            string builder3 = "";
+            string builder = "";
+            string number = "";
+            string binary = GifHelper.HexToBinary(stream);
+            string binary2 = "";
+            int pixel = 0;
+
+            for (int i = 0; i < binary.Length - LZWCompressionSize; i+= LZWCompressionSize)
+            {
+                number = Convert.ToInt32(binary.Substring(i, LZWCompressionSize), 2).ToString();
+                binary2 += binary.Substring(i, 8) + ", ";
+                builder += number + ", ";
+                pixel++;
+            }
+
+            for(int i = 0; i < stream.Length-2; i += 2)
+            {
+                builder3 += stream.Substring(i, 2) + " ";
+            }
+
+            Debug.LogError("EST PIXELS: " + pixel);
+            Debug.LogError("IMAGE DATA SUBBLOCK 1 DATA: " + builder3);
+            Debug.LogError("IMAGE BLOCK BINARY: " + binary2);
+            Debug.LogError("IMAGE DATA DECRYPTED: " + builder);
+            Console.WriteLine("SOMETHING HAPPEND!");
         }
     }
 }

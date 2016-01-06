@@ -35,8 +35,6 @@ public class GifLogicalScreenDescriptor : MonoBehaviour
             PixelAspectRatio = GifHelper.HexToDecimal(AspectRatio);
 
             DecodePacketField(stream.Substring(8, 2));
-
-
         }
 
         private void DecodePacketField(string packetField)
@@ -54,6 +52,17 @@ public class GifLogicalScreenDescriptor : MonoBehaviour
             GlobalColorTableSize = (int)(Mathf.Pow(2, size + 1) * 3);
             //Debug.LogError("Global Color Table Size: " + GlobalColorTableSize);
 
+        }
+
+        public void DebugLog()
+        {
+            Debug.Log("Width: " + Width + " Height: " + Height);
+            Debug.Log("Has Color Table: " + HasGlobalColorTable);
+            Debug.Log("Color Resolution: " + ColorResolution);
+            Debug.Log("Is Global Color Table Sorted: " + IsGlobalColorTableSorted);
+            Debug.Log("Global Color Table Size: " + GlobalColorTableSize);
+            Debug.Log("Background Color Index: " + BackgroundColorIndex);
+            Debug.Log("Aspect Ratio: " + PixelAspectRatio);
         }
     }
 

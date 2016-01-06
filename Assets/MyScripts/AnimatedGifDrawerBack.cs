@@ -17,6 +17,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     private Dictionary<int, string> codeTable = new Dictionary<int, string>();
     private FrameDimensions Frame = new FrameDimensions();
     public List<FrameDimensions> DimensionList = new List<FrameDimensions>();
+    public List<GifFrame> GifFrames = new List<GifFrame>();
 
     GifGlobalColorTable.GlobalColorTable GlobalColorTable = new GifGlobalColorTable.GlobalColorTable();
     GifHeader.Header Header = new GifHeader.Header();
@@ -102,7 +103,9 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             else
             {
                 //Debug.log("Name Found");
-                url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorBack>().PokemonName.ToLower() + ".gif";
+                //url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorBack>().PokemonName.ToLower() + ".gif";
+                url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/pikachu.gif";
+                Debug.LogError("URL: " + url);
 
                 StartCoroutine(WaitForRequest(positionPlaceHolderGO, url));
                 hasWWW = true;
@@ -225,7 +228,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
         var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList[0]);
         int frameCount = gifImage.GetFrameCount(dimension);
-        Debug.Log("Dimensions: Frames: " + frameCount + " Width: " + gifImage.Width + " Height: " + gifImage.Height);
+        Debug.Log("Dimensions: Frames: " + frameCount + " Width: " + gifImage.Width + " Height: " + gifImage.Height + " Pixels: " + (gifImage.Width * gifImage.Height));
         int width = 0;
         int height = 0;
         for (int i = 0; i < frameCount; i++)
@@ -274,25 +277,35 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
         LogicalScreenDescriptor.Set(hex.Substring(Header.bits, LogicalScreenDescriptor.bits));
         curGifByteIndex += LogicalScreenDescriptor.bits / 2;
+
+        LogicalScreenDescriptor.DebugLog();
         Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
         GlobalColorTable.Set(hex.Substring(curGifByteIndex * 2, LogicalScreenDescriptor.GlobalColorTableSize * 2));
         curGifByteIndex += LogicalScreenDescriptor.GlobalColorTableSize;
+
+        GlobalColorTable.DebugLog();
         Debug.LogWarning("GLOBAL COLOR TABLE LENGTH: " + LogicalScreenDescriptor.GlobalColorTableSize);
         Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
         GraphicsControlExtension.Set(hex.Substring(curGifByteIndex * 2, GraphicsControlExtension.bits));
         curGifByteIndex += GraphicsControlExtension.bits / 2;
+
+        GraphicsControlExtension.DebugLog();
         Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
         ApplicationExtensionBlock.Set(hex.Substring(curGifByteIndex * 2, ApplicationExtensionBlock.bits));
         curGifByteIndex += ApplicationExtensionBlock.bits / 2;
+
+        ApplicationExtensionBlock.DebugLog();
         Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
         ImageDescriptor.Set(hex.Substring(curGifByteIndex * 2, ImageDescriptor.bits));
         curGifByteIndex += ImageDescriptor.bits / 2;
-        Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
 
+        ImageDescriptor.DebugLog();
+        Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length / 2));
+        
 
         //Now that we have everything setup we are on to the drawing data
         int ImageDataLength = findLengthOfImageData(hex.Substring(curGifByteIndex * 2));
@@ -330,40 +343,6 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             }
         }
         return -1;
-    }
-
-    /// <summary>
-    /// This splits our Image Data into sub blocks based off of the LZW compression
-    /// </summary>
-    /// <param name="imageData">takes in a string of image data</param>
-    private void splitDataIntoBlocks(string imageData)
-    {
-        int index, total, subBlockLength;
-        string temp;
-
-        Debug.LogWarning("LZW minimum code size: " + imageData.Substring(0, 2));
-        index = 2;
-        total = 2;
-
-        for (int i = 0; i < imageData.Length; i++)
-        {
-            subBlockLength = GifHelper.HexToDecimal(imageData.Substring(index, 2)) * 2;
-            index += 2;
-            if (subBlockLength == 0)
-            {
-                Debug.LogWarning("byte index in image data: " + index + " /" + imageData.Length.ToString());
-                Debug.Log("number of sub blocks:" + ImageDataBlocks.Count);
-                return;
-            }
-            Debug.LogWarning("sub block length: " + subBlockLength);
-            total += subBlockLength + 2;
-
-            temp = imageData.Substring(index, subBlockLength);
-            index += subBlockLength;
-            ImageDataBlocks.Add(temp);
-            Debug.LogWarning("byte index in image data: " + index + " /" + imageData.Length.ToString());
-
-        }
     }
 
     private void AddFramDimensions(GifImageDescriptor.ImageDescriptor id)
@@ -408,4 +387,17 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         }
     }
 
+    public struct GifFrame
+    {
+        public GifGraphicsControlExtension.GraphicsControlExtension GCE { get; set; }
+        public GifImageDescriptor.ImageDescriptor desciptor { get; set; }
+        public GifImageData.ImageData data { get; set; }
+
+        public void Set(GifGraphicsControlExtension.GraphicsControlExtension g, GifImageDescriptor.ImageDescriptor id, GifImageData.ImageData d)
+        {
+            GCE = g;
+            desciptor = id;
+            data = d;
+        }
+    }
 }

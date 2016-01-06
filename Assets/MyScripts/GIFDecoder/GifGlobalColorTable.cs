@@ -12,7 +12,7 @@ public class GifGlobalColorTable : MonoBehaviour {
 
         public void Set(string stream) {
 
-            Debug.Log("GLOBAL COLOR TABLE: " + stream);
+            //Debug.Log("GLOBAL COLOR TABLE: " + stream);
             ColorList = new Dictionary<int, GifColor>();
             if(stream.Length % 6 != 0)
             {
@@ -27,15 +27,29 @@ public class GifGlobalColorTable : MonoBehaviour {
 
             //create our color table here using a dictionary
             int index = 0;
+            bool check = false;
+
             for(int i = 0; i < GlobalColorTableString.Length; i+=6)
             {
+                string colorString = GlobalColorTableString.Substring(i, 6);
+                if(colorString == "000000" && !check)
+                {
+                    Debug.LogError("FIRST 000000 IN GLOBAL COLOR TABLE: " + (i/6) + "/" + (GlobalColorTableString.Length/6));
+                    check = true;
+                }
                 GifColor color = new GifColor();
-                color.Set(GlobalColorTableString.Substring(i, 6));
+                color.Set(colorString);
                 ColorList.Add(index,color);
                 index++;
             }
             //Debug.LogError("ADDED " + index + " COLORS TO OUR COLOR TABLE");
 
+        }
+
+        public void DebugLog()
+        {
+            Debug.Log("Global Color Table: " + GlobalColorTableString);
+            Debug.Log("# of colors: " + NumberOfColors);
         }
     }
 
