@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6dba1dd25c1fc54083a28be397f9b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: battle_scene
+  levelName: 1
   map: {fileID: 2055964689}
   progress: 0
 --- !u!1 &333712447

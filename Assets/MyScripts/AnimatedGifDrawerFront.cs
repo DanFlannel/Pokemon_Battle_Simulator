@@ -68,6 +68,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     {
 
         if (canOnGUI) {
+            debugText.text = "Displaying Image";
             //Debug.logger.Log("count of frames: " + gifFrames.Count);
             height = Screen.height / nativeHeight;
             heightCalc = positionPlaceHolder.y;
@@ -92,6 +93,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         else
         {
             Debug.Log("WWW Error: " + www.error);
+            debugText.text = "WWW ERROR";
         }
         finishedWWW = true;
     }
@@ -102,13 +104,16 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         if (finishedWWW == false)
         {
             Debug.Log("Called too early");
+            debugText.text = "Called byte byte array to early";
             return null;
         }
         if (byteArrayIn == null)
         {
             Debug.Log("Null byte array");
+            debugText.text = "null byte array";
             return null;
         }
+        debugText.text = "KB array in length: " + Mathf.RoundToInt(byteArrayIn.Length / 1000f);
         //Debug.Log("KB array in length: " + Mathf.RoundToInt(byteArrayIn.Length / 1000f));
 
         try
@@ -120,6 +125,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         }
         catch (Exception e)
         {
+            debugText.text = e.Message.ToString();
             Debug.LogError(e.Message.ToString());
             return null;
         }
@@ -132,7 +138,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
         if (gifImage == null)
             return;
-
+        debugText.text = "Creating Image";
         var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList[0]);
         int frameCount = gifImage.GetFrameCount(dimension);
         for (int i = 0; i < frameCount; i++)
@@ -152,6 +158,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
             frameTexture.Apply();
             gifFrames.Add(frameTexture);
         }
+        debugText.text = "Created Image";
         canOnGUI = true;
     }
 }

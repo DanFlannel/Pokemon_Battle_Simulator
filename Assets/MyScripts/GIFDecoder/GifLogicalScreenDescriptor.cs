@@ -51,7 +51,6 @@ public class GifLogicalScreenDescriptor : MonoBehaviour
             long size = Convert.ToInt64(binary.Substring(5, 3), 2);
             GlobalColorTableSize = (int)(Mathf.Pow(2, size + 1) * 3);
             //Debug.LogError("Global Color Table Size: " + GlobalColorTableSize);
-
         }
 
         public void DebugLog()
@@ -62,7 +61,7 @@ public class GifLogicalScreenDescriptor : MonoBehaviour
             Debug.Log("Is Global Color Table Sorted: " + IsGlobalColorTableSorted);
             Debug.Log("Global Color Table Size: " + GlobalColorTableSize);
             Debug.Log("Background Color Index: " + BackgroundColorIndex);
-            Debug.Log("Aspect Ratio: " + PixelAspectRatio);
+            Debug.Log("Pixel Bits: " + PixelAspectRatio);
         }
     }
 

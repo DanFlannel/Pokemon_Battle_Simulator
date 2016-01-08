@@ -5,6 +5,8 @@ using System;
 using System.Collections;
 using UnityEngine.UI;
 using System.Text;
+using System.Drawing;
+using System.Drawing.Imaging;
 
 /// <summary>
 /// This class handles the animations for the Player, or the Pokemon with its back facing the camera.
@@ -39,6 +41,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     /***************************
         Public Variables
     ****************************/
+    public RawImage myRawImage;
     private int curGifByteIndex;
     public float speed = 1;
     public float percentage;
@@ -105,7 +108,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
                 //Debug.log("Name Found");
                 //url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/" + this.GetComponent<PokemonCreatorBack>().PokemonName.ToLower() + ".gif";
                 url = "www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/pikachu.gif";
-                Debug.LogError("URL: " + url);
+                //Debug.LogError("URL: " + url);
 
                 StartCoroutine(WaitForRequest(positionPlaceHolderGO, url));
                 hasWWW = true;
@@ -183,29 +186,31 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         try
         {
             MemoryStream ms = new MemoryStream(byteArrayIn);
+            
             gifImage = System.Drawing.Image.FromStream(ms);     //MAIN SOURCE OF ERROR HERE
             //Debug.Log("Created image from stream");
             finishedWWW = true;
+            //byteArrayToTexture2D(byteArrayIn);
             return gifImage;
         }
         catch (Exception e)
         {
             Debug.Log(e.Message.ToString());
-            return null;
-            /*System.Drawing.Bitmap bmp = byteArrayToBitMap(byteArrayIn);
-            returnImage = System.Drawing.Image.FromHbitmap(bmp.GetHbitmap());
+            System.Drawing.Bitmap bmp = byteArrayToBitMap(byteArrayIn);
+            bmp = System.Drawing.Image.FromHbitmap(bmp.GetHbitmap());
             Debug.Log("Created image from hbitmap");
-            finishedWWW = true;*/
+            finishedWWW = true;
+            return bmp;
         }
 
     }
-
+    
     /// <summary>
     /// This method converts the read in byte arry to a System.Drawing.Bitmap
     /// </summary>
     /// <param name="data"> the byte array to be convereted</param>
     /// <returns></returns>
-    /*public System.Drawing.Bitmap byteArrayToBitMap(byte[] data){
+    public System.Drawing.Bitmap byteArrayToBitMap(byte[] data){
        System.Drawing.Bitmap bmp;
 
        System.Drawing.ImageConverter ic = new System.Drawing.ImageConverter();
@@ -213,7 +218,18 @@ public class AnimatedGifDrawerBack : MonoBehaviour
        //Debug.Log("Converted byteArray to bit map");
        return bmp;
 
-   } */
+   }
+
+        /*
+    public void byteArrayToTexture2D(byte[] data)
+    {
+        int width = data[6];
+        int height = data[8];
+        Debug.Log("Width: " + width + " Height: " + height);
+        Texture2D bmp = new Texture2D(width, height);
+        bmp.LoadRawTextureData(data);
+        myRawImage.texture = bmp;
+    }*/
 
     /// <summary>
     /// This handles loading all fo the data from the given url and converts it into a readable image type and then allows the OnGUI function to draw the gif
@@ -231,11 +247,18 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         Debug.Log("Dimensions: Frames: " + frameCount + " Width: " + gifImage.Width + " Height: " + gifImage.Height + " Pixels: " + (gifImage.Width * gifImage.Height));
         int width = 0;
         int height = 0;
+
+
+        
+        
         for (int i = 0; i < frameCount; i++)
         {
             gifImage.SelectActiveFrame(dimension, i);
             var frame = new System.Drawing.Bitmap(gifImage.Width, gifImage.Height);
-            System.Drawing.Graphics.FromImage(frame).DrawImage(gifImage, System.Drawing.Point.Empty);
+            
+            System.Drawing.Graphics.FromImage(frame).DrawImage(gifImage, Point.Empty);
+            
+
             Texture2D frameTexture = new Texture2D(frame.Width, frame.Height);
             for (int x = 0; x < frame.Width; x++)
                 for (int y = 0; y < frame.Height; y++)
@@ -248,12 +271,12 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             width = frame.Width;
             height = frame.Height;
         }
-        byteArrayTextConversion(bytearrayholder, gifImage.Width, gifImage.Height, gifImage.GetFrameCount(dimension));
+        byteArrayTextConversion(bytearrayholder);
         //Debug.Log("Starting ON GUI!");
         canOnGUI = true;
     }
 
-    private void byteArrayTextConversion(byte[] byteArrayIn, int width, int height, int frameCount)
+    private void byteArrayTextConversion(byte[] byteArrayIn)
     {
         System.IO.StreamWriter file = new System.IO.StreamWriter("C:\\Users\\Flannel\\Desktop\\ImageBytes.txt");    //general byte array in
         System.IO.StreamWriter file2 = new System.IO.StreamWriter("C:\\Users\\Flannel\\Desktop\\ImageBytes2.txt");
@@ -313,6 +336,22 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         ImageData.bits = ImageDataLength;
         curGifByteIndex += ImageData.bits/2;
         Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length/2));
+
+
+        Texture2D newTexture = new Texture2D(LogicalScreenDescriptor.Width, LogicalScreenDescriptor.Height);
+        newTexture.LoadImage(ByteArraySubstring(byteArrayIn,0,curGifByteIndex));
+        newTexture.EncodeToPNG();
+        myRawImage.texture = newTexture;
+    }
+
+    public byte[] ByteArraySubstring(byte[] array,int start, int length)
+    {
+        byte[] final = new byte[length];
+        for (int i = 0; i < length; i++)
+        {
+            final[i] = array[i];
+        }
+        return final;
     }
 
     #region outputting the data to a text file

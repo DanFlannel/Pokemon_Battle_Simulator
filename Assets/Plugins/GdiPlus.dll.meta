@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 1f6019ef0b441fd48a180094c237bf11
-timeCreated: 1435890787
+guid: 2631dbfc363426a449e50c49bd713377
+timeCreated: 1452202673
 licenseType: Free
 PluginImporter:
   serializedVersion: 1
@@ -51,19 +51,12 @@ PluginImporter:
     WebGL:
       enabled: 1
       settings: {}
-    WebStreamed:
-      enabled: 1
-      settings: {}
     Win:
       enabled: 1
       settings:
         CPU: AnyCPU
     Win64:
       enabled: 1
-      settings:
-        CPU: AnyCPU
-    WindowsStoreApps:
-      enabled: 0
       settings:
         CPU: AnyCPU
     iOS:

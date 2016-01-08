@@ -23,7 +23,7 @@ public class GifImageData : MonoBehaviour
             string temp; 
 
             LZWCompressionSize = GifHelper.HexToDecimal(stream.Substring(0, 2));
-            Debug.LogError("LZW minimum code size: " + LZWCompressionSize);
+            Debug.Log("LZW minimum code size: " + LZWCompressionSize);
             
 
             index = 2;
@@ -38,7 +38,7 @@ public class GifImageData : MonoBehaviour
                     //Debug.Log("number of sub blocks:" + SubBlocks.Count);
                     break;
                 }
-                Debug.LogWarning("sub block length: " + subBlockLength);
+                Debug.Log("sub block length: " + subBlockLength);
                 total += subBlockLength + 2;
 
                 temp = stream.Substring(index, subBlockLength);
@@ -75,11 +75,10 @@ public class GifImageData : MonoBehaviour
                 builder3 += stream.Substring(i, 2) + " ";
             }
 
-            Debug.LogError("EST PIXELS: " + pixel);
-            Debug.LogError("IMAGE DATA SUBBLOCK 1 DATA: " + builder3);
-            Debug.LogError("IMAGE BLOCK BINARY: " + binary2);
-            Debug.LogError("IMAGE DATA DECRYPTED: " + builder);
-            Console.WriteLine("SOMETHING HAPPEND!");
+            Debug.Log("EST PIXELS: " + pixel);
+            Debug.Log("IMAGE DATA SUBBLOCK 1 DATA: " + builder3);
+            Debug.Log("IMAGE BLOCK BINARY: " + binary2);
+            Debug.Log("IMAGE DATA DECRYPTED: " + builder);
         }
     }
 }
