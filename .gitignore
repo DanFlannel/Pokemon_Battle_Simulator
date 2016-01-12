@@ -1,6 +1,7 @@
 # Ignore everything
 /*
 /*/
+[Hh]idden
 
 # Inverse ignore some stuff
 !/Assets/
