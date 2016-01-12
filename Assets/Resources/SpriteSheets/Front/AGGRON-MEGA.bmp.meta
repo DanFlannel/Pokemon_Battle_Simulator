@@ -1,0 +1,1516 @@
+fileFormatVersion: 2
+guid: dff67abc591984e40bcb858f1fb58b7d
+timeCreated: 1452558576
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AGGRON-MEGA_0
+    21300002: AGGRON-MEGA_1
+    21300004: AGGRON-MEGA_2
+    21300006: AGGRON-MEGA_3
+    21300008: AGGRON-MEGA_4
+    21300010: AGGRON-MEGA_5
+    21300012: AGGRON-MEGA_6
+    21300014: AGGRON-MEGA_7
+    21300016: AGGRON-MEGA_8
+    21300018: AGGRON-MEGA_9
+    21300020: AGGRON-MEGA_10
+    21300022: AGGRON-MEGA_11
+    21300024: AGGRON-MEGA_12
+    21300026: AGGRON-MEGA_13
+    21300028: AGGRON-MEGA_14
+    21300030: AGGRON-MEGA_15
+    21300032: AGGRON-MEGA_16
+    21300034: AGGRON-MEGA_17
+    21300036: AGGRON-MEGA_18
+    21300038: AGGRON-MEGA_19
+    21300040: AGGRON-MEGA_20
+    21300042: AGGRON-MEGA_21
+    21300044: AGGRON-MEGA_22
+    21300046: AGGRON-MEGA_23
+    21300048: AGGRON-MEGA_24
+    21300050: AGGRON-MEGA_25
+    21300052: AGGRON-MEGA_26
+    21300054: AGGRON-MEGA_27
+    21300056: AGGRON-MEGA_28
+    21300058: AGGRON-MEGA_29
+    21300060: AGGRON-MEGA_30
+    21300062: AGGRON-MEGA_31
+    21300064: AGGRON-MEGA_32
+    21300066: AGGRON-MEGA_33
+    21300068: AGGRON-MEGA_34
+    21300070: AGGRON-MEGA_35
+    21300072: AGGRON-MEGA_36
+    21300074: AGGRON-MEGA_37
+    21300076: AGGRON-MEGA_38
+    21300078: AGGRON-MEGA_39
+    21300080: AGGRON-MEGA_40
+    21300082: AGGRON-MEGA_41
+    21300084: AGGRON-MEGA_42
+    21300086: AGGRON-MEGA_43
+    21300088: AGGRON-MEGA_44
+    21300090: AGGRON-MEGA_45
+    21300092: AGGRON-MEGA_46
+    21300094: AGGRON-MEGA_47
+    21300096: AGGRON-MEGA_48
+    21300098: AGGRON-MEGA_49
+    21300100: AGGRON-MEGA_50
+    21300102: AGGRON-MEGA_51
+    21300104: AGGRON-MEGA_52
+    21300106: AGGRON-MEGA_53
+    21300108: AGGRON-MEGA_54
+    21300110: AGGRON-MEGA_55
+    21300112: AGGRON-MEGA_56
+    21300114: AGGRON-MEGA_57
+    21300116: AGGRON-MEGA_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 100
+    allowsAlphaSplitting: 1
+  spriteSheet:
+    sprites:
+    - name: AGGRON-MEGA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 707
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 50.5}
+        - {x: -68, y: -14.5}
+        - {x: -68, y: -21.5}
+        - {x: -67, y: -25.5}
+        - {x: -43, y: -50.5}
+        - {x: 66, y: -50.5}
+        - {x: 66, y: 3.5}
+        - {x: 62, y: 50.5}
+    - name: AGGRON-MEGA_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 707
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 50.5}
+        - {x: 27, y: 41.5}
+        - {x: 21, y: 50.5}
+        - {x: -47, y: 50.5}
+        - {x: -68, y: -13.5}
+        - {x: -68, y: -22.5}
+        - {x: -67, y: -25.5}
+        - {x: -46, y: -20.5}
+        - {x: -32, y: -14.5}
+        - {x: -41, y: -45.5}
+        - {x: -41, y: -49.5}
+        - {x: -34, y: -50.5}
+        - {x: 61, y: -50.5}
+        - {x: 65, y: -37.5}
+        - {x: 65, y: -19.5}
+        - {x: 43, y: 48.5}
+    - name: AGGRON-MEGA_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 707
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 49.5}
+        - {x: 35, y: 50.5}
+        - {x: 27, y: 41.5}
+        - {x: 21, y: 50.5}
+        - {x: -47, y: 50.5}
+        - {x: -68, y: -13.5}
+        - {x: -68, y: -22.5}
+        - {x: -67, y: -25.5}
+        - {x: -46, y: -20.5}
+        - {x: -46, y: -45.5}
+        - {x: -36, y: -50.5}
+        - {x: 53, y: -50.5}
+        - {x: 65, y: -36.5}
+        - {x: 65, y: -25.5}
+        - {x: 40, y: 46.5}
+    - name: AGGRON-MEGA_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 707
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 50.5}
+        - {x: -40, y: 38.5}
+        - {x: -69, y: -10.5}
+        - {x: -69, y: -33.5}
+        - {x: -54, y: -50.5}
+        - {x: 64, y: -50.5}
+        - {x: 64, y: -0.5}
+        - {x: 59, y: 50.5}
+    - name: AGGRON-MEGA_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 707
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 50.5}
+        - {x: -69, y: 7.5}
+        - {x: -69, y: -27.5}
+        - {x: -48, y: -50.5}
+        - {x: 61, y: -50.5}
+        - {x: 64, y: -38.5}
+        - {x: 64, y: -17.5}
+        - {x: 52, y: 50.5}
+    - name: AGGRON-MEGA_5
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 707
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 50.5}
+        - {x: -69, y: 11.5}
+        - {x: -69, y: -42.5}
+        - {x: -63, y: -50.5}
+        - {x: 59, y: -50.5}
+        - {x: 63, y: -41.5}
+        - {x: 63, y: 24.5}
+        - {x: 52, y: 50.5}
+    - name: AGGRON-MEGA_6
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 707
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 23.5}
+        - {x: 40, y: 50.5}
+        - {x: -26, y: 50.5}
+        - {x: -30, y: 47.5}
+        - {x: -34, y: 41.5}
+        - {x: -34, y: 23.5}
+        - {x: -33, y: 19.5}
+        - {x: -42, y: 21.5}
+        - {x: -48, y: 22.5}
+        - {x: -69, y: -13.5}
+        - {x: -69, y: -25.5}
+        - {x: -68, y: -25.5}
+        - {x: -47, y: -50.5}
+        - {x: 53, y: -50.5}
+        - {x: 63, y: -38.5}
+        - {x: 63, y: -24.5}
+        - {x: 46, y: 20.5}
+    - name: AGGRON-MEGA_7
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 707
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 23.5}
+        - {x: 40, y: 20.5}
+        - {x: 37, y: 13.5}
+        - {x: 40, y: 25.5}
+        - {x: 40, y: 49.5}
+        - {x: 39, y: 50.5}
+        - {x: -40, y: 50.5}
+        - {x: -69, y: 5.5}
+        - {x: -69, y: -28.5}
+        - {x: -42, y: -50.5}
+        - {x: 56, y: -50.5}
+        - {x: 63, y: -36.5}
+        - {x: 63, y: -21.5}
+        - {x: 47, y: 21.5}
+    - name: AGGRON-MEGA_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 50.5}
+        - {x: -68, y: 2.5}
+        - {x: -69, y: -2.5}
+        - {x: -69, y: -26.5}
+        - {x: -44, y: -50.5}
+        - {x: 59, y: -50.5}
+        - {x: 62, y: -46.5}
+        - {x: 62, y: 4.5}
+        - {x: 54, y: 50.5}
+    - name: AGGRON-MEGA_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 606
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 50.5}
+        - {x: -69, y: 8.5}
+        - {x: -69, y: -47.5}
+        - {x: -64, y: -50.5}
+        - {x: 58, y: -50.5}
+        - {x: 62, y: -42.5}
+        - {x: 62, y: -5.5}
+        - {x: 41, y: 50.5}
+    - name: AGGRON-MEGA_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 606
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.5}
+        - {x: -69, y: -14.5}
+        - {x: -69, y: -25.5}
+        - {x: -45, y: -21.5}
+        - {x: -33, y: -14.5}
+        - {x: -41, y: -43.5}
+        - {x: -41, y: -50.5}
+        - {x: 57, y: -50.5}
+        - {x: 62, y: -45.5}
+        - {x: 62, y: -9.5}
+        - {x: 52, y: 50.5}
+    - name: AGGRON-MEGA_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 606
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: -16.5}
+        - {x: -69, y: -25.5}
+        - {x: -45, y: -21.5}
+        - {x: -31, y: -13.5}
+        - {x: -41, y: -43.5}
+        - {x: -42, y: -50.5}
+        - {x: 59, y: -50.5}
+        - {x: 62, y: -48.5}
+        - {x: 62, y: 22.5}
+        - {x: 55, y: 50.5}
+        - {x: -34, y: 50.5}
+        - {x: -44, y: 34.5}
+    - name: AGGRON-MEGA_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 606
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 50.5}
+        - {x: -44, y: 50.5}
+        - {x: -69, y: 31.5}
+        - {x: -69, y: -33.5}
+        - {x: -46, y: -50.5}
+        - {x: 62, y: -50.5}
+        - {x: 62, y: 12.5}
+        - {x: 58, y: 33.5}
+    - name: AGGRON-MEGA_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 606
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 50.5}
+        - {x: -69, y: -5.5}
+        - {x: -69, y: -27.5}
+        - {x: -46, y: -22.5}
+        - {x: -34, y: -15.5}
+        - {x: -41, y: -43.5}
+        - {x: -41, y: -50.5}
+        - {x: 58, y: -50.5}
+        - {x: 62, y: -47.5}
+        - {x: 62, y: -0.5}
+        - {x: 44, y: 50.5}
+    - name: AGGRON-MEGA_14
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 606
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 50.5}
+        - {x: -69, y: -14.5}
+        - {x: -69, y: -29.5}
+        - {x: -45, y: -50.5}
+        - {x: 62, y: -50.5}
+        - {x: 62, y: -0.5}
+        - {x: 52, y: 50.5}
+    - name: AGGRON-MEGA_15
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 606
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: 49.5}
+        - {x: 54, y: 50.5}
+        - {x: -27, y: 50.5}
+        - {x: -30, y: 47.5}
+        - {x: -34, y: 39.5}
+        - {x: -69, y: -13.5}
+        - {x: -69, y: -35.5}
+        - {x: -35, y: -50.5}
+        - {x: 54, y: -50.5}
+        - {x: 56, y: -48.5}
+        - {x: 63, y: -33.5}
+        - {x: 63, y: -7.5}
+    - name: AGGRON-MEGA_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 50.5}
+        - {x: 33, y: 50.5}
+        - {x: 27, y: 44.5}
+        - {x: 10, y: 44.5}
+        - {x: -3, y: 43.5}
+        - {x: -13, y: 50.5}
+        - {x: -28, y: 50.5}
+        - {x: -69, y: 3.5}
+        - {x: -69, y: -32.5}
+        - {x: -43, y: -50.5}
+        - {x: 58, y: -50.5}
+        - {x: 63, y: -41.5}
+        - {x: 63, y: 7.5}
+        - {x: 58, y: 30.5}
+    - name: AGGRON-MEGA_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 505
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 24.5}
+        - {x: 46, y: 50.5}
+        - {x: -40, y: 50.5}
+        - {x: -69, y: 13.5}
+        - {x: -69, y: -26.5}
+        - {x: -43, y: -26.5}
+        - {x: -44, y: -50.5}
+        - {x: 57, y: -50.5}
+        - {x: 63, y: -40.5}
+        - {x: 63, y: -7.5}
+        - {x: 48, y: 22.5}
+    - name: AGGRON-MEGA_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 505
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 50.5}
+        - {x: -69, y: 1.5}
+        - {x: -69, y: -25.5}
+        - {x: -65, y: -26.5}
+        - {x: -44, y: -23.5}
+        - {x: -41, y: -49.5}
+        - {x: -25, y: -50.5}
+        - {x: 57, y: -50.5}
+        - {x: 63, y: -46.5}
+        - {x: 63, y: -4.5}
+        - {x: 46, y: 50.5}
+    - name: AGGRON-MEGA_19
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 505
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 50.5}
+        - {x: 27, y: 45.5}
+        - {x: 22, y: 35.5}
+        - {x: 14, y: 47.5}
+        - {x: -11, y: 50.5}
+        - {x: -34, y: 50.5}
+        - {x: -69, y: -11.5}
+        - {x: -69, y: -35.5}
+        - {x: -41, y: -50.5}
+        - {x: 59, y: -50.5}
+        - {x: 64, y: -40.5}
+        - {x: 64, y: -6.5}
+        - {x: 39, y: 50.5}
+    - name: AGGRON-MEGA_20
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 505
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 50.5}
+        - {x: -36, y: 33.5}
+        - {x: -61, y: -5.5}
+        - {x: -69, y: -18.5}
+        - {x: -69, y: -26.5}
+        - {x: -44, y: -50.5}
+        - {x: 64, y: -50.5}
+        - {x: 64, y: -3.5}
+        - {x: 41, y: 50.5}
+    - name: AGGRON-MEGA_21
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 505
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 24.5}
+        - {x: 41, y: 20.5}
+        - {x: 37, y: 49.5}
+        - {x: 35, y: 50.5}
+        - {x: 31, y: 50.5}
+        - {x: 23, y: 38.5}
+        - {x: 21, y: 33.5}
+        - {x: 21, y: 29.5}
+        - {x: 14, y: 38.5}
+        - {x: 8, y: 43.5}
+        - {x: -13, y: 50.5}
+        - {x: -20, y: 50.5}
+        - {x: -21, y: 47.5}
+        - {x: -22, y: 40.5}
+        - {x: -26, y: 45.5}
+        - {x: -37, y: 46.5}
+        - {x: -69, y: -16.5}
+        - {x: -69, y: -26.5}
+        - {x: -64, y: -26.5}
+        - {x: -45, y: -24.5}
+        - {x: -43, y: -50.5}
+        - {x: 57, y: -50.5}
+        - {x: 64, y: -43.5}
+        - {x: 64, y: -21.5}
+        - {x: 49, y: 23.5}
+    - name: AGGRON-MEGA_22
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 505
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 24.5}
+        - {x: 41, y: 20.5}
+        - {x: 37, y: 48.5}
+        - {x: 36, y: 50.5}
+        - {x: -45, y: 50.5}
+        - {x: -69, y: -14.5}
+        - {x: -69, y: -25.5}
+        - {x: -64, y: -26.5}
+        - {x: -46, y: -23.5}
+        - {x: -27, y: -12.5}
+        - {x: -27, y: -8.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -29, y: -14.5}
+        - {x: -41, y: -45.5}
+        - {x: -40, y: -48.5}
+        - {x: -28, y: -50.5}
+        - {x: 59, y: -50.5}
+        - {x: 65, y: -41.5}
+        - {x: 65, y: -4.5}
+        - {x: 48, y: 22.5}
+    - name: AGGRON-MEGA_23
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 505
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 24.5}
+        - {x: 44, y: 49.5}
+        - {x: -36, y: 49.5}
+        - {x: -69, y: -6.5}
+        - {x: -69, y: -34.5}
+        - {x: -47, y: -47.5}
+        - {x: -33, y: -50.5}
+        - {x: 60, y: -50.5}
+        - {x: 65, y: -37.5}
+        - {x: 65, y: -11.5}
+        - {x: 49, y: 23.5}
+    - name: AGGRON-MEGA_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 24.5}
+        - {x: 41, y: 20.5}
+        - {x: 37, y: 47.5}
+        - {x: 34, y: 49.5}
+        - {x: 30, y: 49.5}
+        - {x: 22, y: 37.5}
+        - {x: 13, y: 47.5}
+        - {x: -9, y: 49.5}
+        - {x: -19, y: 49.5}
+        - {x: -30, y: 46.5}
+        - {x: -37, y: 32.5}
+        - {x: -34, y: 17.5}
+        - {x: -43, y: 20.5}
+        - {x: -64, y: -2.5}
+        - {x: -69, y: -14.5}
+        - {x: -69, y: -27.5}
+        - {x: -44, y: -26.5}
+        - {x: -43, y: -50.5}
+        - {x: 57, y: -50.5}
+        - {x: 65, y: -43.5}
+        - {x: 65, y: -22.5}
+        - {x: 48, y: 22.5}
+    - name: AGGRON-MEGA_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 404
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 21.5}
+        - {x: 43, y: 23.5}
+        - {x: 37, y: 49.5}
+        - {x: -36, y: 49.5}
+        - {x: -69, y: -10.5}
+        - {x: -69, y: -27.5}
+        - {x: -44, y: -24.5}
+        - {x: -26, y: -11.5}
+        - {x: -25, y: -9.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -29, y: -14.5}
+        - {x: -41, y: -45.5}
+        - {x: -42, y: -50.5}
+        - {x: 58, y: -50.5}
+        - {x: 63, y: -46.5}
+        - {x: 66, y: -38.5}
+        - {x: 66, y: -16.5}
+    - name: AGGRON-MEGA_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 404
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 49.5}
+        - {x: -38, y: 47.5}
+        - {x: -69, y: -6.5}
+        - {x: -69, y: -27.5}
+        - {x: -43, y: -24.5}
+        - {x: -31, y: -15.5}
+        - {x: -27, y: -10.5}
+        - {x: -25, y: -9.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -29, y: -14.5}
+        - {x: -41, y: -45.5}
+        - {x: -42, y: -50.5}
+        - {x: 66, y: -50.5}
+        - {x: 66, y: 48.5}
+        - {x: 65, y: 49.5}
+    - name: AGGRON-MEGA_27
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 404
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 49.5}
+        - {x: -69, y: -14.5}
+        - {x: -69, y: -27.5}
+        - {x: -46, y: -24.5}
+        - {x: -34, y: -17.5}
+        - {x: -27, y: -11.5}
+        - {x: -25, y: -9.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -29, y: -14.5}
+        - {x: -41, y: -45.5}
+        - {x: -40, y: -48.5}
+        - {x: -26, y: -50.5}
+        - {x: 60, y: -50.5}
+        - {x: 67, y: -40.5}
+        - {x: 67, y: -7.5}
+        - {x: 38, y: 49.5}
+    - name: AGGRON-MEGA_28
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 404
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 23.5}
+        - {x: 41, y: 20.5}
+        - {x: 37, y: 49.5}
+        - {x: 29, y: 49.5}
+        - {x: 20, y: 33.5}
+        - {x: 16, y: 40.5}
+        - {x: -10, y: 49.5}
+        - {x: -26, y: 49.5}
+        - {x: -37, y: 46.5}
+        - {x: -69, y: 5.5}
+        - {x: -69, y: -39.5}
+        - {x: -56, y: -50.5}
+        - {x: 60, y: -50.5}
+        - {x: 67, y: -40.5}
+        - {x: 67, y: -9.5}
+        - {x: 48, y: 21.5}
+    - name: AGGRON-MEGA_29
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 404
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 24.5}
+        - {x: 39, y: 15.5}
+        - {x: 36, y: 47.5}
+        - {x: 32, y: 49.5}
+        - {x: -41, y: 49.5}
+        - {x: -69, y: -18.5}
+        - {x: -69, y: -28.5}
+        - {x: -45, y: -23.5}
+        - {x: -32, y: -16.5}
+        - {x: -25, y: -9.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -29, y: -14.5}
+        - {x: -41, y: -45.5}
+        - {x: -43, y: -50.5}
+        - {x: 62, y: -50.5}
+        - {x: 68, y: -43.5}
+        - {x: 68, y: -20.5}
+        - {x: 48, y: 21.5}
+    - name: AGGRON-MEGA_30
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 404
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 49.5}
+        - {x: -69, y: -7.5}
+        - {x: -69, y: -26.5}
+        - {x: -63, y: -29.5}
+        - {x: -43, y: -50.5}
+        - {x: 60, y: -50.5}
+        - {x: 68, y: -37.5}
+        - {x: 68, y: -2.5}
+        - {x: 45, y: 49.5}
+    - name: AGGRON-MEGA_31
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 404
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: -45.5}
+        - {x: -43, y: -50.5}
+        - {x: 60, y: -50.5}
+        - {x: 69, y: -46.5}
+        - {x: 69, y: 1.5}
+        - {x: 58, y: 49.5}
+        - {x: -35, y: 49.5}
+        - {x: -69, y: 1.5}
+    - name: AGGRON-MEGA_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 23.5}
+        - {x: 38, y: 43.5}
+        - {x: 34, y: 49.5}
+        - {x: -43, y: 49.5}
+        - {x: -69, y: -6.5}
+        - {x: -69, y: -40.5}
+        - {x: -54, y: -50.5}
+        - {x: 64, y: -50.5}
+        - {x: 69, y: -45.5}
+        - {x: 69, y: -19.5}
+        - {x: 52, y: 24.5}
+    - name: AGGRON-MEGA_33
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 303
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 23.5}
+        - {x: 39, y: 17.5}
+        - {x: 36, y: 47.5}
+        - {x: 35, y: 49.5}
+        - {x: -32, y: 49.5}
+        - {x: -69, y: -15.5}
+        - {x: -69, y: -35.5}
+        - {x: -48, y: -50.5}
+        - {x: 59, y: -50.5}
+        - {x: 69, y: -47.5}
+        - {x: 69, y: -13.5}
+        - {x: 56, y: 28.5}
+    - name: AGGRON-MEGA_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 303
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 49.5}
+        - {x: -69, y: 25.5}
+        - {x: -69, y: -50.5}
+        - {x: 60, y: -50.5}
+        - {x: 69, y: -46.5}
+        - {x: 69, y: -5.5}
+        - {x: 47, y: 32.5}
+        - {x: 34, y: 49.5}
+    - name: AGGRON-MEGA_35
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 303
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 48.5}
+        - {x: 26, y: 46.5}
+        - {x: 19, y: 34.5}
+        - {x: 9, y: 43.5}
+        - {x: -4, y: 42.5}
+        - {x: -15, y: 48.5}
+        - {x: -36, y: 48.5}
+        - {x: -69, y: -5.5}
+        - {x: -69, y: -36.5}
+        - {x: -64, y: -50.5}
+        - {x: 69, y: -50.5}
+        - {x: 69, y: -3.5}
+        - {x: 43, y: 48.5}
+    - name: AGGRON-MEGA_36
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 303
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 49.5}
+        - {x: -35, y: 49.5}
+        - {x: -45, y: 46.5}
+        - {x: -69, y: -17.5}
+        - {x: -69, y: -27.5}
+        - {x: -64, y: -28.5}
+        - {x: -43, y: -24.5}
+        - {x: -28, y: -13.5}
+        - {x: -26, y: -9.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -29, y: -14.5}
+        - {x: -41, y: -45.5}
+        - {x: -41, y: -50.5}
+        - {x: 55, y: -50.5}
+        - {x: 69, y: -41.5}
+        - {x: 69, y: -23.5}
+        - {x: 57, y: 5.5}
+    - name: AGGRON-MEGA_37
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 303
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 49.5}
+        - {x: -69, y: -14.5}
+        - {x: -69, y: -44.5}
+        - {x: -39, y: -50.5}
+        - {x: 69, y: -50.5}
+        - {x: 69, y: -10.5}
+        - {x: 48, y: 49.5}
+    - name: AGGRON-MEGA_38
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 303
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 20.5}
+        - {x: 40, y: 17.5}
+        - {x: 38, y: 45.5}
+        - {x: 35, y: 49.5}
+        - {x: -38, y: 49.5}
+        - {x: -69, y: -16.5}
+        - {x: -69, y: -28.5}
+        - {x: -65, y: -27.5}
+        - {x: -47, y: -25.5}
+        - {x: -32, y: -16.5}
+        - {x: -25, y: -9.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -30, y: -15.5}
+        - {x: -43, y: -50.5}
+        - {x: 54, y: -50.5}
+        - {x: 69, y: -46.5}
+        - {x: 69, y: -18.5}
+        - {x: 45, y: 21.5}
+    - name: AGGRON-MEGA_39
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 303
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 49.5}
+        - {x: 30, y: 49.5}
+        - {x: 26, y: 44.5}
+        - {x: 21, y: 34.5}
+        - {x: 11, y: 47.5}
+        - {x: -15, y: 49.5}
+        - {x: -34, y: 49.5}
+        - {x: -69, y: -16.5}
+        - {x: -69, y: -29.5}
+        - {x: -64, y: -29.5}
+        - {x: -38, y: -21.5}
+        - {x: -25, y: -9.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -30, y: -15.5}
+        - {x: -41, y: -45.5}
+        - {x: -42, y: -50.5}
+        - {x: 53, y: -50.5}
+        - {x: 69, y: -43.5}
+        - {x: 69, y: -10.5}
+        - {x: 58, y: 26.5}
+    - name: AGGRON-MEGA_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 17.5}
+        - {x: 47, y: 49.5}
+        - {x: -32, y: 49.5}
+        - {x: -36, y: 42.5}
+        - {x: -69, y: -16.5}
+        - {x: -69, y: -29.5}
+        - {x: -46, y: -29.5}
+        - {x: -32, y: -17.5}
+        - {x: -25, y: -9.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -30, y: -15.5}
+        - {x: -41, y: -45.5}
+        - {x: -42, y: -50.5}
+        - {x: 53, y: -50.5}
+        - {x: 69, y: -43.5}
+        - {x: 69, y: -17.5}
+        - {x: 45, y: 22.5}
+    - name: AGGRON-MEGA_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 202
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 49.5}
+        - {x: -53, y: 49.5}
+        - {x: -69, y: 1.5}
+        - {x: -69, y: -29.5}
+        - {x: -44, y: -25.5}
+        - {x: -32, y: -16.5}
+        - {x: -25, y: -9.5}
+        - {x: -21, y: -9.5}
+        - {x: -23, y: -9.5}
+        - {x: -30, y: -15.5}
+        - {x: -44, y: -50.5}
+        - {x: 58, y: -50.5}
+        - {x: 69, y: -44.5}
+        - {x: 69, y: -17.5}
+        - {x: 37, y: 47.5}
+    - name: AGGRON-MEGA_42
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 202
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 44.5}
+        - {x: 36, y: 49.5}
+        - {x: -36, y: 49.5}
+        - {x: -69, y: -19.5}
+        - {x: -69, y: -35.5}
+        - {x: -46, y: -50.5}
+        - {x: 69, y: -50.5}
+        - {x: 69, y: -6.5}
+        - {x: 57, y: 30.5}
+        - {x: 42, y: 21.5}
+        - {x: 40, y: 18.5}
+    - name: AGGRON-MEGA_43
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 202
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 49.5}
+        - {x: -45, y: 49.5}
+        - {x: -69, y: 28.5}
+        - {x: -69, y: -50.5}
+        - {x: 52, y: -50.5}
+        - {x: 69, y: -43.5}
+        - {x: 69, y: -6.5}
+    - name: AGGRON-MEGA_44
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 202
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 49.5}
+        - {x: -69, y: -5.5}
+        - {x: -69, y: -25.5}
+        - {x: -64, y: -27.5}
+        - {x: -46, y: -24.5}
+        - {x: -35, y: -19.5}
+        - {x: -41, y: -43.5}
+        - {x: -39, y: -49.5}
+        - {x: -21, y: -50.5}
+        - {x: 64, y: -50.5}
+        - {x: 69, y: -41.5}
+        - {x: 69, y: -5.5}
+        - {x: 39, y: 49.5}
+    - name: AGGRON-MEGA_45
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 202
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 49.5}
+        - {x: -69, y: -11.5}
+        - {x: -69, y: -42.5}
+        - {x: -67, y: -46.5}
+        - {x: -52, y: -50.5}
+        - {x: 69, y: -50.5}
+        - {x: 69, y: 1.5}
+        - {x: 59, y: 49.5}
+    - name: AGGRON-MEGA_46
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 202
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: -21.5}
+        - {x: 47, y: 20.5}
+        - {x: 42, y: 22.5}
+        - {x: 40, y: 19.5}
+        - {x: 42, y: 26.5}
+        - {x: 40, y: 50.5}
+        - {x: -39, y: 50.5}
+        - {x: -69, y: -8.5}
+        - {x: -69, y: -35.5}
+        - {x: -49, y: -50.5}
+        - {x: 53, y: -50.5}
+        - {x: 68, y: -43.5}
+        - {x: 69, y: -39.5}
+        - {x: 69, y: -23.5}
+    - name: AGGRON-MEGA_47
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 202
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 50.5}
+        - {x: -39, y: 50.5}
+        - {x: -69, y: 22.5}
+        - {x: -69, y: -50.5}
+        - {x: 63, y: -50.5}
+        - {x: 69, y: -41.5}
+        - {x: 69, y: -7.5}
+        - {x: 42, y: 45.5}
+    - name: AGGRON-MEGA_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 21.5}
+        - {x: 42, y: 25.5}
+        - {x: 39, y: 49.5}
+        - {x: -46, y: 49.5}
+        - {x: -69, y: 17.5}
+        - {x: -69, y: -32.5}
+        - {x: -39, y: -49.5}
+        - {x: -20, y: -49.5}
+        - {x: -6, y: -50.5}
+        - {x: 55, y: -50.5}
+        - {x: 69, y: -41.5}
+        - {x: 69, y: -18.5}
+        - {x: 47, y: 19.5}
+    - name: AGGRON-MEGA_49
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 101
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.5}
+        - {x: -69, y: 3.5}
+        - {x: -69, y: -24.5}
+        - {x: -68, y: -26.5}
+        - {x: -46, y: -23.5}
+        - {x: -31, y: -15.5}
+        - {x: -31, y: -17.5}
+        - {x: -41, y: -43.5}
+        - {x: -39, y: -49.5}
+        - {x: -17, y: -50.5}
+        - {x: 56, y: -50.5}
+        - {x: 69, y: -44.5}
+        - {x: 69, y: 48.5}
+        - {x: 64, y: 50.5}
+    - name: AGGRON-MEGA_50
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 101
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 20.5}
+        - {x: 39, y: 16.5}
+        - {x: 40, y: 43.5}
+        - {x: 37, y: 50.5}
+        - {x: 34, y: 50.5}
+        - {x: 22, y: 35.5}
+        - {x: 22, y: 30.5}
+        - {x: 16, y: 38.5}
+        - {x: 10, y: 42.5}
+        - {x: 1, y: 50.5}
+        - {x: -30, y: 50.5}
+        - {x: -40, y: 46.5}
+        - {x: -69, y: -11.5}
+        - {x: -69, y: -46.5}
+        - {x: -47, y: -50.5}
+        - {x: 66, y: -50.5}
+        - {x: 69, y: -44.5}
+        - {x: 69, y: -17.5}
+        - {x: 46, y: 18.5}
+    - name: AGGRON-MEGA_51
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 101
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 50.5}
+        - {x: -69, y: 2.5}
+        - {x: -69, y: -42.5}
+        - {x: -53, y: -50.5}
+        - {x: 58, y: -50.5}
+        - {x: 69, y: -46.5}
+        - {x: 69, y: -17.5}
+        - {x: 38, y: 50.5}
+    - name: AGGRON-MEGA_52
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 101
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 11.5}
+        - {x: 39, y: 23.5}
+        - {x: 39, y: 45.5}
+        - {x: 37, y: 50.5}
+        - {x: 30, y: 47.5}
+        - {x: 24, y: 36.5}
+        - {x: 5, y: 50.5}
+        - {x: -45, y: 50.5}
+        - {x: -68, y: 28.5}
+        - {x: -68, y: -50.5}
+        - {x: 57, y: -50.5}
+        - {x: 69, y: -44.5}
+        - {x: 69, y: -11.5}
+        - {x: 48, y: 21.5}
+        - {x: 41, y: 20.5}
+        - {x: 39, y: 17.5}
+    - name: AGGRON-MEGA_53
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 101
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 50.5}
+        - {x: -68, y: 7.5}
+        - {x: -68, y: -24.5}
+        - {x: -67, y: -25.5}
+        - {x: -45, y: -22.5}
+        - {x: -41, y: -43.5}
+        - {x: -39, y: -49.5}
+        - {x: -36, y: -50.5}
+        - {x: 69, y: -50.5}
+        - {x: 69, y: 45.5}
+        - {x: 59, y: 50.5}
+    - name: AGGRON-MEGA_54
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 101
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 50.5}
+        - {x: -68, y: 6.5}
+        - {x: -68, y: -48.5}
+        - {x: -62, y: -50.5}
+        - {x: 67, y: -50.5}
+        - {x: 69, y: -49.5}
+        - {x: 69, y: -1.5}
+        - {x: 54, y: 28.5}
+        - {x: 40, y: 50.5}
+    - name: AGGRON-MEGA_55
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 101
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 50.5}
+        - {x: -36, y: 50.5}
+        - {x: -68, y: 2.5}
+        - {x: -68, y: -24.5}
+        - {x: -67, y: -25.5}
+        - {x: -46, y: -22.5}
+        - {x: -33, y: -15.5}
+        - {x: -29, y: -11.5}
+        - {x: -30, y: -14.5}
+        - {x: -45, y: -50.5}
+        - {x: 65, y: -50.5}
+        - {x: 68, y: -40.5}
+        - {x: 68, y: -17.5}
+    - name: AGGRON-MEGA_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 50.5}
+        - {x: -68, y: 20.5}
+        - {x: -68, y: -50.5}
+        - {x: 62, y: -50.5}
+        - {x: 68, y: -34.5}
+        - {x: 68, y: -23.5}
+        - {x: 43, y: 50.5}
+    - name: AGGRON-MEGA_57
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 50.5}
+        - {x: -68, y: 17.5}
+        - {x: -68, y: -41.5}
+        - {x: -44, y: -50.5}
+        - {x: 55, y: -50.5}
+        - {x: 67, y: -40.5}
+        - {x: 67, y: -3.5}
+        - {x: 58, y: 50.5}
+    - name: AGGRON-MEGA_58
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 50.5}
+        - {x: -38, y: 48.5}
+        - {x: -68, y: -16.5}
+        - {x: -68, y: -22.5}
+        - {x: -64, y: -24.5}
+        - {x: -42, y: -20.5}
+        - {x: -32, y: -13.5}
+        - {x: -41, y: -45.5}
+        - {x: -42, y: -50.5}
+        - {x: 56, y: -50.5}
+        - {x: 67, y: -37.5}
+        - {x: 67, y: -24.5}
+        - {x: 40, y: 50.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1727 @@
+fileFormatVersion: 2
+guid: dc3fe843f62517c4a960de9bfa519e62
+timeCreated: 1452558610
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ALAKAZAM_0
+    21300002: ALAKAZAM_1
+    21300004: ALAKAZAM_2
+    21300006: ALAKAZAM_3
+    21300008: ALAKAZAM_4
+    21300010: ALAKAZAM_5
+    21300012: ALAKAZAM_6
+    21300014: ALAKAZAM_7
+    21300016: ALAKAZAM_8
+    21300018: ALAKAZAM_9
+    21300020: ALAKAZAM_10
+    21300022: ALAKAZAM_11
+    21300024: ALAKAZAM_12
+    21300026: ALAKAZAM_13
+    21300028: ALAKAZAM_14
+    21300030: ALAKAZAM_15
+    21300032: ALAKAZAM_16
+    21300034: ALAKAZAM_17
+    21300036: ALAKAZAM_18
+    21300038: ALAKAZAM_19
+    21300040: ALAKAZAM_20
+    21300042: ALAKAZAM_21
+    21300044: ALAKAZAM_22
+    21300046: ALAKAZAM_23
+    21300048: ALAKAZAM_24
+    21300050: ALAKAZAM_25
+    21300052: ALAKAZAM_26
+    21300054: ALAKAZAM_27
+    21300056: ALAKAZAM_28
+    21300058: ALAKAZAM_29
+    21300060: ALAKAZAM_30
+    21300062: ALAKAZAM_31
+    21300064: ALAKAZAM_32
+    21300066: ALAKAZAM_33
+    21300068: ALAKAZAM_34
+    21300070: ALAKAZAM_35
+    21300072: ALAKAZAM_36
+    21300074: ALAKAZAM_37
+    21300076: ALAKAZAM_38
+    21300078: ALAKAZAM_39
+    21300080: ALAKAZAM_40
+    21300082: ALAKAZAM_41
+    21300084: ALAKAZAM_42
+    21300086: ALAKAZAM_43
+    21300088: ALAKAZAM_44
+    21300090: ALAKAZAM_45
+    21300092: ALAKAZAM_46
+    21300094: ALAKAZAM_47
+    21300096: ALAKAZAM_48
+    21300098: ALAKAZAM_49
+    21300100: ALAKAZAM_50
+    21300102: ALAKAZAM_51
+    21300104: ALAKAZAM_52
+    21300106: ALAKAZAM_53
+    21300108: ALAKAZAM_54
+    21300110: ALAKAZAM_55
+    21300112: ALAKAZAM_56
+    21300114: ALAKAZAM_57
+    21300116: ALAKAZAM_58
+    21300118: ALAKAZAM_59
+    21300120: ALAKAZAM_60
+    21300122: ALAKAZAM_61
+    21300124: ALAKAZAM_62
+    21300126: ALAKAZAM_63
+    21300128: ALAKAZAM_64
+    21300130: ALAKAZAM_65
+    21300132: ALAKAZAM_66
+    21300134: ALAKAZAM_67
+    21300136: ALAKAZAM_68
+    21300138: ALAKAZAM_69
+    21300140: ALAKAZAM_70
+    21300142: ALAKAZAM_71
+    21300144: ALAKAZAM_72
+    21300146: ALAKAZAM_73
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 100
+    allowsAlphaSplitting: 1
+  spriteSheet:
+    sprites:
+    - name: ALAKAZAM_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -35.5}
+        - {x: 26.5, y: -17.5}
+        - {x: 16.5, y: -7.5}
+        - {x: 22.5, y: -10.5}
+        - {x: 27.5, y: -19.5}
+        - {x: 34.5, y: -21.5}
+        - {x: 38.5, y: -12.5}
+        - {x: 38.5, y: 17.5}
+        - {x: 28.5, y: 39.5}
+        - {x: -20.5, y: 39.5}
+        - {x: -38.5, y: 14.5}
+        - {x: -38.5, y: -10.5}
+        - {x: -36.5, y: -18.5}
+        - {x: -27.5, y: -19.5}
+        - {x: -22.5, y: -11.5}
+        - {x: -26.5, y: -17.5}
+        - {x: -28.5, y: -22.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+    - name: ALAKAZAM_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 632
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -17.5}
+        - {x: -32.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 39.5}
+        - {x: -31.5, y: 39.5}
+        - {x: -38.5, y: 36.5}
+    - name: ALAKAZAM_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 632
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -12.5}
+        - {x: 28.5, y: -18.5}
+        - {x: 33.5, y: -20.5}
+        - {x: 38.5, y: -17.5}
+        - {x: 38.5, y: 39.5}
+        - {x: -14.5, y: 39.5}
+        - {x: -16.5, y: 38.5}
+        - {x: -38.5, y: 17.5}
+        - {x: -38.5, y: -29.5}
+        - {x: -34.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 27.5, y: -17.5}
+        - {x: 22.5, y: -12.5}
+    - name: ALAKAZAM_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 632
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -12.5}
+        - {x: 29.5, y: -18.5}
+        - {x: 36.5, y: -28.5}
+        - {x: 38.5, y: -20.5}
+        - {x: 38.5, y: 32.5}
+        - {x: 32.5, y: 39.5}
+        - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 21.5}
+        - {x: -38.5, y: -11.5}
+        - {x: -33.5, y: -18.5}
+        - {x: -29.5, y: -18.5}
+        - {x: -26.5, y: -15.5}
+        - {x: -24.5, y: -11.5}
+        - {x: -17.5, y: -4.5}
+        - {x: -27.5, y: -17.5}
+        - {x: -28.5, y: -22.5}
+        - {x: -32.5, y: -36.5}
+        - {x: -31.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+        - {x: 33.5, y: -34.5}
+        - {x: 30.5, y: -20.5}
+    - name: ALAKAZAM_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 632
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -39.5}
+        - {x: 34.5, y: -39.5}
+        - {x: 38.5, y: -33.5}
+        - {x: 38.5, y: 35.5}
+        - {x: 36.5, y: 39.5}
+        - {x: -27.5, y: 39.5}
+        - {x: -38.5, y: 12.5}
+        - {x: -38.5, y: -16.5}
+        - {x: -32.5, y: -17.5}
+        - {x: -28.5, y: -17.5}
+        - {x: -26.5, y: -15.5}
+        - {x: -24.5, y: -11.5}
+        - {x: -15.5, y: -1.5}
+        - {x: -27.5, y: -17.5}
+        - {x: -30.5, y: -24.5}
+        - {x: -27.5, y: -39.5}
+        - {x: 3.5, y: -39.5}
+        - {x: 5.5, y: -33.5}
+        - {x: 10.5, y: -38.5}
+    - name: ALAKAZAM_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 632
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -39.5}
+        - {x: 38.5, y: -27.5}
+        - {x: 38.5, y: 27.5}
+        - {x: 35.5, y: 39.5}
+        - {x: -25.5, y: 39.5}
+        - {x: -38.5, y: 29.5}
+        - {x: -38.5, y: -13.5}
+        - {x: -36.5, y: -17.5}
+        - {x: -28.5, y: -17.5}
+        - {x: -26.5, y: -15.5}
+        - {x: -24.5, y: -11.5}
+        - {x: -26.5, y: -15.5}
+        - {x: -29.5, y: -19.5}
+        - {x: -32.5, y: -36.5}
+        - {x: -27.5, y: -39.5}
+        - {x: 3.5, y: -39.5}
+        - {x: 5.5, y: -33.5}
+        - {x: 10.5, y: -38.5}
+        - {x: 12.5, y: -39.5}
+    - name: ALAKAZAM_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 632
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -17.5}
+        - {x: 34.5, y: -19.5}
+        - {x: 38.5, y: -14.5}
+        - {x: 38.5, y: 19.5}
+        - {x: 33.5, y: 39.5}
+        - {x: -21.5, y: 39.5}
+        - {x: -37.5, y: 14.5}
+        - {x: -38.5, y: 3.5}
+        - {x: -38.5, y: -26.5}
+        - {x: -30.5, y: -39.5}
+        - {x: 34.5, y: -39.5}
+        - {x: 29.5, y: -19.5}
+        - {x: 26.5, y: -14.5}
+    - name: ALAKAZAM_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 632
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -17.5}
+        - {x: 34.5, y: -19.5}
+        - {x: 38.5, y: -17.5}
+        - {x: 38.5, y: 39.5}
+        - {x: -25.5, y: 39.5}
+        - {x: -38.5, y: 22.5}
+        - {x: -38.5, y: -17.5}
+        - {x: -35.5, y: -39.5}
+        - {x: 34.5, y: -39.5}
+        - {x: 33.5, y: -35.5}
+        - {x: 30.5, y: -20.5}
+        - {x: 25.5, y: -13.5}
+    - name: ALAKAZAM_8
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 632
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 39.5}
+        - {x: -38.5, y: 24.5}
+        - {x: -38.5, y: -24.5}
+        - {x: -28.5, y: -17.5}
+        - {x: -27.5, y: -15.5}
+        - {x: -24.5, y: -10.5}
+        - {x: -15.5, y: -1.5}
+        - {x: -27.5, y: -15.5}
+        - {x: -29.5, y: -21.5}
+        - {x: -25.5, y: -26.5}
+        - {x: -32.5, y: -36.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 38.5, y: -34.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 553
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 39.5}
+        - {x: -15.5, y: 37.5}
+        - {x: -15.5, y: 35.5}
+        - {x: -24.5, y: 16.5}
+        - {x: -23.5, y: 14.5}
+        - {x: -29.5, y: 19.5}
+        - {x: -38.5, y: 19.5}
+        - {x: -38.5, y: -14.5}
+        - {x: -33.5, y: -18.5}
+        - {x: -29.5, y: -17.5}
+        - {x: -27.5, y: -15.5}
+        - {x: -24.5, y: -10.5}
+        - {x: -15.5, y: -0.5}
+        - {x: -28.5, y: -17.5}
+        - {x: -30.5, y: -22.5}
+        - {x: -32.5, y: -36.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 38.5, y: -31.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 553
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 39.5}
+        - {x: -38.5, y: 25.5}
+        - {x: -38.5, y: -17.5}
+        - {x: -34.5, y: -37.5}
+        - {x: -31.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 29.5}
+        - {x: 35.5, y: 39.5}
+    - name: ALAKAZAM_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 553
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -10.5}
+        - {x: 27.5, y: -12.5}
+        - {x: 27.5, y: -14.5}
+        - {x: 29.5, y: -16.5}
+        - {x: 34.5, y: -17.5}
+        - {x: 38.5, y: -15.5}
+        - {x: 38.5, y: 29.5}
+        - {x: 35.5, y: 39.5}
+        - {x: -35.5, y: 39.5}
+        - {x: -38.5, y: 33.5}
+        - {x: -38.5, y: -34.5}
+        - {x: -31.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+        - {x: 33.5, y: -35.5}
+        - {x: 29.5, y: -18.5}
+        - {x: 25.5, y: -12.5}
+    - name: ALAKAZAM_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 553
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 39.5}
+        - {x: -26.5, y: 39.5}
+        - {x: -38.5, y: 28.5}
+        - {x: -38.5, y: -27.5}
+        - {x: -30.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+        - {x: 33.5, y: -35.5}
+        - {x: 38.5, y: -21.5}
+        - {x: 38.5, y: 32.5}
+    - name: ALAKAZAM_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 553
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -39.5}
+        - {x: 38.5, y: -33.5}
+        - {x: 38.5, y: 39.5}
+        - {x: -18.5, y: 39.5}
+        - {x: -38.5, y: 26.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 3.5, y: -39.5}
+        - {x: 5.5, y: -33.5}
+        - {x: 10.5, y: -38.5}
+        - {x: 12.5, y: -39.5}
+    - name: ALAKAZAM_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 553
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 39.5}
+        - {x: -15.5, y: 37.5}
+        - {x: -38.5, y: 18.5}
+        - {x: -38.5, y: -15.5}
+        - {x: -34.5, y: -30.5}
+        - {x: -30.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_15
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 553
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 39.5}
+        - {x: -16.5, y: 38.5}
+        - {x: -38.5, y: 18.5}
+        - {x: -38.5, y: -19.5}
+        - {x: -29.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_16
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 553
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 39.5}
+        - {x: -38.5, y: 22.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 38.5, y: -36.5}
+        - {x: 38.5, y: 37.5}
+        - {x: 37.5, y: 39.5}
+    - name: ALAKAZAM_17
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 553
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: -25.5}
+        - {x: 38.5, y: 21.5}
+        - {x: 35.5, y: 39.5}
+        - {x: -22.5, y: 39.5}
+        - {x: -38.5, y: 27.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 3.5, y: -39.5}
+        - {x: 5.5, y: -33.5}
+        - {x: 10.5, y: -39.5}
+        - {x: 34.5, y: -39.5}
+    - name: ALAKAZAM_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 25.5}
+        - {x: 35.5, y: 39.5}
+        - {x: -24.5, y: 39.5}
+        - {x: -38.5, y: 29.5}
+        - {x: -38.5, y: -29.5}
+        - {x: -29.5, y: -39.5}
+        - {x: 3.5, y: -39.5}
+        - {x: 5.5, y: -33.5}
+        - {x: 10.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+    - name: ALAKAZAM_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 474
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: -37.5}
+        - {x: 38.5, y: 17.5}
+        - {x: 31.5, y: 39.5}
+        - {x: -26.5, y: 39.5}
+        - {x: -38.5, y: 37.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 3.5, y: -39.5}
+        - {x: 5.5, y: -33.5}
+        - {x: 10.5, y: -39.5}
+        - {x: 37.5, y: -39.5}
+    - name: ALAKAZAM_20
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 474
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 39.5}
+        - {x: -38.5, y: 28.5}
+        - {x: -38.5, y: -24.5}
+        - {x: -35.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 15.5}
+        - {x: 29.5, y: 39.5}
+    - name: ALAKAZAM_21
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 474
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 26.5}
+        - {x: -38.5, y: -16.5}
+        - {x: -34.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 17.5}
+        - {x: 32.5, y: 39.5}
+    - name: ALAKAZAM_22
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 474
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 20.5}
+        - {x: -38.5, y: -11.5}
+        - {x: -29.5, y: -39.5}
+        - {x: 37.5, y: -39.5}
+        - {x: 38.5, y: -36.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_23
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 474
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 39.5}
+        - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 20.5}
+        - {x: -38.5, y: -21.5}
+        - {x: -34.5, y: -37.5}
+        - {x: -31.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+    - name: ALAKAZAM_24
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 474
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: -30.5}
+        - {x: 38.5, y: 19.5}
+        - {x: 34.5, y: 39.5}
+        - {x: -24.5, y: 39.5}
+        - {x: -38.5, y: 28.5}
+        - {x: -38.5, y: -18.5}
+        - {x: -36.5, y: -25.5}
+        - {x: -22.5, y: -28.5}
+        - {x: -19.5, y: -27.5}
+        - {x: -28.5, y: -36.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 36.5, y: -39.5}
+    - name: ALAKAZAM_25
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 474
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 39.5}
+        - {x: -15.5, y: 38.5}
+        - {x: -38.5, y: 25.5}
+        - {x: -38.5, y: -27.5}
+        - {x: -31.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 16.5}
+        - {x: 33.5, y: 39.5}
+    - name: ALAKAZAM_26
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 474
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 27.5}
+        - {x: -38.5, y: -33.5}
+        - {x: -37.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+        - {x: 38.5, y: -28.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 39.5}
+        - {x: -38.5, y: 20.5}
+        - {x: -38.5, y: -38.5}
+        - {x: -37.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 25.5}
+        - {x: 31.5, y: 39.5}
+    - name: ALAKAZAM_28
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 395
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 39.5}
+        - {x: -38.5, y: 31.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_29
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 395
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 39.5}
+        - {x: -16.5, y: 38.5}
+        - {x: -22.5, y: 18.5}
+        - {x: -27.5, y: 21.5}
+        - {x: -38.5, y: 20.5}
+        - {x: -38.5, y: -30.5}
+        - {x: -35.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 35.5}
+        - {x: 37.5, y: 39.5}
+    - name: ALAKAZAM_30
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 395
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 39.5}
+        - {x: -31.5, y: 39.5}
+        - {x: -38.5, y: 26.5}
+        - {x: -38.5, y: -38.5}
+        - {x: -36.5, y: -39.5}
+        - {x: 37.5, y: -39.5}
+        - {x: 38.5, y: -32.5}
+        - {x: 38.5, y: 25.5}
+    - name: ALAKAZAM_31
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 395
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 39.5}
+        - {x: -36.5, y: 39.5}
+        - {x: -38.5, y: 38.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 37.5, y: -39.5}
+        - {x: 38.5, y: -37.5}
+        - {x: 38.5, y: 33.5}
+    - name: ALAKAZAM_32
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 395
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 20.5}
+        - {x: -38.5, y: -16.5}
+        - {x: -32.5, y: -36.5}
+        - {x: -26.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 16.5}
+        - {x: 30.5, y: 39.5}
+    - name: ALAKAZAM_33
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 395
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 39.5}
+        - {x: -38.5, y: 19.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 15.5}
+        - {x: 28.5, y: 39.5}
+    - name: ALAKAZAM_34
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 395
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 39.5}
+        - {x: -38.5, y: 27.5}
+        - {x: -38.5, y: -26.5}
+        - {x: -35.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 23.5}
+        - {x: 30.5, y: 39.5}
+    - name: ALAKAZAM_35
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 395
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 39.5}
+        - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 24.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+        - {x: 38.5, y: -26.5}
+        - {x: 38.5, y: 31.5}
+    - name: ALAKAZAM_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 39.5}
+        - {x: -18.5, y: 39.5}
+        - {x: -38.5, y: 24.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+        - {x: 38.5, y: -31.5}
+        - {x: 38.5, y: 34.5}
+    - name: ALAKAZAM_37
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 316
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 39.5}
+        - {x: -25.5, y: 39.5}
+        - {x: -38.5, y: 17.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 38.5, y: -32.5}
+        - {x: 38.5, y: 19.5}
+    - name: ALAKAZAM_38
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 316
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -34.5}
+        - {x: 38.5, y: -26.5}
+        - {x: 38.5, y: 31.5}
+        - {x: 35.5, y: 36.5}
+        - {x: 30.5, y: 39.5}
+        - {x: -16.5, y: 39.5}
+        - {x: -17.5, y: 38.5}
+        - {x: -35.5, y: 26.5}
+        - {x: -38.5, y: 18.5}
+        - {x: -38.5, y: -14.5}
+        - {x: -30.5, y: -27.5}
+        - {x: -20.5, y: -29.5}
+        - {x: -24.5, y: -31.5}
+        - {x: -28.5, y: -36.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+    - name: ALAKAZAM_39
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 316
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 26.5}
+        - {x: -38.5, y: -26.5}
+        - {x: -36.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_40
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 316
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 39.5}
+        - {x: -15.5, y: 39.5}
+        - {x: -17.5, y: 38.5}
+        - {x: -38.5, y: 22.5}
+        - {x: -38.5, y: -27.5}
+        - {x: -24.5, y: -30.5}
+        - {x: -20.5, y: -29.5}
+        - {x: -24.5, y: -31.5}
+        - {x: -28.5, y: -36.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 38.5, y: -30.5}
+        - {x: 38.5, y: 19.5}
+    - name: ALAKAZAM_41
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 316
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 39.5}
+        - {x: -38.5, y: 26.5}
+        - {x: -38.5, y: -21.5}
+        - {x: -32.5, y: -24.5}
+        - {x: -24.5, y: -31.5}
+        - {x: -25.5, y: -29.5}
+        - {x: -28.5, y: -36.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 36.5, y: -39.5}
+        - {x: 38.5, y: -37.5}
+        - {x: 38.5, y: 33.5}
+        - {x: 34.5, y: 39.5}
+    - name: ALAKAZAM_42
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 316
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 32.5}
+        - {x: -38.5, y: -36.5}
+        - {x: -37.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_43
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 316
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 17.5}
+        - {x: 29.5, y: 39.5}
+        - {x: -20.5, y: 39.5}
+        - {x: -38.5, y: 29.5}
+        - {x: -38.5, y: -25.5}
+        - {x: -22.5, y: -29.5}
+        - {x: -20.5, y: -29.5}
+        - {x: -23.5, y: -31.5}
+        - {x: -28.5, y: -36.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+    - name: ALAKAZAM_44
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 316
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 39.5}
+        - {x: -38.5, y: 22.5}
+        - {x: -38.5, y: -34.5}
+        - {x: -32.5, y: -39.5}
+        - {x: 36.5, y: -39.5}
+        - {x: 38.5, y: -31.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 39.5}
+        - {x: -23.5, y: 39.5}
+        - {x: -38.5, y: 26.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 28.5}
+    - name: ALAKAZAM_46
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 237
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 39.5}
+        - {x: -36.5, y: 39.5}
+        - {x: -38.5, y: 34.5}
+        - {x: -38.5, y: -33.5}
+        - {x: -30.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 9.5}
+        - {x: 37.5, y: 13.5}
+    - name: ALAKAZAM_47
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 237
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: -28.5}
+        - {x: 38.5, y: 20.5}
+        - {x: 32.5, y: 39.5}
+        - {x: -25.5, y: 39.5}
+        - {x: -38.5, y: 21.5}
+        - {x: -38.5, y: -24.5}
+        - {x: -33.5, y: -39.5}
+        - {x: 1.5, y: -39.5}
+        - {x: 4.5, y: -37.5}
+        - {x: 6.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+    - name: ALAKAZAM_48
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 237
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 39.5}
+        - {x: -38.5, y: 31.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_49
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 237
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -32.5}
+        - {x: -32.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 14.5}
+        - {x: 30.5, y: 39.5}
+        - {x: -30.5, y: 39.5}
+        - {x: -38.5, y: 20.5}
+    - name: ALAKAZAM_50
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 237
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 39.5}
+        - {x: -38.5, y: 22.5}
+        - {x: -38.5, y: -24.5}
+        - {x: -35.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 8.5}
+        - {x: 29.5, y: 39.5}
+    - name: ALAKAZAM_51
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 237
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 39.5}
+        - {x: -38.5, y: 17.5}
+        - {x: -38.5, y: -16.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 34.5}
+        - {x: 31.5, y: 39.5}
+    - name: ALAKAZAM_52
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 237
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 39.5}
+        - {x: -22.5, y: 39.5}
+        - {x: -38.5, y: 16.5}
+        - {x: -38.5, y: -14.5}
+        - {x: -36.5, y: -18.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 37.5, y: -39.5}
+        - {x: 38.5, y: -34.5}
+        - {x: 38.5, y: 19.5}
+    - name: ALAKAZAM_53
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 237
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 39.5}
+        - {x: -38.5, y: 14.5}
+        - {x: -38.5, y: -24.5}
+        - {x: -34.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 23.5}
+        - {x: 32.5, y: 39.5}
+        - {x: -21.5, y: 39.5}
+        - {x: -38.5, y: 18.5}
+        - {x: -38.5, y: -25.5}
+        - {x: -33.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+    - name: ALAKAZAM_55
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -15.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 28.5, y: -21.5}
+        - {x: 31.5, y: -22.5}
+        - {x: 38.5, y: -14.5}
+        - {x: 38.5, y: 5.5}
+        - {x: 34.5, y: 17.5}
+        - {x: 28.5, y: 39.5}
+        - {x: -22.5, y: 39.5}
+        - {x: -38.5, y: 21.5}
+        - {x: -38.5, y: -19.5}
+        - {x: -34.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 27.5, y: -21.5}
+        - {x: 25.5, y: -18.5}
+    - name: ALAKAZAM_56
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 39.5}
+        - {x: -38.5, y: 33.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 24.5}
+        - {x: 33.5, y: 39.5}
+    - name: ALAKAZAM_57
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 39.5}
+        - {x: -19.5, y: 39.5}
+        - {x: -36.5, y: 30.5}
+        - {x: -38.5, y: 25.5}
+        - {x: -38.5, y: -38.5}
+        - {x: -35.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 38.5, y: -23.5}
+        - {x: 38.5, y: 14.5}
+    - name: ALAKAZAM_58
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 19.5}
+        - {x: 23.5, y: 22.5}
+        - {x: 27.5, y: 38.5}
+        - {x: 26.5, y: 39.5}
+        - {x: -24.5, y: 39.5}
+        - {x: -38.5, y: 16.5}
+        - {x: -38.5, y: -21.5}
+        - {x: -31.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 38.5, y: -16.5}
+        - {x: 38.5, y: 2.5}
+    - name: ALAKAZAM_59
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 39.5}
+        - {x: -24.5, y: 39.5}
+        - {x: -38.5, y: 16.5}
+        - {x: -38.5, y: -29.5}
+        - {x: -32.5, y: -39.5}
+        - {x: 36.5, y: -39.5}
+        - {x: 38.5, y: -34.5}
+        - {x: 38.5, y: 31.5}
+    - name: ALAKAZAM_60
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 39.5}
+        - {x: -38.5, y: 23.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_61
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -20.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 22.5, y: -12.5}
+        - {x: 23.5, y: -13.5}
+        - {x: 26.5, y: -15.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 38.5, y: -21.5}
+        - {x: 38.5, y: 34.5}
+        - {x: 37.5, y: 39.5}
+        - {x: -26.5, y: 39.5}
+        - {x: -38.5, y: 26.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 38.5, y: -36.5}
+        - {x: 27.5, y: -22.5}
+    - name: ALAKAZAM_62
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 158
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -18.5}
+        - {x: 22.5, y: -12.5}
+        - {x: 23.5, y: -13.5}
+        - {x: 26.5, y: -15.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 37.5, y: -20.5}
+        - {x: 38.5, y: -17.5}
+        - {x: 38.5, y: 15.5}
+        - {x: 27.5, y: 39.5}
+        - {x: -27.5, y: 39.5}
+        - {x: -38.5, y: 29.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 36.5, y: -39.5}
+        - {x: 34.5, y: -34.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 25.5, y: -20.5}
+    - name: ALAKAZAM_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -18.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 32.5, y: -20.5}
+        - {x: 38.5, y: -17.5}
+        - {x: 38.5, y: 33.5}
+        - {x: 36.5, y: 39.5}
+        - {x: -19.5, y: 39.5}
+        - {x: -38.5, y: 22.5}
+        - {x: -38.5, y: -17.5}
+        - {x: -32.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 28.5, y: -22.5}
+        - {x: 22.5, y: -12.5}
+    - name: ALAKAZAM_64
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 79
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -21.5}
+        - {x: 36.5, y: -20.5}
+        - {x: 38.5, y: -15.5}
+        - {x: 38.5, y: 16.5}
+        - {x: 28.5, y: 39.5}
+        - {x: -38.5, y: 39.5}
+        - {x: -38.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 28.5, y: -22.5}
+        - {x: 22.5, y: -12.5}
+    - name: ALAKAZAM_65
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 79
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -12.5}
+        - {x: 23.5, y: -12.5}
+        - {x: 27.5, y: -21.5}
+        - {x: 36.5, y: -20.5}
+        - {x: 38.5, y: -16.5}
+        - {x: 38.5, y: 19.5}
+        - {x: 31.5, y: 39.5}
+        - {x: -23.5, y: 39.5}
+        - {x: -23.5, y: 12.5}
+        - {x: -20.5, y: 8.5}
+        - {x: -23.5, y: 12.5}
+        - {x: -29.5, y: 17.5}
+        - {x: -34.5, y: 19.5}
+        - {x: -38.5, y: 13.5}
+        - {x: -38.5, y: -13.5}
+        - {x: -30.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 30.5, y: -27.5}
+        - {x: 24.5, y: -15.5}
+    - name: ALAKAZAM_66
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 79
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: -27.5}
+        - {x: 22.5, y: -12.5}
+        - {x: 27.5, y: -21.5}
+        - {x: 35.5, y: -19.5}
+        - {x: 38.5, y: -18.5}
+        - {x: 38.5, y: 31.5}
+        - {x: 34.5, y: 39.5}
+        - {x: -19.5, y: 39.5}
+        - {x: -38.5, y: 11.5}
+        - {x: -38.5, y: -28.5}
+        - {x: -33.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+    - name: ALAKAZAM_67
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 79
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -12.5}
+        - {x: 27.5, y: -21.5}
+        - {x: 37.5, y: -21.5}
+        - {x: 38.5, y: -16.5}
+        - {x: 38.5, y: 39.5}
+        - {x: -17.5, y: 39.5}
+        - {x: -24.5, y: 13.5}
+        - {x: -20.5, y: 9.5}
+        - {x: -28.5, y: 16.5}
+        - {x: -34.5, y: 19.5}
+        - {x: -38.5, y: 17.5}
+        - {x: -38.5, y: -36.5}
+        - {x: -35.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 33.5, y: -34.5}
+        - {x: 28.5, y: -22.5}
+    - name: ALAKAZAM_68
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 79
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -35.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 22.5, y: -12.5}
+        - {x: 27.5, y: -21.5}
+        - {x: 36.5, y: -20.5}
+        - {x: 38.5, y: -18.5}
+        - {x: 38.5, y: 23.5}
+        - {x: 33.5, y: 39.5}
+        - {x: -14.5, y: 39.5}
+        - {x: -16.5, y: 38.5}
+        - {x: -24.5, y: 13.5}
+        - {x: -20.5, y: 9.5}
+        - {x: -28.5, y: 16.5}
+        - {x: -34.5, y: 19.5}
+        - {x: -38.5, y: 14.5}
+        - {x: -38.5, y: -24.5}
+        - {x: -34.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+    - name: ALAKAZAM_69
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 79
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: -12.5}
+        - {x: 28.5, y: -21.5}
+        - {x: 36.5, y: -18.5}
+        - {x: 38.5, y: -12.5}
+        - {x: 38.5, y: 35.5}
+        - {x: 35.5, y: 39.5}
+        - {x: -14.5, y: 39.5}
+        - {x: -16.5, y: 38.5}
+        - {x: -38.5, y: 21.5}
+        - {x: -38.5, y: -28.5}
+        - {x: -30.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+        - {x: 33.5, y: -35.5}
+        - {x: 26.5, y: -18.5}
+        - {x: 22.5, y: -12.5}
+    - name: ALAKAZAM_70
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 79
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 39.5}
+        - {x: -38.5, y: 24.5}
+        - {x: -38.5, y: -23.5}
+        - {x: -34.5, y: -39.5}
+        - {x: 36.5, y: -39.5}
+        - {x: 38.5, y: -36.5}
+        - {x: 38.5, y: 39.5}
+    - name: ALAKAZAM_71
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 79
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 31.5}
+        - {x: 34.5, y: 39.5}
+        - {x: -16.5, y: 39.5}
+        - {x: -38.5, y: 20.5}
+        - {x: -38.5, y: -17.5}
+        - {x: -34.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+    - name: ALAKAZAM_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -12.5}
+        - {x: 23.5, y: -11.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 37.5, y: -20.5}
+        - {x: 38.5, y: -15.5}
+        - {x: 38.5, y: 23.5}
+        - {x: 35.5, y: 39.5}
+        - {x: -19.5, y: 39.5}
+        - {x: -38.5, y: 15.5}
+        - {x: -38.5, y: -14.5}
+        - {x: -32.5, y: -23.5}
+        - {x: -26.5, y: -16.5}
+        - {x: -24.5, y: -12.5}
+        - {x: -15.5, y: -2.5}
+        - {x: -27.5, y: -18.5}
+        - {x: -29.5, y: -25.5}
+        - {x: -28.5, y: -39.5}
+        - {x: 34.5, y: -39.5}
+        - {x: 33.5, y: -35.5}
+        - {x: 28.5, y: -22.5}
+        - {x: 26.5, y: -18.5}
+    - name: ALAKAZAM_73
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -35.5}
+        - {x: 28.5, y: -22.5}
+        - {x: 26.5, y: -18.5}
+        - {x: 22.5, y: -12.5}
+        - {x: 23.5, y: -11.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 38.5, y: -24.5}
+        - {x: 38.5, y: 27.5}
+        - {x: 29.5, y: 39.5}
+        - {x: -33.5, y: 39.5}
+        - {x: -38.5, y: 36.5}
+        - {x: -38.5, y: -24.5}
+        - {x: -28.5, y: -18.5}
+        - {x: -26.5, y: -16.5}
+        - {x: -24.5, y: -12.5}
+        - {x: -15.5, y: -2.5}
+        - {x: -27.5, y: -18.5}
+        - {x: -30.5, y: -23.5}
+        - {x: -31.5, y: -37.5}
+        - {x: -26.5, y: -39.5}
+        - {x: 33.5, y: -39.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

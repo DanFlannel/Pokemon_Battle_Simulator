@@ -41,7 +41,6 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     /***************************
         Public Variables
     ****************************/
-    public RawImage myRawImage;
     private int curGifByteIndex;
     public float speed = 1;
     public float percentage;
@@ -49,6 +48,8 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     public string pName;
 
     public bool finishedWWW = false;
+    public bool isGif;
+    public Sprite pokemonSprite;
 
     public GameObject positionPlaceHolderGO;
     private Vector2 positionPlaceHolder;
@@ -77,16 +78,21 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     private List<Texture2D> custom_gifFrames = new List<Texture2D>();
     private byte[] bytearrayholder;
 
+    private PokemonPNGHolder sprites;
+    private PokemonCreatorBack pokemonData;
+
     void Start()
     {
-        curGifByteIndex = 0;
         positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PBLPlace");
         positionPlaceHolder = positionPlaceHolderGO.GetComponent<RectTransform>().anchoredPosition;
+        sprites = GameObject.Find("PNGs").GetComponent<PokemonPNGHolder>();
+        pokemonData = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
         Init();
     }
 
     void Init()
     {
+        curGifByteIndex = 0;
         ApplicationExtensionBlock.bits = 19 * 2;
         GraphicsControlExtension.bits = 8 * 2;
         LogicalScreenDescriptor.bits = 7 * 2;
@@ -132,15 +138,37 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
             GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(width, height, 1));
 
-            //Debug.Log((gifFrames[0].height * 3.5f)/50f);
-            float calc = (gifFrames[0].height * 3.5f) / 50f;
-            float prediction = 0f;
-            prediction = 150f + ((7.5f - calc) * 55.375f);
-            prediction = Mathf.RoundToInt(prediction);
-            //Debug.Log("predicted position " + prediction);
-            GUI.DrawTexture(new Rect(50, prediction, gifFrames[0].width * 3.5f, gifFrames[0].height * 3.5f), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+            if (isGif)
+            {
+                drawGif();
+            }
+            else
+            {
+                drawPNG();
+            }
         }
     }
+
+    public void drawGif()
+    {
+        float calc = (gifFrames[0].height * 3.5f) / 50f;
+        float prediction = 0f;
+        prediction = 150f + ((7.5f - calc) * 55.375f);
+        prediction = Mathf.RoundToInt(prediction);
+        GUI.DrawTexture(new Rect(50, prediction, gifFrames[0].width * 3.5f, gifFrames[0].height * 3.5f), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+    }
+
+    public void drawPNG()
+    {
+        Texture2D pokemonTexture = sprites.textureFromSprite(pokemonSprite);
+        float calc = (pokemonTexture.height * 3.5f) / 50f;
+        float prediction = 0f;
+        prediction = 150f + ((7.5f - calc) * 55.375f);
+        prediction = Mathf.RoundToInt(prediction);
+        GUI.DrawTexture(new Rect(50, prediction, pokemonTexture.width * 3.5f, pokemonTexture.height * 3.5f), pokemonTexture);
+    }
+
+
 
     /// <summary>
     /// This checks the url for being a proper url with the gif image.
@@ -196,16 +224,29 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         catch (Exception e)
         {
             Debug.Log(e.Message.ToString());
-            System.Drawing.Bitmap bmp = byteArrayToBitMap(byteArrayIn);
-            bmp = System.Drawing.Image.FromHbitmap(bmp.GetHbitmap());
-            Debug.Log("Created image from hbitmap");
+            //why not just load a gen 5 image am I right?
+
+            string id = pokemonData.getPokemonID().ToString();
+            int pngID = 0;
+            for(int i = 0; i < sprites.back.Length; i++)
+            {
+                if(sprites.back[i].name == id)
+                {
+                    pngID = i;
+                    break;
+                }
+            }
+            pokemonSprite = sprites.back[pngID];
+            isGif = false;
+            canOnGUI = true;
+
             finishedWWW = true;
-            return bmp;
+            return null;
         }
 
     }
     
-    /// <summary>
+    /*/// <summary>
     /// This method converts the read in byte arry to a System.Drawing.Bitmap
     /// </summary>
     /// <param name="data"> the byte array to be convereted</param>
@@ -218,9 +259,9 @@ public class AnimatedGifDrawerBack : MonoBehaviour
        //Debug.Log("Converted byteArray to bit map");
        return bmp;
 
-   }
+   }*/
 
-        /*
+    /*
     public void byteArrayToTexture2D(byte[] data)
     {
         int width = data[6];
@@ -241,6 +282,8 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
         if (gifImage == null)
             return;
+
+        isGif = true;
 
         var dimension = new System.Drawing.Imaging.FrameDimension(gifImage.FrameDimensionsList[0]);
         int frameCount = gifImage.GetFrameCount(dimension);
@@ -336,12 +379,6 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         ImageData.bits = ImageDataLength;
         curGifByteIndex += ImageData.bits/2;
         Debug.LogWarning("CUR INDEX: " + curGifByteIndex + "/" + (hex.Length/2));
-
-
-        Texture2D newTexture = new Texture2D(LogicalScreenDescriptor.Width, LogicalScreenDescriptor.Height);
-        newTexture.LoadImage(ByteArraySubstring(byteArrayIn,0,curGifByteIndex));
-        newTexture.EncodeToPNG();
-        myRawImage.texture = newTexture;
     }
 
     public byte[] ByteArraySubstring(byte[] array,int start, int length)

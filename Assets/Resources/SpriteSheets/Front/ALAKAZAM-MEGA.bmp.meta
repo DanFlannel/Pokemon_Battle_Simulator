@@ -1,0 +1,5458 @@
+fileFormatVersion: 2
+guid: c006c364784588b48bc18a246eb34d7c
+timeCreated: 1452558624
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ALAKAZAM-MEGA_0
+    21300002: ALAKAZAM-MEGA_1
+    21300004: ALAKAZAM-MEGA_2
+    21300006: ALAKAZAM-MEGA_3
+    21300008: ALAKAZAM-MEGA_4
+    21300010: ALAKAZAM-MEGA_5
+    21300012: ALAKAZAM-MEGA_6
+    21300014: ALAKAZAM-MEGA_7
+    21300016: ALAKAZAM-MEGA_8
+    21300018: ALAKAZAM-MEGA_9
+    21300020: ALAKAZAM-MEGA_10
+    21300022: ALAKAZAM-MEGA_11
+    21300024: ALAKAZAM-MEGA_12
+    21300026: ALAKAZAM-MEGA_13
+    21300028: ALAKAZAM-MEGA_14
+    21300030: ALAKAZAM-MEGA_15
+    21300032: ALAKAZAM-MEGA_16
+    21300034: ALAKAZAM-MEGA_17
+    21300036: ALAKAZAM-MEGA_18
+    21300038: ALAKAZAM-MEGA_19
+    21300040: ALAKAZAM-MEGA_20
+    21300042: ALAKAZAM-MEGA_21
+    21300044: ALAKAZAM-MEGA_22
+    21300046: ALAKAZAM-MEGA_23
+    21300048: ALAKAZAM-MEGA_24
+    21300050: ALAKAZAM-MEGA_25
+    21300052: ALAKAZAM-MEGA_26
+    21300054: ALAKAZAM-MEGA_27
+    21300056: ALAKAZAM-MEGA_28
+    21300058: ALAKAZAM-MEGA_29
+    21300060: ALAKAZAM-MEGA_30
+    21300062: ALAKAZAM-MEGA_31
+    21300064: ALAKAZAM-MEGA_32
+    21300066: ALAKAZAM-MEGA_33
+    21300068: ALAKAZAM-MEGA_34
+    21300070: ALAKAZAM-MEGA_35
+    21300072: ALAKAZAM-MEGA_36
+    21300074: ALAKAZAM-MEGA_37
+    21300076: ALAKAZAM-MEGA_38
+    21300078: ALAKAZAM-MEGA_39
+    21300080: ALAKAZAM-MEGA_40
+    21300082: ALAKAZAM-MEGA_41
+    21300084: ALAKAZAM-MEGA_42
+    21300086: ALAKAZAM-MEGA_43
+    21300088: ALAKAZAM-MEGA_44
+    21300090: ALAKAZAM-MEGA_45
+    21300092: ALAKAZAM-MEGA_46
+    21300094: ALAKAZAM-MEGA_47
+    21300096: ALAKAZAM-MEGA_48
+    21300098: ALAKAZAM-MEGA_49
+    21300100: ALAKAZAM-MEGA_50
+    21300102: ALAKAZAM-MEGA_51
+    21300104: ALAKAZAM-MEGA_52
+    21300106: ALAKAZAM-MEGA_53
+    21300108: ALAKAZAM-MEGA_54
+    21300110: ALAKAZAM-MEGA_55
+    21300112: ALAKAZAM-MEGA_56
+    21300114: ALAKAZAM-MEGA_57
+    21300116: ALAKAZAM-MEGA_58
+    21300118: ALAKAZAM-MEGA_59
+    21300120: ALAKAZAM-MEGA_60
+    21300122: ALAKAZAM-MEGA_61
+    21300124: ALAKAZAM-MEGA_62
+    21300126: ALAKAZAM-MEGA_63
+    21300128: ALAKAZAM-MEGA_64
+    21300130: ALAKAZAM-MEGA_65
+    21300132: ALAKAZAM-MEGA_66
+    21300134: ALAKAZAM-MEGA_67
+    21300136: ALAKAZAM-MEGA_68
+    21300138: ALAKAZAM-MEGA_69
+    21300140: ALAKAZAM-MEGA_70
+    21300142: ALAKAZAM-MEGA_71
+    21300144: ALAKAZAM-MEGA_72
+    21300146: ALAKAZAM-MEGA_73
+    21300148: ALAKAZAM-MEGA_74
+    21300150: ALAKAZAM-MEGA_75
+    21300152: ALAKAZAM-MEGA_76
+    21300154: ALAKAZAM-MEGA_77
+    21300156: ALAKAZAM-MEGA_78
+    21300158: ALAKAZAM-MEGA_79
+    21300160: ALAKAZAM-MEGA_80
+    21300162: ALAKAZAM-MEGA_81
+    21300164: ALAKAZAM-MEGA_82
+    21300166: ALAKAZAM-MEGA_83
+    21300168: ALAKAZAM-MEGA_84
+    21300170: ALAKAZAM-MEGA_85
+    21300172: ALAKAZAM-MEGA_86
+    21300174: ALAKAZAM-MEGA_87
+    21300176: ALAKAZAM-MEGA_88
+    21300178: ALAKAZAM-MEGA_89
+    21300180: ALAKAZAM-MEGA_90
+    21300182: ALAKAZAM-MEGA_91
+    21300184: ALAKAZAM-MEGA_92
+    21300186: ALAKAZAM-MEGA_93
+    21300188: ALAKAZAM-MEGA_94
+    21300190: ALAKAZAM-MEGA_95
+    21300192: ALAKAZAM-MEGA_96
+    21300194: ALAKAZAM-MEGA_97
+    21300196: ALAKAZAM-MEGA_98
+    21300198: ALAKAZAM-MEGA_99
+    21300200: ALAKAZAM-MEGA_100
+    21300202: ALAKAZAM-MEGA_101
+    21300204: ALAKAZAM-MEGA_102
+    21300206: ALAKAZAM-MEGA_103
+    21300208: ALAKAZAM-MEGA_104
+    21300210: ALAKAZAM-MEGA_105
+    21300212: ALAKAZAM-MEGA_106
+    21300214: ALAKAZAM-MEGA_107
+    21300216: ALAKAZAM-MEGA_108
+    21300218: ALAKAZAM-MEGA_109
+    21300220: ALAKAZAM-MEGA_110
+    21300222: ALAKAZAM-MEGA_111
+    21300224: ALAKAZAM-MEGA_112
+    21300226: ALAKAZAM-MEGA_113
+    21300228: ALAKAZAM-MEGA_114
+    21300230: ALAKAZAM-MEGA_115
+    21300232: ALAKAZAM-MEGA_116
+    21300234: ALAKAZAM-MEGA_117
+    21300236: ALAKAZAM-MEGA_118
+    21300238: ALAKAZAM-MEGA_119
+    21300240: ALAKAZAM-MEGA_120
+    21300242: ALAKAZAM-MEGA_121
+    21300244: ALAKAZAM-MEGA_122
+    21300246: ALAKAZAM-MEGA_123
+    21300248: ALAKAZAM-MEGA_124
+    21300250: ALAKAZAM-MEGA_125
+    21300252: ALAKAZAM-MEGA_126
+    21300254: ALAKAZAM-MEGA_127
+    21300256: ALAKAZAM-MEGA_128
+    21300258: ALAKAZAM-MEGA_129
+    21300260: ALAKAZAM-MEGA_130
+    21300262: ALAKAZAM-MEGA_131
+    21300264: ALAKAZAM-MEGA_132
+    21300266: ALAKAZAM-MEGA_133
+    21300268: ALAKAZAM-MEGA_134
+    21300270: ALAKAZAM-MEGA_135
+    21300272: ALAKAZAM-MEGA_136
+    21300274: ALAKAZAM-MEGA_137
+    21300276: ALAKAZAM-MEGA_138
+    21300278: ALAKAZAM-MEGA_139
+    21300280: ALAKAZAM-MEGA_140
+    21300282: ALAKAZAM-MEGA_141
+    21300284: ALAKAZAM-MEGA_142
+    21300286: ALAKAZAM-MEGA_143
+    21300288: ALAKAZAM-MEGA_144
+    21300290: ALAKAZAM-MEGA_145
+    21300292: ALAKAZAM-MEGA_146
+    21300294: ALAKAZAM-MEGA_147
+    21300296: ALAKAZAM-MEGA_148
+    21300298: ALAKAZAM-MEGA_149
+    21300300: ALAKAZAM-MEGA_150
+    21300302: ALAKAZAM-MEGA_151
+    21300304: ALAKAZAM-MEGA_152
+    21300306: ALAKAZAM-MEGA_153
+    21300308: ALAKAZAM-MEGA_154
+    21300310: ALAKAZAM-MEGA_155
+    21300312: ALAKAZAM-MEGA_156
+    21300314: ALAKAZAM-MEGA_157
+    21300316: ALAKAZAM-MEGA_158
+    21300318: ALAKAZAM-MEGA_159
+    21300320: ALAKAZAM-MEGA_160
+    21300322: ALAKAZAM-MEGA_161
+    21300324: ALAKAZAM-MEGA_162
+    21300326: ALAKAZAM-MEGA_163
+    21300328: ALAKAZAM-MEGA_164
+    21300330: ALAKAZAM-MEGA_165
+    21300332: ALAKAZAM-MEGA_166
+    21300334: ALAKAZAM-MEGA_167
+    21300336: ALAKAZAM-MEGA_168
+    21300338: ALAKAZAM-MEGA_169
+    21300340: ALAKAZAM-MEGA_170
+    21300342: ALAKAZAM-MEGA_171
+    21300344: ALAKAZAM-MEGA_172
+    21300346: ALAKAZAM-MEGA_173
+    21300348: ALAKAZAM-MEGA_174
+    21300350: ALAKAZAM-MEGA_175
+    21300352: ALAKAZAM-MEGA_176
+    21300354: ALAKAZAM-MEGA_177
+    21300356: ALAKAZAM-MEGA_178
+    21300358: ALAKAZAM-MEGA_179
+    21300360: ALAKAZAM-MEGA_180
+    21300362: ALAKAZAM-MEGA_181
+    21300364: ALAKAZAM-MEGA_182
+    21300366: ALAKAZAM-MEGA_183
+    21300368: ALAKAZAM-MEGA_184
+    21300370: ALAKAZAM-MEGA_185
+    21300372: ALAKAZAM-MEGA_186
+    21300374: ALAKAZAM-MEGA_187
+    21300376: ALAKAZAM-MEGA_188
+    21300378: ALAKAZAM-MEGA_189
+    21300380: ALAKAZAM-MEGA_190
+    21300382: ALAKAZAM-MEGA_191
+    21300384: ALAKAZAM-MEGA_192
+    21300386: ALAKAZAM-MEGA_193
+    21300388: ALAKAZAM-MEGA_194
+    21300390: ALAKAZAM-MEGA_195
+    21300392: ALAKAZAM-MEGA_196
+    21300394: ALAKAZAM-MEGA_197
+    21300396: ALAKAZAM-MEGA_198
+    21300398: ALAKAZAM-MEGA_199
+    21300400: ALAKAZAM-MEGA_200
+    21300402: ALAKAZAM-MEGA_201
+    21300404: ALAKAZAM-MEGA_202
+    21300406: ALAKAZAM-MEGA_203
+    21300408: ALAKAZAM-MEGA_204
+    21300410: ALAKAZAM-MEGA_205
+    21300412: ALAKAZAM-MEGA_206
+    21300414: ALAKAZAM-MEGA_207
+    21300416: ALAKAZAM-MEGA_208
+    21300418: ALAKAZAM-MEGA_209
+    21300420: ALAKAZAM-MEGA_210
+    21300422: ALAKAZAM-MEGA_211
+    21300424: ALAKAZAM-MEGA_212
+    21300426: ALAKAZAM-MEGA_213
+    21300428: ALAKAZAM-MEGA_214
+    21300430: ALAKAZAM-MEGA_215
+    21300432: ALAKAZAM-MEGA_216
+    21300434: ALAKAZAM-MEGA_217
+    21300436: ALAKAZAM-MEGA_218
+    21300438: ALAKAZAM-MEGA_219
+    21300440: ALAKAZAM-MEGA_220
+    21300442: ALAKAZAM-MEGA_221
+    21300444: ALAKAZAM-MEGA_222
+    21300446: ALAKAZAM-MEGA_223
+    21300448: ALAKAZAM-MEGA_224
+    21300450: ALAKAZAM-MEGA_225
+    21300452: ALAKAZAM-MEGA_226
+    21300454: ALAKAZAM-MEGA_227
+    21300456: ALAKAZAM-MEGA_228
+    21300458: ALAKAZAM-MEGA_229
+    21300460: ALAKAZAM-MEGA_230
+    21300462: ALAKAZAM-MEGA_231
+    21300464: ALAKAZAM-MEGA_232
+    21300466: ALAKAZAM-MEGA_233
+    21300468: ALAKAZAM-MEGA_234
+    21300470: ALAKAZAM-MEGA_235
+    21300472: ALAKAZAM-MEGA_236
+    21300474: ALAKAZAM-MEGA_237
+    21300476: ALAKAZAM-MEGA_238
+    21300478: ALAKAZAM-MEGA_239
+    21300480: ALAKAZAM-MEGA_240
+    21300482: ALAKAZAM-MEGA_241
+    21300484: ALAKAZAM-MEGA_242
+    21300486: ALAKAZAM-MEGA_243
+    21300488: ALAKAZAM-MEGA_244
+    21300490: ALAKAZAM-MEGA_245
+    21300492: ALAKAZAM-MEGA_246
+    21300494: ALAKAZAM-MEGA_247
+    21300496: ALAKAZAM-MEGA_248
+    21300498: ALAKAZAM-MEGA_249
+    21300500: ALAKAZAM-MEGA_250
+    21300502: ALAKAZAM-MEGA_251
+    21300504: ALAKAZAM-MEGA_252
+    21300506: ALAKAZAM-MEGA_253
+    21300508: ALAKAZAM-MEGA_254
+    21300510: ALAKAZAM-MEGA_255
+    21300512: ALAKAZAM-MEGA_256
+    21300514: ALAKAZAM-MEGA_257
+    21300516: ALAKAZAM-MEGA_258
+    21300518: ALAKAZAM-MEGA_259
+    21300520: ALAKAZAM-MEGA_260
+    21300522: ALAKAZAM-MEGA_261
+    21300524: ALAKAZAM-MEGA_262
+    21300526: ALAKAZAM-MEGA_263
+    21300528: ALAKAZAM-MEGA_264
+    21300530: ALAKAZAM-MEGA_265
+    21300532: ALAKAZAM-MEGA_266
+    21300534: ALAKAZAM-MEGA_267
+    21300536: ALAKAZAM-MEGA_268
+    21300538: ALAKAZAM-MEGA_269
+    21300540: ALAKAZAM-MEGA_270
+    21300542: ALAKAZAM-MEGA_271
+    21300544: ALAKAZAM-MEGA_272
+    21300546: ALAKAZAM-MEGA_273
+    21300548: ALAKAZAM-MEGA_274
+    21300550: ALAKAZAM-MEGA_275
+    21300552: ALAKAZAM-MEGA_276
+    21300554: ALAKAZAM-MEGA_277
+    21300556: ALAKAZAM-MEGA_278
+    21300558: ALAKAZAM-MEGA_279
+    21300560: ALAKAZAM-MEGA_280
+    21300562: ALAKAZAM-MEGA_281
+    21300564: ALAKAZAM-MEGA_282
+    21300566: ALAKAZAM-MEGA_283
+    21300568: ALAKAZAM-MEGA_284
+    21300570: ALAKAZAM-MEGA_285
+    21300572: ALAKAZAM-MEGA_286
+    21300574: ALAKAZAM-MEGA_287
+    21300576: ALAKAZAM-MEGA_288
+    21300578: ALAKAZAM-MEGA_289
+    21300580: ALAKAZAM-MEGA_290
+    21300582: ALAKAZAM-MEGA_291
+    21300584: ALAKAZAM-MEGA_292
+    21300586: ALAKAZAM-MEGA_293
+    21300588: ALAKAZAM-MEGA_294
+    21300590: ALAKAZAM-MEGA_295
+    21300592: ALAKAZAM-MEGA_296
+    21300594: ALAKAZAM-MEGA_297
+    21300596: ALAKAZAM-MEGA_298
+    21300598: ALAKAZAM-MEGA_299
+    21300600: ALAKAZAM-MEGA_300
+    21300602: ALAKAZAM-MEGA_301
+    21300604: ALAKAZAM-MEGA_302
+    21300606: ALAKAZAM-MEGA_303
+    21300608: ALAKAZAM-MEGA_304
+    21300610: ALAKAZAM-MEGA_305
+    21300612: ALAKAZAM-MEGA_306
+    21300614: ALAKAZAM-MEGA_307
+    21300616: ALAKAZAM-MEGA_308
+    21300618: ALAKAZAM-MEGA_309
+    21300620: ALAKAZAM-MEGA_310
+    21300622: ALAKAZAM-MEGA_311
+    21300624: ALAKAZAM-MEGA_312
+    21300626: ALAKAZAM-MEGA_313
+    21300628: ALAKAZAM-MEGA_314
+    21300630: ALAKAZAM-MEGA_315
+    21300632: ALAKAZAM-MEGA_316
+    21300634: ALAKAZAM-MEGA_317
+    21300636: ALAKAZAM-MEGA_318
+    21300638: ALAKAZAM-MEGA_319
+    21300640: ALAKAZAM-MEGA_320
+    21300642: ALAKAZAM-MEGA_321
+    21300644: ALAKAZAM-MEGA_322
+    21300646: ALAKAZAM-MEGA_323
+    21300648: ALAKAZAM-MEGA_324
+    21300650: ALAKAZAM-MEGA_325
+    21300652: ALAKAZAM-MEGA_326
+    21300654: ALAKAZAM-MEGA_327
+    21300656: ALAKAZAM-MEGA_328
+    21300658: ALAKAZAM-MEGA_329
+    21300660: ALAKAZAM-MEGA_330
+    21300662: ALAKAZAM-MEGA_331
+    21300664: ALAKAZAM-MEGA_332
+    21300666: ALAKAZAM-MEGA_333
+    21300668: ALAKAZAM-MEGA_334
+    21300670: ALAKAZAM-MEGA_335
+    21300672: ALAKAZAM-MEGA_336
+    21300674: ALAKAZAM-MEGA_337
+    21300676: ALAKAZAM-MEGA_338
+    21300678: ALAKAZAM-MEGA_339
+    21300680: ALAKAZAM-MEGA_340
+    21300682: ALAKAZAM-MEGA_341
+    21300684: ALAKAZAM-MEGA_342
+    21300686: ALAKAZAM-MEGA_343
+    21300688: ALAKAZAM-MEGA_344
+    21300690: ALAKAZAM-MEGA_345
+    21300692: ALAKAZAM-MEGA_346
+    21300694: ALAKAZAM-MEGA_347
+    21300696: ALAKAZAM-MEGA_348
+    21300698: ALAKAZAM-MEGA_349
+    21300700: ALAKAZAM-MEGA_350
+    21300702: ALAKAZAM-MEGA_351
+    21300704: ALAKAZAM-MEGA_352
+    21300706: ALAKAZAM-MEGA_353
+    21300708: ALAKAZAM-MEGA_354
+    21300710: ALAKAZAM-MEGA_355
+    21300712: ALAKAZAM-MEGA_356
+    21300714: ALAKAZAM-MEGA_357
+    21300716: ALAKAZAM-MEGA_358
+    21300718: ALAKAZAM-MEGA_359
+    21300720: ALAKAZAM-MEGA_360
+    21300722: ALAKAZAM-MEGA_361
+    21300724: ALAKAZAM-MEGA_362
+    21300726: ALAKAZAM-MEGA_363
+    21300728: ALAKAZAM-MEGA_364
+    21300730: ALAKAZAM-MEGA_365
+    21300732: ALAKAZAM-MEGA_366
+    21300734: ALAKAZAM-MEGA_367
+    21300736: ALAKAZAM-MEGA_368
+    21300738: ALAKAZAM-MEGA_369
+    21300740: ALAKAZAM-MEGA_370
+    21300742: ALAKAZAM-MEGA_371
+    21300744: ALAKAZAM-MEGA_372
+    21300746: ALAKAZAM-MEGA_373
+    21300748: ALAKAZAM-MEGA_374
+    21300750: ALAKAZAM-MEGA_375
+    21300752: ALAKAZAM-MEGA_376
+    21300754: ALAKAZAM-MEGA_377
+    21300756: ALAKAZAM-MEGA_378
+    21300758: ALAKAZAM-MEGA_379
+    21300760: ALAKAZAM-MEGA_380
+    21300762: ALAKAZAM-MEGA_381
+    21300764: ALAKAZAM-MEGA_382
+    21300766: ALAKAZAM-MEGA_383
+    21300768: ALAKAZAM-MEGA_384
+    21300770: ALAKAZAM-MEGA_385
+    21300772: ALAKAZAM-MEGA_386
+    21300774: ALAKAZAM-MEGA_387
+    21300776: ALAKAZAM-MEGA_388
+    21300778: ALAKAZAM-MEGA_389
+    21300780: ALAKAZAM-MEGA_390
+    21300782: ALAKAZAM-MEGA_391
+    21300784: ALAKAZAM-MEGA_392
+    21300786: ALAKAZAM-MEGA_393
+    21300788: ALAKAZAM-MEGA_394
+    21300790: ALAKAZAM-MEGA_395
+    21300792: ALAKAZAM-MEGA_396
+    21300794: ALAKAZAM-MEGA_397
+    21300796: ALAKAZAM-MEGA_398
+    21300798: ALAKAZAM-MEGA_399
+    21300800: ALAKAZAM-MEGA_400
+    21300802: ALAKAZAM-MEGA_401
+    21300804: ALAKAZAM-MEGA_402
+    21300806: ALAKAZAM-MEGA_403
+    21300808: ALAKAZAM-MEGA_404
+    21300810: ALAKAZAM-MEGA_405
+    21300812: ALAKAZAM-MEGA_406
+    21300814: ALAKAZAM-MEGA_407
+    21300816: ALAKAZAM-MEGA_408
+    21300818: ALAKAZAM-MEGA_409
+    21300820: ALAKAZAM-MEGA_410
+    21300822: ALAKAZAM-MEGA_411
+    21300824: ALAKAZAM-MEGA_412
+    21300826: ALAKAZAM-MEGA_413
+    21300828: ALAKAZAM-MEGA_414
+    21300830: ALAKAZAM-MEGA_415
+    21300832: ALAKAZAM-MEGA_416
+    21300834: ALAKAZAM-MEGA_417
+    21300836: ALAKAZAM-MEGA_418
+    21300838: ALAKAZAM-MEGA_419
+    21300840: ALAKAZAM-MEGA_420
+    21300842: ALAKAZAM-MEGA_421
+    21300844: ALAKAZAM-MEGA_422
+    21300846: ALAKAZAM-MEGA_423
+    21300848: ALAKAZAM-MEGA_424
+    21300850: ALAKAZAM-MEGA_425
+    21300852: ALAKAZAM-MEGA_426
+    21300854: ALAKAZAM-MEGA_427
+    21300856: ALAKAZAM-MEGA_428
+    21300858: ALAKAZAM-MEGA_429
+    21300860: ALAKAZAM-MEGA_430
+    21300862: ALAKAZAM-MEGA_431
+    21300864: ALAKAZAM-MEGA_432
+    21300866: ALAKAZAM-MEGA_433
+    21300868: ALAKAZAM-MEGA_434
+    21300870: ALAKAZAM-MEGA_435
+    21300872: ALAKAZAM-MEGA_436
+    21300874: ALAKAZAM-MEGA_437
+    21300876: ALAKAZAM-MEGA_438
+    21300878: ALAKAZAM-MEGA_439
+    21300880: ALAKAZAM-MEGA_440
+    21300882: ALAKAZAM-MEGA_441
+    21300884: ALAKAZAM-MEGA_442
+    21300886: ALAKAZAM-MEGA_443
+    21300888: ALAKAZAM-MEGA_444
+    21300890: ALAKAZAM-MEGA_445
+    21300892: ALAKAZAM-MEGA_446
+    21300894: ALAKAZAM-MEGA_447
+    21300896: ALAKAZAM-MEGA_448
+    21300898: ALAKAZAM-MEGA_449
+    21300900: ALAKAZAM-MEGA_450
+    21300902: ALAKAZAM-MEGA_451
+    21300904: ALAKAZAM-MEGA_452
+    21300906: ALAKAZAM-MEGA_453
+    21300908: ALAKAZAM-MEGA_454
+    21300910: ALAKAZAM-MEGA_455
+    21300912: ALAKAZAM-MEGA_456
+    21300914: ALAKAZAM-MEGA_457
+    21300916: ALAKAZAM-MEGA_458
+    21300918: ALAKAZAM-MEGA_459
+    21300920: ALAKAZAM-MEGA_460
+    21300922: ALAKAZAM-MEGA_461
+    21300924: ALAKAZAM-MEGA_462
+    21300926: ALAKAZAM-MEGA_463
+    21300928: ALAKAZAM-MEGA_464
+    21300930: ALAKAZAM-MEGA_465
+    21300932: ALAKAZAM-MEGA_466
+    21300934: ALAKAZAM-MEGA_467
+    21300936: ALAKAZAM-MEGA_468
+    21300938: ALAKAZAM-MEGA_469
+    21300940: ALAKAZAM-MEGA_470
+    21300942: ALAKAZAM-MEGA_471
+    21300944: ALAKAZAM-MEGA_472
+    21300946: ALAKAZAM-MEGA_473
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 100
+    allowsAlphaSplitting: 1
+  spriteSheet:
+    sprites:
+    - name: ALAKAZAM-MEGA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 15.5}
+        - {x: 20.5, y: 20.5}
+        - {x: -1.5, y: 20.5}
+        - {x: -17.5, y: 11.5}
+        - {x: -21.5, y: -1.5}
+        - {x: -51.5, y: 7.5}
+        - {x: -56.5, y: 0.5}
+        - {x: -56.5, y: -17.5}
+        - {x: -54.5, y: -24.5}
+        - {x: -21.5, y: -57.5}
+        - {x: 27.5, y: -57.5}
+        - {x: 50.5, y: -41.5}
+        - {x: 56.5, y: -33.5}
+        - {x: 56.5, y: 3.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 20.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -51.5, y: 12.5}
+        - {x: -42.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -43.5, y: 22.5}
+      - - {x: 25.5, y: 11.5}
+        - {x: 36.5, y: 11.5}
+        - {x: 48.5, y: 13.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 38.5, y: 24.5}
+        - {x: 25.5, y: 21.5}
+      - - {x: -36.5, y: 42.5}
+        - {x: -38.5, y: 38.5}
+        - {x: -38.5, y: 34.5}
+        - {x: -24.5, y: 19.5}
+        - {x: -20.5, y: 19.5}
+        - {x: -19.5, y: 21.5}
+        - {x: -19.5, y: 27.5}
+        - {x: -27.5, y: 42.5}
+      - - {x: 28.5, y: 44.5}
+        - {x: 23.5, y: 44.5}
+        - {x: 17.5, y: 39.5}
+        - {x: 9.5, y: 25.5}
+        - {x: 9.5, y: 22.5}
+        - {x: 12.5, y: 21.5}
+        - {x: 14.5, y: 21.5}
+        - {x: 31.5, y: 34.5}
+        - {x: 31.5, y: 43.5}
+      - - {x: -6.5, y: 52.5}
+        - {x: -9.5, y: 51.5}
+        - {x: -9.5, y: 26.5}
+        - {x: -2.5, y: 26.5}
+        - {x: 1.5, y: 38.5}
+        - {x: 1.5, y: 50.5}
+        - {x: 0.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 920
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 10.5}
+        - {x: 35.5, y: 2.5}
+        - {x: 9.5, y: 20.5}
+        - {x: -29.5, y: 20.5}
+        - {x: -56.5, y: 11.5}
+        - {x: -56.5, y: -21.5}
+        - {x: -33.5, y: -57.5}
+        - {x: 20.5, y: -57.5}
+        - {x: 25.5, y: -56.5}
+        - {x: 51.5, y: -37.5}
+        - {x: 56.5, y: -31.5}
+        - {x: 56.5, y: 5.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 20.5}
+        - {x: -52.5, y: 12.5}
+        - {x: -51.5, y: 11.5}
+        - {x: -47.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -37.5, y: 16.5}
+        - {x: -44.5, y: 22.5}
+      - - {x: 42.5, y: 24.5}
+        - {x: 29.5, y: 20.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 37.5, y: 11.5}
+        - {x: 48.5, y: 13.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 51.5, y: 24.5}
+      - - {x: -30.5, y: 42.5}
+        - {x: -38.5, y: 42.5}
+        - {x: -38.5, y: 34.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -20.5, y: 19.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -26.5, y: 40.5}
+      - - {x: 21.5, y: 44.5}
+        - {x: 9.5, y: 30.5}
+        - {x: 9.5, y: 22.5}
+        - {x: 17.5, y: 22.5}
+        - {x: 31.5, y: 35.5}
+        - {x: 31.5, y: 43.5}
+        - {x: 30.5, y: 44.5}
+      - - {x: -5.5, y: 52.5}
+        - {x: -9.5, y: 48.5}
+        - {x: -9.5, y: 28.5}
+        - {x: -7.5, y: 26.5}
+        - {x: -1.5, y: 26.5}
+        - {x: 1.5, y: 33.5}
+        - {x: 1.5, y: 51.5}
+        - {x: 0.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 920
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: 2.5}
+        - {x: 46.5, y: 16.5}
+        - {x: 16.5, y: 20.5}
+        - {x: -13.5, y: 20.5}
+        - {x: -53.5, y: 11.5}
+        - {x: -56.5, y: 1.5}
+        - {x: -56.5, y: -10.5}
+        - {x: -50.5, y: -23.5}
+        - {x: -48.5, y: -27.5}
+        - {x: -24.5, y: -57.5}
+        - {x: 22.5, y: -57.5}
+        - {x: 56.5, y: -44.5}
+        - {x: 56.5, y: -5.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 20.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -51.5, y: 12.5}
+        - {x: -42.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -43.5, y: 22.5}
+      - - {x: 39.5, y: 25.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 36.5, y: 11.5}
+        - {x: 47.5, y: 13.5}
+        - {x: 51.5, y: 17.5}
+        - {x: 51.5, y: 25.5}
+      - - {x: -32.5, y: 43.5}
+        - {x: -36.5, y: 43.5}
+        - {x: -38.5, y: 40.5}
+        - {x: -38.5, y: 33.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -20.5, y: 19.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -26.5, y: 40.5}
+      - - {x: 21.5, y: 44.5}
+        - {x: 9.5, y: 31.5}
+        - {x: 9.5, y: 22.5}
+        - {x: 16.5, y: 22.5}
+        - {x: 31.5, y: 35.5}
+        - {x: 31.5, y: 43.5}
+        - {x: 30.5, y: 44.5}
+      - - {x: -4.5, y: 52.5}
+        - {x: -9.5, y: 49.5}
+        - {x: -9.5, y: 28.5}
+        - {x: -6.5, y: 26.5}
+        - {x: -1.5, y: 26.5}
+        - {x: 1.5, y: 33.5}
+        - {x: 1.5, y: 51.5}
+        - {x: 0.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 920
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 21.5}
+        - {x: -56.5, y: 10.5}
+        - {x: -56.5, y: -39.5}
+        - {x: -25.5, y: -57.5}
+        - {x: 39.5, y: -57.5}
+        - {x: 56.5, y: -47.5}
+        - {x: 56.5, y: 11.5}
+        - {x: 29.5, y: 21.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 20.5}
+        - {x: -52.5, y: 12.5}
+        - {x: -51.5, y: 11.5}
+        - {x: -46.5, y: 9.5}
+        - {x: -38.5, y: 9.5}
+        - {x: -37.5, y: 10.5}
+        - {x: -37.5, y: 15.5}
+        - {x: -44.5, y: 22.5}
+      - - {x: 41.5, y: 25.5}
+        - {x: 26.5, y: 22.5}
+        - {x: 25.5, y: 19.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 36.5, y: 11.5}
+        - {x: 46.5, y: 14.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 51.5, y: 25.5}
+      - - {x: -30.5, y: 43.5}
+        - {x: -36.5, y: 43.5}
+        - {x: -38.5, y: 39.5}
+        - {x: -38.5, y: 33.5}
+        - {x: -26.5, y: 19.5}
+        - {x: -20.5, y: 19.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -26.5, y: 40.5}
+      - - {x: 29.5, y: 44.5}
+        - {x: 22.5, y: 44.5}
+        - {x: 9.5, y: 31.5}
+        - {x: 9.5, y: 22.5}
+        - {x: 15.5, y: 22.5}
+        - {x: 31.5, y: 33.5}
+        - {x: 31.5, y: 42.5}
+      - - {x: -5.5, y: 53.5}
+        - {x: -9.5, y: 49.5}
+        - {x: -9.5, y: 28.5}
+        - {x: -6.5, y: 26.5}
+        - {x: -1.5, y: 26.5}
+        - {x: 0.5, y: 33.5}
+        - {x: 0.5, y: 51.5}
+        - {x: -2.5, y: 53.5}
+    - name: ALAKAZAM-MEGA_4
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 920
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -41.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 21.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -56.5, y: 20.5}
+        - {x: -56.5, y: -13.5}
+        - {x: -51.5, y: -24.5}
+        - {x: -26.5, y: -50.5}
+        - {x: -16.5, y: -57.5}
+        - {x: 11.5, y: -57.5}
+        - {x: 22.5, y: -55.5}
+        - {x: 29.5, y: -50.5}
+        - {x: 28.5, y: -44.5}
+        - {x: 26.5, y: -40.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 20.5}
+        - {x: -52.5, y: 13.5}
+        - {x: -51.5, y: 11.5}
+        - {x: -46.5, y: 9.5}
+        - {x: -39.5, y: 9.5}
+        - {x: -37.5, y: 10.5}
+        - {x: -37.5, y: 15.5}
+        - {x: -44.5, y: 22.5}
+      - - {x: 41.5, y: 25.5}
+        - {x: 27.5, y: 21.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 44.5, y: 11.5}
+        - {x: 51.5, y: 15.5}
+        - {x: 51.5, y: 23.5}
+        - {x: 50.5, y: 25.5}
+      - - {x: -38.5, y: 34.5}
+        - {x: -26.5, y: 20.5}
+        - {x: -21.5, y: 20.5}
+        - {x: -19.5, y: 21.5}
+        - {x: -19.5, y: 26.5}
+        - {x: -25.5, y: 41.5}
+        - {x: -34.5, y: 43.5}
+        - {x: -38.5, y: 39.5}
+      - - {x: 22.5, y: 44.5}
+        - {x: 9.5, y: 30.5}
+        - {x: 9.5, y: 22.5}
+        - {x: 16.5, y: 22.5}
+        - {x: 31.5, y: 31.5}
+        - {x: 31.5, y: 43.5}
+        - {x: 30.5, y: 44.5}
+      - - {x: -1.5, y: 53.5}
+        - {x: -6.5, y: 53.5}
+        - {x: -9.5, y: 50.5}
+        - {x: -9.5, y: 27.5}
+        - {x: -6.5, y: 26.5}
+        - {x: -2.5, y: 26.5}
+        - {x: -0.5, y: 28.5}
+        - {x: 0.5, y: 35.5}
+        - {x: 0.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 920
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -41.5}
+        - {x: 47.5, y: -38.5}
+        - {x: 48.5, y: -36.5}
+        - {x: 48.5, y: -33.5}
+        - {x: 45.5, y: -26.5}
+        - {x: 56.5, y: -22.5}
+        - {x: 56.5, y: 4.5}
+        - {x: 49.5, y: 11.5}
+        - {x: 35.5, y: 3.5}
+        - {x: 7.5, y: 21.5}
+        - {x: -5.5, y: 21.5}
+        - {x: -56.5, y: 7.5}
+        - {x: -56.5, y: -19.5}
+        - {x: -46.5, y: -44.5}
+        - {x: -23.5, y: -57.5}
+        - {x: 15.5, y: -57.5}
+        - {x: 32.5, y: -51.5}
+        - {x: 28.5, y: -44.5}
+        - {x: 26.5, y: -40.5}
+        - {x: 27.5, y: -41.5}
+      - - {x: -50.5, y: 22.5}
+        - {x: -52.5, y: 18.5}
+        - {x: -52.5, y: 11.5}
+        - {x: -48.5, y: 10.5}
+        - {x: -38.5, y: 10.5}
+        - {x: -37.5, y: 12.5}
+        - {x: -37.5, y: 16.5}
+        - {x: -43.5, y: 22.5}
+      - - {x: 49.5, y: 25.5}
+        - {x: 42.5, y: 25.5}
+        - {x: 27.5, y: 20.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 25.5, y: 14.5}
+        - {x: 26.5, y: 12.5}
+        - {x: 31.5, y: 12.5}
+        - {x: 45.5, y: 13.5}
+        - {x: 51.5, y: 18.5}
+        - {x: 51.5, y: 23.5}
+      - - {x: -37.5, y: 43.5}
+        - {x: -38.5, y: 40.5}
+        - {x: -38.5, y: 33.5}
+        - {x: -29.5, y: 22.5}
+        - {x: -25.5, y: 20.5}
+        - {x: -19.5, y: 20.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -29.5, y: 43.5}
+      - - {x: 31.5, y: 43.5}
+        - {x: 30.5, y: 44.5}
+        - {x: 22.5, y: 44.5}
+        - {x: 9.5, y: 30.5}
+        - {x: 9.5, y: 24.5}
+        - {x: 11.5, y: 23.5}
+        - {x: 17.5, y: 23.5}
+        - {x: 31.5, y: 37.5}
+      - - {x: -1.5, y: 53.5}
+        - {x: -6.5, y: 53.5}
+        - {x: -9.5, y: 50.5}
+        - {x: -9.5, y: 28.5}
+        - {x: -7.5, y: 27.5}
+        - {x: -3.5, y: 27.5}
+        - {x: -1.5, y: 29.5}
+        - {x: 0.5, y: 41.5}
+        - {x: 0.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_6
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 920
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 21.5}
+        - {x: -5.5, y: 21.5}
+        - {x: -18.5, y: 12.5}
+        - {x: -49.5, y: 10.5}
+        - {x: -56.5, y: 2.5}
+        - {x: -56.5, y: -43.5}
+        - {x: -28.5, y: -57.5}
+        - {x: 47.5, y: -57.5}
+        - {x: 56.5, y: -44.5}
+        - {x: 56.5, y: 14.5}
+      - - {x: -51.5, y: 22.5}
+        - {x: -52.5, y: 19.5}
+        - {x: -52.5, y: 12.5}
+        - {x: -43.5, y: 10.5}
+        - {x: -38.5, y: 10.5}
+        - {x: -37.5, y: 11.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -43.5, y: 22.5}
+      - - {x: 49.5, y: 25.5}
+        - {x: 43.5, y: 25.5}
+        - {x: 35.5, y: 23.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 25.5, y: 12.5}
+        - {x: 34.5, y: 12.5}
+        - {x: 47.5, y: 15.5}
+        - {x: 51.5, y: 19.5}
+        - {x: 51.5, y: 23.5}
+      - - {x: -38.5, y: 34.5}
+        - {x: -26.5, y: 20.5}
+        - {x: -21.5, y: 20.5}
+        - {x: -19.5, y: 21.5}
+        - {x: -19.5, y: 25.5}
+        - {x: -27.5, y: 40.5}
+        - {x: -29.5, y: 43.5}
+        - {x: -36.5, y: 43.5}
+        - {x: -38.5, y: 42.5}
+      - - {x: 9.5, y: 23.5}
+        - {x: 15.5, y: 23.5}
+        - {x: 31.5, y: 32.5}
+        - {x: 31.5, y: 44.5}
+        - {x: 22.5, y: 44.5}
+        - {x: 9.5, y: 31.5}
+      - - {x: -5.5, y: 53.5}
+        - {x: -9.5, y: 51.5}
+        - {x: -9.5, y: 27.5}
+        - {x: -0.5, y: 27.5}
+        - {x: 0.5, y: 31.5}
+        - {x: 0.5, y: 50.5}
+        - {x: -1.5, y: 53.5}
+    - name: ALAKAZAM-MEGA_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 920
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 21.5}
+        - {x: -8.5, y: 21.5}
+        - {x: -14.5, y: 15.5}
+        - {x: -21.5, y: -0.5}
+        - {x: -37.5, y: 8.5}
+        - {x: -56.5, y: 12.5}
+        - {x: -56.5, y: -28.5}
+        - {x: -40.5, y: -57.5}
+        - {x: 36.5, y: -57.5}
+        - {x: 56.5, y: -51.5}
+        - {x: 56.5, y: 10.5}
+        - {x: 33.5, y: 20.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 12.5}
+        - {x: -51.5, y: 10.5}
+        - {x: -37.5, y: 10.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -42.5, y: 22.5}
+      - - {x: 36.5, y: 25.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 25.5, y: 12.5}
+        - {x: 34.5, y: 12.5}
+        - {x: 48.5, y: 14.5}
+        - {x: 51.5, y: 19.5}
+        - {x: 51.5, y: 25.5}
+      - - {x: -32.5, y: 44.5}
+        - {x: -36.5, y: 44.5}
+        - {x: -38.5, y: 40.5}
+        - {x: -38.5, y: 34.5}
+        - {x: -24.5, y: 20.5}
+        - {x: -21.5, y: 20.5}
+        - {x: -20.5, y: 21.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -26.5, y: 40.5}
+      - - {x: 9.5, y: 23.5}
+        - {x: 15.5, y: 23.5}
+        - {x: 31.5, y: 33.5}
+        - {x: 31.5, y: 44.5}
+        - {x: 22.5, y: 44.5}
+        - {x: 9.5, y: 31.5}
+      - - {x: -8.5, y: 53.5}
+        - {x: -9.5, y: 50.5}
+        - {x: -9.5, y: 27.5}
+        - {x: -3.5, y: 27.5}
+        - {x: -2.5, y: 29.5}
+        - {x: 0.5, y: 41.5}
+        - {x: 0.5, y: 53.5}
+    - name: ALAKAZAM-MEGA_8
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 920
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 21.5}
+        - {x: -3.5, y: 20.5}
+        - {x: -49.5, y: 9.5}
+        - {x: -56.5, y: 4.5}
+        - {x: -56.5, y: -31.5}
+        - {x: -27.5, y: -57.5}
+        - {x: 27.5, y: -57.5}
+        - {x: 55.5, y: -45.5}
+        - {x: 56.5, y: -42.5}
+        - {x: 56.5, y: 14.5}
+        - {x: 7.5, y: 21.5}
+      - - {x: -49.5, y: 22.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 12.5}
+        - {x: -51.5, y: 10.5}
+        - {x: -39.5, y: 10.5}
+        - {x: -37.5, y: 11.5}
+        - {x: -37.5, y: 16.5}
+        - {x: -42.5, y: 22.5}
+      - - {x: 49.5, y: 25.5}
+        - {x: 36.5, y: 25.5}
+        - {x: 26.5, y: 20.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 24.5, y: 15.5}
+        - {x: 25.5, y: 12.5}
+        - {x: 35.5, y: 12.5}
+        - {x: 48.5, y: 14.5}
+        - {x: 51.5, y: 19.5}
+        - {x: 51.5, y: 24.5}
+      - - {x: -34.5, y: 44.5}
+        - {x: -38.5, y: 40.5}
+        - {x: -38.5, y: 36.5}
+        - {x: -24.5, y: 20.5}
+        - {x: -21.5, y: 20.5}
+        - {x: -20.5, y: 22.5}
+        - {x: -20.5, y: 29.5}
+        - {x: -29.5, y: 43.5}
+      - - {x: 23.5, y: 44.5}
+        - {x: 8.5, y: 27.5}
+        - {x: 8.5, y: 26.5}
+        - {x: 11.5, y: 23.5}
+        - {x: 13.5, y: 23.5}
+        - {x: 29.5, y: 32.5}
+        - {x: 31.5, y: 36.5}
+        - {x: 31.5, y: 44.5}
+      - - {x: -5.5, y: 54.5}
+        - {x: -10.5, y: 52.5}
+        - {x: -10.5, y: 28.5}
+        - {x: -8.5, y: 27.5}
+        - {x: -1.5, y: 27.5}
+        - {x: 0.5, y: 40.5}
+        - {x: 0.5, y: 53.5}
+        - {x: -0.5, y: 54.5}
+    - name: ALAKAZAM-MEGA_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 805
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 22.5}
+        - {x: -56.5, y: 11.5}
+        - {x: -56.5, y: -20.5}
+        - {x: -40.5, y: -57.5}
+        - {x: 34.5, y: -57.5}
+        - {x: 56.5, y: -36.5}
+        - {x: 56.5, y: 12.5}
+        - {x: 23.5, y: 22.5}
+      - - {x: -48.5, y: 23.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 15.5}
+        - {x: -51.5, y: 10.5}
+        - {x: -39.5, y: 10.5}
+        - {x: -37.5, y: 11.5}
+        - {x: -37.5, y: 16.5}
+        - {x: -44.5, y: 23.5}
+      - - {x: 31.5, y: 25.5}
+        - {x: 24.5, y: 20.5}
+        - {x: 24.5, y: 12.5}
+        - {x: 40.5, y: 12.5}
+        - {x: 51.5, y: 15.5}
+        - {x: 51.5, y: 23.5}
+        - {x: 48.5, y: 25.5}
+      - - {x: -38.5, y: 31.5}
+        - {x: -28.5, y: 21.5}
+        - {x: -20.5, y: 21.5}
+        - {x: -20.5, y: 27.5}
+        - {x: -28.5, y: 44.5}
+        - {x: -36.5, y: 44.5}
+        - {x: -38.5, y: 40.5}
+      - - {x: 23.5, y: 44.5}
+        - {x: 8.5, y: 29.5}
+        - {x: 8.5, y: 24.5}
+        - {x: 15.5, y: 24.5}
+        - {x: 31.5, y: 30.5}
+        - {x: 32.5, y: 35.5}
+        - {x: 32.5, y: 43.5}
+        - {x: 29.5, y: 44.5}
+      - - {x: -8.5, y: 54.5}
+        - {x: -10.5, y: 51.5}
+        - {x: -10.5, y: 32.5}
+        - {x: -8.5, y: 27.5}
+        - {x: -3.5, y: 27.5}
+        - {x: 0.5, y: 36.5}
+        - {x: 0.5, y: 52.5}
+        - {x: -0.5, y: 54.5}
+    - name: ALAKAZAM-MEGA_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 805
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 10.5}
+        - {x: 10.5, y: 22.5}
+        - {x: -2.5, y: 22.5}
+        - {x: -17.5, y: 12.5}
+        - {x: -21.5, y: -1.5}
+        - {x: -48.5, y: 12.5}
+        - {x: -56.5, y: 10.5}
+        - {x: -56.5, y: -24.5}
+        - {x: -44.5, y: -50.5}
+        - {x: -13.5, y: -57.5}
+        - {x: 39.5, y: -57.5}
+        - {x: 56.5, y: -39.5}
+        - {x: 56.5, y: 9.5}
+        - {x: 55.5, y: 12.5}
+      - - {x: -48.5, y: 23.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -51.5, y: 12.5}
+        - {x: -47.5, y: 10.5}
+        - {x: -39.5, y: 10.5}
+        - {x: -37.5, y: 11.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -44.5, y: 23.5}
+      - - {x: 38.5, y: 26.5}
+        - {x: 24.5, y: 18.5}
+        - {x: 24.5, y: 13.5}
+        - {x: 34.5, y: 13.5}
+        - {x: 45.5, y: 14.5}
+        - {x: 51.5, y: 19.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 48.5, y: 26.5}
+      - - {x: -36.5, y: 44.5}
+        - {x: -38.5, y: 43.5}
+        - {x: -38.5, y: 35.5}
+        - {x: -27.5, y: 21.5}
+        - {x: -21.5, y: 21.5}
+        - {x: -20.5, y: 23.5}
+        - {x: -20.5, y: 29.5}
+        - {x: -29.5, y: 44.5}
+      - - {x: 25.5, y: 44.5}
+        - {x: 8.5, y: 29.5}
+        - {x: 8.5, y: 24.5}
+        - {x: 20.5, y: 24.5}
+        - {x: 31.5, y: 29.5}
+        - {x: 32.5, y: 34.5}
+        - {x: 32.5, y: 43.5}
+        - {x: 29.5, y: 44.5}
+      - - {x: -5.5, y: 54.5}
+        - {x: -10.5, y: 50.5}
+        - {x: -10.5, y: 32.5}
+        - {x: -8.5, y: 28.5}
+        - {x: -0.5, y: 28.5}
+        - {x: 0.5, y: 31.5}
+        - {x: 0.5, y: 53.5}
+        - {x: -0.5, y: 54.5}
+    - name: ALAKAZAM-MEGA_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 805
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 14.5}
+        - {x: 35.5, y: 5.5}
+        - {x: 9.5, y: 22.5}
+        - {x: -0.5, y: 22.5}
+        - {x: -15.5, y: 11.5}
+        - {x: -36.5, y: 11.5}
+        - {x: -56.5, y: 6.5}
+        - {x: -56.5, y: -10.5}
+        - {x: -48.5, y: -25.5}
+        - {x: -25.5, y: -57.5}
+        - {x: 30.5, y: -57.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -29.5}
+        - {x: 56.5, y: 6.5}
+      - - {x: -48.5, y: 23.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -51.5, y: 11.5}
+        - {x: -38.5, y: 11.5}
+        - {x: -37.5, y: 13.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -43.5, y: 23.5}
+      - - {x: 36.5, y: 26.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 24.5, y: 15.5}
+        - {x: 25.5, y: 13.5}
+        - {x: 33.5, y: 13.5}
+        - {x: 48.5, y: 15.5}
+        - {x: 51.5, y: 20.5}
+        - {x: 51.5, y: 26.5}
+      - - {x: -35.5, y: 44.5}
+        - {x: -38.5, y: 43.5}
+        - {x: -38.5, y: 35.5}
+        - {x: -26.5, y: 21.5}
+        - {x: -22.5, y: 21.5}
+        - {x: -20.5, y: 23.5}
+        - {x: -20.5, y: 26.5}
+        - {x: -28.5, y: 44.5}
+      - - {x: 23.5, y: 44.5}
+        - {x: 8.5, y: 28.5}
+        - {x: 8.5, y: 27.5}
+        - {x: 11.5, y: 24.5}
+        - {x: 13.5, y: 24.5}
+        - {x: 32.5, y: 36.5}
+        - {x: 32.5, y: 44.5}
+      - - {x: -7.5, y: 54.5}
+        - {x: -10.5, y: 52.5}
+        - {x: -10.5, y: 30.5}
+        - {x: -9.5, y: 28.5}
+        - {x: -2.5, y: 28.5}
+        - {x: 0.5, y: 37.5}
+        - {x: 0.5, y: 53.5}
+        - {x: -2.5, y: 54.5}
+    - name: ALAKAZAM-MEGA_12
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 805
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 22.5}
+        - {x: -39.5, y: 22.5}
+        - {x: -56.5, y: 13.5}
+        - {x: -56.5, y: -27.5}
+        - {x: -27.5, y: -57.5}
+        - {x: 36.5, y: -57.5}
+        - {x: 56.5, y: -51.5}
+        - {x: 56.5, y: 9.5}
+        - {x: 44.5, y: 15.5}
+      - - {x: -51.5, y: 23.5}
+        - {x: -52.5, y: 22.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -51.5, y: 12.5}
+        - {x: -49.5, y: 11.5}
+        - {x: -37.5, y: 11.5}
+        - {x: -37.5, y: 19.5}
+        - {x: -45.5, y: 23.5}
+      - - {x: 42.5, y: 26.5}
+        - {x: 24.5, y: 19.5}
+        - {x: 24.5, y: 15.5}
+        - {x: 25.5, y: 13.5}
+        - {x: 32.5, y: 13.5}
+        - {x: 47.5, y: 16.5}
+        - {x: 51.5, y: 20.5}
+        - {x: 51.5, y: 23.5}
+        - {x: 48.5, y: 26.5}
+      - - {x: -31.5, y: 45.5}
+        - {x: -36.5, y: 45.5}
+        - {x: -38.5, y: 41.5}
+        - {x: -38.5, y: 34.5}
+        - {x: -26.5, y: 21.5}
+        - {x: -21.5, y: 21.5}
+        - {x: -20.5, y: 23.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -29.5, y: 44.5}
+      - - {x: 23.5, y: 45.5}
+        - {x: 8.5, y: 29.5}
+        - {x: 8.5, y: 25.5}
+        - {x: 15.5, y: 25.5}
+        - {x: 32.5, y: 33.5}
+        - {x: 32.5, y: 43.5}
+        - {x: 30.5, y: 45.5}
+      - - {x: -1.5, y: 55.5}
+        - {x: -7.5, y: 55.5}
+        - {x: -10.5, y: 54.5}
+        - {x: -10.5, y: 29.5}
+        - {x: -6.5, y: 28.5}
+        - {x: -3.5, y: 28.5}
+        - {x: -2.5, y: 30.5}
+        - {x: 0.5, y: 41.5}
+        - {x: 0.5, y: 50.5}
+    - name: ALAKAZAM-MEGA_13
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 805
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 22.5}
+        - {x: -56.5, y: 19.5}
+        - {x: -56.5, y: -26.5}
+        - {x: -21.5, y: -57.5}
+        - {x: 28.5, y: -57.5}
+        - {x: 38.5, y: -54.5}
+        - {x: 56.5, y: -34.5}
+        - {x: 56.5, y: 8.5}
+        - {x: 49.5, y: 22.5}
+      - - {x: -49.5, y: 23.5}
+        - {x: -52.5, y: 22.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -51.5, y: 11.5}
+        - {x: -39.5, y: 11.5}
+        - {x: -37.5, y: 12.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -43.5, y: 23.5}
+      - - {x: 31.5, y: 26.5}
+        - {x: 24.5, y: 21.5}
+        - {x: 24.5, y: 13.5}
+        - {x: 40.5, y: 13.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 48.5, y: 26.5}
+      - - {x: -31.5, y: 45.5}
+        - {x: -36.5, y: 45.5}
+        - {x: -38.5, y: 41.5}
+        - {x: -38.5, y: 34.5}
+        - {x: -25.5, y: 22.5}
+        - {x: -21.5, y: 22.5}
+        - {x: -20.5, y: 24.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -27.5, y: 41.5}
+      - - {x: 23.5, y: 45.5}
+        - {x: 8.5, y: 29.5}
+        - {x: 8.5, y: 25.5}
+        - {x: 16.5, y: 25.5}
+        - {x: 32.5, y: 34.5}
+        - {x: 32.5, y: 44.5}
+        - {x: 29.5, y: 45.5}
+      - - {x: -1.5, y: 55.5}
+        - {x: -5.5, y: 55.5}
+        - {x: -10.5, y: 51.5}
+        - {x: -10.5, y: 40.5}
+        - {x: -9.5, y: 31.5}
+        - {x: -6.5, y: 28.5}
+        - {x: -4.5, y: 28.5}
+        - {x: -2.5, y: 30.5}
+        - {x: 0.5, y: 40.5}
+        - {x: 0.5, y: 50.5}
+    - name: ALAKAZAM-MEGA_14
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 805
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 23.5}
+        - {x: -56.5, y: 6.5}
+        - {x: -56.5, y: -26.5}
+        - {x: -30.5, y: -57.5}
+        - {x: 28.5, y: -57.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 23.5}
+      - - {x: -51.5, y: 13.5}
+        - {x: -45.5, y: 11.5}
+        - {x: -37.5, y: 11.5}
+        - {x: -37.5, y: 19.5}
+        - {x: -41.5, y: 24.5}
+        - {x: -48.5, y: 24.5}
+        - {x: -52.5, y: 22.5}
+        - {x: -52.5, y: 16.5}
+      - - {x: 38.5, y: 27.5}
+        - {x: 24.5, y: 19.5}
+        - {x: 24.5, y: 14.5}
+        - {x: 35.5, y: 14.5}
+        - {x: 49.5, y: 16.5}
+        - {x: 51.5, y: 20.5}
+        - {x: 51.5, y: 25.5}
+        - {x: 48.5, y: 27.5}
+      - - {x: -31.5, y: 45.5}
+        - {x: -34.5, y: 45.5}
+        - {x: -38.5, y: 41.5}
+        - {x: -37.5, y: 36.5}
+        - {x: -26.5, y: 22.5}
+        - {x: -20.5, y: 22.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -27.5, y: 41.5}
+      - - {x: 24.5, y: 45.5}
+        - {x: 8.5, y: 31.5}
+        - {x: 8.5, y: 25.5}
+        - {x: 16.5, y: 25.5}
+        - {x: 30.5, y: 31.5}
+        - {x: 32.5, y: 37.5}
+        - {x: 32.5, y: 44.5}
+        - {x: 29.5, y: 45.5}
+      - - {x: -5.5, y: 55.5}
+        - {x: -10.5, y: 53.5}
+        - {x: -10.5, y: 29.5}
+        - {x: -2.5, y: 29.5}
+        - {x: 0.5, y: 42.5}
+        - {x: 0.5, y: 53.5}
+        - {x: -1.5, y: 55.5}
+    - name: ALAKAZAM-MEGA_15
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 805
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 16.5}
+        - {x: 35.5, y: 23.5}
+        - {x: -50.5, y: 23.5}
+        - {x: -56.5, y: 21.5}
+        - {x: -56.5, y: -26.5}
+        - {x: -43.5, y: -52.5}
+        - {x: -13.5, y: -57.5}
+        - {x: 36.5, y: -57.5}
+        - {x: 56.5, y: -42.5}
+        - {x: 56.5, y: 9.5}
+      - - {x: -48.5, y: 24.5}
+        - {x: -52.5, y: 22.5}
+        - {x: -52.5, y: 15.5}
+        - {x: -51.5, y: 13.5}
+        - {x: -47.5, y: 11.5}
+        - {x: -39.5, y: 11.5}
+        - {x: -37.5, y: 12.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -45.5, y: 24.5}
+      - - {x: 40.5, y: 27.5}
+        - {x: 26.5, y: 23.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 24.5, y: 14.5}
+        - {x: 43.5, y: 14.5}
+        - {x: 49.5, y: 15.5}
+        - {x: 51.5, y: 21.5}
+        - {x: 51.5, y: 26.5}
+        - {x: 50.5, y: 27.5}
+      - - {x: -37.5, y: 37.5}
+        - {x: -26.5, y: 22.5}
+        - {x: -20.5, y: 22.5}
+        - {x: -20.5, y: 46.5}
+        - {x: -34.5, y: 46.5}
+        - {x: -37.5, y: 42.5}
+      - - {x: 24.5, y: 45.5}
+        - {x: 8.5, y: 30.5}
+        - {x: 8.5, y: 26.5}
+        - {x: 17.5, y: 26.5}
+        - {x: 30.5, y: 31.5}
+        - {x: 32.5, y: 36.5}
+        - {x: 32.5, y: 43.5}
+        - {x: 31.5, y: 45.5}
+      - - {x: -7.5, y: 55.5}
+        - {x: -10.5, y: 50.5}
+        - {x: -10.5, y: 29.5}
+        - {x: -2.5, y: 29.5}
+        - {x: 0.5, y: 41.5}
+        - {x: 0.5, y: 51.5}
+        - {x: -0.5, y: 55.5}
+    - name: ALAKAZAM-MEGA_16
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 805
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: -22.5}
+        - {x: 51.5, y: -21.5}
+        - {x: 56.5, y: -19.5}
+        - {x: 56.5, y: 2.5}
+        - {x: 52.5, y: 18.5}
+        - {x: 36.5, y: 23.5}
+        - {x: -29.5, y: 23.5}
+        - {x: -56.5, y: 14.5}
+        - {x: -56.5, y: -14.5}
+        - {x: -30.5, y: -56.5}
+        - {x: 27.5, y: -56.5}
+        - {x: 45.5, y: -38.5}
+        - {x: 44.5, y: -27.5}
+        - {x: 39.5, y: -22.5}
+      - - {x: -51.5, y: 24.5}
+        - {x: -52.5, y: 23.5}
+        - {x: -52.5, y: 15.5}
+        - {x: -51.5, y: 13.5}
+        - {x: -49.5, y: 12.5}
+        - {x: -37.5, y: 12.5}
+        - {x: -37.5, y: 20.5}
+        - {x: -45.5, y: 24.5}
+      - - {x: 49.5, y: 27.5}
+        - {x: 36.5, y: 27.5}
+        - {x: 26.5, y: 22.5}
+        - {x: 24.5, y: 19.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 25.5, y: 14.5}
+        - {x: 35.5, y: 14.5}
+        - {x: 48.5, y: 16.5}
+        - {x: 51.5, y: 21.5}
+        - {x: 51.5, y: 26.5}
+      - - {x: -29.5, y: 46.5}
+        - {x: -36.5, y: 46.5}
+        - {x: -37.5, y: 43.5}
+        - {x: -37.5, y: 34.5}
+        - {x: -26.5, y: 22.5}
+        - {x: -23.5, y: 22.5}
+        - {x: -20.5, y: 24.5}
+        - {x: -20.5, y: 25.5}
+        - {x: -25.5, y: 44.5}
+      - - {x: 30.5, y: 46.5}
+        - {x: 27.5, y: 46.5}
+        - {x: 22.5, y: 44.5}
+        - {x: 8.5, y: 30.5}
+        - {x: 8.5, y: 27.5}
+        - {x: 10.5, y: 26.5}
+        - {x: 16.5, y: 26.5}
+        - {x: 31.5, y: 37.5}
+        - {x: 32.5, y: 40.5}
+        - {x: 32.5, y: 44.5}
+      - - {x: -3.5, y: 56.5}
+        - {x: -5.5, y: 56.5}
+        - {x: -10.5, y: 53.5}
+        - {x: -10.5, y: 34.5}
+        - {x: -9.5, y: 29.5}
+        - {x: -2.5, y: 29.5}
+        - {x: 0.5, y: 40.5}
+        - {x: 0.5, y: 51.5}
+    - name: ALAKAZAM-MEGA_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 805
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 23.5}
+        - {x: -56.5, y: 8.5}
+        - {x: -56.5, y: -11.5}
+        - {x: -53.5, y: -20.5}
+        - {x: -20.5, y: -56.5}
+        - {x: 26.5, y: -56.5}
+        - {x: 56.5, y: -47.5}
+        - {x: 56.5, y: 3.5}
+        - {x: 50.5, y: 23.5}
+      - - {x: -49.5, y: 24.5}
+        - {x: -52.5, y: 23.5}
+        - {x: -52.5, y: 15.5}
+        - {x: -51.5, y: 12.5}
+        - {x: -40.5, y: 12.5}
+        - {x: -37.5, y: 14.5}
+        - {x: -37.5, y: 18.5}
+        - {x: -43.5, y: 24.5}
+      - - {x: 49.5, y: 28.5}
+        - {x: 40.5, y: 28.5}
+        - {x: 24.5, y: 20.5}
+        - {x: 24.5, y: 14.5}
+        - {x: 42.5, y: 14.5}
+        - {x: 47.5, y: 16.5}
+        - {x: 51.5, y: 20.5}
+        - {x: 51.5, y: 25.5}
+      - - {x: -30.5, y: 46.5}
+        - {x: -37.5, y: 46.5}
+        - {x: -37.5, y: 35.5}
+        - {x: -32.5, y: 23.5}
+        - {x: -20.5, y: 23.5}
+        - {x: -20.5, y: 31.5}
+        - {x: -25.5, y: 44.5}
+      - - {x: 24.5, y: 46.5}
+        - {x: 18.5, y: 43.5}
+        - {x: 8.5, y: 32.5}
+        - {x: 8.5, y: 28.5}
+        - {x: 9.5, y: 26.5}
+        - {x: 14.5, y: 26.5}
+        - {x: 32.5, y: 38.5}
+        - {x: 32.5, y: 46.5}
+      - - {x: -1.5, y: 56.5}
+        - {x: -5.5, y: 56.5}
+        - {x: -10.5, y: 52.5}
+        - {x: -10.5, y: 41.5}
+        - {x: -9.5, y: 32.5}
+        - {x: -6.5, y: 29.5}
+        - {x: -4.5, y: 29.5}
+        - {x: -2.5, y: 31.5}
+        - {x: 0.5, y: 41.5}
+        - {x: 0.5, y: 51.5}
+    - name: ALAKAZAM-MEGA_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 23.5}
+        - {x: -56.5, y: 14.5}
+        - {x: -56.5, y: -19.5}
+        - {x: -43.5, y: -45.5}
+        - {x: -27.5, y: -56.5}
+        - {x: 45.5, y: -56.5}
+        - {x: 56.5, y: -54.5}
+        - {x: 56.5, y: 17.5}
+        - {x: 39.5, y: 23.5}
+      - - {x: -48.5, y: 25.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 16.5}
+        - {x: -44.5, y: 12.5}
+        - {x: -37.5, y: 12.5}
+        - {x: -37.5, y: 19.5}
+        - {x: -46.5, y: 25.5}
+      - - {x: 36.5, y: 28.5}
+        - {x: 24.5, y: 19.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 25.5, y: 15.5}
+        - {x: 33.5, y: 15.5}
+        - {x: 48.5, y: 17.5}
+        - {x: 51.5, y: 22.5}
+        - {x: 51.5, y: 28.5}
+      - - {x: -34.5, y: 46.5}
+        - {x: -37.5, y: 45.5}
+        - {x: -37.5, y: 37.5}
+        - {x: -27.5, y: 23.5}
+        - {x: -22.5, y: 23.5}
+        - {x: -20.5, y: 24.5}
+        - {x: -20.5, y: 28.5}
+        - {x: -28.5, y: 46.5}
+      - - {x: 23.5, y: 46.5}
+        - {x: 12.5, y: 36.5}
+        - {x: 8.5, y: 30.5}
+        - {x: 9.5, y: 27.5}
+        - {x: 14.5, y: 27.5}
+        - {x: 32.5, y: 37.5}
+        - {x: 32.5, y: 46.5}
+      - - {x: -5.5, y: 56.5}
+        - {x: -10.5, y: 55.5}
+        - {x: -10.5, y: 30.5}
+        - {x: -2.5, y: 30.5}
+        - {x: -0.5, y: 31.5}
+        - {x: 0.5, y: 45.5}
+        - {x: 0.5, y: 54.5}
+        - {x: -0.5, y: 56.5}
+    - name: ALAKAZAM-MEGA_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 690
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -23.5}
+        - {x: 33.5, y: -24.5}
+        - {x: 25.5, y: -20.5}
+        - {x: 27.5, y: -21.5}
+        - {x: 29.5, y: -21.5}
+        - {x: 30.5, y: -22.5}
+        - {x: 34.5, y: -22.5}
+        - {x: 51.5, y: -20.5}
+        - {x: 56.5, y: -16.5}
+        - {x: 56.5, y: -2.5}
+        - {x: 54.5, y: 9.5}
+        - {x: 44.5, y: 17.5}
+        - {x: 24.5, y: 24.5}
+        - {x: -6.5, y: 24.5}
+        - {x: -18.5, y: 15.5}
+        - {x: -51.5, y: 18.5}
+        - {x: -56.5, y: 10.5}
+        - {x: -56.5, y: -24.5}
+        - {x: -18.5, y: -56.5}
+        - {x: 24.5, y: -56.5}
+        - {x: 50.5, y: -41.5}
+        - {x: 44.5, y: -27.5}
+        - {x: 38.5, y: -23.5}
+      - - {x: -43.5, y: 25.5}
+        - {x: -49.5, y: 25.5}
+        - {x: -52.5, y: 23.5}
+        - {x: -52.5, y: 17.5}
+        - {x: -51.5, y: 14.5}
+        - {x: -43.5, y: 13.5}
+        - {x: -38.5, y: 13.5}
+        - {x: -37.5, y: 15.5}
+        - {x: -37.5, y: 19.5}
+      - - {x: 37.5, y: 28.5}
+        - {x: 26.5, y: 23.5}
+        - {x: 24.5, y: 20.5}
+        - {x: 24.5, y: 15.5}
+        - {x: 42.5, y: 15.5}
+        - {x: 49.5, y: 16.5}
+        - {x: 51.5, y: 20.5}
+        - {x: 51.5, y: 27.5}
+        - {x: 48.5, y: 28.5}
+      - - {x: -37.5, y: 37.5}
+        - {x: -27.5, y: 23.5}
+        - {x: -22.5, y: 23.5}
+        - {x: -20.5, y: 24.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -24.5, y: 38.5}
+        - {x: -28.5, y: 47.5}
+        - {x: -34.5, y: 47.5}
+        - {x: -37.5, y: 45.5}
+      - - {x: 25.5, y: 46.5}
+        - {x: 8.5, y: 32.5}
+        - {x: 8.5, y: 27.5}
+        - {x: 14.5, y: 27.5}
+        - {x: 17.5, y: 28.5}
+        - {x: 32.5, y: 37.5}
+        - {x: 32.5, y: 46.5}
+      - - {x: -7.5, y: 57.5}
+        - {x: -10.5, y: 56.5}
+        - {x: -10.5, y: 30.5}
+        - {x: -2.5, y: 30.5}
+        - {x: 0.5, y: 40.5}
+        - {x: 0.5, y: 52.5}
+        - {x: -1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 690
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 24.5}
+        - {x: -56.5, y: 17.5}
+        - {x: -56.5, y: -23.5}
+        - {x: -44.5, y: -47.5}
+        - {x: -22.5, y: -56.5}
+        - {x: 56.5, y: -56.5}
+        - {x: 56.5, y: 24.5}
+      - - {x: -48.5, y: 25.5}
+        - {x: -53.5, y: 21.5}
+        - {x: -53.5, y: 19.5}
+        - {x: -51.5, y: 14.5}
+        - {x: -47.5, y: 13.5}
+        - {x: -37.5, y: 13.5}
+        - {x: -37.5, y: 19.5}
+        - {x: -44.5, y: 25.5}
+      - - {x: 41.5, y: 28.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 24.5, y: 22.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 25.5, y: 15.5}
+        - {x: 47.5, y: 15.5}
+        - {x: 51.5, y: 18.5}
+        - {x: 51.5, y: 28.5}
+      - - {x: -30.5, y: 47.5}
+        - {x: -33.5, y: 47.5}
+        - {x: -37.5, y: 46.5}
+        - {x: -37.5, y: 36.5}
+        - {x: -32.5, y: 23.5}
+        - {x: -20.5, y: 23.5}
+        - {x: -20.5, y: 31.5}
+        - {x: -24.5, y: 43.5}
+      - - {x: 23.5, y: 47.5}
+        - {x: 8.5, y: 34.5}
+        - {x: 8.5, y: 27.5}
+        - {x: 13.5, y: 27.5}
+        - {x: 32.5, y: 37.5}
+        - {x: 32.5, y: 46.5}
+        - {x: 30.5, y: 47.5}
+      - - {x: -3.5, y: 57.5}
+        - {x: -5.5, y: 57.5}
+        - {x: -10.5, y: 56.5}
+        - {x: -10.5, y: 31.5}
+        - {x: -8.5, y: 30.5}
+        - {x: -2.5, y: 30.5}
+        - {x: 0.5, y: 44.5}
+        - {x: 0.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 690
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -24.5}
+        - {x: 26.5, y: -20.5}
+        - {x: 19.5, y: -20.5}
+        - {x: 28.5, y: -21.5}
+        - {x: 38.5, y: -21.5}
+        - {x: 56.5, y: -19.5}
+        - {x: 56.5, y: 11.5}
+        - {x: 46.5, y: 15.5}
+        - {x: 45.5, y: 15.5}
+        - {x: 42.5, y: 12.5}
+        - {x: 38.5, y: 10.5}
+        - {x: 35.5, y: 7.5}
+        - {x: 35.5, y: 6.5}
+        - {x: 6.5, y: 24.5}
+        - {x: -0.5, y: 24.5}
+        - {x: -17.5, y: 14.5}
+        - {x: -21.5, y: 1.5}
+        - {x: -46.5, y: 14.5}
+        - {x: -56.5, y: 9.5}
+        - {x: -56.5, y: -0.5}
+        - {x: -52.5, y: -17.5}
+        - {x: -45.5, y: -21.5}
+        - {x: -32.5, y: -22.5}
+        - {x: -24.5, y: -22.5}
+        - {x: -30.5, y: -22.5}
+        - {x: -34.5, y: -24.5}
+        - {x: -36.5, y: -39.5}
+        - {x: -22.5, y: -51.5}
+        - {x: -14.5, y: -55.5}
+        - {x: 16.5, y: -55.5}
+        - {x: 49.5, y: -41.5}
+        - {x: 44.5, y: -26.5}
+        - {x: 34.5, y: -21.5}
+      - - {x: -51.5, y: 25.5}
+        - {x: -53.5, y: 23.5}
+        - {x: -53.5, y: 16.5}
+        - {x: -49.5, y: 13.5}
+        - {x: -38.5, y: 13.5}
+        - {x: -37.5, y: 15.5}
+        - {x: -37.5, y: 20.5}
+        - {x: -46.5, y: 25.5}
+      - - {x: 51.5, y: 27.5}
+        - {x: 49.5, y: 29.5}
+        - {x: 40.5, y: 29.5}
+        - {x: 27.5, y: 26.5}
+        - {x: 24.5, y: 19.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 33.5, y: 15.5}
+        - {x: 47.5, y: 19.5}
+        - {x: 51.5, y: 23.5}
+      - - {x: -30.5, y: 47.5}
+        - {x: -36.5, y: 47.5}
+        - {x: -37.5, y: 45.5}
+        - {x: -37.5, y: 37.5}
+        - {x: -29.5, y: 25.5}
+        - {x: -27.5, y: 24.5}
+        - {x: -21.5, y: 24.5}
+        - {x: -21.5, y: 33.5}
+        - {x: -25.5, y: 44.5}
+      - - {x: 23.5, y: 47.5}
+        - {x: 8.5, y: 33.5}
+        - {x: 8.5, y: 30.5}
+        - {x: 9.5, y: 27.5}
+        - {x: 14.5, y: 27.5}
+        - {x: 32.5, y: 39.5}
+        - {x: 32.5, y: 45.5}
+        - {x: 31.5, y: 47.5}
+      - - {x: -5.5, y: 57.5}
+        - {x: -9.5, y: 53.5}
+        - {x: -9.5, y: 33.5}
+        - {x: -6.5, y: 30.5}
+        - {x: -0.5, y: 30.5}
+        - {x: 0.5, y: 32.5}
+        - {x: 0.5, y: 56.5}
+        - {x: -0.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_22
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 690
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -20.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 29.5, y: -21.5}
+        - {x: 37.5, y: -21.5}
+        - {x: 51.5, y: -19.5}
+        - {x: 56.5, y: -16.5}
+        - {x: 56.5, y: 17.5}
+        - {x: 28.5, y: 24.5}
+        - {x: -31.5, y: 24.5}
+        - {x: -55.5, y: 17.5}
+        - {x: -55.5, y: -24.5}
+        - {x: -46.5, y: -47.5}
+        - {x: -32.5, y: -55.5}
+        - {x: 18.5, y: -55.5}
+        - {x: 52.5, y: -42.5}
+        - {x: 40.5, y: -21.5}
+        - {x: 33.5, y: -23.5}
+        - {x: 26.5, y: -20.5}
+      - - {x: -47.5, y: 26.5}
+        - {x: -53.5, y: 23.5}
+        - {x: -53.5, y: 17.5}
+        - {x: -47.5, y: 14.5}
+        - {x: -38.5, y: 14.5}
+        - {x: -37.5, y: 16.5}
+        - {x: -37.5, y: 21.5}
+        - {x: -44.5, y: 26.5}
+      - - {x: 40.5, y: 29.5}
+        - {x: 26.5, y: 25.5}
+        - {x: 24.5, y: 19.5}
+        - {x: 25.5, y: 16.5}
+        - {x: 35.5, y: 16.5}
+        - {x: 48.5, y: 17.5}
+        - {x: 51.5, y: 22.5}
+        - {x: 51.5, y: 29.5}
+      - - {x: -35.5, y: 48.5}
+        - {x: -36.5, y: 44.5}
+        - {x: -36.5, y: 39.5}
+        - {x: -27.5, y: 24.5}
+        - {x: -22.5, y: 24.5}
+        - {x: -21.5, y: 25.5}
+        - {x: -21.5, y: 40.5}
+        - {x: -27.5, y: 48.5}
+      - - {x: 22.5, y: 47.5}
+        - {x: 8.5, y: 33.5}
+        - {x: 8.5, y: 28.5}
+        - {x: 15.5, y: 28.5}
+        - {x: 22.5, y: 31.5}
+        - {x: 32.5, y: 39.5}
+        - {x: 32.5, y: 47.5}
+      - - {x: -9.5, y: 57.5}
+        - {x: -9.5, y: 31.5}
+        - {x: -0.5, y: 31.5}
+        - {x: 0.5, y: 33.5}
+        - {x: 0.5, y: 56.5}
+        - {x: -0.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_23
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 690
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -20.5}
+        - {x: 21.5, y: -19.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 29.5, y: -20.5}
+        - {x: 30.5, y: -21.5}
+        - {x: 36.5, y: -21.5}
+        - {x: 51.5, y: -19.5}
+        - {x: 56.5, y: -16.5}
+        - {x: 56.5, y: 22.5}
+        - {x: 52.5, y: 24.5}
+        - {x: -53.5, y: 24.5}
+        - {x: -55.5, y: 23.5}
+        - {x: -55.5, y: -18.5}
+        - {x: -46.5, y: -49.5}
+        - {x: -33.5, y: -55.5}
+        - {x: 24.5, y: -55.5}
+        - {x: 50.5, y: -48.5}
+        - {x: 46.5, y: -34.5}
+        - {x: 39.5, y: -21.5}
+        - {x: 35.5, y: -23.5}
+      - - {x: -51.5, y: 26.5}
+        - {x: -52.5, y: 25.5}
+        - {x: -52.5, y: 17.5}
+        - {x: -51.5, y: 15.5}
+        - {x: -49.5, y: 14.5}
+        - {x: -37.5, y: 14.5}
+        - {x: -37.5, y: 22.5}
+        - {x: -45.5, y: 26.5}
+      - - {x: 38.5, y: 29.5}
+        - {x: 27.5, y: 25.5}
+        - {x: 25.5, y: 20.5}
+        - {x: 25.5, y: 16.5}
+        - {x: 48.5, y: 16.5}
+        - {x: 51.5, y: 22.5}
+        - {x: 51.5, y: 28.5}
+        - {x: 48.5, y: 29.5}
+      - - {x: -36.5, y: 48.5}
+        - {x: -36.5, y: 37.5}
+        - {x: -30.5, y: 24.5}
+        - {x: -21.5, y: 24.5}
+        - {x: -21.5, y: 48.5}
+      - - {x: 23.5, y: 47.5}
+        - {x: 8.5, y: 35.5}
+        - {x: 8.5, y: 30.5}
+        - {x: 9.5, y: 28.5}
+        - {x: 15.5, y: 28.5}
+        - {x: 32.5, y: 38.5}
+        - {x: 32.5, y: 46.5}
+        - {x: 31.5, y: 47.5}
+      - - {x: -1.5, y: 57.5}
+        - {x: -7.5, y: 57.5}
+        - {x: -9.5, y: 55.5}
+        - {x: -9.5, y: 31.5}
+        - {x: -3.5, y: 31.5}
+        - {x: -1.5, y: 34.5}
+        - {x: 0.5, y: 46.5}
+        - {x: 0.5, y: 56.5}
+    - name: ALAKAZAM-MEGA_24
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 690
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -20.5}
+        - {x: 21.5, y: -19.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 41.5, y: -20.5}
+        - {x: 56.5, y: -19.5}
+        - {x: 56.5, y: 14.5}
+        - {x: 42.5, y: 17.5}
+        - {x: 39.5, y: 15.5}
+        - {x: 34.5, y: 9.5}
+        - {x: 35.5, y: 6.5}
+        - {x: 17.5, y: 24.5}
+        - {x: -55.5, y: 24.5}
+        - {x: -55.5, y: -28.5}
+        - {x: -28.5, y: -55.5}
+        - {x: 22.5, y: -55.5}
+        - {x: 49.5, y: -41.5}
+        - {x: 41.5, y: -24.5}
+        - {x: 38.5, y: -23.5}
+        - {x: 35.5, y: -23.5}
+      - - {x: -48.5, y: 26.5}
+        - {x: -53.5, y: 23.5}
+        - {x: -53.5, y: 18.5}
+        - {x: -51.5, y: 15.5}
+        - {x: -49.5, y: 14.5}
+        - {x: -39.5, y: 14.5}
+        - {x: -37.5, y: 15.5}
+        - {x: -37.5, y: 21.5}
+        - {x: -43.5, y: 26.5}
+      - - {x: 40.5, y: 30.5}
+        - {x: 24.5, y: 23.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 25.5, y: 16.5}
+        - {x: 35.5, y: 16.5}
+        - {x: 49.5, y: 18.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 51.5, y: 30.5}
+      - - {x: -27.5, y: 48.5}
+        - {x: -36.5, y: 48.5}
+        - {x: -36.5, y: 37.5}
+        - {x: -31.5, y: 25.5}
+        - {x: -21.5, y: 25.5}
+        - {x: -21.5, y: 32.5}
+        - {x: -25.5, y: 45.5}
+      - - {x: 31.5, y: 48.5}
+        - {x: 23.5, y: 48.5}
+        - {x: 8.5, y: 34.5}
+        - {x: 8.5, y: 31.5}
+        - {x: 9.5, y: 28.5}
+        - {x: 14.5, y: 28.5}
+        - {x: 17.5, y: 29.5}
+        - {x: 29.5, y: 37.5}
+        - {x: 32.5, y: 40.5}
+        - {x: 32.5, y: 45.5}
+      - - {x: -6.5, y: 57.5}
+        - {x: -9.5, y: 55.5}
+        - {x: -9.5, y: 32.5}
+        - {x: -8.5, y: 31.5}
+        - {x: -3.5, y: 31.5}
+        - {x: -0.5, y: 33.5}
+        - {x: 0.5, y: 36.5}
+        - {x: 0.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_25
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 690
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -24.5}
+        - {x: 34.5, y: -22.5}
+        - {x: 33.5, y: -24.5}
+        - {x: 25.5, y: -19.5}
+        - {x: 21.5, y: -19.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 39.5, y: -20.5}
+        - {x: 51.5, y: -18.5}
+        - {x: 56.5, y: -16.5}
+        - {x: 56.5, y: 6.5}
+        - {x: 52.5, y: 25.5}
+        - {x: -54.5, y: 25.5}
+        - {x: -54.5, y: -26.5}
+        - {x: -34.5, y: -55.5}
+        - {x: 19.5, y: -55.5}
+        - {x: 22.5, y: -54.5}
+        - {x: 41.5, y: -40.5}
+        - {x: 43.5, y: -38.5}
+        - {x: 43.5, y: -36.5}
+      - - {x: -51.5, y: 26.5}
+        - {x: -53.5, y: 24.5}
+        - {x: -53.5, y: 17.5}
+        - {x: -50.5, y: 15.5}
+        - {x: -37.5, y: 15.5}
+        - {x: -37.5, y: 21.5}
+        - {x: -43.5, y: 26.5}
+      - - {x: 37.5, y: 30.5}
+        - {x: 27.5, y: 26.5}
+        - {x: 25.5, y: 20.5}
+        - {x: 25.5, y: 16.5}
+        - {x: 32.5, y: 16.5}
+        - {x: 48.5, y: 19.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 51.5, y: 29.5}
+        - {x: 49.5, y: 30.5}
+      - - {x: -36.5, y: 48.5}
+        - {x: -36.5, y: 38.5}
+        - {x: -30.5, y: 25.5}
+        - {x: -21.5, y: 25.5}
+        - {x: -21.5, y: 36.5}
+        - {x: -26.5, y: 48.5}
+      - - {x: 32.5, y: 46.5}
+        - {x: 31.5, y: 48.5}
+        - {x: 25.5, y: 48.5}
+        - {x: 8.5, y: 34.5}
+        - {x: 8.5, y: 31.5}
+        - {x: 10.5, y: 28.5}
+        - {x: 13.5, y: 28.5}
+        - {x: 17.5, y: 31.5}
+        - {x: 32.5, y: 40.5}
+      - - {x: -6.5, y: 57.5}
+        - {x: -9.5, y: 55.5}
+        - {x: -9.5, y: 31.5}
+        - {x: -2.5, y: 31.5}
+        - {x: 0.5, y: 39.5}
+        - {x: 0.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_26
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 690
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -24.5}
+        - {x: 25.5, y: -19.5}
+        - {x: 20.5, y: -19.5}
+        - {x: 25.5, y: -19.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 39.5, y: -20.5}
+        - {x: 54.5, y: -16.5}
+        - {x: 56.5, y: -15.5}
+        - {x: 56.5, y: 23.5}
+        - {x: 49.5, y: 25.5}
+        - {x: -38.5, y: 25.5}
+        - {x: -54.5, y: 20.5}
+        - {x: -54.5, y: -13.5}
+        - {x: -26.5, y: -54.5}
+        - {x: 26.5, y: -54.5}
+        - {x: 43.5, y: -39.5}
+        - {x: 41.5, y: -24.5}
+        - {x: 34.5, y: -22.5}
+      - - {x: -48.5, y: 27.5}
+        - {x: -52.5, y: 25.5}
+        - {x: -52.5, y: 19.5}
+        - {x: -51.5, y: 16.5}
+        - {x: -47.5, y: 15.5}
+        - {x: -38.5, y: 15.5}
+        - {x: -37.5, y: 16.5}
+        - {x: -37.5, y: 22.5}
+        - {x: -43.5, y: 27.5}
+      - - {x: 50.5, y: 30.5}
+        - {x: 39.5, y: 30.5}
+        - {x: 26.5, y: 26.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 25.5, y: 19.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 31.5, y: 17.5}
+        - {x: 46.5, y: 20.5}
+        - {x: 51.5, y: 23.5}
+        - {x: 51.5, y: 27.5}
+      - - {x: -34.5, y: 48.5}
+        - {x: -36.5, y: 44.5}
+        - {x: -36.5, y: 37.5}
+        - {x: -27.5, y: 25.5}
+        - {x: -21.5, y: 25.5}
+        - {x: -21.5, y: 38.5}
+        - {x: -27.5, y: 48.5}
+      - - {x: 24.5, y: 48.5}
+        - {x: 8.5, y: 33.5}
+        - {x: 8.5, y: 29.5}
+        - {x: 16.5, y: 29.5}
+        - {x: 29.5, y: 34.5}
+        - {x: 32.5, y: 38.5}
+        - {x: 32.5, y: 48.5}
+      - - {x: -6.5, y: 57.5}
+        - {x: -9.5, y: 55.5}
+        - {x: -9.5, y: 33.5}
+        - {x: -6.5, y: 32.5}
+        - {x: -2.5, y: 32.5}
+        - {x: 0.5, y: 39.5}
+        - {x: 0.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -24.5}
+        - {x: 25.5, y: -19.5}
+        - {x: 20.5, y: -19.5}
+        - {x: 18.5, y: -13.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 37.5, y: -20.5}
+        - {x: 51.5, y: -18.5}
+        - {x: 56.5, y: -16.5}
+        - {x: 56.5, y: 1.5}
+        - {x: 53.5, y: 13.5}
+        - {x: 48.5, y: 25.5}
+        - {x: -15.5, y: 25.5}
+        - {x: -54.5, y: 22.5}
+        - {x: -54.5, y: -17.5}
+        - {x: -30.5, y: -54.5}
+        - {x: 32.5, y: -54.5}
+        - {x: 44.5, y: -39.5}
+        - {x: 42.5, y: -23.5}
+        - {x: 34.5, y: -22.5}
+      - - {x: -48.5, y: 27.5}
+        - {x: -52.5, y: 25.5}
+        - {x: -52.5, y: 18.5}
+        - {x: -51.5, y: 16.5}
+        - {x: -49.5, y: 15.5}
+        - {x: -37.5, y: 15.5}
+        - {x: -37.5, y: 21.5}
+        - {x: -43.5, y: 27.5}
+      - - {x: 39.5, y: 31.5}
+        - {x: 25.5, y: 23.5}
+        - {x: 25.5, y: 19.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 39.5, y: 17.5}
+        - {x: 47.5, y: 18.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 51.5, y: 31.5}
+      - - {x: -30.5, y: 49.5}
+        - {x: -33.5, y: 49.5}
+        - {x: -35.5, y: 45.5}
+        - {x: -35.5, y: 39.5}
+        - {x: -30.5, y: 29.5}
+        - {x: -25.5, y: 25.5}
+        - {x: -21.5, y: 25.5}
+        - {x: -21.5, y: 37.5}
+        - {x: -24.5, y: 45.5}
+      - - {x: 30.5, y: 49.5}
+        - {x: 20.5, y: 49.5}
+        - {x: 9.5, y: 33.5}
+        - {x: 9.5, y: 29.5}
+        - {x: 14.5, y: 29.5}
+        - {x: 32.5, y: 40.5}
+        - {x: 32.5, y: 47.5}
+      - - {x: -9.5, y: 57.5}
+        - {x: -9.5, y: 33.5}
+        - {x: -7.5, y: 32.5}
+        - {x: -1.5, y: 32.5}
+        - {x: 0.5, y: 40.5}
+        - {x: 0.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_28
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 575
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -19.5}
+        - {x: 26.5, y: -19.5}
+        - {x: 29.5, y: -20.5}
+        - {x: 51.5, y: -22.5}
+        - {x: 56.5, y: -15.5}
+        - {x: 56.5, y: 6.5}
+        - {x: 52.5, y: 12.5}
+        - {x: 41.5, y: 20.5}
+        - {x: 33.5, y: 10.5}
+        - {x: 16.5, y: 5.5}
+        - {x: 15.5, y: 4.5}
+        - {x: 12.5, y: 4.5}
+        - {x: 14.5, y: 4.5}
+        - {x: 17.5, y: 8.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 11.5, y: 25.5}
+        - {x: -25.5, y: 25.5}
+        - {x: -53.5, y: 15.5}
+        - {x: -53.5, y: 5.5}
+        - {x: -50.5, y: -0.5}
+        - {x: -50.5, y: -13.5}
+        - {x: -48.5, y: -17.5}
+        - {x: -25.5, y: -53.5}
+        - {x: -23.5, y: -54.5}
+        - {x: 21.5, y: -54.5}
+        - {x: 47.5, y: -47.5}
+        - {x: 43.5, y: -22.5}
+        - {x: 33.5, y: -22.5}
+        - {x: 26.5, y: -19.5}
+      - - {x: -48.5, y: 27.5}
+        - {x: -52.5, y: 25.5}
+        - {x: -52.5, y: 17.5}
+        - {x: -51.5, y: 16.5}
+        - {x: -49.5, y: 15.5}
+        - {x: -39.5, y: 15.5}
+        - {x: -37.5, y: 16.5}
+        - {x: -37.5, y: 21.5}
+        - {x: -42.5, y: 27.5}
+      - - {x: 39.5, y: 31.5}
+        - {x: 27.5, y: 25.5}
+        - {x: 25.5, y: 22.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 32.5, y: 17.5}
+        - {x: 49.5, y: 19.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 51.5, y: 30.5}
+        - {x: 48.5, y: 31.5}
+      - - {x: -29.5, y: 49.5}
+        - {x: -33.5, y: 49.5}
+        - {x: -35.5, y: 45.5}
+        - {x: -35.5, y: 40.5}
+        - {x: -27.5, y: 26.5}
+        - {x: -23.5, y: 26.5}
+        - {x: -21.5, y: 28.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -23.5, y: 45.5}
+      - - {x: 30.5, y: 49.5}
+        - {x: 21.5, y: 49.5}
+        - {x: 9.5, y: 33.5}
+        - {x: 9.5, y: 29.5}
+        - {x: 17.5, y: 29.5}
+        - {x: 32.5, y: 40.5}
+        - {x: 32.5, y: 47.5}
+      - - {x: -7.5, y: 57.5}
+        - {x: -9.5, y: 55.5}
+        - {x: -9.5, y: 33.5}
+        - {x: -6.5, y: 32.5}
+        - {x: -3.5, y: 32.5}
+        - {x: -1.5, y: 34.5}
+        - {x: 0.5, y: 41.5}
+        - {x: 0.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 575
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -22.5}
+        - {x: 26.5, y: -19.5}
+        - {x: 19.5, y: -19.5}
+        - {x: 27.5, y: -19.5}
+        - {x: 30.5, y: -20.5}
+        - {x: 54.5, y: -21.5}
+        - {x: 56.5, y: -18.5}
+        - {x: 56.5, y: 14.5}
+        - {x: 47.5, y: 25.5}
+        - {x: -29.5, y: 25.5}
+        - {x: -53.5, y: 17.5}
+        - {x: -53.5, y: -16.5}
+        - {x: -30.5, y: -54.5}
+        - {x: 32.5, y: -54.5}
+        - {x: 44.5, y: -40.5}
+        - {x: 43.5, y: -31.5}
+        - {x: 41.5, y: -24.5}
+      - - {x: -49.5, y: 27.5}
+        - {x: -52.5, y: 26.5}
+        - {x: -52.5, y: 19.5}
+        - {x: -51.5, y: 15.5}
+        - {x: -39.5, y: 15.5}
+        - {x: -37.5, y: 16.5}
+        - {x: -37.5, y: 22.5}
+        - {x: -42.5, y: 27.5}
+      - - {x: 37.5, y: 31.5}
+        - {x: 29.5, y: 26.5}
+        - {x: 25.5, y: 21.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 39.5, y: 17.5}
+        - {x: 51.5, y: 23.5}
+        - {x: 51.5, y: 30.5}
+        - {x: 49.5, y: 31.5}
+      - - {x: -28.5, y: 49.5}
+        - {x: -35.5, y: 49.5}
+        - {x: -35.5, y: 37.5}
+        - {x: -30.5, y: 26.5}
+        - {x: -22.5, y: 26.5}
+        - {x: -21.5, y: 28.5}
+        - {x: -21.5, y: 38.5}
+        - {x: -23.5, y: 46.5}
+      - - {x: 21.5, y: 49.5}
+        - {x: 9.5, y: 36.5}
+        - {x: 9.5, y: 31.5}
+        - {x: 10.5, y: 29.5}
+        - {x: 16.5, y: 29.5}
+        - {x: 32.5, y: 42.5}
+        - {x: 32.5, y: 48.5}
+        - {x: 30.5, y: 49.5}
+      - - {x: -6.5, y: 57.5}
+        - {x: -9.5, y: 54.5}
+        - {x: -9.5, y: 32.5}
+        - {x: -2.5, y: 32.5}
+        - {x: 1.5, y: 46.5}
+        - {x: 1.5, y: 56.5}
+        - {x: 0.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_30
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 575
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -19.5}
+        - {x: 27.5, y: -19.5}
+        - {x: 33.5, y: -20.5}
+        - {x: 52.5, y: -17.5}
+        - {x: 56.5, y: -14.5}
+        - {x: 56.5, y: 17.5}
+        - {x: 40.5, y: 25.5}
+        - {x: -49.5, y: 25.5}
+        - {x: -53.5, y: 23.5}
+        - {x: -53.5, y: -41.5}
+        - {x: -27.5, y: -54.5}
+        - {x: 41.5, y: -54.5}
+        - {x: 45.5, y: -31.5}
+        - {x: 39.5, y: -21.5}
+        - {x: 26.5, y: -19.5}
+      - - {x: -47.5, y: 28.5}
+        - {x: -52.5, y: 24.5}
+        - {x: -52.5, y: 18.5}
+        - {x: -47.5, y: 16.5}
+        - {x: -38.5, y: 16.5}
+        - {x: -37.5, y: 18.5}
+        - {x: -37.5, y: 22.5}
+        - {x: -44.5, y: 28.5}
+      - - {x: 37.5, y: 31.5}
+        - {x: 25.5, y: 23.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 36.5, y: 17.5}
+        - {x: 51.5, y: 23.5}
+        - {x: 51.5, y: 30.5}
+        - {x: 49.5, y: 31.5}
+      - - {x: -28.5, y: 49.5}
+        - {x: -35.5, y: 49.5}
+        - {x: -35.5, y: 36.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -21.5, y: 26.5}
+        - {x: -21.5, y: 32.5}
+        - {x: -23.5, y: 47.5}
+      - - {x: 24.5, y: 49.5}
+        - {x: 19.5, y: 47.5}
+        - {x: 9.5, y: 34.5}
+        - {x: 9.5, y: 29.5}
+        - {x: 21.5, y: 29.5}
+        - {x: 32.5, y: 41.5}
+        - {x: 32.5, y: 49.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -9.5, y: 55.5}
+        - {x: -9.5, y: 37.5}
+        - {x: -7.5, y: 32.5}
+        - {x: -1.5, y: 32.5}
+        - {x: 1.5, y: 40.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_31
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 575
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -19.5}
+        - {x: 39.5, y: -19.5}
+        - {x: 51.5, y: -17.5}
+        - {x: 56.5, y: -14.5}
+        - {x: 56.5, y: -0.5}
+        - {x: 52.5, y: 13.5}
+        - {x: 44.5, y: 25.5}
+        - {x: -35.5, y: 25.5}
+        - {x: -52.5, y: 23.5}
+        - {x: -52.5, y: -36.5}
+        - {x: -47.5, y: -54.5}
+        - {x: 46.5, y: -54.5}
+        - {x: 52.5, y: -30.5}
+        - {x: 39.5, y: -21.5}
+        - {x: 26.5, y: -19.5}
+      - - {x: -48.5, y: 28.5}
+        - {x: -52.5, y: 26.5}
+        - {x: -52.5, y: 18.5}
+        - {x: -51.5, y: 17.5}
+        - {x: -49.5, y: 16.5}
+        - {x: -39.5, y: 16.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -37.5, y: 23.5}
+        - {x: -42.5, y: 28.5}
+      - - {x: 39.5, y: 32.5}
+        - {x: 28.5, y: 25.5}
+        - {x: 25.5, y: 23.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 43.5, y: 18.5}
+        - {x: 48.5, y: 19.5}
+        - {x: 51.5, y: 25.5}
+        - {x: 51.5, y: 32.5}
+      - - {x: -27.5, y: 49.5}
+        - {x: -33.5, y: 49.5}
+        - {x: -35.5, y: 47.5}
+        - {x: -35.5, y: 41.5}
+        - {x: -33.5, y: 28.5}
+        - {x: -28.5, y: 26.5}
+        - {x: -21.5, y: 26.5}
+        - {x: -21.5, y: 34.5}
+        - {x: -23.5, y: 47.5}
+      - - {x: 22.5, y: 50.5}
+        - {x: 9.5, y: 36.5}
+        - {x: 9.5, y: 31.5}
+        - {x: 10.5, y: 29.5}
+        - {x: 16.5, y: 29.5}
+        - {x: 32.5, y: 41.5}
+        - {x: 32.5, y: 49.5}
+        - {x: 27.5, y: 50.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 32.5}
+        - {x: -4.5, y: 32.5}
+        - {x: -0.5, y: 34.5}
+        - {x: 1.5, y: 51.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_32
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 575
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -18.5}
+        - {x: 39.5, y: -21.5}
+        - {x: 56.5, y: -14.5}
+        - {x: 56.5, y: -0.5}
+        - {x: 52.5, y: 11.5}
+        - {x: 44.5, y: 28.5}
+        - {x: -51.5, y: 28.5}
+        - {x: -52.5, y: 27.5}
+        - {x: -52.5, y: -13.5}
+        - {x: -48.5, y: -16.5}
+        - {x: -26.5, y: -21.5}
+        - {x: -18.5, y: -17.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -26.5, y: -23.5}
+        - {x: -30.5, y: -22.5}
+        - {x: -34.5, y: -31.5}
+        - {x: -31.5, y: -37.5}
+        - {x: -29.5, y: -39.5}
+        - {x: -24.5, y: -49.5}
+        - {x: -12.5, y: -54.5}
+        - {x: 13.5, y: -54.5}
+        - {x: 34.5, y: -52.5}
+        - {x: 51.5, y: -31.5}
+        - {x: 41.5, y: -24.5}
+        - {x: 27.5, y: -19.5}
+      - - {x: 42.5, y: 32.5}
+        - {x: 26.5, y: 27.5}
+        - {x: 25.5, y: 22.5}
+        - {x: 25.5, y: 20.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 35.5, y: 18.5}
+        - {x: 50.5, y: 20.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 51.5, y: 32.5}
+      - - {x: -26.5, y: 49.5}
+        - {x: -34.5, y: 49.5}
+        - {x: -35.5, y: 48.5}
+        - {x: -35.5, y: 38.5}
+        - {x: -31.5, y: 26.5}
+        - {x: -21.5, y: 26.5}
+        - {x: -21.5, y: 32.5}
+        - {x: -23.5, y: 48.5}
+      - - {x: 30.5, y: 50.5}
+        - {x: 23.5, y: 50.5}
+        - {x: 9.5, y: 35.5}
+        - {x: 9.5, y: 32.5}
+        - {x: 11.5, y: 29.5}
+        - {x: 14.5, y: 29.5}
+        - {x: 29.5, y: 38.5}
+        - {x: 32.5, y: 44.5}
+        - {x: 32.5, y: 49.5}
+      - - {x: -6.5, y: 57.5}
+        - {x: -8.5, y: 55.5}
+        - {x: -8.5, y: 35.5}
+        - {x: -7.5, y: 33.5}
+        - {x: -3.5, y: 33.5}
+        - {x: -0.5, y: 34.5}
+        - {x: 1.5, y: 51.5}
+        - {x: 1.5, y: 55.5}
+        - {x: 0.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_33
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 575
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -18.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 39.5, y: -21.5}
+        - {x: 56.5, y: -16.5}
+        - {x: 56.5, y: 25.5}
+        - {x: -52.5, y: 25.5}
+        - {x: -52.5, y: -51.5}
+        - {x: -44.5, y: -54.5}
+        - {x: 44.5, y: -54.5}
+        - {x: 48.5, y: -26.5}
+        - {x: 39.5, y: -22.5}
+        - {x: 32.5, y: -22.5}
+      - - {x: -49.5, y: 28.5}
+        - {x: -52.5, y: 27.5}
+        - {x: -52.5, y: 20.5}
+        - {x: -51.5, y: 16.5}
+        - {x: -39.5, y: 16.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -37.5, y: 22.5}
+        - {x: -44.5, y: 28.5}
+      - - {x: 39.5, y: 32.5}
+        - {x: 25.5, y: 28.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 31.5, y: 18.5}
+        - {x: 49.5, y: 20.5}
+        - {x: 51.5, y: 25.5}
+        - {x: 51.5, y: 32.5}
+      - - {x: -28.5, y: 49.5}
+        - {x: -34.5, y: 49.5}
+        - {x: -35.5, y: 46.5}
+        - {x: -35.5, y: 39.5}
+        - {x: -28.5, y: 28.5}
+        - {x: -26.5, y: 27.5}
+        - {x: -22.5, y: 27.5}
+        - {x: -21.5, y: 29.5}
+        - {x: -21.5, y: 40.5}
+        - {x: -22.5, y: 45.5}
+      - - {x: 31.5, y: 50.5}
+        - {x: 23.5, y: 50.5}
+        - {x: 9.5, y: 35.5}
+        - {x: 9.5, y: 32.5}
+        - {x: 11.5, y: 29.5}
+        - {x: 14.5, y: 29.5}
+        - {x: 29.5, y: 38.5}
+        - {x: 32.5, y: 44.5}
+        - {x: 32.5, y: 49.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 33.5}
+        - {x: -2.5, y: 33.5}
+        - {x: -0.5, y: 34.5}
+        - {x: 1.5, y: 43.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_34
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 575
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -19.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 20.5, y: -18.5}
+        - {x: 18.5, y: -12.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 55.5, y: -19.5}
+        - {x: 56.5, y: -18.5}
+        - {x: 56.5, y: 10.5}
+        - {x: 40.5, y: 25.5}
+        - {x: -6.5, y: 25.5}
+        - {x: -14.5, y: 14.5}
+        - {x: -41.5, y: 23.5}
+        - {x: -51.5, y: 15.5}
+        - {x: -51.5, y: -16.5}
+        - {x: -33.5, y: -54.5}
+        - {x: 29.5, y: -54.5}
+        - {x: 43.5, y: -40.5}
+        - {x: 41.5, y: -24.5}
+        - {x: 39.5, y: -22.5}
+      - - {x: -47.5, y: 29.5}
+        - {x: -52.5, y: 26.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -51.5, y: 18.5}
+        - {x: -42.5, y: 16.5}
+        - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: 22.5}
+        - {x: -44.5, y: 29.5}
+      - - {x: 50.5, y: 32.5}
+        - {x: 42.5, y: 32.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 25.5, y: 19.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 31.5, y: 18.5}
+        - {x: 47.5, y: 22.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 51.5, y: 30.5}
+      - - {x: -28.5, y: 49.5}
+        - {x: -31.5, y: 49.5}
+        - {x: -34.5, y: 48.5}
+        - {x: -34.5, y: 37.5}
+        - {x: -27.5, y: 27.5}
+        - {x: -22.5, y: 27.5}
+        - {x: -21.5, y: 29.5}
+        - {x: -21.5, y: 38.5}
+        - {x: -24.5, y: 45.5}
+      - - {x: 23.5, y: 50.5}
+        - {x: 17.5, y: 48.5}
+        - {x: 9.5, y: 34.5}
+        - {x: 9.5, y: 30.5}
+        - {x: 18.5, y: 30.5}
+        - {x: 31.5, y: 42.5}
+        - {x: 31.5, y: 50.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 33.5}
+        - {x: 1.5, y: 33.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_35
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 575
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -19.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 20.5, y: -18.5}
+        - {x: 18.5, y: -12.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 38.5, y: -19.5}
+        - {x: 50.5, y: -17.5}
+        - {x: 56.5, y: -14.5}
+        - {x: 56.5, y: -0.5}
+        - {x: 50.5, y: 14.5}
+        - {x: 40.5, y: 20.5}
+        - {x: 32.5, y: 11.5}
+        - {x: 25.5, y: 16.5}
+        - {x: 6.5, y: 29.5}
+        - {x: -52.5, y: 29.5}
+        - {x: -52.5, y: -21.5}
+        - {x: -44.5, y: -48.5}
+        - {x: -24.5, y: -54.5}
+        - {x: 15.5, y: -54.5}
+        - {x: 24.5, y: -52.5}
+        - {x: 43.5, y: -40.5}
+        - {x: 41.5, y: -24.5}
+        - {x: 39.5, y: -22.5}
+      - - {x: 50.5, y: 32.5}
+        - {x: 42.5, y: 32.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 25.5, y: 19.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 31.5, y: 18.5}
+        - {x: 47.5, y: 22.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 51.5, y: 30.5}
+      - - {x: -28.5, y: 49.5}
+        - {x: -31.5, y: 49.5}
+        - {x: -34.5, y: 48.5}
+        - {x: -34.5, y: 37.5}
+        - {x: -27.5, y: 27.5}
+        - {x: -22.5, y: 27.5}
+        - {x: -21.5, y: 29.5}
+        - {x: -21.5, y: 38.5}
+        - {x: -24.5, y: 45.5}
+      - - {x: 23.5, y: 50.5}
+        - {x: 17.5, y: 48.5}
+        - {x: 9.5, y: 34.5}
+        - {x: 9.5, y: 30.5}
+        - {x: 18.5, y: 30.5}
+        - {x: 31.5, y: 42.5}
+        - {x: 31.5, y: 50.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 33.5}
+        - {x: 1.5, y: 33.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -18.5}
+        - {x: 20.5, y: -18.5}
+        - {x: 18.5, y: -12.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 39.5, y: -22.5}
+        - {x: 56.5, y: -14.5}
+        - {x: 56.5, y: 5.5}
+        - {x: 40.5, y: 27.5}
+        - {x: 0.5, y: 26.5}
+        - {x: -14.5, y: 14.5}
+        - {x: -19.5, y: 1.5}
+        - {x: -19.5, y: -1.5}
+        - {x: -37.5, y: 24.5}
+        - {x: -45.5, y: 29.5}
+        - {x: -51.5, y: 29.5}
+        - {x: -52.5, y: 27.5}
+        - {x: -52.5, y: -12.5}
+        - {x: -33.5, y: -54.5}
+        - {x: 33.5, y: -54.5}
+        - {x: 49.5, y: -36.5}
+        - {x: 39.5, y: -22.5}
+        - {x: 28.5, y: -19.5}
+      - - {x: 50.5, y: 32.5}
+        - {x: 42.5, y: 32.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 25.5, y: 19.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 31.5, y: 18.5}
+        - {x: 47.5, y: 22.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 51.5, y: 30.5}
+      - - {x: -34.5, y: 49.5}
+        - {x: -34.5, y: 37.5}
+        - {x: -29.5, y: 27.5}
+        - {x: -21.5, y: 27.5}
+        - {x: -21.5, y: 39.5}
+        - {x: -26.5, y: 49.5}
+      - - {x: 23.5, y: 50.5}
+        - {x: 10.5, y: 36.5}
+        - {x: 10.5, y: 32.5}
+        - {x: 11.5, y: 30.5}
+        - {x: 16.5, y: 30.5}
+        - {x: 31.5, y: 42.5}
+        - {x: 31.5, y: 49.5}
+        - {x: 29.5, y: 50.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 33.5}
+        - {x: -2.5, y: 33.5}
+        - {x: -0.5, y: 34.5}
+        - {x: 1.5, y: 42.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 460
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -18.5}
+        - {x: 20.5, y: -18.5}
+        - {x: 24.5, y: -16.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 39.5, y: -21.5}
+        - {x: 56.5, y: -14.5}
+        - {x: 56.5, y: 4.5}
+        - {x: 49.5, y: 29.5}
+        - {x: -52.5, y: 29.5}
+        - {x: -52.5, y: -15.5}
+        - {x: -34.5, y: -54.5}
+        - {x: 17.5, y: -54.5}
+        - {x: 47.5, y: -47.5}
+        - {x: 43.5, y: -22.5}
+        - {x: 39.5, y: -22.5}
+        - {x: 34.5, y: -23.5}
+      - - {x: 42.5, y: 33.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 25.5, y: 20.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 38.5, y: 18.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 51.5, y: 31.5}
+        - {x: 47.5, y: 33.5}
+      - - {x: -34.5, y: 49.5}
+        - {x: -34.5, y: 37.5}
+        - {x: -29.5, y: 27.5}
+        - {x: -21.5, y: 27.5}
+        - {x: -21.5, y: 39.5}
+        - {x: -26.5, y: 49.5}
+      - - {x: 23.5, y: 50.5}
+        - {x: 10.5, y: 36.5}
+        - {x: 10.5, y: 32.5}
+        - {x: 11.5, y: 30.5}
+        - {x: 16.5, y: 30.5}
+        - {x: 31.5, y: 42.5}
+        - {x: 31.5, y: 49.5}
+        - {x: 29.5, y: 50.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 33.5}
+        - {x: -3.5, y: 33.5}
+        - {x: -1.5, y: 35.5}
+        - {x: 1.5, y: 48.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_38
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 460
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -23.5}
+        - {x: 26.5, y: -18.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 38.5, y: -20.5}
+        - {x: 56.5, y: -16.5}
+        - {x: 56.5, y: 22.5}
+        - {x: 55.5, y: 29.5}
+        - {x: -52.5, y: 29.5}
+        - {x: -52.5, y: 4.5}
+        - {x: -50.5, y: -12.5}
+        - {x: -35.5, y: -41.5}
+        - {x: -16.5, y: -54.5}
+        - {x: 14.5, y: -54.5}
+        - {x: 25.5, y: -52.5}
+        - {x: 45.5, y: -40.5}
+        - {x: 44.5, y: -28.5}
+        - {x: 39.5, y: -22.5}
+      - - {x: 47.5, y: 33.5}
+        - {x: 42.5, y: 33.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 32.5, y: 18.5}
+        - {x: 47.5, y: 22.5}
+        - {x: 51.5, y: 26.5}
+        - {x: 51.5, y: 31.5}
+      - - {x: -30.5, y: 49.5}
+        - {x: -34.5, y: 47.5}
+        - {x: -34.5, y: 39.5}
+        - {x: -31.5, y: 27.5}
+        - {x: -22.5, y: 27.5}
+        - {x: -21.5, y: 28.5}
+        - {x: -21.5, y: 33.5}
+        - {x: -24.5, y: 46.5}
+        - {x: -26.5, y: 48.5}
+      - - {x: 10.5, y: 29.5}
+        - {x: 15.5, y: 29.5}
+        - {x: 31.5, y: 39.5}
+        - {x: 31.5, y: 50.5}
+        - {x: 25.5, y: 50.5}
+        - {x: 10.5, y: 35.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 33.5}
+        - {x: -2.5, y: 33.5}
+        - {x: -0.5, y: 34.5}
+        - {x: 1.5, y: 46.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_39
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 460
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -23.5}
+        - {x: 26.5, y: -18.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 39.5, y: -19.5}
+        - {x: 56.5, y: -15.5}
+        - {x: 56.5, y: 25.5}
+        - {x: 45.5, y: 29.5}
+        - {x: -52.5, y: 29.5}
+        - {x: -52.5, y: -15.5}
+        - {x: -35.5, y: -54.5}
+        - {x: 26.5, y: -54.5}
+        - {x: 46.5, y: -41.5}
+        - {x: 43.5, y: -28.5}
+        - {x: 39.5, y: -22.5}
+      - - {x: 47.5, y: 33.5}
+        - {x: 42.5, y: 33.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 32.5, y: 18.5}
+        - {x: 47.5, y: 22.5}
+        - {x: 51.5, y: 26.5}
+        - {x: 51.5, y: 31.5}
+      - - {x: -34.5, y: 40.5}
+        - {x: -28.5, y: 27.5}
+        - {x: -21.5, y: 27.5}
+        - {x: -21.5, y: 37.5}
+        - {x: -23.5, y: 47.5}
+        - {x: -28.5, y: 49.5}
+        - {x: -31.5, y: 49.5}
+        - {x: -34.5, y: 45.5}
+      - - {x: 23.5, y: 50.5}
+        - {x: 10.5, y: 33.5}
+        - {x: 10.5, y: 30.5}
+        - {x: 12.5, y: 29.5}
+        - {x: 18.5, y: 29.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 31.5, y: 50.5}
+      - - {x: -6.5, y: 57.5}
+        - {x: -8.5, y: 56.5}
+        - {x: -8.5, y: 34.5}
+        - {x: -7.5, y: 33.5}
+        - {x: -1.5, y: 33.5}
+        - {x: 1.5, y: 43.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_40
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 460
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -18.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 33.5, y: -20.5}
+        - {x: 44.5, y: -20.5}
+        - {x: 56.5, y: -14.5}
+        - {x: 56.5, y: 1.5}
+        - {x: 43.5, y: 22.5}
+        - {x: 16.5, y: 30.5}
+        - {x: -52.5, y: 30.5}
+        - {x: -52.5, y: -29.5}
+        - {x: -31.5, y: -54.5}
+        - {x: 36.5, y: -54.5}
+        - {x: 51.5, y: -44.5}
+        - {x: 45.5, y: -31.5}
+        - {x: 40.5, y: -21.5}
+        - {x: 34.5, y: -23.5}
+      - - {x: 42.5, y: 33.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 35.5, y: 18.5}
+        - {x: 48.5, y: 21.5}
+        - {x: 52.5, y: 27.5}
+        - {x: 52.5, y: 31.5}
+        - {x: 49.5, y: 33.5}
+      - - {x: -30.5, y: 49.5}
+        - {x: -34.5, y: 47.5}
+        - {x: -34.5, y: 39.5}
+        - {x: -30.5, y: 28.5}
+        - {x: -28.5, y: 27.5}
+        - {x: -23.5, y: 27.5}
+        - {x: -21.5, y: 28.5}
+        - {x: -21.5, y: 33.5}
+        - {x: -24.5, y: 46.5}
+        - {x: -26.5, y: 48.5}
+      - - {x: 23.5, y: 50.5}
+        - {x: 10.5, y: 35.5}
+        - {x: 10.5, y: 30.5}
+        - {x: 11.5, y: 29.5}
+        - {x: 16.5, y: 29.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 31.5, y: 50.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 35.5}
+        - {x: -5.5, y: 32.5}
+        - {x: -1.5, y: 32.5}
+        - {x: 1.5, y: 41.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_41
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 460
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -18.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 40.5, y: -21.5}
+        - {x: 56.5, y: -16.5}
+        - {x: 56.5, y: 2.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 38.5, y: 19.5}
+        - {x: 36.5, y: 15.5}
+        - {x: 36.5, y: 14.5}
+        - {x: 29.5, y: 21.5}
+        - {x: -6.5, y: 30.5}
+        - {x: -52.5, y: 30.5}
+        - {x: -52.5, y: -21.5}
+        - {x: -31.5, y: -54.5}
+        - {x: 26.5, y: -54.5}
+        - {x: 56.5, y: -46.5}
+        - {x: 43.5, y: -23.5}
+        - {x: 36.5, y: -22.5}
+        - {x: 34.5, y: -24.5}
+      - - {x: 42.5, y: 33.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 35.5, y: 18.5}
+        - {x: 48.5, y: 21.5}
+        - {x: 52.5, y: 27.5}
+        - {x: 52.5, y: 31.5}
+        - {x: 49.5, y: 33.5}
+      - - {x: -34.5, y: 49.5}
+        - {x: -34.5, y: 36.5}
+        - {x: -32.5, y: 27.5}
+        - {x: -23.5, y: 27.5}
+        - {x: -21.5, y: 28.5}
+        - {x: -21.5, y: 37.5}
+        - {x: -22.5, y: 46.5}
+        - {x: -27.5, y: 49.5}
+      - - {x: 23.5, y: 50.5}
+        - {x: 10.5, y: 35.5}
+        - {x: 10.5, y: 29.5}
+        - {x: 17.5, y: 29.5}
+        - {x: 30.5, y: 36.5}
+        - {x: 31.5, y: 40.5}
+        - {x: 31.5, y: 49.5}
+        - {x: 29.5, y: 50.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 32.5}
+        - {x: -1.5, y: 32.5}
+        - {x: 1.5, y: 35.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_42
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 460
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -23.5}
+        - {x: 26.5, y: -18.5}
+        - {x: 30.5, y: -20.5}
+        - {x: 36.5, y: -21.5}
+        - {x: 56.5, y: -20.5}
+        - {x: 56.5, y: 8.5}
+        - {x: 46.5, y: 19.5}
+        - {x: 18.5, y: 30.5}
+        - {x: 0.5, y: 30.5}
+        - {x: -13.5, y: 20.5}
+        - {x: -32.5, y: 30.5}
+        - {x: -49.5, y: 30.5}
+        - {x: -52.5, y: 25.5}
+        - {x: -52.5, y: -2.5}
+        - {x: -51.5, y: -11.5}
+        - {x: -43.5, y: -17.5}
+        - {x: -31.5, y: -19.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -32.5, y: -20.5}
+        - {x: -36.5, y: -41.5}
+        - {x: -16.5, y: -54.5}
+        - {x: -5.5, y: -54.5}
+        - {x: 26.5, y: -51.5}
+        - {x: 44.5, y: -40.5}
+        - {x: 42.5, y: -24.5}
+        - {x: 40.5, y: -22.5}
+      - - {x: 41.5, y: 33.5}
+        - {x: 26.5, y: 28.5}
+        - {x: 25.5, y: 21.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 31.5, y: 18.5}
+        - {x: 48.5, y: 20.5}
+        - {x: 52.5, y: 26.5}
+        - {x: 52.5, y: 33.5}
+      - - {x: -34.5, y: 39.5}
+        - {x: -30.5, y: 28.5}
+        - {x: -28.5, y: 27.5}
+        - {x: -22.5, y: 27.5}
+        - {x: -20.5, y: 28.5}
+        - {x: -20.5, y: 34.5}
+        - {x: -23.5, y: 46.5}
+        - {x: -28.5, y: 49.5}
+        - {x: -32.5, y: 49.5}
+        - {x: -34.5, y: 47.5}
+      - - {x: 16.5, y: 50.5}
+        - {x: 12.5, y: 49.5}
+        - {x: 10.5, y: 41.5}
+        - {x: 10.5, y: 29.5}
+        - {x: 18.5, y: 29.5}
+        - {x: 29.5, y: 38.5}
+        - {x: 31.5, y: 43.5}
+        - {x: 31.5, y: 50.5}
+      - - {x: -6.5, y: 57.5}
+        - {x: -8.5, y: 54.5}
+        - {x: -8.5, y: 46.5}
+        - {x: -7.5, y: 34.5}
+        - {x: -6.5, y: 32.5}
+        - {x: -2.5, y: 32.5}
+        - {x: 0.5, y: 34.5}
+        - {x: 1.5, y: 37.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_43
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 460
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.5, y: 30.5}
+        - {x: -52.5, y: -36.5}
+        - {x: -42.5, y: -54.5}
+        - {x: 56.5, y: -54.5}
+        - {x: 56.5, y: 26.5}
+        - {x: 18.5, y: 30.5}
+      - - {x: 41.5, y: 32.5}
+        - {x: 27.5, y: 27.5}
+        - {x: 25.5, y: 21.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 32.5, y: 18.5}
+        - {x: 48.5, y: 20.5}
+        - {x: 52.5, y: 26.5}
+        - {x: 52.5, y: 32.5}
+      - - {x: -34.5, y: 37.5}
+        - {x: -27.5, y: 27.5}
+        - {x: -20.5, y: 27.5}
+        - {x: -20.5, y: 35.5}
+        - {x: -22.5, y: 46.5}
+        - {x: -26.5, y: 48.5}
+        - {x: -33.5, y: 48.5}
+        - {x: -34.5, y: 44.5}
+      - - {x: 22.5, y: 50.5}
+        - {x: 10.5, y: 37.5}
+        - {x: 10.5, y: 29.5}
+        - {x: 15.5, y: 29.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 31.5, y: 50.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 38.5}
+        - {x: -7.5, y: 32.5}
+        - {x: 0.5, y: 32.5}
+        - {x: 1.5, y: 37.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_44
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 460
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.5, y: 30.5}
+        - {x: -52.5, y: -26.5}
+        - {x: -36.5, y: -54.5}
+        - {x: 56.5, y: -54.5}
+        - {x: 56.5, y: 23.5}
+        - {x: 16.5, y: 30.5}
+      - - {x: 41.5, y: 32.5}
+        - {x: 27.5, y: 27.5}
+        - {x: 25.5, y: 21.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 32.5, y: 18.5}
+        - {x: 49.5, y: 19.5}
+        - {x: 52.5, y: 26.5}
+        - {x: 52.5, y: 32.5}
+      - - {x: -26.5, y: 48.5}
+        - {x: -32.5, y: 48.5}
+        - {x: -34.5, y: 44.5}
+        - {x: -34.5, y: 38.5}
+        - {x: -26.5, y: 26.5}
+        - {x: -23.5, y: 26.5}
+        - {x: -20.5, y: 28.5}
+        - {x: -20.5, y: 31.5}
+        - {x: -22.5, y: 47.5}
+      - - {x: 22.5, y: 50.5}
+        - {x: 10.5, y: 37.5}
+        - {x: 10.5, y: 29.5}
+        - {x: 17.5, y: 29.5}
+        - {x: 31.5, y: 42.5}
+        - {x: 31.5, y: 50.5}
+      - - {x: -8.5, y: 57.5}
+        - {x: -8.5, y: 33.5}
+        - {x: -6.5, y: 32.5}
+        - {x: -0.5, y: 32.5}
+        - {x: 1.5, y: 40.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 30.5}
+        - {x: -51.5, y: 30.5}
+        - {x: -51.5, y: -15.5}
+        - {x: -27.5, y: -54.5}
+        - {x: 33.5, y: -54.5}
+        - {x: 43.5, y: -42.5}
+        - {x: 56.5, y: -29.5}
+        - {x: 56.5, y: 27.5}
+      - - {x: 51.5, y: 32.5}
+        - {x: 43.5, y: 32.5}
+        - {x: 27.5, y: 28.5}
+        - {x: 25.5, y: 23.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 28.5, y: 17.5}
+        - {x: 34.5, y: 17.5}
+        - {x: 49.5, y: 21.5}
+        - {x: 52.5, y: 27.5}
+        - {x: 52.5, y: 31.5}
+      - - {x: -26.5, y: 48.5}
+        - {x: -32.5, y: 48.5}
+        - {x: -34.5, y: 44.5}
+        - {x: -34.5, y: 40.5}
+        - {x: -26.5, y: 26.5}
+        - {x: -21.5, y: 26.5}
+        - {x: -20.5, y: 28.5}
+        - {x: -20.5, y: 37.5}
+        - {x: -22.5, y: 46.5}
+      - - {x: 23.5, y: 50.5}
+        - {x: 10.5, y: 34.5}
+        - {x: 10.5, y: 28.5}
+        - {x: 18.5, y: 28.5}
+        - {x: 31.5, y: 42.5}
+        - {x: 31.5, y: 49.5}
+        - {x: 30.5, y: 50.5}
+      - - {x: -5.5, y: 57.5}
+        - {x: -8.5, y: 55.5}
+        - {x: -8.5, y: 32.5}
+        - {x: -1.5, y: 32.5}
+        - {x: -0.5, y: 34.5}
+        - {x: 1.5, y: 41.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_46
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 345
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: -20.5}
+        - {x: -22.5, y: -55.5}
+        - {x: 56.5, y: -55.5}
+        - {x: 56.5, y: 30.5}
+        - {x: -47.5, y: 30.5}
+        - {x: -51.5, y: 28.5}
+      - - {x: 42.5, y: 32.5}
+        - {x: 27.5, y: 28.5}
+        - {x: 25.5, y: 26.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 52.5, y: 17.5}
+        - {x: 52.5, y: 32.5}
+      - - {x: -26.5, y: 48.5}
+        - {x: -32.5, y: 48.5}
+        - {x: -34.5, y: 44.5}
+        - {x: -34.5, y: 40.5}
+        - {x: -30.5, y: 28.5}
+        - {x: -26.5, y: 26.5}
+        - {x: -20.5, y: 26.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -22.5, y: 47.5}
+      - - {x: 31.5, y: 50.5}
+        - {x: 25.5, y: 50.5}
+        - {x: 18.5, y: 46.5}
+        - {x: 11.5, y: 32.5}
+        - {x: 11.5, y: 28.5}
+        - {x: 17.5, y: 28.5}
+        - {x: 30.5, y: 40.5}
+        - {x: 31.5, y: 43.5}
+      - - {x: 1.5, y: 57.5}
+        - {x: -5.5, y: 57.5}
+        - {x: -8.5, y: 54.5}
+        - {x: -8.5, y: 33.5}
+        - {x: -5.5, y: 32.5}
+        - {x: -1.5, y: 32.5}
+        - {x: -0.5, y: 34.5}
+        - {x: 1.5, y: 40.5}
+    - name: ALAKAZAM-MEGA_47
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 345
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 30.5}
+        - {x: -51.5, y: 30.5}
+        - {x: -51.5, y: -16.5}
+        - {x: -34.5, y: -55.5}
+        - {x: 41.5, y: -55.5}
+        - {x: 56.5, y: -53.5}
+        - {x: 56.5, y: 3.5}
+        - {x: 49.5, y: 24.5}
+      - - {x: 39.5, y: 32.5}
+        - {x: 30.5, y: 26.5}
+        - {x: 26.5, y: 21.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 39.5, y: 17.5}
+        - {x: 52.5, y: 23.5}
+        - {x: 52.5, y: 31.5}
+        - {x: 50.5, y: 32.5}
+      - - {x: -28.5, y: 48.5}
+        - {x: -31.5, y: 48.5}
+        - {x: -34.5, y: 44.5}
+        - {x: -34.5, y: 40.5}
+        - {x: -30.5, y: 28.5}
+        - {x: -26.5, y: 26.5}
+        - {x: -20.5, y: 26.5}
+        - {x: -20.5, y: 31.5}
+        - {x: -23.5, y: 46.5}
+      - - {x: 24.5, y: 49.5}
+        - {x: 18.5, y: 46.5}
+        - {x: 11.5, y: 35.5}
+        - {x: 11.5, y: 29.5}
+        - {x: 12.5, y: 28.5}
+        - {x: 17.5, y: 28.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 31.5, y: 49.5}
+      - - {x: 1.5, y: 57.5}
+        - {x: -5.5, y: 57.5}
+        - {x: -8.5, y: 54.5}
+        - {x: -8.5, y: 32.5}
+        - {x: -5.5, y: 31.5}
+        - {x: -3.5, y: 31.5}
+        - {x: -0.5, y: 34.5}
+        - {x: 1.5, y: 39.5}
+    - name: ALAKAZAM-MEGA_48
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 345
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 30.5}
+        - {x: -51.5, y: -26.5}
+        - {x: -45.5, y: -47.5}
+        - {x: -22.5, y: -55.5}
+        - {x: 18.5, y: -55.5}
+        - {x: 23.5, y: -54.5}
+        - {x: 56.5, y: -46.5}
+        - {x: 56.5, y: 29.5}
+        - {x: 32.5, y: 30.5}
+      - - {x: 52.5, y: 30.5}
+        - {x: 51.5, y: 32.5}
+        - {x: 43.5, y: 32.5}
+        - {x: 28.5, y: 25.5}
+        - {x: 26.5, y: 23.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 36.5, y: 17.5}
+        - {x: 47.5, y: 21.5}
+        - {x: 52.5, y: 26.5}
+      - - {x: -25.5, y: 47.5}
+        - {x: -33.5, y: 47.5}
+        - {x: -34.5, y: 44.5}
+        - {x: -34.5, y: 36.5}
+        - {x: -25.5, y: 26.5}
+        - {x: -22.5, y: 26.5}
+        - {x: -20.5, y: 27.5}
+        - {x: -20.5, y: 31.5}
+        - {x: -22.5, y: 46.5}
+      - - {x: 24.5, y: 49.5}
+        - {x: 11.5, y: 33.5}
+        - {x: 11.5, y: 29.5}
+        - {x: 13.5, y: 28.5}
+        - {x: 19.5, y: 28.5}
+        - {x: 30.5, y: 37.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 31.5, y: 49.5}
+      - - {x: -5.5, y: 57.5}
+        - {x: -8.5, y: 53.5}
+        - {x: -8.5, y: 33.5}
+        - {x: -7.5, y: 31.5}
+        - {x: -2.5, y: 31.5}
+        - {x: -0.5, y: 32.5}
+        - {x: 1.5, y: 38.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_49
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 345
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 30.5}
+        - {x: -51.5, y: -25.5}
+        - {x: -23.5, y: -55.5}
+        - {x: 25.5, y: -55.5}
+        - {x: 49.5, y: -46.5}
+        - {x: 56.5, y: -30.5}
+        - {x: 56.5, y: 26.5}
+        - {x: 55.5, y: 30.5}
+      - - {x: 44.5, y: 32.5}
+        - {x: 26.5, y: 25.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 34.5, y: 17.5}
+        - {x: 52.5, y: 22.5}
+        - {x: 52.5, y: 31.5}
+        - {x: 51.5, y: 32.5}
+      - - {x: -26.5, y: 47.5}
+        - {x: -32.5, y: 47.5}
+        - {x: -34.5, y: 44.5}
+        - {x: -34.5, y: 33.5}
+        - {x: -26.5, y: 25.5}
+        - {x: -20.5, y: 25.5}
+        - {x: -20.5, y: 37.5}
+        - {x: -22.5, y: 46.5}
+      - - {x: 23.5, y: 49.5}
+        - {x: 11.5, y: 33.5}
+        - {x: 11.5, y: 28.5}
+        - {x: 13.5, y: 27.5}
+        - {x: 17.5, y: 27.5}
+        - {x: 31.5, y: 42.5}
+        - {x: 31.5, y: 49.5}
+      - - {x: 1.5, y: 57.5}
+        - {x: -3.5, y: 57.5}
+        - {x: -8.5, y: 52.5}
+        - {x: -8.5, y: 36.5}
+        - {x: -7.5, y: 31.5}
+        - {x: -2.5, y: 31.5}
+        - {x: -0.5, y: 33.5}
+        - {x: 1.5, y: 40.5}
+    - name: ALAKAZAM-MEGA_50
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 345
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 18.5}
+        - {x: 23.5, y: 24.5}
+        - {x: -3.5, y: 24.5}
+        - {x: -14.5, y: 12.5}
+        - {x: -18.5, y: 0.5}
+        - {x: -35.5, y: 13.5}
+        - {x: -50.5, y: 21.5}
+        - {x: -50.5, y: -33.5}
+        - {x: -27.5, y: -55.5}
+        - {x: 37.5, y: -55.5}
+        - {x: 56.5, y: -28.5}
+        - {x: 56.5, y: 1.5}
+        - {x: 49.5, y: 18.5}
+      - - {x: -48.5, y: 29.5}
+        - {x: -51.5, y: 26.5}
+        - {x: -51.5, y: 20.5}
+        - {x: -43.5, y: 14.5}
+        - {x: -37.5, y: 14.5}
+        - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: 22.5}
+        - {x: -43.5, y: 29.5}
+      - - {x: 38.5, y: 31.5}
+        - {x: 29.5, y: 25.5}
+        - {x: 26.5, y: 20.5}
+        - {x: 26.5, y: 16.5}
+        - {x: 38.5, y: 16.5}
+        - {x: 52.5, y: 23.5}
+        - {x: 52.5, y: 30.5}
+        - {x: 49.5, y: 31.5}
+      - - {x: -30.5, y: 47.5}
+        - {x: -34.5, y: 45.5}
+        - {x: -34.5, y: 38.5}
+        - {x: -26.5, y: 25.5}
+        - {x: -20.5, y: 25.5}
+        - {x: -19.5, y: 27.5}
+        - {x: -19.5, y: 35.5}
+        - {x: -24.5, y: 47.5}
+      - - {x: 21.5, y: 49.5}
+        - {x: 11.5, y: 37.5}
+        - {x: 11.5, y: 27.5}
+        - {x: 17.5, y: 27.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 31.5, y: 49.5}
+      - - {x: -5.5, y: 57.5}
+        - {x: -8.5, y: 53.5}
+        - {x: -8.5, y: 41.5}
+        - {x: -7.5, y: 33.5}
+        - {x: -5.5, y: 31.5}
+        - {x: -0.5, y: 31.5}
+        - {x: 1.5, y: 41.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_51
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 345
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 29.5}
+        - {x: -51.5, y: -27.5}
+        - {x: -25.5, y: -55.5}
+        - {x: 33.5, y: -55.5}
+        - {x: 56.5, y: -28.5}
+        - {x: 56.5, y: 29.5}
+      - - {x: 41.5, y: 31.5}
+        - {x: 26.5, y: 22.5}
+        - {x: 26.5, y: 16.5}
+        - {x: 52.5, y: 16.5}
+        - {x: 52.5, y: 30.5}
+        - {x: 49.5, y: 31.5}
+      - - {x: -28.5, y: 47.5}
+        - {x: -31.5, y: 47.5}
+        - {x: -34.5, y: 43.5}
+        - {x: -34.5, y: 37.5}
+        - {x: -28.5, y: 30.5}
+        - {x: -24.5, y: 25.5}
+        - {x: -21.5, y: 25.5}
+        - {x: -20.5, y: 27.5}
+        - {x: -20.5, y: 36.5}
+        - {x: -23.5, y: 45.5}
+      - - {x: 26.5, y: 49.5}
+        - {x: 19.5, y: 45.5}
+        - {x: 11.5, y: 34.5}
+        - {x: 11.5, y: 28.5}
+        - {x: 12.5, y: 27.5}
+        - {x: 17.5, y: 27.5}
+        - {x: 31.5, y: 42.5}
+        - {x: 31.5, y: 47.5}
+        - {x: 30.5, y: 49.5}
+      - - {x: -6.5, y: 57.5}
+        - {x: -8.5, y: 55.5}
+        - {x: -8.5, y: 31.5}
+        - {x: -0.5, y: 31.5}
+        - {x: 1.5, y: 40.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_52
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 345
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 23.5}
+        - {x: -50.5, y: 13.5}
+        - {x: -50.5, y: -32.5}
+        - {x: -22.5, y: -56.5}
+        - {x: 37.5, y: -56.5}
+        - {x: 56.5, y: -51.5}
+        - {x: 56.5, y: 23.5}
+      - - {x: -44.5, y: 29.5}
+        - {x: -51.5, y: 29.5}
+        - {x: -51.5, y: 18.5}
+        - {x: -44.5, y: 13.5}
+        - {x: -38.5, y: 13.5}
+        - {x: -36.5, y: 15.5}
+        - {x: -36.5, y: 22.5}
+      - - {x: 39.5, y: 31.5}
+        - {x: 29.5, y: 26.5}
+        - {x: 26.5, y: 21.5}
+        - {x: 26.5, y: 16.5}
+        - {x: 28.5, y: 16.5}
+        - {x: 48.5, y: 19.5}
+        - {x: 52.5, y: 25.5}
+        - {x: 52.5, y: 31.5}
+      - - {x: -34.5, y: 36.5}
+        - {x: -26.5, y: 25.5}
+        - {x: -19.5, y: 25.5}
+        - {x: -19.5, y: 33.5}
+        - {x: -22.5, y: 44.5}
+        - {x: -28.5, y: 47.5}
+        - {x: -32.5, y: 47.5}
+        - {x: -34.5, y: 43.5}
+      - - {x: 23.5, y: 49.5}
+        - {x: 11.5, y: 34.5}
+        - {x: 11.5, y: 27.5}
+        - {x: 18.5, y: 27.5}
+        - {x: 31.5, y: 35.5}
+        - {x: 31.5, y: 47.5}
+        - {x: 29.5, y: 49.5}
+      - - {x: -6.5, y: 57.5}
+        - {x: -8.5, y: 55.5}
+        - {x: -8.5, y: 30.5}
+        - {x: -0.5, y: 30.5}
+        - {x: 1.5, y: 40.5}
+        - {x: 1.5, y: 57.5}
+    - name: ALAKAZAM-MEGA_53
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 345
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 23.5}
+        - {x: -50.5, y: -13.5}
+        - {x: -46.5, y: -19.5}
+        - {x: -34.5, y: -20.5}
+        - {x: -30.5, y: -21.5}
+        - {x: -34.5, y: -25.5}
+        - {x: -34.5, y: -37.5}
+        - {x: -20.5, y: -51.5}
+        - {x: -6.5, y: -56.5}
+        - {x: 41.5, y: -56.5}
+        - {x: 56.5, y: -37.5}
+        - {x: 56.5, y: 18.5}
+        - {x: 34.5, y: 23.5}
+      - - {x: -47.5, y: 29.5}
+        - {x: -51.5, y: 25.5}
+        - {x: -51.5, y: 19.5}
+        - {x: -43.5, y: 13.5}
+        - {x: -38.5, y: 13.5}
+        - {x: -36.5, y: 15.5}
+        - {x: -36.5, y: 18.5}
+        - {x: -44.5, y: 29.5}
+      - - {x: 44.5, y: 31.5}
+        - {x: 26.5, y: 24.5}
+        - {x: 26.5, y: 16.5}
+        - {x: 34.5, y: 16.5}
+        - {x: 52.5, y: 21.5}
+        - {x: 52.5, y: 30.5}
+        - {x: 51.5, y: 31.5}
+      - - {x: -25.5, y: 46.5}
+        - {x: -33.5, y: 46.5}
+        - {x: -34.5, y: 43.5}
+        - {x: -34.5, y: 35.5}
+        - {x: -28.5, y: 26.5}
+        - {x: -25.5, y: 24.5}
+        - {x: -20.5, y: 24.5}
+        - {x: -19.5, y: 27.5}
+        - {x: -19.5, y: 33.5}
+        - {x: -22.5, y: 45.5}
+      - - {x: 23.5, y: 48.5}
+        - {x: 11.5, y: 30.5}
+        - {x: 11.5, y: 27.5}
+        - {x: 13.5, y: 26.5}
+        - {x: 19.5, y: 26.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 31.5, y: 47.5}
+        - {x: 29.5, y: 48.5}
+      - - {x: -5.5, y: 56.5}
+        - {x: -8.5, y: 51.5}
+        - {x: -8.5, y: 30.5}
+        - {x: -1.5, y: 30.5}
+        - {x: 1.5, y: 37.5}
+        - {x: 1.5, y: 56.5}
+    - name: ALAKAZAM-MEGA_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -22.5}
+        - {x: 40.5, y: -22.5}
+        - {x: 50.5, y: -21.5}
+        - {x: 56.5, y: -19.5}
+        - {x: 56.5, y: -1.5}
+        - {x: 53.5, y: 8.5}
+        - {x: 45.5, y: 13.5}
+        - {x: 40.5, y: 13.5}
+        - {x: 37.5, y: 10.5}
+        - {x: 14.5, y: 23.5}
+        - {x: -17.5, y: 23.5}
+        - {x: -50.5, y: 17.5}
+        - {x: -50.5, y: -56.5}
+        - {x: 40.5, y: -56.5}
+        - {x: 51.5, y: -34.5}
+        - {x: 43.5, y: -23.5}
+        - {x: 41.5, y: -22.5}
+      - - {x: -47.5, y: 29.5}
+        - {x: -51.5, y: 27.5}
+        - {x: -51.5, y: 19.5}
+        - {x: -44.5, y: 13.5}
+        - {x: -37.5, y: 13.5}
+        - {x: -36.5, y: 15.5}
+        - {x: -36.5, y: 21.5}
+        - {x: -42.5, y: 29.5}
+      - - {x: 42.5, y: 30.5}
+        - {x: 27.5, y: 26.5}
+        - {x: 26.5, y: 24.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 52.5, y: 15.5}
+        - {x: 52.5, y: 30.5}
+      - - {x: -33.5, y: 46.5}
+        - {x: -34.5, y: 43.5}
+        - {x: -34.5, y: 34.5}
+        - {x: -26.5, y: 24.5}
+        - {x: -19.5, y: 24.5}
+        - {x: -19.5, y: 30.5}
+        - {x: -24.5, y: 42.5}
+        - {x: -28.5, y: 46.5}
+      - - {x: 21.5, y: 48.5}
+        - {x: 11.5, y: 34.5}
+        - {x: 11.5, y: 27.5}
+        - {x: 13.5, y: 26.5}
+        - {x: 19.5, y: 26.5}
+        - {x: 31.5, y: 40.5}
+        - {x: 31.5, y: 47.5}
+        - {x: 29.5, y: 48.5}
+      - - {x: -3.5, y: 56.5}
+        - {x: -8.5, y: 53.5}
+        - {x: -8.5, y: 30.5}
+        - {x: -0.5, y: 30.5}
+        - {x: 2.5, y: 43.5}
+        - {x: 2.5, y: 53.5}
+        - {x: -1.5, y: 56.5}
+    - name: ALAKAZAM-MEGA_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 230
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 6.5}
+        - {x: 26.5, y: 13.5}
+        - {x: 6.5, y: 23.5}
+        - {x: 2.5, y: 23.5}
+        - {x: -0.5, y: 22.5}
+        - {x: -13.5, y: 11.5}
+        - {x: -19.5, y: 0.5}
+        - {x: -39.5, y: 14.5}
+        - {x: -51.5, y: 13.5}
+        - {x: -51.5, y: -22.5}
+        - {x: -40.5, y: -56.5}
+        - {x: 47.5, y: -56.5}
+        - {x: 56.5, y: -53.5}
+        - {x: 56.5, y: 14.5}
+        - {x: 40.5, y: 14.5}
+      - - {x: -49.5, y: 28.5}
+        - {x: -51.5, y: 25.5}
+        - {x: -51.5, y: 18.5}
+        - {x: -45.5, y: 12.5}
+        - {x: -38.5, y: 12.5}
+        - {x: -36.5, y: 13.5}
+        - {x: -36.5, y: 18.5}
+        - {x: -43.5, y: 28.5}
+      - - {x: 51.5, y: 30.5}
+        - {x: 44.5, y: 30.5}
+        - {x: 30.5, y: 24.5}
+        - {x: 26.5, y: 19.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 36.5, y: 15.5}
+        - {x: 46.5, y: 18.5}
+        - {x: 52.5, y: 22.5}
+        - {x: 52.5, y: 27.5}
+      - - {x: -26.5, y: 46.5}
+        - {x: -35.5, y: 46.5}
+        - {x: -35.5, y: 35.5}
+        - {x: -32.5, y: 24.5}
+        - {x: -19.5, y: 24.5}
+        - {x: -19.5, y: 31.5}
+        - {x: -24.5, y: 42.5}
+      - - {x: 22.5, y: 48.5}
+        - {x: 11.5, y: 35.5}
+        - {x: 11.5, y: 26.5}
+        - {x: 17.5, y: 26.5}
+        - {x: 31.5, y: 38.5}
+        - {x: 31.5, y: 46.5}
+        - {x: 30.5, y: 48.5}
+      - - {x: -3.5, y: 56.5}
+        - {x: -7.5, y: 53.5}
+        - {x: -8.5, y: 51.5}
+        - {x: -8.5, y: 29.5}
+        - {x: -0.5, y: 29.5}
+        - {x: 2.5, y: 42.5}
+        - {x: 2.5, y: 53.5}
+        - {x: -1.5, y: 56.5}
+    - name: ALAKAZAM-MEGA_56
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 230
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: -22.5}
+        - {x: 51.5, y: -20.5}
+        - {x: 56.5, y: -17.5}
+        - {x: 56.5, y: 3.5}
+        - {x: 42.5, y: 22.5}
+        - {x: -42.5, y: 22.5}
+        - {x: -51.5, y: 17.5}
+        - {x: -51.5, y: -21.5}
+        - {x: -43.5, y: -43.5}
+        - {x: -34.5, y: -56.5}
+        - {x: 43.5, y: -56.5}
+        - {x: 56.5, y: -53.5}
+        - {x: 56.5, y: -42.5}
+        - {x: 44.5, y: -23.5}
+        - {x: 42.5, y: -22.5}
+        - {x: 40.5, y: -22.5}
+      - - {x: -51.5, y: 18.5}
+        - {x: -45.5, y: 12.5}
+        - {x: -36.5, y: 12.5}
+        - {x: -36.5, y: 17.5}
+        - {x: -42.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -51.5, y: 24.5}
+      - - {x: 38.5, y: 30.5}
+        - {x: 26.5, y: 21.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 35.5, y: 15.5}
+        - {x: 52.5, y: 20.5}
+        - {x: 52.5, y: 30.5}
+      - - {x: -35.5, y: 37.5}
+        - {x: -27.5, y: 23.5}
+        - {x: -19.5, y: 23.5}
+        - {x: -19.5, y: 35.5}
+        - {x: -21.5, y: 44.5}
+        - {x: -26.5, y: 46.5}
+        - {x: -33.5, y: 46.5}
+        - {x: -35.5, y: 44.5}
+      - - {x: 24.5, y: 48.5}
+        - {x: 11.5, y: 36.5}
+        - {x: 11.5, y: 26.5}
+        - {x: 13.5, y: 25.5}
+        - {x: 21.5, y: 25.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 31.5, y: 48.5}
+      - - {x: -4.5, y: 56.5}
+        - {x: -8.5, y: 55.5}
+        - {x: -8.5, y: 31.5}
+        - {x: -7.5, y: 29.5}
+        - {x: -0.5, y: 29.5}
+        - {x: 2.5, y: 39.5}
+        - {x: 2.5, y: 51.5}
+        - {x: -0.5, y: 56.5}
+    - name: ALAKAZAM-MEGA_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 230
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: -23.5}
+        - {x: 49.5, y: -21.5}
+        - {x: 52.5, y: -20.5}
+        - {x: 56.5, y: -17.5}
+        - {x: 56.5, y: -5.5}
+        - {x: 53.5, y: 8.5}
+        - {x: 38.5, y: 16.5}
+        - {x: 19.5, y: 22.5}
+        - {x: -10.5, y: 22.5}
+        - {x: -51.5, y: 12.5}
+        - {x: -51.5, y: -54.5}
+        - {x: -25.5, y: -57.5}
+        - {x: 33.5, y: -57.5}
+        - {x: 47.5, y: -41.5}
+        - {x: 49.5, y: -34.5}
+        - {x: 46.5, y: -28.5}
+      - - {x: -47.5, y: 28.5}
+        - {x: -51.5, y: 24.5}
+        - {x: -51.5, y: 18.5}
+        - {x: -43.5, y: 12.5}
+        - {x: -38.5, y: 12.5}
+        - {x: -36.5, y: 14.5}
+        - {x: -36.5, y: 17.5}
+        - {x: -44.5, y: 28.5}
+      - - {x: 42.5, y: 29.5}
+        - {x: 26.5, y: 21.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 34.5, y: 15.5}
+        - {x: 48.5, y: 19.5}
+        - {x: 52.5, y: 21.5}
+        - {x: 52.5, y: 27.5}
+        - {x: 51.5, y: 29.5}
+      - - {x: -27.5, y: 46.5}
+        - {x: -32.5, y: 46.5}
+        - {x: -35.5, y: 42.5}
+        - {x: -35.5, y: 31.5}
+        - {x: -25.5, y: 23.5}
+        - {x: -19.5, y: 23.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -22.5, y: 43.5}
+      - - {x: 24.5, y: 47.5}
+        - {x: 18.5, y: 44.5}
+        - {x: 11.5, y: 28.5}
+        - {x: 11.5, y: 25.5}
+        - {x: 18.5, y: 25.5}
+        - {x: 31.5, y: 33.5}
+        - {x: 31.5, y: 47.5}
+      - - {x: -4.5, y: 55.5}
+        - {x: -8.5, y: 52.5}
+        - {x: -8.5, y: 29.5}
+        - {x: -0.5, y: 29.5}
+        - {x: 2.5, y: 40.5}
+        - {x: 2.5, y: 51.5}
+        - {x: 1.5, y: 55.5}
+    - name: ALAKAZAM-MEGA_58
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 230
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 22.5}
+        - {x: -51.5, y: 9.5}
+        - {x: -51.5, y: -25.5}
+        - {x: -25.5, y: -57.5}
+        - {x: 16.5, y: -57.5}
+        - {x: 27.5, y: -56.5}
+        - {x: 56.5, y: -48.5}
+        - {x: 56.5, y: 16.5}
+        - {x: 32.5, y: 22.5}
+      - - {x: -47.5, y: 28.5}
+        - {x: -49.5, y: 27.5}
+        - {x: -51.5, y: 24.5}
+        - {x: -51.5, y: 18.5}
+        - {x: -44.5, y: 12.5}
+        - {x: -37.5, y: 12.5}
+        - {x: -36.5, y: 14.5}
+        - {x: -36.5, y: 20.5}
+        - {x: -43.5, y: 28.5}
+      - - {x: 42.5, y: 29.5}
+        - {x: 28.5, y: 24.5}
+        - {x: 26.5, y: 21.5}
+        - {x: 26.5, y: 16.5}
+        - {x: 27.5, y: 14.5}
+        - {x: 33.5, y: 14.5}
+        - {x: 50.5, y: 17.5}
+        - {x: 52.5, y: 22.5}
+        - {x: 52.5, y: 29.5}
+      - - {x: -32.5, y: 45.5}
+        - {x: -35.5, y: 44.5}
+        - {x: -35.5, y: 36.5}
+        - {x: -25.5, y: 23.5}
+        - {x: -20.5, y: 23.5}
+        - {x: -19.5, y: 25.5}
+        - {x: -19.5, y: 34.5}
+        - {x: -25.5, y: 45.5}
+      - - {x: 22.5, y: 47.5}
+        - {x: 11.5, y: 32.5}
+        - {x: 11.5, y: 25.5}
+        - {x: 18.5, y: 25.5}
+        - {x: 31.5, y: 38.5}
+        - {x: 31.5, y: 45.5}
+        - {x: 30.5, y: 47.5}
+      - - {x: -3.5, y: 55.5}
+        - {x: -8.5, y: 51.5}
+        - {x: -8.5, y: 40.5}
+        - {x: -7.5, y: 31.5}
+        - {x: -6.5, y: 29.5}
+        - {x: -2.5, y: 29.5}
+        - {x: 0.5, y: 30.5}
+        - {x: 2.5, y: 38.5}
+        - {x: 2.5, y: 50.5}
+        - {x: 0.5, y: 55.5}
+    - name: ALAKAZAM-MEGA_59
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 230
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 22.5}
+        - {x: -51.5, y: 14.5}
+        - {x: -51.5, y: -23.5}
+        - {x: -27.5, y: -57.5}
+        - {x: 31.5, y: -57.5}
+        - {x: 56.5, y: -44.5}
+        - {x: 56.5, y: 19.5}
+        - {x: 49.5, y: 22.5}
+      - - {x: -44.5, y: 27.5}
+        - {x: -51.5, y: 27.5}
+        - {x: -51.5, y: 16.5}
+        - {x: -44.5, y: 11.5}
+        - {x: -38.5, y: 11.5}
+        - {x: -36.5, y: 13.5}
+        - {x: -36.5, y: 20.5}
+      - - {x: 39.5, y: 29.5}
+        - {x: 30.5, y: 23.5}
+        - {x: 26.5, y: 18.5}
+        - {x: 26.5, y: 14.5}
+        - {x: 40.5, y: 14.5}
+        - {x: 52.5, y: 20.5}
+        - {x: 52.5, y: 28.5}
+        - {x: 50.5, y: 29.5}
+      - - {x: -28.5, y: 45.5}
+        - {x: -32.5, y: 45.5}
+        - {x: -35.5, y: 42.5}
+        - {x: -35.5, y: 36.5}
+        - {x: -26.5, y: 24.5}
+        - {x: -23.5, y: 22.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 32.5}
+        - {x: -24.5, y: 40.5}
+      - - {x: 21.5, y: 47.5}
+        - {x: 11.5, y: 33.5}
+        - {x: 11.5, y: 24.5}
+        - {x: 23.5, y: 24.5}
+        - {x: 31.5, y: 38.5}
+        - {x: 31.5, y: 47.5}
+      - - {x: -8.5, y: 29.5}
+        - {x: -5.5, y: 28.5}
+        - {x: 2.5, y: 28.5}
+        - {x: 2.5, y: 55.5}
+        - {x: -7.5, y: 55.5}
+        - {x: -8.5, y: 54.5}
+    - name: ALAKAZAM-MEGA_60
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 230
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 22.5}
+        - {x: -52.5, y: 9.5}
+        - {x: -52.5, y: -24.5}
+        - {x: -46.5, y: -51.5}
+        - {x: -24.5, y: -57.5}
+        - {x: 49.5, y: -57.5}
+        - {x: 56.5, y: -48.5}
+        - {x: 56.5, y: 6.5}
+        - {x: 49.5, y: 22.5}
+      - - {x: -49.5, y: 27.5}
+        - {x: -51.5, y: 23.5}
+        - {x: -51.5, y: 15.5}
+        - {x: -45.5, y: 11.5}
+        - {x: -38.5, y: 11.5}
+        - {x: -36.5, y: 12.5}
+        - {x: -36.5, y: 17.5}
+        - {x: -43.5, y: 27.5}
+      - - {x: 42.5, y: 29.5}
+        - {x: 26.5, y: 20.5}
+        - {x: 26.5, y: 14.5}
+        - {x: 34.5, y: 14.5}
+        - {x: 48.5, y: 18.5}
+        - {x: 52.5, y: 20.5}
+        - {x: 52.5, y: 29.5}
+      - - {x: -26.5, y: 44.5}
+        - {x: -31.5, y: 45.5}
+        - {x: -35.5, y: 42.5}
+        - {x: -35.5, y: 37.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -25.5, y: 22.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 32.5}
+        - {x: -23.5, y: 39.5}
+      - - {x: 23.5, y: 47.5}
+        - {x: 16.5, y: 42.5}
+        - {x: 11.5, y: 30.5}
+        - {x: 11.5, y: 24.5}
+        - {x: 19.5, y: 24.5}
+        - {x: 31.5, y: 37.5}
+        - {x: 31.5, y: 47.5}
+      - - {x: 1.5, y: 54.5}
+        - {x: -5.5, y: 54.5}
+        - {x: -8.5, y: 49.5}
+        - {x: -8.5, y: 29.5}
+        - {x: -5.5, y: 28.5}
+        - {x: -1.5, y: 28.5}
+        - {x: -0.5, y: 30.5}
+        - {x: 2.5, y: 40.5}
+        - {x: 2.5, y: 51.5}
+    - name: ALAKAZAM-MEGA_61
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 230
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.5, y: 9.5}
+        - {x: 35.5, y: 4.5}
+        - {x: 27.5, y: 12.5}
+        - {x: 13.5, y: 22.5}
+        - {x: -18.5, y: 22.5}
+        - {x: -52.5, y: 10.5}
+        - {x: -52.5, y: -16.5}
+        - {x: -33.5, y: -57.5}
+        - {x: 39.5, y: -57.5}
+        - {x: 56.5, y: -28.5}
+        - {x: 56.5, y: 3.5}
+        - {x: 47.5, y: 12.5}
+      - - {x: -44.5, y: 26.5}
+        - {x: -50.5, y: 26.5}
+        - {x: -51.5, y: 23.5}
+        - {x: -51.5, y: 16.5}
+        - {x: -45.5, y: 11.5}
+        - {x: -38.5, y: 11.5}
+        - {x: -36.5, y: 12.5}
+        - {x: -36.5, y: 17.5}
+        - {x: -42.5, y: 24.5}
+      - - {x: 40.5, y: 28.5}
+        - {x: 26.5, y: 20.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 27.5, y: 14.5}
+        - {x: 35.5, y: 14.5}
+        - {x: 50.5, y: 16.5}
+        - {x: 52.5, y: 21.5}
+        - {x: 52.5, y: 27.5}
+        - {x: 49.5, y: 28.5}
+      - - {x: -35.5, y: 45.5}
+        - {x: -35.5, y: 33.5}
+        - {x: -29.5, y: 22.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 32.5}
+        - {x: -22.5, y: 43.5}
+        - {x: -27.5, y: 45.5}
+      - - {x: 24.5, y: 46.5}
+        - {x: 18.5, y: 44.5}
+        - {x: 11.5, y: 26.5}
+        - {x: 13.5, y: 24.5}
+        - {x: 17.5, y: 24.5}
+        - {x: 30.5, y: 37.5}
+        - {x: 31.5, y: 40.5}
+        - {x: 31.5, y: 46.5}
+      - - {x: -4.5, y: 54.5}
+        - {x: -8.5, y: 50.5}
+        - {x: -8.5, y: 29.5}
+        - {x: -7.5, y: 28.5}
+        - {x: -2.5, y: 28.5}
+        - {x: 0.5, y: 29.5}
+        - {x: 2.5, y: 37.5}
+        - {x: 2.5, y: 50.5}
+        - {x: 1.5, y: 54.5}
+    - name: ALAKAZAM-MEGA_62
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 230
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 21.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -52.5, y: -53.5}
+        - {x: -35.5, y: -57.5}
+        - {x: 53.5, y: -57.5}
+        - {x: 56.5, y: -50.5}
+        - {x: 56.5, y: 9.5}
+        - {x: 35.5, y: 21.5}
+      - - {x: -44.5, y: 26.5}
+        - {x: -49.5, y: 26.5}
+        - {x: -51.5, y: 22.5}
+        - {x: -51.5, y: 15.5}
+        - {x: -45.5, y: 11.5}
+        - {x: -38.5, y: 11.5}
+        - {x: -36.5, y: 12.5}
+        - {x: -36.5, y: 17.5}
+        - {x: -42.5, y: 24.5}
+      - - {x: 51.5, y: 28.5}
+        - {x: 40.5, y: 28.5}
+        - {x: 27.5, y: 24.5}
+        - {x: 26.5, y: 21.5}
+        - {x: 26.5, y: 13.5}
+        - {x: 36.5, y: 13.5}
+        - {x: 47.5, y: 17.5}
+        - {x: 52.5, y: 21.5}
+        - {x: 52.5, y: 25.5}
+      - - {x: -24.5, y: 44.5}
+        - {x: -35.5, y: 44.5}
+        - {x: -36.5, y: 41.5}
+        - {x: -36.5, y: 36.5}
+        - {x: -25.5, y: 22.5}
+        - {x: -21.5, y: 22.5}
+        - {x: -19.5, y: 23.5}
+        - {x: -19.5, y: 29.5}
+        - {x: -22.5, y: 43.5}
+      - - {x: 23.5, y: 46.5}
+        - {x: 19.5, y: 40.5}
+        - {x: 11.5, y: 27.5}
+        - {x: 11.5, y: 24.5}
+        - {x: 14.5, y: 23.5}
+        - {x: 19.5, y: 23.5}
+        - {x: 31.5, y: 37.5}
+        - {x: 31.5, y: 46.5}
+      - - {x: -4.5, y: 54.5}
+        - {x: -8.5, y: 52.5}
+        - {x: -8.5, y: 37.5}
+        - {x: -7.5, y: 28.5}
+        - {x: -1.5, y: 28.5}
+        - {x: 0.5, y: 29.5}
+        - {x: 2.5, y: 38.5}
+        - {x: 2.5, y: 49.5}
+        - {x: 1.5, y: 54.5}
+    - name: ALAKAZAM-MEGA_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 21.5}
+        - {x: -47.5, y: 21.5}
+        - {x: -53.5, y: 9.5}
+        - {x: -53.5, y: -30.5}
+        - {x: -22.5, y: -57.5}
+        - {x: 27.5, y: -57.5}
+        - {x: 51.5, y: -41.5}
+        - {x: 56.5, y: -27.5}
+        - {x: 56.5, y: 8.5}
+      - - {x: -45.5, y: 26.5}
+        - {x: -49.5, y: 26.5}
+        - {x: -51.5, y: 22.5}
+        - {x: -51.5, y: 15.5}
+        - {x: -45.5, y: 11.5}
+        - {x: -38.5, y: 11.5}
+        - {x: -36.5, y: 12.5}
+        - {x: -36.5, y: 17.5}
+      - - {x: 26.5, y: 22.5}
+        - {x: 26.5, y: 13.5}
+        - {x: 40.5, y: 13.5}
+        - {x: 52.5, y: 19.5}
+        - {x: 52.5, y: 28.5}
+        - {x: 41.5, y: 28.5}
+        - {x: 27.5, y: 25.5}
+      - - {x: -26.5, y: 44.5}
+        - {x: -35.5, y: 44.5}
+        - {x: -36.5, y: 43.5}
+        - {x: -36.5, y: 29.5}
+        - {x: -25.5, y: 21.5}
+        - {x: -19.5, y: 21.5}
+        - {x: -19.5, y: 27.5}
+        - {x: -22.5, y: 43.5}
+      - - {x: 23.5, y: 46.5}
+        - {x: 19.5, y: 40.5}
+        - {x: 11.5, y: 30.5}
+        - {x: 11.5, y: 23.5}
+        - {x: 23.5, y: 23.5}
+        - {x: 31.5, y: 38.5}
+        - {x: 31.5, y: 46.5}
+      - - {x: -4.5, y: 54.5}
+        - {x: -8.5, y: 52.5}
+        - {x: -8.5, y: 45.5}
+        - {x: -7.5, y: 29.5}
+        - {x: -7.5, y: 27.5}
+        - {x: -3.5, y: 27.5}
+        - {x: 0.5, y: 29.5}
+        - {x: 2.5, y: 38.5}
+        - {x: 2.5, y: 49.5}
+        - {x: 1.5, y: 54.5}
+    - name: ALAKAZAM-MEGA_64
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 115
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 21.5}
+        - {x: -53.5, y: 7.5}
+        - {x: -53.5, y: -51.5}
+        - {x: -29.5, y: -57.5}
+        - {x: 45.5, y: -57.5}
+        - {x: 56.5, y: -45.5}
+        - {x: 56.5, y: 12.5}
+        - {x: 15.5, y: 21.5}
+      - - {x: -44.5, y: 25.5}
+        - {x: -48.5, y: 25.5}
+        - {x: -51.5, y: 22.5}
+        - {x: -51.5, y: 15.5}
+        - {x: -44.5, y: 10.5}
+        - {x: -37.5, y: 10.5}
+        - {x: -36.5, y: 12.5}
+        - {x: -36.5, y: 18.5}
+        - {x: -42.5, y: 24.5}
+      - - {x: 42.5, y: 27.5}
+        - {x: 33.5, y: 25.5}
+        - {x: 26.5, y: 20.5}
+        - {x: 26.5, y: 13.5}
+        - {x: 38.5, y: 13.5}
+        - {x: 49.5, y: 15.5}
+        - {x: 52.5, y: 21.5}
+        - {x: 52.5, y: 27.5}
+      - - {x: -34.5, y: 44.5}
+        - {x: -36.5, y: 41.5}
+        - {x: -36.5, y: 32.5}
+        - {x: -25.5, y: 21.5}
+        - {x: -20.5, y: 21.5}
+        - {x: -19.5, y: 23.5}
+        - {x: -19.5, y: 31.5}
+        - {x: -27.5, y: 44.5}
+      - - {x: 21.5, y: 46.5}
+        - {x: 11.5, y: 33.5}
+        - {x: 11.5, y: 23.5}
+        - {x: 19.5, y: 23.5}
+        - {x: 31.5, y: 36.5}
+        - {x: 31.5, y: 44.5}
+        - {x: 30.5, y: 46.5}
+      - - {x: -2.5, y: 54.5}
+        - {x: -8.5, y: 51.5}
+        - {x: -8.5, y: 44.5}
+        - {x: -7.5, y: 29.5}
+        - {x: -6.5, y: 27.5}
+        - {x: -3.5, y: 27.5}
+        - {x: 0.5, y: 29.5}
+        - {x: 2.5, y: 45.5}
+        - {x: 2.5, y: 49.5}
+        - {x: 0.5, y: 54.5}
+    - name: ALAKAZAM-MEGA_65
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 115
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 9.5}
+        - {x: 42.5, y: 9.5}
+        - {x: 36.5, y: 3.5}
+        - {x: 37.5, y: 0.5}
+        - {x: 22.5, y: 11.5}
+        - {x: 8.5, y: 21.5}
+        - {x: 0.5, y: 21.5}
+        - {x: -15.5, y: 10.5}
+        - {x: -18.5, y: -2.5}
+        - {x: -36.5, y: 7.5}
+        - {x: -43.5, y: 9.5}
+        - {x: -53.5, y: 6.5}
+        - {x: -53.5, y: -9.5}
+        - {x: -47.5, y: -26.5}
+        - {x: -20.5, y: -55.5}
+        - {x: -16.5, y: -57.5}
+        - {x: 22.5, y: -57.5}
+        - {x: 25.5, y: -56.5}
+        - {x: 51.5, y: -38.5}
+        - {x: 56.5, y: -28.5}
+        - {x: 56.5, y: 0.5}
+      - - {x: -44.5, y: 25.5}
+        - {x: -50.5, y: 25.5}
+        - {x: -52.5, y: 22.5}
+        - {x: -52.5, y: 17.5}
+        - {x: -44.5, y: 10.5}
+        - {x: -38.5, y: 10.5}
+        - {x: -36.5, y: 11.5}
+        - {x: -36.5, y: 17.5}
+        - {x: -41.5, y: 24.5}
+      - - {x: 49.5, y: 27.5}
+        - {x: 40.5, y: 27.5}
+        - {x: 28.5, y: 21.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 26.5, y: 12.5}
+        - {x: 35.5, y: 12.5}
+        - {x: 50.5, y: 16.5}
+        - {x: 52.5, y: 19.5}
+        - {x: 52.5, y: 26.5}
+      - - {x: -32.5, y: 44.5}
+        - {x: -36.5, y: 40.5}
+        - {x: -36.5, y: 36.5}
+        - {x: -25.5, y: 21.5}
+        - {x: -20.5, y: 21.5}
+        - {x: -19.5, y: 23.5}
+        - {x: -19.5, y: 30.5}
+        - {x: -27.5, y: 43.5}
+      - - {x: 24.5, y: 46.5}
+        - {x: 17.5, y: 42.5}
+        - {x: 11.5, y: 27.5}
+        - {x: 11.5, y: 23.5}
+        - {x: 17.5, y: 23.5}
+        - {x: 21.5, y: 25.5}
+        - {x: 31.5, y: 37.5}
+        - {x: 31.5, y: 46.5}
+      - - {x: -4.5, y: 53.5}
+        - {x: -8.5, y: 49.5}
+        - {x: -8.5, y: 28.5}
+        - {x: -7.5, y: 27.5}
+        - {x: -2.5, y: 27.5}
+        - {x: 0.5, y: 28.5}
+        - {x: 2.5, y: 36.5}
+        - {x: 2.5, y: 49.5}
+        - {x: 1.5, y: 53.5}
+    - name: ALAKAZAM-MEGA_66
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 115
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 21.5}
+        - {x: -46.5, y: 17.5}
+        - {x: -53.5, y: 11.5}
+        - {x: -53.5, y: -24.5}
+        - {x: -26.5, y: -57.5}
+        - {x: 24.5, y: -57.5}
+        - {x: 55.5, y: -41.5}
+        - {x: 56.5, y: -34.5}
+        - {x: 56.5, y: 11.5}
+        - {x: 35.5, y: 21.5}
+      - - {x: -47.5, y: 25.5}
+        - {x: -52.5, y: 22.5}
+        - {x: -52.5, y: 16.5}
+        - {x: -44.5, y: 10.5}
+        - {x: -37.5, y: 10.5}
+        - {x: -36.5, y: 12.5}
+        - {x: -36.5, y: 18.5}
+        - {x: -42.5, y: 25.5}
+      - - {x: 40.5, y: 27.5}
+        - {x: 27.5, y: 23.5}
+        - {x: 26.5, y: 19.5}
+        - {x: 26.5, y: 12.5}
+        - {x: 37.5, y: 12.5}
+        - {x: 52.5, y: 18.5}
+        - {x: 52.5, y: 27.5}
+      - - {x: -36.5, y: 35.5}
+        - {x: -25.5, y: 20.5}
+        - {x: -19.5, y: 20.5}
+        - {x: -19.5, y: 29.5}
+        - {x: -23.5, y: 41.5}
+        - {x: -31.5, y: 44.5}
+        - {x: -33.5, y: 44.5}
+        - {x: -36.5, y: 40.5}
+      - - {x: 24.5, y: 45.5}
+        - {x: 19.5, y: 40.5}
+        - {x: 11.5, y: 29.5}
+        - {x: 11.5, y: 24.5}
+        - {x: 12.5, y: 22.5}
+        - {x: 17.5, y: 22.5}
+        - {x: 30.5, y: 36.5}
+        - {x: 31.5, y: 42.5}
+        - {x: 28.5, y: 45.5}
+      - - {x: 1.5, y: 53.5}
+        - {x: -4.5, y: 53.5}
+        - {x: -8.5, y: 50.5}
+        - {x: -8.5, y: 27.5}
+        - {x: -2.5, y: 27.5}
+        - {x: -0.5, y: 29.5}
+        - {x: 2.5, y: 39.5}
+        - {x: 2.5, y: 49.5}
+    - name: ALAKAZAM-MEGA_67
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 115
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 20.5}
+        - {x: -17.5, y: 11.5}
+        - {x: -54.5, y: 15.5}
+        - {x: -54.5, y: -8.5}
+        - {x: -39.5, y: -40.5}
+        - {x: -18.5, y: -57.5}
+        - {x: 27.5, y: -57.5}
+        - {x: 56.5, y: -51.5}
+        - {x: 56.5, y: 12.5}
+        - {x: 19.5, y: 20.5}
+      - - {x: -43.5, y: 24.5}
+        - {x: -50.5, y: 24.5}
+        - {x: -52.5, y: 20.5}
+        - {x: -52.5, y: 16.5}
+        - {x: -49.5, y: 14.5}
+        - {x: -41.5, y: 10.5}
+        - {x: -38.5, y: 10.5}
+        - {x: -36.5, y: 12.5}
+        - {x: -36.5, y: 16.5}
+      - - {x: 43.5, y: 26.5}
+        - {x: 29.5, y: 23.5}
+        - {x: 26.5, y: 20.5}
+        - {x: 26.5, y: 12.5}
+        - {x: 52.5, y: 12.5}
+        - {x: 52.5, y: 25.5}
+        - {x: 51.5, y: 26.5}
+      - - {x: -36.5, y: 33.5}
+        - {x: -24.5, y: 20.5}
+        - {x: -19.5, y: 20.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -22.5, y: 42.5}
+        - {x: -26.5, y: 43.5}
+        - {x: -35.5, y: 43.5}
+        - {x: -36.5, y: 40.5}
+      - - {x: 11.5, y: 22.5}
+        - {x: 18.5, y: 22.5}
+        - {x: 30.5, y: 30.5}
+        - {x: 30.5, y: 45.5}
+        - {x: 21.5, y: 45.5}
+        - {x: 11.5, y: 32.5}
+      - - {x: -3.5, y: 53.5}
+        - {x: -8.5, y: 48.5}
+        - {x: -8.5, y: 29.5}
+        - {x: -5.5, y: 26.5}
+        - {x: 0.5, y: 26.5}
+        - {x: 2.5, y: 32.5}
+        - {x: 2.5, y: 51.5}
+        - {x: 1.5, y: 53.5}
+    - name: ALAKAZAM-MEGA_68
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 115
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: 11.5}
+        - {x: 29.5, y: 20.5}
+        - {x: -54.5, y: 20.5}
+        - {x: -54.5, y: -32.5}
+        - {x: -37.5, y: -57.5}
+        - {x: 47.5, y: -57.5}
+        - {x: 56.5, y: -53.5}
+        - {x: 56.5, y: -2.5}
+        - {x: 54.5, y: 4.5}
+      - - {x: -51.5, y: 24.5}
+        - {x: -52.5, y: 22.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -46.5, y: 10.5}
+        - {x: -38.5, y: 10.5}
+        - {x: -36.5, y: 11.5}
+        - {x: -36.5, y: 18.5}
+        - {x: -45.5, y: 24.5}
+      - - {x: 39.5, y: 26.5}
+        - {x: 28.5, y: 20.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 26.5, y: 12.5}
+        - {x: 33.5, y: 12.5}
+        - {x: 50.5, y: 14.5}
+        - {x: 52.5, y: 18.5}
+        - {x: 52.5, y: 25.5}
+        - {x: 49.5, y: 26.5}
+      - - {x: -35.5, y: 43.5}
+        - {x: -36.5, y: 41.5}
+        - {x: -36.5, y: 31.5}
+        - {x: -25.5, y: 20.5}
+        - {x: -20.5, y: 20.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 29.5}
+        - {x: -27.5, y: 43.5}
+      - - {x: 25.5, y: 45.5}
+        - {x: 19.5, y: 43.5}
+        - {x: 11.5, y: 29.5}
+        - {x: 11.5, y: 24.5}
+        - {x: 12.5, y: 22.5}
+        - {x: 22.5, y: 22.5}
+        - {x: 30.5, y: 35.5}
+        - {x: 30.5, y: 45.5}
+      - - {x: -2.5, y: 53.5}
+        - {x: -8.5, y: 49.5}
+        - {x: -8.5, y: 28.5}
+        - {x: -7.5, y: 26.5}
+        - {x: -2.5, y: 26.5}
+        - {x: -0.5, y: 27.5}
+        - {x: 2.5, y: 38.5}
+        - {x: 2.5, y: 48.5}
+        - {x: 0.5, y: 53.5}
+    - name: ALAKAZAM-MEGA_69
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 115
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 10.5}
+        - {x: 12.5, y: 20.5}
+        - {x: -18.5, y: 20.5}
+        - {x: -54.5, y: 5.5}
+        - {x: -54.5, y: -9.5}
+        - {x: -49.5, y: -21.5}
+        - {x: -40.5, y: -38.5}
+        - {x: -20.5, y: -57.5}
+        - {x: 26.5, y: -57.5}
+        - {x: 56.5, y: -49.5}
+        - {x: 56.5, y: 1.5}
+        - {x: 54.5, y: 4.5}
+      - - {x: -47.5, y: 24.5}
+        - {x: -52.5, y: 22.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -51.5, y: 12.5}
+        - {x: -41.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -36.5, y: 11.5}
+        - {x: -36.5, y: 17.5}
+        - {x: -42.5, y: 24.5}
+      - - {x: 39.5, y: 26.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 12.5}
+        - {x: 34.5, y: 12.5}
+        - {x: 47.5, y: 14.5}
+        - {x: 52.5, y: 19.5}
+        - {x: 52.5, y: 24.5}
+        - {x: 50.5, y: 26.5}
+      - - {x: -29.5, y: 43.5}
+        - {x: -34.5, y: 43.5}
+        - {x: -37.5, y: 39.5}
+        - {x: -37.5, y: 35.5}
+        - {x: -25.5, y: 20.5}
+        - {x: -20.5, y: 20.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -24.5, y: 37.5}
+      - - {x: 21.5, y: 45.5}
+        - {x: 11.5, y: 31.5}
+        - {x: 11.5, y: 22.5}
+        - {x: 17.5, y: 22.5}
+        - {x: 30.5, y: 36.5}
+        - {x: 30.5, y: 45.5}
+      - - {x: -2.5, y: 53.5}
+        - {x: -8.5, y: 48.5}
+        - {x: -8.5, y: 27.5}
+        - {x: -6.5, y: 26.5}
+        - {x: -1.5, y: 26.5}
+        - {x: 2.5, y: 37.5}
+        - {x: 2.5, y: 50.5}
+        - {x: 1.5, y: 53.5}
+    - name: ALAKAZAM-MEGA_70
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 115
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -40.5}
+        - {x: 26.5, y: -41.5}
+        - {x: 30.5, y: -41.5}
+        - {x: 30.5, y: -43.5}
+        - {x: 40.5, y: -42.5}
+        - {x: 50.5, y: -40.5}
+        - {x: 56.5, y: -39.5}
+        - {x: 56.5, y: 20.5}
+        - {x: -18.5, y: 20.5}
+        - {x: -54.5, y: 4.5}
+        - {x: -54.5, y: -9.5}
+        - {x: -50.5, y: -22.5}
+        - {x: -23.5, y: -57.5}
+        - {x: 29.5, y: -57.5}
+        - {x: 31.5, y: -44.5}
+        - {x: 27.5, y: -41.5}
+        - {x: 23.5, y: -40.5}
+      - - {x: -50.5, y: 23.5}
+        - {x: -52.5, y: 19.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -41.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -36.5, y: 11.5}
+        - {x: -36.5, y: 17.5}
+        - {x: -43.5, y: 23.5}
+      - - {x: 41.5, y: 26.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 12.5}
+        - {x: 26.5, y: 11.5}
+        - {x: 35.5, y: 11.5}
+        - {x: 48.5, y: 14.5}
+        - {x: 52.5, y: 20.5}
+        - {x: 52.5, y: 24.5}
+        - {x: 49.5, y: 26.5}
+      - - {x: -34.5, y: 43.5}
+        - {x: -37.5, y: 41.5}
+        - {x: -37.5, y: 33.5}
+        - {x: -26.5, y: 20.5}
+        - {x: -20.5, y: 20.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -27.5, y: 43.5}
+      - - {x: 22.5, y: 45.5}
+        - {x: 11.5, y: 31.5}
+        - {x: 11.5, y: 22.5}
+        - {x: 13.5, y: 21.5}
+        - {x: 17.5, y: 21.5}
+        - {x: 30.5, y: 34.5}
+        - {x: 30.5, y: 45.5}
+      - - {x: -3.5, y: 52.5}
+        - {x: -8.5, y: 47.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -3.5, y: 26.5}
+        - {x: -0.5, y: 27.5}
+        - {x: 2.5, y: 44.5}
+        - {x: 2.5, y: 48.5}
+        - {x: -0.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_71
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 115
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -41.5}
+        - {x: 31.5, y: -42.5}
+        - {x: 39.5, y: -47.5}
+        - {x: 56.5, y: -40.5}
+        - {x: 56.5, y: 5.5}
+        - {x: 54.5, y: 14.5}
+        - {x: 35.5, y: 20.5}
+        - {x: -19.5, y: 20.5}
+        - {x: -55.5, y: 6.5}
+        - {x: -55.5, y: -48.5}
+        - {x: -33.5, y: -57.5}
+        - {x: 32.5, y: -57.5}
+        - {x: 30.5, y: -44.5}
+        - {x: 27.5, y: -41.5}
+        - {x: 22.5, y: -40.5}
+      - - {x: -44.5, y: 23.5}
+        - {x: -51.5, y: 23.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 13.5}
+        - {x: -41.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -36.5, y: 11.5}
+        - {x: -36.5, y: 15.5}
+      - - {x: 40.5, y: 25.5}
+        - {x: 26.5, y: 22.5}
+        - {x: 25.5, y: 18.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 37.5, y: 11.5}
+        - {x: 48.5, y: 14.5}
+        - {x: 51.5, y: 18.5}
+        - {x: 51.5, y: 25.5}
+      - - {x: -29.5, y: 42.5}
+        - {x: -33.5, y: 43.5}
+        - {x: -37.5, y: 39.5}
+        - {x: -37.5, y: 34.5}
+        - {x: -25.5, y: 20.5}
+        - {x: -20.5, y: 20.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -26.5, y: 39.5}
+      - - {x: 22.5, y: 45.5}
+        - {x: 11.5, y: 29.5}
+        - {x: 11.5, y: 21.5}
+        - {x: 17.5, y: 21.5}
+        - {x: 30.5, y: 30.5}
+        - {x: 30.5, y: 44.5}
+        - {x: 28.5, y: 45.5}
+      - - {x: -3.5, y: 52.5}
+        - {x: -8.5, y: 49.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -1.5, y: 26.5}
+        - {x: 2.5, y: 39.5}
+        - {x: 2.5, y: 49.5}
+        - {x: 1.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: -44.5}
+        - {x: 54.5, y: -44.5}
+        - {x: 56.5, y: -39.5}
+        - {x: 56.5, y: 7.5}
+        - {x: 24.5, y: 20.5}
+        - {x: -18.5, y: 20.5}
+        - {x: -55.5, y: 7.5}
+        - {x: -55.5, y: -15.5}
+        - {x: -27.5, y: -57.5}
+        - {x: 23.5, y: -57.5}
+        - {x: 31.5, y: -50.5}
+        - {x: 29.5, y: -45.5}
+        - {x: 24.5, y: -40.5}
+      - - {x: -47.5, y: 23.5}
+        - {x: -52.5, y: 20.5}
+        - {x: -52.5, y: 14.5}
+        - {x: -45.5, y: 9.5}
+        - {x: -36.5, y: 9.5}
+        - {x: -36.5, y: 16.5}
+        - {x: -42.5, y: 23.5}
+      - - {x: 39.5, y: 25.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 40.5, y: 11.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 51.5, y: 25.5}
+      - - {x: -37.5, y: 39.5}
+        - {x: -37.5, y: 35.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -19.5, y: 26.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -28.5, y: 42.5}
+        - {x: -33.5, y: 43.5}
+      - - {x: 15.5, y: 33.5}
+        - {x: 10.5, y: 25.5}
+        - {x: 10.5, y: 21.5}
+        - {x: 17.5, y: 21.5}
+        - {x: 30.5, y: 30.5}
+        - {x: 30.5, y: 44.5}
+        - {x: 24.5, y: 44.5}
+        - {x: 19.5, y: 39.5}
+      - - {x: -3.5, y: 52.5}
+        - {x: -8.5, y: 49.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -2.5, y: 26.5}
+        - {x: -0.5, y: 27.5}
+        - {x: 2.5, y: 39.5}
+        - {x: 2.5, y: 48.5}
+        - {x: 0.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_73
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 20.5}
+        - {x: -31.5, y: 20.5}
+        - {x: -52.5, y: 13.5}
+        - {x: -55.5, y: 9.5}
+        - {x: -55.5, y: -18.5}
+        - {x: -29.5, y: -57.5}
+        - {x: 30.5, y: -57.5}
+        - {x: 56.5, y: -49.5}
+        - {x: 56.5, y: 2.5}
+        - {x: 50.5, y: 10.5}
+      - - {x: -52.5, y: 13.5}
+        - {x: -45.5, y: 9.5}
+        - {x: -36.5, y: 9.5}
+        - {x: -36.5, y: 15.5}
+        - {x: -37.5, y: 17.5}
+        - {x: -44.5, y: 23.5}
+        - {x: -47.5, y: 23.5}
+        - {x: -52.5, y: 21.5}
+      - - {x: 38.5, y: 25.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 39.5, y: 11.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 48.5, y: 25.5}
+      - - {x: -37.5, y: 31.5}
+        - {x: -27.5, y: 19.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -19.5, y: 25.5}
+        - {x: -24.5, y: 40.5}
+        - {x: -29.5, y: 43.5}
+        - {x: -35.5, y: 43.5}
+        - {x: -37.5, y: 39.5}
+      - - {x: 22.5, y: 44.5}
+        - {x: 10.5, y: 26.5}
+        - {x: 10.5, y: 22.5}
+        - {x: 12.5, y: 21.5}
+        - {x: 18.5, y: 21.5}
+        - {x: 30.5, y: 35.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 29.5, y: 44.5}
+      - - {x: 1.5, y: 52.5}
+        - {x: -5.5, y: 52.5}
+        - {x: -8.5, y: 51.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -3.5, y: 26.5}
+        - {x: -1.5, y: 28.5}
+        - {x: 2.5, y: 40.5}
+        - {x: 2.5, y: 48.5}
+    - name: ALAKAZAM-MEGA_74
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: 2.5}
+        - {x: 47.5, y: 20.5}
+        - {x: -35.5, y: 20.5}
+        - {x: -55.5, y: 5.5}
+        - {x: -55.5, y: -52.5}
+        - {x: -29.5, y: -57.5}
+        - {x: 41.5, y: -57.5}
+        - {x: 54.5, y: -39.5}
+        - {x: 56.5, y: -31.5}
+        - {x: 56.5, y: -6.5}
+      - - {x: -51.5, y: 22.5}
+        - {x: -52.5, y: 19.5}
+        - {x: -52.5, y: 12.5}
+        - {x: -45.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -36.5, y: 10.5}
+        - {x: -36.5, y: 16.5}
+        - {x: -44.5, y: 22.5}
+      - - {x: 39.5, y: 25.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 13.5}
+        - {x: 26.5, y: 11.5}
+        - {x: 38.5, y: 11.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 48.5, y: 25.5}
+      - - {x: -34.5, y: 42.5}
+        - {x: -37.5, y: 41.5}
+        - {x: -37.5, y: 33.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -21.5, y: 19.5}
+        - {x: -19.5, y: 21.5}
+        - {x: -19.5, y: 25.5}
+        - {x: -27.5, y: 42.5}
+      - - {x: 28.5, y: 44.5}
+        - {x: 21.5, y: 44.5}
+        - {x: 10.5, y: 28.5}
+        - {x: 10.5, y: 22.5}
+        - {x: 11.5, y: 21.5}
+        - {x: 16.5, y: 21.5}
+        - {x: 31.5, y: 35.5}
+        - {x: 31.5, y: 42.5}
+      - - {x: 0.5, y: 52.5}
+        - {x: -3.5, y: 52.5}
+        - {x: -8.5, y: 49.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -2.5, y: 26.5}
+        - {x: -1.5, y: 28.5}
+        - {x: 1.5, y: 36.5}
+        - {x: 1.5, y: 50.5}
+    - name: ALAKAZAM-MEGA_75
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 20.5}
+        - {x: -14.5, y: 20.5}
+        - {x: -56.5, y: 5.5}
+        - {x: -56.5, y: -29.5}
+        - {x: -34.5, y: -57.5}
+        - {x: 45.5, y: -57.5}
+        - {x: 56.5, y: -48.5}
+        - {x: 56.5, y: 5.5}
+        - {x: 50.5, y: 12.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 13.5}
+        - {x: -51.5, y: 10.5}
+        - {x: -46.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -36.5, y: 10.5}
+        - {x: -36.5, y: 15.5}
+        - {x: -43.5, y: 22.5}
+      - - {x: 39.5, y: 25.5}
+        - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 13.5}
+        - {x: 26.5, y: 11.5}
+        - {x: 39.5, y: 11.5}
+        - {x: 47.5, y: 12.5}
+        - {x: 51.5, y: 18.5}
+        - {x: 51.5, y: 25.5}
+      - - {x: -35.5, y: 42.5}
+        - {x: -37.5, y: 41.5}
+        - {x: -37.5, y: 27.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -19.5, y: 27.5}
+        - {x: -28.5, y: 42.5}
+      - - {x: 21.5, y: 44.5}
+        - {x: 10.5, y: 30.5}
+        - {x: 10.5, y: 21.5}
+        - {x: 17.5, y: 21.5}
+        - {x: 31.5, y: 31.5}
+        - {x: 31.5, y: 43.5}
+        - {x: 29.5, y: 44.5}
+      - - {x: -5.5, y: 52.5}
+        - {x: -8.5, y: 48.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -1.5, y: 26.5}
+        - {x: 1.5, y: 39.5}
+        - {x: 1.5, y: 52.5}
+    - name: ALAKAZAM-MEGA_76
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: -44.5}
+        - {x: 49.5, y: -45.5}
+        - {x: 56.5, y: -37.5}
+        - {x: 56.5, y: 3.5}
+        - {x: 51.5, y: 14.5}
+        - {x: 36.5, y: 20.5}
+        - {x: -37.5, y: 20.5}
+        - {x: -56.5, y: 9.5}
+        - {x: -56.5, y: -18.5}
+        - {x: -41.5, y: -42.5}
+        - {x: -18.5, y: -57.5}
+        - {x: 23.5, y: -57.5}
+        - {x: 27.5, y: -56.5}
+        - {x: 28.5, y: -51.5}
+        - {x: 28.5, y: -44.5}
+        - {x: 25.5, y: -40.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 12.5}
+        - {x: -51.5, y: 11.5}
+        - {x: -46.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -36.5, y: 10.5}
+        - {x: -36.5, y: 15.5}
+        - {x: -43.5, y: 22.5}
+      - - {x: 41.5, y: 25.5}
+        - {x: 26.5, y: 20.5}
+        - {x: 25.5, y: 16.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 48.5, y: 11.5}
+        - {x: 51.5, y: 18.5}
+        - {x: 51.5, y: 25.5}
+      - - {x: -30.5, y: 42.5}
+        - {x: -34.5, y: 42.5}
+        - {x: -37.5, y: 39.5}
+        - {x: -37.5, y: 32.5}
+        - {x: -26.5, y: 19.5}
+        - {x: -20.5, y: 19.5}
+        - {x: -19.5, y: 21.5}
+        - {x: -19.5, y: 27.5}
+        - {x: -26.5, y: 38.5}
+      - - {x: 23.5, y: 44.5}
+        - {x: 10.5, y: 27.5}
+        - {x: 10.5, y: 22.5}
+        - {x: 11.5, y: 21.5}
+        - {x: 16.5, y: 21.5}
+        - {x: 31.5, y: 36.5}
+        - {x: 31.5, y: 41.5}
+        - {x: 30.5, y: 44.5}
+      - - {x: -1.5, y: 52.5}
+        - {x: -5.5, y: 52.5}
+        - {x: -8.5, y: 49.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -2.5, y: 26.5}
+        - {x: -1.5, y: 28.5}
+        - {x: 1.5, y: 42.5}
+        - {x: 1.5, y: 51.5}
+    - name: ALAKAZAM-MEGA_77
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: -46.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 14.5}
+        - {x: 35.5, y: 20.5}
+        - {x: -54.5, y: 20.5}
+        - {x: -56.5, y: 19.5}
+        - {x: -56.5, y: -33.5}
+        - {x: -28.5, y: -57.5}
+        - {x: 23.5, y: -57.5}
+        - {x: 32.5, y: -53.5}
+        - {x: 28.5, y: -44.5}
+        - {x: 25.5, y: -40.5}
+        - {x: 27.5, y: -41.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 21.5}
+        - {x: -52.5, y: 12.5}
+        - {x: -51.5, y: 11.5}
+        - {x: -46.5, y: 9.5}
+        - {x: -37.5, y: 9.5}
+        - {x: -36.5, y: 10.5}
+        - {x: -36.5, y: 15.5}
+        - {x: -43.5, y: 22.5}
+      - - {x: 40.5, y: 25.5}
+        - {x: 28.5, y: 18.5}
+        - {x: 25.5, y: 15.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 49.5, y: 11.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 49.5, y: 25.5}
+      - - {x: -36.5, y: 42.5}
+        - {x: -37.5, y: 39.5}
+        - {x: -37.5, y: 30.5}
+        - {x: -26.5, y: 19.5}
+        - {x: -20.5, y: 19.5}
+        - {x: -19.5, y: 21.5}
+        - {x: -19.5, y: 27.5}
+        - {x: -29.5, y: 42.5}
+      - - {x: 23.5, y: 44.5}
+        - {x: 10.5, y: 25.5}
+        - {x: 10.5, y: 22.5}
+        - {x: 11.5, y: 21.5}
+        - {x: 19.5, y: 21.5}
+        - {x: 31.5, y: 36.5}
+        - {x: 31.5, y: 43.5}
+        - {x: 28.5, y: 44.5}
+      - - {x: -1.5, y: 52.5}
+        - {x: -5.5, y: 52.5}
+        - {x: -8.5, y: 49.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -2.5, y: 26.5}
+        - {x: -1.5, y: 28.5}
+        - {x: 1.5, y: 42.5}
+        - {x: 1.5, y: 51.5}
+    - name: ALAKAZAM-MEGA_78
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -43.5}
+        - {x: 54.5, y: -39.5}
+        - {x: 56.5, y: -28.5}
+        - {x: 56.5, y: 8.5}
+        - {x: 34.5, y: 20.5}
+        - {x: -56.5, y: 20.5}
+        - {x: -56.5, y: -46.5}
+        - {x: -25.5, y: -57.5}
+        - {x: 29.5, y: -57.5}
+        - {x: 28.5, y: -44.5}
+        - {x: 25.5, y: -40.5}
+        - {x: 27.5, y: -41.5}
+      - - {x: -48.5, y: 22.5}
+        - {x: -52.5, y: 20.5}
+        - {x: -52.5, y: 12.5}
+        - {x: -51.5, y: 11.5}
+        - {x: -46.5, y: 9.5}
+        - {x: -36.5, y: 9.5}
+        - {x: -36.5, y: 16.5}
+        - {x: -42.5, y: 22.5}
+      - - {x: 25.5, y: 17.5}
+        - {x: 25.5, y: 11.5}
+        - {x: 41.5, y: 11.5}
+        - {x: 48.5, y: 12.5}
+        - {x: 51.5, y: 15.5}
+        - {x: 51.5, y: 24.5}
+        - {x: 40.5, y: 24.5}
+        - {x: 26.5, y: 20.5}
+      - - {x: -38.5, y: 33.5}
+        - {x: -27.5, y: 19.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -19.5, y: 26.5}
+        - {x: -26.5, y: 42.5}
+        - {x: -35.5, y: 42.5}
+        - {x: -38.5, y: 38.5}
+      - - {x: 20.5, y: 44.5}
+        - {x: 10.5, y: 29.5}
+        - {x: 10.5, y: 21.5}
+        - {x: 16.5, y: 21.5}
+        - {x: 18.5, y: 22.5}
+        - {x: 31.5, y: 35.5}
+        - {x: 31.5, y: 43.5}
+        - {x: 28.5, y: 44.5}
+      - - {x: -1.5, y: 52.5}
+        - {x: -6.5, y: 52.5}
+        - {x: -9.5, y: 48.5}
+        - {x: -9.5, y: 26.5}
+        - {x: -1.5, y: 26.5}
+        - {x: -0.5, y: 27.5}
+        - {x: 1.5, y: 38.5}
+        - {x: 1.5, y: 51.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

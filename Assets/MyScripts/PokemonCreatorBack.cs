@@ -80,16 +80,6 @@ public class PokemonCreatorBack : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (gif.finishedWWW)
-        {
-            if (hasloaded == false)
-            {
-                //Debug.Log("Calling Load Image BACK");
-                hasloaded = true;
-                gif.loadImage();
-                
-            }
-        }
 
     }
 

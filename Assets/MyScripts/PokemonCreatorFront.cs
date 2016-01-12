@@ -78,14 +78,6 @@ public class PokemonCreatorFront : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (gif.finishedWWW)
-        {
-            if (hasloaded == false)
-            {
-                gif.loadImage();
-                hasloaded = true;
-            }
-        }
 
     }
 

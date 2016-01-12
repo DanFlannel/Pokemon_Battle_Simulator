@@ -16,13 +16,18 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     public GameObject positionPlaceHolderGO;
     public Vector2 positionPlaceHolder;
     public Text debugText;
-    private SpriteImageArray sia;
+    //private SpriteImageArray sia;
     private string url;
     private WWW www;
     public bool finishedWWW = false;
     public bool hasWWW = false;
     public bool canOnGUI = false;
+    
     private System.Drawing.Image gifImage;
+
+
+    public bool isGif = false;
+    public Sprite pokemonSprite;
 
     /***************************
     Private Variables
@@ -39,11 +44,15 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
 
     List<Texture2D> gifFrames = new List<Texture2D>();
+    private PokemonPNGHolder sprites;
+    private PokemonCreatorFront pokemonData;
 
     void Start()
     {
-        positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PTRPlace");
+        positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PBLPlace");
         positionPlaceHolder = positionPlaceHolderGO.GetComponent<RectTransform>().anchoredPosition;
+        sprites = GameObject.Find("PNGs").GetComponent<PokemonPNGHolder>();
+        pokemonData = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
     }
 
     void Update()
@@ -77,10 +86,35 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
             GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(width, height, 1));
             //Debug.Log((gifFrames[0].height * 3.5f) / 50f);
-            float temp = gifFrames[0].width * 2.5f;
-            GUI.DrawTexture(new Rect(750, 50, gifFrames[0].width * 2.5f, gifFrames[0].height * 2.5f), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+            
+
+            if (isGif)
+            {
+                drawGif();
+            }
+            else
+            {
+                drawPNG();
+            }
         }
     }
+
+    public void drawGif()
+    {
+        float temp = gifFrames[0].width * 2.5f;
+        GUI.DrawTexture(new Rect(750, 50, gifFrames[0].width * 2.5f, gifFrames[0].height * 2.5f), gifFrames[(int)(Time.frameCount * speed) % gifFrames.Count]);
+    }
+
+    public void drawPNG()
+    {
+        Texture2D pokemonTexture = sprites.textureFromSprite(pokemonSprite);
+        float calc = (pokemonTexture.height * 3.5f) / 50f;
+        float prediction = 0f;
+        prediction = 150f + ((7.5f - calc) * 55.375f);
+        prediction = Mathf.RoundToInt(prediction);
+        GUI.DrawTexture(new Rect(750, 50, pokemonTexture.width * 2.5f, pokemonTexture.height * 2.5f), pokemonTexture);
+    }
+
 
     IEnumerator WaitForRequest(GameObject go, string url)
     {
@@ -120,13 +154,27 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         {
             MemoryStream ms = new MemoryStream(byteArrayIn);
             returnImage = System.Drawing.Image.FromStream(ms);
+            isGif = true;
             finishedWWW = true;
             return returnImage;
         }
         catch (Exception e)
         {
-            debugText.text = e.Message.ToString();
-            Debug.LogError(e.Message.ToString());
+            string id = pokemonData.PokemonID.ToString();
+            int pngID = 0;
+            for (int i = 0; i < sprites.front.Length; i++)
+            {
+                if (sprites.front[i].name == id)
+                {
+                    pngID = i;
+                    break;
+                }
+            }
+            pokemonSprite = sprites.front[pngID];
+            isGif = false;
+            canOnGUI = true;
+
+            finishedWWW = true;
             return null;
         }
 
