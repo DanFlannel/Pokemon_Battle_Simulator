@@ -1,0 +1,1429 @@
+fileFormatVersion: 2
+guid: c5356d9df2d0edd46b71ac8da4f89d9a
+timeCreated: 1452712735
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CASCOON_0
+    21300002: CASCOON_1
+    21300004: CASCOON_2
+    21300006: CASCOON_3
+    21300008: CASCOON_4
+    21300010: CASCOON_5
+    21300012: CASCOON_6
+    21300014: CASCOON_7
+    21300016: CASCOON_8
+    21300018: CASCOON_9
+    21300020: CASCOON_10
+    21300022: CASCOON_11
+    21300024: CASCOON_12
+    21300026: CASCOON_13
+    21300028: CASCOON_14
+    21300030: CASCOON_15
+    21300032: CASCOON_16
+    21300034: CASCOON_17
+    21300036: CASCOON_18
+    21300038: CASCOON_19
+    21300040: CASCOON_20
+    21300042: CASCOON_21
+    21300044: CASCOON_22
+    21300046: CASCOON_23
+    21300048: CASCOON_24
+    21300050: CASCOON_25
+    21300052: CASCOON_26
+    21300054: CASCOON_27
+    21300056: CASCOON_28
+    21300058: CASCOON_29
+    21300060: CASCOON_30
+    21300062: CASCOON_31
+    21300064: CASCOON_32
+    21300066: CASCOON_33
+    21300068: CASCOON_34
+    21300070: CASCOON_35
+    21300072: CASCOON_36
+    21300074: CASCOON_37
+    21300076: CASCOON_38
+    21300078: CASCOON_39
+    21300080: CASCOON_40
+    21300082: CASCOON_41
+    21300084: CASCOON_42
+    21300086: CASCOON_43
+    21300088: CASCOON_44
+    21300090: CASCOON_45
+    21300092: CASCOON_46
+    21300094: CASCOON_47
+    21300096: CASCOON_48
+    21300098: CASCOON_49
+    21300100: CASCOON_50
+    21300102: CASCOON_51
+    21300104: CASCOON_52
+    21300106: CASCOON_53
+    21300108: CASCOON_54
+    21300110: CASCOON_55
+    21300112: CASCOON_56
+    21300114: CASCOON_57
+    21300116: CASCOON_58
+    21300118: CASCOON_59
+    21300120: CASCOON_60
+    21300122: CASCOON_61
+    21300124: CASCOON_62
+    21300126: CASCOON_63
+    21300128: CASCOON_64
+    21300130: CASCOON_65
+    21300132: CASCOON_66
+    21300134: CASCOON_67
+    21300136: CASCOON_68
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CASCOON_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -25, y: 17}
+        - {x: -25, y: -18}
+        - {x: -24, y: -20}
+        - {x: 21, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 19}
+        - {x: 23, y: 20}
+    - name: CASCOON_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 320
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -25, y: 17}
+        - {x: -25, y: -18}
+        - {x: -24, y: -20}
+        - {x: 21, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 19}
+        - {x: 23, y: 20}
+    - name: CASCOON_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 320
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -25, y: 9}
+        - {x: -25, y: -15}
+        - {x: -21, y: -20}
+        - {x: 17, y: -20}
+        - {x: 25, y: -18}
+        - {x: 25, y: 11}
+        - {x: 16, y: 20}
+    - name: CASCOON_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 320
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -25, y: 9}
+        - {x: -25, y: -15}
+        - {x: -21, y: -20}
+        - {x: 17, y: -20}
+        - {x: 25, y: -18}
+        - {x: 25, y: 11}
+        - {x: 16, y: 20}
+    - name: CASCOON_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 320
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 20}
+        - {x: -16, y: 20}
+        - {x: -25, y: 11}
+        - {x: -25, y: -15}
+        - {x: -24, y: -20}
+        - {x: 15, y: -20}
+        - {x: 19, y: -17}
+        - {x: 25, y: -10}
+        - {x: 25, y: 11}
+    - name: CASCOON_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 320
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 20}
+        - {x: -16, y: 20}
+        - {x: -25, y: 14}
+        - {x: -25, y: -17}
+        - {x: -24, y: -20}
+        - {x: 17, y: -20}
+        - {x: 25, y: -15}
+        - {x: 25, y: 11}
+        - {x: 23, y: 18}
+    - name: CASCOON_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 320
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -15}
+        - {x: -23, y: -20}
+        - {x: 16, y: -20}
+        - {x: 25, y: -12}
+        - {x: 25, y: 12}
+        - {x: 16, y: 20}
+    - name: CASCOON_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 320
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -25, y: 17}
+        - {x: -25, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -16}
+        - {x: 25, y: 12}
+        - {x: 20, y: 20}
+    - name: CASCOON_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 20}
+        - {x: -15, y: 19}
+        - {x: -25, y: 11}
+        - {x: -25, y: -15}
+        - {x: -24, y: -20}
+        - {x: 20, y: -20}
+        - {x: 25, y: -18}
+        - {x: 25, y: 15}
+        - {x: 13, y: 20}
+    - name: CASCOON_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 20}
+        - {x: -25, y: -15}
+        - {x: -23, y: -20}
+        - {x: 16, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 20}
+    - name: CASCOON_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 280
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 20}
+        - {x: -25, y: -15}
+        - {x: -23, y: -20}
+        - {x: 16, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 20}
+    - name: CASCOON_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 280
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -25, y: 14}
+        - {x: -25, y: -15}
+        - {x: -23, y: -20}
+        - {x: 16, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 280
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -25, y: 14}
+        - {x: -25, y: -15}
+        - {x: -23, y: -20}
+        - {x: 16, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 280
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -25, y: 14}
+        - {x: -25, y: -15}
+        - {x: -23, y: -20}
+        - {x: 16, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 280
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -17, y: 19}
+        - {x: -25, y: 9}
+        - {x: -25, y: -16}
+        - {x: -21, y: -20}
+        - {x: 19, y: -20}
+        - {x: 25, y: -18}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 280
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -17, y: 19}
+        - {x: -25, y: 9}
+        - {x: -25, y: -16}
+        - {x: -21, y: -20}
+        - {x: 19, y: -20}
+        - {x: 25, y: -18}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -22, y: -20}
+        - {x: 20, y: -20}
+        - {x: 25, y: -19}
+        - {x: 25, y: 13}
+        - {x: 21, y: 20}
+    - name: CASCOON_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 280
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -22, y: -20}
+        - {x: 20, y: -20}
+        - {x: 25, y: -19}
+        - {x: 25, y: 13}
+        - {x: 21, y: 20}
+    - name: CASCOON_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -14}
+        - {x: -23, y: -20}
+        - {x: 18, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 240
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -14}
+        - {x: -23, y: -20}
+        - {x: 18, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 240
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -24, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -19}
+        - {x: 25, y: 20}
+    - name: CASCOON_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 240
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -24, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -19}
+        - {x: 25, y: 20}
+    - name: CASCOON_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 240
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -24, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -19}
+        - {x: 25, y: 20}
+    - name: CASCOON_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 240
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -24, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -19}
+        - {x: 25, y: 20}
+    - name: CASCOON_24
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -24, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -19}
+        - {x: 25, y: 20}
+    - name: CASCOON_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 240
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -24, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -19}
+        - {x: 25, y: 20}
+    - name: CASCOON_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 20}
+        - {x: -22, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -18}
+        - {x: -23, y: -20}
+        - {x: 19, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 9}
+        - {x: 18, y: 17}
+    - name: CASCOON_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 20}
+        - {x: -22, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -18}
+        - {x: -23, y: -20}
+        - {x: 19, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 9}
+        - {x: 18, y: 17}
+    - name: CASCOON_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 200
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 20}
+        - {x: -22, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -18}
+        - {x: -23, y: -20}
+        - {x: 19, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 9}
+        - {x: 18, y: 17}
+    - name: CASCOON_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -25, y: 14}
+        - {x: -25, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 12}
+        - {x: 15, y: 20}
+    - name: CASCOON_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 200
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -25, y: 14}
+        - {x: -25, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 12}
+        - {x: 15, y: 20}
+    - name: CASCOON_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -25, y: 13}
+        - {x: -25, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_32
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 200
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -25, y: 13}
+        - {x: -25, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -11}
+        - {x: -19, y: -17}
+        - {x: -17, y: -20}
+        - {x: 19, y: -20}
+        - {x: 25, y: -18}
+        - {x: 25, y: 11}
+        - {x: 14, y: 20}
+    - name: CASCOON_34
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 200
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -19}
+        - {x: -19, y: -20}
+        - {x: 21, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 11}
+        - {x: 14, y: 20}
+    - name: CASCOON_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 20}
+        - {x: -22, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -23, y: -20}
+        - {x: 17, y: -20}
+        - {x: 25, y: -17}
+        - {x: 25, y: 9}
+        - {x: 24, y: 12}
+    - name: CASCOON_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -25, y: 9}
+        - {x: -25, y: -19}
+        - {x: -23, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 14}
+        - {x: 17, y: 20}
+    - name: CASCOON_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 160
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -25, y: 9}
+        - {x: -25, y: -19}
+        - {x: -23, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 14}
+        - {x: 17, y: 20}
+    - name: CASCOON_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 160
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -25, y: 9}
+        - {x: -25, y: -19}
+        - {x: -23, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 14}
+        - {x: 17, y: 20}
+    - name: CASCOON_39
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 160
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -25, y: 16}
+        - {x: -25, y: -15}
+        - {x: -19, y: -20}
+        - {x: 15, y: -20}
+        - {x: 20, y: -19}
+        - {x: 25, y: -11}
+        - {x: 25, y: 14}
+        - {x: 21, y: 20}
+    - name: CASCOON_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 160
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20}
+        - {x: -25, y: 13}
+        - {x: -25, y: -20}
+        - {x: 24, y: -20}
+        - {x: 25, y: -19}
+        - {x: 25, y: 15}
+        - {x: 24, y: 20}
+    - name: CASCOON_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 160
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 20}
+        - {x: -18, y: 20}
+        - {x: -25, y: 8}
+        - {x: -25, y: -15}
+        - {x: -19, y: -20}
+        - {x: 16, y: -20}
+        - {x: 20, y: -19}
+        - {x: 25, y: -14}
+        - {x: 25, y: 11}
+        - {x: 24, y: 15}
+    - name: CASCOON_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 160
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -17}
+        - {x: -23, y: -20}
+        - {x: 18, y: -20}
+        - {x: 25, y: -17}
+        - {x: 25, y: 12}
+        - {x: 13, y: 20}
+    - name: CASCOON_43
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 160
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -19}
+        - {x: -23, y: -20}
+        - {x: 17, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 11}
+        - {x: 22, y: 20}
+    - name: CASCOON_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 20}
+        - {x: -25, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 15}
+        - {x: 22, y: 20}
+    - name: CASCOON_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -25, y: 13}
+        - {x: -25, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 20}
+    - name: CASCOON_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 120
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -25, y: 13}
+        - {x: -25, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 20}
+    - name: CASCOON_47
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 120
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -19}
+        - {x: -21, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 9}
+        - {x: 20, y: 20}
+    - name: CASCOON_48
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 120
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 20}
+        - {x: -25, y: 9}
+        - {x: -25, y: -15}
+        - {x: -21, y: -20}
+        - {x: 17, y: -20}
+        - {x: 25, y: -18}
+        - {x: 25, y: 11}
+        - {x: 16, y: 20}
+    - name: CASCOON_49
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 120
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 20}
+        - {x: -25, y: 17}
+        - {x: -25, y: -20}
+        - {x: 18, y: -20}
+        - {x: 25, y: -18}
+        - {x: 25, y: 12}
+        - {x: 16, y: 20}
+    - name: CASCOON_50
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 120
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -19}
+        - {x: -21, y: -20}
+        - {x: 18, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 9}
+        - {x: 18, y: 20}
+    - name: CASCOON_51
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 120
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 20}
+        - {x: -15, y: 20}
+        - {x: -25, y: 9}
+        - {x: -25, y: -20}
+        - {x: 16, y: -20}
+        - {x: 20, y: -16}
+        - {x: 25, y: -13}
+        - {x: 25, y: 12}
+    - name: CASCOON_52
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 120
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 20}
+        - {x: -12, y: 20}
+        - {x: -23, y: 12}
+        - {x: -25, y: 7}
+        - {x: -25, y: -15}
+        - {x: -24, y: -19}
+        - {x: -22, y: -20}
+        - {x: 21, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 14}
+        - {x: 16, y: 18}
+    - name: CASCOON_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 120
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 20}
+        - {x: -12, y: 20}
+        - {x: -23, y: 12}
+        - {x: -25, y: 7}
+        - {x: -25, y: -15}
+        - {x: -24, y: -19}
+        - {x: -22, y: -20}
+        - {x: 21, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 14}
+        - {x: 16, y: 18}
+    - name: CASCOON_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 20}
+        - {x: -14, y: 20}
+        - {x: -25, y: 17}
+        - {x: -25, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 14}
+    - name: CASCOON_55
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 20}
+        - {x: -25, y: 16}
+        - {x: -25, y: -16}
+        - {x: -24, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 17}
+        - {x: 19, y: 20}
+    - name: CASCOON_56
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 80
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -25, y: 11}
+        - {x: -25, y: -15}
+        - {x: -24, y: -20}
+        - {x: 23, y: -20}
+        - {x: 25, y: -13}
+        - {x: 25, y: 11}
+        - {x: 17, y: 20}
+    - name: CASCOON_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 80
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -18}
+        - {x: -23, y: -20}
+        - {x: 18, y: -20}
+        - {x: 22, y: -19}
+        - {x: 25, y: -11}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_58
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 80
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -18}
+        - {x: -23, y: -20}
+        - {x: 18, y: -20}
+        - {x: 22, y: -19}
+        - {x: 25, y: -11}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_59
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 80
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -18}
+        - {x: -23, y: -20}
+        - {x: 18, y: -20}
+        - {x: 22, y: -19}
+        - {x: 25, y: -11}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_60
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 80
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -18}
+        - {x: -23, y: -20}
+        - {x: 18, y: -20}
+        - {x: 22, y: -19}
+        - {x: 25, y: -11}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_61
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 80
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20}
+        - {x: -25, y: 10}
+        - {x: -25, y: -18}
+        - {x: -23, y: -20}
+        - {x: 18, y: -20}
+        - {x: 22, y: -19}
+        - {x: 25, y: -11}
+        - {x: 25, y: 11}
+        - {x: 15, y: 20}
+    - name: CASCOON_62
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 20}
+        - {x: -25, y: 9}
+        - {x: -25, y: -19}
+        - {x: -23, y: -20}
+        - {x: 17, y: -20}
+        - {x: 25, y: -17}
+        - {x: 25, y: 17}
+        - {x: 19, y: 20}
+    - name: CASCOON_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -24, y: -19}
+        - {x: -21, y: -20}
+        - {x: 22, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 15}
+        - {x: 18, y: 20}
+    - name: CASCOON_64
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 40
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 20}
+        - {x: -25, y: 12}
+        - {x: -25, y: -18}
+        - {x: -24, y: -19}
+        - {x: -21, y: -20}
+        - {x: 22, y: -20}
+        - {x: 25, y: -14}
+        - {x: 25, y: 15}
+        - {x: 18, y: 20}
+    - name: CASCOON_65
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 40
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -18, y: 17}
+        - {x: -25, y: 9}
+        - {x: -25, y: -20}
+        - {x: 16, y: -20}
+        - {x: 25, y: -12}
+        - {x: 25, y: 11}
+        - {x: 19, y: 20}
+    - name: CASCOON_66
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 40
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -20, y: 19}
+        - {x: -25, y: 13}
+        - {x: -25, y: -16}
+        - {x: -24, y: -20}
+        - {x: 20, y: -20}
+        - {x: 25, y: -16}
+        - {x: 25, y: 11}
+        - {x: 22, y: 20}
+    - name: CASCOON_67
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 40
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20}
+        - {x: -25, y: 13}
+        - {x: -25, y: -14}
+        - {x: -22, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 18}
+        - {x: 19, y: 20}
+    - name: CASCOON_68
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 40
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20}
+        - {x: -25, y: 13}
+        - {x: -25, y: -14}
+        - {x: -22, y: -20}
+        - {x: 25, y: -20}
+        - {x: 25, y: 18}
+        - {x: 19, y: 20}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

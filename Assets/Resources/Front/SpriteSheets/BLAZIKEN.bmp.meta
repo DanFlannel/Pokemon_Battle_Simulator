@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: b20f4e2bbb7454c45999c743c2f51f5b
+timeCreated: 1452711494
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BLAZIKEN_0
+    21300002: BLAZIKEN_1
+    21300004: BLAZIKEN_2
+    21300006: BLAZIKEN_3
+    21300008: BLAZIKEN_4
+    21300010: BLAZIKEN_5
+    21300012: BLAZIKEN_6
+    21300014: BLAZIKEN_7
+    21300016: BLAZIKEN_8
+    21300018: BLAZIKEN_9
+    21300020: BLAZIKEN_10
+    21300022: BLAZIKEN_11
+    21300024: BLAZIKEN_12
+    21300026: BLAZIKEN_13
+    21300028: BLAZIKEN_14
+    21300030: BLAZIKEN_15
+    21300032: BLAZIKEN_16
+    21300034: BLAZIKEN_17
+    21300036: BLAZIKEN_18
+    21300038: BLAZIKEN_19
+    21300040: BLAZIKEN_20
+    21300042: BLAZIKEN_21
+    21300044: BLAZIKEN_22
+    21300046: BLAZIKEN_23
+    21300048: BLAZIKEN_24
+    21300050: BLAZIKEN_25
+    21300052: BLAZIKEN_26
+    21300054: BLAZIKEN_27
+    21300056: BLAZIKEN_28
+    21300058: BLAZIKEN_29
+    21300060: BLAZIKEN_30
+    21300062: BLAZIKEN_31
+    21300064: BLAZIKEN_32
+    21300066: BLAZIKEN_33
+    21300068: BLAZIKEN_34
+    21300070: BLAZIKEN_35
+    21300072: BLAZIKEN_36
+    21300074: BLAZIKEN_37
+    21300076: BLAZIKEN_38
+    21300078: BLAZIKEN_39
+    21300080: BLAZIKEN_40
+    21300082: BLAZIKEN_41
+    21300084: BLAZIKEN_42
+    21300086: BLAZIKEN_43
+    21300088: BLAZIKEN_44
+    21300090: BLAZIKEN_45
+    21300092: BLAZIKEN_46
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BLAZIKEN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: -38}
+        - {x: 41.5, y: -35}
+        - {x: 41.5, y: 37}
+        - {x: 18.5, y: 48}
+        - {x: -29.5, y: 48}
+        - {x: -41.5, y: 32}
+        - {x: -41.5, y: -41}
+        - {x: -34.5, y: -48}
+        - {x: 36.5, y: -48}
+    - name: BLAZIKEN_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 576
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -40}
+        - {x: 41.5, y: 38}
+        - {x: 9.5, y: 48}
+        - {x: -24.5, y: 48}
+        - {x: -41.5, y: 14}
+        - {x: -41.5, y: -20}
+        - {x: -37.5, y: -48}
+        - {x: -8.5, y: -48}
+        - {x: -1.5, y: -44}
+        - {x: 12.5, y: -48}
+        - {x: 35.5, y: -48}
+    - name: BLAZIKEN_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 576
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -40}
+        - {x: 41.5, y: 32}
+        - {x: 24.5, y: 48}
+        - {x: -20.5, y: 48}
+        - {x: -41.5, y: 33}
+        - {x: -41.5, y: -48}
+        - {x: -0.5, y: -48}
+        - {x: -2.5, y: -39}
+        - {x: 15.5, y: -48}
+        - {x: 35.5, y: -48}
+    - name: BLAZIKEN_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 576
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 48}
+        - {x: -30.5, y: 48}
+        - {x: -41.5, y: 20}
+        - {x: -41.5, y: 0}
+        - {x: -39.5, y: -1}
+        - {x: -35.5, y: -1}
+        - {x: -41.5, y: -41}
+        - {x: -41.5, y: -42}
+        - {x: -37.5, y: -48}
+        - {x: 40.5, y: -48}
+        - {x: 41.5, y: -47}
+        - {x: 41.5, y: 40}
+    - name: BLAZIKEN_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 576
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 48}
+        - {x: -41.5, y: 9}
+        - {x: -41.5, y: -48}
+        - {x: 41.5, y: -48}
+        - {x: 41.5, y: 48}
+    - name: BLAZIKEN_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 576
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: -38}
+        - {x: 41.5, y: -22}
+        - {x: 41.5, y: 13}
+        - {x: 38.5, y: 17}
+        - {x: 41.5, y: 20}
+        - {x: 41.5, y: 30}
+        - {x: 32.5, y: 43}
+        - {x: 13.5, y: 48}
+        - {x: -27.5, y: 48}
+        - {x: -41.5, y: 12}
+        - {x: -41.5, y: -1}
+        - {x: -35.5, y: -2}
+        - {x: -26.5, y: 3}
+        - {x: -18.5, y: 7}
+        - {x: -25.5, y: -12}
+        - {x: -37.5, y: -45}
+        - {x: -36.5, y: -48}
+        - {x: 36.5, y: -48}
+    - name: BLAZIKEN_6
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 576
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -47}
+        - {x: 41.5, y: 29}
+        - {x: 39.5, y: 30}
+        - {x: 8.5, y: 48}
+        - {x: -28.5, y: 48}
+        - {x: -41.5, y: 13}
+        - {x: -41.5, y: -3}
+        - {x: -39.5, y: -4}
+        - {x: -25.5, y: 2}
+        - {x: -18.5, y: 7}
+        - {x: -41.5, y: -47}
+        - {x: -37.5, y: -48}
+        - {x: -9.5, y: -48}
+        - {x: -6.5, y: -45}
+        - {x: -0.5, y: -48}
+        - {x: 39.5, y: -48}
+    - name: BLAZIKEN_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 48}
+        - {x: -41.5, y: 26}
+        - {x: -41.5, y: -48}
+        - {x: 41.5, y: -48}
+        - {x: 41.5, y: 38}
+        - {x: 11.5, y: 48}
+    - name: BLAZIKEN_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 480
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 48}
+        - {x: -19.5, y: 43}
+        - {x: -41.5, y: 14}
+        - {x: -41.5, y: -41}
+        - {x: -38.5, y: -48}
+        - {x: 41.5, y: -48}
+        - {x: 41.5, y: 40}
+        - {x: 22.5, y: 48}
+    - name: BLAZIKEN_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 480
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 31}
+        - {x: 31.5, y: 48}
+        - {x: -16.5, y: 48}
+        - {x: -19.5, y: 44}
+        - {x: -41.5, y: 9}
+        - {x: -41.5, y: 0}
+        - {x: -39.5, y: -2}
+        - {x: -35.5, y: -4}
+        - {x: -41.5, y: -46}
+        - {x: -39.5, y: -48}
+        - {x: 41.5, y: -48}
+    - name: BLAZIKEN_10
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 480
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -48}
+        - {x: 41.5, y: -42}
+        - {x: 41.5, y: 38}
+        - {x: 13.5, y: 48}
+        - {x: -23.5, y: 48}
+        - {x: -41.5, y: 14}
+        - {x: -41.5, y: -35}
+        - {x: -37.5, y: -45}
+        - {x: -31.5, y: -48}
+        - {x: -11.5, y: -48}
+        - {x: -2.5, y: -43}
+        - {x: 6.5, y: -47}
+        - {x: 10.5, y: -48}
+    - name: BLAZIKEN_11
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 480
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -44}
+        - {x: 41.5, y: -38}
+        - {x: 32.5, y: -24}
+        - {x: 41.5, y: -2}
+        - {x: 41.5, y: 14}
+        - {x: 38.5, y: 16}
+        - {x: 20.5, y: 23}
+        - {x: 18.5, y: 23}
+        - {x: 23.5, y: 23}
+        - {x: 24.5, y: 22}
+        - {x: 35.5, y: 17}
+        - {x: 41.5, y: 19}
+        - {x: 41.5, y: 27}
+        - {x: 6.5, y: 48}
+        - {x: -24.5, y: 48}
+        - {x: -41.5, y: 12}
+        - {x: -41.5, y: -30}
+        - {x: -37.5, y: -46}
+        - {x: -34.5, y: -48}
+        - {x: -12.5, y: -48}
+        - {x: -1.5, y: -43}
+        - {x: 7.5, y: -48}
+        - {x: 32.5, y: -48}
+    - name: BLAZIKEN_12
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 480
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -42}
+        - {x: 32.5, y: -24}
+        - {x: 41.5, y: -3}
+        - {x: 41.5, y: 16}
+        - {x: 31.5, y: 16}
+        - {x: 20.5, y: 23}
+        - {x: 18.5, y: 23}
+        - {x: 22.5, y: 23}
+        - {x: 23.5, y: 22}
+        - {x: 34.5, y: 19}
+        - {x: 41.5, y: 18}
+        - {x: 41.5, y: 27}
+        - {x: 9.5, y: 48}
+        - {x: -19.5, y: 48}
+        - {x: -41.5, y: 32}
+        - {x: -41.5, y: -48}
+        - {x: -12.5, y: -48}
+        - {x: -1.5, y: -43}
+        - {x: 11.5, y: -48}
+        - {x: 34.5, y: -48}
+    - name: BLAZIKEN_13
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 480
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -45}
+        - {x: 41.5, y: 14}
+        - {x: 22.5, y: 22}
+        - {x: 17.5, y: 24}
+        - {x: 19.5, y: 23}
+        - {x: 26.5, y: 22}
+        - {x: 26.5, y: 20}
+        - {x: 41.5, y: 17}
+        - {x: 41.5, y: 27}
+        - {x: 11.5, y: 48}
+        - {x: -16.5, y: 48}
+        - {x: -21.5, y: 47}
+        - {x: -41.5, y: 15}
+        - {x: -41.5, y: -37}
+        - {x: -37.5, y: -46}
+        - {x: -34.5, y: -48}
+        - {x: -12.5, y: -48}
+        - {x: -1.5, y: -43}
+        - {x: 12.5, y: -48}
+        - {x: 32.5, y: -48}
+    - name: BLAZIKEN_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -38}
+        - {x: 21.5, y: -7}
+        - {x: 41.5, y: -1}
+        - {x: 41.5, y: 31}
+        - {x: 8.5, y: 48}
+        - {x: -26.5, y: 48}
+        - {x: -41.5, y: 11}
+        - {x: -41.5, y: -30}
+        - {x: -38.5, y: -46}
+        - {x: -35.5, y: -48}
+        - {x: -12.5, y: -48}
+        - {x: -1.5, y: -43}
+        - {x: 12.5, y: -48}
+        - {x: 35.5, y: -48}
+    - name: BLAZIKEN_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 384
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -38}
+        - {x: 21.5, y: -7}
+        - {x: 36.5, y: -1}
+        - {x: 41.5, y: 2}
+        - {x: 41.5, y: 13}
+        - {x: 40.5, y: 15}
+        - {x: 21.5, y: 22}
+        - {x: 17.5, y: 23}
+        - {x: 33.5, y: 19}
+        - {x: 41.5, y: 18}
+        - {x: 41.5, y: 26}
+        - {x: 16.5, y: 48}
+        - {x: -24.5, y: 48}
+        - {x: -27.5, y: 47}
+        - {x: -41.5, y: 19}
+        - {x: -41.5, y: -40}
+        - {x: -38.5, y: -46}
+        - {x: -35.5, y: -48}
+        - {x: -12.5, y: -48}
+        - {x: -1.5, y: -43}
+        - {x: 12.5, y: -48}
+        - {x: 35.5, y: -48}
+    - name: BLAZIKEN_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 384
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -41}
+        - {x: 39.5, y: -39}
+        - {x: 21.5, y: -7}
+        - {x: 41.5, y: 0}
+        - {x: 41.5, y: 29}
+        - {x: 15.5, y: 48}
+        - {x: -19.5, y: 48}
+        - {x: -41.5, y: 26}
+        - {x: -41.5, y: -48}
+        - {x: -12.5, y: -48}
+        - {x: -1.5, y: -43}
+        - {x: 5.5, y: -48}
+        - {x: 34.5, y: -48}
+    - name: BLAZIKEN_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 384
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -41}
+        - {x: 39.5, y: -39}
+        - {x: 21.5, y: -7}
+        - {x: 36.5, y: -2}
+        - {x: 41.5, y: 2}
+        - {x: 41.5, y: 13}
+        - {x: 37.5, y: 16}
+        - {x: 21.5, y: 22}
+        - {x: 17.5, y: 23}
+        - {x: 21.5, y: 23}
+        - {x: 25.5, y: 21}
+        - {x: 39.5, y: 18}
+        - {x: 41.5, y: 18}
+        - {x: 41.5, y: 29}
+        - {x: 21.5, y: 48}
+        - {x: -19.5, y: 48}
+        - {x: -41.5, y: 26}
+        - {x: -41.5, y: -48}
+        - {x: -12.5, y: -48}
+        - {x: -1.5, y: -43}
+        - {x: 5.5, y: -48}
+        - {x: 34.5, y: -48}
+    - name: BLAZIKEN_18
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 384
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 39}
+        - {x: 21.5, y: 48}
+        - {x: -19.5, y: 48}
+        - {x: -41.5, y: 30}
+        - {x: -41.5, y: -48}
+        - {x: -12.5, y: -48}
+        - {x: -0.5, y: -43}
+        - {x: 3.5, y: -48}
+        - {x: 41.5, y: -48}
+    - name: BLAZIKEN_19
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 384
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 22}
+        - {x: 17.5, y: 23}
+        - {x: 33.5, y: 19}
+        - {x: 41.5, y: 18}
+        - {x: 41.5, y: 25}
+        - {x: 39.5, y: 27}
+        - {x: 9.5, y: 48}
+        - {x: -21.5, y: 48}
+        - {x: -41.5, y: 38}
+        - {x: -41.5, y: -48}
+        - {x: 35.5, y: -48}
+        - {x: 41.5, y: -45}
+        - {x: 41.5, y: 13}
+        - {x: 37.5, y: 16}
+    - name: BLAZIKEN_20
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 384
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -48}
+        - {x: 41.5, y: -45}
+        - {x: 41.5, y: 13}
+        - {x: 37.5, y: 16}
+        - {x: 21.5, y: 22}
+        - {x: 17.5, y: 23}
+        - {x: 33.5, y: 19}
+        - {x: 41.5, y: 18}
+        - {x: 41.5, y: 25}
+        - {x: 39.5, y: 27}
+        - {x: 9.5, y: 48}
+        - {x: -25.5, y: 48}
+        - {x: -41.5, y: 21}
+        - {x: -41.5, y: -27}
+        - {x: -36.5, y: -48}
+        - {x: -12.5, y: -48}
+        - {x: -4.5, y: -41}
+        - {x: -4.5, y: -39}
+        - {x: 4.5, y: -48}
+    - name: BLAZIKEN_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -45}
+        - {x: 41.5, y: -40}
+        - {x: 40.5, y: -38}
+        - {x: 41.5, y: -25}
+        - {x: 41.5, y: 13}
+        - {x: 40.5, y: 15}
+        - {x: 21.5, y: 22}
+        - {x: 17.5, y: 23}
+        - {x: 22.5, y: 22}
+        - {x: 33.5, y: 19}
+        - {x: 41.5, y: 18}
+        - {x: 41.5, y: 40}
+        - {x: 16.5, y: 48}
+        - {x: -30.5, y: 48}
+        - {x: -41.5, y: 18}
+        - {x: -41.5, y: -2}
+        - {x: -37.5, y: -3}
+        - {x: -26.5, y: 2}
+        - {x: -19.5, y: 6}
+        - {x: -25.5, y: -9}
+        - {x: -36.5, y: -45}
+        - {x: -34.5, y: -48}
+        - {x: -4.5, y: -48}
+        - {x: -2.5, y: -42}
+        - {x: 6.5, y: -48}
+        - {x: 33.5, y: -48}
+    - name: BLAZIKEN_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 288
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -48}
+        - {x: 41.5, y: -42}
+        - {x: 32.5, y: -24}
+        - {x: 41.5, y: -13}
+        - {x: 41.5, y: 29}
+        - {x: 9.5, y: 48}
+        - {x: -17.5, y: 48}
+        - {x: -19.5, y: 44}
+        - {x: -41.5, y: 13}
+        - {x: -41.5, y: -2}
+        - {x: -37.5, y: -3}
+        - {x: -26.5, y: 2}
+        - {x: -19.5, y: 6}
+        - {x: -25.5, y: -9}
+        - {x: -36.5, y: -45}
+        - {x: -34.5, y: -48}
+        - {x: -4.5, y: -48}
+        - {x: -2.5, y: -42}
+        - {x: 8.5, y: -47}
+        - {x: 10.5, y: -48}
+    - name: BLAZIKEN_23
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 288
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -48}
+        - {x: 41.5, y: -42}
+        - {x: 41.5, y: 42}
+        - {x: 18.5, y: 48}
+        - {x: -28.5, y: 48}
+        - {x: -41.5, y: 29}
+        - {x: -41.5, y: -48}
+        - {x: -4.5, y: -48}
+        - {x: -2.5, y: -42}
+        - {x: 8.5, y: -47}
+        - {x: 10.5, y: -48}
+    - name: BLAZIKEN_24
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 288
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -48}
+        - {x: 41.5, y: -42}
+        - {x: 41.5, y: 13}
+        - {x: 37.5, y: 16}
+        - {x: 17.5, y: 24}
+        - {x: 15.5, y: 24}
+        - {x: 19.5, y: 24}
+        - {x: 20.5, y: 23}
+        - {x: 35.5, y: 19}
+        - {x: 41.5, y: 18}
+        - {x: 41.5, y: 29}
+        - {x: 30.5, y: 48}
+        - {x: -38.5, y: 48}
+        - {x: -41.5, y: 29}
+        - {x: -41.5, y: -3}
+        - {x: -40.5, y: -4}
+        - {x: -34.5, y: -2}
+        - {x: -19.5, y: 7}
+        - {x: -24.5, y: -8}
+        - {x: -37.5, y: -45}
+        - {x: -35.5, y: -48}
+        - {x: -4.5, y: -48}
+        - {x: -2.5, y: -42}
+        - {x: 8.5, y: -47}
+        - {x: 10.5, y: -48}
+    - name: BLAZIKEN_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 288
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -47}
+        - {x: 41.5, y: 14}
+        - {x: 38.5, y: 15}
+        - {x: 22.5, y: 22}
+        - {x: 17.5, y: 24}
+        - {x: 15.5, y: 24}
+        - {x: 19.5, y: 24}
+        - {x: 20.5, y: 23}
+        - {x: 23.5, y: 21}
+        - {x: 41.5, y: 18}
+        - {x: 41.5, y: 27}
+        - {x: 30.5, y: 32}
+        - {x: 15.5, y: 48}
+        - {x: -39.5, y: 48}
+        - {x: -41.5, y: 46}
+        - {x: -41.5, y: -48}
+        - {x: -9.5, y: -48}
+        - {x: -3.5, y: -42}
+        - {x: 5.5, y: -48}
+        - {x: 38.5, y: -48}
+    - name: BLAZIKEN_26
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 288
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 46}
+        - {x: 34.5, y: 48}
+        - {x: -29.5, y: 48}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: -2}
+        - {x: -35.5, y: -4}
+        - {x: -21.5, y: 5}
+        - {x: -36.5, y: -45}
+        - {x: -31.5, y: -48}
+        - {x: -11.5, y: -48}
+        - {x: -3.5, y: -42}
+        - {x: 7.5, y: -48}
+        - {x: 41.5, y: -48}
+    - name: BLAZIKEN_27
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 288
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -48}
+        - {x: 41.5, y: 44}
+        - {x: 32.5, y: 48}
+        - {x: -26.5, y: 48}
+        - {x: -41.5, y: 21}
+        - {x: -41.5, y: -48}
+        - {x: -11.5, y: -48}
+        - {x: -3.5, y: -42}
+        - {x: -4.5, y: -39}
+        - {x: 9.5, y: -48}
+    - name: BLAZIKEN_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 48}
+        - {x: -41.5, y: 29}
+        - {x: -41.5, y: -47}
+        - {x: -40.5, y: -48}
+        - {x: 40.5, y: -48}
+        - {x: 41.5, y: -47}
+        - {x: 41.5, y: 38}
+        - {x: 11.5, y: 48}
+    - name: BLAZIKEN_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 192
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 42}
+        - {x: 36.5, y: 48}
+        - {x: -27.5, y: 48}
+        - {x: -41.5, y: 37}
+        - {x: -41.5, y: -1}
+        - {x: -39.5, y: -2}
+        - {x: -35.5, y: -3}
+        - {x: -37.5, y: -45}
+        - {x: -35.5, y: -48}
+        - {x: -2.5, y: -48}
+        - {x: -3.5, y: -38}
+        - {x: 4.5, y: -48}
+        - {x: 41.5, y: -48}
+    - name: BLAZIKEN_30
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 192
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 48}
+        - {x: -19.5, y: 43}
+        - {x: -41.5, y: 11}
+        - {x: -41.5, y: -48}
+        - {x: 41.5, y: -48}
+        - {x: 41.5, y: 34}
+        - {x: 9.5, y: 48}
+    - name: BLAZIKEN_31
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 192
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -38}
+        - {x: 41.5, y: 28}
+        - {x: 12.5, y: 48}
+        - {x: -16.5, y: 48}
+        - {x: -19.5, y: 43}
+        - {x: -41.5, y: 13}
+        - {x: -41.5, y: -34}
+        - {x: -35.5, y: -48}
+        - {x: 35.5, y: -48}
+    - name: BLAZIKEN_32
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 192
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 48}
+        - {x: -41.5, y: 43}
+        - {x: -41.5, y: -48}
+        - {x: 36.5, y: -48}
+        - {x: 41.5, y: -40}
+        - {x: 41.5, y: 40}
+        - {x: 12.5, y: 48}
+    - name: BLAZIKEN_33
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 192
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 48}
+        - {x: -41.5, y: 10}
+        - {x: -41.5, y: -1}
+        - {x: -40.5, y: -2}
+        - {x: -30.5, y: 0}
+        - {x: -36.5, y: -41}
+        - {x: -32.5, y: -48}
+        - {x: 40.5, y: -48}
+        - {x: 41.5, y: -45}
+        - {x: 41.5, y: 41}
+        - {x: 21.5, y: 48}
+    - name: BLAZIKEN_34
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 192
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -38}
+        - {x: 41.5, y: 14}
+        - {x: 37.5, y: 17}
+        - {x: 41.5, y: 20}
+        - {x: 41.5, y: 28}
+        - {x: 34.5, y: 33}
+        - {x: 8.5, y: 48}
+        - {x: -14.5, y: 48}
+        - {x: -18.5, y: 44}
+        - {x: -41.5, y: 14}
+        - {x: -41.5, y: 0}
+        - {x: -40.5, y: -2}
+        - {x: -30.5, y: 0}
+        - {x: -41.5, y: -45}
+        - {x: -41.5, y: -46}
+        - {x: -38.5, y: -48}
+        - {x: 35.5, y: -48}
+    - name: BLAZIKEN_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 48}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: -42}
+        - {x: -39.5, y: -48}
+        - {x: 39.5, y: -48}
+        - {x: 41.5, y: -46}
+        - {x: 41.5, y: 42}
+        - {x: 21.5, y: 48}
+    - name: BLAZIKEN_36
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 96
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -38}
+        - {x: 41.5, y: 33}
+        - {x: 23.5, y: 48}
+        - {x: -29.5, y: 48}
+        - {x: -41.5, y: 36}
+        - {x: -41.5, y: -48}
+        - {x: 35.5, y: -48}
+    - name: BLAZIKEN_37
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 96
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 20}
+        - {x: 41.5, y: 31}
+        - {x: 13.5, y: 48}
+        - {x: -30.5, y: 48}
+        - {x: -41.5, y: 39}
+        - {x: -41.5, y: -48}
+        - {x: 37.5, y: -48}
+        - {x: 41.5, y: -45}
+        - {x: 41.5, y: 15}
+        - {x: 38.5, y: 16}
+    - name: BLAZIKEN_38
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 96
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 48}
+        - {x: -41.5, y: 26}
+        - {x: -41.5, y: -47}
+        - {x: -37.5, y: -48}
+        - {x: 41.5, y: -48}
+        - {x: 41.5, y: 48}
+    - name: BLAZIKEN_39
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 96
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 24}
+        - {x: 13.5, y: 26}
+        - {x: 14.5, y: 27}
+        - {x: 15.5, y: 26}
+        - {x: 26.5, y: 24}
+        - {x: 36.5, y: 22}
+        - {x: 41.5, y: 22}
+        - {x: 41.5, y: 32}
+        - {x: 12.5, y: 48}
+        - {x: -24.5, y: 48}
+        - {x: -41.5, y: 9}
+        - {x: -41.5, y: 1}
+        - {x: -39.5, y: 0}
+        - {x: -35.5, y: -1}
+        - {x: -17.5, y: 8}
+        - {x: -41.5, y: -40}
+        - {x: -41.5, y: -48}
+        - {x: 41.5, y: -48}
+        - {x: 41.5, y: 18}
+        - {x: 40.5, y: 19}
+    - name: BLAZIKEN_40
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 96
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 24}
+        - {x: 13.5, y: 26}
+        - {x: 14.5, y: 27}
+        - {x: 15.5, y: 26}
+        - {x: 30.5, y: 22}
+        - {x: 41.5, y: 22}
+        - {x: 41.5, y: 39}
+        - {x: 19.5, y: 48}
+        - {x: -28.5, y: 48}
+        - {x: -41.5, y: 10}
+        - {x: -41.5, y: 2}
+        - {x: -39.5, y: 0}
+        - {x: -35.5, y: -1}
+        - {x: -17.5, y: 8}
+        - {x: -30.5, y: -20}
+        - {x: -39.5, y: -48}
+        - {x: 41.5, y: -48}
+        - {x: 41.5, y: 18}
+        - {x: 40.5, y: 19}
+    - name: BLAZIKEN_41
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 96
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -48}
+        - {x: 41.5, y: 18}
+        - {x: 40.5, y: 19}
+        - {x: 17.5, y: 24}
+        - {x: 13.5, y: 26}
+        - {x: 14.5, y: 27}
+        - {x: 15.5, y: 26}
+        - {x: 37.5, y: 21}
+        - {x: 41.5, y: 22}
+        - {x: 41.5, y: 30}
+        - {x: 32.5, y: 36}
+        - {x: 9.5, y: 48}
+        - {x: -24.5, y: 48}
+        - {x: -41.5, y: 34}
+        - {x: -41.5, y: -48}
+        - {x: -10.5, y: -48}
+        - {x: -4.5, y: -43}
+        - {x: -4.5, y: -40}
+        - {x: 10.5, y: -48}
+    - name: BLAZIKEN_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -48}
+        - {x: 41.5, y: 18}
+        - {x: 40.5, y: 19}
+        - {x: 17.5, y: 24}
+        - {x: 13.5, y: 26}
+        - {x: 14.5, y: 27}
+        - {x: 15.5, y: 26}
+        - {x: 37.5, y: 21}
+        - {x: 41.5, y: 22}
+        - {x: 41.5, y: 30}
+        - {x: 31.5, y: 35}
+        - {x: 16.5, y: 48}
+        - {x: -34.5, y: 48}
+        - {x: -41.5, y: 39}
+        - {x: -41.5, y: -44}
+        - {x: -37.5, y: -48}
+        - {x: -4.5, y: -48}
+        - {x: -4.5, y: -40}
+        - {x: 10.5, y: -48}
+    - name: BLAZIKEN_43
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 24}
+        - {x: 13.5, y: 26}
+        - {x: 14.5, y: 27}
+        - {x: 15.5, y: 26}
+        - {x: 31.5, y: 23}
+        - {x: 40.5, y: 22}
+        - {x: 41.5, y: 23}
+        - {x: 41.5, y: 31}
+        - {x: 34.5, y: 41}
+        - {x: 17.5, y: 48}
+        - {x: -29.5, y: 48}
+        - {x: -41.5, y: 14}
+        - {x: -41.5, y: 1}
+        - {x: -40.5, y: -1}
+        - {x: -35.5, y: -1}
+        - {x: -17.5, y: 8}
+        - {x: -25.5, y: -11}
+        - {x: -27.5, y: -21}
+        - {x: -37.5, y: -41}
+        - {x: -37.5, y: -48}
+        - {x: 41.5, y: -48}
+        - {x: 41.5, y: 18}
+        - {x: 40.5, y: 19}
+    - name: BLAZIKEN_44
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -38}
+        - {x: 41.5, y: 16}
+        - {x: 40.5, y: 19}
+        - {x: 17.5, y: 24}
+        - {x: 13.5, y: 26}
+        - {x: 14.5, y: 27}
+        - {x: 15.5, y: 26}
+        - {x: 36.5, y: 22}
+        - {x: 41.5, y: 22}
+        - {x: 41.5, y: 32}
+        - {x: 12.5, y: 48}
+        - {x: -24.5, y: 48}
+        - {x: -41.5, y: 12}
+        - {x: -41.5, y: 1}
+        - {x: -40.5, y: -1}
+        - {x: -35.5, y: -1}
+        - {x: -38.5, y: -48}
+        - {x: -5.5, y: -48}
+        - {x: -2.5, y: -47}
+        - {x: -0.5, y: -48}
+        - {x: 36.5, y: -48}
+    - name: BLAZIKEN_45
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 48}
+        - {x: -25.5, y: 48}
+        - {x: -41.5, y: 11}
+        - {x: -41.5, y: 1}
+        - {x: -40.5, y: -1}
+        - {x: -35.5, y: -1}
+        - {x: -38.5, y: -41}
+        - {x: -34.5, y: -48}
+        - {x: 39.5, y: -48}
+        - {x: 41.5, y: -38}
+        - {x: 41.5, y: 34}
+    - name: BLAZIKEN_46
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 40}
+        - {x: 21.5, y: 48}
+        - {x: -29.5, y: 48}
+        - {x: -41.5, y: 20}
+        - {x: -41.5, y: -1}
+        - {x: -35.5, y: -1}
+        - {x: -37.5, y: -6}
+        - {x: -41.5, y: -32}
+        - {x: -41.5, y: -48}
+        - {x: 36.5, y: -48}
+        - {x: 41.5, y: -38}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

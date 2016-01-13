@@ -1,0 +1,2097 @@
+fileFormatVersion: 2
+guid: ecaa37c7a5f63264c97bac9e1d518fd3
+timeCreated: 1452636823
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AZELF_0
+    21300002: AZELF_1
+    21300004: AZELF_2
+    21300006: AZELF_3
+    21300008: AZELF_4
+    21300010: AZELF_5
+    21300012: AZELF_6
+    21300014: AZELF_7
+    21300016: AZELF_8
+    21300018: AZELF_9
+    21300020: AZELF_10
+    21300022: AZELF_11
+    21300024: AZELF_12
+    21300026: AZELF_13
+    21300028: AZELF_14
+    21300030: AZELF_15
+    21300032: AZELF_16
+    21300034: AZELF_17
+    21300036: AZELF_18
+    21300038: AZELF_19
+    21300040: AZELF_20
+    21300042: AZELF_21
+    21300044: AZELF_22
+    21300046: AZELF_23
+    21300048: AZELF_24
+    21300050: AZELF_25
+    21300052: AZELF_26
+    21300054: AZELF_27
+    21300056: AZELF_28
+    21300058: AZELF_29
+    21300060: AZELF_30
+    21300062: AZELF_31
+    21300064: AZELF_32
+    21300066: AZELF_33
+    21300068: AZELF_34
+    21300070: AZELF_35
+    21300072: AZELF_36
+    21300074: AZELF_37
+    21300076: AZELF_38
+    21300078: AZELF_39
+    21300080: AZELF_40
+    21300082: AZELF_41
+    21300084: AZELF_42
+    21300086: AZELF_43
+    21300088: AZELF_44
+    21300090: AZELF_45
+    21300092: AZELF_46
+    21300094: AZELF_47
+    21300096: AZELF_48
+    21300098: AZELF_49
+    21300100: AZELF_50
+    21300102: AZELF_51
+    21300104: AZELF_52
+    21300106: AZELF_53
+    21300108: AZELF_54
+    21300110: AZELF_55
+    21300112: AZELF_56
+    21300114: AZELF_57
+    21300116: AZELF_58
+    21300118: AZELF_59
+    21300120: AZELF_60
+    21300122: AZELF_61
+    21300124: AZELF_62
+    21300126: AZELF_63
+    21300128: AZELF_64
+    21300130: AZELF_65
+    21300132: AZELF_66
+    21300134: AZELF_67
+    21300136: AZELF_68
+    21300138: AZELF_69
+    21300140: AZELF_70
+    21300142: AZELF_71
+    21300144: AZELF_72
+    21300146: AZELF_73
+    21300148: AZELF_74
+    21300150: AZELF_75
+    21300152: AZELF_76
+    21300154: AZELF_77
+    21300156: AZELF_78
+    21300158: AZELF_79
+    21300160: AZELF_80
+    21300162: AZELF_81
+    21300164: AZELF_82
+    21300166: AZELF_83
+    21300168: AZELF_84
+    21300170: AZELF_85
+    21300172: AZELF_86
+    21300174: AZELF_87
+    21300176: AZELF_88
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AZELF_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: -21}
+        - {x: -4.5, y: 43}
+        - {x: -26.5, y: 43}
+        - {x: -38.5, y: 14}
+        - {x: -38.5, y: 10}
+        - {x: -35.5, y: 6}
+        - {x: -27.5, y: -13}
+        - {x: -20.5, y: -23}
+        - {x: -7.5, y: -23}
+        - {x: -4.5, y: -18}
+        - {x: -2.5, y: -26}
+        - {x: 3.5, y: -32}
+        - {x: 32.5, y: -32}
+        - {x: 40.5, y: -29}
+        - {x: 41.5, y: -28}
+        - {x: 41.5, y: -24}
+    - name: AZELF_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 43}
+        - {x: -38.5, y: 24}
+        - {x: -38.5, y: 3}
+        - {x: -23.5, y: -30}
+        - {x: -16.5, y: -32}
+        - {x: 32.5, y: -32}
+        - {x: 41.5, y: -29}
+        - {x: 41.5, y: -6}
+        - {x: -3.5, y: 43}
+    - name: AZELF_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 43}
+        - {x: -18.5, y: 43}
+        - {x: -38.5, y: 26}
+        - {x: -38.5, y: -20}
+        - {x: -34.5, y: -32}
+        - {x: 39.5, y: -32}
+        - {x: 39.5, y: -17}
+        - {x: -6.5, y: 40}
+    - name: AZELF_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -8}
+        - {x: 11.5, y: 1}
+        - {x: 7.5, y: 19}
+        - {x: -4.5, y: 42}
+        - {x: -22.5, y: 42}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 9}
+        - {x: -35.5, y: 6}
+        - {x: -34.5, y: -7}
+        - {x: -18.5, y: -33}
+        - {x: 40.5, y: -33}
+        - {x: 41.5, y: -32}
+        - {x: 41.5, y: -26}
+        - {x: 32.5, y: -24}
+    - name: AZELF_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 42}
+        - {x: -24.5, y: 42}
+        - {x: -39.5, y: 22}
+        - {x: -39.5, y: 1}
+        - {x: -31.5, y: -13}
+        - {x: -20.5, y: -25}
+        - {x: -7.5, y: -24}
+        - {x: -4.5, y: -18}
+        - {x: 13.5, y: -33}
+        - {x: 22.5, y: -34}
+        - {x: 41.5, y: -34}
+        - {x: 41.5, y: -24}
+        - {x: -3.5, y: 40}
+    - name: AZELF_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 41}
+        - {x: -39.5, y: 16}
+        - {x: -39.5, y: 5}
+        - {x: -33.5, y: -19}
+        - {x: -6.5, y: -35}
+        - {x: -0.5, y: -36}
+        - {x: 41.5, y: -36}
+        - {x: 41.5, y: -26}
+        - {x: -8.5, y: 41}
+    - name: AZELF_6
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 18}
+        - {x: -12.5, y: 41}
+        - {x: -23.5, y: 41}
+        - {x: -31.5, y: 31}
+        - {x: -40.5, y: 18}
+        - {x: -40.5, y: -27}
+        - {x: -5.5, y: -38}
+        - {x: 41.5, y: -38}
+        - {x: 41.5, y: -29}
+        - {x: 37.5, y: -27}
+        - {x: 21.5, y: -4}
+        - {x: 12.5, y: 2}
+    - name: AZELF_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 1}
+        - {x: -26.5, y: -36}
+        - {x: -10.5, y: -39}
+        - {x: 41.5, y: -39}
+        - {x: 41.5, y: -19}
+        - {x: 30.5, y: 7}
+        - {x: -5.5, y: 41}
+        - {x: -25.5, y: 41}
+        - {x: -40.5, y: 18}
+    - name: AZELF_8
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 40}
+        - {x: -40.5, y: 25}
+        - {x: -40.5, y: -23}
+        - {x: 19.5, y: -41}
+        - {x: 41.5, y: -41}
+        - {x: 41.5, y: -25}
+        - {x: -8.5, y: 40}
+    - name: AZELF_9
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 774
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: -6}
+        - {x: -27.5, y: -41}
+        - {x: -16.5, y: -42}
+        - {x: 41.5, y: -42}
+        - {x: 41.5, y: -6}
+        - {x: 35.5, y: 10}
+        - {x: -8.5, y: 40}
+        - {x: -36.5, y: 40}
+        - {x: -41.5, y: 31}
+    - name: AZELF_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 22}
+        - {x: -41.5, y: -33}
+        - {x: -8.5, y: -43}
+        - {x: 40.5, y: -43}
+        - {x: 40.5, y: -34}
+        - {x: 34.5, y: -9}
+        - {x: -8.5, y: 40}
+        - {x: -20.5, y: 40}
+        - {x: -35.5, y: 28}
+    - name: AZELF_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 39}
+        - {x: -41.5, y: 33}
+        - {x: -41.5, y: -11}
+        - {x: -20.5, y: -39}
+        - {x: 0.5, y: -43}
+        - {x: 40.5, y: -43}
+        - {x: 40.5, y: 19}
+        - {x: -0.5, y: 39}
+    - name: AZELF_12
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: -8}
+        - {x: -35.5, y: -23}
+        - {x: -3.5, y: -42}
+        - {x: 2.5, y: -43}
+        - {x: 39.5, y: -43}
+        - {x: 39.5, y: -28}
+        - {x: 20.5, y: 15}
+        - {x: -9.5, y: 39}
+        - {x: -27.5, y: 39}
+        - {x: -41.5, y: 21}
+    - name: AZELF_13
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 5}
+        - {x: -4.5, y: 2}
+        - {x: -7.5, y: -1}
+        - {x: -12.5, y: 5}
+        - {x: -11.5, y: 4}
+        - {x: -4.5, y: 3}
+        - {x: 3.5, y: 6}
+        - {x: -12.5, y: 39}
+        - {x: -25.5, y: 39}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: 1}
+        - {x: -23.5, y: -32}
+        - {x: 16.5, y: -43}
+        - {x: 38.5, y: -43}
+        - {x: 38.5, y: -7}
+        - {x: 13.5, y: 5}
+    - name: AZELF_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 6}
+        - {x: -3.5, y: 3}
+        - {x: 0.5, y: 8}
+        - {x: 0.5, y: 12}
+        - {x: -5.5, y: 18}
+        - {x: -10.5, y: 34}
+        - {x: -13.5, y: 39}
+        - {x: -20.5, y: 39}
+        - {x: -38.5, y: 28}
+        - {x: -41.5, y: 18}
+        - {x: -41.5, y: -5}
+        - {x: -25.5, y: -28}
+        - {x: -12.5, y: -30}
+        - {x: 21.5, y: -43}
+        - {x: 37.5, y: -43}
+        - {x: 37.5, y: -7}
+        - {x: 17.5, y: 8}
+    - name: AZELF_15
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: -13}
+        - {x: 7.5, y: -10}
+        - {x: 4.5, y: -9}
+        - {x: -1.5, y: -8}
+        - {x: 7.5, y: -8}
+        - {x: 10.5, y: -11}
+        - {x: 13.5, y: -11}
+        - {x: 19.5, y: -15}
+        - {x: 23.5, y: -16}
+        - {x: 28.5, y: -9}
+        - {x: 28.5, y: -4}
+        - {x: 15.5, y: 6}
+        - {x: 1.5, y: 6}
+        - {x: -8.5, y: -1}
+        - {x: -12.5, y: 4}
+        - {x: -14.5, y: 4}
+        - {x: -6.5, y: 3}
+        - {x: -1.5, y: 5}
+        - {x: 0.5, y: 8}
+        - {x: 4.5, y: 15}
+        - {x: -13.5, y: 39}
+        - {x: -39.5, y: 39}
+        - {x: -41.5, y: 38}
+        - {x: -41.5, y: -27}
+        - {x: -22.5, y: -28}
+        - {x: -8.5, y: -29}
+        - {x: -5.5, y: -21}
+        - {x: 27.5, y: -43}
+        - {x: 36.5, y: -43}
+        - {x: 36.5, y: -36}
+        - {x: 23.5, y: -18}
+    - name: AZELF_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: -10}
+        - {x: -5.5, y: -7}
+        - {x: 5.5, y: -7}
+        - {x: 23.5, y: -16}
+        - {x: 33.5, y: -8}
+        - {x: 15.5, y: 12}
+        - {x: 2.5, y: 8}
+        - {x: -1.5, y: 5}
+        - {x: -4.5, y: 3}
+        - {x: -0.5, y: 7}
+        - {x: 1.5, y: 13}
+        - {x: -15.5, y: 39}
+        - {x: -26.5, y: 39}
+        - {x: -41.5, y: 17}
+        - {x: -41.5, y: -2}
+        - {x: -37.5, y: -12}
+        - {x: -24.5, y: -33}
+        - {x: -9.5, y: -28}
+        - {x: 24.5, y: -43}
+        - {x: 34.5, y: -43}
+        - {x: 34.5, y: -36}
+        - {x: 20.5, y: -16}
+    - name: AZELF_17
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -10}
+        - {x: 5.5, y: -9}
+        - {x: 6.5, y: -5}
+        - {x: 24.5, y: -14}
+        - {x: 29.5, y: -5}
+        - {x: 27.5, y: 0}
+        - {x: -6.5, y: 38}
+        - {x: -26.5, y: 38}
+        - {x: -41.5, y: 28}
+        - {x: -41.5, y: -26}
+        - {x: -35.5, y: -42}
+        - {x: -9.5, y: -43}
+        - {x: 33.5, y: -43}
+        - {x: 33.5, y: -36}
+        - {x: 21.5, y: -17}
+    - name: AZELF_18
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -10}
+        - {x: 27.5, y: 0}
+        - {x: 26.5, y: 5}
+        - {x: -10.5, y: 38}
+        - {x: -32.5, y: 38}
+        - {x: -41.5, y: 27}
+        - {x: -41.5, y: -20}
+        - {x: -39.5, y: -25}
+        - {x: -22.5, y: -28}
+        - {x: -14.5, y: -29}
+        - {x: -8.5, y: -27}
+        - {x: 22.5, y: -43}
+        - {x: 32.5, y: -43}
+        - {x: 32.5, y: -38}
+        - {x: 30.5, y: -31}
+        - {x: 13.5, y: -9}
+        - {x: 20.5, y: -10}
+    - name: AZELF_19
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 688
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 38}
+        - {x: -28.5, y: 38}
+        - {x: -41.5, y: 19}
+        - {x: -41.5, y: -19}
+        - {x: -26.5, y: -43}
+        - {x: 31.5, y: -43}
+        - {x: 31.5, y: -8}
+        - {x: 26.5, y: 1}
+    - name: AZELF_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 39}
+        - {x: -41.5, y: -36}
+        - {x: -32.5, y: -42}
+        - {x: 30.5, y: -42}
+        - {x: 30.5, y: -15}
+        - {x: 26.5, y: 8}
+        - {x: -10.5, y: 39}
+    - name: AZELF_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 39}
+        - {x: -41.5, y: 32}
+        - {x: -41.5, y: -14}
+        - {x: -31.5, y: -34}
+        - {x: -9.5, y: -30}
+        - {x: 19.5, y: -40}
+        - {x: 28.5, y: -40}
+        - {x: 28.5, y: 15}
+        - {x: -12.5, y: 39}
+    - name: AZELF_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 39}
+        - {x: -26.5, y: 39}
+        - {x: -41.5, y: 24}
+        - {x: -41.5, y: -34}
+        - {x: -23.5, y: -39}
+        - {x: 27.5, y: -39}
+        - {x: 27.5, y: 5}
+        - {x: 18.5, y: 19}
+    - name: AZELF_23
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 40}
+        - {x: -20.5, y: 40}
+        - {x: -36.5, y: 29}
+        - {x: -41.5, y: 18}
+        - {x: -41.5, y: -3}
+        - {x: -38.5, y: -17}
+        - {x: -14.5, y: -34}
+        - {x: 9.5, y: -38}
+        - {x: 26.5, y: -38}
+        - {x: 27.5, y: -37}
+        - {x: 27.5, y: -33}
+        - {x: 21.5, y: -13}
+        - {x: 27.5, y: -5}
+        - {x: 27.5, y: 19}
+    - name: AZELF_24
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 6}
+        - {x: 26.5, y: 12}
+        - {x: 26.5, y: 13}
+        - {x: -6.5, y: 40}
+        - {x: -23.5, y: 40}
+        - {x: -38.5, y: 29}
+        - {x: -41.5, y: 26}
+        - {x: -41.5, y: -21}
+        - {x: -40.5, y: -23}
+        - {x: -30.5, y: -36}
+        - {x: 26.5, y: -36}
+        - {x: 26.5, y: -30}
+        - {x: 24.5, y: -20}
+        - {x: 15.5, y: -8}
+        - {x: 5.5, y: -4}
+    - name: AZELF_25
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: -6}
+        - {x: 4.5, y: -3}
+        - {x: 20.5, y: 8}
+        - {x: 22.5, y: 10}
+        - {x: 22.5, y: 12}
+        - {x: 20.5, y: 14}
+        - {x: 7.5, y: 15}
+        - {x: -12.5, y: 39}
+        - {x: -15.5, y: 40}
+        - {x: -23.5, y: 40}
+        - {x: -40.5, y: 25}
+        - {x: -41.5, y: 19}
+        - {x: -41.5, y: -3}
+        - {x: -24.5, y: -29}
+        - {x: 13.5, y: -33}
+        - {x: 24.5, y: -33}
+        - {x: 25.5, y: -32}
+        - {x: 25.5, y: -25}
+        - {x: 22.5, y: -18}
+    - name: AZELF_26
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: -3}
+        - {x: 20.5, y: 10}
+        - {x: 25.5, y: 16}
+        - {x: 25.5, y: 17}
+        - {x: -13.5, y: 41}
+        - {x: -34.5, y: 41}
+        - {x: -41.5, y: 23}
+        - {x: -41.5, y: -10}
+        - {x: -26.5, y: -24}
+        - {x: -19.5, y: -28}
+        - {x: -11.5, y: -28}
+        - {x: 5.5, y: -31}
+        - {x: 25.5, y: -31}
+        - {x: 25.5, y: -26}
+        - {x: 18.5, y: -10}
+        - {x: 13.5, y: -6}
+        - {x: 8.5, y: -3}
+    - name: AZELF_27
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 41}
+        - {x: -38.5, y: 30}
+        - {x: -41.5, y: 27}
+        - {x: -41.5, y: -30}
+        - {x: 26.5, y: -30}
+        - {x: 26.5, y: 22}
+        - {x: -6.5, y: 41}
+    - name: AZELF_28
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 39}
+        - {x: -18.5, y: 42}
+        - {x: -25.5, y: 42}
+        - {x: -36.5, y: 29}
+        - {x: -41.5, y: 18}
+        - {x: -41.5, y: -4}
+        - {x: -27.5, y: -27}
+        - {x: -15.5, y: -27}
+        - {x: -11.5, y: -26}
+        - {x: -2.5, y: -27}
+        - {x: 25.5, y: -27}
+        - {x: 25.5, y: 19}
+        - {x: 17.5, y: 24}
+    - name: AZELF_29
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 602
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 11}
+        - {x: 25.5, y: 24}
+        - {x: 5.5, y: 42}
+        - {x: -29.5, y: 42}
+        - {x: -41.5, y: 28}
+        - {x: -41.5, y: -25}
+        - {x: 25.5, y: -25}
+        - {x: 25.5, y: -18}
+        - {x: 12.5, y: -3}
+    - name: AZELF_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 42}
+        - {x: -27.5, y: 42}
+        - {x: -37.5, y: 31}
+        - {x: -41.5, y: 17}
+        - {x: -41.5, y: 0}
+        - {x: -36.5, y: -13}
+        - {x: -28.5, y: -24}
+        - {x: 25.5, y: -24}
+        - {x: 25.5, y: 32}
+    - name: AZELF_31
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 35}
+        - {x: -6.5, y: 43}
+        - {x: -34.5, y: 43}
+        - {x: -41.5, y: 32}
+        - {x: -41.5, y: -16}
+        - {x: -40.5, y: -19}
+        - {x: -36.5, y: -24}
+        - {x: 24.5, y: -24}
+        - {x: 24.5, y: -9}
+        - {x: 16.5, y: -2}
+        - {x: 10.5, y: 0}
+        - {x: -1.5, y: 3}
+    - name: AZELF_32
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -20}
+        - {x: 24.5, y: -20}
+        - {x: 24.5, y: 15}
+        - {x: 21.5, y: 19}
+        - {x: 8.5, y: 39}
+        - {x: -3.5, y: 43}
+        - {x: -35.5, y: 43}
+        - {x: -41.5, y: 33}
+        - {x: -41.5, y: -15}
+        - {x: -28.5, y: -23}
+        - {x: -21.5, y: -23}
+        - {x: -19.5, y: -21}
+        - {x: -17.5, y: -23}
+        - {x: -13.5, y: -23}
+    - name: AZELF_33
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 43}
+        - {x: -24.5, y: 43}
+        - {x: -41.5, y: 24}
+        - {x: -41.5, y: -10}
+        - {x: -37.5, y: -23}
+        - {x: 24.5, y: -23}
+        - {x: 24.5, y: 8}
+        - {x: 11.5, y: 33}
+    - name: AZELF_34
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: -23}
+        - {x: 22.5, y: -23}
+        - {x: 22.5, y: 29}
+        - {x: 16.5, y: 43}
+        - {x: -28.5, y: 43}
+        - {x: -41.5, y: 19}
+    - name: AZELF_35
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 8}
+        - {x: -4.5, y: 6}
+        - {x: 1.5, y: 11}
+        - {x: 7.5, y: 37}
+        - {x: -3.5, y: 43}
+        - {x: -24.5, y: 43}
+        - {x: -37.5, y: 34}
+        - {x: -41.5, y: 26}
+        - {x: -41.5, y: -5}
+        - {x: -37.5, y: -22}
+        - {x: 14.5, y: -22}
+        - {x: 21.5, y: -19}
+        - {x: 21.5, y: -1}
+        - {x: 17.5, y: 2}
+    - name: AZELF_36
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 7}
+        - {x: -4.5, y: 7}
+        - {x: 3.5, y: 10}
+        - {x: 8.5, y: 41}
+        - {x: 2.5, y: 43}
+        - {x: -37.5, y: 43}
+        - {x: -41.5, y: 41}
+        - {x: -41.5, y: -22}
+        - {x: -3.5, y: -22}
+        - {x: 21.5, y: -9}
+        - {x: 21.5, y: 1}
+        - {x: 19.5, y: 3}
+        - {x: 2.5, y: 8}
+        - {x: -1.5, y: 8}
+    - name: AZELF_37
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 17}
+        - {x: -41.5, y: -3}
+        - {x: -37.5, y: -22}
+        - {x: 10.5, y: -22}
+        - {x: 20.5, y: -19}
+        - {x: 20.5, y: 17}
+        - {x: -1.5, y: 40}
+        - {x: -10.5, y: 43}
+        - {x: -26.5, y: 43}
+        - {x: -35.5, y: 33}
+    - name: AZELF_38
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 8}
+        - {x: -1.5, y: 37}
+        - {x: -8.5, y: 43}
+        - {x: -30.5, y: 43}
+        - {x: -41.5, y: 19}
+        - {x: -41.5, y: 3}
+        - {x: -29.5, y: -22}
+        - {x: -11.5, y: -22}
+        - {x: -8.5, y: -16}
+        - {x: 18.5, y: -1}
+        - {x: 18.5, y: 7}
+    - name: AZELF_39
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 516
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 43}
+        - {x: -38.5, y: 32}
+        - {x: -41.5, y: 18}
+        - {x: -41.5, y: 10}
+        - {x: -29.5, y: -21}
+        - {x: -4.5, y: -21}
+        - {x: 18.5, y: -7}
+        - {x: 18.5, y: 16}
+        - {x: 0.5, y: 43}
+    - name: AZELF_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 43}
+        - {x: -41.5, y: 23}
+        - {x: -41.5, y: 5}
+        - {x: -29.5, y: -21}
+        - {x: -26.5, y: -22}
+        - {x: -8.5, y: -22}
+        - {x: 15.5, y: -1}
+        - {x: 15.5, y: 11}
+        - {x: -10.5, y: 43}
+    - name: AZELF_41
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 43}
+        - {x: -41.5, y: 25}
+        - {x: -41.5, y: 3}
+        - {x: -30.5, y: -22}
+        - {x: -6.5, y: -22}
+        - {x: 15.5, y: 5}
+        - {x: 15.5, y: 22}
+        - {x: -9.5, y: 43}
+    - name: AZELF_42
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 43}
+        - {x: -23.5, y: 43}
+        - {x: -38.5, y: 36}
+        - {x: -41.5, y: 22}
+        - {x: -41.5, y: 11}
+        - {x: -38.5, y: -12}
+        - {x: -25.5, y: -22}
+        - {x: -4.5, y: -22}
+        - {x: 13.5, y: 6}
+        - {x: 13.5, y: 15}
+        - {x: 12.5, y: 18}
+    - name: AZELF_43
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 43}
+        - {x: -39.5, y: 34}
+        - {x: -41.5, y: 28}
+        - {x: -41.5, y: 3}
+        - {x: -32.5, y: -22}
+        - {x: -2.5, y: -22}
+        - {x: 12.5, y: 2}
+        - {x: 12.5, y: 29}
+        - {x: -2.5, y: 43}
+    - name: AZELF_44
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 43}
+        - {x: -24.5, y: 43}
+        - {x: -41.5, y: 22}
+        - {x: -41.5, y: 2}
+        - {x: -32.5, y: -22}
+        - {x: -5.5, y: -22}
+        - {x: 10.5, y: -1}
+        - {x: 10.5, y: 21}
+        - {x: -7.5, y: 40}
+    - name: AZELF_45
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 43}
+        - {x: -38.5, y: 31}
+        - {x: -41.5, y: 20}
+        - {x: -41.5, y: -1}
+        - {x: -33.5, y: -23}
+        - {x: -13.5, y: -23}
+        - {x: 2.5, y: -18}
+        - {x: 9.5, y: 8}
+        - {x: 9.5, y: 19}
+        - {x: -9.5, y: 43}
+    - name: AZELF_46
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 43}
+        - {x: -18.5, y: 43}
+        - {x: -39.5, y: 34}
+        - {x: -41.5, y: 27}
+        - {x: -41.5, y: -9}
+        - {x: -30.5, y: -23}
+        - {x: -7.5, y: -23}
+        - {x: 8.5, y: 0}
+        - {x: 8.5, y: 22}
+        - {x: 6.5, y: 25}
+    - name: AZELF_47
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 43}
+        - {x: -26.5, y: 43}
+        - {x: -41.5, y: 22}
+        - {x: -41.5, y: 1}
+        - {x: -30.5, y: -21}
+        - {x: -26.5, y: -23}
+        - {x: -6.5, y: -23}
+        - {x: 8.5, y: -2}
+        - {x: 8.5, y: 24}
+        - {x: 7.5, y: 25}
+    - name: AZELF_48
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 43}
+        - {x: -20.5, y: 42}
+        - {x: -33.5, y: 28}
+        - {x: -41.5, y: 17}
+        - {x: -41.5, y: 6}
+        - {x: -34.5, y: -23}
+        - {x: -7.5, y: -23}
+        - {x: 6.5, y: 1}
+        - {x: 6.5, y: 23}
+        - {x: -10.5, y: 43}
+    - name: AZELF_49
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 430
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 43}
+        - {x: -29.5, y: 34}
+        - {x: -41.5, y: 20}
+        - {x: -41.5, y: -1}
+        - {x: -33.5, y: -24}
+        - {x: -9.5, y: -24}
+        - {x: 6.5, y: 1}
+        - {x: 6.5, y: 25}
+        - {x: -11.5, y: 43}
+    - name: AZELF_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 42}
+        - {x: -23.5, y: 42}
+        - {x: -41.5, y: 30}
+        - {x: -41.5, y: -18}
+        - {x: -28.5, y: -24}
+        - {x: -9.5, y: -24}
+        - {x: -4.5, y: -15}
+        - {x: 5.5, y: 14}
+        - {x: 5.5, y: 22}
+    - name: AZELF_51
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 26}
+        - {x: -3.5, y: 26}
+        - {x: -9.5, y: 37}
+        - {x: -14.5, y: 42}
+        - {x: -16.5, y: 42}
+        - {x: -22.5, y: 39}
+        - {x: -33.5, y: 28}
+        - {x: -41.5, y: 19}
+        - {x: -41.5, y: -1}
+        - {x: -34.5, y: -24}
+        - {x: -23.5, y: -25}
+        - {x: -15.5, y: -25}
+        - {x: -4.5, y: -19}
+        - {x: 5.5, y: 6}
+        - {x: 5.5, y: 23}
+    - name: AZELF_52
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 41}
+        - {x: -20.5, y: 41}
+        - {x: -35.5, y: 32}
+        - {x: -41.5, y: 22}
+        - {x: -41.5, y: -4}
+        - {x: -34.5, y: -25}
+        - {x: -14.5, y: -25}
+        - {x: -4.5, y: -14}
+        - {x: 4.5, y: 10}
+        - {x: 4.5, y: 22}
+    - name: AZELF_53
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 41}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: 4}
+        - {x: -29.5, y: -26}
+        - {x: -8.5, y: -26}
+        - {x: 4.5, y: -4}
+        - {x: 4.5, y: 32}
+        - {x: -2.5, y: 41}
+    - name: AZELF_54
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 40}
+        - {x: -15.5, y: 41}
+        - {x: -25.5, y: 41}
+        - {x: -40.5, y: 16}
+        - {x: -41.5, y: 11}
+        - {x: -41.5, y: 3}
+        - {x: -29.5, y: -26}
+        - {x: -15.5, y: -26}
+        - {x: -3.5, y: -16}
+        - {x: 4.5, y: 10}
+        - {x: 4.5, y: 21}
+    - name: AZELF_55
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 40}
+        - {x: -21.5, y: 40}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: 0}
+        - {x: -36.5, y: -21}
+        - {x: -30.5, y: -26}
+        - {x: -5.5, y: -26}
+        - {x: 3.5, y: -10}
+        - {x: 3.5, y: 20}
+    - name: AZELF_56
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 40}
+        - {x: -23.5, y: 40}
+        - {x: -41.5, y: 14}
+        - {x: -41.5, y: 0}
+        - {x: -30.5, y: -26}
+        - {x: -12.5, y: -26}
+        - {x: 0.5, y: -14}
+        - {x: 4.5, y: 12}
+        - {x: 4.5, y: 17}
+    - name: AZELF_57
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 40}
+        - {x: -23.5, y: 39}
+        - {x: -41.5, y: 19}
+        - {x: -41.5, y: -3}
+        - {x: -34.5, y: -27}
+        - {x: -6.5, y: -27}
+        - {x: 4.5, y: -8}
+        - {x: 4.5, y: 23}
+        - {x: -12.5, y: 40}
+    - name: AZELF_58
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 40}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: -2}
+        - {x: -31.5, y: -27}
+        - {x: -8.5, y: -27}
+        - {x: 4.5, y: -5}
+        - {x: 4.5, y: 27}
+        - {x: -11.5, y: 40}
+    - name: AZELF_59
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 344
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 39}
+        - {x: -21.5, y: 39}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: -4}
+        - {x: -40.5, y: -8}
+        - {x: -33.5, y: -20}
+        - {x: -29.5, y: -27}
+        - {x: -15.5, y: -27}
+        - {x: -1.5, y: -16}
+        - {x: 4.5, y: 4}
+        - {x: 4.5, y: 17}
+    - name: AZELF_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 37}
+        - {x: -13.5, y: 39}
+        - {x: -24.5, y: 39}
+        - {x: -41.5, y: 34}
+        - {x: -41.5, y: -27}
+        - {x: -14.5, y: -27}
+        - {x: -0.5, y: -16}
+        - {x: 5.5, y: 3}
+        - {x: 5.5, y: 19}
+    - name: AZELF_61
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 38}
+        - {x: -11.5, y: 39}
+        - {x: -25.5, y: 39}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: -1}
+        - {x: -31.5, y: -27}
+        - {x: -14.5, y: -27}
+        - {x: 0.5, y: -17}
+        - {x: 5.5, y: -2}
+        - {x: 5.5, y: 11}
+    - name: AZELF_62
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 39}
+        - {x: -23.5, y: 39}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: -5}
+        - {x: -30.5, y: -27}
+        - {x: -13.5, y: -27}
+        - {x: 2.5, y: -18}
+        - {x: 6.5, y: 2}
+        - {x: 6.5, y: 12}
+    - name: AZELF_63
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 39}
+        - {x: -17.5, y: 39}
+        - {x: -20.5, y: 38}
+        - {x: -32.5, y: 25}
+        - {x: -41.5, y: 9}
+        - {x: -41.5, y: -2}
+        - {x: -32.5, y: -21}
+        - {x: -28.5, y: -27}
+        - {x: -12.5, y: -27}
+        - {x: 1.5, y: -18}
+        - {x: 7.5, y: 0}
+        - {x: 7.5, y: 12}
+    - name: AZELF_64
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 40}
+        - {x: -21.5, y: 40}
+        - {x: -41.5, y: 21}
+        - {x: -41.5, y: -20}
+        - {x: -33.5, y: -27}
+        - {x: 0.5, y: -27}
+        - {x: 3.5, y: -23}
+        - {x: 8.5, y: -7}
+        - {x: 8.5, y: 16}
+    - name: AZELF_65
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 40}
+        - {x: -41.5, y: 26}
+        - {x: -41.5, y: -17}
+        - {x: -37.5, y: -26}
+        - {x: 4.5, y: -26}
+        - {x: 7.5, y: -25}
+        - {x: 9.5, y: -8}
+        - {x: 9.5, y: 8}
+        - {x: -7.5, y: 40}
+    - name: AZELF_66
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 40}
+        - {x: -34.5, y: 31}
+        - {x: -40.5, y: 18}
+        - {x: -40.5, y: 7}
+        - {x: -37.5, y: 1}
+        - {x: -34.5, y: 3}
+        - {x: -28.5, y: 4}
+        - {x: -31.5, y: 4}
+        - {x: -40.5, y: -2}
+        - {x: -40.5, y: -8}
+        - {x: -32.5, y: -26}
+        - {x: -2.5, y: -26}
+        - {x: 5.5, y: -24}
+        - {x: 10.5, y: -13}
+        - {x: 10.5, y: 10}
+        - {x: -8.5, y: 40}
+    - name: AZELF_67
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 40}
+        - {x: -34.5, y: 31}
+        - {x: -40.5, y: 10}
+        - {x: -40.5, y: 6}
+        - {x: -37.5, y: 4}
+        - {x: -30.5, y: 4}
+        - {x: -40.5, y: -5}
+        - {x: -40.5, y: -9}
+        - {x: -31.5, y: -26}
+        - {x: -2.5, y: -26}
+        - {x: 11.5, y: -15}
+        - {x: 11.5, y: 14}
+        - {x: -4.5, y: 40}
+    - name: AZELF_68
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 41}
+        - {x: -40.5, y: 28}
+        - {x: -40.5, y: -21}
+        - {x: -36.5, y: -25}
+        - {x: 5.5, y: -25}
+        - {x: 12.5, y: -24}
+        - {x: 12.5, y: 13}
+        - {x: -10.5, y: 41}
+    - name: AZELF_69
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 258
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 41}
+        - {x: -22.5, y: 40}
+        - {x: -39.5, y: 20}
+        - {x: -39.5, y: -14}
+        - {x: -36.5, y: -25}
+        - {x: 10.5, y: -25}
+        - {x: 13.5, y: -10}
+        - {x: 13.5, y: 5}
+        - {x: -10.5, y: 41}
+    - name: AZELF_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 41}
+        - {x: -33.5, y: 32}
+        - {x: -39.5, y: 16}
+        - {x: -39.5, y: -19}
+        - {x: -32.5, y: -24}
+        - {x: 5.5, y: -24}
+        - {x: 15.5, y: -15}
+        - {x: 15.5, y: 7}
+        - {x: -6.5, y: 41}
+    - name: AZELF_71
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 42}
+        - {x: -39.5, y: 20}
+        - {x: -39.5, y: -8}
+        - {x: -35.5, y: -20}
+        - {x: -30.5, y: -24}
+        - {x: 11.5, y: -24}
+        - {x: 16.5, y: -15}
+        - {x: 16.5, y: 2}
+        - {x: -6.5, y: 42}
+    - name: AZELF_72
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 42}
+        - {x: -38.5, y: 34}
+        - {x: -39.5, y: 27}
+        - {x: -39.5, y: -23}
+        - {x: 17.5, y: -23}
+        - {x: 17.5, y: 4}
+        - {x: -10.5, y: 42}
+    - name: AZELF_73
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 42}
+        - {x: -39.5, y: 20}
+        - {x: -39.5, y: -7}
+        - {x: -36.5, y: -16}
+        - {x: -30.5, y: -23}
+        - {x: 16.5, y: -23}
+        - {x: 19.5, y: -18}
+        - {x: 19.5, y: 13}
+        - {x: -4.5, y: 42}
+    - name: AZELF_74
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 43}
+        - {x: -38.5, y: 18}
+        - {x: -38.5, y: -14}
+        - {x: -37.5, y: -23}
+        - {x: 19.5, y: -23}
+        - {x: 20.5, y: -19}
+        - {x: 20.5, y: 12}
+        - {x: -6.5, y: 43}
+    - name: AZELF_75
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 43}
+        - {x: -38.5, y: 28}
+        - {x: -38.5, y: -23}
+        - {x: -33.5, y: -24}
+        - {x: 17.5, y: -24}
+        - {x: 21.5, y: -19}
+        - {x: 21.5, y: 15}
+        - {x: -1.5, y: 43}
+    - name: AZELF_76
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 43}
+        - {x: -32.5, y: 42}
+        - {x: -38.5, y: 20}
+        - {x: -38.5, y: -8}
+        - {x: -28.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 23.5, y: -21}
+        - {x: 23.5, y: 17}
+        - {x: 8.5, y: 43}
+    - name: AZELF_77
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 1}
+        - {x: 8.5, y: 12}
+        - {x: -3.5, y: 43}
+        - {x: -20.5, y: 43}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: -15}
+        - {x: -32.5, y: -25}
+        - {x: 21.5, y: -25}
+        - {x: 24.5, y: -18}
+        - {x: 24.5, y: -6}
+        - {x: 15.5, y: 1}
+    - name: AZELF_78
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 43}
+        - {x: -33.5, y: 36}
+        - {x: -38.5, y: 22}
+        - {x: -38.5, y: -25}
+        - {x: -35.5, y: -26}
+        - {x: 26.5, y: -26}
+        - {x: 26.5, y: 23}
+        - {x: 13.5, y: 43}
+    - name: AZELF_79
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 172
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 43}
+        - {x: -38.5, y: 17}
+        - {x: -38.5, y: -4}
+        - {x: -33.5, y: -27}
+        - {x: 27.5, y: -27}
+        - {x: 27.5, y: -6}
+        - {x: -7.5, y: 43}
+    - name: AZELF_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 43}
+        - {x: -37.5, y: 27}
+        - {x: -37.5, y: 0}
+        - {x: -23.5, y: -29}
+        - {x: 25.5, y: -29}
+        - {x: 29.5, y: -20}
+        - {x: 29.5, y: 1}
+        - {x: -5.5, y: 43}
+    - name: AZELF_81
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 86
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 43}
+        - {x: -32.5, y: 34}
+        - {x: -37.5, y: 21}
+        - {x: -37.5, y: 9}
+        - {x: -33.5, y: -5}
+        - {x: -19.5, y: -29}
+        - {x: 29.5, y: -29}
+        - {x: 30.5, y: -27}
+        - {x: 30.5, y: 6}
+        - {x: 1.5, y: 43}
+    - name: AZELF_82
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 86
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 43}
+        - {x: -37.5, y: 26}
+        - {x: -37.5, y: -18}
+        - {x: -21.5, y: -31}
+        - {x: 27.5, y: -31}
+        - {x: 32.5, y: -21}
+        - {x: 32.5, y: 4}
+        - {x: -8.5, y: 43}
+    - name: AZELF_83
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 86
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 43}
+        - {x: -37.5, y: 34}
+        - {x: -37.5, y: -1}
+        - {x: -35.5, y: -4}
+        - {x: -23.5, y: -25}
+        - {x: -9.5, y: -20}
+        - {x: -3.5, y: -14}
+        - {x: -12.5, y: -24}
+        - {x: -13.5, y: -27}
+        - {x: -8.5, y: -31}
+        - {x: 17.5, y: -31}
+        - {x: 27.5, y: -30}
+        - {x: 33.5, y: -23}
+        - {x: 33.5, y: 5}
+        - {x: 1.5, y: 43}
+    - name: AZELF_84
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 86
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 41}
+        - {x: -7.5, y: 43}
+        - {x: -37.5, y: 43}
+        - {x: -37.5, y: -26}
+        - {x: -6.5, y: -19}
+        - {x: -3.5, y: -15}
+        - {x: -10.5, y: -25}
+        - {x: -7.5, y: -32}
+        - {x: 29.5, y: -32}
+        - {x: 34.5, y: -22}
+        - {x: 34.5, y: -14}
+        - {x: 26.5, y: -9}
+    - name: AZELF_85
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 86
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 43}
+        - {x: -37.5, y: 37}
+        - {x: -37.5, y: -11}
+        - {x: -36.5, y: -15}
+        - {x: -16.5, y: -22}
+        - {x: -6.5, y: -20}
+        - {x: -7.5, y: -22}
+        - {x: -9.5, y: -27}
+        - {x: -3.5, y: -32}
+        - {x: 30.5, y: -32}
+        - {x: 36.5, y: -30}
+        - {x: 36.5, y: -3}
+        - {x: 1.5, y: 43}
+    - name: AZELF_86
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 86
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 43}
+        - {x: -33.5, y: 33}
+        - {x: -37.5, y: 28}
+        - {x: -37.5, y: -16}
+        - {x: -20.5, y: -22}
+        - {x: -7.5, y: -22}
+        - {x: -4.5, y: -16}
+        - {x: -7.5, y: -27}
+        - {x: -0.5, y: -33}
+        - {x: 10.5, y: -33}
+        - {x: 28.5, y: -31}
+        - {x: 37.5, y: -22}
+        - {x: 37.5, y: -6}
+        - {x: -2.5, y: 43}
+    - name: AZELF_87
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 86
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -16}
+        - {x: 13.5, y: 11}
+        - {x: -3.5, y: 43}
+        - {x: -23.5, y: 43}
+        - {x: -38.5, y: 21}
+        - {x: -38.5, y: 1}
+        - {x: -27.5, y: -14}
+        - {x: -20.5, y: -22}
+        - {x: -8.5, y: -20}
+        - {x: -3.5, y: -15}
+        - {x: -5.5, y: -22}
+        - {x: -5.5, y: -30}
+        - {x: -0.5, y: -33}
+        - {x: 22.5, y: -33}
+        - {x: 38.5, y: -27}
+        - {x: 38.5, y: -18}
+        - {x: 37.5, y: -17}
+    - name: AZELF_88
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 86
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 43}
+        - {x: -38.5, y: 21}
+        - {x: -38.5, y: -11}
+        - {x: -30.5, y: -33}
+        - {x: 26.5, y: -33}
+        - {x: 40.5, y: -32}
+        - {x: 40.5, y: -17}
+        - {x: -2.5, y: 43}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

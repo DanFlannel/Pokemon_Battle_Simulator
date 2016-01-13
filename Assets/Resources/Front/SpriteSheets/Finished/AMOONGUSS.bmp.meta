@@ -1,0 +1,1746 @@
+fileFormatVersion: 2
+guid: 5b535c25eed52284db14ec73c010fbec
+timeCreated: 1452636573
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AMOONGUSS_0
+    21300002: AMOONGUSS_1
+    21300004: AMOONGUSS_2
+    21300006: AMOONGUSS_3
+    21300008: AMOONGUSS_4
+    21300010: AMOONGUSS_5
+    21300012: AMOONGUSS_6
+    21300014: AMOONGUSS_7
+    21300016: AMOONGUSS_8
+    21300018: AMOONGUSS_9
+    21300020: AMOONGUSS_10
+    21300022: AMOONGUSS_11
+    21300024: AMOONGUSS_12
+    21300026: AMOONGUSS_13
+    21300028: AMOONGUSS_14
+    21300030: AMOONGUSS_15
+    21300032: AMOONGUSS_16
+    21300034: AMOONGUSS_17
+    21300036: AMOONGUSS_18
+    21300038: AMOONGUSS_19
+    21300040: AMOONGUSS_20
+    21300042: AMOONGUSS_21
+    21300044: AMOONGUSS_22
+    21300046: AMOONGUSS_23
+    21300048: AMOONGUSS_24
+    21300050: AMOONGUSS_25
+    21300052: AMOONGUSS_26
+    21300054: AMOONGUSS_27
+    21300056: AMOONGUSS_28
+    21300058: AMOONGUSS_29
+    21300060: AMOONGUSS_30
+    21300062: AMOONGUSS_31
+    21300064: AMOONGUSS_32
+    21300066: AMOONGUSS_33
+    21300068: AMOONGUSS_34
+    21300070: AMOONGUSS_35
+    21300072: AMOONGUSS_36
+    21300074: AMOONGUSS_37
+    21300076: AMOONGUSS_38
+    21300078: AMOONGUSS_39
+    21300080: AMOONGUSS_40
+    21300082: AMOONGUSS_41
+    21300084: AMOONGUSS_42
+    21300086: AMOONGUSS_43
+    21300088: AMOONGUSS_44
+    21300090: AMOONGUSS_45
+    21300092: AMOONGUSS_46
+    21300094: AMOONGUSS_47
+    21300096: AMOONGUSS_48
+    21300098: AMOONGUSS_49
+    21300100: AMOONGUSS_50
+    21300102: AMOONGUSS_51
+    21300104: AMOONGUSS_52
+    21300106: AMOONGUSS_53
+    21300108: AMOONGUSS_54
+    21300110: AMOONGUSS_55
+    21300112: AMOONGUSS_56
+    21300114: AMOONGUSS_57
+    21300116: AMOONGUSS_58
+    21300118: AMOONGUSS_59
+    21300120: AMOONGUSS_60
+    21300122: AMOONGUSS_61
+    21300124: AMOONGUSS_62
+    21300126: AMOONGUSS_63
+    21300128: AMOONGUSS_64
+    21300130: AMOONGUSS_65
+    21300132: AMOONGUSS_66
+    21300134: AMOONGUSS_67
+    21300136: AMOONGUSS_68
+    21300138: AMOONGUSS_69
+    21300140: AMOONGUSS_70
+    21300142: AMOONGUSS_71
+    21300144: AMOONGUSS_72
+    21300146: AMOONGUSS_73
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AMOONGUSS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 37.5}
+        - {x: -39, y: 22.5}
+        - {x: -39, y: -37.5}
+        - {x: 24, y: -37.5}
+        - {x: 36, y: -23.5}
+        - {x: 36, y: 32.5}
+        - {x: 19, y: 37.5}
+    - name: AMOONGUSS_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 600
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 37.5}
+        - {x: -39, y: 21.5}
+        - {x: -39, y: 4.5}
+        - {x: -36, y: 3.5}
+        - {x: -25, y: 0.5}
+        - {x: -37, y: -0.5}
+        - {x: -39, y: -1.5}
+        - {x: -39, y: -35.5}
+        - {x: -30, y: -37.5}
+        - {x: 31, y: -37.5}
+        - {x: 36, y: -32.5}
+        - {x: 36, y: 28.5}
+        - {x: 22, y: 37.5}
+    - name: AMOONGUSS_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 600
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 35.5}
+        - {x: 10, y: 37.5}
+        - {x: -23, y: 37.5}
+        - {x: -39, y: 23.5}
+        - {x: -39, y: -30.5}
+        - {x: -31, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 36, y: -31.5}
+        - {x: 36, y: 4.5}
+        - {x: 29, y: 24.5}
+    - name: AMOONGUSS_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 600
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 37.5}
+        - {x: -39, y: 18.5}
+        - {x: -39, y: 7.5}
+        - {x: -36, y: 3.5}
+        - {x: -28, y: 0.5}
+        - {x: -35, y: -2.5}
+        - {x: -39, y: -5.5}
+        - {x: -39, y: -25.5}
+        - {x: -28, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 36, y: -31.5}
+        - {x: 36, y: 35.5}
+        - {x: 27, y: 37.5}
+    - name: AMOONGUSS_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 600
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 37.5}
+        - {x: -39, y: 36.5}
+        - {x: -39, y: -37.5}
+        - {x: 28, y: -37.5}
+        - {x: 36, y: -24.5}
+        - {x: 36, y: 15.5}
+        - {x: 22, y: 37.5}
+    - name: AMOONGUSS_5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 600
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 37.5}
+        - {x: -37, y: 37.5}
+        - {x: -39, y: 36.5}
+        - {x: -39, y: -37.5}
+        - {x: 25, y: -37.5}
+        - {x: 33, y: -26.5}
+        - {x: 36, y: -18.5}
+        - {x: 36, y: 31.5}
+    - name: AMOONGUSS_6
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 600
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 37.5}
+        - {x: -31, y: 37.5}
+        - {x: -36, y: 25.5}
+        - {x: -39, y: 16.5}
+        - {x: -39, y: -33.5}
+        - {x: -27, y: -37.5}
+        - {x: 25, y: -37.5}
+        - {x: 36, y: -22.5}
+        - {x: 36, y: 1.5}
+        - {x: 30, y: 23.5}
+    - name: AMOONGUSS_7
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 600
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 37.5}
+        - {x: -30, y: 37.5}
+        - {x: -39, y: 32.5}
+        - {x: -39, y: -32.5}
+        - {x: -37, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 36, y: -21.5}
+        - {x: 36, y: 20.5}
+        - {x: 35, y: 29.5}
+    - name: AMOONGUSS_8
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 600
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 37.5}
+        - {x: -39, y: 28.5}
+        - {x: -39, y: -28.5}
+        - {x: -31, y: -37.5}
+        - {x: 36, y: -37.5}
+        - {x: 36, y: 31.5}
+        - {x: 29, y: 37.5}
+    - name: AMOONGUSS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 37.5}
+        - {x: -29, y: 36.5}
+        - {x: -39, y: 19.5}
+        - {x: -39, y: -30.5}
+        - {x: -37, y: -37.5}
+        - {x: 25, y: -37.5}
+        - {x: 36, y: -23.5}
+        - {x: 36, y: 28.5}
+        - {x: 17, y: 37.5}
+    - name: AMOONGUSS_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 525
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 4.5}
+        - {x: 14, y: 3.5}
+        - {x: 19, y: 4.5}
+        - {x: 24, y: 4.5}
+        - {x: 32, y: 10.5}
+        - {x: 33, y: 25.5}
+        - {x: 12, y: 37.5}
+        - {x: -24, y: 37.5}
+        - {x: -39, y: 27.5}
+        - {x: -39, y: -30.5}
+        - {x: -37, y: -37.5}
+        - {x: 27, y: -37.5}
+        - {x: 36, y: -20.5}
+        - {x: 36, y: 1.5}
+        - {x: 29, y: 4.5}
+    - name: AMOONGUSS_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 525
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 4.5}
+        - {x: 18, y: 4.5}
+        - {x: 14, y: 3.5}
+        - {x: 19, y: 4.5}
+        - {x: 24, y: 4.5}
+        - {x: 33, y: 11.5}
+        - {x: 31, y: 19.5}
+        - {x: 29, y: 22.5}
+        - {x: 17, y: 37.5}
+        - {x: -21, y: 37.5}
+        - {x: -39, y: 20.5}
+        - {x: -39, y: -32.5}
+        - {x: -38, y: -37.5}
+        - {x: 24, y: -37.5}
+        - {x: 37, y: -24.5}
+        - {x: 37, y: -1.5}
+        - {x: 29, y: 2.5}
+    - name: AMOONGUSS_12
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 525
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 37.5}
+        - {x: -39, y: -37.5}
+        - {x: 29, y: -37.5}
+        - {x: 37, y: -26.5}
+        - {x: 37, y: 37.5}
+    - name: AMOONGUSS_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 525
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 37.5}
+        - {x: -39, y: 26.5}
+        - {x: -39, y: -36.5}
+        - {x: -37, y: -37.5}
+        - {x: 37, y: -37.5}
+        - {x: 37, y: 36.5}
+        - {x: 34, y: 37.5}
+    - name: AMOONGUSS_14
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 525
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 37.5}
+        - {x: -39, y: -28.5}
+        - {x: -29, y: -37.5}
+        - {x: 20, y: -37.5}
+        - {x: 37, y: -27.5}
+        - {x: 37, y: 37.5}
+    - name: AMOONGUSS_15
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 525
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -4.5}
+        - {x: 28, y: 4.5}
+        - {x: 32, y: 10.5}
+        - {x: 36, y: 18.5}
+        - {x: 16, y: 37.5}
+        - {x: -39, y: 37.5}
+        - {x: -39, y: -33.5}
+        - {x: -36, y: -36.5}
+        - {x: -29, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 37, y: -25.5}
+        - {x: 37, y: -7.5}
+    - name: AMOONGUSS_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 525
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 37.5}
+        - {x: -23, y: 37.5}
+        - {x: -39, y: 26.5}
+        - {x: -39, y: -29.5}
+        - {x: -29, y: -37.5}
+        - {x: 37, y: -37.5}
+        - {x: 38, y: -33.5}
+        - {x: 38, y: 12.5}
+        - {x: 25, y: 36.5}
+    - name: AMOONGUSS_17
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 525
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 37.5}
+        - {x: -38, y: 30.5}
+        - {x: -39, y: 21.5}
+        - {x: -39, y: 5.5}
+        - {x: -30, y: 3.5}
+        - {x: -39, y: -4.5}
+        - {x: -39, y: -24.5}
+        - {x: -32, y: -32.5}
+        - {x: -27, y: -30.5}
+        - {x: -25, y: -28.5}
+        - {x: -25, y: -22.5}
+        - {x: -25, y: -32.5}
+        - {x: -22, y: -37.5}
+        - {x: 28, y: -37.5}
+        - {x: 36, y: -36.5}
+        - {x: 38, y: -31.5}
+        - {x: 38, y: 21.5}
+        - {x: 21, y: 37.5}
+    - name: AMOONGUSS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 37.5}
+        - {x: -39, y: 27.5}
+        - {x: -39, y: -27.5}
+        - {x: -31, y: -31.5}
+        - {x: -27, y: -30.5}
+        - {x: -25, y: -28.5}
+        - {x: -25, y: -21.5}
+        - {x: -25, y: -29.5}
+        - {x: -31, y: -36.5}
+        - {x: -28, y: -37.5}
+        - {x: 30, y: -37.5}
+        - {x: 38, y: -26.5}
+        - {x: 38, y: 30.5}
+        - {x: 17, y: 37.5}
+    - name: AMOONGUSS_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 450
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -28.5}
+        - {x: -25, y: -32.5}
+        - {x: -25, y: -20.5}
+        - {x: -25, y: -29.5}
+        - {x: -23, y: -37.5}
+        - {x: 38, y: -37.5}
+        - {x: 38, y: 28.5}
+        - {x: 34, y: 37.5}
+        - {x: -25, y: 37.5}
+        - {x: -29, y: 36.5}
+        - {x: -39, y: 17.5}
+    - name: AMOONGUSS_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 450
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 37.5}
+        - {x: -16, y: 36.5}
+        - {x: -39, y: 22.5}
+        - {x: -39, y: -25.5}
+        - {x: -30, y: -32.5}
+        - {x: -27, y: -30.5}
+        - {x: -25, y: -28.5}
+        - {x: -25, y: -19.5}
+        - {x: -25, y: -28.5}
+        - {x: -29, y: -37.5}
+        - {x: 35, y: -37.5}
+        - {x: 39, y: -35.5}
+        - {x: 39, y: 18.5}
+        - {x: 32, y: 37.5}
+    - name: AMOONGUSS_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 450
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 37.5}
+        - {x: -39, y: -23.5}
+        - {x: -34, y: -29.5}
+        - {x: -27, y: -29.5}
+        - {x: -25, y: -27.5}
+        - {x: -25, y: -18.5}
+        - {x: -25, y: -28.5}
+        - {x: -28, y: -37.5}
+        - {x: 34, y: -37.5}
+        - {x: 39, y: -29.5}
+        - {x: 39, y: 29.5}
+        - {x: 32, y: 37.5}
+    - name: AMOONGUSS_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 450
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 37.5}
+        - {x: -39, y: 20.5}
+        - {x: -39, y: -34.5}
+        - {x: -38, y: -37.5}
+        - {x: 34, y: -37.5}
+        - {x: 39, y: -27.5}
+        - {x: 39, y: 28.5}
+        - {x: 25, y: 37.5}
+    - name: AMOONGUSS_23
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 450
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 37.5}
+        - {x: -37, y: 29.5}
+        - {x: -39, y: 21.5}
+        - {x: -39, y: -24.5}
+        - {x: -30, y: -30.5}
+        - {x: -27, y: -29.5}
+        - {x: -25, y: -27.5}
+        - {x: -25, y: -17.5}
+        - {x: -25, y: -27.5}
+        - {x: -24, y: -30.5}
+        - {x: -21, y: -35.5}
+        - {x: -17, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 39, y: -28.5}
+        - {x: 39, y: 24.5}
+        - {x: 22, y: 37.5}
+    - name: AMOONGUSS_24
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 450
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 37.5}
+        - {x: -39, y: 18.5}
+        - {x: -39, y: 16.5}
+        - {x: -37, y: 10.5}
+        - {x: -27, y: 6.5}
+        - {x: -34, y: 3.5}
+        - {x: -39, y: 0.5}
+        - {x: -39, y: -28.5}
+        - {x: -36, y: -36.5}
+        - {x: -35, y: -37.5}
+        - {x: 31, y: -37.5}
+        - {x: 39, y: -34.5}
+        - {x: 39, y: 30.5}
+        - {x: 21, y: 37.5}
+    - name: AMOONGUSS_25
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 450
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 37.5}
+        - {x: -37, y: 31.5}
+        - {x: -39, y: 14.5}
+        - {x: -39, y: 10.5}
+        - {x: -33, y: 7.5}
+        - {x: -39, y: -1.5}
+        - {x: -39, y: -34.5}
+        - {x: -29, y: -37.5}
+        - {x: 36, y: -37.5}
+        - {x: 39, y: -34.5}
+        - {x: 39, y: 20.5}
+        - {x: 24, y: 37.5}
+    - name: AMOONGUSS_26
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 450
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 37.5}
+        - {x: -39, y: 19.5}
+        - {x: -39, y: -34.5}
+        - {x: -27, y: -37.5}
+        - {x: 39, y: -37.5}
+        - {x: 39, y: 23.5}
+        - {x: 34, y: 37.5}
+    - name: AMOONGUSS_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 37.5}
+        - {x: -25, y: 34.5}
+        - {x: -34, y: 21.5}
+        - {x: -36, y: 12.5}
+        - {x: -31, y: 10.5}
+        - {x: -39, y: -0.5}
+        - {x: -39, y: -21.5}
+        - {x: -38, y: -24.5}
+        - {x: -22, y: -37.5}
+        - {x: 39, y: -37.5}
+        - {x: 39, y: 31.5}
+        - {x: 24, y: 37.5}
+    - name: AMOONGUSS_28
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 375
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 37.5}
+        - {x: -39, y: 16.5}
+        - {x: -39, y: -23.5}
+        - {x: -34, y: -30.5}
+        - {x: -28, y: -27.5}
+        - {x: -24, y: -23.5}
+        - {x: -24, y: -15.5}
+        - {x: -24, y: -29.5}
+        - {x: -20, y: -37.5}
+        - {x: 24, y: -37.5}
+        - {x: 39, y: -33.5}
+        - {x: 39, y: 33.5}
+        - {x: 28, y: 37.5}
+    - name: AMOONGUSS_29
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 375
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 37.5}
+        - {x: -39, y: 37.5}
+        - {x: -39, y: -36.5}
+        - {x: -36, y: -37.5}
+        - {x: 39, y: -37.5}
+        - {x: 39, y: 24.5}
+        - {x: 24, y: 32.5}
+    - name: AMOONGUSS_30
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 375
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 37.5}
+        - {x: -39, y: 14.5}
+        - {x: -39, y: -33.5}
+        - {x: -28, y: -37.5}
+        - {x: 35, y: -37.5}
+        - {x: 39, y: -28.5}
+        - {x: 39, y: 17.5}
+        - {x: 28, y: 37.5}
+    - name: AMOONGUSS_31
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 375
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 37.5}
+        - {x: -39, y: 19.5}
+        - {x: -39, y: -37.5}
+        - {x: 30, y: -37.5}
+        - {x: 39, y: -34.5}
+        - {x: 39, y: 17.5}
+        - {x: 27, y: 37.5}
+    - name: AMOONGUSS_32
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 375
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 37.5}
+        - {x: -36, y: 24.5}
+        - {x: -39, y: 13.5}
+        - {x: -39, y: -33.5}
+        - {x: -24, y: -37.5}
+        - {x: 37, y: -37.5}
+        - {x: 39, y: -36.5}
+        - {x: 39, y: 14.5}
+        - {x: 31, y: 37.5}
+    - name: AMOONGUSS_33
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 375
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 37.5}
+        - {x: -17, y: 37.5}
+        - {x: -39, y: 26.5}
+        - {x: -39, y: -35.5}
+        - {x: -33, y: -37.5}
+        - {x: 35, y: -37.5}
+        - {x: 37, y: -35.5}
+        - {x: 39, y: -29.5}
+        - {x: 39, y: 23.5}
+    - name: AMOONGUSS_34
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 375
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 37.5}
+        - {x: -39, y: -28.5}
+        - {x: -23, y: -37.5}
+        - {x: 39, y: -37.5}
+        - {x: 39, y: 30.5}
+        - {x: 33, y: 37.5}
+    - name: AMOONGUSS_35
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 375
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 37.5}
+        - {x: -36, y: 22.5}
+        - {x: -33, y: 16.5}
+        - {x: -18, y: 9.5}
+        - {x: -33, y: 6.5}
+        - {x: -39, y: 1.5}
+        - {x: -39, y: -28.5}
+        - {x: -38, y: -34.5}
+        - {x: -23, y: -37.5}
+        - {x: 35, y: -37.5}
+        - {x: 39, y: -34.5}
+        - {x: 39, y: 24.5}
+        - {x: 36, y: 37.5}
+    - name: AMOONGUSS_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 37.5}
+        - {x: -39, y: 31.5}
+        - {x: -39, y: -37.5}
+        - {x: 39, y: -37.5}
+        - {x: 39, y: 23.5}
+        - {x: 24, y: 37.5}
+    - name: AMOONGUSS_37
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 300
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 37.5}
+        - {x: -37, y: 18.5}
+        - {x: -31, y: 14.5}
+        - {x: -13, y: 8.5}
+        - {x: -24, y: 8.5}
+        - {x: -39, y: 4.5}
+        - {x: -39, y: -19.5}
+        - {x: -18, y: -37.5}
+        - {x: 25, y: -37.5}
+        - {x: 38, y: -36.5}
+        - {x: 39, y: -34.5}
+        - {x: 39, y: 24.5}
+        - {x: 29, y: 37.5}
+    - name: AMOONGUSS_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 300
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 28.5}
+        - {x: 15, y: 37.5}
+        - {x: -20, y: 37.5}
+        - {x: -39, y: 29.5}
+        - {x: -39, y: -31.5}
+        - {x: -23, y: -37.5}
+        - {x: 35, y: -37.5}
+        - {x: 38, y: -35.5}
+        - {x: 39, y: -29.5}
+        - {x: 39, y: 17.5}
+    - name: AMOONGUSS_39
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 300
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -0.5}
+        - {x: 25, y: -1.5}
+        - {x: 23, y: 1.5}
+        - {x: 36, y: -0.5}
+        - {x: 39, y: 5.5}
+        - {x: 39, y: 33.5}
+        - {x: 25, y: 37.5}
+        - {x: -33, y: 37.5}
+        - {x: -39, y: 33.5}
+        - {x: -39, y: -27.5}
+        - {x: -19, y: -37.5}
+        - {x: 37, y: -37.5}
+        - {x: 39, y: -29.5}
+        - {x: 39, y: -2.5}
+    - name: AMOONGUSS_40
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 300
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -0.5}
+        - {x: 36, y: 0.5}
+        - {x: 39, y: 2.5}
+        - {x: 39, y: 32.5}
+        - {x: 22, y: 37.5}
+        - {x: -30, y: 37.5}
+        - {x: -39, y: 33.5}
+        - {x: -39, y: -20.5}
+        - {x: -24, y: -37.5}
+        - {x: 38, y: -37.5}
+        - {x: 39, y: -31.5}
+        - {x: 39, y: -3.5}
+        - {x: 34, y: -1.5}
+    - name: AMOONGUSS_41
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 300
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -1.5}
+        - {x: 39, y: 0.5}
+        - {x: 39, y: 15.5}
+        - {x: 37, y: 24.5}
+        - {x: 18, y: 37.5}
+        - {x: -13, y: 37.5}
+        - {x: -39, y: 26.5}
+        - {x: -39, y: -31.5}
+        - {x: -21, y: -37.5}
+        - {x: 18, y: -37.5}
+        - {x: 33, y: -32.5}
+        - {x: 39, y: -26.5}
+        - {x: 39, y: -5.5}
+    - name: AMOONGUSS_42
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 300
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -1.5}
+        - {x: 23, y: -2.5}
+        - {x: 22, y: 1.5}
+        - {x: 36, y: -0.5}
+        - {x: 39, y: 2.5}
+        - {x: 39, y: 21.5}
+        - {x: 23, y: 37.5}
+        - {x: -20, y: 37.5}
+        - {x: -37, y: 18.5}
+        - {x: -39, y: 15.5}
+        - {x: -39, y: -22.5}
+        - {x: -29, y: -37.5}
+        - {x: 26, y: -37.5}
+        - {x: 31, y: -35.5}
+        - {x: 39, y: -27.5}
+        - {x: 39, y: -6.5}
+        - {x: 34, y: -1.5}
+    - name: AMOONGUSS_43
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 300
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -1.5}
+        - {x: 39, y: 2.5}
+        - {x: 39, y: 9.5}
+        - {x: 36, y: 25.5}
+        - {x: 15, y: 37.5}
+        - {x: -20, y: 37.5}
+        - {x: -39, y: 19.5}
+        - {x: -39, y: -25.5}
+        - {x: -35, y: -31.5}
+        - {x: -19, y: -37.5}
+        - {x: 30, y: -37.5}
+        - {x: 39, y: -30.5}
+        - {x: 39, y: -5.5}
+        - {x: 34, y: 0.5}
+    - name: AMOONGUSS_44
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 300
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 0.5}
+        - {x: 23, y: -1.5}
+        - {x: 39, y: 2.5}
+        - {x: 39, y: 8.5}
+        - {x: 34, y: 25.5}
+        - {x: 28, y: 37.5}
+        - {x: -22, y: 37.5}
+        - {x: -32, y: 23.5}
+        - {x: -37, y: 14.5}
+        - {x: -39, y: 7.5}
+        - {x: -39, y: -24.5}
+        - {x: -24, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 37, y: -35.5}
+        - {x: 39, y: -28.5}
+        - {x: 39, y: -2.5}
+    - name: AMOONGUSS_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -1.5}
+        - {x: 35, y: 0.5}
+        - {x: 39, y: 3.5}
+        - {x: 38, y: 17.5}
+        - {x: 26, y: 37.5}
+        - {x: -22, y: 37.5}
+        - {x: -39, y: 18.5}
+        - {x: -39, y: -34.5}
+        - {x: -28, y: -37.5}
+        - {x: 24, y: -37.5}
+        - {x: 38, y: -36.5}
+        - {x: 39, y: -32.5}
+        - {x: 39, y: -2.5}
+        - {x: 34, y: 0.5}
+    - name: AMOONGUSS_46
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 225
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -0.5}
+        - {x: 23, y: -1.5}
+        - {x: 33, y: 1.5}
+        - {x: 39, y: 3.5}
+        - {x: 39, y: 33.5}
+        - {x: 27, y: 37.5}
+        - {x: -29, y: 37.5}
+        - {x: -39, y: 19.5}
+        - {x: -39, y: -26.5}
+        - {x: -25, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 36, y: -34.5}
+        - {x: 39, y: -30.5}
+        - {x: 39, y: -1.5}
+    - name: AMOONGUSS_47
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 225
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 37.5}
+        - {x: -39, y: 12.5}
+        - {x: -39, y: -20.5}
+        - {x: -31, y: -37.5}
+        - {x: 39, y: -37.5}
+        - {x: 39, y: 24.5}
+        - {x: 21, y: 37.5}
+    - name: AMOONGUSS_48
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 225
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 37.5}
+        - {x: -39, y: 30.5}
+        - {x: -39, y: -34.5}
+        - {x: -28, y: -37.5}
+        - {x: 32, y: -37.5}
+        - {x: 39, y: -30.5}
+        - {x: 39, y: 22.5}
+        - {x: 22, y: 37.5}
+    - name: AMOONGUSS_49
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 225
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 37.5}
+        - {x: -33, y: 33.5}
+        - {x: -36, y: 15.5}
+        - {x: -31, y: 12.5}
+        - {x: -39, y: 3.5}
+        - {x: -39, y: -33.5}
+        - {x: -38, y: -37.5}
+        - {x: 28, y: -37.5}
+        - {x: 39, y: -30.5}
+        - {x: 39, y: 19.5}
+        - {x: 22, y: 37.5}
+    - name: AMOONGUSS_50
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 225
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 37.5}
+        - {x: -39, y: 36.5}
+        - {x: -39, y: -23.5}
+        - {x: -23, y: -37.5}
+        - {x: 25, y: -37.5}
+        - {x: 30, y: -36.5}
+        - {x: 39, y: -28.5}
+        - {x: 39, y: 30.5}
+        - {x: 20, y: 37.5}
+    - name: AMOONGUSS_51
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 225
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 37.5}
+        - {x: -30, y: 37.5}
+        - {x: -39, y: 12.5}
+        - {x: -39, y: -35.5}
+        - {x: -31, y: -37.5}
+        - {x: 31, y: -37.5}
+        - {x: 39, y: -26.5}
+        - {x: 39, y: 16.5}
+        - {x: 35, y: 23.5}
+    - name: AMOONGUSS_52
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 225
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 37.5}
+        - {x: -38, y: 28.5}
+        - {x: -39, y: 22.5}
+        - {x: -39, y: -37.5}
+        - {x: 27, y: -37.5}
+        - {x: 39, y: -33.5}
+        - {x: 39, y: 17.5}
+        - {x: 22, y: 37.5}
+    - name: AMOONGUSS_53
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 225
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -1.5}
+        - {x: 31, y: 3.5}
+        - {x: 36, y: 7.5}
+        - {x: 39, y: 13.5}
+        - {x: 39, y: 22.5}
+        - {x: 19, y: 37.5}
+        - {x: -17, y: 37.5}
+        - {x: -39, y: 22.5}
+        - {x: -39, y: 16.5}
+        - {x: -38, y: 13.5}
+        - {x: -25, y: 5.5}
+        - {x: -32, y: 2.5}
+        - {x: -37, y: -1.5}
+        - {x: -39, y: -3.5}
+        - {x: -39, y: -25.5}
+        - {x: -21, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 32, y: -36.5}
+        - {x: 39, y: -26.5}
+        - {x: 39, y: -6.5}
+        - {x: 31, y: 0.5}
+    - name: AMOONGUSS_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -1.5}
+        - {x: 33, y: 2.5}
+        - {x: 39, y: 9.5}
+        - {x: 39, y: 18.5}
+        - {x: 18, y: 37.5}
+        - {x: -25, y: 37.5}
+        - {x: -39, y: 15.5}
+        - {x: -39, y: -35.5}
+        - {x: -34, y: -37.5}
+        - {x: 33, y: -37.5}
+        - {x: 39, y: -26.5}
+        - {x: 39, y: -3.5}
+        - {x: 32, y: 0.5}
+    - name: AMOONGUSS_55
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 150
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 37.5}
+        - {x: -29, y: 36.5}
+        - {x: -34, y: 21.5}
+        - {x: -38, y: 11.5}
+        - {x: -30, y: 7.5}
+        - {x: -36, y: 6.5}
+        - {x: -39, y: -1.5}
+        - {x: -39, y: -26.5}
+        - {x: -33, y: -30.5}
+        - {x: -19, y: -37.5}
+        - {x: 30, y: -37.5}
+        - {x: 39, y: -33.5}
+        - {x: 39, y: 30.5}
+        - {x: 27, y: 37.5}
+    - name: AMOONGUSS_56
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 150
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 37.5}
+        - {x: -27, y: 33.5}
+        - {x: -39, y: 13.5}
+        - {x: -39, y: 10.5}
+        - {x: -32, y: 7.5}
+        - {x: -38, y: 5.5}
+        - {x: -39, y: 0.5}
+        - {x: -39, y: -28.5}
+        - {x: -29, y: -37.5}
+        - {x: 25, y: -37.5}
+        - {x: 39, y: -34.5}
+        - {x: 39, y: 17.5}
+        - {x: 29, y: 37.5}
+    - name: AMOONGUSS_57
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 150
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 1.5}
+        - {x: 19, y: -1.5}
+        - {x: 14, y: 4.5}
+        - {x: 32, y: 3.5}
+        - {x: 36, y: 14.5}
+        - {x: 38, y: 31.5}
+        - {x: 18, y: 37.5}
+        - {x: -25, y: 37.5}
+        - {x: -39, y: 15.5}
+        - {x: -39, y: -27.5}
+        - {x: -32, y: -32.5}
+        - {x: -22, y: -37.5}
+        - {x: 28, y: -37.5}
+        - {x: 37, y: -36.5}
+        - {x: 39, y: -30.5}
+        - {x: 39, y: -1.5}
+        - {x: 33, y: 0.5}
+    - name: AMOONGUSS_58
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 150
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 1.5}
+        - {x: 22, y: 0.5}
+        - {x: 30, y: 3.5}
+        - {x: 39, y: 9.5}
+        - {x: 39, y: 19.5}
+        - {x: 21, y: 37.5}
+        - {x: -18, y: 37.5}
+        - {x: -39, y: 25.5}
+        - {x: -39, y: -36.5}
+        - {x: -35, y: -37.5}
+        - {x: 33, y: -37.5}
+        - {x: 37, y: -33.5}
+        - {x: 39, y: -25.5}
+        - {x: 39, y: -1.5}
+    - name: AMOONGUSS_59
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 150
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 37.5}
+        - {x: -18, y: 37.5}
+        - {x: -39, y: 26.5}
+        - {x: -39, y: -35.5}
+        - {x: -35, y: -37.5}
+        - {x: 33, y: -37.5}
+        - {x: 39, y: -29.5}
+        - {x: 39, y: 18.5}
+    - name: AMOONGUSS_60
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 150
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 37.5}
+        - {x: -32, y: 36.5}
+        - {x: -39, y: 19.5}
+        - {x: -39, y: -37.5}
+        - {x: 39, y: -37.5}
+        - {x: 39, y: 16.5}
+        - {x: 19, y: 37.5}
+    - name: AMOONGUSS_61
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 150
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 37.5}
+        - {x: -39, y: 27.5}
+        - {x: -39, y: -33.5}
+        - {x: -23, y: -37.5}
+        - {x: 28, y: -37.5}
+        - {x: 39, y: -30.5}
+        - {x: 39, y: 31.5}
+        - {x: 19, y: 37.5}
+    - name: AMOONGUSS_62
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 150
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 37.5}
+        - {x: -39, y: 26.5}
+        - {x: -39, y: -37.5}
+        - {x: 31, y: -37.5}
+        - {x: 38, y: -27.5}
+        - {x: 38, y: 19.5}
+        - {x: 16, y: 37.5}
+    - name: AMOONGUSS_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 37.5}
+        - {x: -39, y: 26.5}
+        - {x: -39, y: -28.5}
+        - {x: -28, y: -37.5}
+        - {x: 16, y: -37.5}
+        - {x: 38, y: -26.5}
+        - {x: 38, y: 28.5}
+        - {x: 36, y: 37.5}
+    - name: AMOONGUSS_64
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 75
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 37.5}
+        - {x: -39, y: 30.5}
+        - {x: -39, y: 7.5}
+        - {x: -33, y: 4.5}
+        - {x: -39, y: -3.5}
+        - {x: -39, y: -28.5}
+        - {x: -28, y: -37.5}
+        - {x: 28, y: -37.5}
+        - {x: 38, y: -24.5}
+        - {x: 38, y: 19.5}
+        - {x: 25, y: 37.5}
+    - name: AMOONGUSS_65
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 75
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 37.5}
+        - {x: -24, y: 37.5}
+        - {x: -39, y: 22.5}
+        - {x: -39, y: 8.5}
+        - {x: -34, y: 4.5}
+        - {x: -38, y: 2.5}
+        - {x: -39, y: 0.5}
+        - {x: -39, y: -32.5}
+        - {x: -36, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 38, y: -27.5}
+        - {x: 38, y: 12.5}
+        - {x: 37, y: 25.5}
+    - name: AMOONGUSS_66
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 75
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 37.5}
+        - {x: -39, y: 27.5}
+        - {x: -39, y: 6.5}
+        - {x: -34, y: 4.5}
+        - {x: -29, y: 4.5}
+        - {x: -37, y: 0.5}
+        - {x: -39, y: -3.5}
+        - {x: -39, y: -30.5}
+        - {x: -32, y: -37.5}
+        - {x: 24, y: -37.5}
+        - {x: 38, y: -32.5}
+        - {x: 38, y: 16.5}
+        - {x: 37, y: 21.5}
+        - {x: 29, y: 37.5}
+    - name: AMOONGUSS_67
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 75
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 37.5}
+        - {x: -39, y: -36.5}
+        - {x: -38, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 37, y: -31.5}
+        - {x: 37, y: 37.5}
+    - name: AMOONGUSS_68
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 75
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -37.5}
+        - {x: 20, y: -37.5}
+        - {x: 37, y: -30.5}
+        - {x: 37, y: 29.5}
+        - {x: 35, y: 37.5}
+        - {x: -21, y: 37.5}
+        - {x: -39, y: 29.5}
+    - name: AMOONGUSS_69
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 75
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 37.5}
+        - {x: -39, y: 37.5}
+        - {x: -39, y: -36.5}
+        - {x: -38, y: -37.5}
+        - {x: 17, y: -37.5}
+        - {x: 37, y: -29.5}
+        - {x: 37, y: 1.5}
+        - {x: 33, y: 22.5}
+    - name: AMOONGUSS_70
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 75
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 37.5}
+        - {x: -39, y: -37.5}
+        - {x: 37, y: -37.5}
+        - {x: 37, y: 32.5}
+        - {x: 27, y: 37.5}
+    - name: AMOONGUSS_71
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 75
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 37.5}
+        - {x: -27, y: 37.5}
+        - {x: -39, y: 30.5}
+        - {x: -39, y: 6.5}
+        - {x: -32, y: 1.5}
+        - {x: -36, y: 0.5}
+        - {x: -39, y: -4.5}
+        - {x: -39, y: -36.5}
+        - {x: -32, y: -37.5}
+        - {x: 27, y: -37.5}
+        - {x: 37, y: -25.5}
+        - {x: 37, y: 12.5}
+        - {x: 35, y: 23.5}
+    - name: AMOONGUSS_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 6.5}
+        - {x: 20, y: 5.5}
+        - {x: 16, y: 5.5}
+        - {x: 22, y: 6.5}
+        - {x: 27, y: 8.5}
+        - {x: 31, y: 13.5}
+        - {x: 30, y: 25.5}
+        - {x: 22, y: 37.5}
+        - {x: -29, y: 37.5}
+        - {x: -39, y: 32.5}
+        - {x: -39, y: -35.5}
+        - {x: -36, y: -37.5}
+        - {x: 19, y: -37.5}
+        - {x: 37, y: -31.5}
+        - {x: 37, y: -0.5}
+        - {x: 29, y: 4.5}
+    - name: AMOONGUSS_73
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -37.5}
+        - {x: 28, y: -37.5}
+        - {x: 36, y: -32.5}
+        - {x: 36, y: 22.5}
+        - {x: 35, y: 29.5}
+        - {x: 13, y: 37.5}
+        - {x: -28, y: 37.5}
+        - {x: -39, y: 28.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1012 @@
+fileFormatVersion: 2
+guid: 9de16b245aff1364b9e01550ab7c226d
+timeCreated: 1452637337
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BUNEARY_0
+    21300002: BUNEARY_1
+    21300004: BUNEARY_2
+    21300006: BUNEARY_3
+    21300008: BUNEARY_4
+    21300010: BUNEARY_5
+    21300012: BUNEARY_6
+    21300014: BUNEARY_7
+    21300016: BUNEARY_8
+    21300018: BUNEARY_9
+    21300020: BUNEARY_10
+    21300022: BUNEARY_11
+    21300024: BUNEARY_12
+    21300026: BUNEARY_13
+    21300028: BUNEARY_14
+    21300030: BUNEARY_15
+    21300032: BUNEARY_16
+    21300034: BUNEARY_17
+    21300036: BUNEARY_18
+    21300038: BUNEARY_19
+    21300040: BUNEARY_20
+    21300042: BUNEARY_21
+    21300044: BUNEARY_22
+    21300046: BUNEARY_23
+    21300048: BUNEARY_24
+    21300050: BUNEARY_25
+    21300052: BUNEARY_26
+    21300054: BUNEARY_27
+    21300056: BUNEARY_28
+    21300058: BUNEARY_29
+    21300060: BUNEARY_30
+    21300062: BUNEARY_31
+    21300064: BUNEARY_32
+    21300066: BUNEARY_33
+    21300068: BUNEARY_34
+    21300070: BUNEARY_35
+    21300072: BUNEARY_36
+    21300074: BUNEARY_37
+    21300076: BUNEARY_38
+    21300078: BUNEARY_39
+    21300080: BUNEARY_40
+    21300082: BUNEARY_41
+    21300084: BUNEARY_42
+    21300086: BUNEARY_43
+    21300088: BUNEARY_44
+    21300090: BUNEARY_45
+    21300092: BUNEARY_46
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BUNEARY_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 36.5}
+        - {x: -13, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 27, y: -23.5}
+        - {x: 27, y: 29.5}
+        - {x: 22, y: 36.5}
+    - name: BUNEARY_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 438
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 36.5}
+        - {x: -14, y: -34.5}
+        - {x: -12, y: -36.5}
+        - {x: 20, y: -36.5}
+        - {x: 27, y: -25.5}
+        - {x: 27, y: 26.5}
+        - {x: 21, y: 36.5}
+    - name: BUNEARY_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 438
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 17.5}
+        - {x: 10, y: 23.5}
+        - {x: 7, y: 34.5}
+        - {x: 5, y: 36.5}
+        - {x: -11, y: 36.5}
+        - {x: -15, y: 33.5}
+        - {x: -15, y: -4.5}
+        - {x: -11, y: -36.5}
+        - {x: 22, y: -36.5}
+        - {x: 27, y: -22.5}
+        - {x: 27, y: 20.5}
+        - {x: 15, y: 20.5}
+    - name: BUNEARY_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 438
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 36.5}
+        - {x: -12, y: 36.5}
+        - {x: -17, y: 29.5}
+        - {x: -17, y: 6.5}
+        - {x: -10, y: -36.5}
+        - {x: 24, y: -36.5}
+        - {x: 27, y: -21.5}
+        - {x: 27, y: 24.5}
+        - {x: 9, y: 33.5}
+    - name: BUNEARY_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 438
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 35.5}
+        - {x: -10, y: 35.5}
+        - {x: -18, y: 31.5}
+        - {x: -18, y: 4.5}
+        - {x: -12, y: -36.5}
+        - {x: 20, y: -36.5}
+        - {x: 27, y: -13.5}
+        - {x: 27, y: 20.5}
+    - name: BUNEARY_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 438
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 34.5}
+        - {x: -19, y: 28.5}
+        - {x: -19, y: 0.5}
+        - {x: -10, y: -36.5}
+        - {x: 17, y: -36.5}
+        - {x: 27, y: -25.5}
+        - {x: 27, y: 30.5}
+        - {x: 24, y: 34.5}
+    - name: BUNEARY_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 438
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 33.5}
+        - {x: -18, y: 33.5}
+        - {x: -21, y: 26.5}
+        - {x: -21, y: 2.5}
+        - {x: -11, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 27, y: -8.5}
+        - {x: 27, y: 23.5}
+        - {x: 26, y: 27.5}
+    - name: BUNEARY_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 365
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 32.5}
+        - {x: -22, y: 0.5}
+        - {x: -10, y: -36.5}
+        - {x: 23, y: -36.5}
+        - {x: 27, y: -29.5}
+        - {x: 27, y: 25.5}
+        - {x: 22, y: 32.5}
+    - name: BUNEARY_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 365
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32.5}
+        - {x: -23, y: 29.5}
+        - {x: -23, y: -3.5}
+        - {x: -10, y: -36.5}
+        - {x: 18, y: -36.5}
+        - {x: 27, y: -21.5}
+        - {x: 27, y: 24.5}
+        - {x: 22, y: 32.5}
+    - name: BUNEARY_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 365
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 32.5}
+        - {x: -23, y: 10.5}
+        - {x: -16, y: -36.5}
+        - {x: 27, y: -36.5}
+        - {x: 27, y: 32.5}
+    - name: BUNEARY_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 365
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 31.5}
+        - {x: -20, y: 31.5}
+        - {x: -23, y: 25.5}
+        - {x: -23, y: 0.5}
+        - {x: -13, y: -36.5}
+        - {x: 19, y: -36.5}
+        - {x: 27, y: 1.5}
+        - {x: 27, y: 26.5}
+    - name: BUNEARY_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 365
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30.5}
+        - {x: -25, y: 29.5}
+        - {x: -25, y: -4.5}
+        - {x: -15, y: -36.5}
+        - {x: 17, y: -36.5}
+        - {x: 27, y: -24.5}
+        - {x: 27, y: 24.5}
+        - {x: 26, y: 30.5}
+    - name: BUNEARY_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 365
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 29.5}
+        - {x: -27, y: -23.5}
+        - {x: -25, y: -36.5}
+        - {x: 24, y: -36.5}
+        - {x: 26, y: -28.5}
+        - {x: 26, y: 22.5}
+        - {x: 22, y: 29.5}
+    - name: BUNEARY_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 365
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 28.5}
+        - {x: -27, y: -13.5}
+        - {x: -20, y: -33.5}
+        - {x: -13, y: -36.5}
+        - {x: 17, y: -36.5}
+        - {x: 26, y: -27.5}
+        - {x: 26, y: 20.5}
+        - {x: 24, y: 28.5}
+    - name: BUNEARY_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 28.5}
+        - {x: -27, y: -4.5}
+        - {x: -13, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 26, y: -2.5}
+        - {x: 26, y: 20.5}
+        - {x: 24, y: 28.5}
+    - name: BUNEARY_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 292
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 29.5}
+        - {x: -27, y: 29.5}
+        - {x: -27, y: -13.5}
+        - {x: -23, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 25, y: -6.5}
+        - {x: 25, y: 17.5}
+        - {x: 21, y: 28.5}
+    - name: BUNEARY_16
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 292
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -11.5}
+        - {x: 25, y: 2.5}
+        - {x: 25, y: 19.5}
+        - {x: 15, y: 28.5}
+        - {x: 8, y: 29.5}
+        - {x: -27, y: 29.5}
+        - {x: -27, y: -9.5}
+        - {x: -18, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 16, y: -34.5}
+        - {x: 20, y: -19.5}
+        - {x: 20, y: -13.5}
+    - name: BUNEARY_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 292
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 29.5}
+        - {x: -27, y: 28.5}
+        - {x: -27, y: 12.5}
+        - {x: -23, y: 7.5}
+        - {x: -20, y: 6.5}
+        - {x: -12, y: -36.5}
+        - {x: 20, y: -36.5}
+        - {x: 25, y: -17.5}
+        - {x: 25, y: 29.5}
+    - name: BUNEARY_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 292
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 28.5}
+        - {x: -27, y: 28.5}
+        - {x: -27, y: -10.5}
+        - {x: -19, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 16, y: -34.5}
+        - {x: 25, y: -11.5}
+        - {x: 25, y: 23.5}
+    - name: BUNEARY_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 292
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 22.5}
+        - {x: -1, y: 12.5}
+        - {x: -11, y: 27.5}
+        - {x: -13, y: 28.5}
+        - {x: -21, y: 28.5}
+        - {x: -27, y: 23.5}
+        - {x: -27, y: 5.5}
+        - {x: -12, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 25, y: -17.5}
+        - {x: 25, y: 26.5}
+    - name: BUNEARY_20
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 292
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 29.5}
+        - {x: -27, y: 3.5}
+        - {x: -14, y: -36.5}
+        - {x: 19, y: -36.5}
+        - {x: 24, y: -24.5}
+        - {x: 24, y: 23.5}
+        - {x: -7, y: 29.5}
+    - name: BUNEARY_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 30.5}
+        - {x: -27, y: -0.5}
+        - {x: -12, y: -36.5}
+        - {x: 19, y: -36.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 30.5}
+    - name: BUNEARY_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 219
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 31.5}
+        - {x: -27, y: 29.5}
+        - {x: -27, y: 1.5}
+        - {x: -12, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 17, y: -30.5}
+        - {x: 24, y: -6.5}
+        - {x: 24, y: 31.5}
+    - name: BUNEARY_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 219
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 32.5}
+        - {x: -27, y: 25.5}
+        - {x: -27, y: 3.5}
+        - {x: -15, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 21.5}
+        - {x: -5, y: 32.5}
+    - name: BUNEARY_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 219
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 22.5}
+        - {x: 7, y: 20.5}
+        - {x: -7, y: 33.5}
+        - {x: -21, y: 33.5}
+        - {x: -27, y: 29.5}
+        - {x: -27, y: 14.5}
+        - {x: -17, y: -19.5}
+        - {x: -10, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 17.5}
+        - {x: 23, y: 18.5}
+    - name: BUNEARY_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 219
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 18.5}
+        - {x: 19, y: 23.5}
+        - {x: 3, y: 34.5}
+        - {x: -19, y: 34.5}
+        - {x: -26, y: 27.5}
+        - {x: -26, y: 9.5}
+        - {x: -11, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 21, y: -14.5}
+        - {x: 23, y: -3.5}
+        - {x: 24, y: 3.5}
+    - name: BUNEARY_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 219
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 31.5}
+        - {x: -8, y: 35.5}
+        - {x: -24, y: 35.5}
+        - {x: -24, y: 2.5}
+        - {x: -19, y: -36.5}
+        - {x: 14, y: -36.5}
+        - {x: 22, y: -19.5}
+        - {x: 24, y: -4.5}
+        - {x: 24, y: 20.5}
+    - name: BUNEARY_27
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 219
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 36.5}
+        - {x: -17, y: 36.5}
+        - {x: -23, y: 29.5}
+        - {x: -23, y: 13.5}
+        - {x: -20, y: -15.5}
+        - {x: -14, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 15.5}
+        - {x: 22, y: 24.5}
+    - name: BUNEARY_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 36.5}
+        - {x: -21, y: -10.5}
+        - {x: -15, y: -36.5}
+        - {x: 25, y: -36.5}
+        - {x: 25, y: 34.5}
+        - {x: 13, y: 36.5}
+    - name: BUNEARY_29
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 146
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 36.5}
+        - {x: -20, y: 36.5}
+        - {x: -20, y: -28.5}
+        - {x: -14, y: -36.5}
+        - {x: 18, y: -36.5}
+        - {x: 25, y: 0.5}
+        - {x: 25, y: 19.5}
+    - name: BUNEARY_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 146
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 36.5}
+        - {x: -18, y: 36.5}
+        - {x: -18, y: -36.5}
+        - {x: 20, y: -36.5}
+        - {x: 25, y: -2.5}
+        - {x: 25, y: 20.5}
+        - {x: 10, y: 34.5}
+    - name: BUNEARY_31
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 146
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 12.5}
+        - {x: 23, y: 20.5}
+        - {x: 3, y: 36.5}
+        - {x: -19, y: 36.5}
+        - {x: -19, y: -26.5}
+        - {x: -13, y: -36.5}
+        - {x: 13, y: -36.5}
+        - {x: 15, y: -34.5}
+        - {x: 15, y: -13.5}
+        - {x: 25, y: -1.5}
+    - name: BUNEARY_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 146
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 36.5}
+        - {x: -19, y: -36.5}
+        - {x: 22, y: -36.5}
+        - {x: 25, y: -30.5}
+        - {x: 25, y: 25.5}
+        - {x: 20, y: 36.5}
+    - name: BUNEARY_33
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 146
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 36.5}
+        - {x: -11, y: 36.5}
+        - {x: -17, y: 33.5}
+        - {x: -19, y: 17.5}
+        - {x: -19, y: -21.5}
+        - {x: -11, y: -36.5}
+        - {x: 11, y: -36.5}
+        - {x: 14, y: -33.5}
+        - {x: 26, y: -4.5}
+        - {x: 26, y: 21.5}
+    - name: BUNEARY_34
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 146
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 36.5}
+        - {x: -13, y: 36.5}
+        - {x: -19, y: -7.5}
+        - {x: -19, y: -21.5}
+        - {x: -11, y: -36.5}
+        - {x: 11, y: -36.5}
+        - {x: 14, y: -33.5}
+        - {x: 26, y: -6.5}
+        - {x: 26, y: 27.5}
+    - name: BUNEARY_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 17.5}
+        - {x: 11, y: 36.5}
+        - {x: -12, y: 36.5}
+        - {x: -19, y: 6.5}
+        - {x: -19, y: -27.5}
+        - {x: -14, y: -36.5}
+        - {x: 13, y: -36.5}
+        - {x: 14, y: -33.5}
+        - {x: 26, y: -5.5}
+        - {x: 26, y: 12.5}
+    - name: BUNEARY_36
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 73
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 36.5}
+        - {x: -7, y: 36.5}
+        - {x: -19, y: 32.5}
+        - {x: -19, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 27, y: -10.5}
+        - {x: 27, y: 16.5}
+        - {x: 26, y: 19.5}
+    - name: BUNEARY_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 73
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36.5}
+        - {x: -19, y: 7.5}
+        - {x: -19, y: -29.5}
+        - {x: -14, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 27, y: -20.5}
+        - {x: 27, y: 29.5}
+        - {x: 24, y: 36.5}
+    - name: BUNEARY_38
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 73
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 36.5}
+        - {x: -4, y: 36.5}
+        - {x: -13, y: 29.5}
+        - {x: -19, y: -3.5}
+        - {x: -19, y: -20.5}
+        - {x: -13, y: -36.5}
+        - {x: 13, y: -36.5}
+        - {x: 15, y: -35.5}
+        - {x: 27, y: -19.5}
+        - {x: 27, y: 21.5}
+    - name: BUNEARY_39
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 73
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 36.5}
+        - {x: -18, y: 11.5}
+        - {x: -18, y: -32.5}
+        - {x: -16, y: -36.5}
+        - {x: 22, y: -36.5}
+        - {x: 27, y: -32.5}
+        - {x: 27, y: 36.5}
+    - name: BUNEARY_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 73
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 36.5}
+        - {x: -18, y: 34.5}
+        - {x: -18, y: -36.5}
+        - {x: 24, y: -36.5}
+        - {x: 27, y: -24.5}
+        - {x: 27, y: 25.5}
+        - {x: 15, y: 36.5}
+    - name: BUNEARY_41
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 73
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 23.5}
+        - {x: 18, y: 36.5}
+        - {x: -8, y: 36.5}
+        - {x: -17, y: 9.5}
+        - {x: -17, y: -31.5}
+        - {x: -14, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 16, y: -34.5}
+        - {x: 23, y: -18.5}
+        - {x: 27, y: -5.5}
+    - name: BUNEARY_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 36.5}
+        - {x: -9, y: 36.5}
+        - {x: -17, y: 34.5}
+        - {x: -17, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 27, y: -12.5}
+        - {x: 27, y: 17.5}
+    - name: BUNEARY_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 36.5}
+        - {x: -3, y: 36.5}
+        - {x: -9, y: 32.5}
+        - {x: -16, y: -10.5}
+        - {x: -16, y: -24.5}
+        - {x: -14, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 16, y: -35.5}
+        - {x: 27, y: -8.5}
+        - {x: 27, y: 20.5}
+    - name: BUNEARY_44
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 36.5}
+        - {x: -15, y: -36.5}
+        - {x: 21, y: -36.5}
+        - {x: 27, y: -31.5}
+        - {x: 27, y: 36.5}
+    - name: BUNEARY_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 36.5}
+        - {x: -10, y: 36.5}
+        - {x: -15, y: 10.5}
+        - {x: -15, y: -33.5}
+        - {x: -14, y: -36.5}
+        - {x: 16, y: -36.5}
+        - {x: 27, y: -5.5}
+        - {x: 27, y: 15.5}
+    - name: BUNEARY_46
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -1.5}
+        - {x: 27, y: 20.5}
+        - {x: 15, y: 30.5}
+        - {x: 7, y: 36.5}
+        - {x: -14, y: 36.5}
+        - {x: -14, y: -36.5}
+        - {x: 15, y: -36.5}
+        - {x: 20, y: -20.5}
+        - {x: 18, y: -16.5}
+        - {x: 24, y: -10.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

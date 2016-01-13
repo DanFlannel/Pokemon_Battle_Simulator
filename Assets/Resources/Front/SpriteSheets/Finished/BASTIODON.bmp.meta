@@ -1,0 +1,1218 @@
+fileFormatVersion: 2
+guid: 29b2583e5647b8c4c9055e3e1c9b2d41
+timeCreated: 1452636984
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BASTIODON_0
+    21300002: BASTIODON_1
+    21300004: BASTIODON_2
+    21300006: BASTIODON_3
+    21300008: BASTIODON_4
+    21300010: BASTIODON_5
+    21300012: BASTIODON_6
+    21300014: BASTIODON_7
+    21300016: BASTIODON_8
+    21300018: BASTIODON_9
+    21300020: BASTIODON_10
+    21300022: BASTIODON_11
+    21300024: BASTIODON_12
+    21300026: BASTIODON_13
+    21300028: BASTIODON_14
+    21300030: BASTIODON_15
+    21300032: BASTIODON_16
+    21300034: BASTIODON_17
+    21300036: BASTIODON_18
+    21300038: BASTIODON_19
+    21300040: BASTIODON_20
+    21300042: BASTIODON_21
+    21300044: BASTIODON_22
+    21300046: BASTIODON_23
+    21300048: BASTIODON_24
+    21300050: BASTIODON_25
+    21300052: BASTIODON_26
+    21300054: BASTIODON_27
+    21300056: BASTIODON_28
+    21300058: BASTIODON_29
+    21300060: BASTIODON_30
+    21300062: BASTIODON_31
+    21300064: BASTIODON_32
+    21300066: BASTIODON_33
+    21300068: BASTIODON_34
+    21300070: BASTIODON_35
+    21300072: BASTIODON_36
+    21300074: BASTIODON_37
+    21300076: BASTIODON_38
+    21300078: BASTIODON_39
+    21300080: BASTIODON_40
+    21300082: BASTIODON_41
+    21300084: BASTIODON_42
+    21300086: BASTIODON_43
+    21300088: BASTIODON_44
+    21300090: BASTIODON_45
+    21300092: BASTIODON_46
+    21300094: BASTIODON_47
+    21300096: BASTIODON_48
+    21300098: BASTIODON_49
+    21300100: BASTIODON_50
+    21300102: BASTIODON_51
+    21300104: BASTIODON_52
+    21300106: BASTIODON_53
+    21300108: BASTIODON_54
+    21300110: BASTIODON_55
+    21300112: BASTIODON_56
+    21300114: BASTIODON_57
+    21300116: BASTIODON_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BASTIODON_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 40}
+        - {x: -45, y: 30}
+        - {x: -45, y: -31}
+        - {x: -40, y: -40}
+        - {x: 42, y: -40}
+        - {x: 45, y: -39}
+        - {x: 45, y: -4}
+        - {x: 21, y: 40}
+    - name: BASTIODON_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 560
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 40}
+        - {x: -38, y: 40}
+        - {x: -45, y: 32}
+        - {x: -45, y: -36}
+        - {x: -38, y: -40}
+        - {x: 44, y: -40}
+        - {x: 45, y: -39}
+        - {x: 45, y: -4}
+        - {x: 22, y: 34}
+    - name: BASTIODON_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 560
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 40}
+        - {x: -45, y: 3}
+        - {x: -45, y: -18}
+        - {x: -34, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 9}
+        - {x: 41, y: 40}
+    - name: BASTIODON_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 560
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 40}
+        - {x: -34, y: 40}
+        - {x: -45, y: 14}
+        - {x: -45, y: -26}
+        - {x: -35, y: -40}
+        - {x: 43, y: -40}
+        - {x: 45, y: -39}
+        - {x: 45, y: -5}
+    - name: BASTIODON_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 560
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 40}
+        - {x: -28, y: 40}
+        - {x: -36, y: 27}
+        - {x: -45, y: 2}
+        - {x: -45, y: -20}
+        - {x: -34, y: -40}
+        - {x: 43, y: -40}
+        - {x: 45, y: -39}
+        - {x: 45, y: -5}
+    - name: BASTIODON_5
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 560
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 40}
+        - {x: -28, y: 40}
+        - {x: -36, y: 27}
+        - {x: -45, y: 2}
+        - {x: -45, y: -20}
+        - {x: -34, y: -40}
+        - {x: 40, y: -40}
+        - {x: 45, y: -39}
+        - {x: 45, y: -5}
+    - name: BASTIODON_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 560
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 40}
+        - {x: -45, y: 33}
+        - {x: -45, y: -38}
+        - {x: -43, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: -3}
+        - {x: 28, y: 40}
+    - name: BASTIODON_7
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 560
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -40}
+        - {x: 45, y: 6}
+        - {x: 35, y: 40}
+        - {x: -45, y: 40}
+        - {x: -45, y: -40}
+    - name: BASTIODON_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -28}
+        - {x: -37, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 1}
+        - {x: 35, y: 40}
+        - {x: -32, y: 40}
+        - {x: -45, y: 12}
+    - name: BASTIODON_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 480
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 40}
+        - {x: -45, y: 10}
+        - {x: -45, y: -25}
+        - {x: -33, y: -40}
+        - {x: 44, y: -40}
+        - {x: 45, y: -39}
+        - {x: 45, y: 7}
+        - {x: 30, y: 40}
+    - name: BASTIODON_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 480
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 40}
+        - {x: -45, y: 9}
+        - {x: -45, y: -29}
+        - {x: -38, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: -2}
+        - {x: 26, y: 40}
+    - name: BASTIODON_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 480
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 3}
+        - {x: -45, y: -20}
+        - {x: -35, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 6}
+        - {x: 35, y: 40}
+        - {x: -29, y: 40}
+        - {x: -38, y: 27}
+    - name: BASTIODON_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 480
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 40}
+        - {x: -38, y: 37}
+        - {x: -45, y: 4}
+        - {x: -45, y: -18}
+        - {x: -36, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: -7}
+        - {x: 17, y: 40}
+    - name: BASTIODON_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 480
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 40}
+        - {x: -45, y: 32}
+        - {x: -45, y: -36}
+        - {x: -38, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: -2}
+        - {x: 19, y: 40}
+    - name: BASTIODON_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 480
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 40}
+        - {x: -45, y: 11}
+        - {x: -45, y: -25}
+        - {x: -36, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: -7}
+        - {x: 19, y: 40}
+    - name: BASTIODON_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 480
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 40}
+        - {x: -45, y: 11}
+        - {x: -45, y: -30}
+        - {x: -40, y: -40}
+        - {x: 44, y: -40}
+        - {x: 45, y: -36}
+        - {x: 45, y: 3}
+        - {x: 18, y: 40}
+    - name: BASTIODON_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 3}
+        - {x: -45, y: -10}
+        - {x: -44, y: -11}
+        - {x: -35, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 38}
+        - {x: 44, y: 40}
+        - {x: -28, y: 40}
+        - {x: -42, y: 26}
+    - name: BASTIODON_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 400
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 40}
+        - {x: -44, y: 39}
+        - {x: -45, y: 30}
+        - {x: -45, y: -23}
+        - {x: -39, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: -7}
+        - {x: 24, y: 40}
+    - name: BASTIODON_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 400
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 40}
+        - {x: -45, y: 20}
+        - {x: -45, y: -26}
+        - {x: -35, y: -39}
+        - {x: -34, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: -1}
+        - {x: 17, y: 40}
+    - name: BASTIODON_19
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 400
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -22}
+        - {x: -36, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 8}
+        - {x: 35, y: 40}
+        - {x: -31, y: 40}
+        - {x: -45, y: 12}
+    - name: BASTIODON_20
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 400
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 40}
+        - {x: -33, y: 40}
+        - {x: -45, y: 15}
+        - {x: -45, y: -28}
+        - {x: -33, y: -40}
+        - {x: 44, y: -40}
+        - {x: 45, y: -39}
+        - {x: 45, y: 9}
+        - {x: 33, y: 34}
+    - name: BASTIODON_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 400
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -30}
+        - {x: -37, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 34}
+        - {x: 44, y: 40}
+        - {x: -34, y: 40}
+        - {x: -45, y: 17}
+    - name: BASTIODON_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 400
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 40}
+        - {x: -25, y: 40}
+        - {x: -34, y: 39}
+        - {x: -45, y: 11}
+        - {x: -45, y: -25}
+        - {x: -33, y: -40}
+        - {x: 40, y: -40}
+        - {x: 44, y: -39}
+        - {x: 45, y: -34}
+        - {x: 45, y: -4}
+    - name: BASTIODON_23
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 400
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 40}
+        - {x: -36, y: 40}
+        - {x: -45, y: 17}
+        - {x: -45, y: -28}
+        - {x: -33, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 20}
+        - {x: 38, y: 39}
+    - name: BASTIODON_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 40}
+        - {x: -45, y: 31}
+        - {x: -45, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: -2}
+        - {x: 17, y: 40}
+    - name: BASTIODON_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 320
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -1}
+        - {x: -45, y: -15}
+        - {x: -37, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 8}
+        - {x: 36, y: 40}
+        - {x: -28, y: 40}
+        - {x: -40, y: 26}
+    - name: BASTIODON_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 320
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -33}
+        - {x: -40, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 12}
+        - {x: 37, y: 40}
+        - {x: -38, y: 40}
+        - {x: -45, y: 26}
+    - name: BASTIODON_27
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 320
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 40}
+        - {x: -45, y: 13}
+        - {x: -45, y: -30}
+        - {x: -40, y: -40}
+        - {x: 42, y: -40}
+        - {x: 45, y: -37}
+        - {x: 45, y: 3}
+        - {x: 29, y: 40}
+    - name: BASTIODON_28
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 320
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 40}
+        - {x: -35, y: 39}
+        - {x: -45, y: -2}
+        - {x: -45, y: -19}
+        - {x: -39, y: -40}
+        - {x: 42, y: -40}
+        - {x: 45, y: -37}
+        - {x: 45, y: 5}
+        - {x: 31, y: 40}
+    - name: BASTIODON_29
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 320
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 40}
+        - {x: -30, y: 40}
+        - {x: -41, y: 21}
+        - {x: -45, y: 0}
+        - {x: -45, y: -19}
+        - {x: -39, y: -40}
+        - {x: 43, y: -40}
+        - {x: 45, y: -38}
+        - {x: 45, y: -5}
+    - name: BASTIODON_30
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 320
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 40}
+        - {x: -37, y: 40}
+        - {x: -45, y: 25}
+        - {x: -45, y: -32}
+        - {x: -41, y: -40}
+        - {x: 43, y: -40}
+        - {x: 45, y: -38}
+        - {x: 45, y: -6}
+    - name: BASTIODON_31
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 320
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 40}
+        - {x: -45, y: -32}
+        - {x: -41, y: -40}
+        - {x: 43, y: -40}
+        - {x: 45, y: -38}
+        - {x: 45, y: 32}
+        - {x: 31, y: 40}
+    - name: BASTIODON_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 40}
+        - {x: -45, y: -32}
+        - {x: -41, y: -40}
+        - {x: 43, y: -40}
+        - {x: 45, y: -38}
+        - {x: 45, y: 32}
+        - {x: 31, y: 40}
+    - name: BASTIODON_33
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 240
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 40}
+        - {x: -33, y: 40}
+        - {x: -45, y: 5}
+        - {x: -45, y: -23}
+        - {x: -35, y: -39}
+        - {x: -34, y: -40}
+        - {x: 40, y: -40}
+        - {x: 45, y: -38}
+        - {x: 45, y: -5}
+    - name: BASTIODON_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 240
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 40}
+        - {x: -44, y: 40}
+        - {x: -45, y: 28}
+        - {x: -45, y: -22}
+        - {x: -41, y: -40}
+        - {x: 43, y: -40}
+        - {x: 45, y: -38}
+        - {x: 45, y: -4}
+    - name: BASTIODON_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 240
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 40}
+        - {x: -34, y: 40}
+        - {x: -45, y: 8}
+        - {x: -45, y: -29}
+        - {x: -40, y: -40}
+        - {x: 43, y: -40}
+        - {x: 44, y: -38}
+        - {x: 45, y: -32}
+        - {x: 45, y: -5}
+    - name: BASTIODON_36
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 40}
+        - {x: -45, y: 32}
+        - {x: -45, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 7}
+        - {x: 27, y: 40}
+    - name: BASTIODON_37
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 240
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 40}
+        - {x: -45, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: -1}
+        - {x: 22, y: 40}
+    - name: BASTIODON_38
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 240
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -40}
+        - {x: 45, y: 9}
+        - {x: 34, y: 40}
+        - {x: -45, y: 40}
+        - {x: -45, y: -40}
+    - name: BASTIODON_39
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 240
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 12}
+        - {x: -45, y: -26}
+        - {x: -40, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 9}
+        - {x: 34, y: 40}
+        - {x: -28, y: 40}
+        - {x: -37, y: 27}
+    - name: BASTIODON_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -30}
+        - {x: -40, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 12}
+        - {x: 36, y: 40}
+        - {x: -37, y: 40}
+        - {x: -45, y: 22}
+    - name: BASTIODON_41
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 160
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 7}
+        - {x: 36, y: 40}
+        - {x: -34, y: 40}
+        - {x: -45, y: 29}
+    - name: BASTIODON_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 160
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 40}
+        - {x: -45, y: 36}
+        - {x: -45, y: -22}
+        - {x: -38, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 1}
+        - {x: 29, y: 40}
+    - name: BASTIODON_43
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 160
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 40}
+        - {x: -41, y: 40}
+        - {x: -45, y: 35}
+        - {x: -45, y: -37}
+        - {x: -43, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 8}
+        - {x: 32, y: 33}
+    - name: BASTIODON_44
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 160
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -28}
+        - {x: -36, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 11}
+        - {x: 37, y: 40}
+        - {x: -33, y: 40}
+        - {x: -45, y: 14}
+    - name: BASTIODON_45
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 160
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 40}
+        - {x: -45, y: 36}
+        - {x: -45, y: -23}
+        - {x: -35, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 1}
+        - {x: 30, y: 40}
+    - name: BASTIODON_46
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 160
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -29}
+        - {x: -40, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 8}
+        - {x: 34, y: 40}
+        - {x: -45, y: 40}
+    - name: BASTIODON_47
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 160
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 40}
+        - {x: -42, y: 40}
+        - {x: -45, y: 31}
+        - {x: -45, y: -33}
+        - {x: -40, y: -40}
+        - {x: 43, y: -40}
+        - {x: 44, y: -38}
+        - {x: 45, y: -32}
+        - {x: 45, y: -6}
+    - name: BASTIODON_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 28}
+        - {x: 17, y: 40}
+        - {x: -39, y: 40}
+        - {x: -45, y: 36}
+        - {x: -45, y: -40}
+        - {x: 41, y: -40}
+        - {x: 44, y: -38}
+        - {x: 45, y: -32}
+        - {x: 45, y: -6}
+    - name: BASTIODON_49
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 80
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 38}
+        - {x: 18, y: 40}
+        - {x: -28, y: 40}
+        - {x: -37, y: 28}
+        - {x: -45, y: 4}
+        - {x: -45, y: -26}
+        - {x: -41, y: -40}
+        - {x: 43, y: -40}
+        - {x: 44, y: -38}
+        - {x: 45, y: -31}
+        - {x: 45, y: -6}
+    - name: BASTIODON_50
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 80
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 40}
+        - {x: -45, y: 29}
+        - {x: -45, y: -31}
+        - {x: -39, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 15}
+        - {x: 24, y: 40}
+    - name: BASTIODON_51
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 80
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -35}
+        - {x: -42, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 6}
+        - {x: 35, y: 40}
+        - {x: -34, y: 40}
+        - {x: -45, y: 16}
+    - name: BASTIODON_52
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 80
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 40}
+        - {x: -43, y: 40}
+        - {x: -45, y: 36}
+        - {x: -45, y: -30}
+        - {x: -38, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 2}
+        - {x: 30, y: 39}
+    - name: BASTIODON_53
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 80
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 10}
+        - {x: 37, y: 40}
+        - {x: -41, y: 40}
+        - {x: -45, y: 38}
+        - {x: -45, y: -15}
+    - name: BASTIODON_54
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 80
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -27}
+        - {x: -38, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 32}
+        - {x: 43, y: 40}
+        - {x: -35, y: 40}
+        - {x: -45, y: 18}
+    - name: BASTIODON_55
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 80
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 7}
+        - {x: 38, y: 40}
+        - {x: -43, y: 40}
+        - {x: -45, y: 39}
+        - {x: -45, y: -14}
+    - name: BASTIODON_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 40}
+        - {x: -38, y: 33}
+        - {x: -45, y: 26}
+        - {x: -45, y: -36}
+        - {x: -40, y: -40}
+        - {x: 45, y: -40}
+        - {x: 45, y: 27}
+        - {x: 42, y: 40}
+    - name: BASTIODON_57
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -39}
+        - {x: 45, y: -4}
+        - {x: 18, y: 40}
+        - {x: -29, y: 40}
+        - {x: -35, y: 32}
+        - {x: -45, y: -2}
+        - {x: -45, y: -15}
+        - {x: -34, y: -40}
+        - {x: 42, y: -40}
+    - name: BASTIODON_58
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -39}
+        - {x: 45, y: -4}
+        - {x: 18, y: 40}
+        - {x: -29, y: 40}
+        - {x: -35, y: 32}
+        - {x: -45, y: -2}
+        - {x: -45, y: -15}
+        - {x: -34, y: -40}
+        - {x: 42, y: -40}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

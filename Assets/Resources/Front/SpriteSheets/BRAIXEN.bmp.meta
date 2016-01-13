@@ -1,0 +1,1107 @@
+fileFormatVersion: 2
+guid: 9b91ed5155b1ef746942b5e07b5b008a
+timeCreated: 1452712589
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BRAIXEN_0
+    21300002: BRAIXEN_1
+    21300004: BRAIXEN_2
+    21300006: BRAIXEN_3
+    21300008: BRAIXEN_4
+    21300010: BRAIXEN_5
+    21300012: BRAIXEN_6
+    21300014: BRAIXEN_7
+    21300016: BRAIXEN_8
+    21300018: BRAIXEN_9
+    21300020: BRAIXEN_10
+    21300022: BRAIXEN_11
+    21300024: BRAIXEN_12
+    21300026: BRAIXEN_13
+    21300028: BRAIXEN_14
+    21300030: BRAIXEN_15
+    21300032: BRAIXEN_16
+    21300034: BRAIXEN_17
+    21300036: BRAIXEN_18
+    21300038: BRAIXEN_19
+    21300040: BRAIXEN_20
+    21300042: BRAIXEN_21
+    21300044: BRAIXEN_22
+    21300046: BRAIXEN_23
+    21300048: BRAIXEN_24
+    21300050: BRAIXEN_25
+    21300052: BRAIXEN_26
+    21300054: BRAIXEN_27
+    21300056: BRAIXEN_28
+    21300058: BRAIXEN_29
+    21300060: BRAIXEN_30
+    21300062: BRAIXEN_31
+    21300064: BRAIXEN_32
+    21300066: BRAIXEN_33
+    21300068: BRAIXEN_34
+    21300070: BRAIXEN_35
+    21300072: BRAIXEN_36
+    21300074: BRAIXEN_37
+    21300076: BRAIXEN_38
+    21300078: BRAIXEN_39
+    21300080: BRAIXEN_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BRAIXEN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 43}
+        - {x: -26, y: 43}
+        - {x: -37, y: 41}
+        - {x: -37, y: -23}
+        - {x: -18, y: -43}
+        - {x: 29, y: -43}
+        - {x: 31, y: -42}
+        - {x: 37, y: -17}
+        - {x: 37, y: 38}
+    - name: BRAIXEN_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 516
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 12, y: -43}
+        - {x: 24, y: -37}
+        - {x: 37, y: 14}
+        - {x: 37, y: 43}
+        - {x: -24, y: 43}
+        - {x: -37, y: 36}
+        - {x: -37, y: 5}
+        - {x: -17, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 516
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 19, y: -43}
+        - {x: 37, y: -17}
+        - {x: 37, y: 43}
+        - {x: -21, y: 43}
+        - {x: -37, y: 35}
+        - {x: -37, y: 12}
+        - {x: -21, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 516
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 13, y: -43}
+        - {x: 26, y: -38}
+        - {x: 37, y: 14}
+        - {x: 37, y: 42}
+        - {x: 30, y: 43}
+        - {x: -28, y: 43}
+        - {x: -37, y: 38}
+        - {x: -37, y: 26}
+        - {x: -33, y: 16}
+        - {x: -26, y: -28}
+        - {x: -15, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 516
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 20, y: -43}
+        - {x: 24, y: -42}
+        - {x: 37, y: 22}
+        - {x: 37, y: 41}
+        - {x: 25, y: 43}
+        - {x: -29, y: 43}
+        - {x: -37, y: 36}
+        - {x: -37, y: 7}
+        - {x: -14, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 516
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 25, y: -43}
+        - {x: 37, y: 11}
+        - {x: 37, y: 40}
+        - {x: 22, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -12}
+        - {x: -17, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 516
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 14, y: -43}
+        - {x: 25, y: -39}
+        - {x: 37, y: -17}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -5}
+        - {x: -33, y: -23}
+        - {x: -13, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 29, y: -43}
+        - {x: 37, y: -28}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -12}
+        - {x: -31, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 430
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 33, y: -43}
+        - {x: 37, y: -20}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -33}
+        - {x: -35, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 430
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 15, y: -43}
+        - {x: 32, y: -37}
+        - {x: 37, y: -10}
+        - {x: 37, y: 41}
+        - {x: 24, y: 43}
+        - {x: 8, y: 43}
+        - {x: 3, y: 38}
+        - {x: 0, y: 34}
+        - {x: -10, y: 43}
+        - {x: -18, y: 43}
+        - {x: -37, y: 36}
+        - {x: -37, y: 22}
+        - {x: -36, y: 19}
+        - {x: -27, y: -20}
+        - {x: -14, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 430
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 26, y: -43}
+        - {x: 37, y: -18}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: 5}
+        - {x: -20, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 430
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 14, y: -43}
+        - {x: 30, y: -34}
+        - {x: 37, y: 9}
+        - {x: 37, y: 38}
+        - {x: 33, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -5}
+        - {x: -22, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 430
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 24, y: -43}
+        - {x: 36, y: -2}
+        - {x: 37, y: 1}
+        - {x: 37, y: 43}
+        - {x: -36, y: 43}
+        - {x: -37, y: 42}
+        - {x: -37, y: -8}
+        - {x: -18, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 430
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 36, y: -43}
+        - {x: 37, y: -40}
+        - {x: 37, y: 43}
+        - {x: -31, y: 43}
+        - {x: -37, y: 40}
+        - {x: -37, y: -3}
+        - {x: -18, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 15, y: -43}
+        - {x: 33, y: -36}
+        - {x: 37, y: -13}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: 11}
+        - {x: -26, y: -16}
+        - {x: -14, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 344
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 14, y: -43}
+        - {x: 30, y: -35}
+        - {x: 37, y: -9}
+        - {x: 37, y: 40}
+        - {x: 31, y: 43}
+        - {x: -16, y: 43}
+        - {x: -37, y: 36}
+        - {x: -37, y: 12}
+        - {x: -15, y: -43}
+        - {x: 0, y: -43}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 344
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 17, y: -43}
+        - {x: 34, y: -39}
+        - {x: 37, y: -30}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: 16}
+        - {x: -19, y: -43}
+        - {x: 0, y: -43}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 344
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 12, y: -43}
+        - {x: 26, y: -35}
+        - {x: 37, y: 4}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -29}
+        - {x: -16, y: -43}
+        - {x: 0, y: -43}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 344
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 12, y: -43}
+        - {x: 26, y: -35}
+        - {x: 37, y: 7}
+        - {x: 37, y: 43}
+        - {x: -32, y: 43}
+        - {x: -37, y: 40}
+        - {x: -37, y: 4}
+        - {x: -14, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 344
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 26, y: -43}
+        - {x: 37, y: -23}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -18}
+        - {x: -14, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 344
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 12, y: -43}
+        - {x: 23, y: -35}
+        - {x: 37, y: 4}
+        - {x: 37, y: 41}
+        - {x: 35, y: 43}
+        - {x: -32, y: 43}
+        - {x: -37, y: 38}
+        - {x: -37, y: -11}
+        - {x: -18, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 13, y: -43}
+        - {x: 26, y: -38}
+        - {x: 37, y: -6}
+        - {x: 37, y: 38}
+        - {x: 26, y: 43}
+        - {x: -22, y: 43}
+        - {x: -37, y: 35}
+        - {x: -37, y: 21}
+        - {x: -22, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 258
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 27, y: -43}
+        - {x: 37, y: -29}
+        - {x: 37, y: 43}
+        - {x: -27, y: 43}
+        - {x: -37, y: 35}
+        - {x: -37, y: 5}
+        - {x: -32, y: -11}
+        - {x: -17, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 258
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 12, y: -43}
+        - {x: 20, y: -35}
+        - {x: 26, y: -15}
+        - {x: 37, y: 4}
+        - {x: 37, y: 42}
+        - {x: 36, y: 43}
+        - {x: -28, y: 43}
+        - {x: -37, y: 38}
+        - {x: -37, y: 11}
+        - {x: -15, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 258
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 30, y: -43}
+        - {x: 37, y: -25}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -27}
+        - {x: -15, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_25
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 258
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -43}
+        - {x: 25, y: -43}
+        - {x: 37, y: -23}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: 8}
+        - {x: -18, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+        - {x: 0, y: -40}
+    - name: BRAIXEN_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 258
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 30, y: -43}
+        - {x: 37, y: -28}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: 4}
+        - {x: -26, y: -25}
+        - {x: -13, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -36}
+        - {x: 1, y: -35}
+    - name: BRAIXEN_27
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 258
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 12, y: -43}
+        - {x: 23, y: -38}
+        - {x: 37, y: 0}
+        - {x: 37, y: 42}
+        - {x: 35, y: 43}
+        - {x: -23, y: 43}
+        - {x: -37, y: 39}
+        - {x: -37, y: 7}
+        - {x: -20, y: -43}
+        - {x: -2, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 12, y: -43}
+        - {x: 21, y: -36}
+        - {x: 37, y: 4}
+        - {x: 37, y: 41}
+        - {x: 33, y: 43}
+        - {x: -26, y: 43}
+        - {x: -37, y: 38}
+        - {x: -37, y: 10}
+        - {x: -24, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -41}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 172
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 43}
+        - {x: -37, y: 36}
+        - {x: -37, y: 7}
+        - {x: -13, y: -43}
+        - {x: 12, y: -43}
+        - {x: 22, y: -36}
+        - {x: 37, y: 20}
+        - {x: 37, y: 43}
+    - name: BRAIXEN_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 172
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 14, y: -43}
+        - {x: 29, y: -40}
+        - {x: 37, y: -17}
+        - {x: 37, y: 43}
+        - {x: -33, y: 43}
+        - {x: -37, y: 39}
+        - {x: -37, y: 8}
+        - {x: -14, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 172
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -35}
+        - {x: 0, y: -43}
+        - {x: 11, y: -43}
+        - {x: 20, y: -34}
+        - {x: 37, y: 21}
+        - {x: 37, y: 42}
+        - {x: 36, y: 43}
+        - {x: -32, y: 43}
+        - {x: -37, y: 39}
+        - {x: -37, y: 2}
+        - {x: -16, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 1, y: -36}
+        - {x: 1, y: -33}
+    - name: BRAIXEN_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 172
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -35}
+        - {x: 0, y: -43}
+        - {x: 12, y: -43}
+        - {x: 32, y: -15}
+        - {x: 37, y: 15}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: 5}
+        - {x: -13, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 1, y: -36}
+        - {x: 1, y: -33}
+    - name: BRAIXEN_33
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 172
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -35}
+        - {x: 0, y: -43}
+        - {x: 12, y: -43}
+        - {x: 24, y: -37}
+        - {x: 37, y: -4}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -6}
+        - {x: -32, y: -19}
+        - {x: -13, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 1, y: -36}
+        - {x: 1, y: -33}
+    - name: BRAIXEN_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 172
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -33}
+        - {x: 1, y: -35}
+        - {x: 0, y: -43}
+        - {x: 14, y: -43}
+        - {x: 27, y: -19}
+        - {x: 37, y: 25}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -10}
+        - {x: -35, y: -16}
+        - {x: -13, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+    - name: BRAIXEN_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -35}
+        - {x: 0, y: -43}
+        - {x: 17, y: -43}
+        - {x: 37, y: -8}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -18}
+        - {x: -19, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 2, y: -33}
+    - name: BRAIXEN_36
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 86
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -33}
+        - {x: 1, y: -35}
+        - {x: 0, y: -43}
+        - {x: 24, y: -43}
+        - {x: 37, y: -42}
+        - {x: 37, y: 43}
+        - {x: -34, y: 43}
+        - {x: -37, y: 42}
+        - {x: -37, y: 24}
+        - {x: -28, y: 13}
+        - {x: -25, y: -18}
+        - {x: -12, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+    - name: BRAIXEN_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 86
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -43}
+        - {x: 26, y: -43}
+        - {x: 37, y: -13}
+        - {x: 37, y: 41}
+        - {x: 33, y: 43}
+        - {x: -30, y: 43}
+        - {x: -37, y: 38}
+        - {x: -37, y: 3}
+        - {x: -27, y: -19}
+        - {x: -12, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+    - name: BRAIXEN_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 86
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 11, y: -43}
+        - {x: 20, y: -34}
+        - {x: 37, y: 0}
+        - {x: 37, y: 43}
+        - {x: -29, y: 43}
+        - {x: -37, y: 39}
+        - {x: -37, y: 25}
+        - {x: -35, y: 21}
+        - {x: -27, y: 15}
+        - {x: -22, y: -16}
+        - {x: -14, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 86
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 26, y: -43}
+        - {x: 37, y: -13}
+        - {x: 37, y: 43}
+        - {x: -30, y: 43}
+        - {x: -37, y: 38}
+        - {x: -37, y: 4}
+        - {x: -15, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    - name: BRAIXEN_40
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 86
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -40}
+        - {x: 0, y: -43}
+        - {x: 20, y: -43}
+        - {x: 37, y: -16}
+        - {x: 37, y: 43}
+        - {x: -37, y: 43}
+        - {x: -37, y: -22}
+        - {x: -33, y: -43}
+        - {x: -1, y: -43}
+        - {x: 0, y: -40}
+        - {x: 0, y: -37}
+        - {x: 1, y: -36}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1329 @@
+fileFormatVersion: 2
+guid: c5e1624ef3147044496c7ec084cbc7f4
+timeCreated: 1452636682
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ARCHEN_0
+    21300002: ARCHEN_1
+    21300004: ARCHEN_2
+    21300006: ARCHEN_3
+    21300008: ARCHEN_4
+    21300010: ARCHEN_5
+    21300012: ARCHEN_6
+    21300014: ARCHEN_7
+    21300016: ARCHEN_8
+    21300018: ARCHEN_9
+    21300020: ARCHEN_10
+    21300022: ARCHEN_11
+    21300024: ARCHEN_12
+    21300026: ARCHEN_13
+    21300028: ARCHEN_14
+    21300030: ARCHEN_15
+    21300032: ARCHEN_16
+    21300034: ARCHEN_17
+    21300036: ARCHEN_18
+    21300038: ARCHEN_19
+    21300040: ARCHEN_20
+    21300042: ARCHEN_21
+    21300044: ARCHEN_22
+    21300046: ARCHEN_23
+    21300048: ARCHEN_24
+    21300050: ARCHEN_25
+    21300052: ARCHEN_26
+    21300054: ARCHEN_27
+    21300056: ARCHEN_28
+    21300058: ARCHEN_29
+    21300060: ARCHEN_30
+    21300062: ARCHEN_31
+    21300064: ARCHEN_32
+    21300066: ARCHEN_33
+    21300068: ARCHEN_34
+    21300070: ARCHEN_35
+    21300072: ARCHEN_36
+    21300074: ARCHEN_37
+    21300076: ARCHEN_38
+    21300078: ARCHEN_39
+    21300080: ARCHEN_40
+    21300082: ARCHEN_41
+    21300084: ARCHEN_42
+    21300086: ARCHEN_43
+    21300088: ARCHEN_44
+    21300090: ARCHEN_45
+    21300092: ARCHEN_46
+    21300094: ARCHEN_47
+    21300096: ARCHEN_48
+    21300098: ARCHEN_49
+    21300100: ARCHEN_50
+    21300102: ARCHEN_51
+    21300104: ARCHEN_52
+    21300106: ARCHEN_53
+    21300108: ARCHEN_54
+    21300110: ARCHEN_55
+    21300112: ARCHEN_56
+    21300114: ARCHEN_57
+    21300116: ARCHEN_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ARCHEN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 364
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: -26}
+        - {x: 45, y: -26}
+        - {x: 51, y: -23}
+        - {x: 51, y: -11}
+        - {x: 18, y: 26}
+        - {x: -52, y: 26}
+        - {x: -52, y: -18}
+    - name: ARCHEN_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 364
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 25}
+        - {x: -52, y: 11}
+        - {x: -52, y: -12}
+        - {x: -28, y: -26}
+        - {x: 41, y: -26}
+        - {x: 49, y: -23}
+        - {x: 49, y: 7}
+        - {x: 28, y: 25}
+    - name: ARCHEN_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 364
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 25}
+        - {x: -29, y: 23}
+        - {x: -52, y: 4}
+        - {x: -52, y: -16}
+        - {x: -26, y: -26}
+        - {x: 41, y: -26}
+        - {x: 47, y: -25}
+        - {x: 47, y: -5}
+        - {x: 12, y: 25}
+    - name: ARCHEN_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 364
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25}
+        - {x: -23, y: 25}
+        - {x: -49, y: 15}
+        - {x: -52, y: 5}
+        - {x: -52, y: -12}
+        - {x: -48, y: -13}
+        - {x: -29, y: -26}
+        - {x: 45, y: -26}
+        - {x: 45, y: -12}
+        - {x: 26, y: 13}
+    - name: ARCHEN_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 364
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 25}
+        - {x: -24, y: 25}
+        - {x: -52, y: 7}
+        - {x: -52, y: -11}
+        - {x: -47, y: -15}
+        - {x: -40, y: -14}
+        - {x: -20, y: -26}
+        - {x: 44, y: -26}
+        - {x: 44, y: -2}
+        - {x: 43, y: 1}
+    - name: ARCHEN_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 364
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 5}
+        - {x: -51, y: -7}
+        - {x: -51, y: -9}
+        - {x: -46, y: -17}
+        - {x: -38, y: -26}
+        - {x: 43, y: -26}
+        - {x: 43, y: -14}
+        - {x: 39, y: 4}
+        - {x: 13, y: 26}
+        - {x: -18, y: 26}
+        - {x: -27, y: 17}
+    - name: ARCHEN_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 364
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 26}
+        - {x: -15, y: 26}
+        - {x: -50, y: -1}
+        - {x: -50, y: -26}
+        - {x: 42, y: -26}
+        - {x: 42, y: -13}
+        - {x: 27, y: 17}
+    - name: ARCHEN_7
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 364
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 26}
+        - {x: -12, y: 26}
+        - {x: -19, y: 24}
+        - {x: -49, y: -3}
+        - {x: -49, y: -17}
+        - {x: -21, y: -26}
+        - {x: 19, y: -26}
+        - {x: 41, y: -25}
+        - {x: 41, y: -5}
+        - {x: 34, y: 16}
+    - name: ARCHEN_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 26}
+        - {x: -38, y: 18}
+        - {x: -49, y: 2}
+        - {x: -49, y: -9}
+        - {x: -44, y: -14}
+        - {x: -33, y: -26}
+        - {x: 41, y: -26}
+        - {x: 41, y: 5}
+        - {x: 22, y: 26}
+    - name: ARCHEN_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 312
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: -22}
+        - {x: -43, y: -26}
+        - {x: 20, y: -26}
+        - {x: 41, y: -17}
+        - {x: 41, y: 0}
+        - {x: 37, y: 25}
+        - {x: 31, y: 26}
+        - {x: -30, y: 26}
+        - {x: -48, y: 13}
+    - name: ARCHEN_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 312
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 1}
+        - {x: -48, y: -3}
+        - {x: -43, y: -10}
+        - {x: -29, y: -26}
+        - {x: 19, y: -26}
+        - {x: 41, y: -21}
+        - {x: 41, y: 6}
+        - {x: 36, y: 16}
+        - {x: 9, y: 26}
+        - {x: -15, y: 26}
+        - {x: -43, y: 5}
+    - name: ARCHEN_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 312
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -8}
+        - {x: 41, y: 2}
+        - {x: 34, y: 18}
+        - {x: 7, y: 26}
+        - {x: -22, y: 26}
+        - {x: -43, y: 9}
+        - {x: -47, y: 1}
+        - {x: -47, y: -2}
+        - {x: -42, y: -7}
+        - {x: -24, y: -26}
+        - {x: 6, y: -26}
+        - {x: 18, y: -10}
+        - {x: 18, y: -8}
+    - name: ARCHEN_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 312
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -9}
+        - {x: -32, y: -26}
+        - {x: 12, y: -26}
+        - {x: 41, y: -16}
+        - {x: 41, y: 26}
+        - {x: -43, y: 26}
+        - {x: -47, y: 25}
+    - name: ARCHEN_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 312
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -46, y: 6}
+        - {x: -46, y: 1}
+        - {x: -42, y: -4}
+        - {x: -19, y: -26}
+        - {x: 7, y: -26}
+        - {x: 41, y: -4}
+        - {x: 41, y: 24}
+        - {x: 20, y: 26}
+    - name: ARCHEN_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 312
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 26}
+        - {x: -25, y: 26}
+        - {x: -46, y: 17}
+        - {x: -46, y: 2}
+        - {x: -41, y: -4}
+        - {x: -24, y: -3}
+        - {x: -19, y: -2}
+        - {x: -20, y: -24}
+        - {x: -19, y: -26}
+        - {x: 7, y: -26}
+        - {x: 40, y: 0}
+        - {x: 40, y: 16}
+        - {x: 36, y: 21}
+    - name: ARCHEN_15
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 312
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 26}
+        - {x: -46, y: 8}
+        - {x: -46, y: 0}
+        - {x: -20, y: -26}
+        - {x: 11, y: -26}
+        - {x: 41, y: 0}
+        - {x: 41, y: 22}
+        - {x: 11, y: 26}
+    - name: ARCHEN_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 19}
+        - {x: -3, y: 26}
+        - {x: -15, y: 26}
+        - {x: -24, y: 22}
+        - {x: -43, y: 7}
+        - {x: -46, y: 4}
+        - {x: -46, y: -5}
+        - {x: -44, y: -16}
+        - {x: -20, y: -26}
+        - {x: 23, y: -26}
+        - {x: 42, y: -4}
+        - {x: 43, y: 2}
+        - {x: 43, y: 17}
+    - name: ARCHEN_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 260
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 25}
+        - {x: -15, y: 25}
+        - {x: -26, y: 22}
+        - {x: -45, y: 6}
+        - {x: -45, y: -17}
+        - {x: -21, y: -26}
+        - {x: 23, y: -26}
+        - {x: 43, y: -6}
+        - {x: 44, y: 2}
+        - {x: 44, y: 20}
+    - name: ARCHEN_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 260
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 25}
+        - {x: -45, y: -16}
+        - {x: -34, y: -26}
+        - {x: 10, y: -26}
+        - {x: 24, y: -22}
+        - {x: 46, y: 4}
+        - {x: 46, y: 25}
+    - name: ARCHEN_19
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 260
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 25}
+        - {x: -44, y: 3}
+        - {x: -44, y: -14}
+        - {x: -23, y: -26}
+        - {x: 28, y: -26}
+        - {x: 48, y: 0}
+        - {x: 48, y: 20}
+        - {x: 32, y: 25}
+    - name: ARCHEN_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 260
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 24}
+        - {x: -25, y: 21}
+        - {x: -44, y: -3}
+        - {x: -44, y: -6}
+        - {x: -38, y: -13}
+        - {x: -24, y: -13}
+        - {x: -18, y: -11}
+        - {x: -23, y: -26}
+        - {x: 27, y: -26}
+        - {x: 48, y: -21}
+        - {x: 49, y: -9}
+        - {x: 49, y: 20}
+        - {x: 18, y: 24}
+    - name: ARCHEN_21
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 260
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 24}
+        - {x: -15, y: 24}
+        - {x: -26, y: 21}
+        - {x: -44, y: -4}
+        - {x: -44, y: -12}
+        - {x: -40, y: -22}
+        - {x: -22, y: -26}
+        - {x: 19, y: -26}
+        - {x: 39, y: -9}
+        - {x: 50, y: 5}
+        - {x: 50, y: 14}
+    - name: ARCHEN_22
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 260
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 24}
+        - {x: -41, y: 13}
+        - {x: -44, y: 4}
+        - {x: -44, y: -17}
+        - {x: -34, y: -26}
+        - {x: 22, y: -26}
+        - {x: 43, y: -20}
+        - {x: 49, y: -8}
+        - {x: 49, y: 18}
+        - {x: 35, y: 24}
+    - name: ARCHEN_23
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 260
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 25}
+        - {x: -26, y: 25}
+        - {x: -43, y: -5}
+        - {x: -43, y: -21}
+        - {x: -32, y: -26}
+        - {x: 11, y: -26}
+        - {x: 43, y: -17}
+        - {x: 50, y: -1}
+        - {x: 50, y: 22}
+    - name: ARCHEN_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -39, y: 15}
+        - {x: -43, y: -2}
+        - {x: -43, y: -21}
+        - {x: -41, y: -26}
+        - {x: 48, y: -26}
+        - {x: 50, y: -3}
+        - {x: 50, y: 19}
+        - {x: 28, y: 25}
+    - name: ARCHEN_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 208
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 26}
+        - {x: -38, y: 13}
+        - {x: -43, y: -6}
+        - {x: -43, y: -15}
+        - {x: -36, y: -20}
+        - {x: -29, y: -18}
+        - {x: -24, y: -16}
+        - {x: -24, y: -26}
+        - {x: 30, y: -26}
+        - {x: 44, y: -23}
+        - {x: 51, y: -7}
+        - {x: 51, y: 24}
+        - {x: 45, y: 26}
+    - name: ARCHEN_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 26}
+        - {x: -33, y: 26}
+        - {x: -42, y: 2}
+        - {x: -42, y: -19}
+        - {x: -21, y: -26}
+        - {x: 24, y: -26}
+        - {x: 46, y: -7}
+        - {x: 49, y: 4}
+        - {x: 49, y: 22}
+    - name: ARCHEN_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 208
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 26}
+        - {x: -20, y: 26}
+        - {x: -38, y: 17}
+        - {x: -42, y: 0}
+        - {x: -42, y: -26}
+        - {x: 49, y: -26}
+        - {x: 49, y: 17}
+        - {x: 29, y: 20}
+    - name: ARCHEN_28
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 208
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 26}
+        - {x: -42, y: 7}
+        - {x: -42, y: -23}
+        - {x: -38, y: -26}
+        - {x: 11, y: -26}
+        - {x: 40, y: -16}
+        - {x: 48, y: 12}
+        - {x: 48, y: 26}
+    - name: ARCHEN_29
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 208
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 26}
+        - {x: -35, y: 21}
+        - {x: -43, y: 7}
+        - {x: -43, y: -21}
+        - {x: -39, y: -26}
+        - {x: 18, y: -26}
+        - {x: 47, y: -17}
+        - {x: 47, y: 24}
+        - {x: 38, y: 26}
+    - name: ARCHEN_30
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 208
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -1}
+        - {x: 46, y: 13}
+        - {x: 46, y: 25}
+        - {x: 41, y: 26}
+        - {x: -27, y: 26}
+        - {x: -43, y: 4}
+        - {x: -43, y: -9}
+        - {x: -36, y: -12}
+        - {x: -25, y: -26}
+        - {x: 6, y: -26}
+        - {x: 17, y: -11}
+        - {x: 17, y: -7}
+        - {x: 36, y: -7}
+    - name: ARCHEN_31
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 208
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 24}
+        - {x: 31, y: 26}
+        - {x: -22, y: 26}
+        - {x: -32, y: 18}
+        - {x: -43, y: 2}
+        - {x: -43, y: -4}
+        - {x: -37, y: -8}
+        - {x: -23, y: -6}
+        - {x: -20, y: -24}
+        - {x: -19, y: -26}
+        - {x: 7, y: -26}
+        - {x: 39, y: -1}
+        - {x: 44, y: 17}
+        - {x: 44, y: 22}
+    - name: ARCHEN_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 26}
+        - {x: -38, y: 24}
+        - {x: -43, y: 14}
+        - {x: -43, y: -11}
+        - {x: -33, y: -26}
+        - {x: 18, y: -26}
+        - {x: 43, y: -17}
+        - {x: 43, y: 26}
+    - name: ARCHEN_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 156
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: 6, y: 13}
+        - {x: 4, y: 9}
+        - {x: 5, y: 9}
+        - {x: 4, y: 10}
+        - {x: 5, y: 11}
+        - {x: 5, y: 22}
+        - {x: -1, y: 26}
+        - {x: -23, y: 26}
+        - {x: -43, y: 16}
+        - {x: -43, y: -9}
+        - {x: -32, y: -26}
+        - {x: 7, y: -26}
+        - {x: 44, y: 2}
+        - {x: 44, y: 20}
+        - {x: 41, y: 25}
+    - name: ARCHEN_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 156
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 26}
+        - {x: -27, y: 26}
+        - {x: -44, y: 13}
+        - {x: -44, y: -2}
+        - {x: -22, y: -26}
+        - {x: 17, y: -26}
+        - {x: 45, y: -3}
+        - {x: 45, y: 24}
+    - name: ARCHEN_35
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 156
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: -8}
+        - {x: -35, y: -26}
+        - {x: 12, y: -26}
+        - {x: 46, y: -11}
+        - {x: 46, y: 22}
+        - {x: 45, y: 24}
+        - {x: 28, y: 26}
+        - {x: -27, y: 26}
+        - {x: -45, y: 16}
+    - name: ARCHEN_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 156
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 26}
+        - {x: -27, y: 26}
+        - {x: -46, y: 12}
+        - {x: -46, y: 4}
+        - {x: -40, y: -2}
+        - {x: -20, y: -26}
+        - {x: 18, y: -26}
+        - {x: 47, y: 2}
+        - {x: 47, y: 17}
+        - {x: 40, y: 22}
+    - name: ARCHEN_37
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 156
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 26}
+        - {x: -33, y: 26}
+        - {x: -47, y: 20}
+        - {x: -47, y: -6}
+        - {x: -31, y: -26}
+        - {x: 8, y: -26}
+        - {x: 48, y: 1}
+        - {x: 48, y: 8}
+        - {x: 38, y: 20}
+    - name: ARCHEN_38
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 156
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 26}
+        - {x: -22, y: 26}
+        - {x: -49, y: 12}
+        - {x: -49, y: -8}
+        - {x: -32, y: -26}
+        - {x: 9, y: -26}
+        - {x: 48, y: -5}
+        - {x: 48, y: 8}
+        - {x: 42, y: 19}
+    - name: ARCHEN_39
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 156
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 15}
+        - {x: 15, y: 26}
+        - {x: -19, y: 26}
+        - {x: -48, y: 8}
+        - {x: -50, y: 4}
+        - {x: -50, y: -3}
+        - {x: -46, y: -7}
+        - {x: -26, y: -26}
+        - {x: 10, y: -26}
+        - {x: 49, y: -7}
+        - {x: 49, y: 2}
+    - name: ARCHEN_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: -13}
+        - {x: -35, y: -26}
+        - {x: 20, y: -26}
+        - {x: 49, y: -18}
+        - {x: 49, y: 11}
+        - {x: 48, y: 13}
+        - {x: 27, y: 25}
+        - {x: -28, y: 25}
+        - {x: -52, y: 10}
+    - name: ARCHEN_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 25}
+        - {x: -29, y: 25}
+        - {x: -52, y: 8}
+        - {x: -52, y: -22}
+        - {x: -24, y: -26}
+        - {x: 27, y: -26}
+        - {x: 49, y: -20}
+        - {x: 49, y: 3}
+        - {x: 43, y: 20}
+    - name: ARCHEN_42
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 104
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: -26}
+        - {x: 48, y: -26}
+        - {x: 48, y: 12}
+        - {x: 45, y: 20}
+        - {x: 16, y: 25}
+        - {x: -29, y: 25}
+        - {x: -52, y: 5}
+    - name: ARCHEN_43
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 104
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 25}
+        - {x: -15, y: 25}
+        - {x: -51, y: -1}
+        - {x: -52, y: -4}
+        - {x: -52, y: -16}
+        - {x: -50, y: -18}
+        - {x: -39, y: -26}
+        - {x: 47, y: -26}
+        - {x: 47, y: -11}
+        - {x: 27, y: 20}
+    - name: ARCHEN_44
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 104
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 14}
+        - {x: -1, y: 25}
+        - {x: -17, y: 25}
+        - {x: -52, y: -2}
+        - {x: -52, y: -18}
+        - {x: -40, y: -26}
+        - {x: 47, y: -26}
+        - {x: 47, y: -13}
+        - {x: 35, y: -1}
+    - name: ARCHEN_45
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 104
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: -26}
+        - {x: 47, y: -26}
+        - {x: 47, y: 3}
+        - {x: 46, y: 4}
+        - {x: 14, y: 26}
+        - {x: -16, y: 26}
+        - {x: -52, y: -1}
+    - name: ARCHEN_46
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 104
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 17}
+        - {x: 0, y: 26}
+        - {x: -15, y: 26}
+        - {x: -42, y: 6}
+        - {x: -52, y: -3}
+        - {x: -52, y: -22}
+        - {x: -24, y: -26}
+        - {x: 29, y: -26}
+        - {x: 47, y: -21}
+        - {x: 47, y: -14}
+        - {x: 36, y: 2}
+    - name: ARCHEN_47
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 104
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 26}
+        - {x: -52, y: 1}
+        - {x: -52, y: -11}
+        - {x: -51, y: -13}
+        - {x: -46, y: -12}
+        - {x: -26, y: -26}
+        - {x: 26, y: -26}
+        - {x: 47, y: -20}
+        - {x: 47, y: 16}
+        - {x: 37, y: 26}
+    - name: ARCHEN_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 26}
+        - {x: -52, y: 3}
+        - {x: -52, y: -9}
+        - {x: -51, y: -11}
+        - {x: -31, y: -26}
+        - {x: 27, y: -26}
+        - {x: 48, y: -22}
+        - {x: 48, y: 8}
+        - {x: 17, y: 26}
+    - name: ARCHEN_49
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 52
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 26}
+        - {x: -52, y: 5}
+        - {x: -52, y: -8}
+        - {x: -46, y: -9}
+        - {x: -32, y: -26}
+        - {x: 13, y: -26}
+        - {x: 48, y: -16}
+        - {x: 48, y: -6}
+        - {x: 36, y: 7}
+        - {x: 8, y: 26}
+    - name: ARCHEN_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 52
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 26}
+        - {x: -21, y: 26}
+        - {x: -46, y: 11}
+        - {x: -52, y: 6}
+        - {x: -52, y: -12}
+        - {x: -41, y: -26}
+        - {x: 44, y: -26}
+        - {x: 50, y: -24}
+        - {x: 50, y: -2}
+        - {x: 18, y: 23}
+    - name: ARCHEN_51
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 52
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: -7}
+        - {x: -38, y: -26}
+        - {x: 35, y: -26}
+        - {x: 51, y: -21}
+        - {x: 51, y: 5}
+        - {x: 42, y: 15}
+        - {x: 16, y: 26}
+        - {x: -27, y: 26}
+        - {x: -52, y: 20}
+    - name: ARCHEN_52
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 52
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 26}
+        - {x: -52, y: -13}
+        - {x: -38, y: -26}
+        - {x: 10, y: -26}
+        - {x: 51, y: -8}
+        - {x: 52, y: -6}
+        - {x: 52, y: 26}
+    - name: ARCHEN_53
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 52
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52, y: 10}
+        - {x: 32, y: 26}
+        - {x: -24, y: 26}
+        - {x: -52, y: 17}
+        - {x: -52, y: 4}
+        - {x: -51, y: 2}
+        - {x: -19, y: -26}
+        - {x: 6, y: -26}
+        - {x: 16, y: -11}
+        - {x: 52, y: -5}
+    - name: ARCHEN_54
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 52
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 26}
+        - {x: -35, y: 26}
+        - {x: -52, y: 19}
+        - {x: -52, y: 5}
+        - {x: -24, y: -26}
+        - {x: 18, y: -26}
+        - {x: 52, y: -11}
+        - {x: 52, y: 15}
+    - name: ARCHEN_55
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 52
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 26}
+        - {x: -42, y: 26}
+        - {x: -52, y: 23}
+        - {x: -52, y: 3}
+        - {x: -19, y: -26}
+        - {x: 11, y: -26}
+        - {x: 52, y: -9}
+        - {x: 52, y: 5}
+        - {x: 46, y: 14}
+    - name: ARCHEN_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 26}
+        - {x: -52, y: 16}
+        - {x: -52, y: 1}
+        - {x: -32, y: -26}
+        - {x: 17, y: -26}
+        - {x: 52, y: -15}
+        - {x: 52, y: 8}
+        - {x: 8, y: 26}
+    - name: ARCHEN_57
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 26}
+        - {x: -52, y: 21}
+        - {x: -52, y: 5}
+        - {x: -46, y: -1}
+        - {x: -29, y: -26}
+        - {x: 30, y: -26}
+        - {x: 52, y: -8}
+        - {x: 52, y: 9}
+        - {x: 18, y: 26}
+    - name: ARCHEN_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 26}
+        - {x: -52, y: 17}
+        - {x: -52, y: -7}
+        - {x: -32, y: -26}
+        - {x: 10, y: -26}
+        - {x: 52, y: -11}
+        - {x: 52, y: 6}
+        - {x: 11, y: 26}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

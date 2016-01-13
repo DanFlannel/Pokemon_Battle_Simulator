@@ -1,0 +1,1804 @@
+fileFormatVersion: 2
+guid: 6d6ff10cc4e29b848ba5ad281a0a3173
+timeCreated: 1452636796
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AVALUGG_0
+    21300002: AVALUGG_1
+    21300004: AVALUGG_2
+    21300006: AVALUGG_3
+    21300008: AVALUGG_4
+    21300010: AVALUGG_5
+    21300012: AVALUGG_6
+    21300014: AVALUGG_7
+    21300016: AVALUGG_8
+    21300018: AVALUGG_9
+    21300020: AVALUGG_10
+    21300022: AVALUGG_11
+    21300024: AVALUGG_12
+    21300026: AVALUGG_13
+    21300028: AVALUGG_14
+    21300030: AVALUGG_15
+    21300032: AVALUGG_16
+    21300034: AVALUGG_17
+    21300036: AVALUGG_18
+    21300038: AVALUGG_19
+    21300040: AVALUGG_20
+    21300042: AVALUGG_21
+    21300044: AVALUGG_22
+    21300046: AVALUGG_23
+    21300048: AVALUGG_24
+    21300050: AVALUGG_25
+    21300052: AVALUGG_26
+    21300054: AVALUGG_27
+    21300056: AVALUGG_28
+    21300058: AVALUGG_29
+    21300060: AVALUGG_30
+    21300062: AVALUGG_31
+    21300064: AVALUGG_32
+    21300066: AVALUGG_33
+    21300068: AVALUGG_34
+    21300070: AVALUGG_35
+    21300072: AVALUGG_36
+    21300074: AVALUGG_37
+    21300076: AVALUGG_38
+    21300078: AVALUGG_39
+    21300080: AVALUGG_40
+    21300082: AVALUGG_41
+    21300084: AVALUGG_42
+    21300086: AVALUGG_43
+    21300088: AVALUGG_44
+    21300090: AVALUGG_45
+    21300092: AVALUGG_46
+    21300094: AVALUGG_47
+    21300096: AVALUGG_48
+    21300098: AVALUGG_49
+    21300100: AVALUGG_50
+    21300102: AVALUGG_51
+    21300104: AVALUGG_52
+    21300106: AVALUGG_53
+    21300108: AVALUGG_54
+    21300110: AVALUGG_55
+    21300112: AVALUGG_56
+    21300114: AVALUGG_57
+    21300116: AVALUGG_58
+    21300118: AVALUGG_59
+    21300120: AVALUGG_60
+    21300122: AVALUGG_61
+    21300124: AVALUGG_62
+    21300126: AVALUGG_63
+    21300128: AVALUGG_64
+    21300130: AVALUGG_65
+    21300132: AVALUGG_66
+    21300134: AVALUGG_67
+    21300136: AVALUGG_68
+    21300138: AVALUGG_69
+    21300140: AVALUGG_70
+    21300142: AVALUGG_71
+    21300144: AVALUGG_72
+    21300146: AVALUGG_73
+    21300148: AVALUGG_74
+    21300150: AVALUGG_75
+    21300152: AVALUGG_76
+    21300154: AVALUGG_77
+    21300156: AVALUGG_78
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AVALUGG_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 0.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 13.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -19.5}
+        - {x: 35.5, y: -25.5}
+    - name: AVALUGG_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 456
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 56.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 7.5}
+        - {x: 56.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: -10.5}
+        - {x: -60.5, y: -25.5}
+        - {x: -57.5, y: -27.5}
+        - {x: -55.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -20.5}
+    - name: AVALUGG_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 456
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 44.5, y: -27.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 59.5, y: -28.5}
+        - {x: 60.5, y: -25.5}
+        - {x: 60.5, y: 20.5}
+        - {x: 59.5, y: 28.5}
+        - {x: -52.5, y: 28.5}
+        - {x: -60.5, y: 1.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 33.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -20.5}
+    - name: AVALUGG_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 456
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 44.5, y: -27.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 59.5, y: -28.5}
+        - {x: 60.5, y: -25.5}
+        - {x: 60.5, y: 1.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 2.5}
+        - {x: -60.5, y: -26.5}
+        - {x: -58.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -20.5}
+    - name: AVALUGG_4
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 456
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -28.5}
+        - {x: 53.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 3.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 3.5}
+        - {x: -60.5, y: -26.5}
+        - {x: -55.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_5
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 456
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 5.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 5.5}
+    - name: AVALUGG_6
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 456
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 28.5}
+        - {x: -55.5, y: 28.5}
+        - {x: -60.5, y: 2.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: 1.5}
+        - {x: 55.5, y: 27.5}
+    - name: AVALUGG_7
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 456
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 23.5}
+        - {x: 59.5, y: 28.5}
+        - {x: -59.5, y: 28.5}
+        - {x: -60.5, y: 21.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 33.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_8
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 456
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: -5.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -57.5, y: 28.5}
+        - {x: -60.5, y: 6.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: -5.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 5.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 399
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: -1.5}
+        - {x: 53.5, y: 26.5}
+        - {x: 52.5, y: 28.5}
+        - {x: -46.5, y: 28.5}
+        - {x: -53.5, y: 27.5}
+        - {x: -60.5, y: -4.5}
+        - {x: -60.5, y: -27.5}
+        - {x: -59.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 399
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 5.5}
+        - {x: 55.5, y: 28.5}
+        - {x: -54.5, y: 28.5}
+        - {x: -60.5, y: 0.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_12
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 399
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 1.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -60.5, y: 28.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 33.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_13
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 399
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 19.5}
+        - {x: 55.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 2.5}
+    - name: AVALUGG_14
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 399
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 28.5}
+        - {x: -49.5, y: 25.5}
+        - {x: -60.5, y: -13.5}
+        - {x: -60.5, y: -26.5}
+        - {x: -59.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: -1.5}
+        - {x: 54.5, y: 28.5}
+    - name: AVALUGG_15
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 399
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 20.5}
+        - {x: 55.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: 4.5}
+    - name: AVALUGG_16
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 399
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 28.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 19.5}
+        - {x: 56.5, y: 27.5}
+        - {x: 54.5, y: 28.5}
+    - name: AVALUGG_17
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 399
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 8.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 2.5}
+    - name: AVALUGG_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 2.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: -1.5}
+        - {x: 55.5, y: 27.5}
+    - name: AVALUGG_19
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 342
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 28.5}
+        - {x: -52.5, y: 27.5}
+        - {x: -60.5, y: 5.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 16.5}
+        - {x: 58.5, y: 28.5}
+    - name: AVALUGG_20
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 342
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 26.5}
+        - {x: 59.5, y: 28.5}
+        - {x: -53.5, y: 28.5}
+        - {x: -60.5, y: -10.5}
+    - name: AVALUGG_21
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 342
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 26.5}
+        - {x: 59.5, y: 28.5}
+        - {x: -53.5, y: 28.5}
+        - {x: -60.5, y: -10.5}
+    - name: AVALUGG_22
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 342
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 28.5}
+        - {x: -48.5, y: 25.5}
+        - {x: -57.5, y: -0.5}
+        - {x: -60.5, y: -10.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 12.5}
+        - {x: 57.5, y: 28.5}
+    - name: AVALUGG_23
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 342
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: 27.5}
+        - {x: 28.5, y: 28.5}
+        - {x: -43.5, y: 28.5}
+        - {x: -48.5, y: 25.5}
+        - {x: -47.5, y: 12.5}
+        - {x: -60.5, y: -3.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: -2.5}
+        - {x: 54.5, y: 26.5}
+    - name: AVALUGG_24
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 342
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: 4.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 2.5}
+        - {x: 56.5, y: 27.5}
+    - name: AVALUGG_25
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 342
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: 4.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 2.5}
+        - {x: 56.5, y: 27.5}
+    - name: AVALUGG_26
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 342
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: 4.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 2.5}
+        - {x: 56.5, y: 27.5}
+    - name: AVALUGG_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: 4.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 2.5}
+        - {x: 56.5, y: 27.5}
+    - name: AVALUGG_28
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 285
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 28.5}
+        - {x: -51.5, y: 27.5}
+        - {x: -60.5, y: 6.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: -6.5}
+        - {x: 53.5, y: 28.5}
+    - name: AVALUGG_29
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 285
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 28.5}
+        - {x: -51.5, y: 27.5}
+        - {x: -60.5, y: -0.5}
+        - {x: -60.5, y: -26.5}
+        - {x: -55.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 9.5}
+        - {x: 56.5, y: 28.5}
+    - name: AVALUGG_30
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 285
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: 2.5}
+        - {x: -60.5, y: -26.5}
+        - {x: -55.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 14.5}
+        - {x: 57.5, y: 28.5}
+    - name: AVALUGG_31
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 285
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -1.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 22.5}
+        - {x: 57.5, y: 28.5}
+        - {x: -45.5, y: 28.5}
+        - {x: -51.5, y: 27.5}
+    - name: AVALUGG_32
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 285
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 8.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: -1.5}
+        - {x: 55.5, y: 27.5}
+    - name: AVALUGG_33
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 285
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 10.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: 0.5}
+    - name: AVALUGG_34
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 285
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 1.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 10.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -50.5, y: 28.5}
+        - {x: -53.5, y: 26.5}
+    - name: AVALUGG_35
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 285
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 1.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 59.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 7.5}
+        - {x: 54.5, y: 28.5}
+    - name: AVALUGG_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -9.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 20.5}
+        - {x: 58.5, y: 28.5}
+        - {x: -47.5, y: 28.5}
+        - {x: -51.5, y: 26.5}
+    - name: AVALUGG_37
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 228
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 26.5}
+        - {x: -60.5, y: -5.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 17.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -45.5, y: 28.5}
+    - name: AVALUGG_38
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 228
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 15.5}
+        - {x: 55.5, y: 28.5}
+        - {x: -50.5, y: 28.5}
+        - {x: -60.5, y: 6.5}
+    - name: AVALUGG_39
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 228
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 28.5}
+        - {x: -50.5, y: 28.5}
+        - {x: -60.5, y: 7.5}
+        - {x: -60.5, y: -26.5}
+        - {x: -57.5, y: -28.5}
+        - {x: 59.5, y: -28.5}
+        - {x: 60.5, y: -25.5}
+        - {x: 60.5, y: 2.5}
+    - name: AVALUGG_40
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 228
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: -5.5}
+        - {x: -60.5, y: -27.5}
+        - {x: -58.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 28.5}
+    - name: AVALUGG_41
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 228
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 28.5}
+        - {x: -50.5, y: 27.5}
+        - {x: -60.5, y: -7.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: -5.5}
+        - {x: 53.5, y: 28.5}
+    - name: AVALUGG_42
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 228
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -26.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 59.5, y: -28.5}
+        - {x: 60.5, y: -25.5}
+        - {x: 60.5, y: 1.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 3.5}
+        - {x: -60.5, y: -26.5}
+        - {x: -55.5, y: -28.5}
+        - {x: -40.5, y: -28.5}
+        - {x: -34.5, y: -27.5}
+        - {x: -31.5, y: -18.5}
+        - {x: -13.5, y: -26.5}
+        - {x: -7.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -19.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_43
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 228
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -26.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 59.5, y: -28.5}
+        - {x: 60.5, y: -25.5}
+        - {x: 60.5, y: 1.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: 2.5}
+        - {x: -60.5, y: -28.5}
+        - {x: -42.5, y: -28.5}
+        - {x: -34.5, y: -27.5}
+        - {x: -31.5, y: -18.5}
+        - {x: -19.5, y: -25.5}
+        - {x: -7.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -19.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_44
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 228
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: -27.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 59.5, y: -28.5}
+        - {x: 60.5, y: -25.5}
+        - {x: 60.5, y: 1.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: -0.5}
+        - {x: -60.5, y: -26.5}
+        - {x: -58.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -19.5}
+        - {x: 37.5, y: -24.5}
+    - name: AVALUGG_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 19.5}
+        - {x: 55.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 9.5}
+    - name: AVALUGG_46
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 171
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: -0.5}
+    - name: AVALUGG_47
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 171
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 22.5}
+        - {x: 56.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: 1.5}
+    - name: AVALUGG_48
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 171
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -4.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 3.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -44.5, y: 28.5}
+        - {x: -49.5, y: 26.5}
+    - name: AVALUGG_49
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 171
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: 28.5}
+        - {x: -60.5, y: 2.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 8.5}
+        - {x: 57.5, y: 28.5}
+    - name: AVALUGG_50
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 171
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 14.5}
+        - {x: 55.5, y: 28.5}
+        - {x: -47.5, y: 28.5}
+        - {x: -60.5, y: 11.5}
+    - name: AVALUGG_51
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 171
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: -28.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: -5.5}
+        - {x: 53.5, y: 27.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -47.5, y: 28.5}
+        - {x: -60.5, y: 11.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -19.5}
+        - {x: 38.5, y: -28.5}
+    - name: AVALUGG_52
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 171
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -20.5}
+        - {x: 38.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: 0.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -51.5, y: 28.5}
+        - {x: -60.5, y: -7.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -21.5}
+        - {x: 33.5, y: -17.5}
+    - name: AVALUGG_53
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 171
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -20.5}
+        - {x: 41.5, y: -27.5}
+        - {x: 43.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 28.5}
+        - {x: -51.5, y: 28.5}
+        - {x: -60.5, y: -7.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 31.5, y: -28.5}
+        - {x: 36.5, y: -25.5}
+        - {x: 34.5, y: -21.5}
+        - {x: 33.5, y: -17.5}
+    - name: AVALUGG_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -20.5}
+        - {x: 41.5, y: -27.5}
+        - {x: 43.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 28.5}
+        - {x: -51.5, y: 28.5}
+        - {x: -60.5, y: -7.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 31.5, y: -28.5}
+        - {x: 36.5, y: -25.5}
+        - {x: 34.5, y: -21.5}
+        - {x: 33.5, y: -17.5}
+    - name: AVALUGG_55
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 114
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -28.5}
+        - {x: 50.5, y: -28.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: 1.5}
+        - {x: 53.5, y: 27.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -51.5, y: 28.5}
+        - {x: -60.5, y: -11.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 34.5, y: -28.5}
+        - {x: 34.5, y: -21.5}
+        - {x: 33.5, y: -17.5}
+        - {x: 34.5, y: -20.5}
+    - name: AVALUGG_56
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 114
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 28.5}
+        - {x: -60.5, y: 15.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 16.5}
+        - {x: 58.5, y: 28.5}
+    - name: AVALUGG_57
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 114
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -26.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 18.5}
+        - {x: 58.5, y: 28.5}
+        - {x: -45.5, y: 28.5}
+        - {x: -49.5, y: 26.5}
+        - {x: -60.5, y: -11.5}
+        - {x: -60.5, y: -25.5}
+        - {x: -57.5, y: -27.5}
+        - {x: -51.5, y: -28.5}
+        - {x: -41.5, y: -28.5}
+        - {x: -32.5, y: -23.5}
+        - {x: -21.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_58
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 114
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -26.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: -1.5}
+        - {x: 55.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -56.5, y: 13.5}
+        - {x: -60.5, y: -4.5}
+        - {x: -60.5, y: -28.5}
+        - {x: -41.5, y: -28.5}
+        - {x: -32.5, y: -23.5}
+        - {x: -21.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_59
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 114
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -27.5}
+        - {x: 43.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 28.5}
+        - {x: -48.5, y: 28.5}
+        - {x: -60.5, y: -8.5}
+        - {x: -60.5, y: -25.5}
+        - {x: -57.5, y: -27.5}
+        - {x: -53.5, y: -28.5}
+        - {x: 35.5, y: -28.5}
+        - {x: 34.5, y: -21.5}
+        - {x: 33.5, y: -17.5}
+        - {x: 34.5, y: -20.5}
+    - name: AVALUGG_60
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 114
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 3.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -44.5, y: 28.5}
+        - {x: -47.5, y: 25.5}
+        - {x: -45.5, y: 12.5}
+        - {x: -54.5, y: -0.5}
+        - {x: -59.5, y: -11.5}
+        - {x: -60.5, y: -14.5}
+        - {x: -60.5, y: -25.5}
+        - {x: -57.5, y: -27.5}
+        - {x: -51.5, y: -28.5}
+        - {x: -41.5, y: -28.5}
+        - {x: -32.5, y: -23.5}
+        - {x: -21.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_61
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 114
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: -2.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -51.5, y: 28.5}
+        - {x: -60.5, y: 12.5}
+        - {x: -60.5, y: -27.5}
+        - {x: -54.5, y: -28.5}
+        - {x: -38.5, y: -28.5}
+        - {x: -32.5, y: -23.5}
+        - {x: -21.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_62
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 114
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: -2.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -46.5, y: 28.5}
+        - {x: -49.5, y: 26.5}
+        - {x: -60.5, y: -9.5}
+        - {x: -60.5, y: -26.5}
+        - {x: -53.5, y: -28.5}
+        - {x: -42.5, y: -28.5}
+        - {x: -33.5, y: -23.5}
+        - {x: 1.5, y: -28.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: -2.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 2.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 31.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_64
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 57
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 28.5}
+        - {x: -60.5, y: 28.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 31.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_65
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 57
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 28.5}
+        - {x: -60.5, y: 28.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 31.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_66
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 57
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 28.5}
+        - {x: -60.5, y: 28.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 31.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_67
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 57
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: 28.5}
+        - {x: -60.5, y: 28.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 31.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_68
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 57
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 28.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 28.5}
+    - name: AVALUGG_69
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 57
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -26.5}
+        - {x: 44.5, y: -26.5}
+        - {x: 58.5, y: -27.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: -6.5}
+        - {x: 53.5, y: 27.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 12.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 35.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -19.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_70
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 57
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 28.5}
+        - {x: -46.5, y: 28.5}
+        - {x: -50.5, y: 27.5}
+        - {x: -60.5, y: 11.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: -8.5}
+        - {x: 53.5, y: 2.5}
+    - name: AVALUGG_71
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 57
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 28.5}
+        - {x: -49.5, y: 28.5}
+        - {x: -60.5, y: 13.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: -8.5}
+        - {x: 53.5, y: 2.5}
+    - name: AVALUGG_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: -3.5}
+        - {x: 53.5, y: 27.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -44.5, y: 28.5}
+        - {x: -48.5, y: 26.5}
+        - {x: -56.5, y: 5.5}
+        - {x: -60.5, y: -8.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 36.5, y: -26.5}
+        - {x: 34.5, y: -26.5}
+        - {x: 46.5, y: -28.5}
+    - name: AVALUGG_73
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: -1.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -53.5, y: 28.5}
+        - {x: -60.5, y: 0.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 36.5, y: -26.5}
+        - {x: 34.5, y: -26.5}
+        - {x: 46.5, y: -28.5}
+    - name: AVALUGG_74
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: -2.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -47.5, y: 28.5}
+        - {x: -48.5, y: 26.5}
+        - {x: -60.5, y: -6.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 36.5, y: -26.5}
+        - {x: 34.5, y: -26.5}
+        - {x: 46.5, y: -28.5}
+    - name: AVALUGG_75
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: -28.5}
+        - {x: 60.5, y: -27.5}
+        - {x: 60.5, y: -3.5}
+        - {x: 53.5, y: 27.5}
+        - {x: 53.5, y: 28.5}
+        - {x: -47.5, y: 28.5}
+        - {x: -60.5, y: 11.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 36.5, y: -26.5}
+        - {x: 34.5, y: -26.5}
+        - {x: 46.5, y: -28.5}
+    - name: AVALUGG_76
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -24.5}
+        - {x: 40.5, y: -28.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: 23.5}
+        - {x: 59.5, y: 28.5}
+        - {x: -47.5, y: 28.5}
+        - {x: -48.5, y: 26.5}
+        - {x: -60.5, y: -8.5}
+        - {x: -60.5, y: -27.5}
+        - {x: -56.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_77
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 0
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -26.5}
+        - {x: 55.5, y: -28.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 60.5, y: 0.5}
+        - {x: 55.5, y: 28.5}
+        - {x: -54.5, y: 28.5}
+        - {x: -60.5, y: 3.5}
+        - {x: -60.5, y: -28.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -19.5}
+        - {x: 35.5, y: -22.5}
+    - name: AVALUGG_78
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 121
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -25.5}
+        - {x: 49.5, y: -28.5}
+        - {x: 60.5, y: -28.5}
+        - {x: 60.5, y: 0.5}
+        - {x: 54.5, y: 28.5}
+        - {x: -50.5, y: 28.5}
+        - {x: -51.5, y: 27.5}
+        - {x: -60.5, y: -8.5}
+        - {x: -60.5, y: -28.5}
+        - {x: -43.5, y: -28.5}
+        - {x: -35.5, y: -26.5}
+        - {x: -32.5, y: -23.5}
+        - {x: -3.5, y: -28.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 34.5, y: -24.5}
+        - {x: 34.5, y: -19.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1511 @@
+fileFormatVersion: 2
+guid: 043ce6b9c0248a245a1f843463b5fcb5
+timeCreated: 1452711418
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BERGMITE_0
+    21300002: BERGMITE_1
+    21300004: BERGMITE_2
+    21300006: BERGMITE_3
+    21300008: BERGMITE_4
+    21300010: BERGMITE_5
+    21300012: BERGMITE_6
+    21300014: BERGMITE_7
+    21300016: BERGMITE_8
+    21300018: BERGMITE_9
+    21300020: BERGMITE_10
+    21300022: BERGMITE_11
+    21300024: BERGMITE_12
+    21300026: BERGMITE_13
+    21300028: BERGMITE_14
+    21300030: BERGMITE_15
+    21300032: BERGMITE_16
+    21300034: BERGMITE_17
+    21300036: BERGMITE_18
+    21300038: BERGMITE_19
+    21300040: BERGMITE_20
+    21300042: BERGMITE_21
+    21300044: BERGMITE_22
+    21300046: BERGMITE_23
+    21300048: BERGMITE_24
+    21300050: BERGMITE_25
+    21300052: BERGMITE_26
+    21300054: BERGMITE_27
+    21300056: BERGMITE_28
+    21300058: BERGMITE_29
+    21300060: BERGMITE_30
+    21300062: BERGMITE_31
+    21300064: BERGMITE_32
+    21300066: BERGMITE_33
+    21300068: BERGMITE_34
+    21300070: BERGMITE_35
+    21300072: BERGMITE_36
+    21300074: BERGMITE_37
+    21300076: BERGMITE_38
+    21300078: BERGMITE_39
+    21300080: BERGMITE_40
+    21300082: BERGMITE_41
+    21300084: BERGMITE_42
+    21300086: BERGMITE_43
+    21300088: BERGMITE_44
+    21300090: BERGMITE_45
+    21300092: BERGMITE_46
+    21300094: BERGMITE_47
+    21300096: BERGMITE_48
+    21300098: BERGMITE_49
+    21300100: BERGMITE_50
+    21300102: BERGMITE_51
+    21300104: BERGMITE_52
+    21300106: BERGMITE_53
+    21300108: BERGMITE_54
+    21300110: BERGMITE_55
+    21300112: BERGMITE_56
+    21300114: BERGMITE_57
+    21300116: BERGMITE_58
+    21300118: BERGMITE_59
+    21300120: BERGMITE_60
+    21300122: BERGMITE_61
+    21300124: BERGMITE_62
+    21300126: BERGMITE_63
+    21300128: BERGMITE_64
+    21300130: BERGMITE_65
+    21300132: BERGMITE_66
+    21300134: BERGMITE_67
+    21300136: BERGMITE_68
+    21300138: BERGMITE_69
+    21300140: BERGMITE_70
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BERGMITE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -23}
+        - {x: 25, y: -2}
+        - {x: 6, y: 30}
+        - {x: -8, y: 30}
+        - {x: -25, y: 6}
+        - {x: -25, y: -28}
+        - {x: -21, y: -30}
+        - {x: 23, y: -30}
+    - name: BERGMITE_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 480
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 30}
+        - {x: -25, y: 1}
+        - {x: -25, y: -30}
+        - {x: 25, y: -30}
+        - {x: 25, y: -1}
+        - {x: 5, y: 30}
+    - name: BERGMITE_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 480
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 30}
+        - {x: -6, y: 30}
+        - {x: -25, y: 0}
+        - {x: -25, y: -21}
+        - {x: -18, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -24}
+        - {x: 25, y: 4}
+        - {x: 10, y: 26}
+    - name: BERGMITE_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 480
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 30}
+        - {x: -25, y: 1}
+        - {x: -25, y: -24}
+        - {x: -22, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -2}
+        - {x: 5, y: 30}
+    - name: BERGMITE_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 480
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -25, y: 2}
+        - {x: -25, y: -23}
+        - {x: -21, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -2}
+        - {x: 5, y: 30}
+    - name: BERGMITE_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 480
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 30}
+        - {x: -25, y: 2}
+        - {x: -25, y: -26}
+        - {x: -18, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -28}
+        - {x: 25, y: -3}
+        - {x: 10, y: 30}
+    - name: BERGMITE_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 480
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 30}
+        - {x: -7, y: 30}
+        - {x: -25, y: 5}
+        - {x: -25, y: -21}
+        - {x: -18, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 11, y: 27}
+    - name: BERGMITE_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 480
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 30}
+        - {x: -6, y: 30}
+        - {x: -25, y: 0}
+        - {x: -25, y: -21}
+        - {x: -19, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: 1}
+        - {x: 13, y: 26}
+    - name: BERGMITE_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 30}
+        - {x: -9, y: 26}
+        - {x: -25, y: 14}
+        - {x: -25, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -20}
+        - {x: 25, y: -1}
+        - {x: 8, y: 30}
+    - name: BERGMITE_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 30}
+        - {x: -4, y: 30}
+        - {x: -25, y: -6}
+        - {x: -25, y: -18}
+        - {x: -17, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -24}
+        - {x: 25, y: 0}
+        - {x: 12, y: 25}
+    - name: BERGMITE_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 420
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 30}
+        - {x: -10, y: 21}
+        - {x: -23, y: 0}
+        - {x: -25, y: -5}
+        - {x: -25, y: -22}
+        - {x: -17, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -3}
+        - {x: 6, y: 30}
+    - name: BERGMITE_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 420
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 30}
+        - {x: -9, y: 20}
+        - {x: -23, y: 0}
+        - {x: -25, y: -5}
+        - {x: -25, y: -22}
+        - {x: -17, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -2}
+        - {x: 6, y: 30}
+    - name: BERGMITE_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 420
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 30}
+        - {x: -25, y: 0}
+        - {x: -25, y: -26}
+        - {x: -18, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -2}
+        - {x: 7, y: 30}
+    - name: BERGMITE_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 420
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -25, y: 3}
+        - {x: -25, y: -23}
+        - {x: -20, y: -30}
+        - {x: 19, y: -30}
+        - {x: 25, y: -20}
+        - {x: 25, y: -8}
+        - {x: 6, y: 30}
+    - name: BERGMITE_14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 420
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -25, y: 3}
+        - {x: -25, y: -23}
+        - {x: -20, y: -30}
+        - {x: 19, y: -30}
+        - {x: 25, y: -20}
+        - {x: 25, y: -8}
+        - {x: 6, y: 30}
+    - name: BERGMITE_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 420
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -25, y: 1}
+        - {x: -25, y: -24}
+        - {x: -21, y: -30}
+        - {x: 19, y: -30}
+        - {x: 25, y: -20}
+        - {x: 25, y: -9}
+        - {x: 7, y: 30}
+    - name: BERGMITE_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 420
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 30}
+        - {x: -1, y: 29}
+        - {x: -9, y: 19}
+        - {x: -25, y: -4}
+        - {x: -25, y: -21}
+        - {x: -21, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -2}
+        - {x: 6, y: 30}
+    - name: BERGMITE_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 420
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -25, y: 5}
+        - {x: -25, y: -25}
+        - {x: -21, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -2}
+        - {x: 6, y: 30}
+    - name: BERGMITE_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -25, y: -1}
+        - {x: -25, y: -21}
+        - {x: -19, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -4}
+        - {x: 6, y: 30}
+    - name: BERGMITE_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 360
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -25, y: -2}
+        - {x: -25, y: -21}
+        - {x: -19, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -3}
+        - {x: 7, y: 30}
+    - name: BERGMITE_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 360
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -25, y: -2}
+        - {x: -25, y: -21}
+        - {x: -19, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -20}
+        - {x: 25, y: -4}
+        - {x: 7, y: 30}
+    - name: BERGMITE_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 360
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 30}
+        - {x: -13, y: 22}
+        - {x: -25, y: -5}
+        - {x: -25, y: -19}
+        - {x: -24, y: -22}
+        - {x: -19, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -20}
+        - {x: 25, y: -3}
+        - {x: 10, y: 30}
+    - name: BERGMITE_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 360
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 30}
+        - {x: -1, y: 29}
+        - {x: -9, y: 19}
+        - {x: -25, y: -5}
+        - {x: -25, y: -20}
+        - {x: -20, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -20}
+        - {x: 25, y: -4}
+        - {x: 7, y: 30}
+    - name: BERGMITE_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 360
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 30}
+        - {x: -1, y: 29}
+        - {x: -9, y: 19}
+        - {x: -25, y: -5}
+        - {x: -25, y: -20}
+        - {x: -20, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -20}
+        - {x: 25, y: -4}
+        - {x: 7, y: 30}
+    - name: BERGMITE_24
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 360
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 30}
+        - {x: -3, y: 30}
+        - {x: -9, y: 19}
+        - {x: -25, y: -6}
+        - {x: -25, y: -19}
+        - {x: -24, y: -22}
+        - {x: -19, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 15, y: 24}
+    - name: BERGMITE_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 360
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 30}
+        - {x: -3, y: 30}
+        - {x: -9, y: 19}
+        - {x: -25, y: -6}
+        - {x: -25, y: -19}
+        - {x: -24, y: -22}
+        - {x: -19, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 15, y: 24}
+    - name: BERGMITE_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 360
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 30}
+        - {x: -3, y: 30}
+        - {x: -9, y: 19}
+        - {x: -25, y: -6}
+        - {x: -25, y: -19}
+        - {x: -24, y: -22}
+        - {x: -19, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 15, y: 24}
+    - name: BERGMITE_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -25, y: 1}
+        - {x: -25, y: -23}
+        - {x: -21, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -3}
+        - {x: 8, y: 30}
+    - name: BERGMITE_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 300
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -25, y: 1}
+        - {x: -25, y: -23}
+        - {x: -20, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -2}
+        - {x: 8, y: 30}
+    - name: BERGMITE_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 30}
+        - {x: -10, y: 20}
+        - {x: -25, y: -4}
+        - {x: -25, y: -21}
+        - {x: -21, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 6, y: 30}
+    - name: BERGMITE_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 300
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 30}
+        - {x: -10, y: 20}
+        - {x: -25, y: -4}
+        - {x: -25, y: -21}
+        - {x: -21, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 6, y: 30}
+    - name: BERGMITE_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -25, y: -1}
+        - {x: -25, y: -21}
+        - {x: -19, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: 0}
+        - {x: 8, y: 30}
+    - name: BERGMITE_32
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 300
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -17, y: 25}
+        - {x: -25, y: -2}
+        - {x: -25, y: -23}
+        - {x: -20, y: -30}
+        - {x: 20, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -5}
+        - {x: 11, y: 30}
+    - name: BERGMITE_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -17, y: 25}
+        - {x: -25, y: -2}
+        - {x: -25, y: -23}
+        - {x: -20, y: -30}
+        - {x: 20, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -5}
+        - {x: 11, y: 30}
+    - name: BERGMITE_34
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 300
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 30}
+        - {x: -25, y: 10}
+        - {x: -25, y: -22}
+        - {x: -22, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -24}
+        - {x: 25, y: 2}
+        - {x: 6, y: 30}
+    - name: BERGMITE_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 30}
+        - {x: -25, y: 9}
+        - {x: -25, y: -22}
+        - {x: -22, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 6, y: 30}
+    - name: BERGMITE_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 30}
+        - {x: -25, y: 9}
+        - {x: -25, y: -22}
+        - {x: -22, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 6, y: 30}
+    - name: BERGMITE_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 240
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 30}
+        - {x: -25, y: 3}
+        - {x: -25, y: -20}
+        - {x: -18, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: 0}
+        - {x: 8, y: 30}
+    - name: BERGMITE_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 240
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 30}
+        - {x: -25, y: 3}
+        - {x: -25, y: -20}
+        - {x: -18, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: 0}
+        - {x: 8, y: 30}
+    - name: BERGMITE_39
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 240
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 30}
+        - {x: -25, y: 7}
+        - {x: -25, y: -22}
+        - {x: -17, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 8, y: 30}
+    - name: BERGMITE_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 240
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 30}
+        - {x: -25, y: 6}
+        - {x: -25, y: -22}
+        - {x: -18, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -20}
+        - {x: 25, y: -3}
+        - {x: 6, y: 30}
+    - name: BERGMITE_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 240
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -25, y: 0}
+        - {x: -25, y: -20}
+        - {x: -17, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: 0}
+        - {x: 6, y: 30}
+    - name: BERGMITE_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 30}
+        - {x: -16, y: 26}
+        - {x: -25, y: -3}
+        - {x: -25, y: -23}
+        - {x: -17, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -24}
+        - {x: 25, y: 2}
+        - {x: 10, y: 30}
+    - name: BERGMITE_43
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 240
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -25, y: -2}
+        - {x: -25, y: -22}
+        - {x: -21, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -27}
+        - {x: 25, y: -4}
+        - {x: 11, y: 30}
+    - name: BERGMITE_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -25, y: 0}
+        - {x: -25, y: -21}
+        - {x: -21, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -26}
+        - {x: 25, y: -5}
+        - {x: 9, y: 30}
+    - name: BERGMITE_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -16, y: 24}
+        - {x: -25, y: 4}
+        - {x: -25, y: -20}
+        - {x: -21, y: -30}
+        - {x: 21, y: -30}
+        - {x: 25, y: -25}
+        - {x: 25, y: -5}
+        - {x: 12, y: 30}
+    - name: BERGMITE_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 180
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 30}
+        - {x: -13, y: 22}
+        - {x: -25, y: -7}
+        - {x: -25, y: -22}
+        - {x: -17, y: -30}
+        - {x: 20, y: -30}
+        - {x: 25, y: -23}
+        - {x: 25, y: 8}
+        - {x: 6, y: 30}
+    - name: BERGMITE_47
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 180
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 30}
+        - {x: -6, y: 30}
+        - {x: -25, y: -1}
+        - {x: -25, y: -20}
+        - {x: -19, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: -1}
+        - {x: 11, y: 26}
+    - name: BERGMITE_48
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 180
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 30}
+        - {x: -15, y: 24}
+        - {x: -25, y: -6}
+        - {x: -25, y: -22}
+        - {x: -20, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -1}
+        - {x: 9, y: 30}
+    - name: BERGMITE_49
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -11, y: 21}
+        - {x: -25, y: -1}
+        - {x: -25, y: -25}
+        - {x: -19, y: -30}
+        - {x: 25, y: -30}
+        - {x: 25, y: 1}
+        - {x: 4, y: 30}
+    - name: BERGMITE_50
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 180
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 30}
+        - {x: -13, y: 21}
+        - {x: -25, y: -5}
+        - {x: -25, y: -25}
+        - {x: -21, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -24}
+        - {x: 25, y: 1}
+        - {x: 6, y: 30}
+    - name: BERGMITE_51
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 180
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 30}
+        - {x: -2, y: 30}
+        - {x: -14, y: 22}
+        - {x: -25, y: -5}
+        - {x: -25, y: -24}
+        - {x: -19, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -23}
+        - {x: 25, y: -2}
+    - name: BERGMITE_52
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 180
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -17, y: 23}
+        - {x: -25, y: -5}
+        - {x: -25, y: -25}
+        - {x: -22, y: -30}
+        - {x: 25, y: -30}
+        - {x: 25, y: 0}
+        - {x: 10, y: 30}
+    - name: BERGMITE_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 180
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 30}
+        - {x: -25, y: 4}
+        - {x: -25, y: -28}
+        - {x: -24, y: -30}
+        - {x: 20, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -7}
+        - {x: 5, y: 30}
+    - name: BERGMITE_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 30}
+        - {x: -8, y: 30}
+        - {x: -25, y: 2}
+        - {x: -25, y: -26}
+        - {x: -22, y: -30}
+        - {x: 20, y: -30}
+        - {x: 25, y: -25}
+        - {x: 25, y: -5}
+        - {x: 10, y: 27}
+    - name: BERGMITE_55
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 120
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 30}
+        - {x: -25, y: -1}
+        - {x: -25, y: -21}
+        - {x: -18, y: -30}
+        - {x: 20, y: -30}
+        - {x: 25, y: -25}
+        - {x: 25, y: -7}
+        - {x: 5, y: 30}
+    - name: BERGMITE_56
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 120
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30}
+        - {x: -25, y: -1}
+        - {x: -25, y: -28}
+        - {x: -24, y: -30}
+        - {x: 25, y: -30}
+        - {x: 25, y: -2}
+        - {x: 4, y: 30}
+    - name: BERGMITE_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 120
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 30}
+        - {x: -5, y: 30}
+        - {x: -17, y: 22}
+        - {x: -25, y: -6}
+        - {x: -25, y: -22}
+        - {x: -18, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -21}
+        - {x: 25, y: -3}
+    - name: BERGMITE_58
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 120
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 30}
+        - {x: -13, y: 20}
+        - {x: -25, y: -7}
+        - {x: -25, y: -25}
+        - {x: -22, y: -30}
+        - {x: 25, y: -30}
+        - {x: 25, y: -3}
+        - {x: 4, y: 30}
+    - name: BERGMITE_59
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 120
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -23}
+        - {x: 25, y: -3}
+        - {x: 3, y: 30}
+        - {x: -4, y: 30}
+        - {x: -14, y: 20}
+        - {x: -25, y: -11}
+        - {x: -25, y: -21}
+        - {x: -18, y: -30}
+        - {x: 23, y: -30}
+    - name: BERGMITE_60
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 120
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -23}
+        - {x: 25, y: -3}
+        - {x: 3, y: 30}
+        - {x: -8, y: 30}
+        - {x: -25, y: 2}
+        - {x: -25, y: -20}
+        - {x: -18, y: -30}
+        - {x: 23, y: -30}
+    - name: BERGMITE_61
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 120
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 30}
+        - {x: -9, y: 30}
+        - {x: -25, y: 5}
+        - {x: -25, y: -23}
+        - {x: -22, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -23}
+        - {x: 25, y: -3}
+    - name: BERGMITE_62
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 120
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 30}
+        - {x: -25, y: 7}
+        - {x: -25, y: -25}
+        - {x: -23, y: -30}
+        - {x: 25, y: -30}
+        - {x: 25, y: -3}
+        - {x: 5, y: 30}
+    - name: BERGMITE_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 30}
+        - {x: -5, y: 30}
+        - {x: -18, y: 23}
+        - {x: -25, y: -5}
+        - {x: -25, y: -22}
+        - {x: -18, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -23}
+        - {x: 25, y: -1}
+    - name: BERGMITE_64
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 60
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 30}
+        - {x: -25, y: 2}
+        - {x: -25, y: -23}
+        - {x: -21, y: -30}
+        - {x: 25, y: -30}
+        - {x: 25, y: -3}
+        - {x: 5, y: 30}
+    - name: BERGMITE_65
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 60
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 30}
+        - {x: -3, y: 30}
+        - {x: -14, y: 20}
+        - {x: -25, y: -4}
+        - {x: -25, y: -20}
+        - {x: -19, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -23}
+        - {x: 25, y: -3}
+    - name: BERGMITE_66
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 60
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 30}
+        - {x: -9, y: 30}
+        - {x: -25, y: 1}
+        - {x: -25, y: -23}
+        - {x: -19, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -23}
+        - {x: 25, y: -3}
+    - name: BERGMITE_67
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 60
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 30}
+        - {x: -5, y: 30}
+        - {x: -25, y: 1}
+        - {x: -25, y: -24}
+        - {x: -22, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -23}
+        - {x: 25, y: -3}
+    - name: BERGMITE_68
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 60
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 30}
+        - {x: -8, y: 30}
+        - {x: -25, y: 3}
+        - {x: -25, y: -24}
+        - {x: -20, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -23}
+        - {x: 25, y: -3}
+    - name: BERGMITE_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 30}
+        - {x: -25, y: 1}
+        - {x: -25, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -25}
+        - {x: 25, y: 2}
+        - {x: 5, y: 30}
+    - name: BERGMITE_70
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 60
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 30}
+        - {x: -6, y: 30}
+        - {x: -25, y: 4}
+        - {x: -25, y: -30}
+        - {x: 23, y: -30}
+        - {x: 25, y: -23}
+        - {x: 25, y: -3}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1407 @@
+fileFormatVersion: 2
+guid: a9324eab2d8b7af469d6d582e597c4d2
+timeCreated: 1452656323
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ABOMASNOW-MEGA_0
+    21300002: ABOMASNOW-MEGA_1
+    21300004: ABOMASNOW-MEGA_2
+    21300006: ABOMASNOW-MEGA_3
+    21300008: ABOMASNOW-MEGA_4
+    21300010: ABOMASNOW-MEGA_5
+    21300012: ABOMASNOW-MEGA_6
+    21300014: ABOMASNOW-MEGA_7
+    21300016: ABOMASNOW-MEGA_8
+    21300018: ABOMASNOW-MEGA_9
+    21300020: ABOMASNOW-MEGA_10
+    21300022: ABOMASNOW-MEGA_11
+    21300024: ABOMASNOW-MEGA_12
+    21300026: ABOMASNOW-MEGA_13
+    21300028: ABOMASNOW-MEGA_14
+    21300030: ABOMASNOW-MEGA_15
+    21300032: ABOMASNOW-MEGA_16
+    21300034: ABOMASNOW-MEGA_17
+    21300036: ABOMASNOW-MEGA_18
+    21300038: ABOMASNOW-MEGA_19
+    21300040: ABOMASNOW-MEGA_20
+    21300042: ABOMASNOW-MEGA_21
+    21300044: ABOMASNOW-MEGA_22
+    21300046: ABOMASNOW-MEGA_23
+    21300048: ABOMASNOW-MEGA_24
+    21300050: ABOMASNOW-MEGA_25
+    21300052: ABOMASNOW-MEGA_26
+    21300054: ABOMASNOW-MEGA_27
+    21300056: ABOMASNOW-MEGA_28
+    21300058: ABOMASNOW-MEGA_29
+    21300060: ABOMASNOW-MEGA_30
+    21300062: ABOMASNOW-MEGA_31
+    21300064: ABOMASNOW-MEGA_32
+    21300066: ABOMASNOW-MEGA_33
+    21300068: ABOMASNOW-MEGA_34
+    21300070: ABOMASNOW-MEGA_35
+    21300072: ABOMASNOW-MEGA_36
+    21300074: ABOMASNOW-MEGA_37
+    21300076: ABOMASNOW-MEGA_38
+    21300078: ABOMASNOW-MEGA_39
+    21300080: ABOMASNOW-MEGA_40
+    21300082: ABOMASNOW-MEGA_41
+    21300084: ABOMASNOW-MEGA_42
+    21300086: ABOMASNOW-MEGA_43
+    21300088: ABOMASNOW-MEGA_44
+    21300090: ABOMASNOW-MEGA_45
+    21300092: ABOMASNOW-MEGA_46
+    21300094: ABOMASNOW-MEGA_47
+    21300096: ABOMASNOW-MEGA_48
+    21300098: ABOMASNOW-MEGA_49
+    21300100: ABOMASNOW-MEGA_50
+    21300102: ABOMASNOW-MEGA_51
+    21300104: ABOMASNOW-MEGA_52
+    21300106: ABOMASNOW-MEGA_53
+    21300108: ABOMASNOW-MEGA_54
+    21300110: ABOMASNOW-MEGA_55
+    21300112: ABOMASNOW-MEGA_56
+    21300114: ABOMASNOW-MEGA_57
+    21300116: ABOMASNOW-MEGA_58
+    21300118: ABOMASNOW-MEGA_59
+    21300120: ABOMASNOW-MEGA_60
+    21300122: ABOMASNOW-MEGA_61
+    21300124: ABOMASNOW-MEGA_62
+    21300126: ABOMASNOW-MEGA_63
+    21300128: ABOMASNOW-MEGA_64
+    21300130: ABOMASNOW-MEGA_65
+    21300132: ABOMASNOW-MEGA_66
+    21300134: ABOMASNOW-MEGA_67
+    21300136: ABOMASNOW-MEGA_68
+    21300138: ABOMASNOW-MEGA_69
+    21300140: ABOMASNOW-MEGA_70
+    21300142: ABOMASNOW-MEGA_71
+    21300144: ABOMASNOW-MEGA_72
+    21300146: ABOMASNOW-MEGA_73
+    21300148: ABOMASNOW-MEGA_74
+    21300150: ABOMASNOW-MEGA_75
+    21300152: ABOMASNOW-MEGA_76
+    21300154: ABOMASNOW-MEGA_77
+    21300156: ABOMASNOW-MEGA_78
+    21300158: ABOMASNOW-MEGA_79
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ABOMASNOW-MEGA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 55}
+        - {x: -56.5, y: 36}
+        - {x: -62.5, y: 9}
+        - {x: -62.5, y: -55}
+        - {x: 61.5, y: -55}
+        - {x: 62.5, y: -50}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 880
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 55}
+        - {x: -58.5, y: 35}
+        - {x: -62.5, y: -27}
+        - {x: -62.5, y: -55}
+        - {x: 60.5, y: -55}
+        - {x: 62.5, y: -23}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 880
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 55}
+        - {x: -49.5, y: 35}
+        - {x: -62.5, y: -30}
+        - {x: -62.5, y: -54}
+        - {x: -58.5, y: -55}
+        - {x: 60.5, y: -55}
+        - {x: 62.5, y: -29}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 880
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 55}
+        - {x: -52.5, y: 45}
+        - {x: -62.5, y: 5}
+        - {x: -62.5, y: -55}
+        - {x: 58.5, y: -55}
+        - {x: 62.5, y: -11}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 880
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 55}
+        - {x: -50.5, y: 43}
+        - {x: -62.5, y: -7}
+        - {x: -62.5, y: -55}
+        - {x: 60.5, y: -55}
+        - {x: 62.5, y: -53}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 880
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 55}
+        - {x: -62.5, y: 24}
+        - {x: -62.5, y: -55}
+        - {x: 56.5, y: -55}
+        - {x: 62.5, y: -41}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_6
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 880
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 8}
+        - {x: 62.5, y: 55}
+        - {x: -52.5, y: 55}
+        - {x: -62.5, y: 24}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 51.5, y: -50}
+        - {x: 53.5, y: -34}
+    - name: ABOMASNOW-MEGA_7
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 880
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 8}
+        - {x: 62.5, y: 55}
+        - {x: -42.5, y: 55}
+        - {x: -57.5, y: 35}
+        - {x: -62.5, y: -4}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 51.5, y: -50}
+        - {x: 53.5, y: -34}
+    - name: ABOMASNOW-MEGA_8
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 880
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 55}
+        - {x: -52.5, y: 55}
+        - {x: -62.5, y: 28}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 51.5, y: -50}
+        - {x: 53.5, y: -34}
+        - {x: 62.5, y: 8}
+    - name: ABOMASNOW-MEGA_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 13}
+        - {x: 62.5, y: 55}
+        - {x: -39.5, y: 55}
+        - {x: -48.5, y: 35}
+        - {x: -62.5, y: -24}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 51.5, y: -50}
+        - {x: 51.5, y: -33}
+        - {x: 50.5, y: -24}
+    - name: ABOMASNOW-MEGA_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 770
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 55}
+        - {x: -62.5, y: 9}
+        - {x: -62.5, y: -55}
+        - {x: 61.5, y: -55}
+        - {x: 62.5, y: -44}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 770
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 55}
+        - {x: -62.5, y: 25}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_12
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 770
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: -24}
+        - {x: 62.5, y: 18}
+        - {x: 62.5, y: 55}
+        - {x: -45.5, y: 55}
+        - {x: -55.5, y: 48}
+        - {x: -62.5, y: -1}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 51.5, y: -50}
+        - {x: 51.5, y: -33}
+    - name: ABOMASNOW-MEGA_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 770
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 55}
+        - {x: -50.5, y: 46}
+        - {x: -62.5, y: 10}
+        - {x: -62.5, y: -55}
+        - {x: 56.5, y: -55}
+        - {x: 62.5, y: -13}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_14
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 770
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 55}
+        - {x: -62.5, y: -4}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 770
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 55}
+        - {x: -53.5, y: 26}
+        - {x: -62.5, y: -4}
+        - {x: -62.5, y: -55}
+        - {x: 61.5, y: -55}
+        - {x: 62.5, y: -46}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_16
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 770
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 55}
+        - {x: -47.5, y: 35}
+        - {x: -45.5, y: 27}
+        - {x: -62.5, y: -18}
+        - {x: -62.5, y: -55}
+        - {x: 58.5, y: -55}
+        - {x: 62.5, y: -44}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 770
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 55}
+        - {x: -48.5, y: 46}
+        - {x: -62.5, y: -16}
+        - {x: -62.5, y: -55}
+        - {x: 55.5, y: -55}
+        - {x: 62.5, y: 2}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 55}
+        - {x: -62.5, y: 25}
+        - {x: -62.5, y: -55}
+        - {x: 56.5, y: -55}
+        - {x: 62.5, y: -1}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 660
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 55}
+        - {x: -50.5, y: 48}
+        - {x: -47.5, y: 35}
+        - {x: -62.5, y: -18}
+        - {x: -62.5, y: -55}
+        - {x: 58.5, y: -55}
+        - {x: 62.5, y: -3}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_20
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 660
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 55}
+        - {x: -62.5, y: -17}
+        - {x: -62.5, y: -55}
+        - {x: 54.5, y: -55}
+        - {x: 62.5, y: -14}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_21
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 660
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 55}
+        - {x: -33.5, y: 54}
+        - {x: -49.5, y: 35}
+        - {x: -62.5, y: -21}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 62.5, y: 14}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 660
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.5, y: 55}
+        - {x: -62.5, y: 30}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_23
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 660
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 55}
+        - {x: -62.5, y: -9}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_24
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 660
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: 37}
+        - {x: -62.5, y: -19}
+        - {x: -62.5, y: -55}
+        - {x: 61.5, y: -55}
+        - {x: 62.5, y: -36}
+        - {x: 62.5, y: 55}
+        - {x: -20.5, y: 55}
+        - {x: -33.5, y: 54}
+    - name: ABOMASNOW-MEGA_25
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 660
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 55}
+        - {x: -44.5, y: 36}
+        - {x: -44.5, y: 28}
+        - {x: -62.5, y: -20}
+        - {x: -62.5, y: -53}
+        - {x: -55.5, y: -55}
+        - {x: 53.5, y: -55}
+        - {x: 61.5, y: -22}
+        - {x: 62.5, y: -18}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 660
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 55}
+        - {x: -53.5, y: 38}
+        - {x: -62.5, y: -12}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 55}
+        - {x: -50.5, y: 38}
+        - {x: -62.5, y: -16}
+        - {x: -62.5, y: -55}
+        - {x: 58.5, y: -55}
+        - {x: 62.5, y: -25}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_28
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 550
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 55}
+        - {x: -62.5, y: 11}
+        - {x: -62.5, y: -53}
+        - {x: -57.5, y: -55}
+        - {x: 55.5, y: -55}
+        - {x: 62.5, y: 2}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_29
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 550
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 55}
+        - {x: -51.5, y: 28}
+        - {x: -62.5, y: -20}
+        - {x: -62.5, y: -55}
+        - {x: 57.5, y: -55}
+        - {x: 62.5, y: -11}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_30
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 550
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 55}
+        - {x: -62.5, y: -19}
+        - {x: -62.5, y: -55}
+        - {x: 59.5, y: -55}
+        - {x: 62.5, y: -34}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 550
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 55}
+        - {x: -48.5, y: 48}
+        - {x: -47.5, y: 35}
+        - {x: -62.5, y: -14}
+        - {x: -62.5, y: -55}
+        - {x: 57.5, y: -55}
+        - {x: 62.5, y: -7}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_32
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 550
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 55}
+        - {x: -52.5, y: 36}
+        - {x: -62.5, y: -18}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_33
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 550
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 55}
+        - {x: -62.5, y: -17}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_34
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 550
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 55}
+        - {x: -62.5, y: -8}
+        - {x: -62.5, y: -55}
+        - {x: 53.5, y: -55}
+        - {x: 62.5, y: -10}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_35
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 550
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 55}
+        - {x: -47.5, y: 45}
+        - {x: -62.5, y: -3}
+        - {x: -62.5, y: -54}
+        - {x: -60.5, y: -55}
+        - {x: 57.5, y: -55}
+        - {x: 53.5, y: -24}
+        - {x: 62.5, y: 11}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 55}
+        - {x: -62.5, y: -8}
+        - {x: -62.5, y: -55}
+        - {x: 54.5, y: -55}
+        - {x: 62.5, y: -44}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 440
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 55}
+        - {x: -61.5, y: 27}
+        - {x: -62.5, y: 14}
+        - {x: -62.5, y: -55}
+        - {x: 53.5, y: -55}
+        - {x: 62.5, y: -23}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_38
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 440
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 55}
+        - {x: -62.5, y: 28}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_39
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 440
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 6}
+        - {x: 62.5, y: 55}
+        - {x: -46.5, y: 55}
+        - {x: -62.5, y: 29}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 51.5, y: -50}
+        - {x: 50.5, y: -24}
+    - name: ABOMASNOW-MEGA_40
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 440
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 55}
+        - {x: -62.5, y: 50}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_41
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 440
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 55}
+        - {x: -52.5, y: 41}
+        - {x: -62.5, y: -20}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 62.5, y: -32}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_42
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 440
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 55}
+        - {x: -62.5, y: 19}
+        - {x: -62.5, y: -55}
+        - {x: 55.5, y: -55}
+        - {x: 62.5, y: -29}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_43
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 440
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 55}
+        - {x: -62.5, y: -14}
+        - {x: -62.5, y: -55}
+        - {x: 57.5, y: -55}
+        - {x: 62.5, y: -27}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 440
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 55}
+        - {x: -62.5, y: 26}
+        - {x: -62.5, y: -55}
+        - {x: 58.5, y: -55}
+        - {x: 62.5, y: -48}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 55}
+        - {x: -54.5, y: 55}
+        - {x: -62.5, y: 35}
+        - {x: -62.5, y: -55}
+        - {x: 53.5, y: -55}
+        - {x: 51.5, y: -24}
+        - {x: 62.5, y: 11}
+    - name: ABOMASNOW-MEGA_46
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 330
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 55}
+        - {x: -48.5, y: 36}
+        - {x: -62.5, y: -14}
+        - {x: -62.5, y: -55}
+        - {x: 56.5, y: -55}
+        - {x: 62.5, y: -5}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_47
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 330
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 55}
+        - {x: -57.5, y: 50}
+        - {x: -62.5, y: 5}
+        - {x: -62.5, y: -55}
+        - {x: 60.5, y: -55}
+        - {x: 62.5, y: -30}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_48
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 330
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 55}
+        - {x: -62.5, y: 3}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_49
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 330
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 37}
+        - {x: -62.5, y: -7}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+        - {x: -22.5, y: 55}
+        - {x: -32.5, y: 54}
+    - name: ABOMASNOW-MEGA_50
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 330
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 55}
+        - {x: -62.5, y: -3}
+        - {x: -62.5, y: -55}
+        - {x: 56.5, y: -55}
+        - {x: 62.5, y: -19}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_51
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 330
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 55}
+        - {x: -39.5, y: 55}
+        - {x: -46.5, y: 36}
+        - {x: -62.5, y: -19}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 59.5, y: -21}
+        - {x: 62.5, y: 3}
+    - name: ABOMASNOW-MEGA_52
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 330
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 55}
+        - {x: -62.5, y: 32}
+        - {x: -62.5, y: -55}
+        - {x: 59.5, y: -55}
+        - {x: 62.5, y: -9}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_53
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 330
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 55}
+        - {x: -48.5, y: 36}
+        - {x: -62.5, y: -5}
+        - {x: -62.5, y: -55}
+        - {x: 59.5, y: -55}
+        - {x: 62.5, y: -34}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: 55}
+        - {x: 44.5, y: 51}
+        - {x: 43.5, y: 49}
+        - {x: 43.5, y: 52}
+        - {x: 42.5, y: 55}
+        - {x: -43.5, y: 55}
+        - {x: -62.5, y: 3}
+        - {x: -62.5, y: -55}
+        - {x: 59.5, y: -55}
+        - {x: 62.5, y: -6}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_55
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 220
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 55}
+        - {x: -62.5, y: 8}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_56
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 220
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 55}
+        - {x: -31.5, y: 51}
+        - {x: -49.5, y: 46}
+        - {x: -62.5, y: -14}
+        - {x: -62.5, y: -55}
+        - {x: 55.5, y: -55}
+        - {x: 62.5, y: 6}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_57
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 220
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 55}
+        - {x: -62.5, y: 13}
+        - {x: -62.5, y: -55}
+        - {x: 54.5, y: -55}
+        - {x: 62.5, y: 0}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_58
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 220
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 55}
+        - {x: -55.5, y: 21}
+        - {x: -62.5, y: -13}
+        - {x: -62.5, y: -52}
+        - {x: -55.5, y: -55}
+        - {x: 56.5, y: -55}
+        - {x: 62.5, y: 5}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_59
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 220
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 55}
+        - {x: -52.5, y: 46}
+        - {x: -62.5, y: -15}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_60
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 220
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 55}
+        - {x: -62.5, y: 15}
+        - {x: -62.5, y: -55}
+        - {x: 60.5, y: -55}
+        - {x: 62.5, y: -28}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_61
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 220
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 55}
+        - {x: -62.5, y: -19}
+        - {x: -62.5, y: -55}
+        - {x: 59.5, y: -55}
+        - {x: 62.5, y: -29}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_62
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 220
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 55}
+        - {x: -62.5, y: -15}
+        - {x: -62.5, y: -55}
+        - {x: 52.5, y: -55}
+        - {x: 62.5, y: -6}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 55}
+        - {x: -62.5, y: -7}
+        - {x: -62.5, y: -55}
+        - {x: 62.5, y: -55}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_64
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 110
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 55}
+        - {x: -55.5, y: 49}
+        - {x: -62.5, y: 17}
+        - {x: -62.5, y: -55}
+        - {x: 58.5, y: -55}
+        - {x: 62.5, y: -22}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_65
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 110
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 55}
+        - {x: -51.5, y: 36}
+        - {x: -62.5, y: -24}
+        - {x: -62.5, y: -54}
+        - {x: -57.5, y: -55}
+        - {x: 53.5, y: -55}
+        - {x: 61.5, y: -33}
+        - {x: 62.5, y: -25}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_66
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 110
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 55}
+        - {x: -62.5, y: -31}
+        - {x: -62.5, y: -55}
+        - {x: 54.5, y: -55}
+        - {x: 62.5, y: -31}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_67
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 110
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 55}
+        - {x: -52.5, y: 46}
+        - {x: -62.5, y: -20}
+        - {x: -62.5, y: -54}
+        - {x: -53.5, y: -55}
+        - {x: 59.5, y: -55}
+        - {x: 62.5, y: -33}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_68
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 110
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 55}
+        - {x: -62.5, y: 22}
+        - {x: -62.5, y: -55}
+        - {x: 59.5, y: -55}
+        - {x: 62.5, y: -29}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_69
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 110
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 55}
+        - {x: -49.5, y: 44}
+        - {x: -62.5, y: -20}
+        - {x: -62.5, y: -52}
+        - {x: -61.5, y: -53}
+        - {x: -56.5, y: -55}
+        - {x: 61.5, y: -55}
+        - {x: 62.5, y: -47}
+        - {x: 62.5, y: 55}
+    - name: ABOMASNOW-MEGA_70
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 110
+        width: 125
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 55}
+        - {x: -62.5, y: 39}
+        - {x: -62.5, y: -55}
+        - {x: 55.5, y: -55}
+        - {x: 62.5, y: -26}
+        - {x: 62.5, y: 55}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

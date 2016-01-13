@@ -1,0 +1,809 @@
+fileFormatVersion: 2
+guid: 000de71591b7fa54fab4967d37149371
+timeCreated: 1452636731
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ARON_0
+    21300002: ARON_1
+    21300004: ARON_2
+    21300006: ARON_3
+    21300008: ARON_4
+    21300010: ARON_5
+    21300012: ARON_6
+    21300014: ARON_7
+    21300016: ARON_8
+    21300018: ARON_9
+    21300020: ARON_10
+    21300022: ARON_11
+    21300024: ARON_12
+    21300026: ARON_13
+    21300028: ARON_14
+    21300030: ARON_15
+    21300032: ARON_16
+    21300034: ARON_17
+    21300036: ARON_18
+    21300038: ARON_19
+    21300040: ARON_20
+    21300042: ARON_21
+    21300044: ARON_22
+    21300046: ARON_23
+    21300048: ARON_24
+    21300050: ARON_25
+    21300052: ARON_26
+    21300054: ARON_27
+    21300056: ARON_28
+    21300058: ARON_29
+    21300060: ARON_30
+    21300062: ARON_31
+    21300064: ARON_32
+    21300066: ARON_33
+    21300068: ARON_34
+    21300070: ARON_35
+    21300072: ARON_36
+    21300074: ARON_37
+    21300076: ARON_38
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ARON_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 9.5}
+        - {x: 14.5, y: 21.5}
+        - {x: -8.5, y: 21.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -16.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+    - name: ARON_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 270
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 22.5}
+        - {x: -17.5, y: 15.5}
+        - {x: -17.5, y: -15.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 12.5}
+        - {x: 13.5, y: 22.5}
+    - name: ARON_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 270
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 22.5}
+        - {x: -18.5, y: 12.5}
+        - {x: -18.5, y: -7.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 12.5}
+        - {x: 11.5, y: 22.5}
+    - name: ARON_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 270
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 22.5}
+        - {x: -18.5, y: 11.5}
+        - {x: -18.5, y: -12.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 16.5}
+        - {x: 15.5, y: 22.5}
+    - name: ARON_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 270
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 22.5}
+        - {x: -17.5, y: 13.5}
+        - {x: -18.5, y: 5.5}
+        - {x: -18.5, y: -9.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 11.5}
+        - {x: 15.5, y: 22.5}
+    - name: ARON_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 270
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 22.5}
+        - {x: -18.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 20.5}
+        - {x: 12.5, y: 22.5}
+    - name: ARON_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 270
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 22.5}
+        - {x: -9.5, y: 22.5}
+        - {x: -18.5, y: 15.5}
+        - {x: -18.5, y: -14.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 7.5}
+        - {x: 17.5, y: 19.5}
+    - name: ARON_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 22.5}
+        - {x: -19.5, y: 14.5}
+        - {x: -19.5, y: -6.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 19.5}
+        - {x: 11.5, y: 22.5}
+    - name: ARON_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 225
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 22.5}
+        - {x: -9.5, y: 22.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -19.5, y: -12.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 7.5}
+        - {x: 18.5, y: 15.5}
+    - name: ARON_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 225
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 22.5}
+        - {x: -8.5, y: 22.5}
+        - {x: -17.5, y: 15.5}
+        - {x: -19.5, y: 13.5}
+        - {x: -19.5, y: -8.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 12.5}
+        - {x: 10.5, y: 21.5}
+    - name: ARON_10
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 225
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 22.5}
+        - {x: -19.5, y: 14.5}
+        - {x: -19.5, y: -15.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 3.5}
+        - {x: 11.5, y: 22.5}
+    - name: ARON_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 225
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 22.5}
+        - {x: -8.5, y: 22.5}
+        - {x: -19.5, y: 17.5}
+        - {x: -19.5, y: -7.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 2.5}
+        - {x: 18.5, y: 11.5}
+    - name: ARON_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 225
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 21.5}
+        - {x: -13.5, y: 21.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -19.5, y: -16.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 3.5}
+        - {x: 18.5, y: 10.5}
+    - name: ARON_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 225
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 21.5}
+        - {x: -9.5, y: 21.5}
+        - {x: -19.5, y: 16.5}
+        - {x: -19.5, y: -12.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 1.5}
+        - {x: 17.5, y: 14.5}
+    - name: ARON_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 20.5}
+        - {x: -19.5, y: 15.5}
+        - {x: -19.5, y: -12.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 0.5}
+        - {x: 17.5, y: 10.5}
+        - {x: 6.5, y: 19.5}
+        - {x: 3.5, y: 20.5}
+    - name: ARON_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 180
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 20.5}
+        - {x: -19.5, y: 17.5}
+        - {x: -19.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: -2.5}
+        - {x: 9.5, y: 20.5}
+    - name: ARON_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 180
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 16.5}
+        - {x: -0.5, y: 20.5}
+        - {x: -11.5, y: 20.5}
+        - {x: -19.5, y: 14.5}
+        - {x: -19.5, y: -13.5}
+        - {x: -17.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 0.5}
+        - {x: 17.5, y: 9.5}
+    - name: ARON_17
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 180
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 20.5}
+        - {x: -19.5, y: 18.5}
+        - {x: -19.5, y: -14.5}
+        - {x: -17.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 7.5}
+        - {x: 11.5, y: 20.5}
+    - name: ARON_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 180
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 20.5}
+        - {x: -19.5, y: 20.5}
+        - {x: -19.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 5.5}
+        - {x: 17.5, y: 16.5}
+    - name: ARON_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 180
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 21.5}
+        - {x: -19.5, y: 17.5}
+        - {x: -19.5, y: -13.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 11.5}
+        - {x: 4.5, y: 21.5}
+    - name: ARON_20
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 180
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21.5}
+        - {x: -19.5, y: 15.5}
+        - {x: -19.5, y: -18.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 2.5}
+        - {x: 7.5, y: 21.5}
+    - name: ARON_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 22.5}
+        - {x: -19.5, y: 16.5}
+        - {x: -19.5, y: -17.5}
+        - {x: -14.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 11.5}
+        - {x: 10.5, y: 22.5}
+    - name: ARON_22
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 135
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 22.5}
+        - {x: -19.5, y: 18.5}
+        - {x: -19.5, y: -18.5}
+        - {x: -18.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 5.5}
+        - {x: 9.5, y: 22.5}
+    - name: ARON_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 135
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 22.5}
+        - {x: -19.5, y: 15.5}
+        - {x: -19.5, y: -12.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 18.5}
+        - {x: 9.5, y: 22.5}
+    - name: ARON_24
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 135
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 22.5}
+        - {x: -12.5, y: 22.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -19.5, y: -12.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 5.5}
+        - {x: 16.5, y: 19.5}
+    - name: ARON_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 135
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 22.5}
+        - {x: -19.5, y: 15.5}
+        - {x: -19.5, y: -12.5}
+        - {x: -17.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 13.5}
+        - {x: 10.5, y: 22.5}
+    - name: ARON_26
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 135
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 22.5}
+        - {x: -19.5, y: 13.5}
+        - {x: -19.5, y: -15.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 12.5}
+        - {x: 13.5, y: 22.5}
+    - name: ARON_27
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 135
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 22.5}
+        - {x: -19.5, y: 17.5}
+        - {x: -19.5, y: -18.5}
+        - {x: -17.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 9.5}
+        - {x: 11.5, y: 22.5}
+    - name: ARON_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 22.5}
+        - {x: -19.5, y: 17.5}
+        - {x: -19.5, y: -19.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 7.5}
+        - {x: 11.5, y: 22.5}
+    - name: ARON_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 90
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 22.5}
+        - {x: -19.5, y: 13.5}
+        - {x: -19.5, y: -13.5}
+        - {x: -14.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 20.5}
+        - {x: 14.5, y: 22.5}
+    - name: ARON_30
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 90
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 22.5}
+        - {x: -19.5, y: 17.5}
+        - {x: -19.5, y: -11.5}
+        - {x: -17.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 10.5}
+        - {x: 11.5, y: 22.5}
+    - name: ARON_31
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 90
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 15.5}
+        - {x: 7.5, y: 22.5}
+        - {x: -10.5, y: 22.5}
+        - {x: -18.5, y: 12.5}
+        - {x: -18.5, y: -9.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+    - name: ARON_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 90
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 21.5}
+        - {x: -18.5, y: 10.5}
+        - {x: -18.5, y: -17.5}
+        - {x: -17.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 14.5}
+        - {x: 9.5, y: 21.5}
+    - name: ARON_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 90
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 21.5}
+        - {x: -18.5, y: 10.5}
+        - {x: -18.5, y: -18.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 16.5}
+        - {x: 8.5, y: 21.5}
+    - name: ARON_34
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 90
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 20.5}
+        - {x: -17.5, y: 12.5}
+        - {x: -17.5, y: -17.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 10.5}
+        - {x: 10.5, y: 20.5}
+    - name: ARON_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 20.5}
+        - {x: -9.5, y: 19.5}
+        - {x: -17.5, y: 7.5}
+        - {x: -17.5, y: -7.5}
+        - {x: -14.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 12.5}
+        - {x: 9.5, y: 20.5}
+    - name: ARON_36
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 45
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 12.5}
+        - {x: 12.5, y: 20.5}
+        - {x: -7.5, y: 20.5}
+        - {x: -15.5, y: 9.5}
+        - {x: -17.5, y: 6.5}
+        - {x: -17.5, y: -7.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+    - name: ARON_37
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 45
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 20.5}
+        - {x: -17.5, y: 13.5}
+        - {x: -17.5, y: -21.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 13.5}
+        - {x: 12.5, y: 20.5}
+    - name: ARON_38
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 45
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 20.5}
+        - {x: -17.5, y: 9.5}
+        - {x: -17.5, y: -14.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 11.5}
+        - {x: 13.5, y: 20.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

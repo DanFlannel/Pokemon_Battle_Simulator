@@ -1,0 +1,1749 @@
+fileFormatVersion: 2
+guid: 9b7a991faf6b97f429474e356ee4dfb8
+timeCreated: 1452712728
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CARVANHA_0
+    21300002: CARVANHA_1
+    21300004: CARVANHA_2
+    21300006: CARVANHA_3
+    21300008: CARVANHA_4
+    21300010: CARVANHA_5
+    21300012: CARVANHA_6
+    21300014: CARVANHA_7
+    21300016: CARVANHA_8
+    21300018: CARVANHA_9
+    21300020: CARVANHA_10
+    21300022: CARVANHA_11
+    21300024: CARVANHA_12
+    21300026: CARVANHA_13
+    21300028: CARVANHA_14
+    21300030: CARVANHA_15
+    21300032: CARVANHA_16
+    21300034: CARVANHA_17
+    21300036: CARVANHA_18
+    21300038: CARVANHA_19
+    21300040: CARVANHA_20
+    21300042: CARVANHA_21
+    21300044: CARVANHA_22
+    21300046: CARVANHA_23
+    21300048: CARVANHA_24
+    21300050: CARVANHA_25
+    21300052: CARVANHA_26
+    21300054: CARVANHA_27
+    21300056: CARVANHA_28
+    21300058: CARVANHA_29
+    21300060: CARVANHA_30
+    21300062: CARVANHA_31
+    21300064: CARVANHA_32
+    21300066: CARVANHA_33
+    21300068: CARVANHA_34
+    21300070: CARVANHA_35
+    21300072: CARVANHA_36
+    21300074: CARVANHA_37
+    21300076: CARVANHA_38
+    21300078: CARVANHA_39
+    21300080: CARVANHA_40
+    21300082: CARVANHA_41
+    21300084: CARVANHA_42
+    21300086: CARVANHA_43
+    21300088: CARVANHA_44
+    21300090: CARVANHA_45
+    21300092: CARVANHA_46
+    21300094: CARVANHA_47
+    21300096: CARVANHA_48
+    21300098: CARVANHA_49
+    21300100: CARVANHA_50
+    21300102: CARVANHA_51
+    21300104: CARVANHA_52
+    21300106: CARVANHA_53
+    21300108: CARVANHA_54
+    21300110: CARVANHA_55
+    21300112: CARVANHA_56
+    21300114: CARVANHA_57
+    21300116: CARVANHA_58
+    21300118: CARVANHA_59
+    21300120: CARVANHA_60
+    21300122: CARVANHA_61
+    21300124: CARVANHA_62
+    21300126: CARVANHA_63
+    21300128: CARVANHA_64
+    21300130: CARVANHA_65
+    21300132: CARVANHA_66
+    21300134: CARVANHA_67
+    21300136: CARVANHA_68
+    21300138: CARVANHA_69
+    21300140: CARVANHA_70
+    21300142: CARVANHA_71
+    21300144: CARVANHA_72
+    21300146: CARVANHA_73
+    21300148: CARVANHA_74
+    21300150: CARVANHA_75
+    21300152: CARVANHA_76
+    21300154: CARVANHA_77
+    21300156: CARVANHA_78
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CARVANHA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 30}
+        - {x: -26, y: -22}
+        - {x: -11, y: -36}
+        - {x: 3, y: -36}
+        - {x: 26, y: -10}
+        - {x: 26, y: -2}
+        - {x: 5, y: 30}
+    - name: CARVANHA_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 576
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -4}
+        - {x: 3, y: 31}
+        - {x: -19, y: 31}
+        - {x: -25, y: 16}
+        - {x: -25, y: -19}
+        - {x: -12, y: -36}
+        - {x: -4, y: -36}
+        - {x: 5, y: -20}
+        - {x: 7, y: -14}
+        - {x: 26, y: -13}
+    - name: CARVANHA_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 576
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 31}
+        - {x: -25, y: 16}
+        - {x: -25, y: -24}
+        - {x: -13, y: -36}
+        - {x: -1, y: -36}
+        - {x: 20, y: -28}
+        - {x: 26, y: -17}
+        - {x: 26, y: 15}
+        - {x: 3, y: 31}
+    - name: CARVANHA_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 576
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 31}
+        - {x: -21, y: 28}
+        - {x: -25, y: -2}
+        - {x: -25, y: -16}
+        - {x: -9, y: -35}
+        - {x: 0, y: -35}
+        - {x: 26, y: -11}
+        - {x: 26, y: 5}
+        - {x: 3, y: 31}
+    - name: CARVANHA_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 576
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 32}
+        - {x: -25, y: -26}
+        - {x: -12, y: -35}
+        - {x: 4, y: -35}
+        - {x: 26, y: -17}
+        - {x: 26, y: -1}
+        - {x: 3, y: 32}
+    - name: CARVANHA_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 576
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 32}
+        - {x: -25, y: 16}
+        - {x: -25, y: -25}
+        - {x: -20, y: -34}
+        - {x: -1, y: -34}
+        - {x: 26, y: -23}
+        - {x: 26, y: 8}
+        - {x: 12, y: 32}
+    - name: CARVANHA_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 576
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 33}
+        - {x: -25, y: 6}
+        - {x: -25, y: -23}
+        - {x: -21, y: -34}
+        - {x: 6, y: -34}
+        - {x: 18, y: -32}
+        - {x: 26, y: -19}
+        - {x: 26, y: 6}
+        - {x: 1, y: 33}
+    - name: CARVANHA_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 576
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 33}
+        - {x: -25, y: 32}
+        - {x: -25, y: -33}
+        - {x: 26, y: -33}
+        - {x: 26, y: 12}
+        - {x: 5, y: 33}
+    - name: CARVANHA_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 576
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 33}
+        - {x: -25, y: 13}
+        - {x: -25, y: -15}
+        - {x: -11, y: -33}
+        - {x: 0, y: -33}
+        - {x: 26, y: -13}
+        - {x: 26, y: 13}
+        - {x: 15, y: 33}
+    - name: CARVANHA_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 0}
+        - {x: 3, y: 33}
+        - {x: 0, y: 34}
+        - {x: -7, y: 34}
+        - {x: -14, y: 33}
+        - {x: -16, y: 32}
+        - {x: -20, y: 27}
+        - {x: -25, y: 3}
+        - {x: -25, y: -14}
+        - {x: -14, y: -32}
+        - {x: 4, y: -32}
+        - {x: 25, y: -10}
+        - {x: 26, y: -8}
+        - {x: 26, y: -3}
+    - name: CARVANHA_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 504
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 4}
+        - {x: 13, y: 34}
+        - {x: -25, y: 34}
+        - {x: -25, y: -11}
+        - {x: -12, y: -30}
+        - {x: -8, y: -32}
+        - {x: -2, y: -32}
+        - {x: 3, y: -28}
+        - {x: 6, y: -23}
+        - {x: 26, y: -13}
+    - name: CARVANHA_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 504
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -32}
+        - {x: 10, y: -32}
+        - {x: 26, y: -24}
+        - {x: 26, y: 1}
+        - {x: 3, y: 35}
+        - {x: -19, y: 35}
+        - {x: -25, y: 17}
+    - name: CARVANHA_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 504
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 35}
+        - {x: -21, y: 32}
+        - {x: -25, y: 16}
+        - {x: -25, y: -9}
+        - {x: -12, y: -29}
+        - {x: -10, y: -31}
+        - {x: 12, y: -31}
+        - {x: 26, y: -8}
+        - {x: 26, y: 8}
+        - {x: 6, y: 35}
+    - name: CARVANHA_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 504
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -7}
+        - {x: 26, y: 2}
+        - {x: 3, y: 33}
+        - {x: 0, y: 35}
+        - {x: -19, y: 35}
+        - {x: -25, y: 18}
+        - {x: -25, y: -12}
+        - {x: -12, y: -29}
+        - {x: -8, y: -31}
+        - {x: -5, y: -31}
+        - {x: -4, y: -29}
+        - {x: 5, y: -28}
+    - name: CARVANHA_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 504
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 36}
+        - {x: -20, y: 32}
+        - {x: -25, y: -2}
+        - {x: -22, y: -20}
+        - {x: -16, y: -31}
+        - {x: 10, y: -31}
+        - {x: 26, y: -13}
+        - {x: 26, y: 3}
+        - {x: 3, y: 36}
+    - name: CARVANHA_15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 504
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 36}
+        - {x: -25, y: 13}
+        - {x: -25, y: -9}
+        - {x: -17, y: -31}
+        - {x: 18, y: -31}
+        - {x: 26, y: -8}
+        - {x: 26, y: 9}
+        - {x: 4, y: 36}
+    - name: CARVANHA_16
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 504
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 36}
+        - {x: -21, y: 32}
+        - {x: -24, y: 17}
+        - {x: -24, y: -9}
+        - {x: -18, y: -30}
+        - {x: 17, y: -30}
+        - {x: 26, y: -13}
+        - {x: 26, y: 19}
+        - {x: 14, y: 36}
+    - name: CARVANHA_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 504
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 36}
+        - {x: -24, y: 18}
+        - {x: -24, y: -8}
+        - {x: -15, y: -30}
+        - {x: 13, y: -30}
+        - {x: 26, y: -4}
+        - {x: 26, y: 5}
+        - {x: 4, y: 36}
+    - name: CARVANHA_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 20}
+        - {x: 4, y: 36}
+        - {x: -19, y: 36}
+        - {x: -24, y: 21}
+        - {x: -24, y: -17}
+        - {x: -13, y: -30}
+        - {x: 8, y: -30}
+        - {x: 15, y: -26}
+        - {x: 26, y: -5}
+        - {x: 26, y: 6}
+    - name: CARVANHA_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 432
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 36}
+        - {x: -24, y: 17}
+        - {x: -24, y: -2}
+        - {x: -12, y: -29}
+        - {x: 17, y: -29}
+        - {x: 26, y: -10}
+        - {x: 26, y: 15}
+        - {x: 4, y: 36}
+    - name: CARVANHA_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 432
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 36}
+        - {x: -19, y: 36}
+        - {x: -22, y: 35}
+        - {x: -24, y: 13}
+        - {x: -24, y: -13}
+        - {x: -18, y: -29}
+        - {x: 16, y: -29}
+        - {x: 26, y: -6}
+        - {x: 26, y: 14}
+        - {x: 20, y: 22}
+    - name: CARVANHA_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 432
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 36}
+        - {x: -18, y: 36}
+        - {x: -23, y: 23}
+        - {x: -23, y: -5}
+        - {x: -12, y: -28}
+        - {x: 1, y: -28}
+        - {x: 13, y: -24}
+        - {x: 26, y: -19}
+    - name: CARVANHA_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 432
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 36}
+        - {x: -21, y: 34}
+        - {x: -23, y: 20}
+        - {x: -23, y: -8}
+        - {x: -15, y: -28}
+        - {x: 18, y: -28}
+        - {x: 26, y: -16}
+        - {x: 26, y: 19}
+        - {x: 15, y: 36}
+    - name: CARVANHA_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 432
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 36}
+        - {x: -20, y: 32}
+        - {x: -23, y: 9}
+        - {x: -23, y: -5}
+        - {x: -11, y: -28}
+        - {x: 11, y: -28}
+        - {x: 14, y: -27}
+        - {x: 26, y: -3}
+        - {x: 26, y: 23}
+        - {x: 14, y: 36}
+    - name: CARVANHA_24
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 432
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 36}
+        - {x: -23, y: -22}
+        - {x: -19, y: -28}
+        - {x: 12, y: -28}
+        - {x: 26, y: -11}
+        - {x: 26, y: 20}
+        - {x: 17, y: 36}
+    - name: CARVANHA_25
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 432
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 36}
+        - {x: -23, y: 23}
+        - {x: -23, y: -3}
+        - {x: -16, y: -28}
+        - {x: 19, y: -28}
+        - {x: 26, y: -18}
+        - {x: 26, y: 28}
+        - {x: 21, y: 36}
+    - name: CARVANHA_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 432
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -3}
+        - {x: 26, y: 32}
+        - {x: 16, y: 36}
+        - {x: -19, y: 36}
+        - {x: -23, y: 27}
+        - {x: -23, y: -1}
+        - {x: -8, y: -28}
+        - {x: -4, y: -28}
+        - {x: -1, y: -24}
+        - {x: 12, y: -23}
+        - {x: 13, y: -20}
+    - name: CARVANHA_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -1}
+        - {x: 26, y: 13}
+        - {x: 22, y: 28}
+        - {x: 12, y: 36}
+        - {x: -21, y: 36}
+        - {x: -23, y: 30}
+        - {x: -23, y: -9}
+        - {x: -13, y: -28}
+        - {x: -3, y: -28}
+        - {x: -2, y: -24}
+        - {x: 9, y: -23}
+        - {x: 15, y: -21}
+    - name: CARVANHA_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 360
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 36}
+        - {x: -23, y: 0}
+        - {x: -11, y: -27}
+        - {x: 10, y: -27}
+        - {x: 26, y: -14}
+        - {x: 26, y: 32}
+        - {x: 24, y: 36}
+    - name: CARVANHA_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 360
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 19}
+        - {x: 12, y: 36}
+        - {x: -14, y: 36}
+        - {x: -17, y: 33}
+        - {x: -22, y: 24}
+        - {x: -22, y: -2}
+        - {x: -19, y: -12}
+        - {x: -10, y: -26}
+        - {x: -8, y: -28}
+        - {x: -4, y: -28}
+        - {x: -1, y: -27}
+        - {x: 11, y: -21}
+        - {x: 14, y: -20}
+        - {x: 26, y: 5}
+    - name: CARVANHA_30
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 360
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 36}
+        - {x: -22, y: 28}
+        - {x: -22, y: -16}
+        - {x: -13, y: -28}
+        - {x: 15, y: -28}
+        - {x: 26, y: -14}
+        - {x: 26, y: 25}
+        - {x: 17, y: 36}
+    - name: CARVANHA_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 360
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 32}
+        - {x: 24, y: 36}
+        - {x: -22, y: 36}
+        - {x: -22, y: -10}
+        - {x: -16, y: -28}
+        - {x: -3, y: -28}
+        - {x: 0, y: -22}
+        - {x: 11, y: -22}
+        - {x: 26, y: -5}
+    - name: CARVANHA_32
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 360
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 36}
+        - {x: -17, y: 36}
+        - {x: -22, y: 20}
+        - {x: -22, y: -11}
+        - {x: -9, y: -28}
+        - {x: 4, y: -28}
+        - {x: 13, y: -18}
+        - {x: 26, y: 6}
+        - {x: 26, y: 25}
+    - name: CARVANHA_33
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 360
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 36}
+        - {x: -22, y: 26}
+        - {x: -22, y: -7}
+        - {x: -13, y: -28}
+        - {x: 7, y: -28}
+        - {x: 26, y: -6}
+        - {x: 26, y: 20}
+        - {x: 11, y: 36}
+    - name: CARVANHA_34
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 360
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 36}
+        - {x: -17, y: 36}
+        - {x: -22, y: 24}
+        - {x: -22, y: -4}
+        - {x: -9, y: -27}
+        - {x: -7, y: -28}
+        - {x: -2, y: -28}
+        - {x: 10, y: -19}
+        - {x: 26, y: 5}
+        - {x: 26, y: 17}
+    - name: CARVANHA_35
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 360
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 36}
+        - {x: -22, y: -9}
+        - {x: -16, y: -28}
+        - {x: 3, y: -28}
+        - {x: 26, y: 2}
+        - {x: 26, y: 29}
+        - {x: 12, y: 36}
+    - name: CARVANHA_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 36}
+        - {x: -22, y: -15}
+        - {x: -19, y: -29}
+        - {x: 1, y: -29}
+        - {x: 26, y: 1}
+        - {x: 26, y: 28}
+        - {x: 14, y: 36}
+    - name: CARVANHA_37
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 288
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 36}
+        - {x: -21, y: 36}
+        - {x: -22, y: 19}
+        - {x: -22, y: -8}
+        - {x: -10, y: -26}
+        - {x: -6, y: -29}
+        - {x: 1, y: -29}
+        - {x: 26, y: 8}
+        - {x: 26, y: 13}
+        - {x: 25, y: 14}
+    - name: CARVANHA_38
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 288
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 36}
+        - {x: -22, y: 27}
+        - {x: -22, y: -2}
+        - {x: -12, y: -29}
+        - {x: -2, y: -29}
+        - {x: 26, y: 1}
+        - {x: 26, y: 16}
+        - {x: 10, y: 36}
+    - name: CARVANHA_39
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 288
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 14}
+        - {x: 6, y: 36}
+        - {x: -16, y: 36}
+        - {x: -22, y: 20}
+        - {x: -22, y: 7}
+        - {x: -20, y: -7}
+        - {x: -8, y: -30}
+        - {x: -1, y: -30}
+        - {x: 19, y: -2}
+        - {x: 26, y: 10}
+        - {x: 26, y: 14}
+    - name: CARVANHA_40
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 35}
+        - {x: -22, y: 19}
+        - {x: -22, y: -1}
+        - {x: -21, y: -4}
+        - {x: -8, y: -29}
+        - {x: -6, y: -30}
+        - {x: 0, y: -30}
+        - {x: 26, y: 6}
+        - {x: 26, y: 22}
+        - {x: 10, y: 35}
+    - name: CARVANHA_41
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 288
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 35}
+        - {x: -22, y: 35}
+        - {x: -22, y: -10}
+        - {x: -14, y: -30}
+        - {x: 0, y: -30}
+        - {x: 25, y: 9}
+        - {x: 25, y: 29}
+    - name: CARVANHA_42
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 288
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 13}
+        - {x: 24, y: 31}
+        - {x: 16, y: 35}
+        - {x: -22, y: 35}
+        - {x: -22, y: -10}
+        - {x: -15, y: -30}
+        - {x: -1, y: -30}
+        - {x: 0, y: -27}
+        - {x: 21, y: 4}
+        - {x: 25, y: 10}
+    - name: CARVANHA_43
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 288
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 34}
+        - {x: -22, y: -29}
+        - {x: -19, y: -30}
+        - {x: 12, y: -30}
+        - {x: 24, y: -18}
+        - {x: 24, y: 34}
+    - name: CARVANHA_44
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 14}
+        - {x: 9, y: 34}
+        - {x: -16, y: 34}
+        - {x: -22, y: 19}
+        - {x: -22, y: -16}
+        - {x: -7, y: -30}
+        - {x: 6, y: -30}
+        - {x: 21, y: 0}
+        - {x: 24, y: 9}
+        - {x: 24, y: 14}
+    - name: CARVANHA_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 15}
+        - {x: 15, y: 33}
+        - {x: -21, y: 33}
+        - {x: -22, y: 32}
+        - {x: -22, y: -21}
+        - {x: -17, y: -31}
+        - {x: -1, y: -31}
+        - {x: 0, y: -29}
+        - {x: 21, y: 0}
+        - {x: 23, y: 8}
+    - name: CARVANHA_46
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 216
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 33}
+        - {x: 8, y: 28}
+        - {x: 5, y: 25}
+        - {x: 5, y: 23}
+        - {x: 6, y: 30}
+        - {x: 3, y: 33}
+        - {x: -17, y: 33}
+        - {x: -22, y: 22}
+        - {x: -22, y: -10}
+        - {x: -14, y: -31}
+        - {x: 1, y: -31}
+        - {x: 23, y: -12}
+        - {x: 23, y: 27}
+        - {x: 19, y: 33}
+    - name: CARVANHA_47
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 216
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 32}
+        - {x: -22, y: -15}
+        - {x: -10, y: -32}
+        - {x: 0, y: -32}
+        - {x: 16, y: -18}
+        - {x: 23, y: 5}
+        - {x: 23, y: 18}
+        - {x: 16, y: 32}
+    - name: CARVANHA_48
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 216
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 32}
+        - {x: -22, y: -9}
+        - {x: -13, y: -32}
+        - {x: 8, y: -32}
+        - {x: 22, y: -19}
+        - {x: 22, y: 32}
+    - name: CARVANHA_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 216
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 31}
+        - {x: -17, y: 28}
+        - {x: -22, y: 20}
+        - {x: -22, y: -19}
+        - {x: -9, y: -33}
+        - {x: 8, y: -33}
+        - {x: 22, y: -17}
+        - {x: 22, y: 31}
+    - name: CARVANHA_50
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 216
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 31}
+        - {x: -23, y: -17}
+        - {x: -13, y: -33}
+        - {x: 5, y: -33}
+        - {x: 21, y: -20}
+        - {x: 21, y: 31}
+    - name: CARVANHA_51
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 216
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 11}
+        - {x: 19, y: 26}
+        - {x: 17, y: 31}
+        - {x: -23, y: 31}
+        - {x: -23, y: -13}
+        - {x: -7, y: -33}
+        - {x: -2, y: -33}
+        - {x: 1, y: -32}
+        - {x: 21, y: -18}
+        - {x: 22, y: -15}
+    - name: CARVANHA_52
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 216
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 30}
+        - {x: -23, y: 20}
+        - {x: -23, y: -9}
+        - {x: -11, y: -34}
+        - {x: 5, y: -34}
+        - {x: 23, y: -22}
+        - {x: 23, y: 28}
+        - {x: 19, y: 30}
+    - name: CARVANHA_53
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 216
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 17}
+        - {x: 7, y: 13}
+        - {x: 8, y: 18}
+        - {x: 6, y: 30}
+        - {x: -16, y: 30}
+        - {x: -18, y: 28}
+        - {x: -23, y: 15}
+        - {x: -23, y: -10}
+        - {x: -12, y: -34}
+        - {x: 12, y: -34}
+        - {x: 25, y: -32}
+        - {x: 25, y: 30}
+        - {x: 18, y: 26}
+    - name: CARVANHA_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 30}
+        - {x: -22, y: 30}
+        - {x: -24, y: 25}
+        - {x: -24, y: -11}
+        - {x: -17, y: -34}
+        - {x: 4, y: -34}
+        - {x: 26, y: -24}
+        - {x: 26, y: 8}
+        - {x: 25, y: 26}
+    - name: CARVANHA_55
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 144
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 25}
+        - {x: 7, y: 14}
+        - {x: 7, y: 12}
+        - {x: 7, y: 17}
+        - {x: 12, y: 30}
+        - {x: -22, y: 30}
+        - {x: -24, y: 19}
+        - {x: -24, y: 2}
+        - {x: -20, y: -9}
+        - {x: -16, y: -15}
+        - {x: -11, y: -18}
+        - {x: -8, y: -34}
+        - {x: -6, y: -35}
+        - {x: 3, y: -35}
+        - {x: 26, y: -25}
+        - {x: 26, y: 14}
+        - {x: 22, y: 24}
+    - name: CARVANHA_56
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 144
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 23}
+        - {x: 7, y: 14}
+        - {x: 6, y: 10}
+        - {x: 6, y: 12}
+        - {x: 7, y: 13}
+        - {x: 7, y: 17}
+        - {x: 5, y: 29}
+        - {x: -22, y: 29}
+        - {x: -24, y: 28}
+        - {x: -24, y: -20}
+        - {x: -13, y: -35}
+        - {x: 24, y: -35}
+        - {x: 26, y: -30}
+        - {x: 26, y: 26}
+        - {x: 21, y: 25}
+    - name: CARVANHA_57
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 144
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -22}
+        - {x: -19, y: -36}
+        - {x: 17, y: -36}
+        - {x: 26, y: -34}
+        - {x: 26, y: 17}
+        - {x: 23, y: 24}
+        - {x: 10, y: 29}
+        - {x: -24, y: 29}
+        - {x: -25, y: 26}
+    - name: CARVANHA_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 12}
+        - {x: 6, y: 10}
+        - {x: 7, y: 17}
+        - {x: 5, y: 26}
+        - {x: 2, y: 28}
+        - {x: -3, y: 23}
+        - {x: -9, y: 28}
+        - {x: -19, y: 28}
+        - {x: -25, y: 19}
+        - {x: -25, y: -17}
+        - {x: -17, y: -36}
+        - {x: 9, y: -36}
+        - {x: 26, y: -30}
+        - {x: 26, y: 10}
+        - {x: 21, y: 22}
+        - {x: 18, y: 23}
+        - {x: 15, y: 21}
+    - name: CARVANHA_59
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 144
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 22}
+        - {x: 18, y: 23}
+        - {x: 15, y: 21}
+        - {x: 6, y: 12}
+        - {x: 6, y: 10}
+        - {x: 7, y: 16}
+        - {x: 6, y: 28}
+        - {x: -21, y: 28}
+        - {x: -25, y: 19}
+        - {x: -25, y: -5}
+        - {x: -12, y: -36}
+        - {x: -1, y: -36}
+        - {x: -1, y: -35}
+        - {x: 26, y: -23}
+        - {x: 26, y: -5}
+    - name: CARVANHA_60
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 144
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 13}
+        - {x: 6, y: 11}
+        - {x: 7, y: 16}
+        - {x: 5, y: 28}
+        - {x: -19, y: 28}
+        - {x: -26, y: 12}
+        - {x: -26, y: -7}
+        - {x: -15, y: -36}
+        - {x: 14, y: -36}
+        - {x: 26, y: -30}
+        - {x: 26, y: -9}
+        - {x: 22, y: 22}
+        - {x: 18, y: 23}
+        - {x: 15, y: 21}
+    - name: CARVANHA_61
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 144
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 28}
+        - {x: -18, y: 28}
+        - {x: -26, y: 11}
+        - {x: -26, y: -6}
+        - {x: -10, y: -36}
+        - {x: 7, y: -36}
+        - {x: 26, y: -22}
+        - {x: 26, y: 2}
+        - {x: 19, y: 25}
+    - name: CARVANHA_62
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 144
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 28}
+        - {x: -26, y: 10}
+        - {x: -26, y: -9}
+        - {x: -18, y: -36}
+        - {x: 22, y: -36}
+        - {x: 25, y: -35}
+        - {x: 25, y: 4}
+        - {x: 20, y: 25}
+        - {x: 11, y: 28}
+    - name: CARVANHA_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 27}
+        - {x: -26, y: 18}
+        - {x: -26, y: -20}
+        - {x: -8, y: -36}
+        - {x: 9, y: -36}
+        - {x: 23, y: -24}
+        - {x: 24, y: -22}
+        - {x: 24, y: 27}
+    - name: CARVANHA_64
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 72
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 11}
+        - {x: 21, y: 24}
+        - {x: 7, y: 27}
+        - {x: -15, y: 27}
+        - {x: -19, y: 22}
+        - {x: -19, y: 8}
+        - {x: -22, y: 6}
+        - {x: -26, y: 4}
+        - {x: -26, y: -6}
+        - {x: -23, y: -14}
+        - {x: -9, y: -36}
+        - {x: 0, y: -36}
+        - {x: 22, y: -23}
+        - {x: 23, y: -21}
+        - {x: 24, y: -12}
+    - name: CARVANHA_65
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 72
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 27}
+        - {x: -26, y: 20}
+        - {x: -26, y: -13}
+        - {x: -15, y: -36}
+        - {x: 9, y: -36}
+        - {x: 24, y: -27}
+        - {x: 24, y: 2}
+        - {x: 21, y: 23}
+        - {x: 8, y: 27}
+    - name: CARVANHA_66
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 72
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 26}
+        - {x: -26, y: 26}
+        - {x: -26, y: -18}
+        - {x: -9, y: -36}
+        - {x: 5, y: -36}
+        - {x: 25, y: -29}
+        - {x: 25, y: 16}
+    - name: CARVANHA_67
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 72
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 27}
+        - {x: -26, y: 15}
+        - {x: -26, y: -18}
+        - {x: -12, y: -36}
+        - {x: 16, y: -36}
+        - {x: 25, y: -26}
+        - {x: 25, y: 27}
+    - name: CARVANHA_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 72
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -24}
+        - {x: -19, y: -36}
+        - {x: 23, y: -36}
+        - {x: 26, y: -35}
+        - {x: 26, y: 27}
+        - {x: -25, y: 27}
+        - {x: -26, y: 24}
+    - name: CARVANHA_69
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 72
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 27}
+        - {x: -18, y: 27}
+        - {x: -20, y: 25}
+        - {x: -26, y: 9}
+        - {x: -26, y: -12}
+        - {x: -12, y: -36}
+        - {x: 0, y: -36}
+        - {x: 16, y: -25}
+        - {x: 26, y: -16}
+        - {x: 26, y: 19}
+    - name: CARVANHA_70
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 72
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 27}
+        - {x: -20, y: 27}
+        - {x: -26, y: 5}
+        - {x: -26, y: -14}
+        - {x: -15, y: -36}
+        - {x: 2, y: -36}
+        - {x: 20, y: -25}
+        - {x: 26, y: -8}
+        - {x: 26, y: 5}
+        - {x: 12, y: 26}
+    - name: CARVANHA_71
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 72
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 0}
+        - {x: 17, y: 27}
+        - {x: -26, y: 27}
+        - {x: -26, y: -17}
+        - {x: -13, y: -36}
+        - {x: -1, y: -36}
+        - {x: 17, y: -23}
+        - {x: 26, y: -7}
+        - {x: 26, y: 0}
+    - name: CARVANHA_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 27}
+        - {x: -26, y: 26}
+        - {x: -26, y: -16}
+        - {x: -16, y: -36}
+        - {x: 8, y: -36}
+        - {x: 18, y: -31}
+        - {x: 26, y: -22}
+        - {x: 26, y: 20}
+        - {x: 22, y: 27}
+    - name: CARVANHA_73
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 27}
+        - {x: -26, y: 21}
+        - {x: -26, y: -31}
+        - {x: -21, y: -36}
+        - {x: 2, y: -36}
+        - {x: 8, y: -30}
+        - {x: 26, y: -9}
+        - {x: 26, y: 5}
+        - {x: 5, y: 27}
+    - name: CARVANHA_74
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 28}
+        - {x: -26, y: 12}
+        - {x: -26, y: -19}
+        - {x: -16, y: -36}
+        - {x: 9, y: -36}
+        - {x: 24, y: -33}
+        - {x: 26, y: -26}
+        - {x: 26, y: 18}
+        - {x: 14, y: 28}
+    - name: CARVANHA_75
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 28}
+        - {x: -26, y: 9}
+        - {x: -26, y: -23}
+        - {x: -23, y: -36}
+        - {x: 6, y: -36}
+        - {x: 26, y: -24}
+        - {x: 26, y: 2}
+        - {x: 3, y: 27}
+        - {x: 2, y: 28}
+    - name: CARVANHA_76
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -24, y: 26}
+        - {x: -26, y: 18}
+        - {x: -26, y: -20}
+        - {x: -17, y: -36}
+        - {x: -2, y: -36}
+        - {x: 26, y: -10}
+        - {x: 26, y: 2}
+        - {x: 3, y: 29}
+    - name: CARVANHA_77
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 29}
+        - {x: -26, y: -1}
+        - {x: -26, y: -16}
+        - {x: -11, y: -36}
+        - {x: -1, y: -36}
+        - {x: 26, y: -10}
+        - {x: 26, y: -2}
+        - {x: 6, y: 29}
+    - name: CARVANHA_78
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -20}
+        - {x: -18, y: -36}
+        - {x: 4, y: -36}
+        - {x: 26, y: -21}
+        - {x: 26, y: 5}
+        - {x: 9, y: 29}
+        - {x: -22, y: 29}
+        - {x: -26, y: 3}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

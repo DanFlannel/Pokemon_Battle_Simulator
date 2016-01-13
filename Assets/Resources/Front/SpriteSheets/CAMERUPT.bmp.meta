@@ -1,0 +1,1223 @@
+fileFormatVersion: 2
+guid: bf222ea554de88c4ba4c8c234e6813f7
+timeCreated: 1452712676
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CAMERUPT_0
+    21300002: CAMERUPT_1
+    21300004: CAMERUPT_2
+    21300006: CAMERUPT_3
+    21300008: CAMERUPT_4
+    21300010: CAMERUPT_5
+    21300012: CAMERUPT_6
+    21300014: CAMERUPT_7
+    21300016: CAMERUPT_8
+    21300018: CAMERUPT_9
+    21300020: CAMERUPT_10
+    21300022: CAMERUPT_11
+    21300024: CAMERUPT_12
+    21300026: CAMERUPT_13
+    21300028: CAMERUPT_14
+    21300030: CAMERUPT_15
+    21300032: CAMERUPT_16
+    21300034: CAMERUPT_17
+    21300036: CAMERUPT_18
+    21300038: CAMERUPT_19
+    21300040: CAMERUPT_20
+    21300042: CAMERUPT_21
+    21300044: CAMERUPT_22
+    21300046: CAMERUPT_23
+    21300048: CAMERUPT_24
+    21300050: CAMERUPT_25
+    21300052: CAMERUPT_26
+    21300054: CAMERUPT_27
+    21300056: CAMERUPT_28
+    21300058: CAMERUPT_29
+    21300060: CAMERUPT_30
+    21300062: CAMERUPT_31
+    21300064: CAMERUPT_32
+    21300066: CAMERUPT_33
+    21300068: CAMERUPT_34
+    21300070: CAMERUPT_35
+    21300072: CAMERUPT_36
+    21300074: CAMERUPT_37
+    21300076: CAMERUPT_38
+    21300078: CAMERUPT_39
+    21300080: CAMERUPT_40
+    21300082: CAMERUPT_41
+    21300084: CAMERUPT_42
+    21300086: CAMERUPT_43
+    21300088: CAMERUPT_44
+    21300090: CAMERUPT_45
+    21300092: CAMERUPT_46
+    21300094: CAMERUPT_47
+    21300096: CAMERUPT_48
+    21300098: CAMERUPT_49
+    21300100: CAMERUPT_50
+    21300102: CAMERUPT_51
+    21300104: CAMERUPT_52
+    21300106: CAMERUPT_53
+    21300108: CAMERUPT_54
+    21300110: CAMERUPT_55
+    21300112: CAMERUPT_56
+    21300114: CAMERUPT_57
+    21300116: CAMERUPT_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CAMERUPT_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 37}
+        - {x: -9.5, y: 37}
+        - {x: -27.5, y: 33}
+        - {x: -40.5, y: 18}
+        - {x: -40.5, y: -9}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 9}
+    - name: CAMERUPT_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 518
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 37}
+        - {x: -40.5, y: 24}
+        - {x: -40.5, y: -15}
+        - {x: -31.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 32}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 518
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 37}
+        - {x: -40.5, y: 14}
+        - {x: -40.5, y: -3}
+        - {x: -29.5, y: -33}
+        - {x: -26.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 25}
+        - {x: 24.5, y: 37}
+    - name: CAMERUPT_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 518
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 37}
+        - {x: -18.5, y: 36}
+        - {x: -40.5, y: 12}
+        - {x: -40.5, y: 4}
+        - {x: -29.5, y: -33}
+        - {x: -28.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 19}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 518
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 37}
+        - {x: -40.5, y: 11}
+        - {x: -40.5, y: 4}
+        - {x: -31.5, y: -34}
+        - {x: -28.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 11}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 518
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 37}
+        - {x: -40.5, y: 16}
+        - {x: -40.5, y: -6}
+        - {x: -29.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 8}
+        - {x: 30.5, y: 37}
+    - name: CAMERUPT_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 518
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 37}
+        - {x: -40.5, y: 24}
+        - {x: -40.5, y: -19}
+        - {x: -32.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 32}
+        - {x: 26.5, y: 37}
+    - name: CAMERUPT_7
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 518
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37}
+        - {x: -40.5, y: 11}
+        - {x: -40.5, y: 0}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 14}
+        - {x: 39.5, y: 19}
+        - {x: 29.5, y: 36}
+        - {x: 25.5, y: 37}
+    - name: CAMERUPT_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 37}
+        - {x: -40.5, y: 15}
+        - {x: -40.5, y: -6}
+        - {x: -31.5, y: -34}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 18}
+        - {x: 28.5, y: 37}
+    - name: CAMERUPT_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 444
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 37}
+        - {x: -40.5, y: 23}
+        - {x: -40.5, y: -6}
+        - {x: -33.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 32}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 444
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37}
+        - {x: -40.5, y: 14}
+        - {x: -40.5, y: -8}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 4}
+        - {x: 30.5, y: 37}
+    - name: CAMERUPT_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 444
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34}
+        - {x: 19.5, y: 37}
+        - {x: -11.5, y: 37}
+        - {x: -40.5, y: 13}
+        - {x: -40.5, y: -3}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 3}
+        - {x: 36.5, y: 18}
+    - name: CAMERUPT_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 444
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 37}
+        - {x: -40.5, y: 18}
+        - {x: -40.5, y: -10}
+        - {x: -28.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 28}
+        - {x: 20.5, y: 37}
+    - name: CAMERUPT_13
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 444
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 37}
+        - {x: -40.5, y: 15}
+        - {x: -40.5, y: -4}
+        - {x: -29.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 31}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_14
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 444
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 37}
+        - {x: -40.5, y: 16}
+        - {x: -40.5, y: -24}
+        - {x: -34.5, y: -33}
+        - {x: -31.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 20}
+        - {x: 23.5, y: 37}
+    - name: CAMERUPT_15
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 444
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 37}
+        - {x: -40.5, y: 18}
+        - {x: -40.5, y: -22}
+        - {x: -32.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 28}
+        - {x: 25.5, y: 37}
+    - name: CAMERUPT_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 37}
+        - {x: -27.5, y: 22}
+        - {x: -40.5, y: 11}
+        - {x: -40.5, y: -6}
+        - {x: -33.5, y: -32}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 11}
+        - {x: 30.5, y: 37}
+    - name: CAMERUPT_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 370
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 17}
+        - {x: 23.5, y: 37}
+        - {x: -11.5, y: 37}
+        - {x: -40.5, y: 15}
+        - {x: -40.5, y: -16}
+        - {x: -34.5, y: -37}
+        - {x: 39.5, y: -37}
+        - {x: 40.5, y: -36}
+        - {x: 40.5, y: 3}
+    - name: CAMERUPT_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 370
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 37}
+        - {x: -40.5, y: 32}
+        - {x: -40.5, y: -12}
+        - {x: -29.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 33}
+        - {x: 37.5, y: 37}
+    - name: CAMERUPT_19
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 370
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 37}
+        - {x: -21.5, y: 36}
+        - {x: -40.5, y: 18}
+        - {x: -40.5, y: -17}
+        - {x: -32.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 10}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_20
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 370
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 37}
+        - {x: -30.5, y: 36}
+        - {x: -40.5, y: 17}
+        - {x: -40.5, y: -6}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 12}
+        - {x: 32.5, y: 37}
+    - name: CAMERUPT_21
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 370
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 37}
+        - {x: -40.5, y: 22}
+        - {x: -40.5, y: -21}
+        - {x: -35.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 29}
+        - {x: 35.5, y: 37}
+    - name: CAMERUPT_22
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 370
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 37}
+        - {x: -40.5, y: 19}
+        - {x: -40.5, y: -25}
+        - {x: -36.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 21}
+        - {x: 23.5, y: 37}
+    - name: CAMERUPT_23
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 370
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37}
+        - {x: -40.5, y: 14}
+        - {x: -40.5, y: -10}
+        - {x: -32.5, y: -35}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 12}
+        - {x: 32.5, y: 37}
+    - name: CAMERUPT_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 37}
+        - {x: -40.5, y: 12}
+        - {x: -40.5, y: -5}
+        - {x: -28.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 17}
+        - {x: 28.5, y: 37}
+    - name: CAMERUPT_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 296
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 37}
+        - {x: -28.5, y: 37}
+        - {x: -40.5, y: 12}
+        - {x: -40.5, y: -6}
+        - {x: -35.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 21}
+    - name: CAMERUPT_26
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 296
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 37}
+        - {x: -40.5, y: 12}
+        - {x: -40.5, y: -7}
+        - {x: -31.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 10}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_27
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 296
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 37}
+        - {x: -21.5, y: 34}
+        - {x: -40.5, y: 14}
+        - {x: -40.5, y: -9}
+        - {x: -28.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 9}
+        - {x: 28.5, y: 37}
+    - name: CAMERUPT_28
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 296
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 37}
+        - {x: -40.5, y: 23}
+        - {x: -40.5, y: -19}
+        - {x: -29.5, y: -37}
+        - {x: 31.5, y: -37}
+        - {x: 40.5, y: -36}
+        - {x: 40.5, y: 12}
+        - {x: 28.5, y: 37}
+    - name: CAMERUPT_29
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 296
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 37}
+        - {x: -40.5, y: 13}
+        - {x: -40.5, y: -16}
+        - {x: -33.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 8}
+        - {x: 38.5, y: 24}
+        - {x: 30.5, y: 37}
+    - name: CAMERUPT_30
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 296
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 37}
+        - {x: -19.5, y: 32}
+        - {x: -36.5, y: 14}
+        - {x: -40.5, y: 9}
+        - {x: -40.5, y: 3}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 29}
+        - {x: 25.5, y: 37}
+    - name: CAMERUPT_31
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 296
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 37}
+        - {x: -36.5, y: 34}
+        - {x: -40.5, y: 24}
+        - {x: -40.5, y: -9}
+        - {x: -32.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 16}
+        - {x: 34.5, y: 37}
+    - name: CAMERUPT_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 37}
+        - {x: -40.5, y: 19}
+        - {x: -40.5, y: -21}
+        - {x: -37.5, y: -36}
+        - {x: -35.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 7}
+        - {x: 38.5, y: 23}
+        - {x: 28.5, y: 37}
+    - name: CAMERUPT_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 222
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 37}
+        - {x: -40.5, y: 17}
+        - {x: -40.5, y: -9}
+        - {x: -32.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 25}
+        - {x: 25.5, y: 37}
+    - name: CAMERUPT_34
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 222
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 37}
+        - {x: -40.5, y: 26}
+        - {x: -40.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 4}
+        - {x: 30.5, y: 37}
+    - name: CAMERUPT_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 222
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37}
+        - {x: -40.5, y: 16}
+        - {x: -40.5, y: -8}
+        - {x: -32.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 4}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_36
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 222
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 37}
+        - {x: -40.5, y: 15}
+        - {x: -40.5, y: -7}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 12}
+        - {x: 25.5, y: 37}
+    - name: CAMERUPT_37
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 222
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 37}
+        - {x: -40.5, y: 12}
+        - {x: -40.5, y: 1}
+        - {x: -31.5, y: -34}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 14}
+        - {x: 25.5, y: 37}
+    - name: CAMERUPT_38
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 222
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 37}
+        - {x: -39.5, y: 18}
+        - {x: -39.5, y: -9}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 5}
+        - {x: 38.5, y: 23}
+        - {x: 22.5, y: 37}
+    - name: CAMERUPT_39
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 222
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 37}
+        - {x: -19.5, y: 28}
+        - {x: -36.5, y: 15}
+        - {x: -39.5, y: 9}
+        - {x: -39.5, y: -6}
+        - {x: -34.5, y: -36}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 8}
+        - {x: 24.5, y: 37}
+    - name: CAMERUPT_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37}
+        - {x: -39.5, y: 20}
+        - {x: -39.5, y: -24}
+        - {x: -37.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 32}
+        - {x: 27.5, y: 37}
+    - name: CAMERUPT_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 148
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 37}
+        - {x: -26.5, y: 27}
+        - {x: -39.5, y: 11}
+        - {x: -39.5, y: -8}
+        - {x: -29.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 5}
+        - {x: 38.5, y: 23}
+        - {x: 24.5, y: 37}
+    - name: CAMERUPT_42
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 148
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 37}
+        - {x: -39.5, y: 13}
+        - {x: -39.5, y: -4}
+        - {x: -36.5, y: -22}
+        - {x: -28.5, y: -37}
+        - {x: 31.5, y: -37}
+        - {x: 40.5, y: -36}
+        - {x: 40.5, y: 6}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_43
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 148
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 37}
+        - {x: -40.5, y: 12}
+        - {x: -40.5, y: -12}
+        - {x: -30.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 9}
+        - {x: 27.5, y: 37}
+    - name: CAMERUPT_44
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 148
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37}
+        - {x: -39.5, y: 13}
+        - {x: -39.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 8}
+        - {x: 27.5, y: 37}
+    - name: CAMERUPT_45
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 148
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 37}
+        - {x: -40.5, y: 10}
+        - {x: -40.5, y: -13}
+        - {x: -33.5, y: -35}
+        - {x: -31.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 7}
+        - {x: 27.5, y: 37}
+    - name: CAMERUPT_46
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 148
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 37}
+        - {x: -40.5, y: 17}
+        - {x: -40.5, y: -15}
+        - {x: -35.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 32}
+        - {x: 29.5, y: 37}
+    - name: CAMERUPT_47
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 148
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 37}
+        - {x: -40.5, y: 13}
+        - {x: -40.5, y: -11}
+        - {x: -31.5, y: -34}
+        - {x: -29.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 5}
+        - {x: 37.5, y: 22}
+        - {x: 33.5, y: 37}
+    - name: CAMERUPT_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 37}
+        - {x: -40.5, y: 27}
+        - {x: -40.5, y: -23}
+        - {x: -38.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 32}
+        - {x: 28.5, y: 37}
+    - name: CAMERUPT_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 74
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 37}
+        - {x: -40.5, y: 9}
+        - {x: -40.5, y: -1}
+        - {x: -33.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 5}
+        - {x: 37.5, y: 22}
+        - {x: 26.5, y: 37}
+    - name: CAMERUPT_50
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 74
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 37}
+        - {x: -16.5, y: 37}
+        - {x: -20.5, y: 36}
+        - {x: -40.5, y: 6}
+        - {x: -40.5, y: -32}
+        - {x: -33.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 5}
+        - {x: 38.5, y: 23}
+    - name: CAMERUPT_51
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 74
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37}
+        - {x: -40.5, y: 13}
+        - {x: -40.5, y: -18}
+        - {x: -29.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 12}
+        - {x: 26.5, y: 37}
+    - name: CAMERUPT_52
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 74
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 37}
+        - {x: -15.5, y: 37}
+        - {x: -25.5, y: 35}
+        - {x: -40.5, y: 10}
+        - {x: -40.5, y: -4}
+        - {x: -35.5, y: -36}
+        - {x: -32.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 6}
+        - {x: 37.5, y: 27}
+    - name: CAMERUPT_53
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 74
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 37}
+        - {x: -28.5, y: 21}
+        - {x: -40.5, y: 10}
+        - {x: -40.5, y: -2}
+        - {x: -29.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 5}
+        - {x: 39.5, y: 19}
+        - {x: 28.5, y: 36}
+        - {x: 23.5, y: 37}
+    - name: CAMERUPT_54
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 74
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: -15}
+        - {x: -35.5, y: -36}
+        - {x: -32.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 37}
+        - {x: -40.5, y: 37}
+    - name: CAMERUPT_55
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 74
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 37}
+        - {x: -40.5, y: 17}
+        - {x: -40.5, y: -19}
+        - {x: -29.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 19}
+        - {x: 39.5, y: 25}
+        - {x: 24.5, y: 37}
+    - name: CAMERUPT_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37}
+        - {x: -18.5, y: 36}
+        - {x: -40.5, y: 11}
+        - {x: -40.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 23}
+        - {x: 26.5, y: 37}
+    - name: CAMERUPT_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 23}
+        - {x: -40.5, y: -16}
+        - {x: -31.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 17}
+        - {x: 39.5, y: 25}
+        - {x: 31.5, y: 37}
+        - {x: -16.5, y: 37}
+        - {x: -37.5, y: 31}
+    - name: CAMERUPT_58
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 37}
+        - {x: -40.5, y: -37}
+        - {x: 40.5, y: -37}
+        - {x: 40.5, y: 13}
+        - {x: 26.5, y: 37}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

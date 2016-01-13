@@ -1,0 +1,1213 @@
+fileFormatVersion: 2
+guid: e0d5fdedcc74cec4cbbde2a0c112daed
+timeCreated: 1452637063
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BELDUM_0
+    21300002: BELDUM_1
+    21300004: BELDUM_2
+    21300006: BELDUM_3
+    21300008: BELDUM_4
+    21300010: BELDUM_5
+    21300012: BELDUM_6
+    21300014: BELDUM_7
+    21300016: BELDUM_8
+    21300018: BELDUM_9
+    21300020: BELDUM_10
+    21300022: BELDUM_11
+    21300024: BELDUM_12
+    21300026: BELDUM_13
+    21300028: BELDUM_14
+    21300030: BELDUM_15
+    21300032: BELDUM_16
+    21300034: BELDUM_17
+    21300036: BELDUM_18
+    21300038: BELDUM_19
+    21300040: BELDUM_20
+    21300042: BELDUM_21
+    21300044: BELDUM_22
+    21300046: BELDUM_23
+    21300048: BELDUM_24
+    21300050: BELDUM_25
+    21300052: BELDUM_26
+    21300054: BELDUM_27
+    21300056: BELDUM_28
+    21300058: BELDUM_29
+    21300060: BELDUM_30
+    21300062: BELDUM_31
+    21300064: BELDUM_32
+    21300066: BELDUM_33
+    21300068: BELDUM_34
+    21300070: BELDUM_35
+    21300072: BELDUM_36
+    21300074: BELDUM_37
+    21300076: BELDUM_38
+    21300078: BELDUM_39
+    21300080: BELDUM_40
+    21300082: BELDUM_41
+    21300084: BELDUM_42
+    21300086: BELDUM_43
+    21300088: BELDUM_44
+    21300090: BELDUM_45
+    21300092: BELDUM_46
+    21300094: BELDUM_47
+    21300096: BELDUM_48
+    21300098: BELDUM_49
+    21300100: BELDUM_50
+    21300102: BELDUM_51
+    21300104: BELDUM_52
+    21300106: BELDUM_53
+    21300108: BELDUM_54
+    21300110: BELDUM_55
+    21300112: BELDUM_56
+    21300114: BELDUM_57
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BELDUM_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 16.5}
+        - {x: -19, y: 16.5}
+        - {x: -21, y: 14.5}
+        - {x: -21, y: -11.5}
+        - {x: -14, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 12.5}
+        - {x: 22, y: 14.5}
+    - name: BELDUM_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 231
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 16.5}
+        - {x: -16, y: 16.5}
+        - {x: -21, y: 8.5}
+        - {x: -21, y: -12.5}
+        - {x: -19, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 9.5}
+        - {x: 17, y: 15.5}
+    - name: BELDUM_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 231
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 16.5}
+        - {x: -21, y: 11.5}
+        - {x: -21, y: -13.5}
+        - {x: -19, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 9.5}
+        - {x: 21, y: 16.5}
+    - name: BELDUM_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 231
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16.5}
+        - {x: -12, y: 16.5}
+        - {x: -21, y: 12.5}
+        - {x: -21, y: -15.5}
+        - {x: -15, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 23, y: -14.5}
+        - {x: 23, y: 9.5}
+        - {x: 15, y: 14.5}
+    - name: BELDUM_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 231
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16.5}
+        - {x: -21, y: 12.5}
+        - {x: -21, y: -7.5}
+        - {x: -16, y: -14.5}
+        - {x: -3, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 23, y: -13.5}
+        - {x: 23, y: 10.5}
+        - {x: 14, y: 16.5}
+    - name: BELDUM_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 231
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -21, y: 10.5}
+        - {x: -21, y: -14.5}
+        - {x: -10, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 12.5}
+        - {x: 9, y: 16.5}
+    - name: BELDUM_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 231
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -21, y: 7.5}
+        - {x: -21, y: -13.5}
+        - {x: -11, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 23, y: -11.5}
+        - {x: 23, y: 8.5}
+        - {x: 15, y: 16.5}
+    - name: BELDUM_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 231
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16.5}
+        - {x: -14, y: 16.5}
+        - {x: -21, y: 13.5}
+        - {x: -21, y: -8.5}
+        - {x: -14, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 23, y: -12.5}
+        - {x: 23, y: 4.5}
+        - {x: 18, y: 11.5}
+    - name: BELDUM_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 16.5}
+        - {x: -21, y: 11.5}
+        - {x: -21, y: -13.5}
+        - {x: -13, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 23, y: -11.5}
+        - {x: 23, y: 12.5}
+        - {x: 10, y: 16.5}
+    - name: BELDUM_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 198
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 16.5}
+        - {x: -17, y: 16.5}
+        - {x: -21, y: 12.5}
+        - {x: -21, y: -7.5}
+        - {x: -19, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 23, y: -11.5}
+        - {x: 23, y: 15.5}
+    - name: BELDUM_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 198
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 16.5}
+        - {x: -21, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 23, y: -12.5}
+        - {x: 23, y: 13.5}
+        - {x: 21, y: 16.5}
+    - name: BELDUM_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 198
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 16.5}
+        - {x: -22, y: 11.5}
+        - {x: -22, y: -9.5}
+        - {x: -20, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 23, y: -15.5}
+        - {x: 23, y: 12.5}
+        - {x: 7, y: 16.5}
+    - name: BELDUM_12
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 198
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16.5}
+        - {x: -22, y: 11.5}
+        - {x: -22, y: -14.5}
+        - {x: -15, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 23, y: -12.5}
+        - {x: 23, y: 9.5}
+        - {x: 11, y: 16.5}
+    - name: BELDUM_13
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 198
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 15.5}
+        - {x: -22, y: 11.5}
+        - {x: -22, y: -11.5}
+        - {x: -21, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 23, y: -15.5}
+        - {x: 23, y: 9.5}
+        - {x: 11, y: 15.5}
+    - name: BELDUM_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 198
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 15.5}
+        - {x: -22, y: 14.5}
+        - {x: -22, y: -13.5}
+        - {x: -18, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 23, y: -10.5}
+        - {x: 23, y: 10.5}
+        - {x: 19, y: 15.5}
+    - name: BELDUM_15
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 198
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 15.5}
+        - {x: -23, y: 11.5}
+        - {x: -23, y: -11.5}
+        - {x: -20, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 22, y: -14.5}
+        - {x: 22, y: 10.5}
+        - {x: 21, y: 15.5}
+    - name: BELDUM_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 15.5}
+        - {x: -23, y: 14.5}
+        - {x: -23, y: -10.5}
+        - {x: -21, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 22, y: -14.5}
+        - {x: 22, y: 15.5}
+    - name: BELDUM_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 165
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 14.5}
+        - {x: 9, y: 15.5}
+        - {x: -17, y: 15.5}
+        - {x: -23, y: 5.5}
+        - {x: -23, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 21, y: -12.5}
+        - {x: 22, y: -8.5}
+        - {x: 22, y: 4.5}
+    - name: BELDUM_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 165
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 15.5}
+        - {x: -23, y: 8.5}
+        - {x: -23, y: -14.5}
+        - {x: -21, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 22, y: 8.5}
+        - {x: 11, y: 15.5}
+    - name: BELDUM_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 165
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 13.5}
+        - {x: -1, y: 15.5}
+        - {x: -13, y: 15.5}
+        - {x: -23, y: 9.5}
+        - {x: -23, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 22, y: -11.5}
+        - {x: 22, y: 2.5}
+        - {x: 18, y: 10.5}
+    - name: BELDUM_20
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 165
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 15.5}
+        - {x: -23, y: 6.5}
+        - {x: -23, y: -10.5}
+        - {x: -21, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 21, y: -12.5}
+        - {x: 21, y: 5.5}
+        - {x: 19, y: 15.5}
+    - name: BELDUM_21
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 165
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 15.5}
+        - {x: -23, y: 8.5}
+        - {x: -23, y: -11.5}
+        - {x: -19, y: -16.5}
+        - {x: 15, y: -16.5}
+        - {x: 21, y: -14.5}
+        - {x: 21, y: 9.5}
+        - {x: 6, y: 15.5}
+    - name: BELDUM_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 165
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 15.5}
+        - {x: -23, y: 14.5}
+        - {x: -23, y: -13.5}
+        - {x: -19, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 21, y: -11.5}
+        - {x: 21, y: 5.5}
+        - {x: 18, y: 15.5}
+    - name: BELDUM_23
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 165
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 15.5}
+        - {x: -23, y: 10.5}
+        - {x: -23, y: -14.5}
+        - {x: -21, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 21, y: 12.5}
+        - {x: 12, y: 15.5}
+    - name: BELDUM_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 15.5}
+        - {x: -23, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 21, y: 15.5}
+    - name: BELDUM_25
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 132
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 15.5}
+        - {x: -23, y: 15.5}
+        - {x: -23, y: -16.5}
+        - {x: 17, y: -16.5}
+        - {x: 21, y: -12.5}
+        - {x: 21, y: 11.5}
+    - name: BELDUM_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 132
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 14.5}
+        - {x: 5, y: 16.5}
+        - {x: -14, y: 16.5}
+        - {x: -23, y: 11.5}
+        - {x: -23, y: -16.5}
+        - {x: 17, y: -16.5}
+        - {x: 19, y: -13.5}
+        - {x: 21, y: -5.5}
+        - {x: 21, y: 6.5}
+    - name: BELDUM_27
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 132
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 13.5}
+        - {x: 5, y: 14.5}
+        - {x: -3, y: 16.5}
+        - {x: -13, y: 16.5}
+        - {x: -15, y: 15.5}
+        - {x: -23, y: 8.5}
+        - {x: -23, y: -12.5}
+        - {x: -20, y: -16.5}
+        - {x: 15, y: -16.5}
+        - {x: 20, y: -11.5}
+        - {x: 20, y: 6.5}
+    - name: BELDUM_28
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 132
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16.5}
+        - {x: -15, y: 16.5}
+        - {x: -23, y: 12.5}
+        - {x: -23, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 20, y: -12.5}
+        - {x: 20, y: 10.5}
+        - {x: 11, y: 13.5}
+    - name: BELDUM_29
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 132
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -14.5}
+        - {x: -18, y: -16.5}
+        - {x: 15, y: -16.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 8.5}
+        - {x: 17, y: 16.5}
+        - {x: -15, y: 16.5}
+        - {x: -23, y: 10.5}
+    - name: BELDUM_30
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 132
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 16.5}
+        - {x: -23, y: 15.5}
+        - {x: -23, y: -16.5}
+        - {x: 17, y: -16.5}
+        - {x: 20, y: -10.5}
+        - {x: 20, y: 15.5}
+        - {x: 14, y: 16.5}
+    - name: BELDUM_31
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 132
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -23, y: 10.5}
+        - {x: -23, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 20, y: 5.5}
+        - {x: 16, y: 16.5}
+    - name: BELDUM_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 16.5}
+        - {x: -23, y: 15.5}
+        - {x: -23, y: -13.5}
+        - {x: -22, y: -16.5}
+        - {x: 11, y: -16.5}
+        - {x: 20, y: -12.5}
+        - {x: 20, y: 13.5}
+        - {x: 6, y: 16.5}
+    - name: BELDUM_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 99
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 16.5}
+        - {x: -23, y: 11.5}
+        - {x: -23, y: -14.5}
+        - {x: -17, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 21, y: -11.5}
+        - {x: 21, y: 11.5}
+        - {x: 13, y: 16.5}
+    - name: BELDUM_34
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 99
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 16.5}
+        - {x: -23, y: 15.5}
+        - {x: -23, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 21, y: -8.5}
+        - {x: 21, y: 4.5}
+        - {x: 17, y: 16.5}
+    - name: BELDUM_35
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 99
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 16.5}
+        - {x: -19, y: 16.5}
+        - {x: -23, y: 15.5}
+        - {x: -23, y: -12.5}
+        - {x: -21, y: -15.5}
+        - {x: -9, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 21, y: -11.5}
+        - {x: 21, y: 6.5}
+        - {x: 19, y: 14.5}
+    - name: BELDUM_36
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 99
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 16.5}
+        - {x: -23, y: 12.5}
+        - {x: -23, y: -13.5}
+        - {x: -22, y: -16.5}
+        - {x: 15, y: -16.5}
+        - {x: 21, y: -11.5}
+        - {x: 21, y: 7.5}
+        - {x: 17, y: 16.5}
+    - name: BELDUM_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 99
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 16.5}
+        - {x: -23, y: 16.5}
+        - {x: -23, y: -9.5}
+        - {x: -20, y: -16.5}
+        - {x: 14, y: -16.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 6.5}
+        - {x: 20, y: 9.5}
+    - name: BELDUM_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 99
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 16.5}
+        - {x: -21, y: 16.5}
+        - {x: -23, y: 14.5}
+        - {x: -23, y: -10.5}
+        - {x: -20, y: -16.5}
+        - {x: 15, y: -16.5}
+        - {x: 21, y: -8.5}
+        - {x: 21, y: 7.5}
+    - name: BELDUM_39
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 99
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 16.5}
+        - {x: -23, y: 9.5}
+        - {x: -23, y: -12.5}
+        - {x: -12, y: -16.5}
+        - {x: 14, y: -16.5}
+        - {x: 16, y: -15.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 12.5}
+        - {x: 7, y: 16.5}
+    - name: BELDUM_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 16.5}
+        - {x: -19, y: 16.5}
+        - {x: -23, y: 10.5}
+        - {x: -23, y: -10.5}
+        - {x: -16, y: -14.5}
+        - {x: -3, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 22, y: -8.5}
+        - {x: 22, y: 12.5}
+        - {x: 18, y: 15.5}
+    - name: BELDUM_41
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 66
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 16.5}
+        - {x: -23, y: 15.5}
+        - {x: -23, y: -16.5}
+        - {x: 10, y: -16.5}
+        - {x: 15, y: -15.5}
+        - {x: 22, y: -8.5}
+        - {x: 22, y: 6.5}
+        - {x: 19, y: 16.5}
+    - name: BELDUM_42
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 66
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 16.5}
+        - {x: -23, y: 9.5}
+        - {x: -23, y: -7.5}
+        - {x: -18, y: -15.5}
+        - {x: 20, y: -15.5}
+        - {x: 22, y: -7.5}
+        - {x: 22, y: 16.5}
+    - name: BELDUM_43
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 66
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 16.5}
+        - {x: -23, y: -10.5}
+        - {x: -21, y: -14.5}
+        - {x: -17, y: -15.5}
+        - {x: 19, y: -15.5}
+        - {x: 22, y: -9.5}
+        - {x: 22, y: 13.5}
+        - {x: 19, y: 16.5}
+    - name: BELDUM_44
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 66
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 16.5}
+        - {x: -23, y: -5.5}
+        - {x: -22, y: -14.5}
+        - {x: -20, y: -15.5}
+        - {x: 17, y: -15.5}
+        - {x: 22, y: -12.5}
+        - {x: 22, y: 14.5}
+        - {x: 16, y: 16.5}
+    - name: BELDUM_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 66
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 16.5}
+        - {x: -23, y: 12.5}
+        - {x: -23, y: -9.5}
+        - {x: -19, y: -15.5}
+        - {x: 18, y: -15.5}
+        - {x: 23, y: -12.5}
+        - {x: 23, y: 10.5}
+        - {x: 21, y: 16.5}
+    - name: BELDUM_46
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 66
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 16.5}
+        - {x: -23, y: 15.5}
+        - {x: -23, y: -11.5}
+        - {x: -21, y: -15.5}
+        - {x: 23, y: -15.5}
+        - {x: 23, y: 13.5}
+        - {x: 13, y: 16.5}
+    - name: BELDUM_47
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 66
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -22, y: 15.5}
+        - {x: -22, y: -11.5}
+        - {x: -11, y: -15.5}
+        - {x: 20, y: -15.5}
+        - {x: 23, y: -6.5}
+        - {x: 23, y: 13.5}
+        - {x: 21, y: 16.5}
+    - name: BELDUM_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 16.5}
+        - {x: -22, y: -14.5}
+        - {x: -21, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 23, y: -9.5}
+        - {x: 23, y: 10.5}
+        - {x: 20, y: 16.5}
+    - name: BELDUM_49
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 33
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 16.5}
+        - {x: -22, y: 9.5}
+        - {x: -22, y: -8.5}
+        - {x: -15, y: -15.5}
+        - {x: -7, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 23, y: -12.5}
+        - {x: 23, y: 13.5}
+        - {x: 22, y: 16.5}
+    - name: BELDUM_50
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 33
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -10.5}
+        - {x: -14, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 8.5}
+        - {x: 19, y: 14.5}
+        - {x: 8, y: 16.5}
+        - {x: -16, y: 16.5}
+        - {x: -22, y: 11.5}
+    - name: BELDUM_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 33
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16.5}
+        - {x: -17, y: 16.5}
+        - {x: -22, y: 9.5}
+        - {x: -22, y: -8.5}
+        - {x: -18, y: -14.5}
+        - {x: -3, y: -16.5}
+        - {x: 17, y: -16.5}
+        - {x: 23, y: -12.5}
+        - {x: 23, y: 10.5}
+        - {x: 18, y: 13.5}
+    - name: BELDUM_52
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 33
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 16.5}
+        - {x: -21, y: 15.5}
+        - {x: -21, y: -12.5}
+        - {x: -15, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 12.5}
+        - {x: 14, y: 16.5}
+    - name: BELDUM_53
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 33
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 16.5}
+        - {x: -21, y: 10.5}
+        - {x: -21, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 10.5}
+        - {x: 22, y: 16.5}
+    - name: BELDUM_54
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 33
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 13.5}
+        - {x: 6, y: 16.5}
+        - {x: -16, y: 16.5}
+        - {x: -21, y: 9.5}
+        - {x: -21, y: -10.5}
+        - {x: -19, y: -14.5}
+        - {x: -2, y: -16.5}
+        - {x: 17, y: -16.5}
+        - {x: 19, y: -14.5}
+        - {x: 23, y: -9.5}
+        - {x: 23, y: 6.5}
+    - name: BELDUM_55
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 33
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -21, y: 15.5}
+        - {x: -21, y: -5.5}
+        - {x: -18, y: -12.5}
+        - {x: -1, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 23, y: -11.5}
+        - {x: 23, y: 9.5}
+        - {x: 13, y: 16.5}
+    - name: BELDUM_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 16.5}
+        - {x: -21, y: -14.5}
+        - {x: -20, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 9.5}
+        - {x: 19, y: 16.5}
+    - name: BELDUM_57
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16.5}
+        - {x: -21, y: 14.5}
+        - {x: -21, y: -9.5}
+        - {x: -11, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 23, y: -14.5}
+        - {x: 23, y: 12.5}
+        - {x: 17, y: 16.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

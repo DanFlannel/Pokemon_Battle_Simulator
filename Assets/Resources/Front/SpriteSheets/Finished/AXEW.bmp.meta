@@ -1,0 +1,1153 @@
+fileFormatVersion: 2
+guid: 215871aae363e8749813c110074fa52a
+timeCreated: 1452636804
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AXEW_0
+    21300002: AXEW_1
+    21300004: AXEW_2
+    21300006: AXEW_3
+    21300008: AXEW_4
+    21300010: AXEW_5
+    21300012: AXEW_6
+    21300014: AXEW_7
+    21300016: AXEW_8
+    21300018: AXEW_9
+    21300020: AXEW_10
+    21300022: AXEW_11
+    21300024: AXEW_12
+    21300026: AXEW_13
+    21300028: AXEW_14
+    21300030: AXEW_15
+    21300032: AXEW_16
+    21300034: AXEW_17
+    21300036: AXEW_18
+    21300038: AXEW_19
+    21300040: AXEW_20
+    21300042: AXEW_21
+    21300044: AXEW_22
+    21300046: AXEW_23
+    21300048: AXEW_24
+    21300050: AXEW_25
+    21300052: AXEW_26
+    21300054: AXEW_27
+    21300056: AXEW_28
+    21300058: AXEW_29
+    21300060: AXEW_30
+    21300062: AXEW_31
+    21300064: AXEW_32
+    21300066: AXEW_33
+    21300068: AXEW_34
+    21300070: AXEW_35
+    21300072: AXEW_36
+    21300074: AXEW_37
+    21300076: AXEW_38
+    21300078: AXEW_39
+    21300080: AXEW_40
+    21300082: AXEW_41
+    21300084: AXEW_42
+    21300086: AXEW_43
+    21300088: AXEW_44
+    21300090: AXEW_45
+    21300092: AXEW_46
+    21300094: AXEW_47
+    21300096: AXEW_48
+    21300098: AXEW_49
+    21300100: AXEW_50
+    21300102: AXEW_51
+    21300104: AXEW_52
+    21300106: AXEW_53
+    21300108: AXEW_54
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AXEW_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -5}
+        - {x: -23.5, y: -17}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 14}
+        - {x: 21.5, y: 33}
+        - {x: 6.5, y: 33}
+        - {x: -18.5, y: 12}
+    - name: AXEW_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 462
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 33}
+        - {x: -23.5, y: 3}
+        - {x: -23.5, y: -24}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 19}
+        - {x: 14.5, y: 33}
+    - name: AXEW_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 462
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 33}
+        - {x: -23.5, y: 12}
+        - {x: -23.5, y: -17}
+        - {x: -14.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 20}
+        - {x: 14.5, y: 33}
+    - name: AXEW_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 462
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 33}
+        - {x: -22.5, y: 17}
+        - {x: -23.5, y: 14}
+        - {x: -23.5, y: -15}
+        - {x: -12.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 11}
+        - {x: 20.5, y: 33}
+    - name: AXEW_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 462
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -15}
+        - {x: -8.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 25}
+        - {x: 22.5, y: 33}
+        - {x: 1.5, y: 33}
+        - {x: -23.5, y: 4}
+    - name: AXEW_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 462
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 9}
+        - {x: -23.5, y: -14}
+        - {x: -12.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 33}
+        - {x: 8.5, y: 33}
+        - {x: -20.5, y: 15}
+    - name: AXEW_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 462
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 33}
+        - {x: -22.5, y: 17}
+        - {x: -23.5, y: 15}
+        - {x: -23.5, y: -14}
+        - {x: -12.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 12}
+        - {x: 21.5, y: 33}
+    - name: AXEW_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 462
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 33}
+        - {x: -21.5, y: 15}
+        - {x: -23.5, y: 11}
+        - {x: -23.5, y: -23}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 13}
+        - {x: 20.5, y: 33}
+    - name: AXEW_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 33}
+        - {x: -23.5, y: 9}
+        - {x: -23.5, y: -16}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 12}
+        - {x: 15.5, y: 33}
+    - name: AXEW_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 396
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 33}
+        - {x: 11.5, y: 33}
+        - {x: -10.5, y: 17}
+        - {x: -16.5, y: 11}
+        - {x: -23.5, y: 3}
+        - {x: -23.5, y: -14}
+        - {x: -9.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -9}
+        - {x: 21.5, y: -6}
+    - name: AXEW_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 396
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 33}
+        - {x: 10.5, y: 33}
+        - {x: -17.5, y: 9}
+        - {x: -18.5, y: 4}
+        - {x: -23.5, y: -3}
+        - {x: -23.5, y: -11}
+        - {x: -9.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -9}
+        - {x: 21.5, y: -6}
+    - name: AXEW_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 396
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -13}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 33}
+        - {x: 8.5, y: 33}
+        - {x: -13.5, y: 23}
+        - {x: -23.5, y: 5}
+    - name: AXEW_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 396
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -21}
+        - {x: -10.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 17}
+        - {x: 21.5, y: 33}
+        - {x: 8.5, y: 33}
+        - {x: -17.5, y: 24}
+        - {x: -23.5, y: 5}
+    - name: AXEW_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 396
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -3}
+        - {x: -23.5, y: -18}
+        - {x: -13.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 16}
+        - {x: 21.5, y: 33}
+        - {x: 9.5, y: 33}
+        - {x: -18.5, y: 9}
+    - name: AXEW_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 396
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 1}
+        - {x: -23.5, y: -15}
+        - {x: -10.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 15}
+        - {x: 21.5, y: 33}
+        - {x: 9.5, y: 33}
+        - {x: -17.5, y: 9}
+    - name: AXEW_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 396
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -4}
+        - {x: -23.5, y: -15}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 14}
+        - {x: 21.5, y: 33}
+        - {x: 9.5, y: 33}
+        - {x: -19.5, y: 7}
+    - name: AXEW_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 1}
+        - {x: -23.5, y: -19}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 15}
+        - {x: 21.5, y: 33}
+        - {x: 9.5, y: 33}
+        - {x: -21.5, y: 10}
+    - name: AXEW_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 330
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -5}
+        - {x: -23.5, y: -18}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 20}
+        - {x: 22.5, y: 33}
+        - {x: 9.5, y: 33}
+        - {x: -17.5, y: 8}
+    - name: AXEW_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 330
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 32}
+        - {x: 11.5, y: 33}
+        - {x: 9.5, y: 33}
+        - {x: -18.5, y: 9}
+        - {x: -23.5, y: -6}
+        - {x: -23.5, y: -18}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -10}
+        - {x: 21.5, y: -6}
+    - name: AXEW_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 330
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -1}
+        - {x: -23.5, y: -24}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 13}
+        - {x: 20.5, y: 33}
+        - {x: 9.5, y: 33}
+        - {x: -13.5, y: 22}
+    - name: AXEW_20
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 330
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -1}
+        - {x: -23.5, y: -16}
+        - {x: -9.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 6}
+        - {x: 19.5, y: 33}
+        - {x: 10.5, y: 33}
+        - {x: -12.5, y: 15}
+    - name: AXEW_21
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 330
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 33}
+        - {x: -18.5, y: 9}
+        - {x: -23.5, y: -6}
+        - {x: -23.5, y: -17}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 28}
+        - {x: 15.5, y: 33}
+    - name: AXEW_22
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 330
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 33}
+        - {x: -23.5, y: 2}
+        - {x: -23.5, y: -19}
+        - {x: -11.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 15}
+        - {x: 13.5, y: 33}
+    - name: AXEW_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 330
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -15}
+        - {x: -22.5, y: -15}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 2}
+        - {x: 17.5, y: 33}
+        - {x: 3.5, y: 33}
+        - {x: -23.5, y: 0}
+    - name: AXEW_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -18}
+        - {x: -13.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 6}
+        - {x: 17.5, y: 33}
+        - {x: 4.5, y: 33}
+        - {x: 1.5, y: 31}
+        - {x: -23.5, y: 1}
+    - name: AXEW_25
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 264
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 33}
+        - {x: -16.5, y: 20}
+        - {x: -23.5, y: -3}
+        - {x: -23.5, y: -19}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -5}
+        - {x: 13.5, y: 33}
+    - name: AXEW_26
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 264
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 12}
+        - {x: -23.5, y: -17}
+        - {x: -11.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 33}
+        - {x: 5.5, y: 33}
+        - {x: -22.5, y: 14}
+    - name: AXEW_27
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 264
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 33}
+        - {x: -19.5, y: 4}
+        - {x: -23.5, y: -5}
+        - {x: -23.5, y: -14}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -3}
+        - {x: 13.5, y: 33}
+    - name: AXEW_28
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 264
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -15}
+        - {x: -11.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 20}
+        - {x: 21.5, y: 33}
+        - {x: 5.5, y: 33}
+        - {x: -21.5, y: 14}
+        - {x: -23.5, y: 6}
+    - name: AXEW_29
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 264
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 2}
+        - {x: -23.5, y: -20}
+        - {x: -13.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 6}
+        - {x: 19.5, y: 33}
+        - {x: 5.5, y: 33}
+        - {x: -9.5, y: 17}
+    - name: AXEW_30
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 264
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -4}
+        - {x: -23.5, y: -15}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 11}
+        - {x: 19.5, y: 33}
+        - {x: 6.5, y: 33}
+        - {x: -21.5, y: 6}
+    - name: AXEW_31
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 264
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 33}
+        - {x: -23.5, y: 18}
+        - {x: -23.5, y: -13}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 7}
+        - {x: 20.5, y: 33}
+    - name: AXEW_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -15}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 20}
+        - {x: 21.5, y: 33}
+        - {x: 6.5, y: 33}
+        - {x: -20.5, y: 13}
+        - {x: -23.5, y: 2}
+    - name: AXEW_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 198
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 33}
+        - {x: -12.5, y: 24}
+        - {x: -23.5, y: 2}
+        - {x: -23.5, y: -20}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 19}
+        - {x: 13.5, y: 33}
+    - name: AXEW_34
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 198
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -19}
+        - {x: -12.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 14}
+        - {x: 20.5, y: 33}
+        - {x: 0.5, y: 33}
+        - {x: -23.5, y: 6}
+    - name: AXEW_35
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 198
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -3}
+        - {x: -23.5, y: -16}
+        - {x: -12.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 10}
+        - {x: 19.5, y: 33}
+        - {x: 9.5, y: 33}
+        - {x: -19.5, y: 12}
+    - name: AXEW_36
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 198
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -15}
+        - {x: -12.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 15}
+        - {x: 20.5, y: 33}
+        - {x: 2.5, y: 33}
+        - {x: -23.5, y: 3}
+    - name: AXEW_37
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 198
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -14}
+        - {x: -12.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 33}
+        - {x: 4.5, y: 33}
+        - {x: -12.5, y: 26}
+        - {x: -23.5, y: 4}
+    - name: AXEW_38
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 198
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 33}
+        - {x: 8.5, y: 33}
+        - {x: -16.5, y: 11}
+        - {x: -23.5, y: 0}
+        - {x: -23.5, y: -16}
+        - {x: -12.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -8}
+        - {x: 22.5, y: -7}
+    - name: AXEW_39
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 198
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -21}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 10}
+        - {x: 20.5, y: 33}
+        - {x: -3.5, y: 33}
+        - {x: -23.5, y: 3}
+    - name: AXEW_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -19}
+        - {x: -11.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 6}
+        - {x: 19.5, y: 33}
+        - {x: 3.5, y: 33}
+        - {x: -23.5, y: 4}
+    - name: AXEW_41
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 132
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -15}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 33}
+        - {x: 7.5, y: 33}
+        - {x: -23.5, y: 13}
+    - name: AXEW_42
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 132
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -2}
+        - {x: -23.5, y: -18}
+        - {x: -8.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 25}
+        - {x: 22.5, y: 33}
+        - {x: 5.5, y: 33}
+        - {x: 3.5, y: 32}
+        - {x: -19.5, y: 12}
+    - name: AXEW_43
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 132
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 33}
+        - {x: 7.5, y: 33}
+        - {x: -18.5, y: 9}
+        - {x: -23.5, y: 0}
+        - {x: -23.5, y: -16}
+        - {x: -10.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -2}
+        - {x: 13.5, y: 32}
+    - name: AXEW_44
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 132
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -4}
+        - {x: -23.5, y: -17}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 19}
+        - {x: 21.5, y: 33}
+        - {x: 6.5, y: 33}
+        - {x: -20.5, y: 4}
+    - name: AXEW_45
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 132
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -18}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 6}
+        - {x: 18.5, y: 33}
+        - {x: 2.5, y: 33}
+        - {x: -19.5, y: 11}
+        - {x: -23.5, y: -2}
+    - name: AXEW_46
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 132
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 33}
+        - {x: -22.5, y: 6}
+        - {x: -23.5, y: -3}
+        - {x: -23.5, y: -15}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 20}
+        - {x: 15.5, y: 33}
+    - name: AXEW_47
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 132
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 7}
+        - {x: -20.5, y: 0}
+        - {x: -23.5, y: -8}
+        - {x: -23.5, y: -17}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 6}
+        - {x: 19.5, y: 33}
+        - {x: 6.5, y: 33}
+        - {x: 1.5, y: 25}
+    - name: AXEW_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 33}
+        - {x: -20.5, y: 9}
+        - {x: -23.5, y: -4}
+        - {x: -23.5, y: -18}
+        - {x: -9.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -4}
+        - {x: 13.5, y: 33}
+    - name: AXEW_49
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 66
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -8}
+        - {x: -23.5, y: -16}
+        - {x: -22.5, y: -16}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 4}
+        - {x: 19.5, y: 33}
+        - {x: 5.5, y: 33}
+        - {x: -17.5, y: 7}
+    - name: AXEW_50
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 66
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -6}
+        - {x: -23.5, y: -18}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 4}
+        - {x: 19.5, y: 33}
+        - {x: 5.5, y: 33}
+        - {x: -17.5, y: 7}
+    - name: AXEW_51
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 66
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 33}
+        - {x: -21.5, y: 14}
+        - {x: -23.5, y: 4}
+        - {x: -23.5, y: -23}
+        - {x: -7.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -4}
+        - {x: 12.5, y: 33}
+    - name: AXEW_52
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 66
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 33}
+        - {x: -15.5, y: 17}
+        - {x: -23.5, y: 1}
+        - {x: -23.5, y: -17}
+        - {x: -10.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -6}
+        - {x: 12.5, y: 33}
+    - name: AXEW_53
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 66
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 33}
+        - {x: -23.5, y: 12}
+        - {x: -23.5, y: -29}
+        - {x: -12.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: 3}
+        - {x: 17.5, y: 33}
+    - name: AXEW_54
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 66
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 33}
+        - {x: 5.5, y: 33}
+        - {x: -18.5, y: 9}
+        - {x: -23.5, y: -7}
+        - {x: -23.5, y: -18}
+        - {x: -6.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 23.5, y: -2}
+        - {x: 12.5, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

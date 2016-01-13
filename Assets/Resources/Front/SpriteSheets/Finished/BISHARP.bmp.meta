@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: d6d4db8507b357b4dbea796a61cd0aac
+timeCreated: 1452637123
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BISHARP_0
+    21300002: BISHARP_1
+    21300004: BISHARP_2
+    21300006: BISHARP_3
+    21300008: BISHARP_4
+    21300010: BISHARP_5
+    21300012: BISHARP_6
+    21300014: BISHARP_7
+    21300016: BISHARP_8
+    21300018: BISHARP_9
+    21300020: BISHARP_10
+    21300022: BISHARP_11
+    21300024: BISHARP_12
+    21300026: BISHARP_13
+    21300028: BISHARP_14
+    21300030: BISHARP_15
+    21300032: BISHARP_16
+    21300034: BISHARP_17
+    21300036: BISHARP_18
+    21300038: BISHARP_19
+    21300040: BISHARP_20
+    21300042: BISHARP_21
+    21300044: BISHARP_22
+    21300046: BISHARP_23
+    21300048: BISHARP_24
+    21300050: BISHARP_25
+    21300052: BISHARP_26
+    21300054: BISHARP_27
+    21300056: BISHARP_28
+    21300058: BISHARP_29
+    21300060: BISHARP_30
+    21300062: BISHARP_31
+    21300064: BISHARP_32
+    21300066: BISHARP_33
+    21300068: BISHARP_34
+    21300070: BISHARP_35
+    21300072: BISHARP_36
+    21300074: BISHARP_37
+    21300076: BISHARP_38
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BISHARP_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 49.5}
+        - {x: -12, y: 49.5}
+        - {x: -15, y: 45.5}
+        - {x: -26, y: 11.5}
+        - {x: -26, y: -17.5}
+        - {x: -24, y: -17.5}
+        - {x: -16, y: -43.5}
+        - {x: -13, y: -49.5}
+        - {x: -12, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 3, y: -37.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 26, y: -41.5}
+        - {x: 26, y: 22.5}
+        - {x: 20, y: 40.5}
+    - name: BISHARP_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 594
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 49.5}
+        - {x: -17, y: 46.5}
+        - {x: -26, y: -1.5}
+        - {x: -26, y: -27.5}
+        - {x: -18, y: -49.5}
+        - {x: -5, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 25, y: -49.5}
+        - {x: 26, y: -47.5}
+        - {x: 26, y: 24.5}
+        - {x: 10, y: 49.5}
+    - name: BISHARP_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 594
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 49.5}
+        - {x: -12, y: 49.5}
+        - {x: -16, y: 45.5}
+        - {x: -26, y: 14.5}
+        - {x: -26, y: -25.5}
+        - {x: -18, y: -49.5}
+        - {x: -5, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 26, y: -31.5}
+        - {x: 26, y: 10.5}
+        - {x: 19, y: 40.5}
+    - name: BISHARP_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 594
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 16.5}
+        - {x: 16, y: 49.5}
+        - {x: -18, y: 49.5}
+        - {x: -26, y: 4.5}
+        - {x: -26, y: -29.5}
+        - {x: -19, y: -49.5}
+        - {x: -5, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -27.5}
+        - {x: 6, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 21, y: -36.5}
+        - {x: 26, y: -26.5}
+    - name: BISHARP_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 594
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 49.5}
+        - {x: -26, y: 13.5}
+        - {x: -26, y: -31.5}
+        - {x: -19, y: -49.5}
+        - {x: -5, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -27.5}
+        - {x: 6, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 26, y: -44.5}
+        - {x: 26, y: 49.5}
+    - name: BISHARP_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 594
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 49.5}
+        - {x: -26, y: 36.5}
+        - {x: -26, y: 13.5}
+        - {x: -23, y: 7.5}
+        - {x: -20, y: 4.5}
+        - {x: -16, y: 4.5}
+        - {x: -18, y: 4.5}
+        - {x: -25, y: 0.5}
+        - {x: -26, y: -5.5}
+        - {x: -26, y: -25.5}
+        - {x: -18, y: -49.5}
+        - {x: -5, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 6, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 26, y: -44.5}
+        - {x: 26, y: 21.5}
+        - {x: 11, y: 49.5}
+    - name: BISHARP_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 594
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 49.5}
+        - {x: -14, y: 49.5}
+        - {x: -23, y: 7.5}
+        - {x: -19, y: 4.5}
+        - {x: -16, y: 4.5}
+        - {x: -18, y: 4.5}
+        - {x: -25, y: 0.5}
+        - {x: -26, y: -5.5}
+        - {x: -26, y: -25.5}
+        - {x: -18, y: -49.5}
+        - {x: -5, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 6, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 26, y: -38.5}
+        - {x: 26, y: 7.5}
+        - {x: 12, y: 46.5}
+    - name: BISHARP_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 49.5}
+        - {x: -12, y: 49.5}
+        - {x: -16, y: 45.5}
+        - {x: -26, y: 7.5}
+        - {x: -26, y: -21.5}
+        - {x: -15, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 26, y: -37.5}
+        - {x: 26, y: 10.5}
+        - {x: 18, y: 40.5}
+    - name: BISHARP_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 495
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 40.5}
+        - {x: 8, y: 49.5}
+        - {x: -19, y: 49.5}
+        - {x: -26, y: 47.5}
+        - {x: -26, y: -49.5}
+        - {x: -6, y: -49.5}
+        - {x: 5, y: -46.5}
+        - {x: 5, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 26, y: -37.5}
+        - {x: 26, y: 12.5}
+    - name: BISHARP_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 495
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 49.5}
+        - {x: -13, y: 49.5}
+        - {x: -26, y: 16.5}
+        - {x: -26, y: -24.5}
+        - {x: -19, y: -49.5}
+        - {x: -4, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 26, y: -40.5}
+        - {x: 26, y: 20.5}
+        - {x: 15, y: 38.5}
+    - name: BISHARP_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 495
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 49.5}
+        - {x: -13, y: 49.5}
+        - {x: -14, y: 45.5}
+        - {x: -26, y: 6.5}
+        - {x: -26, y: -29.5}
+        - {x: -14, y: -49.5}
+        - {x: -9, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 26, y: -30.5}
+        - {x: 26, y: 15.5}
+        - {x: 15, y: 38.5}
+    - name: BISHARP_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 495
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 49.5}
+        - {x: -26, y: 24.5}
+        - {x: -26, y: -42.5}
+        - {x: -23, y: -48.5}
+        - {x: -14, y: -49.5}
+        - {x: -1, y: -49.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 26, y: -49.5}
+        - {x: 26, y: 47.5}
+        - {x: 23, y: 49.5}
+    - name: BISHARP_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 495
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 49.5}
+        - {x: -13, y: 49.5}
+        - {x: -26, y: 6.5}
+        - {x: -26, y: -30.5}
+        - {x: -16, y: -46.5}
+        - {x: -12, y: -48.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 26, y: -37.5}
+        - {x: 26, y: 14.5}
+        - {x: 13, y: 44.5}
+    - name: BISHARP_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 495
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 49.5}
+        - {x: -26, y: 27.5}
+        - {x: -26, y: -49.5}
+        - {x: -6, y: -49.5}
+        - {x: 5, y: -46.5}
+        - {x: 5, y: -49.5}
+        - {x: 26, y: -49.5}
+        - {x: 26, y: 25.5}
+        - {x: 8, y: 49.5}
+    - name: BISHARP_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 49.5}
+        - {x: -14, y: 49.5}
+        - {x: -16, y: 46.5}
+        - {x: -26, y: 1.5}
+        - {x: -26, y: -24.5}
+        - {x: -14, y: -49.5}
+        - {x: -8, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -46.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 26, y: -40.5}
+        - {x: 26, y: 29.5}
+    - name: BISHARP_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 396
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 49.5}
+        - {x: -12, y: 49.5}
+        - {x: -22, y: 32.5}
+        - {x: -26, y: 12.5}
+        - {x: -26, y: -28.5}
+        - {x: -13, y: -49.5}
+        - {x: -12, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 3, y: -37.5}
+        - {x: 5, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 26, y: -30.5}
+        - {x: 26, y: 9.5}
+        - {x: 13, y: 42.5}
+    - name: BISHARP_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 396
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 49.5}
+        - {x: -10, y: 49.5}
+        - {x: -14, y: 45.5}
+        - {x: -26, y: -3.5}
+        - {x: -26, y: -26.5}
+        - {x: -18, y: -49.5}
+        - {x: -5, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 5, y: -49.5}
+        - {x: 25, y: -49.5}
+        - {x: 26, y: -45.5}
+        - {x: 26, y: 22.5}
+        - {x: 15, y: 44.5}
+    - name: BISHARP_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 396
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 49.5}
+        - {x: -13, y: 49.5}
+        - {x: -26, y: -1.5}
+        - {x: -26, y: -31.5}
+        - {x: -20, y: -49.5}
+        - {x: 21, y: -49.5}
+        - {x: 23, y: -41.5}
+        - {x: 26, y: -31.5}
+        - {x: 26, y: 17.5}
+    - name: BISHARP_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 396
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 49.5}
+        - {x: -14, y: 49.5}
+        - {x: -23, y: 9.5}
+        - {x: -26, y: -6.5}
+        - {x: -26, y: -19.5}
+        - {x: -15, y: -49.5}
+        - {x: 25, y: -49.5}
+        - {x: 26, y: -37.5}
+        - {x: 26, y: 18.5}
+        - {x: 12, y: 41.5}
+    - name: BISHARP_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 396
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 49.5}
+        - {x: -12, y: 49.5}
+        - {x: -26, y: 11.5}
+        - {x: -26, y: -38.5}
+        - {x: -24, y: -48.5}
+        - {x: -17, y: -49.5}
+        - {x: 21, y: -49.5}
+        - {x: 23, y: -41.5}
+        - {x: 26, y: -28.5}
+        - {x: 26, y: 20.5}
+    - name: BISHARP_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 396
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 49.5}
+        - {x: -26, y: -49.5}
+        - {x: 26, y: -49.5}
+        - {x: 26, y: 49.5}
+    - name: BISHARP_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 49.5}
+        - {x: -26, y: -49.5}
+        - {x: 26, y: -49.5}
+        - {x: 26, y: 49.5}
+    - name: BISHARP_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 297
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 49.5}
+        - {x: -14, y: 45.5}
+        - {x: -22, y: 8.5}
+        - {x: -20, y: 5.5}
+        - {x: -15, y: 5.5}
+        - {x: -17, y: 5.5}
+        - {x: -26, y: -0.5}
+        - {x: -26, y: -24.5}
+        - {x: -18, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 26, y: -43.5}
+        - {x: 26, y: 19.5}
+        - {x: 11, y: 49.5}
+    - name: BISHARP_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 297
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 49.5}
+        - {x: -15, y: 46.5}
+        - {x: -22, y: 8.5}
+        - {x: -20, y: 5.5}
+        - {x: -15, y: 5.5}
+        - {x: -26, y: 5.5}
+        - {x: -26, y: -49.5}
+        - {x: 25, y: -49.5}
+        - {x: 26, y: -47.5}
+        - {x: 26, y: 20.5}
+        - {x: 11, y: 49.5}
+    - name: BISHARP_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 297
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 49.5}
+        - {x: -16, y: 46.5}
+        - {x: -26, y: 6.5}
+        - {x: -26, y: -20.5}
+        - {x: -16, y: -46.5}
+        - {x: -12, y: -48.5}
+        - {x: -9, y: -49.5}
+        - {x: 26, y: -49.5}
+        - {x: 26, y: 23.5}
+        - {x: 7, y: 49.5}
+    - name: BISHARP_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 297
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 49.5}
+        - {x: -26, y: 8.5}
+        - {x: -26, y: -21.5}
+        - {x: -19, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 24.5}
+        - {x: 9, y: 49.5}
+    - name: BISHARP_26
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 297
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 49.5}
+        - {x: -26, y: 20.5}
+        - {x: -26, y: -43.5}
+        - {x: -25, y: -49.5}
+        - {x: 26, y: -49.5}
+        - {x: 26, y: 49.5}
+    - name: BISHARP_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 297
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 49.5}
+        - {x: -26, y: 21.5}
+        - {x: -26, y: -38.5}
+        - {x: -21, y: -49.5}
+        - {x: 26, y: -49.5}
+        - {x: 26, y: 45.5}
+        - {x: 15, y: 49.5}
+    - name: BISHARP_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 41.5}
+        - {x: 5, y: 49.5}
+        - {x: -11, y: 49.5}
+        - {x: -14, y: 45.5}
+        - {x: -21, y: 10.5}
+        - {x: -20, y: 7.5}
+        - {x: -18, y: 5.5}
+        - {x: -22, y: 0.5}
+        - {x: -26, y: -1.5}
+        - {x: -26, y: -26.5}
+        - {x: -18, y: -47.5}
+        - {x: -8, y: -49.5}
+        - {x: -1, y: -49.5}
+        - {x: 2, y: -46.5}
+        - {x: 4, y: -35.5}
+        - {x: 3, y: -27.5}
+        - {x: 6, y: -30.5}
+        - {x: 6, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 23.5}
+    - name: BISHARP_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 198
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 41.5}
+        - {x: 5, y: 49.5}
+        - {x: -11, y: 49.5}
+        - {x: -14, y: 45.5}
+        - {x: -21, y: 10.5}
+        - {x: -20, y: 7.5}
+        - {x: -18, y: 5.5}
+        - {x: -16, y: 5.5}
+        - {x: -18, y: 5.5}
+        - {x: -26, y: -1.5}
+        - {x: -26, y: -24.5}
+        - {x: -18, y: -47.5}
+        - {x: -8, y: -49.5}
+        - {x: -1, y: -49.5}
+        - {x: 2, y: -46.5}
+        - {x: 4, y: -35.5}
+        - {x: 3, y: -27.5}
+        - {x: 6, y: -29.5}
+        - {x: 6, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 23.5}
+    - name: BISHARP_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 198
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 49.5}
+        - {x: -13, y: 49.5}
+        - {x: -26, y: 10.5}
+        - {x: -18, y: 5.5}
+        - {x: -16, y: 5.5}
+        - {x: -18, y: 5.5}
+        - {x: -26, y: 1.5}
+        - {x: -26, y: -44.5}
+        - {x: -25, y: -49.5}
+        - {x: -7, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -46.5}
+        - {x: 4, y: -35.5}
+        - {x: 3, y: -27.5}
+        - {x: 6, y: -29.5}
+        - {x: 6, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 26, y: -29.5}
+        - {x: 26, y: 20.5}
+    - name: BISHARP_31
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 198
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 49.5}
+        - {x: -16, y: 49.5}
+        - {x: -26, y: 15.5}
+        - {x: -26, y: 6.5}
+        - {x: -20, y: 5.5}
+        - {x: -16, y: 5.5}
+        - {x: -18, y: 5.5}
+        - {x: -26, y: 1.5}
+        - {x: -26, y: -44.5}
+        - {x: -25, y: -49.5}
+        - {x: -7, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -46.5}
+        - {x: 4, y: -35.5}
+        - {x: 3, y: -27.5}
+        - {x: 6, y: -29.5}
+        - {x: 6, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 26, y: -30.5}
+        - {x: 26, y: 23.5}
+        - {x: 17, y: 45.5}
+    - name: BISHARP_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 198
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 49.5}
+        - {x: -22, y: 8.5}
+        - {x: -20, y: 5.5}
+        - {x: -16, y: 5.5}
+        - {x: -18, y: 5.5}
+        - {x: -26, y: -1.5}
+        - {x: -26, y: -19.5}
+        - {x: -17, y: -49.5}
+        - {x: -2, y: -49.5}
+        - {x: 2, y: -46.5}
+        - {x: 4, y: -35.5}
+        - {x: 3, y: -27.5}
+        - {x: 6, y: -29.5}
+        - {x: 6, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 26, y: -35.5}
+        - {x: 26, y: 31.5}
+        - {x: 23, y: 49.5}
+    - name: BISHARP_33
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 198
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 49.5}
+        - {x: -25, y: 8.5}
+        - {x: -20, y: 5.5}
+        - {x: -16, y: 5.5}
+        - {x: -18, y: 5.5}
+        - {x: -25, y: -1.5}
+        - {x: -26, y: -4.5}
+        - {x: -26, y: -18.5}
+        - {x: -17, y: -49.5}
+        - {x: 25, y: -49.5}
+        - {x: 26, y: -47.5}
+        - {x: 26, y: 29.5}
+        - {x: 16, y: 49.5}
+    - name: BISHARP_34
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 198
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 49.5}
+        - {x: -13, y: 45.5}
+        - {x: -21, y: 8.5}
+        - {x: -20, y: 5.5}
+        - {x: -16, y: 5.5}
+        - {x: -18, y: 5.5}
+        - {x: -25, y: -1.5}
+        - {x: -26, y: -4.5}
+        - {x: -26, y: -18.5}
+        - {x: -17, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 26, y: -38.5}
+        - {x: 26, y: 23.5}
+        - {x: 21, y: 49.5}
+    - name: BISHARP_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 49.5}
+        - {x: -24, y: 8.5}
+        - {x: -20, y: 5.5}
+        - {x: -16, y: 5.5}
+        - {x: -18, y: 5.5}
+        - {x: -25, y: -1.5}
+        - {x: -26, y: -4.5}
+        - {x: -26, y: -22.5}
+        - {x: -23, y: -46.5}
+        - {x: -15, y: -49.5}
+        - {x: 26, y: -49.5}
+        - {x: 26, y: 32.5}
+        - {x: 15, y: 49.5}
+    - name: BISHARP_36
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 99
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 49.5}
+        - {x: -12, y: 49.5}
+        - {x: -15, y: 45.5}
+        - {x: -21, y: 8.5}
+        - {x: -20, y: 5.5}
+        - {x: -16, y: 5.5}
+        - {x: -18, y: 5.5}
+        - {x: -26, y: -1.5}
+        - {x: -26, y: -31.5}
+        - {x: -15, y: -49.5}
+        - {x: -6, y: -49.5}
+        - {x: 2, y: -47.5}
+        - {x: 4, y: -37.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 26, y: -44.5}
+        - {x: 26, y: 20.5}
+        - {x: 19, y: 40.5}
+    - name: BISHARP_37
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 99
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 49.5}
+        - {x: -14, y: 49.5}
+        - {x: -23, y: 9.5}
+        - {x: -20, y: 5.5}
+        - {x: -16, y: 5.5}
+        - {x: -18, y: 5.5}
+        - {x: -26, y: -0.5}
+        - {x: -26, y: -28.5}
+        - {x: -17, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 26, y: -38.5}
+        - {x: 26, y: 8.5}
+        - {x: 16, y: 38.5}
+    - name: BISHARP_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 99
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 49.5}
+        - {x: -15, y: 49.5}
+        - {x: -26, y: 27.5}
+        - {x: -26, y: -27.5}
+        - {x: -17, y: -49.5}
+        - {x: -5, y: -49.5}
+        - {x: -3, y: -48.5}
+        - {x: 2, y: -44.5}
+        - {x: 3, y: -37.5}
+        - {x: 4, y: -28.5}
+        - {x: 6, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 26, y: -41.5}
+        - {x: 26, y: 19.5}
+        - {x: 19, y: 40.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

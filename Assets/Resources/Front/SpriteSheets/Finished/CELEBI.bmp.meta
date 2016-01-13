@@ -1,0 +1,1713 @@
+fileFormatVersion: 2
+guid: eac244d36103a4f42bd7cee67c27c79c
+timeCreated: 1452637514
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CELEBI_0
+    21300002: CELEBI_1
+    21300004: CELEBI_2
+    21300006: CELEBI_3
+    21300008: CELEBI_4
+    21300010: CELEBI_5
+    21300012: CELEBI_6
+    21300014: CELEBI_7
+    21300016: CELEBI_8
+    21300018: CELEBI_9
+    21300020: CELEBI_10
+    21300022: CELEBI_11
+    21300024: CELEBI_12
+    21300026: CELEBI_13
+    21300028: CELEBI_14
+    21300030: CELEBI_15
+    21300032: CELEBI_16
+    21300034: CELEBI_17
+    21300036: CELEBI_18
+    21300038: CELEBI_19
+    21300040: CELEBI_20
+    21300042: CELEBI_21
+    21300044: CELEBI_22
+    21300046: CELEBI_23
+    21300048: CELEBI_24
+    21300050: CELEBI_25
+    21300052: CELEBI_26
+    21300054: CELEBI_27
+    21300056: CELEBI_28
+    21300058: CELEBI_29
+    21300060: CELEBI_30
+    21300062: CELEBI_31
+    21300064: CELEBI_32
+    21300066: CELEBI_33
+    21300068: CELEBI_34
+    21300070: CELEBI_35
+    21300072: CELEBI_36
+    21300074: CELEBI_37
+    21300076: CELEBI_38
+    21300078: CELEBI_39
+    21300080: CELEBI_40
+    21300082: CELEBI_41
+    21300084: CELEBI_42
+    21300086: CELEBI_43
+    21300088: CELEBI_44
+    21300090: CELEBI_45
+    21300092: CELEBI_46
+    21300094: CELEBI_47
+    21300096: CELEBI_48
+    21300098: CELEBI_49
+    21300100: CELEBI_50
+    21300102: CELEBI_51
+    21300104: CELEBI_52
+    21300106: CELEBI_53
+    21300108: CELEBI_54
+    21300110: CELEBI_55
+    21300112: CELEBI_56
+    21300114: CELEBI_57
+    21300116: CELEBI_58
+    21300118: CELEBI_59
+    21300120: CELEBI_60
+    21300122: CELEBI_61
+    21300124: CELEBI_62
+    21300126: CELEBI_63
+    21300128: CELEBI_64
+    21300130: CELEBI_65
+    21300132: CELEBI_66
+    21300134: CELEBI_67
+    21300136: CELEBI_68
+    21300138: CELEBI_69
+    21300140: CELEBI_70
+    21300142: CELEBI_71
+    21300144: CELEBI_72
+    21300146: CELEBI_73
+    21300148: CELEBI_74
+    21300150: CELEBI_75
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CELEBI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 30.5}
+        - {x: -4.5, y: 28.5}
+        - {x: -8.5, y: 18.5}
+        - {x: -7.5, y: 20.5}
+        - {x: -7.5, y: 22.5}
+        - {x: -9.5, y: 24.5}
+        - {x: -17.5, y: 25.5}
+        - {x: -25.5, y: 18.5}
+        - {x: -29.5, y: -3.5}
+        - {x: -29.5, y: -16.5}
+        - {x: -27.5, y: -17.5}
+        - {x: -0.5, y: -32.5}
+        - {x: 29.5, y: -32.5}
+        - {x: 33.5, y: -29.5}
+        - {x: 33.5, y: -5.5}
+        - {x: 7.5, y: 30.5}
+    - name: CELEBI_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 520
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 30.5}
+        - {x: -29.5, y: 12.5}
+        - {x: -29.5, y: -23.5}
+        - {x: -7.5, y: -32.5}
+        - {x: 30.5, y: -32.5}
+        - {x: 33.5, y: -31.5}
+        - {x: 33.5, y: -6.5}
+        - {x: 12.5, y: 30.5}
+    - name: CELEBI_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 520
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 31.5}
+        - {x: -27.5, y: 18.5}
+        - {x: -29.5, y: 1.5}
+        - {x: -29.5, y: -18.5}
+        - {x: -5.5, y: -31.5}
+        - {x: 0.5, y: -32.5}
+        - {x: 31.5, y: -32.5}
+        - {x: 33.5, y: -31.5}
+        - {x: 33.5, y: -0.5}
+        - {x: 15.5, y: 31.5}
+    - name: CELEBI_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 520
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 31.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -29.5, y: 9.5}
+        - {x: -29.5, y: -21.5}
+        - {x: -13.5, y: -32.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 33.5, y: -27.5}
+        - {x: 33.5, y: -1.5}
+        - {x: 1.5, y: 31.5}
+    - name: CELEBI_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 520
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 32.5}
+        - {x: -8.5, y: 31.5}
+        - {x: -24.5, y: 23.5}
+        - {x: -29.5, y: -12.5}
+        - {x: -29.5, y: -20.5}
+        - {x: -4.5, y: -32.5}
+        - {x: 27.5, y: -32.5}
+        - {x: 33.5, y: -25.5}
+        - {x: 33.5, y: -9.5}
+        - {x: 3.5, y: 32.5}
+    - name: CELEBI_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 520
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 32.5}
+        - {x: -8.5, y: 32.5}
+        - {x: -27.5, y: 23.5}
+        - {x: -29.5, y: -3.5}
+        - {x: -29.5, y: -20.5}
+        - {x: 1.5, y: -32.5}
+        - {x: 12.5, y: -32.5}
+        - {x: 16.5, y: -30.5}
+        - {x: 33.5, y: -22.5}
+        - {x: 33.5, y: 0.5}
+        - {x: 14.5, y: 31.5}
+    - name: CELEBI_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 520
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 12.5}
+        - {x: -28.5, y: -23.5}
+        - {x: -12.5, y: -32.5}
+        - {x: 23.5, y: -32.5}
+        - {x: 33.5, y: -24.5}
+        - {x: 33.5, y: 1.5}
+        - {x: 9.5, y: 27.5}
+        - {x: 0.5, y: 32.5}
+        - {x: -10.5, y: 32.5}
+        - {x: -27.5, y: 24.5}
+    - name: CELEBI_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 520
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: -32.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 33.5, y: -23.5}
+        - {x: 33.5, y: 9.5}
+        - {x: 3.5, y: 32.5}
+        - {x: -15.5, y: 32.5}
+        - {x: -28.5, y: 23.5}
+        - {x: -28.5, y: -17.5}
+    - name: CELEBI_8
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 520
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 31.5}
+        - {x: -28.5, y: 21.5}
+        - {x: -27.5, y: 12.5}
+        - {x: -28.5, y: 4.5}
+        - {x: -28.5, y: -19.5}
+        - {x: -0.5, y: -32.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 33.5, y: -23.5}
+        - {x: 33.5, y: 5.5}
+        - {x: 4.5, y: 31.5}
+    - name: CELEBI_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: -0.5}
+        - {x: 4.5, y: 32.5}
+        - {x: -27.5, y: 32.5}
+        - {x: -28.5, y: 27.5}
+        - {x: -28.5, y: -20.5}
+        - {x: -9.5, y: -32.5}
+        - {x: 12.5, y: -32.5}
+        - {x: 14.5, y: -29.5}
+        - {x: 16.5, y: -21.5}
+        - {x: 31.5, y: -12.5}
+        - {x: 32.5, y: -10.5}
+    - name: CELEBI_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 455
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 32.5}
+        - {x: -13.5, y: 32.5}
+        - {x: -28.5, y: 26.5}
+        - {x: -28.5, y: -15.5}
+        - {x: -3.5, y: -30.5}
+        - {x: 1.5, y: -32.5}
+        - {x: 11.5, y: -32.5}
+        - {x: 16.5, y: -30.5}
+        - {x: 31.5, y: -12.5}
+        - {x: 32.5, y: -11.5}
+        - {x: 32.5, y: 2.5}
+    - name: CELEBI_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 455
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 32.5}
+        - {x: -27.5, y: 29.5}
+        - {x: -28.5, y: 23.5}
+        - {x: -28.5, y: -18.5}
+        - {x: -8.5, y: -32.5}
+        - {x: 23.5, y: -32.5}
+        - {x: 32.5, y: -24.5}
+        - {x: 32.5, y: 3.5}
+        - {x: 7.5, y: 32.5}
+    - name: CELEBI_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 455
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -0.5}
+        - {x: -1.5, y: 32.5}
+        - {x: -5.5, y: 32.5}
+        - {x: -8.5, y: 29.5}
+        - {x: -28.5, y: 21.5}
+        - {x: -28.5, y: -14.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 17.5, y: -32.5}
+        - {x: 32.5, y: -12.5}
+        - {x: 32.5, y: -5.5}
+        - {x: 30.5, y: -0.5}
+    - name: CELEBI_13
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 455
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: -2.5}
+        - {x: 30.5, y: 0.5}
+        - {x: 3.5, y: 31.5}
+        - {x: -19.5, y: 31.5}
+        - {x: -28.5, y: 27.5}
+        - {x: -28.5, y: -14.5}
+        - {x: -3.5, y: -31.5}
+        - {x: 1.5, y: -32.5}
+        - {x: 12.5, y: -32.5}
+        - {x: 13.5, y: -30.5}
+        - {x: 13.5, y: -21.5}
+        - {x: 31.5, y: -10.5}
+    - name: CELEBI_14
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 455
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 0.5}
+        - {x: 2.5, y: 32.5}
+        - {x: -14.5, y: 32.5}
+        - {x: -29.5, y: 24.5}
+        - {x: -29.5, y: -15.5}
+        - {x: -0.5, y: -32.5}
+        - {x: 11.5, y: -32.5}
+        - {x: 15.5, y: -30.5}
+        - {x: 13.5, y: -19.5}
+        - {x: 31.5, y: -9.5}
+        - {x: 31.5, y: -4.5}
+    - name: CELEBI_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 455
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 31.5}
+        - {x: -29.5, y: 25.5}
+        - {x: -29.5, y: -15.5}
+        - {x: 0.5, y: -32.5}
+        - {x: 12.5, y: -32.5}
+        - {x: 15.5, y: -30.5}
+        - {x: 30.5, y: -15.5}
+        - {x: 30.5, y: 16.5}
+        - {x: 0.5, y: 31.5}
+    - name: CELEBI_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 455
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -29.5, y: 29.5}
+        - {x: -30.5, y: 23.5}
+        - {x: -30.5, y: -13.5}
+        - {x: -8.5, y: -32.5}
+        - {x: 18.5, y: -32.5}
+        - {x: 28.5, y: -26.5}
+        - {x: 29.5, y: -22.5}
+        - {x: 29.5, y: 4.5}
+        - {x: 3.5, y: 31.5}
+    - name: CELEBI_17
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 455
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 30.5}
+        - {x: -10.5, y: 28.5}
+        - {x: -30.5, y: 23.5}
+        - {x: -30.5, y: -21.5}
+        - {x: -2.5, y: -32.5}
+        - {x: 12.5, y: -32.5}
+        - {x: 14.5, y: -31.5}
+        - {x: 29.5, y: -9.5}
+        - {x: 29.5, y: 5.5}
+        - {x: -3.5, y: 30.5}
+    - name: CELEBI_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 30.5}
+        - {x: -29.5, y: 28.5}
+        - {x: -30.5, y: 22.5}
+        - {x: -30.5, y: -14.5}
+        - {x: -0.5, y: -32.5}
+        - {x: 15.5, y: -32.5}
+        - {x: 29.5, y: -10.5}
+        - {x: 29.5, y: 8.5}
+        - {x: 5.5, y: 30.5}
+    - name: CELEBI_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 390
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 29.5}
+        - {x: -23.5, y: 29.5}
+        - {x: -30.5, y: 24.5}
+        - {x: -30.5, y: -19.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 16.5, y: -32.5}
+        - {x: 28.5, y: -15.5}
+        - {x: 28.5, y: -1.5}
+        - {x: 27.5, y: 0.5}
+    - name: CELEBI_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 390
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 28.5}
+        - {x: -7.5, y: 28.5}
+        - {x: -9.5, y: 24.5}
+        - {x: -24.5, y: 23.5}
+        - {x: -31.5, y: 18.5}
+        - {x: -31.5, y: -15.5}
+        - {x: -17.5, y: -27.5}
+        - {x: -4.5, y: -32.5}
+        - {x: 15.5, y: -32.5}
+        - {x: 28.5, y: -11.5}
+        - {x: 28.5, y: 3.5}
+        - {x: 1.5, y: 24.5}
+    - name: CELEBI_21
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 390
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -3.5}
+        - {x: 5.5, y: 20.5}
+        - {x: -1.5, y: 28.5}
+        - {x: -18.5, y: 28.5}
+        - {x: -31.5, y: 19.5}
+        - {x: -31.5, y: -15.5}
+        - {x: -6.5, y: -32.5}
+        - {x: 16.5, y: -32.5}
+        - {x: 29.5, y: -10.5}
+        - {x: 29.5, y: -5.5}
+        - {x: 26.5, y: -3.5}
+    - name: CELEBI_22
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 390
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 28.5}
+        - {x: -15.5, y: 28.5}
+        - {x: -31.5, y: 21.5}
+        - {x: -31.5, y: -15.5}
+        - {x: -5.5, y: -32.5}
+        - {x: 11.5, y: -32.5}
+        - {x: 14.5, y: -31.5}
+        - {x: 29.5, y: -17.5}
+        - {x: 29.5, y: 2.5}
+        - {x: 3.5, y: 25.5}
+    - name: CELEBI_23
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 390
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 27.5}
+        - {x: -32.5, y: 27.5}
+        - {x: -32.5, y: -22.5}
+        - {x: -3.5, y: -32.5}
+        - {x: 11.5, y: -32.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 28.5, y: -14.5}
+        - {x: 28.5, y: 9.5}
+    - name: CELEBI_24
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 390
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 27.5}
+        - {x: -8.5, y: 25.5}
+        - {x: -22.5, y: 26.5}
+        - {x: -32.5, y: 16.5}
+        - {x: -33.5, y: -7.5}
+        - {x: -33.5, y: -18.5}
+        - {x: -12.5, y: -32.5}
+        - {x: 13.5, y: -32.5}
+        - {x: 28.5, y: -21.5}
+        - {x: 28.5, y: -2.5}
+        - {x: -0.5, y: 27.5}
+    - name: CELEBI_25
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 390
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -20.5}
+        - {x: -26.5, y: -32.5}
+        - {x: 18.5, y: -32.5}
+        - {x: 28.5, y: -15.5}
+        - {x: 28.5, y: -0.5}
+        - {x: 7.5, y: 26.5}
+    - name: CELEBI_26
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 390
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 27.5}
+        - {x: -15.5, y: 27.5}
+        - {x: -22.5, y: 24.5}
+        - {x: -33.5, y: 16.5}
+        - {x: -33.5, y: -18.5}
+        - {x: -15.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 29.5, y: -26.5}
+        - {x: 29.5, y: -8.5}
+        - {x: 28.5, y: -7.5}
+    - name: CELEBI_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -20.5}
+        - {x: -15.5, y: -32.5}
+        - {x: 13.5, y: -32.5}
+        - {x: 29.5, y: -17.5}
+        - {x: 29.5, y: -0.5}
+        - {x: 5.5, y: 26.5}
+        - {x: -20.5, y: 26.5}
+        - {x: -33.5, y: 16.5}
+    - name: CELEBI_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 325
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 27.5}
+        - {x: -33.5, y: 21.5}
+        - {x: -33.5, y: -29.5}
+        - {x: -18.5, y: -32.5}
+        - {x: 16.5, y: -32.5}
+        - {x: 29.5, y: -15.5}
+        - {x: 29.5, y: -7.5}
+        - {x: 2.5, y: 27.5}
+    - name: CELEBI_29
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 325
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 26.5}
+        - {x: -33.5, y: 26.5}
+        - {x: -33.5, y: -21.5}
+        - {x: -5.5, y: -32.5}
+        - {x: 16.5, y: -32.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 29.5, y: -15.5}
+        - {x: 29.5, y: 12.5}
+    - name: CELEBI_30
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 325
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 28.5}
+        - {x: -33.5, y: 23.5}
+        - {x: -33.5, y: -26.5}
+        - {x: -10.5, y: -32.5}
+        - {x: 11.5, y: -32.5}
+        - {x: 13.5, y: -31.5}
+        - {x: 29.5, y: -26.5}
+        - {x: 29.5, y: -3.5}
+        - {x: 1.5, y: 28.5}
+    - name: CELEBI_31
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 325
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 20.5}
+        - {x: 1.5, y: 27.5}
+        - {x: -28.5, y: 27.5}
+        - {x: -33.5, y: 22.5}
+        - {x: -33.5, y: -21.5}
+        - {x: -18.5, y: -32.5}
+        - {x: 21.5, y: -32.5}
+        - {x: 28.5, y: -28.5}
+        - {x: 28.5, y: -13.5}
+        - {x: 23.5, y: -10.5}
+    - name: CELEBI_32
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 325
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -22.5}
+        - {x: -20.5, y: -32.5}
+        - {x: 28.5, y: -32.5}
+        - {x: 28.5, y: -7.5}
+        - {x: 10.5, y: 28.5}
+        - {x: -27.5, y: 28.5}
+        - {x: -33.5, y: 10.5}
+    - name: CELEBI_33
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 325
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 8.5}
+        - {x: -33.5, y: -6.5}
+        - {x: -33.5, y: -26.5}
+        - {x: -11.5, y: -32.5}
+        - {x: 11.5, y: -32.5}
+        - {x: 29.5, y: -25.5}
+        - {x: 29.5, y: 0.5}
+        - {x: 18.5, y: 27.5}
+        - {x: -21.5, y: 27.5}
+        - {x: -26.5, y: 26.5}
+        - {x: -29.5, y: 15.5}
+    - name: CELEBI_34
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 325
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21.5}
+        - {x: -19.5, y: 23.5}
+        - {x: -24.5, y: 22.5}
+        - {x: -32.5, y: 16.5}
+        - {x: -33.5, y: 14.5}
+        - {x: -33.5, y: -22.5}
+        - {x: -16.5, y: -32.5}
+        - {x: 13.5, y: -32.5}
+        - {x: 29.5, y: -19.5}
+        - {x: 29.5, y: -2.5}
+        - {x: 7.5, y: 29.5}
+        - {x: -1.5, y: 29.5}
+        - {x: -15.5, y: 15.5}
+    - name: CELEBI_35
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 325
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 29.5}
+        - {x: -33.5, y: 21.5}
+        - {x: -33.5, y: -28.5}
+        - {x: -16.5, y: -32.5}
+        - {x: 16.5, y: -32.5}
+        - {x: 29.5, y: -17.5}
+        - {x: 29.5, y: -8.5}
+        - {x: 2.5, y: 29.5}
+    - name: CELEBI_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -21.5}
+        - {x: -17.5, y: -32.5}
+        - {x: 19.5, y: -32.5}
+        - {x: 29.5, y: -24.5}
+        - {x: 29.5, y: 7.5}
+        - {x: 16.5, y: 29.5}
+        - {x: -31.5, y: 29.5}
+        - {x: -33.5, y: 20.5}
+    - name: CELEBI_37
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 260
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 31.5}
+        - {x: -33.5, y: 1.5}
+        - {x: -33.5, y: -18.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 11.5, y: -32.5}
+        - {x: 29.5, y: -17.5}
+        - {x: 29.5, y: -15.5}
+        - {x: 13.5, y: 31.5}
+    - name: CELEBI_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 260
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -22.5}
+        - {x: -18.5, y: -32.5}
+        - {x: 28.5, y: -32.5}
+        - {x: 28.5, y: -13.5}
+        - {x: 7.5, y: 31.5}
+        - {x: -7.5, y: 31.5}
+        - {x: -33.5, y: 21.5}
+    - name: CELEBI_39
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 260
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -21.5}
+        - {x: -10.5, y: -32.5}
+        - {x: 12.5, y: -32.5}
+        - {x: 29.5, y: -23.5}
+        - {x: 29.5, y: -5.5}
+        - {x: 7.5, y: 31.5}
+        - {x: -13.5, y: 31.5}
+        - {x: -33.5, y: 23.5}
+    - name: CELEBI_40
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 260
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 12.5}
+        - {x: -15.5, y: 17.5}
+        - {x: -13.5, y: 23.5}
+        - {x: -16.5, y: 24.5}
+        - {x: -21.5, y: 26.5}
+        - {x: -28.5, y: 21.5}
+        - {x: -29.5, y: 12.5}
+        - {x: -33.5, y: -3.5}
+        - {x: -33.5, y: -23.5}
+        - {x: -9.5, y: -32.5}
+        - {x: 14.5, y: -32.5}
+        - {x: 28.5, y: -27.5}
+        - {x: 28.5, y: -2.5}
+        - {x: 5.5, y: 31.5}
+        - {x: -0.5, y: 31.5}
+        - {x: -14.5, y: 18.5}
+    - name: CELEBI_41
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 260
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 32.5}
+        - {x: -33.5, y: 23.5}
+        - {x: -33.5, y: -17.5}
+        - {x: -4.5, y: -32.5}
+        - {x: 9.5, y: -32.5}
+        - {x: 29.5, y: -24.5}
+        - {x: 29.5, y: -5.5}
+        - {x: 5.5, y: 32.5}
+    - name: CELEBI_42
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 260
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 32.5}
+        - {x: -14.5, y: 18.5}
+        - {x: -19.5, y: 12.5}
+        - {x: -13.5, y: 20.5}
+        - {x: -13.5, y: 23.5}
+        - {x: -22.5, y: 32.5}
+        - {x: -27.5, y: 32.5}
+        - {x: -32.5, y: 21.5}
+        - {x: -32.5, y: -20.5}
+        - {x: -4.5, y: -32.5}
+        - {x: 19.5, y: -32.5}
+        - {x: 29.5, y: -21.5}
+        - {x: 29.5, y: -5.5}
+        - {x: 7.5, y: 32.5}
+    - name: CELEBI_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 260
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -17.5}
+        - {x: -18.5, y: -32.5}
+        - {x: 29.5, y: -32.5}
+        - {x: 29.5, y: -2.5}
+        - {x: 10.5, y: 32.5}
+        - {x: -7.5, y: 32.5}
+        - {x: -32.5, y: 23.5}
+    - name: CELEBI_44
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 260
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 32.5}
+        - {x: -25.5, y: 32.5}
+        - {x: -32.5, y: 23.5}
+        - {x: -32.5, y: -14.5}
+        - {x: -24.5, y: -32.5}
+        - {x: 22.5, y: -32.5}
+        - {x: 30.5, y: -25.5}
+        - {x: 30.5, y: -7.5}
+        - {x: 29.5, y: -3.5}
+    - name: CELEBI_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 32.5}
+        - {x: -19.5, y: 32.5}
+        - {x: -31.5, y: 24.5}
+        - {x: -31.5, y: -19.5}
+        - {x: -9.5, y: -32.5}
+        - {x: 28.5, y: -32.5}
+        - {x: 30.5, y: -30.5}
+        - {x: 30.5, y: -5.5}
+        - {x: 29.5, y: -3.5}
+    - name: CELEBI_46
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 195
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 32.5}
+        - {x: -30.5, y: 22.5}
+        - {x: -31.5, y: 18.5}
+        - {x: -31.5, y: -11.5}
+        - {x: -2.5, y: -32.5}
+        - {x: 30.5, y: -32.5}
+        - {x: 30.5, y: 3.5}
+        - {x: 18.5, y: 32.5}
+    - name: CELEBI_47
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 195
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 32.5}
+        - {x: -30.5, y: -13.5}
+        - {x: -2.5, y: -32.5}
+        - {x: 17.5, y: -32.5}
+        - {x: 30.5, y: -22.5}
+        - {x: 30.5, y: -1.5}
+        - {x: 16.5, y: 32.5}
+    - name: CELEBI_48
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 195
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: -11.5}
+        - {x: -15.5, y: -32.5}
+        - {x: 25.5, y: -32.5}
+        - {x: 31.5, y: -28.5}
+        - {x: 31.5, y: -0.5}
+        - {x: 17.5, y: 32.5}
+        - {x: -29.5, y: 32.5}
+        - {x: -30.5, y: 22.5}
+    - name: CELEBI_49
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 195
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 32.5}
+        - {x: -30.5, y: 17.5}
+        - {x: -30.5, y: -15.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 19.5, y: -32.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 31.5, y: 4.5}
+        - {x: 17.5, y: 32.5}
+    - name: CELEBI_50
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 195
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 32.5}
+        - {x: -29.5, y: 22.5}
+        - {x: -29.5, y: -8.5}
+        - {x: -2.5, y: -32.5}
+        - {x: 16.5, y: -32.5}
+        - {x: 31.5, y: -26.5}
+        - {x: 31.5, y: 10.5}
+        - {x: 22.5, y: 32.5}
+    - name: CELEBI_51
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 195
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 32.5}
+        - {x: -21.5, y: 30.5}
+        - {x: -25.5, y: 20.5}
+        - {x: -25.5, y: 11.5}
+        - {x: -28.5, y: -1.5}
+        - {x: -28.5, y: -7.5}
+        - {x: -26.5, y: -9.5}
+        - {x: -4.5, y: -27.5}
+        - {x: 2.5, y: -32.5}
+        - {x: 14.5, y: -32.5}
+        - {x: 31.5, y: -26.5}
+        - {x: 31.5, y: 10.5}
+        - {x: 21.5, y: 32.5}
+    - name: CELEBI_52
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 195
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 22.5}
+        - {x: -28.5, y: 13.5}
+        - {x: -28.5, y: -12.5}
+        - {x: -11.5, y: -32.5}
+        - {x: 19.5, y: -32.5}
+        - {x: 31.5, y: -22.5}
+        - {x: 31.5, y: -1.5}
+        - {x: 6.5, y: 31.5}
+        - {x: 5.5, y: 32.5}
+        - {x: -2.5, y: 32.5}
+        - {x: -19.5, y: 26.5}
+    - name: CELEBI_53
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 195
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 32.5}
+        - {x: -28.5, y: 20.5}
+        - {x: -28.5, y: -9.5}
+        - {x: -7.5, y: -32.5}
+        - {x: 17.5, y: -32.5}
+        - {x: 31.5, y: -21.5}
+        - {x: 31.5, y: 3.5}
+        - {x: 6.5, y: 32.5}
+    - name: CELEBI_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 31.5}
+        - {x: -28.5, y: -24.5}
+        - {x: -3.5, y: -32.5}
+        - {x: 31.5, y: -32.5}
+        - {x: 31.5, y: 12.5}
+        - {x: 22.5, y: 31.5}
+    - name: CELEBI_55
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 130
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 30.5}
+        - {x: -18.5, y: 26.5}
+        - {x: -24.5, y: 22.5}
+        - {x: -27.5, y: -3.5}
+        - {x: -27.5, y: -8.5}
+        - {x: -7.5, y: -32.5}
+        - {x: 14.5, y: -32.5}
+        - {x: 31.5, y: -21.5}
+        - {x: 31.5, y: 2.5}
+        - {x: 6.5, y: 30.5}
+    - name: CELEBI_56
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 130
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 30.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -25.5, y: 25.5}
+        - {x: -28.5, y: 6.5}
+        - {x: -28.5, y: -8.5}
+        - {x: -6.5, y: -30.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 15.5, y: -32.5}
+        - {x: 31.5, y: -13.5}
+        - {x: 31.5, y: -5.5}
+        - {x: 26.5, y: -2.5}
+    - name: CELEBI_57
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 130
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 29.5}
+        - {x: -26.5, y: 21.5}
+        - {x: -28.5, y: 14.5}
+        - {x: -28.5, y: -10.5}
+        - {x: -8.5, y: -31.5}
+        - {x: -4.5, y: -32.5}
+        - {x: 13.5, y: -32.5}
+        - {x: 32.5, y: -12.5}
+        - {x: 32.5, y: 7.5}
+        - {x: 7.5, y: 29.5}
+    - name: CELEBI_58
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 130
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 29.5}
+        - {x: -28.5, y: 26.5}
+        - {x: -28.5, y: -18.5}
+        - {x: -0.5, y: -32.5}
+        - {x: 25.5, y: -32.5}
+        - {x: 32.5, y: -19.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 24.5, y: 29.5}
+    - name: CELEBI_59
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 130
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: -32.5}
+        - {x: 19.5, y: -32.5}
+        - {x: 33.5, y: -22.5}
+        - {x: 33.5, y: -1.5}
+        - {x: 13.5, y: 28.5}
+        - {x: -27.5, y: 28.5}
+        - {x: -27.5, y: -17.5}
+    - name: CELEBI_60
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 130
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 28.5}
+        - {x: -28.5, y: 10.5}
+        - {x: -28.5, y: -12.5}
+        - {x: -4.5, y: -32.5}
+        - {x: 17.5, y: -32.5}
+        - {x: 33.5, y: -19.5}
+        - {x: 33.5, y: -1.5}
+        - {x: 8.5, y: 28.5}
+    - name: CELEBI_61
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 130
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 27.5}
+        - {x: -28.5, y: 10.5}
+        - {x: -28.5, y: -11.5}
+        - {x: -0.5, y: -32.5}
+        - {x: 18.5, y: -32.5}
+        - {x: 33.5, y: -15.5}
+        - {x: 33.5, y: 6.5}
+        - {x: 23.5, y: 27.5}
+    - name: CELEBI_62
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 130
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -18.5}
+        - {x: -7.5, y: -32.5}
+        - {x: 21.5, y: -32.5}
+        - {x: 33.5, y: -27.5}
+        - {x: 33.5, y: 0.5}
+        - {x: 26.5, y: 27.5}
+        - {x: -27.5, y: 27.5}
+        - {x: -28.5, y: 25.5}
+    - name: CELEBI_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 27.5}
+        - {x: -28.5, y: 20.5}
+        - {x: -28.5, y: -14.5}
+        - {x: -14.5, y: -32.5}
+        - {x: 21.5, y: -32.5}
+        - {x: 33.5, y: -18.5}
+        - {x: 33.5, y: 2.5}
+        - {x: 5.5, y: 27.5}
+    - name: CELEBI_64
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 65
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 28.5}
+        - {x: -29.5, y: 19.5}
+        - {x: -29.5, y: -23.5}
+        - {x: -2.5, y: -32.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 33.5, y: -22.5}
+        - {x: 33.5, y: -0.5}
+        - {x: 6.5, y: 28.5}
+    - name: CELEBI_65
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 65
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -8.5}
+        - {x: 13.5, y: 22.5}
+        - {x: 5.5, y: 27.5}
+        - {x: -6.5, y: 27.5}
+        - {x: -28.5, y: 18.5}
+        - {x: -30.5, y: 0.5}
+        - {x: -30.5, y: -15.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 12.5, y: -32.5}
+        - {x: 13.5, y: -31.5}
+        - {x: 32.5, y: -20.5}
+        - {x: 33.5, y: -18.5}
+    - name: CELEBI_66
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 65
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 27.5}
+        - {x: -29.5, y: 12.5}
+        - {x: -29.5, y: -17.5}
+        - {x: -7.5, y: -32.5}
+        - {x: 18.5, y: -32.5}
+        - {x: 33.5, y: -25.5}
+        - {x: 33.5, y: -3.5}
+        - {x: 11.5, y: 27.5}
+    - name: CELEBI_67
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 65
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 27.5}
+        - {x: -8.5, y: 27.5}
+        - {x: -24.5, y: 22.5}
+        - {x: -30.5, y: -6.5}
+        - {x: -30.5, y: -16.5}
+        - {x: 1.5, y: -32.5}
+        - {x: 13.5, y: -32.5}
+        - {x: 14.5, y: -30.5}
+        - {x: 33.5, y: -21.5}
+        - {x: 33.5, y: -6.5}
+    - name: CELEBI_68
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 65
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 27.5}
+        - {x: -30.5, y: 5.5}
+        - {x: -30.5, y: -17.5}
+        - {x: -8.5, y: -32.5}
+        - {x: 22.5, y: -32.5}
+        - {x: 33.5, y: -22.5}
+        - {x: 33.5, y: -1.5}
+        - {x: 8.5, y: 27.5}
+    - name: CELEBI_69
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 65
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 27.5}
+        - {x: -20.5, y: 27.5}
+        - {x: -30.5, y: 1.5}
+        - {x: -30.5, y: -21.5}
+        - {x: -0.5, y: -32.5}
+        - {x: 22.5, y: -32.5}
+        - {x: 33.5, y: -21.5}
+        - {x: 33.5, y: -0.5}
+        - {x: 13.5, y: 24.5}
+    - name: CELEBI_70
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 65
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: -19.5}
+        - {x: -7.5, y: -32.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 33.5, y: -29.5}
+        - {x: 33.5, y: 0.5}
+        - {x: 18.5, y: 27.5}
+        - {x: -18.5, y: 27.5}
+        - {x: -28.5, y: 18.5}
+        - {x: -30.5, y: 10.5}
+    - name: CELEBI_71
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 65
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: -4.5}
+        - {x: -30.5, y: -19.5}
+        - {x: -8.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 33.5, y: -25.5}
+        - {x: 33.5, y: -7.5}
+        - {x: 16.5, y: 25.5}
+        - {x: 7.5, y: 29.5}
+        - {x: -14.5, y: 29.5}
+        - {x: -25.5, y: 21.5}
+    - name: CELEBI_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -3.5}
+        - {x: 12.5, y: 22.5}
+        - {x: 4.5, y: 29.5}
+        - {x: 0.5, y: 29.5}
+        - {x: -3.5, y: 27.5}
+        - {x: -3.5, y: 19.5}
+        - {x: -10.5, y: 14.5}
+        - {x: -8.5, y: 17.5}
+        - {x: -6.5, y: 23.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -22.5, y: 22.5}
+        - {x: -22.5, y: 4.5}
+        - {x: -30.5, y: -8.5}
+        - {x: -30.5, y: -20.5}
+        - {x: -3.5, y: -32.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 33.5, y: -24.5}
+        - {x: 33.5, y: -13.5}
+        - {x: 30.5, y: -12.5}
+    - name: CELEBI_73
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 28.5}
+        - {x: -0.5, y: 28.5}
+        - {x: -7.5, y: 17.5}
+        - {x: -6.5, y: 19.5}
+        - {x: -8.5, y: 25.5}
+        - {x: -11.5, y: 28.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -29.5, y: 1.5}
+        - {x: -30.5, y: -7.5}
+        - {x: -30.5, y: -18.5}
+        - {x: -13.5, y: -32.5}
+        - {x: 29.5, y: -32.5}
+        - {x: 33.5, y: -30.5}
+        - {x: 33.5, y: -10.5}
+        - {x: 11.5, y: 21.5}
+    - name: CELEBI_74
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 28.5}
+        - {x: -4.5, y: 25.5}
+        - {x: -6.5, y: 18.5}
+        - {x: -6.5, y: 19.5}
+        - {x: -8.5, y: 25.5}
+        - {x: -11.5, y: 28.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -30.5, y: 5.5}
+        - {x: -30.5, y: -24.5}
+        - {x: -5.5, y: -32.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 33.5, y: -25.5}
+        - {x: 33.5, y: -4.5}
+        - {x: 6.5, y: 28.5}
+    - name: CELEBI_75
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -10.5}
+        - {x: 10.5, y: 23.5}
+        - {x: 2.5, y: 30.5}
+        - {x: -0.5, y: 30.5}
+        - {x: -3.5, y: 27.5}
+        - {x: -8.5, y: 18.5}
+        - {x: -7.5, y: 20.5}
+        - {x: -7.5, y: 27.5}
+        - {x: -24.5, y: 20.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -29.5, y: -9.5}
+        - {x: -29.5, y: -16.5}
+        - {x: -27.5, y: -17.5}
+        - {x: -2.5, y: -31.5}
+        - {x: 1.5, y: -32.5}
+        - {x: 17.5, y: -32.5}
+        - {x: 32.5, y: -21.5}
+        - {x: 33.5, y: -19.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

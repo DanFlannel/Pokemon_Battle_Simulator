@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 2079380f6b417ba429f1b26522c0e7d3
+timeCreated: 1452636559
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AMBIPOM_0
+    21300002: AMBIPOM_1
+    21300004: AMBIPOM_2
+    21300006: AMBIPOM_3
+    21300008: AMBIPOM_4
+    21300010: AMBIPOM_5
+    21300012: AMBIPOM_6
+    21300014: AMBIPOM_7
+    21300016: AMBIPOM_8
+    21300018: AMBIPOM_9
+    21300020: AMBIPOM_10
+    21300022: AMBIPOM_11
+    21300024: AMBIPOM_12
+    21300026: AMBIPOM_13
+    21300028: AMBIPOM_14
+    21300030: AMBIPOM_15
+    21300032: AMBIPOM_16
+    21300034: AMBIPOM_17
+    21300036: AMBIPOM_18
+    21300038: AMBIPOM_19
+    21300040: AMBIPOM_20
+    21300042: AMBIPOM_21
+    21300044: AMBIPOM_22
+    21300046: AMBIPOM_23
+    21300048: AMBIPOM_24
+    21300050: AMBIPOM_25
+    21300052: AMBIPOM_26
+    21300054: AMBIPOM_27
+    21300056: AMBIPOM_28
+    21300058: AMBIPOM_29
+    21300060: AMBIPOM_30
+    21300062: AMBIPOM_31
+    21300064: AMBIPOM_32
+    21300066: AMBIPOM_33
+    21300068: AMBIPOM_34
+    21300070: AMBIPOM_35
+    21300072: AMBIPOM_36
+    21300074: AMBIPOM_37
+    21300076: AMBIPOM_38
+    21300078: AMBIPOM_39
+    21300080: AMBIPOM_40
+    21300082: AMBIPOM_41
+    21300084: AMBIPOM_42
+    21300086: AMBIPOM_43
+    21300088: AMBIPOM_44
+    21300090: AMBIPOM_45
+    21300092: AMBIPOM_46
+    21300094: AMBIPOM_47
+    21300096: AMBIPOM_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AMBIPOM_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 38}
+        - {x: 24, y: 38}
+        - {x: 17, y: 35}
+        - {x: 12, y: 27}
+        - {x: 23, y: 14}
+        - {x: 22, y: 2}
+        - {x: 23, y: -10}
+        - {x: 9, y: -6}
+        - {x: 7, y: -6}
+        - {x: 13, y: -3}
+        - {x: 19, y: 4}
+        - {x: 19, y: 17}
+        - {x: 2, y: 34}
+        - {x: -30, y: 38}
+        - {x: -35, y: 38}
+        - {x: -48, y: 28}
+        - {x: -48, y: 10}
+        - {x: -41, y: -12}
+        - {x: -24, y: -44}
+        - {x: 20, y: -44}
+        - {x: 33, y: -37}
+        - {x: 52, y: -9}
+        - {x: 52, y: 35}
+    - name: AMBIPOM_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 528
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -44}
+        - {x: 36, y: -39}
+        - {x: 52, y: -25}
+        - {x: 52, y: 39}
+        - {x: 24, y: 39}
+        - {x: 13, y: 33}
+        - {x: 16, y: 22}
+        - {x: 22, y: 12}
+        - {x: 20, y: -8}
+        - {x: 10, y: -5}
+        - {x: 9, y: -5}
+        - {x: 12, y: -4}
+        - {x: 18, y: 1}
+        - {x: 20, y: 13}
+        - {x: 15, y: 19}
+        - {x: 9, y: 18}
+        - {x: 4, y: 38}
+        - {x: -48, y: 35}
+        - {x: -48, y: 5}
+        - {x: -28, y: -44}
+        - {x: -6, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -39}
+        - {x: -5, y: -44}
+    - name: AMBIPOM_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 528
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -44}
+        - {x: 52, y: -13}
+        - {x: 52, y: 37}
+        - {x: 51, y: 39}
+        - {x: 40, y: 41}
+        - {x: 29, y: 41}
+        - {x: 19, y: 36}
+        - {x: 14, y: 33}
+        - {x: 16, y: 23}
+        - {x: 22, y: 13}
+        - {x: 21, y: -8}
+        - {x: 21, y: 4}
+        - {x: 20, y: 15}
+        - {x: 9, y: 36}
+        - {x: -13, y: 41}
+        - {x: -48, y: 41}
+        - {x: -48, y: -17}
+        - {x: -22, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -39}
+        - {x: -4, y: -44}
+    - name: AMBIPOM_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 528
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -44}
+        - {x: 39, y: -44}
+        - {x: 52, y: -15}
+        - {x: 52, y: 40}
+        - {x: 50, y: 40}
+        - {x: 46, y: 42}
+        - {x: 23, y: 42}
+        - {x: 10, y: 35}
+        - {x: 16, y: 23}
+        - {x: 22, y: 13}
+        - {x: 20, y: -7}
+        - {x: 21, y: 8}
+        - {x: 21, y: 14}
+        - {x: 7, y: 37}
+        - {x: -48, y: 42}
+        - {x: -48, y: -21}
+        - {x: -25, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -39}
+        - {x: -4, y: -43}
+    - name: AMBIPOM_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 528
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -44}
+        - {x: 52, y: -14}
+        - {x: 52, y: 36}
+        - {x: 50, y: 42}
+        - {x: 34, y: 43}
+        - {x: 30, y: 43}
+        - {x: 12, y: 37}
+        - {x: -42, y: 40}
+        - {x: -47, y: 33}
+        - {x: -47, y: 23}
+        - {x: -44, y: -9}
+        - {x: -23, y: -44}
+        - {x: -8, y: -44}
+        - {x: -5, y: -41}
+        - {x: -5, y: -39}
+        - {x: -5, y: -44}
+    - name: AMBIPOM_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 528
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -44}
+        - {x: 12, y: -44}
+        - {x: 39, y: -27}
+        - {x: 51, y: -16}
+        - {x: 51, y: 44}
+        - {x: -44, y: 44}
+        - {x: -46, y: 43}
+        - {x: -46, y: -23}
+        - {x: -36, y: -36}
+        - {x: -24, y: -44}
+        - {x: -8, y: -44}
+        - {x: -5, y: -41}
+        - {x: -5, y: -39}
+        - {x: -5, y: -42}
+    - name: AMBIPOM_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 528
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 17, y: -44}
+        - {x: 24, y: -43}
+        - {x: 49, y: -12}
+        - {x: 49, y: 39}
+        - {x: 40, y: 44}
+        - {x: 20, y: 44}
+        - {x: 5, y: 38}
+        - {x: -28, y: 42}
+        - {x: -46, y: 43}
+        - {x: -46, y: -18}
+        - {x: -35, y: -33}
+        - {x: -23, y: -44}
+        - {x: -8, y: -44}
+        - {x: -5, y: -41}
+        - {x: -5, y: -39}
+        - {x: -5, y: -42}
+    - name: AMBIPOM_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 44}
+        - {x: 17, y: 44}
+        - {x: 9, y: 37}
+        - {x: 9, y: 32}
+        - {x: 11, y: 27}
+        - {x: 10, y: 29}
+        - {x: -7, y: 43}
+        - {x: -18, y: 44}
+        - {x: -45, y: 44}
+        - {x: -45, y: -7}
+        - {x: -41, y: -35}
+        - {x: -25, y: -44}
+        - {x: 16, y: -44}
+        - {x: 45, y: -29}
+        - {x: 48, y: -7}
+        - {x: 48, y: 40}
+    - name: AMBIPOM_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 440
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 44}
+        - {x: -45, y: -39}
+        - {x: -33, y: -44}
+        - {x: 31, y: -44}
+        - {x: 46, y: -8}
+        - {x: 46, y: 44}
+    - name: AMBIPOM_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 440
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -44}
+        - {x: 44, y: -19}
+        - {x: 44, y: 41}
+        - {x: 42, y: 43}
+        - {x: -45, y: 43}
+        - {x: -45, y: -14}
+        - {x: -40, y: -33}
+        - {x: -22, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -43}
+        - {x: -6, y: -43}
+        - {x: -5, y: -44}
+    - name: AMBIPOM_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 440
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -44}
+        - {x: 25, y: -39}
+        - {x: 44, y: -11}
+        - {x: 44, y: 42}
+        - {x: -32, y: 42}
+        - {x: -32, y: 34}
+        - {x: -32, y: 36}
+        - {x: -35, y: 42}
+        - {x: -37, y: 42}
+        - {x: -45, y: 39}
+        - {x: -45, y: -5}
+        - {x: -39, y: -24}
+        - {x: -24, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -43}
+        - {x: -6, y: -43}
+        - {x: -4, y: -44}
+    - name: AMBIPOM_11
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 440
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 42}
+        - {x: -45, y: 41}
+        - {x: -45, y: -36}
+        - {x: -33, y: -44}
+        - {x: 20, y: -44}
+        - {x: 43, y: -22}
+        - {x: 43, y: 36}
+        - {x: 27, y: 42}
+    - name: AMBIPOM_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 440
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 21, y: -44}
+        - {x: 43, y: -18}
+        - {x: 43, y: 42}
+        - {x: -46, y: 42}
+        - {x: -46, y: -44}
+        - {x: -7, y: -44}
+        - {x: -6, y: -43}
+        - {x: -6, y: -37}
+        - {x: -5, y: -42}
+    - name: AMBIPOM_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 440
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -44}
+        - {x: 35, y: -36}
+        - {x: 42, y: -23}
+        - {x: 42, y: 24}
+        - {x: 38, y: 40}
+        - {x: 19, y: 41}
+        - {x: -47, y: 41}
+        - {x: -47, y: -6}
+        - {x: -38, y: -44}
+        - {x: -7, y: -44}
+        - {x: -6, y: -43}
+        - {x: -6, y: -37}
+        - {x: -6, y: -44}
+    - name: AMBIPOM_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -44}
+        - {x: 16, y: -44}
+        - {x: 39, y: -36}
+        - {x: 42, y: -18}
+        - {x: 42, y: 30}
+        - {x: 17, y: 40}
+        - {x: -48, y: 40}
+        - {x: -48, y: -33}
+        - {x: -32, y: -43}
+        - {x: -28, y: -44}
+        - {x: -7, y: -44}
+        - {x: -6, y: -43}
+        - {x: -6, y: -37}
+        - {x: -5, y: -43}
+    - name: AMBIPOM_15
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 352
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 8, y: -44}
+        - {x: 9, y: -43}
+        - {x: 21, y: -39}
+        - {x: 42, y: -39}
+        - {x: 43, y: -27}
+        - {x: 43, y: 38}
+        - {x: -48, y: 38}
+        - {x: -49, y: 37}
+        - {x: -49, y: -9}
+        - {x: -40, y: -30}
+        - {x: -24, y: -44}
+        - {x: -7, y: -44}
+        - {x: -6, y: -43}
+        - {x: -6, y: -37}
+        - {x: -5, y: -43}
+    - name: AMBIPOM_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 352
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -44}
+        - {x: 43, y: -21}
+        - {x: 43, y: 23}
+        - {x: 39, y: 37}
+        - {x: -45, y: 37}
+        - {x: -50, y: 35}
+        - {x: -50, y: -17}
+        - {x: -49, y: -32}
+        - {x: -25, y: -44}
+        - {x: -6, y: -44}
+        - {x: -6, y: -37}
+        - {x: -5, y: -44}
+    - name: AMBIPOM_17
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 352
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 22, y: -44}
+        - {x: 44, y: -22}
+        - {x: 44, y: 28}
+        - {x: 43, y: 35}
+        - {x: -51, y: 35}
+        - {x: -51, y: -15}
+        - {x: -35, y: -37}
+        - {x: -24, y: -44}
+        - {x: -9, y: -44}
+        - {x: -6, y: -43}
+        - {x: -6, y: -37}
+        - {x: -5, y: -43}
+    - name: AMBIPOM_18
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 22, y: -44}
+        - {x: 44, y: -24}
+        - {x: 44, y: 28}
+        - {x: 30, y: 34}
+        - {x: 2, y: 34}
+        - {x: -8, y: 31}
+        - {x: -10, y: 27}
+        - {x: -13, y: 34}
+        - {x: -52, y: 34}
+        - {x: -52, y: -9}
+        - {x: -50, y: -37}
+        - {x: -32, y: -44}
+        - {x: -6, y: -44}
+        - {x: -6, y: -37}
+        - {x: -5, y: -43}
+    - name: AMBIPOM_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 352
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 27}
+        - {x: 32, y: 32}
+        - {x: -52, y: 32}
+        - {x: -52, y: -2}
+        - {x: -47, y: -39}
+        - {x: -32, y: -44}
+        - {x: 16, y: -44}
+        - {x: 28, y: -38}
+        - {x: 35, y: -27}
+        - {x: 45, y: -15}
+    - name: AMBIPOM_20
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 352
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 32}
+        - {x: -52, y: 29}
+        - {x: -52, y: -7}
+        - {x: -46, y: -38}
+        - {x: -31, y: -44}
+        - {x: 25, y: -44}
+        - {x: 46, y: -19}
+        - {x: 46, y: 32}
+    - name: AMBIPOM_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -44}
+        - {x: 28, y: -38}
+        - {x: 47, y: -17}
+        - {x: 47, y: 31}
+        - {x: 34, y: 33}
+        - {x: -52, y: 33}
+        - {x: -52, y: -19}
+        - {x: -24, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -43}
+        - {x: -6, y: -43}
+        - {x: -4, y: -44}
+    - name: AMBIPOM_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 264
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -44}
+        - {x: 48, y: -17}
+        - {x: 48, y: 29}
+        - {x: 41, y: 34}
+        - {x: -52, y: 34}
+        - {x: -52, y: -12}
+        - {x: -33, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -43}
+        - {x: -6, y: -43}
+        - {x: -4, y: -44}
+    - name: AMBIPOM_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 264
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -44}
+        - {x: 26, y: -44}
+        - {x: 50, y: -18}
+        - {x: 50, y: 35}
+        - {x: -43, y: 35}
+        - {x: -52, y: 30}
+        - {x: -52, y: 0}
+        - {x: -45, y: -20}
+        - {x: -24, y: -44}
+        - {x: -8, y: -44}
+        - {x: -5, y: -41}
+        - {x: -5, y: -39}
+    - name: AMBIPOM_24
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 264
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -44}
+        - {x: 51, y: -21}
+        - {x: 51, y: 37}
+        - {x: 22, y: 37}
+        - {x: 16, y: 34}
+        - {x: 12, y: 30}
+        - {x: 14, y: 20}
+        - {x: 23, y: 13}
+        - {x: 14, y: 19}
+        - {x: 13, y: 22}
+        - {x: 10, y: 28}
+        - {x: -8, y: 32}
+        - {x: -52, y: 36}
+        - {x: -52, y: -13}
+        - {x: -51, y: -17}
+        - {x: -24, y: -44}
+        - {x: -8, y: -44}
+        - {x: -5, y: -41}
+        - {x: -5, y: -39}
+        - {x: -5, y: -44}
+    - name: AMBIPOM_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 264
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -44}
+        - {x: 40, y: -44}
+        - {x: 51, y: -9}
+        - {x: 51, y: 39}
+        - {x: 28, y: 39}
+        - {x: 10, y: 32}
+        - {x: 15, y: 16}
+        - {x: 13, y: 23}
+        - {x: 11, y: 28}
+        - {x: -1, y: 39}
+        - {x: -39, y: 39}
+        - {x: -52, y: 30}
+        - {x: -52, y: 9}
+        - {x: -45, y: -15}
+        - {x: -35, y: -39}
+        - {x: -23, y: -44}
+        - {x: -5, y: -44}
+        - {x: -5, y: -39}
+        - {x: -7, y: -36}
+        - {x: -5, y: -35}
+    - name: AMBIPOM_26
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 264
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 41, y: -44}
+        - {x: 51, y: -16}
+        - {x: 51, y: 40}
+        - {x: 23, y: 40}
+        - {x: 6, y: 36}
+        - {x: 12, y: 27}
+        - {x: 17, y: 20}
+        - {x: 13, y: 25}
+        - {x: -14, y: 39}
+        - {x: -52, y: 31}
+        - {x: -52, y: 9}
+        - {x: -39, y: -37}
+        - {x: -24, y: -44}
+        - {x: -6, y: -44}
+        - {x: -6, y: -43}
+        - {x: -5, y: -39}
+        - {x: -5, y: -42}
+    - name: AMBIPOM_27
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 264
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 13, y: -44}
+        - {x: 23, y: -42}
+        - {x: 51, y: -16}
+        - {x: 51, y: 42}
+        - {x: 24, y: 42}
+        - {x: 9, y: 35}
+        - {x: 14, y: 23}
+        - {x: 13, y: 25}
+        - {x: 6, y: 29}
+        - {x: -6, y: 37}
+        - {x: -52, y: 37}
+        - {x: -52, y: 1}
+        - {x: -51, y: -4}
+        - {x: -25, y: -44}
+        - {x: -7, y: -44}
+        - {x: -6, y: -43}
+        - {x: -5, y: -39}
+        - {x: -5, y: -42}
+    - name: AMBIPOM_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -44}
+        - {x: 42, y: -44}
+        - {x: 51, y: -17}
+        - {x: 51, y: 43}
+        - {x: 15, y: 43}
+        - {x: -12, y: 31}
+        - {x: -14, y: 27}
+        - {x: -14, y: 26}
+        - {x: -19, y: 33}
+        - {x: -37, y: 36}
+        - {x: -49, y: 31}
+        - {x: -52, y: 28}
+        - {x: -52, y: 8}
+        - {x: -26, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -42}
+        - {x: -6, y: -34}
+        - {x: -5, y: -42}
+    - name: AMBIPOM_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 176
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -44}
+        - {x: 14, y: -44}
+        - {x: 38, y: -36}
+        - {x: 49, y: -5}
+        - {x: 50, y: 4}
+        - {x: 50, y: 42}
+        - {x: 44, y: 44}
+        - {x: 21, y: 44}
+        - {x: 10, y: 35}
+        - {x: 14, y: 22}
+        - {x: 9, y: 30}
+        - {x: -7, y: 33}
+        - {x: -12, y: 30}
+        - {x: -15, y: 27}
+        - {x: -15, y: 24}
+        - {x: -15, y: 29}
+        - {x: -18, y: 35}
+        - {x: -52, y: 38}
+        - {x: -52, y: -4}
+        - {x: -51, y: -16}
+        - {x: -25, y: -44}
+        - {x: -6, y: -44}
+        - {x: -5, y: -42}
+        - {x: -6, y: -34}
+        - {x: -5, y: -42}
+    - name: AMBIPOM_30
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -44}
+        - {x: 28, y: -44}
+        - {x: 49, y: -11}
+        - {x: 49, y: 44}
+        - {x: -29, y: 44}
+        - {x: -51, y: 39}
+        - {x: -51, y: 3}
+        - {x: -24, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+    - name: AMBIPOM_31
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 176
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 27, y: -44}
+        - {x: 36, y: -41}
+        - {x: 48, y: -15}
+        - {x: 48, y: 44}
+        - {x: 21, y: 44}
+        - {x: 8, y: 36}
+        - {x: 9, y: 31}
+        - {x: 17, y: 19}
+        - {x: 10, y: 28}
+        - {x: -20, y: 41}
+        - {x: -49, y: 36}
+        - {x: -50, y: 35}
+        - {x: -50, y: 7}
+        - {x: -26, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+        - {x: -4, y: -43}
+    - name: AMBIPOM_32
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 176
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -44}
+        - {x: 10, y: -44}
+        - {x: 21, y: -38}
+        - {x: 39, y: -27}
+        - {x: 48, y: -2}
+        - {x: 48, y: 44}
+        - {x: -41, y: 44}
+        - {x: -49, y: 42}
+        - {x: -49, y: -13}
+        - {x: -22, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+        - {x: -4, y: -43}
+    - name: AMBIPOM_33
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 176
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 24, y: -44}
+        - {x: 30, y: -43}
+        - {x: 48, y: -6}
+        - {x: 48, y: 44}
+        - {x: 16, y: 44}
+        - {x: 6, y: 37}
+        - {x: 9, y: 27}
+        - {x: 7, y: 34}
+        - {x: -13, y: 43}
+        - {x: -48, y: 40}
+        - {x: -48, y: 6}
+        - {x: -28, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+        - {x: -4, y: -43}
+    - name: AMBIPOM_34
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 176
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -44}
+        - {x: 19, y: -44}
+        - {x: 36, y: -37}
+        - {x: 49, y: -6}
+        - {x: 49, y: 35}
+        - {x: 47, y: 44}
+        - {x: 18, y: 44}
+        - {x: 7, y: 36}
+        - {x: 8, y: 28}
+        - {x: 4, y: 32}
+        - {x: -28, y: 44}
+        - {x: -47, y: 37}
+        - {x: -47, y: 6}
+        - {x: -44, y: -8}
+        - {x: -22, y: -44}
+        - {x: -7, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+        - {x: -4, y: -43}
+    - name: AMBIPOM_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -44}
+        - {x: 26, y: -44}
+        - {x: 49, y: -21}
+        - {x: 49, y: 44}
+        - {x: -40, y: 44}
+        - {x: -47, y: 41}
+        - {x: -47, y: 9}
+        - {x: -40, y: -8}
+        - {x: -25, y: -44}
+        - {x: -6, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+        - {x: -4, y: -43}
+    - name: AMBIPOM_36
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 88
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 13, y: -44}
+        - {x: 48, y: -34}
+        - {x: 49, y: -31}
+        - {x: 49, y: 44}
+        - {x: 3, y: 44}
+        - {x: 6, y: 29}
+        - {x: 19, y: 15}
+        - {x: 19, y: 6}
+        - {x: 21, y: -6}
+        - {x: 19, y: 4}
+        - {x: 19, y: 12}
+        - {x: 18, y: 15}
+        - {x: 14, y: 18}
+        - {x: 10, y: 18}
+        - {x: 3, y: 29}
+        - {x: -11, y: 43}
+        - {x: -41, y: 44}
+        - {x: -46, y: 44}
+        - {x: -46, y: 13}
+        - {x: -42, y: -9}
+        - {x: -25, y: -44}
+        - {x: -6, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+        - {x: -4, y: -43}
+    - name: AMBIPOM_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 88
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -44}
+        - {x: 26, y: -44}
+        - {x: 50, y: -24}
+        - {x: 50, y: 28}
+        - {x: 45, y: 43}
+        - {x: 23, y: 43}
+        - {x: 21, y: 39}
+        - {x: 13, y: 36}
+        - {x: 9, y: 32}
+        - {x: 9, y: 27}
+        - {x: 14, y: 21}
+        - {x: 19, y: 13}
+        - {x: 19, y: 6}
+        - {x: 25, y: -11}
+        - {x: 18, y: 1}
+        - {x: 19, y: 12}
+        - {x: 14, y: 19}
+        - {x: -7, y: 43}
+        - {x: -18, y: 43}
+        - {x: -46, y: 39}
+        - {x: -46, y: 5}
+        - {x: -29, y: -44}
+        - {x: -6, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+        - {x: -4, y: -43}
+    - name: AMBIPOM_38
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 88
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -44}
+        - {x: 19, y: -44}
+        - {x: 30, y: -42}
+        - {x: 48, y: -22}
+        - {x: 50, y: -6}
+        - {x: 50, y: 37}
+        - {x: 44, y: 41}
+        - {x: 18, y: 41}
+        - {x: 8, y: 32}
+        - {x: 8, y: 27}
+        - {x: 20, y: 13}
+        - {x: 19, y: 4}
+        - {x: 23, y: -8}
+        - {x: 14, y: -22}
+        - {x: 19, y: 4}
+        - {x: 18, y: 14}
+        - {x: 12, y: 18}
+        - {x: 2, y: 31}
+        - {x: -19, y: 41}
+        - {x: -46, y: 41}
+        - {x: -46, y: -3}
+        - {x: -45, y: -12}
+        - {x: -25, y: -44}
+        - {x: -6, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+        - {x: -4, y: -43}
+    - name: AMBIPOM_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 88
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -44}
+        - {x: 42, y: -42}
+        - {x: 51, y: -21}
+        - {x: 51, y: 35}
+        - {x: 47, y: 39}
+        - {x: 16, y: 39}
+        - {x: 8, y: 31}
+        - {x: 10, y: 25}
+        - {x: 19, y: 15}
+        - {x: 20, y: 1}
+        - {x: 25, y: -13}
+        - {x: 15, y: -23}
+        - {x: 19, y: 2}
+        - {x: 15, y: 18}
+        - {x: 2, y: 32}
+        - {x: -11, y: 39}
+        - {x: -45, y: 39}
+        - {x: -45, y: -12}
+        - {x: -27, y: -44}
+        - {x: -6, y: -44}
+        - {x: -5, y: -42}
+        - {x: -5, y: -38}
+        - {x: -5, y: -44}
+    - name: AMBIPOM_40
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 88
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 38}
+        - {x: 14, y: 34}
+        - {x: 9, y: 23}
+        - {x: 17, y: 17}
+        - {x: 21, y: -1}
+        - {x: 25, y: -10}
+        - {x: 29, y: -14}
+        - {x: 4, y: -11}
+        - {x: 1, y: -11}
+        - {x: 3, y: -11}
+        - {x: 11, y: -5}
+        - {x: 17, y: 1}
+        - {x: 15, y: 15}
+        - {x: 12, y: 20}
+        - {x: 0, y: 22}
+        - {x: -5, y: 38}
+        - {x: -45, y: 38}
+        - {x: -45, y: 6}
+        - {x: -44, y: -7}
+        - {x: -24, y: -44}
+        - {x: 27, y: -44}
+        - {x: 51, y: -25}
+        - {x: 51, y: 33}
+        - {x: 34, y: 38}
+    - name: AMBIPOM_41
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 88
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 36}
+        - {x: 19, y: 36}
+        - {x: 14, y: 33}
+        - {x: 11, y: 22}
+        - {x: 21, y: 9}
+        - {x: 22, y: -11}
+        - {x: 16, y: 14}
+        - {x: 10, y: 18}
+        - {x: 5, y: 18}
+        - {x: -4, y: 29}
+        - {x: -28, y: 36}
+        - {x: -42, y: 33}
+        - {x: -44, y: 29}
+        - {x: -44, y: 8}
+        - {x: -24, y: -44}
+        - {x: 23, y: -44}
+        - {x: 48, y: -30}
+        - {x: 52, y: -19}
+        - {x: 52, y: 33}
+    - name: AMBIPOM_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 35}
+        - {x: 16, y: 32}
+        - {x: 11, y: 21}
+        - {x: 22, y: 12}
+        - {x: 20, y: 2}
+        - {x: 19, y: 13}
+        - {x: 11, y: 19}
+        - {x: -3, y: 35}
+        - {x: -44, y: 35}
+        - {x: -44, y: -11}
+        - {x: -43, y: -25}
+        - {x: -29, y: -44}
+        - {x: 35, y: -44}
+        - {x: 52, y: -17}
+        - {x: 52, y: 32}
+        - {x: 41, y: 35}
+    - name: AMBIPOM_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 34}
+        - {x: 10, y: 27}
+        - {x: 20, y: -1}
+        - {x: 29, y: -18}
+        - {x: 16, y: 2}
+        - {x: 15, y: 11}
+        - {x: 14, y: 14}
+        - {x: 8, y: 29}
+        - {x: -9, y: 34}
+        - {x: -44, y: 34}
+        - {x: -44, y: -15}
+        - {x: -29, y: -44}
+        - {x: 34, y: -44}
+        - {x: 48, y: -41}
+        - {x: 52, y: -24}
+        - {x: 52, y: 34}
+    - name: AMBIPOM_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 34}
+        - {x: 11, y: 26}
+        - {x: 17, y: 14}
+        - {x: 23, y: -3}
+        - {x: 23, y: -14}
+        - {x: 19, y: 2}
+        - {x: 11, y: 25}
+        - {x: -12, y: 31}
+        - {x: -29, y: 31}
+        - {x: -42, y: 28}
+        - {x: -45, y: 23}
+        - {x: -45, y: 13}
+        - {x: -38, y: -13}
+        - {x: -25, y: -44}
+        - {x: 34, y: -44}
+        - {x: 52, y: -22}
+        - {x: 52, y: 30}
+        - {x: 51, y: 34}
+    - name: AMBIPOM_45
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 34}
+        - {x: 16, y: 31}
+        - {x: 13, y: 22}
+        - {x: 15, y: 19}
+        - {x: 0, y: 34}
+        - {x: -37, y: 34}
+        - {x: -45, y: 25}
+        - {x: -45, y: -21}
+        - {x: -40, y: -44}
+        - {x: 52, y: -44}
+        - {x: 52, y: 34}
+    - name: AMBIPOM_46
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 34}
+        - {x: 11, y: 22}
+        - {x: 17, y: 14}
+        - {x: 11, y: 21}
+        - {x: -8, y: 31}
+        - {x: -30, y: 31}
+        - {x: -46, y: 24}
+        - {x: -46, y: 12}
+        - {x: -37, y: -13}
+        - {x: -23, y: -44}
+        - {x: 33, y: -44}
+        - {x: 52, y: -26}
+        - {x: 52, y: 34}
+    - name: AMBIPOM_47
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 35}
+        - {x: -46, y: -3}
+        - {x: -28, y: -44}
+        - {x: 31, y: -44}
+        - {x: 52, y: -30}
+        - {x: 52, y: 35}
+    - name: AMBIPOM_48
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 36}
+        - {x: 13, y: 28}
+        - {x: 25, y: -15}
+        - {x: 7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 11, y: -3}
+        - {x: 18, y: 3}
+        - {x: 14, y: 21}
+        - {x: -5, y: 34}
+        - {x: -31, y: 31}
+        - {x: -43, y: 28}
+        - {x: -47, y: 22}
+        - {x: -47, y: 9}
+        - {x: -26, y: -44}
+        - {x: 31, y: -44}
+        - {x: 52, y: -28}
+        - {x: 52, y: 36}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

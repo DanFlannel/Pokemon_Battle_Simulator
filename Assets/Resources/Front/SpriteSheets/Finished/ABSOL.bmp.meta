@@ -1,0 +1,1200 @@
+fileFormatVersion: 2
+guid: a6d6a75ac614ef4418e86c5c98e0dd64
+timeCreated: 1452636318
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ABSOL_0
+    21300002: ABSOL_1
+    21300004: ABSOL_2
+    21300006: ABSOL_3
+    21300008: ABSOL_4
+    21300010: ABSOL_5
+    21300012: ABSOL_6
+    21300014: ABSOL_7
+    21300016: ABSOL_8
+    21300018: ABSOL_9
+    21300020: ABSOL_10
+    21300022: ABSOL_11
+    21300024: ABSOL_12
+    21300026: ABSOL_13
+    21300028: ABSOL_14
+    21300030: ABSOL_15
+    21300032: ABSOL_16
+    21300034: ABSOL_17
+    21300036: ABSOL_18
+    21300038: ABSOL_19
+    21300040: ABSOL_20
+    21300042: ABSOL_21
+    21300044: ABSOL_22
+    21300046: ABSOL_23
+    21300048: ABSOL_24
+    21300050: ABSOL_25
+    21300052: ABSOL_26
+    21300054: ABSOL_27
+    21300056: ABSOL_28
+    21300058: ABSOL_29
+    21300060: ABSOL_30
+    21300062: ABSOL_31
+    21300064: ABSOL_32
+    21300066: ABSOL_33
+    21300068: ABSOL_34
+    21300070: ABSOL_35
+    21300072: ABSOL_36
+    21300074: ABSOL_37
+    21300076: ABSOL_38
+    21300078: ABSOL_39
+    21300080: ABSOL_40
+    21300082: ABSOL_41
+    21300084: ABSOL_42
+    21300086: ABSOL_43
+    21300088: ABSOL_44
+    21300090: ABSOL_45
+    21300092: ABSOL_46
+    21300094: ABSOL_47
+    21300096: ABSOL_48
+    21300098: ABSOL_49
+    21300100: ABSOL_50
+    21300102: ABSOL_51
+    21300104: ABSOL_52
+    21300106: ABSOL_53
+    21300108: ABSOL_54
+    21300110: ABSOL_55
+    21300112: ABSOL_56
+    21300114: ABSOL_57
+    21300116: ABSOL_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ABSOL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 46}
+        - {x: -29.5, y: 36}
+        - {x: -29.5, y: -26}
+        - {x: -26.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 32}
+        - {x: 3.5, y: 46}
+    - name: ABSOL_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 644
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 46}
+        - {x: -29.5, y: 43}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 32}
+        - {x: 8.5, y: 46}
+    - name: ABSOL_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 644
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 46}
+        - {x: -29.5, y: 38}
+        - {x: -29.5, y: -15}
+        - {x: -23.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 37}
+        - {x: 12.5, y: 46}
+    - name: ABSOL_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 644
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 23}
+        - {x: 26.5, y: 24}
+        - {x: 1.5, y: 46}
+        - {x: -17.5, y: 46}
+        - {x: -29.5, y: 31}
+        - {x: -29.5, y: -12}
+        - {x: -23.5, y: -46}
+        - {x: 27.5, y: -46}
+        - {x: 29.5, y: -45}
+    - name: ABSOL_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 644
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 26}
+        - {x: 8.5, y: 46}
+        - {x: -13.5, y: 46}
+        - {x: -25.5, y: 36}
+        - {x: -29.5, y: 25}
+        - {x: -29.5, y: -13}
+        - {x: -23.5, y: -46}
+        - {x: 27.5, y: -46}
+        - {x: 29.5, y: -45}
+        - {x: 29.5, y: 24}
+    - name: ABSOL_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 644
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 46}
+        - {x: -17.5, y: 46}
+        - {x: -29.5, y: 32}
+        - {x: -29.5, y: -24}
+        - {x: -20.5, y: -45}
+        - {x: -18.5, y: -46}
+        - {x: 27.5, y: -46}
+        - {x: 29.5, y: -45}
+        - {x: 29.5, y: 44}
+    - name: ABSOL_6
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 644
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 27}
+        - {x: 1.5, y: 46}
+        - {x: -26.5, y: 46}
+        - {x: -29.5, y: 44}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 23}
+    - name: ABSOL_7
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 644
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 17}
+        - {x: 4.5, y: 44}
+        - {x: 0.5, y: 46}
+        - {x: -16.5, y: 46}
+        - {x: -29.5, y: 34}
+        - {x: -29.5, y: -14}
+        - {x: -20.5, y: -45}
+        - {x: -18.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 24}
+        - {x: 26.5, y: 24}
+    - name: ABSOL_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 46}
+        - {x: -29.5, y: 42}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 33}
+        - {x: 12.5, y: 46}
+    - name: ABSOL_9
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 552
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 46}
+        - {x: -29.5, y: 35}
+        - {x: -29.5, y: -27}
+        - {x: -25.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 31}
+        - {x: 0.5, y: 46}
+    - name: ABSOL_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 552
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 46}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 37}
+        - {x: 23.5, y: 46}
+    - name: ABSOL_11
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 552
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 46}
+        - {x: -29.5, y: 34}
+        - {x: -29.5, y: -19}
+        - {x: -23.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 29}
+        - {x: 5.5, y: 46}
+    - name: ABSOL_12
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 552
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 24}
+        - {x: 4.5, y: 46}
+        - {x: -25.5, y: 46}
+        - {x: -29.5, y: 32}
+        - {x: -29.5, y: -15}
+        - {x: -20.5, y: -45}
+        - {x: -18.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 6}
+        - {x: 28.5, y: 23}
+    - name: ABSOL_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 552
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 46}
+        - {x: -14.5, y: 46}
+        - {x: -29.5, y: 39}
+        - {x: -29.5, y: 11}
+        - {x: -25.5, y: 11}
+        - {x: -19.5, y: -15}
+        - {x: -22.5, y: -45}
+        - {x: -21.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 23}
+    - name: ABSOL_14
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 552
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 46}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 30}
+        - {x: 3.5, y: 46}
+    - name: ABSOL_15
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 552
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 46}
+        - {x: -28.5, y: 36}
+        - {x: -29.5, y: 31}
+        - {x: -29.5, y: -5}
+        - {x: -19.5, y: -46}
+        - {x: 17.5, y: -46}
+        - {x: 29.5, y: -45}
+        - {x: 29.5, y: 35}
+        - {x: 15.5, y: 46}
+    - name: ABSOL_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 46}
+        - {x: -18.5, y: 46}
+        - {x: -29.5, y: 43}
+        - {x: -29.5, y: -33}
+        - {x: -28.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 30}
+    - name: ABSOL_17
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 460
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 46}
+        - {x: -16.5, y: 46}
+        - {x: -29.5, y: 32}
+        - {x: -29.5, y: 11}
+        - {x: -27.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 20}
+        - {x: 28.5, y: 27}
+    - name: ABSOL_18
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 460
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 46}
+        - {x: -29.5, y: 38}
+        - {x: -29.5, y: 11}
+        - {x: -20.5, y: -45}
+        - {x: -18.5, y: -46}
+        - {x: 24.5, y: -46}
+        - {x: 29.5, y: -45}
+        - {x: 29.5, y: 31}
+        - {x: 13.5, y: 46}
+    - name: ABSOL_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 460
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 46}
+        - {x: -13.5, y: 46}
+        - {x: -29.5, y: 36}
+        - {x: -29.5, y: 11}
+        - {x: -18.5, y: -44}
+        - {x: -17.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 33}
+    - name: ABSOL_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 460
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 46}
+        - {x: -29.5, y: 40}
+        - {x: -29.5, y: -41}
+        - {x: -28.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 34}
+        - {x: 16.5, y: 46}
+    - name: ABSOL_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 460
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 46}
+        - {x: -29.5, y: 46}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 32}
+        - {x: 14.5, y: 44}
+    - name: ABSOL_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 460
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 46}
+        - {x: -29.5, y: 43}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 28}
+        - {x: 6.5, y: 46}
+    - name: ABSOL_23
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 460
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 46}
+        - {x: -29.5, y: 43}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 28}
+        - {x: 6.5, y: 46}
+    - name: ABSOL_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 46}
+        - {x: -29.5, y: -16}
+        - {x: -19.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 40}
+        - {x: 15.5, y: 46}
+    - name: ABSOL_25
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 368
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 46}
+        - {x: -29.5, y: 46}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 16}
+        - {x: 27.5, y: 32}
+    - name: ABSOL_26
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 368
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 46}
+        - {x: -29.5, y: 28}
+        - {x: -29.5, y: -4}
+        - {x: -17.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 38}
+        - {x: 7.5, y: 46}
+    - name: ABSOL_27
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 368
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 46}
+        - {x: -15.5, y: 46}
+        - {x: -29.5, y: 32}
+        - {x: -29.5, y: 0}
+        - {x: -18.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 29}
+    - name: ABSOL_28
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 368
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 46}
+        - {x: -29.5, y: 46}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 20}
+        - {x: 26.5, y: 25}
+    - name: ABSOL_29
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 368
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 46}
+        - {x: -29.5, y: 37}
+        - {x: -29.5, y: -11}
+        - {x: -19.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 27}
+        - {x: 3.5, y: 46}
+    - name: ABSOL_30
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 368
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 46}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 37}
+        - {x: 4.5, y: 46}
+    - name: ABSOL_31
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 368
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 46}
+        - {x: -29.5, y: -15}
+        - {x: -22.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 46}
+    - name: ABSOL_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 46}
+        - {x: -29.5, y: 45}
+        - {x: -29.5, y: -42}
+        - {x: -28.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 46}
+    - name: ABSOL_33
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 276
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 46}
+        - {x: -29.5, y: 45}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 33}
+        - {x: 15.5, y: 46}
+    - name: ABSOL_34
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 276
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 46}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 41}
+        - {x: 26.5, y: 46}
+    - name: ABSOL_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 276
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 44}
+        - {x: 2.5, y: 46}
+        - {x: -23.5, y: 46}
+        - {x: -29.5, y: 44}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 24}
+        - {x: 25.5, y: 27}
+    - name: ABSOL_36
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 276
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 25}
+        - {x: 16.5, y: 19}
+        - {x: 2.5, y: 32}
+        - {x: 0.5, y: 46}
+        - {x: -12.5, y: 46}
+        - {x: -21.5, y: 39}
+        - {x: -29.5, y: 28}
+        - {x: -29.5, y: 7}
+        - {x: -18.5, y: -46}
+        - {x: 22.5, y: -46}
+        - {x: 29.5, y: -45}
+        - {x: 29.5, y: 24}
+    - name: ABSOL_37
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 276
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 46}
+        - {x: -29.5, y: 34}
+        - {x: -29.5, y: 12}
+        - {x: -22.5, y: -45}
+        - {x: -21.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 40}
+        - {x: 15.5, y: 46}
+    - name: ABSOL_38
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 276
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 46}
+        - {x: -29.5, y: 44}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 32}
+        - {x: 2.5, y: 46}
+    - name: ABSOL_39
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 276
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 46}
+        - {x: -26.5, y: 34}
+        - {x: -29.5, y: 28}
+        - {x: -29.5, y: 7}
+        - {x: -22.5, y: -42}
+        - {x: -18.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 25}
+        - {x: 1.5, y: 46}
+    - name: ABSOL_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 46}
+        - {x: -29.5, y: 36}
+        - {x: -29.5, y: -15}
+        - {x: -23.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 37}
+        - {x: 19.5, y: 46}
+    - name: ABSOL_41
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 184
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 46}
+        - {x: -13.5, y: 46}
+        - {x: -26.5, y: 35}
+        - {x: -29.5, y: 27}
+        - {x: -29.5, y: 9}
+        - {x: -19.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 27}
+        - {x: 5.5, y: 43}
+    - name: ABSOL_42
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 184
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 46}
+        - {x: -29.5, y: 36}
+        - {x: -29.5, y: -29}
+        - {x: -20.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 46}
+    - name: ABSOL_43
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 184
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 46}
+        - {x: -29.5, y: 37}
+        - {x: -29.5, y: -19}
+        - {x: -22.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 31}
+        - {x: 6.5, y: 46}
+    - name: ABSOL_44
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 184
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 46}
+        - {x: -29.5, y: 30}
+        - {x: -29.5, y: -17}
+        - {x: -23.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 32}
+        - {x: 3.5, y: 46}
+    - name: ABSOL_45
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 184
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 46}
+        - {x: -29.5, y: 34}
+        - {x: -29.5, y: -17}
+        - {x: -23.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 37}
+        - {x: 4.5, y: 46}
+    - name: ABSOL_46
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 184
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 46}
+        - {x: -29.5, y: 32}
+        - {x: -29.5, y: -17}
+        - {x: -23.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 46}
+    - name: ABSOL_47
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 184
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 46}
+        - {x: -29.5, y: 30}
+        - {x: -29.5, y: 12}
+        - {x: -28.5, y: 10}
+        - {x: -19.5, y: -16}
+        - {x: -19.5, y: -41}
+        - {x: -18.5, y: -46}
+        - {x: 21.5, y: -46}
+        - {x: 29.5, y: -44}
+        - {x: 29.5, y: 41}
+        - {x: 10.5, y: 46}
+    - name: ABSOL_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 46}
+        - {x: -29.5, y: -18}
+        - {x: -23.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 45}
+        - {x: 26.5, y: 46}
+    - name: ABSOL_49
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 92
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 12}
+        - {x: 29.5, y: 23}
+        - {x: 28.5, y: 25}
+        - {x: 3.5, y: 46}
+        - {x: -23.5, y: 46}
+        - {x: -29.5, y: 41}
+        - {x: -29.5, y: -22}
+        - {x: -23.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: -28}
+        - {x: 25.5, y: -4}
+    - name: ABSOL_50
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 92
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 46}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 30}
+        - {x: 6.5, y: 46}
+    - name: ABSOL_51
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 92
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 46}
+        - {x: -29.5, y: 46}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 28}
+    - name: ABSOL_52
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 92
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 46}
+        - {x: -29.5, y: 41}
+        - {x: -29.5, y: 12}
+        - {x: -28.5, y: 11}
+        - {x: -22.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 33}
+        - {x: 16.5, y: 46}
+    - name: ABSOL_53
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 92
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 46}
+        - {x: -27.5, y: 37}
+        - {x: -29.5, y: 30}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 32}
+        - {x: 1.5, y: 46}
+    - name: ABSOL_54
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 92
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 46}
+        - {x: -29.5, y: 40}
+        - {x: -29.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 31}
+        - {x: 1.5, y: 46}
+    - name: ABSOL_55
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 92
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 46}
+        - {x: -29.5, y: 42}
+        - {x: -29.5, y: -40}
+        - {x: -28.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 33}
+        - {x: 11.5, y: 46}
+    - name: ABSOL_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 46}
+        - {x: -29.5, y: 37}
+        - {x: -29.5, y: -14}
+        - {x: -23.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 29}
+        - {x: 2.5, y: 46}
+    - name: ABSOL_57
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 24}
+        - {x: 13.5, y: 45}
+        - {x: 10.5, y: 46}
+        - {x: -29.5, y: 46}
+        - {x: -29.5, y: -9}
+        - {x: -24.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 25}
+    - name: ABSOL_58
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 24}
+        - {x: 17.5, y: 15}
+        - {x: 6.5, y: 26}
+        - {x: -2.5, y: 32}
+        - {x: -0.5, y: 44}
+        - {x: -0.5, y: 46}
+        - {x: -13.5, y: 46}
+        - {x: -27.5, y: 37}
+        - {x: -29.5, y: 29}
+        - {x: -29.5, y: 12}
+        - {x: -27.5, y: 11}
+        - {x: -20.5, y: -46}
+        - {x: 29.5, y: -46}
+        - {x: 29.5, y: 25}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

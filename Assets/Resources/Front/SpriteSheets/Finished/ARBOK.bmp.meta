@@ -1,0 +1,1728 @@
+fileFormatVersion: 2
+guid: e5ea8f77dba13ba4d862b653e6dc26d1
+timeCreated: 1452636634
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ARBOK_0
+    21300002: ARBOK_1
+    21300004: ARBOK_2
+    21300006: ARBOK_3
+    21300008: ARBOK_4
+    21300010: ARBOK_5
+    21300012: ARBOK_6
+    21300014: ARBOK_7
+    21300016: ARBOK_8
+    21300018: ARBOK_9
+    21300020: ARBOK_10
+    21300022: ARBOK_11
+    21300024: ARBOK_12
+    21300026: ARBOK_13
+    21300028: ARBOK_14
+    21300030: ARBOK_15
+    21300032: ARBOK_16
+    21300034: ARBOK_17
+    21300036: ARBOK_18
+    21300038: ARBOK_19
+    21300040: ARBOK_20
+    21300042: ARBOK_21
+    21300044: ARBOK_22
+    21300046: ARBOK_23
+    21300048: ARBOK_24
+    21300050: ARBOK_25
+    21300052: ARBOK_26
+    21300054: ARBOK_27
+    21300056: ARBOK_28
+    21300058: ARBOK_29
+    21300060: ARBOK_30
+    21300062: ARBOK_31
+    21300064: ARBOK_32
+    21300066: ARBOK_33
+    21300068: ARBOK_34
+    21300070: ARBOK_35
+    21300072: ARBOK_36
+    21300074: ARBOK_37
+    21300076: ARBOK_38
+    21300078: ARBOK_39
+    21300080: ARBOK_40
+    21300082: ARBOK_41
+    21300084: ARBOK_42
+    21300086: ARBOK_43
+    21300088: ARBOK_44
+    21300090: ARBOK_45
+    21300092: ARBOK_46
+    21300094: ARBOK_47
+    21300096: ARBOK_48
+    21300098: ARBOK_49
+    21300100: ARBOK_50
+    21300102: ARBOK_51
+    21300104: ARBOK_52
+    21300106: ARBOK_53
+    21300108: ARBOK_54
+    21300110: ARBOK_55
+    21300112: ARBOK_56
+    21300114: ARBOK_57
+    21300116: ARBOK_58
+    21300118: ARBOK_59
+    21300120: ARBOK_60
+    21300122: ARBOK_61
+    21300124: ARBOK_62
+    21300126: ARBOK_63
+    21300128: ARBOK_64
+    21300130: ARBOK_65
+    21300132: ARBOK_66
+    21300134: ARBOK_67
+    21300136: ARBOK_68
+    21300138: ARBOK_69
+    21300140: ARBOK_70
+    21300142: ARBOK_71
+    21300144: ARBOK_72
+    21300146: ARBOK_73
+    21300148: ARBOK_74
+    21300150: ARBOK_75
+    21300152: ARBOK_76
+    21300154: ARBOK_77
+    21300156: ARBOK_78
+    21300158: ARBOK_79
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ARBOK_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 664
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 40.5}
+        - {x: -22.5, y: 37.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -19.5, y: -41.5}
+        - {x: 43.5, y: -41.5}
+        - {x: 43.5, y: 20.5}
+        - {x: 20.5, y: 40.5}
+    - name: ARBOK_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 664
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: -20.5}
+        - {x: 34.5, y: 6.5}
+        - {x: 19.5, y: 39.5}
+        - {x: 14.5, y: 40.5}
+        - {x: -20.5, y: 40.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -39.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 11.5, y: -41.5}
+        - {x: 31.5, y: -37.5}
+        - {x: 43.5, y: -27.5}
+        - {x: 43.5, y: -19.5}
+    - name: ARBOK_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 664
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 41.5}
+        - {x: -23.5, y: 36.5}
+        - {x: -23.5, y: -32.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 25.5, y: -41.5}
+        - {x: 43.5, y: -35.5}
+        - {x: 43.5, y: 8.5}
+        - {x: 15.5, y: 41.5}
+    - name: ARBOK_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 664
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 41.5}
+        - {x: -23.5, y: 37.5}
+        - {x: -24.5, y: 28.5}
+        - {x: -24.5, y: -41.5}
+        - {x: 43.5, y: -41.5}
+        - {x: 43.5, y: 39.5}
+        - {x: 31.5, y: 41.5}
+    - name: ARBOK_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 664
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -21.5}
+        - {x: 28.5, y: 32.5}
+        - {x: 1.5, y: 41.5}
+        - {x: -22.5, y: 41.5}
+        - {x: -25.5, y: 29.5}
+        - {x: -25.5, y: -31.5}
+        - {x: -14.5, y: -41.5}
+        - {x: 20.5, y: -41.5}
+        - {x: 27.5, y: -40.5}
+        - {x: 43.5, y: -28.5}
+        - {x: 43.5, y: -22.5}
+        - {x: 42.5, y: -20.5}
+    - name: ARBOK_5
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 664
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 41.5}
+        - {x: -26.5, y: 33.5}
+        - {x: -26.5, y: -23.5}
+        - {x: -24.5, y: -35.5}
+        - {x: -13.5, y: -41.5}
+        - {x: 31.5, y: -41.5}
+        - {x: 43.5, y: -38.5}
+        - {x: 43.5, y: 41.5}
+    - name: ARBOK_6
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 664
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 41.5}
+        - {x: -27.5, y: 31.5}
+        - {x: -27.5, y: -13.5}
+        - {x: -24.5, y: -35.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 18.5, y: -41.5}
+        - {x: 36.5, y: -38.5}
+        - {x: 42.5, y: -31.5}
+        - {x: 42.5, y: -5.5}
+        - {x: 21.5, y: 41.5}
+    - name: ARBOK_7
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 664
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 41.5}
+        - {x: -23.5, y: 41.5}
+        - {x: -28.5, y: 27.5}
+        - {x: -28.5, y: -33.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 27.5, y: -41.5}
+        - {x: 42.5, y: -33.5}
+        - {x: 42.5, y: -11.5}
+        - {x: 20.5, y: 28.5}
+    - name: ARBOK_8
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 664
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -23.5}
+        - {x: 19.5, y: 38.5}
+        - {x: 6.5, y: 41.5}
+        - {x: -22.5, y: 41.5}
+        - {x: -29.5, y: 31.5}
+        - {x: -29.5, y: -11.5}
+        - {x: -22.5, y: -41.5}
+        - {x: 27.5, y: -41.5}
+        - {x: 38.5, y: -35.5}
+        - {x: 42.5, y: -29.5}
+        - {x: 42.5, y: -24.5}
+    - name: ARBOK_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 581
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 37.5}
+        - {x: -2.5, y: 41.5}
+        - {x: -30.5, y: 41.5}
+        - {x: -30.5, y: -36.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 31.5, y: -41.5}
+        - {x: 41.5, y: -33.5}
+        - {x: 41.5, y: -4.5}
+        - {x: 26.5, y: 22.5}
+    - name: ARBOK_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 581
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 41.5}
+        - {x: -30.5, y: 41.5}
+        - {x: -32.5, y: 39.5}
+        - {x: -32.5, y: -38.5}
+        - {x: -29.5, y: -41.5}
+        - {x: 41.5, y: -41.5}
+        - {x: 41.5, y: 6.5}
+        - {x: 29.5, y: 38.5}
+    - name: ARBOK_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 581
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -27.5}
+        - {x: 25.5, y: 23.5}
+        - {x: 10.5, y: 36.5}
+        - {x: -5.5, y: 41.5}
+        - {x: -31.5, y: 41.5}
+        - {x: -33.5, y: 40.5}
+        - {x: -33.5, y: -21.5}
+        - {x: -25.5, y: -41.5}
+        - {x: 16.5, y: -41.5}
+        - {x: 36.5, y: -36.5}
+        - {x: 41.5, y: -31.5}
+        - {x: 41.5, y: -29.5}
+    - name: ARBOK_12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 581
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 41.5}
+        - {x: -34.5, y: 3.5}
+        - {x: -25.5, y: -33.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 40.5, y: -41.5}
+        - {x: 40.5, y: 41.5}
+    - name: ARBOK_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 581
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 41.5}
+        - {x: -35.5, y: 28.5}
+        - {x: -35.5, y: -1.5}
+        - {x: -29.5, y: -36.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 26.5, y: -41.5}
+        - {x: 40.5, y: -35.5}
+        - {x: 40.5, y: -6.5}
+        - {x: 7.5, y: 41.5}
+    - name: ARBOK_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 581
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: -10.5}
+        - {x: -21.5, y: -41.5}
+        - {x: 39.5, y: -41.5}
+        - {x: 39.5, y: 26.5}
+        - {x: 35.5, y: 41.5}
+        - {x: -35.5, y: 41.5}
+        - {x: -36.5, y: 38.5}
+    - name: ARBOK_15
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 581
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 41.5}
+        - {x: -37.5, y: 39.5}
+        - {x: -37.5, y: -14.5}
+        - {x: -31.5, y: -22.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 13.5, y: -41.5}
+        - {x: 37.5, y: -38.5}
+        - {x: 39.5, y: -35.5}
+        - {x: 39.5, y: -22.5}
+        - {x: 9.5, y: 41.5}
+    - name: ARBOK_16
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 581
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 41.5}
+        - {x: -38.5, y: -10.5}
+        - {x: -33.5, y: -29.5}
+        - {x: -21.5, y: -41.5}
+        - {x: 38.5, y: -41.5}
+        - {x: 38.5, y: -24.5}
+        - {x: 29.5, y: 41.5}
+    - name: ARBOK_17
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 581
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: -41.5}
+        - {x: 37.5, y: -41.5}
+        - {x: 37.5, y: 17.5}
+        - {x: 28.5, y: 41.5}
+        - {x: -38.5, y: 41.5}
+        - {x: -38.5, y: -30.5}
+    - name: ARBOK_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 41.5}
+        - {x: -39.5, y: -12.5}
+        - {x: -25.5, y: -41.5}
+        - {x: 33.5, y: -41.5}
+        - {x: 36.5, y: -40.5}
+        - {x: 36.5, y: -22.5}
+        - {x: 16.5, y: 41.5}
+    - name: ARBOK_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 498
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 30.5}
+        - {x: -40.5, y: 7.5}
+        - {x: -37.5, y: -2.5}
+        - {x: -25.5, y: -41.5}
+        - {x: 36.5, y: -41.5}
+        - {x: 36.5, y: 18.5}
+        - {x: 30.5, y: 41.5}
+        - {x: -33.5, y: 41.5}
+        - {x: -37.5, y: 37.5}
+    - name: ARBOK_20
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 498
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 41.5}
+        - {x: -40.5, y: 34.5}
+        - {x: -41.5, y: 31.5}
+        - {x: -41.5, y: -12.5}
+        - {x: -22.5, y: -41.5}
+        - {x: 35.5, y: -41.5}
+        - {x: 35.5, y: -2.5}
+        - {x: 6.5, y: 41.5}
+    - name: ARBOK_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 498
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 41.5}
+        - {x: -38.5, y: 41.5}
+        - {x: -41.5, y: 33.5}
+        - {x: -41.5, y: -8.5}
+        - {x: -25.5, y: -34.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 34.5, y: -41.5}
+        - {x: 34.5, y: -2.5}
+        - {x: 22.5, y: 25.5}
+    - name: ARBOK_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 498
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 41.5}
+        - {x: -42.5, y: 37.5}
+        - {x: -42.5, y: -12.5}
+        - {x: -23.5, y: -41.5}
+        - {x: 31.5, y: -41.5}
+        - {x: 33.5, y: -37.5}
+        - {x: 33.5, y: -15.5}
+        - {x: 16.5, y: 41.5}
+    - name: ARBOK_23
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 498
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 41.5}
+        - {x: -42.5, y: 41.5}
+        - {x: -42.5, y: -22.5}
+        - {x: -24.5, y: -41.5}
+        - {x: 19.5, y: -41.5}
+        - {x: 31.5, y: -36.5}
+        - {x: 33.5, y: -34.5}
+        - {x: 33.5, y: -19.5}
+        - {x: 14.5, y: 33.5}
+    - name: ARBOK_24
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 498
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: -4.5}
+        - {x: -25.5, y: -41.5}
+        - {x: 32.5, y: -41.5}
+        - {x: 32.5, y: 16.5}
+        - {x: 24.5, y: 41.5}
+        - {x: -39.5, y: 41.5}
+        - {x: -42.5, y: 38.5}
+    - name: ARBOK_25
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 498
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 41.5}
+        - {x: -39.5, y: 41.5}
+        - {x: -43.5, y: 25.5}
+        - {x: -43.5, y: 3.5}
+        - {x: -30.5, y: -23.5}
+        - {x: -20.5, y: -37.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 21.5, y: -41.5}
+        - {x: 31.5, y: -32.5}
+        - {x: 31.5, y: -9.5}
+        - {x: 8.5, y: 38.5}
+    - name: ARBOK_26
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 498
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 41.5}
+        - {x: -37.5, y: 41.5}
+        - {x: -43.5, y: 35.5}
+        - {x: -43.5, y: -8.5}
+        - {x: -35.5, y: -26.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 16.5, y: -41.5}
+        - {x: 30.5, y: -36.5}
+        - {x: 30.5, y: -11.5}
+        - {x: 21.5, y: 23.5}
+    - name: ARBOK_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 41.5}
+        - {x: -43.5, y: -15.5}
+        - {x: -26.5, y: -41.5}
+        - {x: 30.5, y: -41.5}
+        - {x: 30.5, y: 30.5}
+        - {x: 3.5, y: 41.5}
+    - name: ARBOK_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 415
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 41.5}
+        - {x: -43.5, y: 36.5}
+        - {x: -43.5, y: -27.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 29.5, y: -41.5}
+        - {x: 29.5, y: 6.5}
+        - {x: 7.5, y: 41.5}
+    - name: ARBOK_29
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 415
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 6.5}
+        - {x: 6.5, y: 41.5}
+        - {x: -40.5, y: 41.5}
+        - {x: -43.5, y: 40.5}
+        - {x: -43.5, y: -1.5}
+        - {x: -19.5, y: -41.5}
+        - {x: 18.5, y: -41.5}
+        - {x: 28.5, y: -33.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 20.5, y: -12.5}
+    - name: ARBOK_30
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 415
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 41.5}
+        - {x: -39.5, y: 41.5}
+        - {x: -43.5, y: 31.5}
+        - {x: -43.5, y: 5.5}
+        - {x: -27.5, y: -30.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 16.5, y: -41.5}
+        - {x: 24.5, y: -38.5}
+        - {x: 28.5, y: -33.5}
+        - {x: 28.5, y: 0.5}
+        - {x: 6.5, y: 39.5}
+    - name: ARBOK_31
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 415
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 41.5}
+        - {x: -39.5, y: 41.5}
+        - {x: -41.5, y: 33.5}
+        - {x: -42.5, y: 23.5}
+        - {x: -42.5, y: -33.5}
+        - {x: -23.5, y: -41.5}
+        - {x: 20.5, y: -41.5}
+        - {x: 22.5, y: -37.5}
+        - {x: 27.5, y: -30.5}
+        - {x: 27.5, y: 8.5}
+    - name: ARBOK_32
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 415
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 27.5}
+        - {x: 0.5, y: 36.5}
+        - {x: -11.5, y: 41.5}
+        - {x: -41.5, y: 41.5}
+        - {x: -42.5, y: 39.5}
+        - {x: -42.5, y: -5.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 16.5, y: -41.5}
+        - {x: 23.5, y: -39.5}
+        - {x: 27.5, y: -25.5}
+        - {x: 27.5, y: -15.5}
+        - {x: 25.5, y: -13.5}
+    - name: ARBOK_33
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 415
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 41.5}
+        - {x: -42.5, y: 32.5}
+        - {x: -42.5, y: 1.5}
+        - {x: -31.5, y: -27.5}
+        - {x: -25.5, y: -41.5}
+        - {x: 26.5, y: -41.5}
+        - {x: 26.5, y: 41.5}
+    - name: ARBOK_34
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 415
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 41.5}
+        - {x: -42.5, y: 37.5}
+        - {x: -42.5, y: -3.5}
+        - {x: -29.5, y: -38.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 26.5, y: -41.5}
+        - {x: 26.5, y: 41.5}
+    - name: ARBOK_35
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 415
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 41.5}
+        - {x: -41.5, y: 31.5}
+        - {x: -41.5, y: -9.5}
+        - {x: -21.5, y: -41.5}
+        - {x: 22.5, y: -41.5}
+        - {x: 25.5, y: -37.5}
+        - {x: 25.5, y: 12.5}
+        - {x: 9.5, y: 41.5}
+    - name: ARBOK_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 41.5}
+        - {x: -40.5, y: 33.5}
+        - {x: -40.5, y: 1.5}
+        - {x: -27.5, y: -26.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 25.5, y: -41.5}
+        - {x: 25.5, y: 41.5}
+    - name: ARBOK_37
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 332
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 41.5}
+        - {x: -39.5, y: 33.5}
+        - {x: -39.5, y: 6.5}
+        - {x: -38.5, y: 4.5}
+        - {x: -27.5, y: -25.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 21.5, y: -41.5}
+        - {x: 25.5, y: -38.5}
+        - {x: 25.5, y: 36.5}
+        - {x: 23.5, y: 41.5}
+    - name: ARBOK_38
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 332
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 40.5}
+        - {x: -38.5, y: -25.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 24.5, y: -41.5}
+        - {x: 24.5, y: 40.5}
+    - name: ARBOK_39
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 332
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 40.5}
+        - {x: -32.5, y: 40.5}
+        - {x: -38.5, y: 32.5}
+        - {x: -38.5, y: -36.5}
+        - {x: -22.5, y: -41.5}
+        - {x: 24.5, y: -41.5}
+        - {x: 24.5, y: 6.5}
+        - {x: 17.5, y: 30.5}
+    - name: ARBOK_40
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 332
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 40.5}
+        - {x: -38.5, y: 37.5}
+        - {x: -38.5, y: -17.5}
+        - {x: -31.5, y: -41.5}
+        - {x: 25.5, y: -41.5}
+        - {x: 25.5, y: 24.5}
+        - {x: 6.5, y: 40.5}
+    - name: ARBOK_41
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 332
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 40.5}
+        - {x: -36.5, y: 29.5}
+        - {x: -36.5, y: -6.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 25.5, y: -41.5}
+        - {x: 25.5, y: 40.5}
+    - name: ARBOK_42
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 332
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 40.5}
+        - {x: -35.5, y: -21.5}
+        - {x: -27.5, y: -40.5}
+        - {x: -22.5, y: -41.5}
+        - {x: 26.5, y: -41.5}
+        - {x: 26.5, y: 17.5}
+        - {x: 14.5, y: 40.5}
+    - name: ARBOK_43
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 332
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 40.5}
+        - {x: -34.5, y: 34.5}
+        - {x: -34.5, y: 3.5}
+        - {x: -33.5, y: 2.5}
+        - {x: -20.5, y: -36.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 26.5, y: -41.5}
+        - {x: 26.5, y: 40.5}
+    - name: ARBOK_44
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 332
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 39.5}
+        - {x: -33.5, y: 37.5}
+        - {x: -33.5, y: -26.5}
+        - {x: -22.5, y: -41.5}
+        - {x: 21.5, y: -41.5}
+        - {x: 27.5, y: -39.5}
+        - {x: 27.5, y: -26.5}
+        - {x: 22.5, y: -20.5}
+        - {x: 21.5, y: 3.5}
+        - {x: 15.5, y: 39.5}
+    - name: ARBOK_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -11.5}
+        - {x: -29.5, y: -23.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 24.5, y: -41.5}
+        - {x: 28.5, y: -40.5}
+        - {x: 28.5, y: -5.5}
+        - {x: 14.5, y: 33.5}
+        - {x: 11.5, y: 39.5}
+        - {x: -30.5, y: 39.5}
+        - {x: -32.5, y: 38.5}
+    - name: ARBOK_46
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 249
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39.5}
+        - {x: -31.5, y: 32.5}
+        - {x: -31.5, y: 4.5}
+        - {x: -26.5, y: -26.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 28.5, y: -41.5}
+        - {x: 28.5, y: 39.5}
+    - name: ARBOK_47
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 249
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -20.5}
+        - {x: 20.5, y: 28.5}
+        - {x: 3.5, y: 38.5}
+        - {x: -1.5, y: 39.5}
+        - {x: -21.5, y: 39.5}
+        - {x: -29.5, y: 28.5}
+        - {x: -29.5, y: 1.5}
+        - {x: -23.5, y: -28.5}
+        - {x: -19.5, y: -41.5}
+        - {x: 19.5, y: -41.5}
+        - {x: 25.5, y: -37.5}
+        - {x: 28.5, y: -30.5}
+        - {x: 28.5, y: -21.5}
+    - name: ARBOK_48
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 249
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 38.5}
+        - {x: -28.5, y: -37.5}
+        - {x: -27.5, y: -41.5}
+        - {x: 29.5, y: -41.5}
+        - {x: 29.5, y: 37.5}
+        - {x: 27.5, y: 38.5}
+    - name: ARBOK_49
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 249
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 38.5}
+        - {x: -16.5, y: 38.5}
+        - {x: -27.5, y: 32.5}
+        - {x: -27.5, y: -8.5}
+        - {x: -23.5, y: -37.5}
+        - {x: -13.5, y: -41.5}
+        - {x: 22.5, y: -41.5}
+        - {x: 30.5, y: -35.5}
+        - {x: 30.5, y: 9.5}
+        - {x: 25.5, y: 21.5}
+    - name: ARBOK_50
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 249
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 22.5}
+        - {x: -26.5, y: -4.5}
+        - {x: -20.5, y: -35.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 12.5, y: -41.5}
+        - {x: 30.5, y: -34.5}
+        - {x: 30.5, y: 3.5}
+        - {x: 22.5, y: 37.5}
+        - {x: -17.5, y: 37.5}
+        - {x: -25.5, y: 31.5}
+    - name: ARBOK_51
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 249
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 37.5}
+        - {x: -25.5, y: -35.5}
+        - {x: -13.5, y: -41.5}
+        - {x: 31.5, y: -41.5}
+        - {x: 31.5, y: 37.5}
+    - name: ARBOK_52
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 249
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 7.5}
+        - {x: 19.5, y: 34.5}
+        - {x: 1.5, y: 37.5}
+        - {x: -8.5, y: 37.5}
+        - {x: -14.5, y: 35.5}
+        - {x: -24.5, y: 28.5}
+        - {x: -24.5, y: -38.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 10.5, y: -41.5}
+        - {x: 25.5, y: -38.5}
+        - {x: 31.5, y: -30.5}
+        - {x: 31.5, y: -20.5}
+        - {x: 20.5, y: -16.5}
+    - name: ARBOK_53
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 249
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 36.5}
+        - {x: -23.5, y: 36.5}
+        - {x: -23.5, y: -41.5}
+        - {x: 32.5, y: -41.5}
+        - {x: 32.5, y: 8.5}
+        - {x: 19.5, y: 35.5}
+    - name: ARBOK_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -16.5}
+        - {x: 19.5, y: -17.5}
+        - {x: 31.5, y: 4.5}
+        - {x: 21.5, y: 36.5}
+        - {x: -12.5, y: 36.5}
+        - {x: -22.5, y: 32.5}
+        - {x: -22.5, y: -37.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 20.5, y: -41.5}
+        - {x: 32.5, y: -34.5}
+        - {x: 32.5, y: -19.5}
+        - {x: 30.5, y: -16.5}
+    - name: ARBOK_55
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 166
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -16.5}
+        - {x: 18.5, y: -17.5}
+        - {x: 27.5, y: 0.5}
+        - {x: 27.5, y: 29.5}
+        - {x: 6.5, y: 36.5}
+        - {x: -18.5, y: 36.5}
+        - {x: -22.5, y: 24.5}
+        - {x: -22.5, y: -26.5}
+        - {x: -19.5, y: -41.5}
+        - {x: 28.5, y: -41.5}
+        - {x: 33.5, y: -30.5}
+        - {x: 33.5, y: -22.5}
+    - name: ARBOK_56
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 166
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 35.5}
+        - {x: -21.5, y: -41.5}
+        - {x: 33.5, y: -41.5}
+        - {x: 33.5, y: 21.5}
+        - {x: 10.5, y: 35.5}
+    - name: ARBOK_57
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 166
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 35.5}
+        - {x: -20.5, y: 28.5}
+        - {x: -20.5, y: -39.5}
+        - {x: -19.5, y: -41.5}
+        - {x: 34.5, y: -41.5}
+        - {x: 34.5, y: 7.5}
+        - {x: 29.5, y: 35.5}
+    - name: ARBOK_58
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 166
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 35.5}
+        - {x: -20.5, y: -41.5}
+        - {x: 30.5, y: -41.5}
+        - {x: 34.5, y: -35.5}
+        - {x: 34.5, y: 29.5}
+        - {x: 15.5, y: 35.5}
+    - name: ARBOK_59
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 166
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 35.5}
+        - {x: -11.5, y: 35.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -20.5, y: 22.5}
+        - {x: -20.5, y: -33.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 23.5, y: -41.5}
+        - {x: 35.5, y: -38.5}
+        - {x: 35.5, y: 27.5}
+    - name: ARBOK_60
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 166
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 34.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -20.5, y: -33.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 13.5, y: -41.5}
+        - {x: 31.5, y: -37.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 21.5}
+        - {x: 21.5, y: 34.5}
+    - name: ARBOK_61
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 166
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 34.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -20.5, y: 10.5}
+        - {x: -20.5, y: -33.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 29.5, y: -41.5}
+        - {x: 36.5, y: -35.5}
+        - {x: 36.5, y: 29.5}
+        - {x: 26.5, y: 34.5}
+    - name: ARBOK_62
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 166
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 34.5}
+        - {x: -17.5, y: 24.5}
+        - {x: -20.5, y: -9.5}
+        - {x: -20.5, y: -34.5}
+        - {x: -19.5, y: -41.5}
+        - {x: 36.5, y: -41.5}
+        - {x: 36.5, y: 21.5}
+        - {x: 33.5, y: 34.5}
+    - name: ARBOK_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 18.5}
+        - {x: 23.5, y: 30.5}
+        - {x: 7.5, y: 34.5}
+        - {x: -8.5, y: 34.5}
+        - {x: -17.5, y: 27.5}
+        - {x: -20.5, y: 14.5}
+        - {x: -20.5, y: -34.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 19.5, y: -41.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 37.5, y: -31.5}
+        - {x: 37.5, y: -18.5}
+        - {x: 25.5, y: -13.5}
+    - name: ARBOK_64
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 83
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 34.5}
+        - {x: -20.5, y: 21.5}
+        - {x: -20.5, y: -30.5}
+        - {x: -17.5, y: -36.5}
+        - {x: -14.5, y: -41.5}
+        - {x: 37.5, y: -41.5}
+        - {x: 37.5, y: 5.5}
+        - {x: 28.5, y: 34.5}
+    - name: ARBOK_65
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 83
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -18.5}
+        - {x: 30.5, y: 0.5}
+        - {x: 33.5, y: 22.5}
+        - {x: 14.5, y: 34.5}
+        - {x: -5.5, y: 34.5}
+        - {x: -16.5, y: 28.5}
+        - {x: -20.5, y: 13.5}
+        - {x: -20.5, y: -34.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 15.5, y: -41.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 38.5, y: -31.5}
+        - {x: 38.5, y: -23.5}
+        - {x: 35.5, y: -15.5}
+    - name: ARBOK_66
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 83
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 34.5}
+        - {x: -10.5, y: 34.5}
+        - {x: -20.5, y: 17.5}
+        - {x: -20.5, y: -34.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 16.5, y: -41.5}
+        - {x: 36.5, y: -35.5}
+        - {x: 38.5, y: -34.5}
+        - {x: 38.5, y: 10.5}
+        - {x: 25.5, y: 29.5}
+    - name: ARBOK_67
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 83
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 34.5}
+        - {x: -20.5, y: 17.5}
+        - {x: -20.5, y: -40.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 39.5, y: -41.5}
+        - {x: 39.5, y: 26.5}
+        - {x: 27.5, y: 34.5}
+    - name: ARBOK_68
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 83
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 35.5}
+        - {x: -13.5, y: 35.5}
+        - {x: -20.5, y: 16.5}
+        - {x: -20.5, y: -38.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 17.5, y: -41.5}
+        - {x: 38.5, y: -34.5}
+        - {x: 39.5, y: -34.5}
+        - {x: 39.5, y: 17.5}
+        - {x: 33.5, y: 27.5}
+    - name: ARBOK_69
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 83
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: -22.5}
+        - {x: 39.5, y: -18.5}
+        - {x: 38.5, y: 21.5}
+        - {x: 21.5, y: 35.5}
+        - {x: -5.5, y: 35.5}
+        - {x: -19.5, y: 29.5}
+        - {x: -20.5, y: -2.5}
+        - {x: -20.5, y: -28.5}
+        - {x: -19.5, y: -35.5}
+        - {x: -11.5, y: -41.5}
+        - {x: 4.5, y: -41.5}
+        - {x: 13.5, y: -38.5}
+        - {x: 23.5, y: -34.5}
+        - {x: 40.5, y: -31.5}
+    - name: ARBOK_70
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 83
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -41.5}
+        - {x: 9.5, y: -41.5}
+        - {x: 41.5, y: -33.5}
+        - {x: 41.5, y: -12.5}
+        - {x: 26.5, y: 32.5}
+        - {x: 13.5, y: 35.5}
+        - {x: -18.5, y: 35.5}
+        - {x: -20.5, y: 34.5}
+    - name: ARBOK_71
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 83
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -41.5}
+        - {x: 32.5, y: -41.5}
+        - {x: 42.5, y: -38.5}
+        - {x: 42.5, y: -9.5}
+        - {x: 32.5, y: 36.5}
+        - {x: -16.5, y: 36.5}
+        - {x: -20.5, y: 33.5}
+    - name: ARBOK_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 20.5}
+        - {x: 15.5, y: 36.5}
+        - {x: -8.5, y: 36.5}
+        - {x: -21.5, y: 27.5}
+        - {x: -21.5, y: -35.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 16.5, y: -41.5}
+        - {x: 43.5, y: -30.5}
+        - {x: 43.5, y: -22.5}
+        - {x: 36.5, y: -19.5}
+    - name: ARBOK_73
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 19.5}
+        - {x: 9.5, y: 36.5}
+        - {x: -11.5, y: 36.5}
+        - {x: -21.5, y: 13.5}
+        - {x: -21.5, y: -35.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 15.5, y: -41.5}
+        - {x: 43.5, y: -27.5}
+        - {x: 43.5, y: -19.5}
+    - name: ARBOK_74
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 4.5}
+        - {x: 22.5, y: 37.5}
+        - {x: -12.5, y: 37.5}
+        - {x: -21.5, y: 11.5}
+        - {x: -21.5, y: -37.5}
+        - {x: -19.5, y: -41.5}
+        - {x: 11.5, y: -41.5}
+        - {x: 19.5, y: -39.5}
+        - {x: 43.5, y: -26.5}
+        - {x: 43.5, y: -19.5}
+    - name: ARBOK_75
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 27.5}
+        - {x: 9.5, y: 37.5}
+        - {x: -11.5, y: 37.5}
+        - {x: -20.5, y: 27.5}
+        - {x: -21.5, y: 22.5}
+        - {x: -21.5, y: -38.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 23.5, y: -41.5}
+        - {x: 39.5, y: -33.5}
+        - {x: 43.5, y: -27.5}
+        - {x: 43.5, y: -19.5}
+    - name: ARBOK_76
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 37.5}
+        - {x: 17.5, y: 38.5}
+        - {x: -12.5, y: 38.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -37.5}
+        - {x: -14.5, y: -41.5}
+        - {x: 30.5, y: -41.5}
+        - {x: 39.5, y: -38.5}
+        - {x: 43.5, y: -29.5}
+        - {x: 43.5, y: 0.5}
+    - name: ARBOK_77
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 0
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 38.5}
+        - {x: -12.5, y: 38.5}
+        - {x: -18.5, y: 27.5}
+        - {x: -21.5, y: 1.5}
+        - {x: -21.5, y: -34.5}
+        - {x: -16.5, y: -41.5}
+        - {x: 15.5, y: -41.5}
+        - {x: 39.5, y: -35.5}
+        - {x: 43.5, y: -27.5}
+        - {x: 43.5, y: -17.5}
+        - {x: 35.5, y: 18.5}
+    - name: ARBOK_78
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -20.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 32.5}
+        - {x: 6.5, y: 39.5}
+        - {x: -8.5, y: 39.5}
+        - {x: -22.5, y: 28.5}
+        - {x: -22.5, y: -39.5}
+        - {x: -21.5, y: -41.5}
+        - {x: 16.5, y: -41.5}
+        - {x: 19.5, y: -40.5}
+        - {x: 37.5, y: -32.5}
+        - {x: 43.5, y: -26.5}
+        - {x: 43.5, y: -20.5}
+    - name: ARBOK_79
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 0
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 39.5}
+        - {x: -22.5, y: 30.5}
+        - {x: -22.5, y: -40.5}
+        - {x: -21.5, y: -41.5}
+        - {x: 43.5, y: -41.5}
+        - {x: 43.5, y: 39.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

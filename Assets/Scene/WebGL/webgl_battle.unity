@@ -453,6 +453,8 @@ MonoBehaviour:
   finishedWWW: 0
   hasWWW: 0
   canOnGUI: 0
+  isGif: 0
+  pokemonSprite: {fileID: 0}
 --- !u!4 &204420188
 Transform:
   m_ObjectHideFlags: 0
@@ -2622,6 +2624,8 @@ MonoBehaviour:
   percentage: 2
   pName: 
   finishedWWW: 0
+  isGif: 0
+  pokemonSprite: {fileID: 0}
   positionPlaceHolderGO: {fileID: 0}
 --- !u!4 &1398198469
 Transform:

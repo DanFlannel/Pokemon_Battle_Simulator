@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: f367c9dcc7cc65c498e7e6ec1c702d9a
+timeCreated: 1452637221
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BONSLY_0
+    21300002: BONSLY_1
+    21300004: BONSLY_2
+    21300006: BONSLY_3
+    21300008: BONSLY_4
+    21300010: BONSLY_5
+    21300012: BONSLY_6
+    21300014: BONSLY_7
+    21300016: BONSLY_8
+    21300018: BONSLY_9
+    21300020: BONSLY_10
+    21300022: BONSLY_11
+    21300024: BONSLY_12
+    21300026: BONSLY_13
+    21300028: BONSLY_14
+    21300030: BONSLY_15
+    21300032: BONSLY_16
+    21300034: BONSLY_17
+    21300036: BONSLY_18
+    21300038: BONSLY_19
+    21300040: BONSLY_20
+    21300042: BONSLY_21
+    21300044: BONSLY_22
+    21300046: BONSLY_23
+    21300048: BONSLY_24
+    21300050: BONSLY_25
+    21300052: BONSLY_26
+    21300054: BONSLY_27
+    21300056: BONSLY_28
+    21300058: BONSLY_29
+    21300060: BONSLY_30
+    21300062: BONSLY_31
+    21300064: BONSLY_32
+    21300066: BONSLY_33
+    21300068: BONSLY_34
+    21300070: BONSLY_35
+    21300072: BONSLY_36
+    21300074: BONSLY_37
+    21300076: BONSLY_38
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BONSLY_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 28.5}
+        - {x: -17.5, y: 15.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 16.5}
+        - {x: 14.5, y: 28.5}
+    - name: BONSLY_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 342
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 28.5}
+        - {x: -17.5, y: 21.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 24.5}
+        - {x: 10.5, y: 28.5}
+    - name: BONSLY_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 342
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 28.5}
+        - {x: -18.5, y: 19.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 17.5, y: -28.5}
+        - {x: 18.5, y: -23.5}
+        - {x: 18.5, y: 23.5}
+        - {x: 8.5, y: 28.5}
+    - name: BONSLY_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 342
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 28.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 17.5, y: -28.5}
+        - {x: 18.5, y: -22.5}
+        - {x: 18.5, y: 21.5}
+        - {x: 11.5, y: 28.5}
+    - name: BONSLY_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 342
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 28.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 22.5}
+        - {x: 15.5, y: 28.5}
+    - name: BONSLY_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 342
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 28.5}
+        - {x: -18.5, y: 24.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 22.5}
+        - {x: 7.5, y: 28.5}
+    - name: BONSLY_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 342
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 28.5}
+        - {x: -18.5, y: 27.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 26.5}
+        - {x: 13.5, y: 28.5}
+    - name: BONSLY_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 28.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 21.5}
+        - {x: 7.5, y: 28.5}
+    - name: BONSLY_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 285
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 28.5}
+        - {x: -14.5, y: 28.5}
+        - {x: -18.5, y: 16.5}
+        - {x: -18.5, y: -20.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 18.5, y: 22.5}
+    - name: BONSLY_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 285
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 28.5}
+        - {x: -18.5, y: 21.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 17.5, y: -28.5}
+        - {x: 18.5, y: -22.5}
+        - {x: 18.5, y: 19.5}
+        - {x: 11.5, y: 28.5}
+    - name: BONSLY_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 285
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 28.5}
+        - {x: -7.5, y: 28.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 15.5, y: -28.5}
+        - {x: 17.5, y: -23.5}
+        - {x: 17.5, y: 19.5}
+    - name: BONSLY_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 285
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 28.5}
+        - {x: -18.5, y: 23.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 17.5, y: -28.5}
+        - {x: 17.5, y: 19.5}
+        - {x: 10.5, y: 28.5}
+    - name: BONSLY_12
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 285
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 28.5}
+        - {x: -18.5, y: 23.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 17.5, y: -22.5}
+        - {x: 17.5, y: 24.5}
+        - {x: 8.5, y: 28.5}
+    - name: BONSLY_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 285
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 28.5}
+        - {x: -18.5, y: 15.5}
+        - {x: -18.5, y: -20.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 14.5, y: -28.5}
+        - {x: 17.5, y: -26.5}
+        - {x: 17.5, y: 19.5}
+        - {x: 3.5, y: 28.5}
+    - name: BONSLY_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 28.5}
+        - {x: -9.5, y: 28.5}
+        - {x: -18.5, y: 19.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 16.5, y: 17.5}
+        - {x: 15.5, y: 20.5}
+    - name: BONSLY_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 228
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 28.5}
+        - {x: -10.5, y: 28.5}
+        - {x: -18.5, y: 18.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 15.5, y: -28.5}
+        - {x: 16.5, y: -23.5}
+        - {x: 16.5, y: 19.5}
+    - name: BONSLY_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 228
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 28.5}
+        - {x: -18.5, y: 21.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 16.5, y: 26.5}
+        - {x: 5.5, y: 28.5}
+    - name: BONSLY_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 228
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 28.5}
+        - {x: -17.5, y: 28.5}
+        - {x: -18.5, y: 21.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 14.5, y: -28.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 16.5, y: 18.5}
+    - name: BONSLY_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 228
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 28.5}
+        - {x: -16.5, y: 27.5}
+        - {x: -18.5, y: 19.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 16.5, y: 18.5}
+        - {x: 6.5, y: 28.5}
+    - name: BONSLY_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 228
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 28.5}
+        - {x: -7.5, y: 28.5}
+        - {x: -18.5, y: 18.5}
+        - {x: -18.5, y: -17.5}
+        - {x: -15.5, y: -27.5}
+        - {x: -14.5, y: -28.5}
+        - {x: 14.5, y: -28.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 16.5, y: 17.5}
+    - name: BONSLY_20
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 228
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 20.5}
+        - {x: 3.5, y: 28.5}
+        - {x: -11.5, y: 28.5}
+        - {x: -18.5, y: 21.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 14.5, y: -28.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 16.5, y: 14.5}
+    - name: BONSLY_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 28.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 14.5, y: -28.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 20.5}
+        - {x: 3.5, y: 28.5}
+    - name: BONSLY_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 171
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 28.5}
+        - {x: -10.5, y: 28.5}
+        - {x: -18.5, y: 20.5}
+        - {x: -18.5, y: -26.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 17.5, y: -22.5}
+        - {x: 17.5, y: 13.5}
+        - {x: 12.5, y: 20.5}
+    - name: BONSLY_23
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 171
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 28.5}
+        - {x: -18.5, y: 22.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 17.5, y: -28.5}
+        - {x: 17.5, y: 22.5}
+        - {x: 6.5, y: 28.5}
+    - name: BONSLY_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 171
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 28.5}
+        - {x: -18.5, y: 27.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 17.5, y: -28.5}
+        - {x: 17.5, y: 21.5}
+        - {x: 15.5, y: 28.5}
+    - name: BONSLY_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 171
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 28.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 14.5}
+        - {x: 7.5, y: 28.5}
+    - name: BONSLY_26
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 171
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 28.5}
+        - {x: -18.5, y: 14.5}
+        - {x: -18.5, y: -18.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 24.5}
+        - {x: 8.5, y: 28.5}
+    - name: BONSLY_27
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 171
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 28.5}
+        - {x: -18.5, y: 22.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 22.5}
+        - {x: 9.5, y: 28.5}
+    - name: BONSLY_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 28.5}
+        - {x: -10.5, y: 27.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 20.5}
+        - {x: 10.5, y: 28.5}
+    - name: BONSLY_29
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 114
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 28.5}
+        - {x: -6.5, y: 28.5}
+        - {x: -9.5, y: 27.5}
+        - {x: -18.5, y: 16.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 14.5, y: -28.5}
+        - {x: 18.5, y: -17.5}
+        - {x: 18.5, y: 15.5}
+    - name: BONSLY_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 114
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 28.5}
+        - {x: -4.5, y: 28.5}
+        - {x: -18.5, y: 16.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 14.5, y: -28.5}
+        - {x: 18.5, y: -17.5}
+        - {x: 18.5, y: 19.5}
+    - name: BONSLY_31
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 114
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 28.5}
+        - {x: -11.5, y: 28.5}
+        - {x: -18.5, y: 23.5}
+        - {x: -18.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 18.5, y: -24.5}
+    - name: BONSLY_32
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 114
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 28.5}
+        - {x: -17.5, y: 18.5}
+        - {x: -17.5, y: -24.5}
+        - {x: -15.5, y: -28.5}
+        - {x: 15.5, y: -28.5}
+        - {x: 18.5, y: -17.5}
+        - {x: 18.5, y: 20.5}
+        - {x: 15.5, y: 28.5}
+    - name: BONSLY_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 114
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 28.5}
+        - {x: -17.5, y: 18.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 22.5}
+        - {x: 8.5, y: 28.5}
+    - name: BONSLY_34
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 114
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 28.5}
+        - {x: -17.5, y: 15.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 15.5, y: -28.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 18.5, y: 20.5}
+        - {x: 14.5, y: 28.5}
+    - name: BONSLY_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 28.5}
+        - {x: -8.5, y: 27.5}
+        - {x: -17.5, y: 12.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 18.5, y: -16.5}
+        - {x: 18.5, y: 20.5}
+        - {x: 11.5, y: 28.5}
+    - name: BONSLY_36
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 57
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 28.5}
+        - {x: -17.5, y: 15.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 18.5, y: -13.5}
+        - {x: 18.5, y: 19.5}
+        - {x: 11.5, y: 28.5}
+    - name: BONSLY_37
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 57
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 28.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -21.5}
+        - {x: -16.5, y: -28.5}
+        - {x: 16.5, y: -28.5}
+        - {x: 18.5, y: -7.5}
+        - {x: 18.5, y: 15.5}
+        - {x: 8.5, y: 28.5}
+    - name: BONSLY_38
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 57
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 28.5}
+        - {x: -17.5, y: 20.5}
+        - {x: -17.5, y: -28.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 28.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

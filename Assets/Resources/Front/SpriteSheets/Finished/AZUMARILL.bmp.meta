@@ -1,0 +1,1303 @@
+fileFormatVersion: 2
+guid: 960efcc79cde7384ab9635e1c0ed4d52
+timeCreated: 1452657420
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AZUMARILL_0
+    21300002: AZUMARILL_1
+    21300004: AZUMARILL_2
+    21300006: AZUMARILL_3
+    21300008: AZUMARILL_4
+    21300010: AZUMARILL_5
+    21300012: AZUMARILL_6
+    21300014: AZUMARILL_7
+    21300016: AZUMARILL_8
+    21300018: AZUMARILL_9
+    21300020: AZUMARILL_10
+    21300022: AZUMARILL_11
+    21300024: AZUMARILL_12
+    21300026: AZUMARILL_13
+    21300028: AZUMARILL_14
+    21300030: AZUMARILL_15
+    21300032: AZUMARILL_16
+    21300034: AZUMARILL_17
+    21300036: AZUMARILL_18
+    21300038: AZUMARILL_19
+    21300040: AZUMARILL_20
+    21300042: AZUMARILL_21
+    21300044: AZUMARILL_22
+    21300046: AZUMARILL_23
+    21300048: AZUMARILL_24
+    21300050: AZUMARILL_25
+    21300052: AZUMARILL_26
+    21300054: AZUMARILL_27
+    21300056: AZUMARILL_28
+    21300058: AZUMARILL_29
+    21300060: AZUMARILL_30
+    21300062: AZUMARILL_31
+    21300064: AZUMARILL_32
+    21300066: AZUMARILL_33
+    21300068: AZUMARILL_34
+    21300070: AZUMARILL_35
+    21300072: AZUMARILL_36
+    21300074: AZUMARILL_37
+    21300076: AZUMARILL_38
+    21300078: AZUMARILL_39
+    21300080: AZUMARILL_40
+    21300082: AZUMARILL_41
+    21300084: AZUMARILL_42
+    21300086: AZUMARILL_43
+    21300088: AZUMARILL_44
+    21300090: AZUMARILL_45
+    21300092: AZUMARILL_46
+    21300094: AZUMARILL_47
+    21300096: AZUMARILL_48
+    21300098: AZUMARILL_49
+    21300100: AZUMARILL_50
+    21300102: AZUMARILL_51
+    21300104: AZUMARILL_52
+    21300106: AZUMARILL_53
+    21300108: AZUMARILL_54
+    21300110: AZUMARILL_55
+    21300112: AZUMARILL_56
+    21300114: AZUMARILL_57
+    21300116: AZUMARILL_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AZUMARILL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 40}
+        - {x: -36.5, y: 18}
+        - {x: -36.5, y: -15}
+        - {x: -26.5, y: -45}
+        - {x: 41.5, y: -45}
+        - {x: 44.5, y: -40}
+        - {x: 44.5, y: 36}
+        - {x: 41.5, y: 40}
+    - name: AZUMARILL_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 630
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 40}
+        - {x: -36.5, y: 17}
+        - {x: -36.5, y: -20}
+        - {x: -24.5, y: -45}
+        - {x: 23.5, y: -45}
+        - {x: 43.5, y: -35}
+        - {x: 44.5, y: -29}
+        - {x: 44.5, y: 40}
+    - name: AZUMARILL_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 630
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 40}
+        - {x: 27.5, y: 38}
+        - {x: 19.5, y: 29}
+        - {x: 15.5, y: 36}
+        - {x: 4.5, y: 40}
+        - {x: -28.5, y: 40}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -45}
+        - {x: 44.5, y: -45}
+        - {x: 44.5, y: 40}
+    - name: AZUMARILL_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 630
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 40}
+        - {x: -37.5, y: 24}
+        - {x: -37.5, y: -40}
+        - {x: -27.5, y: -45}
+        - {x: 44.5, y: -45}
+        - {x: 44.5, y: 40}
+    - name: AZUMARILL_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 630
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 40}
+        - {x: -13.5, y: 40}
+        - {x: -38.5, y: 1}
+        - {x: -38.5, y: -16}
+        - {x: -22.5, y: -45}
+        - {x: 22.5, y: -45}
+        - {x: 40.5, y: -31}
+        - {x: 44.5, y: -29}
+        - {x: 44.5, y: 37}
+    - name: AZUMARILL_5
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 630
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 40}
+        - {x: -38.5, y: 10}
+        - {x: -38.5, y: -38}
+        - {x: -35.5, y: -45}
+        - {x: 26.5, y: -45}
+        - {x: 44.5, y: -40}
+        - {x: 44.5, y: 24}
+        - {x: 40.5, y: 38}
+        - {x: 37.5, y: 40}
+    - name: AZUMARILL_6
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 630
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 39}
+        - {x: -38.5, y: 27}
+        - {x: -38.5, y: -35}
+        - {x: -28.5, y: -45}
+        - {x: 27.5, y: -45}
+        - {x: 44.5, y: -31}
+        - {x: 44.5, y: 25}
+        - {x: 43.5, y: 39}
+    - name: AZUMARILL_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 630
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 36}
+        - {x: 32.5, y: 39}
+        - {x: -21.5, y: 39}
+        - {x: -38.5, y: -10}
+        - {x: -38.5, y: -26}
+        - {x: -23.5, y: -45}
+        - {x: 27.5, y: -45}
+        - {x: 44.5, y: -34}
+        - {x: 44.5, y: -10}
+        - {x: 43.5, y: -8}
+    - name: AZUMARILL_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 38}
+        - {x: -38.5, y: 3}
+        - {x: -38.5, y: -36}
+        - {x: -30.5, y: -45}
+        - {x: 26.5, y: -45}
+        - {x: 44.5, y: -40}
+        - {x: 44.5, y: 38}
+    - name: AZUMARILL_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 540
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -12}
+        - {x: 33.5, y: 26}
+        - {x: 28.5, y: 37}
+        - {x: -7.5, y: 37}
+        - {x: -18.5, y: 32}
+        - {x: -39.5, y: 14}
+        - {x: -39.5, y: -45}
+        - {x: 21.5, y: -45}
+        - {x: 44.5, y: -28}
+        - {x: 44.5, y: -14}
+        - {x: 40.5, y: -11}
+    - name: AZUMARILL_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 540
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 22}
+        - {x: -12.5, y: 32}
+        - {x: -38.5, y: 25}
+        - {x: -38.5, y: -41}
+        - {x: -37.5, y: -45}
+        - {x: 42.5, y: -45}
+        - {x: 44.5, y: -44}
+        - {x: 44.5, y: 36}
+        - {x: 13.5, y: 36}
+        - {x: 8.5, y: 28}
+    - name: AZUMARILL_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 540
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 36}
+        - {x: -22.5, y: 29}
+        - {x: -38.5, y: 18}
+        - {x: -38.5, y: -45}
+        - {x: 35.5, y: -45}
+        - {x: 44.5, y: -33}
+        - {x: 44.5, y: 14}
+        - {x: 30.5, y: 36}
+    - name: AZUMARILL_12
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 540
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 30}
+        - {x: 21.5, y: 35}
+        - {x: 9.5, y: 35}
+        - {x: 5.5, y: 30}
+        - {x: -20.5, y: 30}
+        - {x: -24.5, y: 26}
+        - {x: -28.5, y: 17}
+        - {x: -23.5, y: 14}
+        - {x: -38.5, y: -20}
+        - {x: -38.5, y: -43}
+        - {x: -26.5, y: -45}
+        - {x: 31.5, y: -45}
+        - {x: 44.5, y: -32}
+        - {x: 44.5, y: -15}
+        - {x: 43.5, y: -13}
+    - name: AZUMARILL_13
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 540
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -39}
+        - {x: -34.5, y: -45}
+        - {x: 30.5, y: -45}
+        - {x: 44.5, y: -42}
+        - {x: 44.5, y: 18}
+        - {x: 36.5, y: 35}
+        - {x: -9.5, y: 35}
+        - {x: -34.5, y: 21}
+        - {x: -38.5, y: -5}
+    - name: AZUMARILL_14
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 540
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 35}
+        - {x: -38.5, y: 24}
+        - {x: -38.5, y: -45}
+        - {x: 37.5, y: -45}
+        - {x: 44.5, y: -44}
+        - {x: 44.5, y: -14}
+        - {x: 22.5, y: 35}
+    - name: AZUMARILL_15
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 540
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 36}
+        - {x: -38.5, y: 26}
+        - {x: -38.5, y: -41}
+        - {x: -26.5, y: -45}
+        - {x: 43.5, y: -45}
+        - {x: 43.5, y: -9}
+        - {x: 24.5, y: 36}
+    - name: AZUMARILL_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 37}
+        - {x: -38.5, y: 23}
+        - {x: -38.5, y: -45}
+        - {x: 28.5, y: -45}
+        - {x: 41.5, y: -42}
+        - {x: 42.5, y: -36}
+        - {x: 42.5, y: -6}
+        - {x: 13.5, y: 37}
+    - name: AZUMARILL_17
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 450
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 38}
+        - {x: -0.5, y: 38}
+        - {x: -4.5, y: 33}
+        - {x: -26.5, y: 38}
+        - {x: -38.5, y: 38}
+        - {x: -38.5, y: -44}
+        - {x: -36.5, y: -45}
+        - {x: 40.5, y: -45}
+        - {x: 40.5, y: -20}
+        - {x: 15.5, y: 31}
+    - name: AZUMARILL_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 450
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: -45}
+        - {x: 38.5, y: -45}
+        - {x: 38.5, y: 5}
+        - {x: 35.5, y: 25}
+        - {x: 16.5, y: 39}
+        - {x: -18.5, y: 39}
+        - {x: -39.5, y: 34}
+    - name: AZUMARILL_19
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 450
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: -45}
+        - {x: 36.5, y: -45}
+        - {x: 36.5, y: 4}
+        - {x: 28.5, y: 38}
+        - {x: 23.5, y: 40}
+        - {x: -22.5, y: 40}
+        - {x: -40.5, y: 30}
+    - name: AZUMARILL_20
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 450
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: -24}
+        - {x: 29.5, y: -24}
+        - {x: 34.5, y: -20}
+        - {x: 34.5, y: -16}
+        - {x: 16.5, y: 42}
+        - {x: -36.5, y: 42}
+        - {x: -41.5, y: 27}
+        - {x: -41.5, y: -44}
+        - {x: -39.5, y: -45}
+        - {x: 32.5, y: -45}
+        - {x: 34.5, y: -42}
+        - {x: 34.5, y: -30}
+        - {x: 32.5, y: -24}
+    - name: AZUMARILL_21
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 450
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 43}
+        - {x: -41.5, y: 26}
+        - {x: -41.5, y: -32}
+        - {x: -26.5, y: -45}
+        - {x: 33.5, y: -45}
+        - {x: 34.5, y: -41}
+        - {x: 34.5, y: -3}
+        - {x: 8.5, y: 43}
+    - name: AZUMARILL_22
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 450
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -45}
+        - {x: 33.5, y: -45}
+        - {x: 33.5, y: 8}
+        - {x: 20.5, y: 44}
+        - {x: -32.5, y: 44}
+        - {x: -42.5, y: 37}
+        - {x: -42.5, y: -34}
+    - name: AZUMARILL_23
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 450
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 45}
+        - {x: -41.5, y: 40}
+        - {x: -42.5, y: 17}
+        - {x: -37.5, y: 14}
+        - {x: -43.5, y: -17}
+        - {x: -43.5, y: -27}
+        - {x: -35.5, y: -45}
+        - {x: 33.5, y: -45}
+        - {x: 33.5, y: 13}
+        - {x: 7.5, y: 45}
+    - name: AZUMARILL_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 45}
+        - {x: -33.5, y: 45}
+        - {x: -44.5, y: 40}
+        - {x: -44.5, y: -31}
+        - {x: -28.5, y: -45}
+        - {x: 29.5, y: -45}
+        - {x: 32.5, y: -13}
+        - {x: 32.5, y: -8}
+        - {x: 30.5, y: -5}
+    - name: AZUMARILL_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 360
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 45}
+        - {x: -13.5, y: 45}
+        - {x: -44.5, y: 20}
+        - {x: -44.5, y: -38}
+        - {x: -25.5, y: -45}
+        - {x: 15.5, y: -45}
+        - {x: 24.5, y: -38}
+        - {x: 32.5, y: -21}
+        - {x: 32.5, y: -5}
+    - name: AZUMARILL_26
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 360
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 45}
+        - {x: -44.5, y: -37}
+        - {x: -41.5, y: -45}
+        - {x: 32.5, y: -45}
+        - {x: 32.5, y: 23}
+        - {x: 5.5, y: 45}
+    - name: AZUMARILL_27
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 360
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 45}
+        - {x: -44.5, y: -39}
+        - {x: -24.5, y: -45}
+        - {x: 19.5, y: -45}
+        - {x: 32.5, y: -21}
+        - {x: 32.5, y: 30}
+        - {x: 16.5, y: 45}
+    - name: AZUMARILL_28
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 360
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 45}
+        - {x: -44.5, y: 26}
+        - {x: -44.5, y: -33}
+        - {x: -28.5, y: -45}
+        - {x: 24.5, y: -45}
+        - {x: 32.5, y: -33}
+        - {x: 32.5, y: 28}
+        - {x: 14.5, y: 45}
+    - name: AZUMARILL_29
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 360
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 45}
+        - {x: -44.5, y: 33}
+        - {x: -44.5, y: -39}
+        - {x: -27.5, y: -45}
+        - {x: 20.5, y: -45}
+        - {x: 32.5, y: -26}
+        - {x: 32.5, y: 14}
+        - {x: 17.5, y: 45}
+    - name: AZUMARILL_30
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 360
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 45}
+        - {x: -44.5, y: -31}
+        - {x: -24.5, y: -45}
+        - {x: 18.5, y: -45}
+        - {x: 32.5, y: -21}
+        - {x: 32.5, y: 11}
+        - {x: 2.5, y: 45}
+    - name: AZUMARILL_31
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 360
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 45}
+        - {x: -44.5, y: 36}
+        - {x: -44.5, y: -45}
+        - {x: 19.5, y: -45}
+        - {x: 22.5, y: -44}
+        - {x: 32.5, y: -28}
+        - {x: 32.5, y: 11}
+        - {x: 14.5, y: 45}
+    - name: AZUMARILL_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 45}
+        - {x: -12.5, y: 41}
+        - {x: -21.5, y: 45}
+        - {x: -41.5, y: 45}
+        - {x: -44.5, y: 38}
+        - {x: -44.5, y: -38}
+        - {x: -20.5, y: -45}
+        - {x: 22.5, y: -45}
+        - {x: 33.5, y: -19}
+        - {x: 33.5, y: 7}
+        - {x: 4.5, y: 45}
+    - name: AZUMARILL_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 270
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 45}
+        - {x: -12.5, y: 40}
+        - {x: -11.5, y: 30}
+        - {x: -21.5, y: 31}
+        - {x: -37.5, y: 30}
+        - {x: -41.5, y: 20}
+        - {x: -44.5, y: 5}
+        - {x: -44.5, y: -27}
+        - {x: -26.5, y: -45}
+        - {x: 24.5, y: -45}
+        - {x: 33.5, y: -30}
+        - {x: 33.5, y: 10}
+        - {x: 16.5, y: 45}
+    - name: AZUMARILL_34
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 270
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 45}
+        - {x: -14.5, y: 45}
+        - {x: -44.5, y: 26}
+        - {x: -44.5, y: -37}
+        - {x: -32.5, y: -45}
+        - {x: 21.5, y: -45}
+        - {x: 34.5, y: -15}
+        - {x: 34.5, y: 0}
+        - {x: 14.5, y: 30}
+    - name: AZUMARILL_35
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 270
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 42}
+        - {x: 6.5, y: 45}
+        - {x: -27.5, y: 45}
+        - {x: -44.5, y: 35}
+        - {x: -44.5, y: -28}
+        - {x: -25.5, y: -45}
+        - {x: 24.5, y: -45}
+        - {x: 34.5, y: -18}
+        - {x: 34.5, y: -1}
+    - name: AZUMARILL_36
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 270
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 45}
+        - {x: -43.5, y: -38}
+        - {x: -40.5, y: -45}
+        - {x: 24.5, y: -45}
+        - {x: 35.5, y: -32}
+        - {x: 35.5, y: 4}
+        - {x: 20.5, y: 45}
+    - name: AZUMARILL_37
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 270
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 41}
+        - {x: 6.5, y: 44}
+        - {x: -12.5, y: 44}
+        - {x: -35.5, y: 25}
+        - {x: -40.5, y: 17}
+        - {x: -42.5, y: 5}
+        - {x: -42.5, y: -45}
+        - {x: 20.5, y: -45}
+        - {x: 36.5, y: -27}
+        - {x: 36.5, y: -5}
+    - name: AZUMARILL_38
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 270
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 42}
+        - {x: -42.5, y: 31}
+        - {x: -42.5, y: -42}
+        - {x: -28.5, y: -45}
+        - {x: 32.5, y: -45}
+        - {x: 36.5, y: -39}
+        - {x: 36.5, y: -5}
+        - {x: 15.5, y: 42}
+    - name: AZUMARILL_39
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 270
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 41}
+        - {x: -41.5, y: 40}
+        - {x: -41.5, y: -36}
+        - {x: -27.5, y: -45}
+        - {x: 25.5, y: -45}
+        - {x: 37.5, y: -29}
+        - {x: 37.5, y: -1}
+        - {x: 16.5, y: 41}
+    - name: AZUMARILL_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 40}
+        - {x: -0.5, y: 40}
+        - {x: -6.5, y: 33}
+        - {x: -2.5, y: 19}
+        - {x: -16.5, y: 28}
+        - {x: -26.5, y: 27}
+        - {x: -31.5, y: 26}
+        - {x: -36.5, y: 15}
+        - {x: -40.5, y: 2}
+        - {x: -40.5, y: -38}
+        - {x: -30.5, y: -45}
+        - {x: 24.5, y: -45}
+        - {x: 37.5, y: -26}
+        - {x: 37.5, y: -8}
+        - {x: 15.5, y: 33}
+    - name: AZUMARILL_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 180
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 38}
+        - {x: -24.5, y: 38}
+        - {x: -39.5, y: 25}
+        - {x: -39.5, y: -29}
+        - {x: -37.5, y: -33}
+        - {x: -28.5, y: -32}
+        - {x: -20.5, y: -44}
+        - {x: -19.5, y: -45}
+        - {x: 26.5, y: -45}
+        - {x: 38.5, y: -30}
+        - {x: 38.5, y: -4}
+        - {x: 16.5, y: 35}
+    - name: AZUMARILL_42
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 180
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 37}
+        - {x: -29.5, y: 37}
+        - {x: -38.5, y: 18}
+        - {x: -38.5, y: -45}
+        - {x: 21.5, y: -45}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: -21}
+        - {x: 24.5, y: 26}
+    - name: AZUMARILL_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 180
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 13}
+        - {x: -23.5, y: 9}
+        - {x: -37.5, y: -18}
+        - {x: -37.5, y: -43}
+        - {x: -35.5, y: -45}
+        - {x: 29.5, y: -45}
+        - {x: 39.5, y: -43}
+        - {x: 39.5, y: 7}
+        - {x: 30.5, y: 36}
+        - {x: -19.5, y: 36}
+        - {x: -34.5, y: 22}
+    - name: AZUMARILL_44
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 180
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 35}
+        - {x: -21.5, y: 35}
+        - {x: -37.5, y: 22}
+        - {x: -37.5, y: -43}
+        - {x: -31.5, y: -45}
+        - {x: 33.5, y: -45}
+        - {x: 37.5, y: -35}
+        - {x: 39.5, y: -31}
+        - {x: 39.5, y: -20}
+    - name: AZUMARILL_45
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 180
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 35}
+        - {x: -36.5, y: 28}
+        - {x: -36.5, y: -43}
+        - {x: -30.5, y: -45}
+        - {x: 36.5, y: -45}
+        - {x: 39.5, y: -42}
+        - {x: 39.5, y: -7}
+        - {x: 25.5, y: 35}
+    - name: AZUMARILL_46
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 180
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 29}
+        - {x: 25.5, y: 35}
+        - {x: -33.5, y: 35}
+        - {x: -36.5, y: 29}
+        - {x: -36.5, y: -45}
+        - {x: 21.5, y: -45}
+        - {x: 36.5, y: -38}
+        - {x: 39.5, y: -33}
+        - {x: 39.5, y: -12}
+    - name: AZUMARILL_47
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 180
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 35}
+        - {x: -35.5, y: 15}
+        - {x: -35.5, y: -42}
+        - {x: -29.5, y: -45}
+        - {x: 35.5, y: -45}
+        - {x: 40.5, y: -44}
+        - {x: 40.5, y: -9}
+        - {x: 32.5, y: 35}
+    - name: AZUMARILL_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: -24}
+        - {x: -33.5, y: -29}
+        - {x: -26.5, y: -27}
+        - {x: -22.5, y: -45}
+        - {x: 28.5, y: -45}
+        - {x: 40.5, y: -42}
+        - {x: 40.5, y: 15}
+        - {x: 34.5, y: 36}
+        - {x: -15.5, y: 36}
+        - {x: -35.5, y: 31}
+    - name: AZUMARILL_49
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 90
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 36}
+        - {x: -29.5, y: 30}
+        - {x: -36.5, y: -3}
+        - {x: -36.5, y: -28}
+        - {x: -23.5, y: -45}
+        - {x: 41.5, y: -45}
+        - {x: 41.5, y: 0}
+        - {x: 36.5, y: 22}
+        - {x: 31.5, y: 36}
+    - name: AZUMARILL_50
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 90
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 37}
+        - {x: 13.5, y: 34}
+        - {x: 11.5, y: 26}
+        - {x: -0.5, y: 37}
+        - {x: -5.5, y: 37}
+        - {x: -22.5, y: 29}
+        - {x: -20.5, y: 22}
+        - {x: -36.5, y: -15}
+        - {x: -36.5, y: -24}
+        - {x: -27.5, y: -45}
+        - {x: 34.5, y: -45}
+        - {x: 42.5, y: -41}
+        - {x: 42.5, y: 9}
+        - {x: 33.5, y: 37}
+    - name: AZUMARILL_51
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 90
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 4}
+        - {x: -36.5, y: -38}
+        - {x: -33.5, y: -45}
+        - {x: 34.5, y: -45}
+        - {x: 42.5, y: -42}
+        - {x: 42.5, y: 14}
+        - {x: 39.5, y: 36}
+        - {x: 36.5, y: 38}
+        - {x: -13.5, y: 38}
+        - {x: -15.5, y: 37}
+    - name: AZUMARILL_52
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 90
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 38}
+        - {x: -36.5, y: 9}
+        - {x: -36.5, y: -26}
+        - {x: -24.5, y: -45}
+        - {x: 30.5, y: -45}
+        - {x: 43.5, y: -29}
+        - {x: 43.5, y: 11}
+        - {x: 37.5, y: 38}
+    - name: AZUMARILL_53
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 90
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 39}
+        - {x: -10.5, y: 38}
+        - {x: -36.5, y: -1}
+        - {x: -36.5, y: -33}
+        - {x: -28.5, y: -45}
+        - {x: 36.5, y: -45}
+        - {x: 44.5, y: -36}
+        - {x: 44.5, y: 19}
+        - {x: 37.5, y: 39}
+    - name: AZUMARILL_54
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 90
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 39}
+        - {x: -9.5, y: 39}
+        - {x: -12.5, y: 28}
+        - {x: -36.5, y: -1}
+        - {x: -36.5, y: -31}
+        - {x: -23.5, y: -45}
+        - {x: 32.5, y: -45}
+        - {x: 44.5, y: -34}
+        - {x: 44.5, y: 9}
+        - {x: 42.5, y: 35}
+    - name: AZUMARILL_55
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 90
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 39}
+        - {x: -36.5, y: 21}
+        - {x: -36.5, y: -45}
+        - {x: 44.5, y: -45}
+        - {x: 44.5, y: 32}
+        - {x: 42.5, y: 39}
+    - name: AZUMARILL_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -24}
+        - {x: 30.5, y: -24}
+        - {x: 33.5, y: -26}
+        - {x: 40.5, y: -28}
+        - {x: 44.5, y: -28}
+        - {x: 44.5, y: 33}
+        - {x: 43.5, y: 37}
+        - {x: 37.5, y: 39}
+        - {x: -13.5, y: 39}
+        - {x: -36.5, y: 2}
+        - {x: -36.5, y: -27}
+        - {x: -24.5, y: -45}
+        - {x: 26.5, y: -45}
+        - {x: 35.5, y: -40}
+        - {x: 35.5, y: -29}
+        - {x: 32.5, y: -25}
+    - name: AZUMARILL_57
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 39}
+        - {x: -36.5, y: -1}
+        - {x: -36.5, y: -16}
+        - {x: -29.5, y: -45}
+        - {x: 44.5, y: -45}
+        - {x: 44.5, y: 39}
+    - name: AZUMARILL_58
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 39}
+        - {x: 20.5, y: 28}
+        - {x: 8.5, y: 39}
+        - {x: -4.5, y: 39}
+        - {x: -8.5, y: 35}
+        - {x: -36.5, y: -2}
+        - {x: -36.5, y: -22}
+        - {x: -24.5, y: -45}
+        - {x: 31.5, y: -45}
+        - {x: 44.5, y: -34}
+        - {x: 44.5, y: 39}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

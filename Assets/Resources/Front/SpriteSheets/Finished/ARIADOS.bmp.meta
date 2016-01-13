@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: 55acdb3ed61188a4fbf14641ee325bfb
+timeCreated: 1452636704
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ARIADOS_0
+    21300002: ARIADOS_1
+    21300004: ARIADOS_2
+    21300006: ARIADOS_3
+    21300008: ARIADOS_4
+    21300010: ARIADOS_5
+    21300012: ARIADOS_6
+    21300014: ARIADOS_7
+    21300016: ARIADOS_8
+    21300018: ARIADOS_9
+    21300020: ARIADOS_10
+    21300022: ARIADOS_11
+    21300024: ARIADOS_12
+    21300026: ARIADOS_13
+    21300028: ARIADOS_14
+    21300030: ARIADOS_15
+    21300032: ARIADOS_16
+    21300034: ARIADOS_17
+    21300036: ARIADOS_18
+    21300038: ARIADOS_19
+    21300040: ARIADOS_20
+    21300042: ARIADOS_21
+    21300044: ARIADOS_22
+    21300046: ARIADOS_23
+    21300048: ARIADOS_24
+    21300050: ARIADOS_25
+    21300052: ARIADOS_26
+    21300054: ARIADOS_27
+    21300056: ARIADOS_28
+    21300058: ARIADOS_29
+    21300060: ARIADOS_30
+    21300062: ARIADOS_31
+    21300064: ARIADOS_32
+    21300066: ARIADOS_33
+    21300068: ARIADOS_34
+    21300070: ARIADOS_35
+    21300072: ARIADOS_36
+    21300074: ARIADOS_37
+    21300076: ARIADOS_38
+    21300078: ARIADOS_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ARIADOS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 366
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -30.5}
+        - {x: 41, y: -10.5}
+        - {x: 29, y: 30.5}
+        - {x: -30, y: 30.5}
+        - {x: -41, y: 21.5}
+        - {x: -41, y: -30.5}
+        - {x: 18, y: -30.5}
+        - {x: 18, y: -21.5}
+        - {x: 33, y: -30.5}
+    - name: ARIADOS_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 366
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 30.5}
+        - {x: -41, y: -16.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -16.5}
+        - {x: 29, y: 30.5}
+    - name: ARIADOS_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 366
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 30.5}
+        - {x: -41, y: -15.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 30.5}
+    - name: ARIADOS_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 366
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -13.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 30.5}
+        - {x: -27, y: 30.5}
+    - name: ARIADOS_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 366
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 30.5}
+        - {x: 12, y: 21.5}
+        - {x: -7, y: 30.5}
+        - {x: -22, y: 30.5}
+        - {x: -22, y: 27.5}
+        - {x: -41, y: -14.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -2.5}
+        - {x: 32, y: 30.5}
+    - name: ARIADOS_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 366
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 30.5}
+        - {x: -41, y: -10.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 3.5}
+        - {x: 33, y: 30.5}
+    - name: ARIADOS_6
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 366
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 30.5}
+        - {x: -41, y: -4.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 30.5}
+    - name: ARIADOS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30.5}
+        - {x: -41, y: -1.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -5.5}
+        - {x: 28, y: 30.5}
+    - name: ARIADOS_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 305
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 30.5}
+        - {x: -41, y: 17.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 30.5}
+    - name: ARIADOS_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 305
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 30.5}
+        - {x: -32, y: 30.5}
+        - {x: -41, y: 5.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+    - name: ARIADOS_10
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 305
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -30.5}
+        - {x: 41, y: -12.5}
+        - {x: 28, y: 30.5}
+        - {x: -29, y: 30.5}
+        - {x: -41, y: 9.5}
+        - {x: -41, y: -30.5}
+        - {x: 18, y: -30.5}
+        - {x: 18, y: -21.5}
+        - {x: 33, y: -30.5}
+    - name: ARIADOS_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 305
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -30.5}
+        - {x: 41, y: 18.5}
+        - {x: 38, y: 30.5}
+        - {x: -25, y: 30.5}
+        - {x: -26, y: 29.5}
+        - {x: -41, y: -7.5}
+        - {x: -41, y: -30.5}
+        - {x: 18, y: -30.5}
+        - {x: 18, y: -21.5}
+        - {x: 35, y: -30.5}
+    - name: ARIADOS_12
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 305
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 30.5}
+        - {x: -21, y: 27.5}
+        - {x: -21, y: 20.5}
+        - {x: -19, y: 13.5}
+        - {x: -41, y: -19.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -6.5}
+        - {x: 30, y: 30.5}
+    - name: ARIADOS_13
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 305
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 30.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -8.5}
+        - {x: 29, y: 30.5}
+    - name: ARIADOS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 30.5}
+        - {x: -22, y: 28.5}
+        - {x: -21, y: 16.5}
+        - {x: -41, y: -18.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -6.5}
+        - {x: 27, y: 30.5}
+    - name: ARIADOS_15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 244
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 30.5}
+        - {x: 15, y: 22.5}
+        - {x: 5, y: 30.5}
+        - {x: -30, y: 30.5}
+        - {x: -41, y: 11.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -2.5}
+        - {x: 31, y: 30.5}
+    - name: ARIADOS_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 244
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 30.5}
+        - {x: -33, y: 16.5}
+        - {x: -41, y: -10.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 12.5}
+        - {x: 34, y: 30.5}
+    - name: ARIADOS_17
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 244
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 30.5}
+        - {x: -41, y: 0.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 8.5}
+        - {x: 35, y: 30.5}
+    - name: ARIADOS_18
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 244
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 30.5}
+        - {x: 14, y: 20.5}
+        - {x: -4, y: 30.5}
+        - {x: -19, y: 30.5}
+        - {x: -31, y: 11.5}
+        - {x: -41, y: -10.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -10.5}
+        - {x: 28, y: 30.5}
+    - name: ARIADOS_19
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 244
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 30.5}
+        - {x: -41, y: -9.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 1.5}
+        - {x: 31, y: 30.5}
+    - name: ARIADOS_20
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 244
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 30.5}
+        - {x: -21, y: 27.5}
+        - {x: -19, y: 11.5}
+        - {x: -41, y: -19.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 8.5}
+        - {x: 38, y: 30.5}
+    - name: ARIADOS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 30.5}
+        - {x: -41, y: -5.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -13.5}
+        - {x: 28, y: 29.5}
+        - {x: 25, y: 30.5}
+    - name: ARIADOS_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 183
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 29.5}
+        - {x: -25, y: 28.5}
+        - {x: -41, y: -12.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 6.5}
+        - {x: 32, y: 29.5}
+    - name: ARIADOS_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 183
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 29.5}
+        - {x: -41, y: -6.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 29.5}
+    - name: ARIADOS_24
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 183
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28.5}
+        - {x: -41, y: -5.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 28.5}
+    - name: ARIADOS_25
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 183
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -30.5}
+        - {x: 41, y: 28.5}
+        - {x: -29, y: 28.5}
+        - {x: -41, y: -14.5}
+        - {x: -41, y: -30.5}
+        - {x: 18, y: -30.5}
+        - {x: 18, y: -21.5}
+        - {x: 38, y: -30.5}
+    - name: ARIADOS_26
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 183
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -30.5}
+        - {x: 41, y: -21.5}
+        - {x: 28, y: -7.5}
+        - {x: 31, y: 27.5}
+        - {x: 31, y: 28.5}
+        - {x: -28, y: 28.5}
+        - {x: -41, y: 8.5}
+        - {x: -41, y: -30.5}
+        - {x: 18, y: -30.5}
+        - {x: 18, y: -21.5}
+        - {x: 38, y: -30.5}
+    - name: ARIADOS_27
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 183
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 14.5}
+        - {x: -41, y: -18.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -6.5}
+        - {x: 29, y: 28.5}
+        - {x: -15, y: 28.5}
+        - {x: -17, y: 27.5}
+        - {x: -19, y: 23.5}
+    - name: ARIADOS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -13.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -12.5}
+        - {x: 29, y: 28.5}
+        - {x: -11, y: 28.5}
+        - {x: -14, y: 27.5}
+        - {x: -20, y: 24.5}
+    - name: ARIADOS_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 122
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 28.5}
+        - {x: 10, y: 14.5}
+        - {x: -15, y: 28.5}
+        - {x: -23, y: 26.5}
+        - {x: -41, y: -18.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -9.5}
+        - {x: 32, y: 28.5}
+    - name: ARIADOS_30
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 122
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28.5}
+        - {x: -41, y: -15.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -10.5}
+        - {x: 29, y: 28.5}
+    - name: ARIADOS_31
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 122
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 29.5}
+        - {x: -41, y: 4.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 20.5}
+        - {x: 37, y: 29.5}
+    - name: ARIADOS_32
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 122
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 30.5}
+        - {x: 21, y: 30.5}
+        - {x: 12, y: 20.5}
+        - {x: -18, y: 30.5}
+        - {x: -19, y: 30.5}
+        - {x: -22, y: 26.5}
+        - {x: -41, y: -17.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -9.5}
+        - {x: 34, y: 20.5}
+    - name: ARIADOS_33
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 122
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 30.5}
+        - {x: 22, y: 30.5}
+        - {x: 12, y: 23.5}
+        - {x: -16, y: 30.5}
+        - {x: -22, y: 27.5}
+        - {x: -21, y: 14.5}
+        - {x: -41, y: -19.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 9.5}
+        - {x: 33, y: 29.5}
+    - name: ARIADOS_34
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 122
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 30.5}
+        - {x: -24, y: 29.5}
+        - {x: -41, y: -16.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -15.5}
+        - {x: 31, y: 30.5}
+    - name: ARIADOS_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -24.5}
+        - {x: -26, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -3.5}
+        - {x: 30, y: 30.5}
+        - {x: 22, y: 30.5}
+        - {x: 13, y: 21.5}
+        - {x: -2, y: 30.5}
+        - {x: -23, y: 30.5}
+        - {x: -41, y: 7.5}
+        - {x: -41, y: -30.5}
+        - {x: -34, y: -30.5}
+        - {x: -22, y: -18.5}
+        - {x: -22, y: -16.5}
+    - name: ARIADOS_36
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 61
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 30.5}
+        - {x: -22, y: 30.5}
+        - {x: -24, y: 28.5}
+        - {x: -22, y: 17.5}
+        - {x: -41, y: -19.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -14.5}
+    - name: ARIADOS_37
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 61
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -10.5}
+        - {x: 27, y: 30.5}
+        - {x: -33, y: 30.5}
+        - {x: -41, y: -0.5}
+    - name: ARIADOS_38
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 61
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 30.5}
+        - {x: -30, y: 30.5}
+        - {x: -41, y: 0.5}
+        - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: -22.5}
+        - {x: 28, y: -7.5}
+    - name: ARIADOS_39
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 61
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -30.5}
+        - {x: 41, y: -30.5}
+        - {x: 41, y: 22.5}
+        - {x: 40, y: 30.5}
+        - {x: -33, y: 30.5}
+        - {x: -41, y: -18.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

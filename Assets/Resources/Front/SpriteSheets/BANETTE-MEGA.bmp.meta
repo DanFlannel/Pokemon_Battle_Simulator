@@ -1,0 +1,1592 @@
+fileFormatVersion: 2
+guid: f1aafb944718e624092c101c3689a217
+timeCreated: 1452711321
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BANETTE-MEGA_0
+    21300002: BANETTE-MEGA_1
+    21300004: BANETTE-MEGA_2
+    21300006: BANETTE-MEGA_3
+    21300008: BANETTE-MEGA_4
+    21300010: BANETTE-MEGA_5
+    21300012: BANETTE-MEGA_6
+    21300014: BANETTE-MEGA_7
+    21300016: BANETTE-MEGA_8
+    21300018: BANETTE-MEGA_9
+    21300020: BANETTE-MEGA_10
+    21300022: BANETTE-MEGA_11
+    21300024: BANETTE-MEGA_12
+    21300026: BANETTE-MEGA_13
+    21300028: BANETTE-MEGA_14
+    21300030: BANETTE-MEGA_15
+    21300032: BANETTE-MEGA_16
+    21300034: BANETTE-MEGA_17
+    21300036: BANETTE-MEGA_18
+    21300038: BANETTE-MEGA_19
+    21300040: BANETTE-MEGA_20
+    21300042: BANETTE-MEGA_21
+    21300044: BANETTE-MEGA_22
+    21300046: BANETTE-MEGA_23
+    21300048: BANETTE-MEGA_24
+    21300050: BANETTE-MEGA_25
+    21300052: BANETTE-MEGA_26
+    21300054: BANETTE-MEGA_27
+    21300056: BANETTE-MEGA_28
+    21300058: BANETTE-MEGA_29
+    21300060: BANETTE-MEGA_30
+    21300062: BANETTE-MEGA_31
+    21300064: BANETTE-MEGA_32
+    21300066: BANETTE-MEGA_33
+    21300068: BANETTE-MEGA_34
+    21300070: BANETTE-MEGA_35
+    21300072: BANETTE-MEGA_36
+    21300074: BANETTE-MEGA_37
+    21300076: BANETTE-MEGA_38
+    21300078: BANETTE-MEGA_39
+    21300080: BANETTE-MEGA_40
+    21300082: BANETTE-MEGA_41
+    21300084: BANETTE-MEGA_42
+    21300086: BANETTE-MEGA_43
+    21300088: BANETTE-MEGA_44
+    21300090: BANETTE-MEGA_45
+    21300092: BANETTE-MEGA_46
+    21300094: BANETTE-MEGA_47
+    21300096: BANETTE-MEGA_48
+    21300098: BANETTE-MEGA_49
+    21300100: BANETTE-MEGA_50
+    21300102: BANETTE-MEGA_51
+    21300104: BANETTE-MEGA_52
+    21300106: BANETTE-MEGA_53
+    21300108: BANETTE-MEGA_54
+    21300110: BANETTE-MEGA_55
+    21300112: BANETTE-MEGA_56
+    21300114: BANETTE-MEGA_57
+    21300116: BANETTE-MEGA_58
+    21300118: BANETTE-MEGA_59
+    21300120: BANETTE-MEGA_60
+    21300122: BANETTE-MEGA_61
+    21300124: BANETTE-MEGA_62
+    21300126: BANETTE-MEGA_63
+    21300128: BANETTE-MEGA_64
+    21300130: BANETTE-MEGA_65
+    21300132: BANETTE-MEGA_66
+    21300134: BANETTE-MEGA_67
+    21300136: BANETTE-MEGA_68
+    21300138: BANETTE-MEGA_69
+    21300140: BANETTE-MEGA_70
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BANETTE-MEGA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 42.5}
+        - {x: -48, y: -10.5}
+        - {x: -48, y: -25.5}
+        - {x: -47, y: -27.5}
+        - {x: -12, y: -49.5}
+        - {x: 16, y: -49.5}
+        - {x: 48, y: -27.5}
+        - {x: 48, y: 7.5}
+        - {x: 14, y: 42.5}
+    - name: BANETTE-MEGA_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 792
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 42.5}
+        - {x: -48, y: -9.5}
+        - {x: -48, y: -38.5}
+        - {x: -11, y: -49.5}
+        - {x: 39, y: -49.5}
+        - {x: 49, y: -29.5}
+        - {x: 49, y: -5.5}
+        - {x: 9, y: 42.5}
+    - name: BANETTE-MEGA_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 792
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 41.5}
+        - {x: 6, y: 41.5}
+        - {x: 1, y: 39.5}
+        - {x: -48, y: -13.5}
+        - {x: -48, y: -22.5}
+        - {x: -10, y: -49.5}
+        - {x: 18, y: -49.5}
+        - {x: 49, y: -33.5}
+        - {x: 49, y: -7.5}
+        - {x: 33, y: 30.5}
+    - name: BANETTE-MEGA_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 792
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 39.5}
+        - {x: -11, y: 39.5}
+        - {x: -48, y: -5.5}
+        - {x: -48, y: -21.5}
+        - {x: -47, y: -22.5}
+        - {x: -6, y: -49.5}
+        - {x: 16, y: -49.5}
+        - {x: 49, y: -26.5}
+        - {x: 49, y: -0.5}
+        - {x: 38, y: 29.5}
+    - name: BANETTE-MEGA_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 792
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 14.5}
+        - {x: 23, y: 39.5}
+        - {x: 4, y: 39.5}
+        - {x: -42, y: -1.5}
+        - {x: -48, y: -13.5}
+        - {x: -48, y: -22.5}
+        - {x: -2, y: -49.5}
+        - {x: 13, y: -49.5}
+        - {x: 49, y: -22.5}
+        - {x: 49, y: -9.5}
+    - name: BANETTE-MEGA_5
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 792
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 37.5}
+        - {x: -3, y: 37.5}
+        - {x: -37, y: 2.5}
+        - {x: -49, y: -14.5}
+        - {x: -49, y: -23.5}
+        - {x: -14, y: -49.5}
+        - {x: 17, y: -49.5}
+        - {x: 49, y: -28.5}
+        - {x: 49, y: -3.5}
+        - {x: 35, y: 21.5}
+    - name: BANETTE-MEGA_6
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 792
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 37.5}
+        - {x: -49, y: -7.5}
+        - {x: -49, y: -25.5}
+        - {x: -8, y: -49.5}
+        - {x: 30, y: -49.5}
+        - {x: 49, y: -32.5}
+        - {x: 49, y: -1.5}
+        - {x: 21, y: 37.5}
+    - name: BANETTE-MEGA_7
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 792
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 36.5}
+        - {x: 1, y: 36.5}
+        - {x: -49, y: -12.5}
+        - {x: -49, y: -46.5}
+        - {x: -39, y: -49.5}
+        - {x: 49, y: -49.5}
+        - {x: 49, y: -1.5}
+        - {x: 38, y: 30.5}
+    - name: BANETTE-MEGA_8
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 792
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: -9.5}
+        - {x: -49, y: -25.5}
+        - {x: -16, y: -49.5}
+        - {x: 29, y: -49.5}
+        - {x: 49, y: -43.5}
+        - {x: 49, y: 5.5}
+        - {x: 45, y: 23.5}
+        - {x: 25, y: 35.5}
+        - {x: 2, y: 35.5}
+        - {x: -31, y: 14.5}
+    - name: BANETTE-MEGA_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 693
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 21.5}
+        - {x: 13, y: 35.5}
+        - {x: 1, y: 35.5}
+        - {x: -27, y: 9.5}
+        - {x: -42, y: -5.5}
+        - {x: -49, y: -14.5}
+        - {x: -49, y: -19.5}
+        - {x: -48, y: -24.5}
+        - {x: -17, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 49, y: -38.5}
+        - {x: 49, y: -5.5}
+        - {x: 45, y: -2.5}
+    - name: BANETTE-MEGA_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 693
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 35.5}
+        - {x: -39, y: 22.5}
+        - {x: -49, y: -4.5}
+        - {x: -49, y: -25.5}
+        - {x: -18, y: -49.5}
+        - {x: 19, y: -49.5}
+        - {x: 49, y: -33.5}
+        - {x: 49, y: -1.5}
+        - {x: 30, y: 35.5}
+    - name: BANETTE-MEGA_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 693
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 36.5}
+        - {x: 4, y: 36.5}
+        - {x: -21, y: 19.5}
+        - {x: -49, y: -4.5}
+        - {x: -49, y: -27.5}
+        - {x: -19, y: -49.5}
+        - {x: 33, y: -49.5}
+        - {x: 49, y: -41.5}
+        - {x: 49, y: 22.5}
+        - {x: 45, y: 35.5}
+    - name: BANETTE-MEGA_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 693
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 36.5}
+        - {x: -44, y: -3.5}
+        - {x: -49, y: -11.5}
+        - {x: -49, y: -27.5}
+        - {x: -7, y: -49.5}
+        - {x: 17, y: -49.5}
+        - {x: 49, y: -32.5}
+        - {x: 49, y: -1.5}
+        - {x: 17, y: 36.5}
+    - name: BANETTE-MEGA_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 693
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 37.5}
+        - {x: -15, y: 24.5}
+        - {x: -49, y: -5.5}
+        - {x: -49, y: -38.5}
+        - {x: -26, y: -49.5}
+        - {x: 15, y: -49.5}
+        - {x: 48, y: -28.5}
+        - {x: 49, y: -27.5}
+        - {x: 49, y: -10.5}
+        - {x: 18, y: 37.5}
+    - name: BANETTE-MEGA_14
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 693
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: -35.5}
+        - {x: -24, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 49, y: -36.5}
+        - {x: 49, y: -7.5}
+        - {x: 25, y: 38.5}
+        - {x: -9, y: 38.5}
+        - {x: -49, y: 6.5}
+        - {x: -49, y: -30.5}
+    - name: BANETTE-MEGA_15
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 693
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 39.5}
+        - {x: -21, y: 39.5}
+        - {x: -48, y: 3.5}
+        - {x: -48, y: -33.5}
+        - {x: -14, y: -49.5}
+        - {x: 16, y: -49.5}
+        - {x: 48, y: -31.5}
+        - {x: 48, y: -12.5}
+        - {x: 46, y: -6.5}
+    - name: BANETTE-MEGA_16
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 693
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 6.5}
+        - {x: 32, y: 18.5}
+        - {x: 18, y: 40.5}
+        - {x: -9, y: 40.5}
+        - {x: -43, y: 6.5}
+        - {x: -48, y: -11.5}
+        - {x: -48, y: -34.5}
+        - {x: -22, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 48, y: -39.5}
+        - {x: 48, y: -16.5}
+        - {x: 44, y: -5.5}
+    - name: BANETTE-MEGA_17
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 693
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 41.5}
+        - {x: 0, y: 41.5}
+        - {x: -43, y: -9.5}
+        - {x: -47, y: -21.5}
+        - {x: -47, y: -29.5}
+        - {x: -46, y: -32.5}
+        - {x: -11, y: -49.5}
+        - {x: 17, y: -49.5}
+        - {x: 48, y: -36.5}
+        - {x: 48, y: -8.5}
+        - {x: 39, y: 15.5}
+    - name: BANETTE-MEGA_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 43.5}
+        - {x: -36, y: 14.5}
+        - {x: -47, y: -15.5}
+        - {x: -47, y: -37.5}
+        - {x: -14, y: -49.5}
+        - {x: 28, y: -49.5}
+        - {x: 47, y: -31.5}
+        - {x: 47, y: -1.5}
+        - {x: 17, y: 43.5}
+    - name: BANETTE-MEGA_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 594
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 45.5}
+        - {x: 5, y: 45.5}
+        - {x: -48, y: -5.5}
+        - {x: -48, y: -39.5}
+        - {x: -19, y: -49.5}
+        - {x: 15, y: -49.5}
+        - {x: 47, y: -31.5}
+        - {x: 47, y: -14.5}
+        - {x: 46, y: -9.5}
+    - name: BANETTE-MEGA_20
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 594
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 46.5}
+        - {x: 5, y: 39.5}
+        - {x: -34, y: 8.5}
+        - {x: -48, y: -18.5}
+        - {x: -48, y: -34.5}
+        - {x: -46, y: -34.5}
+        - {x: -11, y: -49.5}
+        - {x: 18, y: -49.5}
+        - {x: 47, y: -38.5}
+        - {x: 47, y: -8.5}
+        - {x: 23, y: 46.5}
+    - name: BANETTE-MEGA_21
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 594
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 47.5}
+        - {x: -21, y: 32.5}
+        - {x: -48, y: -16.5}
+        - {x: -48, y: -32.5}
+        - {x: -46, y: -34.5}
+        - {x: -10, y: -49.5}
+        - {x: 19, y: -49.5}
+        - {x: 46, y: -37.5}
+        - {x: 46, y: -6.5}
+        - {x: 27, y: 47.5}
+    - name: BANETTE-MEGA_22
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 594
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 48.5}
+        - {x: -47, y: -7.5}
+        - {x: -49, y: -10.5}
+        - {x: -49, y: -40.5}
+        - {x: -19, y: -49.5}
+        - {x: 30, y: -49.5}
+        - {x: 46, y: -39.5}
+        - {x: 46, y: -8.5}
+        - {x: 23, y: 48.5}
+    - name: BANETTE-MEGA_23
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 594
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 49.5}
+        - {x: -20, y: 29.5}
+        - {x: -49, y: -12.5}
+        - {x: -49, y: -31.5}
+        - {x: -20, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 45, y: -35.5}
+        - {x: 45, y: -10.5}
+        - {x: 25, y: 49.5}
+    - name: BANETTE-MEGA_24
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 594
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 49.5}
+        - {x: -30, y: 35.5}
+        - {x: -49, y: -0.5}
+        - {x: -49, y: -32.5}
+        - {x: -18, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 45, y: -37.5}
+        - {x: 45, y: 6.5}
+        - {x: 36, y: 49.5}
+    - name: BANETTE-MEGA_25
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 594
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 49.5}
+        - {x: 10, y: 48.5}
+        - {x: -49, y: -7.5}
+        - {x: -49, y: -38.5}
+        - {x: -17, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 44, y: -43.5}
+        - {x: 44, y: -6.5}
+        - {x: 27, y: 49.5}
+    - name: BANETTE-MEGA_26
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 594
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 49.5}
+        - {x: -49, y: -3.5}
+        - {x: -49, y: -37.5}
+        - {x: -27, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 44, y: -33.5}
+        - {x: 44, y: 9.5}
+        - {x: 21, y: 49.5}
+    - name: BANETTE-MEGA_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 49.5}
+        - {x: -18, y: 24.5}
+        - {x: -49, y: -10.5}
+        - {x: -49, y: -31.5}
+        - {x: -13, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 43, y: -37.5}
+        - {x: 43, y: -2.5}
+        - {x: 26, y: 49.5}
+    - name: BANETTE-MEGA_28
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 495
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 4.5}
+        - {x: 41, y: 16.5}
+        - {x: 24, y: 49.5}
+        - {x: -9, y: 49.5}
+        - {x: -49, y: -3.5}
+        - {x: -49, y: -35.5}
+        - {x: -20, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 43, y: -32.5}
+        - {x: 43, y: -15.5}
+        - {x: 42, y: -11.5}
+    - name: BANETTE-MEGA_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 495
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 49.5}
+        - {x: -20, y: 25.5}
+        - {x: -49, y: -12.5}
+        - {x: -49, y: -38.5}
+        - {x: -27, y: -49.5}
+        - {x: 17, y: -49.5}
+        - {x: 43, y: -35.5}
+        - {x: 43, y: 16.5}
+        - {x: 22, y: 49.5}
+    - name: BANETTE-MEGA_30
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 495
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 49.5}
+        - {x: -33, y: 7.5}
+        - {x: -49, y: -18.5}
+        - {x: -49, y: -36.5}
+        - {x: -20, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 42, y: -35.5}
+        - {x: 42, y: -8.5}
+        - {x: 21, y: 49.5}
+    - name: BANETTE-MEGA_31
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 495
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 49.5}
+        - {x: -49, y: -1.5}
+        - {x: -49, y: -33.5}
+        - {x: -13, y: -49.5}
+        - {x: 14, y: -49.5}
+        - {x: 42, y: -33.5}
+        - {x: 42, y: -8.5}
+        - {x: 26, y: 49.5}
+    - name: BANETTE-MEGA_32
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 495
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 48.5}
+        - {x: -49, y: 1.5}
+        - {x: -49, y: -35.5}
+        - {x: -10, y: -49.5}
+        - {x: 25, y: -49.5}
+        - {x: 42, y: -37.5}
+        - {x: 42, y: 8.5}
+        - {x: 33, y: 48.5}
+    - name: BANETTE-MEGA_33
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 495
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 46.5}
+        - {x: 20, y: 47.5}
+        - {x: 10, y: 47.5}
+        - {x: -17, y: 22.5}
+        - {x: -49, y: -12.5}
+        - {x: -49, y: -35.5}
+        - {x: -16, y: -49.5}
+        - {x: 19, y: -49.5}
+        - {x: 39, y: -40.5}
+        - {x: 41, y: -36.5}
+        - {x: 41, y: -11.5}
+    - name: BANETTE-MEGA_34
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 495
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 47.5}
+        - {x: 4, y: 47.5}
+        - {x: -47, y: 7.5}
+        - {x: -49, y: -7.5}
+        - {x: -49, y: -39.5}
+        - {x: -18, y: -49.5}
+        - {x: 12, y: -49.5}
+        - {x: 41, y: -31.5}
+        - {x: 41, y: 3.5}
+    - name: BANETTE-MEGA_35
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 495
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 21.5}
+        - {x: 34, y: 46.5}
+        - {x: 15, y: 46.5}
+        - {x: -23, y: 26.5}
+        - {x: -49, y: -5.5}
+        - {x: -49, y: -34.5}
+        - {x: -10, y: -49.5}
+        - {x: 12, y: -49.5}
+        - {x: 40, y: -30.5}
+        - {x: 41, y: -30.5}
+    - name: BANETTE-MEGA_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 45.5}
+        - {x: -34, y: 8.5}
+        - {x: -49, y: -13.5}
+        - {x: -49, y: -34.5}
+        - {x: -9, y: -49.5}
+        - {x: 18, y: -49.5}
+        - {x: 41, y: -42.5}
+        - {x: 41, y: 7.5}
+        - {x: 32, y: 45.5}
+    - name: BANETTE-MEGA_37
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 396
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 44.5}
+        - {x: -42, y: 14.5}
+        - {x: -49, y: -9.5}
+        - {x: -49, y: -35.5}
+        - {x: -16, y: -49.5}
+        - {x: 16, y: -49.5}
+        - {x: 41, y: -34.5}
+        - {x: 41, y: -4.5}
+        - {x: 31, y: 44.5}
+    - name: BANETTE-MEGA_38
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 396
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 43.5}
+        - {x: -49, y: 10.5}
+        - {x: -49, y: -36.5}
+        - {x: -14, y: -49.5}
+        - {x: 16, y: -49.5}
+        - {x: 41, y: -35.5}
+        - {x: 41, y: -3.5}
+        - {x: 25, y: 43.5}
+    - name: BANETTE-MEGA_39
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 396
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 42.5}
+        - {x: -13, y: 24.5}
+        - {x: -37, y: 9.5}
+        - {x: -49, y: -15.5}
+        - {x: -49, y: -37.5}
+        - {x: -24, y: -49.5}
+        - {x: 17, y: -49.5}
+        - {x: 41, y: -35.5}
+        - {x: 41, y: -2.5}
+        - {x: 29, y: 42.5}
+    - name: BANETTE-MEGA_40
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 396
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 41.5}
+        - {x: -49, y: 0.5}
+        - {x: -49, y: -35.5}
+        - {x: -21, y: -49.5}
+        - {x: 21, y: -49.5}
+        - {x: 41, y: -36.5}
+        - {x: 41, y: -9.5}
+        - {x: 25, y: 41.5}
+    - name: BANETTE-MEGA_41
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 396
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 40.5}
+        - {x: -15, y: 25.5}
+        - {x: -49, y: -4.5}
+        - {x: -49, y: -36.5}
+        - {x: -16, y: -49.5}
+        - {x: 13, y: -49.5}
+        - {x: 41, y: -32.5}
+        - {x: 41, y: 7.5}
+        - {x: 25, y: 40.5}
+    - name: BANETTE-MEGA_42
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 396
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 6.5}
+        - {x: -46, y: -8.5}
+        - {x: -49, y: -19.5}
+        - {x: -49, y: -49.5}
+        - {x: 41, y: -49.5}
+        - {x: 41, y: 13.5}
+        - {x: 26, y: 40.5}
+        - {x: 16, y: 40.5}
+        - {x: -15, y: 23.5}
+    - name: BANETTE-MEGA_43
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 396
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 39.5}
+        - {x: -19, y: 28.5}
+        - {x: -42, y: 5.5}
+        - {x: -49, y: -14.5}
+        - {x: -49, y: -37.5}
+        - {x: -20, y: -49.5}
+        - {x: 21, y: -49.5}
+        - {x: 41, y: -39.5}
+        - {x: 41, y: 19.5}
+        - {x: 36, y: 39.5}
+    - name: BANETTE-MEGA_44
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 396
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 39.5}
+        - {x: 12, y: 39.5}
+        - {x: -18, y: 26.5}
+        - {x: -49, y: -16.5}
+        - {x: -49, y: -29.5}
+        - {x: -47, y: -33.5}
+        - {x: -7, y: -49.5}
+        - {x: 32, y: -49.5}
+        - {x: 36, y: -48.5}
+        - {x: 42, y: -36.5}
+        - {x: 42, y: 31.5}
+    - name: BANETTE-MEGA_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 39.5}
+        - {x: -17, y: 25.5}
+        - {x: -49, y: -11.5}
+        - {x: -49, y: -31.5}
+        - {x: -48, y: -33.5}
+        - {x: -17, y: -49.5}
+        - {x: 24, y: -49.5}
+        - {x: 42, y: -41.5}
+        - {x: 42, y: 10.5}
+        - {x: 28, y: 39.5}
+    - name: BANETTE-MEGA_46
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 297
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 39.5}
+        - {x: -21, y: 29.5}
+        - {x: -49, y: -15.5}
+        - {x: -49, y: -35.5}
+        - {x: -24, y: -49.5}
+        - {x: 18, y: -49.5}
+        - {x: 42, y: -36.5}
+        - {x: 42, y: 14.5}
+        - {x: 34, y: 39.5}
+    - name: BANETTE-MEGA_47
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 297
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 39.5}
+        - {x: -45, y: 25.5}
+        - {x: -49, y: 5.5}
+        - {x: -49, y: -30.5}
+        - {x: -7, y: -49.5}
+        - {x: 19, y: -49.5}
+        - {x: 34, y: -43.5}
+        - {x: 43, y: -29.5}
+        - {x: 43, y: 39.5}
+    - name: BANETTE-MEGA_48
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 297
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 40.5}
+        - {x: 9, y: 40.5}
+        - {x: -21, y: 19.5}
+        - {x: -35, y: 3.5}
+        - {x: -49, y: -15.5}
+        - {x: -49, y: -27.5}
+        - {x: -48, y: -31.5}
+        - {x: -5, y: -49.5}
+        - {x: 13, y: -49.5}
+        - {x: 43, y: -33.5}
+        - {x: 43, y: 2.5}
+    - name: BANETTE-MEGA_49
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 297
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -10.5}
+        - {x: 40, y: -7.5}
+        - {x: 29, y: 7.5}
+        - {x: 25, y: 40.5}
+        - {x: 2, y: 40.5}
+        - {x: -49, y: -7.5}
+        - {x: -49, y: -29.5}
+        - {x: -48, y: -30.5}
+        - {x: -3, y: -49.5}
+        - {x: 12, y: -49.5}
+        - {x: 43, y: -27.5}
+        - {x: 43, y: -20.5}
+    - name: BANETTE-MEGA_50
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 297
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 41.5}
+        - {x: -49, y: -11.5}
+        - {x: -49, y: -32.5}
+        - {x: -23, y: -49.5}
+        - {x: 19, y: -49.5}
+        - {x: 43, y: -35.5}
+        - {x: 43, y: -3.5}
+        - {x: 23, y: 41.5}
+    - name: BANETTE-MEGA_51
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 297
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 42.5}
+        - {x: -49, y: -9.5}
+        - {x: -49, y: -36.5}
+        - {x: -17, y: -49.5}
+        - {x: 16, y: -49.5}
+        - {x: 44, y: -33.5}
+        - {x: 44, y: -12.5}
+        - {x: 21, y: 42.5}
+    - name: BANETTE-MEGA_52
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 297
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 43.5}
+        - {x: -43, y: 6.5}
+        - {x: -49, y: -7.5}
+        - {x: -49, y: -29.5}
+        - {x: -21, y: -49.5}
+        - {x: 22, y: -49.5}
+        - {x: 44, y: -28.5}
+        - {x: 44, y: 11.5}
+        - {x: 31, y: 43.5}
+    - name: BANETTE-MEGA_53
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 297
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 44.5}
+        - {x: -49, y: -15.5}
+        - {x: -49, y: -32.5}
+        - {x: -20, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 44, y: -37.5}
+        - {x: 44, y: -3.5}
+        - {x: 23, y: 44.5}
+    - name: BANETTE-MEGA_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 45.5}
+        - {x: 0, y: 45.5}
+        - {x: -48, y: -16.5}
+        - {x: -48, y: -28.5}
+        - {x: -42, y: -33.5}
+        - {x: -9, y: -49.5}
+        - {x: 16, y: -49.5}
+        - {x: 42, y: -38.5}
+        - {x: 44, y: -29.5}
+        - {x: 44, y: -2.5}
+    - name: BANETTE-MEGA_55
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 198
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -35.5}
+        - {x: -19, y: -49.5}
+        - {x: 18, y: -49.5}
+        - {x: 44, y: -38.5}
+        - {x: 44, y: -4.5}
+        - {x: 20, y: 47.5}
+        - {x: 9, y: 47.5}
+        - {x: -28, y: 21.5}
+        - {x: -47, y: -13.5}
+    - name: BANETTE-MEGA_56
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 198
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 47.5}
+        - {x: 0, y: 47.5}
+        - {x: -28, y: 20.5}
+        - {x: -47, y: -17.5}
+        - {x: -47, y: -37.5}
+        - {x: -18, y: -49.5}
+        - {x: 16, y: -49.5}
+        - {x: 44, y: -33.5}
+        - {x: 44, y: -8.5}
+        - {x: 41, y: 0.5}
+    - name: BANETTE-MEGA_57
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 198
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -16.5}
+        - {x: 36, y: 15.5}
+        - {x: 15, y: 48.5}
+        - {x: -6, y: 48.5}
+        - {x: -29, y: 15.5}
+        - {x: -47, y: -15.5}
+        - {x: -47, y: -37.5}
+        - {x: -7, y: -49.5}
+        - {x: 13, y: -49.5}
+        - {x: 38, y: -37.5}
+        - {x: 45, y: -32.5}
+    - name: BANETTE-MEGA_58
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 198
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 49.5}
+        - {x: -46, y: -4.5}
+        - {x: -46, y: -35.5}
+        - {x: -15, y: -49.5}
+        - {x: 15, y: -49.5}
+        - {x: 45, y: -38.5}
+        - {x: 45, y: -1.5}
+        - {x: 12, y: 49.5}
+    - name: BANETTE-MEGA_59
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 198
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 49.5}
+        - {x: -4, y: 40.5}
+        - {x: -46, y: -6.5}
+        - {x: -46, y: -39.5}
+        - {x: -13, y: -49.5}
+        - {x: 25, y: -49.5}
+        - {x: 45, y: -34.5}
+        - {x: 45, y: -5.5}
+        - {x: 11, y: 49.5}
+    - name: BANETTE-MEGA_60
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 198
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 49.5}
+        - {x: -9, y: 49.5}
+        - {x: -45, y: 8.5}
+        - {x: -45, y: -39.5}
+        - {x: -33, y: -49.5}
+        - {x: 30, y: -49.5}
+        - {x: 41, y: -41.5}
+        - {x: 45, y: -33.5}
+        - {x: 45, y: -20.5}
+        - {x: 44, y: -10.5}
+    - name: BANETTE-MEGA_61
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 198
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 49.5}
+        - {x: -45, y: -2.5}
+        - {x: -45, y: -42.5}
+        - {x: -22, y: -49.5}
+        - {x: 40, y: -49.5}
+        - {x: 45, y: -41.5}
+        - {x: 45, y: 17.5}
+        - {x: 18, y: 49.5}
+    - name: BANETTE-MEGA_62
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 198
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 49.5}
+        - {x: -27, y: 21.5}
+        - {x: -44, y: 0.5}
+        - {x: -44, y: -37.5}
+        - {x: -27, y: -49.5}
+        - {x: 29, y: -49.5}
+        - {x: 45, y: -36.5}
+        - {x: 45, y: -12.5}
+        - {x: 12, y: 49.5}
+    - name: BANETTE-MEGA_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 49.5}
+        - {x: -3, y: 49.5}
+        - {x: -30, y: 18.5}
+        - {x: -44, y: -6.5}
+        - {x: -44, y: -37.5}
+        - {x: -20, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 45, y: -37.5}
+        - {x: 45, y: -11.5}
+        - {x: 44, y: -5.5}
+    - name: BANETTE-MEGA_64
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 99
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 4.5}
+        - {x: 26, y: 4.5}
+        - {x: 22, y: 20.5}
+        - {x: 11, y: 49.5}
+        - {x: -3, y: 49.5}
+        - {x: -42, y: 7.5}
+        - {x: -44, y: -4.5}
+        - {x: -44, y: -32.5}
+        - {x: -39, y: -34.5}
+        - {x: -4, y: -49.5}
+        - {x: 13, y: -49.5}
+        - {x: 45, y: -32.5}
+        - {x: 45, y: -18.5}
+        - {x: 43, y: -5.5}
+    - name: BANETTE-MEGA_65
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 99
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 49.5}
+        - {x: -1, y: 49.5}
+        - {x: -3, y: 47.5}
+        - {x: -42, y: -11.5}
+        - {x: -44, y: -20.5}
+        - {x: -44, y: -34.5}
+        - {x: -16, y: -49.5}
+        - {x: 20, y: -49.5}
+        - {x: 46, y: -35.5}
+        - {x: 46, y: -11.5}
+        - {x: 45, y: -6.5}
+    - name: BANETTE-MEGA_66
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 99
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -15.5}
+        - {x: -44, y: -39.5}
+        - {x: -19, y: -49.5}
+        - {x: 21, y: -49.5}
+        - {x: 46, y: -41.5}
+        - {x: 46, y: -4.5}
+        - {x: 24, y: 48.5}
+        - {x: -5, y: 48.5}
+        - {x: -42, y: -11.5}
+    - name: BANETTE-MEGA_67
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 99
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 47.5}
+        - {x: -22, y: 22.5}
+        - {x: -45, y: -15.5}
+        - {x: -45, y: -36.5}
+        - {x: -22, y: -49.5}
+        - {x: 20, y: -49.5}
+        - {x: 46, y: -36.5}
+        - {x: 46, y: 5.5}
+        - {x: 16, y: 47.5}
+    - name: BANETTE-MEGA_68
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 99
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 46.5}
+        - {x: -3, y: 45.5}
+        - {x: -41, y: -6.5}
+        - {x: -46, y: -20.5}
+        - {x: -46, y: -30.5}
+        - {x: -8, y: -49.5}
+        - {x: 15, y: -49.5}
+        - {x: 47, y: -28.5}
+        - {x: 47, y: -3.5}
+        - {x: 11, y: 46.5}
+    - name: BANETTE-MEGA_69
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 99
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 45.5}
+        - {x: -34, y: 14.5}
+        - {x: -46, y: -13.5}
+        - {x: -46, y: -33.5}
+        - {x: -17, y: -49.5}
+        - {x: 23, y: -49.5}
+        - {x: 47, y: -37.5}
+        - {x: 47, y: -4.5}
+        - {x: 8, y: 45.5}
+    - name: BANETTE-MEGA_70
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 99
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 5.5}
+        - {x: 23, y: 2.5}
+        - {x: 21, y: -1.5}
+        - {x: 22, y: -1.5}
+        - {x: 21, y: -0.5}
+        - {x: 22, y: 0.5}
+        - {x: 24, y: 9.5}
+        - {x: 23, y: 25.5}
+        - {x: 6, y: 44.5}
+        - {x: -5, y: 44.5}
+        - {x: -47, y: -15.5}
+        - {x: -47, y: -22.5}
+        - {x: -43, y: -27.5}
+        - {x: -11, y: -49.5}
+        - {x: 17, y: -49.5}
+        - {x: 47, y: -32.5}
+        - {x: 47, y: -5.5}
+        - {x: 31, y: 9.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

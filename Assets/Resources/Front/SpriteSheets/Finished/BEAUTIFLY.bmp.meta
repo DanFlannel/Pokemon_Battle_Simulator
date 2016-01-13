@@ -1,0 +1,1742 @@
+fileFormatVersion: 2
+guid: 0a6164855790ea44689d4e09d68b99cd
+timeCreated: 1452637026
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BEAUTIFLY_0
+    21300002: BEAUTIFLY_1
+    21300004: BEAUTIFLY_2
+    21300006: BEAUTIFLY_3
+    21300008: BEAUTIFLY_4
+    21300010: BEAUTIFLY_5
+    21300012: BEAUTIFLY_6
+    21300014: BEAUTIFLY_7
+    21300016: BEAUTIFLY_8
+    21300018: BEAUTIFLY_9
+    21300020: BEAUTIFLY_10
+    21300022: BEAUTIFLY_11
+    21300024: BEAUTIFLY_12
+    21300026: BEAUTIFLY_13
+    21300028: BEAUTIFLY_14
+    21300030: BEAUTIFLY_15
+    21300032: BEAUTIFLY_16
+    21300034: BEAUTIFLY_17
+    21300036: BEAUTIFLY_18
+    21300038: BEAUTIFLY_19
+    21300040: BEAUTIFLY_20
+    21300042: BEAUTIFLY_21
+    21300044: BEAUTIFLY_22
+    21300046: BEAUTIFLY_23
+    21300048: BEAUTIFLY_24
+    21300050: BEAUTIFLY_25
+    21300052: BEAUTIFLY_26
+    21300054: BEAUTIFLY_27
+    21300056: BEAUTIFLY_28
+    21300058: BEAUTIFLY_29
+    21300060: BEAUTIFLY_30
+    21300062: BEAUTIFLY_31
+    21300064: BEAUTIFLY_32
+    21300066: BEAUTIFLY_33
+    21300068: BEAUTIFLY_34
+    21300070: BEAUTIFLY_35
+    21300072: BEAUTIFLY_36
+    21300074: BEAUTIFLY_37
+    21300076: BEAUTIFLY_38
+    21300078: BEAUTIFLY_39
+    21300080: BEAUTIFLY_40
+    21300082: BEAUTIFLY_41
+    21300084: BEAUTIFLY_42
+    21300086: BEAUTIFLY_43
+    21300088: BEAUTIFLY_44
+    21300090: BEAUTIFLY_45
+    21300092: BEAUTIFLY_46
+    21300094: BEAUTIFLY_47
+    21300096: BEAUTIFLY_48
+    21300098: BEAUTIFLY_49
+    21300100: BEAUTIFLY_50
+    21300102: BEAUTIFLY_51
+    21300104: BEAUTIFLY_52
+    21300106: BEAUTIFLY_53
+    21300108: BEAUTIFLY_54
+    21300110: BEAUTIFLY_55
+    21300112: BEAUTIFLY_56
+    21300114: BEAUTIFLY_57
+    21300116: BEAUTIFLY_58
+    21300118: BEAUTIFLY_59
+    21300120: BEAUTIFLY_60
+    21300122: BEAUTIFLY_61
+    21300124: BEAUTIFLY_62
+    21300126: BEAUTIFLY_63
+    21300128: BEAUTIFLY_64
+    21300130: BEAUTIFLY_65
+    21300132: BEAUTIFLY_66
+    21300134: BEAUTIFLY_67
+    21300136: BEAUTIFLY_68
+    21300138: BEAUTIFLY_69
+    21300140: BEAUTIFLY_70
+    21300142: BEAUTIFLY_71
+    21300144: BEAUTIFLY_72
+    21300146: BEAUTIFLY_73
+    21300148: BEAUTIFLY_74
+    21300150: BEAUTIFLY_75
+    21300152: BEAUTIFLY_76
+    21300154: BEAUTIFLY_77
+    21300156: BEAUTIFLY_78
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BEAUTIFLY_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 664
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 37.5}
+        - {x: -27.5, y: -41.5}
+        - {x: -10.5, y: -40.5}
+        - {x: -8.5, y: -38.5}
+        - {x: -0.5, y: -41.5}
+        - {x: 26.5, y: -41.5}
+        - {x: 37.5, y: -11.5}
+        - {x: 37.5, y: 37.5}
+    - name: BEAUTIFLY_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 664
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 36.5}
+        - {x: -32.5, y: 30.5}
+        - {x: -32.5, y: -7.5}
+        - {x: -25.5, y: -38.5}
+        - {x: -14.5, y: -38.5}
+        - {x: -8.5, y: -40.5}
+        - {x: 30.5, y: -40.5}
+        - {x: 40.5, y: -8.5}
+        - {x: 40.5, y: 36.5}
+    - name: BEAUTIFLY_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 664
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 36.5}
+        - {x: -37.5, y: 33.5}
+        - {x: -37.5, y: -7.5}
+        - {x: -28.5, y: -41.5}
+        - {x: 34.5, y: -41.5}
+        - {x: 36.5, y: -40.5}
+        - {x: 40.5, y: -26.5}
+        - {x: 40.5, y: 36.5}
+    - name: BEAUTIFLY_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 664
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 35.5}
+        - {x: 9.5, y: 29.5}
+        - {x: 7.5, y: 35.5}
+        - {x: -37.5, y: 35.5}
+        - {x: -40.5, y: 29.5}
+        - {x: -40.5, y: -27.5}
+        - {x: -38.5, y: -41.5}
+        - {x: 40.5, y: -41.5}
+        - {x: 40.5, y: 35.5}
+    - name: BEAUTIFLY_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 664
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 35.5}
+        - {x: -40.5, y: -41.5}
+        - {x: 40.5, y: -41.5}
+        - {x: 40.5, y: 35.5}
+    - name: BEAUTIFLY_5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 664
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 34.5}
+        - {x: -17.5, y: 30.5}
+        - {x: -16.5, y: 26.5}
+        - {x: -14.5, y: 23.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -14.5, y: 23.5}
+        - {x: -25.5, y: 34.5}
+        - {x: -26.5, y: 34.5}
+        - {x: -40.5, y: 30.5}
+        - {x: -39.5, y: 16.5}
+        - {x: -38.5, y: 11.5}
+        - {x: -31.5, y: -8.5}
+        - {x: -40.5, y: -35.5}
+        - {x: -40.5, y: -41.5}
+        - {x: 40.5, y: -41.5}
+        - {x: 40.5, y: 32.5}
+        - {x: 35.5, y: 34.5}
+    - name: BEAUTIFLY_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 664
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 34.5}
+        - {x: -36.5, y: 32.5}
+        - {x: -36.5, y: -38.5}
+        - {x: -35.5, y: -39.5}
+        - {x: -27.5, y: -40.5}
+        - {x: -10.5, y: -36.5}
+        - {x: 14.5, y: -40.5}
+        - {x: 40.5, y: -40.5}
+        - {x: 40.5, y: 34.5}
+    - name: BEAUTIFLY_7
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 664
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 29.5}
+        - {x: 7.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -30.5, y: 28.5}
+        - {x: -30.5, y: -40.5}
+        - {x: 39.5, y: -40.5}
+        - {x: 39.5, y: 26.5}
+        - {x: 31.5, y: 31.5}
+    - name: BEAUTIFLY_8
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 664
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 33.5}
+        - {x: -25.5, y: 28.5}
+        - {x: -25.5, y: -10.5}
+        - {x: -21.5, y: -39.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 37.5, y: -41.5}
+        - {x: 37.5, y: 33.5}
+    - name: BEAUTIFLY_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 581
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 33.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -24.5, y: 27.5}
+        - {x: -24.5, y: -10.5}
+        - {x: -21.5, y: -34.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 30.5, y: -41.5}
+        - {x: 36.5, y: -32.5}
+        - {x: 36.5, y: 33.5}
+    - name: BEAUTIFLY_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 581
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 33.5}
+        - {x: -19.5, y: 33.5}
+        - {x: -26.5, y: 29.5}
+        - {x: -26.5, y: -41.5}
+        - {x: 38.5, y: -41.5}
+        - {x: 38.5, y: 25.5}
+        - {x: 35.5, y: 32.5}
+    - name: BEAUTIFLY_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 581
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 33.5}
+        - {x: -32.5, y: -23.5}
+        - {x: -29.5, y: -41.5}
+        - {x: 40.5, y: -41.5}
+        - {x: 40.5, y: 33.5}
+    - name: BEAUTIFLY_12
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 581
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 33.5}
+        - {x: -17.5, y: 30.5}
+        - {x: -16.5, y: 26.5}
+        - {x: -14.5, y: 23.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -14.5, y: 23.5}
+        - {x: -17.5, y: 27.5}
+        - {x: -20.5, y: 33.5}
+        - {x: -30.5, y: 33.5}
+        - {x: -37.5, y: 30.5}
+        - {x: -37.5, y: -13.5}
+        - {x: -32.5, y: -40.5}
+        - {x: 36.5, y: -40.5}
+        - {x: 40.5, y: -11.5}
+        - {x: 40.5, y: 33.5}
+    - name: BEAUTIFLY_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 581
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 36.5}
+        - {x: -14.5, y: 35.5}
+        - {x: -15.5, y: 30.5}
+        - {x: -15.5, y: 24.5}
+        - {x: -14.5, y: 23.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -15.5, y: 25.5}
+        - {x: -26.5, y: 36.5}
+        - {x: -36.5, y: 36.5}
+        - {x: -40.5, y: 33.5}
+        - {x: -40.5, y: -29.5}
+        - {x: -37.5, y: -40.5}
+        - {x: 40.5, y: -40.5}
+        - {x: 40.5, y: 36.5}
+    - name: BEAUTIFLY_14
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 581
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 37.5}
+        - {x: -40.5, y: -40.5}
+        - {x: 40.5, y: -40.5}
+        - {x: 40.5, y: 37.5}
+    - name: BEAUTIFLY_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 581
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 36.5}
+        - {x: -15.5, y: 30.5}
+        - {x: -15.5, y: 26.5}
+        - {x: -23.5, y: 36.5}
+        - {x: -39.5, y: 36.5}
+        - {x: -39.5, y: -37.5}
+        - {x: -38.5, y: -38.5}
+        - {x: -33.5, y: -37.5}
+        - {x: -23.5, y: -30.5}
+        - {x: -16.5, y: -35.5}
+        - {x: -10.5, y: -35.5}
+        - {x: -8.5, y: -31.5}
+        - {x: 21.5, y: -39.5}
+        - {x: 40.5, y: -39.5}
+        - {x: 40.5, y: 36.5}
+    - name: BEAUTIFLY_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 581
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 35.5}
+        - {x: -30.5, y: 35.5}
+        - {x: -36.5, y: 33.5}
+        - {x: -36.5, y: 23.5}
+        - {x: -35.5, y: 15.5}
+        - {x: -35.5, y: -33.5}
+        - {x: -33.5, y: -35.5}
+        - {x: -28.5, y: -35.5}
+        - {x: -11.5, y: -36.5}
+        - {x: -8.5, y: -31.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 37.5, y: -37.5}
+        - {x: 40.5, y: -31.5}
+        - {x: 35.5, y: -27.5}
+        - {x: 40.5, y: -2.5}
+    - name: BEAUTIFLY_17
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 581
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 34.5}
+        - {x: -30.5, y: 33.5}
+        - {x: -30.5, y: -32.5}
+        - {x: -22.5, y: -36.5}
+        - {x: 35.5, y: -36.5}
+        - {x: 39.5, y: -17.5}
+        - {x: 39.5, y: 34.5}
+    - name: BEAUTIFLY_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 34.5}
+        - {x: -25.5, y: 32.5}
+        - {x: -25.5, y: 4.5}
+        - {x: -22.5, y: -36.5}
+        - {x: -19.5, y: -37.5}
+        - {x: 29.5, y: -37.5}
+        - {x: 31.5, y: -35.5}
+        - {x: 29.5, y: -32.5}
+        - {x: 37.5, y: -2.5}
+        - {x: 37.5, y: 34.5}
+    - name: BEAUTIFLY_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 498
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 34.5}
+        - {x: -0.5, y: 33.5}
+        - {x: -5.5, y: 28.5}
+        - {x: -5.5, y: 27.5}
+        - {x: -8.5, y: 25.5}
+        - {x: -6.5, y: 27.5}
+        - {x: -6.5, y: 32.5}
+        - {x: -7.5, y: 34.5}
+        - {x: -19.5, y: 34.5}
+        - {x: -23.5, y: 32.5}
+        - {x: -23.5, y: -11.5}
+        - {x: -21.5, y: -29.5}
+        - {x: -15.5, y: -36.5}
+        - {x: -10.5, y: -38.5}
+        - {x: -9.5, y: -38.5}
+        - {x: 4.5, y: -26.5}
+        - {x: 6.5, y: -24.5}
+        - {x: 16.5, y: -38.5}
+        - {x: 31.5, y: -38.5}
+        - {x: 37.5, y: -13.5}
+        - {x: 37.5, y: 32.5}
+        - {x: 31.5, y: 34.5}
+    - name: BEAUTIFLY_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 498
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 34.5}
+        - {x: -13.5, y: 31.5}
+        - {x: -13.5, y: 28.5}
+        - {x: -13.5, y: 30.5}
+        - {x: -17.5, y: 33.5}
+        - {x: -18.5, y: 34.5}
+        - {x: -24.5, y: 34.5}
+        - {x: -26.5, y: 30.5}
+        - {x: -26.5, y: -38.5}
+        - {x: 26.5, y: -38.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 38.5, y: 2.5}
+        - {x: 38.5, y: 34.5}
+    - name: BEAUTIFLY_21
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 498
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 36.5}
+        - {x: -1.5, y: 34.5}
+        - {x: -5.5, y: 29.5}
+        - {x: -5.5, y: 28.5}
+        - {x: -5.5, y: 32.5}
+        - {x: -8.5, y: 35.5}
+        - {x: -9.5, y: 35.5}
+        - {x: -13.5, y: 31.5}
+        - {x: -20.5, y: 36.5}
+        - {x: -28.5, y: 36.5}
+        - {x: -32.5, y: 31.5}
+        - {x: -32.5, y: 0.5}
+        - {x: -23.5, y: -36.5}
+        - {x: 34.5, y: -36.5}
+        - {x: 40.5, y: 2.5}
+        - {x: 40.5, y: 34.5}
+        - {x: 38.5, y: 36.5}
+    - name: BEAUTIFLY_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 498
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 39.5}
+        - {x: -37.5, y: -18.5}
+        - {x: -34.5, y: -34.5}
+        - {x: 38.5, y: -34.5}
+        - {x: 40.5, y: -25.5}
+        - {x: 40.5, y: 39.5}
+    - name: BEAUTIFLY_23
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 498
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 41.5}
+        - {x: -40.5, y: -28.5}
+        - {x: -39.5, y: -32.5}
+        - {x: -29.5, y: -34.5}
+        - {x: 40.5, y: -34.5}
+        - {x: 40.5, y: 41.5}
+    - name: BEAUTIFLY_24
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 498
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 41.5}
+        - {x: 14.5, y: 38.5}
+        - {x: 1.5, y: 25.5}
+        - {x: 4.5, y: 31.5}
+        - {x: 5.5, y: 34.5}
+        - {x: -5.5, y: 41.5}
+        - {x: -40.5, y: 41.5}
+        - {x: -40.5, y: -35.5}
+        - {x: 40.5, y: -35.5}
+        - {x: 40.5, y: 41.5}
+    - name: BEAUTIFLY_25
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 498
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 41.5}
+        - {x: -40.5, y: -33.5}
+        - {x: 40.5, y: -33.5}
+        - {x: 40.5, y: 41.5}
+    - name: BEAUTIFLY_26
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 498
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 24.5}
+        - {x: -1.5, y: 21.5}
+        - {x: 4.5, y: 32.5}
+        - {x: 5.5, y: 35.5}
+        - {x: -1.5, y: 40.5}
+        - {x: -36.5, y: 40.5}
+        - {x: -36.5, y: -31.5}
+        - {x: 40.5, y: -31.5}
+        - {x: 40.5, y: 40.5}
+        - {x: 20.5, y: 40.5}
+        - {x: 9.5, y: 35.5}
+    - name: BEAUTIFLY_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 39.5}
+        - {x: -30.5, y: -31.5}
+        - {x: 39.5, y: -31.5}
+        - {x: 39.5, y: 39.5}
+    - name: BEAUTIFLY_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 415
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.5, y: 32.5}
+        - {x: 35.5, y: 38.5}
+        - {x: 13.5, y: 38.5}
+        - {x: 8.5, y: 34.5}
+        - {x: -0.5, y: 23.5}
+        - {x: 5.5, y: 31.5}
+        - {x: 6.5, y: 38.5}
+        - {x: -25.5, y: 38.5}
+        - {x: -25.5, y: -7.5}
+        - {x: -20.5, y: -32.5}
+        - {x: 29.5, y: -32.5}
+        - {x: 30.5, y: -31.5}
+        - {x: 25.5, y: -21.5}
+        - {x: 37.5, y: 13.5}
+    - name: BEAUTIFLY_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 415
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 38.5}
+        - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -5.5}
+        - {x: -15.5, y: -33.5}
+        - {x: -10.5, y: -35.5}
+        - {x: 36.5, y: -35.5}
+        - {x: 36.5, y: 37.5}
+        - {x: 35.5, y: 38.5}
+    - name: BEAUTIFLY_30
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 415
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 38.5}
+        - {x: -26.5, y: 36.5}
+        - {x: -26.5, y: -2.5}
+        - {x: -21.5, y: -35.5}
+        - {x: 25.5, y: -35.5}
+        - {x: 38.5, y: 5.5}
+        - {x: 38.5, y: 38.5}
+    - name: BEAUTIFLY_31
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 415
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 39.5}
+        - {x: -32.5, y: 38.5}
+        - {x: -32.5, y: -4.5}
+        - {x: -24.5, y: -28.5}
+        - {x: -13.5, y: -35.5}
+        - {x: -8.5, y: -27.5}
+        - {x: -6.5, y: -23.5}
+        - {x: 15.5, y: -35.5}
+        - {x: 32.5, y: -35.5}
+        - {x: 33.5, y: -34.5}
+        - {x: 40.5, y: 5.5}
+        - {x: 40.5, y: 39.5}
+    - name: BEAUTIFLY_32
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 415
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 39.5}
+        - {x: -35.5, y: 32.5}
+        - {x: -37.5, y: 27.5}
+        - {x: -37.5, y: -34.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 32.5, y: -27.5}
+        - {x: 40.5, y: -5.5}
+        - {x: 40.5, y: 39.5}
+    - name: BEAUTIFLY_33
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 415
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 41.5}
+        - {x: -40.5, y: -35.5}
+        - {x: 40.5, y: -35.5}
+        - {x: 40.5, y: 40.5}
+        - {x: 39.5, y: 41.5}
+    - name: BEAUTIFLY_34
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 415
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 35.5}
+        - {x: -8.5, y: 38.5}
+        - {x: -11.5, y: 41.5}
+        - {x: -40.5, y: 41.5}
+        - {x: -40.5, y: -36.5}
+        - {x: 39.5, y: -36.5}
+        - {x: 40.5, y: -35.5}
+        - {x: 40.5, y: 41.5}
+        - {x: 4.5, y: 41.5}
+        - {x: 0.5, y: 40.5}
+    - name: BEAUTIFLY_35
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 415
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 39.5}
+        - {x: -40.5, y: 38.5}
+        - {x: -40.5, y: -36.5}
+        - {x: 40.5, y: -36.5}
+        - {x: 40.5, y: 39.5}
+    - name: BEAUTIFLY_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 38.5}
+        - {x: -36.5, y: -35.5}
+        - {x: 40.5, y: -35.5}
+        - {x: 40.5, y: 38.5}
+    - name: BEAUTIFLY_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 332
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 38.5}
+        - {x: -30.5, y: 32.5}
+        - {x: -30.5, y: -35.5}
+        - {x: -16.5, y: -35.5}
+        - {x: -10.5, y: -32.5}
+        - {x: -5.5, y: -25.5}
+        - {x: -6.5, y: -22.5}
+        - {x: -4.5, y: -19.5}
+        - {x: -5.5, y: -19.5}
+        - {x: -4.5, y: -21.5}
+        - {x: -1.5, y: -35.5}
+        - {x: 39.5, y: -35.5}
+        - {x: 39.5, y: 37.5}
+        - {x: 31.5, y: 38.5}
+    - name: BEAUTIFLY_38
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 332
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 31.5}
+        - {x: 0.5, y: 19.5}
+        - {x: -1.5, y: 17.5}
+        - {x: 5.5, y: 29.5}
+        - {x: 7.5, y: 37.5}
+        - {x: 5.5, y: 38.5}
+        - {x: -12.5, y: 38.5}
+        - {x: -25.5, y: 34.5}
+        - {x: -25.5, y: -15.5}
+        - {x: -23.5, y: -37.5}
+        - {x: 36.5, y: -37.5}
+        - {x: 36.5, y: 31.5}
+        - {x: 29.5, y: 36.5}
+    - name: BEAUTIFLY_39
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 332
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 20.5}
+        - {x: 5.5, y: 29.5}
+        - {x: 6.5, y: 37.5}
+        - {x: -16.5, y: 37.5}
+        - {x: -24.5, y: 31.5}
+        - {x: -24.5, y: -15.5}
+        - {x: -22.5, y: -40.5}
+        - {x: 33.5, y: -40.5}
+        - {x: 36.5, y: -34.5}
+        - {x: 36.5, y: 32.5}
+        - {x: 34.5, y: 33.5}
+        - {x: 19.5, y: 34.5}
+        - {x: 8.5, y: 28.5}
+    - name: BEAUTIFLY_40
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 332
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 37.5}
+        - {x: -26.5, y: -10.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 26.5, y: -41.5}
+        - {x: 38.5, y: -13.5}
+        - {x: 38.5, y: 30.5}
+        - {x: 32.5, y: 37.5}
+    - name: BEAUTIFLY_41
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 332
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 36.5}
+        - {x: -31.5, y: 35.5}
+        - {x: -31.5, y: -22.5}
+        - {x: -17.5, y: -40.5}
+        - {x: -11.5, y: -38.5}
+        - {x: -8.5, y: -31.5}
+        - {x: 17.5, y: -41.5}
+        - {x: 26.5, y: -41.5}
+        - {x: 40.5, y: 1.5}
+        - {x: 40.5, y: 36.5}
+    - name: BEAUTIFLY_42
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 332
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 35.5}
+        - {x: 26.5, y: 36.5}
+        - {x: -15.5, y: 36.5}
+        - {x: -16.5, y: 32.5}
+        - {x: -16.5, y: 29.5}
+        - {x: -14.5, y: 26.5}
+        - {x: -14.5, y: 22.5}
+        - {x: -14.5, y: 24.5}
+        - {x: -21.5, y: 32.5}
+        - {x: -30.5, y: 33.5}
+        - {x: -37.5, y: 27.5}
+        - {x: -37.5, y: 8.5}
+        - {x: -36.5, y: -0.5}
+        - {x: -29.5, y: -37.5}
+        - {x: -21.5, y: -41.5}
+        - {x: 31.5, y: -41.5}
+        - {x: 34.5, y: -33.5}
+        - {x: 40.5, y: -8.5}
+        - {x: 40.5, y: 34.5}
+    - name: BEAUTIFLY_43
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 332
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 35.5}
+        - {x: -40.5, y: -41.5}
+        - {x: 37.5, y: -41.5}
+        - {x: 39.5, y: -35.5}
+        - {x: 40.5, y: -26.5}
+        - {x: 40.5, y: 35.5}
+    - name: BEAUTIFLY_44
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 332
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 35.5}
+        - {x: -40.5, y: 34.5}
+        - {x: -40.5, y: 12.5}
+        - {x: -38.5, y: -0.5}
+        - {x: -32.5, y: -8.5}
+        - {x: -30.5, y: -11.5}
+        - {x: -40.5, y: -33.5}
+        - {x: -40.5, y: -40.5}
+        - {x: -35.5, y: -41.5}
+        - {x: 40.5, y: -41.5}
+        - {x: 40.5, y: 35.5}
+    - name: BEAUTIFLY_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 34.5}
+        - {x: 15.5, y: 32.5}
+        - {x: 4.5, y: 21.5}
+        - {x: 6.5, y: 26.5}
+        - {x: 4.5, y: 34.5}
+        - {x: -40.5, y: 34.5}
+        - {x: -40.5, y: -41.5}
+        - {x: 40.5, y: -41.5}
+        - {x: 40.5, y: 34.5}
+    - name: BEAUTIFLY_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 249
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 34.5}
+        - {x: -36.5, y: -40.5}
+        - {x: 40.5, y: -40.5}
+        - {x: 40.5, y: 34.5}
+    - name: BEAUTIFLY_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 249
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 34.5}
+        - {x: -30.5, y: -40.5}
+        - {x: 39.5, y: -40.5}
+        - {x: 39.5, y: 34.5}
+    - name: BEAUTIFLY_48
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 249
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33.5}
+        - {x: -25.5, y: 28.5}
+        - {x: -25.5, y: -8.5}
+        - {x: -18.5, y: -41.5}
+        - {x: 36.5, y: -41.5}
+        - {x: 37.5, y: -28.5}
+        - {x: 37.5, y: 33.5}
+    - name: BEAUTIFLY_49
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 249
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -41.5}
+        - {x: 24.5, y: -41.5}
+        - {x: 24.5, y: -37.5}
+        - {x: 37.5, y: 0.5}
+        - {x: 37.5, y: 27.5}
+        - {x: 28.5, y: 33.5}
+        - {x: -19.5, y: 33.5}
+        - {x: -24.5, y: 30.5}
+        - {x: -24.5, y: -5.5}
+        - {x: -21.5, y: -34.5}
+        - {x: -14.5, y: -41.5}
+        - {x: -8.5, y: -41.5}
+        - {x: -6.5, y: -38.5}
+        - {x: 3.5, y: -32.5}
+        - {x: 6.5, y: -29.5}
+    - name: BEAUTIFLY_50
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 249
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 33.5}
+        - {x: -26.5, y: 29.5}
+        - {x: -26.5, y: -3.5}
+        - {x: -23.5, y: -35.5}
+        - {x: -17.5, y: -41.5}
+        - {x: 29.5, y: -41.5}
+        - {x: 38.5, y: -14.5}
+        - {x: 38.5, y: 24.5}
+        - {x: 34.5, y: 33.5}
+    - name: BEAUTIFLY_51
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 249
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 33.5}
+        - {x: -32.5, y: 31.5}
+        - {x: -32.5, y: -12.5}
+        - {x: -19.5, y: -41.5}
+        - {x: 34.5, y: -41.5}
+        - {x: 40.5, y: -17.5}
+        - {x: 40.5, y: 33.5}
+    - name: BEAUTIFLY_52
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 249
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 33.5}
+        - {x: 6.5, y: 33.5}
+        - {x: 0.5, y: 32.5}
+        - {x: -5.5, y: 26.5}
+        - {x: -8.5, y: 30.5}
+        - {x: -10.5, y: 33.5}
+        - {x: -30.5, y: 33.5}
+        - {x: -37.5, y: 31.5}
+        - {x: -37.5, y: -28.5}
+        - {x: -33.5, y: -41.5}
+        - {x: 31.5, y: -41.5}
+        - {x: 33.5, y: -40.5}
+        - {x: 34.5, y: -34.5}
+        - {x: 40.5, y: -13.5}
+        - {x: 40.5, y: 31.5}
+    - name: BEAUTIFLY_53
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 249
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 36.5}
+        - {x: -40.5, y: -34.5}
+        - {x: -39.5, y: -38.5}
+        - {x: -34.5, y: -40.5}
+        - {x: -31.5, y: -41.5}
+        - {x: 40.5, y: -41.5}
+        - {x: 40.5, y: 36.5}
+      - - {x: -12.5, y: 33.5}
+        - {x: -16.5, y: 29.5}
+        - {x: -16.5, y: 26.5}
+        - {x: -13.5, y: 22.5}
+        - {x: -10.5, y: 22.5}
+        - {x: -8.5, y: 24.5}
+        - {x: -8.5, y: 30.5}
+        - {x: -11.5, y: 33.5}
+    - name: BEAUTIFLY_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 37.5}
+        - {x: -13.5, y: 33.5}
+        - {x: -16.5, y: 29.5}
+        - {x: -15.5, y: 24.5}
+        - {x: -19.5, y: 33.5}
+        - {x: -32.5, y: 37.5}
+        - {x: -38.5, y: 37.5}
+        - {x: -40.5, y: 32.5}
+        - {x: -40.5, y: -40.5}
+        - {x: -24.5, y: -41.5}
+        - {x: 40.5, y: -41.5}
+        - {x: 40.5, y: 37.5}
+    - name: BEAUTIFLY_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 166
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 36.5}
+        - {x: -40.5, y: 31.5}
+        - {x: -40.5, y: -39.5}
+        - {x: 40.5, y: -39.5}
+        - {x: 40.5, y: 36.5}
+    - name: BEAUTIFLY_56
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 166
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 35.5}
+        - {x: -36.5, y: -37.5}
+        - {x: 40.5, y: -37.5}
+        - {x: 40.5, y: 35.5}
+    - name: BEAUTIFLY_57
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 166
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 34.5}
+        - {x: 8.5, y: 29.5}
+        - {x: -1.5, y: 17.5}
+        - {x: 5.5, y: 26.5}
+        - {x: 3.5, y: 34.5}
+        - {x: -31.5, y: 34.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 39.5, y: -36.5}
+        - {x: 39.5, y: 33.5}
+        - {x: 38.5, y: 34.5}
+    - name: BEAUTIFLY_58
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 166
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 34.5}
+        - {x: -25.5, y: 31.5}
+        - {x: -25.5, y: -1.5}
+        - {x: -21.5, y: -31.5}
+        - {x: -20.5, y: -37.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 30.5, y: -36.5}
+        - {x: 28.5, y: -32.5}
+        - {x: 36.5, y: -6.5}
+        - {x: 36.5, y: 34.5}
+    - name: BEAUTIFLY_59
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 166
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 34.5}
+        - {x: 8.5, y: 29.5}
+        - {x: -1.5, y: 18.5}
+        - {x: 4.5, y: 26.5}
+        - {x: 2.5, y: 34.5}
+        - {x: -19.5, y: 34.5}
+        - {x: -24.5, y: 31.5}
+        - {x: -24.5, y: -2.5}
+        - {x: -18.5, y: -39.5}
+        - {x: 31.5, y: -39.5}
+        - {x: 36.5, y: -12.5}
+        - {x: 36.5, y: 29.5}
+        - {x: 34.5, y: 34.5}
+    - name: BEAUTIFLY_60
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 166
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 35.5}
+        - {x: -14.5, y: 31.5}
+        - {x: -14.5, y: 28.5}
+        - {x: -14.5, y: 30.5}
+        - {x: -17.5, y: 34.5}
+        - {x: -26.5, y: 32.5}
+        - {x: -27.5, y: 31.5}
+        - {x: -27.5, y: 5.5}
+        - {x: -16.5, y: -38.5}
+        - {x: 29.5, y: -38.5}
+        - {x: 38.5, y: 0.5}
+        - {x: 38.5, y: 35.5}
+    - name: BEAUTIFLY_61
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 166
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 36.5}
+        - {x: -6.5, y: 29.5}
+        - {x: -6.5, y: 28.5}
+        - {x: -6.5, y: 32.5}
+        - {x: -9.5, y: 35.5}
+        - {x: -11.5, y: 36.5}
+        - {x: -29.5, y: 36.5}
+        - {x: -32.5, y: 34.5}
+        - {x: -32.5, y: 0.5}
+        - {x: -21.5, y: -36.5}
+        - {x: -16.5, y: -36.5}
+        - {x: -9.5, y: -29.5}
+        - {x: 12.5, y: -36.5}
+        - {x: 26.5, y: -36.5}
+        - {x: 40.5, y: 12.5}
+        - {x: 40.5, y: 36.5}
+    - name: BEAUTIFLY_62
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 166
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 29.5}
+        - {x: 4.5, y: 28.5}
+        - {x: 3.5, y: 34.5}
+        - {x: -3.5, y: 39.5}
+        - {x: -32.5, y: 39.5}
+        - {x: -38.5, y: 35.5}
+        - {x: -38.5, y: 16.5}
+        - {x: -35.5, y: -5.5}
+        - {x: -27.5, y: -35.5}
+        - {x: 40.5, y: -35.5}
+        - {x: 40.5, y: 39.5}
+        - {x: 17.5, y: 39.5}
+        - {x: 13.5, y: 38.5}
+    - name: BEAUTIFLY_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 41.5}
+        - {x: -40.5, y: 39.5}
+        - {x: -40.5, y: -11.5}
+        - {x: -35.5, y: -35.5}
+        - {x: 36.5, y: -35.5}
+        - {x: 40.5, y: -19.5}
+        - {x: 40.5, y: 41.5}
+    - name: BEAUTIFLY_64
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 83
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 41.5}
+        - {x: 0.5, y: 26.5}
+        - {x: 2.5, y: 30.5}
+        - {x: 3.5, y: 35.5}
+        - {x: 0.5, y: 41.5}
+        - {x: -40.5, y: 41.5}
+        - {x: -40.5, y: -35.5}
+        - {x: 38.5, y: -35.5}
+        - {x: 40.5, y: -29.5}
+        - {x: 40.5, y: 41.5}
+    - name: BEAUTIFLY_65
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 83
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 41.5}
+        - {x: -40.5, y: -32.5}
+        - {x: -34.5, y: -33.5}
+        - {x: -32.5, y: -34.5}
+        - {x: 40.5, y: -34.5}
+        - {x: 40.5, y: 41.5}
+    - name: BEAUTIFLY_66
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 83
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 40.5}
+        - {x: -37.5, y: -32.5}
+        - {x: 40.5, y: -32.5}
+        - {x: 40.5, y: 40.5}
+    - name: BEAUTIFLY_67
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 83
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 39.5}
+        - {x: -32.5, y: -27.5}
+        - {x: -31.5, y: -31.5}
+        - {x: 38.5, y: -31.5}
+        - {x: 38.5, y: 39.5}
+    - name: BEAUTIFLY_68
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 83
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 38.5}
+        - {x: -26.5, y: 32.5}
+        - {x: -26.5, y: -33.5}
+        - {x: 34.5, y: -33.5}
+        - {x: 36.5, y: -18.5}
+        - {x: 36.5, y: 36.5}
+        - {x: 32.5, y: 38.5}
+    - name: BEAUTIFLY_69
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 83
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 38.5}
+        - {x: -25.5, y: -35.5}
+        - {x: 35.5, y: -35.5}
+        - {x: 35.5, y: 38.5}
+    - name: BEAUTIFLY_70
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 83
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39.5}
+        - {x: -28.5, y: 37.5}
+        - {x: -28.5, y: -36.5}
+        - {x: 36.5, y: -36.5}
+        - {x: 37.5, y: -29.5}
+        - {x: 37.5, y: 35.5}
+        - {x: 25.5, y: 39.5}
+    - name: BEAUTIFLY_71
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 83
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 39.5}
+        - {x: -33.5, y: -17.5}
+        - {x: -17.5, y: -35.5}
+        - {x: 31.5, y: -35.5}
+        - {x: 39.5, y: -15.5}
+        - {x: 39.5, y: 39.5}
+    - name: BEAUTIFLY_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 40.5}
+        - {x: -38.5, y: 35.5}
+        - {x: -38.5, y: -5.5}
+        - {x: -35.5, y: -34.5}
+        - {x: 38.5, y: -34.5}
+        - {x: 40.5, y: -26.5}
+        - {x: 40.5, y: 40.5}
+    - name: BEAUTIFLY_73
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 41.5}
+        - {x: -40.5, y: 40.5}
+        - {x: -40.5, y: -11.5}
+        - {x: -37.5, y: -35.5}
+        - {x: 40.5, y: -35.5}
+        - {x: 40.5, y: 41.5}
+    - name: BEAUTIFLY_74
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 41.5}
+        - {x: -40.5, y: -36.5}
+        - {x: 40.5, y: -36.5}
+        - {x: 40.5, y: 41.5}
+    - name: BEAUTIFLY_75
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 40.5}
+        - {x: -40.5, y: 35.5}
+        - {x: -40.5, y: -35.5}
+        - {x: -38.5, y: -36.5}
+        - {x: 40.5, y: -36.5}
+        - {x: 40.5, y: 40.5}
+    - name: BEAUTIFLY_76
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 39.5}
+        - {x: -37.5, y: 37.5}
+        - {x: -37.5, y: -33.5}
+        - {x: -30.5, y: -35.5}
+        - {x: 40.5, y: -35.5}
+        - {x: 40.5, y: 39.5}
+    - name: BEAUTIFLY_77
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 38.5}
+        - {x: -31.5, y: 32.5}
+        - {x: -31.5, y: 16.5}
+        - {x: -30.5, y: 14.5}
+        - {x: -31.5, y: -17.5}
+        - {x: -31.5, y: -33.5}
+        - {x: -29.5, y: -35.5}
+        - {x: -24.5, y: -35.5}
+        - {x: -11.5, y: -32.5}
+        - {x: -7.5, y: -24.5}
+        - {x: -7.5, y: -22.5}
+        - {x: -5.5, y: -19.5}
+        - {x: -6.5, y: -19.5}
+        - {x: -5.5, y: -21.5}
+        - {x: 1.5, y: -27.5}
+        - {x: 12.5, y: -35.5}
+        - {x: 38.5, y: -35.5}
+        - {x: 38.5, y: 37.5}
+        - {x: 35.5, y: 38.5}
+    - name: BEAUTIFLY_78
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 38.5}
+        - {x: -26.5, y: 35.5}
+        - {x: -26.5, y: -29.5}
+        - {x: -25.5, y: -36.5}
+        - {x: -24.5, y: -37.5}
+        - {x: -10.5, y: -37.5}
+        - {x: 2.5, y: -27.5}
+        - {x: 4.5, y: -25.5}
+        - {x: 17.5, y: -37.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 29.5, y: -36.5}
+        - {x: 36.5, y: -13.5}
+        - {x: 36.5, y: 35.5}
+        - {x: 23.5, y: 38.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

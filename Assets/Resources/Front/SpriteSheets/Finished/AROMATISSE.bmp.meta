@@ -1,0 +1,1275 @@
+fileFormatVersion: 2
+guid: 30bcac93fd66b1c4fb80fa030e1a61a0
+timeCreated: 1452636723
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AROMATISSE_0
+    21300002: AROMATISSE_1
+    21300004: AROMATISSE_2
+    21300006: AROMATISSE_3
+    21300008: AROMATISSE_4
+    21300010: AROMATISSE_5
+    21300012: AROMATISSE_6
+    21300014: AROMATISSE_7
+    21300016: AROMATISSE_8
+    21300018: AROMATISSE_9
+    21300020: AROMATISSE_10
+    21300022: AROMATISSE_11
+    21300024: AROMATISSE_12
+    21300026: AROMATISSE_13
+    21300028: AROMATISSE_14
+    21300030: AROMATISSE_15
+    21300032: AROMATISSE_16
+    21300034: AROMATISSE_17
+    21300036: AROMATISSE_18
+    21300038: AROMATISSE_19
+    21300040: AROMATISSE_20
+    21300042: AROMATISSE_21
+    21300044: AROMATISSE_22
+    21300046: AROMATISSE_23
+    21300048: AROMATISSE_24
+    21300050: AROMATISSE_25
+    21300052: AROMATISSE_26
+    21300054: AROMATISSE_27
+    21300056: AROMATISSE_28
+    21300058: AROMATISSE_29
+    21300060: AROMATISSE_30
+    21300062: AROMATISSE_31
+    21300064: AROMATISSE_32
+    21300066: AROMATISSE_33
+    21300068: AROMATISSE_34
+    21300070: AROMATISSE_35
+    21300072: AROMATISSE_36
+    21300074: AROMATISSE_37
+    21300076: AROMATISSE_38
+    21300078: AROMATISSE_39
+    21300080: AROMATISSE_40
+    21300082: AROMATISSE_41
+    21300084: AROMATISSE_42
+    21300086: AROMATISSE_43
+    21300088: AROMATISSE_44
+    21300090: AROMATISSE_45
+    21300092: AROMATISSE_46
+    21300094: AROMATISSE_47
+    21300096: AROMATISSE_48
+    21300098: AROMATISSE_49
+    21300100: AROMATISSE_50
+    21300102: AROMATISSE_51
+    21300104: AROMATISSE_52
+    21300106: AROMATISSE_53
+    21300108: AROMATISSE_54
+    21300110: AROMATISSE_55
+    21300112: AROMATISSE_56
+    21300114: AROMATISSE_57
+    21300116: AROMATISSE_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AROMATISSE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 40}
+        - {x: -32.5, y: 24}
+        - {x: -32.5, y: -40}
+        - {x: 28.5, y: -40}
+        - {x: 33.5, y: -25}
+        - {x: 33.5, y: 14}
+        - {x: 29.5, y: 40}
+    - name: AROMATISSE_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 560
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -12}
+        - {x: -32.5, y: -33}
+        - {x: -23.5, y: -40}
+        - {x: 21.5, y: -40}
+        - {x: 33.5, y: -31}
+        - {x: 33.5, y: 24}
+        - {x: 27.5, y: 40}
+        - {x: -23.5, y: 40}
+        - {x: -30.5, y: 20}
+    - name: AROMATISSE_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 560
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -12}
+        - {x: -32.5, y: -33}
+        - {x: -25.5, y: -40}
+        - {x: 27.5, y: -40}
+        - {x: 33.5, y: -35}
+        - {x: 33.5, y: 28}
+        - {x: 28.5, y: 40}
+        - {x: -23.5, y: 40}
+        - {x: -30.5, y: 20}
+    - name: AROMATISSE_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 560
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -33}
+        - {x: -24.5, y: -40}
+        - {x: 26.5, y: -40}
+        - {x: 33.5, y: -35}
+        - {x: 33.5, y: 23}
+        - {x: 24.5, y: 40}
+        - {x: -26.5, y: 40}
+        - {x: -32.5, y: 12}
+    - name: AROMATISSE_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 560
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -33}
+        - {x: -23.5, y: -40}
+        - {x: 29.5, y: -40}
+        - {x: 33.5, y: -38}
+        - {x: 33.5, y: 23}
+        - {x: 26.5, y: 40}
+        - {x: -26.5, y: 40}
+        - {x: -32.5, y: 11}
+    - name: AROMATISSE_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 560
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 40}
+        - {x: -32.5, y: 7}
+        - {x: -32.5, y: -37}
+        - {x: -22.5, y: -40}
+        - {x: 12.5, y: -40}
+        - {x: 33.5, y: -29}
+        - {x: 33.5, y: 15}
+        - {x: 31.5, y: 28}
+        - {x: 22.5, y: 40}
+    - name: AROMATISSE_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 560
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 40}
+        - {x: -32.5, y: 24}
+        - {x: -32.5, y: -34}
+        - {x: -20.5, y: -40}
+        - {x: 33.5, y: -40}
+        - {x: 33.5, y: 40}
+    - name: AROMATISSE_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 560
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 40}
+        - {x: -29.5, y: 27}
+        - {x: -32.5, y: 11}
+        - {x: -32.5, y: -40}
+        - {x: 29.5, y: -40}
+        - {x: 33.5, y: -31}
+        - {x: 33.5, y: 4}
+        - {x: 29.5, y: 40}
+    - name: AROMATISSE_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 40}
+        - {x: -32.5, y: 36}
+        - {x: -32.5, y: -37}
+        - {x: -18.5, y: -40}
+        - {x: 27.5, y: -40}
+        - {x: 33.5, y: -28}
+        - {x: 33.5, y: 6}
+        - {x: 23.5, y: 40}
+    - name: AROMATISSE_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 480
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 7}
+        - {x: -32.5, y: -35}
+        - {x: -26.5, y: -40}
+        - {x: 26.5, y: -40}
+        - {x: 33.5, y: -37}
+        - {x: 33.5, y: 4}
+        - {x: 26.5, y: 40}
+        - {x: -23.5, y: 40}
+        - {x: -31.5, y: 19}
+    - name: AROMATISSE_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 480
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -35}
+        - {x: -28.5, y: -40}
+        - {x: 27.5, y: -40}
+        - {x: 33.5, y: -36}
+        - {x: 33.5, y: 21}
+        - {x: 26.5, y: 40}
+        - {x: -31.5, y: 40}
+        - {x: -32.5, y: 21}
+    - name: AROMATISSE_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 480
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -31}
+        - {x: -26.5, y: -40}
+        - {x: 31.5, y: -40}
+        - {x: 33.5, y: -39}
+        - {x: 33.5, y: 4}
+        - {x: 26.5, y: 40}
+        - {x: -28.5, y: 40}
+        - {x: -32.5, y: 27}
+    - name: AROMATISSE_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 480
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 40}
+        - {x: -27.5, y: 40}
+        - {x: -32.5, y: 22}
+        - {x: -32.5, y: -33}
+        - {x: -19.5, y: -40}
+        - {x: 22.5, y: -40}
+        - {x: 33.5, y: -26}
+        - {x: 33.5, y: -8}
+        - {x: 31.5, y: 7}
+    - name: AROMATISSE_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 480
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 40}
+        - {x: -32.5, y: 22}
+        - {x: -32.5, y: -40}
+        - {x: 31.5, y: -40}
+        - {x: 33.5, y: -34}
+        - {x: 33.5, y: -4}
+        - {x: 26.5, y: 40}
+    - name: AROMATISSE_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 480
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 40}
+        - {x: -32.5, y: 27}
+        - {x: -32.5, y: -40}
+        - {x: 32.5, y: -40}
+        - {x: 33.5, y: -36}
+        - {x: 33.5, y: 35}
+        - {x: 26.5, y: 40}
+    - name: AROMATISSE_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 480
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 40}
+        - {x: -32.5, y: 34}
+        - {x: -32.5, y: -40}
+        - {x: 32.5, y: -40}
+        - {x: 33.5, y: -35}
+        - {x: 33.5, y: 37}
+        - {x: 29.5, y: 40}
+    - name: AROMATISSE_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 40}
+        - {x: -31.5, y: 25}
+        - {x: -32.5, y: 21}
+        - {x: -32.5, y: -40}
+        - {x: 30.5, y: -40}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: 33}
+        - {x: 26.5, y: 40}
+    - name: AROMATISSE_17
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 400
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 40}
+        - {x: -31.5, y: 40}
+        - {x: -33.5, y: 10}
+        - {x: -33.5, y: -37}
+        - {x: -15.5, y: -40}
+        - {x: 16.5, y: -40}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: 19}
+    - name: AROMATISSE_18
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 400
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -40}
+        - {x: 28.5, y: -40}
+        - {x: 33.5, y: -37}
+        - {x: 33.5, y: 40}
+        - {x: -33.5, y: 40}
+        - {x: -33.5, y: -34}
+    - name: AROMATISSE_19
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 400
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -40}
+        - {x: 21.5, y: -40}
+        - {x: 33.5, y: -34}
+        - {x: 33.5, y: 17}
+        - {x: 26.5, y: 40}
+        - {x: -28.5, y: 40}
+        - {x: -33.5, y: 15}
+    - name: AROMATISSE_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 400
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 40}
+        - {x: -33.5, y: 20}
+        - {x: -33.5, y: -34}
+        - {x: -15.5, y: -40}
+        - {x: 25.5, y: -40}
+        - {x: 33.5, y: -37}
+        - {x: 33.5, y: 40}
+    - name: AROMATISSE_21
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 400
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 40}
+        - {x: -33.5, y: 13}
+        - {x: -33.5, y: -40}
+        - {x: 33.5, y: -40}
+        - {x: 33.5, y: 37}
+        - {x: 30.5, y: 40}
+    - name: AROMATISSE_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 400
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -32}
+        - {x: -23.5, y: -40}
+        - {x: 14.5, y: -40}
+        - {x: 33.5, y: -30}
+        - {x: 33.5, y: 9}
+        - {x: 26.5, y: 40}
+        - {x: -31.5, y: 40}
+        - {x: -33.5, y: 24}
+    - name: AROMATISSE_23
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 400
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 28}
+        - {x: -6.5, y: 33}
+        - {x: -17.5, y: 40}
+        - {x: -23.5, y: 40}
+        - {x: -26.5, y: 39}
+        - {x: -33.5, y: -2}
+        - {x: -33.5, y: -34}
+        - {x: -27.5, y: -40}
+        - {x: 21.5, y: -40}
+        - {x: 33.5, y: -34}
+        - {x: 33.5, y: 12}
+        - {x: 23.5, y: 40}
+        - {x: 13.5, y: 40}
+        - {x: 3.5, y: 32}
+    - name: AROMATISSE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 40}
+        - {x: -33.5, y: 22}
+        - {x: -33.5, y: -40}
+        - {x: 29.5, y: -40}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: 5}
+        - {x: 22.5, y: 40}
+    - name: AROMATISSE_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 320
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 7}
+        - {x: 28.5, y: 40}
+        - {x: -28.5, y: 40}
+        - {x: -33.5, y: 22}
+        - {x: -33.5, y: -40}
+        - {x: 22.5, y: -40}
+        - {x: 33.5, y: -28}
+        - {x: 33.5, y: -9}
+        - {x: 30.5, y: 6}
+    - name: AROMATISSE_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 320
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 40}
+        - {x: -33.5, y: 24}
+        - {x: -33.5, y: -39}
+        - {x: -28.5, y: -40}
+        - {x: 25.5, y: -40}
+        - {x: 33.5, y: -30}
+        - {x: 33.5, y: -1}
+        - {x: 28.5, y: 40}
+    - name: AROMATISSE_27
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 320
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 40}
+        - {x: -33.5, y: 26}
+        - {x: -33.5, y: -32}
+        - {x: -20.5, y: -40}
+        - {x: 16.5, y: -40}
+        - {x: 33.5, y: -28}
+        - {x: 33.5, y: 18}
+        - {x: 31.5, y: 40}
+    - name: AROMATISSE_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 320
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 40}
+        - {x: -24.5, y: 38}
+        - {x: -33.5, y: -13}
+        - {x: -33.5, y: -32}
+        - {x: -20.5, y: -40}
+        - {x: 25.5, y: -40}
+        - {x: 32.5, y: -39}
+        - {x: 33.5, y: -36}
+        - {x: 33.5, y: -1}
+        - {x: 24.5, y: 40}
+    - name: AROMATISSE_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 320
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 40}
+        - {x: -30.5, y: 26}
+        - {x: -33.5, y: -5}
+        - {x: -33.5, y: -32}
+        - {x: -19.5, y: -40}
+        - {x: 29.5, y: -40}
+        - {x: 33.5, y: -31}
+        - {x: 33.5, y: 2}
+        - {x: 22.5, y: 40}
+    - name: AROMATISSE_30
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 320
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 40}
+        - {x: -30.5, y: 26}
+        - {x: -33.5, y: 10}
+        - {x: -33.5, y: -37}
+        - {x: -21.5, y: -40}
+        - {x: 25.5, y: -40}
+        - {x: 33.5, y: -32}
+        - {x: 33.5, y: 7}
+        - {x: 27.5, y: 40}
+    - name: AROMATISSE_31
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 320
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -31}
+        - {x: -23.5, y: -40}
+        - {x: 18.5, y: -40}
+        - {x: 33.5, y: -35}
+        - {x: 33.5, y: 16}
+        - {x: 26.5, y: 40}
+        - {x: -25.5, y: 40}
+        - {x: -33.5, y: 23}
+    - name: AROMATISSE_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 40}
+        - {x: 12.5, y: 36}
+        - {x: 10.5, y: 31}
+        - {x: 6.5, y: 34}
+        - {x: -14.5, y: 40}
+        - {x: -33.5, y: 40}
+        - {x: -33.5, y: -36}
+        - {x: -20.5, y: -40}
+        - {x: 25.5, y: -40}
+        - {x: 33.5, y: -31}
+        - {x: 33.5, y: -2}
+        - {x: 25.5, y: 40}
+    - name: AROMATISSE_33
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 240
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 40}
+        - {x: 12.5, y: 36}
+        - {x: 10.5, y: 31}
+        - {x: 6.5, y: 34}
+        - {x: -14.5, y: 40}
+        - {x: -33.5, y: 40}
+        - {x: -33.5, y: -39}
+        - {x: -25.5, y: -40}
+        - {x: 23.5, y: -40}
+        - {x: 33.5, y: -31}
+        - {x: 33.5, y: 0}
+        - {x: 25.5, y: 40}
+    - name: AROMATISSE_34
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 240
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 40}
+        - {x: -33.5, y: 17}
+        - {x: -33.5, y: -33}
+        - {x: -21.5, y: -40}
+        - {x: 17.5, y: -40}
+        - {x: 33.5, y: -29}
+        - {x: 33.5, y: 4}
+        - {x: 27.5, y: 40}
+    - name: AROMATISSE_35
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 240
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 40}
+        - {x: -33.5, y: 10}
+        - {x: -33.5, y: -39}
+        - {x: -26.5, y: -40}
+        - {x: 22.5, y: -40}
+        - {x: 33.5, y: -27}
+        - {x: 33.5, y: 8}
+        - {x: 26.5, y: 40}
+    - name: AROMATISSE_36
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 240
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 40}
+        - {x: -33.5, y: 9}
+        - {x: -33.5, y: -32}
+        - {x: -31.5, y: -34}
+        - {x: -16.5, y: -40}
+        - {x: 15.5, y: -40}
+        - {x: 33.5, y: -25}
+        - {x: 33.5, y: -6}
+        - {x: 25.5, y: 40}
+    - name: AROMATISSE_37
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 240
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 40}
+        - {x: -33.5, y: 16}
+        - {x: -33.5, y: -38}
+        - {x: -24.5, y: -40}
+        - {x: 24.5, y: -40}
+        - {x: 33.5, y: -28}
+        - {x: 33.5, y: 5}
+        - {x: 24.5, y: 40}
+    - name: AROMATISSE_38
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 240
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 40}
+        - {x: -33.5, y: 32}
+        - {x: -33.5, y: -33}
+        - {x: -27.5, y: -40}
+        - {x: 33.5, y: -40}
+        - {x: 33.5, y: 18}
+        - {x: 25.5, y: 40}
+    - name: AROMATISSE_39
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 240
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 40}
+        - {x: -33.5, y: 12}
+        - {x: -33.5, y: -40}
+        - {x: 27.5, y: -40}
+        - {x: 33.5, y: -31}
+        - {x: 33.5, y: -6}
+        - {x: 25.5, y: 40}
+    - name: AROMATISSE_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 40}
+        - {x: -24.5, y: 38}
+        - {x: -33.5, y: 1}
+        - {x: -33.5, y: -38}
+        - {x: -24.5, y: -40}
+        - {x: 31.5, y: -40}
+        - {x: 33.5, y: -39}
+        - {x: 33.5, y: 23}
+        - {x: 29.5, y: 40}
+    - name: AROMATISSE_41
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 160
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 40}
+        - {x: -30.5, y: 25}
+        - {x: -33.5, y: 12}
+        - {x: -33.5, y: -39}
+        - {x: -28.5, y: -40}
+        - {x: 25.5, y: -40}
+        - {x: 33.5, y: -28}
+        - {x: 33.5, y: -14}
+        - {x: 24.5, y: 40}
+    - name: AROMATISSE_42
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 160
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 40}
+        - {x: -30.5, y: 25}
+        - {x: -33.5, y: 7}
+        - {x: -33.5, y: -34}
+        - {x: -17.5, y: -40}
+        - {x: 20.5, y: -40}
+        - {x: 32.5, y: -32}
+        - {x: 32.5, y: 16}
+        - {x: 28.5, y: 40}
+    - name: AROMATISSE_43
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 160
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 40}
+        - {x: -31.5, y: 25}
+        - {x: -33.5, y: 8}
+        - {x: -33.5, y: -33}
+        - {x: -14.5, y: -40}
+        - {x: 22.5, y: -40}
+        - {x: 32.5, y: -36}
+        - {x: 32.5, y: 31}
+        - {x: 23.5, y: 40}
+    - name: AROMATISSE_44
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 160
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 2}
+        - {x: -33.5, y: -34}
+        - {x: -28.5, y: -40}
+        - {x: 22.5, y: -40}
+        - {x: 33.5, y: -34}
+        - {x: 33.5, y: 18}
+        - {x: 27.5, y: 40}
+        - {x: -23.5, y: 40}
+        - {x: -28.5, y: 24}
+    - name: AROMATISSE_45
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 160
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 40}
+        - {x: -33.5, y: -3}
+        - {x: -33.5, y: -36}
+        - {x: -18.5, y: -40}
+        - {x: 16.5, y: -40}
+        - {x: 33.5, y: -29}
+        - {x: 33.5, y: 3}
+        - {x: 26.5, y: 40}
+    - name: AROMATISSE_46
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 160
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 40}
+        - {x: -33.5, y: 26}
+        - {x: -33.5, y: -35}
+        - {x: -27.5, y: -40}
+        - {x: 17.5, y: -40}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: 9}
+        - {x: 24.5, y: 40}
+    - name: AROMATISSE_47
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 160
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 40}
+        - {x: 16.5, y: 40}
+        - {x: 12.5, y: 36}
+        - {x: 0.5, y: 40}
+        - {x: -25.5, y: 40}
+        - {x: -33.5, y: 17}
+        - {x: -33.5, y: -38}
+        - {x: -28.5, y: -40}
+        - {x: 20.5, y: -40}
+        - {x: 33.5, y: -26}
+        - {x: 33.5, y: -11}
+        - {x: 31.5, y: 4}
+    - name: AROMATISSE_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 40}
+        - {x: -27.5, y: 39}
+        - {x: -33.5, y: -15}
+        - {x: -33.5, y: -33}
+        - {x: -25.5, y: -40}
+        - {x: 22.5, y: -40}
+        - {x: 33.5, y: -36}
+        - {x: 33.5, y: 9}
+        - {x: 22.5, y: 40}
+    - name: AROMATISSE_49
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 80
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -34}
+        - {x: -24.5, y: -40}
+        - {x: 16.5, y: -40}
+        - {x: 33.5, y: -32}
+        - {x: 33.5, y: 5}
+        - {x: 22.5, y: 40}
+        - {x: -30.5, y: 40}
+        - {x: -33.5, y: 4}
+    - name: AROMATISSE_50
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 80
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 40}
+        - {x: 12.5, y: 37}
+        - {x: 6.5, y: 34}
+        - {x: -15.5, y: 40}
+        - {x: -25.5, y: 40}
+        - {x: -27.5, y: 39}
+        - {x: -33.5, y: -13}
+        - {x: -33.5, y: -32}
+        - {x: -17.5, y: -40}
+        - {x: 22.5, y: -40}
+        - {x: 33.5, y: -25}
+        - {x: 33.5, y: 2}
+        - {x: 24.5, y: 40}
+    - name: AROMATISSE_51
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 80
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 40}
+        - {x: -33.5, y: 14}
+        - {x: -33.5, y: -34}
+        - {x: -25.5, y: -40}
+        - {x: 17.5, y: -40}
+        - {x: 33.5, y: -32}
+        - {x: 33.5, y: 7}
+        - {x: 23.5, y: 40}
+    - name: AROMATISSE_52
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 80
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 40}
+        - {x: -32.5, y: -40}
+        - {x: 25.5, y: -40}
+        - {x: 33.5, y: -30}
+        - {x: 33.5, y: 1}
+        - {x: 25.5, y: 40}
+    - name: AROMATISSE_53
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 80
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 40}
+        - {x: -31.5, y: 40}
+        - {x: -32.5, y: 20}
+        - {x: -32.5, y: -32}
+        - {x: -13.5, y: -40}
+        - {x: 13.5, y: -40}
+        - {x: 16.5, y: -39}
+        - {x: 33.5, y: -25}
+        - {x: 33.5, y: -10}
+    - name: AROMATISSE_54
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 80
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 40}
+        - {x: -32.5, y: 17}
+        - {x: -32.5, y: -40}
+        - {x: 26.5, y: -40}
+        - {x: 33.5, y: -30}
+        - {x: 33.5, y: 3}
+        - {x: 27.5, y: 40}
+    - name: AROMATISSE_55
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 80
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -38}
+        - {x: -30.5, y: -40}
+        - {x: 17.5, y: -40}
+        - {x: 33.5, y: -32}
+        - {x: 33.5, y: 26}
+        - {x: 30.5, y: 40}
+        - {x: -27.5, y: 40}
+        - {x: -32.5, y: 9}
+    - name: AROMATISSE_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 13}
+        - {x: 25.5, y: 16}
+        - {x: 26.5, y: 27}
+        - {x: 22.5, y: 40}
+        - {x: -32.5, y: 40}
+        - {x: -32.5, y: -40}
+        - {x: 17.5, y: -40}
+        - {x: 33.5, y: -31}
+        - {x: 33.5, y: -3}
+        - {x: 30.5, y: 5}
+        - {x: 20.5, y: 13}
+        - {x: 18.5, y: 13}
+    - name: AROMATISSE_57
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 13}
+        - {x: 28.5, y: 15}
+        - {x: 25.5, y: 40}
+        - {x: -32.5, y: 40}
+        - {x: -32.5, y: -40}
+        - {x: 17.5, y: -40}
+        - {x: 33.5, y: -31}
+        - {x: 33.5, y: -1}
+        - {x: 29.5, y: 8}
+        - {x: 20.5, y: 13}
+        - {x: 18.5, y: 13}
+    - name: AROMATISSE_58
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 6}
+        - {x: 20.5, y: 13}
+        - {x: 18.5, y: 13}
+        - {x: 19.5, y: 13}
+        - {x: 24.5, y: 17}
+        - {x: 26.5, y: 27}
+        - {x: 23.5, y: 40}
+        - {x: -28.5, y: 40}
+        - {x: -32.5, y: 16}
+        - {x: -32.5, y: -35}
+        - {x: -31.5, y: -37}
+        - {x: -19.5, y: -40}
+        - {x: 14.5, y: -40}
+        - {x: 33.5, y: -26}
+        - {x: 33.5, y: -6}
+        - {x: 30.5, y: 5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
