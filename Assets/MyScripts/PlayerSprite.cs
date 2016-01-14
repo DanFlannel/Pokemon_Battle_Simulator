@@ -16,10 +16,11 @@ public class PlayerSprite : MonoBehaviour {
         renderer = GetComponent<SpriteRenderer>();
     }
 
-    public void ChangeSprite(string name)
+    public void ChangeSprite(string name, int id)
     {
         Debug.Log(name.ToUpper());
-
+        string gen = checkGen(id);
+        Debug.Log(gen);
         object o = Resources.Load("Front/Animations/ABRA_0");
         RuntimeAnimatorController control = o as RuntimeAnimatorController;
         anim.runtimeAnimatorController = control;
@@ -35,6 +36,35 @@ public class PlayerSprite : MonoBehaviour {
         {
 
         }
+    }
+
+    private string checkGen(int id)
+    {
+        string gen = "";
+        if(id <= 151)
+        {
+            gen = "Gen1";
+        }else if (id <= 251)
+        {
+            gen = "Gen2";
+        }
+        else if(id <= 386)
+        {
+            gen = "Gen3";
+        }
+        else if(id <= 493)
+        {
+            gen = "Gen4";
+        }
+        else if(id <= 649)
+        {
+            gen = "Gen5";
+        }
+        else
+        {
+            gen = "Gen6";
+        }
+        return gen;
     }
 
 }
