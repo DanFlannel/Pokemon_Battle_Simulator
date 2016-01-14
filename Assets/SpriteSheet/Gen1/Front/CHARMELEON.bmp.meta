@@ -1,0 +1,1380 @@
+fileFormatVersion: 2
+guid: bcb880e8665e679449664c3f17b46682
+timeCreated: 1452733525
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CHARMELEON_0
+    21300002: CHARMELEON_1
+    21300004: CHARMELEON_2
+    21300006: CHARMELEON_3
+    21300008: CHARMELEON_4
+    21300010: CHARMELEON_5
+    21300012: CHARMELEON_6
+    21300014: CHARMELEON_7
+    21300016: CHARMELEON_8
+    21300018: CHARMELEON_9
+    21300020: CHARMELEON_10
+    21300022: CHARMELEON_11
+    21300024: CHARMELEON_12
+    21300026: CHARMELEON_13
+    21300028: CHARMELEON_14
+    21300030: CHARMELEON_15
+    21300032: CHARMELEON_16
+    21300034: CHARMELEON_17
+    21300036: CHARMELEON_18
+    21300038: CHARMELEON_19
+    21300040: CHARMELEON_20
+    21300042: CHARMELEON_21
+    21300044: CHARMELEON_22
+    21300046: CHARMELEON_23
+    21300048: CHARMELEON_24
+    21300050: CHARMELEON_25
+    21300052: CHARMELEON_26
+    21300054: CHARMELEON_27
+    21300056: CHARMELEON_28
+    21300058: CHARMELEON_29
+    21300060: CHARMELEON_30
+    21300062: CHARMELEON_31
+    21300064: CHARMELEON_32
+    21300066: CHARMELEON_33
+    21300068: CHARMELEON_34
+    21300070: CHARMELEON_35
+    21300072: CHARMELEON_36
+    21300074: CHARMELEON_37
+    21300076: CHARMELEON_38
+    21300078: CHARMELEON_39
+    21300080: CHARMELEON_40
+    21300082: CHARMELEON_41
+    21300084: CHARMELEON_42
+    21300086: CHARMELEON_43
+    21300088: CHARMELEON_44
+    21300090: CHARMELEON_45
+    21300092: CHARMELEON_46
+    21300094: CHARMELEON_47
+    21300096: CHARMELEON_48
+    21300098: CHARMELEON_49
+    21300100: CHARMELEON_50
+    21300102: CHARMELEON_51
+    21300104: CHARMELEON_52
+    21300106: CHARMELEON_53
+    21300108: CHARMELEON_54
+    21300110: CHARMELEON_55
+    21300112: CHARMELEON_56
+    21300114: CHARMELEON_57
+    21300116: CHARMELEON_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CHARMELEON_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 35}
+        - {x: -1, y: 35}
+        - {x: -13, y: 28}
+        - {x: -21, y: 20}
+        - {x: -30, y: -5}
+        - {x: -30, y: -23}
+        - {x: -27, y: -25}
+        - {x: -25, y: -25}
+        - {x: -20, y: -21}
+        - {x: -21, y: -23}
+        - {x: -21, y: -25}
+        - {x: -24, y: -32}
+        - {x: -24, y: -35}
+        - {x: 23, y: -35}
+        - {x: 25, y: -29}
+        - {x: 25, y: -3}
+        - {x: 10, y: 29}
+    - name: CHARMELEON_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 490
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 35}
+        - {x: -14, y: 35}
+        - {x: -30, y: 11}
+        - {x: -30, y: -26}
+        - {x: -29, y: -27}
+        - {x: -25, y: -25}
+        - {x: -20, y: -22}
+        - {x: -18, y: -16}
+        - {x: -21, y: -23}
+        - {x: -24, y: -32}
+        - {x: -24, y: -35}
+        - {x: 24, y: -35}
+        - {x: 25, y: -32}
+        - {x: 25, y: -1}
+        - {x: 11, y: 30}
+    - name: CHARMELEON_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 490
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 35}
+        - {x: -22, y: 10}
+        - {x: -30, y: -13}
+        - {x: -30, y: -35}
+        - {x: 25, y: -35}
+        - {x: 25, y: 14}
+        - {x: 7, y: 35}
+    - name: CHARMELEON_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 490
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 35}
+        - {x: -26, y: 31}
+        - {x: -30, y: 1}
+        - {x: -30, y: -35}
+        - {x: 24, y: -35}
+        - {x: 24, y: 7}
+        - {x: 15, y: 35}
+    - name: CHARMELEON_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 490
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 35}
+        - {x: -2, y: 35}
+        - {x: -19, y: 26}
+        - {x: -30, y: -14}
+        - {x: -30, y: -27}
+        - {x: -23, y: -35}
+        - {x: 22, y: -35}
+        - {x: 24, y: -34}
+        - {x: 24, y: 10}
+        - {x: 19, y: 22}
+    - name: CHARMELEON_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 490
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 35}
+        - {x: -1, y: 35}
+        - {x: -16, y: 21}
+        - {x: -30, y: -12}
+        - {x: -30, y: -35}
+        - {x: 24, y: -35}
+        - {x: 24, y: -6}
+        - {x: 11, y: 20}
+    - name: CHARMELEON_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 490
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 35}
+        - {x: -17, y: 22}
+        - {x: -30, y: -7}
+        - {x: -30, y: -35}
+        - {x: 21, y: -35}
+        - {x: 24, y: -28}
+        - {x: 24, y: -10}
+        - {x: 7, y: 35}
+    - name: CHARMELEON_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 490
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -29, y: 10}
+        - {x: -29, y: -35}
+        - {x: 23, y: -35}
+        - {x: 23, y: 12}
+        - {x: 5, y: 34}
+    - name: CHARMELEON_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 34}
+        - {x: -13, y: 34}
+        - {x: -29, y: 7}
+        - {x: -29, y: -35}
+        - {x: 23, y: -35}
+        - {x: 23, y: -7}
+        - {x: 15, y: 25}
+    - name: CHARMELEON_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 420
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 34}
+        - {x: -17, y: 34}
+        - {x: -29, y: 1}
+        - {x: -29, y: -35}
+        - {x: 23, y: -35}
+        - {x: 23, y: -5}
+        - {x: 15, y: 20}
+    - name: CHARMELEON_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 420
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 34}
+        - {x: -3, y: 34}
+        - {x: -19, y: 21}
+        - {x: -29, y: 9}
+        - {x: -29, y: -35}
+        - {x: 20, y: -35}
+        - {x: 23, y: -32}
+        - {x: 23, y: 9}
+        - {x: 21, y: 24}
+    - name: CHARMELEON_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 420
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 34}
+        - {x: -14, y: 34}
+        - {x: -29, y: 5}
+        - {x: -29, y: -31}
+        - {x: -26, y: -35}
+        - {x: 20, y: -35}
+        - {x: 22, y: -32}
+        - {x: 22, y: 19}
+        - {x: 21, y: 31}
+    - name: CHARMELEON_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 420
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 35}
+        - {x: -19, y: 21}
+        - {x: -29, y: -5}
+        - {x: -29, y: -27}
+        - {x: -26, y: -35}
+        - {x: 22, y: -35}
+        - {x: 22, y: 29}
+        - {x: 9, y: 35}
+    - name: CHARMELEON_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 420
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 35}
+        - {x: -29, y: 32}
+        - {x: -29, y: -35}
+        - {x: 22, y: -35}
+        - {x: 22, y: 34}
+        - {x: 20, y: 35}
+    - name: CHARMELEON_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 420
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 34}
+        - {x: -29, y: 3}
+        - {x: -29, y: -32}
+        - {x: -27, y: -35}
+        - {x: 22, y: -35}
+        - {x: 22, y: 17}
+        - {x: 17, y: 34}
+    - name: CHARMELEON_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 420
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34}
+        - {x: -29, y: 13}
+        - {x: -29, y: -33}
+        - {x: -27, y: -35}
+        - {x: 22, y: -35}
+        - {x: 22, y: 34}
+    - name: CHARMELEON_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 34}
+        - {x: 6, y: 31}
+        - {x: 7, y: 20}
+        - {x: 8, y: 19}
+        - {x: 8, y: 15}
+        - {x: 8, y: 16}
+        - {x: 6, y: 21}
+        - {x: 3, y: 33}
+        - {x: 3, y: 34}
+        - {x: -13, y: 34}
+        - {x: -29, y: 10}
+        - {x: -29, y: -35}
+        - {x: 22, y: -35}
+        - {x: 22, y: 25}
+        - {x: 13, y: 34}
+    - name: CHARMELEON_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 350
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 30}
+        - {x: 8, y: 14}
+        - {x: 7, y: 22}
+        - {x: 3, y: 33}
+        - {x: 0, y: 34}
+        - {x: -7, y: 34}
+        - {x: -20, y: 25}
+        - {x: -29, y: 4}
+        - {x: -29, y: -35}
+        - {x: 20, y: -35}
+        - {x: 22, y: -34}
+        - {x: 22, y: 19}
+        - {x: 10, y: 32}
+    - name: CHARMELEON_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 350
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: 10, y: 13}
+        - {x: 7, y: 22}
+        - {x: 3, y: 33}
+        - {x: 2, y: 34}
+        - {x: -12, y: 34}
+        - {x: -29, y: 8}
+        - {x: -29, y: -31}
+        - {x: -27, y: -35}
+        - {x: 22, y: -35}
+        - {x: 22, y: 29}
+        - {x: 9, y: 30}
+    - name: CHARMELEON_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 350
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 26}
+        - {x: 9, y: 13}
+        - {x: 7, y: 22}
+        - {x: 3, y: 33}
+        - {x: 0, y: 34}
+        - {x: -6, y: 34}
+        - {x: -19, y: 22}
+        - {x: -29, y: -14}
+        - {x: -29, y: -32}
+        - {x: -27, y: -35}
+        - {x: 21, y: -35}
+        - {x: 22, y: -32}
+        - {x: 22, y: 22}
+        - {x: 10, y: 30}
+    - name: CHARMELEON_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 350
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 34}
+        - {x: -14, y: 34}
+        - {x: -29, y: 4}
+        - {x: -29, y: -35}
+        - {x: 20, y: -35}
+        - {x: 24, y: -17}
+        - {x: 24, y: 22}
+        - {x: 17, y: 31}
+    - name: CHARMELEON_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 350
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 31}
+        - {x: 8, y: 25}
+        - {x: 5, y: 35}
+        - {x: -8, y: 35}
+        - {x: -18, y: 32}
+        - {x: -30, y: -15}
+        - {x: -30, y: -30}
+        - {x: -24, y: -35}
+        - {x: 24, y: -35}
+        - {x: 25, y: -27}
+        - {x: 25, y: 26}
+        - {x: 14, y: 31}
+    - name: CHARMELEON_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 350
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 31}
+        - {x: 11, y: 13}
+        - {x: 3, y: 33}
+        - {x: 2, y: 35}
+        - {x: -9, y: 35}
+        - {x: -30, y: 4}
+        - {x: -30, y: -35}
+        - {x: 21, y: -35}
+        - {x: 25, y: -13}
+        - {x: 25, y: 25}
+        - {x: 11, y: 35}
+    - name: CHARMELEON_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 350
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 35}
+        - {x: 9, y: 31}
+        - {x: 11, y: 16}
+        - {x: 3, y: 33}
+        - {x: 2, y: 35}
+        - {x: -12, y: 35}
+        - {x: -30, y: 2}
+        - {x: -30, y: -35}
+        - {x: 21, y: -35}
+        - {x: 26, y: -18}
+        - {x: 26, y: 23}
+        - {x: 17, y: 35}
+    - name: CHARMELEON_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 35}
+        - {x: -30, y: 5}
+        - {x: -30, y: -35}
+        - {x: 27, y: -35}
+        - {x: 27, y: 21}
+        - {x: 23, y: 35}
+    - name: CHARMELEON_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 280
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 35}
+        - {x: -30, y: -35}
+        - {x: 25, y: -35}
+        - {x: 28, y: -15}
+        - {x: 28, y: 24}
+        - {x: 11, y: 35}
+    - name: CHARMELEON_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 280
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 35}
+        - {x: -23, y: 35}
+        - {x: -30, y: 14}
+        - {x: -30, y: -35}
+        - {x: 25, y: -35}
+        - {x: 29, y: 2}
+        - {x: 29, y: 19}
+        - {x: 16, y: 31}
+    - name: CHARMELEON_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 280
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 26}
+        - {x: 6, y: 35}
+        - {x: -15, y: 35}
+        - {x: -30, y: 14}
+        - {x: -30, y: -35}
+        - {x: 23, y: -35}
+        - {x: 29, y: -10}
+        - {x: 29, y: 23}
+        - {x: 18, y: 28}
+    - name: CHARMELEON_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 280
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 23}
+        - {x: 3, y: 35}
+        - {x: -9, y: 35}
+        - {x: -21, y: 24}
+        - {x: -30, y: -6}
+        - {x: -30, y: -32}
+        - {x: -27, y: -35}
+        - {x: 22, y: -35}
+        - {x: 30, y: -12}
+        - {x: 30, y: 18}
+        - {x: 15, y: 28}
+    - name: CHARMELEON_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 280
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 25}
+        - {x: 16, y: 22}
+        - {x: 5, y: 35}
+        - {x: -12, y: 35}
+        - {x: -30, y: 7}
+        - {x: -30, y: -26}
+        - {x: -29, y: -27}
+        - {x: -25, y: -25}
+        - {x: -20, y: -21}
+        - {x: -20, y: -19}
+        - {x: -18, y: -16}
+        - {x: -19, y: -17}
+        - {x: -20, y: -20}
+        - {x: -21, y: -26}
+        - {x: -25, y: -32}
+        - {x: -24, y: -35}
+        - {x: 22, y: -35}
+        - {x: 30, y: -6}
+        - {x: 30, y: 19}
+        - {x: 20, y: 26}
+    - name: CHARMELEON_30
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 280
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -29}
+        - {x: 30, y: 35}
+        - {x: -5, y: 35}
+        - {x: -17, y: 23}
+        - {x: -30, y: -11}
+        - {x: -30, y: -23}
+        - {x: -27, y: -25}
+        - {x: -25, y: -25}
+        - {x: -20, y: -20}
+        - {x: -24, y: -27}
+        - {x: -24, y: -35}
+        - {x: 18, y: -35}
+    - name: CHARMELEON_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 280
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -35}
+        - {x: 30, y: -1}
+        - {x: 30, y: 14}
+        - {x: 22, y: 21}
+        - {x: 17, y: 19}
+        - {x: 5, y: 35}
+        - {x: -5, y: 35}
+        - {x: -18, y: 26}
+        - {x: -30, y: -8}
+        - {x: -30, y: -25}
+        - {x: -24, y: -26}
+        - {x: -21, y: -22}
+        - {x: -16, y: -11}
+        - {x: -21, y: -23}
+        - {x: -21, y: -25}
+        - {x: -24, y: -33}
+        - {x: -23, y: -35}
+        - {x: -7, y: -35}
+        - {x: -4, y: -34}
+        - {x: 0, y: -30}
+        - {x: 3, y: -35}
+    - name: CHARMELEON_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 35}
+        - {x: -23, y: 35}
+        - {x: -28, y: 34}
+        - {x: -30, y: 22}
+        - {x: -30, y: -25}
+        - {x: -22, y: -25}
+        - {x: -21, y: -22}
+        - {x: -21, y: -25}
+        - {x: -24, y: -33}
+        - {x: -24, y: -35}
+        - {x: 19, y: -35}
+        - {x: 30, y: -5}
+        - {x: 30, y: 16}
+        - {x: 20, y: 21}
+    - name: CHARMELEON_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 210
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 20}
+        - {x: 19, y: 18}
+        - {x: 3, y: 35}
+        - {x: -19, y: 35}
+        - {x: -30, y: 7}
+        - {x: -30, y: -23}
+        - {x: -26, y: -23}
+        - {x: -21, y: -21}
+        - {x: -17, y: -12}
+        - {x: -24, y: -33}
+        - {x: -24, y: -35}
+        - {x: 18, y: -35}
+        - {x: 30, y: -9}
+        - {x: 30, y: 14}
+        - {x: 28, y: 20}
+    - name: CHARMELEON_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 210
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 35}
+        - {x: -14, y: 30}
+        - {x: -30, y: 0}
+        - {x: -30, y: -35}
+        - {x: 22, y: -35}
+        - {x: 30, y: -17}
+        - {x: 30, y: 28}
+        - {x: 24, y: 35}
+    - name: CHARMELEON_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 210
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 35}
+        - {x: -11, y: 35}
+        - {x: -18, y: 25}
+        - {x: -30, y: -9}
+        - {x: -30, y: -23}
+        - {x: -25, y: -24}
+        - {x: -22, y: -21}
+        - {x: -25, y: -33}
+        - {x: -24, y: -35}
+        - {x: 18, y: -35}
+        - {x: 30, y: -9}
+        - {x: 30, y: 19}
+        - {x: 27, y: 31}
+    - name: CHARMELEON_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 210
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 35}
+        - {x: -30, y: -23}
+        - {x: -25, y: -24}
+        - {x: -22, y: -21}
+        - {x: -25, y: -33}
+        - {x: -24, y: -35}
+        - {x: 20, y: -35}
+        - {x: 30, y: -13}
+        - {x: 30, y: 35}
+    - name: CHARMELEON_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 210
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 20}
+        - {x: 20, y: 19}
+        - {x: 17, y: 6}
+        - {x: 4, y: 35}
+        - {x: -4, y: 35}
+        - {x: -17, y: 25}
+        - {x: -30, y: -8}
+        - {x: -30, y: -23}
+        - {x: -25, y: -23}
+        - {x: -22, y: -20}
+        - {x: -25, y: -33}
+        - {x: -24, y: -35}
+        - {x: 18, y: -35}
+        - {x: 30, y: -9}
+        - {x: 30, y: 15}
+        - {x: 29, y: 19}
+    - name: CHARMELEON_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 210
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 19}
+        - {x: 19, y: 18}
+        - {x: 5, y: 35}
+        - {x: -17, y: 35}
+        - {x: -30, y: 4}
+        - {x: -30, y: -22}
+        - {x: -23, y: -21}
+        - {x: -20, y: -17}
+        - {x: -21, y: -20}
+        - {x: -25, y: -33}
+        - {x: -24, y: -35}
+        - {x: 23, y: -35}
+        - {x: 30, y: -9}
+        - {x: 30, y: 11}
+        - {x: 25, y: 18}
+    - name: CHARMELEON_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 210
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 9}
+        - {x: 23, y: 18}
+        - {x: 20, y: 18}
+        - {x: 16, y: 12}
+        - {x: 4, y: 35}
+        - {x: -13, y: 35}
+        - {x: -30, y: 9}
+        - {x: -30, y: -24}
+        - {x: -26, y: -23}
+        - {x: -24, y: -33}
+        - {x: -23, y: -35}
+        - {x: 21, y: -35}
+        - {x: 27, y: -22}
+        - {x: 29, y: -9}
+    - name: CHARMELEON_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 16}
+        - {x: 16, y: 10}
+        - {x: 11, y: 21}
+        - {x: 4, y: 35}
+        - {x: -12, y: 35}
+        - {x: -30, y: 7}
+        - {x: -30, y: -22}
+        - {x: -26, y: -23}
+        - {x: -22, y: -19}
+        - {x: -25, y: -35}
+        - {x: 23, y: -35}
+        - {x: 28, y: -6}
+        - {x: 28, y: 8}
+        - {x: 23, y: 16}
+    - name: CHARMELEON_41
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 140
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 35}
+        - {x: -14, y: 31}
+        - {x: -30, y: 4}
+        - {x: -30, y: -35}
+        - {x: 24, y: -35}
+        - {x: 25, y: -28}
+        - {x: 25, y: 29}
+        - {x: 11, y: 35}
+    - name: CHARMELEON_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 14}
+        - {x: 16, y: 8}
+        - {x: 10, y: 22}
+        - {x: 5, y: 35}
+        - {x: -17, y: 35}
+        - {x: -30, y: 0}
+        - {x: -30, y: -33}
+        - {x: -29, y: -35}
+        - {x: 22, y: -35}
+        - {x: 26, y: -25}
+        - {x: 26, y: -5}
+        - {x: 24, y: 12}
+    - name: CHARMELEON_43
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 140
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 8}
+        - {x: 19, y: 13}
+        - {x: 7, y: 35}
+        - {x: -15, y: 35}
+        - {x: -30, y: 7}
+        - {x: -30, y: -35}
+        - {x: 19, y: -35}
+        - {x: 26, y: -25}
+        - {x: 26, y: -8}
+    - name: CHARMELEON_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 140
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 35}
+        - {x: -30, y: 6}
+        - {x: -30, y: -35}
+        - {x: 24, y: -35}
+        - {x: 26, y: -29}
+        - {x: 26, y: 25}
+        - {x: 18, y: 35}
+    - name: CHARMELEON_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 140
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 35}
+        - {x: -14, y: 35}
+        - {x: -30, y: 9}
+        - {x: -30, y: -35}
+        - {x: 22, y: -35}
+        - {x: 26, y: -28}
+        - {x: 26, y: -7}
+        - {x: 22, y: 11}
+    - name: CHARMELEON_46
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 140
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 35}
+        - {x: -18, y: 27}
+        - {x: -30, y: -2}
+        - {x: -30, y: -23}
+        - {x: -27, y: -22}
+        - {x: -20, y: -17}
+        - {x: -25, y: -35}
+        - {x: 20, y: -35}
+        - {x: 26, y: -22}
+        - {x: 26, y: 4}
+        - {x: 12, y: 35}
+    - name: CHARMELEON_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 140
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 25}
+        - {x: 9, y: 35}
+        - {x: -16, y: 35}
+        - {x: -30, y: 13}
+        - {x: -30, y: -35}
+        - {x: 19, y: -35}
+        - {x: 27, y: -23}
+        - {x: 27, y: -9}
+    - name: CHARMELEON_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 35}
+        - {x: -9, y: 35}
+        - {x: -16, y: 25}
+        - {x: -16, y: 12}
+        - {x: -30, y: -10}
+        - {x: -30, y: -21}
+        - {x: -25, y: -21}
+        - {x: -23, y: -20}
+        - {x: -25, y: -32}
+        - {x: -24, y: -35}
+        - {x: 22, y: -35}
+        - {x: 27, y: -19}
+        - {x: 27, y: 2}
+        - {x: 20, y: 23}
+    - name: CHARMELEON_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 70
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 35}
+        - {x: -16, y: 25}
+        - {x: -25, y: 9}
+        - {x: -30, y: -6}
+        - {x: -30, y: -35}
+        - {x: 27, y: -35}
+        - {x: 27, y: 30}
+        - {x: 13, y: 35}
+    - name: CHARMELEON_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 70
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -2}
+        - {x: 21, y: 21}
+        - {x: 5, y: 35}
+        - {x: -10, y: 35}
+        - {x: -17, y: 25}
+        - {x: -30, y: 0}
+        - {x: -30, y: -35}
+        - {x: 19, y: -35}
+        - {x: 27, y: -23}
+    - name: CHARMELEON_51
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 70
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 35}
+        - {x: -10, y: 35}
+        - {x: -17, y: 25}
+        - {x: -30, y: -8}
+        - {x: -30, y: -22}
+        - {x: -26, y: -23}
+        - {x: -26, y: -35}
+        - {x: 27, y: -35}
+        - {x: 27, y: 8}
+        - {x: 21, y: 29}
+    - name: CHARMELEON_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 70
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 35}
+        - {x: -4, y: 35}
+        - {x: -15, y: 24}
+        - {x: -15, y: 12}
+        - {x: -30, y: -7}
+        - {x: -30, y: -35}
+        - {x: 18, y: -35}
+        - {x: 27, y: -27}
+        - {x: 27, y: -6}
+    - name: CHARMELEON_53
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 70
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 35}
+        - {x: -19, y: 27}
+        - {x: -30, y: -4}
+        - {x: -30, y: -30}
+        - {x: -25, y: -35}
+        - {x: 19, y: -35}
+        - {x: 26, y: -30}
+        - {x: 26, y: 7}
+        - {x: 16, y: 35}
+    - name: CHARMELEON_54
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 70
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 12}
+        - {x: 7, y: 35}
+        - {x: -13, y: 35}
+        - {x: -18, y: 26}
+        - {x: -30, y: 2}
+        - {x: -30, y: -35}
+        - {x: 18, y: -35}
+        - {x: 26, y: -21}
+    - name: CHARMELEON_55
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 70
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -5}
+        - {x: 4, y: 35}
+        - {x: -13, y: 35}
+        - {x: -30, y: 8}
+        - {x: -30, y: -23}
+        - {x: -25, y: -24}
+        - {x: -22, y: -21}
+        - {x: -24, y: -32}
+        - {x: -24, y: -35}
+        - {x: 19, y: -35}
+        - {x: 25, y: -25}
+        - {x: 26, y: -21}
+        - {x: 26, y: -8}
+    - name: CHARMELEON_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 35}
+        - {x: -3, y: 35}
+        - {x: -17, y: 25}
+        - {x: -28, y: -6}
+        - {x: -30, y: -11}
+        - {x: -30, y: -29}
+        - {x: -25, y: -35}
+        - {x: 19, y: -35}
+        - {x: 26, y: -29}
+        - {x: 26, y: -7}
+        - {x: 21, y: 4}
+    - name: CHARMELEON_57
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 35}
+        - {x: -17, y: 24}
+        - {x: -30, y: 0}
+        - {x: -30, y: -35}
+        - {x: 20, y: -35}
+        - {x: 26, y: -29}
+        - {x: 26, y: 10}
+        - {x: 4, y: 35}
+    - name: CHARMELEON_58
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 35}
+        - {x: -15, y: 24}
+        - {x: -30, y: 4}
+        - {x: -30, y: -35}
+        - {x: 18, y: -35}
+        - {x: 26, y: -28}
+        - {x: 26, y: 4}
+        - {x: 11, y: 35}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

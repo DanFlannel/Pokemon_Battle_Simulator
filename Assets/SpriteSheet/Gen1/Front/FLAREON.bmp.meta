@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 85aa29598a1db224c938127de1f90491
+timeCreated: 1452734324
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FLAREON_0
+    21300002: FLAREON_1
+    21300004: FLAREON_2
+    21300006: FLAREON_3
+    21300008: FLAREON_4
+    21300010: FLAREON_5
+    21300012: FLAREON_6
+    21300014: FLAREON_7
+    21300016: FLAREON_8
+    21300018: FLAREON_9
+    21300020: FLAREON_10
+    21300022: FLAREON_11
+    21300024: FLAREON_12
+    21300026: FLAREON_13
+    21300028: FLAREON_14
+    21300030: FLAREON_15
+    21300032: FLAREON_16
+    21300034: FLAREON_17
+    21300036: FLAREON_18
+    21300038: FLAREON_19
+    21300040: FLAREON_20
+    21300042: FLAREON_21
+    21300044: FLAREON_22
+    21300046: FLAREON_23
+    21300048: FLAREON_24
+    21300050: FLAREON_25
+    21300052: FLAREON_26
+    21300054: FLAREON_27
+    21300056: FLAREON_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FLAREON_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 46.5}
+        - {x: -28.5, y: 33.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 20.5, y: -46.5}
+        - {x: 28.5, y: -27.5}
+        - {x: 28.5, y: 19.5}
+        - {x: 23.5, y: 46.5}
+    - name: FLAREON_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 465
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 46.5}
+        - {x: 1.5, y: 46.5}
+        - {x: -0.5, y: 42.5}
+        - {x: -28.5, y: 13.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 21.5, y: -46.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 27.5, y: 10.5}
+        - {x: 17.5, y: 44.5}
+    - name: FLAREON_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 465
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 46.5}
+        - {x: -3.5, y: 46.5}
+        - {x: -29.5, y: 15.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 17.5, y: -46.5}
+        - {x: 27.5, y: -23.5}
+        - {x: 27.5, y: 31.5}
+    - name: FLAREON_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 465
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 46.5}
+        - {x: -8.5, y: 46.5}
+        - {x: -29.5, y: 18.5}
+        - {x: -29.5, y: -42.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 16.5, y: -46.5}
+        - {x: 21.5, y: -32.5}
+        - {x: 27.5, y: -13.5}
+        - {x: 27.5, y: 22.5}
+    - name: FLAREON_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 465
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 46.5}
+        - {x: -29.5, y: 13.5}
+        - {x: -29.5, y: -32.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 18.5, y: -46.5}
+        - {x: 27.5, y: -34.5}
+        - {x: 27.5, y: 14.5}
+        - {x: 14.5, y: 46.5}
+    - name: FLAREON_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 465
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 46.5}
+        - {x: -1.5, y: 46.5}
+        - {x: -8.5, y: 40.5}
+        - {x: -29.5, y: 19.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 20.5, y: -46.5}
+        - {x: 26.5, y: -20.5}
+        - {x: 26.5, y: 17.5}
+    - name: FLAREON_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 46.5}
+        - {x: -0.5, y: 46.5}
+        - {x: -4.5, y: 43.5}
+        - {x: -4.5, y: 37.5}
+        - {x: -10.5, y: 23.5}
+        - {x: -28.5, y: 15.5}
+        - {x: -29.5, y: 11.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 18.5, y: -46.5}
+        - {x: 26.5, y: -20.5}
+        - {x: 26.5, y: 6.5}
+        - {x: 25.5, y: 14.5}
+    - name: FLAREON_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 372
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 46.5}
+        - {x: -29.5, y: 34.5}
+        - {x: -29.5, y: -40.5}
+        - {x: -26.5, y: -46.5}
+        - {x: 24.5, y: -46.5}
+        - {x: 26.5, y: -35.5}
+        - {x: 26.5, y: 25.5}
+        - {x: 14.5, y: 46.5}
+    - name: FLAREON_8
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 372
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 46.5}
+        - {x: -3.5, y: 46.5}
+        - {x: -7.5, y: 38.5}
+        - {x: -29.5, y: 10.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 25.5, y: -46.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 16.5, y: 30.5}
+    - name: FLAREON_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 372
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 40.5}
+        - {x: 2.5, y: 46.5}
+        - {x: -6.5, y: 46.5}
+        - {x: -29.5, y: 16.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 20.5, y: -46.5}
+        - {x: 26.5, y: -14.5}
+        - {x: 26.5, y: 12.5}
+    - name: FLAREON_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 372
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 46.5}
+        - {x: -6.5, y: 46.5}
+        - {x: -29.5, y: 13.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 16.5, y: -46.5}
+        - {x: 16.5, y: -45.5}
+        - {x: 27.5, y: -20.5}
+        - {x: 27.5, y: 18.5}
+    - name: FLAREON_11
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 372
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 33.5}
+        - {x: 2.5, y: 46.5}
+        - {x: -7.5, y: 46.5}
+        - {x: -29.5, y: 9.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 19.5, y: -46.5}
+        - {x: 27.5, y: -30.5}
+        - {x: 27.5, y: 12.5}
+    - name: FLAREON_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 46.5}
+        - {x: -13.5, y: 46.5}
+        - {x: -29.5, y: 18.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 18.5, y: -46.5}
+        - {x: 27.5, y: -16.5}
+        - {x: 27.5, y: 17.5}
+    - name: FLAREON_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 279
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 46.5}
+        - {x: -8.5, y: 46.5}
+        - {x: -29.5, y: 17.5}
+        - {x: -29.5, y: -39.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 21.5, y: -46.5}
+        - {x: 28.5, y: -32.5}
+        - {x: 28.5, y: 11.5}
+        - {x: 18.5, y: 35.5}
+    - name: FLAREON_14
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 279
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 36.5}
+        - {x: 1.5, y: 46.5}
+        - {x: -6.5, y: 46.5}
+        - {x: -7.5, y: 44.5}
+        - {x: -29.5, y: 11.5}
+        - {x: -29.5, y: -31.5}
+        - {x: -27.5, y: -46.5}
+        - {x: 18.5, y: -46.5}
+        - {x: 28.5, y: -21.5}
+        - {x: 28.5, y: 12.5}
+    - name: FLAREON_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 279
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 44.5}
+        - {x: -10.5, y: 44.5}
+        - {x: -29.5, y: 33.5}
+        - {x: -29.5, y: -41.5}
+        - {x: -27.5, y: -46.5}
+        - {x: 20.5, y: -46.5}
+        - {x: 27.5, y: -43.5}
+        - {x: 29.5, y: -33.5}
+        - {x: 29.5, y: 35.5}
+    - name: FLAREON_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 279
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 45.5}
+        - {x: -21.5, y: 37.5}
+        - {x: -29.5, y: 21.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 26.5, y: -46.5}
+        - {x: 29.5, y: -41.5}
+        - {x: 29.5, y: 15.5}
+        - {x: 4.5, y: 45.5}
+    - name: FLAREON_17
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 279
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 44.5}
+        - {x: -29.5, y: 25.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 21.5, y: -46.5}
+        - {x: 29.5, y: -35.5}
+        - {x: 29.5, y: 20.5}
+        - {x: 19.5, y: 44.5}
+    - name: FLAREON_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 44.5}
+        - {x: 0.5, y: 44.5}
+        - {x: -3.5, y: 42.5}
+        - {x: -29.5, y: 16.5}
+        - {x: -29.5, y: -29.5}
+        - {x: -27.5, y: -46.5}
+        - {x: 20.5, y: -46.5}
+        - {x: 29.5, y: -26.5}
+        - {x: 29.5, y: 14.5}
+        - {x: 16.5, y: 31.5}
+    - name: FLAREON_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 186
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 44.5}
+        - {x: -10.5, y: 44.5}
+        - {x: -29.5, y: 29.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 29.5, y: -46.5}
+        - {x: 29.5, y: 34.5}
+    - name: FLAREON_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 186
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 44.5}
+        - {x: -1.5, y: 42.5}
+        - {x: -29.5, y: 25.5}
+        - {x: -29.5, y: -43.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 20.5, y: -46.5}
+        - {x: 29.5, y: -25.5}
+        - {x: 29.5, y: 17.5}
+        - {x: 8.5, y: 44.5}
+    - name: FLAREON_21
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 186
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 46.5}
+        - {x: -1.5, y: 44.5}
+        - {x: -29.5, y: 24.5}
+        - {x: -29.5, y: -39.5}
+        - {x: -26.5, y: -46.5}
+        - {x: 17.5, y: -46.5}
+        - {x: 29.5, y: -31.5}
+        - {x: 29.5, y: 20.5}
+        - {x: 18.5, y: 46.5}
+    - name: FLAREON_22
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 186
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 25.5}
+        - {x: 6.5, y: 46.5}
+        - {x: -2.5, y: 46.5}
+        - {x: -29.5, y: 17.5}
+        - {x: -29.5, y: -32.5}
+        - {x: -27.5, y: -46.5}
+        - {x: 16.5, y: -46.5}
+        - {x: 18.5, y: -41.5}
+        - {x: 29.5, y: -13.5}
+    - name: FLAREON_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 186
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 45.5}
+        - {x: -29.5, y: 34.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 21.5, y: -46.5}
+        - {x: 29.5, y: -25.5}
+        - {x: 29.5, y: 29.5}
+        - {x: 12.5, y: 45.5}
+    - name: FLAREON_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 45.5}
+        - {x: 5.5, y: 45.5}
+        - {x: 1.5, y: 43.5}
+        - {x: -29.5, y: 18.5}
+        - {x: -29.5, y: -46.5}
+        - {x: 19.5, y: -46.5}
+        - {x: 29.5, y: -24.5}
+        - {x: 29.5, y: 15.5}
+        - {x: 25.5, y: 31.5}
+    - name: FLAREON_25
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 93
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 32.5}
+        - {x: 10.5, y: 46.5}
+        - {x: 3.5, y: 46.5}
+        - {x: 2.5, y: 45.5}
+        - {x: -17.5, y: 7.5}
+        - {x: -17.5, y: 6.5}
+        - {x: -24.5, y: 17.5}
+        - {x: -29.5, y: 14.5}
+        - {x: -29.5, y: -38.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 20.5, y: -46.5}
+        - {x: 29.5, y: -26.5}
+        - {x: 29.5, y: 17.5}
+    - name: FLAREON_26
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 93
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 46.5}
+        - {x: -0.5, y: 42.5}
+        - {x: -29.5, y: 20.5}
+        - {x: -29.5, y: -40.5}
+        - {x: -28.5, y: -46.5}
+        - {x: 29.5, y: -46.5}
+        - {x: 29.5, y: 41.5}
+        - {x: 13.5, y: 46.5}
+    - name: FLAREON_27
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 93
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 46.5}
+        - {x: 0.5, y: 46.5}
+        - {x: -28.5, y: 20.5}
+        - {x: -28.5, y: -45.5}
+        - {x: -27.5, y: -46.5}
+        - {x: 18.5, y: -46.5}
+        - {x: 29.5, y: -14.5}
+        - {x: 29.5, y: 16.5}
+        - {x: 25.5, y: 25.5}
+    - name: FLAREON_28
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 93
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 46.5}
+        - {x: -3.5, y: 46.5}
+        - {x: -28.5, y: 22.5}
+        - {x: -28.5, y: -35.5}
+        - {x: -26.5, y: -45.5}
+        - {x: -26.5, y: -46.5}
+        - {x: 23.5, y: -46.5}
+        - {x: 29.5, y: -20.5}
+        - {x: 29.5, y: 23.5}
+        - {x: 22.5, y: 34.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

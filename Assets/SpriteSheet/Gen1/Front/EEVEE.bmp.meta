@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: d448b7da3a2cccd4085b0e35fa14aec9
+timeCreated: 1452734224
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EEVEE_0
+    21300002: EEVEE_1
+    21300004: EEVEE_2
+    21300006: EEVEE_3
+    21300008: EEVEE_4
+    21300010: EEVEE_5
+    21300012: EEVEE_6
+    21300014: EEVEE_7
+    21300016: EEVEE_8
+    21300018: EEVEE_9
+    21300020: EEVEE_10
+    21300022: EEVEE_11
+    21300024: EEVEE_12
+    21300026: EEVEE_13
+    21300028: EEVEE_14
+    21300030: EEVEE_15
+    21300032: EEVEE_16
+    21300034: EEVEE_17
+    21300036: EEVEE_18
+    21300038: EEVEE_19
+    21300040: EEVEE_20
+    21300042: EEVEE_21
+    21300044: EEVEE_22
+    21300046: EEVEE_23
+    21300048: EEVEE_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EEVEE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 24.5}
+        - {x: -32, y: 9.5}
+        - {x: -11, y: -27.5}
+        - {x: 19, y: -27.5}
+        - {x: 32, y: 13.5}
+        - {x: 32, y: 24.5}
+    - name: EEVEE_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 220
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 24.5}
+        - {x: -32, y: 24.5}
+        - {x: -32, y: 3.5}
+        - {x: -9, y: -27.5}
+        - {x: 17, y: -27.5}
+        - {x: 28, y: 2.5}
+        - {x: 32, y: 13.5}
+    - name: EEVEE_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 220
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 24.5}
+        - {x: -32, y: 11.5}
+        - {x: -31, y: 10.5}
+        - {x: -10, y: -27.5}
+        - {x: 17, y: -27.5}
+        - {x: 32, y: 10.5}
+        - {x: 32, y: 24.5}
+    - name: EEVEE_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 220
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 24.5}
+        - {x: -32, y: 9.5}
+        - {x: -12, y: -27.5}
+        - {x: 18, y: -27.5}
+        - {x: 32, y: -0.5}
+        - {x: 32, y: 24.5}
+    - name: EEVEE_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 220
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 24.5}
+        - {x: -32, y: 13.5}
+        - {x: -31, y: 9.5}
+        - {x: -13, y: -27.5}
+        - {x: 19, y: -27.5}
+        - {x: 32, y: 11.5}
+        - {x: 32, y: 24.5}
+    - name: EEVEE_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25.5}
+        - {x: -32, y: 12.5}
+        - {x: -12, y: -27.5}
+        - {x: 21, y: -27.5}
+        - {x: 32, y: 4.5}
+        - {x: 32, y: 25.5}
+    - name: EEVEE_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 165
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 7.5}
+        - {x: -14, y: -27.5}
+        - {x: 16, y: -27.5}
+        - {x: 32, y: 12.5}
+        - {x: 32, y: 26.5}
+        - {x: -32, y: 26.5}
+    - name: EEVEE_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 165
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 26.5}
+        - {x: -32, y: 10.5}
+        - {x: -12, y: -27.5}
+        - {x: 20, y: -27.5}
+        - {x: 32, y: 1.5}
+        - {x: 32, y: 26.5}
+    - name: EEVEE_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 165
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -17.5}
+        - {x: -15, y: -27.5}
+        - {x: 30, y: -27.5}
+        - {x: 31, y: -13.5}
+        - {x: 31, y: 27.5}
+        - {x: -32, y: 27.5}
+    - name: EEVEE_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 165
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 10.5}
+        - {x: -12, y: -27.5}
+        - {x: 18, y: -27.5}
+        - {x: 28, y: 4.5}
+        - {x: 31, y: 17.5}
+        - {x: 31, y: 27.5}
+    - name: EEVEE_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 9.5}
+        - {x: -9, y: -27.5}
+        - {x: 19, y: -27.5}
+        - {x: 30, y: 6.5}
+        - {x: 30, y: 27.5}
+    - name: EEVEE_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 110
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 12.5}
+        - {x: -18, y: -15.5}
+        - {x: -9, y: -27.5}
+        - {x: 17, y: -27.5}
+        - {x: 30, y: -9.5}
+        - {x: 30, y: 27.5}
+    - name: EEVEE_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 110
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 11.5}
+        - {x: -11, y: -27.5}
+        - {x: 16, y: -27.5}
+        - {x: 23, y: -13.5}
+        - {x: 30, y: 19.5}
+        - {x: 30, y: 27.5}
+    - name: EEVEE_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 110
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 27.5}
+        - {x: -32, y: 27.5}
+        - {x: -32, y: -7.5}
+        - {x: -12, y: -27.5}
+        - {x: 16, y: -27.5}
+        - {x: 23, y: -11.5}
+        - {x: 24, y: -0.5}
+        - {x: 29, y: 18.5}
+    - name: EEVEE_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 110
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 14.5}
+        - {x: -10, y: -27.5}
+        - {x: 18, y: -27.5}
+        - {x: 28, y: -13.5}
+        - {x: 29, y: -1.5}
+        - {x: 29, y: 27.5}
+    - name: EEVEE_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 7.5}
+        - {x: -14, y: -27.5}
+        - {x: 17, y: -27.5}
+        - {x: 25, y: -9.5}
+        - {x: 29, y: 6.5}
+        - {x: 29, y: 27.5}
+    - name: EEVEE_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 55
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 6.5}
+        - {x: -17, y: -27.5}
+        - {x: 16, y: -27.5}
+        - {x: 18, y: -22.5}
+        - {x: 29, y: 16.5}
+        - {x: 29, y: 27.5}
+    - name: EEVEE_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 55
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 2.5}
+        - {x: -18, y: -27.5}
+        - {x: 19, y: -27.5}
+        - {x: 30, y: 17.5}
+        - {x: 30, y: 27.5}
+    - name: EEVEE_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 55
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 15.5}
+        - {x: -29, y: 10.5}
+        - {x: -12, y: -27.5}
+        - {x: 19, y: -27.5}
+        - {x: 30, y: 9.5}
+        - {x: 30, y: 27.5}
+    - name: EEVEE_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 55
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27.5}
+        - {x: -31, y: 26.5}
+        - {x: -32, y: 26.5}
+        - {x: -32, y: 16.5}
+        - {x: -31, y: 13.5}
+        - {x: -11, y: -27.5}
+        - {x: 19, y: -27.5}
+        - {x: 31, y: 15.5}
+        - {x: 31, y: 27.5}
+    - name: EEVEE_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 27.5}
+        - {x: -32, y: 10.5}
+        - {x: -19, y: -27.5}
+        - {x: 18, y: -27.5}
+        - {x: 31, y: 9.5}
+        - {x: 31, y: 27.5}
+    - name: EEVEE_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 26.5}
+        - {x: -32, y: -15.5}
+        - {x: -13, y: -27.5}
+        - {x: 32, y: -27.5}
+        - {x: 32, y: 26.5}
+    - name: EEVEE_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 26.5}
+        - {x: 0, y: 26.5}
+        - {x: -27, y: 25.5}
+        - {x: -32, y: 23.5}
+        - {x: -32, y: 17.5}
+        - {x: -28, y: 8.5}
+        - {x: -10, y: -27.5}
+        - {x: 17, y: -27.5}
+        - {x: 32, y: 19.5}
+        - {x: 32, y: 25.5}
+    - name: EEVEE_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 25.5}
+        - {x: -32, y: 8.5}
+        - {x: -14, y: -27.5}
+        - {x: 17, y: -27.5}
+        - {x: 32, y: 14.5}
+        - {x: 32, y: 25.5}
+    - name: EEVEE_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 24.5}
+        - {x: -32, y: 6.5}
+        - {x: -13, y: -27.5}
+        - {x: 18, y: -27.5}
+        - {x: 32, y: 7.5}
+        - {x: 32, y: 24.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1950 @@
+fileFormatVersion: 2
+guid: a5c6ee98f4feb7e4d819e342789548c6
+timeCreated: 1452733450
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BLASTOISE_0
+    21300002: BLASTOISE_1
+    21300004: BLASTOISE_2
+    21300006: BLASTOISE_3
+    21300008: BLASTOISE_4
+    21300010: BLASTOISE_5
+    21300012: BLASTOISE_6
+    21300014: BLASTOISE_7
+    21300016: BLASTOISE_8
+    21300018: BLASTOISE_9
+    21300020: BLASTOISE_10
+    21300022: BLASTOISE_11
+    21300024: BLASTOISE_12
+    21300026: BLASTOISE_13
+    21300028: BLASTOISE_14
+    21300030: BLASTOISE_15
+    21300032: BLASTOISE_16
+    21300034: BLASTOISE_17
+    21300036: BLASTOISE_18
+    21300038: BLASTOISE_19
+    21300040: BLASTOISE_20
+    21300042: BLASTOISE_21
+    21300044: BLASTOISE_22
+    21300046: BLASTOISE_23
+    21300048: BLASTOISE_24
+    21300050: BLASTOISE_25
+    21300052: BLASTOISE_26
+    21300054: BLASTOISE_27
+    21300056: BLASTOISE_28
+    21300058: BLASTOISE_29
+    21300060: BLASTOISE_30
+    21300062: BLASTOISE_31
+    21300064: BLASTOISE_32
+    21300066: BLASTOISE_33
+    21300068: BLASTOISE_34
+    21300070: BLASTOISE_35
+    21300072: BLASTOISE_36
+    21300074: BLASTOISE_37
+    21300076: BLASTOISE_38
+    21300078: BLASTOISE_39
+    21300080: BLASTOISE_40
+    21300082: BLASTOISE_41
+    21300084: BLASTOISE_42
+    21300086: BLASTOISE_43
+    21300088: BLASTOISE_44
+    21300090: BLASTOISE_45
+    21300092: BLASTOISE_46
+    21300094: BLASTOISE_47
+    21300096: BLASTOISE_48
+    21300098: BLASTOISE_49
+    21300100: BLASTOISE_50
+    21300102: BLASTOISE_51
+    21300104: BLASTOISE_52
+    21300106: BLASTOISE_53
+    21300108: BLASTOISE_54
+    21300110: BLASTOISE_55
+    21300112: BLASTOISE_56
+    21300114: BLASTOISE_57
+    21300116: BLASTOISE_58
+    21300118: BLASTOISE_59
+    21300120: BLASTOISE_60
+    21300122: BLASTOISE_61
+    21300124: BLASTOISE_62
+    21300126: BLASTOISE_63
+    21300128: BLASTOISE_64
+    21300130: BLASTOISE_65
+    21300132: BLASTOISE_66
+    21300134: BLASTOISE_67
+    21300136: BLASTOISE_68
+    21300138: BLASTOISE_69
+    21300140: BLASTOISE_70
+    21300142: BLASTOISE_71
+    21300144: BLASTOISE_72
+    21300146: BLASTOISE_73
+    21300148: BLASTOISE_74
+    21300150: BLASTOISE_75
+    21300152: BLASTOISE_76
+    21300154: BLASTOISE_77
+    21300156: BLASTOISE_78
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BLASTOISE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 664
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -28.5}
+        - {x: 44, y: 37.5}
+        - {x: 37, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -28.5}
+        - {x: -40, y: -41.5}
+        - {x: -1, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 40, y: -39.5}
+        - {x: 40, y: -37.5}
+    - name: BLASTOISE_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 664
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: 1.5}
+        - {x: -30, y: -41.5}
+        - {x: -23, y: -41.5}
+        - {x: -8, y: -40.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 664
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 41.5}
+        - {x: -26, y: 41.5}
+        - {x: -44, y: 34.5}
+        - {x: -44, y: 2.5}
+        - {x: -39, y: -3.5}
+        - {x: -30, y: -41.5}
+        - {x: -23, y: -41.5}
+        - {x: -8, y: -40.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 40, y: -39.5}
+        - {x: 44, y: -36.5}
+    - name: BLASTOISE_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 664
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -24.5}
+        - {x: -38, y: -41.5}
+        - {x: 3, y: -41.5}
+        - {x: 8, y: -40.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 664
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 41.5}
+        - {x: -36, y: 41.5}
+        - {x: -44, y: 34.5}
+        - {x: -44, y: -17.5}
+        - {x: -35, y: -41.5}
+        - {x: -11, y: -41.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -35.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 42, y: -40.5}
+        - {x: 44, y: -32.5}
+        - {x: 44, y: 30.5}
+    - name: BLASTOISE_5
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 664
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -25.5}
+        - {x: -40, y: -41.5}
+        - {x: -3, y: -41.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -35.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 41, y: -40.5}
+        - {x: 44, y: -32.5}
+        - {x: 44, y: 33.5}
+    - name: BLASTOISE_6
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 664
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 664
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 41.5}
+        - {x: -44, y: 40.5}
+        - {x: -44, y: -17.5}
+        - {x: -34, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -35.5}
+        - {x: 44, y: 35.5}
+        - {x: 33, y: 41.5}
+    - name: BLASTOISE_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 664
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 41.5}
+        - {x: -44, y: 35.5}
+        - {x: -44, y: 2.5}
+        - {x: -43, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 36.5}
+        - {x: 35, y: 41.5}
+    - name: BLASTOISE_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 581
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 41.5}
+        - {x: -44, y: 40.5}
+        - {x: -44, y: -20.5}
+        - {x: -34, y: -37.5}
+        - {x: -24, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -27.5}
+        - {x: 44, y: 35.5}
+        - {x: 41, y: 41.5}
+    - name: BLASTOISE_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 581
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 41.5}
+        - {x: -44, y: 33.5}
+        - {x: -44, y: 2.5}
+        - {x: -35, y: -34.5}
+        - {x: -33, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -27.5}
+        - {x: 44, y: 29.5}
+        - {x: 32, y: 41.5}
+    - name: BLASTOISE_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 581
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 41.5}
+        - {x: -44, y: 40.5}
+        - {x: -44, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 581
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -29.5}
+        - {x: -42, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -40.5}
+        - {x: 44, y: 34.5}
+        - {x: 42, y: 41.5}
+    - name: BLASTOISE_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 581
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+        - {x: -29, y: 41.5}
+        - {x: -44, y: 34.5}
+    - name: BLASTOISE_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 581
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 41.5}
+        - {x: -44, y: 40.5}
+        - {x: -44, y: -27.5}
+        - {x: -42, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -40.5}
+        - {x: 44, y: 29.5}
+        - {x: 31, y: 41.5}
+    - name: BLASTOISE_15
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 581
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -40.5}
+        - {x: 44, y: 25.5}
+        - {x: 32, y: 40.5}
+    - name: BLASTOISE_16
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 581
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 41.5}
+        - {x: -44, y: 36.5}
+        - {x: -44, y: -41.5}
+        - {x: 43, y: -41.5}
+        - {x: 44, y: -25.5}
+        - {x: 44, y: 24.5}
+        - {x: 32, y: 41.5}
+    - name: BLASTOISE_17
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 581
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -41.5}
+        - {x: 2, y: -41.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 41.5}
+        - {x: -41, y: 41.5}
+        - {x: -44, y: 37.5}
+        - {x: -44, y: -12.5}
+        - {x: -30, y: -41.5}
+        - {x: 2, y: -41.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 42, y: -40.5}
+        - {x: 44, y: -35.5}
+        - {x: 44, y: 36.5}
+    - name: BLASTOISE_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 498
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: 7.5}
+        - {x: -41, y: -4.5}
+        - {x: -30, y: -40.5}
+        - {x: -9, y: -41.5}
+        - {x: 1, y: -41.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 40.5}
+        - {x: 41, y: 41.5}
+    - name: BLASTOISE_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 498
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: 7.5}
+        - {x: -41, y: -4.5}
+        - {x: -30, y: -40.5}
+        - {x: -9, y: -41.5}
+        - {x: 1, y: -41.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 40.5}
+        - {x: 41, y: 41.5}
+    - name: BLASTOISE_21
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 498
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 41.5}
+        - {x: -44, y: 31.5}
+        - {x: -44, y: -13.5}
+        - {x: -36, y: -39.5}
+        - {x: -14, y: -41.5}
+        - {x: 1, y: -40.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 44, y: -23.5}
+        - {x: 44, y: 24.5}
+        - {x: 36, y: 41.5}
+    - name: BLASTOISE_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 498
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -41.5}
+        - {x: -4, y: -41.5}
+        - {x: 1, y: -40.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 44, y: -35.5}
+        - {x: 44, y: 35.5}
+        - {x: 43, y: 41.5}
+    - name: BLASTOISE_23
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 498
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -36.5}
+        - {x: -43, y: -41.5}
+        - {x: -14, y: -41.5}
+        - {x: 1, y: -40.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 38.5}
+        - {x: 37, y: 41.5}
+    - name: BLASTOISE_24
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 498
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 41.5}
+        - {x: -26, y: 41.5}
+        - {x: -44, y: 33.5}
+        - {x: -44, y: -9.5}
+        - {x: -30, y: -41.5}
+        - {x: -14, y: -41.5}
+        - {x: 1, y: -40.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 31.5}
+        - {x: 36, y: 39.5}
+    - name: BLASTOISE_25
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 498
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 41.5}
+        - {x: -44, y: 33.5}
+        - {x: -44, y: 1.5}
+        - {x: -40, y: -0.5}
+        - {x: -30, y: -36.5}
+        - {x: -29, y: -39.5}
+        - {x: -14, y: -41.5}
+        - {x: 1, y: -40.5}
+        - {x: 6, y: -38.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 11, y: -34.5}
+        - {x: 7, y: -37.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 34.5}
+        - {x: 37, y: 41.5}
+    - name: BLASTOISE_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 498
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 36.5}
+        - {x: 37, y: 41.5}
+    - name: BLASTOISE_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 41.5}
+        - {x: -44, y: 39.5}
+        - {x: -44, y: 2.5}
+        - {x: -33, y: -36.5}
+        - {x: -24, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 44, y: -28.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 415
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -33.5}
+        - {x: -42, y: -41.5}
+        - {x: 43, y: -41.5}
+        - {x: 44, y: -36.5}
+        - {x: 44, y: 32.5}
+        - {x: 40, y: 40.5}
+    - name: BLASTOISE_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 415
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -19.5}
+        - {x: -37, y: -40.5}
+        - {x: -34, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 415
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -13.5}
+        - {x: -33, y: -36.5}
+        - {x: -24, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 44, y: -21.5}
+        - {x: 44, y: 31.5}
+    - name: BLASTOISE_31
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 415
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -24.5}
+        - {x: -29, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 44, y: -8.5}
+        - {x: 44, y: 24.5}
+        - {x: 37, y: 39.5}
+    - name: BLASTOISE_32
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 415
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 41.5}
+        - {x: -44, y: 38.5}
+        - {x: -44, y: -41.5}
+        - {x: 43, y: -41.5}
+        - {x: 44, y: -35.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 415
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 41.5}
+        - {x: -44, y: 34.5}
+        - {x: -44, y: 21.5}
+        - {x: -37, y: 18.5}
+        - {x: -40, y: 11.5}
+        - {x: -43, y: 2.5}
+        - {x: -34, y: -36.5}
+        - {x: -26, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 37.5}
+        - {x: 34, y: 41.5}
+    - name: BLASTOISE_34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 415
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -19.5}
+        - {x: -36, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_35
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 415
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 41.5}
+        - {x: -44, y: 34.5}
+        - {x: -44, y: -14.5}
+        - {x: -37, y: -41.5}
+        - {x: -4, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -31.5}
+        - {x: 44, y: 29.5}
+        - {x: 38, y: 41.5}
+    - name: BLASTOISE_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 41.5}
+        - {x: -22, y: 41.5}
+        - {x: -44, y: 37.5}
+        - {x: -44, y: -30.5}
+        - {x: -42, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 26.5}
+        - {x: 33, y: 40.5}
+    - name: BLASTOISE_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 332
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -1.5}
+        - {x: -36, y: -38.5}
+        - {x: -20, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 41, y: -40.5}
+        - {x: 44, y: -28.5}
+        - {x: 44, y: 30.5}
+    - name: BLASTOISE_38
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 332
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 41.5}
+        - {x: -39, y: 41.5}
+        - {x: -44, y: 39.5}
+        - {x: -44, y: -28.5}
+        - {x: -33, y: -41.5}
+        - {x: 5, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 41, y: -40.5}
+        - {x: 44, y: -20.5}
+        - {x: 44, y: 40.5}
+    - name: BLASTOISE_39
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 332
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: 6.5}
+        - {x: -29, y: -39.5}
+        - {x: -20, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -38.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_40
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 332
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 41.5}
+        - {x: -44, y: 36.5}
+        - {x: -44, y: -9.5}
+        - {x: -37, y: -39.5}
+        - {x: -22, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 43, y: -41.5}
+        - {x: 44, y: -39.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_41
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 332
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -29.5}
+        - {x: -33, y: -41.5}
+        - {x: 5, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 44, y: -35.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_42
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 332
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -6.5}
+        - {x: -36, y: -38.5}
+        - {x: -21, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 44, y: -39.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_43
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 332
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -1.5}
+        - {x: 44, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -41.5}
+        - {x: -7, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 41, y: -20.5}
+    - name: BLASTOISE_44
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 332
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -24.5}
+        - {x: -39, y: -41.5}
+        - {x: -2, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -15.5}
+        - {x: 44, y: 1.5}
+        - {x: 44, y: 24.5}
+        - {x: 36, y: 36.5}
+        - {x: 29, y: 36.5}
+        - {x: 15, y: 41.5}
+        - {x: -15, y: 41.5}
+        - {x: -18, y: 37.5}
+        - {x: -42, y: 35.5}
+        - {x: -44, y: 32.5}
+        - {x: -44, y: 8.5}
+        - {x: -43, y: 0.5}
+        - {x: -29, y: -39.5}
+        - {x: -20, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 41, y: -20.5}
+    - name: BLASTOISE_46
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 249
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -15.5}
+        - {x: 44, y: 1.5}
+        - {x: 44, y: 24.5}
+        - {x: 36, y: 36.5}
+        - {x: 29, y: 36.5}
+        - {x: 15, y: 41.5}
+        - {x: -15, y: 41.5}
+        - {x: -18, y: 37.5}
+        - {x: -44, y: 39.5}
+        - {x: -44, y: -41.5}
+        - {x: -2, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 41, y: -20.5}
+    - name: BLASTOISE_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 249
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 25.5}
+        - {x: 36, y: 36.5}
+        - {x: 29, y: 36.5}
+        - {x: 15, y: 41.5}
+        - {x: -15, y: 41.5}
+        - {x: -18, y: 37.5}
+        - {x: -44, y: 39.5}
+        - {x: -44, y: -41.5}
+        - {x: -2, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 41, y: -40.5}
+        - {x: 41, y: -15.5}
+        - {x: 44, y: -1.5}
+    - name: BLASTOISE_48
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 249
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -41.5}
+        - {x: -7, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -39.5}
+        - {x: 9, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 26.5}
+        - {x: 38, y: 38.5}
+    - name: BLASTOISE_49
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 249
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 44, y: -32.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_50
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 249
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 41.5}
+        - {x: -24, y: 41.5}
+        - {x: -44, y: 37.5}
+        - {x: -44, y: 1.5}
+        - {x: -33, y: -36.5}
+        - {x: -29, y: -39.5}
+        - {x: -19, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 44, y: -30.5}
+        - {x: 44, y: 25.5}
+        - {x: 41, y: 36.5}
+    - name: BLASTOISE_51
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 249
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -16.5}
+        - {x: -30, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -34.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_52
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 249
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -1.5}
+        - {x: -30, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_53
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 249
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 41.5}
+        - {x: -44, y: 37.5}
+        - {x: -44, y: -5.5}
+        - {x: -35, y: -41.5}
+        - {x: -6, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 41.5}
+        - {x: -44, y: 38.5}
+        - {x: -44, y: -3.5}
+        - {x: -34, y: -37.5}
+        - {x: -29, y: -39.5}
+        - {x: -19, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_55
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 166
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -26.5}
+        - {x: -29, y: -41.5}
+        - {x: 4, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 40.5}
+        - {x: 30, y: 41.5}
+    - name: BLASTOISE_56
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 166
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 41.5}
+        - {x: -44, y: 36.5}
+        - {x: -44, y: 9.5}
+        - {x: -29, y: -39.5}
+        - {x: -20, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_57
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 166
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -21.5}
+        - {x: 44, y: -7.5}
+        - {x: 44, y: 30.5}
+        - {x: 43, y: 37.5}
+        - {x: 21, y: 41.5}
+        - {x: -38, y: 41.5}
+        - {x: -44, y: 39.5}
+        - {x: -44, y: -6.5}
+        - {x: -33, y: -41.5}
+        - {x: -3, y: -41.5}
+        - {x: 8, y: -40.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 40, y: -39.5}
+        - {x: 40, y: -37.5}
+    - name: BLASTOISE_58
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 166
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 24.5}
+        - {x: 41, y: 32.5}
+        - {x: 28, y: 40.5}
+        - {x: 21, y: 41.5}
+        - {x: -24, y: 41.5}
+        - {x: -42, y: 35.5}
+        - {x: -44, y: 31.5}
+        - {x: -44, y: 10.5}
+        - {x: -42, y: 6.5}
+        - {x: -30, y: -40.5}
+        - {x: -23, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 41, y: -40.5}
+        - {x: 42, y: -12.5}
+        - {x: 44, y: 1.5}
+    - name: BLASTOISE_59
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 166
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 41.5}
+        - {x: -22, y: 41.5}
+        - {x: -44, y: 33.5}
+        - {x: -44, y: -21.5}
+        - {x: -29, y: -41.5}
+        - {x: 5, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -34.5}
+        - {x: 44, y: 32.5}
+        - {x: 39, y: 40.5}
+    - name: BLASTOISE_60
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 166
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -27.5}
+        - {x: -40, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 41, y: -40.5}
+        - {x: 44, y: -25.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_61
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 166
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 40.5}
+        - {x: 40, y: 41.5}
+        - {x: -15, y: 41.5}
+        - {x: -18, y: 37.5}
+        - {x: -40, y: 34.5}
+        - {x: -44, y: 30.5}
+        - {x: -44, y: -23.5}
+        - {x: -31, y: -41.5}
+        - {x: 5, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 42, y: -40.5}
+        - {x: 42, y: -22.5}
+        - {x: 44, y: -11.5}
+    - name: BLASTOISE_62
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 166
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -4.5}
+        - {x: -29, y: -39.5}
+        - {x: -20, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -37.5}
+        - {x: 44, y: 32.5}
+        - {x: 41, y: 35.5}
+    - name: BLASTOISE_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 41.5}
+        - {x: -44, y: 33.5}
+        - {x: -44, y: -20.5}
+        - {x: -37, y: -38.5}
+        - {x: -21, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_64
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 83
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 35.5}
+        - {x: 28, y: 41.5}
+        - {x: -21, y: 41.5}
+        - {x: -44, y: 37.5}
+        - {x: -44, y: 1.5}
+        - {x: -30, y: -40.5}
+        - {x: -22, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 42, y: -40.5}
+        - {x: 44, y: -23.5}
+        - {x: 44, y: 25.5}
+    - name: BLASTOISE_65
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 83
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 41.5}
+        - {x: -42, y: 34.5}
+        - {x: -44, y: 31.5}
+        - {x: -44, y: -12.5}
+        - {x: -36, y: -41.5}
+        - {x: -5, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 40.5}
+        - {x: 42, y: 41.5}
+    - name: BLASTOISE_66
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 83
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 41.5}
+        - {x: -44, y: 33.5}
+        - {x: -44, y: -18.5}
+        - {x: -28, y: -41.5}
+        - {x: 5, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 35.5}
+        - {x: 36, y: 41.5}
+    - name: BLASTOISE_67
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 83
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 41.5}
+        - {x: -44, y: 38.5}
+        - {x: -44, y: -16.5}
+        - {x: -38, y: -40.5}
+        - {x: -27, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 43, y: -41.5}
+        - {x: 44, y: -37.5}
+        - {x: 44, y: 34.5}
+        - {x: 33, y: 41.5}
+    - name: BLASTOISE_68
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 83
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -17.5}
+        - {x: 44, y: 35.5}
+        - {x: 41, y: 41.5}
+        - {x: -44, y: 41.5}
+        - {x: -44, y: -29.5}
+        - {x: -30, y: -41.5}
+        - {x: 4, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 40, y: -39.5}
+        - {x: 40, y: -37.5}
+    - name: BLASTOISE_69
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 83
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -11.5}
+        - {x: -32, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 37.5}
+        - {x: 40, y: 41.5}
+    - name: BLASTOISE_70
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 83
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 41.5}
+        - {x: -44, y: 32.5}
+        - {x: -44, y: 10.5}
+        - {x: -34, y: -37.5}
+        - {x: -25, y: -41.5}
+        - {x: 1, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_71
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 83
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 41.5}
+        - {x: -25, y: 41.5}
+        - {x: -44, y: 34.5}
+        - {x: -44, y: 9.5}
+        - {x: -42, y: 4.5}
+        - {x: -34, y: -36.5}
+        - {x: -25, y: -41.5}
+        - {x: 1, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -39.5}
+        - {x: 44, y: -20.5}
+        - {x: 44, y: 28.5}
+    - name: BLASTOISE_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -29.5}
+        - {x: -40, y: -41.5}
+        - {x: -1, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 44, y: -35.5}
+        - {x: 44, y: 39.5}
+        - {x: 26, y: 41.5}
+    - name: BLASTOISE_73
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 41.5}
+        - {x: -44, y: 39.5}
+        - {x: -44, y: -13.5}
+        - {x: -38, y: -40.5}
+        - {x: -25, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 44, y: -34.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_74
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 41.5}
+        - {x: -27, y: 41.5}
+        - {x: -44, y: 34.5}
+        - {x: -44, y: -27.5}
+        - {x: -32, y: -41.5}
+        - {x: 5, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 33.5}
+        - {x: 41, y: 40.5}
+    - name: BLASTOISE_75
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -16.5}
+        - {x: -31, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 33.5}
+        - {x: 34, y: 41.5}
+    - name: BLASTOISE_76
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 41.5}
+        - {x: -44, y: -6.5}
+        - {x: -30, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_77
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 41.5}
+        - {x: -42, y: 32.5}
+        - {x: -44, y: 30.5}
+        - {x: -44, y: -19.5}
+        - {x: -38, y: -41.5}
+        - {x: -3, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 44, y: 41.5}
+    - name: BLASTOISE_78
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 41.5}
+        - {x: -44, y: 38.5}
+        - {x: -44, y: -17.5}
+        - {x: -38, y: -40.5}
+        - {x: -25, y: -41.5}
+        - {x: -8, y: -41.5}
+        - {x: 7, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 44, y: -34.5}
+        - {x: 44, y: 39.5}
+        - {x: 39, y: 41.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1515 @@
+fileFormatVersion: 2
+guid: f64df7a6f3cf027469223bc695277774
+timeCreated: 1452733515
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CHARMANDER_0
+    21300002: CHARMANDER_1
+    21300004: CHARMANDER_2
+    21300006: CHARMANDER_3
+    21300008: CHARMANDER_4
+    21300010: CHARMANDER_5
+    21300012: CHARMANDER_6
+    21300014: CHARMANDER_7
+    21300016: CHARMANDER_8
+    21300018: CHARMANDER_9
+    21300020: CHARMANDER_10
+    21300022: CHARMANDER_11
+    21300024: CHARMANDER_12
+    21300026: CHARMANDER_13
+    21300028: CHARMANDER_14
+    21300030: CHARMANDER_15
+    21300032: CHARMANDER_16
+    21300034: CHARMANDER_17
+    21300036: CHARMANDER_18
+    21300038: CHARMANDER_19
+    21300040: CHARMANDER_20
+    21300042: CHARMANDER_21
+    21300044: CHARMANDER_22
+    21300046: CHARMANDER_23
+    21300048: CHARMANDER_24
+    21300050: CHARMANDER_25
+    21300052: CHARMANDER_26
+    21300054: CHARMANDER_27
+    21300056: CHARMANDER_28
+    21300058: CHARMANDER_29
+    21300060: CHARMANDER_30
+    21300062: CHARMANDER_31
+    21300064: CHARMANDER_32
+    21300066: CHARMANDER_33
+    21300068: CHARMANDER_34
+    21300070: CHARMANDER_35
+    21300072: CHARMANDER_36
+    21300074: CHARMANDER_37
+    21300076: CHARMANDER_38
+    21300078: CHARMANDER_39
+    21300080: CHARMANDER_40
+    21300082: CHARMANDER_41
+    21300084: CHARMANDER_42
+    21300086: CHARMANDER_43
+    21300088: CHARMANDER_44
+    21300090: CHARMANDER_45
+    21300092: CHARMANDER_46
+    21300094: CHARMANDER_47
+    21300096: CHARMANDER_48
+    21300098: CHARMANDER_49
+    21300100: CHARMANDER_50
+    21300102: CHARMANDER_51
+    21300104: CHARMANDER_52
+    21300106: CHARMANDER_53
+    21300108: CHARMANDER_54
+    21300110: CHARMANDER_55
+    21300112: CHARMANDER_56
+    21300114: CHARMANDER_57
+    21300116: CHARMANDER_58
+    21300118: CHARMANDER_59
+    21300120: CHARMANDER_60
+    21300122: CHARMANDER_61
+    21300124: CHARMANDER_62
+    21300126: CHARMANDER_63
+    21300128: CHARMANDER_64
+    21300130: CHARMANDER_65
+    21300132: CHARMANDER_66
+    21300134: CHARMANDER_67
+    21300136: CHARMANDER_68
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CHARMANDER_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 28.5}
+        - {x: -17, y: 24.5}
+        - {x: -24, y: 5.5}
+        - {x: -24, y: -22.5}
+        - {x: -23, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 20.5}
+        - {x: 11, y: 28.5}
+    - name: CHARMANDER_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 456
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 21.5}
+        - {x: 6, y: 28.5}
+        - {x: -10, y: 28.5}
+        - {x: -17, y: 24.5}
+        - {x: -24, y: 9.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: -1.5}
+        - {x: 18, y: 6.5}
+    - name: CHARMANDER_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 456
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 28.5}
+        - {x: -10, y: 28.5}
+        - {x: -17, y: 24.5}
+        - {x: -24, y: 2.5}
+        - {x: -24, y: -21.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -14.5}
+        - {x: 22, y: -4.5}
+        - {x: 16, y: 17.5}
+    - name: CHARMANDER_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 456
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 7.5}
+        - {x: 13, y: 18.5}
+        - {x: 7, y: 28.5}
+        - {x: -13, y: 28.5}
+        - {x: -20, y: 21.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -24.5}
+        - {x: -22, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 21, y: -12.5}
+        - {x: 21, y: -4.5}
+    - name: CHARMANDER_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 456
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 28.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -26.5}
+        - {x: -23, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 21, y: -15.5}
+        - {x: 21, y: 7.5}
+        - {x: 7, y: 28.5}
+    - name: CHARMANDER_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 456
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 28.5}
+        - {x: -13, y: 28.5}
+        - {x: -18, y: 20.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -18.5}
+        - {x: -20, y: -27.5}
+        - {x: -19, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -5.5}
+        - {x: 22, y: 5.5}
+    - name: CHARMANDER_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 456
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28.5}
+        - {x: -15, y: 19.5}
+        - {x: -16, y: 7.5}
+        - {x: -24, y: -5.5}
+        - {x: -24, y: -19.5}
+        - {x: -21, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 22, y: -10.5}
+        - {x: 22, y: 9.5}
+        - {x: 7, y: 28.5}
+    - name: CHARMANDER_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 456
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 18.5}
+        - {x: 10, y: 14.5}
+        - {x: 10, y: 10.5}
+        - {x: 9, y: 20.5}
+        - {x: 5, y: 28.5}
+        - {x: -14, y: 28.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -22.5}
+        - {x: -20, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 23, y: -11.5}
+        - {x: 23, y: 5.5}
+        - {x: 19, y: 18.5}
+    - name: CHARMANDER_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 456
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28.5}
+        - {x: -24, y: 26.5}
+        - {x: -24, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 23, y: -17.5}
+        - {x: 23, y: 10.5}
+        - {x: 9, y: 28.5}
+    - name: CHARMANDER_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 28.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -28.5}
+        - {x: 21, y: -28.5}
+        - {x: 24, y: -7.5}
+        - {x: 24, y: 28.5}
+    - name: CHARMANDER_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 399
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 28.5}
+        - {x: -10, y: 28.5}
+        - {x: -17, y: 24.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 24, y: -5.5}
+        - {x: 24, y: 6.5}
+        - {x: 17, y: 18.5}
+    - name: CHARMANDER_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 399
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28.5}
+        - {x: -24, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 24, y: -19.5}
+        - {x: 24, y: 16.5}
+        - {x: 13, y: 28.5}
+    - name: CHARMANDER_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 399
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 28.5}
+        - {x: -16, y: 28.5}
+        - {x: -24, y: 17.5}
+        - {x: -24, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 19.5}
+    - name: CHARMANDER_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 399
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 16.5}
+        - {x: 13, y: 8.5}
+        - {x: 10, y: 21.5}
+        - {x: 6, y: 28.5}
+        - {x: -11, y: 28.5}
+        - {x: -18, y: 24.5}
+        - {x: -24, y: -2.5}
+        - {x: -24, y: -19.5}
+        - {x: -22, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 23, y: -28.5}
+        - {x: 24, y: -20.5}
+        - {x: 24, y: 18.5}
+        - {x: 18, y: 17.5}
+    - name: CHARMANDER_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 399
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 17.5}
+        - {x: 16, y: 16.5}
+        - {x: 13, y: 8.5}
+        - {x: 10, y: 21.5}
+        - {x: 6, y: 28.5}
+        - {x: -9, y: 28.5}
+        - {x: -14, y: 22.5}
+        - {x: -24, y: -6.5}
+        - {x: -24, y: -19.5}
+        - {x: -22, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 16.5}
+    - name: CHARMANDER_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 399
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 18.5}
+        - {x: 11, y: 28.5}
+        - {x: -15, y: 28.5}
+        - {x: -24, y: -4.5}
+        - {x: -24, y: -18.5}
+        - {x: -22, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 24, y: -11.5}
+        - {x: 24, y: 13.5}
+    - name: CHARMANDER_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 399
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 28.5}
+        - {x: -24, y: 13.5}
+        - {x: -24, y: -28.5}
+        - {x: 24, y: -28.5}
+        - {x: 24, y: 28.5}
+    - name: CHARMANDER_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 399
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 18.5}
+        - {x: 17, y: 17.5}
+        - {x: 6, y: 28.5}
+        - {x: -11, y: 28.5}
+        - {x: -17, y: 23.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -21.5}
+        - {x: -20, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 17.5}
+    - name: CHARMANDER_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 17.5}
+        - {x: 18, y: 17.5}
+        - {x: 16, y: 15.5}
+        - {x: 12, y: 10.5}
+        - {x: 10, y: 19.5}
+        - {x: 9, y: 23.5}
+        - {x: 7, y: 28.5}
+        - {x: -12, y: 28.5}
+        - {x: -16, y: 27.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -28.5}
+        - {x: 23, y: -28.5}
+        - {x: 24, y: -22.5}
+        - {x: 24, y: 12.5}
+        - {x: 22, y: 15.5}
+    - name: CHARMANDER_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 342
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 20.5}
+        - {x: 17, y: 17.5}
+        - {x: 14, y: 27.5}
+        - {x: 10, y: 28.5}
+        - {x: -13, y: 28.5}
+        - {x: -24, y: -4.5}
+        - {x: -24, y: -12.5}
+        - {x: -22, y: -12.5}
+        - {x: -24, y: -17.5}
+        - {x: -24, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 24, y: -12.5}
+        - {x: 24, y: 13.5}
+    - name: CHARMANDER_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 342
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 28.5}
+        - {x: -16, y: 28.5}
+        - {x: -24, y: 13.5}
+        - {x: -24, y: -20.5}
+        - {x: -20, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 24, y: -2.5}
+        - {x: 24, y: 7.5}
+        - {x: 22, y: 22.5}
+    - name: CHARMANDER_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 342
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 28.5}
+        - {x: -24, y: 7.5}
+        - {x: -24, y: -23.5}
+        - {x: -21, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 23, y: -21.5}
+        - {x: 23, y: 22.5}
+        - {x: 11, y: 28.5}
+    - name: CHARMANDER_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 342
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 28.5}
+        - {x: -16, y: 26.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -22.5}
+        - {x: -22, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 26.5}
+        - {x: 11, y: 28.5}
+    - name: CHARMANDER_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 342
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 8.5}
+        - {x: 18, y: 15.5}
+        - {x: 16, y: 17.5}
+        - {x: 13, y: 16.5}
+        - {x: 11, y: 22.5}
+        - {x: 8, y: 28.5}
+        - {x: -12, y: 28.5}
+        - {x: -17, y: 27.5}
+        - {x: -24, y: 7.5}
+        - {x: -24, y: -23.5}
+        - {x: -23, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 21, y: -10.5}
+    - name: CHARMANDER_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 342
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28.5}
+        - {x: -24, y: 14.5}
+        - {x: -24, y: -27.5}
+        - {x: -23, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 21, y: -26.5}
+        - {x: 21, y: 28.5}
+    - name: CHARMANDER_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 342
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 28.5}
+        - {x: -17, y: 27.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: -20, y: -27.5}
+        - {x: -19, y: -28.5}
+        - {x: 21, y: -28.5}
+        - {x: 21, y: 22.5}
+        - {x: 13, y: 28.5}
+    - name: CHARMANDER_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 342
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 28.5}
+        - {x: -24, y: 7.5}
+        - {x: -24, y: -21.5}
+        - {x: -20, y: -27.5}
+        - {x: -19, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 21, y: -25.5}
+        - {x: 21, y: 17.5}
+        - {x: 14, y: 28.5}
+    - name: CHARMANDER_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 28.5}
+        - {x: -17, y: 28.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -24.5}
+        - {x: -22, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 21, y: -27.5}
+        - {x: 21, y: 25.5}
+    - name: CHARMANDER_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 285
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 28.5}
+        - {x: -17, y: 28.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -11.5}
+        - {x: 22, y: 0.5}
+        - {x: 13, y: 26.5}
+    - name: CHARMANDER_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 285
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 28.5}
+        - {x: -16, y: 27.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -20.5}
+        - {x: -20, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -19.5}
+        - {x: 22, y: 3.5}
+        - {x: 11, y: 28.5}
+    - name: CHARMANDER_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 285
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 28.5}
+        - {x: -13, y: 28.5}
+        - {x: -16, y: 27.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -19.5}
+        - {x: -21, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -13.5}
+        - {x: 22, y: -4.5}
+        - {x: 12, y: 20.5}
+    - name: CHARMANDER_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 285
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 28.5}
+        - {x: -24, y: 17.5}
+        - {x: -24, y: -23.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -14.5}
+        - {x: 22, y: -3.5}
+        - {x: 11, y: 28.5}
+    - name: CHARMANDER_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 285
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -23.5}
+        - {x: -21, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 28.5}
+        - {x: -20, y: 28.5}
+        - {x: -24, y: 17.5}
+    - name: CHARMANDER_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 285
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 28.5}
+        - {x: -14, y: 28.5}
+        - {x: -16, y: 27.5}
+        - {x: -24, y: 1.5}
+        - {x: -24, y: -25.5}
+        - {x: -23, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: 4.5}
+    - name: CHARMANDER_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 285
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 28.5}
+        - {x: -24, y: 10.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -19.5}
+        - {x: 22, y: 1.5}
+        - {x: 8, y: 28.5}
+    - name: CHARMANDER_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 285
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 28.5}
+        - {x: -14, y: 28.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -25.5}
+        - {x: -23, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: 4.5}
+    - name: CHARMANDER_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 28.5}
+        - {x: -17, y: 24.5}
+        - {x: -24, y: 9.5}
+        - {x: -24, y: -28.5}
+        - {x: 21, y: -28.5}
+        - {x: 21, y: 26.5}
+        - {x: 16, y: 28.5}
+    - name: CHARMANDER_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 228
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 28.5}
+        - {x: -19, y: 25.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -21.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: 8.5}
+        - {x: 9, y: 28.5}
+    - name: CHARMANDER_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 228
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 28.5}
+        - {x: -17, y: 24.5}
+        - {x: -24, y: 1.5}
+        - {x: -24, y: -23.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 21, y: -23.5}
+        - {x: 21, y: 8.5}
+        - {x: 12, y: 28.5}
+    - name: CHARMANDER_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 228
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 28.5}
+        - {x: -9, y: 28.5}
+        - {x: -16, y: 20.5}
+        - {x: -24, y: -1.5}
+        - {x: -24, y: -20.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 21, y: -14.5}
+        - {x: 21, y: 4.5}
+        - {x: 9, y: 27.5}
+    - name: CHARMANDER_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 228
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -13.5}
+        - {x: 21, y: 4.5}
+        - {x: 20, y: 24.5}
+        - {x: 9, y: 28.5}
+        - {x: -15, y: 28.5}
+        - {x: -18, y: 20.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -12.5}
+        - {x: -23, y: -12.5}
+        - {x: -21, y: -25.5}
+        - {x: -20, y: -27.5}
+        - {x: -19, y: -28.5}
+        - {x: 16, y: -28.5}
+    - name: CHARMANDER_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 228
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 28.5}
+        - {x: -24, y: -3.5}
+        - {x: -24, y: -17.5}
+        - {x: -21, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -7.5}
+        - {x: 22, y: 7.5}
+        - {x: 7, y: 28.5}
+    - name: CHARMANDER_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 228
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28.5}
+        - {x: -21, y: 21.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -12.5}
+        - {x: -23, y: -13.5}
+        - {x: -21, y: -25.5}
+        - {x: -20, y: -27.5}
+        - {x: -20, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -6.5}
+        - {x: 22, y: 8.5}
+        - {x: 7, y: 28.5}
+    - name: CHARMANDER_43
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 228
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16.5}
+        - {x: 10, y: 20.5}
+        - {x: 5, y: 28.5}
+        - {x: -19, y: 28.5}
+        - {x: -24, y: 26.5}
+        - {x: -24, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 23, y: -8.5}
+        - {x: 23, y: 11.5}
+        - {x: 14, y: 18.5}
+    - name: CHARMANDER_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 228
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 28.5}
+        - {x: -24, y: 7.5}
+        - {x: -24, y: -20.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 24, y: -15.5}
+        - {x: 24, y: 14.5}
+        - {x: 14, y: 28.5}
+    - name: CHARMANDER_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 28.5}
+        - {x: -10, y: 28.5}
+        - {x: -17, y: 25.5}
+        - {x: -24, y: 4.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 24, y: -3.5}
+        - {x: 24, y: 7.5}
+    - name: CHARMANDER_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 171
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 28.5}
+        - {x: -16, y: 28.5}
+        - {x: -24, y: 9.5}
+        - {x: -24, y: -26.5}
+        - {x: -23, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 11.5}
+        - {x: 17, y: 23.5}
+    - name: CHARMANDER_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 171
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 22.5}
+        - {x: 15, y: 17.5}
+        - {x: 14, y: 25.5}
+        - {x: 9, y: 28.5}
+        - {x: -17, y: 28.5}
+        - {x: -24, y: 17.5}
+        - {x: -24, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 24, y: -15.5}
+        - {x: 24, y: 11.5}
+    - name: CHARMANDER_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 171
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 28.5}
+        - {x: -24, y: 13.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 18.5}
+        - {x: 12, y: 28.5}
+    - name: CHARMANDER_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 171
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 16.5}
+        - {x: 16, y: 15.5}
+        - {x: 6, y: 28.5}
+        - {x: -9, y: 28.5}
+        - {x: -14, y: 22.5}
+        - {x: -24, y: -6.5}
+        - {x: -24, y: -19.5}
+        - {x: -22, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 10.5}
+    - name: CHARMANDER_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 171
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 28.5}
+        - {x: -15, y: 28.5}
+        - {x: -24, y: -4.5}
+        - {x: -24, y: -18.5}
+        - {x: -22, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 16.5}
+    - name: CHARMANDER_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 171
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 28.5}
+        - {x: -13, y: 28.5}
+        - {x: -24, y: 13.5}
+        - {x: -24, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 24, y: -20.5}
+        - {x: 24, y: 20.5}
+    - name: CHARMANDER_52
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 171
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 28.5}
+        - {x: -13, y: 28.5}
+        - {x: -20, y: 25.5}
+        - {x: -24, y: 9.5}
+        - {x: -24, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 15.5}
+        - {x: 22, y: 18.5}
+    - name: CHARMANDER_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 171
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28.5}
+        - {x: -24, y: -19.5}
+        - {x: -20, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 24, y: -5.5}
+        - {x: 24, y: 10.5}
+        - {x: 22, y: 28.5}
+    - name: CHARMANDER_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 18.5}
+        - {x: 14, y: 13.5}
+        - {x: 9, y: 28.5}
+        - {x: -13, y: 28.5}
+        - {x: -21, y: 25.5}
+        - {x: -24, y: 4.5}
+        - {x: -24, y: -12.5}
+        - {x: -22, y: -12.5}
+        - {x: -24, y: -17.5}
+        - {x: -24, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 24, y: -21.5}
+        - {x: 24, y: 12.5}
+        - {x: 23, y: 16.5}
+    - name: CHARMANDER_55
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 114
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 28.5}
+        - {x: -18, y: 22.5}
+        - {x: -24, y: 4.5}
+        - {x: -24, y: -15.5}
+        - {x: -21, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 23, y: -20.5}
+        - {x: 23, y: 28.5}
+    - name: CHARMANDER_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 114
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28.5}
+        - {x: -24, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 23, y: -0.5}
+        - {x: 23, y: 23.5}
+        - {x: 9, y: 28.5}
+    - name: CHARMANDER_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 114
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 28.5}
+        - {x: -12, y: 28.5}
+        - {x: -17, y: 27.5}
+        - {x: -24, y: 10.5}
+        - {x: -24, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 22, y: -6.5}
+        - {x: 22, y: 7.5}
+        - {x: 20, y: 16.5}
+    - name: CHARMANDER_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 114
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 7.5}
+        - {x: 18, y: 15.5}
+        - {x: 16, y: 18.5}
+        - {x: 9, y: 28.5}
+        - {x: -12, y: 28.5}
+        - {x: -17, y: 27.5}
+        - {x: -24, y: 7.5}
+        - {x: -24, y: -23.5}
+        - {x: -23, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 21, y: -10.5}
+    - name: CHARMANDER_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 114
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 28.5}
+        - {x: -16, y: 28.5}
+        - {x: -24, y: 8.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 21, y: -25.5}
+        - {x: 21, y: 24.5}
+    - name: CHARMANDER_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 114
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 28.5}
+        - {x: -13, y: 28.5}
+        - {x: -16, y: 26.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -16.5}
+        - {x: -20, y: -27.5}
+        - {x: -19, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 21, y: -22.5}
+        - {x: 21, y: 11.5}
+    - name: CHARMANDER_61
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 114
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 28.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -22.5}
+        - {x: -19, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 21, y: -17.5}
+        - {x: 21, y: 14.5}
+        - {x: 7, y: 28.5}
+    - name: CHARMANDER_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 114
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 28.5}
+        - {x: -19, y: 28.5}
+        - {x: -24, y: 21.5}
+        - {x: -24, y: -26.5}
+        - {x: -22, y: -28.5}
+        - {x: 16, y: -28.5}
+        - {x: 21, y: -20.5}
+        - {x: 21, y: 12.5}
+    - name: CHARMANDER_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 22.5}
+        - {x: 8, y: 28.5}
+        - {x: -15, y: 28.5}
+        - {x: -17, y: 23.5}
+        - {x: -24, y: 4.5}
+        - {x: -24, y: -18.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -10.5}
+    - name: CHARMANDER_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 57
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 28.5}
+        - {x: -16, y: 27.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -19.5}
+        - {x: -21, y: -25.5}
+        - {x: -20, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 22, y: -21.5}
+        - {x: 22, y: 21.5}
+        - {x: 12, y: 28.5}
+    - name: CHARMANDER_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 57
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 28.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -20.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: 5.5}
+        - {x: 10, y: 28.5}
+    - name: CHARMANDER_66
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 57
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 28.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -20.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: 5.5}
+        - {x: 10, y: 28.5}
+    - name: CHARMANDER_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 57
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 28.5}
+        - {x: -17, y: 27.5}
+        - {x: -24, y: 5.5}
+        - {x: -24, y: -23.5}
+        - {x: -21, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: 4.5}
+        - {x: 9, y: 28.5}
+    - name: CHARMANDER_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 57
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 28.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: -0.5}
+        - {x: 11, y: 28.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

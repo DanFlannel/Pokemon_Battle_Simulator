@@ -1,0 +1,1406 @@
+fileFormatVersion: 2
+guid: 6ed815328988acf489c676e129dc2dd3
+timeCreated: 1452734340
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GASTLY_0
+    21300002: GASTLY_1
+    21300004: GASTLY_2
+    21300006: GASTLY_3
+    21300008: GASTLY_4
+    21300010: GASTLY_5
+    21300012: GASTLY_6
+    21300014: GASTLY_7
+    21300016: GASTLY_8
+    21300018: GASTLY_9
+    21300020: GASTLY_10
+    21300022: GASTLY_11
+    21300024: GASTLY_12
+    21300026: GASTLY_13
+    21300028: GASTLY_14
+    21300030: GASTLY_15
+    21300032: GASTLY_16
+    21300034: GASTLY_17
+    21300036: GASTLY_18
+    21300038: GASTLY_19
+    21300040: GASTLY_20
+    21300042: GASTLY_21
+    21300044: GASTLY_22
+    21300046: GASTLY_23
+    21300048: GASTLY_24
+    21300050: GASTLY_25
+    21300052: GASTLY_26
+    21300054: GASTLY_27
+    21300056: GASTLY_28
+    21300058: GASTLY_29
+    21300060: GASTLY_30
+    21300062: GASTLY_31
+    21300064: GASTLY_32
+    21300066: GASTLY_33
+    21300068: GASTLY_34
+    21300070: GASTLY_35
+    21300072: GASTLY_36
+    21300074: GASTLY_37
+    21300076: GASTLY_38
+    21300078: GASTLY_39
+    21300080: GASTLY_40
+    21300082: GASTLY_41
+    21300084: GASTLY_42
+    21300086: GASTLY_43
+    21300088: GASTLY_44
+    21300090: GASTLY_45
+    21300092: GASTLY_46
+    21300094: GASTLY_47
+    21300096: GASTLY_48
+    21300098: GASTLY_49
+    21300100: GASTLY_50
+    21300102: GASTLY_51
+    21300104: GASTLY_52
+    21300106: GASTLY_53
+    21300108: GASTLY_54
+    21300110: GASTLY_55
+    21300112: GASTLY_56
+    21300114: GASTLY_57
+    21300116: GASTLY_58
+    21300118: GASTLY_59
+    21300120: GASTLY_60
+    21300122: GASTLY_61
+    21300124: GASTLY_62
+    21300126: GASTLY_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GASTLY_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 427
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 20.5}
+        - {x: -26, y: -30.5}
+        - {x: 21, y: -30.5}
+        - {x: 26, y: -26.5}
+        - {x: 26, y: 13.5}
+        - {x: 23, y: 20.5}
+    - name: GASTLY_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 427
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 20.5}
+        - {x: -8, y: 20.5}
+        - {x: -21, y: 11.5}
+        - {x: -26, y: -2.5}
+        - {x: -26, y: -30.5}
+        - {x: 23, y: -30.5}
+        - {x: 26, y: -22.5}
+        - {x: 26, y: 10.5}
+        - {x: 25, y: 17.5}
+    - name: GASTLY_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 427
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 20.5}
+        - {x: -26, y: 4.5}
+        - {x: -26, y: -24.5}
+        - {x: -25, y: -27.5}
+        - {x: -15, y: -30.5}
+        - {x: 18, y: -30.5}
+        - {x: 26, y: -20.5}
+        - {x: 26, y: 6.5}
+        - {x: 21, y: 20.5}
+    - name: GASTLY_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 427
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 21.5}
+        - {x: -26, y: 11.5}
+        - {x: -26, y: -17.5}
+        - {x: -18, y: -30.5}
+        - {x: 13, y: -30.5}
+        - {x: 25, y: -18.5}
+        - {x: 25, y: 15.5}
+        - {x: 15, y: 21.5}
+    - name: GASTLY_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 427
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 20.5}
+        - {x: -24, y: 12.5}
+        - {x: -26, y: 9.5}
+        - {x: -26, y: -15.5}
+        - {x: -17, y: -30.5}
+        - {x: 11, y: -30.5}
+        - {x: 25, y: -19.5}
+        - {x: 25, y: 13.5}
+        - {x: 17, y: 20.5}
+    - name: GASTLY_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 427
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 22.5}
+        - {x: -24, y: 20.5}
+        - {x: -26, y: 9.5}
+        - {x: -26, y: -27.5}
+        - {x: -19, y: -30.5}
+        - {x: 12, y: -30.5}
+        - {x: 26, y: -22.5}
+        - {x: 26, y: 11.5}
+        - {x: 8, y: 22.5}
+    - name: GASTLY_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 427
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 22.5}
+        - {x: -26, y: 14.5}
+        - {x: -26, y: -29.5}
+        - {x: -23, y: -30.5}
+        - {x: 25, y: -30.5}
+        - {x: 25, y: 22.5}
+    - name: GASTLY_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 427
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 22.5}
+        - {x: -16, y: 22.5}
+        - {x: -25, y: 15.5}
+        - {x: -25, y: -23.5}
+        - {x: -21, y: -30.5}
+        - {x: 14, y: -30.5}
+        - {x: 24, y: -21.5}
+        - {x: 24, y: 9.5}
+        - {x: 20, y: 21.5}
+    - name: GASTLY_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 366
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 23.5}
+        - {x: -26, y: 11.5}
+        - {x: -26, y: -29.5}
+        - {x: -21, y: -30.5}
+        - {x: 18, y: -30.5}
+        - {x: 24, y: -18.5}
+        - {x: 24, y: 12.5}
+        - {x: 6, y: 23.5}
+    - name: GASTLY_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 366
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 23.5}
+        - {x: -22, y: 13.5}
+        - {x: -26, y: 8.5}
+        - {x: -26, y: -24.5}
+        - {x: -22, y: -30.5}
+        - {x: 23, y: -30.5}
+        - {x: 24, y: -20.5}
+        - {x: 24, y: 16.5}
+        - {x: 12, y: 23.5}
+    - name: GASTLY_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 366
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 20.5}
+        - {x: -21, y: 13.5}
+        - {x: -25, y: 2.5}
+        - {x: -26, y: -5.5}
+        - {x: -26, y: -21.5}
+        - {x: -16, y: -30.5}
+        - {x: 10, y: -30.5}
+        - {x: 24, y: -17.5}
+        - {x: 24, y: 12.5}
+        - {x: 12, y: 20.5}
+      - - {x: -1, y: 18.5}
+        - {x: 2, y: 19.5}
+        - {x: 2, y: 22.5}
+        - {x: -1, y: 23.5}
+        - {x: -3, y: 21.5}
+    - name: GASTLY_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 366
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 20.5}
+        - {x: -26, y: 8.5}
+        - {x: -26, y: -30.5}
+        - {x: 18, y: -30.5}
+        - {x: 25, y: -24.5}
+        - {x: 25, y: 6.5}
+        - {x: 21, y: 20.5}
+    - name: GASTLY_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 366
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 21.5}
+        - {x: -12, y: 21.5}
+        - {x: -26, y: 15.5}
+        - {x: -26, y: -21.5}
+        - {x: -19, y: -30.5}
+        - {x: 11, y: -30.5}
+        - {x: 25, y: -16.5}
+        - {x: 25, y: -5.5}
+        - {x: 24, y: 10.5}
+    - name: GASTLY_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 366
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 21.5}
+        - {x: -26, y: -29.5}
+        - {x: -23, y: -30.5}
+        - {x: 19, y: -30.5}
+        - {x: 24, y: -26.5}
+        - {x: 24, y: 21.5}
+    - name: GASTLY_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 366
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 21.5}
+        - {x: -26, y: 12.5}
+        - {x: -26, y: -27.5}
+        - {x: -20, y: -30.5}
+        - {x: 13, y: -30.5}
+        - {x: 24, y: -18.5}
+        - {x: 24, y: 17.5}
+        - {x: 18, y: 21.5}
+    - name: GASTLY_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 366
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 10.5}
+        - {x: 21, y: 13.5}
+        - {x: 6, y: 20.5}
+        - {x: -16, y: 20.5}
+        - {x: -26, y: 13.5}
+        - {x: -26, y: -20.5}
+        - {x: -21, y: -30.5}
+        - {x: 7, y: -30.5}
+        - {x: 10, y: -29.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: -2.5}
+      - - {x: 15, y: 12.5}
+        - {x: 18, y: 13.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 17.5}
+        - {x: 13, y: 15.5}
+    - name: GASTLY_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -1.5}
+        - {x: 22, y: 10.5}
+        - {x: 15, y: 22.5}
+        - {x: -14, y: 22.5}
+        - {x: -26, y: 18.5}
+        - {x: -26, y: -22.5}
+        - {x: -15, y: -30.5}
+        - {x: 8, y: -30.5}
+        - {x: 10, y: -25.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: -7.5}
+      - - {x: 15, y: 12.5}
+        - {x: 18, y: 13.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 17.5}
+        - {x: 13, y: 15.5}
+    - name: GASTLY_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 305
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 14.5}
+        - {x: 7, y: 22.5}
+        - {x: -13, y: 22.5}
+        - {x: -26, y: 8.5}
+        - {x: -26, y: -19.5}
+        - {x: -15, y: -29.5}
+        - {x: 8, y: -29.5}
+        - {x: 17, y: -24.5}
+        - {x: 24, y: -15.5}
+        - {x: 24, y: 4.5}
+    - name: GASTLY_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 305
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 22.5}
+        - {x: -26, y: 11.5}
+        - {x: -26, y: -22.5}
+        - {x: -18, y: -29.5}
+        - {x: 16, y: -29.5}
+        - {x: 23, y: -27.5}
+        - {x: 23, y: 20.5}
+        - {x: 15, y: 22.5}
+    - name: GASTLY_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 305
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 9.5}
+        - {x: 19, y: 13.5}
+        - {x: 8, y: 23.5}
+        - {x: 2, y: 23.5}
+        - {x: -10, y: 22.5}
+        - {x: -16, y: 15.5}
+        - {x: -16, y: 14.5}
+        - {x: -24, y: 13.5}
+        - {x: -26, y: 9.5}
+        - {x: -26, y: -15.5}
+        - {x: -22, y: -20.5}
+        - {x: -19, y: -25.5}
+        - {x: -13, y: -28.5}
+        - {x: 8, y: -28.5}
+        - {x: 22, y: -17.5}
+        - {x: 22, y: -5.5}
+        - {x: 23, y: 4.5}
+    - name: GASTLY_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 305
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 23.5}
+        - {x: -18, y: 23.5}
+        - {x: -26, y: 12.5}
+        - {x: -26, y: -18.5}
+        - {x: -18, y: -28.5}
+        - {x: 11, y: -28.5}
+        - {x: 22, y: -21.5}
+        - {x: 22, y: 13.5}
+    - name: GASTLY_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 305
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25.5}
+        - {x: -26, y: 14.5}
+        - {x: -26, y: -25.5}
+        - {x: -10, y: -27.5}
+        - {x: 9, y: -27.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 10.5}
+        - {x: 10, y: 25.5}
+    - name: GASTLY_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 305
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25.5}
+        - {x: -26, y: 15.5}
+        - {x: -26, y: -19.5}
+        - {x: -19, y: -26.5}
+        - {x: 5, y: -26.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: 14.5}
+        - {x: 6, y: 25.5}
+    - name: GASTLY_23
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 305
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26.5}
+        - {x: -26, y: 22.5}
+        - {x: -26, y: -16.5}
+        - {x: -22, y: -25.5}
+        - {x: 7, y: -25.5}
+        - {x: 22, y: -17.5}
+        - {x: 22, y: 11.5}
+        - {x: 11, y: 26.5}
+    - name: GASTLY_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 26.5}
+        - {x: -26, y: 22.5}
+        - {x: -26, y: -23.5}
+        - {x: -25, y: -25.5}
+        - {x: 10, y: -25.5}
+        - {x: 22, y: -15.5}
+        - {x: 22, y: 18.5}
+        - {x: 8, y: 26.5}
+    - name: GASTLY_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 244
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 27.5}
+        - {x: -26, y: 18.5}
+        - {x: -26, y: -18.5}
+        - {x: -22, y: -24.5}
+        - {x: 11, y: -24.5}
+        - {x: 21, y: -22.5}
+        - {x: 22, y: -19.5}
+        - {x: 22, y: 21.5}
+        - {x: 16, y: 27.5}
+    - name: GASTLY_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 244
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 11.5}
+        - {x: 18, y: 27.5}
+        - {x: -9, y: 27.5}
+        - {x: -26, y: 11.5}
+        - {x: -26, y: -14.5}
+        - {x: -18, y: -24.5}
+        - {x: 6, y: -24.5}
+        - {x: 22, y: -15.5}
+    - name: GASTLY_27
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 244
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 28.5}
+        - {x: -26, y: 18.5}
+        - {x: -26, y: -21.5}
+        - {x: -14, y: -24.5}
+        - {x: 16, y: -24.5}
+        - {x: 22, y: -19.5}
+        - {x: 22, y: 13.5}
+        - {x: 18, y: 28.5}
+    - name: GASTLY_28
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 244
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 29.5}
+        - {x: -26, y: 15.5}
+        - {x: -26, y: -20.5}
+        - {x: -13, y: -23.5}
+        - {x: 12, y: -23.5}
+        - {x: 22, y: -12.5}
+        - {x: 22, y: 17.5}
+        - {x: 3, y: 29.5}
+    - name: GASTLY_29
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 244
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 29.5}
+        - {x: -10, y: 29.5}
+        - {x: -26, y: 13.5}
+        - {x: -26, y: -13.5}
+        - {x: -23, y: -18.5}
+        - {x: -11, y: -23.5}
+        - {x: 6, y: -23.5}
+        - {x: 23, y: -17.5}
+        - {x: 23, y: 16.5}
+        - {x: 8, y: 26.5}
+    - name: GASTLY_30
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 244
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 27.5}
+        - {x: -26, y: 20.5}
+        - {x: -26, y: -17.5}
+        - {x: -15, y: -23.5}
+        - {x: 13, y: -23.5}
+        - {x: 23, y: -18.5}
+        - {x: 23, y: 17.5}
+        - {x: 15, y: 27.5}
+    - name: GASTLY_31
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 244
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 27.5}
+        - {x: 1, y: 25.5}
+        - {x: -2, y: 27.5}
+        - {x: -17, y: 27.5}
+        - {x: -26, y: 17.5}
+        - {x: -26, y: -19.5}
+        - {x: -14, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 23, y: -8.5}
+        - {x: 23, y: 14.5}
+        - {x: 9, y: 27.5}
+    - name: GASTLY_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -22.5}
+        - {x: 24, y: -12.5}
+        - {x: 24, y: 14.5}
+        - {x: 15, y: 28.5}
+        - {x: -16, y: 28.5}
+        - {x: -26, y: 24.5}
+        - {x: -26, y: -22.5}
+    - name: GASTLY_33
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 183
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 29.5}
+        - {x: -10, y: 29.5}
+        - {x: -26, y: 24.5}
+        - {x: -26, y: -21.5}
+        - {x: 18, y: -21.5}
+        - {x: 23, y: -12.5}
+        - {x: 23, y: 19.5}
+    - name: GASTLY_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 183
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 29.5}
+        - {x: -26, y: 24.5}
+        - {x: -26, y: -21.5}
+        - {x: 24, y: -21.5}
+        - {x: 24, y: 17.5}
+        - {x: 17, y: 29.5}
+    - name: GASTLY_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 183
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 30.5}
+        - {x: -26, y: 21.5}
+        - {x: -26, y: -7.5}
+        - {x: -20, y: -18.5}
+        - {x: -16, y: -22.5}
+        - {x: 6, y: -22.5}
+        - {x: 23, y: -15.5}
+        - {x: 23, y: 17.5}
+        - {x: 12, y: 30.5}
+    - name: GASTLY_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 183
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -15.5}
+        - {x: -21, y: -21.5}
+        - {x: 14, y: -21.5}
+        - {x: 23, y: -17.5}
+        - {x: 23, y: 16.5}
+        - {x: 22, y: 19.5}
+        - {x: 4, y: 30.5}
+        - {x: -7, y: 30.5}
+        - {x: -26, y: 23.5}
+    - name: GASTLY_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 183
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -16.5}
+        - {x: -23, y: -21.5}
+        - {x: 17, y: -21.5}
+        - {x: 24, y: -18.5}
+        - {x: 24, y: 13.5}
+        - {x: 15, y: 28.5}
+        - {x: -23, y: 28.5}
+        - {x: -26, y: 22.5}
+    - name: GASTLY_38
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 183
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -12.5}
+        - {x: -17, y: -21.5}
+        - {x: 9, y: -21.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 16.5}
+        - {x: 17, y: 29.5}
+        - {x: -14, y: 29.5}
+        - {x: -21, y: 26.5}
+        - {x: -26, y: 15.5}
+    - name: GASTLY_39
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 183
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 29.5}
+        - {x: -26, y: 17.5}
+        - {x: -26, y: -17.5}
+        - {x: -12, y: -21.5}
+        - {x: 17, y: -21.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 25.5}
+        - {x: 13, y: 29.5}
+    - name: GASTLY_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 29.5}
+        - {x: -26, y: 15.5}
+        - {x: -26, y: -1.5}
+        - {x: -24, y: -11.5}
+        - {x: -17, y: -21.5}
+        - {x: 11, y: -21.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 18.5}
+        - {x: 8, y: 29.5}
+    - name: GASTLY_41
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 122
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 30.5}
+        - {x: -25, y: 13.5}
+        - {x: -25, y: -15.5}
+        - {x: -18, y: -21.5}
+        - {x: 13, y: -21.5}
+        - {x: 25, y: -11.5}
+        - {x: 25, y: 21.5}
+        - {x: 4, y: 30.5}
+    - name: GASTLY_42
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 122
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 27.5}
+        - {x: 4, y: 29.5}
+        - {x: -19, y: 29.5}
+        - {x: -25, y: 20.5}
+        - {x: -25, y: -14.5}
+        - {x: -11, y: -22.5}
+        - {x: 4, y: -22.5}
+        - {x: 12, y: -20.5}
+        - {x: 25, y: -6.5}
+        - {x: 25, y: 10.5}
+        - {x: 23, y: 18.5}
+    - name: GASTLY_43
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 122
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 30.5}
+        - {x: -25, y: 13.5}
+        - {x: -25, y: -20.5}
+        - {x: -20, y: -21.5}
+        - {x: 18, y: -21.5}
+        - {x: 26, y: -9.5}
+        - {x: 26, y: 11.5}
+        - {x: 21, y: 30.5}
+    - name: GASTLY_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 122
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 30.5}
+        - {x: -17, y: 30.5}
+        - {x: -25, y: 21.5}
+        - {x: -25, y: -13.5}
+        - {x: -21, y: -21.5}
+        - {x: 17, y: -21.5}
+        - {x: 26, y: -3.5}
+        - {x: 26, y: 12.5}
+        - {x: 25, y: 16.5}
+    - name: GASTLY_45
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 122
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 30.5}
+        - {x: -25, y: -17.5}
+        - {x: -24, y: -19.5}
+        - {x: -12, y: -22.5}
+        - {x: 15, y: -22.5}
+        - {x: 26, y: -4.5}
+        - {x: 26, y: 28.5}
+        - {x: 20, y: 30.5}
+    - name: GASTLY_46
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 122
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 30.5}
+        - {x: -17, y: 30.5}
+        - {x: -22, y: 26.5}
+        - {x: -25, y: 17.5}
+        - {x: -25, y: 0.5}
+        - {x: -20, y: -17.5}
+        - {x: -17, y: -19.5}
+        - {x: -9, y: -22.5}
+        - {x: 15, y: -22.5}
+        - {x: 26, y: -3.5}
+        - {x: 26, y: 18.5}
+    - name: GASTLY_47
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 122
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 11.5}
+        - {x: -26, y: -0.5}
+        - {x: -21, y: -20.5}
+        - {x: -19, y: -23.5}
+        - {x: 17, y: -23.5}
+        - {x: 26, y: -16.5}
+        - {x: 26, y: 16.5}
+        - {x: 24, y: 19.5}
+        - {x: 8, y: 30.5}
+        - {x: -10, y: 30.5}
+        - {x: -17, y: 29.5}
+    - name: GASTLY_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 30.5}
+        - {x: -17, y: 26.5}
+        - {x: -25, y: 13.5}
+        - {x: -25, y: -16.5}
+        - {x: -12, y: -23.5}
+        - {x: 24, y: -23.5}
+        - {x: 26, y: -13.5}
+        - {x: 26, y: 26.5}
+        - {x: 16, y: 30.5}
+    - name: GASTLY_49
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 61
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 30.5}
+        - {x: -21, y: 30.5}
+        - {x: -25, y: 14.5}
+        - {x: -25, y: -7.5}
+        - {x: -20, y: -18.5}
+        - {x: -11, y: -24.5}
+        - {x: 16, y: -24.5}
+        - {x: 26, y: -8.5}
+        - {x: 26, y: 16.5}
+        - {x: 19, y: 29.5}
+    - name: GASTLY_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 61
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 27.5}
+        - {x: 11, y: 30.5}
+        - {x: -12, y: 30.5}
+        - {x: -24, y: 27.5}
+        - {x: -25, y: 23.5}
+        - {x: -25, y: -20.5}
+        - {x: -17, y: -25.5}
+        - {x: 11, y: -25.5}
+        - {x: 13, y: -24.5}
+        - {x: 17, y: -21.5}
+        - {x: 26, y: -10.5}
+        - {x: 26, y: 10.5}
+    - name: GASTLY_51
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 61
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 30.5}
+        - {x: -25, y: 25.5}
+        - {x: -25, y: -24.5}
+        - {x: -21, y: -25.5}
+        - {x: 22, y: -25.5}
+        - {x: 26, y: -17.5}
+        - {x: 26, y: 17.5}
+        - {x: 13, y: 30.5}
+    - name: GASTLY_52
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 61
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 30.5}
+        - {x: -22, y: 22.5}
+        - {x: -25, y: 14.5}
+        - {x: -25, y: -9.5}
+        - {x: -20, y: -26.5}
+        - {x: 22, y: -26.5}
+        - {x: 26, y: -22.5}
+        - {x: 26, y: 19.5}
+        - {x: 22, y: 30.5}
+    - name: GASTLY_53
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 61
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 28.5}
+        - {x: -15, y: 28.5}
+        - {x: -25, y: 13.5}
+        - {x: -25, y: -7.5}
+        - {x: -23, y: -18.5}
+        - {x: -11, y: -26.5}
+        - {x: 13, y: -26.5}
+        - {x: 26, y: -18.5}
+        - {x: 26, y: 20.5}
+        - {x: 25, y: 23.5}
+    - name: GASTLY_54
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 61
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 20.5}
+        - {x: 12, y: 27.5}
+        - {x: -12, y: 27.5}
+        - {x: -25, y: 13.5}
+        - {x: -25, y: -20.5}
+        - {x: -9, y: -27.5}
+        - {x: 11, y: -27.5}
+        - {x: 14, y: -26.5}
+        - {x: 26, y: -13.5}
+        - {x: 26, y: 4.5}
+    - name: GASTLY_55
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 61
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 26.5}
+        - {x: -24, y: 22.5}
+        - {x: -24, y: -25.5}
+        - {x: -13, y: -27.5}
+        - {x: 22, y: -27.5}
+        - {x: 26, y: -19.5}
+        - {x: 26, y: 24.5}
+        - {x: 19, y: 26.5}
+    - name: GASTLY_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -19.5}
+        - {x: -22, y: -25.5}
+        - {x: -18, y: -28.5}
+        - {x: 13, y: -28.5}
+        - {x: 26, y: -20.5}
+        - {x: 26, y: 10.5}
+        - {x: 22, y: 19.5}
+        - {x: 14, y: 26.5}
+        - {x: -17, y: 26.5}
+        - {x: -24, y: 23.5}
+    - name: GASTLY_57
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 26.5}
+        - {x: -24, y: 18.5}
+        - {x: -24, y: -26.5}
+        - {x: -23, y: -27.5}
+        - {x: 16, y: -27.5}
+        - {x: 26, y: -22.5}
+        - {x: 26, y: 16.5}
+        - {x: 23, y: 26.5}
+    - name: GASTLY_58
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 24.5}
+        - {x: -24, y: 14.5}
+        - {x: -24, y: -27.5}
+        - {x: -19, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 26, y: -22.5}
+        - {x: 26, y: 7.5}
+        - {x: 18, y: 24.5}
+    - name: GASTLY_59
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 23.5}
+        - {x: -8, y: 23.5}
+        - {x: -14, y: 22.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -27.5}
+        - {x: -18, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 26, y: -18.5}
+        - {x: 26, y: 6.5}
+        - {x: 25, y: 11.5}
+    - name: GASTLY_60
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 22.5}
+        - {x: -24, y: 17.5}
+        - {x: -24, y: -21.5}
+        - {x: -11, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 26, y: -15.5}
+        - {x: 26, y: 12.5}
+        - {x: 22, y: 22.5}
+    - name: GASTLY_61
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 14.5}
+        - {x: 19, y: 23.5}
+        - {x: -8, y: 23.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -21.5}
+        - {x: -18, y: -29.5}
+        - {x: 12, y: -29.5}
+        - {x: 16, y: -26.5}
+        - {x: 26, y: -16.5}
+        - {x: 26, y: 8.5}
+    - name: GASTLY_62
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 22.5}
+        - {x: -25, y: 11.5}
+        - {x: -25, y: -29.5}
+        - {x: -21, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 26, y: -16.5}
+        - {x: 26, y: 18.5}
+        - {x: 25, y: 22.5}
+    - name: GASTLY_63
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 21.5}
+        - {x: -5, y: 21.5}
+        - {x: -26, y: 12.5}
+        - {x: -26, y: -26.5}
+        - {x: -18, y: -30.5}
+        - {x: 14, y: -30.5}
+        - {x: 26, y: -16.5}
+        - {x: 26, y: 9.5}
+        - {x: 24, y: 19.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,986 @@
+fileFormatVersion: 2
+guid: c8a311a81075db94aa0e101257d5a932
+timeCreated: 1452734232
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EKANS_0
+    21300002: EKANS_1
+    21300004: EKANS_2
+    21300006: EKANS_3
+    21300008: EKANS_4
+    21300010: EKANS_5
+    21300012: EKANS_6
+    21300014: EKANS_7
+    21300016: EKANS_8
+    21300018: EKANS_9
+    21300020: EKANS_10
+    21300022: EKANS_11
+    21300024: EKANS_12
+    21300026: EKANS_13
+    21300028: EKANS_14
+    21300030: EKANS_15
+    21300032: EKANS_16
+    21300034: EKANS_17
+    21300036: EKANS_18
+    21300038: EKANS_19
+    21300040: EKANS_20
+    21300042: EKANS_21
+    21300044: EKANS_22
+    21300046: EKANS_23
+    21300048: EKANS_24
+    21300050: EKANS_25
+    21300052: EKANS_26
+    21300054: EKANS_27
+    21300056: EKANS_28
+    21300058: EKANS_29
+    21300060: EKANS_30
+    21300062: EKANS_31
+    21300064: EKANS_32
+    21300066: EKANS_33
+    21300068: EKANS_34
+    21300070: EKANS_35
+    21300072: EKANS_36
+    21300074: EKANS_37
+    21300076: EKANS_38
+    21300078: EKANS_39
+    21300080: EKANS_40
+    21300082: EKANS_41
+    21300084: EKANS_42
+    21300086: EKANS_43
+    21300088: EKANS_44
+    21300090: EKANS_45
+    21300092: EKANS_46
+    21300094: EKANS_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EKANS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 0}
+        - {x: 17, y: 21}
+        - {x: -11, y: 21}
+        - {x: -23, y: 6}
+    - name: EKANS_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 252
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 7}
+        - {x: -19, y: 3}
+        - {x: -23, y: -6}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 3}
+        - {x: 18, y: 21}
+        - {x: -7, y: 21}
+        - {x: -12, y: 11}
+    - name: EKANS_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 252
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 4}
+        - {x: 19, y: 21}
+        - {x: -8, y: 21}
+        - {x: -23, y: -3}
+    - name: EKANS_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 252
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 21}
+        - {x: -23, y: -2}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -4}
+        - {x: 16, y: 21}
+    - name: EKANS_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 252
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 21}
+        - {x: -23, y: -3}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 1}
+        - {x: 11, y: 21}
+    - name: EKANS_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 252
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 21}
+        - {x: -7, y: 21}
+        - {x: -23, y: -4}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -6}
+        - {x: 22, y: 0}
+    - name: EKANS_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 252
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 15}
+        - {x: 9, y: 21}
+        - {x: -4, y: 21}
+        - {x: -10, y: 15}
+        - {x: -23, y: -9}
+        - {x: -23, y: -20}
+        - {x: -22, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -5}
+        - {x: 20, y: -2}
+    - name: EKANS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 21}
+        - {x: -8, y: 21}
+        - {x: -23, y: -7}
+        - {x: -23, y: -20}
+        - {x: -22, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -4}
+        - {x: 19, y: 18}
+    - name: EKANS_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 210
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 21}
+        - {x: -23, y: -8}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 17, y: 15}
+        - {x: 10, y: 21}
+    - name: EKANS_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 210
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 21}
+        - {x: -10, y: 16}
+        - {x: -23, y: -4}
+        - {x: -23, y: -21}
+        - {x: 22, y: -21}
+        - {x: 23, y: -20}
+        - {x: 23, y: -4}
+        - {x: 10, y: 21}
+    - name: EKANS_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 210
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 21}
+        - {x: -14, y: 21}
+        - {x: -23, y: 7}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 14, y: 20}
+    - name: EKANS_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 210
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 21}
+        - {x: -11, y: 21}
+        - {x: -13, y: 16}
+        - {x: -23, y: -6}
+        - {x: -23, y: -20}
+        - {x: -22, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -1}
+        - {x: 21, y: 17}
+    - name: EKANS_12
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 210
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 21}
+        - {x: -23, y: -1}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 15}
+        - {x: 10, y: 21}
+    - name: EKANS_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 210
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 21}
+        - {x: -7, y: 21}
+        - {x: -16, y: 18}
+        - {x: -23, y: -1}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -2}
+        - {x: 18, y: 12}
+    - name: EKANS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 21}
+        - {x: -15, y: 18}
+        - {x: -21, y: 2}
+        - {x: -23, y: -5}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 0}
+        - {x: 11, y: 21}
+    - name: EKANS_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 168
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 21}
+        - {x: -23, y: -3}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 1}
+        - {x: 20, y: 12}
+        - {x: 8, y: 21}
+    - name: EKANS_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 168
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 9}
+        - {x: 22, y: 13}
+        - {x: 8, y: 21}
+        - {x: -9, y: 21}
+        - {x: -23, y: -3}
+    - name: EKANS_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 168
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 21}
+        - {x: -23, y: -2}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 13}
+        - {x: 9, y: 21}
+    - name: EKANS_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 168
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 21}
+        - {x: -15, y: 21}
+        - {x: -23, y: 6}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 4}
+        - {x: 14, y: 20}
+    - name: EKANS_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 168
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 21}
+        - {x: -10, y: 21}
+        - {x: -16, y: 16}
+        - {x: -23, y: -1}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 13, y: 19}
+    - name: EKANS_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 168
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 7}
+        - {x: 20, y: 21}
+        - {x: -9, y: 21}
+        - {x: -23, y: -3}
+    - name: EKANS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 21}
+        - {x: -20, y: 6}
+        - {x: -23, y: -7}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -1}
+        - {x: 8, y: 21}
+    - name: EKANS_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 126
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 21}
+        - {x: -13, y: 14}
+        - {x: -21, y: 1}
+        - {x: -23, y: -7}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -5}
+        - {x: 8, y: 21}
+    - name: EKANS_23
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 126
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 20}
+        - {x: -22, y: -3}
+        - {x: -23, y: -6}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 10}
+        - {x: 6, y: 20}
+    - name: EKANS_24
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 126
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20}
+        - {x: -14, y: 15}
+        - {x: -23, y: -2}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 9, y: 20}
+    - name: EKANS_25
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 126
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 20}
+        - {x: -23, y: 0}
+        - {x: -23, y: -20}
+        - {x: -22, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -4}
+        - {x: 21, y: 5}
+        - {x: 9, y: 20}
+    - name: EKANS_26
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 126
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 5}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -4}
+        - {x: 21, y: 5}
+        - {x: 13, y: 20}
+        - {x: -11, y: 20}
+        - {x: -19, y: 18}
+    - name: EKANS_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 126
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 20}
+        - {x: -13, y: 13}
+        - {x: -22, y: -3}
+        - {x: -23, y: -6}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -4}
+        - {x: 21, y: 5}
+        - {x: 7, y: 19}
+        - {x: 4, y: 20}
+    - name: EKANS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 20}
+        - {x: -23, y: -2}
+        - {x: -23, y: -20}
+        - {x: -22, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 21, y: 4}
+        - {x: 13, y: 18}
+        - {x: 6, y: 20}
+    - name: EKANS_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 84
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -20}
+        - {x: -22, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 10}
+        - {x: 21, y: 20}
+        - {x: -9, y: 20}
+        - {x: -23, y: 3}
+    - name: EKANS_30
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 84
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 20}
+        - {x: -17, y: 15}
+        - {x: -23, y: -5}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 5}
+        - {x: 8, y: 20}
+    - name: EKANS_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 84
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -5}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -1}
+        - {x: 16, y: 20}
+        - {x: -4, y: 20}
+        - {x: -15, y: 12}
+    - name: EKANS_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 84
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -8}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 0}
+        - {x: 17, y: 20}
+        - {x: -9, y: 20}
+        - {x: -13, y: 10}
+    - name: EKANS_33
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 84
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 18}
+        - {x: 6, y: 20}
+        - {x: -9, y: 20}
+        - {x: -15, y: 18}
+        - {x: -23, y: -5}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 17, y: -1}
+        - {x: 13, y: 12}
+    - name: EKANS_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 84
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 6}
+        - {x: 20, y: 19}
+        - {x: 16, y: 20}
+        - {x: -7, y: 20}
+        - {x: -23, y: -1}
+    - name: EKANS_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 5}
+        - {x: 19, y: 20}
+        - {x: -7, y: 20}
+        - {x: -23, y: -4}
+    - name: EKANS_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 42
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 20}
+        - {x: -6, y: 20}
+        - {x: -23, y: -1}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -2}
+        - {x: 14, y: 18}
+    - name: EKANS_37
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 42
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -2}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -2}
+        - {x: 21, y: 5}
+        - {x: 10, y: 20}
+        - {x: -4, y: 20}
+        - {x: -13, y: 16}
+    - name: EKANS_38
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 42
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 20}
+        - {x: -4, y: 20}
+        - {x: -11, y: 13}
+        - {x: -23, y: -4}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -7}
+        - {x: 21, y: -4}
+    - name: EKANS_39
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 42
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 0}
+        - {x: 17, y: 21}
+        - {x: -6, y: 21}
+        - {x: -23, y: -3}
+    - name: EKANS_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 42
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 21}
+        - {x: -23, y: -2}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 17}
+        - {x: 12, y: 21}
+    - name: EKANS_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 42
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 21}
+        - {x: -23, y: 1}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 19, y: 12}
+        - {x: 9, y: 21}
+    - name: EKANS_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 18, y: 18}
+        - {x: 12, y: 21}
+        - {x: -8, y: 21}
+        - {x: -23, y: 0}
+    - name: EKANS_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 21}
+        - {x: -23, y: -4}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 19, y: 14}
+        - {x: 10, y: 21}
+    - name: EKANS_44
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 21}
+        - {x: -11, y: 13}
+        - {x: -23, y: -4}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -1}
+        - {x: 18, y: 19}
+        - {x: 11, y: 21}
+    - name: EKANS_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: 0}
+        - {x: 18, y: 19}
+        - {x: 17, y: 21}
+        - {x: -10, y: 21}
+        - {x: -23, y: 8}
+    - name: EKANS_46
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 21}
+        - {x: -6, y: 21}
+        - {x: -12, y: 11}
+        - {x: -23, y: -4}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -4}
+        - {x: 15, y: 20}
+    - name: EKANS_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 21}
+        - {x: -21, y: 1}
+        - {x: -23, y: -5}
+        - {x: -23, y: -21}
+        - {x: 23, y: -21}
+        - {x: 23, y: -3}
+        - {x: 17, y: 21}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

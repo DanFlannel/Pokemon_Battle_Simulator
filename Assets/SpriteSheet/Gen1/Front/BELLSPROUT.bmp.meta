@@ -1,0 +1,1368 @@
+fileFormatVersion: 2
+guid: 31e8d94382e5de14e9c47a886e0c5eb2
+timeCreated: 1452733442
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BELLSPROUT_0
+    21300002: BELLSPROUT_1
+    21300004: BELLSPROUT_2
+    21300006: BELLSPROUT_3
+    21300008: BELLSPROUT_4
+    21300010: BELLSPROUT_5
+    21300012: BELLSPROUT_6
+    21300014: BELLSPROUT_7
+    21300016: BELLSPROUT_8
+    21300018: BELLSPROUT_9
+    21300020: BELLSPROUT_10
+    21300022: BELLSPROUT_11
+    21300024: BELLSPROUT_12
+    21300026: BELLSPROUT_13
+    21300028: BELLSPROUT_14
+    21300030: BELLSPROUT_15
+    21300032: BELLSPROUT_16
+    21300034: BELLSPROUT_17
+    21300036: BELLSPROUT_18
+    21300038: BELLSPROUT_19
+    21300040: BELLSPROUT_20
+    21300042: BELLSPROUT_21
+    21300044: BELLSPROUT_22
+    21300046: BELLSPROUT_23
+    21300048: BELLSPROUT_24
+    21300050: BELLSPROUT_25
+    21300052: BELLSPROUT_26
+    21300054: BELLSPROUT_27
+    21300056: BELLSPROUT_28
+    21300058: BELLSPROUT_29
+    21300060: BELLSPROUT_30
+    21300062: BELLSPROUT_31
+    21300064: BELLSPROUT_32
+    21300066: BELLSPROUT_33
+    21300068: BELLSPROUT_34
+    21300070: BELLSPROUT_35
+    21300072: BELLSPROUT_36
+    21300074: BELLSPROUT_37
+    21300076: BELLSPROUT_38
+    21300078: BELLSPROUT_39
+    21300080: BELLSPROUT_40
+    21300082: BELLSPROUT_41
+    21300084: BELLSPROUT_42
+    21300086: BELLSPROUT_43
+    21300088: BELLSPROUT_44
+    21300090: BELLSPROUT_45
+    21300092: BELLSPROUT_46
+    21300094: BELLSPROUT_47
+    21300096: BELLSPROUT_48
+    21300098: BELLSPROUT_49
+    21300100: BELLSPROUT_50
+    21300102: BELLSPROUT_51
+    21300104: BELLSPROUT_52
+    21300106: BELLSPROUT_53
+    21300108: BELLSPROUT_54
+    21300110: BELLSPROUT_55
+    21300112: BELLSPROUT_56
+    21300114: BELLSPROUT_57
+    21300116: BELLSPROUT_58
+    21300118: BELLSPROUT_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BELLSPROUT_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 343
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 24.5}
+        - {x: -20.5, y: -4.5}
+        - {x: -20.5, y: -16.5}
+        - {x: -17.5, y: -18.5}
+        - {x: -14.5, y: -18.5}
+        - {x: -12.5, y: -16.5}
+        - {x: -4.5, y: -16.5}
+        - {x: -14.5, y: -18.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: 18.5}
+        - {x: 11.5, y: 24.5}
+    - name: BELLSPROUT_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 343
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 24.5}
+        - {x: -21.5, y: -5.5}
+        - {x: -21.5, y: -16.5}
+        - {x: -16.5, y: -18.5}
+        - {x: -14.5, y: -18.5}
+        - {x: -12.5, y: -16.5}
+        - {x: -4.5, y: -18.5}
+        - {x: -14.5, y: -18.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: 14.5}
+        - {x: 13.5, y: 24.5}
+    - name: BELLSPROUT_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 343
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 24.5}
+        - {x: -21.5, y: 4.5}
+        - {x: -21.5, y: -17.5}
+        - {x: -18.5, y: -19.5}
+        - {x: -14.5, y: -17.5}
+        - {x: -12.5, y: -15.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -17.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: 16.5}
+        - {x: 8.5, y: 24.5}
+    - name: BELLSPROUT_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 343
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 13.5}
+        - {x: 8.5, y: 10.5}
+        - {x: 9.5, y: 12.5}
+        - {x: 11.5, y: 18.5}
+        - {x: 7.5, y: 24.5}
+        - {x: -19.5, y: 24.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: 10.5}
+        - {x: 13.5, y: 13.5}
+    - name: BELLSPROUT_4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 343
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 24.5}
+        - {x: -7.5, y: 24.5}
+        - {x: -11.5, y: 17.5}
+        - {x: -21.5, y: -2.5}
+        - {x: -21.5, y: -14.5}
+        - {x: -13.5, y: -17.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 18.5, y: 21.5}
+        - {x: 14.5, y: 23.5}
+    - name: BELLSPROUT_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 343
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 24.5}
+        - {x: -21.5, y: 4.5}
+        - {x: -21.5, y: -24.5}
+        - {x: 19.5, y: -24.5}
+        - {x: 19.5, y: 20.5}
+        - {x: 15.5, y: 24.5}
+    - name: BELLSPROUT_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 343
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 24.5}
+        - {x: -10.5, y: 20.5}
+        - {x: -21.5, y: -5.5}
+        - {x: -21.5, y: -21.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 20.5, y: -24.5}
+        - {x: 20.5, y: 20.5}
+        - {x: 8.5, y: 24.5}
+    - name: BELLSPROUT_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 343
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 24.5}
+        - {x: -22.5, y: -1.5}
+        - {x: -22.5, y: -12.5}
+        - {x: -18.5, y: -13.5}
+        - {x: -16.5, y: -13.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 21.5, y: -24.5}
+        - {x: 21.5, y: 19.5}
+        - {x: 13.5, y: 24.5}
+    - name: BELLSPROUT_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 10.5}
+        - {x: 12.5, y: 24.5}
+        - {x: -8.5, y: 24.5}
+        - {x: -22.5, y: -3.5}
+        - {x: -22.5, y: -21.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 22.5, y: -24.5}
+        - {x: 22.5, y: 10.5}
+        - {x: 19.5, y: 11.5}
+    - name: BELLSPROUT_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 294
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 24.5}
+        - {x: -11.5, y: 23.5}
+        - {x: -22.5, y: -0.5}
+        - {x: -22.5, y: -21.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 20.5, y: -24.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 11.5, y: 24.5}
+    - name: BELLSPROUT_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 294
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 24.5}
+        - {x: -11.5, y: 23.5}
+        - {x: -22.5, y: -2.5}
+        - {x: -22.5, y: -9.5}
+        - {x: -17.5, y: -11.5}
+        - {x: -19.5, y: -24.5}
+        - {x: 22.5, y: -24.5}
+        - {x: 23.5, y: -15.5}
+        - {x: 23.5, y: 10.5}
+        - {x: 13.5, y: 24.5}
+    - name: BELLSPROUT_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 294
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 24.5}
+        - {x: -23.5, y: 0.5}
+        - {x: -23.5, y: -8.5}
+        - {x: -22.5, y: -9.5}
+        - {x: -19.5, y: -24.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: 21.5}
+        - {x: 19.5, y: 24.5}
+    - name: BELLSPROUT_12
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 294
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -1.5}
+        - {x: 25.5, y: 14.5}
+        - {x: 24.5, y: 18.5}
+        - {x: 15.5, y: 24.5}
+        - {x: -20.5, y: 24.5}
+        - {x: -23.5, y: 19.5}
+        - {x: -23.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 19.5, y: -21.5}
+        - {x: 11.5, y: -17.5}
+        - {x: 21.5, y: -8.5}
+    - name: BELLSPROUT_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 294
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -5.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 12.5, y: 24.5}
+        - {x: -16.5, y: 24.5}
+        - {x: -24.5, y: 1.5}
+        - {x: -24.5, y: -8.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 19.5, y: -21.5}
+        - {x: 11.5, y: -17.5}
+        - {x: 22.5, y: -9.5}
+    - name: BELLSPROUT_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 294
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 24.5}
+        - {x: -9.5, y: 24.5}
+        - {x: -24.5, y: -1.5}
+        - {x: -23.5, y: -4.5}
+        - {x: -22.5, y: -21.5}
+        - {x: -19.5, y: -24.5}
+        - {x: 27.5, y: -24.5}
+        - {x: 27.5, y: 14.5}
+        - {x: 14.5, y: 23.5}
+    - name: BELLSPROUT_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 294
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 6.5}
+        - {x: 8.5, y: 24.5}
+        - {x: -8.5, y: 24.5}
+        - {x: -24.5, y: 5.5}
+        - {x: -24.5, y: -1.5}
+        - {x: -23.5, y: -2.5}
+        - {x: -15.5, y: -5.5}
+        - {x: -11.5, y: -6.5}
+        - {x: -21.5, y: -21.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 27.5, y: -24.5}
+    - name: BELLSPROUT_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 24.5}
+        - {x: -24.5, y: 15.5}
+        - {x: -24.5, y: -24.5}
+        - {x: 22.5, y: -24.5}
+        - {x: 27.5, y: -19.5}
+        - {x: 27.5, y: 3.5}
+        - {x: 12.5, y: 24.5}
+    - name: BELLSPROUT_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 245
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 9.5}
+        - {x: 19.5, y: 24.5}
+        - {x: -3.5, y: 24.5}
+        - {x: -7.5, y: 21.5}
+        - {x: -24.5, y: 12.5}
+        - {x: -24.5, y: -17.5}
+        - {x: -22.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 27.5, y: -18.5}
+    - name: BELLSPROUT_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 245
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: -19.5}
+        - {x: 27.5, y: -18.5}
+        - {x: 27.5, y: -3.5}
+        - {x: 15.5, y: 23.5}
+        - {x: 12.5, y: 24.5}
+        - {x: -5.5, y: 24.5}
+        - {x: -10.5, y: 23.5}
+        - {x: -25.5, y: 11.5}
+        - {x: -25.5, y: -13.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 18.5, y: -23.5}
+        - {x: 18.5, y: -21.5}
+    - name: BELLSPROUT_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 245
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 24.5}
+        - {x: -17.5, y: 24.5}
+        - {x: -23.5, y: 14.5}
+        - {x: -23.5, y: -4.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 27.5, y: -24.5}
+        - {x: 27.5, y: 1.5}
+        - {x: 24.5, y: 10.5}
+    - name: BELLSPROUT_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 245
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 24.5}
+        - {x: -18.5, y: 24.5}
+        - {x: -24.5, y: 12.5}
+        - {x: -24.5, y: -0.5}
+        - {x: -19.5, y: -24.5}
+        - {x: 27.5, y: -24.5}
+        - {x: 27.5, y: 3.5}
+        - {x: 24.5, y: 17.5}
+    - name: BELLSPROUT_21
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 245
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -14.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 27.5, y: -24.5}
+        - {x: 27.5, y: 16.5}
+        - {x: 25.5, y: 24.5}
+        - {x: -9.5, y: 24.5}
+        - {x: -23.5, y: 11.5}
+    - name: BELLSPROUT_22
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 245
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -18.5}
+        - {x: 25.5, y: -19.5}
+        - {x: 27.5, y: -18.5}
+        - {x: 27.5, y: 3.5}
+        - {x: 16.5, y: 24.5}
+        - {x: -14.5, y: 24.5}
+        - {x: -22.5, y: 19.5}
+        - {x: -22.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 18.5, y: -23.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 16.5, y: -17.5}
+    - name: BELLSPROUT_23
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 245
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -18.5}
+        - {x: 26.5, y: -3.5}
+        - {x: 9.5, y: 24.5}
+        - {x: -7.5, y: 24.5}
+        - {x: -21.5, y: 14.5}
+        - {x: -21.5, y: -23.5}
+        - {x: -19.5, y: -24.5}
+        - {x: 19.5, y: -24.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 24.5, y: -19.5}
+    - name: BELLSPROUT_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -21.5}
+        - {x: 25.5, y: -22.5}
+        - {x: 25.5, y: 12.5}
+        - {x: 22.5, y: 24.5}
+        - {x: -9.5, y: 24.5}
+        - {x: -20.5, y: 17.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 18.5, y: -23.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 15.5, y: -18.5}
+    - name: BELLSPROUT_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 196
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -21.5}
+        - {x: 25.5, y: -22.5}
+        - {x: 25.5, y: 0.5}
+        - {x: 23.5, y: 8.5}
+        - {x: 9.5, y: 24.5}
+        - {x: -12.5, y: 24.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 18.5, y: -23.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 15.5, y: -18.5}
+    - name: BELLSPROUT_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 196
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -23.5}
+        - {x: 25.5, y: 6.5}
+        - {x: 21.5, y: 24.5}
+        - {x: -14.5, y: 24.5}
+        - {x: -18.5, y: 21.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 15.5, y: -18.5}
+        - {x: 19.5, y: -21.5}
+    - name: BELLSPROUT_27
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 196
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 24.5}
+        - {x: -6.5, y: 24.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: 7.5}
+        - {x: 19.5, y: 23.5}
+    - name: BELLSPROUT_28
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 196
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -19.5}
+        - {x: 22.5, y: -20.5}
+        - {x: 24.5, y: -17.5}
+        - {x: 24.5, y: 0.5}
+        - {x: 9.5, y: 24.5}
+        - {x: -11.5, y: 24.5}
+        - {x: -18.5, y: 13.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 18.5, y: -23.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 16.5, y: -17.5}
+    - name: BELLSPROUT_29
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 196
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -18.5}
+        - {x: 23.5, y: -19.5}
+        - {x: 24.5, y: -17.5}
+        - {x: 24.5, y: 10.5}
+        - {x: 16.5, y: 23.5}
+        - {x: 13.5, y: 24.5}
+        - {x: -5.5, y: 24.5}
+        - {x: -9.5, y: 22.5}
+        - {x: -18.5, y: 11.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 18.5, y: -23.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 16.5, y: -17.5}
+    - name: BELLSPROUT_30
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 196
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -17.5}
+        - {x: 24.5, y: -15.5}
+        - {x: 24.5, y: -3.5}
+        - {x: 21.5, y: 5.5}
+        - {x: 7.5, y: 24.5}
+        - {x: -15.5, y: 24.5}
+        - {x: -19.5, y: 20.5}
+        - {x: -19.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 19.5, y: -20.5}
+        - {x: 16.5, y: -17.5}
+    - name: BELLSPROUT_31
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 196
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -18.5}
+        - {x: 24.5, y: 22.5}
+        - {x: 23.5, y: 24.5}
+        - {x: -16.5, y: 24.5}
+        - {x: -19.5, y: 23.5}
+        - {x: -19.5, y: -3.5}
+        - {x: -14.5, y: -7.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -19.5, y: -24.5}
+        - {x: 19.5, y: -24.5}
+        - {x: 19.5, y: -20.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 17.5, y: -18.5}
+    - name: BELLSPROUT_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -16.5}
+        - {x: 24.5, y: 11.5}
+        - {x: 18.5, y: 24.5}
+        - {x: -9.5, y: 24.5}
+        - {x: -20.5, y: 11.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 19.5, y: -24.5}
+        - {x: 19.5, y: -20.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+    - name: BELLSPROUT_33
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 147
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -18.5}
+        - {x: 24.5, y: -15.5}
+        - {x: 24.5, y: 0.5}
+        - {x: 16.5, y: 4.5}
+        - {x: 8.5, y: 24.5}
+        - {x: -20.5, y: 24.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 16.5, y: -19.5}
+    - name: BELLSPROUT_34
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 147
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -18.5}
+        - {x: 21.5, y: -15.5}
+        - {x: 23.5, y: -12.5}
+        - {x: 24.5, y: -10.5}
+        - {x: 24.5, y: 0.5}
+        - {x: 10.5, y: 24.5}
+        - {x: -9.5, y: 24.5}
+        - {x: -21.5, y: 16.5}
+        - {x: -21.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 16.5, y: -19.5}
+    - name: BELLSPROUT_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 147
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 24.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -24.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: 2.5}
+        - {x: 13.5, y: 24.5}
+    - name: BELLSPROUT_36
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 147
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 24.5}
+        - {x: -22.5, y: -24.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: 24.5}
+    - name: BELLSPROUT_37
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 147
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 24.5}
+        - {x: -23.5, y: 13.5}
+        - {x: -23.5, y: -4.5}
+        - {x: -15.5, y: -10.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -17.5, y: -24.5}
+        - {x: 23.5, y: -24.5}
+        - {x: 23.5, y: 9.5}
+        - {x: 11.5, y: 24.5}
+    - name: BELLSPROUT_38
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 147
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 24.5}
+        - {x: -17.5, y: 24.5}
+        - {x: -24.5, y: 7.5}
+        - {x: -24.5, y: -20.5}
+        - {x: -22.5, y: -24.5}
+        - {x: 20.5, y: -24.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 23.5, y: -14.5}
+        - {x: 23.5, y: 8.5}
+    - name: BELLSPROUT_39
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 147
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 24.5}
+        - {x: -25.5, y: 10.5}
+        - {x: -25.5, y: -16.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 23.5, y: -24.5}
+        - {x: 23.5, y: 23.5}
+        - {x: 18.5, y: 24.5}
+    - name: BELLSPROUT_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 6.5}
+        - {x: 9.5, y: 23.5}
+        - {x: 7.5, y: 24.5}
+        - {x: -14.5, y: 24.5}
+        - {x: -26.5, y: 11.5}
+        - {x: -26.5, y: -20.5}
+        - {x: -25.5, y: -24.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: 2.5}
+        - {x: 17.5, y: 6.5}
+    - name: BELLSPROUT_41
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 98
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 24.5}
+        - {x: -16.5, y: 21.5}
+        - {x: -27.5, y: 14.5}
+        - {x: -27.5, y: -24.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: 18.5}
+        - {x: 16.5, y: 24.5}
+    - name: BELLSPROUT_42
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 98
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 24.5}
+        - {x: -27.5, y: 2.5}
+        - {x: -27.5, y: -24.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: 18.5}
+        - {x: 7.5, y: 24.5}
+    - name: BELLSPROUT_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 98
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 24.5}
+        - {x: -27.5, y: 20.5}
+        - {x: -27.5, y: -24.5}
+        - {x: 23.5, y: -24.5}
+        - {x: 23.5, y: 14.5}
+        - {x: 7.5, y: 24.5}
+    - name: BELLSPROUT_44
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 98
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: -6.5}
+        - {x: 23.5, y: 8.5}
+        - {x: 10.5, y: 19.5}
+        - {x: 4.5, y: 24.5}
+        - {x: -12.5, y: 24.5}
+        - {x: -27.5, y: 7.5}
+        - {x: -27.5, y: -19.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 18.5, y: -22.5}
+        - {x: 15.5, y: -19.5}
+    - name: BELLSPROUT_45
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 98
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 24.5}
+        - {x: -27.5, y: 9.5}
+        - {x: -27.5, y: -24.5}
+        - {x: 23.5, y: -24.5}
+        - {x: 23.5, y: 11.5}
+        - {x: 8.5, y: 24.5}
+    - name: BELLSPROUT_46
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 98
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 8.5}
+        - {x: 7.5, y: 24.5}
+        - {x: -14.5, y: 24.5}
+        - {x: -27.5, y: 8.5}
+        - {x: -27.5, y: -22.5}
+        - {x: -24.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -13.5}
+    - name: BELLSPROUT_47
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 98
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 24.5}
+        - {x: -27.5, y: 13.5}
+        - {x: -27.5, y: -17.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 20.5, y: -24.5}
+        - {x: 21.5, y: -23.5}
+        - {x: 21.5, y: 24.5}
+    - name: BELLSPROUT_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 24.5}
+        - {x: -15.5, y: 24.5}
+        - {x: -27.5, y: -5.5}
+        - {x: -27.5, y: -12.5}
+        - {x: -23.5, y: -14.5}
+        - {x: -16.5, y: -14.5}
+        - {x: -19.5, y: -21.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 20.5, y: 8.5}
+        - {x: 18.5, y: 18.5}
+    - name: BELLSPROUT_49
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 49
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 24.5}
+        - {x: -27.5, y: -3.5}
+        - {x: -27.5, y: -21.5}
+        - {x: -23.5, y: -23.5}
+        - {x: -19.5, y: -24.5}
+        - {x: 19.5, y: -24.5}
+        - {x: 19.5, y: 13.5}
+        - {x: 4.5, y: 24.5}
+    - name: BELLSPROUT_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 49
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: -18.5}
+        - {x: 17.5, y: -2.5}
+        - {x: 17.5, y: 8.5}
+        - {x: 16.5, y: 11.5}
+        - {x: 12.5, y: 10.5}
+        - {x: 3.5, y: 23.5}
+        - {x: 0.5, y: 24.5}
+        - {x: -7.5, y: 24.5}
+        - {x: -11.5, y: 20.5}
+        - {x: -14.5, y: 13.5}
+        - {x: -26.5, y: -10.5}
+        - {x: -26.5, y: -15.5}
+        - {x: -23.5, y: -17.5}
+        - {x: -13.5, y: -15.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 16.5, y: -24.5}
+        - {x: 17.5, y: -23.5}
+        - {x: 17.5, y: -21.5}
+    - name: BELLSPROUT_51
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 49
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 24.5}
+        - {x: -25.5, y: -12.5}
+        - {x: -25.5, y: -17.5}
+        - {x: -24.5, y: -18.5}
+        - {x: -17.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: 19.5}
+        - {x: 6.5, y: 24.5}
+    - name: BELLSPROUT_52
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 49
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 0.5}
+        - {x: 17.5, y: 14.5}
+        - {x: 4.5, y: 24.5}
+        - {x: -11.5, y: 24.5}
+        - {x: -13.5, y: 18.5}
+        - {x: -23.5, y: -5.5}
+        - {x: -23.5, y: -15.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -17.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 15.5, y: -16.5}
+    - name: BELLSPROUT_53
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 49
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 24.5}
+        - {x: -14.5, y: 18.5}
+        - {x: -22.5, y: -11.5}
+        - {x: -22.5, y: -16.5}
+        - {x: -17.5, y: -18.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: 18.5}
+        - {x: 14.5, y: 24.5}
+    - name: BELLSPROUT_54
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 49
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 12.5}
+        - {x: 5.5, y: 7.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 7.5, y: 16.5}
+        - {x: 8.5, y: 20.5}
+        - {x: 0.5, y: 24.5}
+        - {x: -10.5, y: 24.5}
+        - {x: -16.5, y: 9.5}
+        - {x: -21.5, y: -5.5}
+        - {x: -21.5, y: -17.5}
+        - {x: -20.5, y: -20.5}
+        - {x: -16.5, y: -18.5}
+        - {x: -21.5, y: -21.5}
+        - {x: -21.5, y: -22.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 16.5, y: -24.5}
+        - {x: 16.5, y: 17.5}
+        - {x: 10.5, y: 14.5}
+    - name: BELLSPROUT_55
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 49
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 24.5}
+        - {x: -16.5, y: 18.5}
+        - {x: -21.5, y: -3.5}
+        - {x: -21.5, y: -19.5}
+        - {x: -15.5, y: -19.5}
+        - {x: -7.5, y: -10.5}
+        - {x: -6.5, y: -14.5}
+        - {x: -14.5, y: -18.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -17.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: 24.5}
+    - name: BELLSPROUT_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 13.5}
+        - {x: 7.5, y: 24.5}
+        - {x: -13.5, y: 24.5}
+        - {x: -21.5, y: 9.5}
+        - {x: -21.5, y: -17.5}
+        - {x: -18.5, y: -19.5}
+        - {x: -16.5, y: -19.5}
+        - {x: -14.5, y: -17.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: -21.5}
+        - {x: 15.5, y: -16.5}
+    - name: BELLSPROUT_57
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: -9.5}
+        - {x: 17.5, y: 20.5}
+        - {x: 10.5, y: 24.5}
+        - {x: -10.5, y: 24.5}
+        - {x: -21.5, y: 1.5}
+        - {x: -21.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: -21.5}
+        - {x: 15.5, y: -16.5}
+    - name: BELLSPROUT_58
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 24.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -20.5, y: 3.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 17.5, y: -24.5}
+        - {x: 17.5, y: 18.5}
+        - {x: 7.5, y: 24.5}
+    - name: BELLSPROUT_59
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 24.5}
+        - {x: -20.5, y: 3.5}
+        - {x: -20.5, y: -24.5}
+        - {x: 16.5, y: -24.5}
+        - {x: 16.5, y: 18.5}
+        - {x: 6.5, y: 24.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

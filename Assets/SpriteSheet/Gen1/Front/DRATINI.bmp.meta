@@ -1,0 +1,964 @@
+fileFormatVersion: 2
+guid: c90e151aa35ba194990426eef2101946
+timeCreated: 1452734188
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DRATINI_0
+    21300002: DRATINI_1
+    21300004: DRATINI_2
+    21300006: DRATINI_3
+    21300008: DRATINI_4
+    21300010: DRATINI_5
+    21300012: DRATINI_6
+    21300014: DRATINI_7
+    21300016: DRATINI_8
+    21300018: DRATINI_9
+    21300020: DRATINI_10
+    21300022: DRATINI_11
+    21300024: DRATINI_12
+    21300026: DRATINI_13
+    21300028: DRATINI_14
+    21300030: DRATINI_15
+    21300032: DRATINI_16
+    21300034: DRATINI_17
+    21300036: DRATINI_18
+    21300038: DRATINI_19
+    21300040: DRATINI_20
+    21300042: DRATINI_21
+    21300044: DRATINI_22
+    21300046: DRATINI_23
+    21300048: DRATINI_24
+    21300050: DRATINI_25
+    21300052: DRATINI_26
+    21300054: DRATINI_27
+    21300056: DRATINI_28
+    21300058: DRATINI_29
+    21300060: DRATINI_30
+    21300062: DRATINI_31
+    21300064: DRATINI_32
+    21300066: DRATINI_33
+    21300068: DRATINI_34
+    21300070: DRATINI_35
+    21300072: DRATINI_36
+    21300074: DRATINI_37
+    21300076: DRATINI_38
+    21300078: DRATINI_39
+    21300080: DRATINI_40
+    21300082: DRATINI_41
+    21300084: DRATINI_42
+    21300086: DRATINI_43
+    21300088: DRATINI_44
+    21300090: DRATINI_45
+    21300092: DRATINI_46
+    21300094: DRATINI_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DRATINI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31.5}
+        - {x: -21, y: 3.5}
+        - {x: -21, y: -24.5}
+        - {x: -17, y: -30.5}
+        - {x: -16, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 378
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -21.5}
+        - {x: -17, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 22.5}
+        - {x: 21, y: 31.5}
+        - {x: -21, y: 31.5}
+        - {x: -22, y: 27.5}
+    - name: DRATINI_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 378
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 12.5}
+        - {x: -22, y: -22.5}
+        - {x: -17, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+        - {x: -16, y: 31.5}
+        - {x: -21, y: 30.5}
+    - name: DRATINI_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 378
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31.5}
+        - {x: -22, y: 15.5}
+        - {x: -22, y: -26.5}
+        - {x: -14, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 15.5}
+        - {x: 16, y: 31.5}
+    - name: DRATINI_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 378
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 31.5}
+        - {x: -23, y: 20.5}
+        - {x: -23, y: -27.5}
+        - {x: -21, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 378
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 31.5}
+        - {x: -23, y: -28.5}
+        - {x: -20, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 378
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31.5}
+        - {x: -23, y: 6.5}
+        - {x: -23, y: -22.5}
+        - {x: -19, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31.5}
+        - {x: -23, y: 9.5}
+        - {x: -23, y: -24.5}
+        - {x: -15, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 315
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25.5}
+        - {x: -14, y: -0.5}
+        - {x: -23, y: -2.5}
+        - {x: -23, y: -20.5}
+        - {x: -12, y: -30.5}
+        - {x: -10, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+        - {x: -5, y: 31.5}
+        - {x: -11, y: 30.5}
+    - name: DRATINI_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 315
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31.5}
+        - {x: -23, y: 0.5}
+        - {x: -23, y: -23.5}
+        - {x: -12, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 315
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 31.5}
+        - {x: -17, y: 29.5}
+        - {x: -23, y: 2.5}
+        - {x: -23, y: -22.5}
+        - {x: -14, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 315
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20.5}
+        - {x: -23, y: 7.5}
+        - {x: -23, y: -20.5}
+        - {x: -11, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+        - {x: -7, y: 31.5}
+        - {x: -11, y: 30.5}
+    - name: DRATINI_12
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 315
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 31.5}
+        - {x: -23, y: -25.5}
+        - {x: -17, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 3.5}
+        - {x: 18, y: 31.5}
+    - name: DRATINI_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 315
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 31.5}
+        - {x: -23, y: 16.5}
+        - {x: -23, y: -18.5}
+        - {x: -15, y: -30.5}
+        - {x: -10, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31.5}
+        - {x: -23, y: 18.5}
+        - {x: -23, y: -24.5}
+        - {x: -9, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 252
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31.5}
+        - {x: -23, y: 18.5}
+        - {x: -23, y: -22.5}
+        - {x: -15, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 13.5}
+        - {x: 21, y: 31.5}
+    - name: DRATINI_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 252
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 31.5}
+        - {x: -23, y: 30.5}
+        - {x: -23, y: -26.5}
+        - {x: -20, y: -29.5}
+        - {x: -15, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 252
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 31.5}
+        - {x: -23, y: 28.5}
+        - {x: -23, y: -21.5}
+        - {x: -7, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 15.5}
+        - {x: 18, y: 31.5}
+    - name: DRATINI_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 252
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 15.5}
+        - {x: -23, y: -22.5}
+        - {x: -17, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 14.5}
+        - {x: 19, y: 31.5}
+        - {x: -11, y: 31.5}
+        - {x: -14, y: 28.5}
+    - name: DRATINI_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 252
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -29.5}
+        - {x: -22, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 19.5}
+        - {x: 21, y: 31.5}
+        - {x: -20, y: 31.5}
+        - {x: -23, y: 30.5}
+    - name: DRATINI_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 252
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 31.5}
+        - {x: -23, y: -25.5}
+        - {x: -15, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31.5}
+        - {x: -23, y: 19.5}
+        - {x: -23, y: -21.5}
+        - {x: -4, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 189
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 31.5}
+        - {x: -23, y: -17.5}
+        - {x: -12, y: -30.5}
+        - {x: -10, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_23
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 189
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31.5}
+        - {x: -23, y: 25.5}
+        - {x: -23, y: -19.5}
+        - {x: -8, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 3.5}
+        - {x: 15, y: 31.5}
+    - name: DRATINI_24
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 189
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31.5}
+        - {x: -21, y: 22.5}
+        - {x: -23, y: 16.5}
+        - {x: -23, y: -13.5}
+        - {x: -20, y: -20.5}
+        - {x: -6, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 4.5}
+        - {x: 18, y: 31.5}
+    - name: DRATINI_25
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 189
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 30.5}
+        - {x: 16, y: 31.5}
+        - {x: -12, y: 31.5}
+        - {x: -23, y: 18.5}
+        - {x: -23, y: -24.5}
+        - {x: -13, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: -15.5}
+        - {x: 22, y: -12.5}
+    - name: DRATINI_26
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 189
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 31.5}
+        - {x: -12, y: 31.5}
+        - {x: -15, y: 27.5}
+        - {x: -23, y: 10.5}
+        - {x: -23, y: -17.5}
+        - {x: -11, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: -17.5}
+        - {x: 19, y: -14.5}
+    - name: DRATINI_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 189
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -25.5}
+        - {x: -11, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+        - {x: -13, y: 31.5}
+        - {x: -23, y: 26.5}
+    - name: DRATINI_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 31.5}
+        - {x: -21, y: 31.5}
+        - {x: -23, y: 24.5}
+        - {x: -23, y: -16.5}
+        - {x: -5, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: -16.5}
+        - {x: 22, y: -15.5}
+    - name: DRATINI_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 126
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 31.5}
+        - {x: -23, y: 29.5}
+        - {x: -23, y: -21.5}
+        - {x: -12, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: -13.5}
+        - {x: 17, y: 31.5}
+    - name: DRATINI_30
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 126
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 31.5}
+        - {x: -14, y: 31.5}
+        - {x: -23, y: 8.5}
+        - {x: -23, y: -9.5}
+        - {x: -13, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: -13.5}
+        - {x: 15, y: 30.5}
+    - name: DRATINI_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 126
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 31.5}
+        - {x: -23, y: -16.5}
+        - {x: -13, y: -30.5}
+        - {x: -10, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 30.5}
+        - {x: 22, y: 31.5}
+    - name: DRATINI_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 126
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31.5}
+        - {x: -21, y: 14.5}
+        - {x: -22, y: 7.5}
+        - {x: -22, y: -10.5}
+        - {x: -12, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_33
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 126
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 31.5}
+        - {x: -21, y: 15.5}
+        - {x: -21, y: -17.5}
+        - {x: -15, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 126
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 31.5}
+        - {x: -20, y: 21.5}
+        - {x: -20, y: -15.5}
+        - {x: -12, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 25.5}
+        - {x: 22, y: 31.5}
+    - name: DRATINI_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 31.5}
+        - {x: -20, y: 20.5}
+        - {x: -20, y: -19.5}
+        - {x: -15, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: -14.5}
+        - {x: 19, y: 31.5}
+    - name: DRATINI_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 63
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 31.5}
+        - {x: -19, y: 29.5}
+        - {x: -19, y: -19.5}
+        - {x: -14, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_37
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 63
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 31.5}
+        - {x: -19, y: -27.5}
+        - {x: -11, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: -5.5}
+        - {x: 16, y: 31.5}
+    - name: DRATINI_38
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 63
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 31.5}
+        - {x: -19, y: 14.5}
+        - {x: -19, y: -17.5}
+        - {x: -16, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_39
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 63
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 31.5}
+        - {x: -18, y: 22.5}
+        - {x: -18, y: -24.5}
+        - {x: -14, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 7.5}
+        - {x: 19, y: 31.5}
+    - name: DRATINI_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 63
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31.5}
+        - {x: -18, y: -26.5}
+        - {x: -11, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 11.5}
+        - {x: 20, y: 31.5}
+    - name: DRATINI_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 63
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 31.5}
+        - {x: -18, y: 30.5}
+        - {x: -18, y: -26.5}
+        - {x: -11, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 19.5}
+        - {x: 16, y: 31.5}
+    - name: DRATINI_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 31.5}
+        - {x: -19, y: -30.5}
+        - {x: -15, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 31.5}
+        - {x: -19, y: 24.5}
+        - {x: -19, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 3.5}
+        - {x: 13, y: 31.5}
+    - name: DRATINI_44
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 31.5}
+        - {x: -19, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    - name: DRATINI_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 31.5}
+        - {x: -20, y: -28.5}
+        - {x: -17, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: -13.5}
+        - {x: 20, y: 31.5}
+    - name: DRATINI_46
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31.5}
+        - {x: -20, y: 15.5}
+        - {x: -20, y: -25.5}
+        - {x: -15, y: -30.5}
+        - {x: -8, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 0.5}
+        - {x: 16, y: 31.5}
+    - name: DRATINI_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31.5}
+        - {x: -21, y: 12.5}
+        - {x: -21, y: 6.5}
+        - {x: -12, y: 1.5}
+        - {x: -12, y: -13.5}
+        - {x: -13, y: -4.5}
+        - {x: -15, y: -2.5}
+        - {x: -17, y: -1.5}
+        - {x: -21, y: -8.5}
+        - {x: -21, y: -20.5}
+        - {x: -14, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 23, y: 31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

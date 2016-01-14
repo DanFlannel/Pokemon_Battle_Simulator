@@ -1,0 +1,1120 @@
+fileFormatVersion: 2
+guid: cf10814492a0ddc4f9ba52e6bea14489
+timeCreated: 1452733615
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DITTO_0
+    21300002: DITTO_1
+    21300004: DITTO_2
+    21300006: DITTO_3
+    21300008: DITTO_4
+    21300010: DITTO_5
+    21300012: DITTO_6
+    21300014: DITTO_7
+    21300016: DITTO_8
+    21300018: DITTO_9
+    21300020: DITTO_10
+    21300022: DITTO_11
+    21300024: DITTO_12
+    21300026: DITTO_13
+    21300028: DITTO_14
+    21300030: DITTO_15
+    21300032: DITTO_16
+    21300034: DITTO_17
+    21300036: DITTO_18
+    21300038: DITTO_19
+    21300040: DITTO_20
+    21300042: DITTO_21
+    21300044: DITTO_22
+    21300046: DITTO_23
+    21300048: DITTO_24
+    21300050: DITTO_25
+    21300052: DITTO_26
+    21300054: DITTO_27
+    21300056: DITTO_28
+    21300058: DITTO_29
+    21300060: DITTO_30
+    21300062: DITTO_31
+    21300064: DITTO_32
+    21300066: DITTO_33
+    21300068: DITTO_34
+    21300070: DITTO_35
+    21300072: DITTO_36
+    21300074: DITTO_37
+    21300076: DITTO_38
+    21300078: DITTO_39
+    21300080: DITTO_40
+    21300082: DITTO_41
+    21300084: DITTO_42
+    21300086: DITTO_43
+    21300088: DITTO_44
+    21300090: DITTO_45
+    21300092: DITTO_46
+    21300094: DITTO_47
+    21300096: DITTO_48
+    21300098: DITTO_49
+    21300100: DITTO_50
+    21300102: DITTO_51
+    21300104: DITTO_52
+    21300106: DITTO_53
+    21300108: DITTO_54
+    21300110: DITTO_55
+    21300112: DITTO_56
+    21300114: DITTO_57
+    21300116: DITTO_58
+    21300118: DITTO_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DITTO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 10.5}
+        - {x: 15.5, y: 17.5}
+    - name: DITTO_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 245
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 17.5}
+    - name: DITTO_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 245
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 17.5}
+        - {x: -21.5, y: 12.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 19.5, y: -17.5}
+        - {x: 21.5, y: -15.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 9.5, y: 17.5}
+    - name: DITTO_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 245
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 9.5}
+        - {x: 11.5, y: 17.5}
+    - name: DITTO_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 245
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 15.5}
+        - {x: 13.5, y: 17.5}
+    - name: DITTO_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 245
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -16.5}
+        - {x: -19.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 10.5}
+        - {x: 10.5, y: 17.5}
+    - name: DITTO_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 245
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 13.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 245
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 13.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 13.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 210
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 13.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 210
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 17.5}
+        - {x: -21.5, y: 15.5}
+        - {x: -21.5, y: -15.5}
+        - {x: -19.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 8.5, y: 17.5}
+    - name: DITTO_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 210
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -15.5}
+        - {x: -19.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 10.5}
+        - {x: 16.5, y: 17.5}
+    - name: DITTO_12
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 210
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 15.5}
+        - {x: 15.5, y: 17.5}
+    - name: DITTO_13
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 210
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 15.5, y: 17.5}
+    - name: DITTO_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 210
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 17.5}
+        - {x: -21.5, y: 15.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 10.5}
+        - {x: 10.5, y: 17.5}
+    - name: DITTO_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 210
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 10.5}
+        - {x: 10.5, y: 17.5}
+    - name: DITTO_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 13.5}
+        - {x: 16.5, y: 17.5}
+    - name: DITTO_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 175
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 17.5}
+        - {x: -21.5, y: 15.5}
+        - {x: -21.5, y: -16.5}
+        - {x: -19.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 8.5, y: 17.5}
+    - name: DITTO_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 175
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 17.5}
+        - {x: -21.5, y: 15.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 12.5, y: 17.5}
+    - name: DITTO_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 175
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 17.5}
+        - {x: -21.5, y: 14.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 17.5}
+    - name: DITTO_20
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 175
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 17.5}
+        - {x: -21.5, y: 14.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 17.5}
+    - name: DITTO_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 175
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 10.5}
+        - {x: 15.5, y: 17.5}
+    - name: DITTO_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 175
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 17.5}
+        - {x: -21.5, y: 16.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 14.5}
+        - {x: 13.5, y: 17.5}
+    - name: DITTO_23
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 175
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 10.5}
+        - {x: 18.5, y: 17.5}
+    - name: DITTO_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 17.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 10.5}
+    - name: DITTO_25
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 140
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 20.5, y: -17.5}
+        - {x: 21.5, y: -16.5}
+        - {x: 21.5, y: 14.5}
+        - {x: 7.5, y: 17.5}
+    - name: DITTO_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 140
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 15.5}
+        - {x: 13.5, y: 17.5}
+    - name: DITTO_27
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 140
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 17.5}
+        - {x: -21.5, y: 13.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 18.5, y: 17.5}
+    - name: DITTO_28
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 140
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 17.5}
+        - {x: -21.5, y: 14.5}
+        - {x: -21.5, y: -16.5}
+        - {x: -19.5, y: -17.5}
+        - {x: 20.5, y: -17.5}
+        - {x: 21.5, y: -16.5}
+        - {x: 21.5, y: 17.5}
+    - name: DITTO_29
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 140
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 13.5}
+        - {x: 7.5, y: 17.5}
+        - {x: -19.5, y: 17.5}
+        - {x: -21.5, y: 11.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 7.5}
+    - name: DITTO_30
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 140
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 13.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_31
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 140
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 9.5}
+        - {x: 20.5, y: 16.5}
+        - {x: 12.5, y: 17.5}
+        - {x: -15.5, y: 17.5}
+        - {x: -21.5, y: 15.5}
+    - name: DITTO_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 17.5}
+        - {x: -20.5, y: 14.5}
+        - {x: -21.5, y: 6.5}
+        - {x: -21.5, y: -16.5}
+        - {x: -19.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 20.5, y: 17.5}
+    - name: DITTO_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 105
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 17.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -16.5}
+        - {x: -19.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 10.5}
+        - {x: 19.5, y: 16.5}
+    - name: DITTO_34
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 105
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 17.5}
+        - {x: -20.5, y: 14.5}
+        - {x: -21.5, y: 3.5}
+        - {x: -21.5, y: -16.5}
+        - {x: -19.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 17.5}
+    - name: DITTO_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 105
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 17.5}
+        - {x: -16.5, y: 17.5}
+        - {x: -20.5, y: 11.5}
+        - {x: -21.5, y: 7.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 20.5, y: 16.5}
+    - name: DITTO_36
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 105
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 17.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 20.5, y: 16.5}
+    - name: DITTO_37
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 105
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 17.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 20.5, y: 16.5}
+    - name: DITTO_38
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 105
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 17.5}
+    - name: DITTO_39
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 105
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 17.5}
+        - {x: -21.5, y: 4.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 17.5}
+        - {x: -21.5, y: 4.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_41
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 70
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 17.5}
+        - {x: -21.5, y: 4.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_42
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 70
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 17.5}
+        - {x: -21.5, y: 4.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_43
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 70
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 17.5}
+        - {x: -21.5, y: 4.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 70
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 17.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+    - name: DITTO_45
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 70
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 17.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+    - name: DITTO_46
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 70
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 17.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 16.5}
+    - name: DITTO_47
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 70
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 17.5}
+        - {x: -19.5, y: 17.5}
+        - {x: -21.5, y: 8.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 15.5}
+        - {x: 20.5, y: 16.5}
+    - name: DITTO_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 17.5}
+        - {x: -21.5, y: 16.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 13.5}
+        - {x: 15.5, y: 17.5}
+    - name: DITTO_49
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 35
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 17.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 19.5, y: 15.5}
+    - name: DITTO_50
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 35
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 17.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 19.5, y: 15.5}
+    - name: DITTO_51
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 35
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 17.5}
+        - {x: -21.5, y: 15.5}
+        - {x: -21.5, y: -15.5}
+        - {x: -19.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 15.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_52
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 35
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 17.5, y: 17.5}
+    - name: DITTO_53
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 35
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 16.5, y: 17.5}
+    - name: DITTO_54
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 35
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 16.5, y: 17.5}
+    - name: DITTO_55
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 35
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 15.5}
+        - {x: 11.5, y: 17.5}
+    - name: DITTO_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 17.5}
+        - {x: -20.5, y: 16.5}
+        - {x: -21.5, y: 11.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 5.5, y: 17.5}
+    - name: DITTO_57
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 13.5, y: 17.5}
+    - name: DITTO_58
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 13.5, y: 17.5}
+    - name: DITTO_59
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 13.5}
+        - {x: 12.5, y: 17.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

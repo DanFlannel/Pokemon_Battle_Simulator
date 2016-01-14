@@ -1,0 +1,1267 @@
+fileFormatVersion: 2
+guid: 976faf4a7ab96a441af265515219f737
+timeCreated: 1452734309
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FEAROW_0
+    21300002: FEAROW_1
+    21300004: FEAROW_2
+    21300006: FEAROW_3
+    21300008: FEAROW_4
+    21300010: FEAROW_5
+    21300012: FEAROW_6
+    21300014: FEAROW_7
+    21300016: FEAROW_8
+    21300018: FEAROW_9
+    21300020: FEAROW_10
+    21300022: FEAROW_11
+    21300024: FEAROW_12
+    21300026: FEAROW_13
+    21300028: FEAROW_14
+    21300030: FEAROW_15
+    21300032: FEAROW_16
+    21300034: FEAROW_17
+    21300036: FEAROW_18
+    21300038: FEAROW_19
+    21300040: FEAROW_20
+    21300042: FEAROW_21
+    21300044: FEAROW_22
+    21300046: FEAROW_23
+    21300048: FEAROW_24
+    21300050: FEAROW_25
+    21300052: FEAROW_26
+    21300054: FEAROW_27
+    21300056: FEAROW_28
+    21300058: FEAROW_29
+    21300060: FEAROW_30
+    21300062: FEAROW_31
+    21300064: FEAROW_32
+    21300066: FEAROW_33
+    21300068: FEAROW_34
+    21300070: FEAROW_35
+    21300072: FEAROW_36
+    21300074: FEAROW_37
+    21300076: FEAROW_38
+    21300078: FEAROW_39
+    21300080: FEAROW_40
+    21300082: FEAROW_41
+    21300084: FEAROW_42
+    21300086: FEAROW_43
+    21300088: FEAROW_44
+    21300090: FEAROW_45
+    21300092: FEAROW_46
+    21300094: FEAROW_47
+    21300096: FEAROW_48
+    21300098: FEAROW_49
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FEAROW_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 945
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 47.5}
+        - {x: -57, y: -1.5}
+        - {x: -31, y: -36.5}
+        - {x: 22, y: -36.5}
+        - {x: 68, y: 7.5}
+        - {x: 68, y: 40.5}
+        - {x: 56, y: 47.5}
+    - name: FEAROW_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 945
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 34.5}
+        - {x: -15, y: 20.5}
+        - {x: -21, y: 6.5}
+        - {x: -48, y: 34.5}
+        - {x: -53, y: 34.5}
+        - {x: -68, y: 23.5}
+        - {x: -68, y: -11.5}
+        - {x: -52, y: -37.5}
+        - {x: 23, y: -37.5}
+        - {x: 69, y: -23.5}
+        - {x: 74, y: -9.5}
+        - {x: 74, y: 21.5}
+        - {x: 61, y: 34.5}
+    - name: FEAROW_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 945
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: 16.5}
+        - {x: -72, y: 7.5}
+        - {x: -72, y: -18.5}
+        - {x: -33, y: -36.5}
+        - {x: 39, y: -36.5}
+        - {x: 74, y: -24.5}
+        - {x: 74, y: 8.5}
+        - {x: 67, y: 16.5}
+    - name: FEAROW_3
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 945
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: -20.5}
+        - {x: 72, y: -4.5}
+        - {x: 57, y: -4.5}
+        - {x: -3, y: 18.5}
+        - {x: -29, y: 18.5}
+        - {x: -74, y: 0.5}
+        - {x: -74, y: -22.5}
+        - {x: -68, y: -38.5}
+        - {x: -36, y: -42.5}
+        - {x: 72, y: -42.5}
+        - {x: 72, y: -39.5}
+        - {x: 70, y: -30.5}
+        - {x: 67, y: -28.5}
+        - {x: 60, y: -26.5}
+    - name: FEAROW_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 945
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 19.5}
+        - {x: -74, y: -21.5}
+        - {x: -74, y: -31.5}
+        - {x: -69, y: -35.5}
+        - {x: -65, y: -36.5}
+        - {x: -57, y: -36.5}
+        - {x: -56, y: -35.5}
+        - {x: -54, y: -35.5}
+        - {x: -56, y: -35.5}
+        - {x: -63, y: -42.5}
+        - {x: -65, y: -45.5}
+        - {x: -54, y: -52.5}
+        - {x: -23, y: -55.5}
+        - {x: 68, y: -55.5}
+        - {x: 68, y: -22.5}
+        - {x: 4, y: 19.5}
+    - name: FEAROW_5
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 945
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 11.5}
+        - {x: -68, y: -40.5}
+        - {x: -68, y: -47.5}
+        - {x: -65, y: -51.5}
+        - {x: -42, y: -61.5}
+        - {x: -18, y: -63.5}
+        - {x: 56, y: -63.5}
+        - {x: 56, y: -31.5}
+        - {x: 36, y: -6.5}
+        - {x: -5, y: 21.5}
+        - {x: -14, y: 21.5}
+        - {x: -18, y: 15.5}
+    - name: FEAROW_6
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 945
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: -61.5}
+        - {x: -52, y: -62.5}
+        - {x: -49, y: -61.5}
+        - {x: -44, y: -62.5}
+        - {x: -34, y: -60.5}
+        - {x: -3, y: -28.5}
+        - {x: -3, y: -20.5}
+        - {x: -3, y: -25.5}
+        - {x: 12, y: -45.5}
+        - {x: 27, y: -61.5}
+        - {x: 33, y: -65.5}
+        - {x: 41, y: -65.5}
+        - {x: 41, y: -4.5}
+        - {x: 34, y: 22.5}
+        - {x: -18, y: 22.5}
+        - {x: -58, y: -51.5}
+    - name: FEAROW_7
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 945
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 26.5}
+        - {x: -18, y: 26.5}
+        - {x: -30, y: 4.5}
+        - {x: -44, y: -21.5}
+        - {x: -44, y: -67.5}
+        - {x: 42, y: -67.5}
+        - {x: 42, y: -15.5}
+        - {x: 25, y: 16.5}
+    - name: FEAROW_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 29.5}
+        - {x: -19, y: 29.5}
+        - {x: -38, y: -7.5}
+        - {x: -40, y: -27.5}
+        - {x: -40, y: -54.5}
+        - {x: -30, y: -65.5}
+        - {x: -27, y: -65.5}
+        - {x: -19, y: -39.5}
+        - {x: -3, y: -25.5}
+        - {x: -3, y: -15.5}
+        - {x: -1, y: -13.5}
+        - {x: -2, y: -14.5}
+        - {x: -3, y: -17.5}
+        - {x: -3, y: -20.5}
+        - {x: 6, y: -56.5}
+        - {x: 15, y: -65.5}
+        - {x: 46, y: -65.5}
+        - {x: 46, y: 6.5}
+        - {x: 43, y: 25.5}
+    - name: FEAROW_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 810
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -51.5}
+        - {x: 51, y: -53.5}
+        - {x: 51, y: 1.5}
+        - {x: 34, y: 22.5}
+        - {x: -4, y: 33.5}
+        - {x: -29, y: 33.5}
+        - {x: -45, y: -5.5}
+        - {x: -46, y: -16.5}
+        - {x: -46, y: -46.5}
+        - {x: -36, y: -55.5}
+        - {x: -28, y: -55.5}
+        - {x: -19, y: -51.5}
+        - {x: -22, y: -25.5}
+        - {x: 14, y: -55.5}
+        - {x: 29, y: -55.5}
+        - {x: 30, y: -52.5}
+        - {x: 30, y: -45.5}
+        - {x: 30, y: -47.5}
+    - name: FEAROW_10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 810
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 36.5}
+        - {x: -53, y: -3.5}
+        - {x: -53, y: -34.5}
+        - {x: -41, y: -45.5}
+        - {x: -19, y: -45.5}
+        - {x: 9, y: -20.5}
+        - {x: 11, y: -14.5}
+        - {x: 11, y: -11.5}
+        - {x: 9, y: -8.5}
+        - {x: 10, y: -4.5}
+        - {x: 10, y: 1.5}
+        - {x: 10, y: -6.5}
+        - {x: 11, y: -7.5}
+        - {x: 11, y: -14.5}
+        - {x: 14, y: -39.5}
+        - {x: 17, y: -45.5}
+        - {x: 56, y: -45.5}
+        - {x: 56, y: 6.5}
+        - {x: 2, y: 36.5}
+    - name: FEAROW_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 810
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 38.5}
+        - {x: -19, y: 38.5}
+        - {x: -49, y: 15.5}
+        - {x: -60, y: -7.5}
+        - {x: -60, y: -24.5}
+        - {x: -33, y: -35.5}
+        - {x: -30, y: -35.5}
+        - {x: -25, y: -33.5}
+        - {x: -29, y: -9.5}
+        - {x: 1, y: -35.5}
+        - {x: 63, y: -35.5}
+        - {x: 63, y: 11.5}
+        - {x: 20, y: 28.5}
+    - name: FEAROW_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 810
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: -12.5}
+        - {x: 60, y: -12.5}
+        - {x: 69, y: -7.5}
+        - {x: 69, y: 5.5}
+        - {x: 66, y: 25.5}
+        - {x: 31, y: 42.5}
+        - {x: -31, y: 42.5}
+        - {x: -64, y: 13.5}
+        - {x: -64, y: -16.5}
+        - {x: -52, y: -25.5}
+        - {x: 36, y: -25.5}
+        - {x: 45, y: -21.5}
+        - {x: 48, y: -18.5}
+        - {x: 48, y: -12.5}
+        - {x: 47, y: -8.5}
+    - name: FEAROW_13
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 810
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -3.5}
+        - {x: -53, y: -18.5}
+        - {x: 56, y: -18.5}
+        - {x: 72, y: -9.5}
+        - {x: 72, y: 38.5}
+        - {x: 69, y: 43.5}
+        - {x: 64, y: 44.5}
+        - {x: -36, y: 44.5}
+        - {x: -64, y: 19.5}
+    - name: FEAROW_14
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 810
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 46.5}
+        - {x: -60, y: 21.5}
+        - {x: -60, y: 3.5}
+        - {x: -53, y: -8.5}
+        - {x: -38, y: -11.5}
+        - {x: -35, y: -15.5}
+        - {x: 59, y: -15.5}
+        - {x: 73, y: 11.5}
+        - {x: 73, y: 31.5}
+        - {x: 36, y: 46.5}
+    - name: FEAROW_15
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 810
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 46.5}
+        - {x: -55, y: 33.5}
+        - {x: -55, y: -11.5}
+        - {x: -37, y: -14.5}
+        - {x: 48, y: -14.5}
+        - {x: 71, y: -6.5}
+        - {x: 71, y: 46.5}
+    - name: FEAROW_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 49.5}
+        - {x: -56, y: 41.5}
+        - {x: -56, y: -1.5}
+        - {x: -25, y: -14.5}
+        - {x: 42, y: -14.5}
+        - {x: 68, y: 11.5}
+        - {x: 68, y: 43.5}
+        - {x: 52, y: 49.5}
+    - name: FEAROW_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 675
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53, y: 51.5}
+        - {x: -59, y: 48.5}
+        - {x: -59, y: 20.5}
+        - {x: -54, y: 18.5}
+        - {x: -12, y: -15.5}
+        - {x: 16, y: -15.5}
+        - {x: 49, y: -7.5}
+        - {x: 66, y: 13.5}
+        - {x: 66, y: 51.5}
+    - name: FEAROW_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 675
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: 53.5}
+        - {x: -59, y: 53.5}
+        - {x: -59, y: 16.5}
+        - {x: -40, y: -2.5}
+        - {x: -21, y: -16.5}
+        - {x: 8, y: -16.5}
+        - {x: 9, y: -14.5}
+        - {x: 30, y: 6.5}
+        - {x: 69, y: 32.5}
+    - name: FEAROW_19
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 675
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 59.5}
+        - {x: -52, y: 28.5}
+        - {x: -19, y: -18.5}
+        - {x: 7, y: -18.5}
+        - {x: 44, y: 16.5}
+        - {x: 63, y: 44.5}
+        - {x: 63, y: 59.5}
+    - name: FEAROW_20
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 675
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: 66.5}
+        - {x: 39, y: 66.5}
+        - {x: 16, y: 54.5}
+        - {x: 11, y: 48.5}
+        - {x: 6, y: 38.5}
+        - {x: -34, y: 64.5}
+        - {x: -43, y: 62.5}
+        - {x: -43, y: 41.5}
+        - {x: -17, y: -20.5}
+        - {x: 11, y: -20.5}
+        - {x: 40, y: 17.5}
+        - {x: 57, y: 54.5}
+    - name: FEAROW_21
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 675
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 67.5}
+        - {x: -33, y: 67.5}
+        - {x: -33, y: -8.5}
+        - {x: -20, y: -23.5}
+        - {x: 14, y: -23.5}
+        - {x: 46, y: 12.5}
+        - {x: 49, y: 33.5}
+    - name: FEAROW_22
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 675
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 67.5}
+        - {x: -27, y: 11.5}
+        - {x: -24, y: -9.5}
+        - {x: -20, y: -5.5}
+        - {x: -18, y: -4.5}
+        - {x: -20, y: -16.5}
+        - {x: -11, y: -27.5}
+        - {x: 21, y: -27.5}
+        - {x: 47, y: 22.5}
+        - {x: 47, y: 67.5}
+    - name: FEAROW_23
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 675
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 63.5}
+        - {x: -32, y: 54.5}
+        - {x: -32, y: -13.5}
+        - {x: -18, y: -30.5}
+        - {x: 15, y: -30.5}
+        - {x: 49, y: -4.5}
+        - {x: 49, y: 65.5}
+        - {x: 24, y: 65.5}
+        - {x: 19, y: 63.5}
+    - name: FEAROW_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 59.5}
+        - {x: 10, y: 33.5}
+        - {x: -14, y: 21.5}
+        - {x: -16, y: 17.5}
+        - {x: -18, y: 12.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: 11.5}
+        - {x: -20, y: 55.5}
+        - {x: -24, y: 57.5}
+        - {x: -42, y: 48.5}
+        - {x: -42, y: 19.5}
+        - {x: -28, y: -31.5}
+        - {x: -19, y: -33.5}
+        - {x: 13, y: -33.5}
+        - {x: 54, y: 19.5}
+        - {x: 54, y: 48.5}
+        - {x: 37, y: 59.5}
+    - name: FEAROW_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 540
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 50.5}
+        - {x: 36, y: 50.5}
+        - {x: 30, y: 43.5}
+        - {x: 17, y: 21.5}
+        - {x: 16, y: 12.5}
+        - {x: -13, y: 20.5}
+        - {x: -33, y: 46.5}
+        - {x: -38, y: 48.5}
+        - {x: -56, y: 42.5}
+        - {x: -56, y: 9.5}
+        - {x: -34, y: -28.5}
+        - {x: -14, y: -35.5}
+        - {x: 17, y: -35.5}
+        - {x: 58, y: -2.5}
+        - {x: 65, y: 16.5}
+        - {x: 65, y: 41.5}
+    - name: FEAROW_26
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 540
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 34.5}
+        - {x: 32, y: 34.5}
+        - {x: -14, y: 16.5}
+        - {x: -19, y: 9.5}
+        - {x: -50, y: 34.5}
+        - {x: -57, y: 34.5}
+        - {x: -68, y: 20.5}
+        - {x: -69, y: 16.5}
+        - {x: -69, y: 7.5}
+        - {x: -60, y: -6.5}
+        - {x: -42, y: -12.5}
+        - {x: -9, y: -37.5}
+        - {x: 35, y: -37.5}
+        - {x: 64, y: -19.5}
+        - {x: 74, y: -2.5}
+        - {x: 74, y: 15.5}
+    - name: FEAROW_27
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 540
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 15.5}
+        - {x: -73, y: -19.5}
+        - {x: -65, y: -31.5}
+        - {x: -34, y: -38.5}
+        - {x: 41, y: -38.5}
+        - {x: 74, y: -30.5}
+        - {x: 74, y: 15.5}
+    - name: FEAROW_28
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 540
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71, y: -22.5}
+        - {x: 71, y: 0.5}
+        - {x: 12, y: 16.5}
+        - {x: -33, y: 16.5}
+        - {x: -74, y: -1.5}
+        - {x: -74, y: -41.5}
+        - {x: -49, y: -44.5}
+        - {x: 14, y: -44.5}
+        - {x: 14, y: -28.5}
+        - {x: 10, y: -23.5}
+        - {x: 10, y: -20.5}
+        - {x: 10, y: -22.5}
+        - {x: 14, y: -25.5}
+        - {x: 30, y: -33.5}
+        - {x: 58, y: -44.5}
+        - {x: 67, y: -44.5}
+        - {x: 69, y: -43.5}
+        - {x: 69, y: -33.5}
+        - {x: 66, y: -30.5}
+        - {x: 60, y: -28.5}
+    - name: FEAROW_29
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 540
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -37.5}
+        - {x: 68, y: -28.5}
+        - {x: -3, y: 18.5}
+        - {x: -27, y: 18.5}
+        - {x: -74, y: -19.5}
+        - {x: -74, y: -44.5}
+        - {x: -43, y: -58.5}
+        - {x: -39, y: -58.5}
+        - {x: -9, y: -38.5}
+        - {x: -3, y: -31.5}
+        - {x: -3, y: -25.5}
+        - {x: 0, y: -23.5}
+        - {x: -2, y: -25.5}
+        - {x: -3, y: -28.5}
+        - {x: -3, y: -32.5}
+        - {x: -4, y: -38.5}
+        - {x: 49, y: -58.5}
+        - {x: 58, y: -58.5}
+        - {x: 60, y: -52.5}
+        - {x: 59, y: -49.5}
+        - {x: 64, y: -44.5}
+    - name: FEAROW_30
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 540
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 9.5}
+        - {x: -8, y: 19.5}
+        - {x: -17, y: 19.5}
+        - {x: -68, y: -40.5}
+        - {x: -68, y: -48.5}
+        - {x: -64, y: -52.5}
+        - {x: -44, y: -63.5}
+        - {x: -22, y: -30.5}
+        - {x: -22, y: -23.5}
+        - {x: -17, y: -20.5}
+        - {x: -19, y: -22.5}
+        - {x: -17, y: -30.5}
+        - {x: -5, y: -33.5}
+        - {x: -3, y: -29.5}
+        - {x: -3, y: -22.5}
+        - {x: -2, y: -22.5}
+        - {x: -3, y: -26.5}
+        - {x: -3, y: -30.5}
+        - {x: -1, y: -35.5}
+        - {x: 41, y: -65.5}
+        - {x: 57, y: -65.5}
+        - {x: 57, y: -41.5}
+        - {x: 48, y: -10.5}
+    - name: FEAROW_31
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 540
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 20.5}
+        - {x: -24, y: 20.5}
+        - {x: -59, y: -38.5}
+        - {x: -59, y: -67.5}
+        - {x: 41, y: -67.5}
+        - {x: 41, y: -17.5}
+        - {x: 37, y: -6.5}
+    - name: FEAROW_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 11.5}
+        - {x: -6, y: 26.5}
+        - {x: -17, y: 26.5}
+        - {x: -32, y: 2.5}
+        - {x: -45, y: -63.5}
+        - {x: -43, y: -65.5}
+        - {x: -40, y: -66.5}
+        - {x: -32, y: -58.5}
+        - {x: -20, y: -25.5}
+        - {x: -20, y: -16.5}
+        - {x: -16, y: -24.5}
+        - {x: -9, y: -27.5}
+        - {x: -5, y: -27.5}
+        - {x: -3, y: -25.5}
+        - {x: -2, y: -21.5}
+        - {x: -2, y: -16.5}
+        - {x: -2, y: -26.5}
+        - {x: 12, y: -62.5}
+        - {x: 19, y: -67.5}
+        - {x: 34, y: -67.5}
+        - {x: 42, y: -57.5}
+        - {x: 42, y: -21.5}
+        - {x: 41, y: -11.5}
+    - name: FEAROW_33
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 405
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -63.5}
+        - {x: 46, y: -55.5}
+        - {x: 46, y: -7.5}
+        - {x: 42, y: 17.5}
+        - {x: 4, y: 30.5}
+        - {x: -21, y: 30.5}
+        - {x: -41, y: -20.5}
+        - {x: -41, y: -42.5}
+        - {x: -38, y: -59.5}
+        - {x: -29, y: -63.5}
+        - {x: -23, y: -55.5}
+        - {x: -2, y: -24.5}
+        - {x: -2, y: -15.5}
+        - {x: 0, y: -13.5}
+        - {x: -2, y: -18.5}
+        - {x: -2, y: -21.5}
+        - {x: 1, y: -25.5}
+        - {x: 5, y: -58.5}
+        - {x: 16, y: -66.5}
+        - {x: 23, y: -66.5}
+        - {x: 26, y: -61.5}
+        - {x: 26, y: -57.5}
+        - {x: 28, y: -60.5}
+    - name: FEAROW_34
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 405
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 32.5}
+        - {x: -20, y: 32.5}
+        - {x: -39, y: 13.5}
+        - {x: -46, y: -15.5}
+        - {x: -46, y: -49.5}
+        - {x: -32, y: -57.5}
+        - {x: -27, y: -57.5}
+        - {x: -22, y: -53.5}
+        - {x: -19, y: -33.5}
+        - {x: 5, y: -57.5}
+        - {x: 42, y: -57.5}
+        - {x: 52, y: -41.5}
+        - {x: 52, y: -12.5}
+        - {x: 32, y: 13.5}
+    - name: FEAROW_35
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 405
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -36.5}
+        - {x: 41, y: -42.5}
+        - {x: 53, y: -45.5}
+        - {x: 57, y: -36.5}
+        - {x: 57, y: 7.5}
+        - {x: 9, y: 37.5}
+        - {x: -28, y: 37.5}
+        - {x: -39, y: 27.5}
+        - {x: -52, y: -9.5}
+        - {x: -52, y: -39.5}
+        - {x: -27, y: -46.5}
+        - {x: -23, y: -46.5}
+        - {x: -21, y: -33.5}
+        - {x: 13, y: -46.5}
+        - {x: 38, y: -46.5}
+        - {x: 37, y: -42.5}
+        - {x: 37, y: -35.5}
+        - {x: 36, y: -33.5}
+    - name: FEAROW_36
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 405
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 40.5}
+        - {x: -41, y: 34.5}
+        - {x: -59, y: -1.5}
+        - {x: -59, y: -25.5}
+        - {x: -31, y: -34.5}
+        - {x: -27, y: -32.5}
+        - {x: -23, y: -23.5}
+        - {x: -8, y: -20.5}
+        - {x: -2, y: -18.5}
+        - {x: -1, y: -12.5}
+        - {x: -1, y: -14.5}
+        - {x: 4, y: -20.5}
+        - {x: 25, y: -36.5}
+        - {x: 49, y: -36.5}
+        - {x: 64, y: -30.5}
+        - {x: 64, y: 9.5}
+        - {x: 0, y: 40.5}
+    - name: FEAROW_37
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 405
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 42.5}
+        - {x: -62, y: 10.5}
+        - {x: -62, y: -12.5}
+        - {x: -51, y: -26.5}
+        - {x: 70, y: -26.5}
+        - {x: 70, y: 18.5}
+        - {x: 61, y: 42.5}
+    - name: FEAROW_38
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 405
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 3.5}
+        - {x: -42, y: -19.5}
+        - {x: 57, y: -19.5}
+        - {x: 74, y: -5.5}
+        - {x: 74, y: 31.5}
+        - {x: 71, y: 35.5}
+        - {x: 42, y: 43.5}
+        - {x: -32, y: 43.5}
+        - {x: -62, y: 15.5}
+    - name: FEAROW_39
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 405
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 44.5}
+        - {x: -31, y: 43.5}
+        - {x: -59, y: 22.5}
+        - {x: -59, y: 15.5}
+        - {x: -57, y: 11.5}
+        - {x: -40, y: -9.5}
+        - {x: -27, y: -17.5}
+        - {x: 57, y: -17.5}
+        - {x: 68, y: -15.5}
+        - {x: 74, y: -6.5}
+        - {x: 74, y: 29.5}
+        - {x: 53, y: 44.5}
+    - name: FEAROW_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 45.5}
+        - {x: -53, y: 44.5}
+        - {x: -53, y: -4.5}
+        - {x: -43, y: -2.5}
+        - {x: -29, y: -16.5}
+        - {x: 66, y: -16.5}
+        - {x: 74, y: 6.5}
+        - {x: 74, y: 45.5}
+    - name: FEAROW_41
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 270
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 48.5}
+        - {x: -54, y: 48.5}
+        - {x: -54, y: 8.5}
+        - {x: -42, y: -2.5}
+        - {x: -14, y: -16.5}
+        - {x: 29, y: -16.5}
+        - {x: 71, y: 0.5}
+        - {x: 71, y: 39.5}
+    - name: FEAROW_42
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 270
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 50.5}
+        - {x: -57, y: 43.5}
+        - {x: -57, y: 14.5}
+        - {x: -20, y: -16.5}
+        - {x: 44, y: -16.5}
+        - {x: 70, y: 13.5}
+        - {x: 70, y: 44.5}
+        - {x: 68, y: 50.5}
+    - name: FEAROW_43
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 270
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 52.5}
+        - {x: -55, y: 26.5}
+        - {x: -13, y: -18.5}
+        - {x: 20, y: -18.5}
+        - {x: 70, y: 32.5}
+        - {x: 70, y: 52.5}
+    - name: FEAROW_44
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 270
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 56.5}
+        - {x: -43, y: 56.5}
+        - {x: -49, y: 54.5}
+        - {x: -49, y: 48.5}
+        - {x: -46, y: 45.5}
+        - {x: -23, y: -20.5}
+        - {x: 14, y: -20.5}
+        - {x: 42, y: 17.5}
+        - {x: 67, y: 43.5}
+    - name: FEAROW_45
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 270
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63.5}
+        - {x: -43, y: -8.5}
+        - {x: -22, y: -23.5}
+        - {x: 23, y: -23.5}
+        - {x: 62, y: 42.5}
+        - {x: 62, y: 63.5}
+    - name: FEAROW_46
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 270
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 66.5}
+        - {x: 31, y: 65.5}
+        - {x: 26, y: 66.5}
+        - {x: -34, y: 66.5}
+        - {x: -34, y: -15.5}
+        - {x: -13, y: -26.5}
+        - {x: 12, y: -26.5}
+        - {x: 21, y: -21.5}
+        - {x: 55, y: 32.5}
+        - {x: 55, y: 66.5}
+    - name: FEAROW_47
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 270
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 66.5}
+        - {x: -30, y: -20.5}
+        - {x: -25, y: -26.5}
+        - {x: -14, y: -29.5}
+        - {x: 16, y: -29.5}
+        - {x: 53, y: 10.5}
+        - {x: 53, y: 66.5}
+    - name: FEAROW_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 62.5}
+        - {x: -35, y: 54.5}
+        - {x: -35, y: 28.5}
+        - {x: -26, y: -10.5}
+        - {x: -20, y: -12.5}
+        - {x: -19, y: -24.5}
+        - {x: -9, y: -32.5}
+        - {x: 27, y: -32.5}
+        - {x: 55, y: 7.5}
+        - {x: 55, y: 55.5}
+        - {x: 50, y: 62.5}
+    - name: FEAROW_49
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 135
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 55.5}
+        - {x: -43, y: 55.5}
+        - {x: -43, y: -7.5}
+        - {x: -26, y: -14.5}
+        - {x: -20, y: -16.5}
+        - {x: -16, y: -29.5}
+        - {x: -12, y: -34.5}
+        - {x: 8, y: -34.5}
+        - {x: 19, y: -31.5}
+        - {x: 57, y: 14.5}
+        - {x: 60, y: 32.5}
+        - {x: 60, y: 43.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
