@@ -83,9 +83,11 @@ public class PokemonCreatorFront : MonoBehaviour {
 
     private void GetPokemonBaseData(int id) {
         _PokemonName = pl.GetName(id);
-        gif.pokemonName = PokemonName;
-        gif.ChangeSprite(PokemonName);
         _PokemonID = id + 1;
+
+        gif.pokemonName = PokemonName;
+        gif.ChangeSprite(PokemonName, PokemonID);
+        
         baseHP = pl.GetHP(id);
         baseAttack = pl.GetAttack(id);
         baseDefense = pl.GetDefense(id);
