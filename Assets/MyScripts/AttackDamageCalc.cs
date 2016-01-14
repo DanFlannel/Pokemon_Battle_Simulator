@@ -17,21 +17,17 @@ public class AttackDamageCalc : MonoBehaviour {
     private TurnController tc;
 
     [Header("Player")]
-    public string playerAttack1;
-    public string playerAttack2;
-    public string playerAttack3;
-    public string playerAttack4;
+    public string 
+        playerAttack1, playerAttack2, playerAttack3, playerAttack4;
 
     [Header("Enemy")]
-    public string enemyAttack1;
-	public string enemyAttack2;
-	public string enemyAttack3;
-	public string enemyAttack4;
+    public string 
+        enemyAttack1, enemyAttack2, enemyAttack3, enemyAttack4;
 
-	private string enemyType1;
-    private string enemyType2;
-    private string playerType1;
-    private string playerType2;
+	private string 
+        enemyType1, enemyType2;
+    private string 
+        playerType1, playerType2;
 
 	private dmgMult playerDamageMultiplier;
 	private dmgMult enemyDamageMultiplier;

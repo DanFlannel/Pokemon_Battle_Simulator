@@ -85,7 +85,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     {
         positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PBLPlace");
         positionPlaceHolder = positionPlaceHolderGO.GetComponent<RectTransform>().anchoredPosition;
-        sprites = GameObject.Find("PNGs").GetComponent<PokemonPNGHolder>();
+        //sprites = GameObject.Find("PNGs").GetComponent<PokemonPNGHolder>();
         pokemonData = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
         Init();
     }
@@ -144,7 +144,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             }
             else
             {
-                drawPNG();
+                //drawPNG();
             }
         }
     }

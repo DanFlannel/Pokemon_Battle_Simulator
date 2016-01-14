@@ -38,8 +38,8 @@ public class GenerateAttacks : MonoBehaviour {
 		attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         adc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
 
-        PlayerPokemonGen();
-        EnemyPlayerPokemonGen();
+        //PlayerPokemonGen();
+        //EnemyPlayerPokemonGen();
     }
 
 
@@ -54,7 +54,7 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void checkInitalGen(){
 		if(pcb.PokemonName != playerPokemonName1){
-			//Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
+			Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
 			genPlayerAttacks();
             genEnemyAttacks();
 		}

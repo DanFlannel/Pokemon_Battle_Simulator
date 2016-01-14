@@ -55,7 +55,6 @@ public class PokemonCreatorBack : MonoBehaviour {
     public string cachedAttackName;
 
     private PokemonLibrary pl;
-	private AnimatedGifDrawerBack gif;
 
 	private int temp;
 	public int curHp;
@@ -69,24 +68,28 @@ public class PokemonCreatorBack : MonoBehaviour {
     {
         temp = Random.Range(0, 151);
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
-        gif = GameObject.FindGameObjectWithTag("PBL").GetComponent<AnimatedGifDrawerBack>();
-        GetPokemonBaseData(temp);   //testing to see if bulbasar pops up
-        StatsBasedOffLevel();
-        maxHP = HP;
-        curHp = maxHP;
+        Init();
         Debug.Log("Scene has now loaded with Player: " + PokemonName);
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+    }
 
+    private void Init()
+    {
+        GetPokemonBaseData(temp);
+        StatsBasedOffLevel();
+        maxHP = HP;
+        curHp = maxHP;
     }
 
     private void GetPokemonBaseData(int id)
     {
         PokemonName = pl.GetName(id);
-        gif.pName = PokemonName.ToLower();
+
         PokemonID = id + 1;
         baseHP = pl.GetHP(id);
         baseAttack = pl.GetAttack(id);

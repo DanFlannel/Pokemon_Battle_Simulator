@@ -63,6 +63,7 @@ public class TurnController : MonoBehaviour {
 
     public bool enemy_isAsleep = false;
     public int enemy_sleepDur = 0;
+    private bool hasInitalized = false;
 
 
     private PokemonCreatorBack playerStats;
@@ -73,13 +74,24 @@ public class TurnController : MonoBehaviour {
     void Start () {
         enemyStats = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
         playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
-        EnemyHealth = enemyStats.curHp;
-        PlayerHealth = playerStats.curHp;
-        checkSpeed();
+        if (playerStats == null) Debug.Log("Cannot find PokemonCreatorBack");
+    }
+
+    private void Init()
+    {
+        if (!hasInitalized)
+        {
+            EnemyHealth = enemyStats.curHp;
+            PlayerHealth = playerStats.curHp;
+            checkSpeed();
+            hasInitalized = true;
+        }
     }
 	
 	// Update is called once per frame
 	void Update () {
+        Init();
+
 	    if(PlayerDataComplete && EnemyDataComplete) //check these conditions so that we can run the attack calls
         {
             checkSpeed();   //checks the speed to see who attacks first

@@ -51,7 +51,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     {
         positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PBLPlace");
         positionPlaceHolder = positionPlaceHolderGO.GetComponent<RectTransform>().anchoredPosition;
-        sprites = GameObject.Find("PNGs").GetComponent<PokemonPNGHolder>();
+        //sprites = GameObject.Find("PNGs").GetComponent<PokemonPNGHolder>();
         pokemonData = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
     }
 
@@ -94,7 +94,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
             }
             else
             {
-                drawPNG();
+                //drawPNG();
             }
         }
     }
