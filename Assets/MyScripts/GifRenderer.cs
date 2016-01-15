@@ -3,7 +3,7 @@ using System.Collections;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(SpriteRenderer))]
-public class PlayerSprite : MonoBehaviour {
+public class GifRenderer : MonoBehaviour {
 
     private SpriteRenderer renderer;
     private Animator anim;
@@ -18,24 +18,26 @@ public class PlayerSprite : MonoBehaviour {
 
     public void ChangeSprite(string name, int id)
     {
-        Debug.Log(name.ToUpper());
         string gen = checkGen(id);
-        Debug.Log(gen);
-        object o = Resources.Load("Front/Animations/ABRA_0");
+
+        string direction = "Front";
+        if (isPlayer)
+        {
+            direction = "Back";
+        }
+
+        //Debug.Log("Path: " + "Animations/" + gen + "/" + direction + "/" + name.ToUpper());   //for the controller
+
+        /*
+        object o = Resources.Load("Animations/ABRA_0");
         RuntimeAnimatorController control = o as RuntimeAnimatorController;
         anim.runtimeAnimatorController = control;
 
         o = Resources.Load("Front/SpriteSheets/ABRA_0");
         Sprite pokemon = o as Sprite;
-        renderer.sprite = pokemon;
+        renderer.sprite = pokemon;*/
         
-        if (isPlayer)
-        {
-        }   
-        else
-        {
 
-        }
     }
 
     private string checkGen(int id)

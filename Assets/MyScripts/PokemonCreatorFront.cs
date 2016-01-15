@@ -55,7 +55,7 @@ public class PokemonCreatorFront : MonoBehaviour {
     public string cachedAttackName;
 
     private PokemonLibrary pl;
-    private PlayerSprite gif;
+    private GifRenderer gif;
 
     private int temp;
     public int curHp;
@@ -68,7 +68,7 @@ public class PokemonCreatorFront : MonoBehaviour {
     void Start() {
         temp = Random.Range(0, 151);
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
-        gif = GameObject.FindGameObjectWithTag("PBL").GetComponent<PlayerSprite>();
+        gif = GetComponent<GifRenderer>();
         GetPokemonBaseData(temp);   //testing to see if bulbasar pops up
         StatsBasedOffLevel();
         maxHP = HP;
