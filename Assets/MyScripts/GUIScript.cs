@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GUIScript : MonoBehaviour {
 
@@ -37,8 +38,8 @@ public class GUIScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		pcb = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
-		pcf = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
+		pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+		pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
 		attackGen = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
 
 	}	
@@ -112,7 +113,7 @@ public class GUIScript : MonoBehaviour {
     /// </summary>
     public void main_menu()
     {
-        Application.LoadLevel("main menu");
+        SceneManager.LoadScene(0);
     }
 
 

@@ -24,8 +24,8 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     void Start()
     {
-        enemyStats = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
-        playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
         attackCalc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();

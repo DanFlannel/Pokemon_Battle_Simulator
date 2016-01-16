@@ -33,8 +33,8 @@ public class GenerateAttacks : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		pcf = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
-		pcb = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack> ();
+		pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+		pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack> ();
 		attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         adc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
 
@@ -54,6 +54,8 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void checkInitalGen(){
 		if(pcb.PokemonName != playerPokemonName1){
+            PlayerPokemonGen();
+            EnemyPokemonGen();
 			Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
 			genPlayerAttacks();
             genEnemyAttacks();
@@ -82,7 +84,7 @@ public class GenerateAttacks : MonoBehaviour {
     /// <summary>
     /// Generates the random list of enemy attacks
     /// </summary>
-	private void EnemyPlayerPokemonGen(){
+	private void EnemyPokemonGen(){
         //Debug.Log(pcf.PokemonID);
         int id = pcf.PokemonID - 1;
         enemyAttackList1 = attackData.masterGetAttacks(id);

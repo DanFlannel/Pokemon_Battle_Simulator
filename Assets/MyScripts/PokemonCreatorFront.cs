@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PokemonCreatorFront : MonoBehaviour {
+public class PokemonCreatorFront : MonoBehaviour
+{
 
     private int levelBonus;
 
@@ -65,29 +66,36 @@ public class PokemonCreatorFront : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start() {
+    void Start()
+    {
         temp = Random.Range(0, 151);
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
-        gif = GetComponent<GifRenderer>();
-        GetPokemonBaseData(temp);   //testing to see if bulbasar pops up
-        StatsBasedOffLevel();
-        maxHP = HP;
-        curHp = maxHP;
+        gif = this.GetComponent<GifRenderer>();
+        Init();
         Debug.Log("Scene has now loaded with enemy: " + PokemonName);
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
 
     }
 
-    private void GetPokemonBaseData(int id) {
+    private void Init()
+    {
+        GetPokemonBaseData(temp);
+        StatsBasedOffLevel();
+        maxHP = HP;
+        curHp = maxHP;
+    }
+
+    private void GetPokemonBaseData(int id)
+    {
         _PokemonName = pl.GetName(id);
         _PokemonID = id + 1;
 
-        gif.pokemonName = PokemonName;
         gif.ChangeSprite(PokemonName, PokemonID);
-        
+
         baseHP = pl.GetHP(id);
         baseAttack = pl.GetAttack(id);
         baseDefense = pl.GetDefense(id);
@@ -99,7 +107,8 @@ public class PokemonCreatorFront : MonoBehaviour {
         Type2 = pl.GetType2(id);
     }
 
-    private void StatsBasedOffLevel() {
+    private void StatsBasedOffLevel()
+    {
 
         //max hp = 2* base stat + 110
         //max other stats = 1.79 * stat + 5(levelBonus)

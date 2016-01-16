@@ -37,4 +37,9 @@ public class LoadLevel : MonoBehaviour {
         yield return (0);
        
     }
+
+    public void loadDesignatedLevel(int n)
+    {
+        SceneManager.LoadScene(n);
+    }
 }

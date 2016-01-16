@@ -72,8 +72,8 @@ public class TurnController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        enemyStats = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
-        playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
         if (playerStats == null) Debug.Log("Cannot find PokemonCreatorBack");
     }
 

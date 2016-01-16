@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PokemonCreatorBack : MonoBehaviour {
-	
-	private int levelBonus;
+public class PokemonCreatorBack : MonoBehaviour
+{
+
+    private int levelBonus;
 
     private int PokemonID;
     public string PokemonName;
@@ -55,10 +56,11 @@ public class PokemonCreatorBack : MonoBehaviour {
     public string cachedAttackName;
 
     private PokemonLibrary pl;
+    private GifRenderer gif;
 
-	private int temp;
-	public int curHp;
-	public int maxHP;
+    private int temp;
+    public int curHp;
+    public int maxHP;
 
     private bool hasloaded = false;
 
@@ -68,6 +70,7 @@ public class PokemonCreatorBack : MonoBehaviour {
     {
         temp = Random.Range(0, 151);
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
+        gif = this.GetComponent<GifRenderer>();
         Init();
         Debug.Log("Scene has now loaded with Player: " + PokemonName);
     }
@@ -75,7 +78,7 @@ public class PokemonCreatorBack : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void Init()
@@ -89,8 +92,10 @@ public class PokemonCreatorBack : MonoBehaviour {
     private void GetPokemonBaseData(int id)
     {
         PokemonName = pl.GetName(id);
-
         PokemonID = id + 1;
+
+        gif.ChangeSprite(PokemonName, PokemonID);
+
         baseHP = pl.GetHP(id);
         baseAttack = pl.GetAttack(id);
         baseDefense = pl.GetDefense(id);
@@ -102,37 +107,38 @@ public class PokemonCreatorBack : MonoBehaviour {
         Type2 = pl.GetType2(id);
     }
 
-    private void StatsBasedOffLevel(){
-		
-		//max hp = 2* base stat + 110
-		//max other stats = 1.79* stat + 5(levelBonus)
-		//level bonus cannot exceed 5
-		Level = (int)Random.Range(70f,100f) + 1;
-		Level = 100;
-		levelBonus = Level/ (int)(Random.Range(16f,20f) + 1);	//level bonus is between 17 and 20 to add some slight variation to the maximum base stats
-		
-		float hpLevelCalc =  1f + ((float)Level/100);
-		float levelCalc = .79f + ((float)Level/100);
-		
-		float attackCalc = (float)baseAttack*levelCalc;
-		Attack = (int) attackCalc + levelBonus;
-		
-		float defenseCalc = (float)baseDefense * levelCalc;
-		Defense = (int)defenseCalc + levelBonus;
-		
-		float spaBonus = (float)baseSpecial_Attack *levelCalc;
-		Special_Attack = (int)spaBonus+ levelBonus;
-		
-		float spdBonus  = (float)baseSpecial_Defense * levelCalc;
-		Special_Defense = (int)spdBonus + levelBonus;
-		
-		float spBonus = (float)baseSpeed * levelCalc;
-		Speed = (int)spBonus + levelBonus;
-		
-		float hpBonus = (float)baseHP * hpLevelCalc;
-		float hpLevelBonus = 110f* (float)Level/100f;
-		HP = (int)hpBonus + (int)hpLevelBonus;
-	}
+    private void StatsBasedOffLevel()
+    {
+
+        //max hp = 2* base stat + 110
+        //max other stats = 1.79* stat + 5(levelBonus)
+        //level bonus cannot exceed 5
+        Level = (int)Random.Range(70f, 100f) + 1;
+        Level = 100;
+        levelBonus = Level / (int)(Random.Range(16f, 20f) + 1); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
+
+        float hpLevelCalc = 1f + ((float)Level / 100);
+        float levelCalc = .79f + ((float)Level / 100);
+
+        float attackCalc = (float)baseAttack * levelCalc;
+        Attack = (int)attackCalc + levelBonus;
+
+        float defenseCalc = (float)baseDefense * levelCalc;
+        Defense = (int)defenseCalc + levelBonus;
+
+        float spaBonus = (float)baseSpecial_Attack * levelCalc;
+        Special_Attack = (int)spaBonus + levelBonus;
+
+        float spdBonus = (float)baseSpecial_Defense * levelCalc;
+        Special_Defense = (int)spdBonus + levelBonus;
+
+        float spBonus = (float)baseSpeed * levelCalc;
+        Speed = (int)spBonus + levelBonus;
+
+        float hpBonus = (float)baseHP * hpLevelCalc;
+        float hpLevelBonus = 110f * (float)Level / 100f;
+        HP = (int)hpBonus + (int)hpLevelBonus;
+    }
 
     public void updateStatStage(string type, float multiplier)
     {

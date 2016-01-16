@@ -42,8 +42,8 @@ public class AttackDamageCalc : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		enemyStats = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
-		playerStats = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
+		enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+		playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         attack_Switch_Case = GameObject.FindGameObjectWithTag("Attacks").GetComponent<Attack_Switch_Case>();
