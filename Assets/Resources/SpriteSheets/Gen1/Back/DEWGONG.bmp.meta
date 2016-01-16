@@ -1,0 +1,1267 @@
+fileFormatVersion: 2
+guid: 90365050f36c36148acd29c75779f4a4
+timeCreated: 1452888222
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DEWGONG_0
+    21300002: DEWGONG_1
+    21300004: DEWGONG_2
+    21300006: DEWGONG_3
+    21300008: DEWGONG_4
+    21300010: DEWGONG_5
+    21300012: DEWGONG_6
+    21300014: DEWGONG_7
+    21300016: DEWGONG_8
+    21300018: DEWGONG_9
+    21300020: DEWGONG_10
+    21300022: DEWGONG_11
+    21300024: DEWGONG_12
+    21300026: DEWGONG_13
+    21300028: DEWGONG_14
+    21300030: DEWGONG_15
+    21300032: DEWGONG_16
+    21300034: DEWGONG_17
+    21300036: DEWGONG_18
+    21300038: DEWGONG_19
+    21300040: DEWGONG_20
+    21300042: DEWGONG_21
+    21300044: DEWGONG_22
+    21300046: DEWGONG_23
+    21300048: DEWGONG_24
+    21300050: DEWGONG_25
+    21300052: DEWGONG_26
+    21300054: DEWGONG_27
+    21300056: DEWGONG_28
+    21300058: DEWGONG_29
+    21300060: DEWGONG_30
+    21300062: DEWGONG_31
+    21300064: DEWGONG_32
+    21300066: DEWGONG_33
+    21300068: DEWGONG_34
+    21300070: DEWGONG_35
+    21300072: DEWGONG_36
+    21300074: DEWGONG_37
+    21300076: DEWGONG_38
+    21300078: DEWGONG_39
+    21300080: DEWGONG_40
+    21300082: DEWGONG_41
+    21300084: DEWGONG_42
+    21300086: DEWGONG_43
+    21300088: DEWGONG_44
+    21300090: DEWGONG_45
+    21300092: DEWGONG_46
+    21300094: DEWGONG_47
+    21300096: DEWGONG_48
+    21300098: DEWGONG_49
+    21300100: DEWGONG_50
+    21300102: DEWGONG_51
+    21300104: DEWGONG_52
+    21300106: DEWGONG_53
+    21300108: DEWGONG_54
+    21300110: DEWGONG_55
+    21300112: DEWGONG_56
+    21300114: DEWGONG_57
+    21300116: DEWGONG_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DEWGONG_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: 3}
+        - {x: -61.5, y: -5}
+        - {x: -3.5, y: -29}
+        - {x: 54.5, y: -29}
+        - {x: 68.5, y: -26}
+        - {x: 68.5, y: -4}
+        - {x: 51.5, y: 18}
+        - {x: -41.5, y: 18}
+        - {x: -57.5, y: 16}
+        - {x: -65.5, y: 11}
+    - name: DEWGONG_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 476
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 20}
+        - {x: -64.5, y: 13}
+        - {x: -64.5, y: 0}
+        - {x: 0.5, y: -29}
+        - {x: 48.5, y: -29}
+        - {x: 68.5, y: -26}
+        - {x: 68.5, y: 20}
+    - name: DEWGONG_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 476
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 21}
+        - {x: -60.5, y: 19}
+        - {x: -64.5, y: 16}
+        - {x: -64.5, y: 2}
+        - {x: 7.5, y: -29}
+        - {x: 46.5, y: -29}
+        - {x: 67.5, y: -26}
+        - {x: 67.5, y: -5}
+        - {x: 60.5, y: 13}
+        - {x: 43.5, y: 20}
+        - {x: 30.5, y: 21}
+    - name: DEWGONG_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 476
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -29}
+        - {x: 67.5, y: -29}
+        - {x: 67.5, y: 11}
+        - {x: 66.5, y: 18}
+        - {x: 15.5, y: 23}
+        - {x: -64.5, y: 23}
+        - {x: -64.5, y: 3}
+    - name: DEWGONG_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 476
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 19}
+        - {x: -7.5, y: 24}
+        - {x: -63.5, y: 24}
+        - {x: -63.5, y: 10}
+        - {x: -2.5, y: -26}
+        - {x: 6.5, y: -29}
+        - {x: 56.5, y: -29}
+        - {x: 66.5, y: -26}
+        - {x: 66.5, y: -13}
+        - {x: 55.5, y: 9}
+    - name: DEWGONG_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 476
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.5, y: 26}
+        - {x: -63.5, y: 24}
+        - {x: -63.5, y: 16}
+        - {x: -48.5, y: 10}
+        - {x: 2.5, y: -29}
+        - {x: 58.5, y: -29}
+        - {x: 64.5, y: -28}
+        - {x: 64.5, y: 21}
+        - {x: 44.5, y: 26}
+    - name: DEWGONG_6
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 476
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 6}
+        - {x: 46.5, y: 16}
+        - {x: 37.5, y: 13}
+        - {x: -10.5, y: 24}
+        - {x: -27.5, y: 28}
+        - {x: -62.5, y: 28}
+        - {x: -62.5, y: 19}
+        - {x: 7.5, y: -29}
+        - {x: 63.5, y: -29}
+        - {x: 63.5, y: -21}
+        - {x: 60.5, y: -19}
+    - name: DEWGONG_7
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 476
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: -6}
+        - {x: -4.5, y: -31}
+        - {x: 62.5, y: -31}
+        - {x: 62.5, y: 26}
+        - {x: 51.5, y: 30}
+        - {x: -60.5, y: 30}
+        - {x: -62.5, y: 29}
+    - name: DEWGONG_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.5, y: 32}
+        - {x: -61.5, y: -15}
+        - {x: -7.5, y: -32}
+        - {x: 60.5, y: -32}
+        - {x: 60.5, y: 22}
+        - {x: 31.5, y: 32}
+    - name: DEWGONG_9
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 408
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 33}
+        - {x: -58.5, y: 33}
+        - {x: -60.5, y: 29}
+        - {x: -60.5, y: 23}
+        - {x: -23.5, y: -27}
+        - {x: -3.5, y: -33}
+        - {x: 59.5, y: -33}
+        - {x: 59.5, y: 12}
+        - {x: 47.5, y: 19}
+    - name: DEWGONG_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 408
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 18}
+        - {x: 36.5, y: 13}
+        - {x: -16.5, y: 32}
+        - {x: -26.5, y: 34}
+        - {x: -56.5, y: 34}
+        - {x: -59.5, y: 32}
+        - {x: -59.5, y: 19}
+        - {x: 4.5, y: -34}
+        - {x: 57.5, y: -34}
+        - {x: 58.5, y: -31}
+        - {x: 58.5, y: -6}
+        - {x: 57.5, y: 10}
+    - name: DEWGONG_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 408
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.5, y: 34}
+        - {x: -59.5, y: 26}
+        - {x: 3.5, y: -29}
+        - {x: 10.5, y: -34}
+        - {x: 15.5, y: -34}
+        - {x: 18.5, y: -32}
+        - {x: 30.5, y: -28}
+        - {x: 45.5, y: -34}
+        - {x: 57.5, y: -34}
+        - {x: 57.5, y: -3}
+        - {x: 54.5, y: 17}
+        - {x: 43.5, y: 18}
+        - {x: -13.5, y: 34}
+    - name: DEWGONG_12
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 408
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 34}
+        - {x: -58.5, y: 18}
+        - {x: -29.5, y: -31}
+        - {x: -6.5, y: -34}
+        - {x: 56.5, y: -34}
+        - {x: 56.5, y: 17}
+        - {x: 5.5, y: 34}
+    - name: DEWGONG_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 408
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.5, y: 15}
+        - {x: -9.5, y: 33}
+        - {x: -13.5, y: 34}
+        - {x: -58.5, y: 34}
+        - {x: -58.5, y: 19}
+        - {x: -1.5, y: -34}
+        - {x: 55.5, y: -34}
+        - {x: 55.5, y: 8}
+        - {x: 46.5, y: 21}
+    - name: DEWGONG_14
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 408
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.5, y: 34}
+        - {x: -57.5, y: 12}
+        - {x: -48.5, y: 4}
+        - {x: 6.5, y: -34}
+        - {x: 54.5, y: -34}
+        - {x: 55.5, y: -17}
+        - {x: 55.5, y: 34}
+    - name: DEWGONG_15
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 408
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 34}
+        - {x: -57.5, y: 34}
+        - {x: -57.5, y: 12}
+        - {x: -5.5, y: -34}
+        - {x: 55.5, y: -34}
+        - {x: 55.5, y: 8}
+        - {x: 47.5, y: 23}
+    - name: DEWGONG_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.5, y: 34}
+        - {x: -57.5, y: 15}
+        - {x: 2.5, y: -34}
+        - {x: 55.5, y: -34}
+        - {x: 55.5, y: 34}
+    - name: DEWGONG_17
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 340
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 33}
+        - {x: -56.5, y: 7}
+        - {x: -9.5, y: -34}
+        - {x: 55.5, y: -34}
+        - {x: 55.5, y: 21}
+        - {x: 0.5, y: 33}
+    - name: DEWGONG_18
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 340
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 32}
+        - {x: -56.5, y: 16}
+        - {x: -27.5, y: -19}
+        - {x: 0.5, y: -34}
+        - {x: 55.5, y: -34}
+        - {x: 55.5, y: 32}
+    - name: DEWGONG_19
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 340
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 31}
+        - {x: -56.5, y: 11}
+        - {x: -17.5, y: -29}
+        - {x: 9.5, y: -34}
+        - {x: 55.5, y: -34}
+        - {x: 55.5, y: 31}
+    - name: DEWGONG_20
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 340
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.5, y: 29}
+        - {x: -57.5, y: 12}
+        - {x: -19.5, y: -33}
+        - {x: 54.5, y: -33}
+        - {x: 55.5, y: -32}
+        - {x: 55.5, y: 18}
+        - {x: 49.5, y: 29}
+    - name: DEWGONG_21
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 340
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 23}
+        - {x: 41.5, y: 23}
+        - {x: 15.5, y: 4}
+        - {x: -24.5, y: 27}
+        - {x: -52.5, y: 27}
+        - {x: -57.5, y: 20}
+        - {x: -57.5, y: -8}
+        - {x: -3.5, y: -32}
+        - {x: 56.5, y: -32}
+        - {x: 56.5, y: -7}
+        - {x: 54.5, y: 16}
+    - name: DEWGONG_22
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 340
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.5, y: 25}
+        - {x: -58.5, y: -5}
+        - {x: -6.5, y: -31}
+        - {x: 52.5, y: -31}
+        - {x: 56.5, y: -30}
+        - {x: 56.5, y: 25}
+    - name: DEWGONG_23
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 340
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: 25}
+        - {x: -58.5, y: 19}
+        - {x: -58.5, y: -8}
+        - {x: -16.5, y: -30}
+        - {x: 57.5, y: -30}
+        - {x: 57.5, y: 5}
+        - {x: 56.5, y: 11}
+        - {x: 47.5, y: 25}
+    - name: DEWGONG_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.5, y: 26}
+        - {x: -59.5, y: 4}
+        - {x: -48.5, y: -12}
+        - {x: -25.5, y: -22}
+        - {x: 2.5, y: -29}
+        - {x: 58.5, y: -29}
+        - {x: 58.5, y: -2}
+        - {x: 55.5, y: 20}
+        - {x: 45.5, y: 26}
+    - name: DEWGONG_25
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 272
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 26}
+        - {x: -60.5, y: -6}
+        - {x: -37.5, y: -27}
+        - {x: 58.5, y: -27}
+        - {x: 58.5, y: 22}
+        - {x: 47.5, y: 26}
+    - name: DEWGONG_26
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 272
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 27}
+        - {x: -61.5, y: 17}
+        - {x: -61.5, y: 0}
+        - {x: -54.5, y: -15}
+        - {x: -32.5, y: -26}
+        - {x: 59.5, y: -26}
+        - {x: 59.5, y: 25}
+        - {x: 54.5, y: 27}
+    - name: DEWGONG_27
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 272
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: 28}
+        - {x: -62.5, y: 28}
+        - {x: -62.5, y: -16}
+        - {x: -59.5, y: -20}
+        - {x: -19.5, y: -25}
+        - {x: 60.5, y: -25}
+        - {x: 60.5, y: 5}
+    - name: DEWGONG_28
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 272
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: -3}
+        - {x: 54.5, y: 23}
+        - {x: 44.5, y: 28}
+        - {x: 23.5, y: 28}
+        - {x: -58.5, y: 14}
+        - {x: -63.5, y: 8}
+        - {x: -63.5, y: -7}
+        - {x: -44.5, y: -24}
+        - {x: 61.5, y: -24}
+    - name: DEWGONG_29
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 272
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: 28}
+        - {x: -64.5, y: -17}
+        - {x: -45.5, y: -24}
+        - {x: 61.5, y: -24}
+        - {x: 61.5, y: 28}
+    - name: DEWGONG_30
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 272
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: 29}
+        - {x: -65.5, y: -24}
+        - {x: 62.5, y: -24}
+        - {x: 62.5, y: 29}
+    - name: DEWGONG_31
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 272
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.5, y: 29}
+        - {x: -66.5, y: -11}
+        - {x: -52.5, y: -24}
+        - {x: 63.5, y: -24}
+        - {x: 63.5, y: 29}
+    - name: DEWGONG_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 30}
+        - {x: 33.5, y: 30}
+        - {x: -64.5, y: 0}
+        - {x: -67.5, y: -5}
+        - {x: -67.5, y: -15}
+        - {x: -58.5, y: -24}
+        - {x: 60.5, y: -24}
+        - {x: 64.5, y: -20}
+        - {x: 64.5, y: -1}
+        - {x: 63.5, y: 2}
+    - name: DEWGONG_33
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 204
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 30}
+        - {x: 23.5, y: 30}
+        - {x: -67.5, y: 0}
+        - {x: -68.5, y: -4}
+        - {x: -68.5, y: -14}
+        - {x: -63.5, y: -18}
+        - {x: -50.5, y: -24}
+        - {x: 3.5, y: -24}
+        - {x: 65.5, y: -20}
+        - {x: 65.5, y: -3}
+        - {x: 60.5, y: 8}
+    - name: DEWGONG_34
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 204
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 30}
+        - {x: 24.5, y: 30}
+        - {x: -68.5, y: 0}
+        - {x: -68.5, y: -19}
+        - {x: -62.5, y: -25}
+        - {x: 32.5, y: -25}
+        - {x: 65.5, y: -17}
+        - {x: 65.5, y: 1}
+        - {x: 63.5, y: 11}
+    - name: DEWGONG_35
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 204
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.5, y: -26}
+        - {x: 35.5, y: -26}
+        - {x: 66.5, y: -22}
+        - {x: 66.5, y: 2}
+        - {x: 62.5, y: 9}
+        - {x: 47.5, y: 30}
+        - {x: 18.5, y: 30}
+        - {x: -68.5, y: -2}
+    - name: DEWGONG_36
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 204
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 30}
+        - {x: 34.5, y: 30}
+        - {x: -68.5, y: -8}
+        - {x: -68.5, y: -22}
+        - {x: -58.5, y: -27}
+        - {x: -29.5, y: -27}
+        - {x: 35.5, y: -22}
+        - {x: 64.5, y: -18}
+        - {x: 67.5, y: -11}
+        - {x: 67.5, y: 2}
+    - name: DEWGONG_37
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 204
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.5, y: -24}
+        - {x: -61.5, y: -28}
+        - {x: -33.5, y: -28}
+        - {x: 32.5, y: -22}
+        - {x: 67.5, y: -16}
+        - {x: 67.5, y: 30}
+        - {x: 25.5, y: 30}
+        - {x: -68.5, y: 1}
+    - name: DEWGONG_38
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 204
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 30}
+        - {x: -68.5, y: 6}
+        - {x: -68.5, y: -29}
+        - {x: 35.5, y: -29}
+        - {x: 68.5, y: -13}
+        - {x: 68.5, y: 30}
+    - name: DEWGONG_39
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 204
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 29}
+        - {x: 28.5, y: 29}
+        - {x: -68.5, y: -18}
+        - {x: -68.5, y: -30}
+        - {x: 48.5, y: -30}
+        - {x: 68.5, y: -17}
+        - {x: 68.5, y: 0}
+        - {x: 53.5, y: 24}
+    - name: DEWGONG_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 29}
+        - {x: -67.5, y: -18}
+        - {x: -68.5, y: -20}
+        - {x: -68.5, y: -32}
+        - {x: -4.5, y: -32}
+        - {x: 33.5, y: -27}
+        - {x: 68.5, y: -15}
+        - {x: 68.5, y: 4}
+        - {x: 48.5, y: 29}
+    - name: DEWGONG_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 136
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 28}
+        - {x: 31.5, y: 28}
+        - {x: -66.5, y: -19}
+        - {x: -68.5, y: -22}
+        - {x: -68.5, y: -32}
+        - {x: -66.5, y: -33}
+        - {x: -37.5, y: -33}
+        - {x: 34.5, y: -28}
+        - {x: 68.5, y: -11}
+        - {x: 68.5, y: 9}
+    - name: DEWGONG_42
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 136
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 28}
+        - {x: -67.5, y: -21}
+        - {x: -68.5, y: -23}
+        - {x: -68.5, y: -34}
+        - {x: 33.5, y: -34}
+        - {x: 68.5, y: -14}
+        - {x: 68.5, y: 7}
+        - {x: 43.5, y: 28}
+    - name: DEWGONG_43
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 136
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: -7}
+        - {x: 68.5, y: 4}
+        - {x: 51.5, y: 21}
+        - {x: 42.5, y: 27}
+        - {x: 32.5, y: 27}
+        - {x: -68.5, y: -23}
+        - {x: -68.5, y: -30}
+        - {x: -64.5, y: -34}
+        - {x: -21.5, y: -34}
+        - {x: 32.5, y: -24}
+        - {x: 43.5, y: -15}
+        - {x: 63.5, y: -8}
+    - name: DEWGONG_44
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 136
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 26}
+        - {x: -65.5, y: -17}
+        - {x: -68.5, y: -23}
+        - {x: -68.5, y: -34}
+        - {x: 9.5, y: -34}
+        - {x: 68.5, y: -24}
+        - {x: 68.5, y: 6}
+        - {x: 44.5, y: 26}
+    - name: DEWGONG_45
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 136
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 26}
+        - {x: -66.5, y: -21}
+        - {x: -68.5, y: -26}
+        - {x: -68.5, y: -29}
+        - {x: -62.5, y: -34}
+        - {x: 14.5, y: -34}
+        - {x: 68.5, y: -16}
+        - {x: 68.5, y: 26}
+    - name: DEWGONG_46
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 136
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 26}
+        - {x: 35.5, y: 26}
+        - {x: -64.5, y: -18}
+        - {x: -67.5, y: -23}
+        - {x: -67.5, y: -30}
+        - {x: -59.5, y: -34}
+        - {x: 20.5, y: -34}
+        - {x: 68.5, y: -15}
+        - {x: 68.5, y: 3}
+    - name: DEWGONG_47
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 136
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 25}
+        - {x: -63.5, y: -15}
+        - {x: -67.5, y: -20}
+        - {x: -67.5, y: -32}
+        - {x: -62.5, y: -34}
+        - {x: 33.5, y: -34}
+        - {x: 68.5, y: -23}
+        - {x: 68.5, y: 17}
+        - {x: 49.5, y: 25}
+    - name: DEWGONG_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 24}
+        - {x: 31.5, y: 24}
+        - {x: -38.5, y: 9}
+        - {x: -66.5, y: -19}
+        - {x: -66.5, y: -34}
+        - {x: 43.5, y: -34}
+        - {x: 68.5, y: -10}
+        - {x: 68.5, y: 2}
+        - {x: 63.5, y: 7}
+    - name: DEWGONG_49
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 68
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: 8}
+        - {x: 47.5, y: 23}
+        - {x: 18.5, y: 23}
+        - {x: -24.5, y: 9}
+        - {x: -66.5, y: -14}
+        - {x: -66.5, y: -25}
+        - {x: -59.5, y: -32}
+        - {x: 45.5, y: -32}
+        - {x: 68.5, y: -9}
+    - name: DEWGONG_50
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 68
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: -15}
+        - {x: 68.5, y: 6}
+        - {x: 50.5, y: 23}
+        - {x: 19.5, y: 23}
+        - {x: -21.5, y: 14}
+        - {x: -66.5, y: -11}
+        - {x: -66.5, y: -26}
+        - {x: -57.5, y: -30}
+        - {x: 28.5, y: -30}
+    - name: DEWGONG_51
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 68
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 22}
+        - {x: -22.5, y: 8}
+        - {x: -60.5, y: -6}
+        - {x: -66.5, y: -17}
+        - {x: -66.5, y: -23}
+        - {x: -63.5, y: -28}
+        - {x: 54.5, y: -28}
+        - {x: 68.5, y: -15}
+        - {x: 68.5, y: 3}
+        - {x: 47.5, y: 22}
+    - name: DEWGONG_52
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 68
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 21}
+        - {x: 20.5, y: 21}
+        - {x: -38.5, y: 7}
+        - {x: -65.5, y: -10}
+        - {x: -65.5, y: -27}
+        - {x: 65.5, y: -27}
+        - {x: 68.5, y: -23}
+        - {x: 68.5, y: 2}
+        - {x: 65.5, y: 8}
+    - name: DEWGONG_53
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 68
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 20}
+        - {x: -38.5, y: 13}
+        - {x: -60.5, y: -3}
+        - {x: -65.5, y: -12}
+        - {x: -65.5, y: -17}
+        - {x: -51.5, y: -26}
+        - {x: -26.5, y: -23}
+        - {x: -11.5, y: -27}
+        - {x: 37.5, y: -27}
+        - {x: 68.5, y: -15}
+        - {x: 68.5, y: 4}
+        - {x: 55.5, y: 20}
+    - name: DEWGONG_54
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 68
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 20}
+        - {x: -34.5, y: 13}
+        - {x: -65.5, y: -5}
+        - {x: -65.5, y: -16}
+        - {x: -52.5, y: -22}
+        - {x: -34.5, y: -28}
+        - {x: 46.5, y: -28}
+        - {x: 68.5, y: -20}
+        - {x: 68.5, y: 0}
+        - {x: 50.5, y: 20}
+    - name: DEWGONG_55
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 68
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 19}
+        - {x: 34.5, y: 16}
+        - {x: -42.5, y: 12}
+        - {x: -65.5, y: -4}
+        - {x: -65.5, y: -13}
+        - {x: -60.5, y: -28}
+        - {x: 61.5, y: -28}
+        - {x: 68.5, y: -19}
+        - {x: 68.5, y: 8}
+        - {x: 50.5, y: 19}
+    - name: DEWGONG_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 18}
+        - {x: -65.5, y: 10}
+        - {x: -65.5, y: -22}
+        - {x: -51.5, y: -28}
+        - {x: 46.5, y: -28}
+        - {x: 68.5, y: -17}
+        - {x: 68.5, y: 3}
+        - {x: 47.5, y: 18}
+    - name: DEWGONG_57
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: 18}
+        - {x: -65.5, y: 18}
+        - {x: -65.5, y: -9}
+        - {x: -63.5, y: -14}
+        - {x: 14.5, y: -29}
+        - {x: 27.5, y: -29}
+        - {x: 32.5, y: -28}
+        - {x: 40.5, y: -26}
+        - {x: 66.5, y: -17}
+        - {x: 68.5, y: -15}
+    - name: DEWGONG_58
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 137
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 18}
+        - {x: -35.5, y: 16}
+        - {x: -61.5, y: 8}
+        - {x: -65.5, y: 1}
+        - {x: -65.5, y: -3}
+        - {x: -59.5, y: -7}
+        - {x: -47.5, y: -12}
+        - {x: -24.5, y: -10}
+        - {x: 11.5, y: -29}
+        - {x: 36.5, y: -29}
+        - {x: 68.5, y: -17}
+        - {x: 68.5, y: -6}
+        - {x: 45.5, y: 18}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

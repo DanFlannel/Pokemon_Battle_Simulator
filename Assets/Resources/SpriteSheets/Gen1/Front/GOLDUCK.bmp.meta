@@ -1,0 +1,1112 @@
+fileFormatVersion: 2
+guid: 56ef013ae52a1e2499e61c7aa24ffa08
+timeCreated: 1452881982
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GOLDUCK_0
+    21300002: GOLDUCK_1
+    21300004: GOLDUCK_2
+    21300006: GOLDUCK_3
+    21300008: GOLDUCK_4
+    21300010: GOLDUCK_5
+    21300012: GOLDUCK_6
+    21300014: GOLDUCK_7
+    21300016: GOLDUCK_8
+    21300018: GOLDUCK_9
+    21300020: GOLDUCK_10
+    21300022: GOLDUCK_11
+    21300024: GOLDUCK_12
+    21300026: GOLDUCK_13
+    21300028: GOLDUCK_14
+    21300030: GOLDUCK_15
+    21300032: GOLDUCK_16
+    21300034: GOLDUCK_17
+    21300036: GOLDUCK_18
+    21300038: GOLDUCK_19
+    21300040: GOLDUCK_20
+    21300042: GOLDUCK_21
+    21300044: GOLDUCK_22
+    21300046: GOLDUCK_23
+    21300048: GOLDUCK_24
+    21300050: GOLDUCK_25
+    21300052: GOLDUCK_26
+    21300054: GOLDUCK_27
+    21300056: GOLDUCK_28
+    21300058: GOLDUCK_29
+    21300060: GOLDUCK_30
+    21300062: GOLDUCK_31
+    21300064: GOLDUCK_32
+    21300066: GOLDUCK_33
+    21300068: GOLDUCK_34
+    21300070: GOLDUCK_35
+    21300072: GOLDUCK_36
+    21300074: GOLDUCK_37
+    21300076: GOLDUCK_38
+    21300078: GOLDUCK_39
+    21300080: GOLDUCK_40
+    21300082: GOLDUCK_41
+    21300084: GOLDUCK_42
+    21300086: GOLDUCK_43
+    21300088: GOLDUCK_44
+    21300090: GOLDUCK_45
+    21300092: GOLDUCK_46
+    21300094: GOLDUCK_47
+    21300096: GOLDUCK_48
+    21300098: GOLDUCK_49
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GOLDUCK_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 37}
+        - {x: -34, y: 10}
+        - {x: -34, y: -11}
+        - {x: -33, y: -12}
+        - {x: -25, y: -16}
+        - {x: -29, y: -35}
+        - {x: -30, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 12}
+        - {x: 17, y: 37}
+    - name: GOLDUCK_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 518
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 37}
+        - {x: -16, y: 37}
+        - {x: -34, y: 14}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 4}
+        - {x: 20, y: 33}
+    - name: GOLDUCK_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 518
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 37}
+        - {x: -34, y: 6}
+        - {x: -34, y: -35}
+        - {x: -32, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 9}
+        - {x: 17, y: 37}
+    - name: GOLDUCK_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 518
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 37}
+        - {x: -12, y: 37}
+        - {x: -34, y: 11}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 14}
+        - {x: 20, y: 35}
+    - name: GOLDUCK_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 518
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 6}
+        - {x: 18, y: 37}
+        - {x: -12, y: 37}
+        - {x: -34, y: 6}
+        - {x: -34, y: -14}
+        - {x: -29, y: -35}
+        - {x: -27, y: -37}
+        - {x: -3, y: -37}
+        - {x: -2, y: -36}
+        - {x: 0, y: -37}
+        - {x: 34, y: -37}
+    - name: GOLDUCK_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 518
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 6}
+        - {x: 23, y: 37}
+        - {x: -16, y: 37}
+        - {x: -34, y: 12}
+        - {x: -34, y: -19}
+        - {x: -29, y: -37}
+        - {x: -3, y: -37}
+        - {x: -2, y: -36}
+        - {x: 0, y: -37}
+        - {x: 34, y: -37}
+    - name: GOLDUCK_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 518
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 25}
+        - {x: 31, y: 37}
+        - {x: -14, y: 37}
+        - {x: -34, y: 9}
+        - {x: -34, y: -10}
+        - {x: -17, y: -7}
+        - {x: -29, y: -35}
+        - {x: -27, y: -37}
+        - {x: 34, y: -37}
+    - name: GOLDUCK_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 518
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 37}
+        - {x: -34, y: 20}
+        - {x: -34, y: -33}
+        - {x: -30, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 6}
+        - {x: 21, y: 37}
+    - name: GOLDUCK_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 34}
+        - {x: 33, y: 37}
+        - {x: -20, y: 37}
+        - {x: -34, y: 27}
+        - {x: -34, y: -37}
+        - {x: -3, y: -37}
+        - {x: -2, y: -36}
+        - {x: -1, y: -37}
+        - {x: 34, y: -37}
+    - name: GOLDUCK_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 444
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 36}
+        - {x: 24, y: 37}
+        - {x: -18, y: 37}
+        - {x: -34, y: 10}
+        - {x: -34, y: -9}
+        - {x: -26, y: -10}
+        - {x: -31, y: -35}
+        - {x: -28, y: -37}
+        - {x: 33, y: -37}
+        - {x: 34, y: -33}
+        - {x: 34, y: 9}
+    - name: GOLDUCK_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 444
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 37}
+        - {x: -34, y: 23}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 15}
+        - {x: 16, y: 37}
+    - name: GOLDUCK_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 444
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 37}
+        - {x: -16, y: 37}
+        - {x: -34, y: 15}
+        - {x: -34, y: -37}
+        - {x: 33, y: -37}
+        - {x: 34, y: -35}
+        - {x: 34, y: 22}
+    - name: GOLDUCK_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 444
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 11}
+        - {x: 17, y: 37}
+        - {x: -12, y: 37}
+        - {x: -22, y: 31}
+        - {x: -34, y: 6}
+        - {x: -34, y: -30}
+        - {x: -27, y: -37}
+        - {x: 34, y: -37}
+    - name: GOLDUCK_13
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 444
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -10}
+        - {x: -26, y: -9}
+        - {x: -15, y: -3}
+        - {x: -29, y: -35}
+        - {x: -30, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 29}
+        - {x: 33, y: 37}
+        - {x: -11, y: 37}
+        - {x: -34, y: 5}
+    - name: GOLDUCK_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 444
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 37}
+        - {x: -34, y: 19}
+        - {x: -34, y: -11}
+        - {x: -17, y: -6}
+        - {x: -29, y: -35}
+        - {x: -30, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 33}
+        - {x: 33, y: 37}
+    - name: GOLDUCK_15
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 444
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 37}
+        - {x: -34, y: 13}
+        - {x: -34, y: -31}
+        - {x: -33, y: -35}
+        - {x: -30, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 21}
+        - {x: 23, y: 37}
+    - name: GOLDUCK_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 37}
+        - {x: -14, y: 37}
+        - {x: -34, y: 13}
+        - {x: -34, y: -12}
+        - {x: -25, y: -10}
+        - {x: -16, y: -7}
+        - {x: -29, y: -35}
+        - {x: -27, y: -37}
+        - {x: -3, y: -37}
+        - {x: -2, y: -36}
+        - {x: 1, y: -37}
+        - {x: 34, y: -37}
+    - name: GOLDUCK_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 370
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 37}
+        - {x: -34, y: 14}
+        - {x: -34, y: -35}
+        - {x: -29, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 10}
+        - {x: 22, y: 37}
+    - name: GOLDUCK_18
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 370
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 37}
+        - {x: -27, y: 34}
+        - {x: -34, y: 13}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 19}
+        - {x: 25, y: 37}
+    - name: GOLDUCK_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 370
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 37}
+        - {x: -10, y: 37}
+        - {x: -34, y: 8}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 30}
+        - {x: 32, y: 36}
+    - name: GOLDUCK_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 370
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 37}
+        - {x: -24, y: 30}
+        - {x: -34, y: 7}
+        - {x: -34, y: -12}
+        - {x: -30, y: -13}
+        - {x: -25, y: -11}
+        - {x: -16, y: -8}
+        - {x: -15, y: -5}
+        - {x: -18, y: -19}
+        - {x: -29, y: -35}
+        - {x: -30, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 8}
+        - {x: 18, y: 37}
+    - name: GOLDUCK_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 370
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 1}
+        - {x: 31, y: 9}
+        - {x: 25, y: 11}
+        - {x: 22, y: 34}
+        - {x: 12, y: 37}
+        - {x: -9, y: 37}
+        - {x: -34, y: 2}
+        - {x: -34, y: -14}
+        - {x: -16, y: -9}
+        - {x: -30, y: -35}
+        - {x: -30, y: -37}
+        - {x: 33, y: -37}
+        - {x: 32, y: -34}
+        - {x: 29, y: -31}
+        - {x: 34, y: -21}
+    - name: GOLDUCK_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 370
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 10}
+        - {x: 20, y: 37}
+        - {x: -9, y: 37}
+        - {x: -34, y: 3}
+        - {x: -34, y: -12}
+        - {x: -33, y: -13}
+        - {x: -24, y: -13}
+        - {x: -30, y: -35}
+        - {x: -28, y: -37}
+        - {x: -3, y: -37}
+        - {x: -2, y: -36}
+        - {x: 2, y: -37}
+        - {x: 34, y: -37}
+    - name: GOLDUCK_23
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 370
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 22}
+        - {x: 30, y: 33}
+        - {x: 15, y: 37}
+        - {x: -10, y: 37}
+        - {x: -34, y: 9}
+        - {x: -34, y: -37}
+        - {x: 33, y: -37}
+        - {x: 32, y: -34}
+        - {x: 29, y: -31}
+        - {x: 34, y: -21}
+    - name: GOLDUCK_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 37}
+        - {x: -34, y: 16}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 21}
+        - {x: 26, y: 37}
+    - name: GOLDUCK_25
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 296
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 17}
+        - {x: 20, y: 36}
+        - {x: -5, y: 36}
+        - {x: -19, y: 27}
+        - {x: -34, y: 1}
+        - {x: -34, y: -11}
+        - {x: -33, y: -15}
+        - {x: -29, y: -35}
+        - {x: -27, y: -37}
+        - {x: -3, y: -37}
+        - {x: -2, y: -36}
+        - {x: 2, y: -37}
+        - {x: 34, y: -37}
+    - name: GOLDUCK_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 296
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -33}
+        - {x: 34, y: 11}
+        - {x: 17, y: 36}
+        - {x: -10, y: 36}
+        - {x: -34, y: 4}
+        - {x: -34, y: -36}
+        - {x: -29, y: -37}
+        - {x: 32, y: -37}
+    - name: GOLDUCK_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 296
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 36}
+        - {x: -23, y: 36}
+        - {x: -34, y: 22}
+        - {x: -34, y: -34}
+        - {x: -32, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 4}
+        - {x: 28, y: 31}
+    - name: GOLDUCK_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 296
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 36}
+        - {x: -18, y: 36}
+        - {x: -34, y: 1}
+        - {x: -34, y: -10}
+        - {x: -32, y: -15}
+        - {x: -24, y: -14}
+        - {x: -22, y: -12}
+        - {x: -16, y: -10}
+        - {x: -29, y: -35}
+        - {x: -29, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 27}
+        - {x: 33, y: 34}
+    - name: GOLDUCK_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 296
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 36}
+        - {x: -21, y: 36}
+        - {x: -34, y: 21}
+        - {x: -34, y: -37}
+        - {x: 32, y: -37}
+        - {x: 34, y: -33}
+        - {x: 34, y: 6}
+        - {x: 25, y: 34}
+    - name: GOLDUCK_30
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 296
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 5}
+        - {x: 33, y: 11}
+        - {x: 25, y: 28}
+        - {x: 13, y: 36}
+        - {x: -13, y: 36}
+        - {x: -34, y: 10}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+    - name: GOLDUCK_31
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 296
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 36}
+        - {x: -19, y: 36}
+        - {x: -34, y: 16}
+        - {x: -34, y: -17}
+        - {x: -33, y: -19}
+        - {x: -26, y: -16}
+        - {x: -21, y: -14}
+        - {x: -13, y: -10}
+        - {x: -29, y: -35}
+        - {x: -28, y: -37}
+        - {x: 32, y: -37}
+        - {x: 34, y: -32}
+        - {x: 34, y: 12}
+        - {x: 25, y: 30}
+    - name: GOLDUCK_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 36}
+        - {x: -27, y: 27}
+        - {x: -34, y: 9}
+        - {x: -34, y: -14}
+        - {x: -33, y: -19}
+        - {x: -26, y: -16}
+        - {x: -21, y: -14}
+        - {x: -13, y: -10}
+        - {x: -29, y: -35}
+        - {x: -30, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 36}
+    - name: GOLDUCK_33
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 222
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -32}
+        - {x: 34, y: 17}
+        - {x: 23, y: 36}
+        - {x: -15, y: 36}
+        - {x: -33, y: 5}
+        - {x: -33, y: -36}
+        - {x: -30, y: -37}
+        - {x: 32, y: -37}
+    - name: GOLDUCK_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 222
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 36}
+        - {x: -31, y: 7}
+        - {x: -33, y: 3}
+        - {x: -33, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 11}
+        - {x: 22, y: 32}
+        - {x: 9, y: 36}
+    - name: GOLDUCK_35
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 222
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -36}
+        - {x: 34, y: 12}
+        - {x: 31, y: 33}
+        - {x: 22, y: 36}
+        - {x: -13, y: 36}
+        - {x: -33, y: -1}
+        - {x: -33, y: -12}
+        - {x: -32, y: -17}
+        - {x: -33, y: -24}
+        - {x: -33, y: -36}
+        - {x: -29, y: -37}
+        - {x: -3, y: -37}
+        - {x: -2, y: -36}
+        - {x: 2, y: -37}
+        - {x: 33, y: -37}
+    - name: GOLDUCK_36
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 222
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -36}
+        - {x: 34, y: 31}
+        - {x: 27, y: 36}
+        - {x: -12, y: 36}
+        - {x: -33, y: 3}
+        - {x: -33, y: -14}
+        - {x: -32, y: -17}
+        - {x: -25, y: -22}
+        - {x: -23, y: -16}
+        - {x: -29, y: -35}
+        - {x: -27, y: -37}
+        - {x: 33, y: -37}
+    - name: GOLDUCK_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 222
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 36}
+        - {x: -30, y: 35}
+        - {x: -33, y: 22}
+        - {x: -33, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 21}
+        - {x: 22, y: 36}
+    - name: GOLDUCK_38
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 222
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 36}
+        - {x: -17, y: 36}
+        - {x: -33, y: 24}
+        - {x: -33, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 10}
+    - name: GOLDUCK_39
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 222
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 36}
+        - {x: -12, y: 36}
+        - {x: -33, y: 3}
+        - {x: -33, y: -37}
+        - {x: 33, y: -37}
+        - {x: 34, y: -33}
+        - {x: 34, y: 14}
+        - {x: 25, y: 31}
+    - name: GOLDUCK_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 36}
+        - {x: -34, y: 8}
+        - {x: -34, y: -34}
+        - {x: -31, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 20}
+        - {x: 27, y: 36}
+    - name: GOLDUCK_41
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 148
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -36}
+        - {x: 34, y: 9}
+        - {x: 31, y: 36}
+        - {x: 27, y: 37}
+        - {x: -18, y: 37}
+        - {x: -34, y: 12}
+        - {x: -34, y: -12}
+        - {x: -23, y: -19}
+        - {x: -12, y: -10}
+        - {x: -29, y: -35}
+        - {x: -27, y: -37}
+        - {x: 32, y: -37}
+    - name: GOLDUCK_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 148
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 0}
+        - {x: -34, y: -13}
+        - {x: -23, y: -16}
+        - {x: -30, y: -35}
+        - {x: -30, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 37}
+        - {x: -5, y: 37}
+        - {x: -20, y: 35}
+    - name: GOLDUCK_43
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 148
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 37}
+        - {x: -34, y: 15}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 18}
+        - {x: 17, y: 37}
+    - name: GOLDUCK_44
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 148
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 37}
+        - {x: -23, y: 29}
+        - {x: -34, y: 8}
+        - {x: -34, y: -11}
+        - {x: -32, y: -14}
+        - {x: -34, y: -23}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 10}
+        - {x: 18, y: 37}
+    - name: GOLDUCK_45
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 148
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 37}
+        - {x: -22, y: 29}
+        - {x: -34, y: 4}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 12}
+        - {x: 21, y: 37}
+    - name: GOLDUCK_46
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 148
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 37}
+        - {x: -34, y: 10}
+        - {x: -34, y: -36}
+        - {x: -33, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 14}
+        - {x: 18, y: 37}
+    - name: GOLDUCK_47
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 148
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 37}
+        - {x: -21, y: 37}
+        - {x: -34, y: 24}
+        - {x: -34, y: -37}
+        - {x: 32, y: -37}
+        - {x: 34, y: -33}
+        - {x: 34, y: 19}
+    - name: GOLDUCK_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 34}
+        - {x: 20, y: 37}
+        - {x: -16, y: 37}
+        - {x: -34, y: 12}
+        - {x: -34, y: -36}
+        - {x: -29, y: -37}
+        - {x: 33, y: -37}
+        - {x: 34, y: -35}
+        - {x: 34, y: 25}
+    - name: GOLDUCK_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 74
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 37}
+        - {x: -34, y: 8}
+        - {x: -34, y: -37}
+        - {x: 34, y: -37}
+        - {x: 34, y: 25}
+        - {x: 16, y: 37}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

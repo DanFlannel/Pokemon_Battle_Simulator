@@ -1,0 +1,777 @@
+fileFormatVersion: 2
+guid: 35da3be51adc76d43b83a61f163c686f
+timeCreated: 1452882081
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HORSEA_0
+    21300002: HORSEA_1
+    21300004: HORSEA_2
+    21300006: HORSEA_3
+    21300008: HORSEA_4
+    21300010: HORSEA_5
+    21300012: HORSEA_6
+    21300014: HORSEA_7
+    21300016: HORSEA_8
+    21300018: HORSEA_9
+    21300020: HORSEA_10
+    21300022: HORSEA_11
+    21300024: HORSEA_12
+    21300026: HORSEA_13
+    21300028: HORSEA_14
+    21300030: HORSEA_15
+    21300032: HORSEA_16
+    21300034: HORSEA_17
+    21300036: HORSEA_18
+    21300038: HORSEA_19
+    21300040: HORSEA_20
+    21300042: HORSEA_21
+    21300044: HORSEA_22
+    21300046: HORSEA_23
+    21300048: HORSEA_24
+    21300050: HORSEA_25
+    21300052: HORSEA_26
+    21300054: HORSEA_27
+    21300056: HORSEA_28
+    21300058: HORSEA_29
+    21300060: HORSEA_30
+    21300062: HORSEA_31
+    21300064: HORSEA_32
+    21300066: HORSEA_33
+    21300068: HORSEA_34
+    21300070: HORSEA_35
+    21300072: HORSEA_36
+    21300074: HORSEA_37
+    21300076: HORSEA_38
+    21300078: HORSEA_39
+    21300080: HORSEA_40
+    21300082: HORSEA_41
+    21300084: HORSEA_42
+    21300086: HORSEA_43
+    21300088: HORSEA_44
+    21300090: HORSEA_45
+    21300092: HORSEA_46
+    21300094: HORSEA_47
+    21300096: HORSEA_48
+    21300098: HORSEA_49
+    21300100: HORSEA_50
+    21300102: HORSEA_51
+    21300104: HORSEA_52
+    21300106: HORSEA_53
+    21300108: HORSEA_54
+    21300110: HORSEA_55
+    21300112: HORSEA_56
+    21300114: HORSEA_57
+    21300116: HORSEA_58
+    21300118: HORSEA_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HORSEA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 342
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 342
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 342
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_12
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 342
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_13
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 342
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_14
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 342
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 342
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 285
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 285
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 285
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_20
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 285
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 285
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 285
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_23
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 285
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 228
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 228
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_27
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 228
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_28
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 228
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_29
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 228
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_30
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 228
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_31
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 228
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 171
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_34
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 171
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_35
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 171
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_36
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 171
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_37
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 171
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_38
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 171
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_39
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 171
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_41
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 114
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_42
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 114
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_43
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 114
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_44
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 114
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_45
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 114
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_46
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 114
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_47
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 114
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_49
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 57
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_50
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 57
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_51
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 57
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_52
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 57
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_53
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 57
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_54
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 57
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_55
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 57
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_57
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_58
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HORSEA_59
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

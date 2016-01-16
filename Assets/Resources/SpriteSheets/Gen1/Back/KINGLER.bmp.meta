@@ -1,0 +1,1091 @@
+fileFormatVersion: 2
+guid: b4315d84e585c33448e270ed62bdf83b
+timeCreated: 1452888714
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KINGLER_0
+    21300002: KINGLER_1
+    21300004: KINGLER_2
+    21300006: KINGLER_3
+    21300008: KINGLER_4
+    21300010: KINGLER_5
+    21300012: KINGLER_6
+    21300014: KINGLER_7
+    21300016: KINGLER_8
+    21300018: KINGLER_9
+    21300020: KINGLER_10
+    21300022: KINGLER_11
+    21300024: KINGLER_12
+    21300026: KINGLER_13
+    21300028: KINGLER_14
+    21300030: KINGLER_15
+    21300032: KINGLER_16
+    21300034: KINGLER_17
+    21300036: KINGLER_18
+    21300038: KINGLER_19
+    21300040: KINGLER_20
+    21300042: KINGLER_21
+    21300044: KINGLER_22
+    21300046: KINGLER_23
+    21300048: KINGLER_24
+    21300050: KINGLER_25
+    21300052: KINGLER_26
+    21300054: KINGLER_27
+    21300056: KINGLER_28
+    21300058: KINGLER_29
+    21300060: KINGLER_30
+    21300062: KINGLER_31
+    21300064: KINGLER_32
+    21300066: KINGLER_33
+    21300068: KINGLER_34
+    21300070: KINGLER_35
+    21300072: KINGLER_36
+    21300074: KINGLER_37
+    21300076: KINGLER_38
+    21300078: KINGLER_39
+    21300080: KINGLER_40
+    21300082: KINGLER_41
+    21300084: KINGLER_42
+    21300086: KINGLER_43
+    21300088: KINGLER_44
+    21300090: KINGLER_45
+    21300092: KINGLER_46
+    21300094: KINGLER_47
+    21300096: KINGLER_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KINGLER_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 14}
+        - {x: 21, y: 8}
+        - {x: 24, y: 12}
+        - {x: 29, y: 25}
+        - {x: 25, y: 37}
+        - {x: -2, y: 37}
+        - {x: -19, y: 31}
+        - {x: -39, y: -21}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 23}
+        - {x: 29, y: 19}
+    - name: KINGLER_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 444
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 8}
+        - {x: 21, y: -4}
+        - {x: 22, y: 4}
+        - {x: 22, y: 7}
+        - {x: 20, y: 9}
+        - {x: 27, y: 20}
+        - {x: 22, y: 36}
+        - {x: 21, y: 37}
+        - {x: -12, y: 37}
+        - {x: -39, y: -8}
+        - {x: -39, y: -36}
+        - {x: -36, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 22}
+        - {x: 29, y: 19}
+    - name: KINGLER_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 444
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 8}
+        - {x: 21, y: -4}
+        - {x: 22, y: 4}
+        - {x: 22, y: 7}
+        - {x: 20, y: 9}
+        - {x: 27, y: 20}
+        - {x: 22, y: 36}
+        - {x: 21, y: 37}
+        - {x: -12, y: 37}
+        - {x: -39, y: -8}
+        - {x: -39, y: -36}
+        - {x: -36, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 22}
+        - {x: 29, y: 19}
+    - name: KINGLER_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 444
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 17}
+        - {x: 31, y: 17}
+        - {x: 25, y: 12}
+        - {x: 23, y: 7}
+        - {x: 22, y: 3}
+        - {x: 22, y: -3}
+        - {x: 22, y: 8}
+        - {x: 20, y: 10}
+        - {x: 26, y: 22}
+        - {x: 21, y: 37}
+        - {x: -9, y: 37}
+        - {x: -39, y: -13}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 13}
+        - {x: 37, y: 16}
+    - name: KINGLER_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 444
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 17}
+        - {x: 31, y: 17}
+        - {x: 25, y: 12}
+        - {x: 23, y: 7}
+        - {x: 22, y: 3}
+        - {x: 22, y: -3}
+        - {x: 22, y: 8}
+        - {x: 20, y: 10}
+        - {x: 26, y: 22}
+        - {x: 21, y: 37}
+        - {x: -9, y: 37}
+        - {x: -39, y: -13}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 13}
+        - {x: 37, y: 16}
+    - name: KINGLER_5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 444
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 13}
+        - {x: 21, y: 3}
+        - {x: 22, y: -3}
+        - {x: 18, y: -1}
+        - {x: 22, y: 6}
+        - {x: 22, y: 9}
+        - {x: 26, y: 23}
+        - {x: 20, y: 37}
+        - {x: -10, y: 37}
+        - {x: -39, y: -17}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 16}
+        - {x: 30, y: 16}
+    - name: KINGLER_6
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 444
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 19}
+        - {x: 32, y: 17}
+        - {x: 24, y: 11}
+        - {x: 22, y: 1}
+        - {x: 22, y: -4}
+        - {x: 20, y: -3}
+        - {x: 23, y: 5}
+        - {x: 21, y: 13}
+        - {x: 22, y: 24}
+        - {x: 22, y: 29}
+        - {x: 20, y: 37}
+        - {x: -7, y: 37}
+        - {x: -17, y: 23}
+        - {x: -39, y: -27}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 37, y: -33}
+        - {x: 39, y: -26}
+    - name: KINGLER_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 13}
+        - {x: 20, y: -5}
+        - {x: 23, y: 5}
+        - {x: 21, y: 11}
+        - {x: 23, y: 30}
+        - {x: 17, y: 37}
+        - {x: -8, y: 37}
+        - {x: -27, y: -1}
+        - {x: -39, y: -27}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 17}
+        - {x: 30, y: 16}
+    - name: KINGLER_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 370
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 16}
+        - {x: 25, y: 9}
+        - {x: 21, y: 0}
+        - {x: 23, y: 4}
+        - {x: 21, y: 10}
+        - {x: 21, y: 19}
+        - {x: 20, y: 28}
+        - {x: 14, y: 37}
+        - {x: -13, y: 37}
+        - {x: -39, y: -11}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 11}
+        - {x: 37, y: 14}
+    - name: KINGLER_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 370
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 12}
+        - {x: 21, y: 28}
+        - {x: 11, y: 36}
+        - {x: -9, y: 36}
+        - {x: -16, y: 33}
+        - {x: -39, y: -17}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 13}
+        - {x: 29, y: 17}
+    - name: KINGLER_10
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 370
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 16}
+        - {x: 25, y: 10}
+        - {x: 22, y: 5}
+        - {x: 22, y: -5}
+        - {x: 21, y: 2}
+        - {x: 23, y: 6}
+        - {x: 27, y: 28}
+        - {x: 14, y: 34}
+        - {x: -17, y: 34}
+        - {x: -39, y: -17}
+        - {x: -39, y: -37}
+        - {x: 37, y: -37}
+        - {x: 38, y: -33}
+        - {x: 39, y: -25}
+        - {x: 39, y: 13}
+    - name: KINGLER_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 370
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 16}
+        - {x: 22, y: 6}
+        - {x: 21, y: -6}
+        - {x: 22, y: 3}
+        - {x: 22, y: 13}
+        - {x: 18, y: 32}
+        - {x: -6, y: 32}
+        - {x: -14, y: 29}
+        - {x: -34, y: -11}
+        - {x: -39, y: -24}
+        - {x: -39, y: -37}
+        - {x: 37, y: -37}
+        - {x: 38, y: -33}
+        - {x: 39, y: -21}
+        - {x: 39, y: 14}
+    - name: KINGLER_12
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 370
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 10}
+        - {x: 22, y: -5}
+        - {x: 20, y: 6}
+        - {x: 17, y: 7}
+        - {x: 19, y: 7}
+        - {x: 23, y: 19}
+        - {x: 18, y: 29}
+        - {x: -4, y: 29}
+        - {x: -12, y: 27}
+        - {x: -39, y: -27}
+        - {x: -39, y: -37}
+        - {x: 37, y: -37}
+        - {x: 39, y: -19}
+        - {x: 39, y: 12}
+        - {x: 34, y: 18}
+    - name: KINGLER_13
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 370
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 17}
+        - {x: 24, y: 10}
+        - {x: 22, y: 5}
+        - {x: 21, y: -1}
+        - {x: 21, y: -4}
+        - {x: 21, y: -1}
+        - {x: 24, y: 15}
+        - {x: 22, y: 26}
+        - {x: -7, y: 26}
+        - {x: -39, y: -26}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 39, y: -20}
+        - {x: 39, y: 15}
+    - name: KINGLER_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 24}
+        - {x: -2, y: 24}
+        - {x: -15, y: 11}
+        - {x: -39, y: -26}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 12}
+        - {x: 36, y: 21}
+    - name: KINGLER_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 296
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 22}
+        - {x: -12, y: 17}
+        - {x: -39, y: -28}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 22}
+    - name: KINGLER_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 296
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 21}
+        - {x: -39, y: -21}
+        - {x: -39, y: -36}
+        - {x: -35, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 17}
+        - {x: 29, y: 21}
+    - name: KINGLER_17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 296
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20}
+        - {x: -39, y: -22}
+        - {x: -39, y: -37}
+        - {x: 38, y: -37}
+        - {x: 38, y: 18}
+        - {x: 31, y: 20}
+    - name: KINGLER_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 296
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 20}
+        - {x: -39, y: -22}
+        - {x: -39, y: -37}
+        - {x: 38, y: -37}
+        - {x: 38, y: 20}
+    - name: KINGLER_19
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 296
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 21}
+        - {x: -39, y: -25}
+        - {x: -39, y: -36}
+        - {x: -38, y: -37}
+        - {x: 38, y: -37}
+        - {x: 38, y: 17}
+        - {x: 37, y: 21}
+    - name: KINGLER_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 296
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22}
+        - {x: -39, y: -23}
+        - {x: -39, y: -37}
+        - {x: 38, y: -37}
+        - {x: 38, y: 22}
+    - name: KINGLER_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22}
+        - {x: -39, y: -13}
+        - {x: -39, y: -37}
+        - {x: 37, y: -37}
+        - {x: 37, y: 22}
+    - name: KINGLER_22
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 222
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 22}
+        - {x: -39, y: -22}
+        - {x: -39, y: -36}
+        - {x: -38, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 22}
+    - name: KINGLER_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 222
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22}
+        - {x: -39, y: -19}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 21}
+        - {x: 35, y: 22}
+    - name: KINGLER_24
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 222
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 21}
+        - {x: -39, y: -16}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 21}
+    - name: KINGLER_25
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 222
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -22}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 6}
+        - {x: 35, y: 9}
+        - {x: 30, y: 20}
+        - {x: 6, y: 20}
+        - {x: -14, y: 14}
+    - name: KINGLER_26
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 222
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 18}
+        - {x: -4, y: 18}
+        - {x: -39, y: -1}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+    - name: KINGLER_27
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 222
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 17}
+        - {x: -14, y: 12}
+        - {x: -39, y: -22}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 9}
+        - {x: 22, y: 17}
+    - name: KINGLER_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -20}
+        - {x: 28, y: 10}
+        - {x: 17, y: 17}
+        - {x: 7, y: 17}
+        - {x: -13, y: 10}
+        - {x: -39, y: -27}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+    - name: KINGLER_29
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 148
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 17}
+        - {x: -4, y: 17}
+        - {x: -29, y: 7}
+        - {x: -39, y: -24}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: -6}
+        - {x: 35, y: 2}
+    - name: KINGLER_30
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 148
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -12}
+        - {x: 35, y: -6}
+        - {x: 30, y: 8}
+        - {x: 16, y: 18}
+        - {x: 6, y: 18}
+        - {x: -16, y: 9}
+        - {x: -39, y: -28}
+        - {x: -39, y: -37}
+        - {x: 7, y: -37}
+        - {x: 8, y: -36}
+        - {x: 13, y: -37}
+        - {x: 36, y: -37}
+    - name: KINGLER_31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 148
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 18}
+        - {x: -6, y: 18}
+        - {x: -27, y: -5}
+        - {x: -39, y: -27}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: -18}
+        - {x: 33, y: 10}
+    - name: KINGLER_32
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 148
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 19}
+        - {x: 3, y: 19}
+        - {x: -25, y: 4}
+        - {x: -39, y: -21}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: -16}
+        - {x: 31, y: 8}
+    - name: KINGLER_33
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 148
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 19}
+        - {x: -35, y: 11}
+        - {x: -39, y: -9}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 0}
+        - {x: 33, y: 19}
+    - name: KINGLER_34
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 148
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -39, y: -9}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 17}
+        - {x: 23, y: 20}
+    - name: KINGLER_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 21}
+        - {x: -39, y: -16}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 18}
+        - {x: 26, y: 21}
+    - name: KINGLER_36
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 74
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 22}
+        - {x: -27, y: -4}
+        - {x: -39, y: -29}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 20}
+        - {x: 27, y: 22}
+    - name: KINGLER_37
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 74
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -27}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: -9}
+        - {x: 32, y: 12}
+        - {x: 22, y: 23}
+        - {x: 3, y: 23}
+        - {x: -19, y: 13}
+    - name: KINGLER_38
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 74
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 24}
+        - {x: -29, y: 16}
+        - {x: -39, y: -9}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 13}
+        - {x: 29, y: 24}
+    - name: KINGLER_39
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 74
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -39, y: -9}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 5}
+        - {x: 28, y: 25}
+    - name: KINGLER_40
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 74
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 18}
+        - {x: 34, y: 24}
+        - {x: 28, y: 25}
+        - {x: -10, y: 25}
+        - {x: -39, y: -9}
+        - {x: -39, y: -37}
+        - {x: 35, y: -37}
+        - {x: 36, y: -36}
+    - name: KINGLER_41
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 74
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 26}
+        - {x: -39, y: -20}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 26}
+    - name: KINGLER_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 28}
+        - {x: -23, y: 8}
+        - {x: -39, y: -26}
+        - {x: -39, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 17}
+        - {x: 23, y: 28}
+    - name: KINGLER_43
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 29}
+        - {x: -39, y: -16}
+        - {x: -39, y: -37}
+        - {x: 37, y: -37}
+        - {x: 37, y: 18}
+        - {x: 18, y: 29}
+    - name: KINGLER_44
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -37}
+        - {x: 38, y: -37}
+        - {x: 38, y: 31}
+        - {x: -8, y: 31}
+        - {x: -39, y: -15}
+    - name: KINGLER_45
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 18}
+        - {x: 21, y: 32}
+        - {x: -1, y: 32}
+        - {x: -6, y: 31}
+        - {x: -39, y: -28}
+        - {x: -39, y: -37}
+        - {x: 37, y: -37}
+        - {x: 37, y: -33}
+        - {x: 38, y: -27}
+    - name: KINGLER_46
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 34}
+        - {x: -11, y: 33}
+        - {x: -34, y: -14}
+        - {x: -39, y: -29}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 21}
+        - {x: 31, y: 34}
+    - name: KINGLER_47
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 35}
+        - {x: -16, y: 24}
+        - {x: -39, y: -27}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 23}
+        - {x: 33, y: 35}
+    - name: KINGLER_48
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 14}
+        - {x: 21, y: 8}
+        - {x: 24, y: 12}
+        - {x: 29, y: 25}
+        - {x: 25, y: 37}
+        - {x: -2, y: 37}
+        - {x: -19, y: 31}
+        - {x: -39, y: -21}
+        - {x: -39, y: -37}
+        - {x: 39, y: -37}
+        - {x: 39, y: 23}
+        - {x: 29, y: 19}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

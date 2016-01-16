@@ -1,0 +1,1462 @@
+fileFormatVersion: 2
+guid: b822f947f1d6b7d41b782aba916a48f5
+timeCreated: 1452888302
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DROWZEE_0
+    21300002: DROWZEE_1
+    21300004: DROWZEE_2
+    21300006: DROWZEE_3
+    21300008: DROWZEE_4
+    21300010: DROWZEE_5
+    21300012: DROWZEE_6
+    21300014: DROWZEE_7
+    21300016: DROWZEE_8
+    21300018: DROWZEE_9
+    21300020: DROWZEE_10
+    21300022: DROWZEE_11
+    21300024: DROWZEE_12
+    21300026: DROWZEE_13
+    21300028: DROWZEE_14
+    21300030: DROWZEE_15
+    21300032: DROWZEE_16
+    21300034: DROWZEE_17
+    21300036: DROWZEE_18
+    21300038: DROWZEE_19
+    21300040: DROWZEE_20
+    21300042: DROWZEE_21
+    21300044: DROWZEE_22
+    21300046: DROWZEE_23
+    21300048: DROWZEE_24
+    21300050: DROWZEE_25
+    21300052: DROWZEE_26
+    21300054: DROWZEE_27
+    21300056: DROWZEE_28
+    21300058: DROWZEE_29
+    21300060: DROWZEE_30
+    21300062: DROWZEE_31
+    21300064: DROWZEE_32
+    21300066: DROWZEE_33
+    21300068: DROWZEE_34
+    21300070: DROWZEE_35
+    21300072: DROWZEE_36
+    21300074: DROWZEE_37
+    21300076: DROWZEE_38
+    21300078: DROWZEE_39
+    21300080: DROWZEE_40
+    21300082: DROWZEE_41
+    21300084: DROWZEE_42
+    21300086: DROWZEE_43
+    21300088: DROWZEE_44
+    21300090: DROWZEE_45
+    21300092: DROWZEE_46
+    21300094: DROWZEE_47
+    21300096: DROWZEE_48
+    21300098: DROWZEE_49
+    21300100: DROWZEE_50
+    21300102: DROWZEE_51
+    21300104: DROWZEE_52
+    21300106: DROWZEE_53
+    21300108: DROWZEE_54
+    21300110: DROWZEE_55
+    21300112: DROWZEE_56
+    21300114: DROWZEE_57
+    21300116: DROWZEE_58
+    21300118: DROWZEE_59
+    21300120: DROWZEE_60
+    21300122: DROWZEE_61
+    21300124: DROWZEE_62
+    21300126: DROWZEE_63
+    21300128: DROWZEE_64
+    21300130: DROWZEE_65
+    21300132: DROWZEE_66
+    21300134: DROWZEE_67
+    21300136: DROWZEE_68
+    21300138: DROWZEE_69
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DROWZEE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28.5}
+        - {x: -29, y: 21.5}
+        - {x: -29, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 23, y: -22.5}
+        - {x: 23, y: 14.5}
+        - {x: 10, y: 28.5}
+    - name: DROWZEE_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 456
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 28.5}
+        - {x: -20, y: 28.5}
+        - {x: -23, y: 25.5}
+        - {x: -29, y: 9.5}
+        - {x: -29, y: -18.5}
+        - {x: -25, y: -27.5}
+        - {x: -22, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 23, y: -16.5}
+        - {x: 23, y: 12.5}
+        - {x: 16, y: 26.5}
+    - name: DROWZEE_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 456
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 3.5}
+        - {x: 21, y: 9.5}
+        - {x: 14, y: 22.5}
+        - {x: 7, y: 28.5}
+        - {x: -20, y: 28.5}
+        - {x: -25, y: 21.5}
+        - {x: -29, y: 9.5}
+        - {x: -29, y: -17.5}
+        - {x: -26, y: -27.5}
+        - {x: -22, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 20, y: -20.5}
+        - {x: 20, y: -10.5}
+        - {x: 23, y: -2.5}
+    - name: DROWZEE_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 456
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 28.5}
+        - {x: -29, y: -25.5}
+        - {x: -28, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 28.5}
+    - name: DROWZEE_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 456
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28.5}
+        - {x: -29, y: 11.5}
+        - {x: -29, y: -16.5}
+        - {x: -26, y: -27.5}
+        - {x: -23, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 23, y: -13.5}
+        - {x: 23, y: 13.5}
+        - {x: 16, y: 28.5}
+    - name: DROWZEE_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 456
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 8.5}
+        - {x: 15, y: 21.5}
+        - {x: 7, y: 28.5}
+        - {x: -23, y: 28.5}
+        - {x: -29, y: 18.5}
+        - {x: -29, y: -14.5}
+        - {x: -26, y: -27.5}
+        - {x: -22, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 20, y: -20.5}
+        - {x: 21, y: -10.5}
+        - {x: 23, y: 2.5}
+    - name: DROWZEE_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 456
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28.5}
+        - {x: -29, y: 21.5}
+        - {x: -29, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 23, y: -23.5}
+        - {x: 23, y: 18.5}
+        - {x: 21, y: 28.5}
+    - name: DROWZEE_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 456
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 28.5}
+        - {x: -25, y: 26.5}
+        - {x: -29, y: 12.5}
+        - {x: -29, y: -16.5}
+        - {x: -26, y: -27.5}
+        - {x: -23, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 23, y: -4.5}
+        - {x: 23, y: 13.5}
+        - {x: 9, y: 28.5}
+    - name: DROWZEE_8
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 456
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28.5}
+        - {x: -24, y: 27.5}
+        - {x: -29, y: 11.5}
+        - {x: -29, y: -28.5}
+        - {x: 23, y: -28.5}
+        - {x: 23, y: 22.5}
+        - {x: 14, y: 28.5}
+    - name: DROWZEE_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 28.5}
+        - {x: -29, y: 25.5}
+        - {x: -29, y: -28.5}
+        - {x: 21, y: -28.5}
+        - {x: 23, y: -21.5}
+        - {x: 23, y: 15.5}
+        - {x: 15, y: 28.5}
+    - name: DROWZEE_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 399
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28.5}
+        - {x: -29, y: 17.5}
+        - {x: -29, y: -20.5}
+        - {x: -27, y: -28.5}
+        - {x: 23, y: -28.5}
+        - {x: 23, y: 18.5}
+        - {x: 10, y: 28.5}
+    - name: DROWZEE_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 399
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28.5}
+        - {x: -24, y: 27.5}
+        - {x: -29, y: 20.5}
+        - {x: -29, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 24, y: -25.5}
+        - {x: 24, y: 11.5}
+        - {x: 13, y: 28.5}
+    - name: DROWZEE_12
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 399
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28.5}
+        - {x: -29, y: 17.5}
+        - {x: -29, y: -11.5}
+        - {x: -24, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 15.5}
+        - {x: 9, y: 28.5}
+    - name: DROWZEE_13
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 399
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 28.5}
+        - {x: -29, y: 12.5}
+        - {x: -29, y: -14.5}
+        - {x: -25, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 24, y: -5.5}
+        - {x: 24, y: 22.5}
+        - {x: 13, y: 28.5}
+    - name: DROWZEE_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 399
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28.5}
+        - {x: -29, y: 17.5}
+        - {x: -29, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 24, y: -12.5}
+        - {x: 24, y: 16.5}
+        - {x: 15, y: 28.5}
+    - name: DROWZEE_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 399
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28.5}
+        - {x: -29, y: 9.5}
+        - {x: -29, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 25, y: -7.5}
+        - {x: 25, y: 13.5}
+        - {x: 14, y: 28.5}
+    - name: DROWZEE_16
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 399
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 28.5}
+        - {x: -19, y: 28.5}
+        - {x: -29, y: 15.5}
+        - {x: -29, y: -10.5}
+        - {x: -26, y: -27.5}
+        - {x: -24, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 25, y: -7.5}
+        - {x: 25, y: 12.5}
+    - name: DROWZEE_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 399
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 28.5}
+        - {x: -29, y: 15.5}
+        - {x: -29, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 26, y: -2.5}
+        - {x: 26, y: 13.5}
+        - {x: 11, y: 28.5}
+    - name: DROWZEE_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 28.5}
+        - {x: -25, y: 28.5}
+        - {x: -28, y: 22.5}
+        - {x: -28, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 21, y: -20.5}
+        - {x: 26, y: 4.5}
+        - {x: 26, y: 24.5}
+    - name: DROWZEE_19
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 342
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 28.5}
+        - {x: -28, y: 14.5}
+        - {x: -28, y: -20.5}
+        - {x: -27, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 26, y: -18.5}
+        - {x: 26, y: 23.5}
+        - {x: 16, y: 28.5}
+    - name: DROWZEE_20
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 342
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 28.5}
+        - {x: -27, y: 14.5}
+        - {x: -27, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 27, y: -8.5}
+        - {x: 27, y: 15.5}
+        - {x: 14, y: 28.5}
+    - name: DROWZEE_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 342
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 28.5}
+        - {x: -26, y: 25.5}
+        - {x: -26, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 27, y: -0.5}
+        - {x: 27, y: 28.5}
+    - name: DROWZEE_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 342
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28.5}
+        - {x: -26, y: 21.5}
+        - {x: -26, y: -20.5}
+        - {x: -24, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 28, y: -13.5}
+        - {x: 28, y: 27.5}
+        - {x: 24, y: 28.5}
+    - name: DROWZEE_23
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 342
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 28.5}
+        - {x: -25, y: 16.5}
+        - {x: -25, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 28, y: -6.5}
+        - {x: 28, y: 18.5}
+        - {x: 18, y: 28.5}
+    - name: DROWZEE_24
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 342
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 28.5}
+        - {x: -15, y: 28.5}
+        - {x: -24, y: 17.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 19, y: -21.5}
+        - {x: 28, y: 6.5}
+        - {x: 28, y: 16.5}
+    - name: DROWZEE_25
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 342
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 28.5}
+        - {x: -17, y: 28.5}
+        - {x: -24, y: 16.5}
+        - {x: -24, y: -23.5}
+        - {x: -23, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 29, y: -1.5}
+        - {x: 29, y: 13.5}
+        - {x: 25, y: 17.5}
+    - name: DROWZEE_26
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 342
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 28.5}
+        - {x: -19, y: 26.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 29, y: 3.5}
+        - {x: 29, y: 15.5}
+        - {x: 14, y: 28.5}
+    - name: DROWZEE_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 28.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 29, y: -5.5}
+        - {x: 29, y: 17.5}
+        - {x: 18, y: 28.5}
+    - name: DROWZEE_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 285
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 28.5}
+        - {x: -25, y: 14.5}
+        - {x: -25, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 29, y: -4.5}
+        - {x: 29, y: 25.5}
+        - {x: 18, y: 28.5}
+    - name: DROWZEE_29
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 285
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 28.5}
+        - {x: -25, y: 0.5}
+        - {x: -25, y: -18.5}
+        - {x: -23, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 29, y: -2.5}
+        - {x: 29, y: 19.5}
+        - {x: 19, y: 28.5}
+    - name: DROWZEE_30
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 285
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 28.5}
+        - {x: -25, y: 6.5}
+        - {x: -25, y: -23.5}
+        - {x: -24, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 29, y: -9.5}
+        - {x: 29, y: 17.5}
+        - {x: 18, y: 28.5}
+    - name: DROWZEE_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 285
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 27.5}
+        - {x: -24, y: 27.5}
+        - {x: -25, y: 21.5}
+        - {x: -25, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 29, y: -6.5}
+        - {x: 29, y: 14.5}
+        - {x: 28, y: 15.5}
+    - name: DROWZEE_32
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 285
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 27.5}
+        - {x: -25, y: 4.5}
+        - {x: -25, y: -20.5}
+        - {x: -23, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 29, y: -1.5}
+        - {x: 29, y: 15.5}
+        - {x: 14, y: 27.5}
+    - name: DROWZEE_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 285
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27.5}
+        - {x: -25, y: 4.5}
+        - {x: -25, y: -18.5}
+        - {x: -23, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 29, y: -5.5}
+        - {x: 29, y: 9.5}
+        - {x: 15, y: 27.5}
+    - name: DROWZEE_34
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 285
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 27.5}
+        - {x: -7, y: 27.5}
+        - {x: -16, y: 25.5}
+        - {x: -25, y: 3.5}
+        - {x: -25, y: -18.5}
+        - {x: -23, y: -28.5}
+        - {x: 21, y: -28.5}
+        - {x: 29, y: -6.5}
+        - {x: 29, y: 14.5}
+        - {x: 15, y: 26.5}
+    - name: DROWZEE_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 285
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27.5}
+        - {x: -25, y: 6.5}
+        - {x: -25, y: -27.5}
+        - {x: -24, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 29, y: -4.5}
+        - {x: 29, y: 8.5}
+        - {x: 14, y: 27.5}
+    - name: DROWZEE_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 27.5}
+        - {x: -25, y: 1.5}
+        - {x: -25, y: -19.5}
+        - {x: -24, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 29, y: -17.5}
+        - {x: 29, y: 15.5}
+        - {x: 24, y: 27.5}
+    - name: DROWZEE_37
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 228
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 27.5}
+        - {x: -12, y: 26.5}
+        - {x: -26, y: 3.5}
+        - {x: -26, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 29, y: -19.5}
+        - {x: 29, y: 15.5}
+        - {x: 21, y: 27.5}
+    - name: DROWZEE_38
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 228
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 27.5}
+        - {x: -9, y: 27.5}
+        - {x: -18, y: 25.5}
+        - {x: -26, y: -5.5}
+        - {x: -26, y: -17.5}
+        - {x: -23, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 29, y: -4.5}
+        - {x: 29, y: 11.5}
+    - name: DROWZEE_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 228
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 26.5}
+        - {x: -26, y: -0.5}
+        - {x: -26, y: -18.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 29, y: -4.5}
+        - {x: 29, y: 9.5}
+        - {x: 14, y: 26.5}
+    - name: DROWZEE_40
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 228
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26.5}
+        - {x: -26, y: -1.5}
+        - {x: -26, y: -16.5}
+        - {x: -23, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 29, y: -9.5}
+        - {x: 29, y: 12.5}
+        - {x: 17, y: 26.5}
+    - name: DROWZEE_41
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 228
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26.5}
+        - {x: -17, y: 23.5}
+        - {x: -26, y: 0.5}
+        - {x: -26, y: -16.5}
+        - {x: -23, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 29, y: -18.5}
+        - {x: 29, y: 11.5}
+        - {x: 21, y: 26.5}
+    - name: DROWZEE_42
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 228
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26.5}
+        - {x: -17, y: 23.5}
+        - {x: -26, y: 0.5}
+        - {x: -26, y: -16.5}
+        - {x: -23, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 29, y: -16.5}
+        - {x: 29, y: 8.5}
+        - {x: 21, y: 26.5}
+    - name: DROWZEE_43
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 228
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27.5}
+        - {x: -19, y: 26.5}
+        - {x: -26, y: 1.5}
+        - {x: -26, y: -24.5}
+        - {x: -24, y: -28.5}
+        - {x: 21, y: -28.5}
+        - {x: 29, y: -18.5}
+        - {x: 29, y: 2.5}
+        - {x: 18, y: 27.5}
+    - name: DROWZEE_44
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 228
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 4.5}
+        - {x: 13, y: 27.5}
+        - {x: -12, y: 27.5}
+        - {x: -26, y: 1.5}
+        - {x: -26, y: -19.5}
+        - {x: -24, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 17, y: -27.5}
+        - {x: 28, y: -12.5}
+        - {x: 29, y: -9.5}
+    - name: DROWZEE_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 27.5}
+        - {x: -17, y: 24.5}
+        - {x: -26, y: 1.5}
+        - {x: -26, y: -17.5}
+        - {x: -23, y: -28.5}
+        - {x: 17, y: -28.5}
+        - {x: 29, y: -7.5}
+        - {x: 29, y: 0.5}
+        - {x: 16, y: 27.5}
+    - name: DROWZEE_46
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 171
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 27.5}
+        - {x: -26, y: -1.5}
+        - {x: -26, y: -16.5}
+        - {x: -23, y: -28.5}
+        - {x: 21, y: -28.5}
+        - {x: 29, y: -17.5}
+        - {x: 29, y: 2.5}
+        - {x: 13, y: 27.5}
+    - name: DROWZEE_47
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 171
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -12.5}
+        - {x: 29, y: 6.5}
+        - {x: 19, y: 27.5}
+        - {x: -14, y: 27.5}
+        - {x: -26, y: 2.5}
+        - {x: -26, y: -21.5}
+        - {x: -23, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 19, y: -20.5}
+        - {x: 18, y: -14.5}
+    - name: DROWZEE_48
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 171
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 27.5}
+        - {x: -13, y: 26.5}
+        - {x: -25, y: 3.5}
+        - {x: -25, y: -20.5}
+        - {x: -24, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 29, y: -20.5}
+        - {x: 29, y: 4.5}
+        - {x: 18, y: 27.5}
+    - name: DROWZEE_49
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 171
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 27.5}
+        - {x: -17, y: 24.5}
+        - {x: -25, y: 6.5}
+        - {x: -25, y: -22.5}
+        - {x: -24, y: -28.5}
+        - {x: 24, y: -28.5}
+        - {x: 29, y: -22.5}
+        - {x: 29, y: 2.5}
+        - {x: 16, y: 27.5}
+    - name: DROWZEE_50
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 171
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -10.5}
+        - {x: 28, y: -0.5}
+        - {x: 15, y: 27.5}
+        - {x: -11, y: 27.5}
+        - {x: -19, y: 25.5}
+        - {x: -25, y: 8.5}
+        - {x: -25, y: -21.5}
+        - {x: -24, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 19, y: -21.5}
+        - {x: 27, y: -13.5}
+    - name: DROWZEE_51
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 171
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 27.5}
+        - {x: -26, y: 9.5}
+        - {x: -26, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 27, y: -16.5}
+        - {x: 27, y: -3.5}
+        - {x: 13, y: 27.5}
+    - name: DROWZEE_52
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 171
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 28.5}
+        - {x: -15, y: 28.5}
+        - {x: -27, y: 13.5}
+        - {x: -27, y: -20.5}
+        - {x: -25, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 27, y: -16.5}
+        - {x: 27, y: -3.5}
+    - name: DROWZEE_53
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 171
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 28.5}
+        - {x: -14, y: 27.5}
+        - {x: -27, y: 11.5}
+        - {x: -27, y: -21.5}
+        - {x: -25, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 27, y: -10.5}
+        - {x: 27, y: -0.5}
+        - {x: 12, y: 28.5}
+    - name: DROWZEE_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 28.5}
+        - {x: -28, y: 3.5}
+        - {x: -28, y: -8.5}
+        - {x: -23, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 25, y: -13.5}
+        - {x: 25, y: 5.5}
+        - {x: 15, y: 28.5}
+    - name: DROWZEE_55
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 28.5}
+        - {x: -29, y: 28.5}
+        - {x: -29, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 1.5}
+    - name: DROWZEE_56
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 28.5}
+        - {x: -29, y: 6.5}
+        - {x: -29, y: -9.5}
+        - {x: -25, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 23, y: -20.5}
+        - {x: 23, y: 2.5}
+        - {x: 10, y: 28.5}
+    - name: DROWZEE_57
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 28.5}
+        - {x: -29, y: 12.5}
+        - {x: -29, y: -21.5}
+        - {x: -26, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 10.5}
+        - {x: 17, y: 28.5}
+    - name: DROWZEE_58
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28.5}
+        - {x: -29, y: 9.5}
+        - {x: -29, y: -17.5}
+        - {x: -24, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 22, y: -15.5}
+        - {x: 22, y: 6.5}
+        - {x: 13, y: 28.5}
+    - name: DROWZEE_59
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 24.5}
+        - {x: -29, y: 7.5}
+        - {x: -29, y: -9.5}
+        - {x: -24, y: -26.5}
+        - {x: -23, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 28.5}
+        - {x: -17, y: 28.5}
+    - name: DROWZEE_60
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 28.5}
+        - {x: -29, y: 21.5}
+        - {x: -29, y: -26.5}
+        - {x: -27, y: -28.5}
+        - {x: 23, y: -28.5}
+        - {x: 23, y: 28.5}
+    - name: DROWZEE_61
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 28.5}
+        - {x: -26, y: 28.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: -18.5}
+        - {x: -24, y: -27.5}
+        - {x: -23, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 23, y: -14.5}
+        - {x: 23, y: 15.5}
+        - {x: 20, y: 25.5}
+    - name: DROWZEE_62
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 114
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 28.5}
+        - {x: -28, y: 25.5}
+        - {x: -29, y: 20.5}
+        - {x: -29, y: -18.5}
+        - {x: -24, y: -28.5}
+        - {x: 18, y: -28.5}
+        - {x: 23, y: -13.5}
+        - {x: 23, y: 10.5}
+        - {x: 13, y: 28.5}
+    - name: DROWZEE_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28.5}
+        - {x: -29, y: 19.5}
+        - {x: -29, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 28.5}
+    - name: DROWZEE_64
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 57
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 28.5}
+        - {x: -29, y: 11.5}
+        - {x: -29, y: -23.5}
+        - {x: -27, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 19.5}
+        - {x: 14, y: 28.5}
+    - name: DROWZEE_65
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 57
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 28.5}
+        - {x: -29, y: 13.5}
+        - {x: -29, y: -23.5}
+        - {x: -28, y: -28.5}
+        - {x: 20, y: -28.5}
+        - {x: 22, y: -21.5}
+        - {x: 22, y: 12.5}
+        - {x: 12, y: 28.5}
+    - name: DROWZEE_66
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 57
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 28.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 22, y: 11.5}
+        - {x: 19, y: 28.5}
+    - name: DROWZEE_67
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 57
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 28.5}
+        - {x: -29, y: 18.5}
+        - {x: -29, y: -11.5}
+        - {x: -24, y: -28.5}
+        - {x: 23, y: -28.5}
+        - {x: 23, y: 26.5}
+        - {x: 11, y: 28.5}
+    - name: DROWZEE_68
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 57
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 28.5}
+        - {x: -29, y: -28.5}
+        - {x: 23, y: -28.5}
+        - {x: 23, y: 22.5}
+        - {x: 10, y: 28.5}
+    - name: DROWZEE_69
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 57
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28.5}
+        - {x: -29, y: 9.5}
+        - {x: -29, y: -15.5}
+        - {x: -26, y: -27.5}
+        - {x: -22, y: -28.5}
+        - {x: 19, y: -28.5}
+        - {x: 23, y: -25.5}
+        - {x: 23, y: 28.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

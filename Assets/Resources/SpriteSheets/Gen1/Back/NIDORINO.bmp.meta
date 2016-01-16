@@ -1,0 +1,1099 @@
+fileFormatVersion: 2
+guid: dcc149f8c5dcb064e8aa0b582dbd3cb5
+timeCreated: 1452890168
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NIDORINO_0
+    21300002: NIDORINO_1
+    21300004: NIDORINO_2
+    21300006: NIDORINO_3
+    21300008: NIDORINO_4
+    21300010: NIDORINO_5
+    21300012: NIDORINO_6
+    21300014: NIDORINO_7
+    21300016: NIDORINO_8
+    21300018: NIDORINO_9
+    21300020: NIDORINO_10
+    21300022: NIDORINO_11
+    21300024: NIDORINO_12
+    21300026: NIDORINO_13
+    21300028: NIDORINO_14
+    21300030: NIDORINO_15
+    21300032: NIDORINO_16
+    21300034: NIDORINO_17
+    21300036: NIDORINO_18
+    21300038: NIDORINO_19
+    21300040: NIDORINO_20
+    21300042: NIDORINO_21
+    21300044: NIDORINO_22
+    21300046: NIDORINO_23
+    21300048: NIDORINO_24
+    21300050: NIDORINO_25
+    21300052: NIDORINO_26
+    21300054: NIDORINO_27
+    21300056: NIDORINO_28
+    21300058: NIDORINO_29
+    21300060: NIDORINO_30
+    21300062: NIDORINO_31
+    21300064: NIDORINO_32
+    21300066: NIDORINO_33
+    21300068: NIDORINO_34
+    21300070: NIDORINO_35
+    21300072: NIDORINO_36
+    21300074: NIDORINO_37
+    21300076: NIDORINO_38
+    21300078: NIDORINO_39
+    21300080: NIDORINO_40
+    21300082: NIDORINO_41
+    21300084: NIDORINO_42
+    21300086: NIDORINO_43
+    21300088: NIDORINO_44
+    21300090: NIDORINO_45
+    21300092: NIDORINO_46
+    21300094: NIDORINO_47
+    21300096: NIDORINO_48
+    21300098: NIDORINO_49
+    21300100: NIDORINO_50
+    21300102: NIDORINO_51
+    21300104: NIDORINO_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NIDORINO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 28}
+        - {x: -16, y: 28}
+        - {x: -27, y: 22}
+        - {x: -30, y: 17}
+        - {x: -30, y: -28}
+        - {x: 23, y: -28}
+        - {x: 30, y: -14}
+        - {x: 30, y: 20}
+        - {x: 28, y: 27}
+    - name: NIDORINO_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 392
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28}
+        - {x: -30, y: 19}
+        - {x: -30, y: -28}
+        - {x: 25, y: -28}
+        - {x: 30, y: -18}
+        - {x: 30, y: 14}
+        - {x: 24, y: 28}
+    - name: NIDORINO_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 392
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28}
+        - {x: -30, y: 19}
+        - {x: -30, y: -28}
+        - {x: 25, y: -28}
+        - {x: 30, y: -18}
+        - {x: 30, y: 14}
+        - {x: 24, y: 28}
+    - name: NIDORINO_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 392
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 28}
+        - {x: -30, y: 28}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 8}
+        - {x: 29, y: 12}
+    - name: NIDORINO_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 392
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 28}
+        - {x: -30, y: 28}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 8}
+        - {x: 29, y: 12}
+    - name: NIDORINO_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 392
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 23}
+        - {x: 18, y: 20}
+        - {x: 2, y: 28}
+        - {x: -26, y: 28}
+        - {x: -30, y: 27}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 17}
+        - {x: 24, y: 23}
+    - name: NIDORINO_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 392
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 22}
+        - {x: 23, y: 28}
+        - {x: -30, y: 28}
+        - {x: -30, y: -28}
+        - {x: 23, y: -28}
+        - {x: 25, y: -25}
+        - {x: 30, y: -8}
+        - {x: 30, y: 10}
+    - name: NIDORINO_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 392
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 28}
+        - {x: -16, y: 28}
+        - {x: -30, y: 19}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -19}
+        - {x: 30, y: 23}
+    - name: NIDORINO_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 24}
+        - {x: 16, y: 15}
+        - {x: 7, y: 27}
+        - {x: 4, y: 28}
+        - {x: -11, y: 28}
+        - {x: -25, y: 21}
+        - {x: -30, y: 17}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -23}
+        - {x: 30, y: 19}
+        - {x: 29, y: 24}
+    - name: NIDORINO_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 336
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 28}
+        - {x: -30, y: -28}
+        - {x: 27, y: -28}
+        - {x: 30, y: -15}
+        - {x: 30, y: 28}
+    - name: NIDORINO_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 336
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 28}
+        - {x: -30, y: 28}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 17}
+        - {x: 29, y: 19}
+    - name: NIDORINO_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 336
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 25}
+        - {x: 19, y: 20}
+        - {x: 16, y: 14}
+        - {x: 11, y: 25}
+        - {x: 5, y: 28}
+        - {x: -14, y: 28}
+        - {x: -26, y: 21}
+        - {x: -30, y: 18}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 17}
+        - {x: 27, y: 23}
+    - name: NIDORINO_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 23}
+        - {x: 21, y: 25}
+        - {x: 10, y: 28}
+        - {x: -16, y: 28}
+        - {x: -30, y: 16}
+        - {x: -30, y: -28}
+        - {x: 24, y: -28}
+        - {x: 30, y: -12}
+        - {x: 30, y: 15}
+    - name: NIDORINO_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 336
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 25}
+        - {x: 20, y: 28}
+        - {x: -19, y: 28}
+        - {x: -30, y: 16}
+        - {x: -30, y: -28}
+        - {x: 26, y: -28}
+        - {x: 30, y: -12}
+    - name: NIDORINO_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 336
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 28}
+        - {x: -21, y: 28}
+        - {x: -30, y: 21}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -22}
+        - {x: 30, y: 17}
+        - {x: 28, y: 23}
+    - name: NIDORINO_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 336
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 28}
+        - {x: -30, y: 21}
+        - {x: -30, y: -28}
+        - {x: 26, y: -28}
+        - {x: 30, y: -13}
+        - {x: 30, y: 28}
+    - name: NIDORINO_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28}
+        - {x: -30, y: 18}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 28}
+    - name: NIDORINO_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 280
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 28}
+        - {x: -30, y: 19}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -25}
+        - {x: 30, y: 28}
+    - name: NIDORINO_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 280
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 28}
+        - {x: -22, y: 28}
+        - {x: -25, y: 27}
+        - {x: -30, y: 18}
+        - {x: -30, y: -28}
+        - {x: 26, y: -28}
+        - {x: 30, y: -19}
+        - {x: 30, y: 19}
+        - {x: 27, y: 27}
+    - name: NIDORINO_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 280
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28}
+        - {x: -27, y: 25}
+        - {x: -30, y: 20}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -22}
+        - {x: 30, y: 17}
+        - {x: 26, y: 28}
+    - name: NIDORINO_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 280
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 20}
+        - {x: 7, y: 28}
+        - {x: -24, y: 28}
+        - {x: -30, y: 24}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 28}
+        - {x: 20, y: 25}
+    - name: NIDORINO_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 280
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28}
+        - {x: -30, y: 20}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 28}
+    - name: NIDORINO_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 280
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 23}
+        - {x: 19, y: 25}
+        - {x: 16, y: 22}
+        - {x: 3, y: 28}
+        - {x: -16, y: 28}
+        - {x: -26, y: 18}
+        - {x: -26, y: 16}
+        - {x: -30, y: 12}
+        - {x: -30, y: -28}
+        - {x: 25, y: -28}
+        - {x: 30, y: -8}
+        - {x: 30, y: 11}
+    - name: NIDORINO_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 280
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 28}
+        - {x: -30, y: 25}
+        - {x: -30, y: -28}
+        - {x: 25, y: -28}
+        - {x: 30, y: -24}
+        - {x: 30, y: 22}
+        - {x: 29, y: 28}
+    - name: NIDORINO_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 26}
+        - {x: 13, y: 28}
+        - {x: -23, y: 28}
+        - {x: -30, y: 21}
+        - {x: -30, y: -28}
+        - {x: 27, y: -28}
+        - {x: 30, y: -24}
+        - {x: 30, y: 11}
+        - {x: 27, y: 28}
+    - name: NIDORINO_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 224
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 28}
+        - {x: -30, y: 22}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 28}
+    - name: NIDORINO_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 224
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 28}
+        - {x: -20, y: 28}
+        - {x: -25, y: 26}
+        - {x: -30, y: 19}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -23}
+        - {x: 30, y: 18}
+    - name: NIDORINO_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 28}
+        - {x: -25, y: 24}
+        - {x: -30, y: 19}
+        - {x: -30, y: -28}
+        - {x: 29, y: -28}
+        - {x: 30, y: -22}
+        - {x: 30, y: 21}
+        - {x: 17, y: 28}
+    - name: NIDORINO_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 25}
+        - {x: 17, y: 26}
+        - {x: 15, y: 22}
+        - {x: 2, y: 28}
+        - {x: -15, y: 28}
+        - {x: -24, y: 21}
+        - {x: -26, y: 17}
+        - {x: -30, y: 16}
+        - {x: -30, y: -28}
+        - {x: 26, y: -28}
+        - {x: 30, y: -6}
+        - {x: 30, y: 9}
+    - name: NIDORINO_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 224
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 28}
+        - {x: -30, y: -28}
+        - {x: 29, y: -28}
+        - {x: 30, y: -26}
+        - {x: 30, y: 28}
+    - name: NIDORINO_30
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 224
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 28}
+        - {x: -21, y: 28}
+        - {x: -28, y: 18}
+        - {x: -30, y: 15}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -16}
+        - {x: 30, y: 7}
+    - name: NIDORINO_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 224
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 25}
+        - {x: 14, y: 21}
+        - {x: 11, y: 15}
+        - {x: 5, y: 26}
+        - {x: 3, y: 28}
+        - {x: -23, y: 28}
+        - {x: -30, y: 24}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -16}
+        - {x: 30, y: 10}
+        - {x: 20, y: 26}
+    - name: NIDORINO_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 28}
+        - {x: -16, y: 28}
+        - {x: -28, y: 18}
+        - {x: -30, y: 14}
+        - {x: -30, y: -28}
+        - {x: 26, y: -28}
+        - {x: 30, y: -9}
+        - {x: 30, y: 12}
+        - {x: 29, y: 15}
+    - name: NIDORINO_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 168
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 28}
+        - {x: -30, y: 23}
+        - {x: -30, y: -28}
+        - {x: 24, y: -28}
+        - {x: 30, y: -19}
+        - {x: 30, y: 24}
+        - {x: 21, y: 28}
+    - name: NIDORINO_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 168
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -21}
+        - {x: 30, y: 22}
+        - {x: 17, y: 28}
+        - {x: -26, y: 28}
+        - {x: -30, y: 26}
+        - {x: -30, y: -28}
+        - {x: 25, y: -28}
+    - name: NIDORINO_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 168
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 28}
+        - {x: -22, y: 28}
+        - {x: -30, y: 25}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -26}
+        - {x: 30, y: 18}
+    - name: NIDORINO_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 168
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 28}
+        - {x: -30, y: 23}
+        - {x: -30, y: -28}
+        - {x: 27, y: -28}
+        - {x: 30, y: -20}
+        - {x: 30, y: 15}
+        - {x: 21, y: 28}
+    - name: NIDORINO_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 168
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 28}
+        - {x: -30, y: -28}
+        - {x: 27, y: -28}
+        - {x: 30, y: -18}
+        - {x: 30, y: 21}
+        - {x: 28, y: 28}
+    - name: NIDORINO_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 168
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 28}
+        - {x: -9, y: 28}
+        - {x: -10, y: 27}
+        - {x: -24, y: 27}
+        - {x: -30, y: 19}
+        - {x: -30, y: -28}
+        - {x: 27, y: -28}
+        - {x: 30, y: -11}
+        - {x: 30, y: 8}
+        - {x: 21, y: 27}
+    - name: NIDORINO_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 168
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 28}
+        - {x: -24, y: 28}
+        - {x: -30, y: 13}
+        - {x: -30, y: -28}
+        - {x: 26, y: -28}
+        - {x: 30, y: -16}
+        - {x: 30, y: 27}
+    - name: NIDORINO_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 28}
+        - {x: -30, y: 21}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -17}
+        - {x: 30, y: 14}
+        - {x: 26, y: 28}
+    - name: NIDORINO_41
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 112
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 28}
+        - {x: -30, y: -28}
+        - {x: 28, y: -28}
+        - {x: 30, y: -15}
+        - {x: 30, y: 17}
+        - {x: 25, y: 28}
+    - name: NIDORINO_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 28}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 28}
+    - name: NIDORINO_43
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 112
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 28}
+        - {x: -20, y: 28}
+        - {x: -30, y: 18}
+        - {x: -30, y: -28}
+        - {x: 27, y: -28}
+        - {x: 30, y: -14}
+        - {x: 30, y: 7}
+        - {x: 21, y: 26}
+    - name: NIDORINO_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 28}
+        - {x: -18, y: 28}
+        - {x: -30, y: 18}
+        - {x: -30, y: -28}
+        - {x: 24, y: -28}
+        - {x: 30, y: -15}
+        - {x: 30, y: 15}
+    - name: NIDORINO_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 112
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 28}
+        - {x: -19, y: 28}
+        - {x: -27, y: 21}
+        - {x: -30, y: 17}
+        - {x: -30, y: -28}
+        - {x: 27, y: -28}
+        - {x: 30, y: -12}
+        - {x: 30, y: 18}
+    - name: NIDORINO_46
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 112
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -14}
+        - {x: 30, y: 16}
+        - {x: 23, y: 28}
+        - {x: -15, y: 28}
+        - {x: -28, y: 23}
+        - {x: -30, y: 18}
+        - {x: -30, y: -28}
+        - {x: 22, y: -28}
+        - {x: 23, y: -27}
+        - {x: 23, y: -25}
+    - name: NIDORINO_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 112
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 28}
+        - {x: -16, y: 28}
+        - {x: -30, y: 17}
+        - {x: -30, y: -28}
+        - {x: 30, y: -28}
+    - name: NIDORINO_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 28}
+        - {x: -17, y: 28}
+        - {x: -30, y: 18}
+        - {x: -30, y: -28}
+        - {x: 24, y: -28}
+        - {x: 30, y: -14}
+        - {x: 30, y: 13}
+        - {x: 24, y: 27}
+    - name: NIDORINO_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 56
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28}
+        - {x: -23, y: 27}
+        - {x: -30, y: 12}
+        - {x: -30, y: -28}
+        - {x: 24, y: -28}
+        - {x: 30, y: -11}
+        - {x: 30, y: 28}
+    - name: NIDORINO_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 56
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -13}
+        - {x: 30, y: 10}
+        - {x: 23, y: 25}
+        - {x: 19, y: 28}
+        - {x: -19, y: 28}
+        - {x: -30, y: 19}
+        - {x: -30, y: -28}
+        - {x: 25, y: -28}
+    - name: NIDORINO_51
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 56
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 28}
+        - {x: -17, y: 28}
+        - {x: -30, y: 18}
+        - {x: -30, y: -28}
+        - {x: 29, y: -28}
+        - {x: 30, y: -19}
+        - {x: 30, y: 9}
+        - {x: 26, y: 22}
+    - name: NIDORINO_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 56
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 28}
+        - {x: -16, y: 28}
+        - {x: -27, y: 22}
+        - {x: -30, y: 17}
+        - {x: -30, y: -28}
+        - {x: 23, y: -28}
+        - {x: 30, y: -14}
+        - {x: 30, y: 20}
+        - {x: 28, y: 27}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

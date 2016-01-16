@@ -1,0 +1,1223 @@
+fileFormatVersion: 2
+guid: a258969bf89dc7d4582cbba5b8510a4e
+timeCreated: 1452890521
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SEEL_0
+    21300002: SEEL_1
+    21300004: SEEL_2
+    21300006: SEEL_3
+    21300008: SEEL_4
+    21300010: SEEL_5
+    21300012: SEEL_6
+    21300014: SEEL_7
+    21300016: SEEL_8
+    21300018: SEEL_9
+    21300020: SEEL_10
+    21300022: SEEL_11
+    21300024: SEEL_12
+    21300026: SEEL_13
+    21300028: SEEL_14
+    21300030: SEEL_15
+    21300032: SEEL_16
+    21300034: SEEL_17
+    21300036: SEEL_18
+    21300038: SEEL_19
+    21300040: SEEL_20
+    21300042: SEEL_21
+    21300044: SEEL_22
+    21300046: SEEL_23
+    21300048: SEEL_24
+    21300050: SEEL_25
+    21300052: SEEL_26
+    21300054: SEEL_27
+    21300056: SEEL_28
+    21300058: SEEL_29
+    21300060: SEEL_30
+    21300062: SEEL_31
+    21300064: SEEL_32
+    21300066: SEEL_33
+    21300068: SEEL_34
+    21300070: SEEL_35
+    21300072: SEEL_36
+    21300074: SEEL_37
+    21300076: SEEL_38
+    21300078: SEEL_39
+    21300080: SEEL_40
+    21300082: SEEL_41
+    21300084: SEEL_42
+    21300086: SEEL_43
+    21300088: SEEL_44
+    21300090: SEEL_45
+    21300092: SEEL_46
+    21300094: SEEL_47
+    21300096: SEEL_48
+    21300098: SEEL_49
+    21300100: SEEL_50
+    21300102: SEEL_51
+    21300104: SEEL_52
+    21300106: SEEL_53
+    21300108: SEEL_54
+    21300110: SEEL_55
+    21300112: SEEL_56
+    21300114: SEEL_57
+    21300116: SEEL_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SEEL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 21.5}
+        - {x: -37, y: 7.5}
+        - {x: -40, y: -0.5}
+        - {x: -40, y: -19.5}
+        - {x: -26, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -0.5}
+        - {x: 26, y: 21.5}
+    - name: SEEL_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 301
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 21.5}
+        - {x: 5, y: 21.5}
+        - {x: -40, y: 11.5}
+        - {x: -40, y: -11.5}
+        - {x: -27, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -10.5}
+        - {x: 34, y: 7.5}
+    - name: SEEL_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 301
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 21.5}
+        - {x: -40, y: 12.5}
+        - {x: -40, y: -12.5}
+        - {x: -21, y: -21.5}
+        - {x: 39, y: -21.5}
+        - {x: 39, y: -0.5}
+        - {x: 26, y: 21.5}
+    - name: SEEL_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 301
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -9.5}
+        - {x: -11, y: -21.5}
+        - {x: 39, y: -21.5}
+        - {x: 39, y: 10.5}
+        - {x: 27, y: 21.5}
+        - {x: -4, y: 21.5}
+        - {x: -40, y: 10.5}
+    - name: SEEL_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 301
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 21.5}
+        - {x: -37, y: 11.5}
+        - {x: -40, y: 3.5}
+        - {x: -40, y: -12.5}
+        - {x: -32, y: -20.5}
+        - {x: -26, y: -21.5}
+        - {x: 39, y: -21.5}
+        - {x: 39, y: 12.5}
+        - {x: 23, y: 21.5}
+    - name: SEEL_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 301
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 21.5}
+        - {x: -40, y: 11.5}
+        - {x: -40, y: -6.5}
+        - {x: -37, y: -13.5}
+        - {x: -20, y: -21.5}
+        - {x: 39, y: -21.5}
+        - {x: 39, y: 10.5}
+        - {x: 28, y: 21.5}
+    - name: SEEL_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 301
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 21.5}
+        - {x: -35, y: 11.5}
+        - {x: -40, y: 1.5}
+        - {x: -40, y: -6.5}
+        - {x: -36, y: -9.5}
+        - {x: -29, y: -12.5}
+        - {x: -7, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -1.5}
+        - {x: 26, y: 21.5}
+    - name: SEEL_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 301
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 21.5}
+        - {x: -40, y: -8.5}
+        - {x: -17, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 21.5}
+    - name: SEEL_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 21.5}
+        - {x: 12, y: 21.5}
+        - {x: -34, y: 9.5}
+        - {x: -39, y: 6.5}
+        - {x: -39, y: -12.5}
+        - {x: -35, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 0.5}
+        - {x: 37, y: 10.5}
+    - name: SEEL_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 258
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 21.5}
+        - {x: -17, y: 21.5}
+        - {x: -39, y: 11.5}
+        - {x: -39, y: -14.5}
+        - {x: -28, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -7.5}
+        - {x: 34, y: 9.5}
+    - name: SEEL_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 258
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 21.5}
+        - {x: -39, y: 14.5}
+        - {x: -39, y: -14.5}
+        - {x: -32, y: -19.5}
+        - {x: -16, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 13.5}
+        - {x: 33, y: 21.5}
+    - name: SEEL_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 258
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 21.5}
+        - {x: -39, y: -10.5}
+        - {x: -19, y: -21.5}
+        - {x: 39, y: -21.5}
+        - {x: 40, y: -19.5}
+        - {x: 40, y: 21.5}
+    - name: SEEL_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 258
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 21.5}
+        - {x: 3, y: 21.5}
+        - {x: -35, y: 9.5}
+        - {x: -39, y: -2.5}
+        - {x: -39, y: -10.5}
+        - {x: -38, y: -19.5}
+        - {x: -24, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 6.5}
+        - {x: 36, y: 18.5}
+    - name: SEEL_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 258
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 21.5}
+        - {x: -37, y: 9.5}
+        - {x: -38, y: 5.5}
+        - {x: -38, y: -7.5}
+        - {x: -34, y: -15.5}
+        - {x: -14, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 11.5}
+        - {x: 23, y: 21.5}
+    - name: SEEL_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 258
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 21.5}
+        - {x: -36, y: 8.5}
+        - {x: -38, y: 1.5}
+        - {x: -38, y: -12.5}
+        - {x: -28, y: -18.5}
+        - {x: -19, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 5.5}
+        - {x: 27, y: 21.5}
+    - name: SEEL_15
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 258
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 21.5}
+        - {x: -38, y: 10.5}
+        - {x: -38, y: -12.5}
+        - {x: -29, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 5.5}
+        - {x: 29, y: 21.5}
+    - name: SEEL_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 21.5}
+        - {x: -38, y: -10.5}
+        - {x: -37, y: -17.5}
+        - {x: -18, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 21.5}
+    - name: SEEL_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 215
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 21.5}
+        - {x: 9, y: 21.5}
+        - {x: -32, y: 7.5}
+        - {x: -38, y: -3.5}
+        - {x: -38, y: -19.5}
+        - {x: -35, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -3.5}
+        - {x: 34, y: 13.5}
+    - name: SEEL_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 215
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 21.5}
+        - {x: -30, y: 4.5}
+        - {x: -38, y: -3.5}
+        - {x: -38, y: -16.5}
+        - {x: -32, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 5.5}
+        - {x: 30, y: 21.5}
+    - name: SEEL_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 215
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 21.5}
+        - {x: 12, y: 18.5}
+        - {x: -33, y: 4.5}
+        - {x: -38, y: -3.5}
+        - {x: -38, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 0.5}
+        - {x: 28, y: 21.5}
+    - name: SEEL_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 215
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 21.5}
+        - {x: 15, y: 19.5}
+        - {x: -34, y: 3.5}
+        - {x: -38, y: -8.5}
+        - {x: -38, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -0.5}
+        - {x: 29, y: 21.5}
+    - name: SEEL_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 215
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 20.5}
+        - {x: -38, y: 1.5}
+        - {x: -38, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -1.5}
+        - {x: 29, y: 20.5}
+    - name: SEEL_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 215
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 21.5}
+        - {x: -34, y: 2.5}
+        - {x: -38, y: -2.5}
+        - {x: -38, y: -18.5}
+        - {x: -37, y: -21.5}
+        - {x: 39, y: -21.5}
+        - {x: 40, y: -20.5}
+        - {x: 40, y: -0.5}
+        - {x: 30, y: 21.5}
+    - name: SEEL_23
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 215
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 21.5}
+        - {x: -36, y: 3.5}
+        - {x: -38, y: -2.5}
+        - {x: -38, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -5.5}
+        - {x: 30, y: 21.5}
+    - name: SEEL_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 21.5}
+        - {x: -35, y: 2.5}
+        - {x: -39, y: -4.5}
+        - {x: -39, y: -18.5}
+        - {x: -37, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 15.5}
+        - {x: 33, y: 21.5}
+    - name: SEEL_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 172
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 21.5}
+        - {x: -39, y: -0.5}
+        - {x: -39, y: -18.5}
+        - {x: -37, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 13.5}
+        - {x: 34, y: 21.5}
+    - name: SEEL_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 172
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 21.5}
+        - {x: -39, y: -1.5}
+        - {x: -39, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 1.5}
+        - {x: 29, y: 21.5}
+    - name: SEEL_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 172
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 21.5}
+        - {x: -33, y: 2.5}
+        - {x: -39, y: -1.5}
+        - {x: -39, y: -18.5}
+        - {x: -38, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -0.5}
+        - {x: 31, y: 21.5}
+    - name: SEEL_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 172
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 21.5}
+        - {x: -34, y: 6.5}
+        - {x: -39, y: -0.5}
+        - {x: -39, y: -16.5}
+        - {x: -36, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -0.5}
+        - {x: 30, y: 21.5}
+    - name: SEEL_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 172
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 21.5}
+        - {x: -30, y: 3.5}
+        - {x: -36, y: -0.5}
+        - {x: -39, y: -4.5}
+        - {x: -39, y: -20.5}
+        - {x: -34, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 18.5}
+        - {x: 33, y: 21.5}
+    - name: SEEL_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 172
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -3.5}
+        - {x: -39, y: -20.5}
+        - {x: -30, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 13.5}
+        - {x: 38, y: 21.5}
+        - {x: 10, y: 21.5}
+        - {x: -34, y: 7.5}
+    - name: SEEL_31
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 172
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 21.5}
+        - {x: -31, y: 3.5}
+        - {x: -39, y: -1.5}
+        - {x: -39, y: -19.5}
+        - {x: -28, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 9.5}
+        - {x: 32, y: 21.5}
+    - name: SEEL_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 21.5}
+        - {x: -39, y: 9.5}
+        - {x: -39, y: -12.5}
+        - {x: -30, y: -18.5}
+        - {x: -20, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 21.5}
+    - name: SEEL_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 129
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 21.5}
+        - {x: 21, y: 21.5}
+        - {x: -32, y: 7.5}
+        - {x: -38, y: -2.5}
+        - {x: -38, y: -16.5}
+        - {x: -24, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -3.5}
+        - {x: 37, y: 4.5}
+    - name: SEEL_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 129
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 21.5}
+        - {x: -38, y: 9.5}
+        - {x: -38, y: -15.5}
+        - {x: -22, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 6.5}
+        - {x: 37, y: 21.5}
+    - name: SEEL_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 129
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 21.5}
+        - {x: -37, y: 16.5}
+        - {x: -38, y: 12.5}
+        - {x: -38, y: -16.5}
+        - {x: -32, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 18.5}
+        - {x: 38, y: 21.5}
+    - name: SEEL_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 129
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 21.5}
+        - {x: -35, y: 13.5}
+        - {x: -38, y: 9.5}
+        - {x: -38, y: -18.5}
+        - {x: -28, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 1.5}
+        - {x: 35, y: 21.5}
+    - name: SEEL_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 129
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 21.5}
+        - {x: -38, y: 15.5}
+        - {x: -38, y: -17.5}
+        - {x: -21, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 18.5}
+        - {x: 38, y: 21.5}
+    - name: SEEL_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 129
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 21.5}
+        - {x: -38, y: 16.5}
+        - {x: -38, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 21.5}
+    - name: SEEL_39
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 129
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 21.5}
+        - {x: -31, y: 12.5}
+        - {x: -38, y: -0.5}
+        - {x: -38, y: -11.5}
+        - {x: -30, y: -19.5}
+        - {x: -20, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 9.5}
+        - {x: 28, y: 21.5}
+    - name: SEEL_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 21.5}
+        - {x: 16, y: 19.5}
+        - {x: -14, y: 17.5}
+        - {x: -29, y: 10.5}
+        - {x: -38, y: -0.5}
+        - {x: -38, y: -13.5}
+        - {x: -29, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 7.5}
+        - {x: 28, y: 21.5}
+    - name: SEEL_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 86
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 9.5}
+        - {x: -37, y: -13.5}
+        - {x: -20, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 0.5}
+        - {x: 35, y: 13.5}
+        - {x: 31, y: 21.5}
+        - {x: -9, y: 21.5}
+        - {x: -35, y: 16.5}
+    - name: SEEL_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 86
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 21.5}
+        - {x: -2, y: 21.5}
+        - {x: -31, y: 13.5}
+        - {x: -37, y: 0.5}
+        - {x: -37, y: -16.5}
+        - {x: -29, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -3.5}
+        - {x: 35, y: 13.5}
+    - name: SEEL_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 86
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21.5}
+        - {x: -37, y: 4.5}
+        - {x: -37, y: -20.5}
+        - {x: -29, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 5.5}
+        - {x: 34, y: 21.5}
+    - name: SEEL_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 86
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 21.5}
+        - {x: -30, y: 13.5}
+        - {x: -37, y: 4.5}
+        - {x: -37, y: -14.5}
+        - {x: -36, y: -18.5}
+        - {x: -16, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 2.5}
+        - {x: 30, y: 21.5}
+    - name: SEEL_45
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 86
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 21.5}
+        - {x: -29, y: 6.5}
+        - {x: -37, y: 2.5}
+        - {x: -37, y: -15.5}
+        - {x: -34, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 15.5}
+        - {x: 34, y: 21.5}
+    - name: SEEL_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 86
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 21.5}
+        - {x: -37, y: 12.5}
+        - {x: -38, y: 9.5}
+        - {x: -38, y: -16.5}
+        - {x: -29, y: -20.5}
+        - {x: -26, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 3.5}
+        - {x: 35, y: 21.5}
+    - name: SEEL_47
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 86
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 21.5}
+        - {x: -34, y: 8.5}
+        - {x: -38, y: 1.5}
+        - {x: -38, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 18.5}
+        - {x: 39, y: 21.5}
+    - name: SEEL_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 21.5}
+        - {x: -38, y: -1.5}
+        - {x: -38, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 4.5}
+        - {x: 29, y: 21.5}
+    - name: SEEL_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 43
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: -0.5}
+        - {x: 38, y: 5.5}
+        - {x: 29, y: 21.5}
+        - {x: 13, y: 21.5}
+        - {x: -32, y: 0.5}
+        - {x: -39, y: -5.5}
+        - {x: -39, y: -17.5}
+        - {x: -32, y: -21.5}
+        - {x: 40, y: -21.5}
+    - name: SEEL_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 43
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 9.5}
+        - {x: 38, y: 16.5}
+        - {x: 24, y: 21.5}
+        - {x: 20, y: 21.5}
+        - {x: 15, y: 17.5}
+        - {x: -32, y: 2.5}
+        - {x: -39, y: -7.5}
+        - {x: -39, y: -18.5}
+        - {x: -35, y: -21.5}
+        - {x: 40, y: -21.5}
+    - name: SEEL_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 43
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 21.5}
+        - {x: -40, y: -0.5}
+        - {x: -40, y: -18.5}
+        - {x: -35, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 14.5}
+        - {x: 25, y: 21.5}
+    - name: SEEL_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 43
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 20.5}
+        - {x: -40, y: 0.5}
+        - {x: -40, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 1.5}
+        - {x: 28, y: 20.5}
+    - name: SEEL_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 43
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 21.5}
+        - {x: -40, y: -1.5}
+        - {x: -40, y: -19.5}
+        - {x: -39, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -1.5}
+        - {x: 29, y: 21.5}
+    - name: SEEL_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 43
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 21.5}
+        - {x: -40, y: -1.5}
+        - {x: -40, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 8.5}
+        - {x: 30, y: 21.5}
+    - name: SEEL_55
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 43
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 20.5}
+        - {x: -40, y: 1.5}
+        - {x: -40, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 8.5}
+        - {x: 28, y: 20.5}
+    - name: SEEL_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 21.5}
+        - {x: 7, y: 21.5}
+        - {x: -40, y: 1.5}
+        - {x: -40, y: -19.5}
+        - {x: -39, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -3.5}
+        - {x: 37, y: 6.5}
+    - name: SEEL_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 20.5}
+        - {x: -40, y: 1.5}
+        - {x: -40, y: -20.5}
+        - {x: -34, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: -14.5}
+        - {x: 32, y: 16.5}
+        - {x: 25, y: 20.5}
+    - name: SEEL_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 21.5}
+        - {x: -40, y: 11.5}
+        - {x: -40, y: -15.5}
+        - {x: -27, y: -21.5}
+        - {x: 40, y: -21.5}
+        - {x: 40, y: 21.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

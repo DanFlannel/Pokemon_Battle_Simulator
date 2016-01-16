@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 30d99298e6600df46b23ab64dac087db
+timeCreated: 1452890769
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: VOLBEAT_0
+    21300002: VOLBEAT_1
+    21300004: VOLBEAT_2
+    21300006: VOLBEAT_3
+    21300008: VOLBEAT_4
+    21300010: VOLBEAT_5
+    21300012: VOLBEAT_6
+    21300014: VOLBEAT_7
+    21300016: VOLBEAT_8
+    21300018: VOLBEAT_9
+    21300020: VOLBEAT_10
+    21300022: VOLBEAT_11
+    21300024: VOLBEAT_12
+    21300026: VOLBEAT_13
+    21300028: VOLBEAT_14
+    21300030: VOLBEAT_15
+    21300032: VOLBEAT_16
+    21300034: VOLBEAT_17
+    21300036: VOLBEAT_18
+    21300038: VOLBEAT_19
+    21300040: VOLBEAT_20
+    21300042: VOLBEAT_21
+    21300044: VOLBEAT_22
+    21300046: VOLBEAT_23
+    21300048: VOLBEAT_24
+    21300050: VOLBEAT_25
+    21300052: VOLBEAT_26
+    21300054: VOLBEAT_27
+    21300056: VOLBEAT_28
+    21300058: VOLBEAT_29
+    21300060: VOLBEAT_30
+    21300062: VOLBEAT_31
+    21300064: VOLBEAT_32
+    21300066: VOLBEAT_33
+    21300068: VOLBEAT_34
+    21300070: VOLBEAT_35
+    21300072: VOLBEAT_36
+    21300074: VOLBEAT_37
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: VOLBEAT_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 26}
+        - {x: -12.5, y: 26}
+        - {x: -35.5, y: -7}
+        - {x: -35.5, y: -23}
+        - {x: -23.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 23.5, y: -21}
+        - {x: 23.5, y: -7}
+        - {x: 13.5, y: 23}
+    - name: VOLBEAT_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 432
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 26}
+        - {x: -10.5, y: 24}
+        - {x: -34.5, y: -3}
+        - {x: -34.5, y: -21}
+        - {x: -24.5, y: -36}
+        - {x: 19.5, y: -36}
+        - {x: 24.5, y: -28}
+        - {x: 24.5, y: 7}
+        - {x: 10.5, y: 26}
+    - name: VOLBEAT_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 432
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 26}
+        - {x: -10.5, y: 24}
+        - {x: -34.5, y: -3}
+        - {x: -34.5, y: -21}
+        - {x: -24.5, y: -36}
+        - {x: 19.5, y: -36}
+        - {x: 24.5, y: -28}
+        - {x: 24.5, y: 7}
+        - {x: 10.5, y: 26}
+    - name: VOLBEAT_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 432
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 29}
+        - {x: -3.5, y: 29}
+        - {x: -27.5, y: 16}
+        - {x: -33.5, y: -1}
+        - {x: -33.5, y: -20}
+        - {x: -17.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 24.5, y: -23}
+        - {x: 24.5, y: 7}
+        - {x: 17.5, y: 25}
+    - name: VOLBEAT_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 432
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 29}
+        - {x: -3.5, y: 29}
+        - {x: -27.5, y: 16}
+        - {x: -33.5, y: -1}
+        - {x: -33.5, y: -20}
+        - {x: -17.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 24.5, y: -23}
+        - {x: 24.5, y: 7}
+        - {x: 17.5, y: 25}
+    - name: VOLBEAT_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 432
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 31}
+        - {x: -12.5, y: 31}
+        - {x: -32.5, y: 0}
+        - {x: -32.5, y: -17}
+        - {x: -16.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 21.5, y: -25}
+        - {x: 25.5, y: -12}
+        - {x: 25.5, y: 10}
+    - name: VOLBEAT_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 432
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 33}
+        - {x: -31.5, y: -5}
+        - {x: -31.5, y: -19}
+        - {x: -16.5, y: -34}
+        - {x: 20.5, y: -34}
+        - {x: 26.5, y: -21}
+        - {x: 26.5, y: 18}
+        - {x: 22.5, y: 33}
+    - name: VOLBEAT_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 35}
+        - {x: -0.5, y: 35}
+        - {x: -4.5, y: 33}
+        - {x: -30.5, y: -10}
+        - {x: -30.5, y: -12}
+        - {x: -13.5, y: -33}
+        - {x: 22.5, y: -33}
+        - {x: 27.5, y: -17}
+        - {x: 27.5, y: 8}
+        - {x: 21.5, y: 29}
+    - name: VOLBEAT_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 360
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 36}
+        - {x: -1.5, y: 36}
+        - {x: -5.5, y: 31}
+        - {x: -29.5, y: -6}
+        - {x: -29.5, y: -18}
+        - {x: -12.5, y: -32}
+        - {x: -9.5, y: -33}
+        - {x: 23.5, y: -33}
+        - {x: 29.5, y: -17}
+        - {x: 29.5, y: 6}
+        - {x: 25.5, y: 16}
+    - name: VOLBEAT_9
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 360
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 36}
+        - {x: -29.5, y: -4}
+        - {x: -29.5, y: -14}
+        - {x: -9.5, y: -30}
+        - {x: 2.5, y: -32}
+        - {x: 21.5, y: -32}
+        - {x: 24.5, y: -31}
+        - {x: 30.5, y: -7}
+        - {x: 30.5, y: 10}
+        - {x: 20.5, y: 36}
+    - name: VOLBEAT_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 360
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 36}
+        - {x: -28.5, y: 1}
+        - {x: -28.5, y: -20}
+        - {x: -6.5, y: -32}
+        - {x: 25.5, y: -32}
+        - {x: 31.5, y: -22}
+        - {x: 31.5, y: 19}
+        - {x: 26.5, y: 30}
+        - {x: 19.5, y: 36}
+    - name: VOLBEAT_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 360
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 36}
+        - {x: 1.5, y: 36}
+        - {x: -27.5, y: -2}
+        - {x: -27.5, y: -15}
+        - {x: -11.5, y: -32}
+        - {x: 24.5, y: -32}
+        - {x: 28.5, y: -31}
+        - {x: 32.5, y: -12}
+        - {x: 32.5, y: 10}
+        - {x: 25.5, y: 31}
+    - name: VOLBEAT_12
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 360
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 36}
+        - {x: -6.5, y: 36}
+        - {x: -27.5, y: 6}
+        - {x: -27.5, y: -14}
+        - {x: -2.5, y: -33}
+        - {x: 26.5, y: -33}
+        - {x: 33.5, y: -17}
+        - {x: 33.5, y: 9}
+        - {x: 29.5, y: 30}
+    - name: VOLBEAT_13
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 360
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 35}
+        - {x: -26.5, y: 7}
+        - {x: -26.5, y: -8}
+        - {x: -8.5, y: -34}
+        - {x: 34.5, y: -34}
+        - {x: 34.5, y: 35}
+    - name: VOLBEAT_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 33}
+        - {x: -26.5, y: -1}
+        - {x: -26.5, y: -28}
+        - {x: -9.5, y: -36}
+        - {x: 34.5, y: -36}
+        - {x: 34.5, y: 17}
+        - {x: 26.5, y: 33}
+    - name: VOLBEAT_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 288
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 23}
+        - {x: 24.5, y: 29}
+        - {x: 22.5, y: 29}
+        - {x: 18.5, y: 27}
+        - {x: 16.5, y: 29}
+        - {x: 13.5, y: 30}
+        - {x: 11.5, y: 30}
+        - {x: 7.5, y: 25}
+        - {x: -25.5, y: -4}
+        - {x: -25.5, y: -8}
+        - {x: -21.5, y: -13}
+        - {x: -3.5, y: -36}
+        - {x: 28.5, y: -36}
+        - {x: 34.5, y: -20}
+        - {x: 35.5, y: -17}
+        - {x: 35.5, y: 1}
+    - name: VOLBEAT_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 288
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 29}
+        - {x: -25.5, y: -4}
+        - {x: -25.5, y: -19}
+        - {x: -11.5, y: -36}
+        - {x: 31.5, y: -36}
+        - {x: 35.5, y: -30}
+        - {x: 35.5, y: 15}
+        - {x: 31.5, y: 29}
+    - name: VOLBEAT_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 288
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 28}
+        - {x: 4.5, y: 28}
+        - {x: -25.5, y: -4}
+        - {x: -25.5, y: -14}
+        - {x: -3.5, y: -36}
+        - {x: 32.5, y: -36}
+        - {x: 34.5, y: -35}
+        - {x: 35.5, y: -33}
+    - name: VOLBEAT_18
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 288
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 28}
+        - {x: -25.5, y: 2}
+        - {x: -25.5, y: -13}
+        - {x: -3.5, y: -36}
+        - {x: 28.5, y: -36}
+        - {x: 35.5, y: -24}
+        - {x: 35.5, y: 25}
+        - {x: 33.5, y: 28}
+    - name: VOLBEAT_19
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 288
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 28}
+        - {x: -25.5, y: 4}
+        - {x: -25.5, y: -22}
+        - {x: -12.5, y: -36}
+        - {x: 35.5, y: -36}
+        - {x: 35.5, y: 27}
+        - {x: 32.5, y: 28}
+    - name: VOLBEAT_20
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 288
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 29}
+        - {x: -25.5, y: -7}
+        - {x: -25.5, y: -19}
+        - {x: -6.5, y: -36}
+        - {x: 34.5, y: -36}
+        - {x: 35.5, y: -32}
+        - {x: 35.5, y: 29}
+    - name: VOLBEAT_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 25}
+        - {x: 23.5, y: 22}
+        - {x: 21.5, y: 30}
+        - {x: 9.5, y: 30}
+        - {x: -26.5, y: 5}
+        - {x: -26.5, y: -19}
+        - {x: -6.5, y: -36}
+        - {x: 30.5, y: -36}
+        - {x: 35.5, y: -13}
+        - {x: 35.5, y: 27}
+        - {x: 34.5, y: 27}
+    - name: VOLBEAT_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 216
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 33}
+        - {x: -27.5, y: -4}
+        - {x: -27.5, y: -12}
+        - {x: -22.5, y: -19}
+        - {x: -8.5, y: -36}
+        - {x: 31.5, y: -36}
+        - {x: 34.5, y: -18}
+        - {x: 34.5, y: 30}
+        - {x: 23.5, y: 33}
+    - name: VOLBEAT_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 216
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 36}
+        - {x: -28.5, y: 1}
+        - {x: -29.5, y: -1}
+        - {x: -29.5, y: -16}
+        - {x: -8.5, y: -34}
+        - {x: 28.5, y: -34}
+        - {x: 31.5, y: -32}
+        - {x: 31.5, y: 34}
+        - {x: 24.5, y: 36}
+    - name: VOLBEAT_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 216
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 36}
+        - {x: -30.5, y: -4}
+        - {x: -30.5, y: -8}
+        - {x: -29.5, y: -12}
+        - {x: -6.5, y: -33}
+        - {x: 24.5, y: -33}
+        - {x: 29.5, y: -24}
+        - {x: 29.5, y: 36}
+    - name: VOLBEAT_25
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 216
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 18}
+        - {x: 26.5, y: 33}
+        - {x: 22.5, y: 36}
+        - {x: 20.5, y: 36}
+        - {x: 13.5, y: 32}
+        - {x: 8.5, y: 28}
+        - {x: 7.5, y: 36}
+        - {x: -4.5, y: 36}
+        - {x: -32.5, y: 0}
+        - {x: -32.5, y: -14}
+        - {x: -10.5, y: -32}
+        - {x: 19.5, y: -32}
+        - {x: 22.5, y: -27}
+        - {x: 28.5, y: -14}
+    - name: VOLBEAT_26
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 216
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 36}
+        - {x: -33.5, y: 11}
+        - {x: -33.5, y: -17}
+        - {x: -22.5, y: -31}
+        - {x: 21.5, y: -31}
+        - {x: 26.5, y: -16}
+        - {x: 26.5, y: 36}
+    - name: VOLBEAT_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 216
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 36}
+        - {x: -34.5, y: 5}
+        - {x: -34.5, y: -9}
+        - {x: -16.5, y: -31}
+        - {x: 21.5, y: -31}
+        - {x: 25.5, y: -21}
+        - {x: 25.5, y: 36}
+    - name: VOLBEAT_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 36}
+        - {x: -35.5, y: -1}
+        - {x: -35.5, y: -13}
+        - {x: -13.5, y: -32}
+        - {x: 19.5, y: -32}
+        - {x: 24.5, y: -28}
+        - {x: 24.5, y: 36}
+    - name: VOLBEAT_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 144
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 35}
+        - {x: -35.5, y: 0}
+        - {x: -35.5, y: -15}
+        - {x: -18.5, y: -33}
+        - {x: 15.5, y: -33}
+        - {x: 21.5, y: -32}
+        - {x: 24.5, y: -8}
+        - {x: 24.5, y: 5}
+        - {x: 19.5, y: 35}
+    - name: VOLBEAT_30
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 144
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 34}
+        - {x: 7.5, y: 34}
+        - {x: 2.5, y: 29}
+        - {x: -1.5, y: 23}
+        - {x: -1.5, y: 21}
+        - {x: -1.5, y: 22}
+        - {x: -3.5, y: 32}
+        - {x: -5.5, y: 34}
+        - {x: -13.5, y: 34}
+        - {x: -32.5, y: 2}
+        - {x: -35.5, y: -3}
+        - {x: -35.5, y: -14}
+        - {x: -17.5, y: -34}
+        - {x: -8.5, y: -35}
+        - {x: 14.5, y: -35}
+        - {x: 23.5, y: -15}
+        - {x: 23.5, y: 3}
+        - {x: 16.5, y: 31}
+    - name: VOLBEAT_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 144
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 31}
+        - {x: -35.5, y: -3}
+        - {x: -35.5, y: -14}
+        - {x: -21.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 23.5, y: -11}
+        - {x: 23.5, y: 2}
+        - {x: 16.5, y: 31}
+    - name: VOLBEAT_32
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 144
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 29}
+        - {x: -35.5, y: 5}
+        - {x: -35.5, y: -22}
+        - {x: -25.5, y: -36}
+        - {x: 18.5, y: -36}
+        - {x: 23.5, y: -25}
+        - {x: 23.5, y: 11}
+        - {x: 12.5, y: 29}
+    - name: VOLBEAT_33
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 144
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 29}
+        - {x: -13.5, y: 29}
+        - {x: -35.5, y: -7}
+        - {x: -35.5, y: -15}
+        - {x: -26.5, y: -20}
+        - {x: -16.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 23.5, y: -18}
+        - {x: 23.5, y: -7}
+        - {x: 16.5, y: 16}
+    - name: VOLBEAT_34
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 144
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 28}
+        - {x: -0.5, y: 28}
+        - {x: -10.5, y: 25}
+        - {x: -14.5, y: 21}
+        - {x: -35.5, y: -7}
+        - {x: -35.5, y: -15}
+        - {x: -27.5, y: -20}
+        - {x: -16.5, y: -36}
+        - {x: 15.5, y: -36}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: -1}
+        - {x: 11.5, y: 26}
+    - name: VOLBEAT_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 27}
+        - {x: -35.5, y: -6}
+        - {x: -35.5, y: -15}
+        - {x: -34.5, y: -18}
+        - {x: -24.5, y: -21}
+        - {x: -15.5, y: -36}
+        - {x: 15.5, y: -36}
+        - {x: 23.5, y: -20}
+        - {x: 23.5, y: 0}
+        - {x: 9.5, y: 27}
+    - name: VOLBEAT_36
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 72
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 27}
+        - {x: 0.5, y: 24}
+        - {x: -3.5, y: 17}
+        - {x: -3.5, y: 15}
+        - {x: -3.5, y: 17}
+        - {x: -5.5, y: 22}
+        - {x: -11.5, y: 25}
+        - {x: -35.5, y: -7}
+        - {x: -35.5, y: -23}
+        - {x: -21.5, y: -36}
+        - {x: 17.5, y: -36}
+        - {x: 23.5, y: -22}
+        - {x: 23.5, y: 0}
+        - {x: 8.5, y: 27}
+    - name: VOLBEAT_37
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 72
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 26}
+        - {x: -12.5, y: 26}
+        - {x: -35.5, y: -7}
+        - {x: -35.5, y: -23}
+        - {x: -23.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 23.5, y: -21}
+        - {x: 23.5, y: -7}
+        - {x: 13.5, y: 23}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

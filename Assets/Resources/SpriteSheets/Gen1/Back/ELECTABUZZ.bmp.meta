@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 9df8040cc9ca42b4c9577c95dc1335fb
+timeCreated: 1452888331
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ELECTABUZZ_0
+    21300002: ELECTABUZZ_1
+    21300004: ELECTABUZZ_2
+    21300006: ELECTABUZZ_3
+    21300008: ELECTABUZZ_4
+    21300010: ELECTABUZZ_5
+    21300012: ELECTABUZZ_6
+    21300014: ELECTABUZZ_7
+    21300016: ELECTABUZZ_8
+    21300018: ELECTABUZZ_9
+    21300020: ELECTABUZZ_10
+    21300022: ELECTABUZZ_11
+    21300024: ELECTABUZZ_12
+    21300026: ELECTABUZZ_13
+    21300028: ELECTABUZZ_14
+    21300030: ELECTABUZZ_15
+    21300032: ELECTABUZZ_16
+    21300034: ELECTABUZZ_17
+    21300036: ELECTABUZZ_18
+    21300038: ELECTABUZZ_19
+    21300040: ELECTABUZZ_20
+    21300042: ELECTABUZZ_21
+    21300044: ELECTABUZZ_22
+    21300046: ELECTABUZZ_23
+    21300048: ELECTABUZZ_24
+    21300050: ELECTABUZZ_25
+    21300052: ELECTABUZZ_26
+    21300054: ELECTABUZZ_27
+    21300056: ELECTABUZZ_28
+    21300058: ELECTABUZZ_29
+    21300060: ELECTABUZZ_30
+    21300062: ELECTABUZZ_31
+    21300064: ELECTABUZZ_32
+    21300066: ELECTABUZZ_33
+    21300068: ELECTABUZZ_34
+    21300070: ELECTABUZZ_35
+    21300072: ELECTABUZZ_36
+    21300074: ELECTABUZZ_37
+    21300076: ELECTABUZZ_38
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ELECTABUZZ_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -32.5}
+        - {x: 46.5, y: -8.5}
+        - {x: 37.5, y: 15.5}
+        - {x: 29.5, y: 36.5}
+        - {x: 19.5, y: 38.5}
+        - {x: 9.5, y: 38.5}
+        - {x: 8.5, y: 35.5}
+        - {x: 0.5, y: 35.5}
+        - {x: -46.5, y: -16.5}
+        - {x: -46.5, y: -27.5}
+        - {x: -42.5, y: -29.5}
+        - {x: -15.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 36.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 37.5, y: -31.5}
+    - name: ELECTABUZZ_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 462
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: -32.5}
+        - {x: 45.5, y: 13.5}
+        - {x: 40.5, y: 35.5}
+        - {x: 33.5, y: 38.5}
+        - {x: 4.5, y: 38.5}
+        - {x: -46.5, y: -19.5}
+        - {x: -46.5, y: -27.5}
+        - {x: -15.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 36.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 36.5, y: -32.5}
+    - name: ELECTABUZZ_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 462
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 35.5}
+        - {x: -46.5, y: -11.5}
+        - {x: -46.5, y: -33.5}
+        - {x: -45.5, y: -38.5}
+        - {x: 41.5, y: -38.5}
+        - {x: 45.5, y: -31.5}
+        - {x: 45.5, y: 14.5}
+        - {x: 28.5, y: 35.5}
+    - name: ELECTABUZZ_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 462
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 35.5}
+        - {x: -18.5, y: 35.5}
+        - {x: -46.5, y: 3.5}
+        - {x: -46.5, y: -33.5}
+        - {x: -20.5, y: -38.5}
+        - {x: 42.5, y: -38.5}
+        - {x: 45.5, y: -25.5}
+        - {x: 45.5, y: -5.5}
+        - {x: 35.5, y: 33.5}
+    - name: ELECTABUZZ_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 462
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: -31.5}
+        - {x: 45.5, y: -6.5}
+        - {x: 29.5, y: 34.5}
+        - {x: 19.5, y: 36.5}
+        - {x: 10.5, y: 36.5}
+        - {x: -1.5, y: 26.5}
+        - {x: -46.5, y: -8.5}
+        - {x: -46.5, y: -24.5}
+        - {x: -19.5, y: -38.5}
+        - {x: 36.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 36.5, y: -33.5}
+    - name: ELECTABUZZ_5
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 462
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: -32.5}
+        - {x: 45.5, y: 6.5}
+        - {x: 38.5, y: 36.5}
+        - {x: 10.5, y: 36.5}
+        - {x: -1.5, y: 26.5}
+        - {x: -6.5, y: 14.5}
+        - {x: -34.5, y: -2.5}
+        - {x: -46.5, y: -10.5}
+        - {x: -46.5, y: -27.5}
+        - {x: -21.5, y: -38.5}
+        - {x: 36.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 36.5, y: -31.5}
+    - name: ELECTABUZZ_6
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 462
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 36.5}
+        - {x: -46.5, y: -4.5}
+        - {x: -46.5, y: -38.5}
+        - {x: 36.5, y: -38.5}
+        - {x: 45.5, y: -36.5}
+        - {x: 45.5, y: 7.5}
+        - {x: 37.5, y: 36.5}
+    - name: ELECTABUZZ_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 36.5}
+        - {x: -42.5, y: -8.5}
+        - {x: -45.5, y: -14.5}
+        - {x: -45.5, y: -34.5}
+        - {x: -32.5, y: -38.5}
+        - {x: 44.5, y: -38.5}
+        - {x: 44.5, y: 36.5}
+    - name: ELECTABUZZ_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 385
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: -24.5}
+        - {x: -28.5, y: -38.5}
+        - {x: 37.5, y: -38.5}
+        - {x: 44.5, y: -36.5}
+        - {x: 44.5, y: 7.5}
+        - {x: 33.5, y: 36.5}
+        - {x: -0.5, y: 36.5}
+        - {x: -44.5, y: -9.5}
+    - name: ELECTABUZZ_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 385
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 35.5}
+        - {x: -42.5, y: -5.5}
+        - {x: -43.5, y: -8.5}
+        - {x: -43.5, y: -19.5}
+        - {x: -27.5, y: -31.5}
+        - {x: -17.5, y: -38.5}
+        - {x: 41.5, y: -38.5}
+        - {x: 44.5, y: -31.5}
+        - {x: 44.5, y: 3.5}
+        - {x: 30.5, y: 35.5}
+    - name: ELECTABUZZ_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 385
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 35.5}
+        - {x: -12.5, y: 35.5}
+        - {x: -42.5, y: -8.5}
+        - {x: -42.5, y: -28.5}
+        - {x: -40.5, y: -34.5}
+        - {x: -16.5, y: -38.5}
+        - {x: 42.5, y: -38.5}
+        - {x: 45.5, y: -33.5}
+        - {x: 45.5, y: 1.5}
+        - {x: 43.5, y: 10.5}
+    - name: ELECTABUZZ_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 385
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 35.5}
+        - {x: -41.5, y: -10.5}
+        - {x: -41.5, y: -28.5}
+        - {x: -22.5, y: -38.5}
+        - {x: 42.5, y: -38.5}
+        - {x: 45.5, y: -32.5}
+        - {x: 45.5, y: 4.5}
+        - {x: 30.5, y: 35.5}
+    - name: ELECTABUZZ_12
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 385
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 38.5}
+        - {x: -8.5, y: 38.5}
+        - {x: -41.5, y: 6.5}
+        - {x: -41.5, y: -34.5}
+        - {x: -19.5, y: -38.5}
+        - {x: 44.5, y: -38.5}
+        - {x: 45.5, y: -37.5}
+        - {x: 45.5, y: -8.5}
+        - {x: 25.5, y: 33.5}
+    - name: ELECTABUZZ_13
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 385
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 38.5}
+        - {x: -10.5, y: 28.5}
+        - {x: -40.5, y: -14.5}
+        - {x: -40.5, y: -28.5}
+        - {x: -18.5, y: -38.5}
+        - {x: 39.5, y: -38.5}
+        - {x: 45.5, y: -31.5}
+        - {x: 45.5, y: 5.5}
+        - {x: 24.5, y: 38.5}
+    - name: ELECTABUZZ_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 37.5}
+        - {x: -3.5, y: 37.5}
+        - {x: -39.5, y: -3.5}
+        - {x: -39.5, y: -29.5}
+        - {x: -38.5, y: -30.5}
+        - {x: -13.5, y: -38.5}
+        - {x: 37.5, y: -38.5}
+        - {x: 45.5, y: -35.5}
+        - {x: 45.5, y: 3.5}
+        - {x: 36.5, y: 34.5}
+    - name: ELECTABUZZ_15
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 308
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 37.5}
+        - {x: 4.5, y: 37.5}
+        - {x: -28.5, y: -2.5}
+        - {x: -38.5, y: -17.5}
+        - {x: -38.5, y: -36.5}
+        - {x: -18.5, y: -38.5}
+        - {x: 43.5, y: -38.5}
+        - {x: 45.5, y: -37.5}
+        - {x: 45.5, y: -4.5}
+        - {x: 29.5, y: 31.5}
+    - name: ELECTABUZZ_16
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 308
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 31.5}
+        - {x: 16.5, y: 36.5}
+        - {x: -4.5, y: 36.5}
+        - {x: -37.5, y: -11.5}
+        - {x: -37.5, y: -31.5}
+        - {x: -30.5, y: -37.5}
+        - {x: -14.5, y: -38.5}
+        - {x: 35.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 46.5, y: -34.5}
+        - {x: 46.5, y: -10.5}
+    - name: ELECTABUZZ_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 308
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: -31.5}
+        - {x: 46.5, y: -25.5}
+        - {x: 46.5, y: -8.5}
+        - {x: 29.5, y: 35.5}
+        - {x: 1.5, y: 35.5}
+        - {x: -32.5, y: 1.5}
+        - {x: -36.5, y: -20.5}
+        - {x: -36.5, y: -34.5}
+        - {x: -33.5, y: -36.5}
+        - {x: -10.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 36.5, y: -34.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 36.5, y: -31.5}
+    - name: ELECTABUZZ_18
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 308
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -32.5}
+        - {x: 46.5, y: 0.5}
+        - {x: 35.5, y: 33.5}
+        - {x: 26.5, y: 38.5}
+        - {x: 0.5, y: 38.5}
+        - {x: -27.5, y: 1.5}
+        - {x: -34.5, y: -27.5}
+        - {x: -34.5, y: -35.5}
+        - {x: -31.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 36.5, y: -34.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 37.5, y: -32.5}
+    - name: ELECTABUZZ_19
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 308
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 38.5}
+        - {x: -12.5, y: 29.5}
+        - {x: -32.5, y: -22.5}
+        - {x: -32.5, y: -38.5}
+        - {x: 46.5, y: -38.5}
+        - {x: 46.5, y: 10.5}
+        - {x: 23.5, y: 38.5}
+    - name: ELECTABUZZ_20
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 308
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 37.5}
+        - {x: -14.5, y: 36.5}
+        - {x: -29.5, y: -4.5}
+        - {x: -29.5, y: -38.5}
+        - {x: 46.5, y: -38.5}
+        - {x: 46.5, y: 0.5}
+        - {x: 32.5, y: 37.5}
+    - name: ELECTABUZZ_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 37.5}
+        - {x: -1.5, y: 37.5}
+        - {x: -26.5, y: 8.5}
+        - {x: -26.5, y: -38.5}
+        - {x: 39.5, y: -38.5}
+        - {x: 46.5, y: -31.5}
+        - {x: 46.5, y: 4.5}
+        - {x: 25.5, y: 30.5}
+    - name: ELECTABUZZ_22
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 231
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -30.5}
+        - {x: 46.5, y: 10.5}
+        - {x: 38.5, y: 37.5}
+        - {x: 3.5, y: 37.5}
+        - {x: -23.5, y: 8.5}
+        - {x: -23.5, y: -38.5}
+        - {x: 33.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 37.5, y: -30.5}
+    - name: ELECTABUZZ_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 231
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: -32.5}
+        - {x: 46.5, y: -28.5}
+        - {x: 46.5, y: -9.5}
+        - {x: 29.5, y: 32.5}
+        - {x: 17.5, y: 38.5}
+        - {x: 2.5, y: 38.5}
+        - {x: -21.5, y: 9.5}
+        - {x: -21.5, y: -38.5}
+        - {x: 32.5, y: -38.5}
+        - {x: 33.5, y: -37.5}
+        - {x: 34.5, y: -34.5}
+        - {x: 27.5, y: -29.5}
+    - name: ELECTABUZZ_24
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 231
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 38.5}
+        - {x: 0.5, y: 38.5}
+        - {x: -21.5, y: 9.5}
+        - {x: -21.5, y: -38.5}
+        - {x: 43.5, y: -38.5}
+        - {x: 46.5, y: -36.5}
+        - {x: 46.5, y: -4.5}
+        - {x: 28.5, y: 32.5}
+    - name: ELECTABUZZ_25
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 231
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -28.5}
+        - {x: 46.5, y: -4.5}
+        - {x: 28.5, y: 32.5}
+        - {x: 23.5, y: 38.5}
+        - {x: 1.5, y: 38.5}
+        - {x: -21.5, y: 11.5}
+        - {x: -21.5, y: -26.5}
+        - {x: -18.5, y: -34.5}
+        - {x: -15.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 36.5, y: -34.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 45.5, y: -32.5}
+    - name: ELECTABUZZ_26
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 231
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -31.5}
+        - {x: 46.5, y: -6.5}
+        - {x: 28.5, y: 32.5}
+        - {x: 19.5, y: 38.5}
+        - {x: -13.5, y: 38.5}
+        - {x: -21.5, y: 6.5}
+        - {x: -21.5, y: -38.5}
+        - {x: 36.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 39.5, y: -31.5}
+    - name: ELECTABUZZ_27
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 231
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: -31.5}
+        - {x: 46.5, y: -31.5}
+        - {x: 46.5, y: 1.5}
+        - {x: 32.5, y: 35.5}
+        - {x: 27.5, y: 38.5}
+        - {x: -3.5, y: 38.5}
+        - {x: -21.5, y: 18.5}
+        - {x: -21.5, y: -31.5}
+        - {x: -17.5, y: -38.5}
+        - {x: 33.5, y: -38.5}
+        - {x: 34.5, y: -37.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+    - name: ELECTABUZZ_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -10.5}
+        - {x: 26.5, y: 31.5}
+        - {x: 18.5, y: 38.5}
+        - {x: -2.5, y: 38.5}
+        - {x: -21.5, y: 10.5}
+        - {x: -21.5, y: -34.5}
+        - {x: -13.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 38.5, y: -33.5}
+        - {x: 44.5, y: -33.5}
+        - {x: 46.5, y: -28.5}
+    - name: ELECTABUZZ_29
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 154
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -32.5}
+        - {x: 46.5, y: 6.5}
+        - {x: 36.5, y: 38.5}
+        - {x: 4.5, y: 38.5}
+        - {x: -21.5, y: 8.5}
+        - {x: -21.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 34.5, y: -35.5}
+        - {x: 31.5, y: -32.5}
+    - name: ELECTABUZZ_30
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 154
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 38.5}
+        - {x: 1.5, y: 38.5}
+        - {x: -22.5, y: 3.5}
+        - {x: -22.5, y: -32.5}
+        - {x: -19.5, y: -38.5}
+        - {x: 37.5, y: -38.5}
+        - {x: 46.5, y: -30.5}
+        - {x: 46.5, y: 10.5}
+        - {x: 27.5, y: 36.5}
+    - name: ELECTABUZZ_31
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 154
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 37.5}
+        - {x: -4.5, y: 37.5}
+        - {x: -24.5, y: 5.5}
+        - {x: -24.5, y: -32.5}
+        - {x: -21.5, y: -38.5}
+        - {x: 36.5, y: -38.5}
+        - {x: 46.5, y: -30.5}
+        - {x: 46.5, y: 15.5}
+    - name: ELECTABUZZ_32
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 154
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 4.5}
+        - {x: 36.5, y: 37.5}
+        - {x: 3.5, y: 37.5}
+        - {x: -26.5, y: 0.5}
+        - {x: -26.5, y: -36.5}
+        - {x: -18.5, y: -38.5}
+        - {x: -17.5, y: -38.5}
+        - {x: -14.5, y: -33.5}
+        - {x: -14.5, y: -29.5}
+        - {x: -13.5, y: -35.5}
+        - {x: -11.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 31.5, y: -32.5}
+        - {x: 46.5, y: -32.5}
+    - name: ELECTABUZZ_33
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 154
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 37.5}
+        - {x: -4.5, y: 37.5}
+        - {x: -28.5, y: 4.5}
+        - {x: -28.5, y: -38.5}
+        - {x: 35.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 44.5, y: -38.5}
+        - {x: 46.5, y: -38.5}
+    - name: ELECTABUZZ_34
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 154
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -33.5}
+        - {x: 46.5, y: 13.5}
+        - {x: 39.5, y: 38.5}
+        - {x: 3.5, y: 38.5}
+        - {x: -26.5, y: -0.5}
+        - {x: -31.5, y: -16.5}
+        - {x: -31.5, y: -37.5}
+        - {x: -28.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 36.5, y: -32.5}
+    - name: ELECTABUZZ_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -28.5}
+        - {x: 46.5, y: 5.5}
+        - {x: 29.5, y: 38.5}
+        - {x: -7.5, y: 38.5}
+        - {x: -11.5, y: 32.5}
+        - {x: -34.5, y: -2.5}
+        - {x: -34.5, y: -32.5}
+        - {x: -31.5, y: -34.5}
+        - {x: -27.5, y: -36.5}
+        - {x: -20.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 45.5, y: -30.5}
+    - name: ELECTABUZZ_36
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 77
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 38.5}
+        - {x: -26.5, y: -2.5}
+        - {x: -37.5, y: -22.5}
+        - {x: -37.5, y: -31.5}
+        - {x: -35.5, y: -36.5}
+        - {x: -27.5, y: -38.5}
+        - {x: 46.5, y: -38.5}
+        - {x: 46.5, y: 13.5}
+        - {x: 40.5, y: 38.5}
+    - name: ELECTABUZZ_37
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 77
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -31.5}
+        - {x: 46.5, y: -1.5}
+        - {x: 33.5, y: 36.5}
+        - {x: -2.5, y: 36.5}
+        - {x: -40.5, y: -5.5}
+        - {x: -40.5, y: -31.5}
+        - {x: -37.5, y: -34.5}
+        - {x: -26.5, y: -38.5}
+        - {x: 37.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 38.5, y: -31.5}
+    - name: ELECTABUZZ_38
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 77
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -32.5}
+        - {x: 46.5, y: 7.5}
+        - {x: 38.5, y: 37.5}
+        - {x: 2.5, y: 37.5}
+        - {x: -42.5, y: -13.5}
+        - {x: -42.5, y: -31.5}
+        - {x: -40.5, y: -34.5}
+        - {x: -34.5, y: -32.5}
+        - {x: -16.5, y: -38.5}
+        - {x: 34.5, y: -38.5}
+        - {x: 35.5, y: -34.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 35.5, y: -31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

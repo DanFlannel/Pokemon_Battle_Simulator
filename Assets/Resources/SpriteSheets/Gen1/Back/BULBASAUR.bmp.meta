@@ -1,0 +1,957 @@
+fileFormatVersion: 2
+guid: be028b0b78ccea34daebfb15fe11c5f4
+timeCreated: 1452888076
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BULBASAUR_0
+    21300002: BULBASAUR_1
+    21300004: BULBASAUR_2
+    21300006: BULBASAUR_3
+    21300008: BULBASAUR_4
+    21300010: BULBASAUR_5
+    21300012: BULBASAUR_6
+    21300014: BULBASAUR_7
+    21300016: BULBASAUR_8
+    21300018: BULBASAUR_9
+    21300020: BULBASAUR_10
+    21300022: BULBASAUR_11
+    21300024: BULBASAUR_12
+    21300026: BULBASAUR_13
+    21300028: BULBASAUR_14
+    21300030: BULBASAUR_15
+    21300032: BULBASAUR_16
+    21300034: BULBASAUR_17
+    21300036: BULBASAUR_18
+    21300038: BULBASAUR_19
+    21300040: BULBASAUR_20
+    21300042: BULBASAUR_21
+    21300044: BULBASAUR_22
+    21300046: BULBASAUR_23
+    21300048: BULBASAUR_24
+    21300050: BULBASAUR_25
+    21300052: BULBASAUR_26
+    21300054: BULBASAUR_27
+    21300056: BULBASAUR_28
+    21300058: BULBASAUR_29
+    21300060: BULBASAUR_30
+    21300062: BULBASAUR_31
+    21300064: BULBASAUR_32
+    21300066: BULBASAUR_33
+    21300068: BULBASAUR_34
+    21300070: BULBASAUR_35
+    21300072: BULBASAUR_36
+    21300074: BULBASAUR_37
+    21300076: BULBASAUR_38
+    21300078: BULBASAUR_39
+    21300080: BULBASAUR_40
+    21300082: BULBASAUR_41
+    21300084: BULBASAUR_42
+    21300086: BULBASAUR_43
+    21300088: BULBASAUR_44
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BULBASAUR_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 25}
+        - {x: -17, y: 25}
+        - {x: -26, y: 12}
+        - {x: -26, y: -25}
+        - {x: 21, y: -25}
+        - {x: 26, y: -23}
+        - {x: 26, y: 10}
+    - name: BULBASAUR_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 300
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 25}
+        - {x: -19, y: 25}
+        - {x: -26, y: 16}
+        - {x: -26, y: -21}
+        - {x: -25, y: -25}
+        - {x: 24, y: -25}
+        - {x: 26, y: -21}
+        - {x: 26, y: 15}
+    - name: BULBASAUR_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 300
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 25}
+        - {x: -19, y: 25}
+        - {x: -26, y: 16}
+        - {x: -26, y: -21}
+        - {x: -25, y: -25}
+        - {x: 24, y: -25}
+        - {x: 26, y: -21}
+        - {x: 26, y: 15}
+    - name: BULBASAUR_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 300
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 25}
+        - {x: -15, y: 25}
+        - {x: -26, y: 13}
+        - {x: -26, y: -16}
+        - {x: -25, y: -23}
+        - {x: -25, y: -25}
+        - {x: 22, y: -25}
+        - {x: 26, y: -18}
+        - {x: 26, y: 3}
+        - {x: 25, y: 8}
+    - name: BULBASAUR_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 300
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 25}
+        - {x: -15, y: 25}
+        - {x: -26, y: 13}
+        - {x: -26, y: -16}
+        - {x: -25, y: -23}
+        - {x: -25, y: -25}
+        - {x: 22, y: -25}
+        - {x: 26, y: -18}
+        - {x: 26, y: 3}
+        - {x: 25, y: 8}
+    - name: BULBASAUR_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 300
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 25}
+        - {x: -18, y: 25}
+        - {x: -26, y: 14}
+        - {x: -26, y: -25}
+        - {x: 22, y: -25}
+        - {x: 26, y: -22}
+        - {x: 26, y: 15}
+    - name: BULBASAUR_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 300
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 25}
+        - {x: -18, y: 25}
+        - {x: -26, y: 14}
+        - {x: -26, y: -25}
+        - {x: 22, y: -25}
+        - {x: 26, y: -22}
+        - {x: 26, y: 15}
+    - name: BULBASAUR_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -26, y: 16}
+        - {x: -26, y: -25}
+        - {x: 24, y: -25}
+        - {x: 26, y: -19}
+        - {x: 26, y: 9}
+        - {x: 11, y: 25}
+    - name: BULBASAUR_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 250
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 14}
+        - {x: -2, y: 25}
+        - {x: -18, y: 25}
+        - {x: -26, y: 13}
+        - {x: -26, y: -25}
+        - {x: 25, y: -25}
+        - {x: 26, y: -21}
+        - {x: 26, y: 8}
+    - name: BULBASAUR_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 250
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -26, y: 20}
+        - {x: -26, y: -25}
+        - {x: 22, y: -25}
+        - {x: 26, y: -18}
+        - {x: 26, y: 12}
+        - {x: -1, y: 25}
+    - name: BULBASAUR_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 250
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 25}
+        - {x: -16, y: 25}
+        - {x: -26, y: 20}
+        - {x: -26, y: -25}
+        - {x: 20, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 9}
+    - name: BULBASAUR_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 250
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 12}
+        - {x: 6, y: 20}
+        - {x: -4, y: 25}
+        - {x: -14, y: 25}
+        - {x: -26, y: 13}
+        - {x: -26, y: -25}
+        - {x: 19, y: -25}
+        - {x: 26, y: -15}
+        - {x: 26, y: 1}
+    - name: BULBASAUR_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 250
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25}
+        - {x: -17, y: 25}
+        - {x: -26, y: 14}
+        - {x: -26, y: -25}
+        - {x: 25, y: -25}
+        - {x: 26, y: -21}
+        - {x: 26, y: 6}
+        - {x: 25, y: 15}
+    - name: BULBASAUR_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 250
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 25}
+        - {x: -26, y: -25}
+        - {x: 21, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 21}
+        - {x: 12, y: 25}
+    - name: BULBASAUR_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 25}
+        - {x: -19, y: 25}
+        - {x: -26, y: 14}
+        - {x: -26, y: -13}
+        - {x: -25, y: -23}
+        - {x: -24, y: -25}
+        - {x: 20, y: -25}
+        - {x: 26, y: -16}
+        - {x: 26, y: 1}
+        - {x: 23, y: 15}
+    - name: BULBASAUR_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 200
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 19}
+        - {x: -5, y: 25}
+        - {x: -16, y: 25}
+        - {x: -26, y: 13}
+        - {x: -26, y: -13}
+        - {x: -25, y: -23}
+        - {x: -24, y: -25}
+        - {x: 20, y: -25}
+        - {x: 26, y: -13}
+        - {x: 26, y: 2}
+        - {x: 20, y: 13}
+    - name: BULBASAUR_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 200
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -26, y: 17}
+        - {x: -26, y: -16}
+        - {x: -25, y: -25}
+        - {x: 24, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 18}
+        - {x: 7, y: 25}
+    - name: BULBASAUR_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 200
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 25}
+        - {x: -19, y: 25}
+        - {x: -26, y: 16}
+        - {x: -26, y: -16}
+        - {x: -25, y: -25}
+        - {x: 22, y: -25}
+        - {x: 26, y: -18}
+        - {x: 26, y: 6}
+        - {x: 24, y: 15}
+    - name: BULBASAUR_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 200
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -26, y: 18}
+        - {x: -26, y: -18}
+        - {x: -25, y: -25}
+        - {x: 21, y: -25}
+        - {x: 26, y: -15}
+        - {x: 26, y: 12}
+        - {x: -1, y: 25}
+    - name: BULBASAUR_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 200
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 25}
+        - {x: -26, y: 20}
+        - {x: -26, y: -21}
+        - {x: -25, y: -25}
+        - {x: 21, y: -25}
+        - {x: 26, y: -15}
+        - {x: 26, y: 14}
+        - {x: 1, y: 25}
+    - name: BULBASAUR_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 200
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 25}
+        - {x: -26, y: 20}
+        - {x: -26, y: -21}
+        - {x: -25, y: -25}
+        - {x: 21, y: -25}
+        - {x: 26, y: -15}
+        - {x: 26, y: 14}
+        - {x: 1, y: 25}
+    - name: BULBASAUR_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 25}
+        - {x: -26, y: 20}
+        - {x: -26, y: -21}
+        - {x: -25, y: -25}
+        - {x: 21, y: -25}
+        - {x: 26, y: -15}
+        - {x: 26, y: 14}
+        - {x: 1, y: 25}
+    - name: BULBASAUR_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 150
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 25}
+        - {x: -26, y: 18}
+        - {x: -26, y: -25}
+        - {x: 20, y: -25}
+        - {x: 26, y: -16}
+        - {x: 26, y: 14}
+        - {x: 3, y: 25}
+    - name: BULBASAUR_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 150
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 25}
+        - {x: -21, y: 25}
+        - {x: -26, y: 17}
+        - {x: -26, y: -17}
+        - {x: -25, y: -25}
+        - {x: 23, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 10}
+        - {x: 23, y: 16}
+    - name: BULBASAUR_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 150
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -26, y: 13}
+        - {x: -26, y: -25}
+        - {x: 26, y: -25}
+        - {x: 26, y: 8}
+        - {x: 10, y: 25}
+    - name: BULBASAUR_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 150
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -26, y: 16}
+        - {x: -26, y: -16}
+        - {x: -25, y: -25}
+        - {x: 21, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 14}
+        - {x: 2, y: 25}
+    - name: BULBASAUR_26
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 150
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25}
+        - {x: -16, y: 25}
+        - {x: -26, y: 15}
+        - {x: -26, y: -25}
+        - {x: 20, y: -25}
+        - {x: 26, y: -15}
+        - {x: 26, y: -1}
+        - {x: 24, y: 11}
+    - name: BULBASAUR_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 150
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -25}
+        - {x: 23, y: -25}
+        - {x: 26, y: -24}
+        - {x: 26, y: 16}
+        - {x: -1, y: 25}
+        - {x: -19, y: 25}
+        - {x: -26, y: 15}
+    - name: BULBASAUR_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 25}
+        - {x: -20, y: 25}
+        - {x: -26, y: 15}
+        - {x: -26, y: -25}
+        - {x: 19, y: -25}
+        - {x: 26, y: -16}
+        - {x: 26, y: 9}
+        - {x: 25, y: 16}
+    - name: BULBASAUR_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 100
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 25}
+        - {x: -20, y: 25}
+        - {x: -26, y: 14}
+        - {x: -26, y: -24}
+        - {x: -24, y: -25}
+        - {x: 23, y: -25}
+        - {x: 26, y: -18}
+        - {x: 26, y: 14}
+        - {x: 24, y: 17}
+    - name: BULBASAUR_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 100
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -26, y: 18}
+        - {x: -26, y: -25}
+        - {x: 24, y: -25}
+        - {x: 26, y: -20}
+        - {x: 26, y: 12}
+        - {x: 7, y: 25}
+    - name: BULBASAUR_31
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 100
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -26, y: 18}
+        - {x: -26, y: -25}
+        - {x: 19, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 13}
+        - {x: 1, y: 25}
+    - name: BULBASAUR_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 100
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 25}
+        - {x: -19, y: 25}
+        - {x: -26, y: 17}
+        - {x: -26, y: -25}
+        - {x: 22, y: -25}
+        - {x: 26, y: -15}
+        - {x: 26, y: 10}
+        - {x: 24, y: 13}
+    - name: BULBASAUR_33
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 100
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 13}
+        - {x: 0, y: 25}
+        - {x: -15, y: 25}
+        - {x: -26, y: 12}
+        - {x: -26, y: -25}
+        - {x: 19, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 5}
+    - name: BULBASAUR_34
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 100
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -16, y: 25}
+        - {x: -26, y: 17}
+        - {x: -26, y: -25}
+        - {x: 22, y: -25}
+        - {x: 26, y: -21}
+        - {x: 26, y: 7}
+        - {x: 24, y: 13}
+    - name: BULBASAUR_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 25}
+        - {x: -20, y: 25}
+        - {x: -26, y: 12}
+        - {x: -26, y: -21}
+        - {x: -25, y: -23}
+        - {x: -23, y: -25}
+        - {x: 20, y: -25}
+        - {x: 26, y: -19}
+        - {x: 26, y: 7}
+        - {x: 24, y: 13}
+    - name: BULBASAUR_36
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 50
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -26, y: 17}
+        - {x: -26, y: -24}
+        - {x: -24, y: -25}
+        - {x: 19, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 9}
+        - {x: 7, y: 25}
+    - name: BULBASAUR_37
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 50
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 25}
+        - {x: -26, y: 22}
+        - {x: -26, y: -25}
+        - {x: 25, y: -25}
+        - {x: 26, y: -20}
+        - {x: 26, y: 20}
+        - {x: 9, y: 25}
+    - name: BULBASAUR_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 50
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 25}
+        - {x: -26, y: 17}
+        - {x: -26, y: -22}
+        - {x: -25, y: -25}
+        - {x: 20, y: -25}
+        - {x: 26, y: -18}
+        - {x: 26, y: 15}
+        - {x: 1, y: 25}
+    - name: BULBASAUR_39
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 50
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 25}
+        - {x: -26, y: 17}
+        - {x: -26, y: -22}
+        - {x: -25, y: -25}
+        - {x: 20, y: -25}
+        - {x: 26, y: -18}
+        - {x: 26, y: 15}
+        - {x: 1, y: 25}
+    - name: BULBASAUR_40
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 50
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -26, y: 16}
+        - {x: -26, y: -22}
+        - {x: -25, y: -25}
+        - {x: 21, y: -25}
+        - {x: 26, y: -22}
+        - {x: 26, y: 10}
+        - {x: 19, y: 25}
+    - name: BULBASAUR_41
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 50
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 25}
+        - {x: -26, y: 19}
+        - {x: -26, y: -19}
+        - {x: -25, y: -25}
+        - {x: 19, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 14}
+        - {x: 5, y: 25}
+    - name: BULBASAUR_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -26, y: 13}
+        - {x: -26, y: -23}
+        - {x: -25, y: -25}
+        - {x: 19, y: -25}
+        - {x: 26, y: -17}
+        - {x: 26, y: 10}
+        - {x: -1, y: 25}
+    - name: BULBASAUR_43
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 25}
+        - {x: -19, y: 25}
+        - {x: -26, y: 16}
+        - {x: -26, y: -18}
+        - {x: -25, y: -25}
+        - {x: 23, y: -25}
+        - {x: 26, y: -16}
+        - {x: 26, y: 9}
+        - {x: 24, y: 14}
+    - name: BULBASAUR_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 25}
+        - {x: -17, y: 25}
+        - {x: -26, y: 12}
+        - {x: -26, y: -25}
+        - {x: 21, y: -25}
+        - {x: 26, y: -23}
+        - {x: 26, y: 10}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

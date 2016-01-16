@@ -1,0 +1,1250 @@
+fileFormatVersion: 2
+guid: 1c74afd6563e12a48b27ef16aacee9cc
+timeCreated: 1452884757
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: VOLTORB_0
+    21300002: VOLTORB_1
+    21300004: VOLTORB_2
+    21300006: VOLTORB_3
+    21300008: VOLTORB_4
+    21300010: VOLTORB_5
+    21300012: VOLTORB_6
+    21300014: VOLTORB_7
+    21300016: VOLTORB_8
+    21300018: VOLTORB_9
+    21300020: VOLTORB_10
+    21300022: VOLTORB_11
+    21300024: VOLTORB_12
+    21300026: VOLTORB_13
+    21300028: VOLTORB_14
+    21300030: VOLTORB_15
+    21300032: VOLTORB_16
+    21300034: VOLTORB_17
+    21300036: VOLTORB_18
+    21300038: VOLTORB_19
+    21300040: VOLTORB_20
+    21300042: VOLTORB_21
+    21300044: VOLTORB_22
+    21300046: VOLTORB_23
+    21300048: VOLTORB_24
+    21300050: VOLTORB_25
+    21300052: VOLTORB_26
+    21300054: VOLTORB_27
+    21300056: VOLTORB_28
+    21300058: VOLTORB_29
+    21300060: VOLTORB_30
+    21300062: VOLTORB_31
+    21300064: VOLTORB_32
+    21300066: VOLTORB_33
+    21300068: VOLTORB_34
+    21300070: VOLTORB_35
+    21300072: VOLTORB_36
+    21300074: VOLTORB_37
+    21300076: VOLTORB_38
+    21300078: VOLTORB_39
+    21300080: VOLTORB_40
+    21300082: VOLTORB_41
+    21300084: VOLTORB_42
+    21300086: VOLTORB_43
+    21300088: VOLTORB_44
+    21300090: VOLTORB_45
+    21300092: VOLTORB_46
+    21300094: VOLTORB_47
+    21300096: VOLTORB_48
+    21300098: VOLTORB_49
+    21300100: VOLTORB_50
+    21300102: VOLTORB_51
+    21300104: VOLTORB_52
+    21300106: VOLTORB_53
+    21300108: VOLTORB_54
+    21300110: VOLTORB_55
+    21300112: VOLTORB_56
+    21300114: VOLTORB_57
+    21300116: VOLTORB_58
+    21300118: VOLTORB_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: VOLTORB_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 21.5}
+        - {x: -22.5, y: 17.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -17.5, y: -21.5}
+        - {x: 21.5, y: -21.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 18.5}
+        - {x: 16.5, y: 21.5}
+    - name: VOLTORB_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 301
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 21.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 22.5, y: 21.5}
+    - name: VOLTORB_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 301
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21.5}
+        - {x: -22.5, y: 9.5}
+        - {x: -22.5, y: -8.5}
+        - {x: -20.5, y: -13.5}
+        - {x: -13.5, y: -21.5}
+        - {x: 14.5, y: -21.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 14.5, y: 21.5}
+    - name: VOLTORB_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 301
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -16.5, y: -19.5}
+        - {x: -15.5, y: -21.5}
+        - {x: 17.5, y: -21.5}
+        - {x: 22.5, y: -20.5}
+        - {x: 22.5, y: 12.5}
+        - {x: 15.5, y: 21.5}
+    - name: VOLTORB_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 301
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 21.5}
+        - {x: -22.5, y: 19.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -13.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 19.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 301
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 21.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -22.5, y: 18.5}
+        - {x: -22.5, y: -12.5}
+        - {x: -17.5, y: -21.5}
+        - {x: 19.5, y: -21.5}
+        - {x: 22.5, y: -16.5}
+        - {x: 22.5, y: 16.5}
+    - name: VOLTORB_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 301
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 301
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 258
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 258
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 20.5, y: 21.5}
+    - name: VOLTORB_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 258
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 20.5, y: 21.5}
+    - name: VOLTORB_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 258
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 20.5, y: 21.5}
+    - name: VOLTORB_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 258
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 258
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_15
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 258
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 215
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21.5}
+        - {x: -22.5, y: 13.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 20.5, y: 21.5}
+    - name: VOLTORB_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 215
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21.5}
+        - {x: -22.5, y: 13.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -17.5, y: -21.5}
+        - {x: 21.5, y: -21.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 22.5, y: 18.5}
+        - {x: 20.5, y: 21.5}
+    - name: VOLTORB_19
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 215
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21.5}
+        - {x: -22.5, y: 13.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -16.5, y: -21.5}
+        - {x: 21.5, y: -21.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 22.5, y: 18.5}
+        - {x: 20.5, y: 21.5}
+    - name: VOLTORB_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 215
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 21.5}
+        - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 17.5, y: -21.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 12.5}
+    - name: VOLTORB_21
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 215
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 21.5}
+        - {x: -18.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 17.5, y: -21.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 12.5}
+    - name: VOLTORB_22
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 215
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 21.5}
+        - {x: -22.5, y: 11.5}
+        - {x: -22.5, y: -12.5}
+        - {x: -14.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 19.5}
+        - {x: 14.5, y: 21.5}
+    - name: VOLTORB_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 215
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 21.5}
+        - {x: -22.5, y: 10.5}
+        - {x: -22.5, y: -14.5}
+        - {x: -13.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 19.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 21.5}
+        - {x: -16.5, y: 21.5}
+        - {x: -22.5, y: 10.5}
+        - {x: -22.5, y: -14.5}
+        - {x: -17.5, y: -21.5}
+        - {x: 18.5, y: -21.5}
+        - {x: 22.5, y: -14.5}
+        - {x: 22.5, y: 12.5}
+    - name: VOLTORB_25
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 172
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 21.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 22.5, y: 21.5}
+    - name: VOLTORB_26
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 172
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 21.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 22.5, y: 21.5}
+    - name: VOLTORB_27
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 172
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 21.5}
+        - {x: -22.5, y: 15.5}
+        - {x: -22.5, y: -16.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_28
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 172
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 21.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -14.5, y: -21.5}
+        - {x: 16.5, y: -21.5}
+        - {x: 22.5, y: -17.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 172
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 21.5}
+        - {x: -22.5, y: 19.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 20.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_30
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 172
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 21.5}
+        - {x: -22.5, y: 19.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -17.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 21.5}
+    - name: VOLTORB_31
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 172
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 21.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -9.5}
+        - {x: -21.5, y: -11.5}
+        - {x: -17.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -16.5}
+        - {x: 22.5, y: 21.5}
+    - name: VOLTORB_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 21.5}
+        - {x: -22.5, y: 19.5}
+        - {x: -22.5, y: -15.5}
+        - {x: -15.5, y: -21.5}
+        - {x: 14.5, y: -21.5}
+        - {x: 22.5, y: -15.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 19.5, y: 21.5}
+    - name: VOLTORB_33
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 129
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21.5}
+        - {x: -21.5, y: 15.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -16.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -18.5}
+        - {x: 22.5, y: 18.5}
+        - {x: 14.5, y: 21.5}
+    - name: VOLTORB_34
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 129
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -12.5}
+        - {x: -16.5, y: -21.5}
+        - {x: 16.5, y: -21.5}
+        - {x: 22.5, y: -20.5}
+        - {x: 22.5, y: 18.5}
+        - {x: 15.5, y: 21.5}
+    - name: VOLTORB_35
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 129
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -12.5}
+        - {x: -16.5, y: -21.5}
+        - {x: 16.5, y: -21.5}
+        - {x: 22.5, y: -20.5}
+        - {x: 22.5, y: 18.5}
+        - {x: 15.5, y: 21.5}
+    - name: VOLTORB_36
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 129
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 21.5}
+        - {x: -22.5, y: 18.5}
+        - {x: -22.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_37
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 129
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 21.5}
+        - {x: -22.5, y: 18.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -16.5, y: -21.5}
+        - {x: 14.5, y: -21.5}
+        - {x: 22.5, y: -15.5}
+        - {x: 22.5, y: 16.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_38
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 129
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_39
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 129
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_41
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 86
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 21.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -22.5, y: 18.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -13.5, y: -21.5}
+        - {x: 15.5, y: -21.5}
+        - {x: 22.5, y: -14.5}
+        - {x: 22.5, y: 16.5}
+    - name: VOLTORB_42
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 86
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 21.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -22.5, y: 18.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -13.5, y: -21.5}
+        - {x: 15.5, y: -21.5}
+        - {x: 22.5, y: -14.5}
+        - {x: 22.5, y: 16.5}
+    - name: VOLTORB_43
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 86
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 21.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -22.5, y: 18.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -13.5, y: -21.5}
+        - {x: 15.5, y: -21.5}
+        - {x: 22.5, y: -14.5}
+        - {x: 22.5, y: 16.5}
+    - name: VOLTORB_44
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 86
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_45
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 86
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_46
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 86
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_47
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 86
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -18.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -19.5}
+        - {x: 22.5, y: 14.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_49
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 43
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 21.5}
+        - {x: -15.5, y: 21.5}
+        - {x: -22.5, y: 13.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 13.5, y: -21.5}
+        - {x: 22.5, y: -12.5}
+        - {x: 22.5, y: 14.5}
+    - name: VOLTORB_50
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 43
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 21.5}
+        - {x: -15.5, y: 21.5}
+        - {x: -22.5, y: 13.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 14.5, y: -21.5}
+        - {x: 22.5, y: -12.5}
+        - {x: 22.5, y: 14.5}
+    - name: VOLTORB_51
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 43
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 21.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -22.5, y: 15.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 12.5, y: -21.5}
+        - {x: 21.5, y: -18.5}
+        - {x: 22.5, y: -11.5}
+        - {x: 22.5, y: 15.5}
+    - name: VOLTORB_52
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 43
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 21.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -22.5, y: 15.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 12.5, y: -21.5}
+        - {x: 21.5, y: -18.5}
+        - {x: 22.5, y: -11.5}
+        - {x: 22.5, y: 15.5}
+    - name: VOLTORB_53
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 43
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -12.5}
+        - {x: -16.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 15.5}
+        - {x: 21.5, y: 21.5}
+        - {x: -12.5, y: 21.5}
+        - {x: -22.5, y: 10.5}
+    - name: VOLTORB_54
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 43
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 21.5}
+        - {x: -22.5, y: 19.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 20.5}
+        - {x: 18.5, y: 21.5}
+    - name: VOLTORB_55
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 43
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 21.5}
+        - {x: -22.5, y: 19.5}
+        - {x: -22.5, y: -10.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 20.5}
+        - {x: 21.5, y: 21.5}
+    - name: VOLTORB_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 21.5}
+        - {x: -16.5, y: 21.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -11.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 15.5, y: -21.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 12.5}
+    - name: VOLTORB_57
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 21.5}
+        - {x: -16.5, y: 21.5}
+        - {x: -22.5, y: 14.5}
+        - {x: -22.5, y: -11.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 15.5, y: -21.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 12.5}
+    - name: VOLTORB_58
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 21.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -21.5, y: 15.5}
+        - {x: -22.5, y: 10.5}
+        - {x: -22.5, y: -12.5}
+        - {x: -15.5, y: -20.5}
+        - {x: -12.5, y: -21.5}
+        - {x: 13.5, y: -21.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 12.5}
+    - name: VOLTORB_59
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 21.5}
+        - {x: -16.5, y: 21.5}
+        - {x: -22.5, y: 12.5}
+        - {x: -22.5, y: -20.5}
+        - {x: -19.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 12.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

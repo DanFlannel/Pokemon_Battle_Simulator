@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 3b48577f4bdc25e4793be087c860c89a
+timeCreated: 1452888197
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CLEFAIRY_0
+    21300002: CLEFAIRY_1
+    21300004: CLEFAIRY_2
+    21300006: CLEFAIRY_3
+    21300008: CLEFAIRY_4
+    21300010: CLEFAIRY_5
+    21300012: CLEFAIRY_6
+    21300014: CLEFAIRY_7
+    21300016: CLEFAIRY_8
+    21300018: CLEFAIRY_9
+    21300020: CLEFAIRY_10
+    21300022: CLEFAIRY_11
+    21300024: CLEFAIRY_12
+    21300026: CLEFAIRY_13
+    21300028: CLEFAIRY_14
+    21300030: CLEFAIRY_15
+    21300032: CLEFAIRY_16
+    21300034: CLEFAIRY_17
+    21300036: CLEFAIRY_18
+    21300038: CLEFAIRY_19
+    21300040: CLEFAIRY_20
+    21300042: CLEFAIRY_21
+    21300044: CLEFAIRY_22
+    21300046: CLEFAIRY_23
+    21300048: CLEFAIRY_24
+    21300050: CLEFAIRY_25
+    21300052: CLEFAIRY_26
+    21300054: CLEFAIRY_27
+    21300056: CLEFAIRY_28
+    21300058: CLEFAIRY_29
+    21300060: CLEFAIRY_30
+    21300062: CLEFAIRY_31
+    21300064: CLEFAIRY_32
+    21300066: CLEFAIRY_33
+    21300068: CLEFAIRY_34
+    21300070: CLEFAIRY_35
+    21300072: CLEFAIRY_36
+    21300074: CLEFAIRY_37
+    21300076: CLEFAIRY_38
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CLEFAIRY_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 24}
+        - {x: -32.5, y: 4}
+        - {x: -32.5, y: -21}
+        - {x: -26.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -9}
+        - {x: 32.5, y: 5}
+        - {x: 22.5, y: 24}
+    - name: CLEFAIRY_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 288
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 7}
+        - {x: 19.5, y: 22}
+        - {x: 18.5, y: 24}
+        - {x: -2.5, y: 24}
+        - {x: -15.5, y: 21}
+        - {x: -32.5, y: 6}
+        - {x: -32.5, y: -20}
+        - {x: -25.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -8}
+        - {x: 32.5, y: 1}
+        - {x: 29.5, y: 5}
+    - name: CLEFAIRY_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 288
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 24}
+        - {x: -32.5, y: 3}
+        - {x: -32.5, y: -23}
+        - {x: -26.5, y: -24}
+        - {x: 20.5, y: -24}
+        - {x: 32.5, y: -12}
+        - {x: 32.5, y: 5}
+        - {x: 21.5, y: 24}
+    - name: CLEFAIRY_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 288
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 24}
+        - {x: 2.5, y: 24}
+        - {x: -15.5, y: 21}
+        - {x: -32.5, y: 4}
+        - {x: -32.5, y: -15}
+        - {x: -31.5, y: -19}
+        - {x: -14.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -5}
+        - {x: 32.5, y: 0}
+        - {x: 30.5, y: 3}
+    - name: CLEFAIRY_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 288
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 24}
+        - {x: -32.5, y: 14}
+        - {x: -32.5, y: -19}
+        - {x: -26.5, y: -24}
+        - {x: 19.5, y: -24}
+        - {x: 32.5, y: -17}
+        - {x: 32.5, y: 17}
+        - {x: 24.5, y: 24}
+    - name: CLEFAIRY_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 288
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 24}
+        - {x: -32.5, y: 2}
+        - {x: -32.5, y: -19}
+        - {x: -15.5, y: -24}
+        - {x: 25.5, y: -24}
+        - {x: 32.5, y: -12}
+        - {x: 32.5, y: 14}
+        - {x: 26.5, y: 24}
+    - name: CLEFAIRY_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 288
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 24}
+        - {x: -7.5, y: 24}
+        - {x: -15.5, y: 23}
+        - {x: -32.5, y: 3}
+        - {x: -32.5, y: -19}
+        - {x: -20.5, y: -24}
+        - {x: 17.5, y: -24}
+        - {x: 32.5, y: -10}
+        - {x: 32.5, y: 2}
+    - name: CLEFAIRY_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 5}
+        - {x: 21.5, y: 24}
+        - {x: -20.5, y: 24}
+        - {x: -32.5, y: 3}
+        - {x: -32.5, y: -18}
+        - {x: -26.5, y: -22}
+        - {x: -16.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 29.5, y: -12}
+        - {x: 32.5, y: -7}
+    - name: CLEFAIRY_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 240
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 24}
+        - {x: -32.5, y: 0}
+        - {x: -32.5, y: -18}
+        - {x: -18.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -10}
+        - {x: 32.5, y: 1}
+        - {x: 24.5, y: 24}
+    - name: CLEFAIRY_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 240
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 24}
+        - {x: -32.5, y: 5}
+        - {x: -32.5, y: -18}
+        - {x: -17.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -9}
+        - {x: 32.5, y: 2}
+        - {x: 25.5, y: 24}
+    - name: CLEFAIRY_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 240
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 24}
+        - {x: -32.5, y: 5}
+        - {x: -32.5, y: -17}
+        - {x: -27.5, y: -24}
+        - {x: 27.5, y: -24}
+        - {x: 32.5, y: -22}
+        - {x: 32.5, y: 10}
+        - {x: 19.5, y: 24}
+    - name: CLEFAIRY_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 240
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 24}
+        - {x: -32.5, y: 6}
+        - {x: -32.5, y: -17}
+        - {x: -26.5, y: -24}
+        - {x: 21.5, y: -24}
+        - {x: 32.5, y: -16}
+        - {x: 32.5, y: 24}
+    - name: CLEFAIRY_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 240
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 24}
+        - {x: -32.5, y: 2}
+        - {x: -32.5, y: -16}
+        - {x: -27.5, y: -21}
+        - {x: -17.5, y: -24}
+        - {x: 24.5, y: -24}
+        - {x: 32.5, y: -8}
+        - {x: 32.5, y: 14}
+        - {x: 27.5, y: 24}
+    - name: CLEFAIRY_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 240
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 24}
+        - {x: -32.5, y: 3}
+        - {x: -32.5, y: -17}
+        - {x: -29.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -17}
+        - {x: 32.5, y: 19}
+        - {x: 30.5, y: 24}
+    - name: CLEFAIRY_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 24}
+        - {x: -32.5, y: 0}
+        - {x: -32.5, y: -24}
+        - {x: 26.5, y: -24}
+        - {x: 32.5, y: -18}
+        - {x: 32.5, y: 16}
+        - {x: 29.5, y: 24}
+    - name: CLEFAIRY_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 24}
+        - {x: -32.5, y: 8}
+        - {x: -32.5, y: -19}
+        - {x: -29.5, y: -24}
+        - {x: 24.5, y: -24}
+        - {x: 32.5, y: -18}
+        - {x: 32.5, y: 13}
+        - {x: 26.5, y: 24}
+    - name: CLEFAIRY_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 192
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 24}
+        - {x: -19.5, y: 24}
+        - {x: -32.5, y: 3}
+        - {x: -32.5, y: -22}
+        - {x: -26.5, y: -24}
+        - {x: 17.5, y: -24}
+        - {x: 32.5, y: -9}
+        - {x: 32.5, y: 13}
+    - name: CLEFAIRY_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 192
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 24}
+        - {x: -32.5, y: 0}
+        - {x: -32.5, y: -18}
+        - {x: -27.5, y: -24}
+        - {x: 22.5, y: -24}
+        - {x: 32.5, y: -8}
+        - {x: 32.5, y: 9}
+        - {x: 19.5, y: 24}
+    - name: CLEFAIRY_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 192
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 24}
+        - {x: -16.5, y: 24}
+        - {x: -32.5, y: 1}
+        - {x: -32.5, y: -18}
+        - {x: -30.5, y: -24}
+        - {x: 24.5, y: -24}
+        - {x: 32.5, y: -18}
+        - {x: 32.5, y: 19}
+        - {x: 30.5, y: 23}
+    - name: CLEFAIRY_19
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 192
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 24}
+        - {x: -32.5, y: -3}
+        - {x: -32.5, y: -19}
+        - {x: -19.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -16}
+        - {x: 32.5, y: 5}
+        - {x: 23.5, y: 24}
+    - name: CLEFAIRY_20
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 192
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 24}
+        - {x: -15.5, y: 24}
+        - {x: -32.5, y: -3}
+        - {x: -32.5, y: -16}
+        - {x: -27.5, y: -24}
+        - {x: 21.5, y: -24}
+        - {x: 32.5, y: -15}
+        - {x: 32.5, y: 11}
+        - {x: 27.5, y: 22}
+    - name: CLEFAIRY_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 24}
+        - {x: -32.5, y: 2}
+        - {x: -32.5, y: -24}
+        - {x: 27.5, y: -24}
+        - {x: 32.5, y: -16}
+        - {x: 32.5, y: 6}
+        - {x: 26.5, y: 24}
+    - name: CLEFAIRY_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 144
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 24}
+        - {x: -32.5, y: 1}
+        - {x: -32.5, y: -15}
+        - {x: -31.5, y: -23}
+        - {x: -28.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -12}
+        - {x: 32.5, y: 4}
+        - {x: 25.5, y: 24}
+    - name: CLEFAIRY_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 144
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -22}
+        - {x: -26.5, y: -24}
+        - {x: 20.5, y: -24}
+        - {x: 32.5, y: -21}
+        - {x: 32.5, y: 19}
+        - {x: 30.5, y: 24}
+        - {x: -15.5, y: 24}
+        - {x: -32.5, y: 7}
+    - name: CLEFAIRY_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 144
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 24}
+        - {x: -32.5, y: 0}
+        - {x: -32.5, y: -24}
+        - {x: 19.5, y: -24}
+        - {x: 32.5, y: -17}
+        - {x: 32.5, y: 12}
+        - {x: 25.5, y: 22}
+        - {x: 17.5, y: 24}
+    - name: CLEFAIRY_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 144
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 24}
+        - {x: -18.5, y: 24}
+        - {x: -32.5, y: -1}
+        - {x: -32.5, y: -20}
+        - {x: -24.5, y: -24}
+        - {x: 22.5, y: -24}
+        - {x: 32.5, y: -8}
+        - {x: 32.5, y: 9}
+        - {x: 24.5, y: 20}
+    - name: CLEFAIRY_26
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 144
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 24}
+        - {x: -32.5, y: 1}
+        - {x: -32.5, y: -17}
+        - {x: -25.5, y: -24}
+        - {x: 20.5, y: -24}
+        - {x: 32.5, y: -15}
+        - {x: 32.5, y: 15}
+        - {x: 29.5, y: 24}
+    - name: CLEFAIRY_27
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 144
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 24}
+        - {x: -32.5, y: 6}
+        - {x: -32.5, y: -24}
+        - {x: 23.5, y: -24}
+        - {x: 32.5, y: -10}
+        - {x: 32.5, y: 3}
+        - {x: 23.5, y: 24}
+    - name: CLEFAIRY_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 24}
+        - {x: -32.5, y: 10}
+        - {x: -32.5, y: -24}
+        - {x: 23.5, y: -24}
+        - {x: 32.5, y: -7}
+        - {x: 32.5, y: 4}
+        - {x: 20.5, y: 24}
+    - name: CLEFAIRY_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 96
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 24}
+        - {x: -32.5, y: 11}
+        - {x: -32.5, y: -23}
+        - {x: -31.5, y: -24}
+        - {x: 19.5, y: -24}
+        - {x: 32.5, y: -14}
+        - {x: 32.5, y: 19}
+        - {x: 30.5, y: 24}
+    - name: CLEFAIRY_30
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 96
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -24}
+        - {x: 32.5, y: -16}
+        - {x: 32.5, y: 24}
+        - {x: -16.5, y: 24}
+        - {x: -32.5, y: 14}
+        - {x: -32.5, y: -24}
+    - name: CLEFAIRY_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 96
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 24}
+        - {x: -32.5, y: 4}
+        - {x: -32.5, y: -23}
+        - {x: -28.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -5}
+        - {x: 32.5, y: 6}
+        - {x: 21.5, y: 24}
+    - name: CLEFAIRY_32
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 96
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 24}
+        - {x: -8.5, y: 24}
+        - {x: -17.5, y: 20}
+        - {x: -19.5, y: 16}
+        - {x: -32.5, y: -4}
+        - {x: -32.5, y: -20}
+        - {x: -23.5, y: -24}
+        - {x: 16.5, y: -24}
+        - {x: 32.5, y: 0}
+        - {x: 32.5, y: 11}
+    - name: CLEFAIRY_33
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 96
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 24}
+        - {x: -32.5, y: 5}
+        - {x: -32.5, y: -24}
+        - {x: 20.5, y: -24}
+        - {x: 32.5, y: -10}
+        - {x: 32.5, y: 16}
+        - {x: 28.5, y: 24}
+    - name: CLEFAIRY_34
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 96
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 24}
+        - {x: -22.5, y: 17}
+        - {x: -32.5, y: -3}
+        - {x: -32.5, y: -19}
+        - {x: -27.5, y: -24}
+        - {x: 17.5, y: -24}
+        - {x: 32.5, y: -4}
+        - {x: 32.5, y: 16}
+        - {x: 17.5, y: 24}
+    - name: CLEFAIRY_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 24}
+        - {x: -32.5, y: 13}
+        - {x: -32.5, y: -24}
+        - {x: 19.5, y: -24}
+        - {x: 32.5, y: -4}
+        - {x: 32.5, y: 15}
+        - {x: 17.5, y: 24}
+    - name: CLEFAIRY_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 48
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -24}
+        - {x: 19.5, y: -24}
+        - {x: 32.5, y: -18}
+        - {x: 32.5, y: 13}
+        - {x: 23.5, y: 24}
+        - {x: -13.5, y: 24}
+        - {x: -32.5, y: 6}
+    - name: CLEFAIRY_37
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 48
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 24}
+        - {x: -32.5, y: 7}
+        - {x: -32.5, y: -22}
+        - {x: -27.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -2}
+        - {x: 32.5, y: 15}
+        - {x: 24.5, y: 24}
+    - name: CLEFAIRY_38
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 48
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 24}
+        - {x: -32.5, y: 1}
+        - {x: -32.5, y: -20}
+        - {x: -27.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 32.5, y: -8}
+        - {x: 32.5, y: 8}
+        - {x: 24.5, y: 24}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

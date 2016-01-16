@@ -1,0 +1,1946 @@
+fileFormatVersion: 2
+guid: 11f3ab086dc1bd544b1aa5b014bd4269
+timeCreated: 1452888345
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ELECTRODE_0
+    21300002: ELECTRODE_1
+    21300004: ELECTRODE_2
+    21300006: ELECTRODE_3
+    21300008: ELECTRODE_4
+    21300010: ELECTRODE_5
+    21300012: ELECTRODE_6
+    21300014: ELECTRODE_7
+    21300016: ELECTRODE_8
+    21300018: ELECTRODE_9
+    21300020: ELECTRODE_10
+    21300022: ELECTRODE_11
+    21300024: ELECTRODE_12
+    21300026: ELECTRODE_13
+    21300028: ELECTRODE_14
+    21300030: ELECTRODE_15
+    21300032: ELECTRODE_16
+    21300034: ELECTRODE_17
+    21300036: ELECTRODE_18
+    21300038: ELECTRODE_19
+    21300040: ELECTRODE_20
+    21300042: ELECTRODE_21
+    21300044: ELECTRODE_22
+    21300046: ELECTRODE_23
+    21300048: ELECTRODE_24
+    21300050: ELECTRODE_25
+    21300052: ELECTRODE_26
+    21300054: ELECTRODE_27
+    21300056: ELECTRODE_28
+    21300058: ELECTRODE_29
+    21300060: ELECTRODE_30
+    21300062: ELECTRODE_31
+    21300064: ELECTRODE_32
+    21300066: ELECTRODE_33
+    21300068: ELECTRODE_34
+    21300070: ELECTRODE_35
+    21300072: ELECTRODE_36
+    21300074: ELECTRODE_37
+    21300076: ELECTRODE_38
+    21300078: ELECTRODE_39
+    21300080: ELECTRODE_40
+    21300082: ELECTRODE_41
+    21300084: ELECTRODE_42
+    21300086: ELECTRODE_43
+    21300088: ELECTRODE_44
+    21300090: ELECTRODE_45
+    21300092: ELECTRODE_46
+    21300094: ELECTRODE_47
+    21300096: ELECTRODE_48
+    21300098: ELECTRODE_49
+    21300100: ELECTRODE_50
+    21300102: ELECTRODE_51
+    21300104: ELECTRODE_52
+    21300106: ELECTRODE_53
+    21300108: ELECTRODE_54
+    21300110: ELECTRODE_55
+    21300112: ELECTRODE_56
+    21300114: ELECTRODE_57
+    21300116: ELECTRODE_58
+    21300118: ELECTRODE_59
+    21300120: ELECTRODE_60
+    21300122: ELECTRODE_61
+    21300124: ELECTRODE_62
+    21300126: ELECTRODE_63
+    21300128: ELECTRODE_64
+    21300130: ELECTRODE_65
+    21300132: ELECTRODE_66
+    21300134: ELECTRODE_67
+    21300136: ELECTRODE_68
+    21300138: ELECTRODE_69
+    21300140: ELECTRODE_70
+    21300142: ELECTRODE_71
+    21300144: ELECTRODE_72
+    21300146: ELECTRODE_73
+    21300148: ELECTRODE_74
+    21300150: ELECTRODE_75
+    21300152: ELECTRODE_76
+    21300154: ELECTRODE_77
+    21300156: ELECTRODE_78
+    21300158: ELECTRODE_79
+    21300160: ELECTRODE_80
+    21300162: ELECTRODE_81
+    21300164: ELECTRODE_82
+    21300166: ELECTRODE_83
+    21300168: ELECTRODE_84
+    21300170: ELECTRODE_85
+    21300172: ELECTRODE_86
+    21300174: ELECTRODE_87
+    21300176: ELECTRODE_88
+    21300178: ELECTRODE_89
+    21300180: ELECTRODE_90
+    21300182: ELECTRODE_91
+    21300184: ELECTRODE_92
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ELECTRODE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 29.5}
+        - {x: -34.5, y: 21.5}
+        - {x: -34.5, y: -17.5}
+        - {x: -21.5, y: -29.5}
+        - {x: 9.5, y: -29.5}
+        - {x: 25.5, y: -20.5}
+        - {x: 25.5, y: 22.5}
+        - {x: 13.5, y: 29.5}
+    - name: ELECTRODE_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 29.5}
+        - {x: -34.5, y: 26.5}
+        - {x: -34.5, y: -20.5}
+        - {x: -30.5, y: -29.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 26.5, y: 23.5}
+        - {x: 19.5, y: 29.5}
+    - name: ELECTRODE_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 29.5}
+        - {x: -34.5, y: 26.5}
+        - {x: -34.5, y: -20.5}
+        - {x: -30.5, y: -29.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 26.5, y: 23.5}
+        - {x: 19.5, y: 29.5}
+    - name: ELECTRODE_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 29.5}
+        - {x: -34.5, y: 20.5}
+        - {x: -34.5, y: -23.5}
+        - {x: -32.5, y: -29.5}
+        - {x: 23.5, y: -29.5}
+        - {x: 26.5, y: -28.5}
+        - {x: 26.5, y: 20.5}
+        - {x: 8.5, y: 29.5}
+    - name: ELECTRODE_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 29.5}
+        - {x: -34.5, y: 20.5}
+        - {x: -34.5, y: -23.5}
+        - {x: -32.5, y: -29.5}
+        - {x: 23.5, y: -29.5}
+        - {x: 26.5, y: -28.5}
+        - {x: 26.5, y: 20.5}
+        - {x: 8.5, y: 29.5}
+    - name: ELECTRODE_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 29.5}
+        - {x: -31.5, y: 18.5}
+        - {x: -33.5, y: 13.5}
+        - {x: -33.5, y: -16.5}
+        - {x: -20.5, y: -29.5}
+        - {x: 15.5, y: -29.5}
+        - {x: 26.5, y: -14.5}
+        - {x: 26.5, y: 25.5}
+        - {x: 12.5, y: 29.5}
+    - name: ELECTRODE_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 29.5}
+        - {x: -31.5, y: 16.5}
+        - {x: -33.5, y: 8.5}
+        - {x: -33.5, y: -25.5}
+        - {x: -25.5, y: -29.5}
+        - {x: 21.5, y: -29.5}
+        - {x: 27.5, y: -16.5}
+        - {x: 27.5, y: 22.5}
+        - {x: 17.5, y: 29.5}
+    - name: ELECTRODE_7
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 29.5}
+        - {x: -15.5, y: 29.5}
+        - {x: -32.5, y: 21.5}
+        - {x: -32.5, y: -15.5}
+        - {x: -18.5, y: -29.5}
+        - {x: 12.5, y: -29.5}
+        - {x: 27.5, y: -19.5}
+        - {x: 27.5, y: 19.5}
+    - name: ELECTRODE_8
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 29.5}
+        - {x: -18.5, y: 29.5}
+        - {x: -32.5, y: 12.5}
+        - {x: -32.5, y: -14.5}
+        - {x: -18.5, y: -29.5}
+        - {x: 12.5, y: -29.5}
+        - {x: 26.5, y: -21.5}
+        - {x: 28.5, y: -9.5}
+        - {x: 28.5, y: 19.5}
+    - name: ELECTRODE_9
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 531
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 29.5}
+        - {x: -22.5, y: 29.5}
+        - {x: -31.5, y: 17.5}
+        - {x: -31.5, y: -23.5}
+        - {x: -16.5, y: -29.5}
+        - {x: 15.5, y: -29.5}
+        - {x: 28.5, y: -14.5}
+        - {x: 28.5, y: 23.5}
+    - name: ELECTRODE_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 29.5}
+        - {x: -31.5, y: 15.5}
+        - {x: -31.5, y: -21.5}
+        - {x: -19.5, y: -29.5}
+        - {x: 21.5, y: -29.5}
+        - {x: 29.5, y: -20.5}
+        - {x: 29.5, y: 22.5}
+        - {x: 14.5, y: 29.5}
+    - name: ELECTRODE_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 29.5}
+        - {x: -30.5, y: 17.5}
+        - {x: -30.5, y: -14.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 25.5, y: -29.5}
+        - {x: 29.5, y: -23.5}
+        - {x: 29.5, y: 16.5}
+        - {x: 23.5, y: 29.5}
+    - name: ELECTRODE_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: -24.5}
+        - {x: -19.5, y: -29.5}
+        - {x: 19.5, y: -29.5}
+        - {x: 30.5, y: -20.5}
+        - {x: 30.5, y: 29.5}
+        - {x: -22.5, y: 29.5}
+        - {x: -30.5, y: 27.5}
+    - name: ELECTRODE_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 28.5}
+        - {x: 16.5, y: 29.5}
+        - {x: -12.5, y: 29.5}
+        - {x: -28.5, y: 18.5}
+        - {x: -29.5, y: 12.5}
+        - {x: -29.5, y: -16.5}
+        - {x: -19.5, y: -29.5}
+        - {x: 18.5, y: -29.5}
+        - {x: 29.5, y: -20.5}
+        - {x: 30.5, y: -16.5}
+        - {x: 30.5, y: 19.5}
+    - name: ELECTRODE_14
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 29.5}
+        - {x: -29.5, y: 21.5}
+        - {x: -29.5, y: -17.5}
+        - {x: -20.5, y: -29.5}
+        - {x: 25.5, y: -29.5}
+        - {x: 31.5, y: -27.5}
+        - {x: 31.5, y: 18.5}
+        - {x: 18.5, y: 29.5}
+    - name: ELECTRODE_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 29.5}
+        - {x: -13.5, y: 29.5}
+        - {x: -28.5, y: 14.5}
+        - {x: -28.5, y: -24.5}
+        - {x: -17.5, y: -29.5}
+        - {x: 20.5, y: -29.5}
+        - {x: 29.5, y: -20.5}
+        - {x: 31.5, y: -12.5}
+        - {x: 31.5, y: 20.5}
+    - name: ELECTRODE_16
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 29.5}
+        - {x: -28.5, y: 15.5}
+        - {x: -28.5, y: -11.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -16.5, y: -25.5}
+        - {x: -9.5, y: -29.5}
+        - {x: 18.5, y: -29.5}
+        - {x: 32.5, y: -17.5}
+        - {x: 32.5, y: 23.5}
+        - {x: 18.5, y: 29.5}
+    - name: ELECTRODE_17
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 29.5}
+        - {x: -28.5, y: 26.5}
+        - {x: -28.5, y: -18.5}
+        - {x: -25.5, y: -29.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 33.5, y: -15.5}
+        - {x: 33.5, y: 25.5}
+        - {x: 29.5, y: 29.5}
+    - name: ELECTRODE_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 29.5}
+        - {x: -27.5, y: 15.5}
+        - {x: -27.5, y: -26.5}
+        - {x: -16.5, y: -29.5}
+        - {x: 33.5, y: -29.5}
+        - {x: 33.5, y: 24.5}
+        - {x: 32.5, y: 29.5}
+    - name: ELECTRODE_19
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 472
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 29.5}
+        - {x: -27.5, y: 8.5}
+        - {x: -27.5, y: -18.5}
+        - {x: -23.5, y: -21.5}
+        - {x: -9.5, y: -29.5}
+        - {x: 20.5, y: -29.5}
+        - {x: 34.5, y: -16.5}
+        - {x: 34.5, y: 15.5}
+        - {x: 18.5, y: 29.5}
+    - name: ELECTRODE_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 29.5}
+        - {x: -16.5, y: 29.5}
+        - {x: -26.5, y: 19.5}
+        - {x: -26.5, y: -18.5}
+        - {x: -22.5, y: -29.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 34.5, y: -11.5}
+        - {x: 34.5, y: 21.5}
+        - {x: 30.5, y: 28.5}
+    - name: ELECTRODE_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 25.5}
+        - {x: 14.5, y: 29.5}
+        - {x: -7.5, y: 29.5}
+        - {x: -24.5, y: 18.5}
+        - {x: -26.5, y: 12.5}
+        - {x: -26.5, y: -17.5}
+        - {x: -12.5, y: -29.5}
+        - {x: 18.5, y: -29.5}
+        - {x: 31.5, y: -21.5}
+        - {x: 35.5, y: -3.5}
+        - {x: 35.5, y: 13.5}
+    - name: ELECTRODE_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 29.5}
+        - {x: -26.5, y: 21.5}
+        - {x: -26.5, y: -18.5}
+        - {x: -21.5, y: -29.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 35.5, y: -14.5}
+        - {x: 35.5, y: 23.5}
+        - {x: 29.5, y: 29.5}
+    - name: ELECTRODE_23
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 29.5}
+        - {x: -25.5, y: 18.5}
+        - {x: -25.5, y: -14.5}
+        - {x: -18.5, y: -29.5}
+        - {x: 29.5, y: -29.5}
+        - {x: 36.5, y: -14.5}
+        - {x: 36.5, y: 21.5}
+        - {x: 22.5, y: 29.5}
+    - name: ELECTRODE_24
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 29.5}
+        - {x: -25.5, y: 22.5}
+        - {x: -25.5, y: -21.5}
+        - {x: -14.5, y: -27.5}
+        - {x: -8.5, y: -29.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 36.5, y: -23.5}
+        - {x: 36.5, y: 13.5}
+        - {x: 29.5, y: 29.5}
+    - name: ELECTRODE_25
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 29.5}
+        - {x: -25.5, y: 11.5}
+        - {x: -25.5, y: -17.5}
+        - {x: -10.5, y: -29.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 36.5, y: -13.5}
+        - {x: 36.5, y: 22.5}
+        - {x: 23.5, y: 29.5}
+    - name: ELECTRODE_26
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 29.5}
+        - {x: -25.5, y: 18.5}
+        - {x: -25.5, y: -28.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 25.5, y: -29.5}
+        - {x: 36.5, y: -25.5}
+        - {x: 36.5, y: 16.5}
+        - {x: 23.5, y: 29.5}
+    - name: ELECTRODE_27
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 29.5}
+        - {x: -24.5, y: 28.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 32.5, y: -29.5}
+        - {x: 36.5, y: -19.5}
+        - {x: 36.5, y: 26.5}
+        - {x: 24.5, y: 29.5}
+    - name: ELECTRODE_28
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 29.5}
+        - {x: -24.5, y: 22.5}
+        - {x: -24.5, y: -22.5}
+        - {x: -21.5, y: -29.5}
+        - {x: 32.5, y: -29.5}
+        - {x: 36.5, y: -12.5}
+        - {x: 36.5, y: 11.5}
+        - {x: 22.5, y: 29.5}
+    - name: ELECTRODE_29
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 413
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 29.5}
+        - {x: -24.5, y: 13.5}
+        - {x: -24.5, y: -17.5}
+        - {x: -9.5, y: -29.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 36.5, y: -14.5}
+        - {x: 36.5, y: 18.5}
+        - {x: 27.5, y: 29.5}
+    - name: ELECTRODE_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 29.5}
+        - {x: -24.5, y: 22.5}
+        - {x: -24.5, y: -13.5}
+        - {x: -13.5, y: -29.5}
+        - {x: 25.5, y: -29.5}
+        - {x: 36.5, y: -23.5}
+        - {x: 36.5, y: 22.5}
+        - {x: 34.5, y: 29.5}
+    - name: ELECTRODE_31
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 29.5}
+        - {x: -24.5, y: 24.5}
+        - {x: -24.5, y: -25.5}
+        - {x: -20.5, y: -29.5}
+        - {x: 36.5, y: -29.5}
+        - {x: 36.5, y: 27.5}
+        - {x: 30.5, y: 29.5}
+    - name: ELECTRODE_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 29.5}
+        - {x: -10.5, y: 29.5}
+        - {x: -24.5, y: 13.5}
+        - {x: -24.5, y: -26.5}
+        - {x: -14.5, y: -29.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 32.5, y: -24.5}
+        - {x: 36.5, y: -11.5}
+        - {x: 36.5, y: 17.5}
+    - name: ELECTRODE_33
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 29.5}
+        - {x: -24.5, y: 21.5}
+        - {x: -24.5, y: -12.5}
+        - {x: -12.5, y: -29.5}
+        - {x: 23.5, y: -29.5}
+        - {x: 36.5, y: -15.5}
+        - {x: 36.5, y: 17.5}
+        - {x: 27.5, y: 29.5}
+    - name: ELECTRODE_34
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 29.5}
+        - {x: -24.5, y: 15.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 36.5, y: -29.5}
+        - {x: 36.5, y: 15.5}
+        - {x: 22.5, y: 29.5}
+    - name: ELECTRODE_35
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 29.5}
+        - {x: -9.5, y: 29.5}
+        - {x: -24.5, y: 24.5}
+        - {x: -24.5, y: -16.5}
+        - {x: -9.5, y: -29.5}
+        - {x: 19.5, y: -29.5}
+        - {x: 33.5, y: -24.5}
+        - {x: 36.5, y: -13.5}
+        - {x: 36.5, y: 15.5}
+    - name: ELECTRODE_36
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 29.5}
+        - {x: -24.5, y: 14.5}
+        - {x: -24.5, y: -16.5}
+        - {x: -14.5, y: -29.5}
+        - {x: 21.5, y: -29.5}
+        - {x: 36.5, y: -22.5}
+        - {x: 36.5, y: 15.5}
+        - {x: 22.5, y: 29.5}
+    - name: ELECTRODE_37
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 29.5}
+        - {x: -25.5, y: 22.5}
+        - {x: -25.5, y: -16.5}
+        - {x: -11.5, y: -29.5}
+        - {x: 35.5, y: -29.5}
+        - {x: 36.5, y: -23.5}
+        - {x: 36.5, y: 29.5}
+    - name: ELECTRODE_38
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 29.5}
+        - {x: -25.5, y: 11.5}
+        - {x: -25.5, y: -24.5}
+        - {x: -15.5, y: -29.5}
+        - {x: 35.5, y: -29.5}
+        - {x: 36.5, y: -28.5}
+        - {x: 36.5, y: 28.5}
+        - {x: 31.5, y: 29.5}
+    - name: ELECTRODE_39
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 354
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 21.5}
+        - {x: 26.5, y: 29.5}
+        - {x: -10.5, y: 29.5}
+        - {x: -25.5, y: 23.5}
+        - {x: -25.5, y: -12.5}
+        - {x: -21.5, y: -18.5}
+        - {x: -7.5, y: -29.5}
+        - {x: 19.5, y: -29.5}
+        - {x: 25.5, y: -26.5}
+        - {x: 36.5, y: -15.5}
+        - {x: 36.5, y: 14.5}
+    - name: ELECTRODE_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 29.5}
+        - {x: -22.5, y: 24.5}
+        - {x: -25.5, y: 11.5}
+        - {x: -25.5, y: -18.5}
+        - {x: -15.5, y: -29.5}
+        - {x: 22.5, y: -29.5}
+        - {x: 36.5, y: -15.5}
+        - {x: 36.5, y: 27.5}
+        - {x: 26.5, y: 29.5}
+    - name: ELECTRODE_41
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 29.5}
+        - {x: -25.5, y: 26.5}
+        - {x: -25.5, y: -25.5}
+        - {x: -13.5, y: -29.5}
+        - {x: 31.5, y: -29.5}
+        - {x: 36.5, y: -18.5}
+        - {x: 36.5, y: 25.5}
+        - {x: 31.5, y: 29.5}
+    - name: ELECTRODE_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 29.5}
+        - {x: -26.5, y: 17.5}
+        - {x: -26.5, y: -20.5}
+        - {x: -16.5, y: -28.5}
+        - {x: -14.5, y: -29.5}
+        - {x: 23.5, y: -29.5}
+        - {x: 36.5, y: -17.5}
+        - {x: 36.5, y: 17.5}
+        - {x: 22.5, y: 29.5}
+    - name: ELECTRODE_43
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 29.5}
+        - {x: -26.5, y: 21.5}
+        - {x: -26.5, y: -25.5}
+        - {x: -20.5, y: -29.5}
+        - {x: 29.5, y: -29.5}
+        - {x: 36.5, y: -27.5}
+        - {x: 36.5, y: 22.5}
+        - {x: 22.5, y: 29.5}
+    - name: ELECTRODE_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 29.5}
+        - {x: -26.5, y: 24.5}
+        - {x: -26.5, y: -24.5}
+        - {x: -15.5, y: -29.5}
+        - {x: 28.5, y: -29.5}
+        - {x: 36.5, y: -21.5}
+        - {x: 36.5, y: 16.5}
+        - {x: 27.5, y: 29.5}
+    - name: ELECTRODE_45
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 26.5}
+        - {x: 18.5, y: 29.5}
+        - {x: -13.5, y: 29.5}
+        - {x: -26.5, y: 19.5}
+        - {x: -27.5, y: 17.5}
+        - {x: -27.5, y: -23.5}
+        - {x: -16.5, y: -29.5}
+        - {x: 29.5, y: -29.5}
+        - {x: 36.5, y: -9.5}
+        - {x: 36.5, y: 15.5}
+    - name: ELECTRODE_46
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 29.5}
+        - {x: -27.5, y: 17.5}
+        - {x: -27.5, y: -16.5}
+        - {x: -21.5, y: -29.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 35.5, y: -9.5}
+        - {x: 35.5, y: 18.5}
+        - {x: 21.5, y: 29.5}
+    - name: ELECTRODE_47
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 29.5}
+        - {x: -14.5, y: 29.5}
+        - {x: -28.5, y: 15.5}
+        - {x: -28.5, y: -19.5}
+        - {x: -21.5, y: -29.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 35.5, y: -8.5}
+        - {x: 35.5, y: 12.5}
+        - {x: 23.5, y: 28.5}
+    - name: ELECTRODE_48
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 29.5}
+        - {x: -22.5, y: 29.5}
+        - {x: -28.5, y: 27.5}
+        - {x: -28.5, y: -25.5}
+        - {x: -20.5, y: -29.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 30.5, y: -26.5}
+        - {x: 34.5, y: -10.5}
+        - {x: 34.5, y: 21.5}
+    - name: ELECTRODE_49
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 295
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 29.5}
+        - {x: -27.5, y: 20.5}
+        - {x: -29.5, y: 6.5}
+        - {x: -29.5, y: -20.5}
+        - {x: -26.5, y: -29.5}
+        - {x: 27.5, y: -29.5}
+        - {x: 33.5, y: -15.5}
+        - {x: 33.5, y: 25.5}
+        - {x: 21.5, y: 29.5}
+    - name: ELECTRODE_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 29.5}
+        - {x: -29.5, y: 27.5}
+        - {x: -29.5, y: -25.5}
+        - {x: -28.5, y: -29.5}
+        - {x: 30.5, y: -29.5}
+        - {x: 33.5, y: -28.5}
+        - {x: 33.5, y: 13.5}
+        - {x: 29.5, y: 29.5}
+    - name: ELECTRODE_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 29.5}
+        - {x: -29.5, y: 17.5}
+        - {x: -29.5, y: -23.5}
+        - {x: -23.5, y: -29.5}
+        - {x: 17.5, y: -29.5}
+        - {x: 32.5, y: -23.5}
+        - {x: 32.5, y: 16.5}
+        - {x: 19.5, y: 29.5}
+    - name: ELECTRODE_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 29.5}
+        - {x: -30.5, y: 28.5}
+        - {x: -30.5, y: -15.5}
+        - {x: -26.5, y: -19.5}
+        - {x: -12.5, y: -29.5}
+        - {x: 18.5, y: -29.5}
+        - {x: 32.5, y: -14.5}
+        - {x: 32.5, y: 14.5}
+        - {x: 27.5, y: 29.5}
+    - name: ELECTRODE_53
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 29.5}
+        - {x: -14.5, y: 29.5}
+        - {x: -30.5, y: 23.5}
+        - {x: -30.5, y: -16.5}
+        - {x: -19.5, y: -29.5}
+        - {x: 19.5, y: -29.5}
+        - {x: 31.5, y: -16.5}
+        - {x: 31.5, y: 16.5}
+        - {x: 29.5, y: 20.5}
+    - name: ELECTRODE_54
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 29.5}
+        - {x: -22.5, y: 29.5}
+        - {x: -31.5, y: 16.5}
+        - {x: -31.5, y: -24.5}
+        - {x: -21.5, y: -29.5}
+        - {x: 26.5, y: -29.5}
+        - {x: 30.5, y: -19.5}
+        - {x: 30.5, y: 24.5}
+    - name: ELECTRODE_55
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 29.5}
+        - {x: -31.5, y: -26.5}
+        - {x: -27.5, y: -29.5}
+        - {x: 16.5, y: -29.5}
+        - {x: 30.5, y: -24.5}
+        - {x: 30.5, y: 18.5}
+        - {x: 23.5, y: 29.5}
+    - name: ELECTRODE_56
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 29.5}
+        - {x: -19.5, y: 28.5}
+        - {x: -32.5, y: 16.5}
+        - {x: -32.5, y: -15.5}
+        - {x: -26.5, y: -29.5}
+        - {x: 19.5, y: -29.5}
+        - {x: 29.5, y: -23.5}
+        - {x: 29.5, y: 19.5}
+        - {x: 27.5, y: 29.5}
+    - name: ELECTRODE_57
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 29.5}
+        - {x: -32.5, y: 11.5}
+        - {x: -32.5, y: -16.5}
+        - {x: -20.5, y: -29.5}
+        - {x: 24.5, y: -29.5}
+        - {x: 29.5, y: -11.5}
+        - {x: 29.5, y: 21.5}
+        - {x: 16.5, y: 29.5}
+    - name: ELECTRODE_58
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 29.5}
+        - {x: -19.5, y: 29.5}
+        - {x: -33.5, y: 13.5}
+        - {x: -33.5, y: -26.5}
+        - {x: -26.5, y: -29.5}
+        - {x: 22.5, y: -29.5}
+        - {x: 25.5, y: -22.5}
+        - {x: 28.5, y: -10.5}
+        - {x: 28.5, y: 18.5}
+    - name: ELECTRODE_59
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 236
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 29.5}
+        - {x: -33.5, y: 24.5}
+        - {x: -33.5, y: -27.5}
+        - {x: -26.5, y: -29.5}
+        - {x: 28.5, y: -29.5}
+        - {x: 28.5, y: 29.5}
+    - name: ELECTRODE_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 29.5}
+        - {x: -20.5, y: 29.5}
+        - {x: -34.5, y: 13.5}
+        - {x: -34.5, y: -25.5}
+        - {x: -23.5, y: -29.5}
+        - {x: 16.5, y: -29.5}
+        - {x: 27.5, y: -14.5}
+        - {x: 27.5, y: 17.5}
+        - {x: 26.5, y: 24.5}
+    - name: ELECTRODE_61
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 29.5}
+        - {x: -28.5, y: 21.5}
+        - {x: -30.5, y: 16.5}
+        - {x: -34.5, y: 8.5}
+        - {x: -34.5, y: -11.5}
+        - {x: -26.5, y: -27.5}
+        - {x: -20.5, y: -29.5}
+        - {x: 14.5, y: -29.5}
+        - {x: 27.5, y: -19.5}
+        - {x: 27.5, y: 13.5}
+        - {x: 21.5, y: 29.5}
+    - name: ELECTRODE_62
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 29.5}
+        - {x: -35.5, y: -10.5}
+        - {x: -29.5, y: -29.5}
+        - {x: 16.5, y: -29.5}
+        - {x: 26.5, y: -19.5}
+        - {x: 26.5, y: 29.5}
+    - name: ELECTRODE_63
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 29.5}
+        - {x: -26.5, y: 29.5}
+        - {x: -35.5, y: 15.5}
+        - {x: -35.5, y: -10.5}
+        - {x: -29.5, y: -27.5}
+        - {x: -23.5, y: -29.5}
+        - {x: 14.5, y: -29.5}
+        - {x: 25.5, y: -20.5}
+        - {x: 26.5, y: -14.5}
+        - {x: 26.5, y: 18.5}
+    - name: ELECTRODE_64
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 29.5}
+        - {x: -18.5, y: 29.5}
+        - {x: -36.5, y: 24.5}
+        - {x: -36.5, y: -23.5}
+        - {x: -23.5, y: -29.5}
+        - {x: 17.5, y: -29.5}
+        - {x: 24.5, y: -21.5}
+        - {x: 26.5, y: -6.5}
+        - {x: 26.5, y: 18.5}
+    - name: ELECTRODE_65
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 29.5}
+        - {x: -36.5, y: 21.5}
+        - {x: -36.5, y: -26.5}
+        - {x: -27.5, y: -29.5}
+        - {x: 20.5, y: -29.5}
+        - {x: 25.5, y: -23.5}
+        - {x: 25.5, y: 14.5}
+        - {x: 17.5, y: 29.5}
+    - name: ELECTRODE_66
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 29.5}
+        - {x: -36.5, y: 28.5}
+        - {x: -36.5, y: -29.5}
+        - {x: 21.5, y: -29.5}
+        - {x: 25.5, y: -21.5}
+        - {x: 25.5, y: 25.5}
+        - {x: 9.5, y: 29.5}
+    - name: ELECTRODE_67
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 29.5}
+        - {x: -32.5, y: 29.5}
+        - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: -21.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 11.5, y: -29.5}
+        - {x: 23.5, y: -24.5}
+        - {x: 24.5, y: -17.5}
+        - {x: 24.5, y: 21.5}
+    - name: ELECTRODE_68
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 29.5}
+        - {x: -36.5, y: 14.5}
+        - {x: -36.5, y: -17.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 14.5, y: -29.5}
+        - {x: 24.5, y: -17.5}
+        - {x: 24.5, y: 15.5}
+        - {x: 19.5, y: 29.5}
+    - name: ELECTRODE_69
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 177
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 29.5}
+        - {x: -36.5, y: 21.5}
+        - {x: -36.5, y: -25.5}
+        - {x: -25.5, y: -29.5}
+        - {x: 16.5, y: -29.5}
+        - {x: 24.5, y: -18.5}
+        - {x: 24.5, y: 28.5}
+        - {x: 19.5, y: 29.5}
+    - name: ELECTRODE_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 29.5}
+        - {x: -36.5, y: 23.5}
+        - {x: -36.5, y: -20.5}
+        - {x: -31.5, y: -29.5}
+        - {x: 16.5, y: -29.5}
+        - {x: 23.5, y: -18.5}
+        - {x: 23.5, y: 23.5}
+        - {x: 14.5, y: 29.5}
+    - name: ELECTRODE_71
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 29.5}
+        - {x: -36.5, y: 18.5}
+        - {x: -36.5, y: -13.5}
+        - {x: -27.5, y: -26.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 10.5, y: -29.5}
+        - {x: 23.5, y: -26.5}
+        - {x: 23.5, y: 25.5}
+        - {x: 12.5, y: 29.5}
+    - name: ELECTRODE_72
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 29.5}
+        - {x: -36.5, y: 19.5}
+        - {x: -36.5, y: -19.5}
+        - {x: -33.5, y: -29.5}
+        - {x: 19.5, y: -29.5}
+        - {x: 23.5, y: -15.5}
+        - {x: 23.5, y: 21.5}
+        - {x: 14.5, y: 29.5}
+    - name: ELECTRODE_73
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 29.5}
+        - {x: -36.5, y: 15.5}
+        - {x: -36.5, y: -19.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 5.5, y: -29.5}
+        - {x: 12.5, y: -27.5}
+        - {x: 23.5, y: -16.5}
+        - {x: 23.5, y: 15.5}
+        - {x: 16.5, y: 29.5}
+    - name: ELECTRODE_74
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 29.5}
+        - {x: -36.5, y: 23.5}
+        - {x: -36.5, y: -19.5}
+        - {x: -32.5, y: -29.5}
+        - {x: 9.5, y: -29.5}
+        - {x: 22.5, y: -14.5}
+        - {x: 22.5, y: 25.5}
+        - {x: 9.5, y: 29.5}
+    - name: ELECTRODE_75
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 29.5}
+        - {x: -36.5, y: 23.5}
+        - {x: -36.5, y: -29.5}
+        - {x: 22.5, y: -29.5}
+        - {x: 22.5, y: 26.5}
+        - {x: 18.5, y: 29.5}
+    - name: ELECTRODE_76
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 29.5}
+        - {x: -36.5, y: 19.5}
+        - {x: -36.5, y: -19.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 9.5, y: -29.5}
+        - {x: 22.5, y: -15.5}
+        - {x: 22.5, y: 25.5}
+        - {x: 10.5, y: 29.5}
+    - name: ELECTRODE_77
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 29.5}
+        - {x: -27.5, y: 29.5}
+        - {x: -36.5, y: 24.5}
+        - {x: -36.5, y: -19.5}
+        - {x: -25.5, y: -29.5}
+        - {x: 11.5, y: -29.5}
+        - {x: 22.5, y: -12.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 21.5, y: 20.5}
+    - name: ELECTRODE_78
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 29.5}
+        - {x: -36.5, y: 23.5}
+        - {x: -36.5, y: -17.5}
+        - {x: -31.5, y: -29.5}
+        - {x: 9.5, y: -29.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 26.5}
+        - {x: 19.5, y: 29.5}
+    - name: ELECTRODE_79
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 118
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 29.5}
+        - {x: -36.5, y: 22.5}
+        - {x: -36.5, y: -20.5}
+        - {x: -27.5, y: -28.5}
+        - {x: -22.5, y: -29.5}
+        - {x: 10.5, y: -29.5}
+        - {x: 22.5, y: -22.5}
+        - {x: 22.5, y: 29.5}
+    - name: ELECTRODE_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 29.5}
+        - {x: -36.5, y: 15.5}
+        - {x: -36.5, y: -21.5}
+        - {x: -25.5, y: -29.5}
+        - {x: 6.5, y: -29.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 23.5}
+        - {x: 10.5, y: 29.5}
+    - name: ELECTRODE_81
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 29.5}
+        - {x: -36.5, y: 14.5}
+        - {x: -36.5, y: -17.5}
+        - {x: -35.5, y: -21.5}
+        - {x: -25.5, y: -29.5}
+        - {x: 6.5, y: -29.5}
+        - {x: 20.5, y: -25.5}
+        - {x: 22.5, y: -20.5}
+        - {x: 22.5, y: 29.5}
+    - name: ELECTRODE_82
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 29.5}
+        - {x: -36.5, y: 17.5}
+        - {x: -36.5, y: -24.5}
+        - {x: -25.5, y: -29.5}
+        - {x: 10.5, y: -29.5}
+        - {x: 23.5, y: -13.5}
+        - {x: 23.5, y: 23.5}
+        - {x: 10.5, y: 29.5}
+    - name: ELECTRODE_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 29.5}
+        - {x: -36.5, y: 26.5}
+        - {x: -36.5, y: -29.5}
+        - {x: 16.5, y: -29.5}
+        - {x: 23.5, y: -17.5}
+        - {x: 23.5, y: 26.5}
+        - {x: 12.5, y: 29.5}
+    - name: ELECTRODE_84
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: -15.5}
+        - {x: -30.5, y: -29.5}
+        - {x: 10.5, y: -29.5}
+        - {x: 23.5, y: -22.5}
+        - {x: 23.5, y: 21.5}
+        - {x: 20.5, y: 27.5}
+        - {x: 13.5, y: 29.5}
+        - {x: -22.5, y: 29.5}
+    - name: ELECTRODE_85
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 29.5}
+        - {x: -28.5, y: 29.5}
+        - {x: -36.5, y: 13.5}
+        - {x: -36.5, y: -18.5}
+        - {x: -24.5, y: -29.5}
+        - {x: 10.5, y: -29.5}
+        - {x: 23.5, y: -12.5}
+        - {x: 23.5, y: 12.5}
+        - {x: 21.5, y: 19.5}
+    - name: ELECTRODE_86
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 29.5}
+        - {x: -36.5, y: 16.5}
+        - {x: -36.5, y: -17.5}
+        - {x: -20.5, y: -29.5}
+        - {x: 11.5, y: -29.5}
+        - {x: 23.5, y: -15.5}
+        - {x: 23.5, y: 25.5}
+        - {x: 12.5, y: 29.5}
+    - name: ELECTRODE_87
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 29.5}
+        - {x: -25.5, y: 29.5}
+        - {x: -36.5, y: 14.5}
+        - {x: -36.5, y: -10.5}
+        - {x: -34.5, y: -18.5}
+        - {x: -26.5, y: -29.5}
+        - {x: 18.5, y: -29.5}
+        - {x: 24.5, y: -15.5}
+        - {x: 24.5, y: 8.5}
+        - {x: 23.5, y: 19.5}
+    - name: ELECTRODE_88
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 29.5}
+        - {x: -36.5, y: 25.5}
+        - {x: -36.5, y: -29.5}
+        - {x: 15.5, y: -29.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: 26.5}
+        - {x: 11.5, y: 29.5}
+    - name: ELECTRODE_89
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 59
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 29.5}
+        - {x: -36.5, y: 13.5}
+        - {x: -36.5, y: -8.5}
+        - {x: -35.5, y: -15.5}
+        - {x: -28.5, y: -29.5}
+        - {x: 15.5, y: -29.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 24.5, y: 19.5}
+        - {x: 19.5, y: 29.5}
+    - name: ELECTRODE_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 29.5}
+        - {x: -35.5, y: 24.5}
+        - {x: -35.5, y: -22.5}
+        - {x: -27.5, y: -29.5}
+        - {x: 13.5, y: -29.5}
+        - {x: 25.5, y: -14.5}
+        - {x: 25.5, y: 27.5}
+        - {x: 16.5, y: 29.5}
+    - name: ELECTRODE_91
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 29.5}
+        - {x: -35.5, y: 13.5}
+        - {x: -35.5, y: -15.5}
+        - {x: -29.5, y: -29.5}
+        - {x: 22.5, y: -29.5}
+        - {x: 25.5, y: -25.5}
+        - {x: 25.5, y: 27.5}
+        - {x: 20.5, y: 29.5}
+    - name: ELECTRODE_92
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 29.5}
+        - {x: -34.5, y: 21.5}
+        - {x: -34.5, y: -17.5}
+        - {x: -21.5, y: -29.5}
+        - {x: 9.5, y: -29.5}
+        - {x: 25.5, y: -20.5}
+        - {x: 25.5, y: 22.5}
+        - {x: 13.5, y: 29.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

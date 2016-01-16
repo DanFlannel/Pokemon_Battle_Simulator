@@ -1,0 +1,1732 @@
+fileFormatVersion: 2
+guid: 6b674f4b579b6b24c91b3da550683de3
+timeCreated: 1452882964
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MUK_0
+    21300002: MUK_1
+    21300004: MUK_2
+    21300006: MUK_3
+    21300008: MUK_4
+    21300010: MUK_5
+    21300012: MUK_6
+    21300014: MUK_7
+    21300016: MUK_8
+    21300018: MUK_9
+    21300020: MUK_10
+    21300022: MUK_11
+    21300024: MUK_12
+    21300026: MUK_13
+    21300028: MUK_14
+    21300030: MUK_15
+    21300032: MUK_16
+    21300034: MUK_17
+    21300036: MUK_18
+    21300038: MUK_19
+    21300040: MUK_20
+    21300042: MUK_21
+    21300044: MUK_22
+    21300046: MUK_23
+    21300048: MUK_24
+    21300050: MUK_25
+    21300052: MUK_26
+    21300054: MUK_27
+    21300056: MUK_28
+    21300058: MUK_29
+    21300060: MUK_30
+    21300062: MUK_31
+    21300064: MUK_32
+    21300066: MUK_33
+    21300068: MUK_34
+    21300070: MUK_35
+    21300072: MUK_36
+    21300074: MUK_37
+    21300076: MUK_38
+    21300078: MUK_39
+    21300080: MUK_40
+    21300082: MUK_41
+    21300084: MUK_42
+    21300086: MUK_43
+    21300088: MUK_44
+    21300090: MUK_45
+    21300092: MUK_46
+    21300094: MUK_47
+    21300096: MUK_48
+    21300098: MUK_49
+    21300100: MUK_50
+    21300102: MUK_51
+    21300104: MUK_52
+    21300106: MUK_53
+    21300108: MUK_54
+    21300110: MUK_55
+    21300112: MUK_56
+    21300114: MUK_57
+    21300116: MUK_58
+    21300118: MUK_59
+    21300120: MUK_60
+    21300122: MUK_61
+    21300124: MUK_62
+    21300126: MUK_63
+    21300128: MUK_64
+    21300130: MUK_65
+    21300132: MUK_66
+    21300134: MUK_67
+    21300136: MUK_68
+    21300138: MUK_69
+    21300140: MUK_70
+    21300142: MUK_71
+    21300144: MUK_72
+    21300146: MUK_73
+    21300148: MUK_74
+    21300150: MUK_75
+    21300152: MUK_76
+    21300154: MUK_77
+    21300156: MUK_78
+    21300158: MUK_79
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MUK_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: -16.5}
+        - {x: -52.5, y: -17.5}
+        - {x: -45.5, y: -15.5}
+        - {x: -60.5, y: -31.5}
+        - {x: -54.5, y: -39.5}
+        - {x: 53.5, y: -39.5}
+        - {x: 53.5, y: 12.5}
+        - {x: 42.5, y: 29.5}
+        - {x: -26.5, y: 29.5}
+        - {x: -64.5, y: 3.5}
+        - {x: -64.5, y: -14.5}
+    - name: MUK_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 632
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 30.5}
+        - {x: -64.5, y: 14.5}
+        - {x: -64.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: -8.5}
+        - {x: 34.5, y: 30.5}
+    - name: MUK_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 632
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: 1.5}
+        - {x: -64.5, y: -31.5}
+        - {x: -58.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: 9.5}
+        - {x: 51.5, y: 16.5}
+        - {x: 38.5, y: 30.5}
+        - {x: -3.5, y: 30.5}
+        - {x: -59.5, y: 14.5}
+    - name: MUK_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 632
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 30.5}
+        - {x: -64.5, y: 22.5}
+        - {x: -64.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: -14.5}
+        - {x: 36.5, y: 30.5}
+    - name: MUK_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 632
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: 1.5}
+        - {x: -65.5, y: -22.5}
+        - {x: -62.5, y: -38.5}
+        - {x: -61.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: -18.5}
+        - {x: 36.5, y: 31.5}
+        - {x: 6.5, y: 31.5}
+        - {x: -5.5, y: 27.5}
+        - {x: -56.5, y: 7.5}
+    - name: MUK_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 632
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 31.5}
+        - {x: -56.5, y: 12.5}
+        - {x: -65.5, y: -0.5}
+        - {x: -65.5, y: -19.5}
+        - {x: -52.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: 31.5}
+    - name: MUK_6
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 632
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: -22.5}
+        - {x: -53.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: 10.5}
+        - {x: 39.5, y: 31.5}
+        - {x: -8.5, y: 31.5}
+        - {x: -60.5, y: 12.5}
+        - {x: -65.5, y: 8.5}
+    - name: MUK_7
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 632
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 32.5}
+        - {x: 5.5, y: 32.5}
+        - {x: -56.5, y: 12.5}
+        - {x: -65.5, y: -1.5}
+        - {x: -65.5, y: -11.5}
+        - {x: -62.5, y: -13.5}
+        - {x: -52.5, y: -15.5}
+        - {x: -48.5, y: -13.5}
+        - {x: -46.5, y: -11.5}
+        - {x: -56.5, y: -37.5}
+        - {x: -50.5, y: -39.5}
+        - {x: 51.5, y: -39.5}
+        - {x: 52.5, y: -36.5}
+        - {x: 52.5, y: -25.5}
+        - {x: 36.5, y: 25.5}
+    - name: MUK_8
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 632
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 32.5}
+        - {x: -27.5, y: 32.5}
+        - {x: -65.5, y: 21.5}
+        - {x: -65.5, y: -19.5}
+        - {x: -53.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: -17.5}
+        - {x: 38.5, y: 26.5}
+    - name: MUK_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 553
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 33.5}
+        - {x: -65.5, y: 8.5}
+        - {x: -65.5, y: -27.5}
+        - {x: -52.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: -19.5}
+        - {x: 35.5, y: 33.5}
+    - name: MUK_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 553
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: 0.5}
+        - {x: -65.5, y: -17.5}
+        - {x: -57.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: -15.5}
+        - {x: 38.5, y: 27.5}
+        - {x: 27.5, y: 33.5}
+        - {x: 4.5, y: 33.5}
+        - {x: -61.5, y: 11.5}
+    - name: MUK_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 553
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 34.5}
+        - {x: -65.5, y: 8.5}
+        - {x: -65.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: -6.5}
+        - {x: 35.5, y: 34.5}
+    - name: MUK_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 553
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 25.5}
+        - {x: 27.5, y: 35.5}
+        - {x: 9.5, y: 35.5}
+        - {x: -63.5, y: 9.5}
+        - {x: -65.5, y: 1.5}
+        - {x: -65.5, y: -5.5}
+        - {x: -63.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: -31.5}
+        - {x: 51.5, y: -27.5}
+    - name: MUK_13
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 553
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: 2.5}
+        - {x: 40.5, y: 35.5}
+        - {x: -65.5, y: 35.5}
+        - {x: -65.5, y: -32.5}
+    - name: MUK_14
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 553
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 36.5}
+        - {x: -35.5, y: 36.5}
+        - {x: -61.5, y: 27.5}
+        - {x: -65.5, y: 21.5}
+        - {x: -65.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 53.5, y: -36.5}
+        - {x: 53.5, y: -24.5}
+        - {x: 38.5, y: 23.5}
+    - name: MUK_15
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 553
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 36.5}
+        - {x: -65.5, y: 8.5}
+        - {x: -65.5, y: -30.5}
+        - {x: -54.5, y: -36.5}
+        - {x: -48.5, y: -39.5}
+        - {x: 53.5, y: -39.5}
+        - {x: 53.5, y: -22.5}
+        - {x: 30.5, y: 36.5}
+    - name: MUK_16
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 553
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 37.5}
+        - {x: -60.5, y: 8.5}
+        - {x: -65.5, y: -0.5}
+        - {x: -65.5, y: -5.5}
+        - {x: -63.5, y: -7.5}
+        - {x: -56.5, y: -37.5}
+        - {x: -49.5, y: -39.5}
+        - {x: 53.5, y: -39.5}
+        - {x: 53.5, y: -5.5}
+        - {x: 34.5, y: 37.5}
+    - name: MUK_17
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 553
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 37.5}
+        - {x: -64.5, y: 10.5}
+        - {x: -64.5, y: -33.5}
+        - {x: -62.5, y: -39.5}
+        - {x: 54.5, y: -39.5}
+        - {x: 54.5, y: -28.5}
+        - {x: 33.5, y: 37.5}
+    - name: MUK_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 38.5}
+        - {x: -64.5, y: 23.5}
+        - {x: -64.5, y: -35.5}
+        - {x: -63.5, y: -39.5}
+        - {x: 54.5, y: -39.5}
+        - {x: 54.5, y: -12.5}
+        - {x: 33.5, y: 38.5}
+    - name: MUK_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 474
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: -39.5}
+        - {x: 55.5, y: -39.5}
+        - {x: 55.5, y: -21.5}
+        - {x: 47.5, y: 35.5}
+        - {x: 36.5, y: 38.5}
+        - {x: -0.5, y: 38.5}
+        - {x: -64.5, y: 14.5}
+    - name: MUK_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 474
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 39.5}
+        - {x: -64.5, y: 7.5}
+        - {x: -64.5, y: -29.5}
+        - {x: -54.5, y: -39.5}
+        - {x: 55.5, y: -39.5}
+        - {x: 55.5, y: -27.5}
+        - {x: 29.5, y: 39.5}
+    - name: MUK_21
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 474
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 39.5}
+        - {x: -40.5, y: 33.5}
+        - {x: -64.5, y: 13.5}
+        - {x: -64.5, y: -30.5}
+        - {x: -57.5, y: -37.5}
+        - {x: -52.5, y: -39.5}
+        - {x: 56.5, y: -39.5}
+        - {x: 56.5, y: -26.5}
+        - {x: 39.5, y: 39.5}
+    - name: MUK_22
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 474
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 39.5}
+        - {x: -63.5, y: -22.5}
+        - {x: -54.5, y: -36.5}
+        - {x: -49.5, y: -39.5}
+        - {x: 56.5, y: -39.5}
+        - {x: 57.5, y: -38.5}
+        - {x: 57.5, y: 39.5}
+    - name: MUK_23
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 474
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 39.5}
+        - {x: -63.5, y: 22.5}
+        - {x: -63.5, y: -27.5}
+        - {x: -61.5, y: -39.5}
+        - {x: 57.5, y: -39.5}
+        - {x: 57.5, y: 3.5}
+        - {x: 34.5, y: 39.5}
+    - name: MUK_24
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 474
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: -39.5}
+        - {x: 58.5, y: 31.5}
+        - {x: 57.5, y: 39.5}
+        - {x: -63.5, y: 39.5}
+        - {x: -63.5, y: -39.5}
+    - name: MUK_25
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 474
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 28.5}
+        - {x: 25.5, y: 39.5}
+        - {x: 12.5, y: 39.5}
+        - {x: -63.5, y: 5.5}
+        - {x: -63.5, y: -5.5}
+        - {x: -61.5, y: -7.5}
+        - {x: -50.5, y: -10.5}
+        - {x: -57.5, y: -35.5}
+        - {x: -51.5, y: -39.5}
+        - {x: 58.5, y: -39.5}
+        - {x: 59.5, y: -38.5}
+        - {x: 59.5, y: -33.5}
+        - {x: 56.5, y: -27.5}
+    - name: MUK_26
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 474
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 28.5}
+        - {x: 25.5, y: 39.5}
+        - {x: 11.5, y: 39.5}
+        - {x: -62.5, y: 11.5}
+        - {x: -62.5, y: -39.5}
+        - {x: 60.5, y: -39.5}
+        - {x: 60.5, y: -34.5}
+        - {x: 58.5, y: -29.5}
+    - name: MUK_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 39.5}
+        - {x: -21.5, y: 39.5}
+        - {x: -62.5, y: 21.5}
+        - {x: -62.5, y: -39.5}
+        - {x: 60.5, y: -39.5}
+        - {x: 60.5, y: -30.5}
+        - {x: 36.5, y: 30.5}
+    - name: MUK_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 395
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 28.5}
+        - {x: 24.5, y: 39.5}
+        - {x: -31.5, y: 39.5}
+        - {x: -62.5, y: 22.5}
+        - {x: -62.5, y: -24.5}
+        - {x: -58.5, y: -36.5}
+        - {x: -52.5, y: -39.5}
+        - {x: 61.5, y: -39.5}
+        - {x: 61.5, y: -31.5}
+        - {x: 58.5, y: -28.5}
+    - name: MUK_29
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 395
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 39.5}
+        - {x: -62.5, y: 11.5}
+        - {x: -62.5, y: -33.5}
+        - {x: -58.5, y: -39.5}
+        - {x: 61.5, y: -39.5}
+        - {x: 62.5, y: -38.5}
+        - {x: 62.5, y: -21.5}
+        - {x: 30.5, y: 39.5}
+    - name: MUK_30
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 395
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 39.5}
+        - {x: 5.5, y: 25.5}
+        - {x: 9.5, y: 21.5}
+        - {x: -53.5, y: 9.5}
+        - {x: -61.5, y: 6.5}
+        - {x: -61.5, y: -37.5}
+        - {x: -55.5, y: -39.5}
+        - {x: 62.5, y: -39.5}
+        - {x: 63.5, y: -36.5}
+        - {x: 63.5, y: -30.5}
+        - {x: 25.5, y: 39.5}
+    - name: MUK_31
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 395
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 39.5}
+        - {x: -61.5, y: 2.5}
+        - {x: -61.5, y: -39.5}
+        - {x: 63.5, y: -39.5}
+        - {x: 63.5, y: -31.5}
+        - {x: 62.5, y: -29.5}
+        - {x: 28.5, y: 39.5}
+    - name: MUK_32
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 395
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 26.5}
+        - {x: 24.5, y: 39.5}
+        - {x: 7.5, y: 39.5}
+        - {x: -61.5, y: 17.5}
+        - {x: -61.5, y: -39.5}
+        - {x: 63.5, y: -39.5}
+        - {x: 64.5, y: -37.5}
+        - {x: 64.5, y: -31.5}
+        - {x: 62.5, y: -30.5}
+    - name: MUK_33
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 395
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 39.5}
+        - {x: -60.5, y: 14.5}
+        - {x: -61.5, y: 9.5}
+        - {x: -61.5, y: -7.5}
+        - {x: -49.5, y: -14.5}
+        - {x: -58.5, y: -28.5}
+        - {x: -61.5, y: -35.5}
+        - {x: -55.5, y: -39.5}
+        - {x: 64.5, y: -39.5}
+        - {x: 65.5, y: -38.5}
+        - {x: 65.5, y: -24.5}
+        - {x: 34.5, y: 39.5}
+    - name: MUK_34
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 395
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: -8.5}
+        - {x: -48.5, y: -15.5}
+        - {x: -59.5, y: -31.5}
+        - {x: -60.5, y: -33.5}
+        - {x: -60.5, y: -36.5}
+        - {x: -55.5, y: -39.5}
+        - {x: 65.5, y: -39.5}
+        - {x: 65.5, y: -24.5}
+        - {x: 30.5, y: 39.5}
+        - {x: -29.5, y: 39.5}
+        - {x: -60.5, y: 23.5}
+    - name: MUK_35
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 395
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 39.5}
+        - {x: 4.5, y: 27.5}
+        - {x: 5.5, y: 22.5}
+        - {x: 12.5, y: 12.5}
+        - {x: 13.5, y: 11.5}
+        - {x: 13.5, y: -1.5}
+        - {x: 13.5, y: 0.5}
+        - {x: 8.5, y: 10.5}
+        - {x: -19.5, y: 15.5}
+        - {x: -49.5, y: 7.5}
+        - {x: -60.5, y: -1.5}
+        - {x: -60.5, y: -38.5}
+        - {x: -57.5, y: -39.5}
+        - {x: 65.5, y: -39.5}
+        - {x: 66.5, y: -37.5}
+        - {x: 66.5, y: -28.5}
+        - {x: 23.5, y: 39.5}
+    - name: MUK_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 39.5}
+        - {x: 9.5, y: 38.5}
+        - {x: 4.5, y: 21.5}
+        - {x: 12.5, y: 12.5}
+        - {x: 13.5, y: 11.5}
+        - {x: 13.5, y: -1.5}
+        - {x: 13.5, y: 0.5}
+        - {x: 6.5, y: 9.5}
+        - {x: -19.5, y: 19.5}
+        - {x: -61.5, y: 3.5}
+        - {x: -61.5, y: -39.5}
+        - {x: 67.5, y: -39.5}
+        - {x: 67.5, y: -27.5}
+        - {x: 33.5, y: 39.5}
+    - name: MUK_37
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 316
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.5, y: -39.5}
+        - {x: 67.5, y: -39.5}
+        - {x: 67.5, y: -8.5}
+        - {x: 55.5, y: 39.5}
+        - {x: -60.5, y: 39.5}
+        - {x: -61.5, y: 37.5}
+    - name: MUK_38
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 316
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -21.5}
+        - {x: 31.5, y: 24.5}
+        - {x: 25.5, y: 39.5}
+        - {x: 10.5, y: 39.5}
+        - {x: -62.5, y: 1.5}
+        - {x: -62.5, y: -39.5}
+        - {x: 67.5, y: -39.5}
+        - {x: 68.5, y: -37.5}
+        - {x: 68.5, y: -32.5}
+        - {x: 65.5, y: -30.5}
+    - name: MUK_39
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 316
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 39.5}
+        - {x: 3.5, y: 25.5}
+        - {x: -50.5, y: 4.5}
+        - {x: -62.5, y: -4.5}
+        - {x: -63.5, y: -9.5}
+        - {x: -63.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -28.5}
+        - {x: 54.5, y: -3.5}
+        - {x: 28.5, y: 39.5}
+    - name: MUK_40
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 316
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 39.5}
+        - {x: -63.5, y: 11.5}
+        - {x: -63.5, y: -39.5}
+        - {x: 66.5, y: -39.5}
+        - {x: 68.5, y: -37.5}
+        - {x: 68.5, y: -23.5}
+        - {x: 34.5, y: 39.5}
+    - name: MUK_41
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 316
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -19.5}
+        - {x: 40.5, y: 39.5}
+        - {x: -11.5, y: 39.5}
+        - {x: -62.5, y: 18.5}
+        - {x: -64.5, y: 12.5}
+    - name: MUK_42
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 316
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 39.5}
+        - {x: -65.5, y: 11.5}
+        - {x: -65.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -28.5}
+        - {x: 37.5, y: 39.5}
+    - name: MUK_43
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 316
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 39.5}
+        - {x: -65.5, y: 35.5}
+        - {x: -65.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -18.5}
+        - {x: 28.5, y: 39.5}
+    - name: MUK_44
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 316
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 38.5}
+        - {x: 10.5, y: 38.5}
+        - {x: -63.5, y: -2.5}
+        - {x: -66.5, y: -24.5}
+        - {x: -66.5, y: -39.5}
+        - {x: 67.5, y: -39.5}
+        - {x: 68.5, y: -38.5}
+        - {x: 68.5, y: -27.5}
+        - {x: 36.5, y: 30.5}
+    - name: MUK_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -27.5}
+        - {x: 44.5, y: 38.5}
+        - {x: -13.5, y: 38.5}
+        - {x: -65.5, y: 21.5}
+        - {x: -66.5, y: 17.5}
+    - name: MUK_46
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 237
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 37.5}
+        - {x: 4.5, y: 22.5}
+        - {x: 5.5, y: 17.5}
+        - {x: -54.5, y: 4.5}
+        - {x: -62.5, y: -10.5}
+        - {x: -54.5, y: -16.5}
+        - {x: -48.5, y: -18.5}
+        - {x: -44.5, y: -18.5}
+        - {x: -46.5, y: -18.5}
+        - {x: -64.5, y: -27.5}
+        - {x: -67.5, y: -32.5}
+        - {x: -67.5, y: -37.5}
+        - {x: -66.5, y: -38.5}
+        - {x: -59.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -30.5}
+        - {x: 30.5, y: 37.5}
+    - name: MUK_47
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 237
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 37.5}
+        - {x: -67.5, y: -4.5}
+        - {x: -67.5, y: -38.5}
+        - {x: -66.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -26.5}
+        - {x: 34.5, y: 37.5}
+    - name: MUK_48
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 237
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 37.5}
+        - {x: -68.5, y: 2.5}
+        - {x: -68.5, y: -38.5}
+        - {x: -67.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -23.5}
+        - {x: 33.5, y: 37.5}
+    - name: MUK_49
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 237
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.5, y: -11.5}
+        - {x: -68.5, y: -38.5}
+        - {x: -66.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -13.5}
+        - {x: 49.5, y: 30.5}
+        - {x: 39.5, y: 36.5}
+        - {x: -15.5, y: 36.5}
+        - {x: -57.5, y: 11.5}
+    - name: MUK_50
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 237
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 16.5}
+        - {x: 7.5, y: 12.5}
+        - {x: -61.5, y: 8.5}
+        - {x: -68.5, y: -8.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -18.5}
+        - {x: 43.5, y: 33.5}
+        - {x: 31.5, y: 36.5}
+        - {x: 17.5, y: 36.5}
+        - {x: 11.5, y: 32.5}
+    - name: MUK_51
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 237
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 35.5}
+        - {x: -68.5, y: 18.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -15.5}
+        - {x: 30.5, y: 35.5}
+    - name: MUK_52
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 237
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 35.5}
+        - {x: 0.5, y: 35.5}
+        - {x: -67.5, y: -1.5}
+        - {x: -68.5, y: -2.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -26.5}
+        - {x: 35.5, y: 25.5}
+    - name: MUK_53
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 237
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 34.5}
+        - {x: 8.5, y: 31.5}
+        - {x: -56.5, y: 5.5}
+        - {x: -68.5, y: -19.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -27.5}
+        - {x: 26.5, y: 34.5}
+    - name: MUK_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 34.5}
+        - {x: -13.5, y: 34.5}
+        - {x: -66.5, y: -3.5}
+        - {x: -68.5, y: -10.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 68.5, y: -28.5}
+        - {x: 43.5, y: 22.5}
+    - name: MUK_55
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 158
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 33.5}
+        - {x: -16.5, y: 33.5}
+        - {x: -60.5, y: 10.5}
+        - {x: -68.5, y: -10.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 66.5, y: -39.5}
+        - {x: 67.5, y: -37.5}
+        - {x: 67.5, y: -28.5}
+        - {x: 38.5, y: 28.5}
+    - name: MUK_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 158
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 33.5}
+        - {x: -61.5, y: 2.5}
+        - {x: -68.5, y: -19.5}
+        - {x: -68.5, y: -38.5}
+        - {x: -66.5, y: -39.5}
+        - {x: 66.5, y: -39.5}
+        - {x: 67.5, y: -38.5}
+        - {x: 67.5, y: -25.5}
+        - {x: 29.5, y: 33.5}
+    - name: MUK_57
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 158
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 33.5}
+        - {x: -67.5, y: -5.5}
+        - {x: -68.5, y: -8.5}
+        - {x: -68.5, y: -38.5}
+        - {x: -65.5, y: -39.5}
+        - {x: 65.5, y: -39.5}
+        - {x: 66.5, y: -38.5}
+        - {x: 66.5, y: -28.5}
+        - {x: 31.5, y: 33.5}
+    - name: MUK_58
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 158
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 21.5}
+        - {x: 22.5, y: 32.5}
+        - {x: 3.5, y: 32.5}
+        - {x: -57.5, y: 7.5}
+        - {x: -68.5, y: -14.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 65.5, y: -39.5}
+        - {x: 66.5, y: -36.5}
+        - {x: 66.5, y: -32.5}
+        - {x: 59.5, y: -28.5}
+    - name: MUK_59
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 158
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 32.5}
+        - {x: 4.5, y: 17.5}
+        - {x: 6.5, y: 12.5}
+        - {x: -9.5, y: 11.5}
+        - {x: -56.5, y: 1.5}
+        - {x: -63.5, y: -7.5}
+        - {x: -68.5, y: -23.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 64.5, y: -39.5}
+        - {x: 65.5, y: -37.5}
+        - {x: 65.5, y: -28.5}
+        - {x: 31.5, y: 32.5}
+    - name: MUK_60
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 158
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 31.5}
+        - {x: -68.5, y: -0.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 64.5, y: -39.5}
+        - {x: 64.5, y: -8.5}
+        - {x: 30.5, y: 31.5}
+    - name: MUK_61
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 158
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 31.5}
+        - {x: -56.5, y: 21.5}
+        - {x: -68.5, y: -4.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 64.5, y: -39.5}
+        - {x: 64.5, y: -26.5}
+        - {x: 29.5, y: 31.5}
+    - name: MUK_62
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 158
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.5, y: -39.5}
+        - {x: 63.5, y: -39.5}
+        - {x: 63.5, y: 31.5}
+        - {x: -26.5, y: 31.5}
+        - {x: -68.5, y: 26.5}
+    - name: MUK_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 30.5}
+        - {x: -5.5, y: 30.5}
+        - {x: -68.5, y: 6.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 62.5, y: -39.5}
+        - {x: 62.5, y: -26.5}
+        - {x: 38.5, y: 18.5}
+    - name: MUK_64
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 79
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 30.5}
+        - {x: -25.5, y: 30.5}
+        - {x: -68.5, y: -7.5}
+        - {x: -68.5, y: -39.5}
+        - {x: 61.5, y: -39.5}
+        - {x: 62.5, y: -38.5}
+        - {x: 62.5, y: -28.5}
+        - {x: 43.5, y: 22.5}
+    - name: MUK_65
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 79
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: -39.5}
+        - {x: 61.5, y: 22.5}
+        - {x: 52.5, y: 30.5}
+        - {x: -35.5, y: 30.5}
+        - {x: -67.5, y: -0.5}
+        - {x: -67.5, y: -39.5}
+    - name: MUK_66
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 79
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 29.5}
+        - {x: -57.5, y: 3.5}
+        - {x: -63.5, y: -8.5}
+        - {x: -62.5, y: -11.5}
+        - {x: -67.5, y: -27.5}
+        - {x: -67.5, y: -34.5}
+        - {x: -65.5, y: -39.5}
+        - {x: 60.5, y: -39.5}
+        - {x: 60.5, y: -15.5}
+        - {x: 31.5, y: 29.5}
+    - name: MUK_67
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 79
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 16.5}
+        - {x: 25.5, y: 29.5}
+        - {x: 4.5, y: 29.5}
+        - {x: -14.5, y: 23.5}
+        - {x: -66.5, y: 2.5}
+        - {x: -66.5, y: -39.5}
+        - {x: 59.5, y: -39.5}
+        - {x: 59.5, y: -32.5}
+        - {x: 56.5, y: -29.5}
+    - name: MUK_68
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 79
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 29.5}
+        - {x: -66.5, y: -0.5}
+        - {x: -66.5, y: -36.5}
+        - {x: -61.5, y: -38.5}
+        - {x: -51.5, y: -39.5}
+        - {x: 59.5, y: -39.5}
+        - {x: 59.5, y: -10.5}
+        - {x: 34.5, y: 29.5}
+    - name: MUK_69
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 79
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: -13.5}
+        - {x: -65.5, y: -17.5}
+        - {x: -57.5, y: -19.5}
+        - {x: -53.5, y: -19.5}
+        - {x: -50.5, y: -20.5}
+        - {x: -47.5, y: -20.5}
+        - {x: -49.5, y: -20.5}
+        - {x: -62.5, y: -29.5}
+        - {x: -65.5, y: -32.5}
+        - {x: -65.5, y: -34.5}
+        - {x: -61.5, y: -38.5}
+        - {x: -58.5, y: -39.5}
+        - {x: 58.5, y: -39.5}
+        - {x: 58.5, y: -23.5}
+        - {x: 37.5, y: 23.5}
+        - {x: 25.5, y: 29.5}
+        - {x: 9.5, y: 29.5}
+        - {x: -58.5, y: 5.5}
+    - name: MUK_70
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 79
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: -39.5}
+        - {x: 57.5, y: 5.5}
+        - {x: 36.5, y: 29.5}
+        - {x: -14.5, y: 29.5}
+        - {x: -64.5, y: 3.5}
+        - {x: -64.5, y: -39.5}
+    - name: MUK_71
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 79
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 28.5}
+        - {x: 15.5, y: 28.5}
+        - {x: -2.5, y: 20.5}
+        - {x: -58.5, y: 8.5}
+        - {x: -64.5, y: -10.5}
+        - {x: -64.5, y: -18.5}
+        - {x: -51.5, y: -20.5}
+        - {x: -47.5, y: -19.5}
+        - {x: -44.5, y: -16.5}
+        - {x: -48.5, y: -21.5}
+        - {x: -50.5, y: -20.5}
+        - {x: -64.5, y: -30.5}
+        - {x: -64.5, y: -36.5}
+        - {x: -62.5, y: -39.5}
+        - {x: 57.5, y: -39.5}
+        - {x: 57.5, y: -26.5}
+        - {x: 38.5, y: 18.5}
+    - name: MUK_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: -1.5}
+        - {x: -63.5, y: -13.5}
+        - {x: -61.5, y: -18.5}
+        - {x: -50.5, y: -20.5}
+        - {x: -56.5, y: -21.5}
+        - {x: -63.5, y: -31.5}
+        - {x: -63.5, y: -37.5}
+        - {x: -55.5, y: -39.5}
+        - {x: 56.5, y: -39.5}
+        - {x: 56.5, y: -23.5}
+        - {x: 38.5, y: 18.5}
+        - {x: 31.5, y: 28.5}
+        - {x: 11.5, y: 28.5}
+        - {x: -51.5, y: 7.5}
+    - name: MUK_73
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 28.5}
+        - {x: -58.5, y: 6.5}
+        - {x: -62.5, y: -4.5}
+        - {x: -62.5, y: -16.5}
+        - {x: -60.5, y: -18.5}
+        - {x: -51.5, y: -20.5}
+        - {x: -62.5, y: -30.5}
+        - {x: -62.5, y: -34.5}
+        - {x: -60.5, y: -39.5}
+        - {x: 56.5, y: -39.5}
+        - {x: 56.5, y: -14.5}
+        - {x: 35.5, y: 28.5}
+    - name: MUK_74
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 1.5}
+        - {x: -63.5, y: -15.5}
+        - {x: -59.5, y: -18.5}
+        - {x: -52.5, y: -19.5}
+        - {x: -59.5, y: -26.5}
+        - {x: -63.5, y: -36.5}
+        - {x: -58.5, y: -39.5}
+        - {x: 55.5, y: -39.5}
+        - {x: 55.5, y: -16.5}
+        - {x: 42.5, y: 21.5}
+        - {x: 32.5, y: 28.5}
+        - {x: -12.5, y: 28.5}
+        - {x: -50.5, y: 15.5}
+    - name: MUK_75
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 0
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 29.5}
+        - {x: 18.5, y: 29.5}
+        - {x: 12.5, y: 25.5}
+        - {x: 7.5, y: 15.5}
+        - {x: -15.5, y: 26.5}
+        - {x: -63.5, y: 6.5}
+        - {x: -63.5, y: -39.5}
+        - {x: 55.5, y: -39.5}
+        - {x: 55.5, y: -30.5}
+        - {x: 39.5, y: 19.5}
+    - name: MUK_76
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 29.5}
+        - {x: -25.5, y: 29.5}
+        - {x: -63.5, y: 1.5}
+        - {x: -63.5, y: -36.5}
+        - {x: -54.5, y: -39.5}
+        - {x: 54.5, y: -39.5}
+        - {x: 54.5, y: -29.5}
+        - {x: 38.5, y: 19.5}
+    - name: MUK_77
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 0
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: -14.5}
+        - {x: -56.5, y: -17.5}
+        - {x: -48.5, y: -17.5}
+        - {x: -61.5, y: -31.5}
+        - {x: -57.5, y: -39.5}
+        - {x: 54.5, y: -39.5}
+        - {x: 54.5, y: -8.5}
+        - {x: 49.5, y: 27.5}
+        - {x: 37.5, y: 29.5}
+        - {x: 17.5, y: 29.5}
+        - {x: -63.5, y: 13.5}
+    - name: MUK_78
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 0
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 29.5}
+        - {x: -63.5, y: 7.5}
+        - {x: -63.5, y: -39.5}
+        - {x: 53.5, y: -39.5}
+        - {x: 53.5, y: -18.5}
+        - {x: 39.5, y: 20.5}
+        - {x: 28.5, y: 29.5}
+    - name: MUK_79
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 0
+        width: 137
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: -39.5}
+        - {x: 53.5, y: -39.5}
+        - {x: 53.5, y: 1.5}
+        - {x: 50.5, y: 27.5}
+        - {x: 41.5, y: 29.5}
+        - {x: 3.5, y: 29.5}
+        - {x: -64.5, y: 10.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

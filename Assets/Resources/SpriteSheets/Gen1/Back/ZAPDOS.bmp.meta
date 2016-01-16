@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: 66023ce437127a74c94563d96af106f8
+timeCreated: 1452891488
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ZAPDOS_0
+    21300002: ZAPDOS_1
+    21300004: ZAPDOS_2
+    21300006: ZAPDOS_3
+    21300008: ZAPDOS_4
+    21300010: ZAPDOS_5
+    21300012: ZAPDOS_6
+    21300014: ZAPDOS_7
+    21300016: ZAPDOS_8
+    21300018: ZAPDOS_9
+    21300020: ZAPDOS_10
+    21300022: ZAPDOS_11
+    21300024: ZAPDOS_12
+    21300026: ZAPDOS_13
+    21300028: ZAPDOS_14
+    21300030: ZAPDOS_15
+    21300032: ZAPDOS_16
+    21300034: ZAPDOS_17
+    21300036: ZAPDOS_18
+    21300038: ZAPDOS_19
+    21300040: ZAPDOS_20
+    21300042: ZAPDOS_21
+    21300044: ZAPDOS_22
+    21300046: ZAPDOS_23
+    21300048: ZAPDOS_24
+    21300050: ZAPDOS_25
+    21300052: ZAPDOS_26
+    21300054: ZAPDOS_27
+    21300056: ZAPDOS_28
+    21300058: ZAPDOS_29
+    21300060: ZAPDOS_30
+    21300062: ZAPDOS_31
+    21300064: ZAPDOS_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ZAPDOS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 555
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -39.5}
+        - {x: 10, y: -37.5}
+        - {x: 19, y: -44.5}
+        - {x: 67, y: -27.5}
+        - {x: 67, y: 8.5}
+        - {x: 55, y: 27.5}
+        - {x: 42, y: 32.5}
+        - {x: -10, y: 32.5}
+        - {x: -45, y: 7.5}
+        - {x: -45, y: -36.5}
+        - {x: -40, y: -45.5}
+        - {x: -26, y: -53.5}
+        - {x: 2, y: -53.5}
+        - {x: 2, y: -51.5}
+        - {x: 1, y: -39.5}
+        - {x: 4, y: -41.5}
+    - name: ZAPDOS_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 555
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 30.5}
+        - {x: 37, y: 33.5}
+        - {x: -16, y: 33.5}
+        - {x: -40, y: -1.5}
+        - {x: -40, y: -49.5}
+        - {x: -29, y: -52.5}
+        - {x: 4, y: -52.5}
+        - {x: 5, y: -51.5}
+        - {x: 64, y: -23.5}
+        - {x: 64, y: 6.5}
+    - name: ZAPDOS_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 555
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 30.5}
+        - {x: 37, y: 33.5}
+        - {x: -16, y: 33.5}
+        - {x: -40, y: -1.5}
+        - {x: -40, y: -49.5}
+        - {x: -29, y: -52.5}
+        - {x: 4, y: -52.5}
+        - {x: 5, y: -51.5}
+        - {x: 64, y: -23.5}
+        - {x: 64, y: 6.5}
+    - name: ZAPDOS_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 555
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -50.5}
+        - {x: 27, y: -50.5}
+        - {x: 62, y: -27.5}
+        - {x: 62, y: 10.5}
+        - {x: 25, y: 34.5}
+        - {x: 6, y: 34.5}
+        - {x: 4, y: 31.5}
+        - {x: -5, y: 34.5}
+        - {x: -7, y: 34.5}
+        - {x: -10, y: 28.5}
+        - {x: -35, y: -5.5}
+        - {x: -38, y: -12.5}
+        - {x: -39, y: -16.5}
+        - {x: -39, y: -46.5}
+        - {x: -31, y: -50.5}
+        - {x: 4, y: -50.5}
+        - {x: 4, y: -47.5}
+        - {x: 0, y: -27.5}
+        - {x: 1, y: -32.5}
+    - name: ZAPDOS_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 555
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -50.5}
+        - {x: 27, y: -50.5}
+        - {x: 62, y: -27.5}
+        - {x: 62, y: 10.5}
+        - {x: 25, y: 34.5}
+        - {x: 6, y: 34.5}
+        - {x: 4, y: 31.5}
+        - {x: -5, y: 34.5}
+        - {x: -7, y: 34.5}
+        - {x: -10, y: 28.5}
+        - {x: -35, y: -5.5}
+        - {x: -38, y: -12.5}
+        - {x: -39, y: -16.5}
+        - {x: -39, y: -46.5}
+        - {x: -31, y: -50.5}
+        - {x: 4, y: -50.5}
+        - {x: 4, y: -47.5}
+        - {x: 0, y: -27.5}
+        - {x: 1, y: -32.5}
+    - name: ZAPDOS_5
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 555
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -23.5}
+        - {x: 1, y: -30.5}
+        - {x: 3, y: -34.5}
+        - {x: 9, y: -38.5}
+        - {x: 20, y: -41.5}
+        - {x: 42, y: -32.5}
+        - {x: 61, y: -21.5}
+        - {x: 61, y: -4.5}
+        - {x: 32, y: 31.5}
+        - {x: 26, y: 34.5}
+        - {x: -18, y: 34.5}
+        - {x: -38, y: 4.5}
+        - {x: -38, y: -47.5}
+        - {x: 4, y: -47.5}
+        - {x: 5, y: -37.5}
+        - {x: 1, y: -31.5}
+    - name: ZAPDOS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 35.5}
+        - {x: -12, y: 35.5}
+        - {x: -38, y: 17.5}
+        - {x: -38, y: -45.5}
+        - {x: 19, y: -45.5}
+        - {x: 55, y: -31.5}
+        - {x: 63, y: -14.5}
+        - {x: 63, y: 4.5}
+    - name: ZAPDOS_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 444
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: -10.5}
+        - {x: 63, y: -0.5}
+        - {x: 19, y: 37.5}
+        - {x: -22, y: 37.5}
+        - {x: -39, y: -9.5}
+        - {x: -39, y: -43.5}
+        - {x: -32, y: -44.5}
+        - {x: 12, y: -44.5}
+        - {x: 45, y: -26.5}
+        - {x: 44, y: -22.5}
+        - {x: 62, y: -12.5}
+    - name: ZAPDOS_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 444
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -43.5}
+        - {x: 65, y: -15.5}
+        - {x: 65, y: 15.5}
+        - {x: 32, y: 38.5}
+        - {x: -10, y: 38.5}
+        - {x: -39, y: 17.5}
+        - {x: -39, y: -43.5}
+    - name: ZAPDOS_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 444
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: -13.5}
+        - {x: 67, y: 2.5}
+        - {x: 66, y: 3.5}
+        - {x: 40, y: 24.5}
+        - {x: 18, y: 40.5}
+        - {x: -10, y: 40.5}
+        - {x: -20, y: 37.5}
+        - {x: -42, y: 1.5}
+        - {x: -42, y: -17.5}
+        - {x: -41, y: -24.5}
+        - {x: -38, y: -30.5}
+        - {x: -39, y: -27.5}
+        - {x: -40, y: -35.5}
+        - {x: -30, y: -41.5}
+        - {x: -24, y: -42.5}
+        - {x: 2, y: -42.5}
+        - {x: 7, y: -40.5}
+        - {x: 7, y: -36.5}
+        - {x: 50, y: -27.5}
+    - name: ZAPDOS_10
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 444
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -27.5}
+        - {x: 12, y: -38.5}
+        - {x: 65, y: -5.5}
+        - {x: 65, y: 12.5}
+        - {x: 29, y: 39.5}
+        - {x: -14, y: 39.5}
+        - {x: -46, y: 4.5}
+        - {x: -46, y: -13.5}
+        - {x: -44, y: -23.5}
+        - {x: -41, y: -24.5}
+        - {x: -38, y: -24.5}
+        - {x: -32, y: -18.5}
+        - {x: -39, y: -34.5}
+        - {x: -38, y: -38.5}
+        - {x: -17, y: -42.5}
+        - {x: 8, y: -42.5}
+        - {x: 8, y: -41.5}
+        - {x: 6, y: -32.5}
+        - {x: -1, y: -20.5}
+    - name: ZAPDOS_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 444
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -31.5}
+        - {x: 12, y: -29.5}
+        - {x: 16, y: -20.5}
+        - {x: 26, y: -14.5}
+        - {x: 24, y: -7.5}
+        - {x: 17, y: -5.5}
+        - {x: 13, y: -6.5}
+        - {x: 9, y: -3.5}
+        - {x: 18, y: -5.5}
+        - {x: 28, y: -8.5}
+        - {x: 38, y: -19.5}
+        - {x: 64, y: -0.5}
+        - {x: 64, y: 15.5}
+        - {x: 43, y: 29.5}
+        - {x: 29, y: 39.5}
+        - {x: -22, y: 39.5}
+        - {x: -32, y: 34.5}
+        - {x: -51, y: 3.5}
+        - {x: -50, y: 0.5}
+        - {x: -51, y: -5.5}
+        - {x: -51, y: -40.5}
+        - {x: -50, y: -41.5}
+        - {x: -26, y: -42.5}
+        - {x: 7, y: -42.5}
+        - {x: 8, y: -41.5}
+        - {x: 6, y: -32.5}
+        - {x: -4, y: -16.5}
+    - name: ZAPDOS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -27.5}
+        - {x: 12, y: -33.5}
+        - {x: 25, y: -13.5}
+        - {x: 25, y: -10.5}
+        - {x: 21, y: -4.5}
+        - {x: 15, y: -3.5}
+        - {x: 21, y: -4.5}
+        - {x: 42, y: -14.5}
+        - {x: 64, y: 1.5}
+        - {x: 64, y: 21.5}
+        - {x: 30, y: 39.5}
+        - {x: -38, y: 39.5}
+        - {x: -40, y: 38.5}
+        - {x: -58, y: 10.5}
+        - {x: -58, y: -33.5}
+        - {x: -27, y: -42.5}
+        - {x: 5, y: -42.5}
+        - {x: 7, y: -39.5}
+        - {x: 6, y: -36.5}
+        - {x: -3, y: -17.5}
+    - name: ZAPDOS_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 333
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -36.5}
+        - {x: 31, y: -13.5}
+        - {x: 19, y: -3.5}
+        - {x: 12, y: -4.5}
+        - {x: 6, y: 0.5}
+        - {x: 20, y: -3.5}
+        - {x: 39, y: -1.5}
+        - {x: 62, y: 17.5}
+        - {x: 62, y: 31.5}
+        - {x: 35, y: 39.5}
+        - {x: -32, y: 39.5}
+        - {x: -43, y: 33.5}
+        - {x: -63, y: 14.5}
+        - {x: -63, y: 11.5}
+        - {x: -62, y: 9.5}
+        - {x: -63, y: 7.5}
+        - {x: -63, y: -40.5}
+        - {x: -61, y: -41.5}
+        - {x: 7, y: -41.5}
+        - {x: 7, y: -40.5}
+        - {x: 1, y: -23.5}
+        - {x: 3, y: -26.5}
+    - name: ZAPDOS_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 333
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 39.5}
+        - {x: -57, y: 27.5}
+        - {x: -67, y: 19.5}
+        - {x: -67, y: 2.5}
+        - {x: -44, y: -43.5}
+        - {x: 17, y: -43.5}
+        - {x: 57, y: 5.5}
+        - {x: 57, y: 35.5}
+        - {x: 50, y: 39.5}
+    - name: ZAPDOS_15
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 333
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -12.5}
+        - {x: 25, y: -8.5}
+        - {x: 21, y: -3.5}
+        - {x: 33, y: 6.5}
+        - {x: 51, y: 24.5}
+        - {x: 51, y: 39.5}
+        - {x: -69, y: 39.5}
+        - {x: -69, y: -13.5}
+        - {x: -38, y: -42.5}
+        - {x: -31, y: -43.5}
+        - {x: 5, y: -43.5}
+        - {x: 6, y: -42.5}
+        - {x: 4, y: -32.5}
+        - {x: 12, y: -35.5}
+    - name: ZAPDOS_16
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 333
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 42.5}
+        - {x: -60, y: 42.5}
+        - {x: -69, y: 37.5}
+        - {x: -69, y: 9.5}
+        - {x: -41, y: -45.5}
+        - {x: 15, y: -45.5}
+        - {x: 27, y: -8.5}
+        - {x: 22, y: -4.5}
+        - {x: 46, y: 34.5}
+    - name: ZAPDOS_17
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 333
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 47.5}
+        - {x: -69, y: -41.5}
+        - {x: -67, y: -46.5}
+        - {x: 26, y: -46.5}
+        - {x: 43, y: 6.5}
+        - {x: 43, y: 47.5}
+    - name: ZAPDOS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 6.5}
+        - {x: 38, y: 39.5}
+        - {x: 38, y: 50.5}
+        - {x: -9, y: 50.5}
+        - {x: -69, y: 45.5}
+        - {x: -69, y: -15.5}
+        - {x: -48, y: -47.5}
+        - {x: 9, y: -47.5}
+        - {x: 28, y: -9.5}
+        - {x: 23, y: -0.5}
+        - {x: 24, y: -3.5}
+    - name: ZAPDOS_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 222
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -21.5}
+        - {x: 34, y: 52.5}
+        - {x: -56, y: 52.5}
+        - {x: -69, y: 47.5}
+        - {x: -69, y: 11.5}
+        - {x: -59, y: -15.5}
+        - {x: -38, y: -47.5}
+        - {x: 2, y: -47.5}
+        - {x: 2, y: -44.5}
+        - {x: 3, y: -47.5}
+        - {x: 13, y: -47.5}
+    - name: ZAPDOS_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 222
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -6.5}
+        - {x: 25, y: -1.5}
+        - {x: 31, y: 22.5}
+        - {x: 31, y: 54.5}
+        - {x: 3, y: 54.5}
+        - {x: -68, y: 48.5}
+        - {x: -68, y: 7.5}
+        - {x: -67, y: -9.5}
+        - {x: -39, y: -49.5}
+        - {x: 11, y: -49.5}
+        - {x: 31, y: -16.5}
+        - {x: 31, y: -8.5}
+        - {x: 23, y: -6.5}
+    - name: ZAPDOS_21
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 222
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -35.5}
+        - {x: 13, y: -37.5}
+        - {x: 29, y: -20.5}
+        - {x: 29, y: 55.5}
+        - {x: 22, y: 55.5}
+        - {x: 10, y: 42.5}
+        - {x: 8, y: 39.5}
+        - {x: 7, y: 35.5}
+        - {x: 7, y: 37.5}
+        - {x: 8, y: 38.5}
+        - {x: 8, y: 41.5}
+        - {x: 9, y: 42.5}
+        - {x: 10, y: 47.5}
+        - {x: 7, y: 51.5}
+        - {x: -56, y: 53.5}
+        - {x: -66, y: 51.5}
+        - {x: -66, y: 1.5}
+        - {x: -60, y: -13.5}
+        - {x: -43, y: -40.5}
+        - {x: -30, y: -50.5}
+        - {x: 1, y: -50.5}
+        - {x: 1, y: -46.5}
+        - {x: -1, y: -31.5}
+        - {x: -4, y: -24.5}
+    - name: ZAPDOS_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 222
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 55.5}
+        - {x: -64, y: 51.5}
+        - {x: -64, y: -5.5}
+        - {x: -46, y: -38.5}
+        - {x: -35, y: -52.5}
+        - {x: 13, y: -52.5}
+        - {x: 28, y: -20.5}
+        - {x: 28, y: 55.5}
+    - name: ZAPDOS_23
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 222
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 55.5}
+        - {x: -62, y: -17.5}
+        - {x: -49, y: -51.5}
+        - {x: -35, y: -53.5}
+        - {x: 6, y: -53.5}
+        - {x: 28, y: -27.5}
+        - {x: 28, y: 55.5}
+    - name: ZAPDOS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 54.5}
+        - {x: -61, y: -11.5}
+        - {x: -49, y: -54.5}
+        - {x: -42, y: -55.5}
+        - {x: 8, y: -55.5}
+        - {x: 27, y: -49.5}
+        - {x: 29, y: -28.5}
+        - {x: 29, y: 54.5}
+    - name: ZAPDOS_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 111
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -38.5}
+        - {x: 11, y: -42.5}
+        - {x: 16, y: -41.5}
+        - {x: 28, y: -19.5}
+        - {x: 32, y: 19.5}
+        - {x: 32, y: 50.5}
+        - {x: 29, y: 50.5}
+        - {x: 26, y: 48.5}
+        - {x: 17, y: 31.5}
+        - {x: 16, y: 36.5}
+        - {x: 13, y: 38.5}
+        - {x: 12, y: 47.5}
+        - {x: 9, y: 48.5}
+        - {x: -3, y: 50.5}
+        - {x: -62, y: 50.5}
+        - {x: -62, y: 7.5}
+        - {x: -59, y: -0.5}
+        - {x: -48, y: -7.5}
+        - {x: -44, y: -48.5}
+        - {x: -27, y: -55.5}
+        - {x: -6, y: -55.5}
+        - {x: -2, y: -50.5}
+        - {x: -3, y: -37.5}
+        - {x: -4, y: -30.5}
+    - name: ZAPDOS_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 111
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: 45.5}
+        - {x: -65, y: -16.5}
+        - {x: -51, y: -45.5}
+        - {x: -45, y: -55.5}
+        - {x: 25, y: -55.5}
+        - {x: 37, y: 0.5}
+        - {x: 37, y: 45.5}
+    - name: ZAPDOS_27
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 111
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: 36.5}
+        - {x: -67, y: 34.5}
+        - {x: -67, y: -21.5}
+        - {x: -52, y: -55.5}
+        - {x: 7, y: -55.5}
+        - {x: 49, y: -37.5}
+        - {x: 49, y: 36.5}
+    - name: ZAPDOS_28
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 111
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 12.5}
+        - {x: 38, y: 10.5}
+        - {x: 30, y: 8.5}
+        - {x: 32, y: 8.5}
+        - {x: 37, y: 13.5}
+        - {x: 39, y: 14.5}
+        - {x: 39, y: 17.5}
+        - {x: 44, y: 22.5}
+        - {x: 45, y: 26.5}
+        - {x: 45, y: 27.5}
+        - {x: -61, y: 27.5}
+        - {x: -65, y: 26.5}
+        - {x: -67, y: 25.5}
+        - {x: -67, y: -5.5}
+        - {x: -45, y: -55.5}
+        - {x: 18, y: -55.5}
+        - {x: 64, y: -1.5}
+        - {x: 64, y: 20.5}
+        - {x: 63, y: 21.5}
+    - name: ZAPDOS_29
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 111
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 5.5}
+        - {x: 60, y: 5.5}
+        - {x: 59, y: 4.5}
+        - {x: 49, y: 4.5}
+        - {x: 45, y: 3.5}
+        - {x: 49, y: 4.5}
+        - {x: 55, y: 8.5}
+        - {x: 55, y: 10.5}
+        - {x: 47, y: 28.5}
+        - {x: -55, y: 28.5}
+        - {x: -64, y: 22.5}
+        - {x: -64, y: -5.5}
+        - {x: -47, y: -31.5}
+        - {x: -36, y: -24.5}
+        - {x: -34, y: -24.5}
+        - {x: -27, y: -21.5}
+        - {x: -28, y: -21.5}
+        - {x: -41, y: -27.5}
+        - {x: -43, y: -30.5}
+        - {x: -44, y: -41.5}
+        - {x: -30, y: -53.5}
+        - {x: -22, y: -55.5}
+        - {x: -2, y: -55.5}
+        - {x: 24, y: -46.5}
+        - {x: 56, y: -20.5}
+        - {x: 68, y: -0.5}
+    - name: ZAPDOS_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -51.5}
+        - {x: 51, y: -33.5}
+        - {x: 69, y: -14.5}
+        - {x: 69, y: -0.5}
+        - {x: 61, y: 11.5}
+        - {x: 39, y: 29.5}
+        - {x: -24, y: 29.5}
+        - {x: -59, y: 11.5}
+        - {x: -59, y: -33.5}
+        - {x: -55, y: -47.5}
+        - {x: -28, y: -55.5}
+        - {x: -2, y: -55.5}
+        - {x: 0, y: -46.5}
+        - {x: -1, y: -36.5}
+        - {x: -1, y: -38.5}
+    - name: ZAPDOS_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 1.5}
+        - {x: 28, y: 1.5}
+        - {x: 32, y: 2.5}
+        - {x: 39, y: 5.5}
+        - {x: 40, y: 11.5}
+        - {x: 39, y: 14.5}
+        - {x: 14, y: 30.5}
+        - {x: -8, y: 30.5}
+        - {x: -51, y: -2.5}
+        - {x: -51, y: -37.5}
+        - {x: -37, y: -54.5}
+        - {x: 18, y: -54.5}
+        - {x: 55, y: -27.5}
+        - {x: 67, y: -12.5}
+        - {x: 67, y: -3.5}
+    - name: ZAPDOS_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -39.5}
+        - {x: 10, y: -37.5}
+        - {x: 19, y: -44.5}
+        - {x: 67, y: -27.5}
+        - {x: 67, y: 8.5}
+        - {x: 55, y: 27.5}
+        - {x: 42, y: 32.5}
+        - {x: -10, y: 32.5}
+        - {x: -45, y: 7.5}
+        - {x: -45, y: -36.5}
+        - {x: -40, y: -45.5}
+        - {x: -26, y: -53.5}
+        - {x: 2, y: -53.5}
+        - {x: 2, y: -51.5}
+        - {x: 1, y: -39.5}
+        - {x: 4, y: -41.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

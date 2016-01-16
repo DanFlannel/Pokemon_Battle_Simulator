@@ -1,0 +1,2834 @@
+fileFormatVersion: 2
+guid: 4a4b9095928e740499d28d339fed0372
+timeCreated: 1452888873
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MAGMAR_0
+    21300002: MAGMAR_1
+    21300004: MAGMAR_2
+    21300006: MAGMAR_3
+    21300008: MAGMAR_4
+    21300010: MAGMAR_5
+    21300012: MAGMAR_6
+    21300014: MAGMAR_7
+    21300016: MAGMAR_8
+    21300018: MAGMAR_9
+    21300020: MAGMAR_10
+    21300022: MAGMAR_11
+    21300024: MAGMAR_12
+    21300026: MAGMAR_13
+    21300028: MAGMAR_14
+    21300030: MAGMAR_15
+    21300032: MAGMAR_16
+    21300034: MAGMAR_17
+    21300036: MAGMAR_18
+    21300038: MAGMAR_19
+    21300040: MAGMAR_20
+    21300042: MAGMAR_21
+    21300044: MAGMAR_22
+    21300046: MAGMAR_23
+    21300048: MAGMAR_24
+    21300050: MAGMAR_25
+    21300052: MAGMAR_26
+    21300054: MAGMAR_27
+    21300056: MAGMAR_28
+    21300058: MAGMAR_29
+    21300060: MAGMAR_30
+    21300062: MAGMAR_31
+    21300064: MAGMAR_32
+    21300066: MAGMAR_33
+    21300068: MAGMAR_34
+    21300070: MAGMAR_35
+    21300072: MAGMAR_36
+    21300074: MAGMAR_37
+    21300076: MAGMAR_38
+    21300078: MAGMAR_39
+    21300080: MAGMAR_40
+    21300082: MAGMAR_41
+    21300084: MAGMAR_42
+    21300086: MAGMAR_43
+    21300088: MAGMAR_44
+    21300090: MAGMAR_45
+    21300092: MAGMAR_46
+    21300094: MAGMAR_47
+    21300096: MAGMAR_48
+    21300098: MAGMAR_49
+    21300100: MAGMAR_50
+    21300102: MAGMAR_51
+    21300104: MAGMAR_52
+    21300106: MAGMAR_53
+    21300108: MAGMAR_54
+    21300110: MAGMAR_55
+    21300112: MAGMAR_56
+    21300114: MAGMAR_57
+    21300116: MAGMAR_58
+    21300118: MAGMAR_59
+    21300120: MAGMAR_60
+    21300122: MAGMAR_61
+    21300124: MAGMAR_62
+    21300126: MAGMAR_63
+    21300128: MAGMAR_64
+    21300130: MAGMAR_65
+    21300132: MAGMAR_66
+    21300134: MAGMAR_67
+    21300136: MAGMAR_68
+    21300138: MAGMAR_69
+    21300140: MAGMAR_70
+    21300142: MAGMAR_71
+    21300144: MAGMAR_72
+    21300146: MAGMAR_73
+    21300148: MAGMAR_74
+    21300150: MAGMAR_75
+    21300152: MAGMAR_76
+    21300154: MAGMAR_77
+    21300156: MAGMAR_78
+    21300158: MAGMAR_79
+    21300160: MAGMAR_80
+    21300162: MAGMAR_81
+    21300164: MAGMAR_82
+    21300166: MAGMAR_83
+    21300168: MAGMAR_84
+    21300170: MAGMAR_85
+    21300172: MAGMAR_86
+    21300174: MAGMAR_87
+    21300176: MAGMAR_88
+    21300178: MAGMAR_89
+    21300180: MAGMAR_90
+    21300182: MAGMAR_91
+    21300184: MAGMAR_92
+    21300186: MAGMAR_93
+    21300188: MAGMAR_94
+    21300190: MAGMAR_95
+    21300192: MAGMAR_96
+    21300194: MAGMAR_97
+    21300196: MAGMAR_98
+    21300198: MAGMAR_99
+    21300200: MAGMAR_100
+    21300202: MAGMAR_101
+    21300204: MAGMAR_102
+    21300206: MAGMAR_103
+    21300208: MAGMAR_104
+    21300210: MAGMAR_105
+    21300212: MAGMAR_106
+    21300214: MAGMAR_107
+    21300216: MAGMAR_108
+    21300218: MAGMAR_109
+    21300220: MAGMAR_110
+    21300222: MAGMAR_111
+    21300224: MAGMAR_112
+    21300226: MAGMAR_113
+    21300228: MAGMAR_114
+    21300230: MAGMAR_115
+    21300232: MAGMAR_116
+    21300234: MAGMAR_117
+    21300236: MAGMAR_118
+    21300238: MAGMAR_119
+    21300240: MAGMAR_120
+    21300242: MAGMAR_121
+    21300244: MAGMAR_122
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MAGMAR_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -26.5}
+        - {x: 51, y: -23.5}
+        - {x: 51, y: 7.5}
+        - {x: 32, y: 38.5}
+        - {x: -7, y: 38.5}
+        - {x: -51, y: -8.5}
+        - {x: -51, y: -35.5}
+        - {x: -36, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 39, y: -40.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -22.5}
+        - {x: 51, y: 11.5}
+        - {x: 37, y: 38.5}
+        - {x: -25, y: 38.5}
+        - {x: -51, y: 20.5}
+        - {x: -51, y: -34.5}
+        - {x: -34, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 49, y: -28.5}
+    - name: MAGMAR_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -41.5}
+        - {x: 50, y: -41.5}
+        - {x: 50, y: 9.5}
+        - {x: 33, y: 36.5}
+        - {x: -13, y: 36.5}
+        - {x: -51, y: 7.5}
+        - {x: -51, y: -39.5}
+    - name: MAGMAR_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -41.5}
+        - {x: 50, y: -41.5}
+        - {x: 50, y: 9.5}
+        - {x: 33, y: 36.5}
+        - {x: -13, y: 36.5}
+        - {x: -51, y: 7.5}
+        - {x: -51, y: -39.5}
+    - name: MAGMAR_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -12.5}
+        - {x: 35, y: 32.5}
+        - {x: 22, y: 36.5}
+        - {x: -10, y: 36.5}
+        - {x: -16, y: 20.5}
+        - {x: -38, y: 5.5}
+        - {x: -51, y: -5.5}
+        - {x: -51, y: -39.5}
+        - {x: -34, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -37.5}
+        - {x: 50, y: -23.5}
+    - name: MAGMAR_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -12.5}
+        - {x: 35, y: 32.5}
+        - {x: 22, y: 36.5}
+        - {x: -10, y: 36.5}
+        - {x: -16, y: 20.5}
+        - {x: -38, y: 5.5}
+        - {x: -51, y: -5.5}
+        - {x: -51, y: -39.5}
+        - {x: -34, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -37.5}
+        - {x: 50, y: -23.5}
+    - name: MAGMAR_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 19.5}
+        - {x: -43, y: 9.5}
+        - {x: -51, y: -2.5}
+        - {x: -51, y: -35.5}
+        - {x: -39, y: -41.5}
+        - {x: 50, y: -41.5}
+        - {x: 50, y: 17.5}
+        - {x: 48, y: 33.5}
+        - {x: 21, y: 37.5}
+        - {x: -5, y: 37.5}
+        - {x: -7, y: 35.5}
+    - name: MAGMAR_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 38.5}
+        - {x: -32, y: 38.5}
+        - {x: -51, y: 22.5}
+        - {x: -51, y: -41.5}
+        - {x: 49, y: -41.5}
+        - {x: 49, y: -2.5}
+        - {x: 38, y: 28.5}
+    - name: MAGMAR_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 38.5}
+        - {x: -19, y: 38.5}
+        - {x: -51, y: 5.5}
+        - {x: -51, y: -37.5}
+        - {x: -33, y: -41.5}
+        - {x: 49, y: -41.5}
+        - {x: 49, y: 7.5}
+    - name: MAGMAR_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 39.5}
+        - {x: -51, y: -32.5}
+        - {x: -41, y: -41.5}
+        - {x: 49, y: -41.5}
+        - {x: 49, y: 39.5}
+    - name: MAGMAR_10
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 39.5}
+        - {x: -6, y: 32.5}
+        - {x: -45, y: 9.5}
+        - {x: -51, y: 4.5}
+        - {x: -51, y: -29.5}
+        - {x: -45, y: -41.5}
+        - {x: 46, y: -41.5}
+        - {x: 49, y: -38.5}
+        - {x: 49, y: -1.5}
+        - {x: 23, y: 39.5}
+    - name: MAGMAR_11
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 913
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -11.5}
+        - {x: 48, y: -9.5}
+        - {x: 33, y: 24.5}
+        - {x: 12, y: 40.5}
+        - {x: -3, y: 40.5}
+        - {x: -13, y: 21.5}
+        - {x: -18, y: -7.5}
+        - {x: -38, y: 10.5}
+        - {x: -48, y: 12.5}
+        - {x: -51, y: -1.5}
+        - {x: -51, y: -30.5}
+        - {x: -31, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 49, y: -28.5}
+    - name: MAGMAR_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 3.5}
+        - {x: 22, y: 41.5}
+        - {x: 0, y: 41.5}
+        - {x: -4, y: 38.5}
+        - {x: -18, y: 2.5}
+        - {x: -41, y: 11.5}
+        - {x: -51, y: 5.5}
+        - {x: -51, y: -37.5}
+        - {x: -28, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+        - {x: 49, y: -23.5}
+    - name: MAGMAR_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 41.5}
+        - {x: 3, y: 41.5}
+        - {x: -3, y: 37.5}
+        - {x: -14, y: 20.5}
+        - {x: -17, y: -11.5}
+        - {x: -41, y: 10.5}
+        - {x: -50, y: 0.5}
+        - {x: -51, y: -8.5}
+        - {x: -51, y: -27.5}
+        - {x: -32, y: -39.5}
+        - {x: -25, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 49, y: -29.5}
+        - {x: 49, y: -5.5}
+        - {x: 34, y: 27.5}
+    - name: MAGMAR_14
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 41.5}
+        - {x: -51, y: 8.5}
+        - {x: -51, y: -30.5}
+        - {x: -41, y: -41.5}
+        - {x: 48, y: -41.5}
+        - {x: 49, y: -39.5}
+        - {x: 49, y: 2.5}
+        - {x: 22, y: 41.5}
+    - name: MAGMAR_15
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 41.5}
+        - {x: -51, y: 35.5}
+        - {x: -51, y: -29.5}
+        - {x: -33, y: -41.5}
+        - {x: 43, y: -41.5}
+        - {x: 50, y: -25.5}
+        - {x: 50, y: 7.5}
+        - {x: 39, y: 41.5}
+    - name: MAGMAR_16
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 41.5}
+        - {x: 3, y: 41.5}
+        - {x: -5, y: 35.5}
+        - {x: -17, y: 0.5}
+        - {x: -15, y: -9.5}
+        - {x: -32, y: 7.5}
+        - {x: -39, y: 5.5}
+        - {x: -47, y: -1.5}
+        - {x: -50, y: -11.5}
+        - {x: -50, y: -32.5}
+        - {x: -36, y: -41.5}
+        - {x: 46, y: -41.5}
+        - {x: 50, y: -35.5}
+        - {x: 50, y: 4.5}
+        - {x: 36, y: 38.5}
+    - name: MAGMAR_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 41.5}
+        - {x: -15, y: 41.5}
+        - {x: -47, y: -0.5}
+        - {x: -49, y: -11.5}
+        - {x: -49, y: -33.5}
+        - {x: -30, y: -41.5}
+        - {x: 51, y: -41.5}
+        - {x: 51, y: 0.5}
+        - {x: 32, y: 26.5}
+    - name: MAGMAR_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 41.5}
+        - {x: -50, y: -3.5}
+        - {x: -50, y: -35.5}
+        - {x: -44, y: -41.5}
+        - {x: 51, y: -41.5}
+        - {x: 51, y: 16.5}
+        - {x: 19, y: 41.5}
+    - name: MAGMAR_19
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 41.5}
+        - {x: -50, y: 40.5}
+        - {x: -50, y: -33.5}
+        - {x: -42, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 51, y: -24.5}
+        - {x: 51, y: 11.5}
+        - {x: 40, y: 41.5}
+    - name: MAGMAR_20
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -22.5}
+        - {x: 51, y: -19.5}
+        - {x: 51, y: 2.5}
+        - {x: 26, y: 41.5}
+        - {x: -15, y: 41.5}
+        - {x: -49, y: 17.5}
+        - {x: -49, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_21
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 41.5}
+        - {x: -15, y: 10.5}
+        - {x: -16, y: -8.5}
+        - {x: -41, y: 6.5}
+        - {x: -48, y: -1.5}
+        - {x: -48, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 51, y: -28.5}
+        - {x: 51, y: 10.5}
+        - {x: 19, y: 41.5}
+    - name: MAGMAR_22
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 30.5}
+        - {x: 15, y: 41.5}
+        - {x: -11, y: 41.5}
+        - {x: -39, y: 6.5}
+        - {x: -49, y: -9.5}
+        - {x: -49, y: -35.5}
+        - {x: -47, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 51, y: -26.5}
+        - {x: 51, y: 12.5}
+    - name: MAGMAR_23
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 830
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 41.5}
+        - {x: -11, y: 20.5}
+        - {x: -15, y: -8.5}
+        - {x: -38, y: -3.5}
+        - {x: -41, y: -4.5}
+        - {x: -49, y: -6.5}
+        - {x: -49, y: -41.5}
+        - {x: 45, y: -41.5}
+        - {x: 51, y: -20.5}
+        - {x: 51, y: -0.5}
+        - {x: 18, y: 41.5}
+    - name: MAGMAR_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 0.5}
+        - {x: 19, y: 41.5}
+        - {x: -4, y: 41.5}
+        - {x: -6, y: 36.5}
+        - {x: -49, y: -7.5}
+        - {x: -49, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 35, y: -34.5}
+        - {x: 51, y: -19.5}
+    - name: MAGMAR_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -2.5}
+        - {x: 26, y: 35.5}
+        - {x: 12, y: 41.5}
+        - {x: -18, y: 41.5}
+        - {x: -48, y: 18.5}
+        - {x: -48, y: -40.5}
+        - {x: -46, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 35, y: -34.5}
+        - {x: 51, y: -19.5}
+    - name: MAGMAR_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -23.5}
+        - {x: 51, y: 13.5}
+        - {x: 42, y: 41.5}
+        - {x: -38, y: 41.5}
+        - {x: -47, y: 36.5}
+        - {x: -47, y: -40.5}
+        - {x: -46, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_27
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 6.5}
+        - {x: 39, y: 33.5}
+        - {x: 32, y: 40.5}
+        - {x: -17, y: 40.5}
+        - {x: -47, y: 17.5}
+        - {x: -47, y: -39.5}
+        - {x: -46, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 51, y: -29.5}
+    - name: MAGMAR_28
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 40.5}
+        - {x: -29, y: 40.5}
+        - {x: -47, y: 28.5}
+        - {x: -47, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 51, y: -21.5}
+        - {x: 51, y: 2.5}
+        - {x: 27, y: 32.5}
+    - name: MAGMAR_29
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 40.5}
+        - {x: -40, y: 40.5}
+        - {x: -47, y: 35.5}
+        - {x: -47, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 51, y: -25.5}
+        - {x: 51, y: 33.5}
+    - name: MAGMAR_30
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -23.5}
+        - {x: 51, y: -20.5}
+        - {x: 51, y: 6.5}
+        - {x: 21, y: 40.5}
+        - {x: -8, y: 40.5}
+        - {x: -17, y: 34.5}
+        - {x: -42, y: 4.5}
+        - {x: -47, y: -3.5}
+        - {x: -47, y: -30.5}
+        - {x: -41, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 39, y: -40.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_31
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 39.5}
+        - {x: -12, y: 39.5}
+        - {x: -47, y: 17.5}
+        - {x: -47, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -37.5}
+        - {x: 51, y: -26.5}
+        - {x: 51, y: 2.5}
+    - name: MAGMAR_32
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -27.5}
+        - {x: 51, y: -20.5}
+        - {x: 51, y: -13.5}
+        - {x: 49, y: -8.5}
+        - {x: 32, y: 25.5}
+        - {x: 22, y: 39.5}
+        - {x: -7, y: 39.5}
+        - {x: -19, y: 36.5}
+        - {x: -46, y: 13.5}
+        - {x: -46, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_33
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 4.5}
+        - {x: 42, y: 35.5}
+        - {x: 23, y: 39.5}
+        - {x: -23, y: 39.5}
+        - {x: -46, y: 12.5}
+        - {x: -46, y: -37.5}
+        - {x: -38, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+        - {x: 50, y: -27.5}
+    - name: MAGMAR_34
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -10.5}
+        - {x: 38, y: -0.5}
+        - {x: 31, y: 25.5}
+        - {x: 13, y: 37.5}
+        - {x: 1, y: 37.5}
+        - {x: -7, y: 35.5}
+        - {x: -11, y: 29.5}
+        - {x: -19, y: -7.5}
+        - {x: -43, y: 0.5}
+        - {x: -45, y: -0.5}
+        - {x: -45, y: -24.5}
+        - {x: -35, y: -35.5}
+        - {x: -26, y: -40.5}
+        - {x: -22, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 48, y: -27.5}
+        - {x: 50, y: -21.5}
+    - name: MAGMAR_35
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 747
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 37.5}
+        - {x: -44, y: -36.5}
+        - {x: -40, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 49, y: -28.5}
+        - {x: 49, y: 17.5}
+        - {x: 40, y: 37.5}
+    - name: MAGMAR_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 36.5}
+        - {x: -42, y: 9.5}
+        - {x: -42, y: -24.5}
+        - {x: -39, y: -32.5}
+        - {x: -22, y: -41.5}
+        - {x: 49, y: -41.5}
+        - {x: 49, y: 7.5}
+        - {x: 24, y: 36.5}
+    - name: MAGMAR_37
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -10.5}
+        - {x: 32, y: 35.5}
+        - {x: 29, y: 36.5}
+        - {x: -20, y: 36.5}
+        - {x: -42, y: 3.5}
+        - {x: -42, y: -10.5}
+        - {x: -37, y: -30.5}
+        - {x: -21, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 49, y: -21.5}
+        - {x: 49, y: -15.5}
+    - name: MAGMAR_38
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -6.5}
+        - {x: -40, y: -13.5}
+        - {x: -34, y: -31.5}
+        - {x: -26, y: -41.5}
+        - {x: 48, y: -41.5}
+        - {x: 48, y: 7.5}
+        - {x: 42, y: 37.5}
+        - {x: -13, y: 37.5}
+        - {x: -41, y: 7.5}
+    - name: MAGMAR_39
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -25.5}
+        - {x: 48, y: 8.5}
+        - {x: 28, y: 38.5}
+        - {x: -21, y: 38.5}
+        - {x: -40, y: 22.5}
+        - {x: -40, y: -17.5}
+        - {x: -31, y: -38.5}
+        - {x: -20, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+        - {x: 46, y: -28.5}
+    - name: MAGMAR_40
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 39.5}
+        - {x: -19, y: 39.5}
+        - {x: -39, y: 11.5}
+        - {x: -39, y: -28.5}
+        - {x: -20, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 48, y: -25.5}
+        - {x: 48, y: 2.5}
+        - {x: 32, y: 37.5}
+    - name: MAGMAR_41
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 40.5}
+        - {x: -38, y: 19.5}
+        - {x: -38, y: -39.5}
+        - {x: -29, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 48, y: -34.5}
+        - {x: 48, y: 12.5}
+        - {x: 26, y: 40.5}
+    - name: MAGMAR_42
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -27.5}
+        - {x: 48, y: -24.5}
+        - {x: 48, y: 7.5}
+        - {x: 21, y: 41.5}
+        - {x: -13, y: 41.5}
+        - {x: -37, y: 15.5}
+        - {x: -37, y: -29.5}
+        - {x: -21, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 39, y: -40.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_43
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 41.5}
+        - {x: -37, y: -32.5}
+        - {x: -28, y: -41.5}
+        - {x: 47, y: -41.5}
+        - {x: 49, y: -28.5}
+        - {x: 49, y: -6.5}
+        - {x: 24, y: 41.5}
+    - name: MAGMAR_44
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 15.5}
+        - {x: 24, y: 41.5}
+        - {x: -17, y: 41.5}
+        - {x: -37, y: 12.5}
+        - {x: -37, y: -33.5}
+        - {x: -30, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 48, y: -27.5}
+        - {x: 49, y: -24.5}
+    - name: MAGMAR_45
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 41.5}
+        - {x: -6, y: 36.5}
+        - {x: -10, y: 19.5}
+        - {x: -18, y: -9.5}
+        - {x: -20, y: -2.5}
+        - {x: -32, y: 7.5}
+        - {x: -37, y: -2.5}
+        - {x: -37, y: -28.5}
+        - {x: -33, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 49, y: -36.5}
+        - {x: 49, y: 9.5}
+        - {x: 14, y: 41.5}
+    - name: MAGMAR_46
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 41.5}
+        - {x: -5, y: 35.5}
+        - {x: -10, y: 22.5}
+        - {x: -28, y: 13.5}
+        - {x: -34, y: 3.5}
+        - {x: -38, y: -9.5}
+        - {x: -38, y: -30.5}
+        - {x: -29, y: -41.5}
+        - {x: 45, y: -41.5}
+        - {x: 50, y: -33.5}
+        - {x: 50, y: -0.5}
+        - {x: 23, y: 41.5}
+    - name: MAGMAR_47
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 664
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -23.5}
+        - {x: 50, y: -21.5}
+        - {x: 50, y: -0.5}
+        - {x: 23, y: 41.5}
+        - {x: -12, y: 41.5}
+        - {x: -39, y: 8.5}
+        - {x: -39, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -20.5}
+        - {x: 51, y: -16.5}
+        - {x: 51, y: -8.5}
+        - {x: 48, y: 4.5}
+        - {x: 21, y: 41.5}
+        - {x: -6, y: 41.5}
+        - {x: -20, y: 21.5}
+        - {x: -31, y: 4.5}
+        - {x: -40, y: -12.5}
+        - {x: -40, y: -29.5}
+        - {x: -39, y: -32.5}
+        - {x: -28, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_49
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -34.5}
+        - {x: 50, y: -22.5}
+        - {x: 51, y: -16.5}
+        - {x: 51, y: -7.5}
+        - {x: 46, y: -2.5}
+        - {x: 37, y: 3.5}
+        - {x: 36, y: 3.5}
+        - {x: 31, y: 25.5}
+        - {x: 18, y: 41.5}
+        - {x: -2, y: 41.5}
+        - {x: -9, y: 39.5}
+        - {x: -38, y: 0.5}
+        - {x: -41, y: -7.5}
+        - {x: -41, y: -38.5}
+        - {x: -33, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+    - name: MAGMAR_50
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -25.5}
+        - {x: 51, y: -3.5}
+        - {x: 29, y: 27.5}
+        - {x: 13, y: 41.5}
+        - {x: 0, y: 41.5}
+        - {x: -6, y: 37.5}
+        - {x: -13, y: 21.5}
+        - {x: -14, y: -8.5}
+        - {x: -11, y: -14.5}
+        - {x: -24, y: 3.5}
+        - {x: -26, y: 5.5}
+        - {x: -28, y: 6.5}
+        - {x: -42, y: -14.5}
+        - {x: -42, y: -35.5}
+        - {x: -38, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_51
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 7.5}
+        - {x: 36, y: 40.5}
+        - {x: 35, y: 41.5}
+        - {x: -21, y: 41.5}
+        - {x: -43, y: 19.5}
+        - {x: -43, y: -39.5}
+        - {x: -42, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 51, y: -30.5}
+    - name: MAGMAR_52
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 41.5}
+        - {x: -19, y: 20.5}
+        - {x: -16, y: -9.5}
+        - {x: -26, y: -2.5}
+        - {x: -29, y: -2.5}
+        - {x: -41, y: -11.5}
+        - {x: -45, y: -25.5}
+        - {x: -45, y: -41.5}
+        - {x: 46, y: -41.5}
+        - {x: 51, y: -35.5}
+        - {x: 51, y: 0.5}
+        - {x: 23, y: 41.5}
+    - name: MAGMAR_53
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -5.5}
+        - {x: 49, y: -0.5}
+        - {x: 29, y: 27.5}
+        - {x: 17, y: 41.5}
+        - {x: -13, y: 41.5}
+        - {x: -46, y: -16.5}
+        - {x: -46, y: -40.5}
+        - {x: -43, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 35, y: -34.5}
+        - {x: 51, y: -23.5}
+    - name: MAGMAR_54
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 37.5}
+        - {x: 28, y: 41.5}
+        - {x: -17, y: 41.5}
+        - {x: -47, y: -25.5}
+        - {x: -47, y: -37.5}
+        - {x: -44, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 51, y: -23.5}
+        - {x: 51, y: 15.5}
+    - name: MAGMAR_55
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 41.5}
+        - {x: -26, y: 41.5}
+        - {x: -47, y: -10.5}
+        - {x: -47, y: -36.5}
+        - {x: -45, y: -41.5}
+        - {x: 48, y: -41.5}
+        - {x: 51, y: -35.5}
+        - {x: 51, y: 4.5}
+    - name: MAGMAR_56
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 16.5}
+        - {x: 43, y: 41.5}
+        - {x: -28, y: 41.5}
+        - {x: -41, y: 3.5}
+        - {x: -47, y: -19.5}
+        - {x: -47, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 51, y: -31.5}
+    - name: MAGMAR_57
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 41.5}
+        - {x: 6, y: 41.5}
+        - {x: -11, y: 36.5}
+        - {x: -16, y: -8.5}
+        - {x: -30, y: -3.5}
+        - {x: -48, y: -18.5}
+        - {x: -48, y: -38.5}
+        - {x: -45, y: -41.5}
+        - {x: 46, y: -41.5}
+        - {x: 51, y: -29.5}
+        - {x: 51, y: 6.5}
+        - {x: 32, y: 26.5}
+    - name: MAGMAR_58
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 40.5}
+        - {x: -10, y: 40.5}
+        - {x: -47, y: -17.5}
+        - {x: -50, y: -24.5}
+        - {x: -50, y: -41.5}
+        - {x: 45, y: -41.5}
+        - {x: 51, y: -33.5}
+        - {x: 51, y: 1.5}
+        - {x: 36, y: 31.5}
+    - name: MAGMAR_59
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 581
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 40.5}
+        - {x: -4, y: 40.5}
+        - {x: -15, y: 39.5}
+        - {x: -51, y: -14.5}
+        - {x: -51, y: -38.5}
+        - {x: -46, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 51, y: -33.5}
+        - {x: 51, y: 6.5}
+        - {x: 39, y: 30.5}
+    - name: MAGMAR_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 9.5}
+        - {x: 43, y: 35.5}
+        - {x: 27, y: 40.5}
+        - {x: 3, y: 40.5}
+        - {x: -8, y: 32.5}
+        - {x: -35, y: 12.5}
+        - {x: -50, y: -8.5}
+        - {x: -51, y: -16.5}
+        - {x: -51, y: -37.5}
+        - {x: -44, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 51, y: -31.5}
+    - name: MAGMAR_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 11.5}
+        - {x: 42, y: 36.5}
+        - {x: 28, y: 39.5}
+        - {x: -23, y: 39.5}
+        - {x: -39, y: 6.5}
+        - {x: -51, y: -18.5}
+        - {x: -51, y: -34.5}
+        - {x: -45, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+        - {x: 51, y: -29.5}
+    - name: MAGMAR_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -26.5}
+        - {x: 51, y: -23.5}
+        - {x: 51, y: 7.5}
+        - {x: 32, y: 38.5}
+        - {x: -7, y: 38.5}
+        - {x: -51, y: -8.5}
+        - {x: -51, y: -35.5}
+        - {x: -36, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 39, y: -40.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_63
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -22.5}
+        - {x: 51, y: 11.5}
+        - {x: 37, y: 38.5}
+        - {x: -25, y: 38.5}
+        - {x: -51, y: 20.5}
+        - {x: -51, y: -34.5}
+        - {x: -34, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 49, y: -28.5}
+    - name: MAGMAR_64
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -41.5}
+        - {x: 50, y: -41.5}
+        - {x: 50, y: 9.5}
+        - {x: 33, y: 36.5}
+        - {x: -13, y: 36.5}
+        - {x: -51, y: 7.5}
+        - {x: -51, y: -39.5}
+    - name: MAGMAR_65
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -12.5}
+        - {x: 35, y: 32.5}
+        - {x: 22, y: 36.5}
+        - {x: -10, y: 36.5}
+        - {x: -16, y: 20.5}
+        - {x: -38, y: 5.5}
+        - {x: -51, y: -5.5}
+        - {x: -51, y: -39.5}
+        - {x: -34, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -37.5}
+        - {x: 50, y: -23.5}
+    - name: MAGMAR_66
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 19.5}
+        - {x: -43, y: 9.5}
+        - {x: -51, y: -2.5}
+        - {x: -51, y: -35.5}
+        - {x: -39, y: -41.5}
+        - {x: 50, y: -41.5}
+        - {x: 50, y: 17.5}
+        - {x: 48, y: 33.5}
+        - {x: 21, y: 37.5}
+        - {x: -5, y: 37.5}
+        - {x: -7, y: 35.5}
+    - name: MAGMAR_67
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 38.5}
+        - {x: -32, y: 38.5}
+        - {x: -51, y: 22.5}
+        - {x: -51, y: -41.5}
+        - {x: 49, y: -41.5}
+        - {x: 49, y: -2.5}
+        - {x: 38, y: 28.5}
+    - name: MAGMAR_68
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 38.5}
+        - {x: -19, y: 38.5}
+        - {x: -51, y: 5.5}
+        - {x: -51, y: -37.5}
+        - {x: -33, y: -41.5}
+        - {x: 49, y: -41.5}
+        - {x: 49, y: 7.5}
+    - name: MAGMAR_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 39.5}
+        - {x: -51, y: -32.5}
+        - {x: -41, y: -41.5}
+        - {x: 49, y: -41.5}
+        - {x: 49, y: 39.5}
+    - name: MAGMAR_70
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 39.5}
+        - {x: -6, y: 32.5}
+        - {x: -45, y: 9.5}
+        - {x: -51, y: 4.5}
+        - {x: -51, y: -29.5}
+        - {x: -45, y: -41.5}
+        - {x: 46, y: -41.5}
+        - {x: 49, y: -38.5}
+        - {x: 49, y: -1.5}
+        - {x: 23, y: 39.5}
+    - name: MAGMAR_71
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 498
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -11.5}
+        - {x: 48, y: -9.5}
+        - {x: 33, y: 24.5}
+        - {x: 12, y: 40.5}
+        - {x: -3, y: 40.5}
+        - {x: -13, y: 21.5}
+        - {x: -18, y: -7.5}
+        - {x: -38, y: 10.5}
+        - {x: -48, y: 12.5}
+        - {x: -51, y: -1.5}
+        - {x: -51, y: -30.5}
+        - {x: -31, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 49, y: -28.5}
+    - name: MAGMAR_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 3.5}
+        - {x: 22, y: 41.5}
+        - {x: 0, y: 41.5}
+        - {x: -4, y: 38.5}
+        - {x: -18, y: 2.5}
+        - {x: -41, y: 11.5}
+        - {x: -51, y: 5.5}
+        - {x: -51, y: -37.5}
+        - {x: -28, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+        - {x: 49, y: -23.5}
+    - name: MAGMAR_73
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 41.5}
+        - {x: 3, y: 41.5}
+        - {x: -3, y: 37.5}
+        - {x: -14, y: 20.5}
+        - {x: -17, y: -11.5}
+        - {x: -41, y: 10.5}
+        - {x: -50, y: 0.5}
+        - {x: -51, y: -8.5}
+        - {x: -51, y: -27.5}
+        - {x: -32, y: -39.5}
+        - {x: -25, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 49, y: -29.5}
+        - {x: 49, y: -5.5}
+        - {x: 34, y: 27.5}
+    - name: MAGMAR_74
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 41.5}
+        - {x: -51, y: 8.5}
+        - {x: -51, y: -30.5}
+        - {x: -41, y: -41.5}
+        - {x: 48, y: -41.5}
+        - {x: 49, y: -39.5}
+        - {x: 49, y: 2.5}
+        - {x: 22, y: 41.5}
+    - name: MAGMAR_75
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 41.5}
+        - {x: -51, y: 35.5}
+        - {x: -51, y: -29.5}
+        - {x: -33, y: -41.5}
+        - {x: 43, y: -41.5}
+        - {x: 50, y: -25.5}
+        - {x: 50, y: 7.5}
+        - {x: 39, y: 41.5}
+    - name: MAGMAR_76
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 41.5}
+        - {x: 3, y: 41.5}
+        - {x: -5, y: 35.5}
+        - {x: -17, y: 0.5}
+        - {x: -15, y: -9.5}
+        - {x: -32, y: 7.5}
+        - {x: -39, y: 5.5}
+        - {x: -47, y: -1.5}
+        - {x: -50, y: -11.5}
+        - {x: -50, y: -32.5}
+        - {x: -36, y: -41.5}
+        - {x: 46, y: -41.5}
+        - {x: 50, y: -35.5}
+        - {x: 50, y: 4.5}
+        - {x: 36, y: 38.5}
+    - name: MAGMAR_77
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 41.5}
+        - {x: -15, y: 41.5}
+        - {x: -47, y: -0.5}
+        - {x: -49, y: -11.5}
+        - {x: -49, y: -33.5}
+        - {x: -30, y: -41.5}
+        - {x: 51, y: -41.5}
+        - {x: 51, y: 0.5}
+        - {x: 32, y: 26.5}
+    - name: MAGMAR_78
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 41.5}
+        - {x: -50, y: -3.5}
+        - {x: -50, y: -35.5}
+        - {x: -44, y: -41.5}
+        - {x: 51, y: -41.5}
+        - {x: 51, y: 16.5}
+        - {x: 19, y: 41.5}
+    - name: MAGMAR_79
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 41.5}
+        - {x: -50, y: 40.5}
+        - {x: -50, y: -33.5}
+        - {x: -42, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 51, y: -24.5}
+        - {x: 51, y: 11.5}
+        - {x: 40, y: 41.5}
+    - name: MAGMAR_80
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -22.5}
+        - {x: 51, y: -19.5}
+        - {x: 51, y: 2.5}
+        - {x: 26, y: 41.5}
+        - {x: -15, y: 41.5}
+        - {x: -49, y: 17.5}
+        - {x: -49, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_81
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 41.5}
+        - {x: -15, y: 10.5}
+        - {x: -16, y: -8.5}
+        - {x: -41, y: 6.5}
+        - {x: -48, y: -1.5}
+        - {x: -48, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 51, y: -28.5}
+        - {x: 51, y: 10.5}
+        - {x: 19, y: 41.5}
+    - name: MAGMAR_82
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 30.5}
+        - {x: 15, y: 41.5}
+        - {x: -11, y: 41.5}
+        - {x: -39, y: 6.5}
+        - {x: -49, y: -9.5}
+        - {x: -49, y: -35.5}
+        - {x: -47, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 51, y: -26.5}
+        - {x: 51, y: 12.5}
+    - name: MAGMAR_83
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 415
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 41.5}
+        - {x: -11, y: 20.5}
+        - {x: -15, y: -8.5}
+        - {x: -38, y: -3.5}
+        - {x: -41, y: -4.5}
+        - {x: -49, y: -6.5}
+        - {x: -49, y: -41.5}
+        - {x: 45, y: -41.5}
+        - {x: 51, y: -20.5}
+        - {x: 51, y: -0.5}
+        - {x: 18, y: 41.5}
+    - name: MAGMAR_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 0.5}
+        - {x: 19, y: 41.5}
+        - {x: -4, y: 41.5}
+        - {x: -6, y: 36.5}
+        - {x: -49, y: -7.5}
+        - {x: -49, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 35, y: -34.5}
+        - {x: 51, y: -19.5}
+    - name: MAGMAR_85
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -2.5}
+        - {x: 26, y: 35.5}
+        - {x: 12, y: 41.5}
+        - {x: -18, y: 41.5}
+        - {x: -48, y: 18.5}
+        - {x: -48, y: -40.5}
+        - {x: -46, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 35, y: -34.5}
+        - {x: 51, y: -19.5}
+    - name: MAGMAR_86
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -23.5}
+        - {x: 51, y: 13.5}
+        - {x: 42, y: 41.5}
+        - {x: -38, y: 41.5}
+        - {x: -47, y: 36.5}
+        - {x: -47, y: -40.5}
+        - {x: -46, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_87
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 6.5}
+        - {x: 39, y: 33.5}
+        - {x: 32, y: 40.5}
+        - {x: -17, y: 40.5}
+        - {x: -47, y: 17.5}
+        - {x: -47, y: -39.5}
+        - {x: -46, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 51, y: -29.5}
+    - name: MAGMAR_88
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 40.5}
+        - {x: -29, y: 40.5}
+        - {x: -47, y: 28.5}
+        - {x: -47, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 51, y: -21.5}
+        - {x: 51, y: 2.5}
+        - {x: 27, y: 32.5}
+    - name: MAGMAR_89
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 40.5}
+        - {x: -40, y: 40.5}
+        - {x: -47, y: 35.5}
+        - {x: -47, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 51, y: -25.5}
+        - {x: 51, y: 33.5}
+    - name: MAGMAR_90
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -23.5}
+        - {x: 51, y: -20.5}
+        - {x: 51, y: 6.5}
+        - {x: 21, y: 40.5}
+        - {x: -8, y: 40.5}
+        - {x: -17, y: 34.5}
+        - {x: -42, y: 4.5}
+        - {x: -47, y: -3.5}
+        - {x: -47, y: -30.5}
+        - {x: -41, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 39, y: -40.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_91
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 39.5}
+        - {x: -12, y: 39.5}
+        - {x: -47, y: 17.5}
+        - {x: -47, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -37.5}
+        - {x: 51, y: -26.5}
+        - {x: 51, y: 2.5}
+    - name: MAGMAR_92
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -27.5}
+        - {x: 51, y: -20.5}
+        - {x: 51, y: -13.5}
+        - {x: 49, y: -8.5}
+        - {x: 32, y: 25.5}
+        - {x: 22, y: 39.5}
+        - {x: -7, y: 39.5}
+        - {x: -19, y: 36.5}
+        - {x: -46, y: 13.5}
+        - {x: -46, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_93
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 4.5}
+        - {x: 42, y: 35.5}
+        - {x: 23, y: 39.5}
+        - {x: -23, y: 39.5}
+        - {x: -46, y: 12.5}
+        - {x: -46, y: -37.5}
+        - {x: -38, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+        - {x: 50, y: -27.5}
+    - name: MAGMAR_94
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: -10.5}
+        - {x: 38, y: -0.5}
+        - {x: 31, y: 25.5}
+        - {x: 13, y: 37.5}
+        - {x: 1, y: 37.5}
+        - {x: -7, y: 35.5}
+        - {x: -11, y: 29.5}
+        - {x: -19, y: -7.5}
+        - {x: -43, y: 0.5}
+        - {x: -45, y: -0.5}
+        - {x: -45, y: -24.5}
+        - {x: -35, y: -35.5}
+        - {x: -26, y: -40.5}
+        - {x: -22, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 48, y: -27.5}
+        - {x: 50, y: -21.5}
+    - name: MAGMAR_95
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 332
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 37.5}
+        - {x: -44, y: -36.5}
+        - {x: -40, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 49, y: -28.5}
+        - {x: 49, y: 17.5}
+        - {x: 40, y: 37.5}
+    - name: MAGMAR_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 36.5}
+        - {x: -42, y: 9.5}
+        - {x: -42, y: -24.5}
+        - {x: -39, y: -32.5}
+        - {x: -22, y: -41.5}
+        - {x: 49, y: -41.5}
+        - {x: 49, y: 7.5}
+        - {x: 24, y: 36.5}
+    - name: MAGMAR_97
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -10.5}
+        - {x: 32, y: 35.5}
+        - {x: 29, y: 36.5}
+        - {x: -20, y: 36.5}
+        - {x: -42, y: 3.5}
+        - {x: -42, y: -10.5}
+        - {x: -37, y: -30.5}
+        - {x: -21, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 49, y: -21.5}
+        - {x: 49, y: -15.5}
+    - name: MAGMAR_98
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -6.5}
+        - {x: -40, y: -13.5}
+        - {x: -34, y: -31.5}
+        - {x: -26, y: -41.5}
+        - {x: 48, y: -41.5}
+        - {x: 48, y: 7.5}
+        - {x: 42, y: 37.5}
+        - {x: -13, y: 37.5}
+        - {x: -41, y: 7.5}
+    - name: MAGMAR_99
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -25.5}
+        - {x: 48, y: 8.5}
+        - {x: 28, y: 38.5}
+        - {x: -21, y: 38.5}
+        - {x: -40, y: 22.5}
+        - {x: -40, y: -17.5}
+        - {x: -31, y: -38.5}
+        - {x: -20, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+        - {x: 46, y: -28.5}
+    - name: MAGMAR_100
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 39.5}
+        - {x: -19, y: 39.5}
+        - {x: -39, y: 11.5}
+        - {x: -39, y: -28.5}
+        - {x: -20, y: -41.5}
+        - {x: 40, y: -41.5}
+        - {x: 48, y: -25.5}
+        - {x: 48, y: 2.5}
+        - {x: 32, y: 37.5}
+    - name: MAGMAR_101
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 40.5}
+        - {x: -38, y: 19.5}
+        - {x: -38, y: -39.5}
+        - {x: -29, y: -41.5}
+        - {x: 44, y: -41.5}
+        - {x: 48, y: -34.5}
+        - {x: 48, y: 12.5}
+        - {x: 26, y: 40.5}
+    - name: MAGMAR_102
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -27.5}
+        - {x: 48, y: -24.5}
+        - {x: 48, y: 7.5}
+        - {x: 21, y: 41.5}
+        - {x: -13, y: 41.5}
+        - {x: -37, y: 15.5}
+        - {x: -37, y: -29.5}
+        - {x: -21, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 39, y: -40.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_103
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 41.5}
+        - {x: -37, y: -32.5}
+        - {x: -28, y: -41.5}
+        - {x: 47, y: -41.5}
+        - {x: 49, y: -28.5}
+        - {x: 49, y: -6.5}
+        - {x: 24, y: 41.5}
+    - name: MAGMAR_104
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 15.5}
+        - {x: 24, y: 41.5}
+        - {x: -17, y: 41.5}
+        - {x: -37, y: 12.5}
+        - {x: -37, y: -33.5}
+        - {x: -30, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 48, y: -27.5}
+        - {x: 49, y: -24.5}
+    - name: MAGMAR_105
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 41.5}
+        - {x: -6, y: 36.5}
+        - {x: -10, y: 19.5}
+        - {x: -18, y: -9.5}
+        - {x: -20, y: -2.5}
+        - {x: -32, y: 7.5}
+        - {x: -37, y: -2.5}
+        - {x: -37, y: -28.5}
+        - {x: -33, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 49, y: -36.5}
+        - {x: 49, y: 9.5}
+        - {x: 14, y: 41.5}
+    - name: MAGMAR_106
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 41.5}
+        - {x: -5, y: 35.5}
+        - {x: -10, y: 22.5}
+        - {x: -28, y: 13.5}
+        - {x: -34, y: 3.5}
+        - {x: -38, y: -9.5}
+        - {x: -38, y: -30.5}
+        - {x: -29, y: -41.5}
+        - {x: 45, y: -41.5}
+        - {x: 50, y: -33.5}
+        - {x: 50, y: -0.5}
+        - {x: 23, y: 41.5}
+    - name: MAGMAR_107
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 249
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -23.5}
+        - {x: 50, y: -21.5}
+        - {x: 50, y: -0.5}
+        - {x: 23, y: 41.5}
+        - {x: -12, y: 41.5}
+        - {x: -39, y: 8.5}
+        - {x: -39, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -20.5}
+        - {x: 51, y: -16.5}
+        - {x: 51, y: -8.5}
+        - {x: 48, y: 4.5}
+        - {x: 21, y: 41.5}
+        - {x: -6, y: 41.5}
+        - {x: -20, y: 21.5}
+        - {x: -31, y: 4.5}
+        - {x: -40, y: -12.5}
+        - {x: -40, y: -29.5}
+        - {x: -39, y: -32.5}
+        - {x: -28, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_109
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -34.5}
+        - {x: 50, y: -22.5}
+        - {x: 51, y: -16.5}
+        - {x: 51, y: -7.5}
+        - {x: 46, y: -2.5}
+        - {x: 37, y: 3.5}
+        - {x: 36, y: 3.5}
+        - {x: 31, y: 25.5}
+        - {x: 18, y: 41.5}
+        - {x: -2, y: 41.5}
+        - {x: -9, y: 39.5}
+        - {x: -38, y: 0.5}
+        - {x: -41, y: -7.5}
+        - {x: -41, y: -38.5}
+        - {x: -33, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+    - name: MAGMAR_110
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -25.5}
+        - {x: 51, y: -3.5}
+        - {x: 29, y: 27.5}
+        - {x: 13, y: 41.5}
+        - {x: 0, y: 41.5}
+        - {x: -6, y: 37.5}
+        - {x: -13, y: 21.5}
+        - {x: -14, y: -8.5}
+        - {x: -11, y: -14.5}
+        - {x: -24, y: 3.5}
+        - {x: -26, y: 5.5}
+        - {x: -28, y: 6.5}
+        - {x: -42, y: -14.5}
+        - {x: -42, y: -35.5}
+        - {x: -38, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    - name: MAGMAR_111
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 7.5}
+        - {x: 36, y: 40.5}
+        - {x: 35, y: 41.5}
+        - {x: -21, y: 41.5}
+        - {x: -43, y: 19.5}
+        - {x: -43, y: -39.5}
+        - {x: -42, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 51, y: -30.5}
+    - name: MAGMAR_112
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 41.5}
+        - {x: -19, y: 20.5}
+        - {x: -16, y: -9.5}
+        - {x: -26, y: -2.5}
+        - {x: -29, y: -2.5}
+        - {x: -41, y: -11.5}
+        - {x: -45, y: -25.5}
+        - {x: -45, y: -41.5}
+        - {x: 46, y: -41.5}
+        - {x: 51, y: -35.5}
+        - {x: 51, y: 0.5}
+        - {x: 23, y: 41.5}
+    - name: MAGMAR_113
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -5.5}
+        - {x: 49, y: -0.5}
+        - {x: 29, y: 27.5}
+        - {x: 17, y: 41.5}
+        - {x: -13, y: 41.5}
+        - {x: -46, y: -16.5}
+        - {x: -46, y: -40.5}
+        - {x: -43, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 40, y: -37.5}
+        - {x: 35, y: -34.5}
+        - {x: 51, y: -23.5}
+    - name: MAGMAR_114
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 37.5}
+        - {x: 28, y: 41.5}
+        - {x: -17, y: 41.5}
+        - {x: -47, y: -25.5}
+        - {x: -47, y: -37.5}
+        - {x: -44, y: -41.5}
+        - {x: 42, y: -41.5}
+        - {x: 51, y: -23.5}
+        - {x: 51, y: 15.5}
+    - name: MAGMAR_115
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 41.5}
+        - {x: -26, y: 41.5}
+        - {x: -47, y: -10.5}
+        - {x: -47, y: -36.5}
+        - {x: -45, y: -41.5}
+        - {x: 48, y: -41.5}
+        - {x: 51, y: -35.5}
+        - {x: 51, y: 4.5}
+    - name: MAGMAR_116
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 16.5}
+        - {x: 43, y: 41.5}
+        - {x: -28, y: 41.5}
+        - {x: -41, y: 3.5}
+        - {x: -47, y: -19.5}
+        - {x: -47, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 51, y: -31.5}
+    - name: MAGMAR_117
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 41.5}
+        - {x: 6, y: 41.5}
+        - {x: -11, y: 36.5}
+        - {x: -16, y: -8.5}
+        - {x: -30, y: -3.5}
+        - {x: -48, y: -18.5}
+        - {x: -48, y: -38.5}
+        - {x: -45, y: -41.5}
+        - {x: 46, y: -41.5}
+        - {x: 51, y: -29.5}
+        - {x: 51, y: 6.5}
+        - {x: 32, y: 26.5}
+    - name: MAGMAR_118
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 40.5}
+        - {x: -10, y: 40.5}
+        - {x: -47, y: -17.5}
+        - {x: -50, y: -24.5}
+        - {x: -50, y: -41.5}
+        - {x: 45, y: -41.5}
+        - {x: 51, y: -33.5}
+        - {x: 51, y: 1.5}
+        - {x: 36, y: 31.5}
+    - name: MAGMAR_119
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 166
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 40.5}
+        - {x: -4, y: 40.5}
+        - {x: -15, y: 39.5}
+        - {x: -51, y: -14.5}
+        - {x: -51, y: -38.5}
+        - {x: -46, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 51, y: -33.5}
+        - {x: 51, y: 6.5}
+        - {x: 39, y: 30.5}
+    - name: MAGMAR_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 9.5}
+        - {x: 43, y: 35.5}
+        - {x: 27, y: 40.5}
+        - {x: 3, y: 40.5}
+        - {x: -8, y: 32.5}
+        - {x: -35, y: 12.5}
+        - {x: -50, y: -8.5}
+        - {x: -51, y: -16.5}
+        - {x: -51, y: -37.5}
+        - {x: -44, y: -41.5}
+        - {x: 39, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 51, y: -31.5}
+    - name: MAGMAR_121
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 83
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 11.5}
+        - {x: 42, y: 36.5}
+        - {x: 28, y: 39.5}
+        - {x: -23, y: 39.5}
+        - {x: -39, y: 6.5}
+        - {x: -51, y: -18.5}
+        - {x: -51, y: -34.5}
+        - {x: -45, y: -41.5}
+        - {x: 41, y: -41.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+        - {x: 51, y: -29.5}
+    - name: MAGMAR_122
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 83
+        width: 102
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -26.5}
+        - {x: 51, y: -23.5}
+        - {x: 51, y: 7.5}
+        - {x: 32, y: 38.5}
+        - {x: -7, y: 38.5}
+        - {x: -51, y: -8.5}
+        - {x: -51, y: -35.5}
+        - {x: -36, y: -41.5}
+        - {x: 38, y: -41.5}
+        - {x: 39, y: -40.5}
+        - {x: 39, y: -38.5}
+        - {x: 35, y: -34.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: 7a2f1a36d62b22b479f3ee80888e00ec
+timeCreated: 1452884577
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SPEAROW_0
+    21300002: SPEAROW_1
+    21300004: SPEAROW_2
+    21300006: SPEAROW_3
+    21300008: SPEAROW_4
+    21300010: SPEAROW_5
+    21300012: SPEAROW_6
+    21300014: SPEAROW_7
+    21300016: SPEAROW_8
+    21300018: SPEAROW_9
+    21300020: SPEAROW_10
+    21300022: SPEAROW_11
+    21300024: SPEAROW_12
+    21300026: SPEAROW_13
+    21300028: SPEAROW_14
+    21300030: SPEAROW_15
+    21300032: SPEAROW_16
+    21300034: SPEAROW_17
+    21300036: SPEAROW_18
+    21300038: SPEAROW_19
+    21300040: SPEAROW_20
+    21300042: SPEAROW_21
+    21300044: SPEAROW_22
+    21300046: SPEAROW_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SPEAROW_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 20}
+        - {x: 15.5, y: 26}
+        - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 16.5, y: -20}
+    - name: SPEAROW_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 208
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 13}
+        - {x: 15.5, y: 23}
+        - {x: 13.5, y: 26}
+        - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 16.5, y: -21}
+    - name: SPEAROW_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 208
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 26}
+    - name: SPEAROW_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 208
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 26}
+        - {x: -16.5, y: 26}
+        - {x: -16.5, y: -12}
+        - {x: -11.5, y: -16}
+        - {x: -16.5, y: -22}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 20}
+        - {x: 15.5, y: 24}
+    - name: SPEAROW_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 208
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 26}
+        - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 11.5, y: -20}
+        - {x: 16.5, y: -18}
+    - name: SPEAROW_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 26}
+    - name: SPEAROW_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 156
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 26}
+        - {x: -16.5, y: 26}
+        - {x: -16.5, y: -12}
+        - {x: -11.5, y: -16}
+        - {x: -16.5, y: -22}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 16.5, y: -21}
+    - name: SPEAROW_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 156
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 25}
+        - {x: 15.5, y: 26}
+        - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 16.5, y: -21}
+    - name: SPEAROW_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 156
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 26}
+        - {x: -16.5, y: 25}
+        - {x: -16.5, y: -26}
+        - {x: 15.5, y: -26}
+        - {x: 16.5, y: -24}
+        - {x: 16.5, y: 9}
+        - {x: 14.5, y: 26}
+    - name: SPEAROW_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 156
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 26}
+        - {x: -16.5, y: 25}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 25}
+        - {x: 11.5, y: 26}
+    - name: SPEAROW_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 26}
+        - {x: -16.5, y: 24}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 26}
+    - name: SPEAROW_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 104
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 25}
+        - {x: 14.5, y: 26}
+        - {x: -12.5, y: 26}
+        - {x: -16.5, y: 24}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 11.5, y: -20}
+        - {x: 16.5, y: -18}
+    - name: SPEAROW_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 104
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 26}
+    - name: SPEAROW_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 104
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -26}
+        - {x: 16.5, y: 26}
+        - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: -0.5, y: -26}
+        - {x: 0.5, y: -25}
+        - {x: 0.5, y: -23}
+        - {x: 1.5, y: -26}
+    - name: SPEAROW_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 104
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 25}
+        - {x: 13.5, y: 26}
+        - {x: -14.5, y: 26}
+        - {x: -16.5, y: 25}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+    - name: SPEAROW_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 23}
+        - {x: 12.5, y: 26}
+        - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 16.5, y: -20}
+    - name: SPEAROW_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 52
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 24}
+        - {x: 11.5, y: 26}
+    - name: SPEAROW_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 52
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 26}
+    - name: SPEAROW_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 52
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -19}
+        - {x: 16.5, y: 25}
+        - {x: 14.5, y: 26}
+        - {x: -12.5, y: 26}
+        - {x: -16.5, y: 24}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 11.5, y: -20}
+    - name: SPEAROW_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 52
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 26}
+        - {x: -16.5, y: 24}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 26}
+    - name: SPEAROW_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -19}
+        - {x: 16.5, y: 24}
+        - {x: 15.5, y: 26}
+        - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 11.5, y: -20}
+    - name: SPEAROW_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -19}
+        - {x: 16.5, y: 23}
+        - {x: 14.5, y: 26}
+        - {x: -14.5, y: 26}
+        - {x: -16.5, y: 25}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 11.5, y: -20}
+    - name: SPEAROW_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 14.5, y: -26}
+        - {x: 13.5, y: -22}
+        - {x: 16.5, y: -21}
+        - {x: 16.5, y: 26}
+    - name: SPEAROW_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 26}
+        - {x: -16.5, y: -26}
+        - {x: 16.5, y: -26}
+        - {x: 16.5, y: 26}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

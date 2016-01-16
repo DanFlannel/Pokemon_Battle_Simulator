@@ -1,0 +1,1719 @@
+fileFormatVersion: 2
+guid: 24c3e0e6198760242906c077e12ea108
+timeCreated: 1452882953
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MR._MIME_0
+    21300002: MR._MIME_1
+    21300004: MR._MIME_2
+    21300006: MR._MIME_3
+    21300008: MR._MIME_4
+    21300010: MR._MIME_5
+    21300012: MR._MIME_6
+    21300014: MR._MIME_7
+    21300016: MR._MIME_8
+    21300018: MR._MIME_9
+    21300020: MR._MIME_10
+    21300022: MR._MIME_11
+    21300024: MR._MIME_12
+    21300026: MR._MIME_13
+    21300028: MR._MIME_14
+    21300030: MR._MIME_15
+    21300032: MR._MIME_16
+    21300034: MR._MIME_17
+    21300036: MR._MIME_18
+    21300038: MR._MIME_19
+    21300040: MR._MIME_20
+    21300042: MR._MIME_21
+    21300044: MR._MIME_22
+    21300046: MR._MIME_23
+    21300048: MR._MIME_24
+    21300050: MR._MIME_25
+    21300052: MR._MIME_26
+    21300054: MR._MIME_27
+    21300056: MR._MIME_28
+    21300058: MR._MIME_29
+    21300060: MR._MIME_30
+    21300062: MR._MIME_31
+    21300064: MR._MIME_32
+    21300066: MR._MIME_33
+    21300068: MR._MIME_34
+    21300070: MR._MIME_35
+    21300072: MR._MIME_36
+    21300074: MR._MIME_37
+    21300076: MR._MIME_38
+    21300078: MR._MIME_39
+    21300080: MR._MIME_40
+    21300082: MR._MIME_41
+    21300084: MR._MIME_42
+    21300086: MR._MIME_43
+    21300088: MR._MIME_44
+    21300090: MR._MIME_45
+    21300092: MR._MIME_46
+    21300094: MR._MIME_47
+    21300096: MR._MIME_48
+    21300098: MR._MIME_49
+    21300100: MR._MIME_50
+    21300102: MR._MIME_51
+    21300104: MR._MIME_52
+    21300106: MR._MIME_53
+    21300108: MR._MIME_54
+    21300110: MR._MIME_55
+    21300112: MR._MIME_56
+    21300114: MR._MIME_57
+    21300116: MR._MIME_58
+    21300118: MR._MIME_59
+    21300120: MR._MIME_60
+    21300122: MR._MIME_61
+    21300124: MR._MIME_62
+    21300126: MR._MIME_63
+    21300128: MR._MIME_64
+    21300130: MR._MIME_65
+    21300132: MR._MIME_66
+    21300134: MR._MIME_67
+    21300136: MR._MIME_68
+    21300138: MR._MIME_69
+    21300140: MR._MIME_70
+    21300142: MR._MIME_71
+    21300144: MR._MIME_72
+    21300146: MR._MIME_73
+    21300148: MR._MIME_74
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MR._MIME_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 35}
+        - {x: -28.5, y: 30}
+        - {x: -37.5, y: 10}
+        - {x: -37.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 28.5, y: 35}
+    - name: MR._MIME_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 608
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 34}
+        - {x: -25.5, y: 18}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -12}
+        - {x: -34.5, y: -14}
+        - {x: -21.5, y: -38}
+        - {x: 30.5, y: -38}
+        - {x: 30.5, y: 30}
+        - {x: 22.5, y: 34}
+    - name: MR._MIME_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 608
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 32}
+        - {x: -22.5, y: 28}
+        - {x: -37.5, y: 12}
+        - {x: -37.5, y: -38}
+        - {x: 32.5, y: -38}
+        - {x: 32.5, y: 32}
+    - name: MR._MIME_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 608
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 30}
+        - {x: -14.5, y: 30}
+        - {x: -37.5, y: 9}
+        - {x: -37.5, y: -14}
+        - {x: -36.5, y: -15}
+        - {x: -21.5, y: -17}
+        - {x: -28.5, y: -30}
+        - {x: -27.5, y: -38}
+        - {x: 25.5, y: -38}
+        - {x: 27.5, y: -37}
+        - {x: 34.5, y: 5}
+        - {x: 34.5, y: 24}
+    - name: MR._MIME_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 608
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 28}
+        - {x: -37.5, y: 6}
+        - {x: -37.5, y: -21}
+        - {x: -31.5, y: -38}
+        - {x: 35.5, y: -38}
+        - {x: 35.5, y: 28}
+    - name: MR._MIME_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 608
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 27}
+        - {x: 2.5, y: 27}
+        - {x: -14.5, y: 26}
+        - {x: -21.5, y: 19}
+        - {x: -24.5, y: 9}
+        - {x: -21.5, y: 8}
+        - {x: -12.5, y: 8}
+        - {x: -22.5, y: 8}
+        - {x: -25.5, y: 9}
+        - {x: -29.5, y: 17}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -29}
+        - {x: -35.5, y: -33}
+        - {x: -25.5, y: -38}
+        - {x: 37.5, y: -38}
+        - {x: 37.5, y: 23}
+        - {x: 27.5, y: 26}
+    - name: MR._MIME_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 608
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 27}
+        - {x: -36.5, y: 27}
+        - {x: -37.5, y: 22}
+        - {x: -37.5, y: -22}
+        - {x: -27.5, y: -37}
+        - {x: -23.5, y: -38}
+        - {x: 29.5, y: -38}
+        - {x: 37.5, y: -8}
+        - {x: 37.5, y: 24}
+    - name: MR._MIME_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 608
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 28}
+        - {x: -37.5, y: 11}
+        - {x: -37.5, y: -14}
+        - {x: -25.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 37.5, y: -21}
+        - {x: 37.5, y: 24}
+        - {x: 26.5, y: 28}
+    - name: MR._MIME_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 608
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 24}
+        - {x: 8.5, y: 30}
+        - {x: -12.5, y: 30}
+        - {x: -37.5, y: 6}
+        - {x: -37.5, y: -23}
+        - {x: -24.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 37.5, y: -18}
+        - {x: 37.5, y: 14}
+    - name: MR._MIME_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 31}
+        - {x: -9.5, y: 31}
+        - {x: -19.5, y: 23}
+        - {x: -15.5, y: 7}
+        - {x: -17.5, y: 2}
+        - {x: -17.5, y: -2}
+        - {x: -17.5, y: 5}
+        - {x: -19.5, y: 9}
+        - {x: -24.5, y: 11}
+        - {x: -37.5, y: 9}
+        - {x: -37.5, y: -38}
+        - {x: 26.5, y: -38}
+        - {x: 37.5, y: -18}
+        - {x: 37.5, y: 14}
+        - {x: 35.5, y: 20}
+    - name: MR._MIME_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 532
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 32}
+        - {x: -14.5, y: 25}
+        - {x: -13.5, y: 21}
+        - {x: -17.5, y: 4}
+        - {x: -17.5, y: -3}
+        - {x: -17.5, y: 5}
+        - {x: -19.5, y: 9}
+        - {x: -24.5, y: 11}
+        - {x: -36.5, y: 4}
+        - {x: -37.5, y: 3}
+        - {x: -37.5, y: -26}
+        - {x: -35.5, y: -38}
+        - {x: 37.5, y: -38}
+        - {x: 37.5, y: 13}
+        - {x: 16.5, y: 32}
+    - name: MR._MIME_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 532
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 32}
+        - {x: -20.5, y: 32}
+        - {x: -37.5, y: 13}
+        - {x: -37.5, y: -28}
+        - {x: -33.5, y: -38}
+        - {x: 32.5, y: -38}
+        - {x: 36.5, y: -28}
+        - {x: 36.5, y: 22}
+    - name: MR._MIME_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 532
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 33}
+        - {x: -22.5, y: 32}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -14}
+        - {x: -34.5, y: -14}
+        - {x: -21.5, y: -13}
+        - {x: -24.5, y: -36}
+        - {x: -23.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 34.5, y: -16}
+        - {x: 34.5, y: 7}
+        - {x: 7.5, y: 33}
+    - name: MR._MIME_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 532
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 33}
+        - {x: -37.5, y: 20}
+        - {x: -37.5, y: -23}
+        - {x: -26.5, y: -38}
+        - {x: 32.5, y: -38}
+        - {x: 33.5, y: -36}
+        - {x: 33.5, y: 12}
+        - {x: 10.5, y: 33}
+    - name: MR._MIME_14
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 532
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 33}
+        - {x: -9.5, y: 30}
+        - {x: -8.5, y: 28}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -32}
+        - {x: -33.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 33.5, y: -24}
+        - {x: 33.5, y: 13}
+        - {x: 6.5, y: 33}
+    - name: MR._MIME_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 532
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 1}
+        - {x: 30.5, y: 3}
+        - {x: 8.5, y: 33}
+        - {x: -0.5, y: 33}
+        - {x: -5.5, y: 32}
+        - {x: -10.5, y: 30}
+        - {x: -19.5, y: 11}
+        - {x: -18.5, y: 7}
+        - {x: -18.5, y: 1}
+        - {x: -18.5, y: 6}
+        - {x: -19.5, y: 9}
+        - {x: -30.5, y: 10}
+        - {x: -37.5, y: 2}
+        - {x: -37.5, y: -22}
+        - {x: -23.5, y: -38}
+        - {x: 27.5, y: -38}
+        - {x: 32.5, y: -21}
+        - {x: 33.5, y: -15}
+    - name: MR._MIME_16
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 532
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 33}
+        - {x: -7.5, y: 33}
+        - {x: -9.5, y: 30}
+        - {x: -18.5, y: 7}
+        - {x: -18.5, y: 1}
+        - {x: -18.5, y: 5}
+        - {x: -20.5, y: 9}
+        - {x: -26.5, y: 11}
+        - {x: -37.5, y: 6}
+        - {x: -37.5, y: -21}
+        - {x: -30.5, y: -38}
+        - {x: 33.5, y: -38}
+        - {x: 33.5, y: 4}
+        - {x: 30.5, y: 12}
+    - name: MR._MIME_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 532
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 32}
+        - {x: -13.5, y: 32}
+        - {x: -26.5, y: 12}
+        - {x: -18.5, y: 7}
+        - {x: -18.5, y: 1}
+        - {x: -18.5, y: 4}
+        - {x: -20.5, y: 8}
+        - {x: -37.5, y: 10}
+        - {x: -37.5, y: -21}
+        - {x: -29.5, y: -38}
+        - {x: 30.5, y: -38}
+        - {x: 33.5, y: -35}
+        - {x: 33.5, y: 13}
+    - name: MR._MIME_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 32}
+        - {x: -27.5, y: 32}
+        - {x: -37.5, y: 8}
+        - {x: -37.5, y: -31}
+        - {x: -32.5, y: -38}
+        - {x: 30.5, y: -38}
+        - {x: 34.5, y: -29}
+        - {x: 34.5, y: 7}
+        - {x: 10.5, y: 31}
+    - name: MR._MIME_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 456
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 30}
+        - {x: 3.5, y: 32}
+        - {x: -10.5, y: 32}
+        - {x: -34.5, y: 14}
+        - {x: -34.5, y: -17}
+        - {x: -27.5, y: -37}
+        - {x: -26.5, y: -38}
+        - {x: 30.5, y: -38}
+        - {x: 34.5, y: -24}
+        - {x: 34.5, y: 8}
+    - name: MR._MIME_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 456
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 32}
+        - {x: -33.5, y: 19}
+        - {x: -33.5, y: -33}
+        - {x: -31.5, y: -38}
+        - {x: 31.5, y: -38}
+        - {x: 35.5, y: -33}
+        - {x: 35.5, y: 11}
+        - {x: 18.5, y: 32}
+    - name: MR._MIME_21
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 456
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 32}
+        - {x: -31.5, y: 19}
+        - {x: -31.5, y: -8}
+        - {x: -25.5, y: -38}
+        - {x: 35.5, y: -38}
+        - {x: 35.5, y: 8}
+        - {x: 0.5, y: 32}
+    - name: MR._MIME_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 456
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 31}
+        - {x: -11.5, y: 31}
+        - {x: -28.5, y: 19}
+        - {x: -28.5, y: -30}
+        - {x: -27.5, y: -38}
+        - {x: 30.5, y: -38}
+        - {x: 35.5, y: -28}
+        - {x: 35.5, y: 10}
+        - {x: 32.5, y: 16}
+    - name: MR._MIME_23
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 456
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -11}
+        - {x: 36.5, y: 11}
+        - {x: 11.5, y: 31}
+        - {x: -16.5, y: 31}
+        - {x: -27.5, y: 24}
+        - {x: -27.5, y: -38}
+        - {x: 24.5, y: -38}
+        - {x: 25.5, y: -36}
+        - {x: 28.5, y: -29}
+    - name: MR._MIME_24
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 456
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 30}
+        - {x: -27.5, y: 28}
+        - {x: -27.5, y: -38}
+        - {x: 29.5, y: -38}
+        - {x: 36.5, y: -22}
+        - {x: 36.5, y: 14}
+        - {x: 14.5, y: 30}
+    - name: MR._MIME_25
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 456
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 30}
+        - {x: -27.5, y: -38}
+        - {x: 36.5, y: -38}
+        - {x: 36.5, y: 12}
+        - {x: 13.5, y: 30}
+    - name: MR._MIME_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 456
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 16}
+        - {x: 6.5, y: 30}
+        - {x: -21.5, y: 30}
+        - {x: -28.5, y: 28}
+        - {x: -28.5, y: -32}
+        - {x: -27.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 34.5, y: -29}
+        - {x: 36.5, y: -16}
+    - name: MR._MIME_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 30}
+        - {x: -28.5, y: -38}
+        - {x: 36.5, y: -38}
+        - {x: 36.5, y: 17}
+        - {x: 16.5, y: 30}
+    - name: MR._MIME_28
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 380
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 30}
+        - {x: -24.5, y: 30}
+        - {x: -28.5, y: 27}
+        - {x: -28.5, y: -24}
+        - {x: -26.5, y: -38}
+        - {x: 29.5, y: -38}
+        - {x: 36.5, y: -16}
+        - {x: 36.5, y: 9}
+        - {x: 30.5, y: 19}
+    - name: MR._MIME_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 380
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 30}
+        - {x: -28.5, y: -38}
+        - {x: 36.5, y: -38}
+        - {x: 36.5, y: 20}
+        - {x: 17.5, y: 30}
+    - name: MR._MIME_30
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 380
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 30}
+        - {x: -28.5, y: 25}
+        - {x: -28.5, y: -25}
+        - {x: -27.5, y: -38}
+        - {x: 36.5, y: -38}
+        - {x: 36.5, y: 17}
+        - {x: 2.5, y: 30}
+    - name: MR._MIME_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 380
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 30}
+        - {x: -28.5, y: 30}
+        - {x: -28.5, y: -26}
+        - {x: -27.5, y: -38}
+        - {x: 31.5, y: -38}
+        - {x: 37.5, y: -32}
+        - {x: 37.5, y: 23}
+        - {x: 35.5, y: 25}
+    - name: MR._MIME_32
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 380
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 30}
+        - {x: -28.5, y: -38}
+        - {x: 35.5, y: -38}
+        - {x: 36.5, y: -37}
+        - {x: 36.5, y: 13}
+        - {x: 11.5, y: 30}
+    - name: MR._MIME_33
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 380
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 32}
+        - {x: -28.5, y: 32}
+        - {x: -28.5, y: -38}
+        - {x: 34.5, y: -38}
+    - name: MR._MIME_34
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 380
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 33}
+        - {x: -7.5, y: 33}
+        - {x: -7.5, y: 30}
+        - {x: -9.5, y: 33}
+        - {x: -19.5, y: 33}
+        - {x: -28.5, y: 29}
+        - {x: -28.5, y: -38}
+        - {x: 29.5, y: -38}
+        - {x: 34.5, y: -34}
+        - {x: 34.5, y: 19}
+        - {x: 14.5, y: 32}
+    - name: MR._MIME_35
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 380
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 34}
+        - {x: -7.5, y: 34}
+        - {x: -7.5, y: 31}
+        - {x: -9.5, y: 34}
+        - {x: -18.5, y: 34}
+        - {x: -28.5, y: 28}
+        - {x: -28.5, y: -38}
+        - {x: 33.5, y: -38}
+        - {x: 33.5, y: 19}
+        - {x: 32.5, y: 24}
+    - name: MR._MIME_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -38}
+        - {x: 33.5, y: -21}
+        - {x: 33.5, y: 19}
+        - {x: 12.5, y: 34}
+        - {x: -8.5, y: 34}
+        - {x: -11.5, y: 33}
+        - {x: -6.5, y: 26}
+        - {x: -5.5, y: 23}
+        - {x: -3.5, y: 21}
+        - {x: -4.5, y: 17}
+        - {x: -4.5, y: 14}
+        - {x: -4.5, y: 19}
+        - {x: -6.5, y: 25}
+        - {x: -12.5, y: 31}
+        - {x: -23.5, y: 31}
+        - {x: -28.5, y: 24}
+        - {x: -28.5, y: -20}
+        - {x: -26.5, y: -37}
+        - {x: -22.5, y: -38}
+        - {x: -8.5, y: -38}
+        - {x: -4.5, y: -32}
+        - {x: -4.5, y: -29}
+        - {x: 10.5, y: -38}
+    - name: MR._MIME_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 304
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 35}
+        - {x: -28.5, y: 35}
+        - {x: -28.5, y: -25}
+        - {x: -26.5, y: -37}
+        - {x: -23.5, y: -38}
+        - {x: 31.5, y: -38}
+        - {x: 33.5, y: -20}
+        - {x: 33.5, y: 15}
+    - name: MR._MIME_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 304
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -16}
+        - {x: 18.5, y: -16}
+        - {x: 34.5, y: -10}
+        - {x: 34.5, y: 6}
+        - {x: 30.5, y: 20}
+        - {x: 4.5, y: 36}
+        - {x: -18.5, y: 36}
+        - {x: -28.5, y: 31}
+        - {x: -28.5, y: -37}
+        - {x: -27.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 28.5, y: -37}
+        - {x: 21.5, y: -17}
+        - {x: 18.5, y: -16}
+    - name: MR._MIME_39
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 304
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37}
+        - {x: -28.5, y: 31}
+        - {x: -28.5, y: -38}
+        - {x: 34.5, y: -38}
+        - {x: 34.5, y: 31}
+        - {x: 10.5, y: 37}
+    - name: MR._MIME_40
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 304
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 37}
+        - {x: -28.5, y: 29}
+        - {x: -28.5, y: -26}
+        - {x: -26.5, y: -38}
+        - {x: 34.5, y: -38}
+        - {x: 34.5, y: 35}
+        - {x: 22.5, y: 37}
+    - name: MR._MIME_41
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 304
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -19}
+        - {x: 33.5, y: 25}
+        - {x: 29.5, y: 32}
+        - {x: 11.5, y: 37}
+        - {x: -28.5, y: 37}
+        - {x: -28.5, y: -36}
+        - {x: -25.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -4.5, y: -33}
+        - {x: 5.5, y: -38}
+        - {x: 29.5, y: -38}
+    - name: MR._MIME_42
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 304
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 36}
+        - {x: -22.5, y: 36}
+        - {x: -28.5, y: 32}
+        - {x: -28.5, y: -35}
+        - {x: -27.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 33.5, y: -19}
+        - {x: 33.5, y: 29}
+    - name: MR._MIME_43
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 304
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 35}
+        - {x: -28.5, y: 30}
+        - {x: -28.5, y: -38}
+        - {x: 33.5, y: -38}
+        - {x: 33.5, y: 23}
+        - {x: 27.5, y: 35}
+    - name: MR._MIME_44
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 304
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 16}
+        - {x: 28.5, y: 16}
+        - {x: 31.5, y: 17}
+        - {x: 33.5, y: 24}
+        - {x: 33.5, y: 33}
+        - {x: -28.5, y: 33}
+        - {x: -28.5, y: -38}
+        - {x: 33.5, y: -38}
+        - {x: 33.5, y: 12}
+        - {x: 26.5, y: 16}
+    - name: MR._MIME_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 16}
+        - {x: 14.5, y: 13}
+        - {x: 15.5, y: 15}
+        - {x: 16.5, y: 18}
+        - {x: 20.5, y: 16}
+        - {x: 30.5, y: 20}
+        - {x: 30.5, y: 24}
+        - {x: 22.5, y: 34}
+        - {x: -27.5, y: 34}
+        - {x: -30.5, y: 25}
+        - {x: -30.5, y: -38}
+        - {x: 33.5, y: -38}
+        - {x: 33.5, y: 14}
+        - {x: 27.5, y: 16}
+    - name: MR._MIME_46
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 228
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -29}
+        - {x: 33.5, y: -20}
+        - {x: 33.5, y: 32}
+        - {x: 27.5, y: 36}
+        - {x: -3.5, y: 36}
+        - {x: -30.5, y: 28}
+        - {x: -30.5, y: 3}
+        - {x: -24.5, y: -35}
+        - {x: -20.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -4.5, y: -32}
+        - {x: 8.5, y: -38}
+        - {x: 24.5, y: -38}
+    - name: MR._MIME_47
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 228
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 38}
+        - {x: -30.5, y: -17}
+        - {x: -25.5, y: -38}
+        - {x: 30.5, y: -38}
+        - {x: 33.5, y: -36}
+        - {x: 33.5, y: 38}
+    - name: MR._MIME_48
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 228
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -21}
+        - {x: 33.5, y: 38}
+        - {x: -21.5, y: 38}
+        - {x: -30.5, y: 26}
+        - {x: -30.5, y: -17}
+        - {x: -27.5, y: -31}
+        - {x: -22.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -6.5, y: -33}
+        - {x: 10.5, y: -38}
+        - {x: 28.5, y: -38}
+    - name: MR._MIME_49
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 228
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 38}
+        - {x: -24.5, y: 33}
+        - {x: -30.5, y: 21}
+        - {x: -30.5, y: -24}
+        - {x: -29.5, y: -38}
+        - {x: 27.5, y: -38}
+        - {x: 33.5, y: -25}
+        - {x: 33.5, y: 38}
+    - name: MR._MIME_50
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 228
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 38}
+        - {x: -19.5, y: 36}
+        - {x: -29.5, y: 25}
+        - {x: -29.5, y: -20}
+        - {x: -22.5, y: -38}
+        - {x: 27.5, y: -38}
+        - {x: 33.5, y: -21}
+        - {x: 33.5, y: 26}
+        - {x: 23.5, y: 38}
+    - name: MR._MIME_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 228
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 38}
+        - {x: -29.5, y: -29}
+        - {x: -25.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 33.5, y: -27}
+        - {x: 33.5, y: 24}
+        - {x: 27.5, y: 38}
+    - name: MR._MIME_52
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 228
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 38}
+        - {x: -23.5, y: 38}
+        - {x: -28.5, y: 36}
+        - {x: -28.5, y: -38}
+        - {x: 33.5, y: -38}
+        - {x: 33.5, y: 21}
+        - {x: 24.5, y: 37}
+    - name: MR._MIME_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 228
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 38}
+        - {x: -29.5, y: 29}
+        - {x: -29.5, y: -16}
+        - {x: -23.5, y: -38}
+        - {x: 31.5, y: -38}
+        - {x: 33.5, y: -26}
+        - {x: 33.5, y: 25}
+        - {x: 26.5, y: 38}
+    - name: MR._MIME_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 38}
+        - {x: -31.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 33.5, y: -14}
+        - {x: 33.5, y: 35}
+        - {x: 32.5, y: 38}
+    - name: MR._MIME_55
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 152
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -22}
+        - {x: 33.5, y: 38}
+        - {x: -19.5, y: 38}
+        - {x: -33.5, y: 23}
+        - {x: -33.5, y: -28}
+        - {x: -29.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 12.5, y: -38}
+        - {x: 27.5, y: -38}
+    - name: MR._MIME_56
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 152
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 38}
+        - {x: -5.5, y: 38}
+        - {x: -34.5, y: 18}
+        - {x: -34.5, y: -28}
+        - {x: -31.5, y: -38}
+        - {x: 30.5, y: -38}
+        - {x: 33.5, y: -18}
+        - {x: 33.5, y: 22}
+        - {x: 26.5, y: 36}
+    - name: MR._MIME_57
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 152
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -23}
+        - {x: 33.5, y: 31}
+        - {x: 31.5, y: 37}
+        - {x: 30.5, y: 38}
+        - {x: -9.5, y: 38}
+        - {x: -33.5, y: 27}
+        - {x: -33.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 12.5, y: -38}
+        - {x: 26.5, y: -38}
+    - name: MR._MIME_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 152
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 38}
+        - {x: -33.5, y: 31}
+        - {x: -33.5, y: -38}
+        - {x: 28.5, y: -38}
+        - {x: 33.5, y: -31}
+        - {x: 33.5, y: 38}
+    - name: MR._MIME_59
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 152
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 32}
+        - {x: -32.5, y: -24}
+        - {x: -24.5, y: -38}
+        - {x: 32.5, y: -38}
+        - {x: 33.5, y: -35}
+        - {x: 33.5, y: 38}
+        - {x: -3.5, y: 38}
+        - {x: -31.5, y: 35}
+    - name: MR._MIME_60
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 152
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 38}
+        - {x: -32.5, y: 20}
+        - {x: -32.5, y: 10}
+        - {x: -27.5, y: 5}
+        - {x: -24.5, y: 6}
+        - {x: -22.5, y: 8}
+        - {x: -17.5, y: 8}
+        - {x: -20.5, y: 8}
+        - {x: -25.5, y: 5}
+        - {x: -28.5, y: 3}
+        - {x: -32.5, y: -3}
+        - {x: -32.5, y: -10}
+        - {x: -23.5, y: -38}
+        - {x: 33.5, y: -38}
+        - {x: 33.5, y: 36}
+        - {x: 32.5, y: 38}
+    - name: MR._MIME_61
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 152
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -19}
+        - {x: 33.5, y: 37}
+        - {x: 1.5, y: 37}
+        - {x: -32.5, y: 29}
+        - {x: -29.5, y: 8}
+        - {x: -26.5, y: 7}
+        - {x: -24.5, y: 7}
+        - {x: -22.5, y: 9}
+        - {x: -17.5, y: 9}
+        - {x: -22.5, y: 8}
+        - {x: -24.5, y: 6}
+        - {x: -27.5, y: 7}
+        - {x: -33.5, y: -1}
+        - {x: -33.5, y: -11}
+        - {x: -22.5, y: -18}
+        - {x: -16.5, y: -16}
+        - {x: -22.5, y: -28}
+        - {x: -24.5, y: -35}
+        - {x: -20.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 12.5, y: -38}
+        - {x: 25.5, y: -38}
+    - name: MR._MIME_62
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 152
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -14}
+        - {x: 33.5, y: 31}
+        - {x: 27.5, y: 37}
+        - {x: -25.5, y: 37}
+        - {x: -36.5, y: 13}
+        - {x: -36.5, y: -24}
+        - {x: -20.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 10.5, y: -38}
+        - {x: 27.5, y: -38}
+    - name: MR._MIME_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: -33}
+        - {x: 32.5, y: 32}
+        - {x: 31.5, y: 36}
+        - {x: 4.5, y: 36}
+        - {x: -20.5, y: 29}
+        - {x: -26.5, y: 23}
+        - {x: -29.5, y: 11}
+        - {x: -26.5, y: 10}
+        - {x: -24.5, y: 10}
+        - {x: -27.5, y: 9}
+        - {x: -37.5, y: 3}
+        - {x: -37.5, y: -14}
+        - {x: -36.5, y: -18}
+        - {x: -21.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 10.5, y: -38}
+        - {x: 30.5, y: -38}
+    - name: MR._MIME_64
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 76
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 36}
+        - {x: 3.5, y: 36}
+        - {x: -19.5, y: 31}
+        - {x: -29.5, y: 19}
+        - {x: -26.5, y: 10}
+        - {x: -19.5, y: 11}
+        - {x: -28.5, y: 9}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -14}
+        - {x: -35.5, y: -17}
+        - {x: -24.5, y: -35}
+        - {x: -20.5, y: -38}
+        - {x: 29.5, y: -38}
+        - {x: 31.5, y: -37}
+        - {x: 31.5, y: 30}
+    - name: MR._MIME_65
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 76
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: -28}
+        - {x: 31.5, y: 35}
+        - {x: -27.5, y: 35}
+        - {x: -29.5, y: 13}
+        - {x: -25.5, y: 12}
+        - {x: -22.5, y: 11}
+        - {x: -24.5, y: 11}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -15}
+        - {x: -22.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 10.5, y: -38}
+        - {x: 28.5, y: -38}
+    - name: MR._MIME_66
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 76
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: -32}
+        - {x: 32.5, y: 34}
+        - {x: -18.5, y: 34}
+        - {x: -26.5, y: 26}
+        - {x: -28.5, y: 14}
+        - {x: -25.5, y: 13}
+        - {x: -37.5, y: 8}
+        - {x: -37.5, y: -20}
+        - {x: -23.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 12.5, y: -38}
+        - {x: 25.5, y: -38}
+    - name: MR._MIME_67
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 76
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: -24}
+        - {x: 32.5, y: 34}
+        - {x: -25.5, y: 34}
+        - {x: -37.5, y: 6}
+        - {x: -37.5, y: -19}
+        - {x: -21.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 8.5, y: -38}
+        - {x: 27.5, y: -38}
+    - name: MR._MIME_68
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 76
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -29}
+        - {x: 32.5, y: 5}
+        - {x: 32.5, y: 26}
+        - {x: 22.5, y: 34}
+        - {x: -4.5, y: 34}
+        - {x: -18.5, y: 33}
+        - {x: -28.5, y: 21}
+        - {x: -26.5, y: 11}
+        - {x: -28.5, y: 10}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -14}
+        - {x: -35.5, y: -17}
+        - {x: -24.5, y: -35}
+        - {x: -20.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 12.5, y: -38}
+        - {x: 25.5, y: -38}
+    - name: MR._MIME_69
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 76
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: -37}
+        - {x: 32.5, y: 2}
+        - {x: 32.5, y: 27}
+        - {x: 29.5, y: 35}
+        - {x: -23.5, y: 35}
+        - {x: -30.5, y: 15}
+        - {x: -27.5, y: 12}
+        - {x: -20.5, y: 12}
+        - {x: -24.5, y: 12}
+        - {x: -37.5, y: 5}
+        - {x: -37.5, y: -12}
+        - {x: -34.5, y: -15}
+        - {x: -21.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 12.5, y: -38}
+        - {x: 24.5, y: -38}
+    - name: MR._MIME_70
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 76
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -28}
+        - {x: 29.5, y: 35}
+        - {x: 27.5, y: 36}
+        - {x: 2.5, y: 36}
+        - {x: -28.5, y: 27}
+        - {x: -29.5, y: 11}
+        - {x: -27.5, y: 9}
+        - {x: -25.5, y: 9}
+        - {x: -35.5, y: 9}
+        - {x: -37.5, y: 3}
+        - {x: -37.5, y: -13}
+        - {x: -34.5, y: -15}
+        - {x: -21.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 10.5, y: -38}
+        - {x: 27.5, y: -38}
+    - name: MR._MIME_71
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 76
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -33}
+        - {x: 26.5, y: 38}
+        - {x: -12.5, y: 38}
+        - {x: -28.5, y: 31}
+        - {x: -37.5, y: 23}
+        - {x: -37.5, y: -29}
+        - {x: -34.5, y: -38}
+        - {x: -10.5, y: -38}
+        - {x: -5.5, y: -32}
+        - {x: 12.5, y: -38}
+        - {x: 25.5, y: -38}
+    - name: MR._MIME_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 38}
+        - {x: -35.5, y: 21}
+        - {x: -37.5, y: 14}
+        - {x: -37.5, y: -38}
+        - {x: 26.5, y: -38}
+        - {x: 26.5, y: 23}
+        - {x: 21.5, y: 38}
+    - name: MR._MIME_73
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: -32}
+        - {x: -36.5, y: -38}
+        - {x: 27.5, y: -38}
+        - {x: 27.5, y: 25}
+        - {x: 25.5, y: 38}
+        - {x: -3.5, y: 38}
+        - {x: -37.5, y: 16}
+    - name: MR._MIME_74
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 38}
+        - {x: 1.5, y: 35}
+        - {x: -37.5, y: 12}
+        - {x: -37.5, y: -38}
+        - {x: 27.5, y: -38}
+        - {x: 27.5, y: 38}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

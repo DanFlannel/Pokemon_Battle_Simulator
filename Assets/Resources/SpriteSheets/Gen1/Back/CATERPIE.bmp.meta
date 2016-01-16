@@ -1,0 +1,1134 @@
+fileFormatVersion: 2
+guid: c802e1b02384d5c4b8a804d260503d04
+timeCreated: 1452888099
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CATERPIE_0
+    21300002: CATERPIE_1
+    21300004: CATERPIE_2
+    21300006: CATERPIE_3
+    21300008: CATERPIE_4
+    21300010: CATERPIE_5
+    21300012: CATERPIE_6
+    21300014: CATERPIE_7
+    21300016: CATERPIE_8
+    21300018: CATERPIE_9
+    21300020: CATERPIE_10
+    21300022: CATERPIE_11
+    21300024: CATERPIE_12
+    21300026: CATERPIE_13
+    21300028: CATERPIE_14
+    21300030: CATERPIE_15
+    21300032: CATERPIE_16
+    21300034: CATERPIE_17
+    21300036: CATERPIE_18
+    21300038: CATERPIE_19
+    21300040: CATERPIE_20
+    21300042: CATERPIE_21
+    21300044: CATERPIE_22
+    21300046: CATERPIE_23
+    21300048: CATERPIE_24
+    21300050: CATERPIE_25
+    21300052: CATERPIE_26
+    21300054: CATERPIE_27
+    21300056: CATERPIE_28
+    21300058: CATERPIE_29
+    21300060: CATERPIE_30
+    21300062: CATERPIE_31
+    21300064: CATERPIE_32
+    21300066: CATERPIE_33
+    21300068: CATERPIE_34
+    21300070: CATERPIE_35
+    21300072: CATERPIE_36
+    21300074: CATERPIE_37
+    21300076: CATERPIE_38
+    21300078: CATERPIE_39
+    21300080: CATERPIE_40
+    21300082: CATERPIE_41
+    21300084: CATERPIE_42
+    21300086: CATERPIE_43
+    21300088: CATERPIE_44
+    21300090: CATERPIE_45
+    21300092: CATERPIE_46
+    21300094: CATERPIE_47
+    21300096: CATERPIE_48
+    21300098: CATERPIE_49
+    21300100: CATERPIE_50
+    21300102: CATERPIE_51
+    21300104: CATERPIE_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CATERPIE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 22.5}
+        - {x: -15, y: 10.5}
+        - {x: -15, y: -22.5}
+        - {x: 5, y: -22.5}
+        - {x: 15, y: -14.5}
+        - {x: 24, y: 11.5}
+        - {x: 24, y: 22.5}
+    - name: CATERPIE_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 315
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 22.5}
+        - {x: -6, y: 15.5}
+        - {x: -7, y: 3.5}
+        - {x: -7, y: -5.5}
+        - {x: -7, y: -2.5}
+        - {x: -8, y: 0.5}
+        - {x: -15, y: -0.5}
+        - {x: -15, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 24, y: 0.5}
+        - {x: 24, y: 22.5}
+    - name: CATERPIE_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 315
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 22.5}
+        - {x: -6, y: 15.5}
+        - {x: -7, y: 3.5}
+        - {x: -7, y: -5.5}
+        - {x: -7, y: -2.5}
+        - {x: -8, y: 0.5}
+        - {x: -15, y: -0.5}
+        - {x: -15, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 24, y: 0.5}
+        - {x: 24, y: 22.5}
+    - name: CATERPIE_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 315
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 22.5}
+        - {x: 1, y: 22.5}
+        - {x: -6, y: 13.5}
+        - {x: -7, y: 3.5}
+        - {x: -7, y: -5.5}
+        - {x: -7, y: -3.5}
+        - {x: -10, y: -0.5}
+        - {x: -12, y: -0.5}
+        - {x: -16, y: -1.5}
+        - {x: -16, y: -20.5}
+        - {x: -12, y: -22.5}
+        - {x: 5, y: -22.5}
+        - {x: 15, y: -14.5}
+        - {x: 19, y: -6.5}
+        - {x: 25, y: 16.5}
+    - name: CATERPIE_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 315
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 22.5}
+        - {x: 1, y: 22.5}
+        - {x: -6, y: 13.5}
+        - {x: -7, y: 3.5}
+        - {x: -7, y: -5.5}
+        - {x: -7, y: -3.5}
+        - {x: -10, y: -0.5}
+        - {x: -12, y: -0.5}
+        - {x: -16, y: -1.5}
+        - {x: -16, y: -20.5}
+        - {x: -12, y: -22.5}
+        - {x: 5, y: -22.5}
+        - {x: 15, y: -14.5}
+        - {x: 19, y: -6.5}
+        - {x: 25, y: 16.5}
+    - name: CATERPIE_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 315
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 22.5}
+        - {x: -16, y: -4.5}
+        - {x: -16, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 20, y: -17.5}
+        - {x: 25, y: 3.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 315
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22.5}
+        - {x: -17, y: 3.5}
+        - {x: -17, y: -21.5}
+        - {x: -15, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 17, y: -17.5}
+        - {x: 25, y: 4.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 315
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 22.5}
+        - {x: -18, y: 2.5}
+        - {x: -18, y: -22.5}
+        - {x: 8, y: -22.5}
+        - {x: 21, y: -19.5}
+        - {x: 25, y: -0.5}
+        - {x: 25, y: 20.5}
+        - {x: 23, y: 22.5}
+    - name: CATERPIE_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 22.5}
+        - {x: -19, y: 4.5}
+        - {x: -19, y: -22.5}
+        - {x: 18, y: -22.5}
+        - {x: 25, y: -7.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 270
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22.5}
+        - {x: -20, y: -2.5}
+        - {x: -20, y: -17.5}
+        - {x: -15, y: -22.5}
+        - {x: 8, y: -22.5}
+        - {x: 25, y: -0.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 270
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 22.5}
+        - {x: -21, y: -1.5}
+        - {x: -21, y: -19.5}
+        - {x: -18, y: -22.5}
+        - {x: 9, y: -22.5}
+        - {x: 21, y: -18.5}
+        - {x: 25, y: 2.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 270
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 22.5}
+        - {x: -23, y: 3.5}
+        - {x: -23, y: -16.5}
+        - {x: -22, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 17, y: -15.5}
+        - {x: 25, y: 9.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 270
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 22.5}
+        - {x: -24, y: -2.5}
+        - {x: -24, y: -16.5}
+        - {x: -17, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 25, y: 2.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 270
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 22.5}
+        - {x: -25, y: 7.5}
+        - {x: -25, y: -14.5}
+        - {x: -21, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 17, y: -18.5}
+        - {x: 25, y: 6.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 270
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 22.5}
+        - {x: -25, y: -3.5}
+        - {x: -25, y: -15.5}
+        - {x: -22, y: -22.5}
+        - {x: 21, y: -22.5}
+        - {x: 25, y: -1.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_15
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 270
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 22.5}
+        - {x: -25, y: -1.5}
+        - {x: -25, y: -12.5}
+        - {x: -17, y: -21.5}
+        - {x: -16, y: -22.5}
+        - {x: 8, y: -22.5}
+        - {x: 18, y: -20.5}
+        - {x: 25, y: 3.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 22.5}
+        - {x: -25, y: 2.5}
+        - {x: -25, y: -15.5}
+        - {x: -16, y: -22.5}
+        - {x: 16, y: -22.5}
+        - {x: 25, y: -2.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 225
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 22.5}
+        - {x: -6, y: 19.5}
+        - {x: -8, y: 2.5}
+        - {x: -21, y: -2.5}
+        - {x: -25, y: -4.5}
+        - {x: -25, y: -14.5}
+        - {x: -23, y: -22.5}
+        - {x: 20, y: -22.5}
+        - {x: 25, y: -3.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_18
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 225
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 22.5}
+        - {x: -25, y: 11.5}
+        - {x: -25, y: -14.5}
+        - {x: -15, y: -22.5}
+        - {x: 9, y: -22.5}
+        - {x: 25, y: 1.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 225
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 22.5}
+        - {x: -25, y: 6.5}
+        - {x: -25, y: -18.5}
+        - {x: -18, y: -22.5}
+        - {x: 18, y: -22.5}
+        - {x: 25, y: -10.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 225
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 22.5}
+        - {x: -11, y: 21.5}
+        - {x: -25, y: -1.5}
+        - {x: -25, y: -19.5}
+        - {x: -21, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 16, y: -21.5}
+        - {x: 25, y: 6.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 225
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22.5}
+        - {x: -25, y: -1.5}
+        - {x: -25, y: -10.5}
+        - {x: -20, y: -16.5}
+        - {x: -16, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 16, y: -20.5}
+        - {x: 25, y: -2.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 225
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 22.5}
+        - {x: -5, y: 15.5}
+        - {x: -25, y: -1.5}
+        - {x: -25, y: -14.5}
+        - {x: -15, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 25, y: 1.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 225
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 22.5}
+        - {x: -25, y: 12.5}
+        - {x: -25, y: -17.5}
+        - {x: -19, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 25, y: -5.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 22.5}
+        - {x: -7, y: 16.5}
+        - {x: -25, y: 5.5}
+        - {x: -25, y: -19.5}
+        - {x: -24, y: -20.5}
+        - {x: -16, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 16, y: -21.5}
+        - {x: 25, y: 5.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 180
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 22.5}
+        - {x: -25, y: 8.5}
+        - {x: -25, y: -22.5}
+        - {x: 24, y: -22.5}
+        - {x: 25, y: -14.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 180
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 22.5}
+        - {x: -4, y: 16.5}
+        - {x: -24, y: -3.5}
+        - {x: -24, y: -14.5}
+        - {x: -15, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 25, y: -1.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 180
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -20.5}
+        - {x: -19, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 25, y: -4.5}
+        - {x: 25, y: 22.5}
+        - {x: -14, y: 22.5}
+        - {x: -24, y: 18.5}
+    - name: CATERPIE_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 22.5}
+        - {x: -24, y: 5.5}
+        - {x: -24, y: -14.5}
+        - {x: -16, y: -22.5}
+        - {x: 7, y: -22.5}
+        - {x: 13, y: -20.5}
+        - {x: 25, y: -2.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_29
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 180
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -17.5}
+        - {x: -17, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 25, y: -0.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_30
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 180
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22.5}
+        - {x: -24, y: 2.5}
+        - {x: -24, y: -15.5}
+        - {x: -21, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 25, y: 3.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_31
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 180
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 22.5}
+        - {x: -6, y: 16.5}
+        - {x: -25, y: -3.5}
+        - {x: -25, y: -10.5}
+        - {x: -16, y: -22.5}
+        - {x: 8, y: -22.5}
+        - {x: 14, y: -21.5}
+        - {x: 25, y: 7.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 22.5}
+        - {x: -25, y: 0.5}
+        - {x: -25, y: -16.5}
+        - {x: -17, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 25, y: -2.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_33
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 135
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 22.5}
+        - {x: -25, y: 11.5}
+        - {x: -25, y: -18.5}
+        - {x: -21, y: -22.5}
+        - {x: 7, y: -22.5}
+        - {x: 19, y: -17.5}
+        - {x: 25, y: 8.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_34
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 135
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 22.5}
+        - {x: -25, y: 2.5}
+        - {x: -25, y: -15.5}
+        - {x: -21, y: -20.5}
+        - {x: -19, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 15, y: -21.5}
+        - {x: 23, y: 2.5}
+        - {x: 25, y: 11.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_35
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 135
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 22.5}
+        - {x: -25, y: -0.5}
+        - {x: -25, y: -19.5}
+        - {x: -23, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 25, y: -3.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 135
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22.5}
+        - {x: -25, y: -1.5}
+        - {x: -25, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 25, y: 2.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 135
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 22.5}
+        - {x: -25, y: 10.5}
+        - {x: -25, y: -22.5}
+        - {x: 16, y: -22.5}
+        - {x: 21, y: -20.5}
+        - {x: 25, y: -6.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 135
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 22.5}
+        - {x: -3, y: 17.5}
+        - {x: -25, y: 2.5}
+        - {x: -25, y: -16.5}
+        - {x: -21, y: -22.5}
+        - {x: 9, y: -22.5}
+        - {x: 25, y: -3.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_39
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 135
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22.5}
+        - {x: -11, y: 1.5}
+        - {x: -22, y: -3.5}
+        - {x: -25, y: -4.5}
+        - {x: -25, y: -11.5}
+        - {x: -18, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 25, y: 2.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 22.5}
+        - {x: -25, y: 7.5}
+        - {x: -25, y: -18.5}
+        - {x: -17, y: -22.5}
+        - {x: 16, y: -22.5}
+        - {x: 20, y: -18.5}
+        - {x: 25, y: 8.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 90
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 22.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -19.5}
+        - {x: -21, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 16, y: -21.5}
+        - {x: 25, y: 6.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 90
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 22.5}
+        - {x: -4, y: 16.5}
+        - {x: -6, y: 13.5}
+        - {x: -8, y: 2.5}
+        - {x: -23, y: -2.5}
+        - {x: -23, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 17, y: -16.5}
+        - {x: 25, y: 8.5}
+        - {x: 25, y: 22.5}
+    - name: CATERPIE_43
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 90
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 22.5}
+        - {x: -22, y: 3.5}
+        - {x: -22, y: -12.5}
+        - {x: -15, y: -22.5}
+        - {x: 17, y: -22.5}
+        - {x: 24, y: 6.5}
+        - {x: 24, y: 22.5}
+    - name: CATERPIE_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 90
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 22.5}
+        - {x: -21, y: 10.5}
+        - {x: -21, y: -17.5}
+        - {x: -17, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 15, y: -20.5}
+        - {x: 24, y: 15.5}
+        - {x: 24, y: 22.5}
+    - name: CATERPIE_45
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 90
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 22.5}
+        - {x: -20, y: 8.5}
+        - {x: -20, y: -19.5}
+        - {x: -17, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 15, y: -21.5}
+        - {x: 23, y: 8.5}
+        - {x: 23, y: 22.5}
+    - name: CATERPIE_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 90
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 22.5}
+        - {x: -18, y: 21.5}
+        - {x: -18, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 14, y: -19.5}
+        - {x: 23, y: 6.5}
+        - {x: 23, y: 22.5}
+    - name: CATERPIE_47
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 90
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 22.5}
+        - {x: -16, y: 3.5}
+        - {x: -17, y: 2.5}
+        - {x: -17, y: -22.5}
+        - {x: 9, y: -22.5}
+        - {x: 13, y: -19.5}
+        - {x: 23, y: -9.5}
+        - {x: 23, y: 22.5}
+    - name: CATERPIE_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 22.5}
+        - {x: -11, y: 15.5}
+        - {x: -17, y: -1.5}
+        - {x: -17, y: -16.5}
+        - {x: -11, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 23, y: -7.5}
+        - {x: 23, y: 22.5}
+    - name: CATERPIE_49
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 45
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 22.5}
+        - {x: -7, y: 13.5}
+        - {x: -7, y: -5.5}
+        - {x: -7, y: -2.5}
+        - {x: -8, y: -0.5}
+        - {x: -12, y: 0.5}
+        - {x: -16, y: -2.5}
+        - {x: -16, y: -21.5}
+        - {x: -14, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 17, y: -15.5}
+        - {x: 23, y: -1.5}
+        - {x: 23, y: 22.5}
+    - name: CATERPIE_50
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 45
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 22.5}
+        - {x: -7, y: 13.5}
+        - {x: -7, y: -5.5}
+        - {x: -7, y: -2.5}
+        - {x: -10, y: 0.5}
+        - {x: -11, y: 0.5}
+        - {x: -15, y: -2.5}
+        - {x: -15, y: -21.5}
+        - {x: -12, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 23, y: 2.5}
+        - {x: 23, y: 22.5}
+    - name: CATERPIE_51
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 45
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 22.5}
+        - {x: -15, y: 11.5}
+        - {x: -15, y: -22.5}
+        - {x: 8, y: -22.5}
+        - {x: 17, y: -15.5}
+        - {x: 24, y: 7.5}
+        - {x: 24, y: 22.5}
+    - name: CATERPIE_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 45
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 22.5}
+        - {x: -15, y: 10.5}
+        - {x: -15, y: -22.5}
+        - {x: 5, y: -22.5}
+        - {x: 15, y: -14.5}
+        - {x: 24, y: 11.5}
+        - {x: 24, y: 22.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

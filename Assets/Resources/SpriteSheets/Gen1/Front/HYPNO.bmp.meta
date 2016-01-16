@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: c545557283e87254d899dad090e58b39
+timeCreated: 1452882092
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HYPNO_0
+    21300002: HYPNO_1
+    21300004: HYPNO_2
+    21300006: HYPNO_3
+    21300008: HYPNO_4
+    21300010: HYPNO_5
+    21300012: HYPNO_6
+    21300014: HYPNO_7
+    21300016: HYPNO_8
+    21300018: HYPNO_9
+    21300020: HYPNO_10
+    21300022: HYPNO_11
+    21300024: HYPNO_12
+    21300026: HYPNO_13
+    21300028: HYPNO_14
+    21300030: HYPNO_15
+    21300032: HYPNO_16
+    21300034: HYPNO_17
+    21300036: HYPNO_18
+    21300038: HYPNO_19
+    21300040: HYPNO_20
+    21300042: HYPNO_21
+    21300044: HYPNO_22
+    21300046: HYPNO_23
+    21300048: HYPNO_24
+    21300050: HYPNO_25
+    21300052: HYPNO_26
+    21300054: HYPNO_27
+    21300056: HYPNO_28
+    21300058: HYPNO_29
+    21300060: HYPNO_30
+    21300062: HYPNO_31
+    21300064: HYPNO_32
+    21300066: HYPNO_33
+    21300068: HYPNO_34
+    21300070: HYPNO_35
+    21300072: HYPNO_36
+    21300074: HYPNO_37
+    21300076: HYPNO_38
+    21300078: HYPNO_39
+    21300080: HYPNO_40
+    21300082: HYPNO_41
+    21300084: HYPNO_42
+    21300086: HYPNO_43
+    21300088: HYPNO_44
+    21300090: HYPNO_45
+    21300092: HYPNO_46
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HYPNO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 5}
+        - {x: 43, y: 37}
+        - {x: 31, y: 39}
+        - {x: -24, y: 39}
+        - {x: -39, y: 13}
+        - {x: -39, y: -11}
+        - {x: -29, y: -38}
+        - {x: -25, y: -39}
+        - {x: 36, y: -39}
+        - {x: 34, y: -33}
+        - {x: 40, y: -10}
+    - name: HYPNO_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 468
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 39}
+        - {x: -16, y: 39}
+        - {x: -39, y: 13}
+        - {x: -39, y: -27}
+        - {x: -35, y: -39}
+        - {x: 37, y: -39}
+        - {x: 43, y: -25}
+        - {x: 43, y: 34}
+    - name: HYPNO_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 468
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 39}
+        - {x: -18, y: 39}
+        - {x: -35, y: 11}
+        - {x: -39, y: 2}
+        - {x: -39, y: -22}
+        - {x: -35, y: -39}
+        - {x: 37, y: -39}
+        - {x: 43, y: -24}
+        - {x: 43, y: 27}
+    - name: HYPNO_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 468
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 39}
+        - {x: -8, y: 39}
+        - {x: -17, y: 34}
+        - {x: -40, y: 9}
+        - {x: -40, y: -28}
+        - {x: -36, y: -39}
+        - {x: 40, y: -39}
+        - {x: 43, y: -28}
+        - {x: 43, y: 35}
+    - name: HYPNO_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 468
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 39}
+        - {x: -23, y: 39}
+        - {x: -38, y: 34}
+        - {x: -40, y: 26}
+        - {x: -40, y: -32}
+        - {x: -27, y: -39}
+        - {x: 41, y: -39}
+        - {x: 42, y: -33}
+        - {x: 42, y: 36}
+    - name: HYPNO_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 468
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 39}
+        - {x: -41, y: 15}
+        - {x: -41, y: -33}
+        - {x: -38, y: -39}
+        - {x: 37, y: -39}
+        - {x: 42, y: -33}
+        - {x: 42, y: 39}
+    - name: HYPNO_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 468
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 25}
+        - {x: 23, y: 17}
+        - {x: 16, y: 39}
+        - {x: -22, y: 39}
+        - {x: -41, y: 27}
+        - {x: -41, y: -3}
+        - {x: -38, y: -7}
+        - {x: -17, y: -7}
+        - {x: -29, y: -39}
+        - {x: 42, y: -39}
+        - {x: 42, y: 21}
+        - {x: 39, y: 26}
+    - name: HYPNO_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 39}
+        - {x: -26, y: 38}
+        - {x: -41, y: 15}
+        - {x: -41, y: -39}
+        - {x: 42, y: -39}
+        - {x: 42, y: 39}
+    - name: HYPNO_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 390
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 39}
+        - {x: -42, y: 16}
+        - {x: -42, y: -13}
+        - {x: -31, y: -39}
+        - {x: 37, y: -39}
+        - {x: 42, y: -9}
+        - {x: 42, y: 26}
+        - {x: 25, y: 39}
+    - name: HYPNO_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 390
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 39}
+        - {x: -42, y: 14}
+        - {x: -42, y: -11}
+        - {x: -31, y: -39}
+        - {x: 42, y: -39}
+        - {x: 42, y: 39}
+    - name: HYPNO_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 390
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -12}
+        - {x: 36, y: -9}
+        - {x: 42, y: 14}
+        - {x: 42, y: 22}
+        - {x: 23, y: 39}
+        - {x: -18, y: 39}
+        - {x: -23, y: 38}
+        - {x: -42, y: 25}
+        - {x: -42, y: -36}
+        - {x: -40, y: -39}
+        - {x: 34, y: -39}
+        - {x: 36, y: -33}
+        - {x: 29, y: -21}
+        - {x: 23, y: -14}
+    - name: HYPNO_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 390
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 39}
+        - {x: -29, y: 39}
+        - {x: -43, y: 32}
+        - {x: -43, y: -36}
+        - {x: -41, y: -39}
+        - {x: 39, y: -39}
+        - {x: 42, y: -17}
+        - {x: 42, y: 20}
+        - {x: 40, y: 24}
+    - name: HYPNO_12
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 390
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 24}
+        - {x: 23, y: 17}
+        - {x: 15, y: 39}
+        - {x: 1, y: 39}
+        - {x: -11, y: 36}
+        - {x: -14, y: 33}
+        - {x: -38, y: 13}
+        - {x: -43, y: 8}
+        - {x: -43, y: -2}
+        - {x: -41, y: -8}
+        - {x: -19, y: -9}
+        - {x: -23, y: -39}
+        - {x: 42, y: -39}
+        - {x: 42, y: 21}
+        - {x: 36, y: 25}
+    - name: HYPNO_13
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 390
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 39}
+        - {x: -43, y: 30}
+        - {x: -43, y: -2}
+        - {x: -39, y: -5}
+        - {x: -30, y: -8}
+        - {x: -26, y: -9}
+        - {x: -18, y: -9}
+        - {x: -23, y: -39}
+        - {x: 38, y: -39}
+        - {x: 42, y: -22}
+        - {x: 42, y: 30}
+        - {x: 36, y: 39}
+    - name: HYPNO_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 39}
+        - {x: -32, y: 39}
+        - {x: -43, y: 33}
+        - {x: -43, y: -6}
+        - {x: -24, y: -39}
+        - {x: 42, y: -39}
+        - {x: 42, y: 26}
+        - {x: 40, y: 34}
+    - name: HYPNO_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 312
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 39}
+        - {x: -43, y: 25}
+        - {x: -43, y: -11}
+        - {x: -32, y: -39}
+        - {x: 38, y: -39}
+        - {x: 42, y: -24}
+        - {x: 42, y: 31}
+        - {x: 38, y: 39}
+    - name: HYPNO_16
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 312
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 39}
+        - {x: -43, y: 17}
+        - {x: -43, y: -6}
+        - {x: -30, y: -9}
+        - {x: -26, y: -10}
+        - {x: -17, y: -10}
+        - {x: -19, y: -22}
+        - {x: -23, y: -39}
+        - {x: 42, y: -39}
+        - {x: 42, y: 31}
+        - {x: 28, y: 39}
+    - name: HYPNO_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 312
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 24}
+        - {x: 18, y: 39}
+        - {x: -24, y: 39}
+        - {x: -43, y: 11}
+        - {x: -43, y: -24}
+        - {x: -26, y: -39}
+        - {x: 37, y: -39}
+        - {x: 42, y: -4}
+        - {x: 42, y: 19}
+    - name: HYPNO_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 312
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 39}
+        - {x: -43, y: 32}
+        - {x: -43, y: -24}
+        - {x: -32, y: -39}
+        - {x: 43, y: -39}
+        - {x: 43, y: 30}
+        - {x: 35, y: 39}
+    - name: HYPNO_19
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 312
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -30}
+        - {x: 43, y: 36}
+        - {x: 40, y: 39}
+        - {x: -43, y: 39}
+        - {x: -43, y: -35}
+        - {x: -40, y: -39}
+        - {x: 37, y: -39}
+    - name: HYPNO_20
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 312
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 39}
+        - {x: -20, y: 35}
+        - {x: -43, y: 22}
+        - {x: -43, y: -26}
+        - {x: -37, y: -39}
+        - {x: 42, y: -39}
+        - {x: 43, y: -28}
+        - {x: 43, y: 23}
+        - {x: 18, y: 39}
+    - name: HYPNO_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 39}
+        - {x: -11, y: 39}
+        - {x: -17, y: 35}
+        - {x: -40, y: 15}
+        - {x: -43, y: 12}
+        - {x: -43, y: -11}
+        - {x: -35, y: -39}
+        - {x: 40, y: -39}
+        - {x: 43, y: -30}
+        - {x: 43, y: 34}
+    - name: HYPNO_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 234
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 39}
+        - {x: -33, y: 39}
+        - {x: -43, y: 15}
+        - {x: -43, y: -17}
+        - {x: -34, y: -39}
+        - {x: 36, y: -39}
+        - {x: 43, y: 0}
+        - {x: 43, y: 27}
+    - name: HYPNO_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 234
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -10}
+        - {x: 43, y: 0}
+        - {x: 43, y: 35}
+        - {x: 37, y: 39}
+        - {x: -14, y: 39}
+        - {x: -17, y: 37}
+        - {x: -43, y: 9}
+        - {x: -43, y: -29}
+        - {x: -35, y: -39}
+        - {x: 38, y: -39}
+        - {x: 28, y: -17}
+        - {x: 20, y: -10}
+        - {x: 26, y: -12}
+    - name: HYPNO_24
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 234
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 39}
+        - {x: -22, y: 39}
+        - {x: -43, y: 16}
+        - {x: -43, y: -19}
+        - {x: -34, y: -39}
+        - {x: 39, y: -39}
+        - {x: 43, y: -8}
+        - {x: 43, y: 22}
+        - {x: 36, y: 36}
+    - name: HYPNO_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 234
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 39}
+        - {x: -9, y: 39}
+        - {x: -43, y: 12}
+        - {x: -43, y: -25}
+        - {x: -37, y: -39}
+        - {x: 36, y: -39}
+        - {x: 43, y: -14}
+        - {x: 43, y: 28}
+    - name: HYPNO_26
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 234
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 39}
+        - {x: -22, y: 39}
+        - {x: -43, y: 20}
+        - {x: -43, y: -17}
+        - {x: -35, y: -39}
+        - {x: 37, y: -39}
+        - {x: 43, y: -28}
+        - {x: 43, y: 31}
+    - name: HYPNO_27
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 234
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 38}
+        - {x: -6, y: 38}
+        - {x: -15, y: 33}
+        - {x: -43, y: 6}
+        - {x: -43, y: -8}
+        - {x: -39, y: -13}
+        - {x: -23, y: -15}
+        - {x: -15, y: -14}
+        - {x: -25, y: -39}
+        - {x: 42, y: -39}
+        - {x: 43, y: -32}
+        - {x: 43, y: 30}
+    - name: HYPNO_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 38}
+        - {x: -42, y: 11}
+        - {x: -43, y: 9}
+        - {x: -43, y: -25}
+        - {x: -33, y: -39}
+        - {x: 39, y: -39}
+        - {x: 43, y: -31}
+        - {x: 43, y: 32}
+        - {x: 37, y: 38}
+    - name: HYPNO_29
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 156
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 38}
+        - {x: -42, y: 9}
+        - {x: -42, y: -19}
+        - {x: -30, y: -39}
+        - {x: 43, y: -39}
+        - {x: 43, y: 38}
+    - name: HYPNO_30
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 156
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -10}
+        - {x: 34, y: -14}
+        - {x: 43, y: 2}
+        - {x: 43, y: 37}
+        - {x: 34, y: 38}
+        - {x: -30, y: 38}
+        - {x: -42, y: 11}
+        - {x: -42, y: -33}
+        - {x: -36, y: -39}
+        - {x: 36, y: -39}
+        - {x: 34, y: -33}
+        - {x: 28, y: -17}
+    - name: HYPNO_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 156
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -13}
+        - {x: 35, y: -8}
+        - {x: 43, y: 4}
+        - {x: 43, y: 30}
+        - {x: 30, y: 38}
+        - {x: -12, y: 38}
+        - {x: -19, y: 35}
+        - {x: -42, y: -1}
+        - {x: -42, y: -13}
+        - {x: -24, y: -39}
+        - {x: 38, y: -39}
+        - {x: 28, y: -17}
+        - {x: 20, y: -10}
+    - name: HYPNO_32
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 156
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 38}
+        - {x: -41, y: 23}
+        - {x: -41, y: -39}
+        - {x: 39, y: -39}
+        - {x: 43, y: -25}
+        - {x: 43, y: 34}
+        - {x: 37, y: 38}
+    - name: HYPNO_33
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 156
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -22}
+        - {x: 43, y: 38}
+        - {x: -29, y: 38}
+        - {x: -41, y: 3}
+        - {x: -41, y: -15}
+        - {x: -28, y: -36}
+        - {x: -23, y: -39}
+        - {x: 37, y: -39}
+    - name: HYPNO_34
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 156
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -15}
+        - {x: 33, y: -13}
+        - {x: 43, y: -10}
+        - {x: 43, y: 35}
+        - {x: 40, y: 38}
+        - {x: -24, y: 38}
+        - {x: -40, y: 24}
+        - {x: -40, y: -31}
+        - {x: -29, y: -39}
+        - {x: 36, y: -39}
+        - {x: 34, y: -33}
+        - {x: 30, y: -22}
+    - name: HYPNO_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 39}
+        - {x: -13, y: 37}
+        - {x: -27, y: 27}
+        - {x: -40, y: -3}
+        - {x: -40, y: -29}
+        - {x: -30, y: -38}
+        - {x: -25, y: -39}
+        - {x: 43, y: -39}
+        - {x: 43, y: 30}
+        - {x: 21, y: 39}
+    - name: HYPNO_36
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 78
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 39}
+        - {x: -39, y: 16}
+        - {x: -39, y: -39}
+        - {x: 39, y: -39}
+        - {x: 43, y: -27}
+        - {x: 43, y: 35}
+        - {x: 37, y: 39}
+    - name: HYPNO_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 78
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 39}
+        - {x: -39, y: 0}
+        - {x: -39, y: -39}
+        - {x: 43, y: -39}
+        - {x: 43, y: 35}
+        - {x: 36, y: 39}
+    - name: HYPNO_38
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 78
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 39}
+        - {x: -39, y: 21}
+        - {x: -39, y: -34}
+        - {x: -37, y: -39}
+        - {x: 42, y: -39}
+        - {x: 43, y: -34}
+        - {x: 43, y: 34}
+        - {x: 42, y: 39}
+    - name: HYPNO_39
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 78
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 35}
+        - {x: 15, y: 39}
+        - {x: -25, y: 39}
+        - {x: -39, y: 1}
+        - {x: -39, y: -13}
+        - {x: -32, y: -39}
+        - {x: 41, y: -39}
+        - {x: 43, y: -19}
+        - {x: 43, y: 25}
+    - name: HYPNO_40
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 78
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 39}
+        - {x: -11, y: 39}
+        - {x: -15, y: 38}
+        - {x: -38, y: -1}
+        - {x: -38, y: -32}
+        - {x: -34, y: -39}
+        - {x: 37, y: -39}
+        - {x: 43, y: -14}
+        - {x: 43, y: 29}
+    - name: HYPNO_41
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 78
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 39}
+        - {x: -16, y: 39}
+        - {x: -38, y: 17}
+        - {x: -38, y: -16}
+        - {x: -25, y: -39}
+        - {x: 39, y: -39}
+        - {x: 43, y: -25}
+        - {x: 43, y: 38}
+    - name: HYPNO_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 39}
+        - {x: -17, y: 33}
+        - {x: -16, y: 30}
+        - {x: -38, y: 4}
+        - {x: -38, y: -27}
+        - {x: -31, y: -39}
+        - {x: 40, y: -39}
+        - {x: 43, y: -15}
+        - {x: 43, y: 25}
+        - {x: 27, y: 39}
+    - name: HYPNO_43
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -20}
+        - {x: 43, y: 38}
+        - {x: 42, y: 39}
+        - {x: -17, y: 39}
+        - {x: -38, y: 4}
+        - {x: -38, y: -22}
+        - {x: -25, y: -39}
+        - {x: -1, y: -39}
+        - {x: 2, y: -32}
+        - {x: 11, y: -39}
+        - {x: 35, y: -39}
+    - name: HYPNO_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 39}
+        - {x: -38, y: 18}
+        - {x: -38, y: -35}
+        - {x: -32, y: -39}
+        - {x: 39, y: -39}
+        - {x: 43, y: -23}
+        - {x: 43, y: 33}
+        - {x: 37, y: 39}
+    - name: HYPNO_45
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 39}
+        - {x: -2, y: 39}
+        - {x: -14, y: 36}
+        - {x: -17, y: 33}
+        - {x: -17, y: 32}
+        - {x: -38, y: 5}
+        - {x: -38, y: -37}
+        - {x: -37, y: -39}
+        - {x: 43, y: -39}
+        - {x: 43, y: 23}
+        - {x: 37, y: 26}
+    - name: HYPNO_46
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 39}
+        - {x: -10, y: 39}
+        - {x: -22, y: 35}
+        - {x: -38, y: 4}
+        - {x: -38, y: -11}
+        - {x: -31, y: -39}
+        - {x: 37, y: -39}
+        - {x: 43, y: -18}
+        - {x: 43, y: 34}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

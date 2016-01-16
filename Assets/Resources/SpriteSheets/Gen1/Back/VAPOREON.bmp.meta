@@ -1,0 +1,1457 @@
+fileFormatVersion: 2
+guid: 3b052c2139ac03b44a64ddb721ec86ca
+timeCreated: 1452890709
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: VAPOREON_0
+    21300002: VAPOREON_1
+    21300004: VAPOREON_2
+    21300006: VAPOREON_3
+    21300008: VAPOREON_4
+    21300010: VAPOREON_5
+    21300012: VAPOREON_6
+    21300014: VAPOREON_7
+    21300016: VAPOREON_8
+    21300018: VAPOREON_9
+    21300020: VAPOREON_10
+    21300022: VAPOREON_11
+    21300024: VAPOREON_12
+    21300026: VAPOREON_13
+    21300028: VAPOREON_14
+    21300030: VAPOREON_15
+    21300032: VAPOREON_16
+    21300034: VAPOREON_17
+    21300036: VAPOREON_18
+    21300038: VAPOREON_19
+    21300040: VAPOREON_20
+    21300042: VAPOREON_21
+    21300044: VAPOREON_22
+    21300046: VAPOREON_23
+    21300048: VAPOREON_24
+    21300050: VAPOREON_25
+    21300052: VAPOREON_26
+    21300054: VAPOREON_27
+    21300056: VAPOREON_28
+    21300058: VAPOREON_29
+    21300060: VAPOREON_30
+    21300062: VAPOREON_31
+    21300064: VAPOREON_32
+    21300066: VAPOREON_33
+    21300068: VAPOREON_34
+    21300070: VAPOREON_35
+    21300072: VAPOREON_36
+    21300074: VAPOREON_37
+    21300076: VAPOREON_38
+    21300078: VAPOREON_39
+    21300080: VAPOREON_40
+    21300082: VAPOREON_41
+    21300084: VAPOREON_42
+    21300086: VAPOREON_43
+    21300088: VAPOREON_44
+    21300090: VAPOREON_45
+    21300092: VAPOREON_46
+    21300094: VAPOREON_47
+    21300096: VAPOREON_48
+    21300098: VAPOREON_49
+    21300100: VAPOREON_50
+    21300102: VAPOREON_51
+    21300104: VAPOREON_52
+    21300106: VAPOREON_53
+    21300108: VAPOREON_54
+    21300110: VAPOREON_55
+    21300112: VAPOREON_56
+    21300114: VAPOREON_57
+    21300116: VAPOREON_58
+    21300118: VAPOREON_59
+    21300120: VAPOREON_60
+    21300122: VAPOREON_61
+    21300124: VAPOREON_62
+    21300126: VAPOREON_63
+    21300128: VAPOREON_64
+    21300130: VAPOREON_65
+    21300132: VAPOREON_66
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 0
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: VAPOREON_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 36}
+        - {x: -55.5, y: -21}
+        - {x: -55.5, y: -36}
+        - {x: 55.5, y: -36}
+        - {x: 62.5, y: -10}
+        - {x: 62.5, y: 36}
+    - name: VAPOREON_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 576
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 36}
+        - {x: -55.5, y: -30}
+        - {x: -55.5, y: -35}
+        - {x: -53.5, y: -36}
+        - {x: 56.5, y: -36}
+        - {x: 62.5, y: -11}
+        - {x: 62.5, y: 34}
+        - {x: 53.5, y: 36}
+    - name: VAPOREON_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 576
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 36}
+        - {x: -55.5, y: -30}
+        - {x: -55.5, y: -35}
+        - {x: -53.5, y: -36}
+        - {x: 56.5, y: -36}
+        - {x: 62.5, y: -11}
+        - {x: 62.5, y: 34}
+        - {x: 53.5, y: 36}
+    - name: VAPOREON_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 576
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 36}
+        - {x: -54.5, y: -25}
+        - {x: -54.5, y: -36}
+        - {x: 55.5, y: -36}
+        - {x: 62.5, y: -11}
+        - {x: 62.5, y: 36}
+    - name: VAPOREON_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 576
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 36}
+        - {x: -54.5, y: -25}
+        - {x: -54.5, y: -36}
+        - {x: 55.5, y: -36}
+        - {x: 62.5, y: -11}
+        - {x: 62.5, y: 36}
+    - name: VAPOREON_5
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 576
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 36}
+        - {x: -53.5, y: -26}
+        - {x: -53.5, y: -34}
+        - {x: -52.5, y: -36}
+        - {x: 45.5, y: -36}
+        - {x: 62.5, y: -21}
+        - {x: 62.5, y: 30}
+        - {x: 52.5, y: 36}
+    - name: VAPOREON_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 576
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: 36}
+        - {x: 34.5, y: 36}
+        - {x: -52.5, y: -23}
+        - {x: -53.5, y: -25}
+        - {x: -53.5, y: -34}
+        - {x: -52.5, y: -36}
+        - {x: 48.5, y: -36}
+        - {x: 59.5, y: -5}
+        - {x: 62.5, y: 5}
+        - {x: 62.5, y: 32}
+    - name: VAPOREON_7
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 576
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 36}
+        - {x: 13.5, y: 22}
+        - {x: -5.5, y: -4}
+        - {x: -49.5, y: -26}
+        - {x: -53.5, y: -31}
+        - {x: -53.5, y: -36}
+        - {x: 62.5, y: -36}
+        - {x: 62.5, y: 32}
+        - {x: 54.5, y: 36}
+    - name: VAPOREON_8
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 576
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 30}
+        - {x: 48.5, y: 36}
+        - {x: 33.5, y: 36}
+        - {x: 15.5, y: 23}
+        - {x: -52.5, y: -26}
+        - {x: -52.5, y: -36}
+        - {x: 44.5, y: -36}
+        - {x: 61.5, y: -6}
+        - {x: 62.5, y: 10}
+    - name: VAPOREON_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 36}
+        - {x: -52.5, y: -20}
+        - {x: -52.5, y: -36}
+        - {x: 46.5, y: -36}
+        - {x: 62.5, y: -30}
+        - {x: 62.5, y: 28}
+        - {x: 52.5, y: 36}
+    - name: VAPOREON_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 504
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 35}
+        - {x: -48.5, y: -28}
+        - {x: -52.5, y: -32}
+        - {x: -52.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 62.5, y: 8}
+        - {x: 62.5, y: 26}
+        - {x: 54.5, y: 35}
+    - name: VAPOREON_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 504
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 35}
+        - {x: -52.5, y: -29}
+        - {x: -52.5, y: -36}
+        - {x: 47.5, y: -36}
+        - {x: 62.5, y: -8}
+        - {x: 62.5, y: 30}
+        - {x: 49.5, y: 35}
+    - name: VAPOREON_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 504
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 36}
+        - {x: -52.5, y: -21}
+        - {x: -52.5, y: -36}
+        - {x: 48.5, y: -36}
+        - {x: 62.5, y: -14}
+        - {x: 62.5, y: 31}
+        - {x: 61.5, y: 36}
+    - name: VAPOREON_13
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 504
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 33}
+        - {x: 59.5, y: 36}
+        - {x: 23.5, y: 36}
+        - {x: -51.5, y: -28}
+        - {x: -51.5, y: -36}
+        - {x: 45.5, y: -36}
+        - {x: 61.5, y: -8}
+        - {x: 62.5, y: -6}
+    - name: VAPOREON_14
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 504
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 35}
+        - {x: -50.5, y: -29}
+        - {x: -50.5, y: -35}
+        - {x: -49.5, y: -36}
+        - {x: 52.5, y: -36}
+        - {x: 62.5, y: -16}
+        - {x: 62.5, y: 35}
+    - name: VAPOREON_15
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 504
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 35}
+        - {x: -50.5, y: -29}
+        - {x: -50.5, y: -36}
+        - {x: 51.5, y: -36}
+        - {x: 62.5, y: -26}
+        - {x: 62.5, y: 24}
+        - {x: 51.5, y: 35}
+    - name: VAPOREON_16
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 504
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 35}
+        - {x: -29.5, y: 11}
+        - {x: -50.5, y: -27}
+        - {x: -50.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 63.5, y: 7}
+        - {x: 63.5, y: 24}
+        - {x: 48.5, y: 35}
+    - name: VAPOREON_17
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 504
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: -7}
+        - {x: 63.5, y: 8}
+        - {x: 63.5, y: 32}
+        - {x: 58.5, y: 36}
+        - {x: 27.5, y: 36}
+        - {x: -50.5, y: -33}
+        - {x: -49.5, y: -36}
+        - {x: -3.5, y: -36}
+        - {x: 7.5, y: -35}
+        - {x: 31.5, y: -34}
+        - {x: 44.5, y: -31}
+    - name: VAPOREON_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -33}
+        - {x: 31.5, y: -34}
+        - {x: 44.5, y: -31}
+        - {x: 60.5, y: -8}
+        - {x: 63.5, y: 1}
+        - {x: 63.5, y: 29}
+        - {x: 55.5, y: 34}
+        - {x: 25.5, y: 34}
+        - {x: -49.5, y: -26}
+        - {x: -49.5, y: -36}
+        - {x: 5.5, y: -36}
+        - {x: 15.5, y: -34}
+        - {x: 16.5, y: -31}
+        - {x: 16.5, y: -27}
+    - name: VAPOREON_19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 432
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 25}
+        - {x: 45.5, y: 35}
+        - {x: 34.5, y: 35}
+        - {x: 22.5, y: 24}
+        - {x: 19.5, y: 21}
+        - {x: -0.5, y: -1}
+        - {x: -46.5, y: -28}
+        - {x: -48.5, y: -31}
+        - {x: -48.5, y: -36}
+        - {x: 43.5, y: -36}
+        - {x: 58.5, y: -7}
+        - {x: 63.5, y: 14}
+        - {x: 63.5, y: 24}
+    - name: VAPOREON_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 432
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: 36}
+        - {x: 23.5, y: 36}
+        - {x: -9.5, y: 6}
+        - {x: -47.5, y: -31}
+        - {x: -47.5, y: -36}
+        - {x: 49.5, y: -36}
+        - {x: 62.5, y: -9}
+        - {x: 63.5, y: 3}
+        - {x: 63.5, y: 25}
+    - name: VAPOREON_21
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 432
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: 25}
+        - {x: 59.5, y: 34}
+        - {x: 21.5, y: 34}
+        - {x: -46.5, y: -22}
+        - {x: -46.5, y: -36}
+        - {x: 46.5, y: -36}
+        - {x: 57.5, y: -6}
+        - {x: 62.5, y: 11}
+        - {x: 64.5, y: 20}
+    - name: VAPOREON_22
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 432
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: 35}
+        - {x: 27.5, y: 35}
+        - {x: -46.5, y: -25}
+        - {x: -46.5, y: -36}
+        - {x: 48.5, y: -36}
+        - {x: 63.5, y: 4}
+        - {x: 63.5, y: 22}
+    - name: VAPOREON_23
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 432
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: 35}
+        - {x: 24.5, y: 35}
+        - {x: -45.5, y: -22}
+        - {x: -45.5, y: -36}
+        - {x: 46.5, y: -36}
+        - {x: 64.5, y: 9}
+        - {x: 64.5, y: 31}
+    - name: VAPOREON_24
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 432
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: 26}
+        - {x: 53.5, y: 36}
+        - {x: 21.5, y: 36}
+        - {x: 14.5, y: 33}
+        - {x: -44.5, y: -30}
+        - {x: -44.5, y: -36}
+        - {x: 25.5, y: -36}
+        - {x: 42.5, y: -35}
+        - {x: 60.5, y: -7}
+        - {x: 64.5, y: 12}
+    - name: VAPOREON_25
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 432
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: -10}
+        - {x: 64.5, y: 2}
+        - {x: 64.5, y: 34}
+        - {x: 11.5, y: 34}
+        - {x: -44.5, y: -34}
+        - {x: -43.5, y: -36}
+        - {x: -6.5, y: -36}
+        - {x: -4.5, y: -35}
+        - {x: 4.5, y: -36}
+        - {x: 44.5, y: -36}
+    - name: VAPOREON_26
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 432
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 35}
+        - {x: -43.5, y: -26}
+        - {x: -43.5, y: -36}
+        - {x: 53.5, y: -36}
+        - {x: 65.5, y: -5}
+        - {x: 65.5, y: 34}
+        - {x: 64.5, y: 35}
+    - name: VAPOREON_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 20}
+        - {x: 64.5, y: 23}
+        - {x: 51.5, y: 36}
+        - {x: 29.5, y: 36}
+        - {x: -42.5, y: -20}
+        - {x: -42.5, y: -36}
+        - {x: 44.5, y: -36}
+        - {x: 59.5, y: -14}
+        - {x: 65.5, y: 12}
+    - name: VAPOREON_28
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 360
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 36}
+        - {x: -19.5, y: 5}
+        - {x: -42.5, y: -31}
+        - {x: -42.5, y: -36}
+        - {x: 51.5, y: -36}
+        - {x: 65.5, y: 10}
+        - {x: 65.5, y: 26}
+        - {x: 46.5, y: 36}
+    - name: VAPOREON_29
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 360
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 34}
+        - {x: 27.5, y: 34}
+        - {x: -42.5, y: -23}
+        - {x: -42.5, y: -36}
+        - {x: 53.5, y: -36}
+        - {x: 61.5, y: -10}
+        - {x: 65.5, y: 13}
+        - {x: 65.5, y: 23}
+    - name: VAPOREON_30
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 360
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.5, y: 35}
+        - {x: 26.5, y: 35}
+        - {x: -42.5, y: -14}
+        - {x: -42.5, y: -36}
+        - {x: 52.5, y: -36}
+        - {x: 61.5, y: -9}
+        - {x: 65.5, y: 12}
+        - {x: 65.5, y: 25}
+    - name: VAPOREON_31
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 360
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 35}
+        - {x: 38.5, y: 35}
+        - {x: 17.5, y: 22}
+        - {x: -42.5, y: -34}
+        - {x: -41.5, y: -36}
+        - {x: 53.5, y: -36}
+        - {x: 65.5, y: 4}
+        - {x: 65.5, y: 22}
+    - name: VAPOREON_32
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 360
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: -34}
+        - {x: 65.5, y: 6}
+        - {x: 65.5, y: 31}
+        - {x: 57.5, y: 35}
+        - {x: 30.5, y: 35}
+        - {x: -42.5, y: -21}
+        - {x: -42.5, y: -36}
+        - {x: -5.5, y: -36}
+        - {x: 14.5, y: -33}
+        - {x: 16.5, y: -31}
+        - {x: 21.5, y: -35}
+    - name: VAPOREON_33
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 360
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 25}
+        - {x: 58.5, y: 36}
+        - {x: 29.5, y: 36}
+        - {x: -43.5, y: -19}
+        - {x: -43.5, y: -36}
+        - {x: 44.5, y: -36}
+        - {x: 61.5, y: -10}
+        - {x: 65.5, y: 10}
+    - name: VAPOREON_34
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 360
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: 21}
+        - {x: 46.5, y: 36}
+        - {x: 42.5, y: 36}
+        - {x: 14.5, y: 24}
+        - {x: -44.5, y: -26}
+        - {x: -44.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 65.5, y: -4}
+        - {x: 65.5, y: 22}
+    - name: VAPOREON_35
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 360
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 22}
+        - {x: 49.5, y: 36}
+        - {x: 25.5, y: 36}
+        - {x: -42.5, y: -26}
+        - {x: -45.5, y: -32}
+        - {x: -45.5, y: -36}
+        - {x: 43.5, y: -36}
+        - {x: 60.5, y: -9}
+        - {x: 65.5, y: 7}
+    - name: VAPOREON_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 36}
+        - {x: -46.5, y: -11}
+        - {x: -46.5, y: -36}
+        - {x: 51.5, y: -36}
+        - {x: 65.5, y: -5}
+        - {x: 65.5, y: 35}
+        - {x: 64.5, y: 36}
+    - name: VAPOREON_37
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 288
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -33}
+        - {x: 41.5, y: -33}
+        - {x: 62.5, y: -10}
+        - {x: 65.5, y: 6}
+        - {x: 65.5, y: 28}
+        - {x: 53.5, y: 36}
+        - {x: 27.5, y: 36}
+        - {x: -48.5, y: -27}
+        - {x: -48.5, y: -36}
+        - {x: 7.5, y: -36}
+        - {x: 15.5, y: -35}
+        - {x: 16.5, y: -31}
+        - {x: 16.5, y: -27}
+    - name: VAPOREON_38
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 288
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 36}
+        - {x: 34.5, y: 36}
+        - {x: 21.5, y: 24}
+        - {x: -4.5, y: -1}
+        - {x: -14.5, y: -12}
+        - {x: -48.5, y: -28}
+        - {x: -50.5, y: -32}
+        - {x: -50.5, y: -36}
+        - {x: 53.5, y: -36}
+        - {x: 62.5, y: -9}
+        - {x: 65.5, y: 9}
+        - {x: 65.5, y: 26}
+    - name: VAPOREON_39
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 288
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 27}
+        - {x: 46.5, y: 36}
+        - {x: 39.5, y: 36}
+        - {x: 17.5, y: 20}
+        - {x: -53.5, y: -28}
+        - {x: -53.5, y: -36}
+        - {x: 43.5, y: -36}
+        - {x: 61.5, y: -8}
+        - {x: 65.5, y: 10}
+    - name: VAPOREON_40
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 288
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 36}
+        - {x: -54.5, y: -24}
+        - {x: -54.5, y: -36}
+        - {x: 45.5, y: -36}
+        - {x: 65.5, y: -20}
+        - {x: 65.5, y: 27}
+        - {x: 55.5, y: 36}
+    - name: VAPOREON_41
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 288
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: 36}
+        - {x: 29.5, y: 36}
+        - {x: -56.5, y: -20}
+        - {x: -56.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 42.5, y: -34}
+        - {x: 54.5, y: -15}
+        - {x: 65.5, y: 8}
+        - {x: 65.5, y: 23}
+    - name: VAPOREON_42
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 288
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 24}
+        - {x: 51.5, y: 36}
+        - {x: 25.5, y: 36}
+        - {x: -58.5, y: -24}
+        - {x: -58.5, y: -36}
+        - {x: 39.5, y: -36}
+        - {x: 46.5, y: -31}
+        - {x: 58.5, y: -7}
+        - {x: 65.5, y: 13}
+    - name: VAPOREON_43
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 288
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: 35}
+        - {x: 32.5, y: 35}
+        - {x: -60.5, y: -26}
+        - {x: -60.5, y: -36}
+        - {x: 46.5, y: -36}
+        - {x: 65.5, y: 7}
+        - {x: 65.5, y: 26}
+    - name: VAPOREON_44
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 288
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -32}
+        - {x: 65.5, y: 1}
+        - {x: 65.5, y: 26}
+        - {x: 54.5, y: 36}
+        - {x: 31.5, y: 36}
+        - {x: 19.5, y: 19}
+        - {x: 19.5, y: 16}
+        - {x: 4.5, y: 5}
+        - {x: -6.5, y: -4}
+        - {x: -57.5, y: -28}
+        - {x: -62.5, y: -32}
+        - {x: -62.5, y: -35}
+        - {x: -58.5, y: -36}
+        - {x: -17.5, y: -36}
+        - {x: -6.5, y: -30}
+        - {x: 5.5, y: -36}
+        - {x: 35.5, y: -36}
+    - name: VAPOREON_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 12}
+        - {x: 65.5, y: 28}
+        - {x: 52.5, y: 36}
+        - {x: 27.5, y: 36}
+        - {x: -64.5, y: -26}
+        - {x: -64.5, y: -35}
+        - {x: -63.5, y: -36}
+        - {x: 19.5, y: -36}
+        - {x: 45.5, y: -32}
+        - {x: 61.5, y: -1}
+    - name: VAPOREON_46
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 216
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.5, y: 36}
+        - {x: 22.5, y: 36}
+        - {x: -62.5, y: -28}
+        - {x: -65.5, y: -30}
+        - {x: -65.5, y: -34}
+        - {x: -64.5, y: -36}
+        - {x: 30.5, y: -36}
+        - {x: 47.5, y: -35}
+        - {x: 60.5, y: -8}
+        - {x: 65.5, y: 13}
+        - {x: 65.5, y: 28}
+    - name: VAPOREON_47
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 216
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 31}
+        - {x: 52.5, y: 36}
+        - {x: 33.5, y: 36}
+        - {x: 19.5, y: 25}
+        - {x: 17.5, y: 20}
+        - {x: 18.5, y: 13}
+        - {x: 4.5, y: 6}
+        - {x: -4.5, y: -1}
+        - {x: -63.5, y: -27}
+        - {x: -65.5, y: -29}
+        - {x: -65.5, y: -36}
+        - {x: 15.5, y: -36}
+        - {x: 46.5, y: -33}
+        - {x: 65.5, y: -8}
+    - name: VAPOREON_48
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 216
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: 36}
+        - {x: 25.5, y: 36}
+        - {x: -65.5, y: -29}
+        - {x: -65.5, y: -34}
+        - {x: -64.5, y: -36}
+        - {x: 51.5, y: -36}
+        - {x: 65.5, y: 3}
+        - {x: 65.5, y: 32}
+    - name: VAPOREON_49
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 216
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 0}
+        - {x: 65.5, y: 16}
+        - {x: 65.5, y: 26}
+        - {x: 58.5, y: 36}
+        - {x: 21.5, y: 36}
+        - {x: -65.5, y: -27}
+        - {x: -65.5, y: -36}
+        - {x: 42.5, y: -36}
+        - {x: 43.5, y: -31}
+        - {x: 54.5, y: -13}
+    - name: VAPOREON_50
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 216
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 36}
+        - {x: -65.5, y: -29}
+        - {x: -65.5, y: -35}
+        - {x: -62.5, y: -36}
+        - {x: 47.5, y: -36}
+        - {x: 65.5, y: -5}
+        - {x: 65.5, y: 32}
+        - {x: 54.5, y: 36}
+    - name: VAPOREON_51
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 216
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.5, y: 23}
+        - {x: 62.5, y: 24}
+        - {x: 50.5, y: 36}
+        - {x: 6.5, y: 36}
+        - {x: -65.5, y: -28}
+        - {x: -65.5, y: -36}
+        - {x: 40.5, y: -36}
+        - {x: 49.5, y: -33}
+        - {x: 65.5, y: 4}
+    - name: VAPOREON_52
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 216
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 36}
+        - {x: 33.5, y: 36}
+        - {x: -65.5, y: -23}
+        - {x: -65.5, y: -36}
+        - {x: 47.5, y: -36}
+        - {x: 65.5, y: 11}
+        - {x: 65.5, y: 24}
+        - {x: 63.5, y: 27}
+    - name: VAPOREON_53
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 216
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 36}
+        - {x: -65.5, y: -25}
+        - {x: -65.5, y: -35}
+        - {x: -62.5, y: -36}
+        - {x: 45.5, y: -36}
+        - {x: 65.5, y: -27}
+        - {x: 65.5, y: 30}
+        - {x: 54.5, y: 36}
+    - name: VAPOREON_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.5, y: 36}
+        - {x: 20.5, y: 22}
+        - {x: -63.5, y: -25}
+        - {x: -65.5, y: -28}
+        - {x: -65.5, y: -35}
+        - {x: -62.5, y: -36}
+        - {x: 45.5, y: -36}
+        - {x: 65.5, y: -10}
+        - {x: 65.5, y: 32}
+        - {x: 47.5, y: 36}
+    - name: VAPOREON_55
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 144
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: 20}
+        - {x: 64.5, y: 24}
+        - {x: 62.5, y: 26}
+        - {x: 43.5, y: 36}
+        - {x: 30.5, y: 36}
+        - {x: -65.5, y: -22}
+        - {x: -65.5, y: -36}
+        - {x: 38.5, y: -36}
+        - {x: 44.5, y: -31}
+        - {x: 58.5, y: -5}
+        - {x: 63.5, y: 14}
+    - name: VAPOREON_56
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 144
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 36}
+        - {x: -64.5, y: -29}
+        - {x: -64.5, y: -36}
+        - {x: 20.5, y: -36}
+        - {x: 45.5, y: -32}
+        - {x: 65.5, y: -12}
+        - {x: 65.5, y: 36}
+    - name: VAPOREON_57
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 144
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 36}
+        - {x: -63.5, y: -25}
+        - {x: -63.5, y: -36}
+        - {x: 52.5, y: -36}
+        - {x: 64.5, y: 3}
+        - {x: 64.5, y: 33}
+        - {x: 58.5, y: 36}
+    - name: VAPOREON_58
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 144
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: 25}
+        - {x: 61.5, y: 26}
+        - {x: 52.5, y: 22}
+        - {x: 45.5, y: 36}
+        - {x: 20.5, y: 36}
+        - {x: -62.5, y: -22}
+        - {x: -62.5, y: -36}
+        - {x: 28.5, y: -36}
+        - {x: 46.5, y: -34}
+        - {x: 56.5, y: -11}
+        - {x: 64.5, y: 12}
+    - name: VAPOREON_59
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 144
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: 21}
+        - {x: 42.5, y: 36}
+        - {x: 22.5, y: 36}
+        - {x: -61.5, y: -26}
+        - {x: -61.5, y: -36}
+        - {x: 42.5, y: -36}
+        - {x: 64.5, y: -15}
+        - {x: 64.5, y: 26}
+        - {x: 60.5, y: 27}
+    - name: VAPOREON_60
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 144
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: 27}
+        - {x: 53.5, y: 23}
+        - {x: 51.5, y: 21}
+        - {x: 44.5, y: 32}
+        - {x: 40.5, y: 36}
+        - {x: 33.5, y: 36}
+        - {x: 20.5, y: 22}
+        - {x: -58.5, y: -25}
+        - {x: -60.5, y: -29}
+        - {x: -60.5, y: -33}
+        - {x: -57.5, y: -36}
+        - {x: 50.5, y: -36}
+        - {x: 64.5, y: 11}
+        - {x: 64.5, y: 26}
+    - name: VAPOREON_61
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 144
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.5, y: 31}
+        - {x: 54.5, y: 36}
+        - {x: 24.5, y: 36}
+        - {x: 14.5, y: 30}
+        - {x: -59.5, y: -23}
+        - {x: -59.5, y: -36}
+        - {x: 44.5, y: -36}
+        - {x: 61.5, y: -6}
+        - {x: 63.5, y: 22}
+    - name: VAPOREON_62
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 144
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.5, y: 32}
+        - {x: 57.5, y: 36}
+        - {x: 27.5, y: 36}
+        - {x: -58.5, y: -23}
+        - {x: -58.5, y: -36}
+        - {x: 44.5, y: -36}
+        - {x: 61.5, y: -6}
+        - {x: 63.5, y: 5}
+    - name: VAPOREON_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 36}
+        - {x: -57.5, y: -23}
+        - {x: -57.5, y: -36}
+        - {x: 43.5, y: -36}
+        - {x: 63.5, y: -17}
+        - {x: 63.5, y: 34}
+        - {x: 59.5, y: 36}
+    - name: VAPOREON_64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 72
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 35}
+        - {x: 27.5, y: 35}
+        - {x: -57.5, y: -17}
+        - {x: -57.5, y: -36}
+        - {x: 37.5, y: -36}
+        - {x: 47.5, y: -35}
+        - {x: 58.5, y: -5}
+        - {x: 63.5, y: 18}
+        - {x: 63.5, y: 27}
+    - name: VAPOREON_65
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 72
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 36}
+        - {x: 25.5, y: 36}
+        - {x: -56.5, y: -26}
+        - {x: -56.5, y: -36}
+        - {x: 44.5, y: -36}
+        - {x: 62.5, y: -22}
+        - {x: 62.5, y: 26}
+        - {x: 61.5, y: 28}
+    - name: VAPOREON_66
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 72
+        width: 131
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 36}
+        - {x: -55.5, y: -21}
+        - {x: -55.5, y: -36}
+        - {x: 55.5, y: -36}
+        - {x: 62.5, y: -10}
+        - {x: 62.5, y: 36}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

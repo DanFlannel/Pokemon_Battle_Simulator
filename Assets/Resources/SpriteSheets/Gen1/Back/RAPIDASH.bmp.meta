@@ -1,0 +1,1964 @@
+fileFormatVersion: 2
+guid: da77d7283b2daa742bbef92585dcea7e
+timeCreated: 1452890399
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RAPIDASH_0
+    21300002: RAPIDASH_1
+    21300004: RAPIDASH_2
+    21300006: RAPIDASH_3
+    21300008: RAPIDASH_4
+    21300010: RAPIDASH_5
+    21300012: RAPIDASH_6
+    21300014: RAPIDASH_7
+    21300016: RAPIDASH_8
+    21300018: RAPIDASH_9
+    21300020: RAPIDASH_10
+    21300022: RAPIDASH_11
+    21300024: RAPIDASH_12
+    21300026: RAPIDASH_13
+    21300028: RAPIDASH_14
+    21300030: RAPIDASH_15
+    21300032: RAPIDASH_16
+    21300034: RAPIDASH_17
+    21300036: RAPIDASH_18
+    21300038: RAPIDASH_19
+    21300040: RAPIDASH_20
+    21300042: RAPIDASH_21
+    21300044: RAPIDASH_22
+    21300046: RAPIDASH_23
+    21300048: RAPIDASH_24
+    21300050: RAPIDASH_25
+    21300052: RAPIDASH_26
+    21300054: RAPIDASH_27
+    21300056: RAPIDASH_28
+    21300058: RAPIDASH_29
+    21300060: RAPIDASH_30
+    21300062: RAPIDASH_31
+    21300064: RAPIDASH_32
+    21300066: RAPIDASH_33
+    21300068: RAPIDASH_34
+    21300070: RAPIDASH_35
+    21300072: RAPIDASH_36
+    21300074: RAPIDASH_37
+    21300076: RAPIDASH_38
+    21300078: RAPIDASH_39
+    21300080: RAPIDASH_40
+    21300082: RAPIDASH_41
+    21300084: RAPIDASH_42
+    21300086: RAPIDASH_43
+    21300088: RAPIDASH_44
+    21300090: RAPIDASH_45
+    21300092: RAPIDASH_46
+    21300094: RAPIDASH_47
+    21300096: RAPIDASH_48
+    21300098: RAPIDASH_49
+    21300100: RAPIDASH_50
+    21300102: RAPIDASH_51
+    21300104: RAPIDASH_52
+    21300106: RAPIDASH_53
+    21300108: RAPIDASH_54
+    21300110: RAPIDASH_55
+    21300112: RAPIDASH_56
+    21300114: RAPIDASH_57
+    21300116: RAPIDASH_58
+    21300118: RAPIDASH_59
+    21300120: RAPIDASH_60
+    21300122: RAPIDASH_61
+    21300124: RAPIDASH_62
+    21300126: RAPIDASH_63
+    21300128: RAPIDASH_64
+    21300130: RAPIDASH_65
+    21300132: RAPIDASH_66
+    21300134: RAPIDASH_67
+    21300136: RAPIDASH_68
+    21300138: RAPIDASH_69
+    21300140: RAPIDASH_70
+    21300142: RAPIDASH_71
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RAPIDASH_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 44}
+        - {x: -61, y: 9}
+        - {x: -61, y: -5}
+        - {x: -18, y: -48}
+        - {x: 57, y: -48}
+        - {x: 63, y: -9}
+        - {x: 63, y: 43}
+        - {x: 57, y: 44}
+    - name: RAPIDASH_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 768
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 43}
+        - {x: -9, y: 30}
+        - {x: -8, y: 27}
+        - {x: -2, y: 25}
+        - {x: 7, y: 19}
+        - {x: 24, y: 12}
+        - {x: 28, y: 11}
+        - {x: 33, y: 10}
+        - {x: 18, y: 10}
+        - {x: 4, y: 16}
+        - {x: -1, y: 17}
+        - {x: -14, y: 15}
+        - {x: -61, y: 5}
+        - {x: -61, y: -37}
+        - {x: -48, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 43}
+    - name: RAPIDASH_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 768
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 42}
+        - {x: -63, y: 4}
+        - {x: -63, y: -34}
+        - {x: -36, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 42}
+    - name: RAPIDASH_3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 768
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 41}
+        - {x: 41, y: 42}
+        - {x: 21, y: 42}
+        - {x: -9, y: 32}
+        - {x: -13, y: 25}
+        - {x: 4, y: 14}
+        - {x: 13, y: 16}
+        - {x: 15, y: 16}
+        - {x: 16, y: 13}
+        - {x: 15, y: 14}
+        - {x: 14, y: 14}
+        - {x: -17, y: 15}
+        - {x: -50, y: 3}
+        - {x: -63, y: -5}
+        - {x: -63, y: -21}
+        - {x: -14, y: -48}
+        - {x: 57, y: -48}
+        - {x: 63, y: -19}
+        - {x: 63, y: 25}
+        - {x: 60, y: 34}
+    - name: RAPIDASH_4
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 768
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 42}
+        - {x: -58, y: 9}
+        - {x: -63, y: 2}
+        - {x: -63, y: -46}
+        - {x: -58, y: -48}
+        - {x: 56, y: -48}
+        - {x: 63, y: -22}
+        - {x: 63, y: 33}
+        - {x: 52, y: 42}
+    - name: RAPIDASH_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 768
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 42}
+        - {x: -63, y: 3}
+        - {x: -63, y: -35}
+        - {x: -46, y: -48}
+        - {x: 56, y: -48}
+        - {x: 63, y: -12}
+        - {x: 63, y: 42}
+    - name: RAPIDASH_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 768
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 43}
+        - {x: -18, y: 24}
+        - {x: -29, y: 2}
+        - {x: -28, y: -1}
+        - {x: -24, y: -1}
+        - {x: -26, y: -1}
+        - {x: -36, y: 0}
+        - {x: -52, y: -9}
+        - {x: -62, y: -21}
+        - {x: -62, y: -24}
+        - {x: -60, y: -29}
+        - {x: -38, y: -28}
+        - {x: -15, y: -26}
+        - {x: -14, y: -20}
+        - {x: -14, y: -18}
+        - {x: -12, y: -22}
+        - {x: -7, y: -25}
+        - {x: -15, y: -36}
+        - {x: -16, y: -42}
+        - {x: 5, y: -48}
+        - {x: 61, y: -48}
+        - {x: 63, y: -24}
+        - {x: 63, y: 43}
+    - name: RAPIDASH_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 768
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 44}
+        - {x: -5, y: 44}
+        - {x: -61, y: -4}
+        - {x: -61, y: -29}
+        - {x: -59, y: -29}
+        - {x: -15, y: -25}
+        - {x: -13, y: -18}
+        - {x: -13, y: -15}
+        - {x: -13, y: -19}
+        - {x: -10, y: -23}
+        - {x: -2, y: -24}
+        - {x: 3, y: -24}
+        - {x: -9, y: -34}
+        - {x: -14, y: -39}
+        - {x: -15, y: -41}
+        - {x: 5, y: -48}
+        - {x: 62, y: -48}
+        - {x: 63, y: -40}
+        - {x: 63, y: 39}
+    - name: RAPIDASH_8
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 768
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 45}
+        - {x: -21, y: 23}
+        - {x: -59, y: -7}
+        - {x: -59, y: -27}
+        - {x: -58, y: -27}
+        - {x: -20, y: -48}
+        - {x: 59, y: -48}
+        - {x: 63, y: -25}
+        - {x: 63, y: 42}
+        - {x: 55, y: 45}
+    - name: RAPIDASH_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 46}
+        - {x: -15, y: 22}
+        - {x: -45, y: 4}
+        - {x: -58, y: -13}
+        - {x: -58, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 37}
+        - {x: 42, y: 46}
+    - name: RAPIDASH_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 672
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 46}
+        - {x: -33, y: 18}
+        - {x: -56, y: 0}
+        - {x: -56, y: -24}
+        - {x: -25, y: -48}
+        - {x: 58, y: -48}
+        - {x: 63, y: -16}
+        - {x: 63, y: 43}
+        - {x: 55, y: 46}
+    - name: RAPIDASH_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 672
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 47}
+        - {x: 2, y: 42}
+        - {x: -15, y: 23}
+        - {x: -15, y: 20}
+        - {x: -12, y: 19}
+        - {x: -27, y: 10}
+        - {x: -55, y: -10}
+        - {x: -55, y: -16}
+        - {x: -11, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 39}
+        - {x: 51, y: 47}
+    - name: RAPIDASH_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 672
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 48}
+        - {x: -52, y: 5}
+        - {x: -52, y: -11}
+        - {x: -3, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -13}
+        - {x: 63, y: 48}
+    - name: RAPIDASH_13
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 672
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 48}
+        - {x: -15, y: 26}
+        - {x: -11, y: 22}
+        - {x: -8, y: 21}
+        - {x: -12, y: 20}
+        - {x: -28, y: 14}
+        - {x: -50, y: 1}
+        - {x: -50, y: -4}
+        - {x: -28, y: -17}
+        - {x: -19, y: -33}
+        - {x: -2, y: -48}
+        - {x: 53, y: -48}
+        - {x: 63, y: -4}
+        - {x: 63, y: 33}
+        - {x: 40, y: 48}
+    - name: RAPIDASH_14
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 672
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 48}
+        - {x: 6, y: 41}
+        - {x: -9, y: 26}
+        - {x: -7, y: 23}
+        - {x: 1, y: 21}
+        - {x: 10, y: 21}
+        - {x: 16, y: 16}
+        - {x: 13, y: 19}
+        - {x: -13, y: 22}
+        - {x: -48, y: 13}
+        - {x: -48, y: -21}
+        - {x: -28, y: -48}
+        - {x: 56, y: -48}
+        - {x: 63, y: -25}
+        - {x: 63, y: 32}
+        - {x: 51, y: 48}
+    - name: RAPIDASH_15
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 672
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 48}
+        - {x: 7, y: 45}
+        - {x: -9, y: 25}
+        - {x: 1, y: 21}
+        - {x: 9, y: 21}
+        - {x: 23, y: 14}
+        - {x: 12, y: 19}
+        - {x: 7, y: 19}
+        - {x: -1, y: 20}
+        - {x: -10, y: 20}
+        - {x: -14, y: 18}
+        - {x: -48, y: 12}
+        - {x: -48, y: 0}
+        - {x: -10, y: -48}
+        - {x: 60, y: -48}
+        - {x: 63, y: -18}
+        - {x: 63, y: 42}
+        - {x: 43, y: 48}
+    - name: RAPIDASH_16
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 672
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 47}
+        - {x: -1, y: 47}
+        - {x: -8, y: 25}
+        - {x: -5, y: 23}
+        - {x: 8, y: 22}
+        - {x: -15, y: 18}
+        - {x: -48, y: 17}
+        - {x: -48, y: -23}
+        - {x: -33, y: -48}
+        - {x: 54, y: -48}
+        - {x: 61, y: -41}
+        - {x: 63, y: -31}
+        - {x: 63, y: 45}
+    - name: RAPIDASH_17
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 672
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 47}
+        - {x: -13, y: 30}
+        - {x: -2, y: 22}
+        - {x: 32, y: 10}
+        - {x: 35, y: 10}
+        - {x: 33, y: 9}
+        - {x: 8, y: 18}
+        - {x: -7, y: 18}
+        - {x: -48, y: 11}
+        - {x: -48, y: 5}
+        - {x: -25, y: -47}
+        - {x: -20, y: -48}
+        - {x: 61, y: -48}
+        - {x: 63, y: -39}
+        - {x: 63, y: 33}
+        - {x: 52, y: 47}
+    - name: RAPIDASH_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 34}
+        - {x: 37, y: 46}
+        - {x: 30, y: 46}
+        - {x: 4, y: 39}
+        - {x: -3, y: 32}
+        - {x: -4, y: 27}
+        - {x: -1, y: 22}
+        - {x: 14, y: 16}
+        - {x: 32, y: 9}
+        - {x: 34, y: 9}
+        - {x: 33, y: 9}
+        - {x: 29, y: 8}
+        - {x: 2, y: 20}
+        - {x: -20, y: 16}
+        - {x: -48, y: 10}
+        - {x: -48, y: 1}
+        - {x: -29, y: -25}
+        - {x: -10, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: 3}
+        - {x: 63, y: 21}
+        - {x: 61, y: 32}
+    - name: RAPIDASH_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 576
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 44}
+        - {x: 15, y: 44}
+        - {x: -11, y: 31}
+        - {x: -2, y: 23}
+        - {x: 13, y: 17}
+        - {x: 31, y: 8}
+        - {x: 34, y: 8}
+        - {x: 30, y: 8}
+        - {x: 25, y: 9}
+        - {x: 23, y: 9}
+        - {x: 19, y: 12}
+        - {x: 2, y: 20}
+        - {x: -47, y: 8}
+        - {x: -50, y: 3}
+        - {x: -50, y: -3}
+        - {x: -37, y: -16}
+        - {x: -12, y: -25}
+        - {x: -1, y: -23}
+        - {x: -16, y: -40}
+        - {x: -14, y: -45}
+        - {x: -4, y: -46}
+        - {x: 3, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -4}
+        - {x: 63, y: 25}
+        - {x: 61, y: 32}
+    - name: RAPIDASH_20
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 576
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 43}
+        - {x: 1, y: 38}
+        - {x: -7, y: 30}
+        - {x: -8, y: 27}
+        - {x: 1, y: 21}
+        - {x: 6, y: 22}
+        - {x: -53, y: 2}
+        - {x: -53, y: -31}
+        - {x: -35, y: -47}
+        - {x: -29, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 38}
+        - {x: 46, y: 43}
+    - name: RAPIDASH_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 576
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 43}
+        - {x: -55, y: -2}
+        - {x: -55, y: -22}
+        - {x: -30, y: -47}
+        - {x: -18, y: -48}
+        - {x: 57, y: -48}
+        - {x: 63, y: -6}
+        - {x: 63, y: 39}
+        - {x: 52, y: 43}
+    - name: RAPIDASH_22
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 576
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 42}
+        - {x: 6, y: 42}
+        - {x: -11, y: 37}
+        - {x: -12, y: 25}
+        - {x: 0, y: 19}
+        - {x: -4, y: 19}
+        - {x: -56, y: -8}
+        - {x: -56, y: -19}
+        - {x: -48, y: -34}
+        - {x: -9, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -24}
+        - {x: 63, y: 31}
+    - name: RAPIDASH_23
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 576
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 42}
+        - {x: -18, y: 29}
+        - {x: -9, y: 22}
+        - {x: 3, y: 18}
+        - {x: 9, y: 14}
+        - {x: 12, y: 14}
+        - {x: 14, y: 15}
+        - {x: 20, y: 12}
+        - {x: 23, y: 10}
+        - {x: 14, y: 14}
+        - {x: 6, y: 14}
+        - {x: 4, y: 16}
+        - {x: -2, y: 19}
+        - {x: -33, y: 6}
+        - {x: -57, y: -15}
+        - {x: -57, y: -18}
+        - {x: -56, y: -20}
+        - {x: -44, y: -26}
+        - {x: -19, y: -42}
+        - {x: -9, y: -48}
+        - {x: 60, y: -48}
+        - {x: 63, y: -14}
+        - {x: 63, y: 38}
+        - {x: 53, y: 42}
+    - name: RAPIDASH_24
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 576
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 42}
+        - {x: -51, y: 16}
+        - {x: -57, y: -8}
+        - {x: -57, y: -32}
+        - {x: -50, y: -44}
+        - {x: -23, y: -48}
+        - {x: 61, y: -48}
+        - {x: 63, y: -23}
+        - {x: 63, y: 34}
+        - {x: 59, y: 42}
+    - name: RAPIDASH_25
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 576
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 43}
+        - {x: -58, y: -9}
+        - {x: -58, y: -28}
+        - {x: -57, y: -29}
+        - {x: -40, y: -28}
+        - {x: -14, y: -29}
+        - {x: -2, y: -25}
+        - {x: -16, y: -40}
+        - {x: -17, y: -44}
+        - {x: -2, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -7}
+        - {x: 63, y: 43}
+    - name: RAPIDASH_26
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 576
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 44}
+        - {x: -21, y: 33}
+        - {x: -17, y: 23}
+        - {x: -13, y: 21}
+        - {x: -34, y: 3}
+        - {x: -58, y: -24}
+        - {x: -58, y: -30}
+        - {x: -53, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 39}
+        - {x: 52, y: 44}
+    - name: RAPIDASH_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 44}
+        - {x: -58, y: -2}
+        - {x: -58, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 44}
+    - name: RAPIDASH_28
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 480
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 46}
+        - {x: -53, y: 2}
+        - {x: -53, y: -34}
+        - {x: -31, y: -48}
+        - {x: 61, y: -48}
+        - {x: 63, y: -41}
+        - {x: 63, y: 36}
+        - {x: 57, y: 46}
+    - name: RAPIDASH_29
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 480
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 48}
+        - {x: -53, y: 16}
+        - {x: -53, y: -34}
+        - {x: -34, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 42}
+        - {x: 57, y: 48}
+    - name: RAPIDASH_30
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 480
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 48}
+        - {x: -43, y: 17}
+        - {x: -49, y: -3}
+        - {x: -49, y: -15}
+        - {x: -43, y: -18}
+        - {x: -12, y: -48}
+        - {x: 60, y: -48}
+        - {x: 63, y: -20}
+        - {x: 63, y: 41}
+        - {x: 55, y: 48}
+    - name: RAPIDASH_31
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 480
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 48}
+        - {x: -20, y: 28}
+        - {x: -12, y: 24}
+        - {x: -5, y: 23}
+        - {x: -1, y: 21}
+        - {x: 2, y: 21}
+        - {x: 6, y: 19}
+        - {x: 10, y: 21}
+        - {x: 12, y: 19}
+        - {x: 22, y: 15}
+        - {x: 33, y: 14}
+        - {x: 33, y: 8}
+        - {x: 9, y: 19}
+        - {x: 5, y: 19}
+        - {x: 4, y: 20}
+        - {x: 0, y: 21}
+        - {x: -5, y: 18}
+        - {x: -30, y: 9}
+        - {x: -48, y: -4}
+        - {x: -48, y: -10}
+        - {x: -40, y: -18}
+        - {x: 2, y: -48}
+        - {x: 56, y: -48}
+        - {x: 63, y: -4}
+        - {x: 63, y: 41}
+        - {x: 53, y: 48}
+    - name: RAPIDASH_32
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 480
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: 7, y: 20}
+        - {x: -2, y: 22}
+        - {x: -7, y: 19}
+        - {x: -30, y: 11}
+        - {x: -46, y: 0}
+        - {x: -46, y: -17}
+        - {x: -12, y: -48}
+        - {x: 58, y: -48}
+        - {x: 63, y: -17}
+        - {x: 63, y: 48}
+        - {x: -1, y: 48}
+        - {x: -35, y: 43}
+    - name: RAPIDASH_33
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 480
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 48}
+        - {x: -3, y: 43}
+        - {x: -11, y: 29}
+        - {x: -9, y: 25}
+        - {x: 4, y: 22}
+        - {x: 22, y: 17}
+        - {x: -5, y: 24}
+        - {x: -29, y: 15}
+        - {x: -45, y: 5}
+        - {x: -45, y: -12}
+        - {x: -2, y: -21}
+        - {x: -3, y: -13}
+        - {x: -1, y: -9}
+        - {x: -2, y: -9}
+        - {x: -3, y: -12}
+        - {x: -3, y: -13}
+        - {x: 3, y: -20}
+        - {x: -15, y: -33}
+        - {x: -12, y: -41}
+        - {x: 1, y: -48}
+        - {x: 56, y: -48}
+        - {x: 63, y: -17}
+        - {x: 63, y: 27}
+        - {x: 53, y: 48}
+    - name: RAPIDASH_34
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 480
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 48}
+        - {x: -9, y: 30}
+        - {x: -7, y: 27}
+        - {x: 5, y: 22}
+        - {x: -1, y: 25}
+        - {x: -42, y: 9}
+        - {x: -44, y: 6}
+        - {x: -44, y: 2}
+        - {x: -17, y: -20}
+        - {x: 2, y: -23}
+        - {x: 7, y: -20}
+        - {x: 9, y: -17}
+        - {x: 3, y: -34}
+        - {x: -11, y: -33}
+        - {x: -16, y: -33}
+        - {x: -9, y: -46}
+        - {x: -6, y: -48}
+        - {x: 54, y: -48}
+        - {x: 63, y: -8}
+        - {x: 63, y: 46}
+        - {x: 54, y: 48}
+    - name: RAPIDASH_35
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 480
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 48}
+        - {x: 7, y: 48}
+        - {x: -9, y: 32}
+        - {x: -8, y: 28}
+        - {x: -1, y: 26}
+        - {x: -7, y: 26}
+        - {x: -30, y: 19}
+        - {x: -44, y: 11}
+        - {x: -45, y: 9}
+        - {x: -45, y: 5}
+        - {x: -19, y: -16}
+        - {x: -13, y: -18}
+        - {x: 0, y: -23}
+        - {x: -14, y: -32}
+        - {x: -13, y: -48}
+        - {x: 54, y: -48}
+        - {x: 63, y: -22}
+        - {x: 63, y: 28}
+    - name: RAPIDASH_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 47}
+        - {x: -18, y: 34}
+        - {x: -22, y: 20}
+        - {x: -18, y: 10}
+        - {x: -17, y: 7}
+        - {x: -21, y: 11}
+        - {x: -31, y: 14}
+        - {x: -48, y: 10}
+        - {x: -48, y: 6}
+        - {x: -21, y: -17}
+        - {x: -16, y: -40}
+        - {x: -9, y: -48}
+        - {x: 57, y: -48}
+        - {x: 63, y: -11}
+        - {x: 63, y: 43}
+        - {x: 44, y: 47}
+    - name: RAPIDASH_37
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 46}
+        - {x: -49, y: 15}
+        - {x: -49, y: 5}
+        - {x: -33, y: -10}
+        - {x: -22, y: -18}
+        - {x: 2, y: -26}
+        - {x: -13, y: -36}
+        - {x: -15, y: -40}
+        - {x: -14, y: -43}
+        - {x: 0, y: -48}
+        - {x: 60, y: -48}
+        - {x: 63, y: -21}
+        - {x: 63, y: 39}
+        - {x: 49, y: 46}
+    - name: RAPIDASH_38
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 45}
+        - {x: 9, y: 45}
+        - {x: 8, y: 44}
+        - {x: -10, y: 32}
+        - {x: 1, y: 20}
+        - {x: 14, y: 19}
+        - {x: -14, y: 16}
+        - {x: -48, y: 7}
+        - {x: -50, y: 5}
+        - {x: -50, y: -1}
+        - {x: -22, y: -22}
+        - {x: -18, y: -40}
+        - {x: -15, y: -45}
+        - {x: 3, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -24}
+        - {x: 63, y: 30}
+    - name: RAPIDASH_39
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 43}
+        - {x: -11, y: 31}
+        - {x: 1, y: 20}
+        - {x: 13, y: 20}
+        - {x: 18, y: 14}
+        - {x: 28, y: 9}
+        - {x: 22, y: 8}
+        - {x: 16, y: 16}
+        - {x: -2, y: 15}
+        - {x: -17, y: 14}
+        - {x: -52, y: 2}
+        - {x: -52, y: -14}
+        - {x: -13, y: -36}
+        - {x: -17, y: -41}
+        - {x: -18, y: -48}
+        - {x: 59, y: -48}
+        - {x: 63, y: -9}
+        - {x: 63, y: 43}
+    - name: RAPIDASH_40
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 42}
+        - {x: -13, y: 26}
+        - {x: 0, y: 20}
+        - {x: 11, y: 18}
+        - {x: 18, y: 14}
+        - {x: 20, y: 14}
+        - {x: 28, y: 9}
+        - {x: 23, y: 10}
+        - {x: 14, y: 16}
+        - {x: 8, y: 16}
+        - {x: -6, y: 14}
+        - {x: -18, y: 12}
+        - {x: -42, y: 4}
+        - {x: -54, y: -4}
+        - {x: -54, y: -8}
+        - {x: -51, y: -11}
+        - {x: -41, y: -15}
+        - {x: -30, y: -23}
+        - {x: -15, y: -47}
+        - {x: -8, y: -48}
+        - {x: 56, y: -48}
+        - {x: 59, y: -42}
+        - {x: 63, y: -14}
+        - {x: 63, y: 42}
+    - name: RAPIDASH_41
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 42}
+        - {x: 18, y: 42}
+        - {x: -13, y: 30}
+        - {x: -55, y: -9}
+        - {x: -55, y: -21}
+        - {x: -16, y: -32}
+        - {x: -20, y: -44}
+        - {x: -11, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -6}
+        - {x: 63, y: 25}
+        - {x: 59, y: 35}
+    - name: RAPIDASH_42
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 41}
+        - {x: 2, y: 41}
+        - {x: -15, y: 28}
+        - {x: -13, y: 23}
+        - {x: -4, y: 16}
+        - {x: -23, y: 8}
+        - {x: -57, y: -10}
+        - {x: -57, y: -25}
+        - {x: -13, y: -48}
+        - {x: 58, y: -48}
+        - {x: 63, y: -33}
+        - {x: 63, y: 39}
+    - name: RAPIDASH_43
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 41}
+        - {x: -57, y: 8}
+        - {x: -57, y: -31}
+        - {x: -22, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 41}
+    - name: RAPIDASH_44
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 384
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 43}
+        - {x: -17, y: 25}
+        - {x: -14, y: 21}
+        - {x: -8, y: 15}
+        - {x: -24, y: 10}
+        - {x: -45, y: -6}
+        - {x: -56, y: -23}
+        - {x: -56, y: -42}
+        - {x: -18, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 36}
+        - {x: 44, y: 43}
+    - name: RAPIDASH_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 44}
+        - {x: 27, y: 42}
+        - {x: 28, y: 39}
+        - {x: 21, y: 36}
+        - {x: 2, y: 29}
+        - {x: -16, y: 22}
+        - {x: -14, y: 18}
+        - {x: -5, y: 14}
+        - {x: -26, y: 15}
+        - {x: -54, y: -14}
+        - {x: -54, y: -24}
+        - {x: -53, y: -25}
+        - {x: -49, y: -24}
+        - {x: -34, y: -24}
+        - {x: -9, y: -23}
+        - {x: 4, y: -22}
+        - {x: -15, y: -36}
+        - {x: -13, y: -41}
+        - {x: 1, y: -48}
+        - {x: 59, y: -48}
+        - {x: 63, y: -33}
+        - {x: 63, y: 31}
+        - {x: 49, y: 44}
+    - name: RAPIDASH_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 288
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 47}
+        - {x: -13, y: 23}
+        - {x: -52, y: -12}
+        - {x: -52, y: -18}
+        - {x: -43, y: -22}
+        - {x: -1, y: -48}
+        - {x: 52, y: -48}
+        - {x: 63, y: -22}
+        - {x: 63, y: 29}
+        - {x: 52, y: 47}
+    - name: RAPIDASH_47
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 288
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 47}
+        - {x: 24, y: 47}
+        - {x: -2, y: 32}
+        - {x: -11, y: 22}
+        - {x: -11, y: 19}
+        - {x: -52, y: 5}
+        - {x: -52, y: -26}
+        - {x: -29, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -9}
+        - {x: 63, y: 33}
+    - name: RAPIDASH_48
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 288
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 47}
+        - {x: -16, y: 25}
+        - {x: -5, y: 20}
+        - {x: -2, y: 20}
+        - {x: -1, y: 21}
+        - {x: 7, y: 21}
+        - {x: 12, y: 17}
+        - {x: 23, y: 14}
+        - {x: 13, y: 16}
+        - {x: 8, y: 20}
+        - {x: 4, y: 21}
+        - {x: 1, y: 20}
+        - {x: -21, y: 14}
+        - {x: -50, y: 7}
+        - {x: -50, y: -20}
+        - {x: -24, y: -48}
+        - {x: 58, y: -48}
+        - {x: 63, y: -5}
+        - {x: 63, y: 39}
+        - {x: 48, y: 47}
+    - name: RAPIDASH_49
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 288
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 47}
+        - {x: -16, y: 26}
+        - {x: -8, y: 21}
+        - {x: 5, y: 21}
+        - {x: 11, y: 18}
+        - {x: 6, y: 21}
+        - {x: 2, y: 21}
+        - {x: -22, y: 15}
+        - {x: -49, y: 12}
+        - {x: -49, y: -13}
+        - {x: -27, y: -33}
+        - {x: -9, y: -48}
+        - {x: 60, y: -48}
+        - {x: 63, y: -19}
+        - {x: 63, y: 41}
+        - {x: 52, y: 47}
+    - name: RAPIDASH_50
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 288
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 47}
+        - {x: 31, y: 47}
+        - {x: -2, y: 41}
+        - {x: -8, y: 25}
+        - {x: -6, y: 22}
+        - {x: 24, y: 15}
+        - {x: 12, y: 18}
+        - {x: -2, y: 21}
+        - {x: -22, y: 16}
+        - {x: -48, y: 9}
+        - {x: -49, y: 7}
+        - {x: -49, y: 3}
+        - {x: -36, y: -9}
+        - {x: -11, y: -18}
+        - {x: -15, y: -34}
+        - {x: -11, y: -42}
+        - {x: -3, y: -48}
+        - {x: 56, y: -48}
+        - {x: 63, y: -19}
+        - {x: 63, y: 27}
+        - {x: 61, y: 32}
+    - name: RAPIDASH_51
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 288
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 30}
+        - {x: 52, y: 46}
+        - {x: 22, y: 46}
+        - {x: 0, y: 40}
+        - {x: -8, y: 26}
+        - {x: -5, y: 24}
+        - {x: -50, y: 11}
+        - {x: -50, y: 4}
+        - {x: -48, y: -2}
+        - {x: -23, y: -20}
+        - {x: -18, y: -42}
+        - {x: -1, y: -48}
+        - {x: 54, y: -48}
+        - {x: 56, y: -26}
+        - {x: 63, y: -8}
+    - name: RAPIDASH_52
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 288
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 44}
+        - {x: 0, y: 44}
+        - {x: -53, y: 24}
+        - {x: -53, y: -20}
+        - {x: -30, y: -48}
+        - {x: 56, y: -48}
+        - {x: 63, y: -7}
+        - {x: 63, y: 23}
+        - {x: 62, y: 32}
+    - name: RAPIDASH_53
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 288
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 44}
+        - {x: -9, y: 26}
+        - {x: 8, y: 18}
+        - {x: 25, y: 11}
+        - {x: 32, y: 10}
+        - {x: 13, y: 12}
+        - {x: 7, y: 16}
+        - {x: -11, y: 19}
+        - {x: -55, y: 7}
+        - {x: -55, y: -32}
+        - {x: -42, y: -48}
+        - {x: 59, y: -48}
+        - {x: 63, y: -14}
+        - {x: 63, y: 24}
+        - {x: 60, y: 44}
+    - name: RAPIDASH_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 42}
+        - {x: -7, y: 39}
+        - {x: -8, y: 29}
+        - {x: -8, y: 24}
+        - {x: 27, y: 9}
+        - {x: 34, y: 9}
+        - {x: 26, y: 7}
+        - {x: 25, y: 10}
+        - {x: -2, y: 18}
+        - {x: -58, y: 5}
+        - {x: -58, y: -1}
+        - {x: -51, y: -10}
+        - {x: -22, y: -48}
+        - {x: 58, y: -48}
+        - {x: 63, y: -27}
+        - {x: 63, y: 30}
+        - {x: 55, y: 42}
+    - name: RAPIDASH_55
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 192
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 42}
+        - {x: -8, y: 38}
+        - {x: -10, y: 29}
+        - {x: -9, y: 26}
+        - {x: -58, y: 1}
+        - {x: -58, y: -18}
+        - {x: -12, y: -48}
+        - {x: 54, y: -48}
+        - {x: 63, y: -21}
+        - {x: 63, y: 31}
+        - {x: 54, y: 42}
+    - name: RAPIDASH_56
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 42}
+        - {x: -7, y: 33}
+        - {x: -11, y: 28}
+        - {x: -10, y: 25}
+        - {x: 4, y: 17}
+        - {x: 12, y: 16}
+        - {x: 17, y: 18}
+        - {x: 18, y: 14}
+        - {x: 22, y: 10}
+        - {x: 15, y: 15}
+        - {x: 1, y: 17}
+        - {x: -15, y: 15}
+        - {x: -55, y: 3}
+        - {x: -60, y: -1}
+        - {x: -60, y: -45}
+        - {x: -56, y: -48}
+        - {x: 61, y: -48}
+        - {x: 63, y: -42}
+        - {x: 63, y: 33}
+        - {x: 56, y: 42}
+    - name: RAPIDASH_57
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 192
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 42}
+        - {x: -18, y: 30}
+        - {x: -14, y: 24}
+        - {x: 2, y: 13}
+        - {x: 6, y: 14}
+        - {x: 9, y: 15}
+        - {x: 11, y: 15}
+        - {x: 10, y: 15}
+        - {x: 7, y: 14}
+        - {x: 3, y: 13}
+        - {x: -1, y: 15}
+        - {x: -6, y: 17}
+        - {x: -48, y: -1}
+        - {x: -59, y: -14}
+        - {x: -60, y: -17}
+        - {x: -60, y: -21}
+        - {x: -58, y: -24}
+        - {x: -25, y: -27}
+        - {x: -15, y: -23}
+        - {x: -16, y: -44}
+        - {x: -14, y: -48}
+        - {x: 59, y: -48}
+        - {x: 63, y: -10}
+        - {x: 63, y: 38}
+        - {x: 56, y: 42}
+    - name: RAPIDASH_58
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 192
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 42}
+        - {x: 20, y: 42}
+        - {x: -18, y: 27}
+        - {x: -10, y: 19}
+        - {x: -5, y: 19}
+        - {x: 2, y: 13}
+        - {x: -1, y: 15}
+        - {x: -18, y: 21}
+        - {x: -61, y: -14}
+        - {x: -61, y: -23}
+        - {x: -60, y: -24}
+        - {x: -44, y: -27}
+        - {x: -16, y: -25}
+        - {x: 3, y: -23}
+        - {x: 8, y: -19}
+        - {x: -7, y: -33}
+        - {x: -19, y: -40}
+        - {x: -7, y: -48}
+        - {x: 56, y: -48}
+        - {x: 63, y: -2}
+        - {x: 63, y: 25}
+        - {x: 62, y: 32}
+    - name: RAPIDASH_59
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 192
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: 43}
+        - {x: 4, y: 43}
+        - {x: -61, y: 8}
+        - {x: -61, y: -29}
+        - {x: -15, y: -25}
+        - {x: -13, y: -18}
+        - {x: -13, y: -16}
+        - {x: -13, y: -22}
+        - {x: -14, y: -40}
+        - {x: -14, y: -42}
+        - {x: -1, y: -48}
+        - {x: 54, y: -48}
+        - {x: 63, y: -3}
+        - {x: 63, y: 26}
+        - {x: 60, y: 35}
+    - name: RAPIDASH_60
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 192
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 46}
+        - {x: -23, y: 28}
+        - {x: -33, y: 14}
+        - {x: -32, y: 0}
+        - {x: -29, y: -1}
+        - {x: -36, y: 2}
+        - {x: -46, y: -4}
+        - {x: -60, y: -21}
+        - {x: -60, y: -25}
+        - {x: -58, y: -26}
+        - {x: -5, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -17}
+        - {x: 63, y: 29}
+        - {x: 52, y: 46}
+    - name: RAPIDASH_61
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 192
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 47}
+        - {x: -29, y: 37}
+        - {x: -57, y: -15}
+        - {x: -57, y: -39}
+        - {x: -25, y: -48}
+        - {x: 61, y: -48}
+        - {x: 63, y: -27}
+        - {x: 63, y: 39}
+        - {x: 43, y: 47}
+    - name: RAPIDASH_62
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 192
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 48}
+        - {x: -53, y: 6}
+        - {x: -57, y: -10}
+        - {x: -57, y: -20}
+        - {x: -56, y: -21}
+        - {x: -27, y: -22}
+        - {x: -15, y: -36}
+        - {x: 1, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -19}
+        - {x: 63, y: 29}
+        - {x: 50, y: 48}
+    - name: RAPIDASH_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 48}
+        - {x: -14, y: 28}
+        - {x: -56, y: -10}
+        - {x: -56, y: -39}
+        - {x: -14, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 29}
+        - {x: 54, y: 48}
+    - name: RAPIDASH_64
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 96
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 48}
+        - {x: 15, y: 47}
+        - {x: -15, y: 28}
+        - {x: -10, y: 24}
+        - {x: 2, y: 20}
+        - {x: 26, y: 14}
+        - {x: 16, y: 17}
+        - {x: -2, y: 19}
+        - {x: -15, y: 20}
+        - {x: -48, y: 0}
+        - {x: -56, y: -9}
+        - {x: -56, y: -11}
+        - {x: -40, y: -44}
+        - {x: -29, y: -48}
+        - {x: 63, y: -48}
+        - {x: 63, y: 41}
+        - {x: 49, y: 48}
+    - name: RAPIDASH_65
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 96
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 48}
+        - {x: 7, y: 41}
+        - {x: -9, y: 30}
+        - {x: -9, y: 27}
+        - {x: -8, y: 24}
+        - {x: 20, y: 16}
+        - {x: 7, y: 19}
+        - {x: -16, y: 20}
+        - {x: -47, y: 1}
+        - {x: -55, y: -4}
+        - {x: -55, y: -6}
+        - {x: -53, y: -9}
+        - {x: -31, y: -18}
+        - {x: -14, y: -37}
+        - {x: 2, y: -48}
+        - {x: 56, y: -48}
+        - {x: 63, y: -18}
+        - {x: 63, y: 35}
+        - {x: 45, y: 48}
+    - name: RAPIDASH_66
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 96
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 48}
+        - {x: 9, y: 45}
+        - {x: -10, y: 31}
+        - {x: 0, y: 21}
+        - {x: 18, y: 17}
+        - {x: 5, y: 20}
+        - {x: -4, y: 20}
+        - {x: -18, y: 19}
+        - {x: -56, y: 3}
+        - {x: -56, y: -5}
+        - {x: -33, y: -17}
+        - {x: -10, y: -43}
+        - {x: -3, y: -48}
+        - {x: 59, y: -48}
+        - {x: 63, y: -11}
+        - {x: 63, y: 39}
+        - {x: 48, y: 48}
+    - name: RAPIDASH_67
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 96
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 48}
+        - {x: -56, y: 31}
+        - {x: -56, y: -13}
+        - {x: -14, y: -48}
+        - {x: 54, y: -48}
+        - {x: 63, y: -30}
+        - {x: 63, y: 40}
+        - {x: 55, y: 48}
+    - name: RAPIDASH_68
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 96
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 48}
+        - {x: -14, y: 37}
+        - {x: -9, y: 27}
+        - {x: 16, y: 16}
+        - {x: 8, y: 19}
+        - {x: -25, y: 29}
+        - {x: -56, y: 11}
+        - {x: -56, y: -9}
+        - {x: -9, y: -48}
+        - {x: 58, y: -48}
+        - {x: 63, y: -2}
+        - {x: 63, y: 41}
+        - {x: 58, y: 48}
+    - name: RAPIDASH_69
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 96
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 48}
+        - {x: -8, y: 36}
+        - {x: -6, y: 26}
+        - {x: -53, y: 13}
+        - {x: -58, y: 10}
+        - {x: -58, y: -3}
+        - {x: -48, y: -24}
+        - {x: -30, y: -48}
+        - {x: 57, y: -48}
+        - {x: 63, y: -15}
+        - {x: 63, y: 36}
+        - {x: 44, y: 48}
+    - name: RAPIDASH_70
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 96
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 47}
+        - {x: -58, y: 25}
+        - {x: -58, y: 0}
+        - {x: -48, y: -24}
+        - {x: -10, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -30}
+        - {x: 63, y: 36}
+        - {x: 53, y: 47}
+    - name: RAPIDASH_71
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 96
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 45}
+        - {x: 2, y: 43}
+        - {x: -10, y: 27}
+        - {x: 14, y: 17}
+        - {x: 32, y: 9}
+        - {x: 34, y: 9}
+        - {x: 30, y: 9}
+        - {x: 13, y: 15}
+        - {x: -1, y: 19}
+        - {x: -56, y: 9}
+        - {x: -60, y: 7}
+        - {x: -60, y: -14}
+        - {x: -12, y: -48}
+        - {x: 55, y: -48}
+        - {x: 63, y: -21}
+        - {x: 63, y: 31}
+        - {x: 53, y: 45}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

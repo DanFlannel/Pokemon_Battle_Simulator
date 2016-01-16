@@ -1,0 +1,1161 @@
+fileFormatVersion: 2
+guid: a35abb41838439d4fa99c999540e567a
+timeCreated: 1452890489
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SANDSLASH_0
+    21300002: SANDSLASH_1
+    21300004: SANDSLASH_2
+    21300006: SANDSLASH_3
+    21300008: SANDSLASH_4
+    21300010: SANDSLASH_5
+    21300012: SANDSLASH_6
+    21300014: SANDSLASH_7
+    21300016: SANDSLASH_8
+    21300018: SANDSLASH_9
+    21300020: SANDSLASH_10
+    21300022: SANDSLASH_11
+    21300024: SANDSLASH_12
+    21300026: SANDSLASH_13
+    21300028: SANDSLASH_14
+    21300030: SANDSLASH_15
+    21300032: SANDSLASH_16
+    21300034: SANDSLASH_17
+    21300036: SANDSLASH_18
+    21300038: SANDSLASH_19
+    21300040: SANDSLASH_20
+    21300042: SANDSLASH_21
+    21300044: SANDSLASH_22
+    21300046: SANDSLASH_23
+    21300048: SANDSLASH_24
+    21300050: SANDSLASH_25
+    21300052: SANDSLASH_26
+    21300054: SANDSLASH_27
+    21300056: SANDSLASH_28
+    21300058: SANDSLASH_29
+    21300060: SANDSLASH_30
+    21300062: SANDSLASH_31
+    21300064: SANDSLASH_32
+    21300066: SANDSLASH_33
+    21300068: SANDSLASH_34
+    21300070: SANDSLASH_35
+    21300072: SANDSLASH_36
+    21300074: SANDSLASH_37
+    21300076: SANDSLASH_38
+    21300078: SANDSLASH_39
+    21300080: SANDSLASH_40
+    21300082: SANDSLASH_41
+    21300084: SANDSLASH_42
+    21300086: SANDSLASH_43
+    21300088: SANDSLASH_44
+    21300090: SANDSLASH_45
+    21300092: SANDSLASH_46
+    21300094: SANDSLASH_47
+    21300096: SANDSLASH_48
+    21300098: SANDSLASH_49
+    21300100: SANDSLASH_50
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SANDSLASH_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -20.5}
+        - {x: 27, y: -17.5}
+        - {x: 27, y: -24.5}
+        - {x: 34, y: -29.5}
+        - {x: 34, y: 32.5}
+        - {x: 26, y: 34.5}
+        - {x: -14, y: 34.5}
+        - {x: -31, y: 8.5}
+        - {x: -33, y: -11.5}
+        - {x: -33, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+        - {x: 26, y: -26.5}
+    - name: SANDSLASH_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 483
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -18.5}
+        - {x: 27, y: -21.5}
+        - {x: 30, y: -25.5}
+        - {x: 34, y: -30.5}
+        - {x: 34, y: 33.5}
+        - {x: -20, y: 33.5}
+        - {x: -32, y: 26.5}
+        - {x: -34, y: 14.5}
+        - {x: -34, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 30, y: -31.5}
+        - {x: 26, y: -26.5}
+        - {x: 27, y: -20.5}
+    - name: SANDSLASH_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 483
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -18.5}
+        - {x: 27, y: -21.5}
+        - {x: 30, y: -25.5}
+        - {x: 34, y: -30.5}
+        - {x: 34, y: 33.5}
+        - {x: -20, y: 33.5}
+        - {x: -32, y: 26.5}
+        - {x: -34, y: 14.5}
+        - {x: -34, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 30, y: -31.5}
+        - {x: 26, y: -26.5}
+        - {x: 27, y: -20.5}
+    - name: SANDSLASH_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 483
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 33.5}
+        - {x: -34, y: 8.5}
+        - {x: -34, y: -34.5}
+        - {x: 34, y: -34.5}
+        - {x: 34, y: 33.5}
+    - name: SANDSLASH_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 483
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 33.5}
+        - {x: -34, y: 8.5}
+        - {x: -34, y: -34.5}
+        - {x: 34, y: -34.5}
+        - {x: 34, y: 33.5}
+    - name: SANDSLASH_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 483
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 33.5}
+        - {x: 3, y: 33.5}
+        - {x: -7, y: 31.5}
+        - {x: -34, y: 10.5}
+        - {x: -34, y: -34.5}
+        - {x: 32, y: -34.5}
+        - {x: 34, y: -31.5}
+        - {x: 34, y: 6.5}
+        - {x: 31, y: 24.5}
+    - name: SANDSLASH_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 483
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 32.5}
+        - {x: -17, y: 32.5}
+        - {x: -34, y: 17.5}
+        - {x: -34, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 34, y: -30.5}
+        - {x: 34, y: 30.5}
+    - name: SANDSLASH_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 483
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32.5}
+        - {x: -18, y: 22.5}
+        - {x: -34, y: -4.5}
+        - {x: -34, y: -34.5}
+        - {x: 34, y: -34.5}
+        - {x: 34, y: 30.5}
+        - {x: 25, y: 32.5}
+    - name: SANDSLASH_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 32.5}
+        - {x: -31, y: 11.5}
+        - {x: -34, y: -10.5}
+        - {x: -34, y: -33.5}
+        - {x: -31, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 34, y: -29.5}
+        - {x: 34, y: 18.5}
+        - {x: 29, y: 32.5}
+    - name: SANDSLASH_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 414
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 33.5}
+        - {x: -32, y: 11.5}
+        - {x: -34, y: -1.5}
+        - {x: -34, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 34, y: -21.5}
+        - {x: 34, y: 25.5}
+        - {x: 33, y: 33.5}
+    - name: SANDSLASH_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 414
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 33.5}
+        - {x: -34, y: 7.5}
+        - {x: -34, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 34, y: -17.5}
+        - {x: 34, y: 22.5}
+        - {x: 27, y: 33.5}
+    - name: SANDSLASH_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 414
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 33.5}
+        - {x: -31, y: 8.5}
+        - {x: -34, y: -9.5}
+        - {x: -34, y: -32.5}
+        - {x: -20, y: -34.5}
+        - {x: 32, y: -34.5}
+        - {x: 34, y: -28.5}
+        - {x: 34, y: 30.5}
+        - {x: 25, y: 33.5}
+    - name: SANDSLASH_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 414
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 33.5}
+        - {x: -26, y: 24.5}
+        - {x: -32, y: -4.5}
+        - {x: -29, y: -6.5}
+        - {x: -33, y: -13.5}
+        - {x: -34, y: -17.5}
+        - {x: -34, y: -32.5}
+        - {x: -31, y: -34.5}
+        - {x: 31, y: -34.5}
+        - {x: 34, y: -26.5}
+        - {x: 34, y: 19.5}
+        - {x: 30, y: 33.5}
+    - name: SANDSLASH_13
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 414
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 26.5}
+        - {x: 26, y: 29.5}
+        - {x: 20, y: 34.5}
+        - {x: -3, y: 34.5}
+        - {x: -13, y: 27.5}
+        - {x: -26, y: 11.5}
+        - {x: -32, y: -4.5}
+        - {x: -34, y: -9.5}
+        - {x: -34, y: -32.5}
+        - {x: -32, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 34, y: -20.5}
+        - {x: 34, y: 0.5}
+        - {x: 30, y: 23.5}
+    - name: SANDSLASH_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 414
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 34.5}
+        - {x: -34, y: 27.5}
+        - {x: -34, y: -33.5}
+        - {x: -32, y: -34.5}
+        - {x: 31, y: -34.5}
+        - {x: 34, y: -22.5}
+        - {x: 34, y: 34.5}
+    - name: SANDSLASH_15
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 414
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34.5}
+        - {x: -34, y: -1.5}
+        - {x: -34, y: -33.5}
+        - {x: -31, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 33, y: -32.5}
+        - {x: 34, y: -23.5}
+        - {x: 34, y: 34.5}
+    - name: SANDSLASH_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 34.5}
+        - {x: -24, y: 20.5}
+        - {x: -34, y: 3.5}
+        - {x: -34, y: -34.5}
+        - {x: 31, y: -34.5}
+        - {x: 34, y: -29.5}
+        - {x: 34, y: 17.5}
+        - {x: 27, y: 34.5}
+    - name: SANDSLASH_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 345
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 34.5}
+        - {x: -8, y: 34.5}
+        - {x: -33, y: 10.5}
+        - {x: -34, y: -18.5}
+        - {x: -34, y: -31.5}
+        - {x: -32, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 34, y: -24.5}
+        - {x: 34, y: 15.5}
+    - name: SANDSLASH_18
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 345
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34.5}
+        - {x: -32, y: 10.5}
+        - {x: -33, y: 0.5}
+        - {x: -33, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 34, y: -25.5}
+        - {x: 34, y: 34.5}
+    - name: SANDSLASH_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 345
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 34.5}
+        - {x: -33, y: 4.5}
+        - {x: -33, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 34, y: -18.5}
+        - {x: 34, y: 32.5}
+        - {x: 29, y: 34.5}
+    - name: SANDSLASH_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 345
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 34.5}
+        - {x: -32, y: 6.5}
+        - {x: -32, y: -31.5}
+        - {x: -29, y: -34.5}
+        - {x: 31, y: -34.5}
+        - {x: 34, y: -26.5}
+        - {x: 34, y: 16.5}
+        - {x: 25, y: 34.5}
+    - name: SANDSLASH_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 345
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -14.5}
+        - {x: 25, y: -22.5}
+        - {x: 27, y: -24.5}
+        - {x: 34, y: -24.5}
+        - {x: 34, y: 34.5}
+        - {x: -16, y: 34.5}
+        - {x: -32, y: 22.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+        - {x: 25, y: -25.5}
+    - name: SANDSLASH_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 345
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -19.5}
+        - {x: 25, y: -14.5}
+        - {x: 26, y: -13.5}
+        - {x: 26, y: -21.5}
+        - {x: 28, y: -23.5}
+        - {x: 31, y: -24.5}
+        - {x: 34, y: -19.5}
+        - {x: 34, y: 33.5}
+        - {x: 30, y: 34.5}
+        - {x: -16, y: 34.5}
+        - {x: -32, y: 11.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+        - {x: 26, y: -21.5}
+    - name: SANDSLASH_23
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 345
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 6.5}
+        - {x: 31, y: 28.5}
+        - {x: 27, y: 34.5}
+        - {x: -7, y: 34.5}
+        - {x: -32, y: 15.5}
+        - {x: -32, y: -33.5}
+        - {x: -30, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+        - {x: 34, y: -22.5}
+    - name: SANDSLASH_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -23.5}
+        - {x: 34, y: 4.5}
+        - {x: 29, y: 34.5}
+        - {x: -14, y: 34.5}
+        - {x: -32, y: 3.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+        - {x: 32, y: -26.5}
+    - name: SANDSLASH_25
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 276
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34.5}
+        - {x: -19, y: 33.5}
+        - {x: -32, y: 13.5}
+        - {x: -32, y: -34.5}
+        - {x: 32, y: -34.5}
+        - {x: 34, y: -28.5}
+        - {x: 34, y: 34.5}
+    - name: SANDSLASH_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 276
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -17.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: -12.5}
+        - {x: 22, y: -8.5}
+        - {x: 24, y: -13.5}
+        - {x: 27, y: -16.5}
+        - {x: 26, y: -24.5}
+        - {x: 32, y: -27.5}
+        - {x: 34, y: -25.5}
+        - {x: 34, y: 20.5}
+        - {x: 33, y: 31.5}
+        - {x: 18, y: 34.5}
+        - {x: -12, y: 34.5}
+        - {x: -26, y: 21.5}
+        - {x: -32, y: -1.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+        - {x: 26, y: -26.5}
+    - name: SANDSLASH_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 276
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -7.5}
+        - {x: 23, y: -11.5}
+        - {x: 26, y: -15.5}
+        - {x: 26, y: -24.5}
+        - {x: 32, y: -27.5}
+        - {x: 34, y: -25.5}
+        - {x: 34, y: 31.5}
+        - {x: 26, y: 33.5}
+        - {x: -17, y: 33.5}
+        - {x: -32, y: 22.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 30, y: -31.5}
+        - {x: 26, y: -26.5}
+        - {x: 26, y: -17.5}
+    - name: SANDSLASH_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 276
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 33.5}
+        - {x: -33, y: 28.5}
+        - {x: -33, y: -34.5}
+        - {x: 33, y: -34.5}
+        - {x: 34, y: -33.5}
+        - {x: 34, y: 20.5}
+        - {x: 30, y: 33.5}
+    - name: SANDSLASH_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 276
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 33.5}
+        - {x: -33, y: 8.5}
+        - {x: -33, y: -20.5}
+        - {x: -32, y: -23.5}
+        - {x: -30, y: -25.5}
+        - {x: -27, y: -25.5}
+        - {x: -29, y: -25.5}
+        - {x: -32, y: -29.5}
+        - {x: -33, y: -32.5}
+        - {x: -30, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 34, y: -26.5}
+        - {x: 34, y: 31.5}
+        - {x: 28, y: 33.5}
+    - name: SANDSLASH_30
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 276
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 32.5}
+        - {x: -28, y: 13.5}
+        - {x: -33, y: 5.5}
+        - {x: -33, y: -34.5}
+        - {x: 34, y: -34.5}
+        - {x: 34, y: 16.5}
+        - {x: 28, y: 32.5}
+    - name: SANDSLASH_31
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 276
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 32.5}
+        - {x: -31, y: 15.5}
+        - {x: -33, y: 6.5}
+        - {x: -33, y: -34.5}
+        - {x: 34, y: -34.5}
+        - {x: 34, y: 32.5}
+    - name: SANDSLASH_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 32.5}
+        - {x: -11, y: 32.5}
+        - {x: -30, y: 25.5}
+        - {x: -33, y: 10.5}
+        - {x: -33, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 34, y: -16.5}
+        - {x: 34, y: 5.5}
+        - {x: 30, y: 31.5}
+    - name: SANDSLASH_33
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 207
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 33.5}
+        - {x: -33, y: 14.5}
+        - {x: -33, y: -34.5}
+        - {x: 34, y: -34.5}
+        - {x: 34, y: 33.5}
+    - name: SANDSLASH_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 207
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 33.5}
+        - {x: -33, y: 5.5}
+        - {x: -33, y: -34.5}
+        - {x: 31, y: -34.5}
+        - {x: 33, y: -23.5}
+        - {x: 33, y: 19.5}
+        - {x: 26, y: 33.5}
+    - name: SANDSLASH_35
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 207
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 33.5}
+        - {x: -10, y: 33.5}
+        - {x: -26, y: 23.5}
+        - {x: -33, y: 1.5}
+        - {x: -33, y: -32.5}
+        - {x: -30, y: -34.5}
+        - {x: 32, y: -34.5}
+        - {x: 33, y: -31.5}
+        - {x: 33, y: 14.5}
+        - {x: 29, y: 32.5}
+    - name: SANDSLASH_36
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 207
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 33.5}
+        - {x: -31, y: 25.5}
+        - {x: -33, y: 16.5}
+        - {x: -33, y: -30.5}
+        - {x: -29, y: -34.5}
+        - {x: 33, y: -34.5}
+        - {x: 33, y: 33.5}
+    - name: SANDSLASH_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 207
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 34.5}
+        - {x: -33, y: 13.5}
+        - {x: -33, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -31.5}
+        - {x: 33, y: -17.5}
+        - {x: 33, y: 34.5}
+    - name: SANDSLASH_38
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 207
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34.5}
+        - {x: -33, y: 2.5}
+        - {x: -33, y: -31.5}
+        - {x: -27, y: -34.5}
+        - {x: 31, y: -34.5}
+        - {x: 33, y: -21.5}
+        - {x: 33, y: 33.5}
+        - {x: 31, y: 34.5}
+    - name: SANDSLASH_39
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 207
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34.5}
+        - {x: -30, y: 25.5}
+        - {x: -32, y: 13.5}
+        - {x: -32, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 33, y: -25.5}
+        - {x: 33, y: 8.5}
+        - {x: 28, y: 34.5}
+    - name: SANDSLASH_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 34.5}
+        - {x: -28, y: 7.5}
+        - {x: -27, y: 4.5}
+        - {x: -30, y: 1.5}
+        - {x: -32, y: -1.5}
+        - {x: -32, y: -32.5}
+        - {x: -29, y: -34.5}
+        - {x: 30, y: -34.5}
+        - {x: 34, y: -24.5}
+        - {x: 34, y: 32.5}
+        - {x: 26, y: 34.5}
+    - name: SANDSLASH_41
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 138
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 31.5}
+        - {x: 21, y: 34.5}
+        - {x: -6, y: 34.5}
+        - {x: -16, y: 29.5}
+        - {x: -32, y: 11.5}
+        - {x: -32, y: -31.5}
+        - {x: -27, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 34, y: -20.5}
+        - {x: 34, y: 12.5}
+        - {x: 28, y: 27.5}
+    - name: SANDSLASH_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 138
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 34.5}
+        - {x: -32, y: 10.5}
+        - {x: -32, y: -32.5}
+        - {x: -28, y: -34.5}
+        - {x: 33, y: -34.5}
+        - {x: 34, y: -31.5}
+        - {x: 34, y: 14.5}
+        - {x: 27, y: 34.5}
+    - name: SANDSLASH_43
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 138
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 34.5}
+        - {x: -32, y: 9.5}
+        - {x: -32, y: -34.5}
+        - {x: 31, y: -34.5}
+        - {x: 34, y: -29.5}
+        - {x: 34, y: 20.5}
+        - {x: 26, y: 34.5}
+    - name: SANDSLASH_44
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 138
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 34.5}
+        - {x: -31, y: 9.5}
+        - {x: -32, y: 2.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 34, y: -26.5}
+        - {x: 34, y: 34.5}
+    - name: SANDSLASH_45
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 138
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -14.5}
+        - {x: 25, y: -21.5}
+        - {x: 26, y: -24.5}
+        - {x: 30, y: -25.5}
+        - {x: 34, y: -21.5}
+        - {x: 34, y: 33.5}
+        - {x: 32, y: 34.5}
+        - {x: -16, y: 34.5}
+        - {x: -32, y: 6.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+        - {x: 25, y: -25.5}
+    - name: SANDSLASH_46
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 138
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -15.5}
+        - {x: 26, y: -22.5}
+        - {x: 27, y: -25.5}
+        - {x: 34, y: -26.5}
+        - {x: 34, y: 18.5}
+        - {x: 33, y: 31.5}
+        - {x: 25, y: 34.5}
+        - {x: -6, y: 34.5}
+        - {x: -28, y: 8.5}
+        - {x: -32, y: -0.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+        - {x: 25, y: -25.5}
+    - name: SANDSLASH_47
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 138
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -26.5}
+        - {x: 26, y: -18.5}
+        - {x: 26, y: -14.5}
+        - {x: 24, y: -11.5}
+        - {x: 24, y: -9.5}
+        - {x: 25, y: -13.5}
+        - {x: 27, y: -14.5}
+        - {x: 26, y: -23.5}
+        - {x: 32, y: -25.5}
+        - {x: 34, y: -25.5}
+        - {x: 34, y: 22.5}
+        - {x: 27, y: 34.5}
+        - {x: -10, y: 34.5}
+        - {x: -32, y: 11.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+    - name: SANDSLASH_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 34.5}
+        - {x: -32, y: 9.5}
+        - {x: -32, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 34, y: -30.5}
+        - {x: 34, y: 34.5}
+    - name: SANDSLASH_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 69
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 34.5}
+        - {x: -31, y: 8.5}
+        - {x: -33, y: -11.5}
+        - {x: -33, y: -34.5}
+        - {x: 34, y: -34.5}
+        - {x: 34, y: 34.5}
+    - name: SANDSLASH_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 69
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -20.5}
+        - {x: 27, y: -17.5}
+        - {x: 27, y: -24.5}
+        - {x: 34, y: -29.5}
+        - {x: 34, y: 32.5}
+        - {x: 26, y: 34.5}
+        - {x: -14, y: 34.5}
+        - {x: -31, y: 8.5}
+        - {x: -33, y: -11.5}
+        - {x: -33, y: -34.5}
+        - {x: 29, y: -34.5}
+        - {x: 29, y: -32.5}
+        - {x: 27, y: -30.5}
+        - {x: 26, y: -26.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

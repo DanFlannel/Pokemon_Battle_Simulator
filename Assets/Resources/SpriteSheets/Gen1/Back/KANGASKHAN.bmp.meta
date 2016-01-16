@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: b039312cb2bc7b14f97b76e3b77b1933
+timeCreated: 1452888700
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KANGASKHAN_0
+    21300002: KANGASKHAN_1
+    21300004: KANGASKHAN_2
+    21300006: KANGASKHAN_3
+    21300008: KANGASKHAN_4
+    21300010: KANGASKHAN_5
+    21300012: KANGASKHAN_6
+    21300014: KANGASKHAN_7
+    21300016: KANGASKHAN_8
+    21300018: KANGASKHAN_9
+    21300020: KANGASKHAN_10
+    21300022: KANGASKHAN_11
+    21300024: KANGASKHAN_12
+    21300026: KANGASKHAN_13
+    21300028: KANGASKHAN_14
+    21300030: KANGASKHAN_15
+    21300032: KANGASKHAN_16
+    21300034: KANGASKHAN_17
+    21300036: KANGASKHAN_18
+    21300038: KANGASKHAN_19
+    21300040: KANGASKHAN_20
+    21300042: KANGASKHAN_21
+    21300044: KANGASKHAN_22
+    21300046: KANGASKHAN_23
+    21300048: KANGASKHAN_24
+    21300050: KANGASKHAN_25
+    21300052: KANGASKHAN_26
+    21300054: KANGASKHAN_27
+    21300056: KANGASKHAN_28
+    21300058: KANGASKHAN_29
+    21300060: KANGASKHAN_30
+    21300062: KANGASKHAN_31
+    21300064: KANGASKHAN_32
+    21300066: KANGASKHAN_33
+    21300068: KANGASKHAN_34
+    21300070: KANGASKHAN_35
+    21300072: KANGASKHAN_36
+    21300074: KANGASKHAN_37
+    21300076: KANGASKHAN_38
+    21300078: KANGASKHAN_39
+    21300080: KANGASKHAN_40
+    21300082: KANGASKHAN_41
+    21300084: KANGASKHAN_42
+    21300086: KANGASKHAN_43
+    21300088: KANGASKHAN_44
+    21300090: KANGASKHAN_45
+    21300092: KANGASKHAN_46
+    21300094: KANGASKHAN_47
+    21300096: KANGASKHAN_48
+    21300098: KANGASKHAN_49
+    21300100: KANGASKHAN_50
+    21300102: KANGASKHAN_51
+    21300104: KANGASKHAN_52
+    21300106: KANGASKHAN_53
+    21300108: KANGASKHAN_54
+    21300110: KANGASKHAN_55
+    21300112: KANGASKHAN_56
+    21300114: KANGASKHAN_57
+    21300116: KANGASKHAN_58
+    21300118: KANGASKHAN_59
+    21300120: KANGASKHAN_60
+    21300122: KANGASKHAN_61
+    21300124: KANGASKHAN_62
+    21300126: KANGASKHAN_63
+    21300128: KANGASKHAN_64
+    21300130: KANGASKHAN_65
+    21300132: KANGASKHAN_66
+    21300134: KANGASKHAN_67
+    21300136: KANGASKHAN_68
+    21300138: KANGASKHAN_69
+    21300140: KANGASKHAN_70
+    21300142: KANGASKHAN_71
+    21300144: KANGASKHAN_72
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KANGASKHAN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 696
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 43.5}
+        - {x: 12.5, y: 43.5}
+        - {x: 0.5, y: 27.5}
+        - {x: -56.5, y: -11.5}
+        - {x: -56.5, y: -31.5}
+        - {x: -0.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -21.5}
+        - {x: 56.5, y: 27.5}
+        - {x: 54.5, y: 42.5}
+    - name: KANGASKHAN_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 696
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 43.5}
+        - {x: 11.5, y: 43.5}
+        - {x: -56.5, y: -2.5}
+        - {x: -56.5, y: -30.5}
+        - {x: 0.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -29.5}
+        - {x: 56.5, y: 15.5}
+        - {x: 51.5, y: 39.5}
+    - name: KANGASKHAN_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 696
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 43.5}
+        - {x: 11.5, y: 43.5}
+        - {x: -56.5, y: -2.5}
+        - {x: -56.5, y: -30.5}
+        - {x: 0.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -29.5}
+        - {x: 56.5, y: 15.5}
+        - {x: 51.5, y: 39.5}
+    - name: KANGASKHAN_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 696
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 43.5}
+        - {x: -56.5, y: -20.5}
+        - {x: -56.5, y: -28.5}
+        - {x: -38.5, y: -33.5}
+        - {x: 4.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -20.5}
+        - {x: 56.5, y: 28.5}
+        - {x: 53.5, y: 43.5}
+    - name: KANGASKHAN_4
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 696
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 43.5}
+        - {x: -56.5, y: -20.5}
+        - {x: -56.5, y: -28.5}
+        - {x: -38.5, y: -33.5}
+        - {x: 4.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -20.5}
+        - {x: 56.5, y: 28.5}
+        - {x: 53.5, y: 43.5}
+    - name: KANGASKHAN_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 696
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 43.5}
+        - {x: 15.5, y: 43.5}
+        - {x: 8.5, y: 36.5}
+        - {x: 5.5, y: 27.5}
+        - {x: -56.5, y: -16.5}
+        - {x: -56.5, y: -28.5}
+        - {x: 5.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -27.5}
+        - {x: 56.5, y: 16.5}
+        - {x: 51.5, y: 42.5}
+    - name: KANGASKHAN_6
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 696
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 43.5}
+        - {x: -56.5, y: -15.5}
+        - {x: -56.5, y: -31.5}
+        - {x: 6.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -35.5}
+        - {x: 56.5, y: 28.5}
+        - {x: 54.5, y: 43.5}
+    - name: KANGASKHAN_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 696
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 43.5}
+        - {x: -56.5, y: -10.5}
+        - {x: -56.5, y: -36.5}
+        - {x: -21.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 13.5}
+        - {x: 51.5, y: 43.5}
+    - name: KANGASKHAN_8
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 696
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 43.5}
+        - {x: -56.5, y: -5.5}
+        - {x: -56.5, y: -26.5}
+        - {x: -30.5, y: -33.5}
+        - {x: 6.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -22.5}
+        - {x: 56.5, y: 19.5}
+        - {x: 48.5, y: 43.5}
+    - name: KANGASKHAN_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -16.5}
+        - {x: -56.5, y: -36.5}
+        - {x: -38.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -38.5}
+        - {x: 56.5, y: 43.5}
+        - {x: 4.5, y: 43.5}
+        - {x: 0.5, y: 42.5}
+    - name: KANGASKHAN_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 609
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 43.5}
+        - {x: -56.5, y: -8.5}
+        - {x: -56.5, y: -27.5}
+        - {x: -2.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 32.5}
+        - {x: 51.5, y: 43.5}
+    - name: KANGASKHAN_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 609
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 43.5}
+        - {x: -56.5, y: -13.5}
+        - {x: -56.5, y: -24.5}
+        - {x: -42.5, y: -28.5}
+        - {x: 7.5, y: -43.5}
+        - {x: 53.5, y: -43.5}
+        - {x: 56.5, y: -27.5}
+        - {x: 56.5, y: 42.5}
+        - {x: 52.5, y: 43.5}
+    - name: KANGASKHAN_12
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 609
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 43.5}
+        - {x: 0.5, y: 28.5}
+        - {x: -55.5, y: -9.5}
+        - {x: -56.5, y: -11.5}
+        - {x: -56.5, y: -27.5}
+        - {x: 4.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -25.5}
+        - {x: 56.5, y: 42.5}
+        - {x: 54.5, y: 43.5}
+    - name: KANGASKHAN_13
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 609
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 43.5}
+        - {x: -56.5, y: -10.5}
+        - {x: -56.5, y: -24.5}
+        - {x: -36.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 32.5}
+        - {x: 53.5, y: 43.5}
+    - name: KANGASKHAN_14
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 609
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: 43.5}
+        - {x: 1.5, y: 43.5}
+        - {x: -56.5, y: 6.5}
+        - {x: -56.5, y: -25.5}
+        - {x: -22.5, y: -41.5}
+        - {x: -5.5, y: -43.5}
+        - {x: 48.5, y: -43.5}
+        - {x: 56.5, y: -19.5}
+        - {x: 56.5, y: 18.5}
+        - {x: 49.5, y: 41.5}
+    - name: KANGASKHAN_15
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 609
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -25.5}
+        - {x: -23.5, y: -42.5}
+        - {x: -13.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 43.5}
+        - {x: 2.5, y: 43.5}
+        - {x: -56.5, y: 8.5}
+    - name: KANGASKHAN_16
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 609
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 43.5}
+        - {x: -56.5, y: -12.5}
+        - {x: -56.5, y: -29.5}
+        - {x: -22.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -40.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 609
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 43.5}
+        - {x: -56.5, y: 2.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -8.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 39.5}
+        - {x: 55.5, y: 43.5}
+    - name: KANGASKHAN_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 43.5}
+        - {x: 1.5, y: 43.5}
+        - {x: -56.5, y: 7.5}
+        - {x: -56.5, y: -23.5}
+        - {x: -34.5, y: -32.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -9.5, y: -36.5}
+        - {x: 12.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -19.5}
+        - {x: 56.5, y: 10.5}
+        - {x: 50.5, y: 41.5}
+    - name: KANGASKHAN_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 522
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 43.5}
+        - {x: -56.5, y: -4.5}
+        - {x: -56.5, y: -39.5}
+        - {x: -46.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -38.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 522
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 43.5}
+        - {x: -56.5, y: -7.5}
+        - {x: -56.5, y: -33.5}
+        - {x: -18.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -22.5}
+        - {x: 56.5, y: 19.5}
+        - {x: 49.5, y: 43.5}
+    - name: KANGASKHAN_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 522
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -24.5}
+        - {x: -46.5, y: -34.5}
+        - {x: 2.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -33.5}
+        - {x: 56.5, y: 43.5}
+        - {x: -6.5, y: 43.5}
+        - {x: -56.5, y: 18.5}
+    - name: KANGASKHAN_22
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 522
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 43.5}
+        - {x: -56.5, y: -6.5}
+        - {x: -56.5, y: -28.5}
+        - {x: -6.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -20.5}
+        - {x: 56.5, y: 33.5}
+        - {x: 55.5, y: 43.5}
+    - name: KANGASKHAN_23
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 522
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 43.5}
+        - {x: -56.5, y: -10.5}
+        - {x: -56.5, y: -28.5}
+        - {x: -8.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -29.5}
+        - {x: 56.5, y: 14.5}
+        - {x: 51.5, y: 43.5}
+    - name: KANGASKHAN_24
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 522
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 43.5}
+        - {x: -56.5, y: -14.5}
+        - {x: -56.5, y: -37.5}
+        - {x: -15.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 23.5}
+        - {x: 52.5, y: 43.5}
+    - name: KANGASKHAN_25
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 522
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 43.5}
+        - {x: 0.5, y: 42.5}
+        - {x: -56.5, y: -14.5}
+        - {x: -56.5, y: -29.5}
+        - {x: -31.5, y: -37.5}
+        - {x: 3.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -31.5}
+        - {x: 56.5, y: 20.5}
+        - {x: 52.5, y: 43.5}
+    - name: KANGASKHAN_26
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 522
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 43.5}
+        - {x: 11.5, y: 38.5}
+        - {x: -56.5, y: -6.5}
+        - {x: -56.5, y: -25.5}
+        - {x: -24.5, y: -39.5}
+        - {x: 6.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -30.5}
+        - {x: 56.5, y: 11.5}
+        - {x: 48.5, y: 43.5}
+    - name: KANGASKHAN_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 435
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -7.5}
+        - {x: -56.5, y: -25.5}
+        - {x: -36.5, y: -39.5}
+        - {x: -11.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 43.5}
+        - {x: -0.5, y: 43.5}
+    - name: KANGASKHAN_28
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 435
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 43.5}
+        - {x: -56.5, y: -9.5}
+        - {x: -56.5, y: -24.5}
+        - {x: -52.5, y: -27.5}
+        - {x: -30.5, y: -36.5}
+        - {x: 10.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -30.5}
+        - {x: 56.5, y: 39.5}
+        - {x: 49.5, y: 43.5}
+    - name: KANGASKHAN_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 435
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 43.5}
+        - {x: -56.5, y: -14.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -52.5, y: -41.5}
+        - {x: -30.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 30.5}
+        - {x: 53.5, y: 43.5}
+    - name: KANGASKHAN_30
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 435
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -26.5}
+        - {x: -41.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 43.5}
+        - {x: 3.5, y: 43.5}
+        - {x: -56.5, y: 12.5}
+    - name: KANGASKHAN_31
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 435
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 43.5}
+        - {x: -56.5, y: -14.5}
+        - {x: -56.5, y: -27.5}
+        - {x: -33.5, y: -43.5}
+        - {x: 54.5, y: -43.5}
+        - {x: 56.5, y: -36.5}
+        - {x: 56.5, y: 38.5}
+        - {x: 55.5, y: 43.5}
+    - name: KANGASKHAN_32
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 435
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 43.5}
+        - {x: -56.5, y: -12.5}
+        - {x: -56.5, y: -31.5}
+        - {x: -22.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -27.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_33
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 435
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 43.5}
+        - {x: 8.5, y: 43.5}
+        - {x: -56.5, y: -14.5}
+        - {x: -56.5, y: -27.5}
+        - {x: -28.5, y: -41.5}
+        - {x: -9.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 20.5}
+        - {x: 51.5, y: 41.5}
+    - name: KANGASKHAN_34
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 435
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 43.5}
+        - {x: -56.5, y: -17.5}
+        - {x: -56.5, y: -29.5}
+        - {x: -39.5, y: -37.5}
+        - {x: -8.5, y: -43.5}
+        - {x: 54.5, y: -43.5}
+        - {x: 56.5, y: -40.5}
+        - {x: 56.5, y: 33.5}
+        - {x: 48.5, y: 43.5}
+    - name: KANGASKHAN_35
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 435
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 43.5}
+        - {x: -56.5, y: -14.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -29.5, y: -40.5}
+        - {x: -5.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -30.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 43.5}
+        - {x: -56.5, y: -16.5}
+        - {x: -56.5, y: -32.5}
+        - {x: -25.5, y: -41.5}
+        - {x: -6.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -30.5}
+        - {x: 56.5, y: 12.5}
+        - {x: 50.5, y: 43.5}
+    - name: KANGASKHAN_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 348
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 43.5}
+        - {x: -56.5, y: -19.5}
+        - {x: -56.5, y: -29.5}
+        - {x: -31.5, y: -40.5}
+        - {x: -1.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -28.5}
+        - {x: 56.5, y: 41.5}
+        - {x: 50.5, y: 43.5}
+    - name: KANGASKHAN_38
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 348
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 43.5}
+        - {x: -33.5, y: 6.5}
+        - {x: -56.5, y: -15.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -5.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -22.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_39
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 348
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: 43.5}
+        - {x: 11.5, y: 43.5}
+        - {x: -56.5, y: -6.5}
+        - {x: -56.5, y: -31.5}
+        - {x: -18.5, y: -43.5}
+        - {x: 47.5, y: -43.5}
+        - {x: 56.5, y: -27.5}
+        - {x: 56.5, y: 22.5}
+        - {x: 53.5, y: 40.5}
+    - name: KANGASKHAN_40
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 348
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -29.5}
+        - {x: -46.5, y: -35.5}
+        - {x: -13.5, y: -42.5}
+        - {x: 3.5, y: -43.5}
+        - {x: 48.5, y: -43.5}
+        - {x: 56.5, y: -29.5}
+        - {x: 56.5, y: 43.5}
+        - {x: 2.5, y: 43.5}
+        - {x: -56.5, y: 13.5}
+    - name: KANGASKHAN_41
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 348
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 43.5}
+        - {x: -54.5, y: -18.5}
+        - {x: -56.5, y: -22.5}
+        - {x: -56.5, y: -28.5}
+        - {x: -46.5, y: -33.5}
+        - {x: -33.5, y: -37.5}
+        - {x: 7.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -22.5}
+        - {x: 56.5, y: 20.5}
+        - {x: 50.5, y: 43.5}
+    - name: KANGASKHAN_42
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 348
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 43.5}
+        - {x: 18.5, y: 43.5}
+        - {x: 3.5, y: 28.5}
+        - {x: -54.5, y: -18.5}
+        - {x: -56.5, y: -21.5}
+        - {x: -56.5, y: -29.5}
+        - {x: -42.5, y: -38.5}
+        - {x: 1.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -22.5}
+        - {x: 56.5, y: 19.5}
+    - name: KANGASKHAN_43
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 348
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 43.5}
+        - {x: -56.5, y: 0.5}
+        - {x: -56.5, y: -29.5}
+        - {x: -45.5, y: -35.5}
+        - {x: -24.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -40.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_44
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 348
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 43.5}
+        - {x: 14.5, y: 43.5}
+        - {x: -56.5, y: -19.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -36.5, y: -40.5}
+        - {x: -5.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -26.5}
+        - {x: 56.5, y: 19.5}
+        - {x: 53.5, y: 42.5}
+    - name: KANGASKHAN_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 43.5}
+        - {x: -56.5, y: 9.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -17.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_46
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 261
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 43.5}
+        - {x: -56.5, y: -15.5}
+        - {x: -56.5, y: -38.5}
+        - {x: -21.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_47
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 261
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 43.5}
+        - {x: -56.5, y: -17.5}
+        - {x: -56.5, y: -37.5}
+        - {x: -40.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_48
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 261
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 43.5}
+        - {x: -56.5, y: -6.5}
+        - {x: -56.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_49
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 261
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 43.5}
+        - {x: -56.5, y: -20.5}
+        - {x: -56.5, y: -37.5}
+        - {x: -26.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -20.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_50
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 261
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -22.5}
+        - {x: -56.5, y: -38.5}
+        - {x: -47.5, y: -43.5}
+        - {x: 52.5, y: -43.5}
+        - {x: 56.5, y: -38.5}
+        - {x: 56.5, y: 39.5}
+        - {x: 55.5, y: 41.5}
+        - {x: 47.5, y: 43.5}
+        - {x: 16.5, y: 43.5}
+        - {x: 12.5, y: 39.5}
+    - name: KANGASKHAN_51
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 261
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 43.5}
+        - {x: -53.5, y: -19.5}
+        - {x: -56.5, y: -23.5}
+        - {x: -56.5, y: -36.5}
+        - {x: -39.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -38.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_52
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 261
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 43.5}
+        - {x: -56.5, y: -20.5}
+        - {x: -56.5, y: -37.5}
+        - {x: -28.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 24.5}
+        - {x: 51.5, y: 43.5}
+    - name: KANGASKHAN_53
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 261
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 43.5}
+        - {x: 8.5, y: 37.5}
+        - {x: -56.5, y: -24.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -42.5, y: -43.5}
+        - {x: 53.5, y: -43.5}
+        - {x: 56.5, y: -38.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 43.5}
+        - {x: -56.5, y: -5.5}
+        - {x: -56.5, y: -33.5}
+        - {x: -37.5, y: -41.5}
+        - {x: -9.5, y: -43.5}
+        - {x: 54.5, y: -43.5}
+        - {x: 56.5, y: -38.5}
+        - {x: 56.5, y: 30.5}
+        - {x: 49.5, y: 43.5}
+    - name: KANGASKHAN_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 174
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 43.5}
+        - {x: -56.5, y: -22.5}
+        - {x: -56.5, y: -37.5}
+        - {x: -24.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -28.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_56
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 174
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -41.5}
+        - {x: -37.5, y: -43.5}
+        - {x: 56.5, y: -43.5}
+        - {x: 56.5, y: 43.5}
+        - {x: 2.5, y: 43.5}
+        - {x: -56.5, y: 10.5}
+    - name: KANGASKHAN_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 174
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -21.5}
+        - {x: -56.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -37.5}
+        - {x: 56.5, y: 30.5}
+        - {x: 50.5, y: 43.5}
+        - {x: 12.5, y: 43.5}
+        - {x: -5.5, y: 31.5}
+    - name: KANGASKHAN_58
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 174
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 43.5}
+        - {x: -56.5, y: -10.5}
+        - {x: -56.5, y: -38.5}
+        - {x: -42.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -39.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_59
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 174
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -43.5}
+        - {x: 52.5, y: -43.5}
+        - {x: 56.5, y: -40.5}
+        - {x: 56.5, y: 29.5}
+        - {x: 48.5, y: 43.5}
+        - {x: -0.5, y: 43.5}
+        - {x: -56.5, y: -14.5}
+    - name: KANGASKHAN_60
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 174
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 43.5}
+        - {x: -56.5, y: -24.5}
+        - {x: -56.5, y: -41.5}
+        - {x: -29.5, y: -43.5}
+        - {x: 55.5, y: -43.5}
+        - {x: 56.5, y: -41.5}
+        - {x: 56.5, y: 43.5}
+    - name: KANGASKHAN_61
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 174
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: 43.5}
+        - {x: 2.5, y: 43.5}
+        - {x: -56.5, y: -15.5}
+        - {x: -56.5, y: -33.5}
+        - {x: -45.5, y: -37.5}
+        - {x: -0.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -31.5}
+        - {x: 56.5, y: 19.5}
+        - {x: 53.5, y: 42.5}
+    - name: KANGASKHAN_62
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 174
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: 43.5}
+        - {x: 7.5, y: 43.5}
+        - {x: -55.5, y: -23.5}
+        - {x: -56.5, y: -26.5}
+        - {x: -56.5, y: -34.5}
+        - {x: -53.5, y: -36.5}
+        - {x: -2.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -29.5}
+        - {x: 56.5, y: 26.5}
+        - {x: 53.5, y: 42.5}
+    - name: KANGASKHAN_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 43.5}
+        - {x: -56.5, y: -24.5}
+        - {x: -56.5, y: -36.5}
+        - {x: -12.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -27.5}
+        - {x: 56.5, y: 30.5}
+        - {x: 50.5, y: 43.5}
+    - name: KANGASKHAN_64
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 87
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 43.5}
+        - {x: 5.5, y: 43.5}
+        - {x: -56.5, y: -14.5}
+        - {x: -56.5, y: -32.5}
+        - {x: -54.5, y: -33.5}
+        - {x: -44.5, y: -34.5}
+        - {x: 0.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -29.5}
+        - {x: 56.5, y: 18.5}
+        - {x: 52.5, y: 41.5}
+    - name: KANGASKHAN_65
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 87
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 43.5}
+        - {x: -56.5, y: -24.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -2.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -20.5}
+        - {x: 56.5, y: 28.5}
+        - {x: 52.5, y: 43.5}
+    - name: KANGASKHAN_66
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 87
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: 43.5}
+        - {x: 9.5, y: 43.5}
+        - {x: -56.5, y: -23.5}
+        - {x: -56.5, y: -39.5}
+        - {x: -14.5, y: -43.5}
+        - {x: 54.5, y: -43.5}
+        - {x: 56.5, y: -36.5}
+        - {x: 56.5, y: 23.5}
+        - {x: 53.5, y: 42.5}
+    - name: KANGASKHAN_67
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 87
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: 43.5}
+        - {x: 6.5, y: 43.5}
+        - {x: -56.5, y: -5.5}
+        - {x: -56.5, y: -33.5}
+        - {x: -55.5, y: -34.5}
+        - {x: 1.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -28.5}
+        - {x: 56.5, y: 8.5}
+        - {x: 49.5, y: 39.5}
+    - name: KANGASKHAN_68
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 87
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 43.5}
+        - {x: -37.5, y: -2.5}
+        - {x: -56.5, y: -22.5}
+        - {x: -56.5, y: -37.5}
+        - {x: -9.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -23.5}
+        - {x: 56.5, y: 15.5}
+        - {x: 47.5, y: 43.5}
+    - name: KANGASKHAN_69
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 87
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 43.5}
+        - {x: -56.5, y: -20.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -4.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -29.5}
+        - {x: 56.5, y: 31.5}
+        - {x: 55.5, y: 43.5}
+    - name: KANGASKHAN_70
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 87
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 43.5}
+        - {x: 3.5, y: 43.5}
+        - {x: -56.5, y: 0.5}
+        - {x: -56.5, y: -32.5}
+        - {x: -20.5, y: -40.5}
+        - {x: 1.5, y: -43.5}
+        - {x: 50.5, y: -43.5}
+        - {x: 56.5, y: -31.5}
+        - {x: 56.5, y: 14.5}
+        - {x: 50.5, y: 39.5}
+    - name: KANGASKHAN_71
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 87
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 43.5}
+        - {x: 4.5, y: 41.5}
+        - {x: -56.5, y: -13.5}
+        - {x: -56.5, y: -36.5}
+        - {x: -1.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 56.5, y: -27.5}
+        - {x: 56.5, y: 23.5}
+        - {x: 53.5, y: 43.5}
+    - name: KANGASKHAN_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 43.5}
+        - {x: 12.5, y: 43.5}
+        - {x: 0.5, y: 27.5}
+        - {x: -56.5, y: -11.5}
+        - {x: -56.5, y: -31.5}
+        - {x: -0.5, y: -43.5}
+        - {x: 51.5, y: -43.5}
+        - {x: 56.5, y: -21.5}
+        - {x: 56.5, y: 27.5}
+        - {x: 54.5, y: 42.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

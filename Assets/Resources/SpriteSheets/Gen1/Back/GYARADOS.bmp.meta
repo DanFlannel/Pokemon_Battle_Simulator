@@ -1,0 +1,1486 @@
+fileFormatVersion: 2
+guid: 298416cb6c0ee70449d6b56ed8b7cb5a
+timeCreated: 1452888533
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GYARADOS_0
+    21300002: GYARADOS_1
+    21300004: GYARADOS_2
+    21300006: GYARADOS_3
+    21300008: GYARADOS_4
+    21300010: GYARADOS_5
+    21300012: GYARADOS_6
+    21300014: GYARADOS_7
+    21300016: GYARADOS_8
+    21300018: GYARADOS_9
+    21300020: GYARADOS_10
+    21300022: GYARADOS_11
+    21300024: GYARADOS_12
+    21300026: GYARADOS_13
+    21300028: GYARADOS_14
+    21300030: GYARADOS_15
+    21300032: GYARADOS_16
+    21300034: GYARADOS_17
+    21300036: GYARADOS_18
+    21300038: GYARADOS_19
+    21300040: GYARADOS_20
+    21300042: GYARADOS_21
+    21300044: GYARADOS_22
+    21300046: GYARADOS_23
+    21300048: GYARADOS_24
+    21300050: GYARADOS_25
+    21300052: GYARADOS_26
+    21300054: GYARADOS_27
+    21300056: GYARADOS_28
+    21300058: GYARADOS_29
+    21300060: GYARADOS_30
+    21300062: GYARADOS_31
+    21300064: GYARADOS_32
+    21300066: GYARADOS_33
+    21300068: GYARADOS_34
+    21300070: GYARADOS_35
+    21300072: GYARADOS_36
+    21300074: GYARADOS_37
+    21300076: GYARADOS_38
+    21300078: GYARADOS_39
+    21300080: GYARADOS_40
+    21300082: GYARADOS_41
+    21300084: GYARADOS_42
+    21300086: GYARADOS_43
+    21300088: GYARADOS_44
+    21300090: GYARADOS_45
+    21300092: GYARADOS_46
+    21300094: GYARADOS_47
+    21300096: GYARADOS_48
+    21300098: GYARADOS_49
+    21300100: GYARADOS_50
+    21300102: GYARADOS_51
+    21300104: GYARADOS_52
+    21300106: GYARADOS_53
+    21300108: GYARADOS_54
+    21300110: GYARADOS_55
+    21300112: GYARADOS_56
+    21300114: GYARADOS_57
+    21300116: GYARADOS_58
+    21300118: GYARADOS_59
+    21300120: GYARADOS_60
+    21300122: GYARADOS_61
+    21300124: GYARADOS_62
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GYARADOS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 714
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 49}
+        - {x: -33, y: -35}
+        - {x: 75, y: -35}
+        - {x: 75, y: 30}
+        - {x: 60, y: 49}
+    - name: GYARADOS_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 714
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 49}
+        - {x: -30, y: 45}
+        - {x: -35, y: 8}
+        - {x: -35, y: -33}
+        - {x: 75, y: -33}
+        - {x: 75, y: 44}
+        - {x: 68, y: 49}
+    - name: GYARADOS_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 714
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 49}
+        - {x: -30, y: 45}
+        - {x: -35, y: 8}
+        - {x: -35, y: -33}
+        - {x: 75, y: -33}
+        - {x: 75, y: 44}
+        - {x: 68, y: 49}
+    - name: GYARADOS_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 714
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 31}
+        - {x: 25, y: 19}
+        - {x: 26, y: 15}
+        - {x: 15, y: 49}
+        - {x: -2, y: 49}
+        - {x: -21, y: 45}
+        - {x: -35, y: 30}
+        - {x: -37, y: 6}
+        - {x: -37, y: -33}
+        - {x: 75, y: -33}
+        - {x: 75, y: 25}
+        - {x: 48, y: 47}
+    - name: GYARADOS_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 714
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 31}
+        - {x: 25, y: 19}
+        - {x: 26, y: 15}
+        - {x: 15, y: 49}
+        - {x: -2, y: 49}
+        - {x: -21, y: 45}
+        - {x: -35, y: 30}
+        - {x: -37, y: 6}
+        - {x: -37, y: -33}
+        - {x: 75, y: -33}
+        - {x: 75, y: 25}
+        - {x: 48, y: 47}
+    - name: GYARADOS_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 714
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 43}
+        - {x: 49, y: 43}
+        - {x: 41, y: 35}
+        - {x: 27, y: 48}
+        - {x: -13, y: 48}
+        - {x: -21, y: 46}
+        - {x: -39, y: 0}
+        - {x: -39, y: -34}
+        - {x: -37, y: -34}
+        - {x: -3, y: -22}
+        - {x: -3, y: -14}
+        - {x: 19, y: -34}
+        - {x: 75, y: -34}
+        - {x: 75, y: 21}
+        - {x: 53, y: 41}
+    - name: GYARADOS_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 714
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 47}
+        - {x: -20, y: 46}
+        - {x: -41, y: 12}
+        - {x: -41, y: -28}
+        - {x: -37, y: -34}
+        - {x: 75, y: -34}
+        - {x: 75, y: 19}
+        - {x: 72, y: 34}
+    - name: GYARADOS_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 714
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 24}
+        - {x: 59, y: 21}
+        - {x: 58, y: 27}
+        - {x: 58, y: 47}
+        - {x: -30, y: 47}
+        - {x: -44, y: -4}
+        - {x: -44, y: -24}
+        - {x: -17, y: -34}
+        - {x: 75, y: -34}
+        - {x: 75, y: 20}
+        - {x: 61, y: 28}
+    - name: GYARADOS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 46}
+        - {x: -47, y: 25}
+        - {x: -47, y: -34}
+        - {x: 75, y: -34}
+        - {x: 75, y: 35}
+        - {x: 65, y: 46}
+    - name: GYARADOS_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 612
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 45}
+        - {x: 31, y: 35}
+        - {x: 24, y: 45}
+        - {x: -20, y: 45}
+        - {x: -51, y: -4}
+        - {x: -51, y: -21}
+        - {x: 4, y: -35}
+        - {x: 75, y: -35}
+        - {x: 75, y: 24}
+        - {x: 56, y: 45}
+    - name: GYARADOS_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 612
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 27}
+        - {x: 60, y: 23}
+        - {x: 59, y: 46}
+        - {x: -28, y: 46}
+        - {x: -54, y: -4}
+        - {x: -54, y: -15}
+        - {x: -53, y: -16}
+        - {x: -8, y: -35}
+        - {x: 75, y: -35}
+        - {x: 75, y: 25}
+        - {x: 69, y: 29}
+    - name: GYARADOS_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 612
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 46}
+        - {x: -57, y: 3}
+        - {x: -57, y: -35}
+        - {x: 75, y: -35}
+        - {x: 75, y: 38}
+        - {x: 71, y: 46}
+    - name: GYARADOS_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 612
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 27}
+        - {x: 60, y: 23}
+        - {x: 59, y: 27}
+        - {x: 54, y: 45}
+        - {x: -26, y: 45}
+        - {x: -54, y: 7}
+        - {x: -60, y: -4}
+        - {x: -60, y: -21}
+        - {x: -5, y: -35}
+        - {x: 75, y: -35}
+        - {x: 75, y: 26}
+        - {x: 69, y: 29}
+    - name: GYARADOS_13
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 612
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 45}
+        - {x: 29, y: 45}
+        - {x: -21, y: 45}
+        - {x: -64, y: 4}
+        - {x: -64, y: -21}
+        - {x: -19, y: -36}
+        - {x: 75, y: -36}
+        - {x: 75, y: 27}
+        - {x: 52, y: 45}
+    - name: GYARADOS_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 612
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 45}
+        - {x: 31, y: 36}
+        - {x: 25, y: 18}
+        - {x: 16, y: 40}
+        - {x: 14, y: 43}
+        - {x: 2, y: 45}
+        - {x: -21, y: 45}
+        - {x: -67, y: 3}
+        - {x: -67, y: -3}
+        - {x: -66, y: -5}
+        - {x: -6, y: -36}
+        - {x: 75, y: -36}
+        - {x: 75, y: 28}
+        - {x: 48, y: 45}
+    - name: GYARADOS_15
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 612
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 44}
+        - {x: -68, y: 26}
+        - {x: -70, y: 8}
+        - {x: -70, y: 3}
+        - {x: -69, y: 0}
+        - {x: -66, y: 0}
+        - {x: -55, y: 1}
+        - {x: -44, y: 4}
+        - {x: -2, y: -31}
+        - {x: 16, y: -36}
+        - {x: 75, y: -36}
+        - {x: 75, y: 27}
+        - {x: 56, y: 44}
+    - name: GYARADOS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 43}
+        - {x: 27, y: 30}
+        - {x: 25, y: 19}
+        - {x: 17, y: 43}
+        - {x: -21, y: 43}
+        - {x: -70, y: 11}
+        - {x: -70, y: -22}
+        - {x: 5, y: -36}
+        - {x: 75, y: -36}
+        - {x: 75, y: 25}
+        - {x: 55, y: 43}
+    - name: GYARADOS_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 510
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 43}
+        - {x: -74, y: 14}
+        - {x: -74, y: -1}
+        - {x: -13, y: -36}
+        - {x: 75, y: -36}
+        - {x: 75, y: 35}
+        - {x: 66, y: 43}
+    - name: GYARADOS_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 510
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 44}
+        - {x: 45, y: 44}
+        - {x: 43, y: 41}
+        - {x: 38, y: 44}
+        - {x: -25, y: 44}
+        - {x: -34, y: 42}
+        - {x: -74, y: 16}
+        - {x: -74, y: 13}
+        - {x: -73, y: 11}
+        - {x: -64, y: 11}
+        - {x: 1, y: -29}
+        - {x: 19, y: -37}
+        - {x: 64, y: -37}
+        - {x: 71, y: -36}
+        - {x: 75, y: -17}
+        - {x: 75, y: 33}
+    - name: GYARADOS_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 510
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70, y: 44}
+        - {x: -75, y: 26}
+        - {x: -75, y: 15}
+        - {x: -74, y: 14}
+        - {x: 1, y: -37}
+        - {x: 62, y: -37}
+        - {x: 73, y: -31}
+        - {x: 74, y: 6}
+        - {x: 74, y: 22}
+        - {x: 59, y: 44}
+    - name: GYARADOS_20
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 510
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 45}
+        - {x: 39, y: 45}
+        - {x: 28, y: 34}
+        - {x: 25, y: 45}
+        - {x: -41, y: 45}
+        - {x: -72, y: 39}
+        - {x: -74, y: 20}
+        - {x: -73, y: 17}
+        - {x: -2, y: -37}
+        - {x: 74, y: -37}
+        - {x: 74, y: 29}
+        - {x: 64, y: 37}
+    - name: GYARADOS_21
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 510
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 45}
+        - {x: 24, y: 40}
+        - {x: 19, y: 15}
+        - {x: 28, y: -8}
+        - {x: 26, y: -11}
+        - {x: 27, y: -11}
+        - {x: 26, y: -9}
+        - {x: 20, y: 2}
+        - {x: 15, y: 25}
+        - {x: 10, y: 41}
+        - {x: -10, y: 44}
+        - {x: -70, y: 31}
+        - {x: -75, y: 26}
+        - {x: -75, y: 17}
+        - {x: -7, y: -31}
+        - {x: 8, y: -37}
+        - {x: 62, y: -37}
+        - {x: 74, y: -24}
+        - {x: 74, y: 24}
+        - {x: 52, y: 45}
+    - name: GYARADOS_22
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 510
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: 46}
+        - {x: 33, y: 46}
+        - {x: 20, y: 38}
+        - {x: 20, y: 16}
+        - {x: 8, y: 39}
+        - {x: 1, y: 37}
+        - {x: -18, y: 40}
+        - {x: -28, y: 30}
+        - {x: -62, y: 30}
+        - {x: -73, y: 29}
+        - {x: -75, y: 28}
+        - {x: -75, y: 7}
+        - {x: 9, y: -37}
+        - {x: 70, y: -37}
+        - {x: 71, y: -36}
+        - {x: 73, y: -24}
+        - {x: 73, y: 35}
+    - name: GYARADOS_23
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 510
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: 38}
+        - {x: 66, y: 46}
+        - {x: -52, y: 46}
+        - {x: -74, y: 34}
+        - {x: -74, y: 23}
+        - {x: -73, y: 22}
+        - {x: 14, y: -36}
+        - {x: 16, y: -37}
+        - {x: 54, y: -37}
+        - {x: 65, y: -31}
+        - {x: 73, y: -17}
+        - {x: 73, y: 27}
+    - name: GYARADOS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: 47}
+        - {x: -75, y: -23}
+        - {x: -26, y: -37}
+        - {x: 72, y: -37}
+        - {x: 72, y: 34}
+        - {x: 61, y: 47}
+    - name: GYARADOS_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 408
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: 47}
+        - {x: -46, y: 47}
+        - {x: -71, y: 44}
+        - {x: -73, y: 36}
+        - {x: -73, y: 24}
+        - {x: 13, y: -37}
+        - {x: 51, y: -37}
+        - {x: 69, y: -25}
+        - {x: 72, y: -9}
+        - {x: 72, y: 36}
+    - name: GYARADOS_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 408
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 48}
+        - {x: -67, y: 43}
+        - {x: -73, y: 32}
+        - {x: -73, y: 26}
+        - {x: -40, y: 10}
+        - {x: -10, y: -36}
+        - {x: 72, y: -36}
+        - {x: 72, y: 38}
+        - {x: 67, y: 48}
+    - name: GYARADOS_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 408
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 48}
+        - {x: 32, y: 48}
+        - {x: 18, y: 30}
+        - {x: 13, y: 42}
+        - {x: -64, y: 42}
+        - {x: -71, y: 39}
+        - {x: -71, y: 14}
+        - {x: -15, y: -36}
+        - {x: 52, y: -36}
+        - {x: 68, y: -26}
+        - {x: 71, y: -7}
+        - {x: 71, y: 36}
+    - name: GYARADOS_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 408
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 49}
+        - {x: -70, y: 41}
+        - {x: -70, y: 18}
+        - {x: -4, y: -36}
+        - {x: 71, y: -36}
+        - {x: 71, y: 42}
+        - {x: 66, y: 49}
+    - name: GYARADOS_29
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 408
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: 39}
+        - {x: 54, y: 36}
+        - {x: 41, y: 49}
+        - {x: -43, y: 49}
+        - {x: -68, y: 37}
+        - {x: -68, y: 8}
+        - {x: -15, y: -36}
+        - {x: 56, y: -36}
+        - {x: 70, y: -34}
+        - {x: 70, y: 32}
+        - {x: 59, y: 40}
+    - name: GYARADOS_30
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 408
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 50}
+        - {x: 16, y: 30}
+        - {x: -2, y: 46}
+        - {x: -66, y: 34}
+        - {x: -67, y: 33}
+        - {x: -67, y: 16}
+        - {x: 0, y: -35}
+        - {x: 54, y: -35}
+        - {x: 70, y: -13}
+        - {x: 70, y: 40}
+        - {x: 53, y: 50}
+    - name: GYARADOS_31
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 408
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 50}
+        - {x: -20, y: 50}
+        - {x: -66, y: 43}
+        - {x: -66, y: 16}
+        - {x: -62, y: 7}
+        - {x: 13, y: -35}
+        - {x: 57, y: -35}
+        - {x: 69, y: -10}
+        - {x: 69, y: 40}
+    - name: GYARADOS_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 51}
+        - {x: -64, y: 30}
+        - {x: -64, y: 8}
+        - {x: -4, y: -35}
+        - {x: 40, y: -35}
+        - {x: 69, y: -20}
+        - {x: 69, y: 40}
+        - {x: 56, y: 51}
+    - name: GYARADOS_33
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 306
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 46}
+        - {x: 59, y: 51}
+        - {x: -22, y: 51}
+        - {x: -64, y: 38}
+        - {x: -64, y: 5}
+        - {x: -7, y: -35}
+        - {x: 54, y: -35}
+        - {x: 67, y: -29}
+        - {x: 69, y: -10}
+        - {x: 69, y: 39}
+    - name: GYARADOS_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 306
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 51}
+        - {x: 34, y: 51}
+        - {x: -63, y: 28}
+        - {x: -63, y: 6}
+        - {x: -3, y: -34}
+        - {x: 45, y: -34}
+        - {x: 52, y: -32}
+        - {x: 68, y: -14}
+        - {x: 68, y: 31}
+        - {x: 67, y: 37}
+    - name: GYARADOS_35
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 306
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 51}
+        - {x: -62, y: 16}
+        - {x: -62, y: 7}
+        - {x: -61, y: 5}
+        - {x: -13, y: -34}
+        - {x: 59, y: -34}
+        - {x: 68, y: -30}
+        - {x: 68, y: 37}
+        - {x: 44, y: 51}
+    - name: GYARADOS_36
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 306
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 51}
+        - {x: -60, y: 48}
+        - {x: -60, y: -8}
+        - {x: -10, y: -34}
+        - {x: 64, y: -34}
+        - {x: 68, y: -31}
+        - {x: 68, y: 51}
+    - name: GYARADOS_37
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 306
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 51}
+        - {x: 30, y: 50}
+        - {x: 16, y: 29}
+        - {x: 16, y: 21}
+        - {x: -4, y: 43}
+        - {x: -16, y: 22}
+        - {x: -60, y: 14}
+        - {x: -60, y: -8}
+        - {x: -6, y: -33}
+        - {x: 46, y: -33}
+        - {x: 55, y: -28}
+        - {x: 68, y: -14}
+        - {x: 68, y: 41}
+        - {x: 52, y: 51}
+    - name: GYARADOS_38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 306
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 51}
+        - {x: 12, y: 51}
+        - {x: -60, y: 6}
+        - {x: -60, y: -12}
+        - {x: -20, y: -33}
+        - {x: 39, y: -33}
+        - {x: 67, y: -15}
+        - {x: 68, y: -9}
+        - {x: 68, y: 39}
+        - {x: 55, y: 46}
+    - name: GYARADOS_39
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 306
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 36}
+        - {x: 62, y: 33}
+        - {x: 59, y: 39}
+        - {x: 57, y: 44}
+        - {x: 55, y: 44}
+        - {x: 51, y: 42}
+        - {x: 46, y: 51}
+        - {x: -4, y: 51}
+        - {x: -59, y: 5}
+        - {x: -59, y: -20}
+        - {x: -16, y: -33}
+        - {x: 49, y: -33}
+        - {x: 67, y: -15}
+        - {x: 68, y: -8}
+        - {x: 68, y: 37}
+    - name: GYARADOS_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 51}
+        - {x: -6, y: 49}
+        - {x: -57, y: -11}
+        - {x: -57, y: -18}
+        - {x: -14, y: -32}
+        - {x: 47, y: -32}
+        - {x: 68, y: -22}
+        - {x: 68, y: 41}
+        - {x: 53, y: 51}
+    - name: GYARADOS_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 204
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: 51}
+        - {x: 2, y: 51}
+        - {x: -57, y: -3}
+        - {x: -57, y: -26}
+        - {x: -24, y: -32}
+        - {x: 55, y: -32}
+        - {x: 68, y: -14}
+        - {x: 68, y: 34}
+        - {x: 64, y: 44}
+    - name: GYARADOS_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 204
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 51}
+        - {x: -54, y: 7}
+        - {x: -54, y: -28}
+        - {x: -36, y: -32}
+        - {x: 53, y: -32}
+        - {x: 68, y: -18}
+        - {x: 68, y: 44}
+        - {x: 56, y: 51}
+    - name: GYARADOS_43
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 204
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 51}
+        - {x: -54, y: -9}
+        - {x: -54, y: -31}
+        - {x: -49, y: -32}
+        - {x: 43, y: -32}
+        - {x: 68, y: -18}
+        - {x: 68, y: 51}
+    - name: GYARADOS_44
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 204
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 51}
+        - {x: -1, y: 51}
+        - {x: -34, y: 16}
+        - {x: -52, y: -33}
+        - {x: -52, y: -36}
+        - {x: 46, y: -36}
+        - {x: 68, y: -24}
+        - {x: 68, y: 45}
+    - name: GYARADOS_45
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 204
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: 51}
+        - {x: -23, y: 51}
+        - {x: -49, y: -15}
+        - {x: -49, y: -40}
+        - {x: 62, y: -40}
+        - {x: 69, y: -19}
+    - name: GYARADOS_46
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 204
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 51}
+        - {x: -48, y: 0}
+        - {x: -48, y: -44}
+        - {x: -4, y: -44}
+        - {x: 69, y: -23}
+        - {x: 69, y: 50}
+        - {x: 68, y: 51}
+    - name: GYARADOS_47
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 204
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 46}
+        - {x: 52, y: 41}
+        - {x: 52, y: 37}
+        - {x: 51, y: 41}
+        - {x: 47, y: 51}
+        - {x: -16, y: 51}
+        - {x: -45, y: -44}
+        - {x: -44, y: -47}
+        - {x: 14, y: -47}
+        - {x: 69, y: -24}
+        - {x: 69, y: 41}
+        - {x: 64, y: 43}
+    - name: GYARADOS_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: 35}
+        - {x: 56, y: 51}
+        - {x: -13, y: 51}
+        - {x: -43, y: -39}
+        - {x: -43, y: -50}
+        - {x: 23, y: -50}
+        - {x: 69, y: -21}
+        - {x: 69, y: 33}
+    - name: GYARADOS_49
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 102
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70, y: 44}
+        - {x: 65, y: 51}
+        - {x: -6, y: 51}
+        - {x: -40, y: -24}
+        - {x: -40, y: -51}
+        - {x: -20, y: -51}
+        - {x: 0, y: -49}
+        - {x: 2, y: -38}
+        - {x: 23, y: -37}
+        - {x: 70, y: -27}
+    - name: GYARADOS_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 102
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: 34}
+        - {x: 63, y: 31}
+        - {x: 58, y: 44}
+        - {x: 46, y: 51}
+        - {x: 38, y: 51}
+        - {x: 36, y: 50}
+        - {x: 12, y: 34}
+        - {x: 17, y: 35}
+        - {x: -1, y: 49}
+        - {x: -21, y: 13}
+        - {x: -39, y: -39}
+        - {x: -39, y: -51}
+        - {x: 33, y: -51}
+        - {x: 70, y: -28}
+        - {x: 70, y: 27}
+        - {x: 69, y: 33}
+    - name: GYARADOS_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 102
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 51}
+        - {x: -37, y: -30}
+        - {x: -37, y: -51}
+        - {x: 23, y: -51}
+        - {x: 70, y: -31}
+        - {x: 70, y: 45}
+        - {x: 56, y: 51}
+    - name: GYARADOS_52
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 102
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 51}
+        - {x: -35, y: 22}
+        - {x: -35, y: -51}
+        - {x: 64, y: -51}
+        - {x: 71, y: -50}
+        - {x: 71, y: 51}
+    - name: GYARADOS_53
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 102
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71, y: 51}
+        - {x: -2, y: 51}
+        - {x: -20, y: 23}
+        - {x: -22, y: 14}
+        - {x: -33, y: -44}
+        - {x: -33, y: -51}
+        - {x: -16, y: -51}
+        - {x: 6, y: -48}
+        - {x: 7, y: -40}
+        - {x: 72, y: -29}
+        - {x: 72, y: 45}
+    - name: GYARADOS_54
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 102
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 31}
+        - {x: 64, y: 28}
+        - {x: 60, y: 36}
+        - {x: 57, y: 40}
+        - {x: 56, y: 40}
+        - {x: 53, y: 37}
+        - {x: 45, y: 50}
+        - {x: 41, y: 50}
+        - {x: 34, y: 41}
+        - {x: 26, y: 36}
+        - {x: 19, y: 24}
+        - {x: 20, y: 20}
+        - {x: 10, y: 44}
+        - {x: 2, y: 49}
+        - {x: -27, y: 22}
+        - {x: -32, y: -35}
+        - {x: -32, y: -51}
+        - {x: 13, y: -51}
+        - {x: 73, y: -27}
+        - {x: 73, y: 21}
+        - {x: 72, y: 31}
+    - name: GYARADOS_55
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 102
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 49}
+        - {x: 45, y: 50}
+        - {x: -5, y: 50}
+        - {x: -31, y: 36}
+        - {x: -31, y: -49}
+        - {x: 32, y: -49}
+        - {x: 73, y: -37}
+        - {x: 73, y: 35}
+        - {x: 60, y: 44}
+    - name: GYARADOS_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -22}
+        - {x: 74, y: -25}
+        - {x: 74, y: 31}
+        - {x: 66, y: 49}
+        - {x: -20, y: 49}
+        - {x: -30, y: 22}
+        - {x: -30, y: -47}
+        - {x: -3, y: -47}
+        - {x: 6, y: -40}
+        - {x: 8, y: -34}
+        - {x: 40, y: -32}
+    - name: GYARADOS_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: -2}
+        - {x: 74, y: 28}
+        - {x: 60, y: 39}
+        - {x: 55, y: 34}
+        - {x: 55, y: 28}
+        - {x: 54, y: 35}
+        - {x: 48, y: 48}
+        - {x: -16, y: 48}
+        - {x: -30, y: 15}
+        - {x: -30, y: -45}
+        - {x: -17, y: -45}
+        - {x: -10, y: -44}
+        - {x: 73, y: -33}
+        - {x: 75, y: -29}
+    - name: GYARADOS_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: -22}
+        - {x: 53, y: -13}
+        - {x: 53, y: -8}
+        - {x: 53, y: -10}
+        - {x: 56, y: -14}
+        - {x: 75, y: -33}
+        - {x: 75, y: 34}
+        - {x: 50, y: 49}
+        - {x: 47, y: 49}
+        - {x: 26, y: 32}
+        - {x: 23, y: 21}
+        - {x: 25, y: 16}
+        - {x: 13, y: 25}
+        - {x: 17, y: 36}
+        - {x: 9, y: 49}
+        - {x: -4, y: 49}
+        - {x: -26, y: 26}
+        - {x: -30, y: -15}
+        - {x: -30, y: -44}
+        - {x: -21, y: -44}
+        - {x: 6, y: -37}
+        - {x: 9, y: -30}
+        - {x: 23, y: -44}
+        - {x: 25, y: -44}
+    - name: GYARADOS_59
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 49}
+        - {x: -30, y: 21}
+        - {x: -30, y: -41}
+        - {x: 21, y: -41}
+        - {x: 48, y: -38}
+        - {x: 75, y: -32}
+        - {x: 75, y: 45}
+        - {x: 65, y: 49}
+    - name: GYARADOS_60
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: -28}
+        - {x: 75, y: 29}
+        - {x: 62, y: 38}
+        - {x: 56, y: 30}
+        - {x: 56, y: 27}
+        - {x: 55, y: 32}
+        - {x: 52, y: 43}
+        - {x: 46, y: 48}
+        - {x: 43, y: 49}
+        - {x: -5, y: 49}
+        - {x: -28, y: 35}
+        - {x: -31, y: -28}
+        - {x: -31, y: -40}
+        - {x: -18, y: -40}
+        - {x: 8, y: -30}
+        - {x: 4, y: -24}
+        - {x: 12, y: -28}
+        - {x: 37, y: -36}
+    - name: GYARADOS_61
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -37}
+        - {x: 75, y: -33}
+        - {x: 75, y: 24}
+        - {x: 64, y: 31}
+        - {x: 59, y: 33}
+        - {x: 57, y: 29}
+        - {x: 57, y: 24}
+        - {x: 56, y: 31}
+        - {x: 61, y: 49}
+        - {x: -19, y: 49}
+        - {x: -26, y: 43}
+        - {x: -32, y: 13}
+        - {x: -32, y: -37}
+        - {x: -22, y: -37}
+        - {x: -12, y: -35}
+        - {x: 4, y: -26}
+        - {x: 3, y: -22}
+        - {x: 22, y: -37}
+    - name: GYARADOS_62
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 49}
+        - {x: -33, y: -35}
+        - {x: 75, y: -35}
+        - {x: 75, y: 30}
+        - {x: 60, y: 49}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

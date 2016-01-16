@@ -6,15 +6,12 @@ TagManager:
   tags:
   - Library
   - Attacks
-  - PTR
-  - PBL
-  - dmg_mult
+  - Enemy
   - GUIScripts
-  - PTRPlace
-  - PBLPlace
   - FrontImages
   - BackImages
   - TurnController
+  - dmg_mult
   layers:
   - Default
   - TransparentFX

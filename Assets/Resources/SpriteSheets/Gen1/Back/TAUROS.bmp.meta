@@ -1,0 +1,1312 @@
+fileFormatVersion: 2
+guid: a2e8bdfba6daa844d9017d96a600d653
+timeCreated: 1452890676
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TAUROS_0
+    21300002: TAUROS_1
+    21300004: TAUROS_2
+    21300006: TAUROS_3
+    21300008: TAUROS_4
+    21300010: TAUROS_5
+    21300012: TAUROS_6
+    21300014: TAUROS_7
+    21300016: TAUROS_8
+    21300018: TAUROS_9
+    21300020: TAUROS_10
+    21300022: TAUROS_11
+    21300024: TAUROS_12
+    21300026: TAUROS_13
+    21300028: TAUROS_14
+    21300030: TAUROS_15
+    21300032: TAUROS_16
+    21300034: TAUROS_17
+    21300036: TAUROS_18
+    21300038: TAUROS_19
+    21300040: TAUROS_20
+    21300042: TAUROS_21
+    21300044: TAUROS_22
+    21300046: TAUROS_23
+    21300048: TAUROS_24
+    21300050: TAUROS_25
+    21300052: TAUROS_26
+    21300054: TAUROS_27
+    21300056: TAUROS_28
+    21300058: TAUROS_29
+    21300060: TAUROS_30
+    21300062: TAUROS_31
+    21300064: TAUROS_32
+    21300066: TAUROS_33
+    21300068: TAUROS_34
+    21300070: TAUROS_35
+    21300072: TAUROS_36
+    21300074: TAUROS_37
+    21300076: TAUROS_38
+    21300078: TAUROS_39
+    21300080: TAUROS_40
+    21300082: TAUROS_41
+    21300084: TAUROS_42
+    21300086: TAUROS_43
+    21300088: TAUROS_44
+    21300090: TAUROS_45
+    21300092: TAUROS_46
+    21300094: TAUROS_47
+    21300096: TAUROS_48
+    21300098: TAUROS_49
+    21300100: TAUROS_50
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TAUROS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 28}
+        - {x: -58, y: 21}
+        - {x: -58, y: -15}
+        - {x: -24, y: -52}
+        - {x: 54, y: -52}
+        - {x: 66, y: -11}
+        - {x: 66, y: 28}
+    - name: TAUROS_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 728
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 24}
+        - {x: -60, y: -21}
+        - {x: -33, y: -52}
+        - {x: 52, y: -52}
+        - {x: 66, y: -25}
+        - {x: 66, y: 23}
+        - {x: 64, y: 24}
+    - name: TAUROS_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 728
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 24}
+        - {x: -60, y: -21}
+        - {x: -33, y: -52}
+        - {x: 52, y: -52}
+        - {x: 66, y: -25}
+        - {x: 66, y: 23}
+        - {x: 64, y: 24}
+    - name: TAUROS_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 728
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 11}
+        - {x: 48, y: 22}
+        - {x: -56, y: 22}
+        - {x: -60, y: 21}
+        - {x: -46, y: 7}
+        - {x: -42, y: 5}
+        - {x: -55, y: 9}
+        - {x: -62, y: 6}
+        - {x: -62, y: 2}
+        - {x: -39, y: -31}
+        - {x: -12, y: -52}
+        - {x: 48, y: -52}
+        - {x: 66, y: -11}
+        - {x: 66, y: 6}
+    - name: TAUROS_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 728
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 11}
+        - {x: 48, y: 22}
+        - {x: -56, y: 22}
+        - {x: -60, y: 21}
+        - {x: -46, y: 7}
+        - {x: -42, y: 5}
+        - {x: -55, y: 9}
+        - {x: -62, y: 6}
+        - {x: -62, y: 2}
+        - {x: -39, y: -31}
+        - {x: -12, y: -52}
+        - {x: 48, y: -52}
+        - {x: 66, y: -11}
+        - {x: 66, y: 6}
+    - name: TAUROS_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 728
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 9}
+        - {x: 53, y: 20}
+        - {x: -51, y: 20}
+        - {x: -51, y: 18}
+        - {x: -47, y: 6}
+        - {x: -39, y: 4}
+        - {x: -61, y: 7}
+        - {x: -63, y: 4}
+        - {x: -63, y: -11}
+        - {x: -12, y: -52}
+        - {x: 55, y: -52}
+        - {x: 65, y: -13}
+        - {x: 65, y: 6}
+        - {x: 63, y: 11}
+    - name: TAUROS_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 728
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 20}
+        - {x: -54, y: 20}
+        - {x: -53, y: 9}
+        - {x: -45, y: 5}
+        - {x: -39, y: 5}
+        - {x: -16, y: 2}
+        - {x: -62, y: 5}
+        - {x: -64, y: 1}
+        - {x: -64, y: -4}
+        - {x: -57, y: -9}
+        - {x: -50, y: -9}
+        - {x: -45, y: -7}
+        - {x: -8, y: -52}
+        - {x: 47, y: -52}
+        - {x: 65, y: -3}
+        - {x: 65, y: 7}
+    - name: TAUROS_7
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 728
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 20}
+        - {x: 17, y: 17}
+        - {x: -39, y: 19}
+        - {x: -54, y: 17}
+        - {x: -56, y: 7}
+        - {x: -37, y: 3}
+        - {x: -50, y: 3}
+        - {x: -66, y: 2}
+        - {x: -66, y: -6}
+        - {x: -60, y: -27}
+        - {x: -20, y: -52}
+        - {x: 49, y: -52}
+        - {x: 64, y: -26}
+        - {x: 64, y: 18}
+        - {x: 56, y: 20}
+    - name: TAUROS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 12}
+        - {x: 40, y: 19}
+        - {x: -49, y: 19}
+        - {x: -57, y: 10}
+        - {x: -56, y: 5}
+        - {x: -37, y: 4}
+        - {x: -62, y: 3}
+        - {x: -66, y: -3}
+        - {x: -66, y: -15}
+        - {x: -12, y: -52}
+        - {x: 48, y: -52}
+        - {x: 49, y: -49}
+        - {x: 64, y: -11}
+        - {x: 64, y: 7}
+    - name: TAUROS_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 624
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 19}
+        - {x: -60, y: 10}
+        - {x: -57, y: 4}
+        - {x: -66, y: -2}
+        - {x: -66, y: -20}
+        - {x: -13, y: -52}
+        - {x: 62, y: -52}
+        - {x: 63, y: -48}
+        - {x: 63, y: 19}
+    - name: TAUROS_10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 624
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 20}
+        - {x: -47, y: 20}
+        - {x: -57, y: 8}
+        - {x: -56, y: 5}
+        - {x: -51, y: 5}
+        - {x: -39, y: 7}
+        - {x: -64, y: 0}
+        - {x: -66, y: -4}
+        - {x: -66, y: -15}
+        - {x: -41, y: -35}
+        - {x: -13, y: -52}
+        - {x: 48, y: -52}
+        - {x: 62, y: -38}
+        - {x: 63, y: -31}
+        - {x: 63, y: 10}
+    - name: TAUROS_11
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 624
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 6}
+        - {x: 37, y: 19}
+        - {x: 27, y: 20}
+        - {x: 20, y: 21}
+        - {x: -45, y: 21}
+        - {x: -55, y: 17}
+        - {x: -58, y: 9}
+        - {x: -56, y: 3}
+        - {x: -39, y: 7}
+        - {x: -57, y: 2}
+        - {x: -66, y: -5}
+        - {x: -66, y: -12}
+        - {x: -65, y: -14}
+        - {x: -14, y: -52}
+        - {x: 48, y: -52}
+        - {x: 55, y: -35}
+        - {x: 62, y: -8}
+    - name: TAUROS_12
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 624
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 23}
+        - {x: -58, y: 7}
+        - {x: -50, y: 4}
+        - {x: -51, y: 4}
+        - {x: -66, y: 2}
+        - {x: -66, y: -25}
+        - {x: -24, y: -52}
+        - {x: 50, y: -52}
+        - {x: 62, y: -25}
+        - {x: 62, y: 22}
+        - {x: 53, y: 23}
+    - name: TAUROS_13
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 624
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -52}
+        - {x: 51, y: -52}
+        - {x: 61, y: -35}
+        - {x: 61, y: 8}
+        - {x: 46, y: 24}
+        - {x: -48, y: 24}
+        - {x: -57, y: 11}
+        - {x: -66, y: 12}
+        - {x: -66, y: -40}
+        - {x: -57, y: -52}
+        - {x: 32, y: -52}
+        - {x: 35, y: -47}
+        - {x: 35, y: -45}
+        - {x: 36, y: -49}
+    - name: TAUROS_14
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 624
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -41}
+        - {x: 36, y: -48}
+        - {x: 37, y: -51}
+        - {x: 50, y: -50}
+        - {x: 61, y: -19}
+        - {x: 61, y: 3}
+        - {x: 39, y: 26}
+        - {x: -47, y: 26}
+        - {x: -58, y: 9}
+        - {x: -54, y: 7}
+        - {x: -64, y: -8}
+        - {x: -64, y: -14}
+        - {x: -55, y: -16}
+        - {x: -11, y: -52}
+        - {x: 17, y: -52}
+        - {x: 31, y: -51}
+        - {x: 36, y: -48}
+    - name: TAUROS_15
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 624
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -51}
+        - {x: 41, y: -52}
+        - {x: 56, y: -52}
+        - {x: 60, y: -29}
+        - {x: 60, y: 21}
+        - {x: 55, y: 29}
+        - {x: -62, y: 29}
+        - {x: -62, y: -29}
+        - {x: -18, y: -52}
+        - {x: 33, y: -52}
+        - {x: 35, y: -47}
+        - {x: 34, y: -42}
+        - {x: 35, y: -49}
+    - name: TAUROS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -50}
+        - {x: 47, y: -50}
+        - {x: 50, y: -49}
+        - {x: 60, y: -22}
+        - {x: 60, y: 2}
+        - {x: 40, y: 24}
+        - {x: -17, y: 31}
+        - {x: -46, y: 31}
+        - {x: -55, y: 17}
+        - {x: -52, y: 11}
+        - {x: -60, y: 2}
+        - {x: -60, y: -26}
+        - {x: -20, y: -52}
+        - {x: 36, y: -52}
+        - {x: 36, y: -48}
+        - {x: 35, y: -41}
+        - {x: 36, y: -48}
+    - name: TAUROS_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 520
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -48}
+        - {x: 38, y: -50}
+        - {x: 48, y: -51}
+        - {x: 50, y: -46}
+        - {x: 59, y: -11}
+        - {x: 59, y: 1}
+        - {x: 35, y: 20}
+        - {x: 16, y: 33}
+        - {x: -57, y: 33}
+        - {x: -57, y: -45}
+        - {x: -17, y: -52}
+        - {x: 29, y: -52}
+        - {x: 35, y: -47}
+        - {x: 35, y: -44}
+    - name: TAUROS_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 520
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -48}
+        - {x: 38, y: -50}
+        - {x: 48, y: -51}
+        - {x: 59, y: -34}
+        - {x: 59, y: 18}
+        - {x: 19, y: 35}
+        - {x: -56, y: 35}
+        - {x: -56, y: -36}
+        - {x: -44, y: -52}
+        - {x: 26, y: -52}
+    - name: TAUROS_19
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 520
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52, y: -52}
+        - {x: 58, y: -42}
+        - {x: 58, y: 25}
+        - {x: 36, y: 37}
+        - {x: -40, y: 37}
+        - {x: -49, y: 26}
+        - {x: -47, y: 21}
+        - {x: -43, y: 22}
+        - {x: -53, y: 2}
+        - {x: -54, y: -7}
+        - {x: -52, y: -9}
+        - {x: -47, y: -9}
+        - {x: -19, y: -52}
+        - {x: 34, y: -52}
+        - {x: 35, y: -48}
+        - {x: 35, y: -49}
+        - {x: 42, y: -52}
+    - name: TAUROS_20
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 520
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -51}
+        - {x: 49, y: -52}
+        - {x: 55, y: -52}
+        - {x: 58, y: -35}
+        - {x: 58, y: 12}
+        - {x: -6, y: 39}
+        - {x: -42, y: 39}
+        - {x: -52, y: 33}
+        - {x: -52, y: -19}
+        - {x: -19, y: -52}
+        - {x: 34, y: -52}
+        - {x: 35, y: -47}
+        - {x: 34, y: -42}
+    - name: TAUROS_21
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 520
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -51}
+        - {x: 50, y: -49}
+        - {x: 58, y: -38}
+        - {x: 58, y: 25}
+        - {x: 33, y: 41}
+        - {x: -48, y: 41}
+        - {x: -51, y: 34}
+        - {x: -51, y: 31}
+        - {x: -45, y: 27}
+        - {x: -51, y: 7}
+        - {x: -51, y: -29}
+        - {x: -10, y: -52}
+        - {x: 32, y: -52}
+        - {x: 35, y: -47}
+        - {x: 34, y: -42}
+    - name: TAUROS_22
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 520
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: -3}
+        - {x: 55, y: 1}
+        - {x: 49, y: 5}
+        - {x: 42, y: 11}
+        - {x: 36, y: 15}
+        - {x: 33, y: 16}
+        - {x: -6, y: 44}
+        - {x: -51, y: 44}
+        - {x: -51, y: -20}
+        - {x: -30, y: -52}
+        - {x: 48, y: -52}
+        - {x: 51, y: -49}
+        - {x: 50, y: -33}
+        - {x: 57, y: -14}
+    - name: TAUROS_23
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 520
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: 2}
+        - {x: 37, y: 35}
+        - {x: -14, y: 46}
+        - {x: -48, y: 46}
+        - {x: -51, y: 23}
+        - {x: -51, y: -4}
+        - {x: -7, y: -52}
+        - {x: 50, y: -52}
+        - {x: 54, y: -51}
+        - {x: 57, y: -33}
+    - name: TAUROS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -48}
+        - {x: 38, y: -50}
+        - {x: 52, y: -50}
+        - {x: 57, y: -41}
+        - {x: 57, y: 26}
+        - {x: 28, y: 48}
+        - {x: -49, y: 48}
+        - {x: -51, y: 44}
+        - {x: -51, y: -6}
+        - {x: -11, y: -52}
+        - {x: 27, y: -52}
+        - {x: 33, y: -51}
+        - {x: 35, y: -47}
+        - {x: 35, y: -44}
+    - name: TAUROS_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 416
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -51}
+        - {x: 52, y: -50}
+        - {x: 57, y: -26}
+        - {x: 57, y: 1}
+        - {x: 2, y: 48}
+        - {x: -2, y: 49}
+        - {x: -51, y: 49}
+        - {x: -51, y: -33}
+        - {x: -17, y: -52}
+        - {x: 33, y: -52}
+        - {x: 35, y: -47}
+        - {x: 35, y: -44}
+        - {x: 36, y: -48}
+    - name: TAUROS_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 416
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 50}
+        - {x: -51, y: 32}
+        - {x: -51, y: -1}
+        - {x: -11, y: -52}
+        - {x: 52, y: -52}
+        - {x: 57, y: -45}
+        - {x: 57, y: 38}
+        - {x: 42, y: 50}
+    - name: TAUROS_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 416
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 52}
+        - {x: -52, y: 46}
+        - {x: -52, y: 11}
+        - {x: -49, y: 6}
+        - {x: -12, y: -52}
+        - {x: 55, y: -52}
+        - {x: 58, y: -48}
+        - {x: 58, y: 23}
+        - {x: 10, y: 52}
+    - name: TAUROS_28
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 416
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 52}
+        - {x: -41, y: 52}
+        - {x: -50, y: 45}
+        - {x: -52, y: 30}
+        - {x: -52, y: 8}
+        - {x: -17, y: -52}
+        - {x: 53, y: -52}
+        - {x: 58, y: -33}
+        - {x: 58, y: 7}
+        - {x: 39, y: 24}
+    - name: TAUROS_29
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 416
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -51}
+        - {x: 50, y: -52}
+        - {x: 55, y: -52}
+        - {x: 59, y: -24}
+        - {x: 59, y: 7}
+        - {x: 34, y: 19}
+        - {x: 26, y: 18}
+        - {x: -11, y: 52}
+        - {x: -20, y: 52}
+        - {x: -35, y: 41}
+        - {x: -39, y: 36}
+        - {x: -37, y: 20}
+        - {x: -40, y: 23}
+        - {x: -54, y: 30}
+        - {x: -54, y: -3}
+        - {x: -35, y: -52}
+        - {x: 29, y: -52}
+        - {x: 33, y: -51}
+        - {x: 35, y: -47}
+        - {x: 35, y: -45}
+    - name: TAUROS_30
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 416
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -48}
+        - {x: 37, y: -51}
+        - {x: 52, y: -50}
+        - {x: 60, y: -38}
+        - {x: 60, y: 28}
+        - {x: 33, y: 52}
+        - {x: -43, y: 52}
+        - {x: -54, y: 42}
+        - {x: -54, y: 3}
+        - {x: -12, y: -52}
+        - {x: 34, y: -52}
+    - name: TAUROS_31
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 416
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 52}
+        - {x: -51, y: 52}
+        - {x: -56, y: 50}
+        - {x: -56, y: -15}
+        - {x: -39, y: -52}
+        - {x: 55, y: -52}
+        - {x: 61, y: -31}
+        - {x: 61, y: 11}
+        - {x: 55, y: 31}
+    - name: TAUROS_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -52}
+        - {x: 50, y: -52}
+        - {x: 62, y: -25}
+        - {x: 62, y: 2}
+        - {x: 60, y: 4}
+        - {x: 42, y: 15}
+        - {x: 30, y: 20}
+        - {x: -2, y: 50}
+        - {x: -4, y: 51}
+        - {x: -9, y: 51}
+        - {x: -16, y: 38}
+        - {x: -54, y: 51}
+        - {x: -56, y: 51}
+        - {x: -56, y: 1}
+        - {x: -37, y: -52}
+        - {x: 32, y: -52}
+        - {x: 33, y: -51}
+        - {x: 36, y: -44}
+        - {x: 36, y: -48}
+        - {x: 38, y: -50}
+    - name: TAUROS_33
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 312
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: -42}
+        - {x: 63, y: 24}
+        - {x: 24, y: 51}
+        - {x: -31, y: 51}
+        - {x: -57, y: 31}
+        - {x: -57, y: 22}
+        - {x: -56, y: 21}
+        - {x: -13, y: -52}
+        - {x: 17, y: -52}
+        - {x: 16, y: -46}
+        - {x: 18, y: -52}
+        - {x: 52, y: -52}
+    - name: TAUROS_34
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 312
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 49}
+        - {x: -27, y: 49}
+        - {x: -55, y: 37}
+        - {x: -57, y: 36}
+        - {x: -57, y: 11}
+        - {x: -11, y: -52}
+        - {x: 58, y: -52}
+        - {x: 64, y: -27}
+        - {x: 64, y: 24}
+    - name: TAUROS_35
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 312
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 48}
+        - {x: -57, y: 36}
+        - {x: -57, y: 4}
+        - {x: -19, y: -52}
+        - {x: 64, y: -52}
+        - {x: 64, y: 39}
+        - {x: 51, y: 48}
+    - name: TAUROS_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 312
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -51}
+        - {x: 41, y: -52}
+        - {x: 60, y: -52}
+        - {x: 65, y: -23}
+        - {x: 65, y: 18}
+        - {x: 4, y: 46}
+        - {x: -35, y: 46}
+        - {x: -56, y: 44}
+        - {x: -56, y: 4}
+        - {x: -13, y: -52}
+        - {x: 24, y: -52}
+        - {x: 32, y: -50}
+        - {x: 36, y: -48}
+        - {x: 36, y: -49}
+    - name: TAUROS_37
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 312
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 44}
+        - {x: -56, y: 43}
+        - {x: -56, y: 18}
+        - {x: -16, y: -52}
+        - {x: 64, y: -52}
+        - {x: 66, y: -48}
+        - {x: 66, y: 25}
+        - {x: 43, y: 44}
+    - name: TAUROS_38
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 312
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 43}
+        - {x: -55, y: 43}
+        - {x: -55, y: -8}
+        - {x: -20, y: -52}
+        - {x: 51, y: -52}
+        - {x: 66, y: -7}
+        - {x: 66, y: 10}
+        - {x: 27, y: 36}
+    - name: TAUROS_39
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 312
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 41}
+        - {x: -54, y: -12}
+        - {x: -29, y: -52}
+        - {x: 64, y: -52}
+        - {x: 66, y: -33}
+        - {x: 66, y: 41}
+    - name: TAUROS_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 40}
+        - {x: -54, y: 37}
+        - {x: -54, y: 7}
+        - {x: -24, y: -52}
+        - {x: 58, y: -52}
+        - {x: 66, y: -36}
+        - {x: 66, y: 29}
+        - {x: 42, y: 40}
+    - name: TAUROS_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 208
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -50}
+        - {x: 48, y: -51}
+        - {x: 53, y: -47}
+        - {x: 66, y: -26}
+        - {x: 66, y: 33}
+        - {x: 54, y: 39}
+        - {x: -53, y: 39}
+        - {x: -53, y: 11}
+        - {x: -8, y: -52}
+        - {x: 17, y: -52}
+        - {x: 33, y: -51}
+        - {x: 36, y: -48}
+    - name: TAUROS_42
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 208
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 38}
+        - {x: -50, y: 28}
+        - {x: -53, y: 26}
+        - {x: -53, y: -1}
+        - {x: -15, y: -52}
+        - {x: 49, y: -52}
+        - {x: 66, y: -23}
+        - {x: 66, y: 31}
+        - {x: 50, y: 38}
+    - name: TAUROS_43
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 208
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 9}
+        - {x: 43, y: 20}
+        - {x: 27, y: 20}
+        - {x: 9, y: 38}
+        - {x: -23, y: 38}
+        - {x: -33, y: 28}
+        - {x: -26, y: 10}
+        - {x: -19, y: 4}
+        - {x: -18, y: 4}
+        - {x: -19, y: 4}
+        - {x: -29, y: 6}
+        - {x: -46, y: 26}
+        - {x: -50, y: 26}
+        - {x: -53, y: 25}
+        - {x: -53, y: 15}
+        - {x: -49, y: 4}
+        - {x: -25, y: -13}
+        - {x: -8, y: -52}
+        - {x: 57, y: -52}
+        - {x: 66, y: -18}
+        - {x: 66, y: 9}
+    - name: TAUROS_44
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 208
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -52}
+        - {x: 57, y: -52}
+        - {x: 66, y: -11}
+        - {x: 66, y: 24}
+        - {x: 44, y: 37}
+        - {x: -52, y: 37}
+        - {x: -27, y: 10}
+        - {x: -20, y: 4}
+        - {x: -19, y: 4}
+        - {x: -26, y: 4}
+        - {x: -27, y: 5}
+        - {x: -31, y: 6}
+        - {x: -47, y: 25}
+        - {x: -51, y: 24}
+        - {x: -53, y: 21}
+        - {x: -53, y: -22}
+        - {x: -21, y: -52}
+        - {x: 35, y: -52}
+        - {x: 35, y: -45}
+        - {x: 35, y: -49}
+    - name: TAUROS_45
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 208
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: -52}
+        - {x: 66, y: -35}
+        - {x: 66, y: 33}
+        - {x: 59, y: 36}
+        - {x: -53, y: 36}
+        - {x: -53, y: -19}
+        - {x: -40, y: -52}
+        - {x: 36, y: -52}
+        - {x: 35, y: -47}
+        - {x: 35, y: -45}
+        - {x: 37, y: -52}
+    - name: TAUROS_46
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 208
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: -49}
+        - {x: 66, y: -16}
+        - {x: 66, y: 29}
+        - {x: 37, y: 35}
+        - {x: -29, y: 35}
+        - {x: -30, y: 34}
+        - {x: -38, y: 16}
+        - {x: -47, y: 21}
+        - {x: -51, y: 20}
+        - {x: -54, y: 19}
+        - {x: -54, y: 8}
+        - {x: -52, y: 0}
+        - {x: -9, y: -52}
+        - {x: 43, y: -52}
+    - name: TAUROS_47
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 208
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 34}
+        - {x: -45, y: 34}
+        - {x: -55, y: 28}
+        - {x: -55, y: -12}
+        - {x: -23, y: -52}
+        - {x: 65, y: -52}
+        - {x: 66, y: -41}
+        - {x: 66, y: 18}
+        - {x: 30, y: 23}
+    - name: TAUROS_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -47}
+        - {x: 35, y: -49}
+        - {x: 42, y: -52}
+        - {x: 49, y: -52}
+        - {x: 66, y: -13}
+        - {x: 66, y: 27}
+        - {x: 43, y: 31}
+        - {x: -46, y: 31}
+        - {x: -42, y: 16}
+        - {x: -32, y: 7}
+        - {x: -26, y: 5}
+        - {x: -35, y: 4}
+        - {x: -50, y: 17}
+        - {x: -54, y: 19}
+        - {x: -56, y: 17}
+        - {x: -56, y: -21}
+        - {x: -17, y: -52}
+        - {x: 16, y: -52}
+        - {x: 17, y: -46}
+        - {x: 26, y: -51}
+        - {x: 31, y: -50}
+    - name: TAUROS_49
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 104
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: -52}
+        - {x: 66, y: -22}
+        - {x: 66, y: 10}
+        - {x: 63, y: 10}
+        - {x: 60, y: 8}
+        - {x: 35, y: 21}
+        - {x: 28, y: 22}
+        - {x: -24, y: 30}
+        - {x: -31, y: 30}
+        - {x: -38, y: 27}
+        - {x: -57, y: 12}
+        - {x: -57, y: 3}
+        - {x: -53, y: -4}
+        - {x: -31, y: -5}
+        - {x: -10, y: -52}
+        - {x: 17, y: -52}
+        - {x: 16, y: -47}
+        - {x: 26, y: -51}
+        - {x: 34, y: -52}
+    - name: TAUROS_50
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 104
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 28}
+        - {x: -58, y: 21}
+        - {x: -58, y: -15}
+        - {x: -24, y: -52}
+        - {x: 54, y: -52}
+        - {x: 66, y: -11}
+        - {x: 66, y: 28}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

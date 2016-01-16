@@ -1,0 +1,1061 @@
+fileFormatVersion: 2
+guid: f847d7facb29fff4ca2410af9a8b971a
+timeCreated: 1452882414
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MEW_0
+    21300002: MEW_1
+    21300004: MEW_2
+    21300006: MEW_3
+    21300008: MEW_4
+    21300010: MEW_5
+    21300012: MEW_6
+    21300014: MEW_7
+    21300016: MEW_8
+    21300018: MEW_9
+    21300020: MEW_10
+    21300022: MEW_11
+    21300024: MEW_12
+    21300026: MEW_13
+    21300028: MEW_14
+    21300030: MEW_15
+    21300032: MEW_16
+    21300034: MEW_17
+    21300036: MEW_18
+    21300038: MEW_19
+    21300040: MEW_20
+    21300042: MEW_21
+    21300044: MEW_22
+    21300046: MEW_23
+    21300048: MEW_24
+    21300050: MEW_25
+    21300052: MEW_26
+    21300054: MEW_27
+    21300056: MEW_28
+    21300058: MEW_29
+    21300060: MEW_30
+    21300062: MEW_31
+    21300064: MEW_32
+    21300066: MEW_33
+    21300068: MEW_34
+    21300070: MEW_35
+    21300072: MEW_36
+    21300074: MEW_37
+    21300076: MEW_38
+    21300078: MEW_39
+    21300080: MEW_40
+    21300082: MEW_41
+    21300084: MEW_42
+    21300086: MEW_43
+    21300088: MEW_44
+    21300090: MEW_45
+    21300092: MEW_46
+    21300094: MEW_47
+    21300096: MEW_48
+    21300098: MEW_49
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MEW_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 23.5}
+        - {x: 8, y: 24.5}
+        - {x: -10, y: 24.5}
+        - {x: -20, y: -1.5}
+        - {x: -20, y: -22.5}
+        - {x: -15, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 1.5}
+        - {x: 14, y: 22.5}
+    - name: MEW_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 357
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -23.5}
+        - {x: -18, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 24.5}
+        - {x: -6, y: 24.5}
+        - {x: -20, y: 17.5}
+    - name: MEW_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 357
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 24.5}
+        - {x: -14, y: 23.5}
+        - {x: -19, y: 3.5}
+        - {x: -19, y: -18.5}
+        - {x: -7, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 2.5}
+        - {x: 13, y: 24.5}
+    - name: MEW_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 357
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 24.5}
+        - {x: -19, y: 9.5}
+        - {x: -19, y: -22.5}
+        - {x: -16, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 5.5}
+        - {x: 15, y: 24.5}
+    - name: MEW_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 357
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 24.5}
+        - {x: -11, y: 24.5}
+        - {x: -14, y: 22.5}
+        - {x: -19, y: 3.5}
+        - {x: -19, y: -19.5}
+        - {x: -8, y: -25.5}
+        - {x: 19, y: -25.5}
+        - {x: 20, y: -22.5}
+        - {x: 20, y: 7.5}
+        - {x: 16, y: 23.5}
+    - name: MEW_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 357
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -21.5}
+        - {x: -12, y: -25.5}
+        - {x: 18, y: -25.5}
+        - {x: 20, y: -22.5}
+        - {x: 20, y: 10.5}
+        - {x: 15, y: 24.5}
+        - {x: -18, y: 24.5}
+        - {x: -19, y: 21.5}
+    - name: MEW_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 357
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25.5}
+        - {x: -13, y: 23.5}
+        - {x: -19, y: -11.5}
+        - {x: -19, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 25.5}
+    - name: MEW_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 357
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25.5}
+        - {x: -14, y: 23.5}
+        - {x: -18, y: -12.5}
+        - {x: -18, y: -16.5}
+        - {x: -13, y: -21.5}
+        - {x: 1, y: -25.5}
+        - {x: 19, y: -25.5}
+        - {x: 20, y: -23.5}
+        - {x: 20, y: 19.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25.5}
+        - {x: -18, y: 14.5}
+        - {x: -18, y: -24.5}
+        - {x: -15, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 25.5}
+    - name: MEW_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 306
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25.5}
+        - {x: -18, y: 15.5}
+        - {x: -18, y: -19.5}
+        - {x: -7, y: -25.5}
+        - {x: 18, y: -25.5}
+        - {x: 20, y: -24.5}
+        - {x: 20, y: 6.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 306
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25.5}
+        - {x: -18, y: 15.5}
+        - {x: -18, y: -25.5}
+        - {x: 14, y: -25.5}
+        - {x: 18, y: -22.5}
+        - {x: 20, y: -18.5}
+        - {x: 20, y: 4.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 306
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25.5}
+        - {x: -18, y: 7.5}
+        - {x: -18, y: -22.5}
+        - {x: -9, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 19.5}
+        - {x: 13, y: 25.5}
+    - name: MEW_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 306
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25.5}
+        - {x: -18, y: 14.5}
+        - {x: -18, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 11.5}
+        - {x: 16, y: 25.5}
+    - name: MEW_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 306
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25.5}
+        - {x: -18, y: 13.5}
+        - {x: -18, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 20, y: -14.5}
+        - {x: 20, y: 7.5}
+        - {x: 12, y: 25.5}
+    - name: MEW_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 306
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25.5}
+        - {x: -18, y: 15.5}
+        - {x: -18, y: -21.5}
+        - {x: -7, y: -24.5}
+        - {x: 19, y: -24.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 7.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 306
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25.5}
+        - {x: -12, y: 24.5}
+        - {x: -18, y: -7.5}
+        - {x: -18, y: -18.5}
+        - {x: -2, y: -24.5}
+        - {x: 19, y: -24.5}
+        - {x: 20, y: -21.5}
+        - {x: 20, y: 12.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25.5}
+        - {x: -13, y: 12.5}
+        - {x: -18, y: -10.5}
+        - {x: -18, y: -18.5}
+        - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 20, y: -23.5}
+        - {x: 20, y: 3.5}
+        - {x: 12, y: 25.5}
+    - name: MEW_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 255
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25.5}
+        - {x: -18, y: -23.5}
+        - {x: 17, y: -23.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 4.5}
+        - {x: 13, y: 25.5}
+    - name: MEW_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 255
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25.5}
+        - {x: -18, y: 17.5}
+        - {x: -18, y: -23.5}
+        - {x: 16, y: -23.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 8.5}
+        - {x: 15, y: 25.5}
+    - name: MEW_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 255
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25.5}
+        - {x: -18, y: 2.5}
+        - {x: -18, y: -19.5}
+        - {x: -3, y: -23.5}
+        - {x: 18, y: -23.5}
+        - {x: 20, y: -19.5}
+        - {x: 20, y: 8.5}
+        - {x: 15, y: 25.5}
+    - name: MEW_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 255
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25.5}
+        - {x: -18, y: -5.5}
+        - {x: -18, y: -16.5}
+        - {x: -16, y: -18.5}
+        - {x: 4, y: -23.5}
+        - {x: 15, y: -23.5}
+        - {x: 20, y: -12.5}
+        - {x: 20, y: 3.5}
+        - {x: 13, y: 25.5}
+    - name: MEW_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 255
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25.5}
+        - {x: -19, y: 11.5}
+        - {x: -19, y: -22.5}
+        - {x: -18, y: -22.5}
+        - {x: -12, y: -23.5}
+        - {x: 16, y: -23.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 7.5}
+        - {x: 15, y: 25.5}
+    - name: MEW_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 255
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25.5}
+        - {x: -19, y: 17.5}
+        - {x: -19, y: -19.5}
+        - {x: -18, y: -19.5}
+        - {x: 2, y: -23.5}
+        - {x: 16, y: -23.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 8.5}
+        - {x: 15, y: 25.5}
+    - name: MEW_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 255
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25.5}
+        - {x: -19, y: -3.5}
+        - {x: -19, y: -16.5}
+        - {x: -17, y: -19.5}
+        - {x: -6, y: -23.5}
+        - {x: 19, y: -23.5}
+        - {x: 20, y: -21.5}
+        - {x: 20, y: 14.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25.5}
+        - {x: -19, y: 18.5}
+        - {x: -19, y: -19.5}
+        - {x: -4, y: -23.5}
+        - {x: 17, y: -23.5}
+        - {x: 19, y: -22.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 7.5}
+        - {x: 13, y: 25.5}
+    - name: MEW_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 204
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25.5}
+        - {x: -19, y: 12.5}
+        - {x: -19, y: -23.5}
+        - {x: 16, y: -23.5}
+        - {x: 20, y: -15.5}
+        - {x: 20, y: 6.5}
+        - {x: 15, y: 25.5}
+    - name: MEW_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 204
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25.5}
+        - {x: -11, y: 13.5}
+        - {x: -20, y: -9.5}
+        - {x: -20, y: -23.5}
+        - {x: 20, y: -23.5}
+        - {x: 20, y: 9.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 204
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25.5}
+        - {x: -12, y: 17.5}
+        - {x: -20, y: -2.5}
+        - {x: -20, y: -22.5}
+        - {x: -15, y: -23.5}
+        - {x: 20, y: -23.5}
+        - {x: 20, y: 6.5}
+        - {x: 16, y: 25.5}
+    - name: MEW_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 204
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25.5}
+        - {x: -20, y: 4.5}
+        - {x: -20, y: -23.5}
+        - {x: 15, y: -23.5}
+        - {x: 20, y: -15.5}
+        - {x: 20, y: 8.5}
+        - {x: 16, y: 25.5}
+    - name: MEW_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 204
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 7.5}
+        - {x: 14, y: 25.5}
+        - {x: -12, y: 25.5}
+        - {x: -9, y: 12.5}
+        - {x: -20, y: -9.5}
+        - {x: -20, y: -18.5}
+        - {x: -4, y: -23.5}
+        - {x: 14, y: -23.5}
+        - {x: 17, y: -20.5}
+        - {x: 20, y: -15.5}
+    - name: MEW_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 204
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25.5}
+        - {x: -12, y: 24.5}
+        - {x: -20, y: 3.5}
+        - {x: -20, y: -19.5}
+        - {x: -2, y: -23.5}
+        - {x: 18, y: -23.5}
+        - {x: 20, y: -18.5}
+        - {x: 20, y: 7.5}
+        - {x: 15, y: 25.5}
+    - name: MEW_31
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 204
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25.5}
+        - {x: -9, y: 23.5}
+        - {x: -9, y: 12.5}
+        - {x: -20, y: -3.5}
+        - {x: -20, y: -16.5}
+        - {x: 3, y: -24.5}
+        - {x: 16, y: -24.5}
+        - {x: 19, y: -23.5}
+        - {x: 20, y: -14.5}
+        - {x: 20, y: 6.5}
+        - {x: 15, y: 25.5}
+    - name: MEW_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25.5}
+        - {x: -9, y: 12.5}
+        - {x: -20, y: -6.5}
+        - {x: -20, y: -17.5}
+        - {x: -1, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 19, y: -22.5}
+        - {x: 20, y: -14.5}
+        - {x: 20, y: 5.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 153
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25.5}
+        - {x: -20, y: 6.5}
+        - {x: -20, y: -17.5}
+        - {x: 1, y: -24.5}
+        - {x: 18, y: -24.5}
+        - {x: 20, y: -18.5}
+        - {x: 20, y: 13.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 153
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25.5}
+        - {x: -20, y: 11.5}
+        - {x: -20, y: -23.5}
+        - {x: -19, y: -24.5}
+        - {x: 20, y: -24.5}
+        - {x: 20, y: 18.5}
+        - {x: 15, y: 25.5}
+    - name: MEW_35
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 153
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -24.5}
+        - {x: 18, y: -24.5}
+        - {x: 20, y: -22.5}
+        - {x: 20, y: 14.5}
+        - {x: 14, y: 24.5}
+        - {x: 14, y: 25.5}
+        - {x: -14, y: 25.5}
+        - {x: -20, y: 15.5}
+    - name: MEW_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 153
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25.5}
+        - {x: -20, y: 13.5}
+        - {x: -20, y: -20.5}
+        - {x: -6, y: -25.5}
+        - {x: 19, y: -25.5}
+        - {x: 20, y: -21.5}
+        - {x: 20, y: 13.5}
+        - {x: 15, y: 25.5}
+    - name: MEW_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 153
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25.5}
+        - {x: -20, y: 18.5}
+        - {x: -20, y: -24.5}
+        - {x: -16, y: -25.5}
+        - {x: 19, y: -25.5}
+        - {x: 20, y: -21.5}
+        - {x: 20, y: 12.5}
+        - {x: 13, y: 25.5}
+    - name: MEW_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 153
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25.5}
+        - {x: -20, y: 16.5}
+        - {x: -20, y: -25.5}
+        - {x: 3, y: -25.5}
+        - {x: 6, y: -22.5}
+        - {x: 7, y: -19.5}
+        - {x: 9, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 15.5}
+        - {x: 14, y: 25.5}
+    - name: MEW_39
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 153
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25.5}
+        - {x: -20, y: 14.5}
+        - {x: -20, y: -23.5}
+        - {x: -13, y: -25.5}
+        - {x: 19, y: -25.5}
+        - {x: 20, y: -20.5}
+        - {x: 20, y: 7.5}
+        - {x: 12, y: 25.5}
+    - name: MEW_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 25.5}
+        - {x: -9, y: 25.5}
+        - {x: -20, y: -0.5}
+        - {x: -20, y: -20.5}
+        - {x: -3, y: -25.5}
+        - {x: 19, y: -25.5}
+        - {x: 19, y: -23.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 2.5}
+    - name: MEW_41
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 102
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24.5}
+        - {x: -20, y: 15.5}
+        - {x: -20, y: -21.5}
+        - {x: -8, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 8.5}
+        - {x: 14, y: 24.5}
+    - name: MEW_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 102
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 24.5}
+        - {x: -20, y: 11.5}
+        - {x: -20, y: -18.5}
+        - {x: -7, y: -25.5}
+        - {x: 18, y: -25.5}
+        - {x: 20, y: -24.5}
+        - {x: 20, y: 5.5}
+        - {x: 15, y: 24.5}
+    - name: MEW_43
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 102
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 24.5}
+        - {x: -20, y: -1.5}
+        - {x: -20, y: -22.5}
+        - {x: -6, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 3.5}
+        - {x: 14, y: 24.5}
+    - name: MEW_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 102
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -20, y: 11.5}
+        - {x: -20, y: -19.5}
+        - {x: -4, y: -24.5}
+        - {x: -1, y: -25.5}
+        - {x: 5, y: -25.5}
+        - {x: 7, y: -18.5}
+        - {x: 7, y: -14.5}
+        - {x: 8, y: -22.5}
+        - {x: 10, y: -25.5}
+        - {x: 17, y: -25.5}
+        - {x: 19, y: -24.5}
+        - {x: 20, y: -15.5}
+        - {x: 20, y: 4.5}
+    - name: MEW_45
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 102
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -20, y: 10.5}
+        - {x: -20, y: -21.5}
+        - {x: -7, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 3.5}
+        - {x: 15, y: 22.5}
+    - name: MEW_46
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 102
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -19.5}
+        - {x: -10, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 14.5}
+        - {x: 19, y: 24.5}
+        - {x: -18, y: 24.5}
+        - {x: -20, y: 21.5}
+    - name: MEW_47
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 102
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 24.5}
+        - {x: -20, y: 14.5}
+        - {x: -20, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 4.5}
+        - {x: 13, y: 24.5}
+    - name: MEW_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 15.5}
+        - {x: 15, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -20, y: 11.5}
+    - name: MEW_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 51
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 24.5}
+        - {x: -20, y: 7.5}
+        - {x: -20, y: -21.5}
+        - {x: -12, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: 4.5}
+        - {x: 14, y: 24.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

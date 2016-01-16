@@ -1,0 +1,601 @@
+fileFormatVersion: 2
+guid: 11be0aa01a0313641b0cd87d480de965
+timeCreated: 1452882846
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MANKEY_0
+    21300002: MANKEY_1
+    21300004: MANKEY_2
+    21300006: MANKEY_3
+    21300008: MANKEY_4
+    21300010: MANKEY_5
+    21300012: MANKEY_6
+    21300014: MANKEY_7
+    21300016: MANKEY_8
+    21300018: MANKEY_9
+    21300020: MANKEY_10
+    21300022: MANKEY_11
+    21300024: MANKEY_12
+    21300026: MANKEY_13
+    21300028: MANKEY_14
+    21300030: MANKEY_15
+    21300032: MANKEY_16
+    21300034: MANKEY_17
+    21300036: MANKEY_18
+    21300038: MANKEY_19
+    21300040: MANKEY_20
+    21300042: MANKEY_21
+    21300044: MANKEY_22
+    21300046: MANKEY_23
+    21300048: MANKEY_24
+    21300050: MANKEY_25
+    21300052: MANKEY_26
+    21300054: MANKEY_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MANKEY_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 25}
+        - {x: -26, y: 22}
+        - {x: -26, y: -21}
+        - {x: -21, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 23}
+        - {x: 17, y: 25}
+    - name: MANKEY_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 280
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -1}
+        - {x: -21, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 26}
+    - name: MANKEY_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 280
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 27}
+        - {x: -26, y: 25}
+        - {x: -26, y: -16}
+        - {x: -23, y: -28}
+        - {x: 25, y: -28}
+        - {x: 26, y: -14}
+        - {x: 26, y: 23}
+        - {x: 21, y: 27}
+    - name: MANKEY_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 280
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 26}
+        - {x: 21, y: 28}
+        - {x: -8, y: 28}
+        - {x: -15, y: 26}
+        - {x: -26, y: 22}
+        - {x: -26, y: -3}
+        - {x: -21, y: -28}
+        - {x: 23, y: -28}
+        - {x: 23, y: -24}
+        - {x: 26, y: -8}
+    - name: MANKEY_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 280
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 28}
+        - {x: -26, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 28}
+    - name: MANKEY_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 280
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 28}
+        - {x: -26, y: 25}
+        - {x: -26, y: -7}
+        - {x: -22, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 28}
+    - name: MANKEY_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 28}
+        - {x: 9, y: 23}
+        - {x: -10, y: 14}
+        - {x: -14, y: 12}
+        - {x: -13, y: 10}
+        - {x: -14, y: 17}
+        - {x: -17, y: 20}
+        - {x: -23, y: 22}
+        - {x: -26, y: 17}
+        - {x: -26, y: -7}
+        - {x: -21, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 23}
+        - {x: 22, y: 28}
+    - name: MANKEY_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 224
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 28}
+        - {x: 14, y: 28}
+        - {x: 9, y: 20}
+        - {x: 10, y: 16}
+        - {x: 13, y: 13}
+        - {x: 10, y: 14}
+        - {x: 2, y: 16}
+        - {x: -16, y: 20}
+        - {x: -26, y: 21}
+        - {x: -26, y: -9}
+        - {x: -21, y: -28}
+        - {x: 23, y: -28}
+        - {x: 26, y: -9}
+        - {x: 26, y: 24}
+    - name: MANKEY_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 224
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 28}
+        - {x: -26, y: 17}
+        - {x: -26, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 28}
+    - name: MANKEY_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 224
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 27}
+        - {x: -26, y: 17}
+        - {x: -26, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 27}
+    - name: MANKEY_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -10, y: 13}
+        - {x: -14, y: 11}
+        - {x: -13, y: 11}
+        - {x: -16, y: 15}
+        - {x: -22, y: 15}
+        - {x: -26, y: 12}
+        - {x: -26, y: -9}
+        - {x: -22, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 26}
+    - name: MANKEY_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 224
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -28}
+        - {x: 26, y: 25}
+        - {x: 8, y: 25}
+        - {x: -26, y: 16}
+        - {x: -26, y: -17}
+        - {x: -23, y: -28}
+        - {x: -5, y: -28}
+        - {x: 0, y: -26}
+        - {x: 0, y: -21}
+        - {x: 8, y: -28}
+    - name: MANKEY_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -26, y: 24}
+        - {x: -26, y: -28}
+        - {x: 25, y: -28}
+        - {x: 26, y: -22}
+        - {x: 26, y: 23}
+        - {x: 24, y: 25}
+    - name: MANKEY_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 168
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 22}
+        - {x: 22, y: 25}
+        - {x: 7, y: 25}
+        - {x: -26, y: 22}
+        - {x: -26, y: -27}
+        - {x: -22, y: -28}
+        - {x: 26, y: -28}
+    - name: MANKEY_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 168
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 26}
+        - {x: -18, y: 26}
+        - {x: -26, y: 23}
+    - name: MANKEY_15
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 168
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -28}
+        - {x: 26, y: -21}
+        - {x: 26, y: 27}
+        - {x: -26, y: 27}
+        - {x: -26, y: -28}
+        - {x: -6, y: -28}
+        - {x: -1, y: -24}
+        - {x: 0, y: -20}
+        - {x: 7, y: -28}
+    - name: MANKEY_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 168
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28}
+        - {x: -26, y: 27}
+        - {x: -26, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 22}
+        - {x: 22, y: 28}
+    - name: MANKEY_17
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 168
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 28}
+        - {x: -26, y: 26}
+        - {x: -26, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 25}
+        - {x: 17, y: 28}
+    - name: MANKEY_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 28}
+        - {x: -16, y: 28}
+        - {x: -26, y: 25}
+        - {x: -26, y: -25}
+        - {x: -25, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 24}
+    - name: MANKEY_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 112
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 28}
+        - {x: -26, y: 24}
+        - {x: -26, y: -1}
+        - {x: -21, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 21}
+        - {x: 12, y: 28}
+    - name: MANKEY_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 112
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 28}
+        - {x: -26, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 28}
+    - name: MANKEY_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 112
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 21}
+        - {x: 8, y: 28}
+        - {x: -1, y: 28}
+        - {x: -2, y: 27}
+        - {x: -24, y: 19}
+        - {x: -26, y: 16}
+        - {x: -26, y: 5}
+        - {x: -20, y: -2}
+        - {x: -20, y: -28}
+        - {x: 26, y: -28}
+    - name: MANKEY_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 28}
+        - {x: -26, y: 18}
+        - {x: -26, y: -14}
+        - {x: -21, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 18}
+        - {x: 8, y: 28}
+    - name: MANKEY_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 112
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 27}
+        - {x: -26, y: 23}
+        - {x: -26, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 19}
+        - {x: 18, y: 27}
+    - name: MANKEY_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 21}
+        - {x: 4, y: 26}
+        - {x: -11, y: 26}
+        - {x: -26, y: 19}
+        - {x: -26, y: -17}
+        - {x: -23, y: -28}
+        - {x: 26, y: -28}
+    - name: MANKEY_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 56
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 25}
+        - {x: -9, y: 25}
+        - {x: -26, y: 18}
+        - {x: -26, y: -12}
+        - {x: -22, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 16}
+    - name: MANKEY_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 24}
+        - {x: -26, y: -23}
+        - {x: -25, y: -28}
+        - {x: 26, y: -28}
+        - {x: 26, y: 24}
+    - name: MANKEY_27
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 56
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -28}
+        - {x: 26, y: 24}
+        - {x: -26, y: 24}
+        - {x: -26, y: -9}
+        - {x: -22, y: -28}
+        - {x: -5, y: -28}
+        - {x: 0, y: -25}
+        - {x: 0, y: -21}
+        - {x: 8, y: -28}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

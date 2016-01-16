@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 21e222fa04a42f9429216e0a89091d70
+timeCreated: 1452882123
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: JIGGLYPUFF_0
+    21300002: JIGGLYPUFF_1
+    21300004: JIGGLYPUFF_2
+    21300006: JIGGLYPUFF_3
+    21300008: JIGGLYPUFF_4
+    21300010: JIGGLYPUFF_5
+    21300012: JIGGLYPUFF_6
+    21300014: JIGGLYPUFF_7
+    21300016: JIGGLYPUFF_8
+    21300018: JIGGLYPUFF_9
+    21300020: JIGGLYPUFF_10
+    21300022: JIGGLYPUFF_11
+    21300024: JIGGLYPUFF_12
+    21300026: JIGGLYPUFF_13
+    21300028: JIGGLYPUFF_14
+    21300030: JIGGLYPUFF_15
+    21300032: JIGGLYPUFF_16
+    21300034: JIGGLYPUFF_17
+    21300036: JIGGLYPUFF_18
+    21300038: JIGGLYPUFF_19
+    21300040: JIGGLYPUFF_20
+    21300042: JIGGLYPUFF_21
+    21300044: JIGGLYPUFF_22
+    21300046: JIGGLYPUFF_23
+    21300048: JIGGLYPUFF_24
+    21300050: JIGGLYPUFF_25
+    21300052: JIGGLYPUFF_26
+    21300054: JIGGLYPUFF_27
+    21300056: JIGGLYPUFF_28
+    21300058: JIGGLYPUFF_29
+    21300060: JIGGLYPUFF_30
+    21300062: JIGGLYPUFF_31
+    21300064: JIGGLYPUFF_32
+    21300066: JIGGLYPUFF_33
+    21300068: JIGGLYPUFF_34
+    21300070: JIGGLYPUFF_35
+    21300072: JIGGLYPUFF_36
+    21300074: JIGGLYPUFF_37
+    21300076: JIGGLYPUFF_38
+    21300078: JIGGLYPUFF_39
+    21300080: JIGGLYPUFF_40
+    21300082: JIGGLYPUFF_41
+    21300084: JIGGLYPUFF_42
+    21300086: JIGGLYPUFF_43
+    21300088: JIGGLYPUFF_44
+    21300090: JIGGLYPUFF_45
+    21300092: JIGGLYPUFF_46
+    21300094: JIGGLYPUFF_47
+    21300096: JIGGLYPUFF_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: JIGGLYPUFF_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23}
+        - {x: -23, y: 11}
+        - {x: -23, y: -16}
+        - {x: -20, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -3}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 276
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: 2}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 276
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 23}
+        - {x: -21, y: 17}
+        - {x: -23, y: 7}
+        - {x: -23, y: -18}
+        - {x: -21, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -3}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 276
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -3}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 276
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23}
+        - {x: -23, y: 10}
+        - {x: -23, y: -18}
+        - {x: -21, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -1}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 276
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 23}
+        - {x: -21, y: 23}
+        - {x: -23, y: 14}
+        - {x: -23, y: -19}
+        - {x: -21, y: -23}
+        - {x: 16, y: -23}
+        - {x: 22, y: -6}
+        - {x: 23, y: -1}
+    - name: JIGGLYPUFF_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 276
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 23}
+        - {x: -21, y: 23}
+        - {x: -23, y: 13}
+        - {x: -23, y: -19}
+        - {x: -21, y: -23}
+        - {x: 18, y: -23}
+        - {x: 22, y: -6}
+        - {x: 23, y: 0}
+        - {x: 23, y: 22}
+    - name: JIGGLYPUFF_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 16, y: -23}
+        - {x: 22, y: -7}
+        - {x: 23, y: -4}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 230
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23}
+        - {x: -18, y: 22}
+        - {x: -21, y: 18}
+        - {x: -23, y: 7}
+        - {x: -23, y: -17}
+        - {x: -20, y: -23}
+        - {x: 16, y: -23}
+        - {x: 21, y: -7}
+        - {x: 23, y: -1}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 230
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23}
+        - {x: -23, y: 20}
+        - {x: -23, y: -17}
+        - {x: -21, y: -22}
+        - {x: -20, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -8}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 230
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23}
+        - {x: -23, y: 7}
+        - {x: -23, y: -21}
+        - {x: -22, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -9}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 230
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -21}
+        - {x: -22, y: -23}
+        - {x: 21, y: -23}
+        - {x: 23, y: -9}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_12
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 230
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 23}
+        - {x: -23, y: 19}
+        - {x: -23, y: -23}
+        - {x: 21, y: -23}
+        - {x: 23, y: -2}
+        - {x: 23, y: 21}
+        - {x: 16, y: 23}
+    - name: JIGGLYPUFF_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 230
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 23}
+        - {x: -23, y: 18}
+        - {x: -23, y: -20}
+        - {x: -21, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -17}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 23}
+        - {x: -23, y: 22}
+        - {x: -23, y: -23}
+        - {x: 20, y: -23}
+        - {x: 23, y: -4}
+        - {x: 23, y: 21}
+        - {x: 22, y: 23}
+    - name: JIGGLYPUFF_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 184
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 23}
+        - {x: -23, y: 19}
+        - {x: -23, y: -23}
+        - {x: 20, y: -23}
+        - {x: 23, y: -4}
+        - {x: 23, y: 19}
+        - {x: 22, y: 23}
+    - name: JIGGLYPUFF_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 184
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 21, y: -23}
+        - {x: 23, y: -11}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 184
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -7}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 184
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -21}
+        - {x: -20, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -15}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 184
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 23}
+        - {x: -23, y: 19}
+        - {x: -23, y: -18}
+        - {x: -21, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -16}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 184
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -4}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -21}
+        - {x: -22, y: -23}
+        - {x: 17, y: -23}
+        - {x: 23, y: -10}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 138
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 23}
+        - {x: -23, y: 17}
+        - {x: -23, y: -20}
+        - {x: -21, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -12}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_23
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 138
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23}
+        - {x: -22, y: 19}
+        - {x: -23, y: 12}
+        - {x: -23, y: -23}
+        - {x: 20, y: -23}
+        - {x: 23, y: -13}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_24
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 138
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23}
+        - {x: -23, y: 16}
+        - {x: -23, y: -19}
+        - {x: -21, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -12}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_25
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 138
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 23}
+        - {x: -23, y: 19}
+        - {x: -23, y: -19}
+        - {x: -22, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -7}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_26
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 138
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23}
+        - {x: -23, y: 15}
+        - {x: -23, y: -19}
+        - {x: -21, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -7}
+        - {x: 23, y: 22}
+        - {x: 14, y: 23}
+    - name: JIGGLYPUFF_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 138
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -7}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 23}
+        - {x: -23, y: 21}
+        - {x: -23, y: -18}
+        - {x: -22, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -12}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 92
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23}
+        - {x: -23, y: 22}
+        - {x: -23, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -12}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_30
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 92
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 23}
+        - {x: -23, y: 21}
+        - {x: -23, y: -16}
+        - {x: -22, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -12}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 92
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 22}
+        - {x: 15, y: 23}
+        - {x: -12, y: 23}
+        - {x: -23, y: 19}
+        - {x: -23, y: -14}
+        - {x: -20, y: -22}
+        - {x: -19, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -4}
+        - {x: 23, y: 22}
+    - name: JIGGLYPUFF_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 92
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 23}
+        - {x: -22, y: 18}
+        - {x: -23, y: 9}
+        - {x: -23, y: -15}
+        - {x: -20, y: -22}
+        - {x: -19, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -4}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_33
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 92
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 23}
+        - {x: -23, y: 20}
+        - {x: -23, y: -23}
+        - {x: 21, y: -23}
+        - {x: 23, y: -10}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 92
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -11}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 23}
+        - {x: -23, y: 20}
+        - {x: -23, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -9}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 46
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -20}
+        - {x: -21, y: -23}
+        - {x: 20, y: -23}
+        - {x: 23, y: -2}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_37
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 46
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 23}
+        - {x: -23, y: 20}
+        - {x: -23, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -16}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_38
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 46
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 23}
+        - {x: -23, y: 19}
+        - {x: -23, y: -20}
+        - {x: -21, y: -23}
+        - {x: 19, y: -23}
+        - {x: 23, y: -20}
+        - {x: 23, y: 21}
+        - {x: 22, y: 23}
+    - name: JIGGLYPUFF_39
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 46
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 23}
+        - {x: -23, y: 16}
+        - {x: -23, y: -20}
+        - {x: -22, y: -23}
+        - {x: 20, y: -23}
+        - {x: 23, y: -4}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 46
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 20, y: -23}
+        - {x: 23, y: 5}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 46
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -20}
+        - {x: -21, y: -23}
+        - {x: 20, y: -23}
+        - {x: 23, y: -8}
+        - {x: 23, y: 21}
+        - {x: 22, y: 23}
+    - name: JIGGLYPUFF_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -21}
+        - {x: -20, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -1}
+        - {x: 23, y: 22}
+        - {x: 22, y: 23}
+    - name: JIGGLYPUFF_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 23}
+        - {x: -23, y: 19}
+        - {x: -23, y: -18}
+        - {x: -21, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -13}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_44
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 22}
+        - {x: -23, y: -23}
+        - {x: 18, y: -23}
+        - {x: 23, y: -15}
+        - {x: 23, y: 23}
+        - {x: -15, y: 23}
+        - {x: -19, y: 22}
+    - name: JIGGLYPUFF_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 23}
+        - {x: -23, y: 19}
+        - {x: -23, y: -16}
+        - {x: -20, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -11}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_46
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23}
+        - {x: -23, y: 22}
+        - {x: -23, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -11}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23}
+        - {x: -23, y: 21}
+        - {x: -23, y: -16}
+        - {x: -21, y: -23}
+        - {x: 16, y: -23}
+        - {x: 23, y: -8}
+        - {x: 23, y: 23}
+    - name: JIGGLYPUFF_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 17, y: -23}
+        - {x: 23, y: -13}
+        - {x: 23, y: 23}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

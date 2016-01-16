@@ -1,0 +1,1302 @@
+fileFormatVersion: 2
+guid: 7202cf8595973744e88208d7cd678488
+timeCreated: 1452888938
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: METAPOD_0
+    21300002: METAPOD_1
+    21300004: METAPOD_2
+    21300006: METAPOD_3
+    21300008: METAPOD_4
+    21300010: METAPOD_5
+    21300012: METAPOD_6
+    21300014: METAPOD_7
+    21300016: METAPOD_8
+    21300018: METAPOD_9
+    21300020: METAPOD_10
+    21300022: METAPOD_11
+    21300024: METAPOD_12
+    21300026: METAPOD_13
+    21300028: METAPOD_14
+    21300030: METAPOD_15
+    21300032: METAPOD_16
+    21300034: METAPOD_17
+    21300036: METAPOD_18
+    21300038: METAPOD_19
+    21300040: METAPOD_20
+    21300042: METAPOD_21
+    21300044: METAPOD_22
+    21300046: METAPOD_23
+    21300048: METAPOD_24
+    21300050: METAPOD_25
+    21300052: METAPOD_26
+    21300054: METAPOD_27
+    21300056: METAPOD_28
+    21300058: METAPOD_29
+    21300060: METAPOD_30
+    21300062: METAPOD_31
+    21300064: METAPOD_32
+    21300066: METAPOD_33
+    21300068: METAPOD_34
+    21300070: METAPOD_35
+    21300072: METAPOD_36
+    21300074: METAPOD_37
+    21300076: METAPOD_38
+    21300078: METAPOD_39
+    21300080: METAPOD_40
+    21300082: METAPOD_41
+    21300084: METAPOD_42
+    21300086: METAPOD_43
+    21300088: METAPOD_44
+    21300090: METAPOD_45
+    21300092: METAPOD_46
+    21300094: METAPOD_47
+    21300096: METAPOD_48
+    21300098: METAPOD_49
+    21300100: METAPOD_50
+    21300102: METAPOD_51
+    21300104: METAPOD_52
+    21300106: METAPOD_53
+    21300108: METAPOD_54
+    21300110: METAPOD_55
+    21300112: METAPOD_56
+    21300114: METAPOD_57
+    21300116: METAPOD_58
+    21300118: METAPOD_59
+    21300120: METAPOD_60
+    21300122: METAPOD_61
+    21300124: METAPOD_62
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: METAPOD_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: -12}
+        - {x: -23.5, y: -25}
+        - {x: -20.5, y: -27}
+        - {x: 8.5, y: -27}
+        - {x: 23.5, y: -21}
+    - name: METAPOD_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 378
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 27}
+        - {x: -23.5, y: -15}
+        - {x: -23.5, y: -27}
+        - {x: 20.5, y: -27}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: 22}
+        - {x: 19.5, y: 27}
+    - name: METAPOD_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 378
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 27}
+        - {x: 4.5, y: 27}
+        - {x: -23.5, y: 0}
+        - {x: -23.5, y: -25}
+        - {x: -21.5, y: -27}
+        - {x: 8.5, y: -27}
+        - {x: 13.5, y: -25}
+        - {x: 21.5, y: -18}
+        - {x: 23.5, y: -15}
+    - name: METAPOD_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 378
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 27}
+        - {x: 4.5, y: 27}
+        - {x: -23.5, y: 0}
+        - {x: -23.5, y: -25}
+        - {x: -21.5, y: -27}
+        - {x: 8.5, y: -27}
+        - {x: 13.5, y: -25}
+        - {x: 21.5, y: -18}
+        - {x: 23.5, y: -15}
+    - name: METAPOD_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 378
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: 0}
+        - {x: -23.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 23.5, y: -18}
+        - {x: 23.5, y: 16}
+        - {x: 22.5, y: 23}
+    - name: METAPOD_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 378
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: 0}
+        - {x: -23.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 23.5, y: -18}
+        - {x: 23.5, y: 16}
+        - {x: 22.5, y: 23}
+    - name: METAPOD_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 378
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 27}
+        - {x: -23.5, y: -5}
+        - {x: -23.5, y: -27}
+        - {x: 23.5, y: -27}
+        - {x: 23.5, y: 27}
+    - name: METAPOD_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 378
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 27}
+        - {x: 7.5, y: 27}
+        - {x: -23.5, y: -12}
+        - {x: -23.5, y: -27}
+        - {x: 21.5, y: -27}
+        - {x: 23.5, y: -20}
+        - {x: 23.5, y: 23}
+        - {x: 21.5, y: 26}
+    - name: METAPOD_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 27}
+        - {x: 7.5, y: 27}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -27}
+        - {x: 16.5, y: -27}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: 14}
+        - {x: 21.5, y: 26}
+    - name: METAPOD_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 324
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 27}
+        - {x: 6.5, y: 27}
+        - {x: -23.5, y: -10}
+        - {x: -23.5, y: -27}
+        - {x: 21.5, y: -27}
+        - {x: 23.5, y: -20}
+        - {x: 23.5, y: 23}
+        - {x: 21.5, y: 26}
+    - name: METAPOD_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 324
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 27}
+        - {x: -23.5, y: -5}
+        - {x: -23.5, y: -27}
+        - {x: 23.5, y: -27}
+        - {x: 23.5, y: 27}
+    - name: METAPOD_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 324
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: 0}
+        - {x: -23.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 23.5, y: -18}
+        - {x: 23.5, y: 16}
+        - {x: 22.5, y: 23}
+    - name: METAPOD_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 324
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 27}
+        - {x: 4.5, y: 27}
+        - {x: -23.5, y: 0}
+        - {x: -23.5, y: -25}
+        - {x: -21.5, y: -27}
+        - {x: 8.5, y: -27}
+        - {x: 13.5, y: -25}
+        - {x: 21.5, y: -18}
+        - {x: 23.5, y: -15}
+    - name: METAPOD_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 324
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 27}
+        - {x: -14.5, y: 13}
+        - {x: -23.5, y: -14}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -20}
+        - {x: 23.5, y: 19}
+        - {x: 22.5, y: 27}
+    - name: METAPOD_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 324
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 27}
+        - {x: -23.5, y: -6}
+        - {x: -23.5, y: -27}
+        - {x: 9.5, y: -27}
+        - {x: 23.5, y: -21}
+        - {x: 23.5, y: 27}
+    - name: METAPOD_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 324
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 27}
+        - {x: 5.5, y: 26}
+        - {x: -5.5, y: 4}
+        - {x: -23.5, y: -14}
+        - {x: -23.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 15}
+        - {x: 17.5, y: 27}
+    - name: METAPOD_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 27}
+        - {x: -10.5, y: 3}
+        - {x: -23.5, y: -15}
+        - {x: -23.5, y: -27}
+        - {x: 19.5, y: -27}
+        - {x: 23.5, y: -24}
+        - {x: 23.5, y: 18}
+        - {x: 21.5, y: 27}
+    - name: METAPOD_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 270
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 27}
+        - {x: -23.5, y: -14}
+        - {x: -23.5, y: -27}
+        - {x: 13.5, y: -27}
+        - {x: 23.5, y: -22}
+        - {x: 23.5, y: 24}
+        - {x: 22.5, y: 27}
+    - name: METAPOD_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 270
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 27}
+        - {x: 3.5, y: 26}
+        - {x: -23.5, y: -12}
+        - {x: -23.5, y: -27}
+        - {x: 9.5, y: -27}
+        - {x: 23.5, y: -20}
+        - {x: 23.5, y: 20}
+        - {x: 22.5, y: 27}
+    - name: METAPOD_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 270
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 27}
+        - {x: 2.5, y: 27}
+        - {x: -23.5, y: -13}
+        - {x: -23.5, y: -27}
+        - {x: 16.5, y: -27}
+        - {x: 23.5, y: -20}
+        - {x: 23.5, y: 18}
+        - {x: 22.5, y: 26}
+    - name: METAPOD_20
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 270
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -15}
+        - {x: -23.5, y: -27}
+        - {x: 14.5, y: -27}
+        - {x: 23.5, y: -23}
+        - {x: 23.5, y: 22}
+        - {x: 22.5, y: 26}
+        - {x: 18.5, y: 27}
+        - {x: 4.5, y: 27}
+        - {x: -11.5, y: 6}
+    - name: METAPOD_21
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 270
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 27}
+        - {x: 3.5, y: 27}
+        - {x: -1.5, y: 25}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -27}
+        - {x: 10.5, y: -27}
+        - {x: 23.5, y: -15}
+        - {x: 23.5, y: 6}
+        - {x: 19.5, y: 23}
+    - name: METAPOD_22
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 270
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 27}
+        - {x: -23.5, y: -16}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -24}
+        - {x: 23.5, y: 14}
+        - {x: 18.5, y: 27}
+    - name: METAPOD_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 270
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 27}
+        - {x: -3.5, y: 27}
+        - {x: -23.5, y: -12}
+        - {x: -23.5, y: -27}
+        - {x: 16.5, y: -27}
+        - {x: 23.5, y: -15}
+        - {x: 23.5, y: 13}
+        - {x: 18.5, y: 25}
+    - name: METAPOD_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 23.5, y: -23}
+        - {x: 23.5, y: 27}
+        - {x: 0.5, y: 27}
+        - {x: -23.5, y: 6}
+    - name: METAPOD_25
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 216
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 27}
+        - {x: -23.5, y: 4}
+        - {x: -23.5, y: -27}
+        - {x: 10.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 17}
+        - {x: 22.5, y: 27}
+    - name: METAPOD_26
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 216
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 27}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -27}
+        - {x: 17.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 18}
+        - {x: 17.5, y: 27}
+    - name: METAPOD_27
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 216
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 27}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -27}
+        - {x: 13.5, y: -27}
+        - {x: 23.5, y: -24}
+        - {x: 23.5, y: 12}
+        - {x: 17.5, y: 27}
+    - name: METAPOD_28
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 216
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 27}
+        - {x: 0.5, y: 27}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 5}
+        - {x: 19.5, y: 24}
+    - name: METAPOD_29
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 216
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 26}
+        - {x: 15.5, y: 27}
+        - {x: 4.5, y: 27}
+        - {x: -23.5, y: -13}
+        - {x: -23.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 7}
+    - name: METAPOD_30
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 216
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 27}
+        - {x: -23.5, y: -10}
+        - {x: -23.5, y: -27}
+        - {x: 13.5, y: -27}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 10}
+        - {x: 18.5, y: 27}
+    - name: METAPOD_31
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 216
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 27}
+        - {x: -23.5, y: -7}
+        - {x: -23.5, y: -27}
+        - {x: 13.5, y: -27}
+        - {x: 23.5, y: -23}
+        - {x: 23.5, y: 10}
+        - {x: 16.5, y: 27}
+    - name: METAPOD_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 27}
+        - {x: -23.5, y: -8}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -18}
+        - {x: 23.5, y: 23}
+        - {x: 22.5, y: 27}
+    - name: METAPOD_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 162
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 26}
+        - {x: 16.5, y: 27}
+        - {x: 6.5, y: 27}
+        - {x: -0.5, y: 21}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -27}
+        - {x: 9.5, y: -27}
+        - {x: 12.5, y: -25}
+        - {x: 23.5, y: -15}
+        - {x: 23.5, y: 5}
+    - name: METAPOD_34
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 162
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 27}
+        - {x: 0.5, y: 27}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -27}
+        - {x: 10.5, y: -27}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: 4}
+        - {x: 18.5, y: 26}
+    - name: METAPOD_35
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 162
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: -15}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -14}
+        - {x: 23.5, y: 11}
+        - {x: 18.5, y: 26}
+    - name: METAPOD_36
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 162
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: -13}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 6}
+        - {x: 18.5, y: 23}
+    - name: METAPOD_37
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 162
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: -13}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 6}
+        - {x: 18.5, y: 23}
+    - name: METAPOD_38
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 162
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 27}
+        - {x: 4.5, y: 27}
+        - {x: -23.5, y: -14}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 6}
+        - {x: 18.5, y: 23}
+    - name: METAPOD_39
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 162
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: -13}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 6}
+        - {x: 18.5, y: 23}
+    - name: METAPOD_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: -13}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 6}
+        - {x: 18.5, y: 23}
+    - name: METAPOD_41
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 108
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: -15}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -14}
+        - {x: 23.5, y: 11}
+        - {x: 18.5, y: 26}
+    - name: METAPOD_42
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 108
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 27}
+        - {x: 0.5, y: 27}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -27}
+        - {x: 10.5, y: -27}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: 4}
+        - {x: 18.5, y: 26}
+    - name: METAPOD_43
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 108
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 27}
+        - {x: -23.5, y: -2}
+        - {x: -23.5, y: -26}
+        - {x: -22.5, y: -27}
+        - {x: 10.5, y: -27}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 8}
+        - {x: 19.5, y: 27}
+    - name: METAPOD_44
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 108
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 27}
+        - {x: -23.5, y: -10}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -20}
+        - {x: 23.5, y: 8}
+        - {x: 19.5, y: 27}
+    - name: METAPOD_45
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 108
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 27}
+        - {x: 7.5, y: 27}
+        - {x: 3.5, y: 26}
+        - {x: -23.5, y: -12}
+        - {x: -23.5, y: -27}
+        - {x: 11.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 7}
+        - {x: 20.5, y: 25}
+    - name: METAPOD_46
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 108
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 27}
+        - {x: 0.5, y: 27}
+        - {x: -23.5, y: -9}
+        - {x: -23.5, y: -27}
+        - {x: 11.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 6}
+        - {x: 19.5, y: 24}
+    - name: METAPOD_47
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 108
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 27}
+        - {x: -23.5, y: -6}
+        - {x: -23.5, y: -27}
+        - {x: 13.5, y: -27}
+        - {x: 23.5, y: -20}
+        - {x: 23.5, y: 14}
+        - {x: 19.5, y: 27}
+    - name: METAPOD_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 27}
+        - {x: 1.5, y: 27}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -25}
+        - {x: -22.5, y: -27}
+        - {x: 13.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 6}
+        - {x: 20.5, y: 25}
+    - name: METAPOD_49
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 54
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -27}
+        - {x: 14.5, y: -27}
+        - {x: 23.5, y: -23}
+        - {x: 23.5, y: 21}
+        - {x: 21.5, y: 27}
+        - {x: -5.5, y: 27}
+        - {x: -23.5, y: -11}
+    - name: METAPOD_50
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 10}
+        - {x: 20.5, y: 17}
+        - {x: 16.5, y: 27}
+        - {x: 2.5, y: 27}
+        - {x: -23.5, y: -16}
+        - {x: -23.5, y: -27}
+        - {x: 10.5, y: -27}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: 4}
+    - name: METAPOD_51
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 54
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 27}
+        - {x: -23.5, y: -8}
+        - {x: -23.5, y: -26}
+        - {x: -21.5, y: -27}
+        - {x: 9.5, y: -27}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: 12}
+        - {x: 16.5, y: 27}
+    - name: METAPOD_52
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 54
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -27}
+        - {x: 13.5, y: -27}
+        - {x: 23.5, y: -23}
+        - {x: 23.5, y: 21}
+        - {x: 20.5, y: 27}
+        - {x: 2.5, y: 27}
+        - {x: -23.5, y: -15}
+    - name: METAPOD_53
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 54
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 27}
+        - {x: -17.5, y: 9}
+        - {x: -23.5, y: -8}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 22}
+        - {x: 21.5, y: 27}
+    - name: METAPOD_54
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 54
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 27}
+        - {x: -23.5, y: -12}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -24}
+        - {x: 23.5, y: 25}
+        - {x: 17.5, y: 27}
+    - name: METAPOD_55
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 54
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 27}
+        - {x: -1.5, y: 25}
+        - {x: -23.5, y: -11}
+        - {x: -23.5, y: -27}
+        - {x: 21.5, y: -27}
+        - {x: 23.5, y: -21}
+        - {x: 23.5, y: 25}
+        - {x: 21.5, y: 27}
+    - name: METAPOD_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 27}
+        - {x: 4.5, y: 27}
+        - {x: -6.5, y: 3}
+        - {x: -23.5, y: -16}
+        - {x: -23.5, y: -27}
+        - {x: 13.5, y: -27}
+        - {x: 23.5, y: -17}
+        - {x: 23.5, y: 8}
+        - {x: 20.5, y: 24}
+    - name: METAPOD_57
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 27}
+        - {x: 2.5, y: 27}
+        - {x: -23.5, y: -13}
+        - {x: -23.5, y: -27}
+        - {x: 16.5, y: -27}
+        - {x: 23.5, y: -20}
+        - {x: 23.5, y: 18}
+        - {x: 22.5, y: 26}
+    - name: METAPOD_58
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 27}
+        - {x: 7.5, y: 27}
+        - {x: 6.5, y: 25}
+        - {x: -23.5, y: -12}
+        - {x: -23.5, y: -27}
+        - {x: 15.5, y: -27}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 14}
+        - {x: 20.5, y: 26}
+    - name: METAPOD_59
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 27}
+        - {x: -23.5, y: -9}
+        - {x: -23.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 23.5, y: -22}
+        - {x: 23.5, y: 27}
+    - name: METAPOD_60
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -27}
+        - {x: 13.5, y: -27}
+        - {x: 23.5, y: -24}
+        - {x: 23.5, y: 24}
+        - {x: 22.5, y: 27}
+        - {x: -1.5, y: 27}
+        - {x: -23.5, y: -12}
+    - name: METAPOD_61
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 27}
+        - {x: 5.5, y: 26}
+        - {x: -5.5, y: 4}
+        - {x: -23.5, y: -14}
+        - {x: -23.5, y: -27}
+        - {x: 12.5, y: -27}
+        - {x: 23.5, y: -16}
+        - {x: 23.5, y: 15}
+        - {x: 17.5, y: 27}
+    - name: METAPOD_62
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 0
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 27}
+        - {x: 5.5, y: 27}
+        - {x: -23.5, y: -12}
+        - {x: -23.5, y: -25}
+        - {x: -20.5, y: -27}
+        - {x: 8.5, y: -27}
+        - {x: 23.5, y: -21}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

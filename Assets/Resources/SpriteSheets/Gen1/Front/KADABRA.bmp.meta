@@ -1,0 +1,1332 @@
+fileFormatVersion: 2
+guid: f32811e868e95ae438dd634d18d63487
+timeCreated: 1452882186
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KADABRA_0
+    21300002: KADABRA_1
+    21300004: KADABRA_2
+    21300006: KADABRA_3
+    21300008: KADABRA_4
+    21300010: KADABRA_5
+    21300012: KADABRA_6
+    21300014: KADABRA_7
+    21300016: KADABRA_8
+    21300018: KADABRA_9
+    21300020: KADABRA_10
+    21300022: KADABRA_11
+    21300024: KADABRA_12
+    21300026: KADABRA_13
+    21300028: KADABRA_14
+    21300030: KADABRA_15
+    21300032: KADABRA_16
+    21300034: KADABRA_17
+    21300036: KADABRA_18
+    21300038: KADABRA_19
+    21300040: KADABRA_20
+    21300042: KADABRA_21
+    21300044: KADABRA_22
+    21300046: KADABRA_23
+    21300048: KADABRA_24
+    21300050: KADABRA_25
+    21300052: KADABRA_26
+    21300054: KADABRA_27
+    21300056: KADABRA_28
+    21300058: KADABRA_29
+    21300060: KADABRA_30
+    21300062: KADABRA_31
+    21300064: KADABRA_32
+    21300066: KADABRA_33
+    21300068: KADABRA_34
+    21300070: KADABRA_35
+    21300072: KADABRA_36
+    21300074: KADABRA_37
+    21300076: KADABRA_38
+    21300078: KADABRA_39
+    21300080: KADABRA_40
+    21300082: KADABRA_41
+    21300084: KADABRA_42
+    21300086: KADABRA_43
+    21300088: KADABRA_44
+    21300090: KADABRA_45
+    21300092: KADABRA_46
+    21300094: KADABRA_47
+    21300096: KADABRA_48
+    21300098: KADABRA_49
+    21300100: KADABRA_50
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KADABRA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 497
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 35.5}
+        - {x: -12, y: 29.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 10.5}
+        - {x: -24, y: 24.5}
+        - {x: -27, y: 28.5}
+        - {x: -35, y: 29.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 28.5}
+        - {x: 31, y: 35.5}
+    - name: KADABRA_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 497
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 35.5}
+        - {x: -14, y: 34.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 10.5}
+        - {x: -23, y: 26.5}
+        - {x: -33, y: 33.5}
+        - {x: -35, y: 29.5}
+        - {x: -35, y: -26.5}
+        - {x: -31, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 32.5}
+        - {x: 28, y: 35.5}
+    - name: KADABRA_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 497
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 24.5}
+        - {x: 19, y: 35.5}
+        - {x: -8, y: 35.5}
+        - {x: -11, y: 33.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 10.5}
+        - {x: -22, y: 26.5}
+        - {x: -32, y: 30.5}
+        - {x: -35, y: 29.5}
+        - {x: -35, y: -20.5}
+        - {x: -27, y: -35.5}
+        - {x: -1, y: -35.5}
+        - {x: 4, y: -33.5}
+        - {x: 11, y: -35.5}
+        - {x: 35, y: -35.5}
+    - name: KADABRA_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 497
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 35.5}
+        - {x: -32, y: 34.5}
+        - {x: -35, y: 27.5}
+        - {x: -35, y: -24.5}
+        - {x: -27, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 33.5}
+        - {x: 31, y: 35.5}
+    - name: KADABRA_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 497
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+        - {x: -9, y: 35.5}
+        - {x: -11, y: 34.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 11.5}
+        - {x: -24, y: 25.5}
+        - {x: -27, y: 29.5}
+        - {x: -31, y: 29.5}
+        - {x: -35, y: 25.5}
+        - {x: -35, y: -16.5}
+        - {x: -25, y: -35.5}
+        - {x: -5, y: -35.5}
+        - {x: 1, y: -34.5}
+        - {x: 3, y: -32.5}
+        - {x: 4, y: -29.5}
+    - name: KADABRA_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 497
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 26.5}
+        - {x: 29, y: 35.5}
+        - {x: -12, y: 35.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 12.5}
+        - {x: -22, y: 17.5}
+        - {x: -25, y: 32.5}
+        - {x: -35, y: 30.5}
+        - {x: -35, y: -2.5}
+        - {x: -34, y: -3.5}
+        - {x: -30, y: -31.5}
+        - {x: -25, y: -35.5}
+        - {x: -5, y: -35.5}
+        - {x: 1, y: -34.5}
+        - {x: 3, y: -32.5}
+        - {x: 4, y: -29.5}
+    - name: KADABRA_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 497
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+        - {x: -13, y: 35.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 11.5}
+        - {x: -24, y: 26.5}
+        - {x: -27, y: 32.5}
+        - {x: -35, y: 28.5}
+        - {x: -35, y: -35.5}
+        - {x: 4, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 1, y: -27.5}
+        - {x: 14, y: -32.5}
+    - name: KADABRA_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 497
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -35.5}
+        - {x: 34, y: -35.5}
+        - {x: 35, y: -34.5}
+        - {x: 35, y: 35.5}
+        - {x: -35, y: 35.5}
+        - {x: -35, y: -35.5}
+        - {x: 2, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 1, y: -27.5}
+        - {x: 14, y: -32.5}
+    - name: KADABRA_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 27.5}
+        - {x: 26, y: 35.5}
+        - {x: -18, y: 35.5}
+        - {x: -22, y: 18.5}
+        - {x: -22, y: 12.5}
+        - {x: -23, y: 28.5}
+        - {x: -27, y: 30.5}
+        - {x: -31, y: 30.5}
+        - {x: -35, y: 25.5}
+        - {x: -35, y: -10.5}
+        - {x: -27, y: -35.5}
+        - {x: 3, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 1, y: -27.5}
+        - {x: 9, y: -29.5}
+    - name: KADABRA_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 426
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+        - {x: -18, y: 35.5}
+        - {x: -22, y: 15.5}
+        - {x: -22, y: 12.5}
+        - {x: -25, y: 12.5}
+        - {x: -22, y: 25.5}
+        - {x: -26, y: 31.5}
+        - {x: -35, y: 35.5}
+        - {x: -35, y: -35.5}
+        - {x: 2, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 1, y: -27.5}
+        - {x: 15, y: -30.5}
+    - name: KADABRA_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 426
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 26.5}
+        - {x: 21, y: 35.5}
+        - {x: -9, y: 35.5}
+        - {x: -10, y: 33.5}
+        - {x: -23, y: 16.5}
+        - {x: -21, y: 9.5}
+        - {x: -23, y: 17.5}
+        - {x: -22, y: 26.5}
+        - {x: -27, y: 30.5}
+        - {x: -35, y: 30.5}
+        - {x: -35, y: -35.5}
+        - {x: 2, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 1, y: -27.5}
+        - {x: 15, y: -30.5}
+    - name: KADABRA_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 426
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 27.5}
+        - {x: 23, y: 30.5}
+        - {x: 21, y: 25.5}
+        - {x: 21, y: 23.5}
+        - {x: 18, y: 22.5}
+        - {x: 19, y: 30.5}
+        - {x: 19, y: 35.5}
+        - {x: -10, y: 35.5}
+        - {x: -11, y: 33.5}
+        - {x: -35, y: 34.5}
+        - {x: -35, y: -35.5}
+        - {x: 3, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 1, y: -27.5}
+        - {x: 5, y: -27.5}
+    - name: KADABRA_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 426
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35.5}
+        - {x: -35, y: -18.5}
+        - {x: -28, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+    - name: KADABRA_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 426
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+    - name: KADABRA_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 426
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 29.5}
+        - {x: 23, y: 35.5}
+        - {x: -10, y: 35.5}
+        - {x: -12, y: 34.5}
+        - {x: -21, y: 16.5}
+        - {x: -21, y: 12.5}
+        - {x: -19, y: 9.5}
+        - {x: -22, y: 9.5}
+        - {x: -21, y: 27.5}
+        - {x: -31, y: 32.5}
+        - {x: -35, y: 30.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 24.5}
+        - {x: 33, y: 26.5}
+    - name: KADABRA_15
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 426
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 35.5}
+        - {x: -11, y: 35.5}
+        - {x: -12, y: 34.5}
+        - {x: -21, y: 16.5}
+        - {x: -21, y: 12.5}
+        - {x: -25, y: 12.5}
+        - {x: -21, y: 18.5}
+        - {x: -24, y: 31.5}
+        - {x: -30, y: 32.5}
+        - {x: -35, y: 29.5}
+        - {x: -35, y: -31.5}
+        - {x: -34, y: -35.5}
+        - {x: 2, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 13, y: -35.5}
+        - {x: 35, y: -35.5}
+    - name: KADABRA_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 27.5}
+        - {x: 21, y: 24.5}
+        - {x: 20, y: 35.5}
+        - {x: -9, y: 35.5}
+        - {x: -11, y: 34.5}
+        - {x: -10, y: 26.5}
+        - {x: -21, y: 16.5}
+        - {x: -21, y: 12.5}
+        - {x: -23, y: 25.5}
+        - {x: -29, y: 35.5}
+        - {x: -35, y: 35.5}
+        - {x: -35, y: -24.5}
+        - {x: -26, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 25.5}
+        - {x: 30, y: 27.5}
+    - name: KADABRA_17
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 355
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 32.5}
+        - {x: 30, y: 35.5}
+    - name: KADABRA_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 355
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 35.5}
+        - {x: -21, y: 16.5}
+        - {x: -21, y: 11.5}
+        - {x: -19, y: 9.5}
+        - {x: -22, y: 8.5}
+        - {x: -22, y: 26.5}
+        - {x: -30, y: 31.5}
+        - {x: -35, y: 25.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 33.5}
+        - {x: 34, y: 35.5}
+    - name: KADABRA_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 355
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 35.5}
+        - {x: -22, y: 17.5}
+        - {x: -21, y: 11.5}
+        - {x: -19, y: 9.5}
+        - {x: -22, y: 8.5}
+        - {x: -23, y: 24.5}
+        - {x: -26, y: 28.5}
+        - {x: -30, y: 28.5}
+        - {x: -35, y: 25.5}
+        - {x: -35, y: -16.5}
+        - {x: -30, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+    - name: KADABRA_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 355
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 25.5}
+        - {x: 22, y: 35.5}
+        - {x: -7, y: 35.5}
+        - {x: -11, y: 33.5}
+        - {x: -21, y: 16.5}
+        - {x: -22, y: 10.5}
+        - {x: -21, y: 25.5}
+        - {x: -31, y: 30.5}
+        - {x: -35, y: 30.5}
+        - {x: -35, y: -35.5}
+        - {x: 2, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 15, y: -35.5}
+        - {x: 35, y: -35.5}
+    - name: KADABRA_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 355
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 35.5}
+        - {x: -32, y: 31.5}
+        - {x: -35, y: 23.5}
+        - {x: -35, y: -31.5}
+        - {x: -34, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+    - name: KADABRA_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 355
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 35.5}
+        - {x: -16, y: 35.5}
+        - {x: -21, y: 16.5}
+        - {x: -22, y: 10.5}
+        - {x: -21, y: 17.5}
+        - {x: -24, y: 28.5}
+        - {x: -30, y: 28.5}
+        - {x: -35, y: 25.5}
+        - {x: -35, y: -4.5}
+        - {x: -28, y: -8.5}
+        - {x: -28, y: -35.5}
+        - {x: 2, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 11, y: -35.5}
+        - {x: 35, y: -35.5}
+    - name: KADABRA_23
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 355
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 35.5}
+        - {x: -12, y: 33.5}
+        - {x: -21, y: 16.5}
+        - {x: -22, y: 10.5}
+        - {x: -22, y: 19.5}
+        - {x: -25, y: 28.5}
+        - {x: -35, y: 31.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 28.5}
+        - {x: 22, y: 35.5}
+    - name: KADABRA_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 35.5}
+        - {x: 11, y: 34.5}
+        - {x: -8, y: 35.5}
+        - {x: -11, y: 32.5}
+        - {x: -11, y: 30.5}
+        - {x: -27, y: 29.5}
+        - {x: -30, y: 28.5}
+        - {x: -35, y: 23.5}
+        - {x: -35, y: -4.5}
+        - {x: -28, y: -8.5}
+        - {x: -28, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 28.5}
+        - {x: 18, y: 35.5}
+    - name: KADABRA_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 284
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -35.5}
+        - {x: 35, y: -34.5}
+        - {x: 35, y: 27.5}
+        - {x: 32, y: 35.5}
+        - {x: -18, y: 35.5}
+        - {x: -35, y: 27.5}
+        - {x: -35, y: -4.5}
+        - {x: -34, y: -5.5}
+        - {x: -29, y: -35.5}
+        - {x: -5, y: -35.5}
+        - {x: 1, y: -34.5}
+        - {x: 3, y: -32.5}
+        - {x: 4, y: -29.5}
+        - {x: 15, y: -35.5}
+    - name: KADABRA_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 284
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 35.5}
+        - {x: -34, y: 31.5}
+        - {x: -35, y: 27.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 30.5}
+        - {x: 30, y: 35.5}
+    - name: KADABRA_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 284
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 35.5}
+        - {x: -35, y: 33.5}
+        - {x: -35, y: -12.5}
+        - {x: -25, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 25.5}
+        - {x: 26, y: 35.5}
+    - name: KADABRA_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 284
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 35.5}
+        - {x: -9, y: 35.5}
+        - {x: -12, y: 31.5}
+        - {x: -21, y: 16.5}
+        - {x: -21, y: 10.5}
+        - {x: -24, y: 25.5}
+        - {x: -26, y: 30.5}
+        - {x: -35, y: 30.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 21.5}
+        - {x: 34, y: 22.5}
+    - name: KADABRA_29
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 284
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+        - {x: -12, y: 35.5}
+        - {x: -21, y: 16.5}
+        - {x: -21, y: 10.5}
+        - {x: -22, y: 26.5}
+        - {x: -31, y: 31.5}
+        - {x: -35, y: 30.5}
+        - {x: -35, y: -35.5}
+        - {x: -1, y: -35.5}
+        - {x: 1, y: -34.5}
+        - {x: 3, y: -32.5}
+        - {x: 4, y: -29.5}
+        - {x: 15, y: -35.5}
+    - name: KADABRA_30
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 284
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 35.5}
+        - {x: -35, y: 33.5}
+        - {x: -35, y: -29.5}
+        - {x: -30, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+    - name: KADABRA_31
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 284
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 35.5}
+        - {x: -22, y: 15.5}
+        - {x: -22, y: 11.5}
+        - {x: -24, y: 26.5}
+        - {x: -26, y: 31.5}
+        - {x: -35, y: 27.5}
+        - {x: -35, y: -12.5}
+        - {x: -31, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 34.5}
+        - {x: 32, y: 35.5}
+    - name: KADABRA_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 35.5}
+        - {x: -9, y: 35.5}
+        - {x: -11, y: 34.5}
+        - {x: -22, y: 15.5}
+        - {x: -22, y: 11.5}
+        - {x: -24, y: 26.5}
+        - {x: -26, y: 31.5}
+        - {x: -35, y: 29.5}
+        - {x: -35, y: -2.5}
+        - {x: -34, y: -3.5}
+        - {x: -30, y: -31.5}
+        - {x: -29, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 23.5}
+    - name: KADABRA_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 213
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 31.5}
+        - {x: 30, y: 35.5}
+        - {x: -35, y: 35.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+    - name: KADABRA_34
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 213
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 35.5}
+        - {x: -12, y: 34.5}
+        - {x: -10, y: 26.5}
+        - {x: -17, y: 20.5}
+        - {x: -22, y: 15.5}
+        - {x: -22, y: 12.5}
+        - {x: -21, y: 10.5}
+        - {x: -23, y: 10.5}
+        - {x: -23, y: 27.5}
+        - {x: -30, y: 35.5}
+        - {x: -34, y: 35.5}
+        - {x: -35, y: 33.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 24.5}
+        - {x: 24, y: 35.5}
+    - name: KADABRA_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 213
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 35.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 12.5}
+        - {x: -21, y: 10.5}
+        - {x: -25, y: 12.5}
+        - {x: -22, y: 25.5}
+        - {x: -26, y: 30.5}
+        - {x: -33, y: 35.5}
+        - {x: -35, y: 35.5}
+        - {x: -35, y: -25.5}
+        - {x: -32, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 28.5}
+        - {x: 27, y: 35.5}
+    - name: KADABRA_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 213
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 35.5}
+        - {x: -12, y: 34.5}
+        - {x: -10, y: 26.5}
+        - {x: -21, y: 18.5}
+        - {x: -23, y: 11.5}
+        - {x: -22, y: 25.5}
+        - {x: -26, y: 31.5}
+        - {x: -35, y: 29.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 35.5}
+    - name: KADABRA_37
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 213
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 35.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 11.5}
+        - {x: -22, y: 20.5}
+        - {x: -23, y: 25.5}
+        - {x: -27, y: 30.5}
+        - {x: -30, y: 30.5}
+        - {x: -35, y: 25.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 28.5}
+        - {x: 28, y: 35.5}
+    - name: KADABRA_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 213
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 26.5}
+        - {x: 29, y: 35.5}
+        - {x: -17, y: 35.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 11.5}
+        - {x: -22, y: 20.5}
+        - {x: -23, y: 25.5}
+        - {x: -27, y: 30.5}
+        - {x: -30, y: 30.5}
+        - {x: -35, y: 27.5}
+        - {x: -35, y: -25.5}
+        - {x: -28, y: -35.5}
+        - {x: 2, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 12, y: -35.5}
+        - {x: 35, y: -35.5}
+    - name: KADABRA_39
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 213
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 29.5}
+        - {x: 21, y: 25.5}
+        - {x: 21, y: 23.5}
+        - {x: 18, y: 22.5}
+        - {x: 19, y: 31.5}
+        - {x: 19, y: 35.5}
+        - {x: -27, y: 35.5}
+        - {x: -35, y: 31.5}
+        - {x: -35, y: -18.5}
+        - {x: -25, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 24.5}
+        - {x: 33, y: 26.5}
+    - name: KADABRA_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 35.5}
+        - {x: -9, y: 35.5}
+        - {x: -11, y: 34.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 12.5}
+        - {x: -23, y: 25.5}
+        - {x: -27, y: 30.5}
+        - {x: -35, y: 33.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 26.5}
+        - {x: 34, y: 28.5}
+    - name: KADABRA_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 142
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -28.5}
+        - {x: 30, y: -28.5}
+        - {x: 32, y: -28.5}
+        - {x: 35, y: -26.5}
+        - {x: 35, y: 35.5}
+        - {x: -16, y: 35.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 12.5}
+        - {x: -25, y: 13.5}
+        - {x: -21, y: 26.5}
+        - {x: -29, y: 32.5}
+        - {x: -35, y: 26.5}
+        - {x: -35, y: -34.5}
+        - {x: -33, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: -31.5}
+    - name: KADABRA_42
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 142
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 35.5}
+        - {x: -12, y: 28.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 12.5}
+        - {x: -23, y: 14.5}
+        - {x: -21, y: 26.5}
+        - {x: -25, y: 31.5}
+        - {x: -35, y: 28.5}
+        - {x: -35, y: -18.5}
+        - {x: -33, y: -33.5}
+        - {x: -28, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 30.5}
+        - {x: 33, y: 35.5}
+    - name: KADABRA_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 142
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -35.5}
+        - {x: 35, y: -31.5}
+        - {x: 32, y: -28.5}
+        - {x: 29, y: -28.5}
+        - {x: 31, y: -28.5}
+        - {x: 35, y: -25.5}
+        - {x: 35, y: 31.5}
+        - {x: 27, y: 35.5}
+        - {x: -7, y: 35.5}
+        - {x: -11, y: 33.5}
+        - {x: -10, y: 28.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 10.5}
+        - {x: -23, y: 25.5}
+        - {x: -26, y: 31.5}
+        - {x: -35, y: 27.5}
+        - {x: -35, y: -1.5}
+        - {x: -33, y: -4.5}
+        - {x: -18, y: -4.5}
+        - {x: -14, y: -1.5}
+        - {x: -20, y: -7.5}
+        - {x: -30, y: -31.5}
+        - {x: -25, y: -35.5}
+        - {x: -1, y: -35.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -29.5}
+        - {x: 11, y: -35.5}
+    - name: KADABRA_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 142
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -35.5}
+        - {x: 35, y: 24.5}
+        - {x: 23, y: 35.5}
+        - {x: -9, y: 35.5}
+        - {x: -13, y: 34.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 10.5}
+        - {x: -21, y: 25.5}
+        - {x: -30, y: 31.5}
+        - {x: -35, y: 28.5}
+        - {x: -35, y: -10.5}
+        - {x: -18, y: -7.5}
+        - {x: -14, y: -1.5}
+        - {x: -14, y: 0.5}
+        - {x: -15, y: -5.5}
+        - {x: -17, y: -16.5}
+        - {x: -17, y: -21.5}
+        - {x: -26, y: -32.5}
+        - {x: -25, y: -35.5}
+        - {x: -1, y: -35.5}
+        - {x: 4, y: -33.5}
+        - {x: 4, y: -29.5}
+        - {x: 12, y: -35.5}
+    - name: KADABRA_45
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 142
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 27.5}
+        - {x: 26, y: 28.5}
+        - {x: 23, y: 26.5}
+        - {x: 19, y: 34.5}
+        - {x: 18, y: 35.5}
+        - {x: -8, y: 35.5}
+        - {x: -12, y: 33.5}
+        - {x: -22, y: 16.5}
+        - {x: -22, y: 11.5}
+        - {x: -20, y: 9.5}
+        - {x: -25, y: 13.5}
+        - {x: -23, y: 18.5}
+        - {x: -23, y: 24.5}
+        - {x: -26, y: 28.5}
+        - {x: -31, y: 28.5}
+        - {x: -35, y: 25.5}
+        - {x: -35, y: -35.5}
+        - {x: 35, y: -35.5}
+    - name: KADABRA_46
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 142
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 35.5}
+        - {x: -12, y: 33.5}
+        - {x: -22, y: 16.5}
+        - {x: -23, y: 10.5}
+        - {x: -22, y: 18.5}
+        - {x: -21, y: 25.5}
+        - {x: -31, y: 30.5}
+        - {x: -35, y: 23.5}
+        - {x: -35, y: -3.5}
+        - {x: -29, y: -6.5}
+        - {x: -28, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 33.5}
+        - {x: 31, y: 35.5}
+    - name: KADABRA_47
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 142
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 32.5}
+        - {x: 24, y: 35.5}
+        - {x: -35, y: 35.5}
+        - {x: -35, y: -35.5}
+        - {x: 3, y: -35.5}
+        - {x: 4, y: -29.5}
+        - {x: 11, y: -35.5}
+        - {x: 35, y: -35.5}
+    - name: KADABRA_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 35.5}
+        - {x: -16, y: 34.5}
+        - {x: -22, y: 16.5}
+        - {x: -23, y: 11.5}
+        - {x: -23, y: 23.5}
+        - {x: -27, y: 28.5}
+        - {x: -30, y: 28.5}
+        - {x: -35, y: 25.5}
+        - {x: -35, y: -18.5}
+        - {x: -25, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 25.5}
+        - {x: 28, y: 35.5}
+    - name: KADABRA_49
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 71
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 35.5}
+        - {x: -27, y: 35.5}
+        - {x: -35, y: 24.5}
+        - {x: -35, y: -3.5}
+        - {x: -34, y: -5.5}
+        - {x: -28, y: -5.5}
+        - {x: -27, y: -32.5}
+        - {x: -26, y: -35.5}
+        - {x: 34, y: -35.5}
+        - {x: 35, y: -34.5}
+    - name: KADABRA_50
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 71
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 35.5}
+        - {x: -12, y: 33.5}
+        - {x: -11, y: 25.5}
+        - {x: -19, y: 19.5}
+        - {x: -22, y: 16.5}
+        - {x: -23, y: 11.5}
+        - {x: -22, y: 22.5}
+        - {x: -27, y: 28.5}
+        - {x: -30, y: 28.5}
+        - {x: -35, y: 26.5}
+        - {x: -35, y: -8.5}
+        - {x: -22, y: -7.5}
+        - {x: -19, y: -5.5}
+        - {x: -27, y: -32.5}
+        - {x: -28, y: -35.5}
+        - {x: 35, y: -35.5}
+        - {x: 35, y: 26.5}
+        - {x: 23, y: 35.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

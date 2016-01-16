@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: 23ccff97a66c19340939d8c45b2521ac
+timeCreated: 1452888214
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CUBONE_0
+    21300002: CUBONE_1
+    21300004: CUBONE_2
+    21300006: CUBONE_3
+    21300008: CUBONE_4
+    21300010: CUBONE_5
+    21300012: CUBONE_6
+    21300014: CUBONE_7
+    21300016: CUBONE_8
+    21300018: CUBONE_9
+    21300020: CUBONE_10
+    21300022: CUBONE_11
+    21300024: CUBONE_12
+    21300026: CUBONE_13
+    21300028: CUBONE_14
+    21300030: CUBONE_15
+    21300032: CUBONE_16
+    21300034: CUBONE_17
+    21300036: CUBONE_18
+    21300038: CUBONE_19
+    21300040: CUBONE_20
+    21300042: CUBONE_21
+    21300044: CUBONE_22
+    21300046: CUBONE_23
+    21300048: CUBONE_24
+    21300050: CUBONE_25
+    21300052: CUBONE_26
+    21300054: CUBONE_27
+    21300056: CUBONE_28
+    21300058: CUBONE_29
+    21300060: CUBONE_30
+    21300062: CUBONE_31
+    21300064: CUBONE_32
+    21300066: CUBONE_33
+    21300068: CUBONE_34
+    21300070: CUBONE_35
+    21300072: CUBONE_36
+    21300074: CUBONE_37
+    21300076: CUBONE_38
+    21300078: CUBONE_39
+    21300080: CUBONE_40
+    21300082: CUBONE_41
+    21300084: CUBONE_42
+    21300086: CUBONE_43
+    21300088: CUBONE_44
+    21300090: CUBONE_45
+    21300092: CUBONE_46
+    21300094: CUBONE_47
+    21300096: CUBONE_48
+    21300098: CUBONE_49
+    21300100: CUBONE_50
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CUBONE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23.5}
+        - {x: -21, y: 8.5}
+        - {x: -21, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 21, y: -8.5}
+        - {x: 21, y: 10.5}
+        - {x: 16, y: 23.5}
+    - name: CUBONE_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 329
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23.5}
+        - {x: -21, y: 17.5}
+        - {x: -21, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 11.5}
+        - {x: 16, y: 23.5}
+    - name: CUBONE_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 329
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23.5}
+        - {x: -21, y: 17.5}
+        - {x: -21, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 11.5}
+        - {x: 16, y: 23.5}
+    - name: CUBONE_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 329
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 23.5}
+        - {x: -16, y: 23.5}
+        - {x: -21, y: 14.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -1.5}
+        - {x: 21, y: 5.5}
+        - {x: 17, y: 10.5}
+    - name: CUBONE_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 329
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 23.5}
+        - {x: -16, y: 23.5}
+        - {x: -21, y: 14.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -1.5}
+        - {x: 21, y: 5.5}
+        - {x: 17, y: 10.5}
+    - name: CUBONE_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 329
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23.5}
+        - {x: -21, y: 8.5}
+        - {x: -21, y: -23.5}
+        - {x: 12, y: -23.5}
+        - {x: 21, y: -7.5}
+        - {x: 21, y: 9.5}
+        - {x: 16, y: 23.5}
+    - name: CUBONE_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 329
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -22.5}
+        - {x: -17, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 21, y: -7.5}
+        - {x: 21, y: 12.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 329
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 9, y: -23.5}
+        - {x: 21, y: -10.5}
+        - {x: 21, y: 15.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 13, y: -23.5}
+        - {x: 21, y: -2.5}
+        - {x: 21, y: 12.5}
+        - {x: 12, y: 23.5}
+    - name: CUBONE_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 282
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23.5}
+        - {x: -21, y: 18.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -6.5}
+        - {x: 21, y: 9.5}
+        - {x: 16, y: 23.5}
+    - name: CUBONE_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 282
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 23.5}
+        - {x: -21, y: 12.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -10.5}
+        - {x: 21, y: 14.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 282
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23.5}
+        - {x: -21, y: 12.5}
+        - {x: -21, y: -23.5}
+        - {x: 14, y: -23.5}
+        - {x: 21, y: -6.5}
+        - {x: 21, y: 16.5}
+        - {x: 16, y: 23.5}
+    - name: CUBONE_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 282
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 23.5}
+        - {x: -17, y: 23.5}
+        - {x: -21, y: 16.5}
+        - {x: -21, y: -23.5}
+        - {x: 9, y: -23.5}
+        - {x: 20, y: -4.5}
+        - {x: 21, y: -2.5}
+        - {x: 21, y: 10.5}
+    - name: CUBONE_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 282
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -6.5}
+        - {x: 21, y: 9.5}
+        - {x: 16, y: 23.5}
+    - name: CUBONE_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 282
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 23.5}
+        - {x: -16, y: 23.5}
+        - {x: -20, y: 12.5}
+        - {x: -21, y: 2.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -5.5}
+        - {x: 21, y: 12.5}
+    - name: CUBONE_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 282
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 12, y: -23.5}
+        - {x: 21, y: -11.5}
+        - {x: 21, y: 13.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 235
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23.5}
+        - {x: -21, y: 17.5}
+        - {x: -21, y: -23.5}
+        - {x: 9, y: -23.5}
+        - {x: 21, y: -2.5}
+        - {x: 21, y: 9.5}
+        - {x: 13, y: 23.5}
+    - name: CUBONE_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 235
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 12, y: -23.5}
+        - {x: 21, y: -18.5}
+        - {x: 21, y: 23.5}
+    - name: CUBONE_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 235
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 23.5}
+        - {x: -20, y: 10.5}
+        - {x: -21, y: -6.5}
+        - {x: -21, y: -23.5}
+        - {x: 18, y: -23.5}
+        - {x: 21, y: -12.5}
+        - {x: 21, y: 20.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 235
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23.5}
+        - {x: -21, y: 15.5}
+        - {x: -21, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 21, y: -8.5}
+        - {x: 21, y: 8.5}
+        - {x: 15, y: 23.5}
+    - name: CUBONE_20
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 235
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -15.5}
+        - {x: 21, y: 17.5}
+        - {x: 16, y: 23.5}
+        - {x: -19, y: 23.5}
+        - {x: -21, y: 14.5}
+    - name: CUBONE_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 235
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -15.5}
+        - {x: 21, y: 17.5}
+        - {x: 16, y: 23.5}
+        - {x: -19, y: 23.5}
+        - {x: -21, y: 15.5}
+    - name: CUBONE_22
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 235
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 9, y: -23.5}
+        - {x: 21, y: -10.5}
+        - {x: 21, y: 14.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 235
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 23.5}
+        - {x: -21, y: 13.5}
+        - {x: -21, y: -22.5}
+        - {x: -19, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 21, y: -10.5}
+        - {x: 21, y: 13.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23.5}
+        - {x: -21, y: 8.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -12.5}
+        - {x: 21, y: 15.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 188
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23.5}
+        - {x: -21, y: 15.5}
+        - {x: -21, y: -22.5}
+        - {x: -18, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -12.5}
+        - {x: 21, y: 19.5}
+        - {x: 19, y: 23.5}
+    - name: CUBONE_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 188
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 23.5}
+        - {x: -21, y: 22.5}
+        - {x: -21, y: -23.5}
+        - {x: 9, y: -23.5}
+        - {x: 21, y: -2.5}
+        - {x: 21, y: 15.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 188
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23.5}
+        - {x: -21, y: 18.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 14.5}
+        - {x: 18, y: 23.5}
+    - name: CUBONE_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 188
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 23.5}
+        - {x: -20, y: 23.5}
+        - {x: -21, y: 20.5}
+        - {x: -21, y: -22.5}
+        - {x: -19, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 16, y: -12.5}
+        - {x: 21, y: -2.5}
+        - {x: 21, y: 12.5}
+    - name: CUBONE_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 188
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -4.5}
+        - {x: 21, y: 8.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_30
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 188
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23.5}
+        - {x: -21, y: 20.5}
+        - {x: -21, y: -22.5}
+        - {x: -17, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 21, y: -11.5}
+        - {x: 21, y: 18.5}
+        - {x: 18, y: 23.5}
+    - name: CUBONE_31
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 188
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 13, y: -23.5}
+        - {x: 21, y: -13.5}
+        - {x: 21, y: 14.5}
+        - {x: 15, y: 23.5}
+    - name: CUBONE_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -8.5}
+        - {x: 21, y: 12.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 141
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 13.5}
+        - {x: 16, y: 23.5}
+    - name: CUBONE_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 141
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -10.5}
+        - {x: 21, y: 14.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 141
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -8.5}
+        - {x: 21, y: 12.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_36
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 141
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23.5}
+        - {x: -21, y: 15.5}
+        - {x: -21, y: -23.5}
+        - {x: 12, y: -23.5}
+        - {x: 21, y: -4.5}
+        - {x: 21, y: 12.5}
+        - {x: 13, y: 23.5}
+    - name: CUBONE_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 141
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 23.5}
+        - {x: -21, y: 17.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -10.5}
+        - {x: 21, y: 14.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_38
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 141
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23.5}
+        - {x: -21, y: 17.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -3.5}
+        - {x: 21, y: 12.5}
+        - {x: 14, y: 23.5}
+    - name: CUBONE_39
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 141
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 13.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 23.5}
+        - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -5.5}
+        - {x: 21, y: 9.5}
+        - {x: 20, y: 11.5}
+    - name: CUBONE_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 94
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23.5}
+        - {x: -20, y: 12.5}
+        - {x: -19, y: 7.5}
+        - {x: -21, y: -5.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -6.5}
+        - {x: 21, y: 23.5}
+    - name: CUBONE_42
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 94
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -23.5}
+        - {x: 11, y: -23.5}
+        - {x: 21, y: -16.5}
+        - {x: 21, y: 21.5}
+        - {x: 19, y: 23.5}
+        - {x: -16, y: 23.5}
+        - {x: -21, y: 17.5}
+    - name: CUBONE_43
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 94
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -23.5}
+        - {x: 13, y: -23.5}
+        - {x: 21, y: -17.5}
+        - {x: 21, y: 19.5}
+        - {x: 18, y: 23.5}
+        - {x: -21, y: 23.5}
+    - name: CUBONE_44
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 94
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -8.5}
+        - {x: 21, y: 10.5}
+        - {x: 16, y: 23.5}
+    - name: CUBONE_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 94
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 10, y: -23.5}
+        - {x: 21, y: -10.5}
+        - {x: 21, y: 14.5}
+        - {x: 17, y: 23.5}
+    - name: CUBONE_46
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 94
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 9, y: -23.5}
+        - {x: 21, y: -10.5}
+        - {x: 21, y: 14.5}
+        - {x: 18, y: 23.5}
+    - name: CUBONE_47
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 94
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 23.5}
+        - {x: -21, y: -23.5}
+        - {x: 9, y: -23.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 17.5}
+        - {x: 19, y: 23.5}
+    - name: CUBONE_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 23.5}
+        - {x: -21, y: 18.5}
+        - {x: -21, y: -22.5}
+        - {x: -18, y: -23.5}
+        - {x: 9, y: -23.5}
+        - {x: 21, y: -8.5}
+        - {x: 21, y: 10.5}
+        - {x: 15, y: 23.5}
+    - name: CUBONE_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 47
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 23.5}
+        - {x: -19, y: 23.5}
+        - {x: -21, y: 14.5}
+        - {x: -21, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 11, y: -17.5}
+        - {x: 21, y: -3.5}
+        - {x: 21, y: 9.5}
+    - name: CUBONE_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 47
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 23.5}
+        - {x: -21, y: 8.5}
+        - {x: -21, y: -23.5}
+        - {x: 8, y: -23.5}
+        - {x: 21, y: -8.5}
+        - {x: 21, y: 10.5}
+        - {x: 16, y: 23.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

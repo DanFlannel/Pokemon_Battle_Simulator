@@ -1,0 +1,1575 @@
+fileFormatVersion: 2
+guid: c7d73a8ec1e830c42bacd8e5215cc930
+timeCreated: 1452888483
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GOLDEEN_0
+    21300002: GOLDEEN_1
+    21300004: GOLDEEN_2
+    21300006: GOLDEEN_3
+    21300008: GOLDEEN_4
+    21300010: GOLDEEN_5
+    21300012: GOLDEEN_6
+    21300014: GOLDEEN_7
+    21300016: GOLDEEN_8
+    21300018: GOLDEEN_9
+    21300020: GOLDEEN_10
+    21300022: GOLDEEN_11
+    21300024: GOLDEEN_12
+    21300026: GOLDEEN_13
+    21300028: GOLDEEN_14
+    21300030: GOLDEEN_15
+    21300032: GOLDEEN_16
+    21300034: GOLDEEN_17
+    21300036: GOLDEEN_18
+    21300038: GOLDEEN_19
+    21300040: GOLDEEN_20
+    21300042: GOLDEEN_21
+    21300044: GOLDEEN_22
+    21300046: GOLDEEN_23
+    21300048: GOLDEEN_24
+    21300050: GOLDEEN_25
+    21300052: GOLDEEN_26
+    21300054: GOLDEEN_27
+    21300056: GOLDEEN_28
+    21300058: GOLDEEN_29
+    21300060: GOLDEEN_30
+    21300062: GOLDEEN_31
+    21300064: GOLDEEN_32
+    21300066: GOLDEEN_33
+    21300068: GOLDEEN_34
+    21300070: GOLDEEN_35
+    21300072: GOLDEEN_36
+    21300074: GOLDEEN_37
+    21300076: GOLDEEN_38
+    21300078: GOLDEEN_39
+    21300080: GOLDEEN_40
+    21300082: GOLDEEN_41
+    21300084: GOLDEEN_42
+    21300086: GOLDEEN_43
+    21300088: GOLDEEN_44
+    21300090: GOLDEEN_45
+    21300092: GOLDEEN_46
+    21300094: GOLDEEN_47
+    21300096: GOLDEEN_48
+    21300098: GOLDEEN_49
+    21300100: GOLDEEN_50
+    21300102: GOLDEEN_51
+    21300104: GOLDEEN_52
+    21300106: GOLDEEN_53
+    21300108: GOLDEEN_54
+    21300110: GOLDEEN_55
+    21300112: GOLDEEN_56
+    21300114: GOLDEEN_57
+    21300116: GOLDEEN_58
+    21300118: GOLDEEN_59
+    21300120: GOLDEEN_60
+    21300122: GOLDEEN_61
+    21300124: GOLDEEN_62
+    21300126: GOLDEEN_63
+    21300128: GOLDEEN_64
+    21300130: GOLDEEN_65
+    21300132: GOLDEEN_66
+    21300134: GOLDEEN_67
+    21300136: GOLDEEN_68
+    21300138: GOLDEEN_69
+    21300140: GOLDEEN_70
+    21300142: GOLDEEN_71
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GOLDEEN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30}
+        - {x: -23, y: -22}
+        - {x: 33, y: -22}
+        - {x: 43, y: -10}
+        - {x: 43, y: 19}
+        - {x: 19, y: 30}
+    - name: GOLDEEN_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 480
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30}
+        - {x: -23, y: -5}
+        - {x: -20, y: -22}
+        - {x: 25, y: -22}
+        - {x: 40, y: -14}
+        - {x: 43, y: -8}
+        - {x: 43, y: 14}
+        - {x: 5, y: 30}
+    - name: GOLDEEN_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 480
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30}
+        - {x: -23, y: -18}
+        - {x: -22, y: -20}
+        - {x: -18, y: -22}
+        - {x: 32, y: -22}
+        - {x: 42, y: -8}
+        - {x: 42, y: 17}
+        - {x: 8, y: 30}
+    - name: GOLDEEN_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 480
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30}
+        - {x: -23, y: -18}
+        - {x: -22, y: -20}
+        - {x: -18, y: -22}
+        - {x: 32, y: -22}
+        - {x: 42, y: -8}
+        - {x: 42, y: 17}
+        - {x: 8, y: 30}
+    - name: GOLDEEN_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 480
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 30}
+        - {x: -26, y: -21}
+        - {x: -17, y: -23}
+        - {x: 28, y: -23}
+        - {x: 40, y: -18}
+        - {x: 43, y: -4}
+        - {x: 43, y: 13}
+        - {x: -14, y: 30}
+    - name: GOLDEEN_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 480
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 30}
+        - {x: -26, y: -21}
+        - {x: -17, y: -23}
+        - {x: 28, y: -23}
+        - {x: 40, y: -18}
+        - {x: 43, y: -4}
+        - {x: 43, y: 13}
+        - {x: -14, y: 30}
+    - name: GOLDEEN_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 480
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 29}
+        - {x: -24, y: 29}
+        - {x: -27, y: 18}
+        - {x: -29, y: -13}
+        - {x: -29, y: -23}
+        - {x: 24, y: -23}
+        - {x: 43, y: -5}
+        - {x: 43, y: 7}
+        - {x: 33, y: 19}
+    - name: GOLDEEN_7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 480
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 27}
+        - {x: -31, y: 14}
+        - {x: -31, y: -23}
+        - {x: 28, y: -23}
+        - {x: 43, y: -5}
+        - {x: 43, y: 9}
+        - {x: 7, y: 27}
+    - name: GOLDEEN_8
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 480
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 26}
+        - {x: -28, y: 26}
+        - {x: -33, y: 10}
+        - {x: -33, y: -23}
+        - {x: 32, y: -23}
+        - {x: 43, y: -15}
+        - {x: 43, y: 4}
+        - {x: 28, y: 23}
+    - name: GOLDEEN_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -24, y: 25}
+        - {x: -35, y: 6}
+        - {x: -35, y: -24}
+        - {x: 38, y: -24}
+        - {x: 43, y: -15}
+        - {x: 43, y: 6}
+        - {x: 27, y: 15}
+    - name: GOLDEEN_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 420
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 23}
+        - {x: -28, y: 23}
+        - {x: -31, y: 21}
+        - {x: -36, y: -2}
+        - {x: -36, y: -23}
+        - {x: -33, y: -24}
+        - {x: 29, y: -24}
+        - {x: 43, y: -12}
+        - {x: 43, y: 1}
+        - {x: 24, y: 16}
+    - name: GOLDEEN_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 420
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -24}
+        - {x: 23, y: -24}
+        - {x: 43, y: -20}
+        - {x: 43, y: 1}
+        - {x: 29, y: 19}
+        - {x: 20, y: 21}
+        - {x: -32, y: 21}
+        - {x: -38, y: 4}
+    - name: GOLDEEN_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 420
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -25}
+        - {x: 36, y: -25}
+        - {x: 42, y: -24}
+        - {x: 42, y: -8}
+        - {x: 25, y: 15}
+        - {x: 3, y: 20}
+        - {x: -31, y: 20}
+        - {x: -39, y: -3}
+    - name: GOLDEEN_13
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 420
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18}
+        - {x: -25, y: 18}
+        - {x: -37, y: 9}
+        - {x: -39, y: 2}
+        - {x: -39, y: -20}
+        - {x: -37, y: -22}
+        - {x: -34, y: -24}
+        - {x: -20, y: -23}
+        - {x: -1, y: -25}
+        - {x: 26, y: -25}
+        - {x: 40, y: -20}
+        - {x: 40, y: -14}
+        - {x: 28, y: 13}
+    - name: GOLDEEN_14
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 420
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 17}
+        - {x: -25, y: 17}
+        - {x: -39, y: 7}
+        - {x: -39, y: -24}
+        - {x: -38, y: -25}
+        - {x: 39, y: -25}
+        - {x: 39, y: -9}
+        - {x: 28, y: 13}
+    - name: GOLDEEN_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 420
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 15}
+        - {x: -27, y: 15}
+        - {x: -37, y: 3}
+        - {x: -38, y: -18}
+        - {x: -38, y: -23}
+        - {x: -22, y: -26}
+        - {x: 37, y: -26}
+        - {x: 37, y: -12}
+        - {x: 28, y: 13}
+    - name: GOLDEEN_16
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 420
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 14}
+        - {x: -31, y: 13}
+        - {x: -37, y: 1}
+        - {x: -37, y: -23}
+        - {x: -22, y: -26}
+        - {x: 31, y: -26}
+        - {x: 36, y: -22}
+        - {x: 36, y: -14}
+        - {x: 29, y: 14}
+    - name: GOLDEEN_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 420
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 12}
+        - {x: -37, y: 7}
+        - {x: -37, y: -26}
+        - {x: 37, y: -26}
+        - {x: 37, y: -2}
+        - {x: 32, y: 10}
+        - {x: 30, y: 12}
+    - name: GOLDEEN_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: -22}
+        - {x: -29, y: -27}
+        - {x: 38, y: -27}
+        - {x: 38, y: -15}
+        - {x: 33, y: 10}
+        - {x: -30, y: 10}
+        - {x: -36, y: 1}
+    - name: GOLDEEN_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 360
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 9}
+        - {x: -37, y: 2}
+        - {x: -37, y: -22}
+        - {x: -20, y: -23}
+        - {x: -3, y: -27}
+        - {x: 34, y: -27}
+        - {x: 38, y: -25}
+        - {x: 38, y: -6}
+        - {x: 34, y: 9}
+    - name: GOLDEEN_20
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 360
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 8}
+        - {x: -38, y: 5}
+        - {x: -38, y: -25}
+        - {x: -24, y: -27}
+        - {x: 32, y: -27}
+        - {x: 39, y: -23}
+        - {x: 39, y: -14}
+        - {x: 33, y: 8}
+    - name: GOLDEEN_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 360
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 8}
+        - {x: -40, y: -4}
+        - {x: -40, y: -19}
+        - {x: -36, y: -26}
+        - {x: -20, y: -28}
+        - {x: 24, y: -28}
+        - {x: 32, y: -26}
+        - {x: 40, y: -23}
+        - {x: 40, y: -8}
+        - {x: 35, y: 8}
+    - name: GOLDEEN_22
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 360
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 8}
+        - {x: -28, y: 6}
+        - {x: -40, y: 0}
+        - {x: -40, y: -20}
+        - {x: -23, y: -28}
+        - {x: 35, y: -28}
+        - {x: 41, y: -24}
+        - {x: 41, y: -12}
+        - {x: 34, y: 8}
+    - name: GOLDEEN_23
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 360
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 7}
+        - {x: -42, y: -2}
+        - {x: -42, y: -14}
+        - {x: -34, y: -22}
+        - {x: 2, y: -28}
+        - {x: 22, y: -28}
+        - {x: 41, y: -18}
+        - {x: 41, y: -10}
+        - {x: 30, y: 7}
+    - name: GOLDEEN_24
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 360
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: -12}
+        - {x: -14, y: -28}
+        - {x: 31, y: -28}
+        - {x: 42, y: -24}
+        - {x: 42, y: -6}
+        - {x: 33, y: 7}
+        - {x: -26, y: 7}
+        - {x: -43, y: 5}
+    - name: GOLDEEN_25
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 360
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 6}
+        - {x: -43, y: 3}
+        - {x: -43, y: -21}
+        - {x: -10, y: -29}
+        - {x: 35, y: -29}
+        - {x: 42, y: -20}
+        - {x: 42, y: 6}
+    - name: GOLDEEN_26
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 360
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 6}
+        - {x: -43, y: 4}
+        - {x: -43, y: -19}
+        - {x: -40, y: -29}
+        - {x: 41, y: -29}
+        - {x: 41, y: 6}
+    - name: GOLDEEN_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 6}
+        - {x: -36, y: 6}
+        - {x: -43, y: 1}
+        - {x: -43, y: -9}
+        - {x: -27, y: -23}
+        - {x: 0, y: -29}
+        - {x: 22, y: -29}
+        - {x: 30, y: -22}
+        - {x: 41, y: -10}
+        - {x: 41, y: -2}
+    - name: GOLDEEN_28
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 300
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 5}
+        - {x: -43, y: -13}
+        - {x: -17, y: -30}
+        - {x: 33, y: -30}
+        - {x: 36, y: -28}
+        - {x: 41, y: -13}
+        - {x: 41, y: 5}
+    - name: GOLDEEN_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 300
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 6}
+        - {x: -42, y: 5}
+        - {x: -42, y: -30}
+        - {x: 39, y: -30}
+        - {x: 39, y: 6}
+    - name: GOLDEEN_30
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 300
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 7}
+        - {x: -41, y: 0}
+        - {x: -41, y: -25}
+        - {x: -22, y: -30}
+        - {x: 36, y: -30}
+        - {x: 40, y: -18}
+        - {x: 40, y: 1}
+        - {x: 38, y: 7}
+    - name: GOLDEEN_31
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 300
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 7}
+        - {x: -40, y: -12}
+        - {x: -38, y: -15}
+        - {x: -14, y: -30}
+        - {x: 28, y: -30}
+        - {x: 39, y: -8}
+        - {x: 39, y: 6}
+        - {x: 37, y: 7}
+    - name: GOLDEEN_32
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 300
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 1}
+        - {x: 30, y: 7}
+        - {x: -5, y: 8}
+        - {x: -28, y: 8}
+        - {x: -39, y: 3}
+        - {x: -39, y: -3}
+        - {x: -35, y: -13}
+        - {x: -24, y: -17}
+        - {x: -4, y: -30}
+        - {x: 15, y: -30}
+        - {x: 21, y: -28}
+        - {x: 38, y: -10}
+        - {x: 38, y: -3}
+    - name: GOLDEEN_33
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 300
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 9}
+        - {x: -28, y: 9}
+        - {x: -35, y: 7}
+        - {x: -38, y: 1}
+        - {x: -38, y: -8}
+        - {x: -26, y: -22}
+        - {x: -5, y: -30}
+        - {x: 22, y: -30}
+        - {x: 37, y: -13}
+        - {x: 37, y: 0}
+        - {x: 36, y: 2}
+    - name: GOLDEEN_34
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 300
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 2}
+        - {x: 12, y: 10}
+        - {x: -33, y: 10}
+        - {x: -38, y: 6}
+        - {x: -38, y: -13}
+        - {x: -6, y: -30}
+        - {x: 17, y: -30}
+        - {x: 31, y: -21}
+        - {x: 35, y: -16}
+        - {x: 37, y: -11}
+    - name: GOLDEEN_35
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 300
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 11}
+        - {x: -38, y: 4}
+        - {x: -38, y: -2}
+        - {x: -31, y: -19}
+        - {x: -7, y: -30}
+        - {x: 19, y: -30}
+        - {x: 35, y: -24}
+        - {x: 37, y: -21}
+        - {x: 37, y: 10}
+        - {x: 32, y: 11}
+    - name: GOLDEEN_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -5}
+        - {x: -29, y: -21}
+        - {x: -15, y: -30}
+        - {x: 23, y: -30}
+        - {x: 36, y: -24}
+        - {x: 36, y: 1}
+        - {x: 25, y: 12}
+        - {x: -28, y: 12}
+        - {x: -38, y: 7}
+    - name: GOLDEEN_37
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 240
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 13}
+        - {x: -27, y: 13}
+        - {x: -39, y: 4}
+        - {x: -39, y: -7}
+        - {x: -18, y: -30}
+        - {x: 22, y: -30}
+        - {x: 33, y: -28}
+        - {x: 37, y: -22}
+        - {x: 37, y: -3}
+        - {x: 22, y: 6}
+    - name: GOLDEEN_38
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 240
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 14}
+        - {x: -39, y: 14}
+        - {x: -39, y: -12}
+        - {x: -36, y: -25}
+        - {x: -10, y: -29}
+        - {x: 37, y: -29}
+        - {x: 37, y: -7}
+        - {x: 36, y: -5}
+    - name: GOLDEEN_39
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 240
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 8}
+        - {x: -23, y: 15}
+        - {x: -29, y: 15}
+        - {x: -39, y: 4}
+        - {x: -39, y: 1}
+        - {x: -37, y: -18}
+        - {x: -12, y: -26}
+        - {x: 2, y: -29}
+        - {x: 30, y: -29}
+        - {x: 37, y: -17}
+        - {x: 37, y: -2}
+    - name: GOLDEEN_40
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 240
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 15}
+        - {x: -38, y: 11}
+        - {x: -38, y: -13}
+        - {x: -35, y: -21}
+        - {x: -22, y: -28}
+        - {x: 37, y: -28}
+        - {x: 37, y: 0}
+        - {x: 0, y: 15}
+    - name: GOLDEEN_41
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 240
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -37, y: 16}
+        - {x: -37, y: -22}
+        - {x: -31, y: -28}
+        - {x: 36, y: -28}
+        - {x: 36, y: -3}
+        - {x: 30, y: 7}
+    - name: GOLDEEN_42
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 240
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 16}
+        - {x: -32, y: 16}
+        - {x: -37, y: 12}
+        - {x: -37, y: -28}
+        - {x: 31, y: -28}
+        - {x: 35, y: -27}
+        - {x: 35, y: -10}
+        - {x: 28, y: 4}
+    - name: GOLDEEN_43
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 240
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17}
+        - {x: -28, y: 17}
+        - {x: -33, y: 14}
+        - {x: -37, y: -7}
+        - {x: -37, y: -20}
+        - {x: -17, y: -20}
+        - {x: -16, y: -27}
+        - {x: -9, y: -28}
+        - {x: 33, y: -28}
+        - {x: 33, y: -10}
+        - {x: 30, y: 6}
+    - name: GOLDEEN_44
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 240
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 17}
+        - {x: -38, y: 17}
+        - {x: -38, y: -18}
+        - {x: -37, y: -21}
+        - {x: -25, y: -20}
+        - {x: -4, y: -27}
+        - {x: 28, y: -27}
+        - {x: 32, y: -24}
+        - {x: 32, y: -14}
+        - {x: 26, y: 3}
+    - name: GOLDEEN_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -31, y: 17}
+        - {x: -39, y: -6}
+        - {x: -39, y: -21}
+        - {x: -38, y: -21}
+        - {x: -7, y: -27}
+        - {x: 27, y: -27}
+        - {x: 31, y: -23}
+        - {x: 31, y: 1}
+        - {x: 30, y: 5}
+    - name: GOLDEEN_46
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 180
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 17}
+        - {x: -38, y: 1}
+        - {x: -38, y: -20}
+        - {x: -37, y: -21}
+        - {x: -22, y: -17}
+        - {x: -14, y: -14}
+        - {x: -10, y: -18}
+        - {x: 0, y: -26}
+        - {x: 29, y: -26}
+        - {x: 29, y: 5}
+        - {x: -4, y: 17}
+    - name: GOLDEEN_47
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 180
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 17}
+        - {x: -32, y: 17}
+        - {x: -33, y: 16}
+        - {x: -38, y: -5}
+        - {x: -38, y: -21}
+        - {x: -17, y: -26}
+        - {x: 29, y: -26}
+        - {x: 29, y: 9}
+        - {x: 25, y: 10}
+    - name: GOLDEEN_48
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 180
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 7}
+        - {x: -8, y: 17}
+        - {x: -28, y: 17}
+        - {x: -30, y: 12}
+        - {x: -29, y: 6}
+        - {x: -27, y: 4}
+        - {x: -36, y: -14}
+        - {x: -36, y: -18}
+        - {x: -35, y: -22}
+        - {x: -22, y: -26}
+        - {x: 26, y: -26}
+        - {x: 29, y: -23}
+        - {x: 29, y: 4}
+        - {x: 28, y: 5}
+    - name: GOLDEEN_49
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 180
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 18}
+        - {x: -35, y: 14}
+        - {x: -35, y: -23}
+        - {x: -20, y: -25}
+        - {x: 28, y: -25}
+        - {x: 29, y: -22}
+        - {x: 29, y: 9}
+        - {x: 11, y: 18}
+    - name: GOLDEEN_50
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 180
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 19}
+        - {x: -32, y: 6}
+        - {x: -33, y: -5}
+        - {x: -33, y: -19}
+        - {x: -28, y: -21}
+        - {x: -13, y: -14}
+        - {x: -8, y: -10}
+        - {x: -11, y: -14}
+        - {x: -12, y: -17}
+        - {x: -5, y: -24}
+        - {x: 0, y: -25}
+        - {x: 24, y: -25}
+        - {x: 30, y: -21}
+        - {x: 30, y: 9}
+        - {x: -8, y: 19}
+    - name: GOLDEEN_51
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 180
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 19}
+        - {x: -32, y: -23}
+        - {x: -31, y: -23}
+        - {x: -18, y: -17}
+        - {x: -17, y: -13}
+        - {x: -9, y: -13}
+        - {x: -10, y: -17}
+        - {x: -8, y: -24}
+        - {x: 31, y: -24}
+        - {x: 31, y: 10}
+        - {x: 5, y: 19}
+    - name: GOLDEEN_52
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 180
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 20}
+        - {x: -31, y: 20}
+        - {x: -31, y: -23}
+        - {x: -16, y: -21}
+        - {x: -8, y: -13}
+        - {x: -6, y: -12}
+        - {x: -4, y: -8}
+        - {x: -5, y: -8}
+        - {x: -6, y: -10}
+        - {x: -8, y: -15}
+        - {x: -13, y: -20}
+        - {x: 0, y: -24}
+        - {x: 25, y: -24}
+        - {x: 31, y: -17}
+        - {x: 31, y: 11}
+    - name: GOLDEEN_53
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 180
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 20}
+        - {x: -29, y: 20}
+        - {x: -32, y: 17}
+        - {x: -32, y: -18}
+        - {x: -30, y: -24}
+        - {x: -6, y: -13}
+        - {x: -5, y: -12}
+        - {x: -3, y: -8}
+        - {x: -4, y: -8}
+        - {x: -3, y: -9}
+        - {x: -6, y: -13}
+        - {x: -6, y: -17}
+        - {x: -4, y: -24}
+        - {x: 27, y: -24}
+        - {x: 32, y: -19}
+        - {x: 32, y: 11}
+    - name: GOLDEEN_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 11}
+        - {x: -9, y: 22}
+        - {x: -25, y: 22}
+        - {x: -33, y: 12}
+        - {x: -33, y: -23}
+        - {x: 26, y: -23}
+        - {x: 32, y: -21}
+        - {x: 33, y: -19}
+        - {x: 33, y: -6}
+    - name: GOLDEEN_55
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 120
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 22}
+        - {x: -12, y: 23}
+        - {x: -27, y: 23}
+        - {x: -33, y: 14}
+        - {x: -33, y: 3}
+        - {x: -30, y: -16}
+        - {x: -28, y: -23}
+        - {x: 34, y: -23}
+        - {x: 34, y: -8}
+        - {x: 28, y: 11}
+    - name: GOLDEEN_56
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 120
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 24}
+        - {x: -33, y: 24}
+        - {x: -34, y: 22}
+        - {x: -34, y: -23}
+        - {x: 35, y: -23}
+        - {x: 35, y: 1}
+        - {x: 28, y: 16}
+    - name: GOLDEEN_57
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 120
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25}
+        - {x: -34, y: 25}
+        - {x: -34, y: -7}
+        - {x: -31, y: -23}
+        - {x: 25, y: -23}
+        - {x: 36, y: -20}
+        - {x: 37, y: -17}
+        - {x: 37, y: -10}
+        - {x: 29, y: 12}
+    - name: GOLDEEN_58
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 120
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -34, y: 26}
+        - {x: -35, y: 23}
+        - {x: -35, y: 1}
+        - {x: -22, y: -21}
+        - {x: -8, y: -23}
+        - {x: 25, y: -23}
+        - {x: 38, y: -19}
+        - {x: 38, y: -7}
+        - {x: 36, y: -2}
+        - {x: 31, y: 10}
+        - {x: 26, y: 12}
+    - name: GOLDEEN_59
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 120
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 27}
+        - {x: -36, y: 7}
+        - {x: -25, y: -22}
+        - {x: 39, y: -22}
+        - {x: 39, y: 9}
+        - {x: 15, y: 27}
+    - name: GOLDEEN_60
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 120
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 27}
+        - {x: -36, y: -4}
+        - {x: -31, y: -21}
+        - {x: -30, y: -22}
+        - {x: 28, y: -22}
+        - {x: 41, y: -19}
+        - {x: 41, y: -5}
+        - {x: 28, y: 13}
+        - {x: -16, y: 27}
+    - name: GOLDEEN_61
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 120
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -32, y: 27}
+        - {x: -34, y: 24}
+        - {x: -34, y: 2}
+        - {x: -20, y: -22}
+        - {x: 36, y: -22}
+        - {x: 42, y: -18}
+        - {x: 42, y: -7}
+        - {x: 30, y: 16}
+    - name: GOLDEEN_62
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 120
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 27}
+        - {x: -32, y: 26}
+        - {x: -32, y: 7}
+        - {x: -13, y: -22}
+        - {x: 28, y: -22}
+        - {x: 43, y: -14}
+        - {x: 43, y: 7}
+        - {x: 10, y: 27}
+    - name: GOLDEEN_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 27}
+        - {x: -27, y: 27}
+        - {x: -30, y: 25}
+        - {x: -30, y: -13}
+        - {x: -16, y: -22}
+        - {x: 43, y: -22}
+        - {x: 43, y: -1}
+        - {x: 35, y: 18}
+    - name: GOLDEEN_64
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 60
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -22}
+        - {x: 25, y: -22}
+        - {x: 43, y: -12}
+        - {x: 43, y: 0}
+        - {x: 29, y: 26}
+        - {x: -23, y: 28}
+        - {x: -28, y: 28}
+        - {x: -28, y: 8}
+    - name: GOLDEEN_65
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 60
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 28}
+        - {x: -26, y: 19}
+        - {x: -21, y: -15}
+        - {x: -7, y: -22}
+        - {x: 29, y: -22}
+        - {x: 43, y: -11}
+        - {x: 43, y: 7}
+        - {x: -4, y: 28}
+    - name: GOLDEEN_66
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 60
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 29}
+        - {x: -25, y: 29}
+        - {x: -25, y: -22}
+        - {x: -18, y: -22}
+        - {x: -7, y: -21}
+        - {x: 0, y: -20}
+        - {x: 4, y: -17}
+        - {x: 5, y: -15}
+        - {x: 4, y: -15}
+        - {x: 5, y: -17}
+        - {x: 8, y: -21}
+        - {x: 11, y: -22}
+        - {x: 27, y: -22}
+        - {x: 43, y: -13}
+        - {x: 43, y: 4}
+        - {x: 30, y: 20}
+    - name: GOLDEEN_67
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 60
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 30}
+        - {x: -24, y: -2}
+        - {x: -20, y: -20}
+        - {x: -7, y: -22}
+        - {x: 27, y: -22}
+        - {x: 43, y: -4}
+        - {x: 43, y: 8}
+        - {x: 0, y: 30}
+    - name: GOLDEEN_68
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 60
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 30}
+        - {x: -23, y: 30}
+        - {x: -23, y: 7}
+        - {x: -19, y: -21}
+        - {x: -11, y: -22}
+        - {x: 30, y: -22}
+        - {x: 43, y: -7}
+        - {x: 43, y: 5}
+        - {x: 29, y: 20}
+    - name: GOLDEEN_69
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 60
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 15}
+        - {x: 16, y: 16}
+        - {x: -8, y: 30}
+        - {x: -23, y: 30}
+        - {x: -23, y: -16}
+        - {x: -18, y: -22}
+        - {x: 43, y: -22}
+        - {x: 43, y: 4}
+        - {x: 35, y: 6}
+    - name: GOLDEEN_70
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 60
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 30}
+        - {x: -23, y: 30}
+        - {x: -23, y: -22}
+        - {x: 32, y: -22}
+        - {x: 40, y: -14}
+        - {x: 43, y: -9}
+        - {x: 43, y: 16}
+    - name: GOLDEEN_71
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 60
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30}
+        - {x: -23, y: -22}
+        - {x: 33, y: -22}
+        - {x: 43, y: -10}
+        - {x: 43, y: 19}
+        - {x: 19, y: 30}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

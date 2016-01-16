@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: c72a7b39c6627e749b3ebc7e8bb773e8
+timeCreated: 1452882297
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MACHAMP_0
+    21300002: MACHAMP_1
+    21300004: MACHAMP_2
+    21300006: MACHAMP_3
+    21300008: MACHAMP_4
+    21300010: MACHAMP_5
+    21300012: MACHAMP_6
+    21300014: MACHAMP_7
+    21300016: MACHAMP_8
+    21300018: MACHAMP_9
+    21300020: MACHAMP_10
+    21300022: MACHAMP_11
+    21300024: MACHAMP_12
+    21300026: MACHAMP_13
+    21300028: MACHAMP_14
+    21300030: MACHAMP_15
+    21300032: MACHAMP_16
+    21300034: MACHAMP_17
+    21300036: MACHAMP_18
+    21300038: MACHAMP_19
+    21300040: MACHAMP_20
+    21300042: MACHAMP_21
+    21300044: MACHAMP_22
+    21300046: MACHAMP_23
+    21300048: MACHAMP_24
+    21300050: MACHAMP_25
+    21300052: MACHAMP_26
+    21300054: MACHAMP_27
+    21300056: MACHAMP_28
+    21300058: MACHAMP_29
+    21300060: MACHAMP_30
+    21300062: MACHAMP_31
+    21300064: MACHAMP_32
+    21300066: MACHAMP_33
+    21300068: MACHAMP_34
+    21300070: MACHAMP_35
+    21300072: MACHAMP_36
+    21300074: MACHAMP_37
+    21300076: MACHAMP_38
+    21300078: MACHAMP_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MACHAMP_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 49}
+        - {x: -40, y: 3}
+        - {x: -33, y: -50}
+        - {x: 42, y: -50}
+        - {x: 42, y: 49}
+    - name: MACHAMP_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 600
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -1}
+        - {x: 42, y: 45}
+        - {x: 31, y: 50}
+        - {x: -31, y: 50}
+        - {x: -40, y: 42}
+        - {x: -40, y: 25}
+        - {x: -33, y: 7}
+        - {x: -27, y: -7}
+        - {x: -26, y: -50}
+        - {x: 35, y: -50}
+    - name: MACHAMP_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 600
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -50}
+        - {x: 35, y: -43}
+        - {x: 42, y: -12}
+        - {x: 42, y: 49}
+        - {x: 38, y: 50}
+        - {x: -39, y: 50}
+        - {x: -39, y: -32}
+        - {x: -34, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: -1, y: -44}
+        - {x: 15, y: -50}
+    - name: MACHAMP_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 600
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -35}
+        - {x: 42, y: 50}
+        - {x: -34, y: 50}
+        - {x: -36, y: 48}
+        - {x: -39, y: 41}
+        - {x: -39, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: 9, y: -50}
+        - {x: 35, y: -50}
+    - name: MACHAMP_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 600
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 50}
+        - {x: -39, y: -16}
+        - {x: -33, y: -48}
+        - {x: -26, y: -50}
+        - {x: 37, y: -50}
+        - {x: 42, y: -29}
+        - {x: 42, y: 50}
+    - name: MACHAMP_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 600
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -36}
+        - {x: 42, y: 50}
+        - {x: -39, y: 50}
+        - {x: -39, y: -36}
+        - {x: -34, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: 11, y: -50}
+        - {x: 33, y: -50}
+    - name: MACHAMP_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 600
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -31}
+        - {x: 41, y: -6}
+        - {x: 42, y: -2}
+        - {x: 42, y: 48}
+        - {x: 36, y: 50}
+        - {x: -38, y: 50}
+        - {x: -38, y: -35}
+        - {x: -32, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: 11, y: -50}
+        - {x: 32, y: -50}
+    - name: MACHAMP_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 50}
+        - {x: -38, y: 45}
+        - {x: -38, y: -50}
+        - {x: 35, y: -50}
+        - {x: 42, y: -4}
+        - {x: 42, y: 49}
+        - {x: 39, y: 50}
+    - name: MACHAMP_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 500
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 50}
+        - {x: -38, y: -35}
+        - {x: -32, y: -50}
+        - {x: 37, y: -50}
+        - {x: 42, y: -44}
+        - {x: 42, y: 50}
+    - name: MACHAMP_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 500
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 50}
+        - {x: 19, y: 48}
+        - {x: -4, y: 50}
+        - {x: -35, y: 50}
+        - {x: -38, y: 49}
+        - {x: -38, y: -21}
+        - {x: -33, y: -50}
+        - {x: 41, y: -50}
+        - {x: 42, y: -45}
+        - {x: 42, y: 50}
+    - name: MACHAMP_10
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 500
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -12}
+        - {x: 42, y: 50}
+        - {x: -38, y: 50}
+        - {x: -38, y: -28}
+        - {x: -33, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: 11, y: -50}
+        - {x: 32, y: -50}
+    - name: MACHAMP_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 500
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 50}
+        - {x: -39, y: -34}
+        - {x: -36, y: -50}
+        - {x: 37, y: -50}
+        - {x: 42, y: -35}
+        - {x: 42, y: 50}
+    - name: MACHAMP_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 500
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 50}
+        - {x: -39, y: 49}
+        - {x: -39, y: -2}
+        - {x: -29, y: -50}
+        - {x: 35, y: -50}
+        - {x: 42, y: -45}
+        - {x: 42, y: 50}
+    - name: MACHAMP_13
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 500
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 50}
+        - {x: -33, y: 50}
+        - {x: -39, y: 41}
+        - {x: -39, y: 30}
+        - {x: -34, y: -6}
+        - {x: -25, y: -10}
+        - {x: -24, y: -46}
+        - {x: -23, y: -50}
+        - {x: 33, y: -50}
+        - {x: 42, y: -13}
+        - {x: 42, y: 42}
+    - name: MACHAMP_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 50}
+        - {x: -40, y: -8}
+        - {x: -31, y: -50}
+        - {x: 36, y: -50}
+        - {x: 42, y: -18}
+        - {x: 42, y: 50}
+    - name: MACHAMP_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 400
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -13}
+        - {x: 42, y: 50}
+        - {x: -40, y: 50}
+        - {x: -40, y: -50}
+        - {x: -2, y: -50}
+        - {x: 0, y: -49}
+        - {x: 10, y: -50}
+        - {x: 32, y: -50}
+    - name: MACHAMP_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 400
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -12}
+        - {x: 42, y: 39}
+        - {x: 35, y: 50}
+        - {x: 23, y: 50}
+        - {x: 17, y: 46}
+        - {x: 16, y: 38}
+        - {x: 10, y: 50}
+        - {x: -40, y: 50}
+        - {x: -40, y: -6}
+        - {x: -27, y: -10}
+        - {x: -19, y: -9}
+        - {x: -24, y: -46}
+        - {x: -23, y: -50}
+        - {x: -2, y: -50}
+        - {x: 0, y: -49}
+        - {x: 8, y: -50}
+        - {x: 35, y: -50}
+    - name: MACHAMP_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 400
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -11}
+        - {x: 42, y: 50}
+        - {x: -37, y: 50}
+        - {x: -41, y: 44}
+        - {x: -41, y: 18}
+        - {x: -23, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: 11, y: -50}
+        - {x: 32, y: -50}
+    - name: MACHAMP_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 400
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 50}
+        - {x: -41, y: -13}
+        - {x: -37, y: -50}
+        - {x: 42, y: -50}
+        - {x: 42, y: 50}
+    - name: MACHAMP_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 400
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 50}
+        - {x: -33, y: 50}
+        - {x: -42, y: 47}
+        - {x: -42, y: -16}
+        - {x: -30, y: -50}
+        - {x: 41, y: -50}
+        - {x: 42, y: -45}
+        - {x: 42, y: 41}
+    - name: MACHAMP_20
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 400
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 49}
+        - {x: -42, y: -5}
+        - {x: -33, y: -50}
+        - {x: 42, y: -50}
+        - {x: 42, y: 48}
+        - {x: 36, y: 49}
+    - name: MACHAMP_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 48}
+        - {x: -42, y: 41}
+        - {x: -42, y: 5}
+        - {x: -36, y: -50}
+        - {x: 41, y: -50}
+        - {x: 41, y: 48}
+    - name: MACHAMP_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 300
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -24}
+        - {x: 41, y: 39}
+        - {x: 37, y: 48}
+        - {x: -33, y: 48}
+        - {x: -42, y: 43}
+        - {x: -42, y: -6}
+        - {x: -27, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: 8, y: -50}
+        - {x: 35, y: -50}
+    - name: MACHAMP_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 300
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -23}
+        - {x: 41, y: 40}
+        - {x: 38, y: 47}
+        - {x: -38, y: 47}
+        - {x: -42, y: 46}
+        - {x: -42, y: 17}
+        - {x: -31, y: -4}
+        - {x: -25, y: -10}
+        - {x: -25, y: -50}
+        - {x: -2, y: -50}
+        - {x: 0, y: -49}
+        - {x: 7, y: -50}
+        - {x: 35, y: -50}
+    - name: MACHAMP_24
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 300
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 0}
+        - {x: 40, y: 34}
+        - {x: 39, y: 40}
+        - {x: 31, y: 46}
+        - {x: -39, y: 46}
+        - {x: -42, y: 38}
+        - {x: -42, y: 17}
+        - {x: -25, y: -50}
+        - {x: -2, y: -50}
+        - {x: 0, y: -49}
+        - {x: 10, y: -50}
+        - {x: 32, y: -50}
+    - name: MACHAMP_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 300
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: -24}
+        - {x: 40, y: 34}
+        - {x: 34, y: 46}
+        - {x: -35, y: 46}
+        - {x: -42, y: 43}
+        - {x: -42, y: 9}
+        - {x: -25, y: -50}
+        - {x: -2, y: -50}
+        - {x: 0, y: -49}
+        - {x: 7, y: -50}
+        - {x: 35, y: -50}
+    - name: MACHAMP_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 300
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: -17}
+        - {x: 40, y: 31}
+        - {x: 34, y: 45}
+        - {x: -41, y: 45}
+        - {x: -42, y: 43}
+        - {x: -42, y: -27}
+        - {x: -35, y: -50}
+        - {x: -2, y: -50}
+        - {x: 0, y: -49}
+        - {x: 7, y: -50}
+        - {x: 35, y: -50}
+    - name: MACHAMP_27
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 300
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 45}
+        - {x: -40, y: 45}
+        - {x: -42, y: 41}
+        - {x: -42, y: -34}
+        - {x: -26, y: -50}
+        - {x: 33, y: -50}
+        - {x: 40, y: -19}
+        - {x: 40, y: 37}
+    - name: MACHAMP_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 44}
+        - {x: -42, y: 18}
+        - {x: -25, y: -50}
+        - {x: 33, y: -50}
+        - {x: 40, y: -2}
+        - {x: 40, y: 44}
+    - name: MACHAMP_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 200
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -32}
+        - {x: 40, y: -8}
+        - {x: 40, y: 40}
+        - {x: 34, y: 44}
+        - {x: -41, y: 44}
+        - {x: -42, y: 41}
+        - {x: -42, y: 22}
+        - {x: -33, y: -1}
+        - {x: -26, y: -50}
+        - {x: -2, y: -50}
+        - {x: 0, y: -49}
+        - {x: 10, y: -50}
+        - {x: 32, y: -50}
+    - name: MACHAMP_30
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 200
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 44}
+        - {x: -42, y: 5}
+        - {x: -27, y: -50}
+        - {x: 34, y: -50}
+        - {x: 40, y: -13}
+        - {x: 40, y: 32}
+        - {x: 35, y: 44}
+    - name: MACHAMP_31
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 200
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 44}
+        - {x: -42, y: 10}
+        - {x: -24, y: -50}
+        - {x: 37, y: -50}
+        - {x: 41, y: -22}
+        - {x: 41, y: 35}
+        - {x: 36, y: 44}
+    - name: MACHAMP_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 200
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 45}
+        - {x: -42, y: 26}
+        - {x: -28, y: -9}
+        - {x: -20, y: -10}
+        - {x: -18, y: -8}
+        - {x: -25, y: -46}
+        - {x: -23, y: -50}
+        - {x: 35, y: -50}
+        - {x: 41, y: -25}
+        - {x: 41, y: 45}
+    - name: MACHAMP_33
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 200
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -18}
+        - {x: 41, y: 37}
+        - {x: 37, y: 45}
+        - {x: -42, y: 45}
+        - {x: -42, y: -44}
+        - {x: -40, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: 11, y: -50}
+        - {x: 32, y: -50}
+    - name: MACHAMP_34
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 200
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -17}
+        - {x: 41, y: 37}
+        - {x: 38, y: 46}
+        - {x: -42, y: 46}
+        - {x: -42, y: 3}
+        - {x: -27, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: 7, y: -50}
+        - {x: 32, y: -50}
+    - name: MACHAMP_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 46}
+        - {x: -42, y: -13}
+        - {x: -29, y: -50}
+        - {x: 33, y: -50}
+        - {x: 41, y: -23}
+        - {x: 41, y: 39}
+        - {x: 38, y: 46}
+    - name: MACHAMP_36
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 100
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 45}
+        - {x: 30, y: 47}
+        - {x: -42, y: 47}
+        - {x: -42, y: 4}
+        - {x: -33, y: -49}
+        - {x: -26, y: -50}
+        - {x: 34, y: -50}
+        - {x: 41, y: 16}
+        - {x: 42, y: 19}
+    - name: MACHAMP_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 100
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -4}
+        - {x: 42, y: 37}
+        - {x: 36, y: 47}
+        - {x: -34, y: 47}
+        - {x: -41, y: 42}
+        - {x: -41, y: -1}
+        - {x: -33, y: -49}
+        - {x: -28, y: -50}
+        - {x: -3, y: -50}
+        - {x: -1, y: -48}
+        - {x: 11, y: -50}
+        - {x: 32, y: -50}
+    - name: MACHAMP_38
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 100
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 48}
+        - {x: -41, y: -48}
+        - {x: -40, y: -50}
+        - {x: 32, y: -50}
+        - {x: 42, y: -11}
+        - {x: 42, y: 48}
+    - name: MACHAMP_39
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 100
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 49}
+        - {x: -36, y: 49}
+        - {x: -40, y: 44}
+        - {x: -40, y: -50}
+        - {x: 42, y: -50}
+        - {x: 42, y: 39}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

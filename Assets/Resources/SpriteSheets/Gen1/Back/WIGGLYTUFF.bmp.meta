@@ -1,0 +1,1239 @@
+fileFormatVersion: 2
+guid: 117c3131fb96f4f46b67bb09b828c8ea
+timeCreated: 1452891476
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WIGGLYTUFF_0
+    21300002: WIGGLYTUFF_1
+    21300004: WIGGLYTUFF_2
+    21300006: WIGGLYTUFF_3
+    21300008: WIGGLYTUFF_4
+    21300010: WIGGLYTUFF_5
+    21300012: WIGGLYTUFF_6
+    21300014: WIGGLYTUFF_7
+    21300016: WIGGLYTUFF_8
+    21300018: WIGGLYTUFF_9
+    21300020: WIGGLYTUFF_10
+    21300022: WIGGLYTUFF_11
+    21300024: WIGGLYTUFF_12
+    21300026: WIGGLYTUFF_13
+    21300028: WIGGLYTUFF_14
+    21300030: WIGGLYTUFF_15
+    21300032: WIGGLYTUFF_16
+    21300034: WIGGLYTUFF_17
+    21300036: WIGGLYTUFF_18
+    21300038: WIGGLYTUFF_19
+    21300040: WIGGLYTUFF_20
+    21300042: WIGGLYTUFF_21
+    21300044: WIGGLYTUFF_22
+    21300046: WIGGLYTUFF_23
+    21300048: WIGGLYTUFF_24
+    21300050: WIGGLYTUFF_25
+    21300052: WIGGLYTUFF_26
+    21300054: WIGGLYTUFF_27
+    21300056: WIGGLYTUFF_28
+    21300058: WIGGLYTUFF_29
+    21300060: WIGGLYTUFF_30
+    21300062: WIGGLYTUFF_31
+    21300064: WIGGLYTUFF_32
+    21300066: WIGGLYTUFF_33
+    21300068: WIGGLYTUFF_34
+    21300070: WIGGLYTUFF_35
+    21300072: WIGGLYTUFF_36
+    21300074: WIGGLYTUFF_37
+    21300076: WIGGLYTUFF_38
+    21300078: WIGGLYTUFF_39
+    21300080: WIGGLYTUFF_40
+    21300082: WIGGLYTUFF_41
+    21300084: WIGGLYTUFF_42
+    21300086: WIGGLYTUFF_43
+    21300088: WIGGLYTUFF_44
+    21300090: WIGGLYTUFF_45
+    21300092: WIGGLYTUFF_46
+    21300094: WIGGLYTUFF_47
+    21300096: WIGGLYTUFF_48
+    21300098: WIGGLYTUFF_49
+    21300100: WIGGLYTUFF_50
+    21300102: WIGGLYTUFF_51
+    21300104: WIGGLYTUFF_52
+    21300106: WIGGLYTUFF_53
+    21300108: WIGGLYTUFF_54
+    21300110: WIGGLYTUFF_55
+    21300112: WIGGLYTUFF_56
+    21300114: WIGGLYTUFF_57
+    21300116: WIGGLYTUFF_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WIGGLYTUFF_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33}
+        - {x: -24.5, y: -29}
+        - {x: -17.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -31}
+        - {x: 28.5, y: 28}
+        - {x: 27.5, y: 33}
+    - name: WIGGLYTUFF_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 490
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33}
+        - {x: -24.5, y: -30}
+        - {x: -19.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 28.5, y: -25}
+        - {x: 28.5, y: 27}
+        - {x: 27.5, y: 33}
+    - name: WIGGLYTUFF_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 490
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 32}
+        - {x: -24.5, y: -30}
+        - {x: -17.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -30}
+        - {x: 28.5, y: 14}
+        - {x: 25.5, y: 32}
+    - name: WIGGLYTUFF_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 490
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 32}
+        - {x: -24.5, y: 20}
+        - {x: -24.5, y: -23}
+        - {x: -19.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 32}
+    - name: WIGGLYTUFF_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 490
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 31}
+        - {x: -22.5, y: 29}
+        - {x: -24.5, y: -1}
+        - {x: -24.5, y: -24}
+        - {x: -20.5, y: -35}
+        - {x: 24.5, y: -35}
+        - {x: 28.5, y: -27}
+        - {x: 28.5, y: 17}
+        - {x: 26.5, y: 31}
+    - name: WIGGLYTUFF_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 490
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 31}
+        - {x: -22.5, y: 31}
+        - {x: -24.5, y: 27}
+        - {x: -24.5, y: -30}
+        - {x: -20.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -23}
+        - {x: 28.5, y: -1}
+        - {x: 25.5, y: 30}
+    - name: WIGGLYTUFF_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 490
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 31}
+        - {x: -24.5, y: 13}
+        - {x: -24.5, y: -24}
+        - {x: -19.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 31}
+    - name: WIGGLYTUFF_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 490
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 31}
+        - {x: -24.5, y: 24}
+        - {x: -24.5, y: -23}
+        - {x: -19.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 28.5, y: -24}
+        - {x: 28.5, y: 31}
+    - name: WIGGLYTUFF_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 31}
+        - {x: 23.5, y: 32}
+        - {x: -23.5, y: 32}
+        - {x: -24.5, y: 26}
+        - {x: -24.5, y: -28}
+        - {x: -19.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -28}
+        - {x: 28.5, y: 22}
+    - name: WIGGLYTUFF_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 420
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 32}
+        - {x: -24.5, y: -28}
+        - {x: -17.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -29}
+        - {x: 28.5, y: 32}
+    - name: WIGGLYTUFF_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 420
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 17}
+        - {x: 25.5, y: 33}
+        - {x: 18.5, y: 33}
+        - {x: 16.5, y: 32}
+        - {x: -17.5, y: 30}
+        - {x: -21.5, y: 27}
+        - {x: -23.5, y: 9}
+        - {x: -23.5, y: -25}
+        - {x: -15.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 23.5, y: -30}
+        - {x: 28.5, y: -21}
+    - name: WIGGLYTUFF_11
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 420
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 34}
+        - {x: -23.5, y: -29}
+        - {x: -18.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -34}
+        - {x: 28.5, y: 34}
+    - name: WIGGLYTUFF_12
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 420
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 35}
+        - {x: -20.5, y: 31}
+        - {x: -23.5, y: 28}
+        - {x: -23.5, y: -35}
+        - {x: 27.5, y: -35}
+        - {x: 28.5, y: -31}
+        - {x: 28.5, y: 17}
+        - {x: 23.5, y: 35}
+    - name: WIGGLYTUFF_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 420
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 35}
+        - {x: -23.5, y: 29}
+        - {x: -23.5, y: -24}
+        - {x: -14.5, y: -35}
+        - {x: 27.5, y: -35}
+        - {x: 28.5, y: -28}
+        - {x: 28.5, y: 16}
+        - {x: 25.5, y: 35}
+    - name: WIGGLYTUFF_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 420
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 35}
+        - {x: -24.5, y: 28}
+        - {x: -24.5, y: -6}
+        - {x: -22.5, y: -24}
+        - {x: -15.5, y: -32}
+        - {x: -7.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 28.5, y: -17}
+        - {x: 28.5, y: 15}
+        - {x: 24.5, y: 35}
+    - name: WIGGLYTUFF_15
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 420
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -26}
+        - {x: 21.5, y: -23}
+        - {x: 28.5, y: -14}
+        - {x: 28.5, y: 23}
+        - {x: 25.5, y: 35}
+        - {x: -4.5, y: 35}
+        - {x: -26.5, y: 27}
+        - {x: -26.5, y: -2}
+        - {x: -21.5, y: -34}
+        - {x: -15.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 24.5, y: -29}
+        - {x: 19.5, y: -26}
+        - {x: 14.5, y: -26}
+    - name: WIGGLYTUFF_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -26}
+        - {x: 23.5, y: -24}
+        - {x: 28.5, y: -14}
+        - {x: 28.5, y: 25}
+        - {x: 20.5, y: 35}
+        - {x: -17.5, y: 35}
+        - {x: -27.5, y: 31}
+        - {x: -27.5, y: -20}
+        - {x: -12.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 24.5, y: -29}
+        - {x: 19.5, y: -26}
+        - {x: 14.5, y: -26}
+    - name: WIGGLYTUFF_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 350
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 35}
+        - {x: -28.5, y: 29}
+        - {x: -28.5, y: -14}
+        - {x: -27.5, y: -19}
+        - {x: -12.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 28.5, y: -25}
+        - {x: 28.5, y: 20}
+        - {x: 22.5, y: 35}
+    - name: WIGGLYTUFF_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 350
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 35}
+        - {x: -28.5, y: 34}
+        - {x: -28.5, y: -12}
+        - {x: -17.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 28.5, y: -26}
+        - {x: 28.5, y: 21}
+        - {x: 23.5, y: 35}
+    - name: WIGGLYTUFF_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 350
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 35}
+        - {x: -28.5, y: 28}
+        - {x: -28.5, y: 0}
+        - {x: -19.5, y: -31}
+        - {x: -13.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -27}
+        - {x: 28.5, y: 18}
+        - {x: 21.5, y: 35}
+    - name: WIGGLYTUFF_20
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 350
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 35}
+        - {x: -28.5, y: 28}
+        - {x: -28.5, y: -22}
+        - {x: -18.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -28}
+        - {x: 28.5, y: 20}
+        - {x: 21.5, y: 35}
+    - name: WIGGLYTUFF_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 350
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 35}
+        - {x: -18.5, y: 35}
+        - {x: -28.5, y: 31}
+        - {x: -28.5, y: -24}
+        - {x: -14.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 28.5, y: -27}
+        - {x: 28.5, y: 18}
+    - name: WIGGLYTUFF_22
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 350
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -16}
+        - {x: 28.5, y: -2}
+        - {x: 28.5, y: 10}
+        - {x: 14.5, y: 35}
+        - {x: -11.5, y: 35}
+        - {x: -28.5, y: 31}
+        - {x: -28.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 23.5, y: -29}
+        - {x: 22.5, y: -27}
+        - {x: 19.5, y: -26}
+    - name: WIGGLYTUFF_23
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 350
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -12}
+        - {x: 28.5, y: 12}
+        - {x: 20.5, y: 35}
+        - {x: -4.5, y: 35}
+        - {x: -28.5, y: 27}
+        - {x: -28.5, y: -26}
+        - {x: -15.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 23.5, y: -29}
+        - {x: 22.5, y: -27}
+        - {x: 19.5, y: -26}
+    - name: WIGGLYTUFF_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: -26}
+        - {x: 18.5, y: -25}
+        - {x: 27.5, y: -18}
+        - {x: 28.5, y: -14}
+        - {x: 28.5, y: 15}
+        - {x: 13.5, y: 35}
+        - {x: 6.5, y: 35}
+        - {x: -0.5, y: 30}
+        - {x: -17.5, y: 28}
+        - {x: -28.5, y: 25}
+        - {x: -28.5, y: -26}
+        - {x: -13.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 23.5, y: -29}
+        - {x: 22.5, y: -27}
+        - {x: 19.5, y: -26}
+    - name: WIGGLYTUFF_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 280
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 35}
+        - {x: -28.5, y: 34}
+        - {x: -28.5, y: -25}
+        - {x: -19.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -28}
+        - {x: 28.5, y: 13}
+        - {x: 19.5, y: 35}
+    - name: WIGGLYTUFF_26
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 280
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 35}
+        - {x: -28.5, y: 32}
+        - {x: -28.5, y: -28}
+        - {x: -16.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -21}
+        - {x: 28.5, y: 7}
+        - {x: 15.5, y: 35}
+    - name: WIGGLYTUFF_27
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 280
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 7}
+        - {x: 17.5, y: 35}
+        - {x: 0.5, y: 35}
+        - {x: -28.5, y: 26}
+        - {x: -28.5, y: -27}
+        - {x: -15.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 24.5, y: -29}
+        - {x: 28.5, y: -14}
+    - name: WIGGLYTUFF_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 280
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 35}
+        - {x: -28.5, y: 30}
+        - {x: -28.5, y: -26}
+        - {x: -22.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -27}
+        - {x: 28.5, y: 14}
+        - {x: 18.5, y: 35}
+    - name: WIGGLYTUFF_29
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 280
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 35}
+        - {x: -2.5, y: 35}
+        - {x: -6.5, y: 34}
+        - {x: -27.5, y: 29}
+        - {x: -27.5, y: -11}
+        - {x: -25.5, y: -19}
+        - {x: -15.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 23.5, y: -34}
+        - {x: 28.5, y: -21}
+        - {x: 28.5, y: 7}
+    - name: WIGGLYTUFF_30
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 280
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 35}
+        - {x: -26.5, y: 28}
+        - {x: -26.5, y: -12}
+        - {x: -22.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 16}
+        - {x: 16.5, y: 35}
+    - name: WIGGLYTUFF_31
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 280
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: -20}
+        - {x: -19.5, y: -35}
+        - {x: 27.5, y: -35}
+        - {x: 28.5, y: -31}
+        - {x: 28.5, y: 35}
+        - {x: -25.5, y: 35}
+    - name: WIGGLYTUFF_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 35}
+        - {x: -18.5, y: 33}
+        - {x: -24.5, y: 30}
+        - {x: -24.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 14}
+        - {x: 20.5, y: 35}
+    - name: WIGGLYTUFF_33
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 210
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 35}
+        - {x: -24.5, y: -33}
+        - {x: -20.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 28.5, y: -24}
+        - {x: 28.5, y: 9}
+        - {x: 22.5, y: 35}
+    - name: WIGGLYTUFF_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 210
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 35}
+        - {x: -24.5, y: -27}
+        - {x: -20.5, y: -35}
+        - {x: 24.5, y: -35}
+        - {x: 28.5, y: -22}
+        - {x: 28.5, y: 12}
+        - {x: 22.5, y: 35}
+    - name: WIGGLYTUFF_35
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 210
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 35}
+        - {x: 2.5, y: 35}
+        - {x: -24.5, y: 28}
+        - {x: -24.5, y: -23}
+        - {x: -19.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -28}
+        - {x: 28.5, y: 13}
+        - {x: 24.5, y: 34}
+    - name: WIGGLYTUFF_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 210
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 35}
+        - {x: -24.5, y: 33}
+        - {x: -24.5, y: -22}
+        - {x: -16.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -21}
+        - {x: 28.5, y: 6}
+        - {x: 24.5, y: 35}
+    - name: WIGGLYTUFF_37
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 210
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 35}
+        - {x: -24.5, y: 29}
+        - {x: -24.5, y: -25}
+        - {x: -20.5, y: -35}
+        - {x: 24.5, y: -35}
+        - {x: 28.5, y: -27}
+        - {x: 28.5, y: 22}
+        - {x: 24.5, y: 35}
+    - name: WIGGLYTUFF_38
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 210
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 34}
+        - {x: -24.5, y: 30}
+        - {x: -24.5, y: -29}
+        - {x: -23.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 30}
+        - {x: 26.5, y: 34}
+    - name: WIGGLYTUFF_39
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 210
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 34}
+        - {x: -24.5, y: 20}
+        - {x: -24.5, y: -33}
+        - {x: -23.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -22}
+        - {x: 28.5, y: 34}
+    - name: WIGGLYTUFF_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 34}
+        - {x: -19.5, y: 30}
+        - {x: -24.5, y: 29}
+        - {x: -24.5, y: -25}
+        - {x: -23.5, y: -35}
+        - {x: 24.5, y: -35}
+        - {x: 28.5, y: -29}
+        - {x: 28.5, y: 28}
+        - {x: 27.5, y: 34}
+    - name: WIGGLYTUFF_41
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 140
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 34}
+        - {x: 14.5, y: 34}
+        - {x: -12.5, y: 31}
+        - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -19.5, y: -33}
+        - {x: -12.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -25}
+        - {x: 28.5, y: 12}
+    - name: WIGGLYTUFF_42
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 140
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 34}
+        - {x: -23.5, y: -25}
+        - {x: -13.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 28.5, y: -24}
+        - {x: 28.5, y: 34}
+    - name: WIGGLYTUFF_43
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 140
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 34}
+        - {x: -23.5, y: -32}
+        - {x: -15.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 34}
+    - name: WIGGLYTUFF_44
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 140
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33}
+        - {x: -24.5, y: -29}
+        - {x: -15.5, y: -35}
+        - {x: 27.5, y: -35}
+        - {x: 28.5, y: -29}
+        - {x: 28.5, y: 28}
+        - {x: 27.5, y: 33}
+    - name: WIGGLYTUFF_45
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 140
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 33}
+        - {x: -25.5, y: -23}
+        - {x: -11.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 28.5, y: -13}
+        - {x: 28.5, y: 33}
+    - name: WIGGLYTUFF_46
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 140
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 32}
+        - {x: -26.5, y: -18}
+        - {x: -15.5, y: -35}
+        - {x: 27.5, y: -35}
+        - {x: 28.5, y: -33}
+        - {x: 28.5, y: 25}
+        - {x: 23.5, y: 32}
+    - name: WIGGLYTUFF_47
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 140
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 32}
+        - {x: -26.5, y: -17}
+        - {x: -19.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 32}
+    - name: WIGGLYTUFF_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 32}
+        - {x: -27.5, y: 5}
+        - {x: -20.5, y: -33}
+        - {x: -18.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 31}
+        - {x: 26.5, y: 32}
+    - name: WIGGLYTUFF_49
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 70
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 33}
+        - {x: -27.5, y: -18}
+        - {x: -25.5, y: -35}
+        - {x: 26.5, y: -35}
+        - {x: 28.5, y: -28}
+        - {x: 28.5, y: 24}
+        - {x: 25.5, y: 33}
+    - name: WIGGLYTUFF_50
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 70
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 33}
+        - {x: -27.5, y: 32}
+        - {x: -27.5, y: 24}
+        - {x: -26.5, y: 21}
+        - {x: -26.5, y: -11}
+        - {x: -17.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 33}
+    - name: WIGGLYTUFF_51
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 70
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 33}
+        - {x: -27.5, y: -25}
+        - {x: -14.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 30}
+        - {x: 26.5, y: 33}
+    - name: WIGGLYTUFF_52
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 70
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 33}
+        - {x: -27.5, y: -13}
+        - {x: -26.5, y: -21}
+        - {x: -11.5, y: -35}
+        - {x: 27.5, y: -35}
+        - {x: 28.5, y: -29}
+        - {x: 28.5, y: 27}
+        - {x: 26.5, y: 33}
+    - name: WIGGLYTUFF_53
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 70
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 33}
+        - {x: -27.5, y: -21}
+        - {x: -13.5, y: -35}
+        - {x: 27.5, y: -35}
+        - {x: 28.5, y: -29}
+        - {x: 28.5, y: 23}
+        - {x: 24.5, y: 33}
+    - name: WIGGLYTUFF_54
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 70
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33}
+        - {x: -27.5, y: 32}
+        - {x: -27.5, y: -19}
+        - {x: -12.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 33}
+    - name: WIGGLYTUFF_55
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 70
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 33}
+        - {x: -26.5, y: 33}
+        - {x: -26.5, y: -28}
+        - {x: -19.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 28.5, y: -16}
+        - {x: 28.5, y: 8}
+        - {x: 20.5, y: 32}
+    - name: WIGGLYTUFF_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 33}
+        - {x: -23.5, y: 33}
+        - {x: -26.5, y: 32}
+        - {x: -26.5, y: -17}
+        - {x: -17.5, y: -35}
+        - {x: 25.5, y: -35}
+        - {x: 28.5, y: -24}
+        - {x: 28.5, y: 13}
+        - {x: 19.5, y: 31}
+    - name: WIGGLYTUFF_57
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 33}
+        - {x: -25.5, y: -23}
+        - {x: -20.5, y: -35}
+        - {x: 23.5, y: -35}
+        - {x: 28.5, y: -15}
+        - {x: 28.5, y: 15}
+        - {x: 24.5, y: 33}
+    - name: WIGGLYTUFF_58
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 57
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33}
+        - {x: -24.5, y: -29}
+        - {x: -18.5, y: -35}
+        - {x: 28.5, y: -35}
+        - {x: 28.5, y: 33}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

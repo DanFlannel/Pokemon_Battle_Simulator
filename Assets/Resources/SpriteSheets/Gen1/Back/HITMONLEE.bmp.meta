@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 72fb00d16e3b41c46adc1cb1092843ed
+timeCreated: 1452888563
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HITMONLEE_0
+    21300002: HITMONLEE_1
+    21300004: HITMONLEE_2
+    21300006: HITMONLEE_3
+    21300008: HITMONLEE_4
+    21300010: HITMONLEE_5
+    21300012: HITMONLEE_6
+    21300014: HITMONLEE_7
+    21300016: HITMONLEE_8
+    21300018: HITMONLEE_9
+    21300020: HITMONLEE_10
+    21300022: HITMONLEE_11
+    21300024: HITMONLEE_12
+    21300026: HITMONLEE_13
+    21300028: HITMONLEE_14
+    21300030: HITMONLEE_15
+    21300032: HITMONLEE_16
+    21300034: HITMONLEE_17
+    21300036: HITMONLEE_18
+    21300038: HITMONLEE_19
+    21300040: HITMONLEE_20
+    21300042: HITMONLEE_21
+    21300044: HITMONLEE_22
+    21300046: HITMONLEE_23
+    21300048: HITMONLEE_24
+    21300050: HITMONLEE_25
+    21300052: HITMONLEE_26
+    21300054: HITMONLEE_27
+    21300056: HITMONLEE_28
+    21300058: HITMONLEE_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HITMONLEE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 20.5}
+        - {x: 11.5, y: 33.5}
+        - {x: -11.5, y: 33.5}
+        - {x: -18.5, y: 29.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 10.5, y: -33.5}
+        - {x: 11.5, y: -27.5}
+        - {x: 7.5, y: -25.5}
+        - {x: 18.5, y: -3.5}
+    - name: HITMONLEE_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 335
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 33.5}
+        - {x: -18.5, y: 32.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 10.5, y: -33.5}
+        - {x: 18.5, y: -29.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 335
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 33.5}
+        - {x: -18.5, y: 27.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 335
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 33.5}
+        - {x: -18.5, y: 27.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 335
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 33.5}
+        - {x: -13.5, y: 33.5}
+        - {x: -18.5, y: 27.5}
+        - {x: -18.5, y: -32.5}
+        - {x: -16.5, y: -33.5}
+        - {x: 15.5, y: -33.5}
+        - {x: 18.5, y: -27.5}
+        - {x: 18.5, y: 27.5}
+        - {x: 16.5, y: 32.5}
+    - name: HITMONLEE_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 335
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 33.5}
+        - {x: -18.5, y: 33.5}
+    - name: HITMONLEE_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 33.5}
+        - {x: -17.5, y: 33.5}
+        - {x: -18.5, y: 31.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 12.5, y: -33.5}
+        - {x: 18.5, y: -17.5}
+        - {x: 18.5, y: 18.5}
+        - {x: 15.5, y: 27.5}
+    - name: HITMONLEE_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 268
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 17.5}
+        - {x: 14.5, y: 33.5}
+        - {x: -13.5, y: 33.5}
+        - {x: -18.5, y: 27.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 7.5, y: -33.5}
+        - {x: 10.5, y: -31.5}
+        - {x: 11.5, y: -27.5}
+        - {x: 18.5, y: -10.5}
+    - name: HITMONLEE_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 268
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 33.5}
+        - {x: -17.5, y: 33.5}
+        - {x: -18.5, y: 30.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 17.5, y: -33.5}
+        - {x: 18.5, y: -19.5}
+        - {x: 18.5, y: 16.5}
+        - {x: 13.5, y: 32.5}
+    - name: HITMONLEE_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 268
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 32.5}
+        - {x: 8.5, y: 33.5}
+        - {x: -18.5, y: 33.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 7.5, y: -33.5}
+        - {x: 11.5, y: -31.5}
+        - {x: 18.5, y: -12.5}
+        - {x: 18.5, y: 24.5}
+    - name: HITMONLEE_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 268
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 33.5}
+        - {x: -18.5, y: 31.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 268
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 16.5}
+        - {x: 6.5, y: 33.5}
+        - {x: -13.5, y: 33.5}
+        - {x: -18.5, y: 31.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 9.5, y: -33.5}
+        - {x: 11.5, y: -27.5}
+        - {x: 18.5, y: -5.5}
+    - name: HITMONLEE_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 33.5}
+        - {x: -16.5, y: 33.5}
+        - {x: -18.5, y: 32.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 15.5, y: -33.5}
+        - {x: 18.5, y: -20.5}
+        - {x: 18.5, y: 17.5}
+        - {x: 16.5, y: 27.5}
+    - name: HITMONLEE_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 201
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 33.5}
+        - {x: -18.5, y: 33.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 10.5, y: -33.5}
+        - {x: 11.5, y: -27.5}
+        - {x: 18.5, y: -11.5}
+        - {x: 18.5, y: 24.5}
+    - name: HITMONLEE_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 201
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 14.5, y: -33.5}
+        - {x: 18.5, y: -15.5}
+        - {x: 18.5, y: 18.5}
+        - {x: 9.5, y: 33.5}
+    - name: HITMONLEE_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 201
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 33.5}
+        - {x: -13.5, y: 33.5}
+        - {x: -18.5, y: 28.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 11.5, y: -33.5}
+        - {x: 18.5, y: -17.5}
+        - {x: 18.5, y: 27.5}
+        - {x: 16.5, y: 30.5}
+    - name: HITMONLEE_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 201
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_17
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 201
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 15.5, y: -33.5}
+        - {x: 18.5, y: -20.5}
+        - {x: 18.5, y: 18.5}
+        - {x: 6.5, y: 33.5}
+    - name: HITMONLEE_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_19
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 134
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 134
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 33.5}
+        - {x: -13.5, y: 33.5}
+        - {x: -18.5, y: 26.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 25.5}
+        - {x: 15.5, y: 28.5}
+    - name: HITMONLEE_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 134
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 33.5}
+        - {x: -14.5, y: 33.5}
+        - {x: -18.5, y: 27.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 13.5, y: -33.5}
+        - {x: 18.5, y: -19.5}
+        - {x: 18.5, y: 26.5}
+        - {x: 13.5, y: 32.5}
+    - name: HITMONLEE_22
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 134
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 33.5}
+        - {x: -16.5, y: 33.5}
+        - {x: -18.5, y: 32.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 16.5, y: -33.5}
+        - {x: 18.5, y: -20.5}
+        - {x: 18.5, y: 19.5}
+    - name: HITMONLEE_23
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 134
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 33.5}
+        - {x: -18.5, y: 29.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 18.5, y: -33.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 67
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 33.5}
+        - {x: -18.5, y: 33.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 7.5, y: -33.5}
+        - {x: 11.5, y: -31.5}
+        - {x: 18.5, y: -17.5}
+    - name: HITMONLEE_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 67
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 33.5}
+        - {x: -14.5, y: 33.5}
+        - {x: -18.5, y: 32.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 15.5, y: -33.5}
+        - {x: 18.5, y: -14.5}
+        - {x: 18.5, y: 18.5}
+    - name: HITMONLEE_27
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 67
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 33.5}
+        - {x: -18.5, y: 29.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 10.5, y: -33.5}
+        - {x: 18.5, y: -26.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 67
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 33.5}
+        - {x: -18.5, y: 31.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 11.5, y: -33.5}
+        - {x: 18.5, y: -28.5}
+        - {x: 18.5, y: 33.5}
+    - name: HITMONLEE_29
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 67
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 20.5}
+        - {x: 11.5, y: 33.5}
+        - {x: -11.5, y: 33.5}
+        - {x: -18.5, y: 29.5}
+        - {x: -18.5, y: -33.5}
+        - {x: 10.5, y: -33.5}
+        - {x: 11.5, y: -27.5}
+        - {x: 7.5, y: -25.5}
+        - {x: 18.5, y: -3.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

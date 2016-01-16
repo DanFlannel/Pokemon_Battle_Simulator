@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: 487c9193bc0fd984e93367eabadd4f3c
+timeCreated: 1452888553
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HITMONCHAN_0
+    21300002: HITMONCHAN_1
+    21300004: HITMONCHAN_2
+    21300006: HITMONCHAN_3
+    21300008: HITMONCHAN_4
+    21300010: HITMONCHAN_5
+    21300012: HITMONCHAN_6
+    21300014: HITMONCHAN_7
+    21300016: HITMONCHAN_8
+    21300018: HITMONCHAN_9
+    21300020: HITMONCHAN_10
+    21300022: HITMONCHAN_11
+    21300024: HITMONCHAN_12
+    21300026: HITMONCHAN_13
+    21300028: HITMONCHAN_14
+    21300030: HITMONCHAN_15
+    21300032: HITMONCHAN_16
+    21300034: HITMONCHAN_17
+    21300036: HITMONCHAN_18
+    21300038: HITMONCHAN_19
+    21300040: HITMONCHAN_20
+    21300042: HITMONCHAN_21
+    21300044: HITMONCHAN_22
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HITMONCHAN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 33.5}
+        - {x: -21, y: 15.5}
+        - {x: -23, y: -10.5}
+        - {x: -23, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 33.5}
+    - name: HITMONCHAN_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 292
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 33.5}
+        - {x: -23, y: 19.5}
+        - {x: -23, y: -34.5}
+        - {x: -22, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 23.5}
+        - {x: 16, y: 33.5}
+    - name: HITMONCHAN_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 292
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 33.5}
+        - {x: -23, y: 19.5}
+        - {x: -23, y: -34.5}
+        - {x: -22, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 23.5}
+        - {x: 16, y: 33.5}
+    - name: HITMONCHAN_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 292
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 25.5}
+        - {x: 17, y: 34.5}
+        - {x: 1, y: 34.5}
+        - {x: -3, y: 32.5}
+        - {x: -20, y: 16.5}
+        - {x: -23, y: -6.5}
+        - {x: -23, y: -36.5}
+        - {x: -8, y: -36.5}
+        - {x: -8, y: -35.5}
+        - {x: -3, y: -36.5}
+        - {x: 26, y: -36.5}
+    - name: HITMONCHAN_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 292
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 25.5}
+        - {x: 17, y: 34.5}
+        - {x: 1, y: 34.5}
+        - {x: -3, y: 32.5}
+        - {x: -20, y: 16.5}
+        - {x: -23, y: -6.5}
+        - {x: -23, y: -36.5}
+        - {x: -8, y: -36.5}
+        - {x: -8, y: -35.5}
+        - {x: -3, y: -36.5}
+        - {x: 26, y: -36.5}
+    - name: HITMONCHAN_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 36.5}
+        - {x: -21, y: 25.5}
+        - {x: -23, y: 1.5}
+        - {x: -23, y: -34.5}
+        - {x: -21, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 24.5}
+        - {x: 16, y: 36.5}
+    - name: HITMONCHAN_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 219
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 36.5}
+        - {x: -23, y: 21.5}
+        - {x: -23, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 25.5}
+        - {x: 20, y: 36.5}
+    - name: HITMONCHAN_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 219
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 29.5}
+        - {x: 24, y: 36.5}
+        - {x: -24, y: 36.5}
+        - {x: -24, y: -36.5}
+        - {x: -14, y: -36.5}
+        - {x: -11, y: -33.5}
+        - {x: 0, y: -36.5}
+        - {x: 26, y: -36.5}
+    - name: HITMONCHAN_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 219
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 36.5}
+        - {x: -23, y: 19.5}
+        - {x: -25, y: 1.5}
+        - {x: -25, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 29.5}
+        - {x: 20, y: 36.5}
+    - name: HITMONCHAN_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 219
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 36.5}
+        - {x: -26, y: 18.5}
+        - {x: -26, y: -33.5}
+        - {x: -25, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 36.5}
+    - name: HITMONCHAN_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 24.5}
+        - {x: 19, y: 36.5}
+        - {x: -4, y: 36.5}
+        - {x: -26, y: 19.5}
+        - {x: -26, y: -36.5}
+        - {x: 25, y: -36.5}
+    - name: HITMONCHAN_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 146
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 35.5}
+        - {x: -25, y: 25.5}
+        - {x: -26, y: 18.5}
+        - {x: -26, y: -36.5}
+        - {x: 25, y: -36.5}
+        - {x: 25, y: 20.5}
+        - {x: 20, y: 35.5}
+    - name: HITMONCHAN_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 146
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -35.5}
+        - {x: 25, y: 15.5}
+        - {x: 13, y: 34.5}
+        - {x: -1, y: 34.5}
+        - {x: -26, y: 18.5}
+        - {x: -26, y: -36.5}
+        - {x: 24, y: -36.5}
+    - name: HITMONCHAN_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 146
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 35.5}
+        - {x: -26, y: 21.5}
+        - {x: -26, y: -36.5}
+        - {x: 25, y: -36.5}
+        - {x: 25, y: 25.5}
+        - {x: 15, y: 35.5}
+    - name: HITMONCHAN_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 146
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 23.5}
+        - {x: 12, y: 35.5}
+        - {x: -4, y: 35.5}
+        - {x: -26, y: 16.5}
+        - {x: -26, y: -36.5}
+        - {x: 26, y: -36.5}
+    - name: HITMONCHAN_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 36.5}
+        - {x: -24, y: 18.5}
+        - {x: -26, y: -0.5}
+        - {x: -26, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 17.5}
+        - {x: 11, y: 36.5}
+    - name: HITMONCHAN_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 73
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 36.5}
+        - {x: -23, y: 19.5}
+        - {x: -25, y: -6.5}
+        - {x: -25, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 29.5}
+        - {x: 18, y: 36.5}
+    - name: HITMONCHAN_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 73
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 36.5}
+        - {x: -24, y: 18.5}
+        - {x: -24, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 26.5}
+        - {x: 14, y: 36.5}
+    - name: HITMONCHAN_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 73
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 23.5}
+        - {x: 16, y: 36.5}
+        - {x: 0, y: 36.5}
+        - {x: -21, y: 18.5}
+        - {x: -24, y: -2.5}
+        - {x: -24, y: -34.5}
+        - {x: -23, y: -36.5}
+        - {x: 26, y: -36.5}
+    - name: HITMONCHAN_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 73
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 27.5}
+        - {x: 16, y: 36.5}
+        - {x: 1, y: 36.5}
+        - {x: -23, y: 19.5}
+        - {x: -23, y: -36.5}
+        - {x: 26, y: -36.5}
+    - name: HITMONCHAN_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 35.5}
+        - {x: -23, y: 22.5}
+        - {x: -23, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 21.5}
+        - {x: 18, y: 35.5}
+    - name: HITMONCHAN_21
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 34.5}
+        - {x: -19, y: 15.5}
+        - {x: -23, y: -17.5}
+        - {x: -23, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 24.5}
+        - {x: 15, y: 34.5}
+    - name: HITMONCHAN_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 33.5}
+        - {x: -21, y: 15.5}
+        - {x: -23, y: -10.5}
+        - {x: -23, y: -36.5}
+        - {x: 26, y: -36.5}
+        - {x: 26, y: 33.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1682 @@
+fileFormatVersion: 2
+guid: 0b681faa221387b46b8aeeb0d64b5fab
+timeCreated: 1452890207
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: OMASTAR_0
+    21300002: OMASTAR_1
+    21300004: OMASTAR_2
+    21300006: OMASTAR_3
+    21300008: OMASTAR_4
+    21300010: OMASTAR_5
+    21300012: OMASTAR_6
+    21300014: OMASTAR_7
+    21300016: OMASTAR_8
+    21300018: OMASTAR_9
+    21300020: OMASTAR_10
+    21300022: OMASTAR_11
+    21300024: OMASTAR_12
+    21300026: OMASTAR_13
+    21300028: OMASTAR_14
+    21300030: OMASTAR_15
+    21300032: OMASTAR_16
+    21300034: OMASTAR_17
+    21300036: OMASTAR_18
+    21300038: OMASTAR_19
+    21300040: OMASTAR_20
+    21300042: OMASTAR_21
+    21300044: OMASTAR_22
+    21300046: OMASTAR_23
+    21300048: OMASTAR_24
+    21300050: OMASTAR_25
+    21300052: OMASTAR_26
+    21300054: OMASTAR_27
+    21300056: OMASTAR_28
+    21300058: OMASTAR_29
+    21300060: OMASTAR_30
+    21300062: OMASTAR_31
+    21300064: OMASTAR_32
+    21300066: OMASTAR_33
+    21300068: OMASTAR_34
+    21300070: OMASTAR_35
+    21300072: OMASTAR_36
+    21300074: OMASTAR_37
+    21300076: OMASTAR_38
+    21300078: OMASTAR_39
+    21300080: OMASTAR_40
+    21300082: OMASTAR_41
+    21300084: OMASTAR_42
+    21300086: OMASTAR_43
+    21300088: OMASTAR_44
+    21300090: OMASTAR_45
+    21300092: OMASTAR_46
+    21300094: OMASTAR_47
+    21300096: OMASTAR_48
+    21300098: OMASTAR_49
+    21300100: OMASTAR_50
+    21300102: OMASTAR_51
+    21300104: OMASTAR_52
+    21300106: OMASTAR_53
+    21300108: OMASTAR_54
+    21300110: OMASTAR_55
+    21300112: OMASTAR_56
+    21300114: OMASTAR_57
+    21300116: OMASTAR_58
+    21300118: OMASTAR_59
+    21300120: OMASTAR_60
+    21300122: OMASTAR_61
+    21300124: OMASTAR_62
+    21300126: OMASTAR_63
+    21300128: OMASTAR_64
+    21300130: OMASTAR_65
+    21300132: OMASTAR_66
+    21300134: OMASTAR_67
+    21300136: OMASTAR_68
+    21300138: OMASTAR_69
+    21300140: OMASTAR_70
+    21300142: OMASTAR_71
+    21300144: OMASTAR_72
+    21300146: OMASTAR_73
+    21300148: OMASTAR_74
+    21300150: OMASTAR_75
+    21300152: OMASTAR_76
+    21300154: OMASTAR_77
+    21300156: OMASTAR_78
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: OMASTAR_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 20.5}
+        - {x: 5.5, y: 31.5}
+        - {x: -26.5, y: 31.5}
+        - {x: -35.5, y: 23.5}
+        - {x: -35.5, y: -20.5}
+        - {x: -28.5, y: -31.5}
+        - {x: 34.5, y: -31.5}
+        - {x: 34.5, y: 3.5}
+        - {x: 17.5, y: 20.5}
+    - name: OMASTAR_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 504
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: -19.5}
+        - {x: 31.5, y: -2.5}
+        - {x: 19.5, y: 24.5}
+        - {x: 11.5, y: 31.5}
+        - {x: -33.5, y: 31.5}
+        - {x: -35.5, y: 19.5}
+        - {x: -35.5, y: -13.5}
+        - {x: -27.5, y: -25.5}
+        - {x: -19.5, y: -31.5}
+        - {x: 26.5, y: -31.5}
+        - {x: 33.5, y: -30.5}
+        - {x: 34.5, y: -27.5}
+        - {x: 34.5, y: -21.5}
+        - {x: 33.5, y: -18.5}
+    - name: OMASTAR_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 504
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31.5}
+        - {x: -35.5, y: 21.5}
+        - {x: -35.5, y: -13.5}
+        - {x: -30.5, y: -30.5}
+        - {x: -29.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 3.5}
+        - {x: 12.5, y: 31.5}
+    - name: OMASTAR_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 504
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 14.5}
+        - {x: 13.5, y: 31.5}
+    - name: OMASTAR_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 504
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 31.5}
+        - {x: -28.5, y: 31.5}
+        - {x: -35.5, y: 20.5}
+        - {x: -35.5, y: -25.5}
+        - {x: -29.5, y: -31.5}
+        - {x: 32.5, y: -31.5}
+        - {x: 34.5, y: -30.5}
+        - {x: 35.5, y: -29.5}
+        - {x: 35.5, y: 16.5}
+    - name: OMASTAR_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 504
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 31.5}
+        - {x: -35.5, y: 11.5}
+        - {x: -35.5, y: -17.5}
+        - {x: -29.5, y: -26.5}
+        - {x: -18.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 9.5}
+        - {x: 15.5, y: 31.5}
+    - name: OMASTAR_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 504
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 31.5}
+        - {x: -35.5, y: 28.5}
+        - {x: -35.5, y: -23.5}
+        - {x: -32.5, y: -30.5}
+        - {x: -21.5, y: -21.5}
+        - {x: -18.5, y: -21.5}
+        - {x: -22.5, y: -22.5}
+        - {x: -25.5, y: -25.5}
+        - {x: -24.5, y: -28.5}
+        - {x: -17.5, y: -31.5}
+        - {x: 31.5, y: -31.5}
+        - {x: 35.5, y: -29.5}
+        - {x: 35.5, y: 5.5}
+        - {x: 14.5, y: 31.5}
+    - name: OMASTAR_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 504
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 31.5}
+        - {x: -35.5, y: 15.5}
+        - {x: -35.5, y: -19.5}
+        - {x: -23.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 1.5}
+        - {x: 13.5, y: 31.5}
+    - name: OMASTAR_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 504
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 20.5}
+        - {x: -35.5, y: -14.5}
+        - {x: -32.5, y: -30.5}
+        - {x: -29.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 7.5}
+        - {x: 27.5, y: 31.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -30.5, y: 28.5}
+    - name: OMASTAR_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 31.5}
+        - {x: -35.5, y: 16.5}
+        - {x: -35.5, y: -23.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 3.5}
+        - {x: 12.5, y: 31.5}
+    - name: OMASTAR_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 441
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 21.5}
+        - {x: 4.5, y: 31.5}
+        - {x: -28.5, y: 31.5}
+        - {x: -35.5, y: 14.5}
+        - {x: -35.5, y: -15.5}
+        - {x: -26.5, y: -27.5}
+        - {x: -19.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: -4.5}
+    - name: OMASTAR_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 441
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 31.5}
+        - {x: -33.5, y: 30.5}
+        - {x: -35.5, y: 22.5}
+        - {x: -35.5, y: -14.5}
+        - {x: -27.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 10.5}
+        - {x: 12.5, y: 31.5}
+    - name: OMASTAR_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 441
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 31.5}
+        - {x: -35.5, y: 20.5}
+        - {x: -35.5, y: -22.5}
+        - {x: -26.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 16.5}
+        - {x: 18.5, y: 31.5}
+    - name: OMASTAR_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 441
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 31.5}
+        - {x: -35.5, y: 15.5}
+        - {x: -35.5, y: -9.5}
+        - {x: -34.5, y: -11.5}
+        - {x: -26.5, y: -19.5}
+        - {x: -24.5, y: -25.5}
+        - {x: -21.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 3.5}
+        - {x: 18.5, y: 31.5}
+    - name: OMASTAR_14
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 441
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31.5}
+        - {x: -35.5, y: 23.5}
+        - {x: -35.5, y: -11.5}
+        - {x: -27.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 26.5}
+        - {x: 34.5, y: 31.5}
+    - name: OMASTAR_15
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 441
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -31.5}
+        - {x: 34.5, y: -31.5}
+        - {x: 35.5, y: -30.5}
+        - {x: 35.5, y: 4.5}
+        - {x: 26.5, y: 31.5}
+    - name: OMASTAR_16
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 441
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 31.5}
+        - {x: -28.5, y: 31.5}
+        - {x: -35.5, y: 20.5}
+        - {x: -35.5, y: -11.5}
+        - {x: -29.5, y: -25.5}
+        - {x: -21.5, y: -21.5}
+        - {x: -18.5, y: -21.5}
+        - {x: -20.5, y: -21.5}
+        - {x: -25.5, y: -25.5}
+        - {x: -21.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: -0.5}
+        - {x: 20.5, y: 22.5}
+    - name: OMASTAR_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 441
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31.5}
+        - {x: -32.5, y: 28.5}
+        - {x: -35.5, y: 12.5}
+        - {x: -35.5, y: -12.5}
+        - {x: -23.5, y: -31.5}
+        - {x: 33.5, y: -31.5}
+        - {x: 35.5, y: -30.5}
+        - {x: 35.5, y: 18.5}
+        - {x: 18.5, y: 31.5}
+    - name: OMASTAR_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 31.5}
+        - {x: -30.5, y: 25.5}
+        - {x: -35.5, y: 11.5}
+        - {x: -35.5, y: -9.5}
+        - {x: -21.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 5.5}
+        - {x: 30.5, y: 31.5}
+    - name: OMASTAR_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 378
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: -16.5}
+        - {x: -29.5, y: -31.5}
+        - {x: 34.5, y: -31.5}
+        - {x: 34.5, y: 0.5}
+        - {x: 27.5, y: 30.5}
+        - {x: 20.5, y: 31.5}
+        - {x: -25.5, y: 31.5}
+        - {x: -35.5, y: 21.5}
+    - name: OMASTAR_20
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 378
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 31.5}
+        - {x: -35.5, y: 24.5}
+        - {x: -35.5, y: -12.5}
+        - {x: -25.5, y: -31.5}
+        - {x: 34.5, y: -31.5}
+        - {x: 34.5, y: 4.5}
+        - {x: 25.5, y: 31.5}
+    - name: OMASTAR_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 378
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31.5}
+        - {x: -35.5, y: 20.5}
+        - {x: -35.5, y: -24.5}
+        - {x: -30.5, y: -31.5}
+        - {x: 33.5, y: -31.5}
+        - {x: 33.5, y: 12.5}
+        - {x: 17.5, y: 31.5}
+    - name: OMASTAR_22
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 378
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 31.5}
+        - {x: -35.5, y: 30.5}
+        - {x: -35.5, y: -21.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 32.5, y: -31.5}
+        - {x: 32.5, y: 16.5}
+        - {x: 12.5, y: 31.5}
+    - name: OMASTAR_23
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 378
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 31.5}
+        - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -21.5}
+        - {x: -24.5, y: -31.5}
+        - {x: 32.5, y: -31.5}
+        - {x: 32.5, y: 7.5}
+        - {x: 23.5, y: 25.5}
+    - name: OMASTAR_24
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 378
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: -15.5}
+        - {x: -25.5, y: -31.5}
+        - {x: 32.5, y: -31.5}
+        - {x: 32.5, y: 21.5}
+        - {x: 30.5, y: 29.5}
+        - {x: 20.5, y: 31.5}
+        - {x: -27.5, y: 31.5}
+        - {x: -35.5, y: 30.5}
+    - name: OMASTAR_25
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 378
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 31.5}
+        - {x: -35.5, y: 27.5}
+        - {x: -35.5, y: -14.5}
+        - {x: -20.5, y: -31.5}
+        - {x: 31.5, y: -31.5}
+        - {x: 31.5, y: 31.5}
+    - name: OMASTAR_26
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 378
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 31.5}
+        - {x: -27.5, y: 31.5}
+        - {x: -34.5, y: 27.5}
+        - {x: -35.5, y: 21.5}
+        - {x: -35.5, y: -16.5}
+        - {x: -23.5, y: -31.5}
+        - {x: 31.5, y: -31.5}
+        - {x: 31.5, y: -8.5}
+        - {x: 25.5, y: 28.5}
+    - name: OMASTAR_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 31.5}
+        - {x: -28.5, y: 31.5}
+        - {x: -35.5, y: 24.5}
+        - {x: -35.5, y: -16.5}
+        - {x: -23.5, y: -31.5}
+        - {x: 31.5, y: -31.5}
+        - {x: 31.5, y: 6.5}
+        - {x: 25.5, y: 27.5}
+    - name: OMASTAR_28
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 315
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 31.5}
+        - {x: -34.5, y: 31.5}
+        - {x: -35.5, y: 28.5}
+        - {x: -35.5, y: -12.5}
+        - {x: -18.5, y: -30.5}
+        - {x: -5.5, y: -31.5}
+        - {x: 23.5, y: -31.5}
+        - {x: 31.5, y: -29.5}
+        - {x: 31.5, y: 3.5}
+        - {x: 29.5, y: 29.5}
+    - name: OMASTAR_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 315
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 31.5}
+        - {x: -31.5, y: 31.5}
+        - {x: -35.5, y: 26.5}
+        - {x: -35.5, y: -28.5}
+        - {x: -29.5, y: -31.5}
+        - {x: 30.5, y: -31.5}
+        - {x: 30.5, y: 1.5}
+        - {x: 24.5, y: 26.5}
+    - name: OMASTAR_30
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 315
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 31.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -27.5, y: 28.5}
+        - {x: -35.5, y: 10.5}
+        - {x: -35.5, y: -12.5}
+        - {x: -24.5, y: -31.5}
+        - {x: 30.5, y: -31.5}
+        - {x: 30.5, y: 9.5}
+        - {x: 26.5, y: 27.5}
+    - name: OMASTAR_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 315
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -19.5}
+        - {x: -20.5, y: -31.5}
+        - {x: 30.5, y: -31.5}
+        - {x: 30.5, y: 22.5}
+        - {x: 18.5, y: 31.5}
+    - name: OMASTAR_32
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 315
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 31.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -30.5, y: 26.5}
+        - {x: -35.5, y: 12.5}
+        - {x: -35.5, y: -10.5}
+        - {x: -21.5, y: -30.5}
+        - {x: -18.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 29.5, y: -28.5}
+        - {x: 30.5, y: -27.5}
+        - {x: 30.5, y: -7.5}
+        - {x: 21.5, y: 28.5}
+    - name: OMASTAR_33
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 315
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 24.5}
+        - {x: 8.5, y: 31.5}
+        - {x: -33.5, y: 31.5}
+        - {x: -35.5, y: 27.5}
+        - {x: -35.5, y: -26.5}
+        - {x: -25.5, y: -31.5}
+        - {x: 30.5, y: -31.5}
+        - {x: 30.5, y: -8.5}
+        - {x: 27.5, y: 3.5}
+    - name: OMASTAR_34
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 315
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 31.5}
+        - {x: -32.5, y: 31.5}
+        - {x: -35.5, y: 16.5}
+        - {x: -35.5, y: -14.5}
+        - {x: -20.5, y: -31.5}
+        - {x: 30.5, y: -31.5}
+        - {x: 30.5, y: 1.5}
+        - {x: 22.5, y: 22.5}
+    - name: OMASTAR_35
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 315
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 31.5}
+        - {x: -35.5, y: 12.5}
+        - {x: -35.5, y: -16.5}
+        - {x: -25.5, y: -30.5}
+        - {x: -21.5, y: -31.5}
+        - {x: 30.5, y: -31.5}
+        - {x: 30.5, y: 13.5}
+        - {x: 14.5, y: 31.5}
+    - name: OMASTAR_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -27.5}
+        - {x: -26.5, y: -31.5}
+        - {x: 30.5, y: -31.5}
+        - {x: 30.5, y: 31.5}
+    - name: OMASTAR_37
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 252
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 23.5}
+        - {x: 3.5, y: 31.5}
+        - {x: -28.5, y: 31.5}
+        - {x: -35.5, y: 14.5}
+        - {x: -35.5, y: -17.5}
+        - {x: -24.5, y: -30.5}
+        - {x: -20.5, y: -31.5}
+        - {x: 28.5, y: -31.5}
+        - {x: 30.5, y: -30.5}
+        - {x: 30.5, y: 8.5}
+        - {x: 20.5, y: 22.5}
+    - name: OMASTAR_38
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 252
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 31.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -29.5, y: 24.5}
+        - {x: -35.5, y: 8.5}
+        - {x: -35.5, y: -10.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 24.5, y: -31.5}
+        - {x: 30.5, y: -27.5}
+        - {x: 30.5, y: 7.5}
+        - {x: 27.5, y: 28.5}
+    - name: OMASTAR_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 252
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31.5}
+        - {x: -35.5, y: 20.5}
+        - {x: -35.5, y: -26.5}
+        - {x: -26.5, y: -31.5}
+        - {x: 30.5, y: -31.5}
+        - {x: 30.5, y: 31.5}
+    - name: OMASTAR_40
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 252
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -22.5}
+        - {x: -25.5, y: -31.5}
+        - {x: 29.5, y: -31.5}
+        - {x: 30.5, y: -27.5}
+        - {x: 30.5, y: 19.5}
+        - {x: 27.5, y: 31.5}
+    - name: OMASTAR_41
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 252
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 31.5}
+        - {x: -29.5, y: 26.5}
+        - {x: -35.5, y: 16.5}
+        - {x: -35.5, y: -11.5}
+        - {x: -26.5, y: -30.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 25.5, y: -31.5}
+        - {x: 31.5, y: -25.5}
+        - {x: 31.5, y: 17.5}
+        - {x: 10.5, y: 31.5}
+    - name: OMASTAR_42
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 252
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 15.5}
+        - {x: -35.5, y: -28.5}
+        - {x: -33.5, y: -31.5}
+        - {x: 31.5, y: -31.5}
+        - {x: 32.5, y: -30.5}
+        - {x: 32.5, y: 4.5}
+        - {x: 23.5, y: 25.5}
+        - {x: 4.5, y: 31.5}
+        - {x: -26.5, y: 31.5}
+        - {x: -32.5, y: 28.5}
+    - name: OMASTAR_43
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 252
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 31.5}
+        - {x: -35.5, y: 17.5}
+        - {x: -35.5, y: -19.5}
+        - {x: -24.5, y: -31.5}
+        - {x: 23.5, y: -31.5}
+        - {x: 33.5, y: -23.5}
+        - {x: 33.5, y: 4.5}
+        - {x: 29.5, y: 31.5}
+    - name: OMASTAR_44
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 252
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: -21.5}
+        - {x: -30.5, y: -31.5}
+        - {x: 33.5, y: -31.5}
+        - {x: 33.5, y: 31.5}
+        - {x: -31.5, y: 31.5}
+        - {x: -35.5, y: 25.5}
+    - name: OMASTAR_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -28.5, y: 25.5}
+        - {x: -35.5, y: 13.5}
+        - {x: -35.5, y: -21.5}
+        - {x: -25.5, y: -31.5}
+        - {x: 34.5, y: -31.5}
+        - {x: 34.5, y: 31.5}
+    - name: OMASTAR_46
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 189
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 31.5}
+        - {x: -29.5, y: 31.5}
+        - {x: -35.5, y: 15.5}
+        - {x: -35.5, y: -16.5}
+        - {x: -26.5, y: -31.5}
+        - {x: 27.5, y: -31.5}
+        - {x: 35.5, y: -16.5}
+        - {x: 35.5, y: 9.5}
+        - {x: 21.5, y: 23.5}
+    - name: OMASTAR_47
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 189
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 31.5}
+        - {x: -27.5, y: 31.5}
+        - {x: -31.5, y: 28.5}
+        - {x: -35.5, y: 13.5}
+        - {x: -35.5, y: -23.5}
+        - {x: -31.5, y: -31.5}
+        - {x: 31.5, y: -31.5}
+        - {x: 35.5, y: -20.5}
+        - {x: 35.5, y: 9.5}
+        - {x: 25.5, y: 28.5}
+    - name: OMASTAR_48
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 189
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 23.5}
+        - {x: 11.5, y: 31.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -26.5, y: 30.5}
+        - {x: -35.5, y: 11.5}
+        - {x: -35.5, y: -9.5}
+        - {x: -33.5, y: -14.5}
+        - {x: -25.5, y: -31.5}
+        - {x: 23.5, y: -31.5}
+        - {x: 28.5, y: -24.5}
+        - {x: 35.5, y: -13.5}
+        - {x: 35.5, y: 8.5}
+    - name: OMASTAR_49
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 189
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 31.5}
+        - {x: -33.5, y: 28.5}
+        - {x: -35.5, y: 10.5}
+        - {x: -35.5, y: -14.5}
+        - {x: -24.5, y: -31.5}
+        - {x: 26.5, y: -31.5}
+        - {x: 35.5, y: -25.5}
+        - {x: 35.5, y: 9.5}
+        - {x: 18.5, y: 31.5}
+    - name: OMASTAR_50
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 189
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 31.5}
+        - {x: -28.5, y: 31.5}
+        - {x: -35.5, y: 11.5}
+        - {x: -35.5, y: -15.5}
+        - {x: -24.5, y: -31.5}
+        - {x: 24.5, y: -31.5}
+        - {x: 30.5, y: -26.5}
+        - {x: 35.5, y: -20.5}
+        - {x: 35.5, y: 19.5}
+    - name: OMASTAR_51
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 189
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 31.5}
+        - {x: -35.5, y: 21.5}
+        - {x: -35.5, y: -12.5}
+        - {x: -27.5, y: -31.5}
+        - {x: 29.5, y: -31.5}
+        - {x: 35.5, y: -27.5}
+        - {x: 35.5, y: 25.5}
+        - {x: 33.5, y: 31.5}
+    - name: OMASTAR_52
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 189
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 31.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -35.5, y: 14.5}
+        - {x: -35.5, y: -15.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 35.5, y: -31.5}
+        - {x: 35.5, y: 31.5}
+    - name: OMASTAR_53
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 189
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 31.5}
+        - {x: -25.5, y: 31.5}
+        - {x: -28.5, y: 29.5}
+        - {x: -35.5, y: 9.5}
+        - {x: -35.5, y: -15.5}
+        - {x: -28.5, y: -31.5}
+        - {x: 24.5, y: -31.5}
+        - {x: 35.5, y: -12.5}
+        - {x: 35.5, y: -1.5}
+        - {x: 24.5, y: 25.5}
+    - name: OMASTAR_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 31.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -35.5, y: 12.5}
+        - {x: -35.5, y: -13.5}
+        - {x: -26.5, y: -21.5}
+        - {x: -21.5, y: -22.5}
+        - {x: -18.5, y: -22.5}
+        - {x: -20.5, y: -22.5}
+        - {x: -24.5, y: -25.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 23.5, y: -31.5}
+        - {x: 35.5, y: -19.5}
+        - {x: 35.5, y: 3.5}
+        - {x: 25.5, y: 28.5}
+    - name: OMASTAR_55
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 126
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -17.5}
+        - {x: -27.5, y: -31.5}
+        - {x: 24.5, y: -31.5}
+        - {x: 35.5, y: -20.5}
+        - {x: 35.5, y: 31.5}
+    - name: OMASTAR_56
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 126
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31.5}
+        - {x: -35.5, y: 30.5}
+        - {x: -35.5, y: -12.5}
+        - {x: -21.5, y: -31.5}
+        - {x: 21.5, y: -31.5}
+        - {x: 35.5, y: -12.5}
+        - {x: 35.5, y: 5.5}
+        - {x: 15.5, y: 31.5}
+    - name: OMASTAR_57
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 126
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 31.5}
+        - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -17.5}
+        - {x: -21.5, y: -31.5}
+        - {x: 20.5, y: -31.5}
+        - {x: 35.5, y: -20.5}
+        - {x: 35.5, y: 2.5}
+        - {x: 29.5, y: 9.5}
+    - name: OMASTAR_58
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 126
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: -2.5}
+        - {x: 26.5, y: -2.5}
+        - {x: 18.5, y: 24.5}
+        - {x: 8.5, y: 31.5}
+        - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -23.5}
+        - {x: -30.5, y: -31.5}
+        - {x: 25.5, y: -31.5}
+        - {x: 33.5, y: -11.5}
+        - {x: 34.5, y: -8.5}
+        - {x: 34.5, y: -3.5}
+    - name: OMASTAR_59
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 126
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 31.5}
+        - {x: -34.5, y: 27.5}
+        - {x: -35.5, y: 19.5}
+        - {x: -35.5, y: -11.5}
+        - {x: -20.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 9.5}
+        - {x: 16.5, y: 31.5}
+    - name: OMASTAR_60
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 126
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 31.5}
+        - {x: -23.5, y: 31.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -35.5, y: 14.5}
+        - {x: -35.5, y: -14.5}
+        - {x: -19.5, y: -31.5}
+        - {x: 20.5, y: -31.5}
+        - {x: 33.5, y: -8.5}
+        - {x: 33.5, y: 3.5}
+        - {x: 14.5, y: 28.5}
+    - name: OMASTAR_61
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 126
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 31.5}
+        - {x: -25.5, y: 31.5}
+        - {x: -35.5, y: 19.5}
+        - {x: -35.5, y: -15.5}
+        - {x: -25.5, y: -31.5}
+        - {x: 23.5, y: -31.5}
+        - {x: 32.5, y: -7.5}
+        - {x: 32.5, y: 2.5}
+        - {x: 24.5, y: 24.5}
+    - name: OMASTAR_62
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 126
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 31.5}
+        - {x: -35.5, y: 30.5}
+        - {x: -35.5, y: -21.5}
+        - {x: -18.5, y: -31.5}
+        - {x: 20.5, y: -31.5}
+        - {x: 31.5, y: -9.5}
+        - {x: 31.5, y: 13.5}
+        - {x: 15.5, y: 31.5}
+    - name: OMASTAR_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -22.5}
+        - {x: -19.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 30.5, y: -14.5}
+        - {x: 30.5, y: 12.5}
+        - {x: 12.5, y: 31.5}
+    - name: OMASTAR_64
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 63
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 31.5}
+        - {x: -33.5, y: 31.5}
+        - {x: -35.5, y: 30.5}
+        - {x: -35.5, y: -22.5}
+        - {x: -23.5, y: -31.5}
+        - {x: 21.5, y: -31.5}
+        - {x: 29.5, y: -9.5}
+        - {x: 29.5, y: 11.5}
+        - {x: 24.5, y: 24.5}
+    - name: OMASTAR_65
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 63
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 31.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -34.5, y: 27.5}
+        - {x: -35.5, y: 20.5}
+        - {x: -35.5, y: -13.5}
+        - {x: -18.5, y: -31.5}
+        - {x: 21.5, y: -31.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 28.5, y: 5.5}
+        - {x: 25.5, y: 24.5}
+    - name: OMASTAR_66
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 63
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -24.5}
+        - {x: -19.5, y: -31.5}
+        - {x: 25.5, y: -31.5}
+        - {x: 27.5, y: -26.5}
+        - {x: 27.5, y: 24.5}
+        - {x: 21.5, y: 31.5}
+    - name: OMASTAR_67
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 63
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -26.5}
+        - {x: -20.5, y: -31.5}
+        - {x: 28.5, y: -31.5}
+        - {x: 28.5, y: 31.5}
+    - name: OMASTAR_68
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 63
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 31.5}
+        - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -25.5}
+        - {x: -24.5, y: -31.5}
+        - {x: 23.5, y: -31.5}
+        - {x: 28.5, y: -21.5}
+        - {x: 28.5, y: -2.5}
+        - {x: 23.5, y: 25.5}
+    - name: OMASTAR_69
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 63
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 31.5}
+        - {x: -21.5, y: 31.5}
+        - {x: -33.5, y: 28.5}
+        - {x: -35.5, y: 24.5}
+        - {x: -35.5, y: -15.5}
+        - {x: -26.5, y: -31.5}
+        - {x: 25.5, y: -31.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 28.5, y: 5.5}
+        - {x: 24.5, y: 21.5}
+    - name: OMASTAR_70
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 63
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 31.5}
+        - {x: -29.5, y: 25.5}
+        - {x: -35.5, y: 9.5}
+        - {x: -35.5, y: -11.5}
+        - {x: -24.5, y: -31.5}
+        - {x: 27.5, y: -31.5}
+        - {x: 29.5, y: -22.5}
+        - {x: 29.5, y: 26.5}
+        - {x: 15.5, y: 31.5}
+    - name: OMASTAR_71
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 63
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 31.5}
+        - {x: -25.5, y: 31.5}
+        - {x: -27.5, y: 30.5}
+        - {x: -35.5, y: 15.5}
+        - {x: -35.5, y: -16.5}
+        - {x: -32.5, y: -31.5}
+        - {x: 29.5, y: -31.5}
+        - {x: 29.5, y: 24.5}
+    - name: OMASTAR_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 31.5}
+        - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -20.5}
+        - {x: -21.5, y: -31.5}
+        - {x: 25.5, y: -31.5}
+        - {x: 30.5, y: -21.5}
+        - {x: 30.5, y: 4.5}
+        - {x: 24.5, y: 20.5}
+    - name: OMASTAR_73
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 31.5}
+        - {x: -33.5, y: 31.5}
+        - {x: -35.5, y: 23.5}
+        - {x: -35.5, y: -23.5}
+        - {x: -18.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 31.5, y: -20.5}
+        - {x: 31.5, y: 8.5}
+        - {x: 29.5, y: 23.5}
+    - name: OMASTAR_74
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 31.5}
+        - {x: -28.5, y: 31.5}
+        - {x: -35.5, y: 11.5}
+        - {x: -35.5, y: -21.5}
+        - {x: -30.5, y: -31.5}
+        - {x: 27.5, y: -31.5}
+        - {x: 31.5, y: -25.5}
+        - {x: 31.5, y: -11.5}
+        - {x: 27.5, y: 23.5}
+    - name: OMASTAR_75
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 31.5}
+        - {x: -35.5, y: -22.5}
+        - {x: -26.5, y: -31.5}
+        - {x: 32.5, y: -31.5}
+        - {x: 32.5, y: 26.5}
+        - {x: 21.5, y: 31.5}
+    - name: OMASTAR_76
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 31.5}
+        - {x: -18.5, y: 31.5}
+        - {x: -28.5, y: 26.5}
+        - {x: -35.5, y: 13.5}
+        - {x: -35.5, y: -26.5}
+        - {x: -21.5, y: -31.5}
+        - {x: 32.5, y: -31.5}
+        - {x: 32.5, y: -2.5}
+        - {x: 25.5, y: 27.5}
+    - name: OMASTAR_77
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: -19.5}
+        - {x: -26.5, y: -31.5}
+        - {x: 29.5, y: -31.5}
+        - {x: 33.5, y: -30.5}
+        - {x: 33.5, y: 9.5}
+        - {x: 28.5, y: 21.5}
+        - {x: 21.5, y: 31.5}
+        - {x: -26.5, y: 31.5}
+        - {x: -35.5, y: 27.5}
+    - name: OMASTAR_78
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: -3.5}
+        - {x: 20.5, y: -5.5}
+        - {x: 21.5, y: 0.5}
+        - {x: 25.5, y: 21.5}
+        - {x: 9.5, y: 31.5}
+        - {x: -34.5, y: 31.5}
+        - {x: -35.5, y: 29.5}
+        - {x: -35.5, y: -30.5}
+        - {x: -32.5, y: -31.5}
+        - {x: 33.5, y: -31.5}
+        - {x: 33.5, y: 2.5}
+        - {x: 23.5, y: -0.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

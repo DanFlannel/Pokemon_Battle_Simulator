@@ -1,0 +1,848 @@
+fileFormatVersion: 2
+guid: 8eb8354838c07c640bbc760827cf2b1e
+timeCreated: 1452882139
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: JOLTEON_0
+    21300002: JOLTEON_1
+    21300004: JOLTEON_2
+    21300006: JOLTEON_3
+    21300008: JOLTEON_4
+    21300010: JOLTEON_5
+    21300012: JOLTEON_6
+    21300014: JOLTEON_7
+    21300016: JOLTEON_8
+    21300018: JOLTEON_9
+    21300020: JOLTEON_10
+    21300022: JOLTEON_11
+    21300024: JOLTEON_12
+    21300026: JOLTEON_13
+    21300028: JOLTEON_14
+    21300030: JOLTEON_15
+    21300032: JOLTEON_16
+    21300034: JOLTEON_17
+    21300036: JOLTEON_18
+    21300038: JOLTEON_19
+    21300040: JOLTEON_20
+    21300042: JOLTEON_21
+    21300044: JOLTEON_22
+    21300046: JOLTEON_23
+    21300048: JOLTEON_24
+    21300050: JOLTEON_25
+    21300052: JOLTEON_26
+    21300054: JOLTEON_27
+    21300056: JOLTEON_28
+    21300058: JOLTEON_29
+    21300060: JOLTEON_30
+    21300062: JOLTEON_31
+    21300064: JOLTEON_32
+    21300066: JOLTEON_33
+    21300068: JOLTEON_34
+    21300070: JOLTEON_35
+    21300072: JOLTEON_36
+    21300074: JOLTEON_37
+    21300076: JOLTEON_38
+    21300078: JOLTEON_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: JOLTEON_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 31.5}
+        - {x: 1.5, y: 34.5}
+        - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -33.5}
+        - {x: -10.5, y: -25.5}
+        - {x: -11.5, y: -25.5}
+        - {x: -10.5, y: -26.5}
+        - {x: -11.5, y: -27.5}
+        - {x: -12.5, y: -31.5}
+        - {x: -6.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 9.5}
+        - {x: 14.5, y: 29.5}
+    - name: JOLTEON_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 414
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 13.5}
+        - {x: 18.5, y: 33.5}
+    - name: JOLTEON_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 414
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -12.5, y: -29.5}
+        - {x: -11.5, y: -26.5}
+        - {x: -12.5, y: -28.5}
+        - {x: -12.5, y: -29.5}
+        - {x: -9.5, y: -32.5}
+        - {x: -4.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 7.5}
+        - {x: 15.5, y: 33.5}
+    - name: JOLTEON_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 414
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 33.5}
+        - {x: -24.5, y: 32.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -12.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 15.5, y: 33.5}
+    - name: JOLTEON_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 414
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 31.5}
+        - {x: 3.5, y: 25.5}
+        - {x: -5.5, y: 24.5}
+        - {x: -8.5, y: 21.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 20.5, y: 30.5}
+    - name: JOLTEON_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 414
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 15.5, y: 34.5}
+    - name: JOLTEON_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 414
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 33.5}
+    - name: JOLTEON_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 33.5}
+        - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 20.5, y: 31.5}
+    - name: JOLTEON_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 345
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 26.5}
+        - {x: -7.5, y: 22.5}
+        - {x: -20.5, y: 33.5}
+        - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -11.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 16.5, y: 33.5}
+    - name: JOLTEON_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 345
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 33.5}
+        - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 11.5}
+        - {x: 18.5, y: 29.5}
+    - name: JOLTEON_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 345
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 33.5}
+        - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -14.5, y: -30.5}
+        - {x: -9.5, y: -32.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 1.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 18.5}
+        - {x: 18.5, y: 29.5}
+    - name: JOLTEON_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 345
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 25.5}
+        - {x: -7.5, y: 22.5}
+        - {x: -22.5, y: 33.5}
+        - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 9.5}
+        - {x: 15.5, y: 32.5}
+    - name: JOLTEON_12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 345
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 9.5}
+        - {x: 17.5, y: 33.5}
+    - name: JOLTEON_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 345
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 25.5}
+        - {x: -7.5, y: 22.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 16.5, y: 33.5}
+    - name: JOLTEON_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 25.5}
+        - {x: -7.5, y: 22.5}
+        - {x: -19.5, y: 31.5}
+        - {x: -22.5, y: 33.5}
+        - {x: -24.5, y: 32.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 0.5, y: -30.5}
+        - {x: 4.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 20.5}
+        - {x: 12.5, y: 30.5}
+    - name: JOLTEON_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 276
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 33.5}
+        - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -15.5}
+        - {x: -23.5, y: -17.5}
+        - {x: -21.5, y: -18.5}
+        - {x: -24.5, y: -24.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -1.5, y: -32.5}
+        - {x: 0.5, y: -30.5}
+        - {x: 4.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 24.5}
+        - {x: 20.5, y: 32.5}
+    - name: JOLTEON_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 276
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 33.5}
+        - {x: -23.5, y: 33.5}
+        - {x: -24.5, y: 32.5}
+        - {x: -24.5, y: -12.5}
+        - {x: -23.5, y: -17.5}
+        - {x: -21.5, y: -18.5}
+        - {x: -24.5, y: -24.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -13.5, y: -28.5}
+        - {x: -11.5, y: -27.5}
+        - {x: -12.5, y: -28.5}
+        - {x: -12.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 26.5}
+        - {x: 22.5, y: 33.5}
+        - {x: 17.5, y: 33.5}
+        - {x: -4.5, y: 25.5}
+        - {x: -7.5, y: 22.5}
+    - name: JOLTEON_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 276
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 33.5}
+        - {x: -24.5, y: 33.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -14.5, y: -30.5}
+        - {x: -7.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 12.5}
+        - {x: 14.5, y: 31.5}
+    - name: JOLTEON_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 276
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 28.5}
+        - {x: 21.5, y: 34.5}
+    - name: JOLTEON_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 276
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: -16.5, y: -34.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -12.5, y: -29.5}
+        - {x: -11.5, y: -26.5}
+        - {x: -12.5, y: -28.5}
+        - {x: -12.5, y: -29.5}
+        - {x: -10.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 18.5}
+        - {x: 14.5, y: 34.5}
+    - name: JOLTEON_20
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 276
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 21.5}
+        - {x: 17.5, y: 34.5}
+    - name: JOLTEON_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 34.5}
+        - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 13.5}
+        - {x: 14.5, y: 33.5}
+    - name: JOLTEON_22
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 207
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 34.5}
+        - {x: -24.5, y: 31.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 19.5, y: -34.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 24.5, y: 21.5}
+        - {x: 16.5, y: 34.5}
+    - name: JOLTEON_23
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 207
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 22.5, y: -34.5}
+        - {x: 24.5, y: -33.5}
+        - {x: 24.5, y: 11.5}
+        - {x: 15.5, y: 34.5}
+    - name: JOLTEON_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 207
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 34.5}
+    - name: JOLTEON_25
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 207
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 21.5, y: 34.5}
+    - name: JOLTEON_26
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 207
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 15.5, y: 34.5}
+    - name: JOLTEON_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 207
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 34.5}
+        - {x: -5.5, y: 24.5}
+        - {x: -8.5, y: 21.5}
+        - {x: -19.5, y: 34.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -24.5, y: 32.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 11.5}
+        - {x: 14.5, y: 34.5}
+    - name: JOLTEON_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 34.5}
+        - {x: -5.5, y: 24.5}
+        - {x: -8.5, y: 21.5}
+        - {x: -16.5, y: 33.5}
+        - {x: -18.5, y: 34.5}
+        - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 17.5}
+        - {x: 16.5, y: 34.5}
+    - name: JOLTEON_29
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 138
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 18.5}
+        - {x: 20.5, y: 34.5}
+        - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+    - name: JOLTEON_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 138
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 34.5}
+        - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 12.5, y: 33.5}
+    - name: JOLTEON_31
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 138
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 26.5}
+        - {x: 15.5, y: 34.5}
+    - name: JOLTEON_32
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 138
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 29.5}
+        - {x: 10.5, y: 34.5}
+    - name: JOLTEON_33
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 138
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 19.5}
+        - {x: 18.5, y: 34.5}
+    - name: JOLTEON_34
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 138
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 23.5, y: -34.5}
+        - {x: 24.5, y: -33.5}
+        - {x: 24.5, y: 12.5}
+        - {x: 13.5, y: 34.5}
+    - name: JOLTEON_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 34.5}
+        - {x: -22.5, y: 34.5}
+        - {x: -24.5, y: 32.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 23.5, y: -34.5}
+        - {x: 24.5, y: -33.5}
+        - {x: 24.5, y: 11.5}
+        - {x: 12.5, y: 31.5}
+    - name: JOLTEON_36
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 69
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 32.5}
+        - {x: 23.5, y: 34.5}
+    - name: JOLTEON_37
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 69
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 31.5}
+        - {x: 15.5, y: 34.5}
+    - name: JOLTEON_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 69
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 13.5, y: 34.5}
+    - name: JOLTEON_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 69
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 34.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 24.5, y: 12.5}
+        - {x: 21.5, y: 34.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

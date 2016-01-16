@@ -1,0 +1,1156 @@
+fileFormatVersion: 2
+guid: ede627ced0ad98645bf67c8ddb2c8084
+timeCreated: 1452890360
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PSYDUCK_0
+    21300002: PSYDUCK_1
+    21300004: PSYDUCK_2
+    21300006: PSYDUCK_3
+    21300008: PSYDUCK_4
+    21300010: PSYDUCK_5
+    21300012: PSYDUCK_6
+    21300014: PSYDUCK_7
+    21300016: PSYDUCK_8
+    21300018: PSYDUCK_9
+    21300020: PSYDUCK_10
+    21300022: PSYDUCK_11
+    21300024: PSYDUCK_12
+    21300026: PSYDUCK_13
+    21300028: PSYDUCK_14
+    21300030: PSYDUCK_15
+    21300032: PSYDUCK_16
+    21300034: PSYDUCK_17
+    21300036: PSYDUCK_18
+    21300038: PSYDUCK_19
+    21300040: PSYDUCK_20
+    21300042: PSYDUCK_21
+    21300044: PSYDUCK_22
+    21300046: PSYDUCK_23
+    21300048: PSYDUCK_24
+    21300050: PSYDUCK_25
+    21300052: PSYDUCK_26
+    21300054: PSYDUCK_27
+    21300056: PSYDUCK_28
+    21300058: PSYDUCK_29
+    21300060: PSYDUCK_30
+    21300062: PSYDUCK_31
+    21300064: PSYDUCK_32
+    21300066: PSYDUCK_33
+    21300068: PSYDUCK_34
+    21300070: PSYDUCK_35
+    21300072: PSYDUCK_36
+    21300074: PSYDUCK_37
+    21300076: PSYDUCK_38
+    21300078: PSYDUCK_39
+    21300080: PSYDUCK_40
+    21300082: PSYDUCK_41
+    21300084: PSYDUCK_42
+    21300086: PSYDUCK_43
+    21300088: PSYDUCK_44
+    21300090: PSYDUCK_45
+    21300092: PSYDUCK_46
+    21300094: PSYDUCK_47
+    21300096: PSYDUCK_48
+    21300098: PSYDUCK_49
+    21300100: PSYDUCK_50
+    21300102: PSYDUCK_51
+    21300104: PSYDUCK_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PSYDUCK_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 27}
+        - {x: -14, y: 27}
+        - {x: -18, y: 25}
+        - {x: -21, y: -8}
+        - {x: -21, y: -17}
+        - {x: -15, y: -27}
+        - {x: 19, y: -27}
+        - {x: 21, y: -25}
+        - {x: 21, y: 12}
+        - {x: 16, y: 26}
+    - name: PSYDUCK_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 378
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 27}
+        - {x: -15, y: 27}
+        - {x: -19, y: 26}
+        - {x: -21, y: -4}
+        - {x: -21, y: -17}
+        - {x: -15, y: -27}
+        - {x: 20, y: -27}
+        - {x: 21, y: -23}
+        - {x: 21, y: 10}
+        - {x: 11, y: 20}
+    - name: PSYDUCK_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 378
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 27}
+        - {x: -15, y: 27}
+        - {x: -19, y: 26}
+        - {x: -21, y: -4}
+        - {x: -21, y: -17}
+        - {x: -15, y: -27}
+        - {x: 20, y: -27}
+        - {x: 21, y: -23}
+        - {x: 21, y: 10}
+        - {x: 11, y: 20}
+    - name: PSYDUCK_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 378
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -21, y: 10}
+        - {x: -21, y: -19}
+        - {x: -16, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -21}
+        - {x: 21, y: 11}
+        - {x: 4, y: 27}
+    - name: PSYDUCK_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 378
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -21, y: 10}
+        - {x: -21, y: -19}
+        - {x: -16, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -21}
+        - {x: 21, y: 11}
+        - {x: 4, y: 27}
+    - name: PSYDUCK_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 378
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -21, y: 10}
+        - {x: -21, y: -19}
+        - {x: -16, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -21}
+        - {x: 21, y: 11}
+        - {x: 4, y: 27}
+    - name: PSYDUCK_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 378
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 27}
+        - {x: -13, y: 27}
+        - {x: -20, y: 21}
+        - {x: -21, y: 6}
+        - {x: -21, y: -18}
+        - {x: -13, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -21}
+        - {x: 21, y: 5}
+        - {x: 11, y: 20}
+    - name: PSYDUCK_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 378
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 27}
+        - {x: -13, y: 27}
+        - {x: -17, y: 20}
+        - {x: -21, y: -8}
+        - {x: -21, y: -16}
+        - {x: -15, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -21}
+        - {x: 21, y: 6}
+        - {x: 10, y: 19}
+    - name: PSYDUCK_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -21, y: 8}
+        - {x: -21, y: -26}
+        - {x: -19, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 18}
+        - {x: 9, y: 27}
+    - name: PSYDUCK_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 324
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 27}
+        - {x: -10, y: 27}
+        - {x: -16, y: 23}
+        - {x: -20, y: 13}
+        - {x: -21, y: 8}
+        - {x: -21, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 7}
+        - {x: 18, y: 18}
+    - name: PSYDUCK_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 324
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 27}
+        - {x: -10, y: 27}
+        - {x: -16, y: 23}
+        - {x: -20, y: 13}
+        - {x: -21, y: 8}
+        - {x: -21, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 7}
+        - {x: 18, y: 18}
+    - name: PSYDUCK_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 324
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 27}
+        - {x: -13, y: 27}
+        - {x: -21, y: 18}
+        - {x: -21, y: -25}
+        - {x: -15, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 7}
+        - {x: 18, y: 18}
+    - name: PSYDUCK_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 324
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -17, y: 24}
+        - {x: -21, y: 5}
+        - {x: -21, y: -17}
+        - {x: -15, y: -27}
+        - {x: 16, y: -27}
+        - {x: 21, y: -20}
+        - {x: 21, y: 14}
+        - {x: 3, y: 27}
+    - name: PSYDUCK_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 324
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 18}
+        - {x: 1, y: 27}
+        - {x: -15, y: 27}
+        - {x: -19, y: 24}
+        - {x: -21, y: 7}
+        - {x: -21, y: -19}
+        - {x: -12, y: -27}
+        - {x: 15, y: -27}
+        - {x: 15, y: -25}
+        - {x: 21, y: -19}
+        - {x: 21, y: 6}
+    - name: PSYDUCK_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 324
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 27}
+        - {x: -21, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 14}
+        - {x: 3, y: 27}
+    - name: PSYDUCK_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 324
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 27}
+        - {x: -21, y: 18}
+        - {x: -21, y: -21}
+        - {x: -15, y: -27}
+        - {x: 20, y: -27}
+        - {x: 21, y: -26}
+        - {x: 21, y: 23}
+        - {x: 7, y: 27}
+    - name: PSYDUCK_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 27}
+        - {x: -10, y: 27}
+        - {x: -18, y: 23}
+        - {x: -21, y: 8}
+        - {x: -21, y: -18}
+        - {x: -15, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -21}
+        - {x: 21, y: 5}
+        - {x: 11, y: 18}
+    - name: PSYDUCK_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 270
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 27}
+        - {x: -10, y: 27}
+        - {x: -18, y: 23}
+        - {x: -21, y: 8}
+        - {x: -21, y: -18}
+        - {x: -15, y: -27}
+        - {x: 18, y: -27}
+        - {x: 21, y: -25}
+        - {x: 21, y: 8}
+        - {x: 16, y: 23}
+    - name: PSYDUCK_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 270
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 27}
+        - {x: -21, y: 27}
+        - {x: -21, y: -27}
+        - {x: 18, y: -27}
+        - {x: 21, y: -25}
+        - {x: 21, y: 8}
+        - {x: 16, y: 23}
+    - name: PSYDUCK_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 270
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 27}
+        - {x: -15, y: 27}
+        - {x: -20, y: 25}
+        - {x: -21, y: 22}
+        - {x: -21, y: -20}
+        - {x: -15, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -25}
+        - {x: 21, y: 15}
+        - {x: 17, y: 25}
+    - name: PSYDUCK_20
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 270
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 27}
+        - {x: -13, y: 26}
+        - {x: -17, y: 23}
+        - {x: -20, y: 12}
+        - {x: -21, y: 3}
+        - {x: -21, y: -19}
+        - {x: -13, y: -27}
+        - {x: 15, y: -27}
+        - {x: 21, y: -21}
+        - {x: 21, y: 9}
+        - {x: 1, y: 27}
+    - name: PSYDUCK_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 270
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 27}
+        - {x: -17, y: 16}
+        - {x: -21, y: -5}
+        - {x: -21, y: -17}
+        - {x: -14, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 13}
+        - {x: 0, y: 27}
+    - name: PSYDUCK_22
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 270
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: -19}
+        - {x: -17, y: -27}
+        - {x: 18, y: -27}
+        - {x: 21, y: -26}
+        - {x: 21, y: 24}
+        - {x: 20, y: 27}
+        - {x: -18, y: 27}
+        - {x: -21, y: 3}
+    - name: PSYDUCK_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 270
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 21}
+        - {x: 0, y: 27}
+        - {x: -16, y: 27}
+        - {x: -21, y: 7}
+        - {x: -21, y: -17}
+        - {x: -13, y: -27}
+        - {x: 15, y: -27}
+        - {x: 21, y: -20}
+        - {x: 21, y: 8}
+        - {x: 11, y: 19}
+    - name: PSYDUCK_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 27}
+        - {x: -21, y: 24}
+        - {x: -21, y: -22}
+        - {x: -13, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 13}
+        - {x: 1, y: 27}
+    - name: PSYDUCK_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 216
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -19, y: 24}
+        - {x: -21, y: 14}
+        - {x: -21, y: -25}
+        - {x: -15, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 11}
+        - {x: 9, y: 27}
+    - name: PSYDUCK_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 216
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 27}
+        - {x: -21, y: 14}
+        - {x: -21, y: -22}
+        - {x: -13, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 21, y: 7}
+        - {x: 2, y: 27}
+    - name: PSYDUCK_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 216
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 27}
+        - {x: -21, y: 27}
+        - {x: -21, y: -17}
+        - {x: -12, y: -27}
+        - {x: 18, y: -27}
+        - {x: 21, y: -25}
+        - {x: 21, y: 6}
+        - {x: 14, y: 25}
+    - name: PSYDUCK_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 216
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 27}
+        - {x: -21, y: 12}
+        - {x: -21, y: -23}
+        - {x: -14, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -20}
+        - {x: 21, y: 9}
+        - {x: 4, y: 27}
+    - name: PSYDUCK_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 216
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 27}
+        - {x: -11, y: 27}
+        - {x: -15, y: 24}
+        - {x: -21, y: 1}
+        - {x: -21, y: -21}
+        - {x: -13, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -20}
+        - {x: 21, y: 4}
+        - {x: 10, y: 19}
+    - name: PSYDUCK_30
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 216
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -21, y: 8}
+        - {x: -21, y: -18}
+        - {x: -15, y: -27}
+        - {x: 15, y: -27}
+        - {x: 21, y: -20}
+        - {x: 21, y: 10}
+        - {x: 3, y: 27}
+    - name: PSYDUCK_31
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 216
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 27}
+        - {x: -12, y: 27}
+        - {x: -15, y: 24}
+        - {x: -21, y: 4}
+        - {x: -21, y: -18}
+        - {x: -15, y: -27}
+        - {x: 16, y: -27}
+        - {x: 21, y: -23}
+        - {x: 21, y: 16}
+        - {x: 20, y: 21}
+    - name: PSYDUCK_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 27}
+        - {x: -11, y: 27}
+        - {x: -15, y: 24}
+        - {x: -21, y: 4}
+        - {x: -21, y: -18}
+        - {x: -15, y: -27}
+        - {x: 18, y: -27}
+        - {x: 21, y: -24}
+        - {x: 21, y: 8}
+        - {x: 18, y: 20}
+    - name: PSYDUCK_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 162
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 27}
+        - {x: -11, y: 27}
+        - {x: -16, y: 25}
+        - {x: -21, y: 7}
+        - {x: -21, y: -18}
+        - {x: -15, y: -27}
+        - {x: 18, y: -27}
+        - {x: 21, y: -24}
+        - {x: 21, y: 9}
+        - {x: 18, y: 20}
+    - name: PSYDUCK_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 162
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 27}
+        - {x: -11, y: 27}
+        - {x: -16, y: 25}
+        - {x: -21, y: 7}
+        - {x: -21, y: -18}
+        - {x: -15, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 21, y: 9}
+        - {x: 18, y: 20}
+    - name: PSYDUCK_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 162
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 27}
+        - {x: -12, y: 27}
+        - {x: -17, y: 25}
+        - {x: -21, y: 2}
+        - {x: -21, y: -17}
+        - {x: -12, y: -27}
+        - {x: 18, y: -27}
+        - {x: 21, y: -24}
+        - {x: 21, y: 10}
+        - {x: 18, y: 20}
+    - name: PSYDUCK_36
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 162
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 27}
+        - {x: -18, y: 25}
+        - {x: -21, y: 5}
+        - {x: -21, y: -20}
+        - {x: -13, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -19}
+        - {x: 21, y: 7}
+        - {x: 4, y: 27}
+    - name: PSYDUCK_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 162
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 27}
+        - {x: -21, y: 23}
+        - {x: -21, y: -18}
+        - {x: -13, y: -27}
+        - {x: 15, y: -27}
+        - {x: 21, y: -20}
+        - {x: 21, y: 9}
+        - {x: 3, y: 27}
+    - name: PSYDUCK_38
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 162
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 27}
+        - {x: -21, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 14}
+        - {x: 3, y: 27}
+    - name: PSYDUCK_39
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 162
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 27}
+        - {x: -15, y: 27}
+        - {x: -21, y: 13}
+        - {x: -21, y: -22}
+        - {x: -16, y: -27}
+        - {x: 16, y: -27}
+        - {x: 21, y: -23}
+        - {x: 21, y: 16}
+        - {x: 20, y: 21}
+    - name: PSYDUCK_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 27}
+        - {x: -13, y: 27}
+        - {x: -16, y: 24}
+        - {x: -21, y: 6}
+        - {x: -21, y: -18}
+        - {x: -13, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 13}
+        - {x: 16, y: 18}
+    - name: PSYDUCK_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 108
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 27}
+        - {x: -21, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -20}
+        - {x: 21, y: 10}
+        - {x: 7, y: 27}
+    - name: PSYDUCK_42
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 108
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 27}
+        - {x: -21, y: 27}
+        - {x: -21, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 12}
+        - {x: 15, y: 19}
+    - name: PSYDUCK_43
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 108
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 27}
+        - {x: -12, y: 27}
+        - {x: -15, y: 24}
+        - {x: -20, y: 4}
+        - {x: -21, y: -1}
+        - {x: -21, y: -18}
+        - {x: -13, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 14}
+        - {x: 15, y: 19}
+    - name: PSYDUCK_44
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 108
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 27}
+        - {x: -18, y: 26}
+        - {x: -21, y: 5}
+        - {x: -21, y: -19}
+        - {x: -13, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 26}
+        - {x: 16, y: 27}
+    - name: PSYDUCK_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 108
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 27}
+        - {x: -17, y: 27}
+        - {x: -18, y: 24}
+        - {x: -21, y: 6}
+        - {x: -21, y: -18}
+        - {x: -15, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -18}
+        - {x: 21, y: 5}
+        - {x: 13, y: 25}
+    - name: PSYDUCK_46
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 108
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -19, y: 25}
+        - {x: -21, y: 11}
+        - {x: -21, y: -18}
+        - {x: -15, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 14}
+        - {x: 6, y: 27}
+    - name: PSYDUCK_47
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 108
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 27}
+        - {x: -21, y: 25}
+        - {x: -21, y: -26}
+        - {x: -20, y: -27}
+        - {x: 16, y: -27}
+        - {x: 21, y: -23}
+        - {x: 21, y: 10}
+        - {x: 3, y: 27}
+    - name: PSYDUCK_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 27}
+        - {x: -15, y: 27}
+        - {x: -21, y: -7}
+        - {x: -21, y: -17}
+        - {x: -13, y: -26}
+        - {x: -12, y: -27}
+        - {x: 15, y: -27}
+        - {x: 15, y: -25}
+        - {x: 21, y: -20}
+        - {x: 21, y: 10}
+    - name: PSYDUCK_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 54
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 27}
+        - {x: -21, y: 15}
+        - {x: -21, y: -21}
+        - {x: -15, y: -27}
+        - {x: 21, y: -27}
+        - {x: 21, y: 16}
+        - {x: 16, y: 27}
+    - name: PSYDUCK_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 54
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -17, y: 24}
+        - {x: -21, y: -7}
+        - {x: -21, y: -16}
+        - {x: -18, y: -19}
+        - {x: -13, y: -26}
+        - {x: -12, y: -27}
+        - {x: 20, y: -27}
+        - {x: 21, y: -25}
+        - {x: 21, y: 16}
+        - {x: 5, y: 27}
+    - name: PSYDUCK_51
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 54
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 27}
+        - {x: -21, y: 8}
+        - {x: -21, y: -22}
+        - {x: -15, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -21}
+        - {x: 21, y: 14}
+        - {x: 5, y: 27}
+    - name: PSYDUCK_52
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 54
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 27}
+        - {x: -14, y: 27}
+        - {x: -18, y: 25}
+        - {x: -21, y: -8}
+        - {x: -21, y: -17}
+        - {x: -15, y: -27}
+        - {x: 19, y: -27}
+        - {x: 21, y: -25}
+        - {x: 21, y: 12}
+        - {x: 16, y: 26}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

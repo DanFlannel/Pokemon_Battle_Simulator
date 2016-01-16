@@ -1,0 +1,1279 @@
+fileFormatVersion: 2
+guid: 8428d1494a312884c9913ba09e0aba18
+timeCreated: 1452882151
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: JYNX_0
+    21300002: JYNX_1
+    21300004: JYNX_2
+    21300006: JYNX_3
+    21300008: JYNX_4
+    21300010: JYNX_5
+    21300012: JYNX_6
+    21300014: JYNX_7
+    21300016: JYNX_8
+    21300018: JYNX_9
+    21300020: JYNX_10
+    21300022: JYNX_11
+    21300024: JYNX_12
+    21300026: JYNX_13
+    21300028: JYNX_14
+    21300030: JYNX_15
+    21300032: JYNX_16
+    21300034: JYNX_17
+    21300036: JYNX_18
+    21300038: JYNX_19
+    21300040: JYNX_20
+    21300042: JYNX_21
+    21300044: JYNX_22
+    21300046: JYNX_23
+    21300048: JYNX_24
+    21300050: JYNX_25
+    21300052: JYNX_26
+    21300054: JYNX_27
+    21300056: JYNX_28
+    21300058: JYNX_29
+    21300060: JYNX_30
+    21300062: JYNX_31
+    21300064: JYNX_32
+    21300066: JYNX_33
+    21300068: JYNX_34
+    21300070: JYNX_35
+    21300072: JYNX_36
+    21300074: JYNX_37
+    21300076: JYNX_38
+    21300078: JYNX_39
+    21300080: JYNX_40
+    21300082: JYNX_41
+    21300084: JYNX_42
+    21300086: JYNX_43
+    21300088: JYNX_44
+    21300090: JYNX_45
+    21300092: JYNX_46
+    21300094: JYNX_47
+    21300096: JYNX_48
+    21300098: JYNX_49
+    21300100: JYNX_50
+    21300102: JYNX_51
+    21300104: JYNX_52
+    21300106: JYNX_53
+    21300108: JYNX_54
+    21300110: JYNX_55
+    21300112: JYNX_56
+    21300114: JYNX_57
+    21300116: JYNX_58
+    21300118: JYNX_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: JYNX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 33}
+        - {x: -37.5, y: 29}
+        - {x: -37.5, y: -21}
+        - {x: -31.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 32}
+        - {x: 35.5, y: 33}
+    - name: JYNX_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 462
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -16}
+        - {x: -28.5, y: -33}
+        - {x: 37.5, y: -33}
+        - {x: 37.5, y: -14}
+        - {x: 27.5, y: 33}
+        - {x: -32.5, y: 33}
+        - {x: -38.5, y: 27}
+    - name: JYNX_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 462
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 33}
+        - {x: -38.5, y: -27}
+        - {x: -27.5, y: -33}
+        - {x: 37.5, y: -33}
+        - {x: 37.5, y: -17}
+        - {x: 27.5, y: 22}
+        - {x: 20.5, y: 33}
+    - name: JYNX_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 462
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 33}
+        - {x: -20.5, y: 26}
+        - {x: -22.5, y: 22}
+        - {x: -21.5, y: 22}
+        - {x: -22.5, y: 23}
+        - {x: -21.5, y: 24}
+        - {x: -21.5, y: 26}
+        - {x: -24.5, y: 29}
+        - {x: -31.5, y: 31}
+        - {x: -38.5, y: 26}
+        - {x: -38.5, y: -20}
+        - {x: -27.5, y: -32}
+        - {x: -26.5, y: -33}
+        - {x: 36.5, y: -33}
+        - {x: 36.5, y: -16}
+        - {x: 20.5, y: 33}
+    - name: JYNX_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 462
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 33}
+        - {x: -38.5, y: 28}
+        - {x: -38.5, y: 11}
+        - {x: -33.5, y: -7}
+        - {x: -29.5, y: -11}
+        - {x: -27.5, y: -11}
+        - {x: -25.5, y: -9}
+        - {x: -23.5, y: -10}
+        - {x: -31.5, y: -12}
+        - {x: -35.5, y: -16}
+        - {x: -36.5, y: -18}
+        - {x: -29.5, y: -33}
+        - {x: 36.5, y: -33}
+        - {x: 36.5, y: -19}
+        - {x: 21.5, y: 33}
+    - name: JYNX_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 462
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 33}
+        - {x: -38.5, y: -33}
+        - {x: 36.5, y: -33}
+        - {x: 36.5, y: 10}
+        - {x: 32.5, y: 33}
+    - name: JYNX_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 462
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 33}
+        - {x: -38.5, y: -20}
+        - {x: -30.5, y: -33}
+        - {x: 35.5, y: -33}
+        - {x: 35.5, y: -8}
+        - {x: 17.5, y: 33}
+    - name: JYNX_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 462
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -18}
+        - {x: -33.5, y: -33}
+        - {x: 35.5, y: -33}
+        - {x: 35.5, y: -13}
+        - {x: 25.5, y: 28}
+        - {x: 20.5, y: 33}
+        - {x: -28.5, y: 33}
+        - {x: -38.5, y: 31}
+    - name: JYNX_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 33}
+        - {x: -38.5, y: -28}
+        - {x: -35.5, y: -33}
+        - {x: 35.5, y: -33}
+        - {x: 35.5, y: -26}
+        - {x: 34.5, y: -24}
+        - {x: 25.5, y: 12}
+        - {x: 18.5, y: 33}
+    - name: JYNX_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 396
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 26}
+        - {x: 18.5, y: 33}
+        - {x: -38.5, y: 33}
+        - {x: -38.5, y: -8}
+        - {x: -28.5, y: -11}
+        - {x: -29.5, y: -12}
+        - {x: -34.5, y: -16}
+        - {x: -35.5, y: -19}
+        - {x: -30.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: -26}
+        - {x: 29.5, y: -17}
+    - name: JYNX_10
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 396
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 33}
+        - {x: -38.5, y: -29}
+        - {x: -33.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: -10}
+        - {x: 26.5, y: 22}
+        - {x: 16.5, y: 33}
+    - name: JYNX_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 396
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 33}
+        - {x: -38.5, y: -22}
+        - {x: -30.5, y: -32}
+        - {x: -29.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: -4}
+        - {x: 28.5, y: 20}
+        - {x: 15.5, y: 33}
+    - name: JYNX_12
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 396
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 33}
+        - {x: -38.5, y: 31}
+        - {x: -38.5, y: -13}
+        - {x: -33.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: -22}
+        - {x: 20.5, y: 28}
+        - {x: 16.5, y: 33}
+    - name: JYNX_13
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 396
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: -19}
+        - {x: 23.5, y: 17}
+        - {x: 16.5, y: 33}
+        - {x: -38.5, y: 33}
+    - name: JYNX_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 396
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 33}
+        - {x: -38.5, y: -25}
+        - {x: -31.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: -20}
+        - {x: 25.5, y: 18}
+        - {x: 12.5, y: 33}
+    - name: JYNX_15
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 396
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 33}
+        - {x: -38.5, y: -29}
+        - {x: -36.5, y: -33}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: 20}
+        - {x: 17.5, y: 33}
+    - name: JYNX_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 33}
+        - {x: -38.5, y: 24}
+        - {x: -38.5, y: 3}
+        - {x: -34.5, y: -10}
+        - {x: -33.5, y: -13}
+        - {x: -25.5, y: -12}
+        - {x: -33.5, y: -15}
+        - {x: -32.5, y: -33}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: -16}
+        - {x: 26.5, y: 33}
+    - name: JYNX_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 330
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 27}
+        - {x: -38.5, y: -9}
+        - {x: -31.5, y: -33}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: 0}
+        - {x: 31.5, y: 13}
+        - {x: 17.5, y: 33}
+        - {x: -20.5, y: 33}
+        - {x: -36.5, y: 30}
+    - name: JYNX_18
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 330
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 33}
+        - {x: -38.5, y: -33}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: -19}
+        - {x: 25.5, y: 22}
+        - {x: 18.5, y: 33}
+    - name: JYNX_19
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 330
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 33}
+        - {x: -10.5, y: 33}
+        - {x: -30.5, y: 28}
+        - {x: -38.5, y: 20}
+        - {x: -38.5, y: 13}
+        - {x: -31.5, y: -12}
+        - {x: -28.5, y: -13}
+        - {x: -24.5, y: -13}
+        - {x: -28.5, y: -17}
+        - {x: -28.5, y: -19}
+        - {x: -31.5, y: -29}
+        - {x: -29.5, y: -33}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: -20}
+        - {x: 29.5, y: 12}
+    - name: JYNX_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 330
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 33}
+        - {x: -19.5, y: 33}
+        - {x: -35.5, y: 30}
+        - {x: -37.5, y: 26}
+        - {x: -37.5, y: 10}
+        - {x: -30.5, y: -12}
+        - {x: -27.5, y: -13}
+        - {x: -23.5, y: -13}
+        - {x: -29.5, y: -15}
+        - {x: -31.5, y: -32}
+        - {x: -29.5, y: -33}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: -20}
+        - {x: 29.5, y: 18}
+    - name: JYNX_21
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 330
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 7}
+        - {x: -30.5, y: -12}
+        - {x: -26.5, y: -13}
+        - {x: -22.5, y: -13}
+        - {x: -30.5, y: -15}
+        - {x: -34.5, y: -29}
+        - {x: -29.5, y: -33}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: -10}
+        - {x: 29.5, y: 13}
+        - {x: 20.5, y: 33}
+        - {x: -31.5, y: 33}
+        - {x: -36.5, y: 32}
+    - name: JYNX_22
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 330
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 33}
+        - {x: -36.5, y: 28}
+        - {x: -36.5, y: -1}
+        - {x: -27.5, y: -12}
+        - {x: -24.5, y: -13}
+        - {x: -21.5, y: -13}
+        - {x: -13.5, y: -11}
+        - {x: -21.5, y: -13}
+        - {x: -26.5, y: -17}
+        - {x: -26.5, y: -19}
+        - {x: -31.5, y: -29}
+        - {x: -29.5, y: -33}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: 22}
+        - {x: 21.5, y: 33}
+    - name: JYNX_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 330
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 33}
+        - {x: -35.5, y: 29}
+        - {x: -35.5, y: -13}
+        - {x: -29.5, y: -33}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: 7}
+        - {x: 24.5, y: 33}
+    - name: JYNX_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 33}
+        - {x: -13.5, y: 25}
+        - {x: -17.5, y: 17}
+        - {x: -16.5, y: 17}
+        - {x: -17.5, y: 18}
+        - {x: -16.5, y: 19}
+        - {x: -15.5, y: 24}
+        - {x: -26.5, y: 28}
+        - {x: -34.5, y: 23}
+        - {x: -34.5, y: 11}
+        - {x: -25.5, y: -12}
+        - {x: -22.5, y: -13}
+        - {x: -19.5, y: -13}
+        - {x: -20.5, y: -13}
+        - {x: -25.5, y: -16}
+        - {x: -32.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: 5}
+        - {x: 33.5, y: 23}
+        - {x: 17.5, y: 33}
+    - name: JYNX_25
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 264
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 33}
+        - {x: -12.5, y: 26}
+        - {x: -16.5, y: 18}
+        - {x: -15.5, y: 18}
+        - {x: -16.5, y: 19}
+        - {x: -15.5, y: 20}
+        - {x: -14.5, y: 24}
+        - {x: -25.5, y: 29}
+        - {x: -34.5, y: 23}
+        - {x: -34.5, y: -3}
+        - {x: -29.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: 11}
+        - {x: 21.5, y: 33}
+    - name: JYNX_26
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 264
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 33}
+        - {x: -33.5, y: 24}
+        - {x: -33.5, y: 16}
+        - {x: -31.5, y: 10}
+        - {x: -32.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: 12}
+        - {x: 28.5, y: 25}
+        - {x: 23.5, y: 33}
+    - name: JYNX_27
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 264
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 33}
+        - {x: -24.5, y: 29}
+        - {x: -32.5, y: 22}
+        - {x: -32.5, y: 18}
+        - {x: -30.5, y: 13}
+        - {x: -32.5, y: -15}
+        - {x: -32.5, y: -30}
+        - {x: -30.5, y: -33}
+        - {x: 34.5, y: -33}
+        - {x: 34.5, y: 28}
+        - {x: 18.5, y: 33}
+    - name: JYNX_28
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 264
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 33}
+        - {x: -32.5, y: 25}
+        - {x: -32.5, y: -10}
+        - {x: -29.5, y: -33}
+        - {x: 35.5, y: -33}
+        - {x: 35.5, y: 18}
+        - {x: 26.5, y: 33}
+    - name: JYNX_29
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 264
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 33}
+        - {x: -31.5, y: -20}
+        - {x: -29.5, y: -33}
+        - {x: 35.5, y: -33}
+        - {x: 35.5, y: 30}
+        - {x: 30.5, y: 33}
+    - name: JYNX_30
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 264
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 33}
+        - {x: -30.5, y: 25}
+        - {x: -30.5, y: -33}
+        - {x: 36.5, y: -33}
+        - {x: 36.5, y: 11}
+        - {x: 35.5, y: 22}
+        - {x: 29.5, y: 32}
+        - {x: 22.5, y: 33}
+    - name: JYNX_31
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 264
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33}
+        - {x: -30.5, y: 30}
+        - {x: -30.5, y: -33}
+        - {x: 36.5, y: -33}
+        - {x: 36.5, y: 32}
+        - {x: 34.5, y: 33}
+    - name: JYNX_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 33}
+        - {x: -24.5, y: 31}
+        - {x: -29.5, y: 24}
+        - {x: -29.5, y: 17}
+        - {x: -28.5, y: 15}
+        - {x: -29.5, y: -10}
+        - {x: -29.5, y: -31}
+        - {x: -28.5, y: -33}
+        - {x: 36.5, y: -33}
+        - {x: 36.5, y: 28}
+        - {x: 29.5, y: 33}
+    - name: JYNX_33
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 198
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 33}
+        - {x: -29.5, y: 29}
+        - {x: -29.5, y: -33}
+        - {x: 37.5, y: -33}
+        - {x: 37.5, y: 29}
+        - {x: 33.5, y: 33}
+    - name: JYNX_34
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 198
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 33}
+        - {x: -28.5, y: -33}
+        - {x: 37.5, y: -33}
+        - {x: 37.5, y: 29}
+        - {x: 30.5, y: 33}
+    - name: JYNX_35
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 198
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 33}
+        - {x: -28.5, y: 30}
+        - {x: -28.5, y: -33}
+        - {x: 37.5, y: -33}
+        - {x: 37.5, y: 33}
+    - name: JYNX_36
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 198
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 33}
+        - {x: -27.5, y: 32}
+        - {x: -27.5, y: -33}
+        - {x: 37.5, y: -33}
+        - {x: 37.5, y: 30}
+        - {x: 34.5, y: 33}
+    - name: JYNX_37
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 198
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 33}
+        - {x: -27.5, y: -33}
+        - {x: 37.5, y: -33}
+        - {x: 37.5, y: 33}
+    - name: JYNX_38
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 198
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 9}
+        - {x: 38.5, y: 27}
+        - {x: 33.5, y: 33}
+        - {x: -12.5, y: 33}
+        - {x: -22.5, y: 30}
+        - {x: -27.5, y: 25}
+        - {x: -27.5, y: 18}
+        - {x: -24.5, y: 0}
+        - {x: -27.5, y: -11}
+        - {x: -27.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 37.5, y: -13}
+        - {x: 36.5, y: 0}
+    - name: JYNX_39
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 198
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 33}
+        - {x: -27.5, y: 28}
+        - {x: -27.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 33}
+    - name: JYNX_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 33}
+        - {x: -27.5, y: 29}
+        - {x: -27.5, y: -33}
+        - {x: 37.5, y: -33}
+        - {x: 38.5, y: -31}
+        - {x: 38.5, y: 33}
+    - name: JYNX_41
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 132
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 33}
+        - {x: -27.5, y: -31}
+        - {x: -26.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 33}
+    - name: JYNX_42
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 132
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 33}
+        - {x: -13.5, y: 33}
+        - {x: -27.5, y: 27}
+        - {x: -27.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 26}
+        - {x: 30.5, y: 32}
+    - name: JYNX_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 132
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 33}
+        - {x: -28.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 33}
+    - name: JYNX_44
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 132
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 33}
+        - {x: -25.5, y: 29}
+        - {x: -28.5, y: 21}
+        - {x: -28.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 30}
+        - {x: 32.5, y: 33}
+    - name: JYNX_45
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 132
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 33}
+        - {x: -28.5, y: 28}
+        - {x: -28.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 33}
+    - name: JYNX_46
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 132
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 33}
+        - {x: -29.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 26}
+        - {x: 34.5, y: 33}
+    - name: JYNX_47
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 132
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 33}
+        - {x: -28.5, y: 30}
+        - {x: -29.5, y: 19}
+        - {x: -29.5, y: -29}
+        - {x: -27.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 23}
+        - {x: 26.5, y: 33}
+    - name: JYNX_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 33}
+        - {x: -27.5, y: 31}
+        - {x: -30.5, y: 23}
+        - {x: -30.5, y: -28}
+        - {x: -28.5, y: -32}
+        - {x: -26.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 4}
+        - {x: 37.5, y: 16}
+        - {x: 32.5, y: 29}
+        - {x: 16.5, y: 33}
+    - name: JYNX_49
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 66
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 33}
+        - {x: -30.5, y: 27}
+        - {x: -30.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 27}
+        - {x: 28.5, y: 33}
+    - name: JYNX_50
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 66
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 33}
+        - {x: -27.5, y: 33}
+        - {x: -31.5, y: 31}
+        - {x: -31.5, y: -30}
+        - {x: -30.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 20}
+        - {x: 36.5, y: 29}
+    - name: JYNX_51
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 66
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 33}
+        - {x: -32.5, y: -30}
+        - {x: -28.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 17}
+        - {x: 35.5, y: 33}
+    - name: JYNX_52
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 66
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 33}
+        - {x: -17.5, y: 33}
+        - {x: -32.5, y: 30}
+        - {x: -32.5, y: -24}
+        - {x: -27.5, y: -32}
+        - {x: -26.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: -18}
+        - {x: 32.5, y: 29}
+    - name: JYNX_53
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 66
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 15}
+        - {x: 32.5, y: 32}
+        - {x: 17.5, y: 33}
+        - {x: -14.5, y: 33}
+        - {x: -33.5, y: 26}
+    - name: JYNX_54
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 66
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 33}
+        - {x: -21.5, y: 33}
+        - {x: -33.5, y: 26}
+        - {x: -33.5, y: -28}
+        - {x: -30.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 3}
+        - {x: 33.5, y: 32}
+    - name: JYNX_55
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 66
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 33}
+        - {x: -34.5, y: 29}
+        - {x: -34.5, y: -29}
+        - {x: -30.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: 32}
+        - {x: 33.5, y: 33}
+    - name: JYNX_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 33}
+        - {x: -26.5, y: 33}
+        - {x: -34.5, y: 31}
+        - {x: -35.5, y: 26}
+        - {x: -35.5, y: -23}
+        - {x: -32.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: -13}
+        - {x: 29.5, y: 32}
+    - name: JYNX_57
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 33}
+        - {x: -23.5, y: 33}
+        - {x: -33.5, y: 31}
+        - {x: -35.5, y: 30}
+        - {x: -35.5, y: -27}
+        - {x: -27.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: -19}
+        - {x: 28.5, y: 32}
+    - name: JYNX_58
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 33}
+        - {x: -36.5, y: 25}
+        - {x: -36.5, y: -24}
+        - {x: -31.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: -17}
+        - {x: 31.5, y: 33}
+    - name: JYNX_59
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 33}
+        - {x: -37.5, y: 25}
+        - {x: -37.5, y: -2}
+        - {x: -35.5, y: -20}
+        - {x: -28.5, y: -33}
+        - {x: 38.5, y: -33}
+        - {x: 38.5, y: -27}
+        - {x: 37.5, y: -26}
+        - {x: 26.5, y: 33}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1215 @@
+fileFormatVersion: 2
+guid: 2ae11637f9c0c764b82d6a6c4cb97fea
+timeCreated: 1452888602
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IVYSAUR_0
+    21300002: IVYSAUR_1
+    21300004: IVYSAUR_2
+    21300006: IVYSAUR_3
+    21300008: IVYSAUR_4
+    21300010: IVYSAUR_5
+    21300012: IVYSAUR_6
+    21300014: IVYSAUR_7
+    21300016: IVYSAUR_8
+    21300018: IVYSAUR_9
+    21300020: IVYSAUR_10
+    21300022: IVYSAUR_11
+    21300024: IVYSAUR_12
+    21300026: IVYSAUR_13
+    21300028: IVYSAUR_14
+    21300030: IVYSAUR_15
+    21300032: IVYSAUR_16
+    21300034: IVYSAUR_17
+    21300036: IVYSAUR_18
+    21300038: IVYSAUR_19
+    21300040: IVYSAUR_20
+    21300042: IVYSAUR_21
+    21300044: IVYSAUR_22
+    21300046: IVYSAUR_23
+    21300048: IVYSAUR_24
+    21300050: IVYSAUR_25
+    21300052: IVYSAUR_26
+    21300054: IVYSAUR_27
+    21300056: IVYSAUR_28
+    21300058: IVYSAUR_29
+    21300060: IVYSAUR_30
+    21300062: IVYSAUR_31
+    21300064: IVYSAUR_32
+    21300066: IVYSAUR_33
+    21300068: IVYSAUR_34
+    21300070: IVYSAUR_35
+    21300072: IVYSAUR_36
+    21300074: IVYSAUR_37
+    21300076: IVYSAUR_38
+    21300078: IVYSAUR_39
+    21300080: IVYSAUR_40
+    21300082: IVYSAUR_41
+    21300084: IVYSAUR_42
+    21300086: IVYSAUR_43
+    21300088: IVYSAUR_44
+    21300090: IVYSAUR_45
+    21300092: IVYSAUR_46
+    21300094: IVYSAUR_47
+    21300096: IVYSAUR_48
+    21300098: IVYSAUR_49
+    21300100: IVYSAUR_50
+    21300102: IVYSAUR_51
+    21300104: IVYSAUR_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: IVYSAUR_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 34}
+        - {x: -12, y: 34}
+        - {x: -16, y: 32}
+        - {x: -38, y: 14}
+        - {x: -38, y: -9}
+        - {x: -25, y: -32}
+        - {x: -24, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -22}
+        - {x: 38, y: 10}
+        - {x: 34, y: 11}
+    - name: IVYSAUR_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 476
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 34}
+        - {x: -38, y: 16}
+        - {x: -38, y: -7}
+        - {x: -26, y: -34}
+        - {x: 35, y: -34}
+        - {x: 38, y: -29}
+        - {x: 38, y: 19}
+        - {x: 17, y: 34}
+    - name: IVYSAUR_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 476
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 34}
+        - {x: -18, y: 32}
+        - {x: -38, y: 8}
+        - {x: -38, y: 3}
+        - {x: -24, y: 0}
+        - {x: -19, y: -1}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -14, y: -5}
+        - {x: -26, y: -17}
+        - {x: -23, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -21}
+        - {x: 38, y: 15}
+        - {x: 16, y: 34}
+    - name: IVYSAUR_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 476
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 34}
+        - {x: -18, y: 32}
+        - {x: -38, y: 8}
+        - {x: -38, y: 3}
+        - {x: -24, y: 0}
+        - {x: -19, y: -1}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -14, y: -5}
+        - {x: -26, y: -17}
+        - {x: -23, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -21}
+        - {x: 38, y: 15}
+        - {x: 16, y: 34}
+    - name: IVYSAUR_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 476
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 34}
+        - {x: -16, y: 34}
+        - {x: -38, y: 19}
+        - {x: -38, y: 6}
+        - {x: -36, y: 2}
+        - {x: -19, y: -1}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -14, y: -5}
+        - {x: -26, y: -17}
+        - {x: -23, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -18}
+        - {x: 38, y: 15}
+    - name: IVYSAUR_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 476
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 34}
+        - {x: -16, y: 34}
+        - {x: -38, y: 19}
+        - {x: -38, y: 6}
+        - {x: -36, y: 2}
+        - {x: -19, y: -1}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -14, y: -5}
+        - {x: -26, y: -17}
+        - {x: -23, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -18}
+        - {x: 38, y: 15}
+    - name: IVYSAUR_6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 476
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 34}
+        - {x: -38, y: 25}
+        - {x: -38, y: -34}
+        - {x: 36, y: -34}
+        - {x: 38, y: -26}
+        - {x: 38, y: 19}
+        - {x: 9, y: 34}
+    - name: IVYSAUR_7
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 476
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 34}
+        - {x: -38, y: 10}
+        - {x: -38, y: -31}
+        - {x: -37, y: -34}
+        - {x: 36, y: -34}
+        - {x: 38, y: -31}
+        - {x: 38, y: 22}
+        - {x: 13, y: 34}
+    - name: IVYSAUR_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 34}
+        - {x: -38, y: 22}
+        - {x: -38, y: 4}
+        - {x: -28, y: -1}
+        - {x: -21, y: 0}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -14, y: -5}
+        - {x: -19, y: -11}
+        - {x: -26, y: -17}
+        - {x: -23, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -26}
+        - {x: 38, y: 21}
+        - {x: 27, y: 34}
+    - name: IVYSAUR_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 408
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 18}
+        - {x: 9, y: 34}
+        - {x: -20, y: 34}
+        - {x: -38, y: 14}
+        - {x: -38, y: 4}
+        - {x: -29, y: 0}
+        - {x: -21, y: 0}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -14, y: -5}
+        - {x: -20, y: -9}
+        - {x: -29, y: -33}
+        - {x: -27, y: -34}
+        - {x: 34, y: -34}
+        - {x: 38, y: -22}
+        - {x: 38, y: 18}
+    - name: IVYSAUR_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 408
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 34}
+        - {x: -19, y: 31}
+        - {x: -38, y: 14}
+        - {x: -38, y: -14}
+        - {x: -29, y: -34}
+        - {x: 30, y: -34}
+        - {x: 38, y: -21}
+        - {x: 38, y: 12}
+        - {x: 17, y: 34}
+    - name: IVYSAUR_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 408
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 34}
+        - {x: -38, y: 14}
+        - {x: -38, y: -19}
+        - {x: -23, y: -34}
+        - {x: 33, y: -34}
+        - {x: 38, y: -18}
+        - {x: 38, y: 17}
+        - {x: 16, y: 34}
+    - name: IVYSAUR_12
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 408
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 34}
+        - {x: -38, y: 12}
+        - {x: -38, y: -25}
+        - {x: -33, y: -34}
+        - {x: 36, y: -34}
+        - {x: 38, y: -32}
+        - {x: 38, y: 12}
+        - {x: 15, y: 34}
+    - name: IVYSAUR_13
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 408
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34}
+        - {x: -38, y: 15}
+        - {x: -38, y: -9}
+        - {x: -24, y: -34}
+        - {x: 30, y: -34}
+        - {x: 38, y: -31}
+        - {x: 38, y: 13}
+        - {x: 30, y: 34}
+    - name: IVYSAUR_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 408
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 34}
+        - {x: -14, y: 28}
+        - {x: -17, y: 23}
+        - {x: -18, y: 20}
+        - {x: -36, y: 9}
+        - {x: -38, y: 7}
+        - {x: -38, y: 4}
+        - {x: -35, y: 2}
+        - {x: -27, y: -2}
+        - {x: -28, y: -19}
+        - {x: -23, y: -34}
+        - {x: 29, y: -34}
+        - {x: 37, y: -26}
+        - {x: 37, y: 12}
+        - {x: 11, y: 34}
+    - name: IVYSAUR_15
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 408
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 34}
+        - {x: -27, y: 26}
+        - {x: -38, y: 11}
+        - {x: -38, y: -12}
+        - {x: -28, y: -34}
+        - {x: 34, y: -34}
+        - {x: 37, y: -27}
+        - {x: 37, y: 25}
+        - {x: 23, y: 34}
+    - name: IVYSAUR_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 34}
+        - {x: -38, y: 16}
+        - {x: -38, y: -18}
+        - {x: -37, y: -34}
+        - {x: 37, y: -34}
+        - {x: 37, y: 28}
+        - {x: 35, y: 34}
+    - name: IVYSAUR_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 340
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 34}
+        - {x: -38, y: 18}
+        - {x: -38, y: -18}
+        - {x: -32, y: -34}
+        - {x: 26, y: -34}
+        - {x: 36, y: -22}
+        - {x: 36, y: 22}
+        - {x: 9, y: 34}
+    - name: IVYSAUR_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 340
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 34}
+        - {x: -38, y: 17}
+        - {x: -38, y: -18}
+        - {x: -32, y: -32}
+        - {x: -24, y: -34}
+        - {x: 28, y: -34}
+        - {x: 36, y: -23}
+        - {x: 36, y: 22}
+        - {x: 8, y: 34}
+    - name: IVYSAUR_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 340
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 34}
+        - {x: -17, y: 34}
+        - {x: -38, y: 17}
+        - {x: -38, y: -12}
+        - {x: -26, y: -29}
+        - {x: -21, y: -34}
+        - {x: 33, y: -34}
+        - {x: 35, y: -28}
+        - {x: 35, y: 11}
+        - {x: 34, y: 13}
+    - name: IVYSAUR_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 340
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34}
+        - {x: -38, y: 17}
+        - {x: -38, y: -28}
+        - {x: -35, y: -34}
+        - {x: 35, y: -34}
+        - {x: 35, y: 11}
+        - {x: 10, y: 34}
+    - name: IVYSAUR_21
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 340
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -38, y: 8}
+        - {x: -38, y: -30}
+        - {x: -37, y: -34}
+        - {x: 35, y: -34}
+        - {x: 35, y: 24}
+        - {x: 7, y: 34}
+    - name: IVYSAUR_22
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 340
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 34}
+        - {x: -16, y: 28}
+        - {x: -38, y: 6}
+        - {x: -38, y: 4}
+        - {x: -22, y: -34}
+        - {x: 28, y: -34}
+        - {x: 35, y: -24}
+        - {x: 35, y: 13}
+        - {x: 5, y: 34}
+    - name: IVYSAUR_23
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 340
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 34}
+        - {x: -38, y: 19}
+        - {x: -38, y: -34}
+        - {x: 33, y: -34}
+        - {x: 35, y: -28}
+        - {x: 35, y: 17}
+        - {x: 10, y: 34}
+    - name: IVYSAUR_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 34}
+        - {x: -38, y: 15}
+        - {x: -38, y: -15}
+        - {x: -31, y: -34}
+        - {x: 30, y: -34}
+        - {x: 35, y: -28}
+        - {x: 35, y: 21}
+        - {x: 5, y: 34}
+    - name: IVYSAUR_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 272
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 34}
+        - {x: -18, y: 29}
+        - {x: -38, y: 9}
+        - {x: -38, y: -7}
+        - {x: -30, y: -34}
+        - {x: 32, y: -34}
+        - {x: 36, y: -29}
+        - {x: 36, y: 16}
+        - {x: 10, y: 34}
+    - name: IVYSAUR_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 272
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34}
+        - {x: -18, y: 31}
+        - {x: -38, y: 7}
+        - {x: -38, y: 4}
+        - {x: -37, y: 2}
+        - {x: -31, y: -2}
+        - {x: -27, y: -33}
+        - {x: -26, y: -34}
+        - {x: 28, y: -34}
+        - {x: 36, y: -26}
+        - {x: 36, y: 16}
+        - {x: 13, y: 34}
+    - name: IVYSAUR_27
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 272
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 34}
+        - {x: -38, y: 14}
+        - {x: -38, y: -11}
+        - {x: -25, y: -34}
+        - {x: 25, y: -34}
+        - {x: 36, y: -22}
+        - {x: 36, y: 11}
+        - {x: 13, y: 34}
+    - name: IVYSAUR_28
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 272
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 34}
+        - {x: -38, y: 24}
+        - {x: -38, y: 5}
+        - {x: -37, y: 3}
+        - {x: -28, y: -2}
+        - {x: -27, y: -34}
+        - {x: 31, y: -34}
+        - {x: 36, y: -32}
+        - {x: 36, y: 14}
+        - {x: 21, y: 34}
+    - name: IVYSAUR_29
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 272
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 34}
+        - {x: -38, y: 17}
+        - {x: -38, y: -22}
+        - {x: -32, y: -34}
+        - {x: 29, y: -34}
+        - {x: 36, y: -28}
+        - {x: 36, y: 12}
+        - {x: 22, y: 34}
+    - name: IVYSAUR_30
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 272
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 34}
+        - {x: -38, y: 9}
+        - {x: -38, y: 1}
+        - {x: -23, y: -34}
+        - {x: 29, y: -34}
+        - {x: 36, y: -32}
+        - {x: 36, y: 30}
+        - {x: 35, y: 34}
+    - name: IVYSAUR_31
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 272
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 34}
+        - {x: -37, y: 25}
+        - {x: -37, y: -5}
+        - {x: -25, y: -34}
+        - {x: 27, y: -34}
+        - {x: 36, y: -25}
+        - {x: 36, y: 19}
+        - {x: 8, y: 34}
+    - name: IVYSAUR_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 34}
+        - {x: -38, y: 25}
+        - {x: -38, y: -5}
+        - {x: -26, y: -34}
+        - {x: 34, y: -34}
+        - {x: 37, y: -27}
+        - {x: 37, y: 27}
+        - {x: 20, y: 34}
+    - name: IVYSAUR_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 204
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 6}
+        - {x: -37, y: 4}
+        - {x: -26, y: -32}
+        - {x: -25, y: -34}
+        - {x: 32, y: -34}
+        - {x: 37, y: -33}
+        - {x: 37, y: 28}
+        - {x: 34, y: 34}
+        - {x: -17, y: 34}
+        - {x: -38, y: 10}
+    - name: IVYSAUR_34
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 204
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 34}
+        - {x: -35, y: 34}
+        - {x: -38, y: 17}
+        - {x: -38, y: -7}
+        - {x: -25, y: -34}
+        - {x: 26, y: -34}
+        - {x: 37, y: -23}
+        - {x: 37, y: 20}
+    - name: IVYSAUR_35
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 204
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 34}
+        - {x: -22, y: 34}
+        - {x: -38, y: 18}
+        - {x: -38, y: -10}
+        - {x: -27, y: -33}
+        - {x: -24, y: -34}
+        - {x: 35, y: -34}
+        - {x: 37, y: -29}
+        - {x: 37, y: 20}
+        - {x: 25, y: 31}
+    - name: IVYSAUR_36
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 204
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 34}
+        - {x: -38, y: 9}
+        - {x: -38, y: 5}
+        - {x: -22, y: -34}
+        - {x: 28, y: -34}
+        - {x: 38, y: -23}
+        - {x: 38, y: 24}
+        - {x: 16, y: 34}
+    - name: IVYSAUR_37
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 204
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34}
+        - {x: -38, y: 14}
+        - {x: -38, y: -8}
+        - {x: -26, y: -32}
+        - {x: -22, y: -34}
+        - {x: 27, y: -34}
+        - {x: 38, y: -20}
+        - {x: 38, y: 13}
+        - {x: 10, y: 34}
+    - name: IVYSAUR_38
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 204
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 34}
+        - {x: -14, y: 34}
+        - {x: -38, y: 11}
+        - {x: -38, y: 1}
+        - {x: -29, y: -1}
+        - {x: -21, y: 0}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -14, y: -5}
+        - {x: -20, y: -9}
+        - {x: -28, y: -33}
+        - {x: -28, y: -34}
+        - {x: 27, y: -34}
+        - {x: 38, y: -29}
+        - {x: 38, y: 13}
+        - {x: 18, y: 31}
+    - name: IVYSAUR_39
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 204
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34}
+        - {x: -17, y: 32}
+        - {x: -38, y: 12}
+        - {x: -38, y: 3}
+        - {x: -29, y: -3}
+        - {x: -21, y: 0}
+        - {x: -12, y: -5}
+        - {x: -12, y: -4}
+        - {x: -14, y: -5}
+        - {x: -26, y: -17}
+        - {x: -22, y: -34}
+        - {x: 27, y: -34}
+        - {x: 38, y: -19}
+        - {x: 38, y: 16}
+        - {x: 14, y: 34}
+    - name: IVYSAUR_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 34}
+        - {x: -38, y: 7}
+        - {x: -38, y: 3}
+        - {x: -24, y: -34}
+        - {x: 33, y: -34}
+        - {x: 38, y: -22}
+        - {x: 38, y: 22}
+        - {x: 10, y: 34}
+    - name: IVYSAUR_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 136
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 34}
+        - {x: -38, y: 14}
+        - {x: -38, y: -9}
+        - {x: -25, y: -32}
+        - {x: -23, y: -34}
+        - {x: 26, y: -34}
+        - {x: 38, y: -26}
+        - {x: 38, y: 14}
+        - {x: 11, y: 34}
+    - name: IVYSAUR_42
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 136
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 34}
+        - {x: -15, y: 27}
+        - {x: -36, y: 9}
+        - {x: -38, y: 7}
+        - {x: -38, y: 3}
+        - {x: -25, y: -34}
+        - {x: 36, y: -34}
+        - {x: 38, y: -27}
+        - {x: 38, y: 20}
+        - {x: 13, y: 34}
+    - name: IVYSAUR_43
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 136
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 34}
+        - {x: -7, y: 34}
+        - {x: -14, y: 29}
+        - {x: -36, y: 10}
+        - {x: -38, y: 8}
+        - {x: -38, y: -5}
+        - {x: -28, y: -34}
+        - {x: 26, y: -34}
+        - {x: 38, y: -18}
+        - {x: 38, y: 11}
+    - name: IVYSAUR_44
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 136
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 9}
+        - {x: 36, y: 11}
+        - {x: 11, y: 34}
+        - {x: -17, y: 34}
+        - {x: -38, y: 10}
+        - {x: -38, y: -10}
+        - {x: -22, y: -34}
+        - {x: 26, y: -34}
+        - {x: 38, y: -18}
+        - {x: 37, y: -8}
+        - {x: 38, y: -1}
+    - name: IVYSAUR_45
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 136
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 34}
+        - {x: -38, y: 34}
+        - {x: -38, y: -27}
+        - {x: -35, y: -34}
+        - {x: 26, y: -34}
+        - {x: 38, y: -18}
+        - {x: 37, y: -8}
+        - {x: 38, y: -1}
+    - name: IVYSAUR_46
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 136
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 34}
+        - {x: -12, y: 34}
+        - {x: -16, y: 31}
+        - {x: -38, y: 8}
+        - {x: -38, y: 1}
+        - {x: -23, y: -31}
+        - {x: -21, y: -34}
+        - {x: 26, y: -34}
+        - {x: 38, y: -18}
+        - {x: 38, y: 21}
+    - name: IVYSAUR_47
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 136
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 22}
+        - {x: 15, y: 34}
+        - {x: -27, y: 34}
+        - {x: -38, y: 24}
+        - {x: -38, y: -17}
+        - {x: -27, y: -34}
+        - {x: 26, y: -34}
+        - {x: 37, y: -18}
+        - {x: 38, y: -11}
+    - name: IVYSAUR_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 13}
+        - {x: 37, y: 18}
+        - {x: 13, y: 34}
+        - {x: -18, y: 34}
+        - {x: -38, y: 11}
+        - {x: -38, y: -1}
+        - {x: -24, y: -34}
+        - {x: 26, y: -34}
+        - {x: 37, y: -18}
+        - {x: 37, y: -8}
+        - {x: 38, y: 0}
+    - name: IVYSAUR_49
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 68
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 34}
+        - {x: -38, y: 23}
+        - {x: -38, y: -22}
+        - {x: -32, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -21}
+        - {x: 38, y: 25}
+        - {x: 22, y: 34}
+    - name: IVYSAUR_50
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 68
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 34}
+        - {x: -38, y: 19}
+        - {x: -38, y: -12}
+        - {x: -25, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -23}
+        - {x: 38, y: 13}
+        - {x: 25, y: 34}
+    - name: IVYSAUR_51
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 68
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 34}
+        - {x: -12, y: 28}
+        - {x: -38, y: 11}
+        - {x: -38, y: 3}
+        - {x: -25, y: -32}
+        - {x: -24, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -19}
+        - {x: 38, y: 11}
+        - {x: 12, y: 34}
+    - name: IVYSAUR_52
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 68
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 34}
+        - {x: -12, y: 34}
+        - {x: -16, y: 32}
+        - {x: -38, y: 14}
+        - {x: -38, y: -9}
+        - {x: -25, y: -32}
+        - {x: -24, y: -34}
+        - {x: 29, y: -34}
+        - {x: 38, y: -22}
+        - {x: 38, y: 10}
+        - {x: 34, y: 11}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

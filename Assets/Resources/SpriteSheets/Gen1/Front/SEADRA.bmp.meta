@@ -1,0 +1,1340 @@
+fileFormatVersion: 2
+guid: 9f090464376ab1847a8cd260f9d50f78
+timeCreated: 1452883378
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SEADRA_0
+    21300002: SEADRA_1
+    21300004: SEADRA_2
+    21300006: SEADRA_3
+    21300008: SEADRA_4
+    21300010: SEADRA_5
+    21300012: SEADRA_6
+    21300014: SEADRA_7
+    21300016: SEADRA_8
+    21300018: SEADRA_9
+    21300020: SEADRA_10
+    21300022: SEADRA_11
+    21300024: SEADRA_12
+    21300026: SEADRA_13
+    21300028: SEADRA_14
+    21300030: SEADRA_15
+    21300032: SEADRA_16
+    21300034: SEADRA_17
+    21300036: SEADRA_18
+    21300038: SEADRA_19
+    21300040: SEADRA_20
+    21300042: SEADRA_21
+    21300044: SEADRA_22
+    21300046: SEADRA_23
+    21300048: SEADRA_24
+    21300050: SEADRA_25
+    21300052: SEADRA_26
+    21300054: SEADRA_27
+    21300056: SEADRA_28
+    21300058: SEADRA_29
+    21300060: SEADRA_30
+    21300062: SEADRA_31
+    21300064: SEADRA_32
+    21300066: SEADRA_33
+    21300068: SEADRA_34
+    21300070: SEADRA_35
+    21300072: SEADRA_36
+    21300074: SEADRA_37
+    21300076: SEADRA_38
+    21300078: SEADRA_39
+    21300080: SEADRA_40
+    21300082: SEADRA_41
+    21300084: SEADRA_42
+    21300086: SEADRA_43
+    21300088: SEADRA_44
+    21300090: SEADRA_45
+    21300092: SEADRA_46
+    21300094: SEADRA_47
+    21300096: SEADRA_48
+    21300098: SEADRA_49
+    21300100: SEADRA_50
+    21300102: SEADRA_51
+    21300104: SEADRA_52
+    21300106: SEADRA_53
+    21300108: SEADRA_54
+    21300110: SEADRA_55
+    21300112: SEADRA_56
+    21300114: SEADRA_57
+    21300116: SEADRA_58
+    21300118: SEADRA_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SEADRA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -4}
+        - {x: 31.5, y: -2}
+        - {x: 31.5, y: 27}
+        - {x: 22.5, y: 35}
+        - {x: -32.5, y: 35}
+        - {x: -34.5, y: 33}
+        - {x: -34.5, y: -17}
+        - {x: -21.5, y: -34}
+        - {x: -4.5, y: -34}
+        - {x: 3.5, y: -25}
+        - {x: 2.5, y: -16}
+        - {x: 0.5, y: -11}
+        - {x: 26.5, y: -5}
+    - name: SEADRA_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 518
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 34}
+        - {x: -34.5, y: -34}
+        - {x: 20.5, y: -34}
+        - {x: 30.5, y: -29}
+        - {x: 30.5, y: 25}
+        - {x: 26.5, y: 34}
+    - name: SEADRA_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 518
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 34}
+        - {x: -34.5, y: 25}
+        - {x: -34.5, y: -3}
+        - {x: -21.5, y: -27}
+        - {x: -15.5, y: -34}
+        - {x: 8.5, y: -34}
+        - {x: 31.5, y: -15}
+        - {x: 31.5, y: 28}
+        - {x: 19.5, y: 34}
+    - name: SEADRA_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 518
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 1}
+        - {x: 30.5, y: 8}
+        - {x: 32.5, y: 12}
+        - {x: 32.5, y: 15}
+        - {x: 30.5, y: 16}
+        - {x: 17.5, y: 33}
+        - {x: 15.5, y: 33}
+        - {x: 13.5, y: 32}
+        - {x: 12.5, y: 33}
+        - {x: -26.5, y: 33}
+        - {x: -34.5, y: 23}
+        - {x: -34.5, y: -18}
+        - {x: -29.5, y: -32}
+        - {x: -18.5, y: -35}
+        - {x: -3.5, y: -35}
+        - {x: 5.5, y: -25}
+        - {x: 28.5, y: -9}
+        - {x: 30.5, y: -2}
+    - name: SEADRA_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 518
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 24}
+        - {x: 28.5, y: 33}
+        - {x: -2.5, y: 33}
+        - {x: -5.5, y: 31}
+        - {x: -14.5, y: 33}
+        - {x: -28.5, y: 33}
+        - {x: -34.5, y: 18}
+        - {x: -34.5, y: -7}
+        - {x: -21.5, y: -26}
+        - {x: -15.5, y: -34}
+        - {x: -12.5, y: -35}
+        - {x: -1.5, y: -35}
+        - {x: 6.5, y: -31}
+        - {x: 33.5, y: -8}
+        - {x: 34.5, y: -7}
+    - name: SEADRA_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 518
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: -35}
+        - {x: 34.5, y: -35}
+        - {x: 34.5, y: 32}
+        - {x: -21.5, y: 32}
+        - {x: -30.5, y: 29}
+        - {x: -34.5, y: 19}
+    - name: SEADRA_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 518
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 32}
+        - {x: -34.5, y: 25}
+        - {x: -34.5, y: -9}
+        - {x: -23.5, y: -36}
+        - {x: 9.5, y: -36}
+        - {x: 34.5, y: -19}
+        - {x: 34.5, y: 15}
+        - {x: 22.5, y: 32}
+    - name: SEADRA_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 518
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 31}
+        - {x: -30.5, y: 21}
+        - {x: -34.5, y: 14}
+        - {x: -34.5, y: -11}
+        - {x: -16.5, y: -36}
+        - {x: 16.5, y: -36}
+        - {x: 34.5, y: -21}
+        - {x: 34.5, y: 19}
+        - {x: 18.5, y: 31}
+    - name: SEADRA_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 31}
+        - {x: -32.5, y: 29}
+        - {x: -34.5, y: 16}
+        - {x: -34.5, y: -2}
+        - {x: -33.5, y: -4}
+        - {x: -20.5, y: -29}
+        - {x: -13.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 34.5, y: -17}
+        - {x: 34.5, y: 21}
+        - {x: 20.5, y: 31}
+    - name: SEADRA_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 444
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 31}
+        - {x: -34.5, y: 24}
+        - {x: -34.5, y: -13}
+        - {x: -15.5, y: -37}
+        - {x: 21.5, y: -37}
+        - {x: 33.5, y: -26}
+        - {x: 33.5, y: 24}
+        - {x: 31.5, y: 31}
+    - name: SEADRA_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 444
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 7}
+        - {x: 30.5, y: 30}
+        - {x: -34.5, y: 30}
+        - {x: -34.5, y: -15}
+        - {x: -16.5, y: -37}
+        - {x: 4.5, y: -37}
+        - {x: 27.5, y: -6}
+        - {x: 29.5, y: 1}
+        - {x: 26.5, y: 2}
+    - name: SEADRA_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 444
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 20}
+        - {x: 16.5, y: 30}
+        - {x: -27.5, y: 30}
+        - {x: -33.5, y: 27}
+        - {x: -34.5, y: 23}
+        - {x: -34.5, y: -9}
+        - {x: -17.5, y: -37}
+        - {x: 5.5, y: -37}
+        - {x: 29.5, y: -9}
+        - {x: 29.5, y: 19}
+        - {x: 27.5, y: 20}
+    - name: SEADRA_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 444
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 4}
+        - {x: 15.5, y: 4}
+        - {x: 24.5, y: 6}
+        - {x: 29.5, y: 10}
+        - {x: 29.5, y: 27}
+        - {x: 20.5, y: 30}
+        - {x: -24.5, y: 30}
+        - {x: -29.5, y: 25}
+        - {x: -34.5, y: 15}
+        - {x: -34.5, y: -17}
+        - {x: -14.5, y: -37}
+        - {x: 9.5, y: -37}
+        - {x: 28.5, y: -5}
+        - {x: 29.5, y: -2}
+        - {x: 29.5, y: 2}
+    - name: SEADRA_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 444
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 30}
+        - {x: -32.5, y: 27}
+        - {x: -34.5, y: 17}
+        - {x: -34.5, y: -14}
+        - {x: -24.5, y: -37}
+        - {x: 31.5, y: -37}
+        - {x: 31.5, y: 30}
+    - name: SEADRA_14
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 444
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 30}
+        - {x: -4.5, y: 30}
+        - {x: -10.5, y: 24}
+        - {x: -15.5, y: 27}
+        - {x: -18.5, y: 30}
+        - {x: -28.5, y: 30}
+        - {x: -34.5, y: 20}
+        - {x: -34.5, y: -16}
+        - {x: -23.5, y: -35}
+        - {x: -19.5, y: -37}
+        - {x: 11.5, y: -37}
+        - {x: 30.5, y: -7}
+        - {x: 33.5, y: -1}
+        - {x: 33.5, y: 25}
+    - name: SEADRA_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 444
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 0}
+        - {x: 34.5, y: 1}
+        - {x: 34.5, y: 29}
+        - {x: -30.5, y: 29}
+        - {x: -34.5, y: 23}
+        - {x: -34.5, y: -6}
+        - {x: -33.5, y: -6}
+        - {x: -27.5, y: -7}
+        - {x: -18.5, y: -37}
+        - {x: 4.5, y: -37}
+        - {x: 8.5, y: -34}
+        - {x: 34.5, y: -9}
+        - {x: 34.5, y: -3}
+    - name: SEADRA_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 29}
+        - {x: -34.5, y: 15}
+        - {x: -34.5, y: -23}
+        - {x: -17.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 34.5, y: -8}
+        - {x: 34.5, y: 22}
+        - {x: 32.5, y: 29}
+    - name: SEADRA_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 370
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 29}
+        - {x: -34.5, y: -20}
+        - {x: -25.5, y: -37}
+        - {x: 18.5, y: -37}
+        - {x: 34.5, y: -18}
+        - {x: 34.5, y: 21}
+        - {x: 29.5, y: 29}
+    - name: SEADRA_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 370
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 30}
+        - {x: -8.5, y: 30}
+        - {x: -28.5, y: 28}
+        - {x: -34.5, y: 8}
+        - {x: -34.5, y: -11}
+        - {x: -13.5, y: -37}
+        - {x: 3.5, y: -37}
+        - {x: 9.5, y: -30}
+        - {x: 32.5, y: -9}
+        - {x: 32.5, y: 25}
+    - name: SEADRA_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 370
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 31}
+        - {x: -34.5, y: -37}
+        - {x: 30.5, y: -37}
+        - {x: 30.5, y: 31}
+    - name: SEADRA_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 370
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 32}
+        - {x: -34.5, y: 26}
+        - {x: -34.5, y: -16}
+        - {x: -17.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 28.5, y: -12}
+        - {x: 28.5, y: 32}
+    - name: SEADRA_21
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 370
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 33}
+        - {x: -34.5, y: 24}
+        - {x: -34.5, y: -12}
+        - {x: -18.5, y: -35}
+        - {x: -15.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 27.5, y: -17}
+        - {x: 27.5, y: 33}
+    - name: SEADRA_22
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 370
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 32}
+        - {x: -34.5, y: 23}
+        - {x: -34.5, y: -17}
+        - {x: -12.5, y: -37}
+        - {x: 3.5, y: -37}
+        - {x: 11.5, y: -30}
+        - {x: 28.5, y: -11}
+        - {x: 28.5, y: 32}
+    - name: SEADRA_23
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 370
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 32}
+        - {x: -29.5, y: 28}
+        - {x: -34.5, y: 21}
+        - {x: -34.5, y: -15}
+        - {x: -22.5, y: -37}
+        - {x: 15.5, y: -37}
+        - {x: 29.5, y: -18}
+        - {x: 29.5, y: 25}
+        - {x: 15.5, y: 32}
+    - name: SEADRA_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 32}
+        - {x: -34.5, y: 27}
+        - {x: -34.5, y: -33}
+        - {x: -25.5, y: -37}
+        - {x: 24.5, y: -37}
+        - {x: 31.5, y: -18}
+        - {x: 31.5, y: 30}
+        - {x: 16.5, y: 32}
+    - name: SEADRA_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 296
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: -4}
+        - {x: 32.5, y: -2}
+        - {x: 32.5, y: 29}
+        - {x: 22.5, y: 32}
+        - {x: -34.5, y: 32}
+        - {x: -34.5, y: -14}
+        - {x: -28.5, y: -37}
+        - {x: 3.5, y: -37}
+        - {x: 9.5, y: -30}
+        - {x: 7.5, y: -20}
+        - {x: 6.5, y: -17}
+    - name: SEADRA_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 296
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 32}
+        - {x: -34.5, y: 29}
+        - {x: -34.5, y: -10}
+        - {x: -19.5, y: -37}
+        - {x: 9.5, y: -37}
+        - {x: 33.5, y: -20}
+        - {x: 33.5, y: 31}
+        - {x: 32.5, y: 32}
+    - name: SEADRA_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 296
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 33}
+        - {x: -34.5, y: 27}
+        - {x: -34.5, y: -15}
+        - {x: -14.5, y: -37}
+        - {x: 17.5, y: -37}
+        - {x: 33.5, y: -22}
+        - {x: 33.5, y: 28}
+        - {x: 28.5, y: 33}
+    - name: SEADRA_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 296
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 33}
+        - {x: -34.5, y: -17}
+        - {x: -25.5, y: -36}
+        - {x: 6.5, y: -36}
+        - {x: 31.5, y: -11}
+        - {x: 31.5, y: 28}
+        - {x: 26.5, y: 33}
+    - name: SEADRA_29
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 296
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 34}
+        - {x: -34.5, y: 26}
+        - {x: -34.5, y: -15}
+        - {x: -24.5, y: -35}
+        - {x: -22.5, y: -36}
+        - {x: 15.5, y: -36}
+        - {x: 29.5, y: -18}
+        - {x: 29.5, y: 33}
+        - {x: 28.5, y: 34}
+    - name: SEADRA_30
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 296
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 35}
+        - {x: -29.5, y: 31}
+        - {x: -31.5, y: 22}
+        - {x: -34.5, y: 10}
+        - {x: -34.5, y: -16}
+        - {x: -12.5, y: -35}
+        - {x: 10.5, y: -35}
+        - {x: 28.5, y: -5}
+        - {x: 28.5, y: 26}
+        - {x: 13.5, y: 35}
+    - name: SEADRA_31
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 296
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 35}
+        - {x: -28.5, y: 34}
+        - {x: -34.5, y: 29}
+        - {x: -34.5, y: -18}
+        - {x: -27.5, y: -35}
+        - {x: 12.5, y: -35}
+        - {x: 27.5, y: -16}
+        - {x: 27.5, y: 32}
+        - {x: 15.5, y: 35}
+    - name: SEADRA_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 35}
+        - {x: -34.5, y: 32}
+        - {x: -34.5, y: -11}
+        - {x: -15.5, y: -34}
+        - {x: 1.5, y: -34}
+        - {x: 11.5, y: -30}
+        - {x: 27.5, y: -4}
+        - {x: 27.5, y: 32}
+        - {x: 16.5, y: 35}
+    - name: SEADRA_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 222
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 36}
+        - {x: -34.5, y: 30}
+        - {x: -34.5, y: -18}
+        - {x: -16.5, y: -34}
+        - {x: 8.5, y: -34}
+        - {x: 12.5, y: -29}
+        - {x: 30.5, y: -1}
+        - {x: 30.5, y: 36}
+    - name: SEADRA_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 222
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 36}
+        - {x: -33.5, y: 30}
+        - {x: -34.5, y: 25}
+        - {x: -34.5, y: -6}
+        - {x: -15.5, y: -34}
+        - {x: 27.5, y: -34}
+        - {x: 32.5, y: -30}
+        - {x: 32.5, y: 30}
+        - {x: 13.5, y: 36}
+    - name: SEADRA_35
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 222
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 37}
+        - {x: -34.5, y: 30}
+        - {x: -34.5, y: -10}
+        - {x: -21.5, y: -33}
+        - {x: 5.5, y: -33}
+        - {x: 34.5, y: -12}
+        - {x: 34.5, y: 28}
+        - {x: 11.5, y: 37}
+    - name: SEADRA_36
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 222
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 37}
+        - {x: -34.5, y: -10}
+        - {x: -25.5, y: -33}
+        - {x: 25.5, y: -33}
+        - {x: 34.5, y: -27}
+        - {x: 34.5, y: 25}
+        - {x: 18.5, y: 37}
+    - name: SEADRA_37
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 222
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 6}
+        - {x: 34.5, y: 17}
+        - {x: 34.5, y: 22}
+        - {x: 18.5, y: 37}
+        - {x: -19.5, y: 37}
+        - {x: -34.5, y: 34}
+        - {x: -34.5, y: -13}
+        - {x: -23.5, y: -33}
+        - {x: 15.5, y: -33}
+        - {x: 34.5, y: -13}
+        - {x: 34.5, y: 2}
+        - {x: 30.5, y: 5}
+    - name: SEADRA_38
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 222
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 4}
+        - {x: 33.5, y: 10}
+        - {x: 33.5, y: 24}
+        - {x: 32.5, y: 25}
+        - {x: 15.5, y: 37}
+        - {x: -34.5, y: 37}
+        - {x: -34.5, y: -5}
+        - {x: -14.5, y: -32}
+        - {x: -1.5, y: -32}
+        - {x: 4.5, y: -29}
+        - {x: 6.5, y: -13}
+        - {x: 29.5, y: -2}
+    - name: SEADRA_39
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 222
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 37}
+        - {x: -34.5, y: -3}
+        - {x: -18.5, y: -32}
+        - {x: 4.5, y: -32}
+        - {x: 20.5, y: -26}
+        - {x: 31.5, y: -10}
+        - {x: 31.5, y: 37}
+    - name: SEADRA_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 10}
+        - {x: 29.5, y: 19}
+        - {x: 29.5, y: 25}
+        - {x: 19.5, y: 37}
+        - {x: -24.5, y: 37}
+        - {x: -34.5, y: 34}
+        - {x: -34.5, y: -3}
+        - {x: -18.5, y: -32}
+        - {x: 10.5, y: -32}
+        - {x: 29.5, y: -10}
+        - {x: 29.5, y: 6}
+    - name: SEADRA_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 148
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 37}
+        - {x: -34.5, y: -15}
+        - {x: -28.5, y: -31}
+        - {x: 23.5, y: -31}
+        - {x: 28.5, y: -27}
+        - {x: 28.5, y: 37}
+    - name: SEADRA_42
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 148
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 2}
+        - {x: 29.5, y: 37}
+        - {x: -34.5, y: 37}
+        - {x: -34.5, y: -31}
+        - {x: -1.5, y: -31}
+        - {x: 5.5, y: -23}
+        - {x: 5.5, y: -13}
+        - {x: 28.5, y: 1}
+    - name: SEADRA_43
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 148
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 37}
+        - {x: -34.5, y: -16}
+        - {x: -32.5, y: -31}
+        - {x: 18.5, y: -31}
+        - {x: 31.5, y: -19}
+        - {x: 31.5, y: 27}
+        - {x: 26.5, y: 37}
+    - name: SEADRA_44
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 148
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 37}
+        - {x: -31.5, y: 37}
+        - {x: -34.5, y: 32}
+        - {x: -34.5, y: 0}
+        - {x: -15.5, y: -30}
+        - {x: -14.5, y: -31}
+        - {x: 6.5, y: -31}
+        - {x: 33.5, y: -7}
+        - {x: 33.5, y: 20}
+        - {x: 22.5, y: 35}
+    - name: SEADRA_45
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 148
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 6}
+        - {x: 34.5, y: 13}
+        - {x: 34.5, y: 20}
+        - {x: 27.5, y: 37}
+        - {x: -29.5, y: 37}
+        - {x: -34.5, y: 29}
+        - {x: -34.5, y: -9}
+        - {x: -27.5, y: -31}
+        - {x: 6.5, y: -31}
+        - {x: 34.5, y: -5}
+        - {x: 34.5, y: -4}
+        - {x: 27.5, y: 3}
+    - name: SEADRA_46
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 148
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 33}
+        - {x: 20.5, y: 37}
+        - {x: -32.5, y: 37}
+        - {x: -34.5, y: 28}
+        - {x: -34.5, y: -5}
+        - {x: -20.5, y: -25}
+        - {x: -15.5, y: -31}
+        - {x: -1.5, y: -31}
+        - {x: 24.5, y: -23}
+        - {x: 34.5, y: -8}
+        - {x: 34.5, y: 31}
+        - {x: 20.5, y: 33}
+    - name: SEADRA_47
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 148
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 33}
+        - {x: 14.5, y: 30}
+        - {x: 16.5, y: 33}
+        - {x: 16.5, y: 37}
+        - {x: -32.5, y: 37}
+        - {x: -34.5, y: 31}
+        - {x: -34.5, y: 4}
+        - {x: -19.5, y: -31}
+        - {x: 27.5, y: -31}
+        - {x: 34.5, y: -28}
+        - {x: 34.5, y: 28}
+        - {x: 21.5, y: 34}
+    - name: SEADRA_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 37}
+        - {x: -25.5, y: 37}
+        - {x: -31.5, y: 34}
+        - {x: -34.5, y: 30}
+        - {x: -34.5, y: -8}
+        - {x: -25.5, y: -31}
+        - {x: -1.5, y: -31}
+        - {x: 5.5, y: -25}
+        - {x: 34.5, y: -5}
+        - {x: 34.5, y: 17}
+    - name: SEADRA_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 74
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 37}
+        - {x: -31.5, y: 35}
+        - {x: -34.5, y: 20}
+        - {x: -34.5, y: 0}
+        - {x: -26.5, y: -17}
+        - {x: -18.5, y: -31}
+        - {x: 4.5, y: -31}
+        - {x: 33.5, y: -3}
+        - {x: 33.5, y: 33}
+        - {x: 29.5, y: 37}
+    - name: SEADRA_50
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 74
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 37}
+        - {x: -27.5, y: 37}
+        - {x: -34.5, y: 29}
+        - {x: -34.5, y: -9}
+        - {x: -26.5, y: -31}
+        - {x: 6.5, y: -31}
+        - {x: 30.5, y: -1}
+        - {x: 31.5, y: 6}
+        - {x: 31.5, y: 23}
+    - name: SEADRA_51
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 74
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 37}
+        - {x: -32.5, y: 35}
+        - {x: -34.5, y: 33}
+        - {x: -34.5, y: -10}
+        - {x: -27.5, y: -29}
+        - {x: -21.5, y: -31}
+        - {x: -6.5, y: -31}
+        - {x: 0.5, y: -28}
+        - {x: 29.5, y: -13}
+        - {x: 29.5, y: 32}
+        - {x: 22.5, y: 37}
+    - name: SEADRA_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 74
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 37}
+        - {x: -24.5, y: 36}
+        - {x: -34.5, y: 26}
+        - {x: -34.5, y: -5}
+        - {x: -25.5, y: -31}
+        - {x: 13.5, y: -31}
+        - {x: 30.5, y: -4}
+        - {x: 30.5, y: 24}
+        - {x: 18.5, y: 37}
+    - name: SEADRA_53
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 74
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 37}
+        - {x: -34.5, y: -10}
+        - {x: -19.5, y: -31}
+        - {x: 10.5, y: -31}
+        - {x: 32.5, y: -3}
+        - {x: 32.5, y: 31}
+        - {x: 28.5, y: 37}
+    - name: SEADRA_54
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 74
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37}
+        - {x: -34.5, y: 30}
+        - {x: -34.5, y: -20}
+        - {x: -29.5, y: -28}
+        - {x: -18.5, y: -32}
+        - {x: 10.5, y: -32}
+        - {x: 34.5, y: -9}
+        - {x: 34.5, y: 17}
+        - {x: 18.5, y: 37}
+    - name: SEADRA_55
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 74
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 37}
+        - {x: -25.5, y: 37}
+        - {x: -34.5, y: 17}
+        - {x: -34.5, y: -10}
+        - {x: -24.5, y: -31}
+        - {x: -20.5, y: -32}
+        - {x: -0.5, y: -32}
+        - {x: 5.5, y: -23}
+        - {x: 34.5, y: -11}
+        - {x: 34.5, y: 33}
+    - name: SEADRA_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 36}
+        - {x: -34.5, y: 28}
+        - {x: -34.5, y: 0}
+        - {x: -20.5, y: -32}
+        - {x: 1.5, y: -32}
+        - {x: 34.5, y: -14}
+        - {x: 34.5, y: 36}
+    - name: SEADRA_57
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 32}
+        - {x: 18.5, y: 36}
+        - {x: -25.5, y: 36}
+        - {x: -34.5, y: 30}
+        - {x: -34.5, y: -17}
+        - {x: -23.5, y: -33}
+        - {x: -1.5, y: -33}
+        - {x: 2.5, y: -23}
+        - {x: 34.5, y: -18}
+        - {x: 34.5, y: 26}
+    - name: SEADRA_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 35}
+        - {x: -33.5, y: 33}
+        - {x: -34.5, y: 26}
+        - {x: -34.5, y: -7}
+        - {x: -27.5, y: -28}
+        - {x: -16.5, y: -33}
+        - {x: 3.5, y: -33}
+        - {x: 34.5, y: -17}
+        - {x: 34.5, y: 34}
+        - {x: 30.5, y: 35}
+    - name: SEADRA_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 35}
+        - {x: -34.5, y: 33}
+        - {x: -34.5, y: -15}
+        - {x: -19.5, y: -33}
+        - {x: 3.5, y: -33}
+        - {x: 34.5, y: -5}
+        - {x: 34.5, y: 28}
+        - {x: 29.5, y: 35}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

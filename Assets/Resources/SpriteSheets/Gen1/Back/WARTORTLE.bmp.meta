@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: adfa364b8122a55429e922d5803bac19
+timeCreated: 1452891423
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WARTORTLE_0
+    21300002: WARTORTLE_1
+    21300004: WARTORTLE_2
+    21300006: WARTORTLE_3
+    21300008: WARTORTLE_4
+    21300010: WARTORTLE_5
+    21300012: WARTORTLE_6
+    21300014: WARTORTLE_7
+    21300016: WARTORTLE_8
+    21300018: WARTORTLE_9
+    21300020: WARTORTLE_10
+    21300022: WARTORTLE_11
+    21300024: WARTORTLE_12
+    21300026: WARTORTLE_13
+    21300028: WARTORTLE_14
+    21300030: WARTORTLE_15
+    21300032: WARTORTLE_16
+    21300034: WARTORTLE_17
+    21300036: WARTORTLE_18
+    21300038: WARTORTLE_19
+    21300040: WARTORTLE_20
+    21300042: WARTORTLE_21
+    21300044: WARTORTLE_22
+    21300046: WARTORTLE_23
+    21300048: WARTORTLE_24
+    21300050: WARTORTLE_25
+    21300052: WARTORTLE_26
+    21300054: WARTORTLE_27
+    21300056: WARTORTLE_28
+    21300058: WARTORTLE_29
+    21300060: WARTORTLE_30
+    21300062: WARTORTLE_31
+    21300064: WARTORTLE_32
+    21300066: WARTORTLE_33
+    21300068: WARTORTLE_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WARTORTLE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -11, y: 32}
+        - {x: -28, y: 20}
+        - {x: -32, y: 8}
+        - {x: -32, y: -31}
+        - {x: -23, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -16}
+        - {x: 35, y: 9}
+        - {x: 25, y: 36}
+    - name: WARTORTLE_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 360
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 36}
+        - {x: -31, y: 13}
+        - {x: -31, y: -28}
+        - {x: -21, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -17}
+        - {x: 35, y: 10}
+        - {x: 26, y: 36}
+    - name: WARTORTLE_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 360
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 36}
+        - {x: -31, y: 13}
+        - {x: -31, y: -28}
+        - {x: -21, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -17}
+        - {x: 35, y: 10}
+        - {x: 26, y: 36}
+    - name: WARTORTLE_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 360
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -11, y: 29}
+        - {x: -9, y: 21}
+        - {x: -30, y: 11}
+        - {x: -31, y: 4}
+        - {x: -31, y: -27}
+        - {x: -21, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 360
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -11, y: 29}
+        - {x: -9, y: 21}
+        - {x: -30, y: 11}
+        - {x: -31, y: 4}
+        - {x: -31, y: -27}
+        - {x: -21, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 360
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 36}
+        - {x: -30, y: 28}
+        - {x: -30, y: -32}
+        - {x: -29, y: -36}
+        - {x: 29, y: -36}
+        - {x: 35, y: -24}
+        - {x: 35, y: 12}
+        - {x: 27, y: 36}
+    - name: WARTORTLE_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 36}
+        - {x: -30, y: 17}
+        - {x: -30, y: -34}
+        - {x: -29, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -15}
+        - {x: 35, y: 6}
+        - {x: 26, y: 36}
+    - name: WARTORTLE_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 288
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 36}
+        - {x: -30, y: 10}
+        - {x: -30, y: -33}
+        - {x: -23, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 288
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 36}
+        - {x: -30, y: 15}
+        - {x: -30, y: -34}
+        - {x: -24, y: -36}
+        - {x: 32, y: -36}
+        - {x: 35, y: -14}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_9
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 288
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 36}
+        - {x: -31, y: 23}
+        - {x: -31, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 288
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 36}
+        - {x: -9, y: 22}
+        - {x: -19, y: 13}
+        - {x: -26, y: 6}
+        - {x: -31, y: -9}
+        - {x: -31, y: -33}
+        - {x: -21, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 288
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 36}
+        - {x: -32, y: 12}
+        - {x: -32, y: -32}
+        - {x: -22, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 36}
+        - {x: -5, y: 36}
+        - {x: -8, y: 35}
+        - {x: -11, y: 29}
+        - {x: -9, y: 22}
+        - {x: -19, y: 18}
+        - {x: -32, y: 12}
+        - {x: -32, y: -32}
+        - {x: -31, y: -36}
+        - {x: 33, y: -36}
+        - {x: 35, y: -28}
+        - {x: 35, y: 3}
+        - {x: 28, y: 27}
+    - name: WARTORTLE_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 216
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -11, y: 29}
+        - {x: -23, y: 26}
+        - {x: -33, y: 7}
+        - {x: -33, y: -27}
+        - {x: -32, y: -28}
+        - {x: -20, y: -36}
+        - {x: 33, y: -36}
+        - {x: 35, y: -31}
+        - {x: 35, y: 8}
+        - {x: 25, y: 36}
+    - name: WARTORTLE_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 216
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 36}
+        - {x: -9, y: 36}
+        - {x: -13, y: 28}
+        - {x: -31, y: 13}
+        - {x: -34, y: 3}
+        - {x: -34, y: -24}
+        - {x: -26, y: -36}
+        - {x: 30, y: -36}
+        - {x: 35, y: -29}
+        - {x: 35, y: 22}
+    - name: WARTORTLE_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 216
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 28}
+        - {x: 26, y: 36}
+        - {x: -8, y: 36}
+        - {x: -11, y: 28}
+        - {x: -9, y: 22}
+        - {x: -16, y: 20}
+        - {x: -34, y: 15}
+        - {x: -34, y: -32}
+        - {x: -21, y: -36}
+        - {x: 30, y: -36}
+        - {x: 35, y: -26}
+        - {x: 35, y: 20}
+    - name: WARTORTLE_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 216
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 36}
+        - {x: -35, y: 29}
+        - {x: -35, y: -27}
+        - {x: -32, y: -36}
+        - {x: 32, y: -36}
+        - {x: 35, y: -29}
+        - {x: 35, y: 19}
+        - {x: 28, y: 36}
+    - name: WARTORTLE_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 216
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 36}
+        - {x: -35, y: 25}
+        - {x: -35, y: -23}
+        - {x: -34, y: -26}
+        - {x: -20, y: -36}
+        - {x: 30, y: -36}
+        - {x: 35, y: -18}
+        - {x: 35, y: 25}
+        - {x: 33, y: 36}
+    - name: WARTORTLE_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 36}
+        - {x: -8, y: 36}
+        - {x: -11, y: 31}
+        - {x: -8, y: 19}
+        - {x: -19, y: 21}
+        - {x: -35, y: 21}
+        - {x: -35, y: -31}
+        - {x: -25, y: -36}
+        - {x: 33, y: -36}
+        - {x: 35, y: -28}
+        - {x: 35, y: 4}
+        - {x: 29, y: 27}
+    - name: WARTORTLE_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 144
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 36}
+        - {x: -35, y: 16}
+        - {x: -35, y: -30}
+        - {x: -22, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 144
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 36}
+        - {x: -35, y: 16}
+        - {x: -35, y: -32}
+        - {x: -26, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 144
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -11, y: 31}
+        - {x: -9, y: 22}
+        - {x: -32, y: 22}
+        - {x: -35, y: 8}
+        - {x: -35, y: -25}
+        - {x: -23, y: -36}
+        - {x: 34, y: -36}
+        - {x: 35, y: -30}
+        - {x: 35, y: 36}
+    - name: WARTORTLE_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 144
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 36}
+        - {x: -35, y: 27}
+        - {x: -35, y: -28}
+        - {x: -34, y: -32}
+        - {x: -24, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -31}
+        - {x: 35, y: 23}
+        - {x: 30, y: 36}
+    - name: WARTORTLE_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 144
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 36}
+        - {x: -12, y: 32}
+        - {x: -9, y: 22}
+        - {x: -29, y: 18}
+        - {x: -35, y: 15}
+        - {x: -35, y: -34}
+        - {x: -28, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -31}
+        - {x: 35, y: 23}
+        - {x: 30, y: 36}
+    - name: WARTORTLE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 36}
+        - {x: -35, y: 36}
+        - {x: -35, y: -25}
+        - {x: -29, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -15}
+        - {x: 35, y: 7}
+        - {x: 32, y: 20}
+    - name: WARTORTLE_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 72
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 36}
+        - {x: -12, y: 33}
+        - {x: -35, y: 14}
+        - {x: -35, y: -29}
+        - {x: -33, y: -36}
+        - {x: 32, y: -36}
+        - {x: 35, y: -19}
+        - {x: 35, y: 4}
+        - {x: 26, y: 36}
+    - name: WARTORTLE_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 72
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 36}
+        - {x: -14, y: 33}
+        - {x: -9, y: 23}
+        - {x: -6, y: 18}
+        - {x: -22, y: 19}
+        - {x: -35, y: 14}
+        - {x: -35, y: -25}
+        - {x: -29, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 34}
+        - {x: 30, y: 36}
+    - name: WARTORTLE_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 72
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 36}
+        - {x: -28, y: 36}
+        - {x: -35, y: 19}
+        - {x: -35, y: -33}
+        - {x: -30, y: -36}
+        - {x: 33, y: -36}
+        - {x: 35, y: -18}
+        - {x: 35, y: 2}
+        - {x: 34, y: 7}
+    - name: WARTORTLE_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 72
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -11, y: 29}
+        - {x: -29, y: 19}
+        - {x: -35, y: 15}
+        - {x: -35, y: -26}
+        - {x: -20, y: -36}
+        - {x: 29, y: -36}
+        - {x: 35, y: -17}
+        - {x: 35, y: 10}
+        - {x: 26, y: 36}
+    - name: WARTORTLE_29
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 72
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -11, y: 29}
+        - {x: -7, y: 20}
+        - {x: -28, y: 19}
+        - {x: -35, y: 11}
+        - {x: -35, y: -24}
+        - {x: -30, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 7}
+        - {x: 25, y: 36}
+    - name: WARTORTLE_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 36}
+        - {x: -35, y: 34}
+        - {x: -35, y: -36}
+        - {x: 35, y: -36}
+        - {x: 35, y: 34}
+        - {x: 32, y: 36}
+    - name: WARTORTLE_31
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 36}
+        - {x: -35, y: 21}
+        - {x: -35, y: -30}
+        - {x: -22, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -20}
+        - {x: 35, y: 9}
+        - {x: 25, y: 36}
+    - name: WARTORTLE_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 36}
+        - {x: -18, y: 35}
+        - {x: -34, y: 7}
+        - {x: -34, y: -28}
+        - {x: -24, y: -36}
+        - {x: 32, y: -36}
+        - {x: 35, y: -27}
+        - {x: 35, y: 8}
+        - {x: 25, y: 36}
+    - name: WARTORTLE_33
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 36}
+        - {x: -33, y: 30}
+        - {x: -33, y: -32}
+        - {x: -31, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -19}
+        - {x: 35, y: 10}
+        - {x: 25, y: 36}
+    - name: WARTORTLE_34
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -11, y: 32}
+        - {x: -28, y: 20}
+        - {x: -32, y: 8}
+        - {x: -32, y: -31}
+        - {x: -23, y: -36}
+        - {x: 31, y: -36}
+        - {x: 35, y: -16}
+        - {x: 35, y: 9}
+        - {x: 25, y: 36}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

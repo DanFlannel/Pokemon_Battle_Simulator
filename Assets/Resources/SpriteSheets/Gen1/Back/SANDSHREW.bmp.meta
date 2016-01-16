@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 333b261fd65f44b45a1f535ab8a22a8a
+timeCreated: 1452890480
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SANDSHREW_0
+    21300002: SANDSHREW_1
+    21300004: SANDSHREW_2
+    21300006: SANDSHREW_3
+    21300008: SANDSHREW_4
+    21300010: SANDSHREW_5
+    21300012: SANDSHREW_6
+    21300014: SANDSHREW_7
+    21300016: SANDSHREW_8
+    21300018: SANDSHREW_9
+    21300020: SANDSHREW_10
+    21300022: SANDSHREW_11
+    21300024: SANDSHREW_12
+    21300026: SANDSHREW_13
+    21300028: SANDSHREW_14
+    21300030: SANDSHREW_15
+    21300032: SANDSHREW_16
+    21300034: SANDSHREW_17
+    21300036: SANDSHREW_18
+    21300038: SANDSHREW_19
+    21300040: SANDSHREW_20
+    21300042: SANDSHREW_21
+    21300044: SANDSHREW_22
+    21300046: SANDSHREW_23
+    21300048: SANDSHREW_24
+    21300050: SANDSHREW_25
+    21300052: SANDSHREW_26
+    21300054: SANDSHREW_27
+    21300056: SANDSHREW_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SANDSHREW_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -4}
+        - {x: -12, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -10, y: 23}
+        - {x: -27, y: 20}
+    - name: SANDSHREW_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 230
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -25, y: 13}
+        - {x: -27, y: 10}
+        - {x: -27, y: -12}
+        - {x: -9, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+    - name: SANDSHREW_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 230
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -12}
+        - {x: -17, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -14, y: 23}
+        - {x: -27, y: 20}
+    - name: SANDSHREW_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 230
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 23}
+        - {x: -27, y: -13}
+        - {x: -22, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+    - name: SANDSHREW_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 230
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 0}
+        - {x: -9, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -23, y: 23}
+        - {x: -27, y: 22}
+    - name: SANDSHREW_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 230
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -2}
+        - {x: -8, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -27, y: 23}
+    - name: SANDSHREW_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 23}
+        - {x: -4, y: 8}
+        - {x: -21, y: 10}
+        - {x: -27, y: 8}
+        - {x: -27, y: -15}
+        - {x: -6, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 22}
+        - {x: 27, y: 23}
+    - name: SANDSHREW_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 184
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 23}
+        - {x: 5, y: 21}
+        - {x: -24, y: 10}
+        - {x: -27, y: 8}
+        - {x: -27, y: 2}
+        - {x: -25, y: -5}
+        - {x: -7, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 18}
+        - {x: 27, y: 23}
+    - name: SANDSHREW_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 184
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -4}
+        - {x: -8, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: 0, y: 23}
+        - {x: -28, y: 15}
+    - name: SANDSHREW_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 184
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -4}
+        - {x: -7, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -18, y: 23}
+        - {x: -28, y: 20}
+    - name: SANDSHREW_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 184
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 23}
+        - {x: -28, y: 13}
+        - {x: -28, y: -16}
+        - {x: -26, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+    - name: SANDSHREW_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 184
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 23}
+        - {x: -28, y: 11}
+        - {x: -28, y: -10}
+        - {x: -23, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+    - name: SANDSHREW_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 23}
+        - {x: -27, y: 8}
+        - {x: -28, y: 7}
+        - {x: -28, y: -5}
+        - {x: -10, y: -23}
+        - {x: 26, y: -23}
+        - {x: 28, y: -20}
+        - {x: 28, y: 23}
+    - name: SANDSHREW_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 138
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 23}
+        - {x: -28, y: 7}
+        - {x: -28, y: -4}
+        - {x: -8, y: -23}
+        - {x: 26, y: -23}
+        - {x: 28, y: -20}
+        - {x: 28, y: 23}
+    - name: SANDSHREW_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 138
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -28, y: 8}
+        - {x: -28, y: -4}
+        - {x: -27, y: -6}
+        - {x: -4, y: -23}
+        - {x: 27, y: -23}
+        - {x: 28, y: -20}
+        - {x: 28, y: 23}
+    - name: SANDSHREW_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 138
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -5}
+        - {x: -21, y: -11}
+        - {x: -4, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -5, y: 23}
+        - {x: -28, y: 17}
+    - name: SANDSHREW_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 138
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 23}
+        - {x: -11, y: 23}
+        - {x: -28, y: 17}
+        - {x: -28, y: -5}
+        - {x: -27, y: -6}
+        - {x: -3, y: -23}
+        - {x: 26, y: -23}
+        - {x: 28, y: -18}
+    - name: SANDSHREW_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 138
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 23}
+        - {x: -28, y: 9}
+        - {x: -28, y: -19}
+        - {x: -13, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+    - name: SANDSHREW_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -16}
+        - {x: -8, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -16, y: 23}
+        - {x: -28, y: 20}
+    - name: SANDSHREW_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 92
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 23}
+        - {x: -28, y: -4}
+        - {x: -7, y: -23}
+        - {x: 26, y: -23}
+        - {x: 28, y: -20}
+        - {x: 28, y: 23}
+    - name: SANDSHREW_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 92
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -5}
+        - {x: -11, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -21, y: 23}
+        - {x: -28, y: 21}
+    - name: SANDSHREW_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 92
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -5}
+        - {x: -8, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -15, y: 23}
+        - {x: -28, y: 19}
+    - name: SANDSHREW_22
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 92
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 0}
+        - {x: -8, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -15, y: 23}
+        - {x: -28, y: 19}
+    - name: SANDSHREW_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 92
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 23}
+        - {x: -28, y: 14}
+        - {x: -28, y: -5}
+        - {x: -8, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 19}
+        - {x: 26, y: 23}
+    - name: SANDSHREW_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 23}
+        - {x: -28, y: 15}
+        - {x: -28, y: -2}
+        - {x: -7, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 20}
+        - {x: 26, y: 23}
+    - name: SANDSHREW_25
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 46
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -20}
+        - {x: -17, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -12, y: 23}
+        - {x: -28, y: 20}
+    - name: SANDSHREW_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 46
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 23}
+        - {x: -28, y: 9}
+        - {x: -28, y: -8}
+        - {x: -14, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 18}
+        - {x: 25, y: 23}
+    - name: SANDSHREW_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 46
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 3}
+        - {x: -27, y: -1}
+        - {x: -8, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -20, y: 23}
+        - {x: -28, y: 21}
+    - name: SANDSHREW_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 46
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -3}
+        - {x: -22, y: -9}
+        - {x: -8, y: -23}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+        - {x: -3, y: 23}
+        - {x: -27, y: 17}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

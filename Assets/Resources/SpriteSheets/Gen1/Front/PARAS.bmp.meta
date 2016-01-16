@@ -1,0 +1,813 @@
+fileFormatVersion: 2
+guid: b0419c0753ac5424b9ec31963931def9
+timeCreated: 1452883089
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PARAS_0
+    21300002: PARAS_1
+    21300004: PARAS_2
+    21300006: PARAS_3
+    21300008: PARAS_4
+    21300010: PARAS_5
+    21300012: PARAS_6
+    21300014: PARAS_7
+    21300016: PARAS_8
+    21300018: PARAS_9
+    21300020: PARAS_10
+    21300022: PARAS_11
+    21300024: PARAS_12
+    21300026: PARAS_13
+    21300028: PARAS_14
+    21300030: PARAS_15
+    21300032: PARAS_16
+    21300034: PARAS_17
+    21300036: PARAS_18
+    21300038: PARAS_19
+    21300040: PARAS_20
+    21300042: PARAS_21
+    21300044: PARAS_22
+    21300046: PARAS_23
+    21300048: PARAS_24
+    21300050: PARAS_25
+    21300052: PARAS_26
+    21300054: PARAS_27
+    21300056: PARAS_28
+    21300058: PARAS_29
+    21300060: PARAS_30
+    21300062: PARAS_31
+    21300064: PARAS_32
+    21300066: PARAS_33
+    21300068: PARAS_34
+    21300070: PARAS_35
+    21300072: PARAS_36
+    21300074: PARAS_37
+    21300076: PARAS_38
+    21300078: PARAS_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PARAS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17}
+        - {x: -26, y: 8}
+        - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 16}
+        - {x: 24, y: 17}
+    - name: PARAS_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 204
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 17}
+        - {x: -24, y: 17}
+        - {x: -26, y: 13}
+        - {x: -26, y: -15}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 0}
+        - {x: 24, y: 13}
+    - name: PARAS_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 204
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17}
+        - {x: -26, y: 8}
+        - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 16}
+        - {x: 24, y: 17}
+    - name: PARAS_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 204
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 17}
+        - {x: -26, y: 9}
+        - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+    - name: PARAS_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 204
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 17}
+        - {x: -15, y: 17}
+        - {x: -26, y: 2}
+        - {x: -26, y: -15}
+        - {x: -23, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 0}
+        - {x: 24, y: 13}
+    - name: PARAS_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 204
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 17}
+        - {x: -26, y: -15}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+    - name: PARAS_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 204
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 17}
+        - {x: -16, y: 17}
+        - {x: -26, y: 7}
+        - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: -2}
+        - {x: 22, y: 13}
+    - name: PARAS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 17}
+        - {x: -16, y: 17}
+        - {x: -26, y: 9}
+        - {x: -26, y: -15}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 4}
+        - {x: 25, y: 14}
+    - name: PARAS_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 170
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 17}
+        - {x: -15, y: 17}
+        - {x: -26, y: 2}
+        - {x: -26, y: -12}
+        - {x: -23, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 4}
+        - {x: 25, y: 14}
+    - name: PARAS_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 170
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 17}
+        - {x: -26, y: 8}
+        - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+    - name: PARAS_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 170
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 17}
+        - {x: -26, y: 11}
+        - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 7}
+        - {x: 24, y: 14}
+        - {x: 23, y: 17}
+    - name: PARAS_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 170
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 17}
+        - {x: -26, y: 12}
+        - {x: -26, y: -14}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 3}
+        - {x: 24, y: 14}
+        - {x: 23, y: 17}
+    - name: PARAS_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 170
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 17}
+        - {x: -16, y: 17}
+        - {x: -26, y: 3}
+        - {x: -26, y: -15}
+        - {x: -23, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 5}
+        - {x: 25, y: 14}
+    - name: PARAS_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 170
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -14}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+        - {x: -16, y: 17}
+        - {x: -26, y: 6}
+    - name: PARAS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 17}
+        - {x: -21, y: 17}
+        - {x: -26, y: 9}
+        - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 0}
+        - {x: 23, y: 13}
+    - name: PARAS_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 136
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 17}
+        - {x: -26, y: 9}
+        - {x: -26, y: -13}
+        - {x: -24, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+    - name: PARAS_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 136
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 17}
+        - {x: -26, y: 9}
+        - {x: -26, y: -14}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 3}
+        - {x: 24, y: 16}
+        - {x: 24, y: 17}
+    - name: PARAS_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 136
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+        - {x: -21, y: 17}
+        - {x: -26, y: 5}
+    - name: PARAS_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 136
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 17}
+        - {x: -26, y: 10}
+        - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 10}
+        - {x: 22, y: 17}
+    - name: PARAS_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 136
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 2}
+        - {x: 23, y: 17}
+        - {x: -22, y: 17}
+        - {x: -26, y: 5}
+    - name: PARAS_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 136
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 17}
+        - {x: -26, y: 2}
+        - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 2}
+        - {x: 23, y: 15}
+        - {x: 19, y: 17}
+    - name: PARAS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 17}
+        - {x: -26, y: 6}
+        - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: -1}
+        - {x: 21, y: 17}
+    - name: PARAS_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 102
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17}
+        - {x: -26, y: 6}
+        - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: -1}
+        - {x: 23, y: 14}
+        - {x: 21, y: 17}
+    - name: PARAS_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 102
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 7}
+        - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 1}
+        - {x: 23, y: 15}
+        - {x: 20, y: 17}
+        - {x: -16, y: 17}
+        - {x: -19, y: 16}
+    - name: PARAS_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 102
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 17}
+        - {x: -26, y: 14}
+        - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 19, y: -17}
+        - {x: 26, y: -16}
+        - {x: 26, y: 6}
+        - {x: 25, y: 17}
+    - name: PARAS_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 102
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 7}
+        - {x: 24, y: 17}
+        - {x: -21, y: 17}
+        - {x: -26, y: 5}
+    - name: PARAS_26
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 102
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 17}
+        - {x: -26, y: 7}
+        - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 2}
+        - {x: 24, y: 12}
+        - {x: 21, y: 17}
+    - name: PARAS_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 102
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -26, y: 8}
+        - {x: -26, y: -16}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 16}
+        - {x: 25, y: 17}
+    - name: PARAS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 17}
+        - {x: -26, y: 10}
+        - {x: -26, y: -14}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 8}
+        - {x: 23, y: 17}
+    - name: PARAS_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 68
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 9}
+        - {x: 25, y: 17}
+        - {x: -20, y: 17}
+        - {x: -26, y: 5}
+        - {x: -26, y: -16}
+        - {x: -24, y: -17}
+        - {x: 26, y: -17}
+    - name: PARAS_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 68
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 17}
+        - {x: -26, y: 9}
+        - {x: -26, y: -14}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+    - name: PARAS_31
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 68
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -26, y: 7}
+        - {x: -26, y: -14}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+    - name: PARAS_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 68
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -26, y: 7}
+        - {x: -26, y: -15}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+    - name: PARAS_33
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 68
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 17}
+        - {x: -26, y: 10}
+        - {x: -26, y: -15}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 5}
+        - {x: 24, y: 17}
+    - name: PARAS_34
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 68
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 17}
+        - {x: -26, y: 5}
+        - {x: -26, y: -15}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 6}
+        - {x: 25, y: 13}
+        - {x: 20, y: 17}
+    - name: PARAS_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 17}
+        - {x: -26, y: 10}
+        - {x: -26, y: -15}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 14}
+        - {x: 23, y: 17}
+    - name: PARAS_36
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 34
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -26, y: 6}
+        - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 9}
+        - {x: 25, y: 14}
+        - {x: 20, y: 17}
+    - name: PARAS_37
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 34
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 17}
+        - {x: -26, y: 17}
+        - {x: -26, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: -2}
+        - {x: 23, y: 12}
+    - name: PARAS_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 34
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 17}
+        - {x: -26, y: 8}
+        - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 17}
+    - name: PARAS_39
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 34
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -13}
+        - {x: -25, y: -17}
+        - {x: 26, y: -17}
+        - {x: 26, y: 4}
+        - {x: 23, y: 17}
+        - {x: -25, y: 17}
+        - {x: -26, y: 11}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

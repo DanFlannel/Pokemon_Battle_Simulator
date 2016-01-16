@@ -1,0 +1,991 @@
+fileFormatVersion: 2
+guid: d3eca4363b02264449ee76fa9bfe1b6e
+timeCreated: 1452883005
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NIDORAN_M_0
+    21300002: NIDORAN_M_1
+    21300004: NIDORAN_M_2
+    21300006: NIDORAN_M_3
+    21300008: NIDORAN_M_4
+    21300010: NIDORAN_M_5
+    21300012: NIDORAN_M_6
+    21300014: NIDORAN_M_7
+    21300016: NIDORAN_M_8
+    21300018: NIDORAN_M_9
+    21300020: NIDORAN_M_10
+    21300022: NIDORAN_M_11
+    21300024: NIDORAN_M_12
+    21300026: NIDORAN_M_13
+    21300028: NIDORAN_M_14
+    21300030: NIDORAN_M_15
+    21300032: NIDORAN_M_16
+    21300034: NIDORAN_M_17
+    21300036: NIDORAN_M_18
+    21300038: NIDORAN_M_19
+    21300040: NIDORAN_M_20
+    21300042: NIDORAN_M_21
+    21300044: NIDORAN_M_22
+    21300046: NIDORAN_M_23
+    21300048: NIDORAN_M_24
+    21300050: NIDORAN_M_25
+    21300052: NIDORAN_M_26
+    21300054: NIDORAN_M_27
+    21300056: NIDORAN_M_28
+    21300058: NIDORAN_M_29
+    21300060: NIDORAN_M_30
+    21300062: NIDORAN_M_31
+    21300064: NIDORAN_M_32
+    21300066: NIDORAN_M_33
+    21300068: NIDORAN_M_34
+    21300070: NIDORAN_M_35
+    21300072: NIDORAN_M_36
+    21300074: NIDORAN_M_37
+    21300076: NIDORAN_M_38
+    21300078: NIDORAN_M_39
+    21300080: NIDORAN_M_40
+    21300082: NIDORAN_M_41
+    21300084: NIDORAN_M_42
+    21300086: NIDORAN_M_43
+    21300088: NIDORAN_M_44
+    21300090: NIDORAN_M_45
+    21300092: NIDORAN_M_46
+    21300094: NIDORAN_M_47
+    21300096: NIDORAN_M_48
+    21300098: NIDORAN_M_49
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NIDORAN_M_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 364
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 24}
+        - {x: -26, y: -26}
+        - {x: 25, y: -26}
+        - {x: 26, y: -23}
+        - {x: 26, y: 24}
+    - name: NIDORAN_M_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 364
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 25}
+        - {x: -26, y: 2}
+        - {x: -22, y: -26}
+        - {x: 20, y: -26}
+        - {x: 26, y: -23}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 364
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -17}
+        - {x: -25, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 364
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -26}
+        - {x: 21, y: -26}
+        - {x: 24, y: -21}
+        - {x: 26, y: 4}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 364
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -11}
+        - {x: -23, y: -26}
+        - {x: 20, y: -26}
+        - {x: 26, y: -11}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 364
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -4}
+        - {x: -22, y: -26}
+        - {x: 20, y: -26}
+        - {x: 26, y: -23}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 364
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -3}
+        - {x: -22, y: -26}
+        - {x: 19, y: -26}
+        - {x: 25, y: -21}
+        - {x: 26, y: -16}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 364
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 26}
+        - {x: 17, y: 26}
+        - {x: 6, y: 20}
+        - {x: -19, y: 26}
+        - {x: -23, y: 26}
+        - {x: -26, y: 24}
+        - {x: -26, y: 14}
+        - {x: -22, y: 4}
+        - {x: -24, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -3}
+        - {x: -22, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 312
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: 1}
+        - {x: -23, y: -17}
+        - {x: -22, y: -26}
+        - {x: 20, y: -26}
+        - {x: 26, y: -24}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 312
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -26}
+        - {x: 19, y: -26}
+        - {x: 25, y: -22}
+        - {x: 25, y: 26}
+    - name: NIDORAN_M_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 312
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -1}
+        - {x: -23, y: -17}
+        - {x: -22, y: -26}
+        - {x: 18, y: -26}
+        - {x: 23, y: -20}
+        - {x: 25, y: -9}
+        - {x: 25, y: 26}
+    - name: NIDORAN_M_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 312
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -1}
+        - {x: -23, y: -26}
+        - {x: 20, y: -26}
+        - {x: 25, y: -14}
+        - {x: 25, y: 26}
+    - name: NIDORAN_M_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 312
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -26}
+        - {x: 21, y: -26}
+        - {x: 25, y: -15}
+        - {x: 25, y: 26}
+    - name: NIDORAN_M_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 312
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -26}
+        - {x: 19, y: -26}
+        - {x: 25, y: -21}
+        - {x: 25, y: 26}
+    - name: NIDORAN_M_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 312
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 26}
+        - {x: 1, y: 16}
+        - {x: -20, y: 26}
+        - {x: -26, y: 26}
+        - {x: -26, y: 4}
+        - {x: -22, y: -26}
+        - {x: 19, y: -26}
+        - {x: 25, y: -22}
+        - {x: 25, y: 26}
+    - name: NIDORAN_M_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: 1}
+        - {x: -22, y: -25}
+        - {x: -21, y: -26}
+        - {x: 19, y: -26}
+        - {x: 25, y: -22}
+        - {x: 25, y: 26}
+    - name: NIDORAN_M_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 260
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -10}
+        - {x: -24, y: -26}
+        - {x: 21, y: -26}
+        - {x: 25, y: -14}
+        - {x: 25, y: 26}
+    - name: NIDORAN_M_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 260
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 26}
+        - {x: -26, y: 26}
+        - {x: -26, y: -3}
+        - {x: -22, y: -25}
+        - {x: -21, y: -26}
+        - {x: 18, y: -26}
+        - {x: 22, y: -21}
+        - {x: 23, y: -11}
+        - {x: 26, y: 9}
+    - name: NIDORAN_M_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 260
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 260
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -14}
+        - {x: -25, y: -26}
+        - {x: 21, y: -26}
+        - {x: 25, y: -22}
+        - {x: 26, y: -20}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 260
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -20}
+        - {x: -24, y: -26}
+        - {x: 20, y: -26}
+        - {x: 26, y: -12}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 260
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 26}
+        - {x: -26, y: 26}
+        - {x: -26, y: -4}
+        - {x: -22, y: -26}
+        - {x: 18, y: -26}
+        - {x: 23, y: -21}
+        - {x: 21, y: -6}
+        - {x: 26, y: 12}
+    - name: NIDORAN_M_23
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 260
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 26}
+        - {x: -26, y: 26}
+        - {x: -26, y: -23}
+        - {x: -24, y: -26}
+        - {x: 18, y: -26}
+        - {x: 22, y: -21}
+        - {x: 23, y: -12}
+        - {x: 26, y: 11}
+    - name: NIDORAN_M_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -17}
+        - {x: -23, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 208
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -11}
+        - {x: -25, y: -26}
+        - {x: 21, y: -26}
+        - {x: 26, y: -22}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 208
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: -24}
+        - {x: -25, y: -26}
+        - {x: 23, y: -26}
+        - {x: 26, y: -13}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_27
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 208
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 26}
+        - {x: 6, y: 22}
+        - {x: -23, y: 26}
+        - {x: -26, y: 22}
+        - {x: -26, y: 16}
+        - {x: -22, y: -25}
+        - {x: -22, y: -26}
+        - {x: 20, y: -26}
+        - {x: 26, y: -22}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_28
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 26}
+        - {x: 6, y: 22}
+        - {x: -13, y: 26}
+        - {x: -25, y: 26}
+        - {x: -26, y: 25}
+        - {x: -26, y: 13}
+        - {x: -22, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_29
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 208
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 26}
+        - {x: -26, y: 6}
+        - {x: -22, y: -25}
+        - {x: -21, y: -26}
+        - {x: 19, y: -26}
+        - {x: 26, y: -23}
+        - {x: 26, y: 26}
+    - name: NIDORAN_M_30
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 208
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 25}
+        - {x: 7, y: 22}
+        - {x: -12, y: 25}
+        - {x: -22, y: 25}
+        - {x: -25, y: 24}
+        - {x: -25, y: 0}
+        - {x: -24, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_31
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 208
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 25}
+        - {x: -25, y: 7}
+        - {x: -23, y: -26}
+        - {x: 22, y: -26}
+        - {x: 26, y: -10}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 25}
+        - {x: -25, y: -15}
+        - {x: -24, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_33
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 156
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 25}
+        - {x: 3, y: 17}
+        - {x: -18, y: 25}
+        - {x: -23, y: 25}
+        - {x: -25, y: 24}
+        - {x: -25, y: 1}
+        - {x: -22, y: -25}
+        - {x: -21, y: -26}
+        - {x: 19, y: -26}
+        - {x: 25, y: -21}
+        - {x: 26, y: 1}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 156
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24}
+        - {x: -25, y: -5}
+        - {x: -22, y: -26}
+        - {x: 19, y: -26}
+        - {x: 24, y: -21}
+        - {x: 26, y: -11}
+        - {x: 26, y: 24}
+    - name: NIDORAN_M_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 156
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24}
+        - {x: -25, y: -5}
+        - {x: -22, y: -26}
+        - {x: 21, y: -26}
+        - {x: 26, y: -12}
+        - {x: 26, y: 24}
+    - name: NIDORAN_M_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 156
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24}
+        - {x: -25, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 24}
+    - name: NIDORAN_M_37
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 156
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 24}
+        - {x: -24, y: 23}
+        - {x: -24, y: 0}
+        - {x: -23, y: -26}
+        - {x: 19, y: -26}
+        - {x: 24, y: -21}
+        - {x: 26, y: -3}
+        - {x: 26, y: 24}
+    - name: NIDORAN_M_38
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 156
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -17}
+        - {x: -23, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 24}
+    - name: NIDORAN_M_39
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 156
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 25}
+        - {x: -24, y: -6}
+        - {x: -23, y: -26}
+        - {x: 21, y: -26}
+        - {x: 26, y: -12}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 25}
+        - {x: -24, y: -18}
+        - {x: -23, y: -26}
+        - {x: 25, y: -26}
+        - {x: 26, y: -21}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_41
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 104
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 25}
+        - {x: -23, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_42
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 25}
+        - {x: -24, y: -17}
+        - {x: -22, y: -26}
+        - {x: 23, y: -26}
+        - {x: 26, y: -16}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_43
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 104
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -17}
+        - {x: -22, y: -26}
+        - {x: 19, y: -26}
+        - {x: 24, y: -21}
+        - {x: 26, y: -11}
+        - {x: 26, y: 24}
+    - name: NIDORAN_M_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 104
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24}
+        - {x: -25, y: -1}
+        - {x: -24, y: -26}
+        - {x: 26, y: -26}
+        - {x: 26, y: 24}
+    - name: NIDORAN_M_45
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 104
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -20}
+        - {x: -22, y: -25}
+        - {x: -21, y: -26}
+        - {x: 18, y: -26}
+        - {x: 22, y: -21}
+        - {x: 26, y: -2}
+        - {x: 26, y: 24}
+    - name: NIDORAN_M_46
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 104
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25}
+        - {x: 7, y: 19}
+        - {x: -12, y: 25}
+        - {x: -21, y: 25}
+        - {x: -24, y: 23}
+        - {x: -24, y: 5}
+        - {x: -22, y: -26}
+        - {x: 25, y: -26}
+        - {x: 26, y: -19}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_47
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 104
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 25}
+        - {x: -24, y: -26}
+        - {x: 22, y: -26}
+        - {x: 26, y: -15}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 25}
+        - {x: -25, y: 2}
+        - {x: -22, y: -25}
+        - {x: -22, y: -26}
+        - {x: 19, y: -26}
+        - {x: 24, y: -21}
+        - {x: 26, y: -10}
+        - {x: 26, y: 25}
+    - name: NIDORAN_M_49
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 52
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 25}
+        - {x: -25, y: 6}
+        - {x: -22, y: -26}
+        - {x: 18, y: -26}
+        - {x: 23, y: -21}
+        - {x: 26, y: -6}
+        - {x: 26, y: 25}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

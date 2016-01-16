@@ -1,0 +1,666 @@
+fileFormatVersion: 2
+guid: d1f119cb469c5d846bb66d5d1766fa75
+timeCreated: 1452883160
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PIKACHU_0
+    21300002: PIKACHU_1
+    21300004: PIKACHU_2
+    21300006: PIKACHU_3
+    21300008: PIKACHU_4
+    21300010: PIKACHU_5
+    21300012: PIKACHU_6
+    21300014: PIKACHU_7
+    21300016: PIKACHU_8
+    21300018: PIKACHU_9
+    21300020: PIKACHU_10
+    21300022: PIKACHU_11
+    21300024: PIKACHU_12
+    21300026: PIKACHU_13
+    21300028: PIKACHU_14
+    21300030: PIKACHU_15
+    21300032: PIKACHU_16
+    21300034: PIKACHU_17
+    21300036: PIKACHU_18
+    21300038: PIKACHU_19
+    21300040: PIKACHU_20
+    21300042: PIKACHU_21
+    21300044: PIKACHU_22
+    21300046: PIKACHU_23
+    21300048: PIKACHU_24
+    21300050: PIKACHU_25
+    21300052: PIKACHU_26
+    21300054: PIKACHU_27
+    21300056: PIKACHU_28
+    21300058: PIKACHU_29
+    21300060: PIKACHU_30
+    21300062: PIKACHU_31
+    21300064: PIKACHU_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PIKACHU_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 25, y: -30}
+        - {x: 30, y: -27}
+        - {x: 30, y: 17}
+        - {x: 24, y: 30}
+    - name: PIKACHU_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -29}
+        - {x: -29, y: -30}
+        - {x: 24, y: -30}
+        - {x: 30, y: -27}
+        - {x: 30, y: 30}
+    - name: PIKACHU_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 19, y: -30}
+        - {x: 29, y: -28}
+        - {x: 30, y: -20}
+        - {x: 30, y: 15}
+        - {x: 18, y: 30}
+    - name: PIKACHU_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 30, y: -30}
+        - {x: 30, y: 30}
+    - name: PIKACHU_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -24}
+        - {x: -28, y: -30}
+        - {x: 9, y: -30}
+        - {x: 30, y: -18}
+        - {x: 30, y: 30}
+    - name: PIKACHU_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 20, y: -30}
+        - {x: 30, y: -4}
+        - {x: 30, y: 19}
+        - {x: 22, y: 30}
+    - name: PIKACHU_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -27}
+        - {x: -28, y: -30}
+        - {x: 20, y: -30}
+        - {x: 30, y: -26}
+        - {x: 30, y: 21}
+        - {x: 26, y: 30}
+    - name: PIKACHU_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 13}
+        - {x: 16, y: 30}
+        - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 6, y: -30}
+        - {x: 30, y: -4}
+        - {x: 30, y: 12}
+        - {x: 29, y: 15}
+    - name: PIKACHU_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 17, y: -30}
+        - {x: 30, y: -13}
+        - {x: 30, y: 30}
+    - name: PIKACHU_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 30}
+        - {x: -3, y: 25}
+        - {x: -22, y: 30}
+        - {x: -30, y: 30}
+        - {x: -30, y: -22}
+        - {x: -29, y: -30}
+        - {x: 2, y: -30}
+        - {x: 29, y: -4}
+        - {x: 29, y: 20}
+        - {x: 16, y: 30}
+    - name: PIKACHU_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 10, y: -30}
+        - {x: 29, y: -24}
+        - {x: 29, y: 30}
+    - name: PIKACHU_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 4, y: -30}
+        - {x: 28, y: -1}
+        - {x: 28, y: 13}
+        - {x: 18, y: 30}
+    - name: PIKACHU_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 15}
+        - {x: 16, y: 30}
+        - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 10, y: -30}
+        - {x: 16, y: -29}
+        - {x: 27, y: -6}
+        - {x: 28, y: -4}
+        - {x: 28, y: 16}
+    - name: PIKACHU_13
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -22}
+        - {x: -29, y: -30}
+        - {x: 8, y: -30}
+        - {x: 28, y: -8}
+        - {x: 28, y: 30}
+    - name: PIKACHU_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 21, y: -30}
+        - {x: 28, y: -14}
+        - {x: 28, y: 18}
+        - {x: 20, y: 30}
+    - name: PIKACHU_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 30}
+        - {x: -29, y: -30}
+        - {x: 6, y: -30}
+        - {x: 28, y: -6}
+        - {x: 28, y: 30}
+    - name: PIKACHU_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 30}
+        - {x: -29, y: -30}
+        - {x: 7, y: -30}
+        - {x: 28, y: -10}
+        - {x: 28, y: 27}
+        - {x: 24, y: 30}
+    - name: PIKACHU_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 180
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 30}
+        - {x: -29, y: -30}
+        - {x: 17, y: -30}
+        - {x: 28, y: -27}
+        - {x: 28, y: 30}
+    - name: PIKACHU_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 30}
+        - {x: -29, y: -30}
+        - {x: 4, y: -30}
+        - {x: 28, y: -7}
+        - {x: 28, y: 19}
+        - {x: 13, y: 30}
+    - name: PIKACHU_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 21}
+        - {x: 15, y: 30}
+        - {x: -28, y: 30}
+        - {x: -29, y: 29}
+        - {x: -29, y: -30}
+        - {x: 3, y: -30}
+        - {x: 8, y: -26}
+        - {x: 28, y: -8}
+    - name: PIKACHU_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 30}
+        - {x: -29, y: 28}
+        - {x: -29, y: -30}
+        - {x: 12, y: -30}
+        - {x: 28, y: -20}
+        - {x: 28, y: 30}
+    - name: PIKACHU_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 30}
+        - {x: -29, y: -30}
+        - {x: 21, y: -30}
+        - {x: 29, y: -9}
+        - {x: 29, y: 30}
+    - name: PIKACHU_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 14}
+        - {x: 17, y: 11}
+        - {x: 9, y: 30}
+        - {x: -29, y: 30}
+        - {x: -29, y: -30}
+        - {x: 6, y: -30}
+        - {x: 29, y: -5}
+        - {x: 29, y: 13}
+    - name: PIKACHU_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 120
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 30}
+        - {x: -29, y: 29}
+        - {x: -29, y: -30}
+        - {x: 8, y: -30}
+        - {x: 29, y: -13}
+        - {x: 29, y: 24}
+        - {x: 21, y: 30}
+    - name: PIKACHU_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 30}
+        - {x: -29, y: -30}
+        - {x: 13, y: -30}
+        - {x: 30, y: -16}
+        - {x: 30, y: 29}
+        - {x: 28, y: 30}
+    - name: PIKACHU_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 30}
+        - {x: -29, y: -28}
+        - {x: -28, y: -30}
+        - {x: 14, y: -30}
+        - {x: 30, y: -21}
+        - {x: 30, y: 14}
+        - {x: 18, y: 30}
+    - name: PIKACHU_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 30}
+        - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 8, y: -30}
+        - {x: 30, y: -10}
+        - {x: 30, y: 11}
+        - {x: 27, y: 12}
+    - name: PIKACHU_27
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 9}
+        - {x: 12, y: 30}
+        - {x: -30, y: 30}
+        - {x: -30, y: -23}
+        - {x: -28, y: -30}
+        - {x: 4, y: -30}
+        - {x: 30, y: -6}
+        - {x: 30, y: 13}
+    - name: PIKACHU_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -22}
+        - {x: -28, y: -30}
+        - {x: 19, y: -30}
+        - {x: 30, y: -29}
+        - {x: 30, y: 30}
+    - name: PIKACHU_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 30}
+        - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 5, y: -30}
+        - {x: 13, y: -28}
+        - {x: 30, y: -14}
+        - {x: 30, y: 24}
+    - name: PIKACHU_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 15, y: -30}
+        - {x: 30, y: -26}
+        - {x: 30, y: 22}
+        - {x: 26, y: 30}
+    - name: PIKACHU_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 30}
+        - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 6, y: -30}
+        - {x: 29, y: -10}
+        - {x: 30, y: -7}
+        - {x: 30, y: 20}
+    - name: PIKACHU_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 30}
+        - {x: -30, y: -30}
+        - {x: 8, y: -30}
+        - {x: 30, y: -11}
+        - {x: 30, y: 12}
+        - {x: 15, y: 30}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 09f2c482583a97645aefea5d5c6f0b72
+timeCreated: 1452890298
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PINSIR_0
+    21300002: PINSIR_1
+    21300004: PINSIR_2
+    21300006: PINSIR_3
+    21300008: PINSIR_4
+    21300010: PINSIR_5
+    21300012: PINSIR_6
+    21300014: PINSIR_7
+    21300016: PINSIR_8
+    21300018: PINSIR_9
+    21300020: PINSIR_10
+    21300022: PINSIR_11
+    21300024: PINSIR_12
+    21300026: PINSIR_13
+    21300028: PINSIR_14
+    21300030: PINSIR_15
+    21300032: PINSIR_16
+    21300034: PINSIR_17
+    21300036: PINSIR_18
+    21300038: PINSIR_19
+    21300040: PINSIR_20
+    21300042: PINSIR_21
+    21300044: PINSIR_22
+    21300046: PINSIR_23
+    21300048: PINSIR_24
+    21300050: PINSIR_25
+    21300052: PINSIR_26
+    21300054: PINSIR_27
+    21300056: PINSIR_28
+    21300058: PINSIR_29
+    21300060: PINSIR_30
+    21300062: PINSIR_31
+    21300064: PINSIR_32
+    21300066: PINSIR_33
+    21300068: PINSIR_34
+    21300070: PINSIR_35
+    21300072: PINSIR_36
+    21300074: PINSIR_37
+    21300076: PINSIR_38
+    21300078: PINSIR_39
+    21300080: PINSIR_40
+    21300082: PINSIR_41
+    21300084: PINSIR_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PINSIR_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 37}
+        - {x: -18.5, y: 37}
+        - {x: -24.5, y: 31}
+        - {x: -36.5, y: -2}
+        - {x: -36.5, y: -37}
+        - {x: 21.5, y: -37}
+        - {x: 34.5, y: -27}
+        - {x: 34.5, y: 2}
+        - {x: 31.5, y: 5}
+    - name: PINSIR_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 444
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 37}
+        - {x: -36.5, y: 6}
+        - {x: -36.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 33.5, y: -21}
+        - {x: 33.5, y: 18}
+        - {x: 14.5, y: 37}
+    - name: PINSIR_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 444
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 4}
+        - {x: 18.5, y: 4}
+        - {x: 18.5, y: 33}
+        - {x: 12.5, y: 37}
+        - {x: -36.5, y: 37}
+        - {x: -36.5, y: -36}
+        - {x: -33.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 32.5, y: -10}
+        - {x: 32.5, y: -2}
+        - {x: 31.5, y: 2}
+    - name: PINSIR_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 444
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 4}
+        - {x: 18.5, y: 4}
+        - {x: 18.5, y: 33}
+        - {x: 12.5, y: 37}
+        - {x: -36.5, y: 37}
+        - {x: -36.5, y: -36}
+        - {x: -33.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 32.5, y: -10}
+        - {x: 32.5, y: -2}
+        - {x: 31.5, y: 2}
+    - name: PINSIR_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 444
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 37}
+        - {x: 2.5, y: 36}
+        - {x: -3.5, y: 23}
+        - {x: -8.5, y: 37}
+        - {x: -15.5, y: 37}
+        - {x: -23.5, y: 31}
+        - {x: -36.5, y: -2}
+        - {x: -36.5, y: -26}
+        - {x: -35.5, y: -31}
+        - {x: -31.5, y: -37}
+        - {x: 15.5, y: -37}
+        - {x: 32.5, y: -18}
+        - {x: 32.5, y: 7}
+        - {x: 21.5, y: 37}
+    - name: PINSIR_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 444
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 37}
+        - {x: 2.5, y: 36}
+        - {x: -3.5, y: 23}
+        - {x: -8.5, y: 37}
+        - {x: -15.5, y: 37}
+        - {x: -23.5, y: 31}
+        - {x: -36.5, y: -2}
+        - {x: -36.5, y: -26}
+        - {x: -35.5, y: -31}
+        - {x: -31.5, y: -37}
+        - {x: 15.5, y: -37}
+        - {x: 32.5, y: -18}
+        - {x: 32.5, y: 7}
+        - {x: 21.5, y: 37}
+    - name: PINSIR_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 444
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: -16}
+        - {x: 31.5, y: 24}
+        - {x: 26.5, y: 37}
+        - {x: -31.5, y: 37}
+        - {x: -36.5, y: 2}
+        - {x: -36.5, y: -21}
+        - {x: -34.5, y: -31}
+        - {x: -31.5, y: -37}
+        - {x: 12.5, y: -37}
+    - name: PINSIR_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 37}
+        - {x: -36.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 31.5, y: -8}
+        - {x: 31.5, y: 2}
+        - {x: 13.5, y: 37}
+    - name: PINSIR_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 370
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37}
+        - {x: -36.5, y: 7}
+        - {x: -36.5, y: -30}
+        - {x: -33.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 30.5, y: -16}
+        - {x: 30.5, y: 16}
+        - {x: 20.5, y: 37}
+    - name: PINSIR_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 370
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 6}
+        - {x: 12.5, y: 37}
+        - {x: 2.5, y: 37}
+        - {x: -3.5, y: 22}
+        - {x: -11.5, y: 37}
+        - {x: -18.5, y: 37}
+        - {x: -34.5, y: 23}
+        - {x: -36.5, y: 12}
+        - {x: -36.5, y: -37}
+        - {x: 19.5, y: -37}
+        - {x: 29.5, y: -29}
+        - {x: 29.5, y: 5}
+        - {x: 25.5, y: 7}
+    - name: PINSIR_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 370
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 37}
+        - {x: -36.5, y: 2}
+        - {x: -36.5, y: -22}
+        - {x: -32.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 29.5, y: -16}
+        - {x: 29.5, y: 21}
+        - {x: 24.5, y: 37}
+    - name: PINSIR_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 370
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 37}
+        - {x: -27.5, y: 36}
+        - {x: -36.5, y: 3}
+        - {x: -36.5, y: -26}
+        - {x: -33.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 29.5, y: -9}
+        - {x: 29.5, y: 7}
+        - {x: 11.5, y: 37}
+    - name: PINSIR_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 370
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 8}
+        - {x: 15.5, y: 7}
+        - {x: 21.5, y: 17}
+        - {x: 13.5, y: 37}
+        - {x: -34.5, y: 37}
+        - {x: -36.5, y: 36}
+        - {x: -36.5, y: -37}
+        - {x: 11.5, y: -37}
+        - {x: 29.5, y: -6}
+        - {x: 29.5, y: 4}
+    - name: PINSIR_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 370
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 8}
+        - {x: 12.5, y: 37}
+        - {x: -19.5, y: 37}
+        - {x: -29.5, y: 34}
+        - {x: -36.5, y: 9}
+        - {x: -36.5, y: -29}
+        - {x: -34.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 29.5, y: -3}
+        - {x: 29.5, y: 3}
+        - {x: 24.5, y: 8}
+    - name: PINSIR_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 37}
+        - {x: -36.5, y: 23}
+        - {x: -36.5, y: -37}
+        - {x: 11.5, y: -37}
+        - {x: 29.5, y: -15}
+        - {x: 29.5, y: 22}
+        - {x: 25.5, y: 37}
+    - name: PINSIR_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 296
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 37}
+        - {x: -36.5, y: 21}
+        - {x: -36.5, y: -28}
+        - {x: -33.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 29.5, y: -13}
+        - {x: 29.5, y: 18}
+        - {x: 16.5, y: 37}
+    - name: PINSIR_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 296
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 9}
+        - {x: 19.5, y: 9}
+        - {x: 12.5, y: 3}
+        - {x: 15.5, y: 15}
+        - {x: 14.5, y: 36}
+        - {x: 10.5, y: 37}
+        - {x: 6.5, y: 37}
+        - {x: 4.5, y: 33}
+        - {x: -10.5, y: 37}
+        - {x: -34.5, y: 37}
+        - {x: -35.5, y: 30}
+        - {x: -35.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 28.5, y: -3}
+        - {x: 29.5, y: -1}
+        - {x: 29.5, y: 5}
+    - name: PINSIR_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 296
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 37}
+        - {x: -20.5, y: 37}
+        - {x: -35.5, y: 15}
+        - {x: -35.5, y: -37}
+        - {x: 15.5, y: -37}
+        - {x: 29.5, y: -13}
+        - {x: 29.5, y: 10}
+        - {x: 25.5, y: 28}
+    - name: PINSIR_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 296
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 11}
+        - {x: 21.5, y: 11}
+        - {x: 12.5, y: 4}
+        - {x: 17.5, y: 15}
+        - {x: 15.5, y: 36}
+        - {x: 13.5, y: 37}
+        - {x: -20.5, y: 37}
+        - {x: -35.5, y: 4}
+        - {x: -35.5, y: -33}
+        - {x: -34.5, y: -37}
+        - {x: 11.5, y: -37}
+        - {x: 30.5, y: 0}
+        - {x: 30.5, y: 5}
+    - name: PINSIR_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 296
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 36}
+        - {x: 2.5, y: 27}
+        - {x: -0.5, y: 20}
+        - {x: -10.5, y: 34}
+        - {x: -14.5, y: 36}
+        - {x: -15.5, y: 36}
+        - {x: -27.5, y: 21}
+        - {x: -35.5, y: -6}
+        - {x: -35.5, y: -24}
+        - {x: -33.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 30.5, y: -7}
+        - {x: 30.5, y: 16}
+        - {x: 16.5, y: 36}
+    - name: PINSIR_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 296
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 10}
+        - {x: 13.5, y: 3}
+        - {x: 17.5, y: 14}
+        - {x: 18.5, y: 36}
+        - {x: -21.5, y: 36}
+        - {x: -35.5, y: 7}
+        - {x: -35.5, y: -34}
+        - {x: -34.5, y: -37}
+        - {x: 11.5, y: -37}
+        - {x: 31.5, y: -1}
+        - {x: 31.5, y: 7}
+        - {x: 26.5, y: 11}
+    - name: PINSIR_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 36}
+        - {x: -16.5, y: 36}
+        - {x: -35.5, y: 27}
+        - {x: -35.5, y: -30}
+        - {x: -34.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 31.5, y: -8}
+        - {x: 31.5, y: 18}
+        - {x: 16.5, y: 35}
+    - name: PINSIR_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 222
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 36}
+        - {x: -35.5, y: 8}
+        - {x: -35.5, y: -34}
+        - {x: -34.5, y: -37}
+        - {x: 17.5, y: -37}
+        - {x: 32.5, y: -2}
+        - {x: 32.5, y: 15}
+        - {x: 18.5, y: 36}
+    - name: PINSIR_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 222
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 36}
+        - {x: -35.5, y: 5}
+        - {x: -35.5, y: -31}
+        - {x: -33.5, y: -37}
+        - {x: 13.5, y: -37}
+        - {x: 33.5, y: 0}
+        - {x: 33.5, y: 8}
+        - {x: 15.5, y: 36}
+    - name: PINSIR_24
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 222
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 34.5, y: -27}
+        - {x: 34.5, y: 13}
+        - {x: 20.5, y: 35}
+        - {x: -30.5, y: 35}
+        - {x: -33.5, y: 34}
+        - {x: -35.5, y: 16}
+    - name: PINSIR_25
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 222
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 7}
+        - {x: 16.5, y: 3}
+        - {x: 17.5, y: 14}
+        - {x: 16.5, y: 36}
+        - {x: -17.5, y: 36}
+        - {x: -35.5, y: 19}
+        - {x: -35.5, y: -36}
+        - {x: -34.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 34.5, y: -1}
+        - {x: 34.5, y: 7}
+        - {x: 28.5, y: 11}
+    - name: PINSIR_26
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 222
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 35}
+        - {x: -35.5, y: 5}
+        - {x: -35.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 35.5, y: -10}
+        - {x: 35.5, y: 23}
+        - {x: 27.5, y: 35}
+    - name: PINSIR_27
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 222
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 35}
+        - {x: 2.5, y: 28}
+        - {x: -5.5, y: 35}
+        - {x: -8.5, y: 35}
+        - {x: -19.5, y: 27}
+        - {x: -36.5, y: -3}
+        - {x: -36.5, y: -23}
+        - {x: -34.5, y: -35}
+        - {x: -31.5, y: -37}
+        - {x: 15.5, y: -37}
+        - {x: 36.5, y: -5}
+        - {x: 36.5, y: 9}
+        - {x: 17.5, y: 35}
+    - name: PINSIR_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 35}
+        - {x: -22.5, y: 21}
+        - {x: -36.5, y: -1}
+        - {x: -36.5, y: -26}
+        - {x: -33.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 36.5, y: -6}
+        - {x: 36.5, y: 24}
+        - {x: 19.5, y: 35}
+    - name: PINSIR_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 148
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 35}
+        - {x: -29.5, y: 26}
+        - {x: -36.5, y: -2}
+        - {x: -36.5, y: -24}
+        - {x: -33.5, y: -37}
+        - {x: 11.5, y: -37}
+        - {x: 36.5, y: -6}
+        - {x: 36.5, y: 20}
+        - {x: 22.5, y: 35}
+    - name: PINSIR_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 148
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 35}
+        - {x: -25.5, y: 24}
+        - {x: -36.5, y: -5}
+        - {x: -36.5, y: -24}
+        - {x: -33.5, y: -37}
+        - {x: 26.5, y: -37}
+        - {x: 36.5, y: -16}
+        - {x: 36.5, y: 34}
+        - {x: 32.5, y: 35}
+    - name: PINSIR_31
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 148
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 7}
+        - {x: 21.5, y: 5}
+        - {x: 20.5, y: 32}
+        - {x: 16.5, y: 35}
+        - {x: -14.5, y: 35}
+        - {x: -32.5, y: 29}
+        - {x: -36.5, y: 3}
+        - {x: -36.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 36.5, y: -8}
+        - {x: 36.5, y: 6}
+    - name: PINSIR_32
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 148
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 5}
+        - {x: 20.5, y: 15}
+        - {x: 12.5, y: 36}
+        - {x: -3.5, y: 36}
+        - {x: -8.5, y: 34}
+        - {x: -21.5, y: 21}
+        - {x: -36.5, y: -7}
+        - {x: -36.5, y: -23}
+        - {x: -33.5, y: -37}
+        - {x: 17.5, y: -37}
+        - {x: 36.5, y: -8}
+        - {x: 36.5, y: 4}
+        - {x: 34.5, y: 6}
+    - name: PINSIR_33
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 148
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 36}
+        - {x: -18.5, y: 36}
+        - {x: -36.5, y: -3}
+        - {x: -36.5, y: -36}
+        - {x: -34.5, y: -37}
+        - {x: 10.5, y: -37}
+        - {x: 36.5, y: -12}
+        - {x: 36.5, y: 14}
+    - name: PINSIR_34
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 148
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 36}
+        - {x: -14.5, y: 36}
+        - {x: -25.5, y: 23}
+        - {x: -36.5, y: 1}
+        - {x: -36.5, y: -23}
+        - {x: -32.5, y: -37}
+        - {x: 16.5, y: -37}
+        - {x: 29.5, y: -32}
+        - {x: 36.5, y: -16}
+        - {x: 36.5, y: 27}
+    - name: PINSIR_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 4}
+        - {x: 20.5, y: 33}
+        - {x: 12.5, y: 36}
+        - {x: -24.5, y: 36}
+        - {x: -36.5, y: 32}
+        - {x: -36.5, y: -37}
+        - {x: 12.5, y: -37}
+        - {x: 36.5, y: -10}
+        - {x: 36.5, y: 0}
+        - {x: 34.5, y: 5}
+    - name: PINSIR_36
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 74
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 37}
+        - {x: -7.5, y: 37}
+        - {x: -24.5, y: 24}
+        - {x: -36.5, y: -4}
+        - {x: -36.5, y: -25}
+        - {x: -32.5, y: -37}
+        - {x: 13.5, y: -37}
+        - {x: 36.5, y: -11}
+        - {x: 36.5, y: 18}
+    - name: PINSIR_37
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 74
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 6}
+        - {x: 18.5, y: 1}
+        - {x: 18.5, y: 16}
+        - {x: 11.5, y: 37}
+        - {x: -19.5, y: 37}
+        - {x: -36.5, y: 12}
+        - {x: -36.5, y: -36}
+        - {x: -35.5, y: -37}
+        - {x: 14.5, y: -37}
+        - {x: 36.5, y: -11}
+        - {x: 36.5, y: 2}
+    - name: PINSIR_38
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 74
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 37}
+        - {x: -21.5, y: 37}
+        - {x: -26.5, y: 34}
+        - {x: -36.5, y: 5}
+        - {x: -36.5, y: -26}
+        - {x: -34.5, y: -37}
+        - {x: 26.5, y: -37}
+        - {x: 36.5, y: -32}
+        - {x: 36.5, y: 23}
+    - name: PINSIR_39
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 74
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 37}
+        - {x: -24.5, y: 37}
+        - {x: -36.5, y: 5}
+        - {x: -36.5, y: -27}
+        - {x: -34.5, y: -37}
+        - {x: 19.5, y: -37}
+        - {x: 36.5, y: -11}
+        - {x: 36.5, y: 1}
+        - {x: 33.5, y: 4}
+    - name: PINSIR_40
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 74
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 37}
+        - {x: -36.5, y: 26}
+        - {x: -36.5, y: -37}
+        - {x: 11.5, y: -37}
+        - {x: 35.5, y: -11}
+        - {x: 35.5, y: 27}
+        - {x: 21.5, y: 37}
+    - name: PINSIR_41
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 74
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 37}
+        - {x: 3.5, y: 37}
+        - {x: 0.5, y: 32}
+        - {x: -6.5, y: 37}
+        - {x: -11.5, y: 37}
+        - {x: -23.5, y: 36}
+        - {x: -36.5, y: 9}
+        - {x: -36.5, y: -37}
+        - {x: 21.5, y: -37}
+        - {x: 35.5, y: -31}
+        - {x: 35.5, y: 19}
+        - {x: 22.5, y: 36}
+    - name: PINSIR_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 37}
+        - {x: -18.5, y: 37}
+        - {x: -24.5, y: 31}
+        - {x: -36.5, y: -2}
+        - {x: -36.5, y: -37}
+        - {x: 21.5, y: -37}
+        - {x: 34.5, y: -27}
+        - {x: 34.5, y: 2}
+        - {x: 31.5, y: 5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

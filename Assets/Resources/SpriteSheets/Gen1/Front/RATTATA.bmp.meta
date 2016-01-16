@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: b4fced1a6d8ec3f44a7601fbc012bcea
+timeCreated: 1452883296
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RATTATA_0
+    21300002: RATTATA_1
+    21300004: RATTATA_2
+    21300006: RATTATA_3
+    21300008: RATTATA_4
+    21300010: RATTATA_5
+    21300012: RATTATA_6
+    21300014: RATTATA_7
+    21300016: RATTATA_8
+    21300018: RATTATA_9
+    21300020: RATTATA_10
+    21300022: RATTATA_11
+    21300024: RATTATA_12
+    21300026: RATTATA_13
+    21300028: RATTATA_14
+    21300030: RATTATA_15
+    21300032: RATTATA_16
+    21300034: RATTATA_17
+    21300036: RATTATA_18
+    21300038: RATTATA_19
+    21300040: RATTATA_20
+    21300042: RATTATA_21
+    21300044: RATTATA_22
+    21300046: RATTATA_23
+    21300048: RATTATA_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RATTATA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 20.5}
+        - {x: 4.5, y: 15.5}
+        - {x: -14.5, y: 4.5}
+        - {x: -21.5, y: -7.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 18.5}
+        - {x: 20.5, y: 29.5}
+        - {x: 18.5, y: 30.5}
+        - {x: 3.5, y: 30.5}
+        - {x: -2.5, y: 27.5}
+    - name: RATTATA_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 244
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 30.5}
+        - {x: -9.5, y: 30.5}
+        - {x: -21.5, y: 15.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: -7.5}
+        - {x: 15.5, y: 29.5}
+    - name: RATTATA_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 244
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 30.5}
+        - {x: -6.5, y: 30.5}
+        - {x: -21.5, y: 10.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 19.5, y: 28.5}
+    - name: RATTATA_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 244
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 2.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: -5.5}
+        - {x: 15.5, y: 29.5}
+        - {x: 14.5, y: 30.5}
+        - {x: 1.5, y: 30.5}
+        - {x: -9.5, y: 21.5}
+    - name: RATTATA_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 244
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 30.5}
+        - {x: -21.5, y: 20.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 4.5}
+        - {x: 20.5, y: 14.5}
+        - {x: 12.5, y: 30.5}
+    - name: RATTATA_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 19.5, y: 30.5}
+        - {x: -3.5, y: 30.5}
+        - {x: -21.5, y: 7.5}
+    - name: RATTATA_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 183
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 6.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 20.5}
+        - {x: 20.5, y: 30.5}
+        - {x: -9.5, y: 30.5}
+        - {x: -20.5, y: 12.5}
+    - name: RATTATA_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 183
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 30.5}
+        - {x: -21.5, y: 25.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 30.5}
+    - name: RATTATA_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 183
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 2.5}
+        - {x: 16.5, y: 30.5}
+        - {x: -18.5, y: 30.5}
+        - {x: -21.5, y: 28.5}
+    - name: RATTATA_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 183
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 30.5}
+        - {x: -21.5, y: -5.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 19.5}
+        - {x: 11.5, y: 30.5}
+    - name: RATTATA_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 30.5}
+        - {x: -21.5, y: 21.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 30.5}
+    - name: RATTATA_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 122
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 30.5}
+        - {x: -5.5, y: 25.5}
+        - {x: -21.5, y: -5.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: -1.5}
+        - {x: 7.5, y: 30.5}
+    - name: RATTATA_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 122
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 30.5}
+        - {x: -3.5, y: 28.5}
+        - {x: -4.5, y: 21.5}
+        - {x: -21.5, y: -5.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: -1.5}
+        - {x: 6.5, y: 30.5}
+    - name: RATTATA_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 122
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 30.5}
+        - {x: -4.5, y: 27.5}
+        - {x: -5.5, y: 22.5}
+        - {x: -21.5, y: -4.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 1.5}
+        - {x: 8.5, y: 30.5}
+    - name: RATTATA_14
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 122
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 30.5}
+        - {x: -5.5, y: 30.5}
+        - {x: -21.5, y: -1.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: -1.5}
+        - {x: 9.5, y: 28.5}
+    - name: RATTATA_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 30.5}
+        - {x: -4.5, y: 30.5}
+        - {x: -16.5, y: 21.5}
+        - {x: -21.5, y: 1.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: -1.5}
+        - {x: 13.5, y: 18.5}
+    - name: RATTATA_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 61
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 30.5}
+        - {x: -2.5, y: 30.5}
+        - {x: -6.5, y: 25.5}
+        - {x: -4.5, y: 19.5}
+        - {x: -13.5, y: 6.5}
+        - {x: -21.5, y: -4.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: -2.5}
+        - {x: 14.5, y: 16.5}
+    - name: RATTATA_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 61
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 30.5}
+        - {x: -21.5, y: 25.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 9.5, y: 30.5}
+    - name: RATTATA_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 61
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 18.5}
+        - {x: 16.5, y: 30.5}
+        - {x: -13.5, y: 30.5}
+        - {x: -21.5, y: 22.5}
+    - name: RATTATA_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 61
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 30.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 22.5}
+        - {x: 20.5, y: 30.5}
+    - name: RATTATA_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 30.5}
+        - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 15.5, y: 30.5}
+    - name: RATTATA_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 30.5}
+        - {x: -0.5, y: 30.5}
+        - {x: -4.5, y: 26.5}
+        - {x: -2.5, y: 15.5}
+        - {x: -13.5, y: 5.5}
+        - {x: -21.5, y: -4.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: -0.5}
+        - {x: 12.5, y: 28.5}
+    - name: RATTATA_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 30.5}
+        - {x: -4.5, y: 28.5}
+        - {x: -21.5, y: 10.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 23.5}
+        - {x: 10.5, y: 30.5}
+    - name: RATTATA_23
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 30.5}
+        - {x: -21.5, y: 7.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 18.5}
+        - {x: 13.5, y: 30.5}
+    - name: RATTATA_24
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: -30.5}
+        - {x: 21.5, y: -30.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 18.5, y: 30.5}
+        - {x: -2.5, y: 30.5}
+        - {x: -21.5, y: -0.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

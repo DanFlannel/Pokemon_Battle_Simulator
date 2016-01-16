@@ -1,0 +1,1141 @@
+fileFormatVersion: 2
+guid: cb5724700b0a4fe488af8de1494608bc
+timeCreated: 1452890312
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: POLIWHIRL_0
+    21300002: POLIWHIRL_1
+    21300004: POLIWHIRL_2
+    21300006: POLIWHIRL_3
+    21300008: POLIWHIRL_4
+    21300010: POLIWHIRL_5
+    21300012: POLIWHIRL_6
+    21300014: POLIWHIRL_7
+    21300016: POLIWHIRL_8
+    21300018: POLIWHIRL_9
+    21300020: POLIWHIRL_10
+    21300022: POLIWHIRL_11
+    21300024: POLIWHIRL_12
+    21300026: POLIWHIRL_13
+    21300028: POLIWHIRL_14
+    21300030: POLIWHIRL_15
+    21300032: POLIWHIRL_16
+    21300034: POLIWHIRL_17
+    21300036: POLIWHIRL_18
+    21300038: POLIWHIRL_19
+    21300040: POLIWHIRL_20
+    21300042: POLIWHIRL_21
+    21300044: POLIWHIRL_22
+    21300046: POLIWHIRL_23
+    21300048: POLIWHIRL_24
+    21300050: POLIWHIRL_25
+    21300052: POLIWHIRL_26
+    21300054: POLIWHIRL_27
+    21300056: POLIWHIRL_28
+    21300058: POLIWHIRL_29
+    21300060: POLIWHIRL_30
+    21300062: POLIWHIRL_31
+    21300064: POLIWHIRL_32
+    21300066: POLIWHIRL_33
+    21300068: POLIWHIRL_34
+    21300070: POLIWHIRL_35
+    21300072: POLIWHIRL_36
+    21300074: POLIWHIRL_37
+    21300076: POLIWHIRL_38
+    21300078: POLIWHIRL_39
+    21300080: POLIWHIRL_40
+    21300082: POLIWHIRL_41
+    21300084: POLIWHIRL_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: POLIWHIRL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 30, y: -7.5}
+        - {x: 30, y: 7.5}
+        - {x: 26, y: 9.5}
+        - {x: 19, y: 10.5}
+        - {x: 10, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -30, y: 6.5}
+        - {x: -30, y: -0.5}
+        - {x: -20, y: -19.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 294
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 27, y: -9.5}
+        - {x: 30, y: -2.5}
+        - {x: 30, y: 11.5}
+        - {x: 18, y: 24.5}
+        - {x: -22, y: 24.5}
+        - {x: -30, y: 13.5}
+        - {x: -30, y: -8.5}
+        - {x: -25, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 294
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 30, y: -4.5}
+        - {x: 30, y: 5.5}
+        - {x: 28, y: 11.5}
+        - {x: 9, y: 24.5}
+        - {x: -18, y: 24.5}
+        - {x: -30, y: 7.5}
+        - {x: -30, y: -10.5}
+        - {x: -21, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 294
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 30, y: -4.5}
+        - {x: 30, y: 5.5}
+        - {x: 28, y: 11.5}
+        - {x: 9, y: 24.5}
+        - {x: -18, y: 24.5}
+        - {x: -30, y: 7.5}
+        - {x: -30, y: -10.5}
+        - {x: -21, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 294
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -24.5}
+        - {x: 30, y: -20.5}
+        - {x: 30, y: 9.5}
+        - {x: 15, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -30, y: 13.5}
+        - {x: -30, y: -6.5}
+        - {x: -23, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 294
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -24.5}
+        - {x: 30, y: -20.5}
+        - {x: 30, y: 9.5}
+        - {x: 15, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -30, y: 13.5}
+        - {x: -30, y: -6.5}
+        - {x: -23, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 294
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 26, y: -8.5}
+        - {x: 29, y: -2.5}
+        - {x: 29, y: 14.5}
+        - {x: 22, y: 24.5}
+        - {x: -14, y: 24.5}
+        - {x: -30, y: 18.5}
+        - {x: -30, y: -12.5}
+        - {x: -24, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -24.5}
+        - {x: 28, y: -17.5}
+        - {x: 29, y: -15.5}
+        - {x: 29, y: 24.5}
+        - {x: -22, y: 24.5}
+        - {x: -30, y: 16.5}
+        - {x: -30, y: -8.5}
+        - {x: -25, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 245
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 29, y: -6.5}
+        - {x: 29, y: 10.5}
+        - {x: 15, y: 24.5}
+        - {x: -13, y: 24.5}
+        - {x: -30, y: 13.5}
+        - {x: -30, y: -8.5}
+        - {x: -25, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 245
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -24.5}
+        - {x: 29, y: -17.5}
+        - {x: 29, y: 13.5}
+        - {x: 22, y: 24.5}
+        - {x: -19, y: 24.5}
+        - {x: -30, y: 9.5}
+        - {x: -30, y: -10.5}
+        - {x: -21, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 245
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 27, y: -10.5}
+        - {x: 29, y: -4.5}
+        - {x: 29, y: 7.5}
+        - {x: 11, y: 24.5}
+        - {x: -13, y: 24.5}
+        - {x: -30, y: 7.5}
+        - {x: -30, y: 1.5}
+        - {x: -21, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 245
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 29, y: -10.5}
+        - {x: 29, y: 14.5}
+        - {x: 16, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -30, y: 7.5}
+        - {x: -30, y: -5.5}
+        - {x: -19, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 245
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 24, y: -24.5}
+        - {x: 29, y: -17.5}
+        - {x: 29, y: 16.5}
+        - {x: 12, y: 24.5}
+        - {x: -22, y: 24.5}
+        - {x: -29, y: 13.5}
+        - {x: -29, y: -4.5}
+        - {x: -23, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 245
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 18, y: -24.5}
+        - {x: 29, y: -18.5}
+        - {x: 29, y: 10.5}
+        - {x: 21, y: 24.5}
+        - {x: -16, y: 24.5}
+        - {x: -28, y: 6.5}
+        - {x: -28, y: -6.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -24.5}
+        - {x: 28, y: -19.5}
+        - {x: 28, y: 24.5}
+        - {x: -19, y: 24.5}
+        - {x: -27, y: 10.5}
+        - {x: -27, y: -14.5}
+        - {x: -20, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 196
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 29, y: -13.5}
+        - {x: 29, y: 7.5}
+        - {x: 22, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -26, y: 6.5}
+        - {x: -26, y: -9.5}
+        - {x: -20, y: -19.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 196
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -17.5}
+        - {x: 26, y: -10.5}
+        - {x: 29, y: -4.5}
+        - {x: 29, y: 8.5}
+        - {x: 17, y: 24.5}
+        - {x: -21, y: 24.5}
+        - {x: -25, y: 10.5}
+        - {x: -25, y: -10.5}
+        - {x: -20, y: -23.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -23.5}
+    - name: POLIWHIRL_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 196
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -17.5}
+        - {x: 26, y: -10.5}
+        - {x: 29, y: -4.5}
+        - {x: 29, y: 7.5}
+        - {x: 15, y: 24.5}
+        - {x: -14, y: 24.5}
+        - {x: -24, y: 10.5}
+        - {x: -24, y: -2.5}
+        - {x: -19, y: -22.5}
+        - {x: -17, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -23.5}
+    - name: POLIWHIRL_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 196
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -17.5}
+        - {x: 27, y: -9.5}
+        - {x: 29, y: -4.5}
+        - {x: 29, y: 7.5}
+        - {x: 14, y: 24.5}
+        - {x: -14, y: 24.5}
+        - {x: -23, y: 14.5}
+        - {x: -24, y: 10.5}
+        - {x: -24, y: -9.5}
+        - {x: -19, y: -22.5}
+        - {x: -17, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -23.5}
+    - name: POLIWHIRL_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 196
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 30, y: -12.5}
+        - {x: 30, y: 8.5}
+        - {x: 19, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -19, y: 23.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -2.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -23.5}
+    - name: POLIWHIRL_20
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 196
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -17.5}
+        - {x: 28, y: -9.5}
+        - {x: 30, y: -3.5}
+        - {x: 30, y: 8.5}
+        - {x: 19, y: 24.5}
+        - {x: -21, y: 24.5}
+        - {x: -23, y: 23.5}
+        - {x: -24, y: 18.5}
+        - {x: -24, y: -5.5}
+        - {x: -21, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -23.5}
+    - name: POLIWHIRL_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -24.5}
+        - {x: 30, y: -12.5}
+        - {x: 30, y: 12.5}
+        - {x: 15, y: 24.5}
+        - {x: -20, y: 24.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -18.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -18.5}
+        - {x: -4, y: -23.5}
+        - {x: -3, y: -24.5}
+    - name: POLIWHIRL_22
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 147
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 30, y: -10.5}
+        - {x: 30, y: 16.5}
+        - {x: 26, y: 24.5}
+        - {x: -20, y: 24.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -5.5}
+        - {x: -21, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 147
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 20, y: -19.5}
+        - {x: 30, y: -10.5}
+        - {x: 30, y: 15.5}
+        - {x: 14, y: 24.5}
+        - {x: -19, y: 24.5}
+        - {x: -25, y: 9.5}
+        - {x: -25, y: -14.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 147
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 30, y: -1.5}
+        - {x: 30, y: 14.5}
+        - {x: 17, y: 24.5}
+        - {x: -18, y: 24.5}
+        - {x: -25, y: 13.5}
+        - {x: -25, y: -6.5}
+        - {x: -22, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 147
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 23, y: -24.5}
+        - {x: 30, y: -3.5}
+        - {x: 30, y: 13.5}
+        - {x: 10, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -25, y: 12.5}
+        - {x: -25, y: -7.5}
+        - {x: -24, y: -11.5}
+        - {x: -18, y: -23.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 147
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 18, y: -24.5}
+        - {x: 30, y: -19.5}
+        - {x: 30, y: 24.5}
+        - {x: -24, y: 24.5}
+        - {x: -25, y: 21.5}
+        - {x: -25, y: -12.5}
+        - {x: -18, y: -23.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_27
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 147
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 19, y: -24.5}
+        - {x: 30, y: -6.5}
+        - {x: 30, y: 14.5}
+        - {x: 14, y: 24.5}
+        - {x: -19, y: 24.5}
+        - {x: -25, y: 11.5}
+        - {x: -25, y: -16.5}
+        - {x: -19, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 18, y: -24.5}
+        - {x: 30, y: -14.5}
+        - {x: 30, y: 18.5}
+        - {x: 26, y: 24.5}
+        - {x: -17, y: 24.5}
+        - {x: -25, y: 13.5}
+        - {x: -25, y: -16.5}
+        - {x: -23, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 98
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 23, y: -24.5}
+        - {x: 30, y: -12.5}
+        - {x: 30, y: 22.5}
+        - {x: 21, y: 24.5}
+        - {x: -22, y: 24.5}
+        - {x: -25, y: 11.5}
+        - {x: -25, y: -15.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 98
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 24, y: -18.5}
+        - {x: 30, y: -2.5}
+        - {x: 30, y: 17.5}
+        - {x: 13, y: 24.5}
+        - {x: -21, y: 24.5}
+        - {x: -25, y: 11.5}
+        - {x: -25, y: -16.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_31
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 98
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 30, y: -5.5}
+        - {x: 30, y: 16.5}
+        - {x: 18, y: 24.5}
+        - {x: -22, y: 24.5}
+        - {x: -25, y: 14.5}
+        - {x: -25, y: -16.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 98
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 24, y: -7.5}
+        - {x: 30, y: -0.5}
+        - {x: 30, y: 13.5}
+        - {x: 18, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -25, y: 21.5}
+        - {x: -25, y: -11.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 98
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 30, y: -6.5}
+        - {x: 30, y: 16.5}
+        - {x: 11, y: 24.5}
+        - {x: -10, y: 24.5}
+        - {x: -16, y: 23.5}
+        - {x: -23, y: 22.5}
+        - {x: -25, y: 12.5}
+        - {x: -25, y: -15.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 98
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 18, y: -24.5}
+        - {x: 24, y: -20.5}
+        - {x: 30, y: -3.5}
+        - {x: 30, y: 13.5}
+        - {x: 17, y: 24.5}
+        - {x: -19, y: 24.5}
+        - {x: -25, y: 16.5}
+        - {x: -25, y: -19.5}
+        - {x: -24, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 18, y: -24.5}
+        - {x: 24, y: -19.5}
+        - {x: 30, y: -6.5}
+        - {x: 30, y: 15.5}
+        - {x: 13, y: 24.5}
+        - {x: -20, y: 24.5}
+        - {x: -25, y: 12.5}
+        - {x: -25, y: -16.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_36
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 49
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 29, y: -7.5}
+        - {x: 30, y: -4.5}
+        - {x: 30, y: 10.5}
+        - {x: 11, y: 24.5}
+        - {x: -20, y: 24.5}
+        - {x: -25, y: 11.5}
+        - {x: -25, y: -14.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 49
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 15, y: -1.5}
+        - {x: 15, y: -3.5}
+        - {x: 18, y: -9.5}
+        - {x: 30, y: -4.5}
+        - {x: 30, y: 10.5}
+        - {x: 14, y: 24.5}
+        - {x: -20, y: 24.5}
+        - {x: -25, y: 11.5}
+        - {x: -25, y: -15.5}
+        - {x: -20, y: -24.5}
+        - {x: -4, y: -24.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_38
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 49
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -24.5}
+        - {x: 30, y: -8.5}
+        - {x: 30, y: 17.5}
+        - {x: 17, y: 24.5}
+        - {x: -18, y: 24.5}
+        - {x: -26, y: 10.5}
+        - {x: -26, y: -9.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+        - {x: -4, y: -24.5}
+    - name: POLIWHIRL_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 49
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 15, y: -16.5}
+        - {x: 30, y: -4.5}
+        - {x: 30, y: 5.5}
+        - {x: 25, y: 10.5}
+        - {x: 12, y: 24.5}
+        - {x: -18, y: 24.5}
+        - {x: -27, y: 7.5}
+        - {x: -27, y: -7.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_40
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 49
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 30, y: -24.5}
+        - {x: 30, y: 13.5}
+        - {x: 23, y: 24.5}
+        - {x: -16, y: 24.5}
+        - {x: -28, y: 7.5}
+        - {x: -28, y: -10.5}
+        - {x: -19, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_41
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 49
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 20, y: -24.5}
+        - {x: 30, y: -4.5}
+        - {x: 30, y: 11.5}
+        - {x: 14, y: 24.5}
+        - {x: -16, y: 24.5}
+        - {x: -29, y: 16.5}
+        - {x: -29, y: -11.5}
+        - {x: -24, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    - name: POLIWHIRL_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: -20.5}
+        - {x: 30, y: -7.5}
+        - {x: 30, y: 7.5}
+        - {x: 26, y: 9.5}
+        - {x: 19, y: 10.5}
+        - {x: 10, y: 24.5}
+        - {x: -15, y: 24.5}
+        - {x: -30, y: 6.5}
+        - {x: -30, y: -0.5}
+        - {x: -20, y: -19.5}
+        - {x: -18, y: -24.5}
+        - {x: -5, y: -24.5}
+        - {x: -4, y: -23.5}
+        - {x: -4, y: -19.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1189 @@
+fileFormatVersion: 2
+guid: 030e6d8870742ff4dbf60adedcadd56b
+timeCreated: 1452888651
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KABUTO_0
+    21300002: KABUTO_1
+    21300004: KABUTO_2
+    21300006: KABUTO_3
+    21300008: KABUTO_4
+    21300010: KABUTO_5
+    21300012: KABUTO_6
+    21300014: KABUTO_7
+    21300016: KABUTO_8
+    21300018: KABUTO_9
+    21300020: KABUTO_10
+    21300022: KABUTO_11
+    21300024: KABUTO_12
+    21300026: KABUTO_13
+    21300028: KABUTO_14
+    21300030: KABUTO_15
+    21300032: KABUTO_16
+    21300034: KABUTO_17
+    21300036: KABUTO_18
+    21300038: KABUTO_19
+    21300040: KABUTO_20
+    21300042: KABUTO_21
+    21300044: KABUTO_22
+    21300046: KABUTO_23
+    21300048: KABUTO_24
+    21300050: KABUTO_25
+    21300052: KABUTO_26
+    21300054: KABUTO_27
+    21300056: KABUTO_28
+    21300058: KABUTO_29
+    21300060: KABUTO_30
+    21300062: KABUTO_31
+    21300064: KABUTO_32
+    21300066: KABUTO_33
+    21300068: KABUTO_34
+    21300070: KABUTO_35
+    21300072: KABUTO_36
+    21300074: KABUTO_37
+    21300076: KABUTO_38
+    21300078: KABUTO_39
+    21300080: KABUTO_40
+    21300082: KABUTO_41
+    21300084: KABUTO_42
+    21300086: KABUTO_43
+    21300088: KABUTO_44
+    21300090: KABUTO_45
+    21300092: KABUTO_46
+    21300094: KABUTO_47
+    21300096: KABUTO_48
+    21300098: KABUTO_49
+    21300100: KABUTO_50
+    21300102: KABUTO_51
+    21300104: KABUTO_52
+    21300106: KABUTO_53
+    21300108: KABUTO_54
+    21300110: KABUTO_55
+    21300112: KABUTO_56
+    21300114: KABUTO_57
+    21300116: KABUTO_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KABUTO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 8.5}
+        - {x: 14, y: 16.5}
+    - name: KABUTO_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 231
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 8.5}
+        - {x: 14, y: 16.5}
+    - name: KABUTO_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 231
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 8.5}
+        - {x: 14, y: 16.5}
+    - name: KABUTO_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 231
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 8.5}
+        - {x: 14, y: 16.5}
+    - name: KABUTO_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 231
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 8.5}
+        - {x: 14, y: 16.5}
+    - name: KABUTO_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 231
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 24, y: -15.5}
+        - {x: 24, y: 14.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 231
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -21, y: 11.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 14.5}
+        - {x: 19, y: 16.5}
+    - name: KABUTO_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 231
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -21, y: 12.5}
+        - {x: -24, y: 1.5}
+        - {x: -24, y: -15.5}
+        - {x: -21, y: -16.5}
+        - {x: 17, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 14.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16.5}
+        - {x: -24, y: 4.5}
+        - {x: -24, y: -13.5}
+        - {x: -22, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 9.5}
+        - {x: 21, y: 16.5}
+    - name: KABUTO_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 198
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16.5}
+        - {x: -24, y: 5.5}
+        - {x: -24, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 11.5}
+        - {x: 13, y: 16.5}
+    - name: KABUTO_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 198
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -24, y: 5.5}
+        - {x: -24, y: -14.5}
+        - {x: -22, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 9.5}
+        - {x: 13, y: 16.5}
+    - name: KABUTO_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 198
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -24, y: 4.5}
+        - {x: -24, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 8.5}
+        - {x: 20, y: 16.5}
+    - name: KABUTO_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 198
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16.5}
+        - {x: -24, y: 10.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 8.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 198
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -13.5}
+        - {x: -17, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 24, y: -6.5}
+        - {x: 24, y: 7.5}
+        - {x: 16, y: 16.5}
+    - name: KABUTO_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 198
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 2.5}
+        - {x: -24, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 9.5}
+        - {x: 14, y: 16.5}
+    - name: KABUTO_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 198
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 16.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 13.5}
+        - {x: 16, y: 16.5}
+    - name: KABUTO_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 9.5}
+        - {x: 20, y: 16.5}
+    - name: KABUTO_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 165
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 24, y: -11.5}
+        - {x: 24, y: 15.5}
+        - {x: 20, y: 16.5}
+    - name: KABUTO_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 165
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 11.5}
+        - {x: 14, y: 16.5}
+    - name: KABUTO_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 165
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -21, y: 7.5}
+        - {x: -24, y: -2.5}
+        - {x: -24, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 14.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 165
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 1.5}
+        - {x: -24, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 9.5}
+        - {x: 13, y: 16.5}
+    - name: KABUTO_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 165
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16.5}
+        - {x: -22, y: 8.5}
+        - {x: -24, y: -2.5}
+        - {x: -24, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 11.5}
+        - {x: 20, y: 16.5}
+    - name: KABUTO_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 165
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -22, y: 8.5}
+        - {x: -24, y: -2.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -7.5}
+        - {x: 24, y: 11.5}
+        - {x: 19, y: 16.5}
+    - name: KABUTO_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 165
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16.5}
+        - {x: -21, y: 7.5}
+        - {x: -24, y: 1.5}
+        - {x: -24, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 24, y: -15.5}
+        - {x: 24, y: 9.5}
+        - {x: 21, y: 16.5}
+    - name: KABUTO_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 16.5}
+        - {x: -16, y: 16.5}
+        - {x: -24, y: 2.5}
+        - {x: -24, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 10.5}
+    - name: KABUTO_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 132
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16.5}
+        - {x: -18, y: 13.5}
+        - {x: -24, y: -1.5}
+        - {x: -24, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 24, y: -15.5}
+        - {x: 24, y: 14.5}
+        - {x: 17, y: 16.5}
+    - name: KABUTO_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 132
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -15.5}
+        - {x: -23, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -7.5}
+        - {x: 24, y: 11.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 132
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 12.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 132
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -21, y: 7.5}
+        - {x: -24, y: -1.5}
+        - {x: -24, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 8.5}
+        - {x: 16, y: 16.5}
+    - name: KABUTO_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 132
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 9.5}
+        - {x: 19, y: 16.5}
+        - {x: -16, y: 16.5}
+        - {x: -24, y: 1.5}
+    - name: KABUTO_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 132
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 10.5}
+        - {x: 22, y: 16.5}
+    - name: KABUTO_31
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 132
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 10.5}
+        - {x: 22, y: 16.5}
+    - name: KABUTO_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 10.5}
+        - {x: 22, y: 16.5}
+    - name: KABUTO_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 99
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 9.5}
+        - {x: 19, y: 16.5}
+        - {x: -16, y: 16.5}
+        - {x: -24, y: 1.5}
+    - name: KABUTO_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 99
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 23, y: -16.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 13.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 99
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16.5}
+        - {x: -24, y: 12.5}
+        - {x: -24, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 10.5}
+        - {x: 20, y: 16.5}
+    - name: KABUTO_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 99
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 16.5}
+        - {x: -12, y: 16.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 24, y: -11.5}
+        - {x: 24, y: 10.5}
+    - name: KABUTO_37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 99
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -18, y: 13.5}
+        - {x: -24, y: -1.5}
+        - {x: -24, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 14.5}
+        - {x: 17, y: 16.5}
+    - name: KABUTO_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 99
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16.5}
+        - {x: -24, y: 4.5}
+        - {x: -24, y: -14.5}
+        - {x: -22, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 14.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_39
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 99
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16.5}
+        - {x: -19, y: 14.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 13.5}
+        - {x: 17, y: 16.5}
+    - name: KABUTO_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: -0.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 8.5}
+        - {x: 13, y: 16.5}
+    - name: KABUTO_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 66
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 24, y: -11.5}
+        - {x: 24, y: 15.5}
+        - {x: 21, y: 16.5}
+    - name: KABUTO_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 66
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 16.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 15.5}
+        - {x: 20, y: 16.5}
+    - name: KABUTO_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 66
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 24, y: -16.5}
+        - {x: 24, y: 13.5}
+        - {x: 16, y: 16.5}
+    - name: KABUTO_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 66
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 11.5}
+        - {x: 14, y: 16.5}
+    - name: KABUTO_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 66
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -24, y: 5.5}
+        - {x: -24, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 12.5}
+        - {x: 15, y: 16.5}
+    - name: KABUTO_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 66
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 11.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 9.5}
+        - {x: 20, y: 16.5}
+    - name: KABUTO_47
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 66
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 16.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 24, y: -10.5}
+        - {x: 24, y: 13.5}
+        - {x: 16, y: 16.5}
+    - name: KABUTO_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 2.5}
+        - {x: -24, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 24, y: -7.5}
+        - {x: 24, y: 9.5}
+        - {x: 14, y: 16.5}
+    - name: KABUTO_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 33
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 11.5}
+        - {x: 12, y: 16.5}
+    - name: KABUTO_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 33
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16.5}
+        - {x: -24, y: 10.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 8.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 33
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -24, y: 4.5}
+        - {x: -24, y: -16.5}
+        - {x: 22, y: -16.5}
+        - {x: 24, y: -14.5}
+        - {x: 24, y: 8.5}
+        - {x: 20, y: 16.5}
+    - name: KABUTO_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 33
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 8.5}
+        - {x: 12, y: 16.5}
+    - name: KABUTO_53
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 33
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 21, y: -16.5}
+        - {x: 24, y: -11.5}
+        - {x: 24, y: 13.5}
+        - {x: 15, y: 16.5}
+    - name: KABUTO_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 33
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 20, y: -16.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 9.5}
+        - {x: 21, y: 16.5}
+    - name: KABUTO_55
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 33
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -21, y: 12.5}
+        - {x: -24, y: 1.5}
+        - {x: -24, y: -15.5}
+        - {x: -21, y: -16.5}
+        - {x: 17, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 14.5}
+        - {x: 18, y: 16.5}
+    - name: KABUTO_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 16.5}
+        - {x: -21, y: 11.5}
+        - {x: -24, y: 1.5}
+        - {x: -24, y: -15.5}
+        - {x: -21, y: -16.5}
+        - {x: 17, y: -16.5}
+        - {x: 24, y: -9.5}
+        - {x: 24, y: 14.5}
+        - {x: 19, y: 16.5}
+    - name: KABUTO_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: -13.5}
+        - {x: -21, y: -16.5}
+        - {x: 17, y: -16.5}
+        - {x: 24, y: -13.5}
+        - {x: 24, y: 10.5}
+        - {x: 21, y: 16.5}
+    - name: KABUTO_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16.5}
+        - {x: -24, y: 0.5}
+        - {x: -24, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 24, y: -8.5}
+        - {x: 24, y: 8.5}
+        - {x: 14, y: 16.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
