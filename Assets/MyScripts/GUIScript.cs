@@ -72,8 +72,8 @@ public class GUIScript : MonoBehaviour {
 		topLevel = pcf.Level;
         //Debug.logger.Log("enemy level: " + topLevel);
 
-		bottomLevelText.text = "Lv"+bottomLevel;
-		topLevelText.text = "Lv"+topLevel;
+		bottomLevelText.text = "Lv"+bottomLevel.ToString();
+		topLevelText.text = "Lv"+topLevel.ToString();
 	}
 
     /// <summary>
