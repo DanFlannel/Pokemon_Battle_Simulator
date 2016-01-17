@@ -226,7 +226,7 @@ public class AttackDamageCalc : MonoBehaviour {
 
         modifier = stab * typeMultiplier * critical * rnd;
         //Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
-        Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: ");
+        Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
         return modifier;
     }
 

@@ -68,12 +68,14 @@ public class TurnController : MonoBehaviour {
 
     private PokemonCreatorBack playerStats;
     private PokemonCreatorFront enemyStats;
+    private GUIScript gui;
 
 
     // Use this for initialization
     void Start () {
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
         if (playerStats == null) Debug.Log("Cannot find PokemonCreatorBack");
     }
 
@@ -110,12 +112,12 @@ public class TurnController : MonoBehaviour {
                 damage_Player_Effects();
 
                 timeRemaining = timerLength;
-                StartCoroutine(Wait(1));
 
                 //apply damage to player and check if the player is still alive
                 if (enemyStats.curHp > 0)   //checks to see that the enemy is still alive before the enemy attacks
                 {
                     damage_Enemy_to_Player();
+                    gui.updateHealth();
 
                     //then heal the enemy
                     healEnemy();
@@ -141,6 +143,7 @@ public class TurnController : MonoBehaviour {
                 StartCoroutine(Wait(1));
                 //apply damage to the player
                 damage_Enemy_to_Player();
+                gui.updateHealth();
 
                 //heal the enemy
                 healEnemy();
@@ -225,6 +228,7 @@ public class TurnController : MonoBehaviour {
             playerStats.curHp -= EnemyDamage;
             Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
             changePlayerHealthBar();
+
         }
 
     }

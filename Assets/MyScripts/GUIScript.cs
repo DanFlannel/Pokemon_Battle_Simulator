@@ -79,10 +79,11 @@ public class GUIScript : MonoBehaviour {
     /// <summary>
     /// Gets the Pokemon's health and displays it on the GUI
     /// </summary>
-	private void health(){
+	public void updateHealth(){
 		maxHealth = pcb.maxHP;
 		curHealth = pcb.curHp;
-
+        if (curHealth < 0)
+            curHealth = 0;
 		bottomHealth.text = curHealth + " / " + maxHealth;
 	}
 
@@ -92,7 +93,7 @@ public class GUIScript : MonoBehaviour {
 	private void generatePokemonStats(){
 		names();
 		level();
-		health();
+		updateHealth();
 	}
 
     /// <summary>
