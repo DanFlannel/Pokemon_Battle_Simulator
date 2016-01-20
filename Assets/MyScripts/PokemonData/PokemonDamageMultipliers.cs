@@ -149,7 +149,7 @@ public class PokemonDamageMultipliers : MonoBehaviour {
 		master_list.Add(new pokemon_dmg_multipliers("Clefairy", normal));
 		master_list.Add(new pokemon_dmg_multipliers("Clefable", normal));
 		master_list.Add(new pokemon_dmg_multipliers("Vulpix", fire));
-		master_list.Add(new pokemon_dmg_multipliers("Ninetails",fire));
+		master_list.Add(new pokemon_dmg_multipliers("Ninetales",fire));
 		master_list.Add(new pokemon_dmg_multipliers("Jigglypuff", normal));
 		master_list.Add(new pokemon_dmg_multipliers("Wigglytuff", normal));
 		master_list.Add(new pokemon_dmg_multipliers("Zubat", poison_flying));
@@ -256,7 +256,7 @@ public class PokemonDamageMultipliers : MonoBehaviour {
 		master_list.Add(new pokemon_dmg_multipliers("Aerodactyl", rock_flying));
 		master_list.Add(new pokemon_dmg_multipliers("Snorlax", normal));
 		master_list.Add(new pokemon_dmg_multipliers("Articuno", ice_flying));
-		master_list.Add(new pokemon_dmg_multipliers("Zapados", electric_flying));
+		master_list.Add(new pokemon_dmg_multipliers("Zapdos", electric_flying));
 		master_list.Add(new pokemon_dmg_multipliers("Moltres", fire_flying));
 		master_list.Add(new pokemon_dmg_multipliers("Drantini", dragon));
 		master_list.Add(new pokemon_dmg_multipliers("Dragonair", dragon));
