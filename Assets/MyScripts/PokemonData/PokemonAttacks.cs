@@ -74,10 +74,11 @@ public class PokemonAttacks : MonoBehaviour
 	private int Flash = 5;
 	#endregion
 	
-	#region Easier to clean up for the structure
+	#region Types of attacks
 	public string physical = "Physical";
 	public string special = "Special";
 	public string status = "Status";
+
 	private string normal = "Normal";
 	private string fighting = "Fighting";
 	private string water = "Water";

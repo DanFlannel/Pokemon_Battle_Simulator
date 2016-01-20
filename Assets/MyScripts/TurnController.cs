@@ -99,9 +99,6 @@ public class TurnController : MonoBehaviour {
             checkSpeed();   //checks the speed to see who attacks first
             if (Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)    //player attacks first so we do this
             {
-                timeRemaining = timerLength;
-                StartCoroutine(Wait(1));
-
                 //apply damage to enemy if there is any and check to make sure the enemy is alive still
                 damage_Player_to_Enemy();           
 
@@ -216,7 +213,7 @@ public class TurnController : MonoBehaviour {
         if (PlayerDamage > 0)
         {
             enemyStats.curHp -= PlayerDamage;
-            Debug.Log(enemyStats.curHp + "/" + enemyStats.maxHP);
+            //Debug.Log(enemyStats.curHp + "/" + enemyStats.maxHP);
             changeEnemyHealthBar();
         }
     }
@@ -226,7 +223,7 @@ public class TurnController : MonoBehaviour {
         if (EnemyDamage > 0)
         {
             playerStats.curHp -= EnemyDamage;
-            Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
+            //Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
             changePlayerHealthBar();
 
         }

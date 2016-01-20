@@ -6,31 +6,32 @@ using System.Collections.Generic;
 /// <summary>
 /// This class is created to take the damage done by each attack when a button is pressed. It is meant to work on every single attack.
 /// </summary>
-public class AttackDamageCalc : MonoBehaviour {
+public class AttackDamageCalc : MonoBehaviour
+{
 
     #region Declared Variables
     private PokemonCreatorBack playerStats;
-	private PokemonCreatorFront enemyStats;
+    private PokemonCreatorFront enemyStats;
     private PokemonAttacks attacks;
     private PokemonDamageMultipliers damage_mult;
     private Attack_Switch_Case attack_Switch_Case;
     private TurnController tc;
 
     [Header("Player")]
-    public string 
+    public string
         playerAttack1, playerAttack2, playerAttack3, playerAttack4;
 
     [Header("Enemy")]
-    public string 
+    public string
         enemyAttack1, enemyAttack2, enemyAttack3, enemyAttack4;
 
-	private string 
+    private string
         enemyType1, enemyType2;
-    private string 
+    private string
         playerType1, playerType2;
 
-	private dmgMult playerDamageMultiplier;
-	private dmgMult enemyDamageMultiplier;
+    private dmgMult playerDamageMultiplier;
+    private dmgMult enemyDamageMultiplier;
     private GenerateAttacks genAttacks;
 
     private float attack_mod;
@@ -41,31 +42,34 @@ public class AttackDamageCalc : MonoBehaviour {
     #endregion
 
     // Use this for initialization
-    void Start () {
-		enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
-		playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+    void Start()
+    {
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         attack_Switch_Case = GameObject.FindGameObjectWithTag("Attacks").GetComponent<Attack_Switch_Case>();
         damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
         tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
 
-	}
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
     /// <summary>
     /// Gets the pokemon Types for the Type modifier in the damage calculation
     /// </summary>
-	private void getPokemonTypes(){
+	private void getPokemonTypes()
+    {
         enemyType1 = playerStats.Type1;
         enemyType2 = playerStats.Type2;
 
         playerType1 = enemyStats.Type1;
         playerType2 = enemyStats.Type2;
-	}
+    }
 
     /// <summary>
     /// Button method, makes sure that if the button was clicked, the isPlayer boolean is true
@@ -82,21 +86,22 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     public void get_attack_name(int index)
     {
-        if (isPlayer) {
+        if (isPlayer)
+        {
             List<string> playerAttackName = genAttacks.get_playerAttackName();
             if (index == 1)
             {
                 attack_name = playerAttackName[0];
             }
-            if(index == 2)
+            if (index == 2)
             {
                 attack_name = playerAttackName[1];
             }
-            if(index == 3)
+            if (index == 3)
             {
                 attack_name = playerAttackName[2];
             }
-            if( index == 4)
+            if (index == 4)
             {
                 attack_name = playerAttackName[3];
             }
@@ -124,11 +129,12 @@ public class AttackDamageCalc : MonoBehaviour {
         }
     }
 
-	/// <summary>
+    /// <summary>
     /// This method takes the name of the attack and then passes it into other methods in the Attack_Switch_Case to get the effect
     /// of the attack on the enemy or player pokemon, if it is a status type of attack or one that deals damage or stuns...ect.
     /// </summary>
-	public void calculateAttackEffect(){
+    public void calculateAttackEffect()
+    {
         int attack_index = getAttackListIndex(attack_name);
         //Debug.Log("attack index: " + attack_index);
         string attackCat = attacks.attackList[attack_index].cat;
@@ -140,7 +146,6 @@ public class AttackDamageCalc : MonoBehaviour {
         bool hit = moveHitProbability(accuracy);
         if (!hit)
         {
-            Debug.Log("The move missed!");
             return;
         }
         //Debug.Log("Attak Name: " + attack_name);
@@ -157,7 +162,7 @@ public class AttackDamageCalc : MonoBehaviour {
                 break;
 
         }
-	}
+    }
 
     /// <summary>
     /// This method calculates the damage that each attack will do based off the serebii.net damage formula, this does not take into effect the different modifiers or attack calculations each specific move has
@@ -166,7 +171,7 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     public float calculateDamage(string name)
     {
-        Debug.Log("Attack Name: " + name);
+        Debug.LogWarning("is Player: " + isPlayer + " Attack Name: " + name);
         float final_damage = 0;
         //Setup for the methods that will get different aspects of the damage calculation
         int attack_index = getAttackListIndex(name);
@@ -174,19 +179,40 @@ public class AttackDamageCalc : MonoBehaviour {
         string attackType = attacks.attackList[attack_index].type;
         string attackCat = attacks.attackList[attack_index].cat;
 
+        if (attackCat == "Status")   //we do not have to calculate damage for status moves!
+        {
+            return 0;
+        }
+        if(baseAttackPower(attack_index) == 0)  //there is no base attack power so we can just return 0, it is a sepcial attack that has its own calculations
+        {
+            Debug.Log("This attack calclates it's own damage: " + name);
+            return 0;
+        }
+
         //Setup for the damage calculations
         set_attack_and_def(attack_index, isPlayer, attackCat);
+        if (attack_mod == 0) Debug.LogError("Attack modifier is 0");
+        if (defense_mod == 0) Debug.LogError("Defense modifier is 0");
+
         float level_mod = levelModifier(isPlayer);
         float att_div_defense = baseAttackPower(attack_index) / defense_mod;
+        
+        //Debug.Log("attack div defense: " + baseAttackPower(attack_index) + "/" + defense_mod + " = " + att_div_defense);
         float damage_mod = modifier(attack_index, attackType, isPlayer, name);
 
         //Damage Calculations here
         final_damage = level_mod;
+        Debug.Log("Damage LEVEL MOD: " + "mod: " + level_mod + " Damage: " + final_damage);
         final_damage *= attack_mod;
+        Debug.Log("Damage * ATTACK MOD: " + "mod: " + attack_mod + " Damage: " + final_damage);
         final_damage *= att_div_defense;
+        Debug.Log("Damage * ATTACK/Defense: " + "mod: " + att_div_defense + " Damage: " + final_damage);
         final_damage /= 50;
+        Debug.Log("Damage /50" + " Damage: " + final_damage);
         final_damage += 2;
+        Debug.Log("Damage +2: " + " Damage: " + final_damage);
         final_damage *= damage_mod;
+        Debug.Log("Damage * damage_Mod: " + "mod: " + damage_mod + " Damage: " + final_damage);
         final_damage = Mathf.Round(final_damage);
         return final_damage;
     }
@@ -203,7 +229,7 @@ public class AttackDamageCalc : MonoBehaviour {
     {
         float modifier;
         float stab;
-        if(isStab(attackType, isPlayer))
+        if (isStab(attackType, isPlayer))
         {
             stab = 1.5f;
         }
@@ -214,7 +240,7 @@ public class AttackDamageCalc : MonoBehaviour {
 
         float critical = 1f;
         int critProb = critChance(name);
-        Debug.Log("Crit chance: 1 /" + critProb);
+        //Debug.Log("Crit chance: 1 /" + critProb);
         bool crit = isCrit(critProb);
         if (crit)
         {
@@ -226,7 +252,7 @@ public class AttackDamageCalc : MonoBehaviour {
 
         modifier = stab * typeMultiplier * critical * rnd;
         //Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
-        Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
+        //Debug.Log("modifier: " + modifier + " = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
         return modifier;
     }
 
@@ -253,7 +279,7 @@ public class AttackDamageCalc : MonoBehaviour {
         modifier /= 5;
         modifier += 2;
 
-        //Debug.Log("Level modifier: " + modifier);
+        Debug.Log("Level modifier: " + modifier);
         return modifier;
     }
 
@@ -265,36 +291,33 @@ public class AttackDamageCalc : MonoBehaviour {
     /// </summary>
     private void set_attack_and_def(int attack_index, bool isPlayer, string attackCat)
     {
-        //Debug.Log("attack type for attack/defense: " + attackCat);
-        if (attackCat != attacks.status)
+        if (attackCat == attacks.special)                  //we are calculating a special attack
         {
-            if (attackCat == attacks.special)                  //we are calculating a special attack
+            if (isPlayer)                                   //the player is using a special attack
             {
-                if (isPlayer)                                   //the player is using a special attack
-                {
-                    attack_mod = playerStats.Special_Attack;
-                    defense_mod = enemyStats.Special_Defense;
-                }
-                else                                            //the enemy is using a special attack
-                {
-                    attack_mod = enemyStats.Special_Attack;
-                    defense_mod = playerStats.Special_Defense;
-                }
+                attack_mod = playerStats.Special_Attack;
+                defense_mod = enemyStats.Special_Defense;
             }
-            if(attackCat == attacks.physical)                  //we are calculating a physical attack
+            else                                            //the enemy is using a special attack
             {
-                if (isPlayer)                                   //the player is using a physical attack
-                {
-                    attack_mod = playerStats.Attack;
-                    defense_mod = enemyStats.Defense;
-                }
-                else                                            //the enemy is using a physical attack
-                {
-                    attack_mod = enemyStats.Attack;
-                    defense_mod = playerStats.Defense;
-                }
+                attack_mod = enemyStats.Special_Attack;
+                defense_mod = playerStats.Special_Defense;
             }
         }
+        if (attackCat == attacks.physical)                  //we are calculating a physical attack
+        {
+            if (isPlayer)                                   //the player is using a physical attack
+            {
+                attack_mod = playerStats.Attack;
+                defense_mod = enemyStats.Defense;
+            }
+            else                                            //the enemy is using a physical attack
+            {
+                attack_mod = enemyStats.Attack;
+                defense_mod = playerStats.Defense;
+            }
+        }
+
         //Debug.Log("Attack: " + attack_mod);
         //Debug.Log("Defense: " + defense_mod);
     }
@@ -318,10 +341,11 @@ public class AttackDamageCalc : MonoBehaviour {
     /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
     /// <returns>a boolean that is true if the move is a stab type move or not</returns>
     /// </summary>
-    private bool isStab(string attackType, bool isPlayer) 
+    private bool isStab(string attackType, bool isPlayer)
     {
         getPokemonTypes();
-        if (isPlayer) {
+        if (isPlayer)
+        {
             if (attackType == playerType1 || attackType == playerType2)
             {
                 return true;
@@ -333,7 +357,7 @@ public class AttackDamageCalc : MonoBehaviour {
         }
         else
         {
-            if(attackType == enemyType1 || attackType == enemyType2)
+            if (attackType == enemyType1 || attackType == enemyType2)
             {
                 return true;
             }
@@ -373,7 +397,7 @@ public class AttackDamageCalc : MonoBehaviour {
     private float getTypeMultiplier(string attackType, bool isPlayer)
     {
         float modifier = 0f;
-        
+
         if (isPlayer)
         {
             int index = enemyStats.PokemonID - 1;
@@ -487,7 +511,7 @@ public class AttackDamageCalc : MonoBehaviour {
         if (!isPlayer)
         {
             enemyStats.curHp -= final_damage;
-            if(enemyStats.curHp < 0)
+            if (enemyStats.curHp < 0)
             {
                 enemyStats.curHp = 0;
             }
@@ -522,8 +546,8 @@ public class AttackDamageCalc : MonoBehaviour {
             return hit;
         }
         List<int> missNums = new List<int>();
-    
-        for(int i = 0; i < missProb; i++)
+
+        for (int i = 0; i < missProb; i++)
         {
             int chance = Mathf.RoundToInt(Random.Range(1, 20));
             while (missNums.Contains(chance))
@@ -534,15 +558,16 @@ public class AttackDamageCalc : MonoBehaviour {
         }
 
         int guess = Mathf.RoundToInt(Random.Range(1, 20));
-        for(int i = 0; i < missProb; i++)
+        for (int i = 0; i < missProb; i++)
         {
-            if(missNums[i] == guess)
+            if (missNums[i] == guess)
             {
                 hit = false;
             }
         }
         if (!hit)
         {
+            Debug.LogWarning("The move missed!");
             if (isPlayer)
             {
                 tc.PlayerMissed = true;
@@ -588,7 +613,7 @@ public class AttackDamageCalc : MonoBehaviour {
         int guess = Random.Range(1, chance);
         int guess2 = Random.Range(1, chance);
 
-        if(guess == guess2)
+        if (guess == guess2)
         {
             crit = true;
         }

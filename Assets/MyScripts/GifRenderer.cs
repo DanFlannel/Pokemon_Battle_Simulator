@@ -19,7 +19,7 @@ public class GifRenderer : MonoBehaviour
 
     public void ChangeSprite(string name, int id)
     {
-        Debug.Log("called sprite render");
+        //Debug.Log("called sprite render");
         string gen = checkGen(id);
         string direction = "Front";
 
@@ -50,7 +50,7 @@ public class GifRenderer : MonoBehaviour
         anim.runtimeAnimatorController = control;
 
         anim.speed = 2f;
-        Debug.Log("Seached Path: " + animationPath);
+        //Debug.Log("Seached Path: " + animationPath);
 
     }
 

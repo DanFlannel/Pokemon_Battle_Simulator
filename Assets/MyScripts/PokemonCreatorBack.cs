@@ -72,7 +72,6 @@ public class PokemonCreatorBack : MonoBehaviour
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
         gif = this.GetComponent<GifRenderer>();
         Init();
-        Debug.Log("Scene has now loaded with Player: " + PokemonName);
     }
 
     // Update is called once per frame
@@ -87,6 +86,8 @@ public class PokemonCreatorBack : MonoBehaviour
         StatsBasedOffLevel();
         maxHP = HP;
         curHp = maxHP;
+       // Debug.Log("Scene has now loaded with Player: " + PokemonName);
+
     }
 
     private void GetPokemonBaseData(int id)

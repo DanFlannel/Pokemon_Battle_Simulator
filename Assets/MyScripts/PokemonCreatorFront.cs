@@ -19,17 +19,17 @@ public class PokemonCreatorFront : MonoBehaviour
 
     private int HP;
     private int _Level;
-    private int _Attack;
-    private int _attack_Stage = 0;
+    public int Attack;
+    public int attack_Stage;
 
     public int Defense;
-    public int defense_Stage = 0;
+    public int defense_Stage;
     public int Special_Attack;
-    public int spAttack_Stage = 0;
+    public int spAttack_Stage;
     public int Special_Defense;
-    public int spDefense_stage = 0;
+    public int spDefense_stage;
     public int Speed;
-    public int speed_stage = 0;
+    public int speed_stage;
 
     public string Type1;
     public string Type2;
@@ -72,7 +72,6 @@ public class PokemonCreatorFront : MonoBehaviour
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
         gif = this.GetComponent<GifRenderer>();
         Init();
-        Debug.Log("Scene has now loaded with enemy: " + PokemonName);
     }
 
     // Update is called once per frame
@@ -83,10 +82,14 @@ public class PokemonCreatorFront : MonoBehaviour
 
     private void Init()
     {
+        attack_Stage = defense_Stage = speed_stage = spAttack_Stage = spDefense_stage = 0;
+
         GetPokemonBaseData(temp);
         StatsBasedOffLevel();
         maxHP = HP;
         curHp = maxHP;
+        //Debug.Log("Scene has now loaded with enemy: " + PokemonName);
+
     }
 
     private void GetPokemonBaseData(int id)
@@ -194,17 +197,7 @@ public class PokemonCreatorFront : MonoBehaviour
         set { _Level = Level; }
     }
 
-    public int Attack
-    {
-        get { return _Attack; }
-        set { _Attack = Attack; }
-    }
 
-    public int attack_Stage
-    {
-        get { return _attack_Stage; }
-        set { _attack_Stage = attack_Stage; }
-    }
     #endregion
 
 

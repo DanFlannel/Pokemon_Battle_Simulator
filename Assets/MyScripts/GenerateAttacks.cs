@@ -56,7 +56,7 @@ public class GenerateAttacks : MonoBehaviour {
 		if(pcb.PokemonName != playerPokemonName1){
             PlayerPokemonGen();
             EnemyPokemonGen();
-			Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
+			//Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
 			genPlayerAttacks();
             genEnemyAttacks();
 		}

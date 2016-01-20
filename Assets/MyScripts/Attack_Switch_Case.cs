@@ -436,7 +436,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "scratch":             //no additional effect
                 break;
             case "seismic toss":
-                levelBasedDamage(isPlayer);
+                predictedDamage = levelBasedDamage(isPlayer);
                 break;
             case "self destruct":       //user faints
                 if (isPlayer)
@@ -515,7 +515,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         }
         final_damage = predictedDamage;
         updateTurnController(isPlayer, name);
-        Debug.Log("final heal = " + final_heal);
+        //Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
     }
 
@@ -901,13 +901,13 @@ public class Attack_Switch_Case : MonoBehaviour {
     /// </summary>
     private float multiAttack(int rnd, string name)
     {
-        Debug.Log("Final name check:" + name);
+        //Debug.Log("Final name check:" + name);
         float damage = 0;
         for (int i = 0; i < rnd; i++)
         {
             damage += attackCalc.calculateDamage(name);
         }
-
+        Debug.Log("Final Damage: " + damage);
         return damage;
     }
 
