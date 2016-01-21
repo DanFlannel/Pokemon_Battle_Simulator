@@ -6,8 +6,8 @@ public class PokemonCreatorFront : MonoBehaviour
 
     private int levelBonus;
 
-    private int _PokemonID;
-    private string _PokemonName;
+    public int PokemonID;
+    public string PokemonName;
 
     private int baseHP;
     private int baseAttack;
@@ -18,7 +18,7 @@ public class PokemonCreatorFront : MonoBehaviour
     private bool CanEvolve;
 
     private int HP;
-    private int _Level;
+    public int Level;
     public int Attack;
     public int attack_Stage;
 
@@ -94,8 +94,8 @@ public class PokemonCreatorFront : MonoBehaviour
 
     private void GetPokemonBaseData(int id)
     {
-        _PokemonName = pl.GetName(id);
-        _PokemonID = id + 1;
+        PokemonName = pl.GetName(id);
+        PokemonID = id + 1;
 
         gif.ChangeSprite(PokemonName, PokemonID);
 
@@ -116,8 +116,8 @@ public class PokemonCreatorFront : MonoBehaviour
         //max hp = 2* base stat + 110
         //max other stats = 1.79 * stat + 5(levelBonus)
         //level bonus cannot exceed 5
-        _Level = (int)Random.Range(70f, 100f) + 1;
-        _Level = 100;
+        Level = (int)Random.Range(70f, 100f) + 1;
+        Level = 100;
         levelBonus = Level / (int)(Random.Range(16f, 20f) + 1); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
 
         float hpLevelCalc = 1f + ((float)Level / 100);
@@ -178,27 +178,7 @@ public class PokemonCreatorFront : MonoBehaviour
                 break;
         }
     }
-    #region Getters and Setters
-    public int PokemonID
-    {
-        get { return _PokemonID; }
-        set { _PokemonID = PokemonID; }
-    }
 
-    public string PokemonName
-    {
-        get { return _PokemonName; }
-        set { _PokemonName = PokemonName; }
-    }
-
-    public int Level
-    {
-        get { return _Level; }
-        set { _Level = Level; }
-    }
-
-
-    #endregion
 
 
 

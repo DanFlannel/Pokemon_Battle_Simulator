@@ -96,9 +96,9 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void generateRandomList(List<int> list, int range){
 		for(int i = 0; i < range; i++){
-			int numToAdd = Random.Range(0,range);
+			int numToAdd = Random.Range(0,range - 1);
 			while(list.Contains(numToAdd)){
-				numToAdd = Random.Range(0,range);
+				numToAdd = Random.Range(0,range - 1);
 			}
 			list.Add(numToAdd);
 		}

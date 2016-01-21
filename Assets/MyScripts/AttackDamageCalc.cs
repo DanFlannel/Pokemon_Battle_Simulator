@@ -250,6 +250,19 @@ public class AttackDamageCalc : MonoBehaviour
         float rnd = Random.Range(.85f, 1f);
         float typeMultiplier = getTypeMultiplier(attackType, isPlayer);
 
+        if(typeMultiplier == 0)
+        {
+            Debug.Log("The pokemon is immune");
+            return 0;
+        }else if(typeMultiplier < 1)
+        {
+            Debug.Log("The move was not very effective");
+        }
+        else if(typeMultiplier > 1)
+        {
+            Debug.LogWarning("The move is super effective");
+        }
+
         modifier = stab * typeMultiplier * critical * rnd;
         //Debug.Log("modifier = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);
         //Debug.Log("modifier: " + modifier + " = Stab: " + stab + " type multiplier: " + typeMultiplier + " critical: " + critical + " randomnum: " + rnd);

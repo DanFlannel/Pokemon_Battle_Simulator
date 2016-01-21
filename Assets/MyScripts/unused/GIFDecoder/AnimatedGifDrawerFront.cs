@@ -160,6 +160,7 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         }
         catch (Exception e)
         {
+            Debug.Log(e.ToString());
             string id = pokemonData.PokemonID.ToString();
             int pngID = 0;
             for (int i = 0; i < sprites.front.Length; i++)

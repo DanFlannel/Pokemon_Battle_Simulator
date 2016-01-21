@@ -7,7 +7,6 @@ public class PokemonAttacks : MonoBehaviour
 	public bool completedDatabaseInitalization = false;
 
 	#region Declared Variables
-	public int tm_hm = 50;
 	public List<attacks> attackList = new List<attacks> ();	
 	public List<attackIndex> HM_List = new List<attackIndex>();
 	public List<attackIndex> TM_List = new List<attackIndex>();
@@ -3279,7 +3278,7 @@ public class PokemonAttacks : MonoBehaviour
 	}
 	
 	public List<attackIndex> masterGetAttacks(int id){
-		return master_attack_list[id].ai;
+		return master_attack_list[id].attackIndex;
 	}
 
 	public string masterGetName(int id){
@@ -3348,11 +3347,11 @@ public struct attackIndex
 
 public struct masterList{
 	public string name;
-	public List<attackIndex> ai;
+	public List<attackIndex> attackIndex;
 
 	public masterList(string n, List<attackIndex> a){
 		name = n;
-		ai = a;
+		attackIndex = a;
 	}
 }
 #endregion

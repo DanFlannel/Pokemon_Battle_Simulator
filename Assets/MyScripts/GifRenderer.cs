@@ -38,7 +38,7 @@ public class GifRenderer : MonoBehaviour
 
         object o;
         RuntimeAnimatorController control;
-        string animationPath, spritePath;
+        string animationPath;
 
         animationPath = "Animations/" + gen + "/" + direction + "/" + name.ToUpper() + "_0";
 

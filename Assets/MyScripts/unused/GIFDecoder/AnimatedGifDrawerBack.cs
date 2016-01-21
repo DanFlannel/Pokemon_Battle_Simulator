@@ -408,7 +408,6 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
     private int findLengthOfImageData(string hex)
     {
-        int length = 0;
         for (int i = (curGifByteIndex * 2); i < hex.Length - 4; i += 2)
         {
             if (hex.Substring(i, 4) == "21F9")
