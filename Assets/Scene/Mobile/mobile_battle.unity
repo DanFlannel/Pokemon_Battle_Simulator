@@ -2493,7 +2493,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedDatabaseInitalization: 0
-  tm_hm: 50
   physical: Physical
   special: Special
   status: Status
