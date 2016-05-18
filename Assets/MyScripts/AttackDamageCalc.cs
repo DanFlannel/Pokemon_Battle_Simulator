@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System;
 
 /// <summary>
 /// This class is created to take the damage done by each attack when a button is pressed. It is meant to work on every single attack.
@@ -44,13 +45,16 @@ public class AttackDamageCalc : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        Console.WriteLine("PK : Attack Damage Calculator: Initalizing");
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         attack_Switch_Case = GameObject.FindGameObjectWithTag("Attacks").GetComponent<Attack_Switch_Case>();
         damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
         tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
+        Console.WriteLine("PK : Attack Damage Calculator: Initalized");
     }
 
     // Update is called once per frame
@@ -108,7 +112,7 @@ public class AttackDamageCalc : MonoBehaviour
         }
         else
         {
-            index = (int)Random.Range(1, 5);
+            index = (int)UnityEngine.Random.Range(1, 5);
             List<string> enemyAttackName = genAttacks.get_enemyAttackName();
             if (index == 1)
             {
@@ -247,7 +251,7 @@ public class AttackDamageCalc : MonoBehaviour
             Debug.Log("Critical HIT!");
             critical = 1.5f;
         }
-        float rnd = Random.Range(.85f, 1f);
+        float rnd = UnityEngine.Random.Range(.85f, 1f);
         float typeMultiplier = getTypeMultiplier(attackType, isPlayer);
 
         if(typeMultiplier == 0)
@@ -562,15 +566,15 @@ public class AttackDamageCalc : MonoBehaviour
 
         for (int i = 0; i < missProb; i++)
         {
-            int chance = Mathf.RoundToInt(Random.Range(1, 20));
+            int chance = Mathf.RoundToInt(UnityEngine.Random.Range(1, 20));
             while (missNums.Contains(chance))
             {
-                chance = Mathf.RoundToInt(Random.Range(1, 20));
+                chance = Mathf.RoundToInt(UnityEngine.Random.Range(1, 20));
             }
             missNums.Add(chance);
         }
 
-        int guess = Mathf.RoundToInt(Random.Range(1, 20));
+        int guess = Mathf.RoundToInt(UnityEngine.Random.Range(1, 20));
         for (int i = 0; i < missProb; i++)
         {
             if (missNums[i] == guess)
@@ -623,8 +627,8 @@ public class AttackDamageCalc : MonoBehaviour
     {
         bool crit = false;
 
-        int guess = Random.Range(1, chance);
-        int guess2 = Random.Range(1, chance);
+        int guess = UnityEngine.Random.Range(1, chance);
+        int guess2 = UnityEngine.Random.Range(1, chance);
 
         if (guess == guess2)
         {

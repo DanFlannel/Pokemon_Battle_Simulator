@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System;
 
 public class TurnController : MonoBehaviour {
 
@@ -73,9 +74,23 @@ public class TurnController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        Console.WriteLine("PK: Turn Controller: Initalizing");
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        if(enemyStats == null)
+        {
+            Console.WriteLine("PK: Turn Controller: Enemy Stats Null");
+        }
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        if (playerStats == null)
+        {
+            Console.WriteLine("PK: Turn Controller: Player Stats Null");
+        }
         gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
+        if (gui == null)
+        {
+            Console.WriteLine("PK: Turn Controller: gui Null");
+        }
+
         if (playerStats == null) Debug.Log("Cannot find PokemonCreatorBack");
     }
 
@@ -87,6 +102,7 @@ public class TurnController : MonoBehaviour {
             PlayerHealth = playerStats.curHp;
             checkSpeed();
             hasInitalized = true;
+            Console.WriteLine("PK: Turn Controller Initalized");
         }
     }
 	

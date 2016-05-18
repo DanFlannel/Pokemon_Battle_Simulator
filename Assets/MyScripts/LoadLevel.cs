@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using System;
 
 public class LoadLevel : MonoBehaviour {
 
@@ -14,7 +15,7 @@ public class LoadLevel : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        startLoading();
+        //startLoading();
     }
 
     private void startLoading()
@@ -40,6 +41,8 @@ public class LoadLevel : MonoBehaviour {
 
     public void loadDesignatedLevel(int n)
     {
+        Debug.Log("PK: Loading Designated Level" + n);
+        Console.WriteLine("PK: Loading Designeted Level" + n);
         SceneManager.LoadScene(n);
     }
 }

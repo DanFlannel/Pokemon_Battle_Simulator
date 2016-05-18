@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 /// <summary>
 /// This class generated the attacks for the player, as shown in th GUI. It fetches the attack data for the pokemon 
@@ -33,11 +34,12 @@ public class GenerateAttacks : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        Console.WriteLine("PK : Generate Attacks: Initalizing");
+        pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
 		pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack> ();
 		attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         adc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
-
+        Console.WriteLine("PK : Generate Attacks: Initalized");
         //PlayerPokemonGen();
         //EnemyPlayerPokemonGen();
     }
@@ -96,9 +98,9 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void generateRandomList(List<int> list, int range){
 		for(int i = 0; i < range; i++){
-			int numToAdd = Random.Range(0,range - 1);
+			int numToAdd = UnityEngine.Random.Range(0,range - 1);
 			while(list.Contains(numToAdd)){
-				numToAdd = Random.Range(0,range - 1);
+				numToAdd = UnityEngine.Random.Range(0,range - 1);
 			}
 			list.Add(numToAdd);
 		}

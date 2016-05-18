@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using System;
 
 public class GUIScript : MonoBehaviour {
 
@@ -38,11 +39,11 @@ public class GUIScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        Console.WriteLine("PK : GUIScript : Initalizing");
+        pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
 		pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
 		attackGen = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
-
-	}	
+    }	
 	
 	// Update is called once per frame
 	void Update () { 
@@ -50,7 +51,8 @@ public class GUIScript : MonoBehaviour {
 		if(attackGen.attackDatabaseCompiled && !generatedAttacks){
             generatePokemonStats();
             attackNames();
-		}
+            Console.WriteLine("PK : GUIScript : Initalized");
+        }
 	}
 
     /// <summary>

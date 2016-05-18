@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -270,6 +271,7 @@ public class PokemonAttacks : MonoBehaviour
 	#endregion
 
 	void Awake(){
+        Console.WriteLine("PK : Attack Data: Initalizing");
 		attackLibrary ();
 		TMLibrary();
 		HMLibrary();
@@ -279,7 +281,8 @@ public class PokemonAttacks : MonoBehaviour
 		init77_101();
 		init102_126();
 		init127_151();
-	}
+        Console.WriteLine("PK : Attack Data: Initalized");
+    }
 	// Use this for initialization
 	void Start ()
 	{

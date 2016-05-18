@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class Attack_Switch_Case : MonoBehaviour {
 
@@ -24,12 +25,38 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     void Start()
     {
+        Console.WriteLine("PK : Attack Switch Case: Initalizing");
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        if(enemyStats == null)
+        {
+            Console.WriteLine("PK: Attack Switch Case: Enemy Stats Null");
+        }
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        if (playerStats == null)
+        {
+            Console.WriteLine("PK: Attack Switch Case: Enemy Stats Null");
+        }
         attackCalc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
+        if (attackCalc == null)
+        {
+            Console.WriteLine("PK: Attack Switch Case: Attack Calc Null");
+        }
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
+        if (genAttacks == null)
+        {
+            Console.WriteLine("PK: Attack Switch Case: genAttacks Null");
+        }
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        if (attacks == null)
+        {
+            Console.WriteLine("PK: Attack Switch Case: Attacks Null");
+        }
         tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
+        if (tc == null)
+        {
+            Console.WriteLine("PK: Attack Switch Case: turn controller Null");
+        }
+        Console.WriteLine("PK : Attack Switch Case: Initalized");
     }
 
     public void statusAttacks(string name, bool isPlayer)
@@ -58,7 +85,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 changeStats(defense, 2, isPlayer);
                 break;
             case "confuse ray":
-                rnd = Random.Range(1, 4);
+                rnd = UnityEngine.Random.Range(1, 4);
                 isConfused(isPlayer, 10, rnd);                      
                 break;
             case "conversion":
@@ -101,7 +128,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 updateStatChange(spDefense, 1, !isPlayer);
                 break;
             case "hypnosis":
-                rnd = Random.Range(1, 3);
+                rnd = UnityEngine.Random.Range(1, 3);
                                         //puts the user to sleep for rnd turns
                 break;
             case "kinesis":
@@ -127,7 +154,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 }
                 break;
             case "lovely kiss":
-                rnd = Random.Range(1, 3);
+                rnd = UnityEngine.Random.Range(1, 3);
                                         //puts the user to sleep for rnd turns
                 break;
             case "meditate":
@@ -182,7 +209,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 changeStats(attack, 1, isPlayer);
                 break;
             case "sing":                //puts the user to sleep for 1-3 turns
-                rnd = Random.Range(1, 3);
+                rnd = UnityEngine.Random.Range(1, 3);
                 break;
             case "smokescreen":         //lower accuracy by one stage
                 break;
@@ -200,7 +227,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 final_damage = 0;
                 break;
             case "spore":               //puts the opponent to sleep for 1-3 turns
-                rnd = Random.Range(1, 3);
+                rnd = UnityEngine.Random.Range(1, 3);
                 break;
             case "string shot":
                 changeStats(speed, -2, !isPlayer);
@@ -212,7 +239,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 substitute(isPlayer);
                 break;
             case "supersonic":
-                rnd = Random.Range(1, 4);
+                rnd = UnityEngine.Random.Range(1, 4);
                 isConfused(isPlayer, 10, rnd);
                 break;
             case "swords dance":
@@ -256,13 +283,13 @@ public class Attack_Switch_Case : MonoBehaviour {
                 Debug.Log("No physical attack with name " + name.ToLower() + " found");
                 break;
             case "barrage":
-                rnd = Random.Range(2, 5);
+                rnd = UnityEngine.Random.Range(2, 5);
                 predictedDamage = multiAttack(rnd, name);
                 break;
             case "bide":                //waits 2 turns then deals back double.... :(
                 break;
             case "bind":                //need to create a damage over time effect here for rndBind turns
-                rnd = Random.Range(4, 5);
+                rnd = UnityEngine.Random.Range(4, 5);
                 one_sixteenth_temp(isPlayer, rnd);
                 break;
             case "bite":
@@ -279,11 +306,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                 predictedDamage = multiAttack(rnd, name);
                 break;
             case "clamp":               //traps for 4-5 turns dealing 1/16th damage
-                rnd = Random.Range(4, 5);
+                rnd = UnityEngine.Random.Range(4, 5);
                 one_sixteenth_temp(isPlayer, rnd);
                 break;
             case "comet punch":
-                rnd = Random.Range(2, 5);
+                rnd = UnityEngine.Random.Range(2, 5);
                 predictedDamage = multiAttack(rnd,name);
                 break;
             case "constrict":
@@ -313,7 +340,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 predictedDamage = 0;
                 break;
             case "dizzy punch":
-                rnd = Random.Range(1, 4);
+                rnd = UnityEngine.Random.Range(1, 4);
                 isConfused(isPlayer, 2, rnd);
                 break;
             case "double kick":
@@ -321,7 +348,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 predictedDamage = multiAttack(rnd,name);
                 break;
             case "double slap":
-                rnd = Random.Range(2, 5);
+                rnd = UnityEngine.Random.Range(2, 5);
                 predictedDamage = multiAttack(rnd,name);
                 break;
             case "double edge":
@@ -342,7 +369,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                     enemyStats.curHp = 0;
                 break;
             case "fire punch":
-                rnd = Random.Range(4, 5);
+                rnd = UnityEngine.Random.Range(4, 5);
                 isBurned(isPlayer, 1, rnd);
                 break;
             case "fissure":
@@ -362,11 +389,11 @@ public class Attack_Switch_Case : MonoBehaviour {
                 predictedDamage = 0; 
                 break;
             case "fury attack":
-                rnd = Random.Range(2, 5);
+                rnd = UnityEngine.Random.Range(2, 5);
                 predictedDamage = multiAttack(rnd,name);
                 break;
             case "fury swipes":
-                rnd = Random.Range(2, 5);
+                rnd = UnityEngine.Random.Range(2, 5);
                 predictedDamage = multiAttack(rnd,name);
                 break;
             case "guillotine":
@@ -407,7 +434,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "peck":                //no additional effect
                 break;
             case "pin missile":
-                rnd = Random.Range(2, 5);
+                rnd = UnityEngine.Random.Range(2, 5);
                 predictedDamage = multiAttack(rnd, name);
                 break;
             case "poison sting":        //chance to poison the target
@@ -458,7 +485,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "slash":               //high crit ratio 1/8 not 1/16
                 break;
             case "spike cannon":
-                rnd = Random.Range(2, 5);
+                rnd = UnityEngine.Random.Range(2, 5);
                 predictedDamage = multiAttack(rnd, name);
                 break;
             case "stomp":               //if minimized *2 damage
@@ -509,7 +536,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "wing attack":         //no additional effect, can hit non-adjacent pokemon in triple battles
                 break;
             case "wrap":                //causes 1/16th damage for 4-5 turns
-                rnd = Random.Range(4, 5);
+                rnd = UnityEngine.Random.Range(4, 5);
                 one_sixteenth_temp(isPlayer, rnd);
                 break;
         }
@@ -560,7 +587,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                     changeStats(speed, -1, !isPlayer);
                 break;
             case "confusion":
-                rnd = Random.Range(1, 4);
+                rnd = UnityEngine.Random.Range(1, 4);
                 isConfused(isPlayer, 1, rnd);
                 break;
             case "dragon rage":
@@ -570,19 +597,19 @@ public class Attack_Switch_Case : MonoBehaviour {
                 predictedDamage = dreamEater(isPlayer, predictedDamage);
                 break;
             case "ember":
-                rnd = Random.Range(4, 5);
+                rnd = UnityEngine.Random.Range(4, 5);
                 isBurned(isPlayer, 1, rnd);
                 break;
             case "fire blast":
-                rnd = Random.Range(4, 5);
+                rnd = UnityEngine.Random.Range(4, 5);
                 isBurned(isPlayer, 1, rnd);
                 break;
             case "fire spin":           //burns the target for 4-5 turns
-                rnd = Random.Range(4, 5);
+                rnd = UnityEngine.Random.Range(4, 5);
                 isBurned(isPlayer, 10, rnd);
                 break;
             case "flamethrower":
-                rnd = Random.Range(4, 5);
+                rnd = UnityEngine.Random.Range(4, 5);
                 isBurned(isPlayer, 1, rnd);
                 break;
             case "gust":
@@ -617,7 +644,7 @@ public class Attack_Switch_Case : MonoBehaviour {
             case "petal dance":         //attacks for 2-3 turns, cannot be switched out, then becomes confused
                 break;
             case "psybeam":
-                rnd = Random.Range(1, 4);
+                rnd = UnityEngine.Random.Range(1, 4);
                 isConfused(isPlayer, 1, rnd);
                 break;
             case "psychic":
@@ -626,7 +653,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                     changeStats(spDefense, -1, !isPlayer);
                 break;
             case "psywave":
-                float mod = Random.Range(.5f, 1.5f);
+                float mod = UnityEngine.Random.Range(.5f, 1.5f);
                 predictedDamage = levelBasedDamage(isPlayer) * mod;
                 break;
             case "razor wind":          //charges the first turn then attacks the second
@@ -665,7 +692,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 isParalized(isPlayer, 1);
                 break;
             case "tri attack":          //I changed this from 6.67% chance for each to 10%
-                rnd = Random.Range(4, 5);
+                rnd = UnityEngine.Random.Range(4, 5);
                 isParalized(isPlayer, 1);
                 isBurned(isPlayer, 1, rnd);
                 isFrozen(isPlayer, 1);
@@ -691,15 +718,15 @@ public class Attack_Switch_Case : MonoBehaviour {
         List<int> probability = new List<int>();
         for (int i = 0; i < prob; i++)
         {
-            int chance = Mathf.RoundToInt(Random.Range(1f, 10f));
+            int chance = Mathf.RoundToInt(UnityEngine.Random.Range(1f, 10f));
             while (probability.Contains(chance))
             {
-                chance = Mathf.RoundToInt(Random.Range(1f, 10f));
+                chance = Mathf.RoundToInt(UnityEngine.Random.Range(1f, 10f));
             }
             probability.Add(chance);
         }
 
-        int guess = Mathf.RoundToInt(Random.Range(1f, 10f));        //Gets our guess, a random integer between 1 and 10
+        int guess = Mathf.RoundToInt(UnityEngine.Random.Range(1f, 10f));        //Gets our guess, a random integer between 1 and 10
 
         for (int i = 0; i < probability.Count; i++)
         {
