@@ -25,9 +25,28 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     void Start()
     {
+        Init();
+    }
+
+    private void Init()
+    {
+        //Console.WriteLine("PK : Attack Switch Case: Initalizing");
+
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        attackCalc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
+        genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
+        attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
+
+        //Console.WriteLine("PK : Attack Switch Case: Initalized");
+    }
+
+    private void Initt_Debug()
+    {
         Console.WriteLine("PK : Attack Switch Case: Initalizing");
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
-        if(enemyStats == null)
+        if (enemyStats == null)
         {
             Console.WriteLine("PK: Attack Switch Case: Enemy Stats Null");
         }

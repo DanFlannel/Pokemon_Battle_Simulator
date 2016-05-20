@@ -2533,6 +2533,24 @@ RectTransform:
   m_AnchoredPosition: {x: 304, y: -117}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1670394660 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 167832, guid: 2c572416f1c91c544a6a68c9777242b8, type: 2}
+  m_PrefabInternal: {fileID: 1105967272}
+--- !u!114 &1670394661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1670394660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dba1dd25c1fc54083a28be397f9b1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: 0
+  loadingbar: {fileID: 0}
+  progress: 0
 --- !u!114 &1768884907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3255,13 +3273,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465882010}
-        m_MethodName: main_menu
-        m_Mode: 1
+      - m_Target: {fileID: 1670394661}
+        m_MethodName: loadDesignatedLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

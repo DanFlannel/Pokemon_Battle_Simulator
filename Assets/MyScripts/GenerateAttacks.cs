@@ -17,6 +17,7 @@ public class GenerateAttacks : MonoBehaviour {
 	private int moves = 4;
 
     public bool attackDatabaseCompiled = false;
+    private bool attacksGenerated;
 
     [Header("Player")]
     [SerializeField]
@@ -34,31 +35,47 @@ public class GenerateAttacks : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Console.WriteLine("PK : Generate Attacks: Initalizing");
+        Init();
+    }
+
+    private void Init()
+    {
+        //Console.WriteLine("PK : Generate Attacks: Initalizing");
         pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
-		pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack> ();
-		attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         adc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
-        Console.WriteLine("PK : Generate Attacks: Initalized");
-        //PlayerPokemonGen();
-        //EnemyPlayerPokemonGen();
+        //Console.WriteLine("PK : Generate Attacks: Initalized");
+        //Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
+        attacksGenerated = false;
     }
 
 
 	// Update is called once per frame
 	void Update () {
-		checkInitalGen();
-	}
+        //checkInitalGen();
+        if (attackData.completedDatabaseInitalization && !attacksGenerated)
+        {
+            Debug.Log("Name 1:" + pcb.PokemonName + "   Name 2:" + playerPokemonName1);
+            playerPokemonName1 = pcb.PokemonName;
+            PlayerPokemonGen();
+            EnemyPokemonGen();
+            genPlayerAttacks();
+            genEnemyAttacks();
+            attacksGenerated = true;
+        }
+    }
 
     /// <summary>
     /// Checks to make sure that the inital Gen of the pokemon attack list went through, if not it calls the
     /// generation of the attacks again.
     /// </summary>
 	private void checkInitalGen(){
-		if(pcb.PokemonName != playerPokemonName1){
+        
+        if (pcb.PokemonName != playerPokemonName1){
             PlayerPokemonGen();
             EnemyPokemonGen();
-			//Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
+			Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
 			genPlayerAttacks();
             genEnemyAttacks();
 		}
@@ -80,6 +97,7 @@ public class GenerateAttacks : MonoBehaviour {
 	private void PlayerPokemonGen(){
         int id = pcb.getPokemonID() -1;
 		playerAttackList1 = attackData.masterGetAttacks(id);
+        Debug.Log("Number of different player attacks: " + playerAttackList1.Count);
 	    generateRandomList(randomPlayerIndex, playerAttackList1.Count);
 	}
 
@@ -97,13 +115,17 @@ public class GenerateAttacks : MonoBehaviour {
     /// Generates the random list of attacks based on the input of the list variable
     /// </summary>
 	private void generateRandomList(List<int> list, int range){
-		for(int i = 0; i < range; i++){
+        list.Clear();
+        Debug.Log("Range: " + range);
+        Debug.Log("List Cout: " + list.Count);
+		for(int i = 0; i < moves; i++){
 			int numToAdd = UnityEngine.Random.Range(0,range - 1);
 			while(list.Contains(numToAdd)){
 				numToAdd = UnityEngine.Random.Range(0,range - 1);
 			}
 			list.Add(numToAdd);
 		}
+        Debug.Log("Generated List");
 	}
 
     /// <summary>
@@ -113,15 +135,15 @@ public class GenerateAttacks : MonoBehaviour {
 		bool goForward = attackData.completedDatabaseInitalization;
 		playerPokemonName1 = pcb.PokemonName;
 		if(goForward == false){
-			//Debug.Log("Nope");
+			Debug.Log("Nope");
 		}else{
-            //Debug.Log(attackData.masterGetName(id));
+            Debug.Log(attackData.masterGetName(pcb.getPokemonID()));
             returnPlayerAttacks();
-		}
-        adc.playerAttack1 = playerAttackName[0];
-        adc.playerAttack2 = playerAttackName[1];
-        adc.playerAttack3 = playerAttackName[2];
-        adc.playerAttack4= playerAttackName[3];
+            adc.playerAttack1 = playerAttackName[0];
+            adc.playerAttack2 = playerAttackName[1];
+            adc.playerAttack3 = playerAttackName[2];
+            adc.playerAttack4 = playerAttackName[3];
+        }
     }
 
     /// <summary>

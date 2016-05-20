@@ -8,7 +8,7 @@ public class LoadLevel : MonoBehaviour {
 
 
     public int levelName;
-    public Image map;
+    public Image loadingbar;
     public float progress;
     AsyncOperation async;
 
@@ -33,7 +33,7 @@ public class LoadLevel : MonoBehaviour {
         async = SceneManager.LoadSceneAsync(levelName);
         progress = async.progress;
         //Debug.Log(progress);
-        map.fillAmount = progress;
+        loadingbar.fillAmount = progress;
         async.allowSceneActivation = false;
         yield return (0);
        
