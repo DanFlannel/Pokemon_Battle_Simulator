@@ -39,10 +39,17 @@ public class LoadLevel : MonoBehaviour {
        
     }
 
-    public void loadDesignatedLevel(int n)
+    public void loadDesignatedLevelInt(int n)
     {
         Debug.Log("PK: Loading Designated Level" + n);
         Console.WriteLine("PK: Loading Designeted Level" + n);
         SceneManager.LoadScene(n);
+    }
+
+    public void loadDesignatedLevelString(string s)
+    {
+        Debug.Log("PK: Loading Designated Level" + s);
+        Console.WriteLine("PK: Loading Designeted Level" + s);
+        SceneManager.LoadScene(s);
     }
 }

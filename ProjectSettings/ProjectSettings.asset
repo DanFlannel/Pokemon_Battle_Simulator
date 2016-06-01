@@ -159,8 +159,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/Flannel/Documents/GitHub/Pokemon_Battle_Simulator/keystone.keystore
-  AndroidKeyaliasName: fatbobby
+  AndroidKeystoreName: C:/Users/Dan/Documents/GitHub/_KEYSTORE/pokeBattle.keystore
+  AndroidKeyaliasName: 
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   androidEnableBanner: 1
