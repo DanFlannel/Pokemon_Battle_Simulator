@@ -116,15 +116,41 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void generateRandomList(List<int> list, int range){
         list.Clear();
+        range -= 1;
         Debug.Log("Range: " + range);
         Debug.Log("List Cout: " + list.Count);
-		for(int i = 0; i < moves; i++){
-			int numToAdd = UnityEngine.Random.Range(0,range - 1);
-			while(list.Contains(numToAdd)){
-				numToAdd = UnityEngine.Random.Range(0,range - 1);
-			}
-			list.Add(numToAdd);
-		}
+        int numToAdd = -1;
+        if (list.Count > moves)
+        {
+            for (int i = 0; i < moves; i++)
+            {
+                numToAdd = UnityEngine.Random.Range(0, range);
+                while (list.Contains(numToAdd))
+                {
+                    numToAdd = UnityEngine.Random.Range(0, range);
+                }
+                list.Add(numToAdd);
+            }
+        }
+        //this ensures that all possible moves are added for pokemon with less than or equal to 4 moves
+        else
+        {
+            int totalMoves = 0;
+            for(int i = 0; i < moves; i++)
+            {
+                
+                if (i <= range)
+                {
+                    numToAdd = i;
+                    totalMoves++;
+                }
+                else
+                {
+                    numToAdd = UnityEngine.Random.Range(0, totalMoves);
+                }
+                list.Add(numToAdd);
+            }
+        }
         Debug.Log("Generated List");
 	}
 
