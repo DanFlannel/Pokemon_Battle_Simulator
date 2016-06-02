@@ -16,18 +16,19 @@ public class DontDestroy : MonoBehaviour {
 
     void Awake()
     {
-        if (instance != null && instance != this)
+
+        DontDestroyOnLoad(this);
+        if (FindObjectsOfType(GetType()).Length > 1)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
 
         instance = this;
-        DontDestroyOnLoad(this.gameObject);
-	
-	}
+    }
 
     void Start()
     {
+
 
     }
 	
