@@ -850,7 +850,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                     playerStats.speed_stage = newStage;
                     break;
                 default:
-                    Debug.Log("no type " + type + " found");
+                    Debug.LogError("no type " + type + " found");
                     break;
             }
         }
@@ -874,7 +874,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                     enemyStats.speed_stage = newStage;
                     break;
                 default:
-                    Debug.Log("no type " + type + " found");
+                    Debug.LogError("no type " + type + " found");
                     break;
             }
         }

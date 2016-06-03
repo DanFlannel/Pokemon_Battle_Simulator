@@ -1,68 +1,70 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// This class handles all of the enemy pokemon's calculations and variables associated with the pokemon. This is essentially
+/// the master class for that pokemon in terms of its physical attributes. 
+/// </summary>
 public class PokemonCreatorFront : MonoBehaviour
 {
 
-    private int levelBonus;
+    private int levelBonus { get; set; }
 
-    public int PokemonID;
-    public string PokemonName;
+    public int PokemonID { get; private set; }
+    public string PokemonName { get; private set; }
 
-    private int baseHP;
-    private int baseAttack;
-    private int baseDefense;
-    private int baseSpecial_Attack;
-    private int baseSpecial_Defense;
-    private int baseSpeed;
-    private bool CanEvolve;
+    private int baseHP { get; set; }
+    private int baseAttack { get; set; }
+    private int baseDefense { get; set; }
+    private int baseSpecial_Attack { get; set; }
+    private int baseSpecial_Defense { get; set; }
+    private int baseSpeed { get; set; }
+    private bool CanEvolve { get; set; }
 
-    private int HP;
-    public int Level;
-    public int Attack;
+    private int HP { get; set; }
+    public int Level { get; private set; }
+    public int Attack { get; private set; }
     public int attack_Stage;
 
-    public int Defense;
-    public int defense_Stage;
-    public int Special_Attack;
-    public int spAttack_Stage;
-    public int Special_Defense;
-    public int spDefense_stage;
-    public int Speed;
-    public int speed_stage;
+    public int Defense { get; private set; }
+    public int defense_Stage { get; set; }
+    public int Special_Attack { get; private set; }
+    public int spAttack_Stage { get; set; }
+    public int Special_Defense { get; private set; }
+    public int spDefense_stage { get; set; }
+    public int Speed { get; private set; }
+    public int speed_stage { get; set; }
 
-    public string Type1;
-    public string Type2;
+    public string Type1 { get; private set; }
+    public string Type2 { get; private set; }
 
-    public bool isChargingAttack = false;
-    public bool isUnderground = false;
-    public bool canAttack = true;
-    public bool canBeAttacked = true;
-    public bool isConfused = false;
-    public bool isSleeping = false;
-    public bool hasAttacked = false;
-    public bool isStunned = false;
-    public bool isFlinched = false;
-    public bool isBurned = false;
-    public bool isFrozen = false;
-    public bool isFlying = false;
-    public float cachedDamage = 0;
-    public int sleepDuration = 0;
-    public int confusedDuration = 0;
-    public bool hasSubstitute = false;
-    public int substitueHP = 0;
-    public bool hasLightScreen = false;
-    public int lightScreenDuration = 0;
-    public string cachedAttackName;
+    public bool isChargingAttack { get; set; }
+    public bool isUnderground { get; set; }
+    public bool canAttack { get; set; }
+    public bool canBeAttacked { get; set; }
+    public bool isConfused { get; set; }
+    public bool isSleeping { get; set; }
+    public bool hasAttacked { get; set; }
+    public bool isStunned { get; set; }
+    public bool isFlinched { get; set; }
+    public bool isBurned { get; set; }
+    public bool isFrozen { get; set; }
+    public bool isFlying { get; set; }
+    public float cachedDamage { get; set; }
+    public int sleepDuration { get; set; }
+    public int confusedDuration { get; set; }
+    public bool hasSubstitute { get; set; }
+    public int substitueHP { get; set; }
+    public bool hasLightScreen { get; set; }
+    public int lightScreenDuration { get; set; }
+    public string cachedAttackName { get; set; }
 
     private PokemonLibrary pl;
     private GifRenderer gif;
 
-    private int temp;
-    public int curHp;
-    public int maxHP;
-
-    private bool hasloaded = false;
+    private int temp { get; set; }
+    public int curHp { get; set; }
+    public int maxHP { get; private set; }
 
 
     // Use this for initialization
@@ -83,6 +85,28 @@ public class PokemonCreatorFront : MonoBehaviour
     private void Init()
     {
         attack_Stage = defense_Stage = speed_stage = spAttack_Stage = spDefense_stage = 0;
+
+        isChargingAttack = false;
+        isUnderground = false;
+        canAttack = true;
+        canBeAttacked = true;
+        isConfused = false;
+        isSleeping = false;
+        hasAttacked = false;
+        isStunned = false;
+        isFlinched = false;
+        isBurned = false;
+        isFrozen = false;
+        isFlinched = false;
+        hasSubstitute = false;
+        hasLightScreen = false;
+
+        cachedDamage = 0;
+        sleepDuration = 0;
+        substitueHP = 0;
+        lightScreenDuration = 0;
+        confusedDuration = 0;
+
 
         GetPokemonBaseData(temp);
         StatsBasedOffLevel();

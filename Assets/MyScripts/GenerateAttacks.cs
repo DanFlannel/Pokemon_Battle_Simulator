@@ -21,14 +21,14 @@ public class GenerateAttacks : MonoBehaviour {
 
     [Header("Player")]
     [SerializeField]
-    private List<int> randomPlayerIndex = new List<int>();
+    private List<int> rndPlayerMovesIndex = new List<int>();
     private string playerPokemonName1;
 	private List<attackIndex> playerAttackList1 = new List<attackIndex>();
     private List<string> playerAttackName = new List<string>();
 
     [Header("Enemy")]
     [SerializeField]
-    private List<int> randomEnemyIndex = new List<int>();
+    private List<int> rndEnemyMovesIndex = new List<int>();
 	private string enemyPokemonName1;
 	private List<attackIndex> enemyAttackList1 = new List<attackIndex>();
     private List<string> enemyAttackName = new List<string>();
@@ -86,8 +86,8 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void debugList(){
 		for(int i = 0; i < MOVES; i++){
-			Debug.Log("Front" + randomEnemyIndex[i]);
-			Debug.Log("Back" + randomPlayerIndex[i]);
+			Debug.Log("Front" + rndEnemyMovesIndex[i]);
+			Debug.Log("Back" + rndPlayerMovesIndex[i]);
 		}
 	}
 
@@ -98,7 +98,7 @@ public class GenerateAttacks : MonoBehaviour {
         int id = playerStats.getPokemonID() -1;
 		playerAttackList1 = attackData.masterGetAttacks(id);
         Debug.Log("Number of different player attacks: " + playerAttackList1.Count);
-	    generateRandomList(randomPlayerIndex, playerAttackList1.Count);
+	    generateRandomList(rndPlayerMovesIndex, playerAttackList1.Count);
 	}
 
     /// <summary>
@@ -108,27 +108,26 @@ public class GenerateAttacks : MonoBehaviour {
         //Debug.Log(pcf.PokemonID);
         int id = enemyStats.PokemonID - 1;
         enemyAttackList1 = attackData.masterGetAttacks(id);
-        generateRandomList(randomEnemyIndex,enemyAttackList1.Count);
+        generateRandomList(rndEnemyMovesIndex,enemyAttackList1.Count);
 	}
 
     /// <summary>
     /// Generates the random list of attacks based on the input of the list variable and checks for pokemon with less than 4 moves
     /// </summary>
-	private void generateRandomList(List<int> list, int range){
+	private void generateRandomList(List<int> list, int totalPossibleMoves){
         list.Clear();
-        range -= 1;
-        Debug.Log("Range: " + range);
+        Debug.Log("Range: " + totalPossibleMoves);
         Debug.Log("List Cout: " + list.Count);
         int numToAdd = -1;
         //if the pokemon has more than 4 moves that it can learn, then we pick from those randomly
-        if (list.Count > MOVES)
+        if (totalPossibleMoves > MOVES)
         {
             for (int i = 0; i < MOVES; i++)
             {
-                numToAdd = UnityEngine.Random.Range(0, range);
+                numToAdd = UnityEngine.Random.Range(0, totalPossibleMoves);
                 while (list.Contains(numToAdd))
                 {
-                    numToAdd = UnityEngine.Random.Range(0, range);
+                    numToAdd = UnityEngine.Random.Range(0, totalPossibleMoves);
                 }
                 list.Add(numToAdd);
             }
@@ -136,12 +135,13 @@ public class GenerateAttacks : MonoBehaviour {
         //this ensures that all possible moves are added for pokemon with less than or equal to 4 moves
         else
         {
+            totalPossibleMoves -= 1;
             Debug.LogWarning("Pokemon: " + playerStats.PokemonName + " or " + enemyStats.PokemonName + " has less than four attacks!");
             int totalMoves = 0;
             for(int i = 0; i < MOVES; i++)
             {
                 
-                if (i <= range)
+                if (i <= totalPossibleMoves)
                 {
                     numToAdd = i;
                     totalMoves++;
@@ -188,13 +188,13 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void returnPlayerAttacks(){
 		for (int i = 0; i < MOVES; i++){
-            if (i < randomPlayerIndex.Count)
+            if (i < rndPlayerMovesIndex.Count)
             {
-                playerAttackName.Add(playerAttackList1[randomPlayerIndex[i]].attack.name);
+                playerAttackName.Add(playerAttackList1[rndPlayerMovesIndex[i]].attack.name);
             }
             else
             {
-                playerAttackName.Add(playerAttackList1[randomPlayerIndex[0]].attack.name);
+                playerAttackName.Add(playerAttackList1[rndPlayerMovesIndex[0]].attack.name);
             }
 		}
         attackDatabaseCompiled = true;
@@ -207,13 +207,13 @@ public class GenerateAttacks : MonoBehaviour {
     {
         for(int i = 0; i < MOVES; i++)
         {
-            if (i < randomEnemyIndex.Count)
+            if (i < rndEnemyMovesIndex.Count)
             {
-                enemyAttackName.Add(enemyAttackList1[randomEnemyIndex[i]].attack.name);
+                enemyAttackName.Add(enemyAttackList1[rndEnemyMovesIndex[i]].attack.name);
             }
             else
             {
-                enemyAttackName.Add(enemyAttackList1[randomEnemyIndex[0]].attack.name);
+                enemyAttackName.Add(enemyAttackList1[rndEnemyMovesIndex[0]].attack.name);
             }
         }
     }

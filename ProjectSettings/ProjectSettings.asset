@@ -90,7 +90,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.FatBobbyGaming.Pokemon
-  bundleVersion: 1.0
+  bundleVersion: 1.20
   preloadedAssets:
   - {fileID: -1121539586, guid: 1f6019ef0b441fd48a180094c237bf11, type: 3}
   metroEnableIndependentInputSource: 0
@@ -160,7 +160,7 @@ PlayerSettings:
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: C:/Users/Dan/Documents/GitHub/_KEYSTORE/pokeBattle.keystore
-  AndroidKeyaliasName: 
+  AndroidKeyaliasName: flannel007
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   androidEnableBanner: 1
