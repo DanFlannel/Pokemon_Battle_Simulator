@@ -4,7 +4,6 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using System;
-using EnemyPokemon;
 
 public class GUIScript : MonoBehaviour {
 
@@ -23,7 +22,7 @@ public class GUIScript : MonoBehaviour {
 	private int maxHealth;
 
 	private PokemonCreatorBack pcb;
-	private EnemyPokemonHandler pcf;
+	private PokemonCreatorFront pcf;
 	private GenerateAttacks attackGen;
 
 	public Text move1;
@@ -42,7 +41,7 @@ public class GUIScript : MonoBehaviour {
 	void Start () {
         Console.WriteLine("PK : GUIScript : Initalizing");
         pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
-		pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
+		pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
 		attackGen = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
     }	
 	

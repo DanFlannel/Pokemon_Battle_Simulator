@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
-using EnemyPokemon;
 
 public class Attack_Switch_Case : MonoBehaviour {
 
@@ -11,7 +10,7 @@ public class Attack_Switch_Case : MonoBehaviour {
     private float recoil;
 
     private PokemonCreatorBack playerStats;
-    private EnemyPokemonHandler enemyStats;
+    private PokemonCreatorFront enemyStats;
     private AttackDamageCalc attackCalc;
     private GenerateAttacks genAttacks;
     private PokemonAttacks attacks;
@@ -33,7 +32,7 @@ public class Attack_Switch_Case : MonoBehaviour {
     {
         //Console.WriteLine("PK : Attack Switch Case: Initalizing");
 
-        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
         attackCalc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
@@ -46,7 +45,7 @@ public class Attack_Switch_Case : MonoBehaviour {
     private void Initt_Debug()
     {
         Console.WriteLine("PK : Attack Switch Case: Initalizing");
-        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
         if (enemyStats == null)
         {
             Console.WriteLine("PK: Attack Switch Case: Enemy Stats Null");

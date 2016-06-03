@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
-using EnemyPokemon;
 
 /// <summary>
 /// This class generated the attacks for the player, as shown in th GUI. It fetches the attack data for the pokemon 
@@ -11,7 +10,7 @@ using EnemyPokemon;
 /// </summary>
 public class GenerateAttacks : MonoBehaviour {
 
-	private EnemyPokemonHandler enemyStats;
+	private PokemonCreatorFront enemyStats;
 	private PokemonCreatorBack playerStats;
 	private PokemonAttacks attackData;
     private AttackDamageCalc adc;
@@ -42,7 +41,7 @@ public class GenerateAttacks : MonoBehaviour {
     private void Init()
     {
         //Console.WriteLine("PK : Generate Attacks: Initalizing");
-        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
         attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         adc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
@@ -118,7 +117,7 @@ public class GenerateAttacks : MonoBehaviour {
 	private void generateRandomList(List<int> list, int totalPossibleMoves){
         list.Clear();
         Debug.Log("Range: " + totalPossibleMoves);
-        //Debug.Log("List Cout: " + list.Count);
+        Debug.Log("List Cout: " + list.Count);
         int numToAdd = -1;
         //if the pokemon has more than 4 moves that it can learn, then we pick from those randomly
         if (totalPossibleMoves > MOVES)
