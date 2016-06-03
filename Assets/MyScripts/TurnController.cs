@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using System;
+using EnemyPokemon;
 
 public class TurnController : MonoBehaviour {
 
@@ -68,14 +69,14 @@ public class TurnController : MonoBehaviour {
 
 
     private PokemonCreatorBack playerStats;
-    private PokemonCreatorFront enemyStats;
+    private EnemyPokemonHandler enemyStats;
     private GUIScript gui;
 
 
     // Use this for initialization
     void Start () {
         Console.WriteLine("PK: Turn Controller: Initalizing");
-        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
         if(enemyStats == null)
         {
             Console.WriteLine("PK: Turn Controller: Enemy Stats Null");

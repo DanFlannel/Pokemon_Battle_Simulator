@@ -2,6 +2,7 @@
 using System.Collections;
 using System;
 
+
 public class GifRenderer : MonoBehaviour
 {
 
@@ -12,14 +13,22 @@ public class GifRenderer : MonoBehaviour
     void Start()
     {
         
-        anim = this.GetComponent<Animator>();               if (anim == null) Debug.Log("no animator on this obect");
-        gifRenderer = this.GetComponent<SpriteRenderer>();  if (gifRenderer == null) Debug.Log("No sprite renderer on this object");
+        anim = this.GetComponent<Animator>();
+        if (anim == null)
+        {
+            Debug.LogError("no animator on this obect");
+        }
+        gifRenderer = this.GetComponent<SpriteRenderer>();
+        if (gifRenderer == null)
+        {
+            Debug.LogError("No sprite renderer on this object");
+        }
 
     }
 
     public void ChangeSprite(string name, int id)
     {
-        //Debug.Log("called sprite render");
+        Debug.Log("called sprite render");
         string gen = checkGen(id);
         string direction = "Front";
 
@@ -32,7 +41,12 @@ public class GifRenderer : MonoBehaviour
         isPlayer = (this.transform.tag == "Player");
         if (isPlayer)
         {
+            Debug.Log("Rendering Player Sprite");
             direction = "Back";
+        }
+        else
+        {
+            Debug.Log("Rendering Enemy Sprite");
         }
 
 
@@ -44,13 +58,19 @@ public class GifRenderer : MonoBehaviour
 
 
         o = Resources.Load(animationPath);
-        if (o == null) Debug.Log("Controller was not there: " + animationPath);
+        if (o == null)
+        {
+            Debug.Log("Controller was not there: " + animationPath);
+        }
         control = o as RuntimeAnimatorController;
-        if (control == null) Debug.Log("Did not load a controller");
+        if (control == null)
+        {
+            Debug.Log("Did not load a controller");
+        }
         anim.runtimeAnimatorController = control;
 
         anim.speed = 2f;
-        //Debug.Log("Seached Path: " + animationPath);
+        Debug.Log("Seached Path: " + animationPath);
 
     }
 
