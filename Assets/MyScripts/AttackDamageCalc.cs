@@ -5,7 +5,10 @@ using System.Collections.Generic;
 using System;
 
 /// <summary>
-/// This class is created to take the damage done by each attack when a button is pressed. It is meant to work on every single attack.
+/// This class is created to take the damage done by each attack when a button is pressed. It takes the attack
+/// and then throws it into the attack switch case, based on the type, and gets the expected amount of damage
+/// This class is meant to handle things like critical hit ratios, the basic attack and defense modifiers
+/// and the overall base damage for any move
 /// </summary>
 public class AttackDamageCalc : MonoBehaviour
 {
@@ -44,6 +47,11 @@ public class AttackDamageCalc : MonoBehaviour
 
     // Use this for initialization
     void Start()
+    {
+        Init();
+    }
+
+    private void Init()
     {
         Console.WriteLine("PK : Attack Damage Calculator: Initalizing");
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
@@ -175,7 +183,16 @@ public class AttackDamageCalc : MonoBehaviour
     /// </summary>
     public float calculateDamage(string name)
     {
-        Debug.LogWarning("is Player: " + isPlayer + " Attack Name: " + name);
+        
+        if (!isPlayer)
+        {
+            Debug.LogWarning("Enemy Attack Name: " + name);
+        }
+        else
+        {
+            Debug.LogWarning("Player Attack Name: " + name);
+        }
+
         float final_damage = 0;
         //Setup for the methods that will get different aspects of the damage calculation
         int attack_index = getAttackListIndex(name);
@@ -431,7 +448,7 @@ public class AttackDamageCalc : MonoBehaviour
         }
         else
         {
-            int index = playerStats.getPokemonID() - 1;
+            int index = playerStats.PokemonID;
             if (playerStats.PokemonName == damage_mult.master_list[index].name)
             {
                 modifier = fetchAttackTypeIndex(attackType, index);

@@ -6,7 +6,7 @@ public class PlayerPokemonHandler : MonoBehaviour
 
     private int levelBonus;
 
-    private int PokemonID;
+    public int PokemonID;
     public string PokemonName;
 
     private int baseHP;
@@ -46,6 +46,7 @@ public class PlayerPokemonHandler : MonoBehaviour
     public bool isBurned = false;
     public bool isFrozen = false;
     public bool isFlying = false;
+    public bool isParalized = false;
     public float cachedDamage = 0;
     public int sleepDuration = 0;
     public int confusedDuration = 0;
@@ -61,6 +62,7 @@ public class PlayerPokemonHandler : MonoBehaviour
     private int temp;
     public int curHp;
     public int maxHP;
+    private int GifID;
 
     private bool hasloaded = false;
 
@@ -93,9 +95,10 @@ public class PlayerPokemonHandler : MonoBehaviour
     private void GetPokemonBaseData(int id)
     {
         PokemonName = pl.GetName(id);
-        PokemonID = id + 1;
+        PokemonID = id;
+        GifID = PokemonID + 1;
 
-        gif.ChangeSprite(PokemonName, PokemonID);
+        gif.ChangeSprite(PokemonName, GifID);
 
         baseHP = pl.GetHP(id);
         baseAttack = pl.GetAttack(id);

@@ -120,8 +120,8 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void generateRandomList(List<int> list, int totalPossibleMoves){
         list.Clear();
-        Debug.Log("Range: " + totalPossibleMoves);
-        Debug.Log("List Cout: " + list.Count);
+        //Debug.Log("Range: " + totalPossibleMoves);
+        //Debug.Log("List Cout: " + list.Count);
         int numToAdd = -1;
         //if the pokemon has more than 4 moves that it can learn, then we pick from those randomly
         if (totalPossibleMoves > MOVES)
@@ -169,7 +169,7 @@ public class GenerateAttacks : MonoBehaviour {
 		if(goForward == false){
 			Debug.Log("Nope");
 		}else{
-            Debug.Log(attackData.masterGetName(playerStats.getPokemonID()));
+            //Debug.Log(attackData.masterGetName(playerStats.PokemonID));
             returnPlayerAttacks();
             adc.playerAttack1 = playerAttackName[0];
             adc.playerAttack2 = playerAttackName[1];

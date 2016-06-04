@@ -1049,7 +1049,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 if (enemyStats.Type1.ToLower() != "electric" && enemyStats.Type2.ToLower() != "electric" && !enemyStats.hasSubstitute)
                 {
                     Debug.Log("Target Pokemon is now paralized");
-                    enemyStats.isFrozen = true;
+                    enemyStats.isParalized = true;
                     changeStats(speed, -6, !isPlayer);
                 }
             }
@@ -1058,7 +1058,7 @@ public class Attack_Switch_Case : MonoBehaviour {
                 if (playerStats.Type1.ToLower() != "electric" && playerStats.Type2.ToLower() != "electric" && !playerStats.hasSubstitute)
                 {
                     Debug.Log("Target Pokemon is now paralized");
-                    playerStats.isFrozen = true;
+                    playerStats.isParalized = true;
                     changeStats(speed, -6, isPlayer);
                 }
             }
@@ -1071,7 +1071,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         if (isPlayer)
         {
             tempList = genAttacks.get_playerAttackName();
-            string tempName = tempList[0];
+            //string tempName = tempList[0];
             int attack_index = attackCalc.getAttackListIndex(name);
             string attack_type = attacks.attackList[attack_index].type;
             playerStats.Type1 = attack_type;
@@ -1079,7 +1079,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         else
         {
             tempList = genAttacks.get_enemyAttackName();
-            string tempName = tempList[0];
+            //string tempName = tempList[0];
             int attack_index = attackCalc.getAttackListIndex(name);
             string attack_type = attacks.attackList[attack_index].type;
             playerStats.Type1 = attack_type;

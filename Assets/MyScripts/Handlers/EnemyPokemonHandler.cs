@@ -50,6 +50,7 @@ public class EnemyPokemonHandler : MonoBehaviour
     public bool isBurned { get; set; }
     public bool isFrozen { get; set; }
     public bool isFlying { get; set; }
+    public bool isParalized { get; set; }
     public float cachedDamage { get; set; }
     public int sleepDuration { get; set; }
     public int confusedDuration { get; set; }
