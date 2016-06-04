@@ -67,20 +67,20 @@ public class TurnController : MonoBehaviour {
     private bool hasInitalized = false;
 
 
-    private PokemonCreatorBack playerStats;
-    private PokemonCreatorFront enemyStats;
+    private PlayerPokemonHandler playerStats;
+    private EnemyPokemonHandler enemyStats;
     private GUIScript gui;
 
 
     // Use this for initialization
     void Start () {
         Console.WriteLine("PK: Turn Controller: Initalizing");
-        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
         if(enemyStats == null)
         {
             Console.WriteLine("PK: Turn Controller: Enemy Stats Null");
         }
-        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
         if (playerStats == null)
         {
             Console.WriteLine("PK: Turn Controller: Player Stats Null");

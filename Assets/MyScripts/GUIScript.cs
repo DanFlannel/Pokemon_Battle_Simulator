@@ -21,8 +21,8 @@ public class GUIScript : MonoBehaviour {
 	private int curHealth;
 	private int maxHealth;
 
-	private PokemonCreatorBack pcb;
-	private PokemonCreatorFront pcf;
+	private PlayerPokemonHandler pcb;
+	private EnemyPokemonHandler pcf;
 	private GenerateAttacks attackGen;
 
 	public Text move1;
@@ -40,8 +40,8 @@ public class GUIScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Console.WriteLine("PK : GUIScript : Initalizing");
-        pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
-		pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
+		pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
 		attackGen = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
     }	
 	

@@ -10,8 +10,8 @@ using System;
 /// </summary>
 public class GenerateAttacks : MonoBehaviour {
 
-	private PokemonCreatorFront enemyStats;
-	private PokemonCreatorBack playerStats;
+	private EnemyPokemonHandler enemyStats;
+	private PlayerPokemonHandler playerStats;
 	private PokemonAttacks attackData;
     private AttackDamageCalc adc;
 	private const int MOVES = 4;
@@ -41,8 +41,8 @@ public class GenerateAttacks : MonoBehaviour {
     private void Init()
     {
         //Console.WriteLine("PK : Generate Attacks: Initalizing");
-        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
-        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
         attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         adc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
         //Console.WriteLine("PK : Generate Attacks: Initalized");

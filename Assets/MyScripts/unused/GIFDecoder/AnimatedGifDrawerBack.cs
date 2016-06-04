@@ -79,14 +79,14 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     private byte[] bytearrayholder;
 
     private PokemonPNGHolder sprites;
-    private PokemonCreatorBack pokemonData;
+    private PlayerPokemonHandler pokemonData;
 
     void Start()
     {
         positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PBLPlace");
         positionPlaceHolder = positionPlaceHolderGO.GetComponent<RectTransform>().anchoredPosition;
         //sprites = GameObject.Find("PNGs").GetComponent<PokemonPNGHolder>();
-        pokemonData = GameObject.FindGameObjectWithTag("PBL").GetComponent<PokemonCreatorBack>();
+        pokemonData = GameObject.FindGameObjectWithTag("PBL").GetComponent<PlayerPokemonHandler>();
         Init();
     }
 
@@ -105,7 +105,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         while (hasWWW == false)
         {
             //Debug.Log("in while loop");
-            if (this.GetComponent<PokemonCreatorBack>().name == "")
+            if (this.GetComponent<PlayerPokemonHandler>().name == "")
             {
 
             }

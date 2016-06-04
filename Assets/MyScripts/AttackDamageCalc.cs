@@ -11,8 +11,8 @@ public class AttackDamageCalc : MonoBehaviour
 {
 
     #region Declared Variables
-    private PokemonCreatorBack playerStats;
-    private PokemonCreatorFront enemyStats;
+    private PlayerPokemonHandler playerStats;
+    private EnemyPokemonHandler enemyStats;
     private PokemonAttacks attacks;
     private PokemonDamageMultipliers damage_mult;
     private Attack_Switch_Case attack_Switch_Case;
@@ -46,8 +46,8 @@ public class AttackDamageCalc : MonoBehaviour
     void Start()
     {
         Console.WriteLine("PK : Attack Damage Calculator: Initalizing");
-        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
-        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
 
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();

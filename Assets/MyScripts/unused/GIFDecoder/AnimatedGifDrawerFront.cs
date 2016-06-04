@@ -45,14 +45,14 @@ public class AnimatedGifDrawerFront : MonoBehaviour
 
     List<Texture2D> gifFrames = new List<Texture2D>();
     private PokemonPNGHolder sprites;
-    private PokemonCreatorFront pokemonData;
+    private EnemyPokemonHandler pokemonData;
 
     void Start()
     {
         positionPlaceHolderGO = GameObject.FindGameObjectWithTag("PBLPlace");
         positionPlaceHolder = positionPlaceHolderGO.GetComponent<RectTransform>().anchoredPosition;
         //sprites = GameObject.Find("PNGs").GetComponent<PokemonPNGHolder>();
-        pokemonData = GameObject.FindGameObjectWithTag("PTR").GetComponent<PokemonCreatorFront>();
+        pokemonData = GameObject.FindGameObjectWithTag("PTR").GetComponent<EnemyPokemonHandler>();
     }
 
     void Update()
@@ -60,13 +60,13 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         while (hasWWW == false)
         {
             //Debug.Log("in while loop");
-            if (this.GetComponent<PokemonCreatorFront>().name == "")
+            if (this.GetComponent<EnemyPokemonHandler>().name == "")
             {
 
             }
             else
             {
-                url = "www.pkparaiso.com/imagenes/xy/sprites/animados/" + this.GetComponent<PokemonCreatorFront>().PokemonName.ToLower() + ".gif";
+                url = "www.pkparaiso.com/imagenes/xy/sprites/animados/" + this.GetComponent<EnemyPokemonHandler>().PokemonName.ToLower() + ".gif";
                 StartCoroutine(WaitForRequest(positionPlaceHolderGO, url));
                 hasWWW = true;
             }

@@ -9,8 +9,8 @@ public class Attack_Switch_Case : MonoBehaviour {
     private float final_heal;
     private float recoil;
 
-    private PokemonCreatorBack playerStats;
-    private PokemonCreatorFront enemyStats;
+    private PlayerPokemonHandler playerStats;
+    private EnemyPokemonHandler enemyStats;
     private AttackDamageCalc attackCalc;
     private GenerateAttacks genAttacks;
     private PokemonAttacks attacks;
@@ -32,8 +32,8 @@ public class Attack_Switch_Case : MonoBehaviour {
     {
         //Console.WriteLine("PK : Attack Switch Case: Initalizing");
 
-        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
-        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
         attackCalc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
@@ -45,12 +45,12 @@ public class Attack_Switch_Case : MonoBehaviour {
     private void Initt_Debug()
     {
         Console.WriteLine("PK : Attack Switch Case: Initalizing");
-        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<PokemonCreatorFront>();
+        enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
         if (enemyStats == null)
         {
             Console.WriteLine("PK: Attack Switch Case: Enemy Stats Null");
         }
-        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PokemonCreatorBack>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
         if (playerStats == null)
         {
             Console.WriteLine("PK: Attack Switch Case: Enemy Stats Null");

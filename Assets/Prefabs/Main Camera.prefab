@@ -12,6 +12,7 @@ GameObject:
   - 92: {fileID: 9275018}
   - 124: {fileID: 12414620}
   - 81: {fileID: 8152192}
+  - 114: {fileID: 11425918}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -64,8 +65,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -0.5, z: 5}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: -2.5, y: 0, z: 5}
+  m_LocalScale: {x: 3.5, y: 3.5, z: 1}
   m_Children: []
   m_Father: {fileID: 470256}
   m_RootOrder: 1
@@ -76,8 +77,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 1, z: 5}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 2.25, y: 1.25, z: 5}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 470256}
   m_RootOrder: 0
@@ -88,7 +89,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 100, y: 100, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 443992}
@@ -185,41 +186,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 194850}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dffd80c590cdf9945b5194f72676f241, type: 3}
+  m_Script: {fileID: 11500000, guid: fba6009b082ca514f960eb54de0c248f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Defense: 0
-  defense_Stage: 0
-  Special_Attack: 0
-  spAttack_Stage: 0
-  Special_Defense: 0
-  spDefense_stage: 0
-  Speed: 0
-  speed_stage: 0
-  Type1: 
-  Type2: 
-  isChargingAttack: 0
-  isUnderground: 0
-  canAttack: 1
-  canBeAttacked: 1
-  isConfused: 0
-  isSleeping: 0
-  hasAttacked: 0
-  isStunned: 0
-  isFlinched: 0
-  isBurned: 0
-  isFrozen: 0
-  isFlying: 0
-  cachedDamage: 0
-  sleepDuration: 0
-  confusedDuration: 0
-  hasSubstitute: 0
-  substitueHP: 0
-  hasLightScreen: 0
-  lightScreenDuration: 0
-  cachedAttackName: 
-  curHp: 0
-  maxHP: 0
+--- !u!114 &11425918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6dba1dd25c1fc54083a28be397f9b1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: 0
+  loadingbar: {fileID: 0}
+  progress: 0
 --- !u!114 &11450624
 MonoBehaviour:
   m_ObjectHideFlags: 1
