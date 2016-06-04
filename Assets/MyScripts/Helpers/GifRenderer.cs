@@ -2,6 +2,9 @@
 using System.Collections;
 using System;
 
+/// <summary>
+/// This class handles the fetching of the sprites from the resource folder
+/// </summary>
 public class GifRenderer : MonoBehaviour
 {
 
@@ -12,8 +15,16 @@ public class GifRenderer : MonoBehaviour
     void Start()
     {
         
-        anim = this.GetComponent<Animator>();               if (anim == null) Debug.Log("no animator on this obect");
-        gifRenderer = this.GetComponent<SpriteRenderer>();  if (gifRenderer == null) Debug.Log("No sprite renderer on this object");
+        anim = this.GetComponent<Animator>();
+        if (anim == null)
+        {
+            Debug.Log("no animator on this obect");
+        }
+        gifRenderer = this.GetComponent<SpriteRenderer>();
+        if (gifRenderer == null)
+        {
+            Debug.Log("No sprite renderer on this object");
+        }
 
     }
 
@@ -50,9 +61,15 @@ public class GifRenderer : MonoBehaviour
 
 
         o = Resources.Load(animationPath);
-        if (o == null) Debug.Log("Controller was not there: " + animationPath);
+        if (o == null)
+        {
+            Debug.Log("Controller was not there: " + animationPath);
+        }
         control = o as RuntimeAnimatorController;
-        if (control == null) Debug.Log("Did not load a controller");
+        if (control == null)
+        {
+            Debug.Log("Did not load a controller");
+        }
         anim.runtimeAnimatorController = control;
 
         anim.speed = 2f;
