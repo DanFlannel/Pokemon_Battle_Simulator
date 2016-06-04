@@ -56,7 +56,7 @@ public class GenerateAttacks : MonoBehaviour {
         //checkInitalGen();
         if (attackData.completedDatabaseInitalization && !attacksGenerated)
         {
-            Debug.Log("Name 1:" + playerStats.PokemonName + "   Name 2:" + playerPokemonName1);
+            Debug.Log("Name 1:" + playerStats.PokemonName + "   Name 2:" + enemyStats.PokemonName);
             playerPokemonName1 = playerStats.PokemonName;
             PlayerPokemonGen();
             EnemyPokemonGen();
@@ -108,6 +108,7 @@ public class GenerateAttacks : MonoBehaviour {
         //Debug.Log(pcf.PokemonID);
         int id = enemyStats.PokemonID - 1;
         enemyAttackList1 = attackData.masterGetAttacks(id);
+        Debug.Log("Number of different enemy attacks: " + enemyAttackList1.Count);
         generateRandomList(rndEnemyMovesIndex,enemyAttackList1.Count);
 	}
 

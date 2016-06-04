@@ -26,9 +26,9 @@ public class AttackDamageCalc : MonoBehaviour
     public string
         enemyAttack1, enemyAttack2, enemyAttack3, enemyAttack4;
 
-    private string
+    public string
         enemyType1, enemyType2;
-    private string
+    public string
         playerType1, playerType2;
 
     private dmgMult playerDamageMultiplier;
@@ -308,7 +308,7 @@ public class AttackDamageCalc : MonoBehaviour
     /// </summary>
     private void set_attack_and_def(int attack_index, bool isPlayer, string attackCat)
     {
-        if (attackCat == attacks.special)                  //we are calculating a special attack
+        if (attackCat == attacks.Special)                  //we are calculating a special attack
         {
             if (isPlayer)                                   //the player is using a special attack
             {
@@ -321,7 +321,7 @@ public class AttackDamageCalc : MonoBehaviour
                 defense_mod = playerStats.Special_Defense;
             }
         }
-        if (attackCat == attacks.physical)                  //we are calculating a physical attack
+        if (attackCat == attacks.Physical)                  //we are calculating a physical attack
         {
             if (isPlayer)                                   //the player is using a physical attack
             {
