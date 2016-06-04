@@ -22,15 +22,15 @@ public class GenerateAttacks : MonoBehaviour {
     [Header("Player")]
     [SerializeField]
     private List<int> rndPlayerMovesIndex = new List<int>();
-    private string playerPokemonName1;
-	private List<attackIndex> playerAttackList1 = new List<attackIndex>();
+    private string playerPokemonName;
+	private List<attackIndex> playerAttackList = new List<attackIndex>();
     private List<string> playerAttackName = new List<string>();
 
     [Header("Enemy")]
     [SerializeField]
     private List<int> rndEnemyMovesIndex = new List<int>();
-	private string enemyPokemonName1;
-	private List<attackIndex> enemyAttackList1 = new List<attackIndex>();
+	private string enemyPokemonName;
+	private List<attackIndex> enemyAttackList = new List<attackIndex>();
     private List<string> enemyAttackName = new List<string>();
 
 	// Use this for initialization
@@ -38,6 +38,9 @@ public class GenerateAttacks : MonoBehaviour {
         Init();
     }
 
+    /// <summary>
+    /// The init class that sets all the inital variables and gets the other scripts needed
+    /// </summary>
     private void Init()
     {
         //Console.WriteLine("PK : Generate Attacks: Initalizing");
@@ -57,7 +60,7 @@ public class GenerateAttacks : MonoBehaviour {
         if (attackData.completedDatabaseInitalization && !attacksGenerated)
         {
             Debug.Log("Name 1:" + playerStats.PokemonName + "   Name 2:" + enemyStats.PokemonName);
-            playerPokemonName1 = playerStats.PokemonName;
+            playerPokemonName = playerStats.PokemonName;
             PlayerPokemonGen();
             EnemyPokemonGen();
             genPlayerAttacks();
@@ -72,10 +75,10 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void checkInitalGen(){
         
-        if (playerStats.PokemonName != playerPokemonName1){
+        if (playerStats.PokemonName != playerPokemonName){
             PlayerPokemonGen();
             EnemyPokemonGen();
-			Debug.Log("name1:" + playerStats.PokemonName + "name2:" + playerPokemonName1);
+			Debug.Log("name1:" + playerStats.PokemonName + "name2:" + playerPokemonName);
 			genPlayerAttacks();
             genEnemyAttacks();
 		}
@@ -96,9 +99,9 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
 	private void PlayerPokemonGen(){
         int id = playerStats.getPokemonID() -1;
-		playerAttackList1 = attackData.masterGetAttacks(id);
-        Debug.Log("Number of different player attacks: " + playerAttackList1.Count);
-	    generateRandomList(rndPlayerMovesIndex, playerAttackList1.Count);
+		playerAttackList = attackData.masterGetAttacks(id);
+        Debug.Log("Number of different player attacks: " + playerAttackList.Count);
+	    generateRandomList(rndPlayerMovesIndex, playerAttackList.Count);
 	}
 
     /// <summary>
@@ -107,9 +110,9 @@ public class GenerateAttacks : MonoBehaviour {
 	private void EnemyPokemonGen(){
         //Debug.Log(pcf.PokemonID);
         int id = enemyStats.PokemonID - 1;
-        enemyAttackList1 = attackData.masterGetAttacks(id);
-        Debug.Log("Number of different enemy attacks: " + enemyAttackList1.Count);
-        generateRandomList(rndEnemyMovesIndex,enemyAttackList1.Count);
+        enemyAttackList = attackData.masterGetAttacks(id);
+        Debug.Log("Number of different enemy attacks: " + enemyAttackList.Count);
+        generateRandomList(rndEnemyMovesIndex,enemyAttackList.Count);
 	}
 
     /// <summary>
@@ -162,7 +165,7 @@ public class GenerateAttacks : MonoBehaviour {
     /// </summary>
     private void genPlayerAttacks(){
 		bool goForward = attackData.completedDatabaseInitalization;
-		playerPokemonName1 = playerStats.PokemonName;
+		playerPokemonName = playerStats.PokemonName;
 		if(goForward == false){
 			Debug.Log("Nope");
 		}else{
@@ -191,11 +194,11 @@ public class GenerateAttacks : MonoBehaviour {
 		for (int i = 0; i < MOVES; i++){
             if (i < rndPlayerMovesIndex.Count)
             {
-                playerAttackName.Add(playerAttackList1[rndPlayerMovesIndex[i]].attack.name);
+                playerAttackName.Add(playerAttackList[rndPlayerMovesIndex[i]].attack.name);
             }
             else
             {
-                playerAttackName.Add(playerAttackList1[rndPlayerMovesIndex[0]].attack.name);
+                playerAttackName.Add(playerAttackList[rndPlayerMovesIndex[0]].attack.name);
             }
 		}
         attackDatabaseCompiled = true;
@@ -210,11 +213,11 @@ public class GenerateAttacks : MonoBehaviour {
         {
             if (i < rndEnemyMovesIndex.Count)
             {
-                enemyAttackName.Add(enemyAttackList1[rndEnemyMovesIndex[i]].attack.name);
+                enemyAttackName.Add(enemyAttackList[rndEnemyMovesIndex[i]].attack.name);
             }
             else
             {
-                enemyAttackName.Add(enemyAttackList1[rndEnemyMovesIndex[0]].attack.name);
+                enemyAttackName.Add(enemyAttackList[rndEnemyMovesIndex[0]].attack.name);
             }
         }
     }
