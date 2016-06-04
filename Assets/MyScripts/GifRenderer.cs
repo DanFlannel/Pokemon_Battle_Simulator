@@ -17,6 +17,12 @@ public class GifRenderer : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// This handles the string generation of the pokemon sprite based on direction it is facing, which generation ir belongs to, and its name
+    /// The sprite is then fetched from the resources folder and load it into the scene
+    /// </summary>
+    /// <param name="name">Pokemon's name</param>
+    /// <param name="id">Pokemon's ID</param>
     public void ChangeSprite(string name, int id)
     {
         //Debug.Log("called sprite render");
@@ -54,6 +60,11 @@ public class GifRenderer : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// This is to return the proper generation the pokemon were in based off their IDs
+    /// </summary>
+    /// <param name="id">Pokemon ID</param>
+    /// <returns></returns>
     private string checkGen(int id)
     {
         string gen = "";
@@ -84,6 +95,12 @@ public class GifRenderer : MonoBehaviour
         return gen;
     }
 
+    /// <summary>
+    /// This checks for special cases which the pokemon name doesn't match their sprite sheet and controller
+    /// This is for pokemon with special characters in their names
+    /// </summary>
+    /// <param name="name">Pokemon's nme</param>
+    /// <returns></returns>
     private string specialCases(string name)
     {
         string newName = "";
