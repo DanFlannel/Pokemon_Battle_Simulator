@@ -258,7 +258,7 @@ public class PokemonDamageMultipliers : MonoBehaviour {
 		master_list.Add(new pokemon_dmg_multipliers("Articuno", ice_flying));
 		master_list.Add(new pokemon_dmg_multipliers("Zapdos", electric_flying));
 		master_list.Add(new pokemon_dmg_multipliers("Moltres", fire_flying));
-		master_list.Add(new pokemon_dmg_multipliers("Drantini", dragon));
+		master_list.Add(new pokemon_dmg_multipliers("Dratini", dragon));
 		master_list.Add(new pokemon_dmg_multipliers("Dragonair", dragon));
 		master_list.Add(new pokemon_dmg_multipliers("Dragonite", dragon_flying));
 		master_list.Add(new pokemon_dmg_multipliers("Mewtwo", psychic));
