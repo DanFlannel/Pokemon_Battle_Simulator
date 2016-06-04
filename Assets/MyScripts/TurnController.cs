@@ -3,11 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 using System;
 
-public class TurnController : MonoBehaviour {
-
-    private float timerLength = 1f;
-    public float timeRemaining = 1f;
-
+public class TurnController : MonoBehaviour
+{
     [Header("Player")]
     public int PlayerHealth;
     public int PlayerDamage;
@@ -66,6 +63,7 @@ public class TurnController : MonoBehaviour {
     public int enemy_sleepDur = 0;
     private bool hasInitalized = false;
 
+    private int HelathBarChangeDuration = 1;
 
     private PlayerPokemonHandler playerStats;
     private EnemyPokemonHandler enemyStats;
@@ -73,10 +71,16 @@ public class TurnController : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
+        Init();
+    }
+
+    private void Init()
+    {
         Console.WriteLine("PK: Turn Controller: Initalizing");
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
-        if(enemyStats == null)
+        if (enemyStats == null)
         {
             Console.WriteLine("PK: Turn Controller: Enemy Stats Null");
         }
@@ -91,10 +95,13 @@ public class TurnController : MonoBehaviour {
             Console.WriteLine("PK: Turn Controller: gui Null");
         }
 
-        if (playerStats == null) Debug.Log("Cannot find PokemonCreatorBack");
+        if (playerStats == null)
+        {
+            Debug.Log("Cannot find PokemonCreatorBack");
+        }
     }
 
-    private void Init()
+    private void DelayInit()
     {
         if (!hasInitalized)
         {
@@ -105,18 +112,20 @@ public class TurnController : MonoBehaviour {
             Console.WriteLine("PK: Turn Controller Initalized");
         }
     }
-	
-	// Update is called once per frame
-	void Update () {
-        Init();
 
-	    if(PlayerDataComplete && EnemyDataComplete) //check these conditions so that we can run the attack calls
+    // Update is called once per frame
+    void Update()
+    {
+        DelayInit();
+
+        if (PlayerDataComplete && EnemyDataComplete) //check these conditions so that we can run the attack calls
         {
             checkSpeed();   //checks the speed to see who attacks first
             if (Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)    //player attacks first so we do this
             {
+                Debug.Log("Player is attacking first!");
                 //apply damage to enemy if there is any and check to make sure the enemy is alive still
-                damage_Player_to_Enemy();           
+                damage_Player_to_Enemy();
 
                 //then heal the player
                 healPlayer();
@@ -124,7 +133,6 @@ public class TurnController : MonoBehaviour {
                 //then apply damage effects to the player
                 damage_Player_Effects();
 
-                timeRemaining = timerLength;
 
                 //apply damage to player and check if the player is still alive
                 if (enemyStats.curHp > 0)   //checks to see that the enemy is still alive before the enemy attacks
@@ -143,17 +151,15 @@ public class TurnController : MonoBehaviour {
                     //the enemy died with tthis turn's attack
                 }
 
-                if(playerStats.curHp <= 0)
+                if (playerStats.curHp <= 0)
                 {
                     //the player died with this turn's attack
                 }
 
 
             }
-            else if(!Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)                      //enemy attacks first so we do this
+            else if (!Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)                      //enemy attacks first so we do this
             {
-                timeRemaining = timerLength;
-                StartCoroutine(Wait(1));
                 //apply damage to the player
                 damage_Enemy_to_Player();
                 gui.updateHealth();
@@ -163,10 +169,6 @@ public class TurnController : MonoBehaviour {
 
                 //take damage effects
                 damage_Player_Effects();
-
-                timeRemaining = timerLength;
-                StartCoroutine(Wait(1));
-
                 if (playerStats.curHp > 0)
                 {
                     //apply damage to the enemy
@@ -183,7 +185,7 @@ public class TurnController : MonoBehaviour {
                     //the player died with this turn's attack
                 }
 
-                if(enemyStats.curHp <= 0)
+                if (enemyStats.curHp <= 0)
                 {
                     //the enemy died with this turn's attack
                 }
@@ -191,11 +193,11 @@ public class TurnController : MonoBehaviour {
             PlayerDataComplete = false;
             EnemyDataComplete = false;
         }
-	}
+    }
 
     public void checkSpeed()
     {
-        if(playerStats.Speed >= enemyStats.Speed)
+        if (playerStats.Speed >= enemyStats.Speed)
         {
             Player_AttacksFirst = true;
             Enemy_AttacksFirst = false;
@@ -209,7 +211,7 @@ public class TurnController : MonoBehaviour {
 
     private void healPlayer()
     {
-        if(PlayerHeal <= 0)
+        if (PlayerHeal <= 0)
         {
             return;
         }
@@ -226,6 +228,7 @@ public class TurnController : MonoBehaviour {
 
     private void damage_Player_to_Enemy()
     {
+        Debug.Log("Player is doing move");
         if (PlayerDamage > 0)
         {
             enemyStats.curHp -= PlayerDamage;
@@ -236,6 +239,7 @@ public class TurnController : MonoBehaviour {
 
     private void damage_Enemy_to_Player()
     {
+        Debug.Log("Enemy is doing move");
         if (EnemyDamage > 0)
         {
             playerStats.curHp -= EnemyDamage;
@@ -243,7 +247,6 @@ public class TurnController : MonoBehaviour {
             changePlayerHealthBar();
 
         }
-
     }
 
     private void healEnemy()
@@ -260,27 +263,28 @@ public class TurnController : MonoBehaviour {
 
     private void damage_Enemy_Effects()
     {
-        if(!enemy_one_eigth && !enemy_one_sixteen)
+        if (!enemy_one_eigth && !enemy_one_sixteen)
         {
             return;
         }
+        Debug.Log("Enemy is taking after turn damage!");
         if (enemy_one_eigth)    //there is an effect that takes away 1/8th of the enemies health
         {
             //base case this is permanant
-            if(enemy_one_eigth_duration == -1)
+            if (enemy_one_eigth_duration == -1)
             {
             }
-            else if(enemy_one_eigth_duration > 0)
+            else if (enemy_one_eigth_duration > 0)
             {
                 enemy_one_eigth_duration--; //keep going down each turn based off inital damage
             }
-            else if(enemy_one_eigth_duration == 0)  //the effect will end after this turn is over
+            else if (enemy_one_eigth_duration == 0)  //the effect will end after this turn is over
             {
                 enemy_one_eigth = false;
             }
             float damage = (float)enemyStats.maxHP * (float)(1f / 8f);  //gets the exact value
             enemyStats.curHp -= Mathf.RoundToInt(damage);   //round the damage
-            changeEnemyHealthBar();       
+            changeEnemyHealthBar();
         }
         if (enemy_one_sixteen)  //there is an effect that is taking away 1/16th of the enemy's health
         {
@@ -310,6 +314,7 @@ public class TurnController : MonoBehaviour {
         {
             return;
         }
+        Debug.Log("Player is taking after turn damage!");
         if (player_one_eigth)    //there is an effect that takes away 1/8th of the enemies health
         {
             //base case this is permanant
@@ -352,15 +357,16 @@ public class TurnController : MonoBehaviour {
 
     private void changeEnemyHealthBar()
     {
-        float newValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;
-        enemyHealthBar.value = newValue;
-    }       //changes the health bar of the enemy
+        float newSliderValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;
+        StartCoroutine(AnimateSliderOverTime(1, enemyHealthBar, newSliderValue));
+    }
 
     private void changePlayerHealthBar()
-    {
-        float newValue = (float)playerStats.curHp / (float)playerStats.maxHP;
-        playerHealthBar.value = newValue;
-    }      //changes the health bar of the player
+    { 
+        //need to put in some logic that changes the health bar over time
+        float newSliderValue = (float)playerStats.curHp / (float)playerStats.maxHP;
+        StartCoroutine(AnimateSliderOverTime(1, playerHealthBar, newSliderValue));
+    }
 
     private bool checkDead()
     {
@@ -368,8 +374,10 @@ public class TurnController : MonoBehaviour {
         if (playerStats.curHp <= 0)
         {
             //the player is dead
-            isDead =  true;
-        }if(enemyStats.curHp <= 0) {
+            isDead = true;
+        }
+        if (enemyStats.curHp <= 0)
+        {
             //the ennemy is dead
             isDead = true;
         }
@@ -381,13 +389,57 @@ public class TurnController : MonoBehaviour {
         return isDead;
     }
 
-    private void timerControl()
+    /// <summary>
+    /// This enumerator lerps unity's sliders, in this case whatever health bar is passed in
+    /// </summary>
+    /// <param name="seconds">The amount of time to lerp the health bar</param>
+    /// <param name="slider">The health bar to lerp</param>
+    /// <param name="newValue">The new value of the slider to be changed to</param>
+    /// <returns></returns>
+    IEnumerator AnimateSliderOverTime(float seconds, Slider slider, float newValue)
     {
-        timeRemaining -= Time.deltaTime;
+        float animationTime = 0f;
+        while (animationTime < seconds)
+        {
+            animationTime += Time.deltaTime;
+            float lerpValue = animationTime / seconds;
+            float curValue = slider.value;
+            if(newValue < 0)
+            {
+                newValue = 0;
+            }
+            slider.value = Mathf.Lerp(curValue,newValue, lerpValue);
+            yield return null;
+        }
     }
 
-    IEnumerator Wait(float duration)
+
+    /*IEnumerator PlayerAttacksFirst()
     {
-        yield return new WaitForSeconds(duration);
-    }
+        damage_Player_to_Enemy();
+
+        //then heal the player
+        healPlayer();
+
+        //then apply damage effects to the player
+        damage_Player_Effects();
+
+
+        //apply damage to player and check if the player is still alive
+        if (enemyStats.curHp > 0)   //checks to see that the enemy is still alive before the enemy attacks
+        {
+            damage_Enemy_to_Player();
+            gui.updateHealth();
+
+            //then heal the enemy
+            healEnemy();
+
+            //then damage effects on the enemy
+            damage_Enemy_Effects();
+        }
+        else
+        {
+            Debug.Log("Enemy Died");
+        }
+    }*/
 }
