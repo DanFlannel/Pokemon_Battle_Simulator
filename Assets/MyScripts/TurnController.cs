@@ -3,6 +3,13 @@ using System.Collections;
 using UnityEngine.UI;
 using System;
 
+/// <summary>
+/// This class handles how the turn is played out. 
+/// It handles doing attack damage to both the enemy and player
+/// It has a queue that handles all of the different Ienumerations
+/// The IEnumerations are passed in to move the health bars and display
+/// the appropriate battle text
+/// </summary>
 public class TurnController : MonoBehaviour
 {
     [Header("Player")]
