@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using System;
-
+using CoroutineQueueHelper;
 /// <summary>
 /// This class handles how the turn is played out. 
 /// It handles doing attack damage to both the enemy and player
@@ -10,8 +10,11 @@ using System;
 /// The IEnumerations are passed in to move the health bars and display
 /// the appropriate battle text
 /// </summary>
-public class TurnController : MonoBehaviour
+public class TurnController : CoroutineQueueHelper.CoroutineList
 {
+    public CoroutineList c_Queue;
+    public bool EndOfTurn;
+
     [Header("Player")]
     public int PlayerHealth;
     public int PlayerDamage;
@@ -77,9 +80,12 @@ public class TurnController : MonoBehaviour
     private GUIScript gui;
 
 
+
+
     // Use this for initialization
     void Start()
     {
+        c_Queue = this.GetComponent<CoroutineList>();
         Init();
     }
 
@@ -125,80 +131,22 @@ public class TurnController : MonoBehaviour
     {
         DelayInit();
 
-        if (PlayerDataComplete && EnemyDataComplete) //check these conditions so that we can run the attack calls
+        EndOfTurn = c_Queue.isQueueRunning();
+        //If it is a new turn and the player and the enemy have both selected their respective moves
+        if (!EndOfTurn && PlayerDataComplete && EnemyDataComplete)
         {
             checkSpeed();   //checks the speed to see who attacks first
-            if (Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)    //player attacks first so we do this
+            if (Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)
             {
-                Debug.Log("Player is attacking first!");
-                //apply damage to enemy if there is any and check to make sure the enemy is alive still
-                damage_Player_to_Enemy();
-
-                //then heal the player
-                healPlayer();
-
-                //then apply damage effects to the player
-                damage_Player_Effects();
-
-
-                //apply damage to player and check if the player is still alive
-                if (enemyStats.curHp > 0)   //checks to see that the enemy is still alive before the enemy attacks
-                {
-                    damage_Enemy_to_Player();
-                    gui.updateHealth();
-
-                    //then heal the enemy
-                    healEnemy();
-
-                    //then damage effects on the enemy
-                    damage_Enemy_Effects();
-                }
-                else
-                {
-                    //the enemy died with tthis turn's attack
-                }
-
-                if (playerStats.curHp <= 0)
-                {
-                    //the player died with this turn's attack
-                }
-
-
+                PlayerAttacksFirst();
             }
-            else if (!Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)                      //enemy attacks first so we do this
+            else if (!Player_AttacksFirst && playerStats.curHp > 0 && enemyStats.curHp > 0)
             {
-                //apply damage to the player
-                damage_Enemy_to_Player();
-                gui.updateHealth();
-
-                //heal the enemy
-                healEnemy();
-
-                //take damage effects
-                damage_Player_Effects();
-                if (playerStats.curHp > 0)
-                {
-                    //apply damage to the enemy
-                    damage_Player_to_Enemy();
-
-                    //heal the player
-                    healPlayer();
-
-                    //enemy effects
-                    damage_Enemy_Effects();
-                }
-                else
-                {
-                    //the player died with this turn's attack
-                }
-
-                if (enemyStats.curHp <= 0)
-                {
-                    //the enemy died with this turn's attack
-                }
+                EnemyAttacksFrist();
             }
             PlayerDataComplete = false;
             EnemyDataComplete = false;
+            c_Queue.StartQueue();
         }
     }
 
@@ -231,6 +179,7 @@ public class TurnController : MonoBehaviour
         {
             playerStats.curHp += PlayerHeal;
         }
+        changePlayerHealthBar();
     }
 
     private void damage_Player_to_Enemy()
@@ -266,6 +215,7 @@ public class TurnController : MonoBehaviour
         {
             enemyStats.curHp += EnemyHeal;
         }
+        changeEnemyHealthBar();
     }
 
     private void damage_Enemy_Effects()
@@ -365,14 +315,14 @@ public class TurnController : MonoBehaviour
     private void changeEnemyHealthBar()
     {
         float newSliderValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;
-        StartCoroutine(AnimateSliderOverTime(1, enemyHealthBar, newSliderValue));
+        c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(1, enemyHealthBar, newSliderValue)));
     }
 
     private void changePlayerHealthBar()
     { 
         //need to put in some logic that changes the health bar over time
         float newSliderValue = (float)playerStats.curHp / (float)playerStats.maxHP;
-        StartCoroutine(AnimateSliderOverTime(1, playerHealthBar, newSliderValue));
+       c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(1, playerHealthBar, newSliderValue)));
     }
 
     private bool checkDead()
@@ -396,33 +346,10 @@ public class TurnController : MonoBehaviour
         return isDead;
     }
 
-    /// <summary>
-    /// This enumerator lerps unity's sliders, in this case whatever health bar is passed in
-    /// </summary>
-    /// <param name="seconds">The amount of time to lerp the health bar</param>
-    /// <param name="slider">The health bar to lerp</param>
-    /// <param name="newValue">The new value of the slider to be changed to</param>
-    /// <returns></returns>
-    IEnumerator AnimateSliderOverTime(float seconds, Slider slider, float newValue)
+    private void PlayerAttacksFirst()
     {
-        float animationTime = 0f;
-        while (animationTime < seconds)
-        {
-            animationTime += Time.deltaTime;
-            float lerpValue = animationTime / seconds;
-            float curValue = slider.value;
-            if(newValue < 0)
-            {
-                newValue = 0;
-            }
-            slider.value = Mathf.Lerp(curValue,newValue, lerpValue);
-            yield return null;
-        }
-    }
-
-
-    /*IEnumerator PlayerAttacksFirst()
-    {
+        Debug.Log("Player is attacking first!");
+        //apply damage to enemy if there is any and check to make sure the enemy is alive still
         damage_Player_to_Enemy();
 
         //then heal the player
@@ -446,7 +373,69 @@ public class TurnController : MonoBehaviour
         }
         else
         {
-            Debug.Log("Enemy Died");
+            //the enemy died with tthis turn's attack
         }
-    }*/
+
+        if (playerStats.curHp <= 0)
+        {
+            //the player died with this turn's attack
+        }
+
+
+    }
+
+    private void EnemyAttacksFrist()
+    {
+        //apply damage to the player
+        damage_Enemy_to_Player();
+        gui.updateHealth();
+        //heal the enemy
+        healEnemy();
+        //take end of turn damage effects
+        damage_Player_Effects();
+        if (playerStats.curHp > 0)
+        {
+            //apply damage to the enemy
+            damage_Player_to_Enemy();
+            //heal the player
+            healPlayer();
+            //enemy effects
+            damage_Enemy_Effects();
+        }
+        else
+        {
+            //the player died with this turn's attack
+        }
+
+        if (enemyStats.curHp <= 0)
+        {
+            //the enemy died with this turn's attack
+        }
+
+    }
+
+    /// <summary>
+    /// This enumerator lerps unity's sliders, in this case whatever health bar is passed in
+    /// </summary>
+    /// <param name="seconds">The amount of time to lerp the health bar</param>
+    /// <param name="slider">The health bar to lerp</param>
+    /// <param name="newValue">The new value of the slider to be changed to</param>
+    /// <returns></returns>
+    IEnumerator AnimateSliderOverTime(float seconds, Slider slider, float newValue)
+    {
+        Debug.Log("Animating Healthbar");
+        float animationTime = 0f;
+        while (animationTime < seconds)
+        {
+            animationTime += Time.deltaTime;
+            float lerpValue = animationTime / seconds;
+            float curValue = slider.value;
+            if(newValue < 0)
+            {
+                newValue = 0;
+            }
+            slider.value = Mathf.Lerp(curValue,newValue, lerpValue);
+            yield return null;
+        }
+    }
 }
