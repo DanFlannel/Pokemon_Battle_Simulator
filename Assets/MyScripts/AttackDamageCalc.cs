@@ -223,17 +223,17 @@ public class AttackDamageCalc : MonoBehaviour
 
         //Damage Calculations here
         final_damage = level_mod;
-        Debug.Log("Damage LEVEL MOD: " + "mod: " + level_mod + " Damage: " + final_damage);
+        //Debug.Log("Damage LEVEL MOD: " + "mod: " + level_mod + " Damage: " + final_damage);
         final_damage *= attack_mod;
-        Debug.Log("Damage * ATTACK MOD: " + "mod: " + attack_mod + " Damage: " + final_damage);
+        //Debug.Log("Damage * ATTACK MOD: " + "mod: " + attack_mod + " Damage: " + final_damage);
         final_damage *= att_div_defense;
-        Debug.Log("Damage * ATTACK/Defense: " + "mod: " + att_div_defense + " Damage: " + final_damage);
+        //Debug.Log("Damage * ATTACK/Defense: " + "mod: " + att_div_defense + " Damage: " + final_damage);
         final_damage /= 50;
-        Debug.Log("Damage /50" + " Damage: " + final_damage);
+        //Debug.Log("Damage /50" + " Damage: " + final_damage);
         final_damage += 2;
-        Debug.Log("Damage +2: " + " Damage: " + final_damage);
+        //Debug.Log("Damage +2: " + " Damage: " + final_damage);
         final_damage *= damage_mod;
-        Debug.Log("Damage * damage_Mod: " + "mod: " + damage_mod + " Damage: " + final_damage);
+        //Debug.Log("Damage * damage_Mod: " + "mod: " + damage_mod + " Damage: " + final_damage);
         final_damage = Mathf.Round(final_damage);
         return final_damage;
     }
@@ -313,7 +313,7 @@ public class AttackDamageCalc : MonoBehaviour
         modifier /= 5;
         modifier += 2;
 
-        Debug.Log("Level modifier: " + modifier);
+        //Debug.Log("Level modifier: " + modifier);
         return modifier;
     }
 

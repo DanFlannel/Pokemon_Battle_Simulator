@@ -561,7 +561,8 @@ public class Attack_Switch_Case : MonoBehaviour {
         }
         final_damage = predictedDamage;
         updateTurnController(isPlayer, name);
-        //Debug.Log("final heal = " + final_heal);
+        Debug.Log("Did a Physical Attack!");
+        Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
     }
 
@@ -721,7 +722,8 @@ public class Attack_Switch_Case : MonoBehaviour {
         }
         //Check for lightscreen to halve special attack damage
         final_damage = predictedDamage;
-        updateTurnController(isPlayer, name);        
+        updateTurnController(isPlayer, name);
+        Debug.Log("Did a Special Attack!");
         Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
     }

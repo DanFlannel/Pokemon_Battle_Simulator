@@ -4,33 +4,25 @@ using System.Collections.Generic;
 
 namespace CoroutineQueueHelper
 {
+    /// <summary>
+    /// This class was made in order to be able to run a set of Coroutines in a FIFO
+    /// manner. This class needs to be expanded to add states of the masterIEnumerator.
+    /// </summary>
     public class CoroutineList : MonoBehaviour
     {
         private List<IEnumerator> CoroutineQueue = new List<IEnumerator>();
-        private bool isRunning;
-        private bool isCoroutineRunning;
-        public int lengthOFQueue;
-
-        // Use this for initialization
-        public void CoroutineStart()
-        {
-            Init();
-        }
-
-        void Init()
-        {
-            isRunning = false;
-        }
+        private bool isRunning = false;
+        public int lengthOfQueue;
 
         public void StartQueue()
         {
-            lengthOFQueue = CoroutineQueue.Count;
-            StartCoroutine(masterEnumerator());
+            lengthOfQueue = CoroutineQueue.Count;
+            StartCoroutine(masterIEnumerator());
         }
 
         public void StopQueue()
         {
-            StopCoroutine(masterEnumerator());   
+            StopCoroutine(masterIEnumerator());   
         }
 
         public void AddCoroutineToQueue(IEnumerator addThis)
@@ -60,7 +52,7 @@ namespace CoroutineQueueHelper
             return isRunning;
         }
 
-        IEnumerator masterEnumerator()
+        IEnumerator masterIEnumerator()
         {
             isRunning = true;
             int i = 0;
