@@ -1,4 +1,4 @@
-﻿/*using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 using UnityEngine;
 using System.IO;
@@ -29,7 +29,9 @@ public class AnimatedGifDrawerFront : MonoBehaviour
     public bool isGif = false;
     public Sprite pokemonSprite;
 
-
+    /***************************
+    Private Variables
+    ****************************/
 
     //OnGUI variables for gif height and width
     private float width;
@@ -208,4 +210,4 @@ public class AnimatedGifDrawerFront : MonoBehaviour
         debugText.text = "Created Image";
         canOnGUI = true;
     }
-}*/
+}

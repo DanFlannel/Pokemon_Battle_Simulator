@@ -67,6 +67,8 @@ public class PlayerPokemonHandler : MonoBehaviour
     public int maxHP;
     private int GifID;
 
+    private bool hasloaded = false;
+
 
     // Use this for initialization
     void Start()

@@ -73,7 +73,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     public int enemy_sleepDur = 0;
     private bool hasInitalized = false;
 
-    private const float HealthBarChangeDuration = 1f;
+    private int HelathBarChangeDuration = 1;
 
     private PlayerPokemonHandler playerStats;
     private EnemyPokemonHandler enemyStats;
@@ -315,14 +315,14 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     private void changeEnemyHealthBar()
     {
         float newSliderValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;
-        c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(HealthBarChangeDuration, enemyHealthBar, newSliderValue)));
+        c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(1, enemyHealthBar, newSliderValue)));
     }
 
     private void changePlayerHealthBar()
     { 
         //need to put in some logic that changes the health bar over time
         float newSliderValue = (float)playerStats.curHp / (float)playerStats.maxHP;
-       c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(HealthBarChangeDuration, playerHealthBar, newSliderValue)));
+       c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(1, playerHealthBar, newSliderValue)));
     }
 
     private bool checkDead()

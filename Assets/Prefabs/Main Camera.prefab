@@ -200,6 +200,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6dba1dd25c1fc54083a28be397f9b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelName: 0
+  loadingbar: {fileID: 0}
+  progress: 0
 --- !u!114 &11450624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -219,12 +222,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 168206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae22840d71e4e8d4499030d872f9a672, type: 3}
+  m_Script: {fileID: 11500000, guid: 58ad72435cdeec444938e3ee2ab6b107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PokemonID: 0
   PokemonName: 
   Level: 0
+  HP: 0
   Attack: 0
   attack_Stage: 0
   Defense: 0
@@ -249,14 +252,13 @@ MonoBehaviour:
   isBurned: 0
   isFrozen: 0
   isFlying: 0
-  isParalized: 0
   cachedDamage: 0
+  sleepDuration: 0
+  confusedDuration: 0
   hasSubstitute: 0
   hasLightScreen: 0
   lightScreenDuration: 0
   substitueHP: 0
-  sleepDuration: 0
-  confusedDuration: 0
   cachedAttackName: 
   curHp: 0
   maxHP: 0
