@@ -98,7 +98,8 @@ public class GenerateAttacks : MonoBehaviour {
     /// Generates the random list of player attacks
     /// </summary>
 	private void PlayerPokemonGen(){
-        int id = playerStats.getPokemonID() -1;
+        int id = playerStats.PokemonID;
+        Debug.Log("Player Pokemon ID:" + id);
 		playerAttackList = attackData.masterGetAttacks(id);
         Debug.Log("Number of different player attacks: " + playerAttackList.Count);
 	    generateRandomList(rndPlayerMovesIndex, playerAttackList.Count);

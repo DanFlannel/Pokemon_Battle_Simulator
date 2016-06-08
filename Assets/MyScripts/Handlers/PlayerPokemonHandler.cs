@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerPokemonHandler : MonoBehaviour
 {
-
+    PokemonEntity testPokemon;
     private int levelBonus;
 
     public int PokemonID;
@@ -18,7 +18,6 @@ public class PlayerPokemonHandler : MonoBehaviour
     private bool CanEvolve;
 
     public int Level;
-    public int HP;
 
     public int Attack;
     public int attack_Stage = 0;
@@ -47,13 +46,17 @@ public class PlayerPokemonHandler : MonoBehaviour
     public bool isFrozen = false;
     public bool isFlying = false;
     public bool isParalized = false;
+
     public float cachedDamage = 0;
-    public int sleepDuration = 0;
-    public int confusedDuration = 0;
+
     public bool hasSubstitute = false;
     public bool hasLightScreen = false;
     public int lightScreenDuration = 0;
     public int substitueHP = 0;
+
+    public int sleepDuration = 0;
+    public int confusedDuration = 0;
+
     public string cachedAttackName;
 
     private PokemonLibrary pl;
@@ -86,18 +89,18 @@ public class PlayerPokemonHandler : MonoBehaviour
     {
         Level = 100;
         LoadPokemon(tempID, Level);
-        maxHP = HP;
-        curHp = maxHP;
+        CreatePokemonStruct();
+        DebugPokemonStruct();
        // Debug.Log("Scene has now loaded with Player: " + PokemonName);
     }
 
     private void LoadPokemon(int id, int level)
     {
-        GetPokemonBaseData(id);
-        StatsBasedOffLevel(level);
+        FetchPokemonStats(id);
+        GeneratePokemonStats(level);
     }
 
-    private void GetPokemonBaseData(int id)
+    private void FetchPokemonStats(int id)
     {
         PokemonName = pl.GetName(id);
         PokemonID = id;
@@ -116,7 +119,7 @@ public class PlayerPokemonHandler : MonoBehaviour
         Type2 = pl.GetType2(id);
     }
 
-    private void StatsBasedOffLevel(int Level)
+    private void GeneratePokemonStats(int Level)
     {
 
         //max hp = 2* base stat + 110
@@ -144,7 +147,8 @@ public class PlayerPokemonHandler : MonoBehaviour
 
         float hpBonus = (float)baseHP * hpLevelCalc;
         float hpLevelBonus = 110f * (float)Level / 100f;
-        HP = (int)hpBonus + (int)hpLevelBonus;
+        maxHP = (int)hpBonus + (int)hpLevelBonus;
+        curHp = maxHP;
     }
 
     public void updateStatStage(string type, float multiplier)
@@ -183,14 +187,17 @@ public class PlayerPokemonHandler : MonoBehaviour
         }
     }
 
-    public int getPokemonID()
+    private void CreatePokemonStruct()
     {
-        return PokemonID;
+        testPokemon = new PokemonEntity(PokemonName, PokemonID, Level, baseHP, baseAttack,
+            baseDefense, baseSpecial_Attack, baseSpecial_Defense, baseSpeed, Type1, Type2);
     }
 
-    public void setPokemonID(int id)
+    private void DebugPokemonStruct()
     {
-        PokemonID = id;
+        Debug.Log(string.Format("Name {0} ID {1} MaxHP {2} Attack {3} Defense {4} SP Attack {5}", 
+            testPokemon.Name, testPokemon.ID, testPokemon.maxHP, testPokemon.Attack,
+            testPokemon.Defense, testPokemon.Special_Attack));
     }
 
 }
