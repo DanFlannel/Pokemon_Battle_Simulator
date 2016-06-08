@@ -82,8 +82,11 @@ public class PokemonAttacks : MonoBehaviour
 	#endregion
 	
 	#region Types of attacks
+    [HideInInspector]
 	public string Physical = "Physical";
+    [HideInInspector]
 	public string Special = "Special";
+    [HideInInspector]
 	public string Status = "Status";
 
 	private const string Normal = "Normal";

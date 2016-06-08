@@ -57,7 +57,7 @@ public class AttackDamageCalc : MonoBehaviour
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
 
-        attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        attacks = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         attack_Switch_Case = GameObject.FindGameObjectWithTag("Attacks").GetComponent<Attack_Switch_Case>();
         damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();

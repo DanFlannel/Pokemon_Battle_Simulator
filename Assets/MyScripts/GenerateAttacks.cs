@@ -46,7 +46,7 @@ public class GenerateAttacks : MonoBehaviour {
         //Console.WriteLine("PK : Generate Attacks: Initalizing");
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
-        attackData = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        attackData = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
         adc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
         //Console.WriteLine("PK : Generate Attacks: Initalized");
         //Debug.Log("name1:" + pcb.PokemonName + "name2:" + playerPokemonName1);
@@ -198,6 +198,7 @@ public class GenerateAttacks : MonoBehaviour {
             }
             else
             {
+                Debug.Log("PLAYER: not enough attacks");
                 playerAttackName.Add(playerAttackList[rndPlayerMovesIndex[0]].attack.name);
             }
 		}
@@ -217,6 +218,7 @@ public class GenerateAttacks : MonoBehaviour {
             }
             else
             {
+                Debug.Log("ENEMY: not enough attacks");
                 enemyAttackName.Add(enemyAttackList[rndEnemyMovesIndex[0]].attack.name);
             }
         }

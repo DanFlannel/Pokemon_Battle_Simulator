@@ -36,7 +36,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
         attackCalc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
         genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
-        attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        attacks = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
         tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
 
         //Console.WriteLine("PK : Attack Switch Case: Initalized");
@@ -65,7 +65,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         {
             Console.WriteLine("PK: Attack Switch Case: genAttacks Null");
         }
-        attacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<PokemonAttacks>();
+        attacks = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
         if (attacks == null)
         {
             Console.WriteLine("PK: Attack Switch Case: Attacks Null");
@@ -559,11 +559,14 @@ public class Attack_Switch_Case : MonoBehaviour {
                 one_sixteenth_temp(isPlayer, rnd);
                 break;
         }
-        final_damage = predictedDamage;
-        updateTurnController(isPlayer, name);
+
         Debug.Log("Did a Physical Attack!");
         Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
+
+        final_damage = predictedDamage;
+        updateTurnController(isPlayer, name);
+
     }
 
     public void specialAttacks(string name, float predictedDamage, bool isPlayer)
@@ -721,11 +724,14 @@ public class Attack_Switch_Case : MonoBehaviour {
                 break;
         }
         //Check for lightscreen to halve special attack damage
-        final_damage = predictedDamage;
-        updateTurnController(isPlayer, name);
+
         Debug.Log("Did a Special Attack!");
         Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
+
+        final_damage = predictedDamage;
+        updateTurnController(isPlayer, name);
+
     }
 
     /// <summary>
