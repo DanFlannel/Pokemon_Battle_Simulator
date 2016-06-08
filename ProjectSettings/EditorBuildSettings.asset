@@ -16,6 +16,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Mobile/mobile_menu.unity
   - enabled: 1
-    path: Assets/Scene/Mobile/mobile_battle.unity
+    path: Assets/Scene/Mobile/mobile_rndbattle.unity
   - enabled: 1
     path: Assets/Scene/Mobile/mobile_credits.unity
