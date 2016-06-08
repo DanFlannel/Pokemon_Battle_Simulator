@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿/*using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
@@ -38,9 +38,6 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     private List<string> ImageDataBlocks = new List<string>();
 
 
-    /***************************
-        Public Variables
-    ****************************/
     private int curGifByteIndex;
     public float speed = 1;
     public float percentage;
@@ -55,9 +52,6 @@ public class AnimatedGifDrawerBack : MonoBehaviour
     private Vector2 positionPlaceHolder;
 
 
-    /***************************
-        Private Variables
-    ****************************/
     //OnGUI variables for gif height and width
     private float width;
     private float widthCalc;
@@ -246,7 +240,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
 
     }
     
-    /*/// <summary>
+    /// <summary>
     /// This method converts the read in byte arry to a System.Drawing.Bitmap
     /// </summary>
     /// <param name="data"> the byte array to be convereted</param>
@@ -259,9 +253,9 @@ public class AnimatedGifDrawerBack : MonoBehaviour
        //Debug.Log("Converted byteArray to bit map");
        return bmp;
 
-   }*/
+   }
 
-    /*
+    
     public void byteArrayToTexture2D(byte[] data)
     {
         int width = data[6];
@@ -270,7 +264,7 @@ public class AnimatedGifDrawerBack : MonoBehaviour
         Texture2D bmp = new Texture2D(width, height);
         bmp.LoadRawTextureData(data);
         myRawImage.texture = bmp;
-    }*/
+    }
 
     /// <summary>
     /// This handles loading all fo the data from the given url and converts it into a readable image type and then allows the OnGUI function to draw the gif
@@ -475,4 +469,4 @@ public class AnimatedGifDrawerBack : MonoBehaviour
             data = d;
         }
     }
-}
+}*/

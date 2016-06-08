@@ -42,6 +42,20 @@ public struct PokemonEntity
     public int
             sleepDuration, confusedDuration;
 
+    /// <summary>
+    /// our class initalizer that generates its final stats based on its base stats and level
+    /// </summary>
+    /// <param name="m_Name">Name of the pokemon to be generated</param>
+    /// <param name="m_ID">ID or Pokedex index of the pokemon</param>
+    /// <param name="m_Level">Level of the pokemon</param>
+    /// <param name="m_baseHP">Base HP of the pokemon</param>
+    /// <param name="m_baseAttack">Base attack of the pokemon</param>
+    /// <param name="m_baseDefense">Base defense of the pokemon</param>
+    /// <param name="m_baseSpAttack">Base special defense of the pokemon</param>
+    /// <param name="m_baseSpDef">Base special defense of the pokemon</param>
+    /// <param name="m_baseSpeed">Base speed of the pokemon</param>
+    /// <param name="m_Type1">Type 1 of the pokemon</param>
+    /// <param name="m_Type2">Type 2 of the pokemon</param>
     public PokemonEntity(string m_Name, int m_ID, int m_Level, int m_baseHP, int m_baseAttack, int m_baseDefense,
         int m_baseSpAttack, int m_baseSpDef, int m_baseSpeed, string m_Type1, string m_Type2)
     {
@@ -77,7 +91,7 @@ public struct PokemonEntity
     }
 
     /// <summary>
-    /// Generates all the inital stats for the pokemon
+    /// Generates all the inital stats for the pokemon based off the base stats and level
     /// </summary>
     /// <param name="Level">Takes in the Pokemon's level</param>
     private void GeneratePokemonStats(int Level)

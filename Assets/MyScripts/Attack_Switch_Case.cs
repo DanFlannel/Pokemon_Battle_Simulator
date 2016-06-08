@@ -1079,7 +1079,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         if (isPlayer)
         {
             tempList = genAttacks.get_playerAttackName();
-            //string tempName = tempList[0];
+            string tempName = tempList[0];
             int attack_index = attackCalc.getAttackListIndex(name);
             string attack_type = attacks.attackList[attack_index].type;
             playerStats.Type1 = attack_type;
@@ -1087,7 +1087,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         else
         {
             tempList = genAttacks.get_enemyAttackName();
-            //string tempName = tempList[0];
+            string tempName = tempList[0];
             int attack_index = attackCalc.getAttackListIndex(name);
             string attack_type = attacks.attackList[attack_index].type;
             playerStats.Type1 = attack_type;
