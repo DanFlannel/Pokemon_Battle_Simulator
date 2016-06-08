@@ -50,7 +50,6 @@ public class GUIScript : MonoBehaviour {
 
 		if(attackGen.attackDatabaseCompiled && !generatedAttacks){
             generatePokemonStats();
-            attackNames();
             Console.WriteLine("PK : GUIScript : Initalized");
         }
 	}
@@ -96,7 +95,8 @@ public class GUIScript : MonoBehaviour {
 		names();
 		level();
 		updateHealth();
-	}
+        attackNames();
+    }
 
     /// <summary>
     /// Gets the attack names from the randomly generated attack list

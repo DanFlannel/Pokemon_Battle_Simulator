@@ -12,6 +12,7 @@ TagManager:
   - BackImages
   - TurnController
   - dmg_mult
+  - AttackData
   layers:
   - Default
   - TransparentFX

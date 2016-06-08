@@ -59,7 +59,7 @@ public class PlayerPokemonHandler : MonoBehaviour
     private PokemonLibrary pl;
     private GifRenderer gif;
 
-    private int temp;
+    private int tempID;
     public int curHp;
     public int maxHP;
     private int GifID;
@@ -70,7 +70,7 @@ public class PlayerPokemonHandler : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        temp = Random.Range(0, 151);
+        tempID = Random.Range(0, 151);
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
         gif = this.GetComponent<GifRenderer>();
         Init();
@@ -84,12 +84,17 @@ public class PlayerPokemonHandler : MonoBehaviour
 
     private void Init()
     {
-        GetPokemonBaseData(temp);
-        StatsBasedOffLevel();
+        Level = 100;
+        LoadPokemon(tempID, Level);
         maxHP = HP;
         curHp = maxHP;
        // Debug.Log("Scene has now loaded with Player: " + PokemonName);
+    }
 
+    private void LoadPokemon(int id, int level)
+    {
+        GetPokemonBaseData(id);
+        StatsBasedOffLevel(level);
     }
 
     private void GetPokemonBaseData(int id)
@@ -111,14 +116,12 @@ public class PlayerPokemonHandler : MonoBehaviour
         Type2 = pl.GetType2(id);
     }
 
-    private void StatsBasedOffLevel()
+    private void StatsBasedOffLevel(int Level)
     {
 
         //max hp = 2* base stat + 110
         //max other stats = 1.79* stat + 5(levelBonus)
         //level bonus cannot exceed 5
-        Level = (int)Random.Range(70f, 100f) + 1;
-        Level = 100;
         levelBonus = Level / (int)(Random.Range(16f, 20f) + 1); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
 
         float hpLevelCalc = 1f + ((float)Level / 100);

@@ -2217,7 +2217,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d362b6090f86a746975003bb02812c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 1
+  lengthOfQueue: 0
+  c_Queue: {fileID: 0}
+  EndOfTurn: 0
   PlayerHealth: 0
   PlayerDamage: 0
   PlayerHeal: 0
@@ -2554,6 +2556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae22840d71e4e8d4499030d872f9a672, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PokemonID: 0
   PokemonName: 
   Level: 0
   HP: 0
@@ -2581,6 +2584,7 @@ MonoBehaviour:
   isBurned: 0
   isFrozen: 0
   isFlying: 0
+  isParalized: 0
   cachedDamage: 0
   sleepDuration: 0
   confusedDuration: 0
@@ -2675,12 +2679,11 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1643421012}
-  - 114: {fileID: 1643421013}
   - 114: {fileID: 1643421014}
   - 114: {fileID: 1643421015}
   - 114: {fileID: 1643421016}
   m_Layer: 0
-  m_Name: Attacks
+  m_Name: AttackCalc
   m_TagString: Attacks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2698,21 +2701,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 649311626}
   m_RootOrder: 1
---- !u!114 &1643421013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1643421011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54287aa5f4127714ca1611eaf0a632c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  completedDatabaseInitalization: 0
-  physical: Physical
-  special: Special
-  status: Status
 --- !u!114 &1643421014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2757,6 +2745,10 @@ MonoBehaviour:
   enemyAttack2: 
   enemyAttack3: 
   enemyAttack4: 
+  enemyType1: 
+  enemyType2: 
+  playerType1: 
+  playerType2: 
 --- !u!1 &1658109066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2808,9 +2800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6dba1dd25c1fc54083a28be397f9b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: 0
-  loadingbar: {fileID: 0}
-  progress: 0
 --- !u!114 &1768884907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3666,3 +3655,7 @@ MonoBehaviour:
   enemyAttack2: 
   enemyAttack3: 
   enemyAttack4: 
+  enemyType1: 
+  enemyType2: 
+  playerType1: 
+  playerType2: 
