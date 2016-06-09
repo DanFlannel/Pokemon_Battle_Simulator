@@ -1,9 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerPokemonHandler : MonoBehaviour
 {
     PokemonEntity testPokemon;
+    List<PokemonEntity> playerTeam = new List<PokemonEntity>();
+    public int curPlayerPokemonIndex;
+    public const int TEAMLENGTH = 6;
+
     private int levelBonus;
 
     public int PokemonID;
@@ -87,17 +92,16 @@ public class PlayerPokemonHandler : MonoBehaviour
 
     private void Init()
     {
-        Level = 100;
-        LoadPokemon(tempID, Level);
-        CreatePokemonStruct();
-        DebugPokemonStruct();
-       // Debug.Log("Scene has now loaded with Player: " + PokemonName);
-    }
-
-    private void LoadPokemon(int id, int level)
-    {
-        FetchPokemonStats(id);
-        GeneratePokemonStats(level);
+        for (int i = 0; i < TEAMLENGTH; i++)
+        {
+            Level = 100;
+            tempID = Random.Range(0, 151);
+            FetchPokemonStats(tempID);
+            CreatePokemonStruct();
+            DebugPokemonStruct();
+        }
+        OnChangePokemon(0);
+        // Debug.Log("Scene has now loaded with Player: " + PokemonName);
     }
 
     private void FetchPokemonStats(int id)
@@ -106,7 +110,7 @@ public class PlayerPokemonHandler : MonoBehaviour
         PokemonID = id;
         GifID = PokemonID + 1;
 
-        gif.ChangeSprite(PokemonName, GifID);
+        //gif.ChangeSprite(PokemonName, GifID);
 
         baseHP = pl.GetHP(id);
         baseAttack = pl.GetAttack(id);
@@ -191,13 +195,93 @@ public class PlayerPokemonHandler : MonoBehaviour
     {
         testPokemon = new PokemonEntity(PokemonName, PokemonID, Level, baseHP, baseAttack,
             baseDefense, baseSpecial_Attack, baseSpecial_Defense, baseSpeed, Type1, Type2);
+        playerTeam.Add(testPokemon);
     }
 
     private void DebugPokemonStruct()
     {
-        Debug.Log(string.Format("Name {0} ID {1} MaxHP {2} Attack {3} Defense {4} SP Attack {5}", 
+        Debug.Log(string.Format("Name {0} ID {1} MaxHP {2} Attack {3} Defense {4} SP Attack {5}",
             testPokemon.Name, testPokemon.ID, testPokemon.maxHP, testPokemon.Attack,
             testPokemon.Defense, testPokemon.Special_Attack));
+    }
+
+    /// <summary>
+    /// Changes the pokemon stats and attacks to the one that is currently out
+    /// </summary>
+    /// <param name="index">index number in the team</param>
+    private void OnChangePokemon(int index)
+    {
+        //update the stats first so that the ID and Name are right before calling
+        //to change the sprite
+        UpdateStats(playerTeam[index]);
+        GifID = PokemonID + 1;
+        gif.ChangeSprite(PokemonName, GifID);
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    private void UpdateStats(PokemonEntity pk)
+    {
+        PokemonID = pk.ID;
+        PokemonName = pk.Name;
+        Level = pk.Level;
+
+        curHp = pk.curHp;
+        maxHP = pk.maxHP;
+
+        Type1 = pk.Type1;
+        Type2 = pk.Type2;
+
+        //Ensure that we don't mess up the base stats here
+
+        Attack = pk.Attack;
+        Defense = pk.Defense;
+        Special_Attack = pk.Special_Attack;
+        Special_Defense = pk.Special_Defense;
+        Speed = pk.Speed;
+
+        attack_Stage = pk.attack_Stage;
+        defense_Stage = pk.defense_Stage;
+        spAttack_Stage = pk.spAttack_Stage;
+        spDefense_stage = pk.spDefense_stage;
+        speed_stage = pk.speed_stage;
+
+        isChargingAttack = false;
+        isUnderground = false;
+        //canAttack = true;
+        canBeAttacked = true;
+        hasAttacked = false;
+
+        isConfused = pk.isConfused;
+        isSleeping = pk.isSleeping;
+        isStunned = pk.isStunned;
+        isFlinched = false;
+        isBurned = pk.isBurned;
+        isFlying = false;
+        isParalized = pk.isParalized;
+
+        sleepDuration = pk.sleepDuration;
+        confusedDuration = pk.confusedDuration;
+    }
+
+    /// <summary>
+    /// Just a test case for swapping pokemon and making sure that they change 
+    /// the proper variables
+    /// </summary>
+    public void SwapPlayerPokemon()
+    {
+
+        if (curPlayerPokemonIndex < playerTeam.Count -1)
+        {
+            curPlayerPokemonIndex++;
+        }
+        else
+        {
+            curPlayerPokemonIndex = 0;
+        }
+
+        OnChangePokemon(curPlayerPokemonIndex);
     }
 
 }

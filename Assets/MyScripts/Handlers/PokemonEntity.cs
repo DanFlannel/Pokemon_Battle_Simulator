@@ -60,8 +60,8 @@ public struct PokemonEntity
     public bool isFrozen { get; set; }
     public bool isFlying { get; set; }
     public bool isParalized { get; set; }
-    public bool hasSubstitute { get; set; }
-    public bool hasLightScreen { get; set; }
+    //public bool hasSubstitute { get; set; }
+    //public bool hasLightScreen { get; set; }
 
     public float cachedDamage { get; set; }
 
@@ -93,8 +93,7 @@ public struct PokemonEntity
 
         isChargingAttack = isUnderground = canBeAttacked =
         isConfused = isSleeping = hasAttacked = isStunned = isFlinched =
-        isBurned = isFrozen = isFlying = isParalized = hasSubstitute =
-        hasLightScreen = false;
+        isBurned = isFrozen = isFlying = isParalized = false;
 
         cachedDamage = sleepDuration = confusedDuration = 0;
 
@@ -103,7 +102,7 @@ public struct PokemonEntity
         levelBonus = 0;
         maxHP = curHp = Attack = Defense = Special_Attack = Special_Defense = Speed = 0;
 
-        //GeneratePokemonStats(Level);
+        GeneratePokemonStats(Level);
     }
 
     /// <summary>
@@ -112,9 +111,9 @@ public struct PokemonEntity
     /// <param name="Level">Takes in the Pokemon's level</param>
     private void GeneratePokemonStats(int Level)
     {
-
+        Debug.LogWarning("Called Generate Pokemon Stats Level: " + Level);
         //max hp = 2* base stat + 110
-        //max other stats = 1.79* stat + 5(levelBonus)
+        //max other stats = 1.79 * stat + 5(levelBonus)
         //level bonus cannot exceed 5
         levelBonus = Level / (int)UnityEngine.Random.Range(16f, 20f); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
 
