@@ -100,22 +100,21 @@ public class AttackDamageCalc : MonoBehaviour
     {
         if (isPlayer)
         {
-            List<string> playerAttackName = genAttacks.get_playerAttackName();
             if (index == 1)
             {
-                attack_name = playerAttackName[0];
+                attack_name = playerStats.attack1;
             }
             if (index == 2)
             {
-                attack_name = playerAttackName[1];
+                attack_name = playerStats.attack2;
             }
             if (index == 3)
             {
-                attack_name = playerAttackName[2];
+                attack_name = playerStats.attack3;
             }
             if (index == 4)
             {
-                attack_name = playerAttackName[3];
+                attack_name = playerStats.attack4;
             }
         }
         else
@@ -160,7 +159,7 @@ public class AttackDamageCalc : MonoBehaviour
         {
             return;
         }
-        //Debug.Log("Attak Name: " + attack_name);
+        Debug.Log("Attack Name: " + attack_name);
         switch (attackCat)
         {
             case "Status":
