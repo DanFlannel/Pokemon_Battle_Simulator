@@ -13,34 +13,64 @@ public struct PokemonEntity
     //*****************************************************//
     //these are the only variables that can be passed in
     //in order to generate the rest of the stats for the pokemon
-    public int ID, Level;
 
-    public string Name;
 
-    public int
-        baseHP, baseAttack, baseDefense, baseSpecial_Attack,
-        baseSpecial_Defense, baseSpeed;
-    //******************************************************//
-    public int curHp, maxHP, levelBonus;
+    public int ID { get; private set; }
+    public string Name { get; private set; }
+    public int Level { get; private set; }
 
-    public int
-        Attack, attackStage, Defense, defenseStage,
-        Special_Attack, spAttack_stage, Special_Defense,
-        spDefense_stage, Speed, speed_stage;
+    //made these private to protect them
+    private int baseHP { get; set; }
+    private int baseAttack { get; set; }
+    private int baseDefense { get; set; }
+    private int baseSpecial_Attack { get; set; }
+    private int baseSpecial_Defense { get; set; }
+    private int baseSpeed { get; set; }
 
-    public string
-        Type1, Type2;
+    public string Type1 { get; private set; }
+    public string Type2 { get; private set; }
+    //*******************************************************//
 
-    public bool
-        isCharingAttack, isUnderground, canAttack, canBeAttacked,
-        isConfused, isSleepting, hasAttacked, isStunned, isFlinched,
-        isBurned, isFrozen, isFlying, isParalized, hasSubstitute,
-        hasLightScreen;
+    //private bool CanEvolve { get; set; }
+    private int levelBonus { get; set; }
 
-    public float cachedDamage;
+    //using properties to protect how these variables are set
+    public int Attack { get; private set; }
+    public int Defense { get; private set; }
+    public int Special_Attack { get; private set; }
+    public int Special_Defense { get; private set; }
+    public int Speed { get; private set; }
 
-    public int
-            sleepDuration, confusedDuration;
+    public int attack_Stage { get; set; }
+    public int defense_Stage { get; set; }
+    public int spAttack_Stage { get; set; }
+    public int spDefense_stage { get; set; }
+    public int speed_stage { get; set; }
+
+    public bool isChargingAttack { get; set; }
+    public bool isUnderground { get; set; }
+    public bool canAttack { get; set; }
+    public bool canBeAttacked { get; set; }
+    public bool isConfused { get; set; }
+    public bool isSleeping { get; set; }
+    public bool hasAttacked { get; set; }
+    public bool isStunned { get; set; }
+    public bool isFlinched { get; set; }
+    public bool isBurned { get; set; }
+    public bool isFrozen { get; set; }
+    public bool isFlying { get; set; }
+    public bool isParalized { get; set; }
+    public bool hasSubstitute { get; set; }
+    public bool hasLightScreen { get; set; }
+
+    public float cachedDamage { get; set; }
+
+    public int sleepDuration { get; set; }
+    public int confusedDuration { get; set; }
+
+
+    public int curHp { get; set; }
+    public int maxHP { get; private set; }
 
     public PokemonEntity(string m_Name, int m_ID, int m_Level, int m_baseHP, int m_baseAttack, int m_baseDefense,
         int m_baseSpAttack, int m_baseSpDef, int m_baseSpeed, string m_Type1, string m_Type2)
@@ -59,10 +89,10 @@ public struct PokemonEntity
         Type1 = m_Type1;
         Type2 = m_Type2;
 
-        attackStage = defenseStage = spAttack_stage = spDefense_stage = speed_stage = 0;
+        attack_Stage = defense_Stage = spAttack_Stage = spDefense_stage = speed_stage = 0;
 
-        isCharingAttack = isUnderground = canBeAttacked =
-        isConfused = isSleepting = hasAttacked = isStunned = isFlinched =
+        isChargingAttack = isUnderground = canBeAttacked =
+        isConfused = isSleeping = hasAttacked = isStunned = isFlinched =
         isBurned = isFrozen = isFlying = isParalized = hasSubstitute =
         hasLightScreen = false;
 
@@ -73,7 +103,7 @@ public struct PokemonEntity
         levelBonus = 0;
         maxHP = curHp = Attack = Defense = Special_Attack = Special_Defense = Speed = 0;
 
-        GeneratePokemonStats(Level);
+        //GeneratePokemonStats(Level);
     }
 
     /// <summary>
