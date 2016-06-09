@@ -43,8 +43,6 @@ public class GUIScript : MonoBehaviour {
 	
 	//** need to remove this
 	void Update () { 
-
-        //** get rid of this 
 		if(attackGen.attackDatabaseCompiled && !generatedAttacks){
             UpdatePlayerInfo();
             UpdateEnemyInfo();
@@ -71,12 +69,10 @@ public class GUIScript : MonoBehaviour {
     /// Gets the attack names from the randomly generated attack list
     /// </summary>
 	private void attackNames(){
-        List<string> playerAttackName = attackGen.get_playerAttackName();
-
-		playerAttack1.text = playerAttackName[0];
-		playerAttack2.text = playerAttackName[1];
-		playerAttack3.text = playerAttackName[2];
-		playerAttack4.text = playerAttackName[3];
+        playerAttack1.text = playerStats.attack1;
+        playerAttack2.text = playerStats.attack2;
+        playerAttack3.text = playerStats.attack3;
+        playerAttack4.text = playerStats.attack4;
 		generatedAttacks = true;
 	}
 

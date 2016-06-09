@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
-
+//MIGHT DELETE THIS CLASS!
 /// <summary>
 /// This class generated the attacks for the player, as shown in th GUI. It fetches the attack data for the pokemon 
 /// in the PokemonAttacks script and then picks 4 attacks from the list of attacks the specified pokemon can use and
@@ -54,7 +54,7 @@ public class GenerateAttacks : MonoBehaviour {
     }
 
 
-	// Update is called once per frame
+	// ** need to delete this
 	void Update () {
         //checkInitalGen();
         if (attackData.completedDatabaseInitalization && !attacksGenerated)
@@ -68,31 +68,6 @@ public class GenerateAttacks : MonoBehaviour {
             attacksGenerated = true;
         }
     }
-
-    /// <summary>
-    /// Checks to make sure that the inital Gen of the pokemon attack list went through, if not it calls the
-    /// generation of the attacks again.
-    /// </summary>
-	private void checkInitalGen(){
-        
-        if (playerStats.PokemonName != playerPokemonName){
-            PlayerPokemonGen();
-            EnemyPokemonGen();
-			Debug.Log("name1:" + playerStats.PokemonName + "name2:" + playerPokemonName);
-			genPlayerAttacks();
-            genEnemyAttacks();
-		}
-	}
-
-    /// <summary>
-    /// A simple debug function that debugs all the attacks each pokemon can use
-    /// </summary>
-	private void debugList(){
-		for(int i = 0; i < MOVES; i++){
-			Debug.Log("Front" + rndEnemyMovesIndex[i]);
-			Debug.Log("Back" + rndPlayerMovesIndex[i]);
-		}
-	}
 
     /// <summary>
     /// Generates the random list of player attacks
@@ -145,7 +120,6 @@ public class GenerateAttacks : MonoBehaviour {
             int totalMoves = 0;
             for(int i = 0; i < MOVES; i++)
             {
-                
                 if (i <= totalPossibleMoves)
                 {
                     numToAdd = i;
@@ -178,15 +152,6 @@ public class GenerateAttacks : MonoBehaviour {
             adc.playerAttack4 = playerAttackName[3];
         }
     }
-
-    /// <summary>
-    /// Simple check of the generated attack list.
-    /// </summary>
-	private void checkList(List<attackIndex> list){
-		for(int i = 0; i < list.Count; i++){
-			//Debug.Log(list[i].attack.name);
-		}
-	}
 
     /// <summary>
     /// the moves is always 4, 

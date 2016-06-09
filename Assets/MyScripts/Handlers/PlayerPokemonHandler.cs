@@ -6,13 +6,15 @@ public class PlayerPokemonHandler : MonoBehaviour
 {
     PokemonEntity testPokemon;
     List<PokemonEntity> playerTeam = new List<PokemonEntity>();
-    public int curPlayerPokemonIndex;
-    public const int TEAMLENGTH = 6;
-
-    private int levelBonus;
+    private int curPlayerPokemonIndex;
+    private const int TEAMLENGTH = 6;
 
     public int PokemonID;
     public string PokemonName;
+    public string attack1;
+    public string attack2;
+    public string attack3;
+    public string attack4;
 
     private int baseHP;
     private int baseAttack;
@@ -20,7 +22,9 @@ public class PlayerPokemonHandler : MonoBehaviour
     private int baseSpecial_Attack;
     private int baseSpecial_Defense;
     private int baseSpeed;
-    private bool CanEvolve;
+    private int levelBonus;
+
+    private bool CanEvolve; //not sure the use of this but its there
 
     public int Level;
 
@@ -67,6 +71,7 @@ public class PlayerPokemonHandler : MonoBehaviour
     private PokemonLibrary pl;
     private GifRenderer gif;
     private GUIScript gui;
+    private PokemonAttacks attackData;
 
     private int tempID;
     public int curHp;
@@ -80,6 +85,7 @@ public class PlayerPokemonHandler : MonoBehaviour
     void Start()
     {
         tempID = Random.Range(0, 151);
+        attackData = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
         gif = this.GetComponent<GifRenderer>();
         gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
@@ -125,38 +131,6 @@ public class PlayerPokemonHandler : MonoBehaviour
         Type2 = pl.GetType2(id);
     }
 
-    private void GeneratePokemonStats(int Level)
-    {
-
-        //max hp = 2* base stat + 110
-        //max other stats = 1.79* stat + 5(levelBonus)
-        //level bonus cannot exceed 5
-        levelBonus = Level / (int)(Random.Range(16f, 20f) + 1); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
-
-        float hpLevelCalc = 1f + ((float)Level / 100);
-        float levelCalc = .79f + ((float)Level / 100);
-
-        float attackCalc = (float)baseAttack * levelCalc;
-        Attack = (int)attackCalc + levelBonus;
-
-        float defenseCalc = (float)baseDefense * levelCalc;
-        Defense = (int)defenseCalc + levelBonus;
-
-        float spaBonus = (float)baseSpecial_Attack * levelCalc;
-        Special_Attack = (int)spaBonus + levelBonus;
-
-        float spdBonus = (float)baseSpecial_Defense * levelCalc;
-        Special_Defense = (int)spdBonus + levelBonus;
-
-        float spBonus = (float)baseSpeed * levelCalc;
-        Speed = (int)spBonus + levelBonus;
-
-        float hpBonus = (float)baseHP * hpLevelCalc;
-        float hpLevelBonus = 110f * (float)Level / 100f;
-        maxHP = (int)hpBonus + (int)hpLevelBonus;
-        curHp = maxHP;
-    }
-
     public void updateStatStage(string type, float multiplier)
     {
         float levelCalc = .79f + ((float)Level / 100);
@@ -196,7 +170,8 @@ public class PlayerPokemonHandler : MonoBehaviour
     private void CreatePokemonStruct()
     {
         testPokemon = new PokemonEntity(PokemonName, PokemonID, Level, baseHP, baseAttack,
-            baseDefense, baseSpecial_Attack, baseSpecial_Defense, baseSpeed, Type1, Type2);
+            baseDefense, baseSpecial_Attack, baseSpecial_Defense, baseSpeed, Type1, Type2,
+            attackData.masterGetAttacks(PokemonID));
         playerTeam.Add(testPokemon);
     }
 
@@ -205,6 +180,8 @@ public class PlayerPokemonHandler : MonoBehaviour
         Debug.Log(string.Format("Name {0} ID {1} MaxHP {2} Attack {3} Defense {4} SP Attack {5}",
             testPokemon.Name, testPokemon.ID, testPokemon.maxHP, testPokemon.Attack,
             testPokemon.Defense, testPokemon.Special_Attack));
+        Debug.Log(string.Format("Attack 1: {0} Attack 2: {1} Attack 3: {2} Attack 4: {3}",
+            testPokemon.Attack1, testPokemon.Attack2, testPokemon.Attack3, testPokemon.Attack4));
     }
 
     /// <summary>
@@ -235,6 +212,11 @@ public class PlayerPokemonHandler : MonoBehaviour
 
         Type1 = pk.Type1;
         Type2 = pk.Type2;
+
+        attack1 = pk.Attack1;
+        attack2 = pk.Attack2;
+        attack3 = pk.Attack3;
+        attack4 = pk.Attack4;
 
         //Ensure that we don't mess up the base stats here
 

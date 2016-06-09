@@ -58,7 +58,7 @@ namespace CoroutineQueueHelper
             int i = 0;
             while(i < CoroutineQueue.Count && isRunning)
             {
-                Debug.Log("Doing IEnum index: " + i);
+                //Debug.Log("Doing IEnum index: " + i);
                 IEnumerator temp = CoroutineQueue[i];
                 while (temp.MoveNext())
                 {
