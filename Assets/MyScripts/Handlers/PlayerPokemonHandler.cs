@@ -66,6 +66,7 @@ public class PlayerPokemonHandler : MonoBehaviour
 
     private PokemonLibrary pl;
     private GifRenderer gif;
+    private GUIScript gui;
 
     private int tempID;
     public int curHp;
@@ -81,6 +82,7 @@ public class PlayerPokemonHandler : MonoBehaviour
         tempID = Random.Range(0, 151);
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
         gif = this.GetComponent<GifRenderer>();
+        gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
         Init();
     }
 
@@ -216,6 +218,7 @@ public class PlayerPokemonHandler : MonoBehaviour
         UpdateStats(playerTeam[index]);
         GifID = PokemonID + 1;
         gif.ChangeSprite(PokemonName, GifID);
+        gui.UpdatePlayerInfo();
     }
 
     /// <summary>

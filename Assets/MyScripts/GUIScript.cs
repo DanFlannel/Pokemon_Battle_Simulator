@@ -7,22 +7,18 @@ using System;
 
 public class GUIScript : MonoBehaviour {
 
-	private string bottomName;
-	private string topName;
-	public Text bottomNameText;
-	public Text topNameText;
+	public Text playerPokemonName;
+	public Text EnemyPokemonName;
 
-	private int bottomLevel;
-	private int topLevel;
-	public Text bottomLevelText;
-	public Text topLevelText;
+	public Text playerPokemonLevel;
+	public Text enemyPokemonLevel;
 
-	public Text bottomHealth;
+	public Text playerHealth;
 	private int curHealth;
 	private int maxHealth;
 
-	private PlayerPokemonHandler pcb;
-	private EnemyPokemonHandler pcf;
+	private PlayerPokemonHandler playerStats;
+	private EnemyPokemonHandler enemyStats;
 	private GenerateAttacks attackGen;
 
 	public Text move1;
@@ -40,63 +36,36 @@ public class GUIScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Console.WriteLine("PK : GUIScript : Initalizing");
-        pcb = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
-		pcf = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
+		enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
 		attackGen = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
     }	
 	
-	// Update is called once per frame
+	//** need to remove this
 	void Update () { 
 
+        //** get rid of this 
 		if(attackGen.attackDatabaseCompiled && !generatedAttacks){
-            generatePokemonStats();
+            UpdatePlayerInfo();
+            UpdateEnemyInfo();
             Console.WriteLine("PK : GUIScript : Initalized");
         }
-	}
-
-    /// <summary>
-    /// Gets the Pokemon's name and displays it on the GUI
-    /// </summary>
-	private void names(){
-		bottomName = pcb.PokemonName;
-		topName = pcf.PokemonName;
-
-		bottomNameText.text = bottomName;
-		topNameText.text = topName;
-	}
-
-    /// <summary>
-    /// Gets the Pokemon's level and displays it on the GUI
-    /// </summary>
-	private void level(){
-		bottomLevel = pcb.Level;
-		topLevel = pcf.Level;
-        //Debug.logger.Log("enemy level: " + topLevel);
-
-		bottomLevelText.text = "Lv"+bottomLevel.ToString();
-		topLevelText.text = "Lv"+topLevel.ToString();
 	}
 
     /// <summary>
     /// Gets the Pokemon's health and displays it on the GUI
     /// </summary>
 	public void updateHealth(){
-		maxHealth = pcb.maxHP;
-		curHealth = pcb.curHp;
-        if (curHealth < 0)
-            curHealth = 0;
-		bottomHealth.text = curHealth + " / " + maxHealth;
-	}
+        curHealth = playerStats.curHp;
+        maxHealth = playerStats.maxHP;
 
-    /// <summary>
-    /// Function to generate all the attack stats
-    /// </summary>
-	private void generatePokemonStats(){
-		names();
-		level();
-		updateHealth();
-        attackNames();
-    }
+        if (curHealth < 0)
+        {
+            curHealth = 0;
+        }
+
+		playerHealth.text = curHealth + " / " + maxHealth;
+	}
 
     /// <summary>
     /// Gets the attack names from the randomly generated attack list
@@ -117,6 +86,21 @@ public class GUIScript : MonoBehaviour {
     public void main_menu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void UpdatePlayerInfo()
+    {
+        attackNames();
+        playerPokemonLevel.text = playerStats.Level.ToString();
+        playerPokemonName.text = playerStats.PokemonName.ToString();
+        updateHealth();
+
+    }
+
+    public void UpdateEnemyInfo()
+    {
+        enemyPokemonLevel.text = enemyStats.Level.ToString();
+        EnemyPokemonName.text = enemyStats.PokemonName.ToString();
     }
 
 

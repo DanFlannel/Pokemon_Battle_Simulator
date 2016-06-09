@@ -2508,11 +2508,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8f9ba11911b35f459b99d0d1ece881f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bottomNameText: {fileID: 1066501905}
-  topNameText: {fileID: 914674428}
-  bottomLevelText: {fileID: 192327835}
-  topLevelText: {fileID: 1782099791}
-  bottomHealth: {fileID: 1967676734}
+  playerPokemonName: {fileID: 1066501905}
+  EnemyPokemonName: {fileID: 914674428}
+  playerPokemonLevel: {fileID: 192327835}
+  enemyPokemonLevel: {fileID: 1782099791}
+  playerHealth: {fileID: 1967676734}
   move1: {fileID: 1073198969}
   type1: {fileID: 0}
   type2: {fileID: 0}

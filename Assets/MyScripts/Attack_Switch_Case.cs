@@ -1075,10 +1075,10 @@ public class Attack_Switch_Case : MonoBehaviour {
 
     private void conversion(bool isPlayer, string name)
     {
-        List<string> tempList = new List<string>();
+        //List<string> tempList = new List<string>();
         if (isPlayer)
         {
-            tempList = genAttacks.get_playerAttackName();
+            //tempList = genAttacks.get_playerAttackName();
             //string tempName = tempList[0];
             int attack_index = attackCalc.getAttackListIndex(name);
             string attack_type = attacks.attackList[attack_index].type;
@@ -1086,7 +1086,7 @@ public class Attack_Switch_Case : MonoBehaviour {
         }
         else
         {
-            tempList = genAttacks.get_enemyAttackName();
+            //tempList = genAttacks.get_enemyAttackName();
             //string tempName = tempList[0];
             int attack_index = attackCalc.getAttackListIndex(name);
             string attack_type = attacks.attackList[attack_index].type;
