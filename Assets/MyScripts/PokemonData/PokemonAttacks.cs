@@ -281,17 +281,20 @@ public class PokemonAttacks : MonoBehaviour
 	#endregion
 
 	void Awake(){
-        Console.WriteLine("PK : Attack Data: Initalizing");
-		attackLibrary ();
-		TMLibrary();
-		HMLibrary();
-		init1_24();
-		init25_52();
-		init53_76();
-		init77_101();
-		init102_126();
-		init127_151();
-        Console.WriteLine("PK : Attack Data: Initalized");
+        if (!completedDatabaseInitalization)
+        {
+            Console.WriteLine("PK : Attack Data: Initalizing");
+            attackLibrary();
+            TMLibrary();
+            HMLibrary();
+            init1_24();
+            init25_52();
+            init53_76();
+            init77_101();
+            init102_126();
+            init127_151();
+            Console.WriteLine("PK : Attack Data: Initalized");
+        }
     }
 	// Use this for initialization
 	void Start ()
@@ -1869,9 +1872,9 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {MegaPunch,MegaKick, Toxic,BodySlam, TakeDown, DoubleEdge,HyperBeam, Submission,Counter,SeismicToss, 
 			Rage,Earthquake,Fissure,Dig,Mimic, DoubleTeam, Bide,Metronome,FireBlast, SkullBash, Rest, RockSlide,
 			Substitute};
-		searchTMList(MachokeAttacks, tm);
+		searchTMList(MachampAttacks, tm);
 		int[] hm = {Strength};
-		searchHMList(MachokeAttacks,hm);
+		searchHMList(MachampAttacks,hm);
 		master_attack_list.Add(new masterAttackList("Machamp", MachampAttacks));
 	}
 	
@@ -2425,22 +2428,23 @@ public class PokemonAttacks : MonoBehaviour
 		int[] hm = {Flash};
 		searchHMList(VoltorbAttacks, hm);
 		master_attack_list.Add(new masterAttackList("Voltorb", VoltorbAttacks));
+        Debug.LogWarning("Voltorb attack total: " + VoltorbAttacks.Count);
 	}
 
 	private void Electrode(){
-		VoltorbAttacks.Add (new attackIndex (searchAttackList ("Screech"), 1));
-		VoltorbAttacks.Add (new attackIndex (searchAttackList ("Tackle"),1));
-		VoltorbAttacks.Add (new attackIndex (searchAttackList ("Sonic Boom"),1));
-		VoltorbAttacks.Add (new attackIndex (searchAttackList ("Self Destruct"),22));
-		VoltorbAttacks.Add (new attackIndex (searchAttackList ("Light Screen"),29));
-		VoltorbAttacks.Add (new attackIndex (searchAttackList ("Swift"),40));
-		VoltorbAttacks.Add (new attackIndex (searchAttackList ("Explosion"),50));
+		ElectrodeAttacks.Add (new attackIndex (searchAttackList ("Screech"), 1));
+        ElectrodeAttacks.Add (new attackIndex (searchAttackList ("Tackle"),1));
+        ElectrodeAttacks.Add (new attackIndex (searchAttackList ("Sonic Boom"),1));
+        ElectrodeAttacks.Add (new attackIndex (searchAttackList ("Self Destruct"),22));
+        ElectrodeAttacks.Add (new attackIndex (searchAttackList ("Light Screen"),29));
+        ElectrodeAttacks.Add (new attackIndex (searchAttackList ("Swift"),40));
+        ElectrodeAttacks.Add (new attackIndex (searchAttackList ("Explosion"),50));
 		
 		int[] tm = {Toxic,TakeDown,HyperBeam,Rage,ThunderBolt,Thunder,Mimic,DoubleTeam,Reflect,Bide,SelfDestruct,Swift,
 			SkullBash,Rest,ThunderWave,Explosion, Substitute};
-		searchTMList(VoltorbAttacks, tm);
+		searchTMList(ElectrodeAttacks, tm);
 		int[] hm = {Flash};
-		searchHMList(VoltorbAttacks, hm);
+		searchHMList(ElectrodeAttacks, hm);
 		master_attack_list.Add(new masterAttackList("Electrode", ElectrodeAttacks));
 	}
 	#endregion
@@ -3293,8 +3297,20 @@ public class PokemonAttacks : MonoBehaviour
 		return attackList [0];
 	}
 	
+    /// <summary>
+    /// This will need changing if another generation is added....
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
 	public List<attackIndex> masterGetAttacks(int id){
-		return master_attack_list[id].attackIndex;
+        try { 
+            return master_attack_list[id].attackIndex;
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error fetching attacks: " + e.Message);
+            return master_attack_list[0].attackIndex;
+        }
 	}
 
 	public string masterGetName(int id){
