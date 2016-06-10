@@ -1859,12 +1859,12 @@ public class PokemonAttacks : MonoBehaviour
 	
 	private void Machamp ()
 	{
-		MachokeAttacks.Add (new attackIndex (searchAttackList ("Karate Chop"), 1));
-		MachokeAttacks.Add (new attackIndex (searchAttackList ("Low Kick"), 1));
-		MachokeAttacks.Add (new attackIndex (searchAttackList ("Leer"), 1));
-		MachokeAttacks.Add (new attackIndex (searchAttackList ("Focus Energy"), 36));
-		MachokeAttacks.Add (new attackIndex (searchAttackList ("Seismic Toss"), 44));
-		MachokeAttacks.Add (new attackIndex (searchAttackList ("Submission"), 52));
+		MachampAttacks.Add (new attackIndex (searchAttackList ("Karate Chop"), 1));
+		MachampAttacks.Add (new attackIndex (searchAttackList ("Low Kick"), 1));
+		MachampAttacks.Add (new attackIndex (searchAttackList ("Leer"), 1));
+		MachampAttacks.Add (new attackIndex (searchAttackList ("Focus Energy"), 36));
+		MachampAttacks.Add (new attackIndex (searchAttackList ("Seismic Toss"), 44));
+		MachampAttacks.Add (new attackIndex (searchAttackList ("Submission"), 52));
 		
 		int[] tm = {MegaPunch,MegaKick, Toxic,BodySlam, TakeDown, DoubleEdge,HyperBeam, Submission,Counter,SeismicToss, 
 			Rage,Earthquake,Fissure,Dig,Mimic, DoubleTeam, Bide,Metronome,FireBlast, SkullBash, Rest, RockSlide,
