@@ -8,7 +8,7 @@ using System;
 public class GUIScript : MonoBehaviour {
 
 	public Text playerPokemonName;
-	public Text EnemyPokemonName;
+	public Text enemyPokemonName;
 
 	public Text playerPokemonLevel;
 	public Text enemyPokemonLevel;
@@ -21,7 +21,6 @@ public class GUIScript : MonoBehaviour {
 	private EnemyPokemonHandler enemyStats;
 	private GenerateAttacks attackGen;
 
-	public Text move1;
 	public Image type1;
 	public Image type2;
 	public Sprite[] types;
@@ -41,19 +40,19 @@ public class GUIScript : MonoBehaviour {
 		attackGen = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
     }	
 	
-	//** need to remove this
+	/*//** need to remove this
 	void Update () { 
 		if(attackGen.attackDatabaseCompiled && !generatedAttacks){
             UpdatePlayerInfo();
             UpdateEnemyInfo();
             Console.WriteLine("PK : GUIScript : Initalized");
         }
-	}
+	}*/
 
     /// <summary>
     /// Gets the Pokemon's health and displays it on the GUI
     /// </summary>
-	public void updateHealth(){
+	public void updatePlayerHealth(){
         curHealth = playerStats.curHp;
         maxHealth = playerStats.maxHP;
 
@@ -89,14 +88,14 @@ public class GUIScript : MonoBehaviour {
         attackNames();
         playerPokemonLevel.text = playerStats.Level.ToString();
         playerPokemonName.text = playerStats.PokemonName.ToString();
-        updateHealth();
+        updatePlayerHealth();
 
     }
 
     public void UpdateEnemyInfo()
     {
+        enemyPokemonName.text = enemyStats.PokemonName.ToString();
         enemyPokemonLevel.text = enemyStats.Level.ToString();
-        EnemyPokemonName.text = enemyStats.PokemonName.ToString();
     }
 
 

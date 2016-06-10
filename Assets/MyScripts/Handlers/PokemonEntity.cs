@@ -109,8 +109,6 @@ public struct PokemonEntity
 
         levelBonus = 0;
 
-
-
         //need to set these to something before updaing them
         Attack1 = Attack2 = Attack3 = Attack4 = "";
         maxHP = curHp = Attack = Defense = Special_Attack = Special_Defense = Speed = 0;
@@ -125,7 +123,7 @@ public struct PokemonEntity
     /// <param name="Level">Takes in the Pokemon's level</param>
     private void generatePokemonStats(int Level)
     {
-        Debug.LogWarning("Called Generate Pokemon Stats Level: " + Level);
+        //Debug.LogWarning("Called Generate Pokemon Stats Level: " + Level);
         //max hp = 2* base stat + 110
         //max other stats = 1.79 * stat + 5(levelBonus)
         //level bonus cannot exceed 5
@@ -168,7 +166,7 @@ public struct PokemonEntity
         //this is supposed to be a const
         int MOVES = 4;
 
-        Debug.Log("Range: " + totalPossibleMoves);
+        //Debug.Log("Range: " + totalPossibleMoves);
         //Debug.Log("List Cout: " + list.Count);
         int numToAdd = -1;
         //if the pokemon has more than 4 moves that it can learn, then we pick from those randomly
@@ -203,7 +201,7 @@ public struct PokemonEntity
                 rndNumberList.Add(numToAdd);
             }
         }
-        Debug.Log("Generated Attack List");
+        Debug.Log("Generated Attack List: " + rndNumberList.Count);
         return rndNumberList;
     }
 

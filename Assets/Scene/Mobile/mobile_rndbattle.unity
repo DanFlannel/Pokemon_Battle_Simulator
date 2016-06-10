@@ -797,6 +797,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba6009b082ca514f960eb54de0c248f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curEnemyPokemonIndex: 0
+  attack1: 
+  attack2: 
+  attack3: 
+  attack4: 
+  Level: 0
 --- !u!1 &347085799
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,11 +2515,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPokemonName: {fileID: 1066501905}
-  EnemyPokemonName: {fileID: 914674428}
+  enemyPokemonName: {fileID: 914674428}
   playerPokemonLevel: {fileID: 192327835}
   enemyPokemonLevel: {fileID: 1782099791}
   playerHealth: {fileID: 1967676734}
-  move1: {fileID: 1073198969}
   type1: {fileID: 0}
   type2: {fileID: 0}
   types:
@@ -2758,9 +2763,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae22840d71e4e8d4499030d872f9a672, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curPlayerPokemonIndex: 0
   PokemonID: 0
   PokemonName: 
+  attack1: 
+  attack2: 
+  attack3: 
+  attack4: 
   Level: 0
   Attack: 0
   attack_Stage: 0
@@ -2928,6 +2936,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d49d962f8e24654bb96e45799ef9800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  final_damage: 0
+  final_heal: 0
+  recoil: 0
+  attack: attack
+  spAttack: spAttack
+  spDefense: spDefense
+  speed: speed
+  playerStats: {fileID: 0}
+  enemyStats: {fileID: 0}
+  attackCalc: {fileID: 0}
+  attacks: {fileID: 0}
+  tc: {fileID: 0}
 --- !u!114 &1643421016
 MonoBehaviour:
   m_ObjectHideFlags: 0

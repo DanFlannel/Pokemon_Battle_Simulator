@@ -362,7 +362,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         if (enemyStats.curHp > 0)   //checks to see that the enemy is still alive before the enemy attacks
         {
             damage_Enemy_to_Player();
-            gui.updateHealth();
+            gui.updatePlayerHealth();
 
             //then heal the enemy
             healEnemy();
@@ -387,7 +387,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     {
         //apply damage to the player
         damage_Enemy_to_Player();
-        gui.updateHealth();
+        gui.updatePlayerHealth();
         //heal the enemy
         healEnemy();
         //take end of turn damage effects

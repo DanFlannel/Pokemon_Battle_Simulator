@@ -36,7 +36,8 @@ public class AttackDamageCalc : MonoBehaviour
 
     private dmgMult playerDamageMultiplier;
     private dmgMult enemyDamageMultiplier;
-    private GenerateAttacks genAttacks;
+
+    //private GenerateAttacks genAttacks;
 
     private float attack_mod;
     private float defense_mod;
@@ -58,17 +59,11 @@ public class AttackDamageCalc : MonoBehaviour
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
 
         attacks = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
-        genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
+        //genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
         attack_Switch_Case = GameObject.FindGameObjectWithTag("Attacks").GetComponent<Attack_Switch_Case>();
         damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
         tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
         Console.WriteLine("PK : Attack Damage Calculator: Initalized");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     /// <summary>
@@ -120,22 +115,21 @@ public class AttackDamageCalc : MonoBehaviour
         else
         {
             index = (int)UnityEngine.Random.Range(1, 5);
-            List<string> enemyAttackName = genAttacks.get_enemyAttackName();
             if (index == 1)
             {
-                attack_name = enemyAttackName[0];
+                attack_name = enemyStats.attack1;
             }
             if (index == 2)
             {
-                attack_name = enemyAttackName[1];
+                attack_name = enemyStats.attack2;
             }
             if (index == 3)
             {
-                attack_name = enemyAttackName[2];
+                attack_name = enemyStats.attack3;
             }
             if (index == 4)
             {
-                attack_name = enemyAttackName[3];
+                attack_name = enemyStats.attack4;
             }
         }
     }
@@ -171,7 +165,6 @@ public class AttackDamageCalc : MonoBehaviour
             case "Special":
                 attack_Switch_Case.specialAttacks(attack_name, predictedDamage, isPlayer);
                 break;
-
         }
     }
 
@@ -182,7 +175,6 @@ public class AttackDamageCalc : MonoBehaviour
     /// </summary>
     public float calculateDamage(string name)
     {
-        
         if (!isPlayer)
         {
             Debug.LogWarning("Enemy Attack Name: " + name);

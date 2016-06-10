@@ -57,7 +57,7 @@ public class GenerateAttacks : MonoBehaviour {
 	// ** need to delete this
 	void Update () {
         //checkInitalGen();
-        if (attackData.completedDatabaseInitalization && !attacksGenerated)
+        /*if (attackData.completedDatabaseInitalization && !attacksGenerated)
         {
             Debug.Log("Name 1:" + playerStats.PokemonName + "   Name 2:" + enemyStats.PokemonName);
             playerPokemonName = playerStats.PokemonName;
@@ -66,7 +66,7 @@ public class GenerateAttacks : MonoBehaviour {
             genPlayerAttacks();
             genEnemyAttacks();
             attacksGenerated = true;
-        }
+        }*/
     }
 
     /// <summary>
