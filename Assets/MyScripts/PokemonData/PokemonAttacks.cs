@@ -2110,26 +2110,29 @@ public class PokemonAttacks : MonoBehaviour
 		int[] hm = {Flash};
 		searchHMList(MagnemiteAttacks, hm);
 		master_attack_list.Add(new masterAttackList("Magnemite", MagnemiteAttacks));
+        //Debug.LogWarning(string.Format("Magnemite total attacks: {0}", MagnemiteAttacks.Count));
 	}
 
 	private void Magneton(){
-		MagnemiteAttacks.Add (new attackIndex (searchAttackList ("Tackle"), 1));
-		MagnemiteAttacks.Add (new attackIndex (searchAttackList ("Sonic Boom"), 1));
-		MagnemiteAttacks.Add (new attackIndex (searchAttackList ("Thunder Shock"), 1));
-		MagnemiteAttacks.Add (new attackIndex (searchAttackList ("Supersonic"), 29));
-		MagnemiteAttacks.Add (new attackIndex (searchAttackList ("Thunder Wave"), 38));
-		MagnemiteAttacks.Add (new attackIndex (searchAttackList ("Swift"), 46));
-		MagnemiteAttacks.Add (new attackIndex (searchAttackList ("Screech"), 54));
+		MagnetonAttacks.Add (new attackIndex (searchAttackList ("Tackle"), 1));
+		MagnetonAttacks.Add (new attackIndex (searchAttackList ("Sonic Boom"), 1));
+		MagnetonAttacks.Add (new attackIndex (searchAttackList ("Thunder Shock"), 1));
+		MagnetonAttacks.Add (new attackIndex (searchAttackList ("Supersonic"), 29));
+		MagnetonAttacks.Add (new attackIndex (searchAttackList ("Thunder Wave"), 38));
+		MagnetonAttacks.Add (new attackIndex (searchAttackList ("Swift"), 46));
+		MagnetonAttacks.Add (new attackIndex (searchAttackList ("Screech"), 54));
 		
 		int[] tm = {Toxic, TakeDown, DoubleEdge,HyperBeam, Rage,ThunderBolt,Thunder,Teleport, Mimic, 
 			DoubleTeam,Reflect, Bide,Swift, Rest,ThunderWave,Substitute};
-		searchTMList(MagnemiteAttacks, tm);
+		searchTMList(MagnetonAttacks, tm);
 		int[] hm = {Flash};
-		searchHMList(MagnemiteAttacks, hm);
+		searchHMList(MagnetonAttacks, hm);
 		master_attack_list.Add(new masterAttackList("Magneton", MagnetonAttacks));
-	}
+        //Debug.LogWarning(string.Format("Magneton total attacks: {0}", MagnetonAttacks.Count));
 
-	private void Farfetchd(){
+    }
+
+    private void Farfetchd(){
 		FarfetchdAttacks.Add (new attackIndex (searchAttackList ("Tackle"), 1));
 		FarfetchdAttacks.Add (new attackIndex (searchAttackList ("Sonic Boom"), 1));
 		FarfetchdAttacks.Add (new attackIndex (searchAttackList ("Thunder Shock"), 1));
