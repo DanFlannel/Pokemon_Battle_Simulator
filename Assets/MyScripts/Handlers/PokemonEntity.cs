@@ -6,7 +6,7 @@ using System.Collections.Generic;
 /// <summary>
 /// Creating a structure to use for our pokemon so that we can use
 /// a list to create multiple pokemon
-/// I didn't use a class because I am more comfotable with lists
+/// NEED TO SWITCH THIS OVER TO A CLASS!
 /// Also I am using a class to handle the current pokemon
 /// </summary>
 public struct PokemonEntity
@@ -185,12 +185,12 @@ public struct PokemonEntity
         //this ensures that all possible moves are added for pokemon with less than or equal to 4 moves
         else
         {
-            Debug.LogWarning(string.Format("{0} total moves {1}", Name, totalPossibleMoves));
+            Debug.LogWarning(string.Format("{0} total moves {1} {2}", Name, totalPossibleMoves, attackMoves.Count));
             
             int totalMoves = 0;
             for (int i = 0; i < MOVES; i++)
             {
-                if (i <= totalPossibleMoves)
+                if (totalMoves < totalPossibleMoves)
                 {
                     numToAdd = i;
                     totalMoves++;
@@ -202,7 +202,8 @@ public struct PokemonEntity
                 rndNumberList.Add(numToAdd);
             }
         }
-        Debug.Log(string.Format("Total: {0} indexes: {1} {2} {3} {4}", totalPossibleMoves,
+        Debug.Log(string.Format("Name: {0} Total: {1} indexes: {2} {3} {4} {5}",
+            Name, totalPossibleMoves,
             rndNumberList[0], rndNumberList[1], rndNumberList[2], rndNumberList[3]));
         return rndNumberList;
     }

@@ -61,7 +61,7 @@ public class PokemonDamageMultipliers : MonoBehaviour {
 	#endregion
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		damageMultipliers();
 		pokemon_damage_list();
 	}

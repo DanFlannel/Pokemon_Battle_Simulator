@@ -101,7 +101,7 @@ public class EnemyPokemonHandler : MonoBehaviour
             tempID = Random.Range(0, 151);
             FetchPokemonBaseStats(tempID);
             CreatePokemonStruct();
-            DebugPokemonStruct();
+            //DebugPokemonStruct();
         }
         OnChangePokemon(0);
 
