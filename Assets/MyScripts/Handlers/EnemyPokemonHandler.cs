@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 /// <summary>
 /// This class handles all of the enemy pokemon's calculations and variables associated with the pokemon. This is essentially
@@ -7,11 +8,20 @@ using System.Collections;
 /// </summary>
 public class EnemyPokemonHandler : MonoBehaviour
 {
+    PokemonEntity testPokemon;
+    List<PokemonEntity> enemyTeam = new List<PokemonEntity>();
+    public int curEnemyPokemonIndex;
+    private const int TEAMLENGTH = 6;
 
     private int levelBonus { get; set; }
 
-    public int PokemonID { get; private set; }
+    public int PokemonID;
     public string PokemonName { get; private set; }
+
+    public string attack1;
+    public string attack2;
+    public string attack3;
+    public string attack4;
 
     private int baseHP { get; set; }
     private int baseAttack { get; set; }
@@ -62,8 +72,12 @@ public class EnemyPokemonHandler : MonoBehaviour
 
     private PokemonLibrary pl;
     private GifRenderer gif;
+    public GUIScript gui;
+    private PokemonAttacks attackData;
 
-    private int temp { get; set; }
+    private int GifID;
+
+    private int tempID { get; set; }
     public int curHp { get; set; }
     public int maxHP { get; private set; }
 
@@ -71,53 +85,29 @@ public class EnemyPokemonHandler : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        temp = Random.Range(0, 151);
+        tempID = Random.Range(0, 151);
+        attackData = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
         gif = this.GetComponent<GifRenderer>();
+        gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
         Init();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     private void Init()
     {
-        attack_Stage = defense_Stage = speed_stage = spAttack_Stage = spDefense_stage = 0;
-
-        isChargingAttack = false;
-        isUnderground = false;
-        canAttack = true;
-        canBeAttacked = true;
-        isConfused = false;
-        isSleeping = false;
-        hasAttacked = false;
-        isStunned = false;
-        isFlinched = false;
-        isBurned = false;
-        isFrozen = false;
-        isFlinched = false;
-        hasSubstitute = false;
-        hasLightScreen = false;
-
-        cachedDamage = 0;
-        sleepDuration = 0;
-        substitueHP = 0;
-        lightScreenDuration = 0;
-        confusedDuration = 0;
-
-
-        GetPokemonBaseData(temp);
-        StatsBasedOffLevel();
-        maxHP = HP;
-        curHp = maxHP;
-        //Debug.Log("Scene has now loaded with enemy: " + PokemonName);
+        for (int i = 0; i < TEAMLENGTH; i++)
+        {
+            Level = 100;
+            tempID = Random.Range(0, 151);
+            FetchPokemonBaseStats(tempID);
+            CreatePokemonStruct();
+            DebugPokemonStruct();
+        }
+        OnChangePokemon(0);
 
     }
 
-    private void GetPokemonBaseData(int id)
+    private void FetchPokemonBaseStats(int id)
     {
         PokemonName = pl.GetName(id);
         PokemonID = id + 1;
@@ -204,7 +194,106 @@ public class EnemyPokemonHandler : MonoBehaviour
         }
     }
 
+    private void CreatePokemonStruct()
+    {
+        testPokemon = new PokemonEntity(PokemonName, PokemonID, Level, baseHP, baseAttack,
+            baseDefense, baseSpecial_Attack, baseSpecial_Defense, baseSpeed, Type1, Type2,
+            attackData.masterGetAttacks(PokemonID));
+        enemyTeam.Add(testPokemon);
+    }
 
+    private void DebugPokemonStruct()
+    {
+        Debug.Log(string.Format("Name {0} ID {1} MaxHP {2} Attack {3} Defense {4} SP Attack {5} Level {6}",
+            testPokemon.Name, testPokemon.ID, testPokemon.maxHP, testPokemon.Attack,
+            testPokemon.Defense, testPokemon.Special_Attack, testPokemon.Level));
+        Debug.Log(string.Format("Attack 1: {0} Attack 2: {1} Attack 3: {2} Attack 4: {3}",
+            testPokemon.Attack1, testPokemon.Attack2, testPokemon.Attack3, testPokemon.Attack4));
+    }
 
+    /// <summary>
+    /// Changes the pokemon stats and attacks to the one that is currently out
+    /// </summary>
+    /// <param name="index">index number in the team</param>
+    private void OnChangePokemon(int index)
+    {
+        //update the stats first so that the ID and Name are right before calling
+        //to change the sprite
+        UpdateStats(enemyTeam[index]);
+        GifID = PokemonID + 1;
+        gif.ChangeSprite(PokemonName, GifID);
+        gui.UpdateEnemyInfo();
+    }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    private void UpdateStats(PokemonEntity pk)
+    {
+
+        PokemonID = pk.ID;
+        PokemonName = pk.Name;
+        Level = pk.Level;
+
+        curHp = pk.curHp;
+        maxHP = pk.maxHP;
+
+        Type1 = pk.Type1;
+        Type2 = pk.Type2;
+
+        attack1 = pk.Attack1;
+        attack2 = pk.Attack2;
+        attack3 = pk.Attack3;
+        attack4 = pk.Attack4;
+
+        //Ensure that we don't mess up the base stats here
+
+        Attack = pk.Attack;
+        Defense = pk.Defense;
+        Special_Attack = pk.Special_Attack;
+        Special_Defense = pk.Special_Defense;
+        Speed = pk.Speed;
+
+        attack_Stage = pk.attack_Stage;
+        defense_Stage = pk.defense_Stage;
+        spAttack_Stage = pk.spAttack_Stage;
+        spDefense_stage = pk.spDefense_stage;
+        speed_stage = pk.speed_stage;
+
+        isChargingAttack = false;
+        isUnderground = false;
+        //canAttack = true;
+        canBeAttacked = true;
+        hasAttacked = false;
+
+        isConfused = pk.isConfused;
+        isSleeping = pk.isSleeping;
+        isStunned = pk.isStunned;
+        isFlinched = false;
+        isBurned = pk.isBurned;
+        isFlying = false;
+        isParalized = pk.isParalized;
+
+        sleepDuration = pk.sleepDuration;
+        confusedDuration = pk.confusedDuration;
+    }
+
+    /// <summary>
+    /// Just a test case for swapping pokemon and making sure that they change 
+    /// the proper variables
+    /// </summary>
+    public void swapEnemyPokemon()
+    {
+
+        if (curEnemyPokemonIndex < enemyTeam.Count - 1)
+        {
+            curEnemyPokemonIndex++;
+        }
+        else
+        {
+            curEnemyPokemonIndex = 0;
+        }
+
+        OnChangePokemon(curEnemyPokemonIndex);
+    }
 }

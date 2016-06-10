@@ -19,7 +19,6 @@ public class GUIScript : MonoBehaviour {
 
 	private PlayerPokemonHandler playerStats;
 	private EnemyPokemonHandler enemyStats;
-	private GenerateAttacks attackGen;
 
 	public Image type1;
 	public Image type2;
@@ -33,11 +32,10 @@ public class GUIScript : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
         Console.WriteLine("PK : GUIScript : Initalizing");
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
 		enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
-		attackGen = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
     }	
 	
 	/*//** need to remove this
@@ -86,7 +84,8 @@ public class GUIScript : MonoBehaviour {
     public void UpdatePlayerInfo()
     {
         attackNames();
-        playerPokemonLevel.text = playerStats.Level.ToString();
+        int level = playerStats.Level;
+        playerPokemonLevel.text = "Lv" + level.ToString();
         playerPokemonName.text = playerStats.PokemonName.ToString();
         updatePlayerHealth();
 
@@ -95,7 +94,8 @@ public class GUIScript : MonoBehaviour {
     public void UpdateEnemyInfo()
     {
         enemyPokemonName.text = enemyStats.PokemonName.ToString();
-        enemyPokemonLevel.text = enemyStats.Level.ToString();
+        int level = enemyStats.Level;
+        enemyPokemonLevel.text = "Lv" + level.ToString();
     }
 
 

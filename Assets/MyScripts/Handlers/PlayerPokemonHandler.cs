@@ -78,8 +78,6 @@ public class PlayerPokemonHandler : MonoBehaviour
     public int maxHP;
     private int GifID;
 
-    private bool hasloaded = false;
-
 
     // Use this for initialization
     void Start()
@@ -92,19 +90,13 @@ public class PlayerPokemonHandler : MonoBehaviour
         Init();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void Init()
     {
         for (int i = 0; i < TEAMLENGTH; i++)
         {
             Level = 100;
             tempID = Random.Range(0, 151);
-            FetchPokemonStats(tempID);
+            FetchPokemonBaseStats(tempID);
             CreatePokemonStruct();
             DebugPokemonStruct();
         }
@@ -112,7 +104,7 @@ public class PlayerPokemonHandler : MonoBehaviour
         // Debug.Log("Scene has now loaded with Player: " + PokemonName);
     }
 
-    private void FetchPokemonStats(int id)
+    private void FetchPokemonBaseStats(int id)
     {
         PokemonName = pl.GetName(id);
         PokemonID = id;
