@@ -9,7 +9,7 @@ using System.Collections.Generic;
 /// NEED TO SWITCH THIS OVER TO A CLASS!
 /// Also I am using a class to handle the current pokemon
 /// </summary>
-public struct PokemonEntity
+public class PokemonEntity
 {
     //*****************************************************//
     //these are the only variables that can be passed in
@@ -79,6 +79,8 @@ public struct PokemonEntity
     public int curHp { get; set; }
     public int maxHP { get; private set; }
 
+    private List<int> randomNumbers = new List<int>();
+
     public PokemonEntity(string m_Name, int m_ID, int m_Level, int m_baseHP, int m_baseAttack, int m_baseDefense,
         int m_baseSpAttack, int m_baseSpDef, int m_baseSpeed, string m_Type1, string m_Type2, 
         List<attackIndex> attackMoves)
@@ -97,24 +99,42 @@ public struct PokemonEntity
         Type1 = m_Type1;
         Type2 = m_Type2;
 
-        attack_Stage = defense_Stage = spAttack_Stage = spDefense_stage = speed_stage = 0;
-
-        isChargingAttack = isUnderground = canBeAttacked =
-        isConfused = isSleeping = hasAttacked = isStunned = isFlinched =
-        isBurned = isFrozen = isFlying = isParalized = false;
-
         cachedDamage = sleepDuration = confusedDuration = 0;
 
-        canAttack = canBeAttacked = true;
-
-        levelBonus = 0;
-
         //need to set these to something before updaing them
-        Attack1 = Attack2 = Attack3 = Attack4 = "";
-        maxHP = curHp = Attack = Defense = Special_Attack = Special_Defense = Speed = 0;
+        setStages();
+        setBools();
         generatePokemonStats(Level);
-        generateAttacks(attackMoves);
+        randomNumbers = generateRandomList(attackMoves.Count);
+        SetAttacks(attackMoves, randomNumbers);
 
+    }
+
+    private void setBools()
+    {
+        canAttack = true;
+        canBeAttacked = true;
+        isChargingAttack = false;
+        isUnderground = false;
+        canBeAttacked = false;
+        isConfused = false;
+        isSleeping = false;
+        hasAttacked = false;
+        isStunned = false;
+        isFlinched = false;
+        isBurned = false;
+        isFrozen = false;
+        isFlying = false;
+        isParalized = false;
+    }
+
+    private void setStages()
+    {
+        attack_Stage = 0;
+        defense_Stage = 0;
+        spAttack_Stage = 0;
+        spDefense_stage = 0;
+        speed_stage = 0;
     }
 
     /// <summary>
@@ -153,15 +173,13 @@ public struct PokemonEntity
         curHp = maxHP;
     }
 
-    private void generateAttacks(List<attackIndex> attackMoves)
+    /// <summary>
+    /// This takes in a list and generates a random list of unique integers based off that liast
+    /// </summary>
+    /// <param name="attackMoves"></param>
+    /// <returns></returns>
+    private List<int> generateRandomList (int totalPossibleMoves)
     {
-        List<int> randomNumbers = generateRandomList(attackMoves);
-        SetAttacks(attackMoves, randomNumbers);
-    }
-
-    private List<int> generateRandomList(List<attackIndex> attackMoves)
-    {
-        int totalPossibleMoves = attackMoves.Count;
         List<int> rndNumberList = new List<int>();
         //this is supposed to be a const
         int MOVES = 4;
@@ -185,7 +203,7 @@ public struct PokemonEntity
         //this ensures that all possible moves are added for pokemon with less than or equal to 4 moves
         else
         {
-            Debug.LogWarning(string.Format("{0} total moves {1} {2}", Name, totalPossibleMoves, attackMoves.Count));
+            Debug.LogWarning(string.Format("{0} total moves {1}", Name, totalPossibleMoves));
             
             int totalMoves = 0;
             for (int i = 0; i < MOVES; i++)
