@@ -99,7 +99,9 @@ public class PokemonEntity
         Type1 = m_Type1;
         Type2 = m_Type2;
 
-        cachedDamage = sleepDuration = confusedDuration = 0;
+        cachedDamage = 0;
+        sleepDuration = 0;
+        confusedDuration = 0;
 
         //need to set these to something before updaing them
         setStages();
