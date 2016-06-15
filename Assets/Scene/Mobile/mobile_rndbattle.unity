@@ -226,10 +226,10 @@ RectTransform:
   - {fileID: 661607563}
   m_Father: {fileID: 581889031}
   m_RootOrder: 4
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -336, y: 247}
-  m_SizeDelta: {x: -901, y: -543}
+  m_SizeDelta: {x: 107, y: 87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &166285982
 GameObject:
@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_ScaleFactor: 1.48
   m_ReferenceResolution: {x: 960, y: 640}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.5
+  m_MatchWidthOrHeight: 0.75
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2585,7 +2585,7 @@ MonoBehaviour:
   m_StartAxis: 0
   m_CellSize: {x: 170, y: 25}
   m_Spacing: {x: 10, y: 5}
-  m_Constraint: 0
+  m_Constraint: 1
   m_ConstraintCount: 2
 --- !u!1 &1611981540
 GameObject:
@@ -2640,8 +2640,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
