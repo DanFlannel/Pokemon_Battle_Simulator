@@ -168,6 +168,7 @@ public class PlayerPokemonHandler : MonoBehaviour
         testPokemon = new PokemonEntity(PokemonName, PokemonID, Level, baseHP, baseAttack,
             baseDefense, baseSpecial_Attack, baseSpecial_Defense, baseSpeed, Type1, Type2,
             attackData.masterGetAttacks(PokemonID));
+        DebugPokemonStruct();
         playerTeam.Add(testPokemon);
     }
 
@@ -225,6 +226,12 @@ public class PlayerPokemonHandler : MonoBehaviour
         attack2 = pk.Attack2;
         attack3 = pk.Attack3;
         attack4 = pk.Attack4;
+
+        Attack = pk.Attack;
+        Defense = pk.Defense;
+        Special_Attack = pk.Special_Attack;
+        Special_Defense = pk.Special_Defense;
+        Speed = pk.Speed;
 
         //Ensure that we don't mess up the base stats here
         attack_Stage = pk.attack_Stage;

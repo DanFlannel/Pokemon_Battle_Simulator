@@ -222,9 +222,9 @@ public class PokemonEntity
                 rndNumberList.Add(numToAdd);
             }
         }
-        Debug.Log(string.Format("Name: {0} Total: {1} indexes: {2} {3} {4} {5}",
-            Name, totalPossibleMoves,
-            rndNumberList[0], rndNumberList[1], rndNumberList[2], rndNumberList[3]));
+        //Debug.Log(string.Format("Name: {0} Total: {1} indexes: {2} {3} {4} {5}",
+        //    Name, totalPossibleMoves,
+        //    rndNumberList[0], rndNumberList[1], rndNumberList[2], rndNumberList[3]));
         return rndNumberList;
     }
 
