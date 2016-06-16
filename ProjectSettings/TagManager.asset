@@ -50,3 +50,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackDrop
+    uniqueID: 1043171097
+    locked: 0
+  - name: Pokemon
+    uniqueID: 3646387153
+    locked: 0
+  - name: OverlayBattle
+    uniqueID: 1594549579
+    locked: 0
