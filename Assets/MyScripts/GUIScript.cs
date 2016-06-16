@@ -7,6 +7,8 @@ using System;
 
 public class GUIScript : MonoBehaviour {
 
+    public Transform swapPanelUI;
+
 	public Text playerPokemonName;
 	public Text enemyPokemonName;
 
@@ -29,10 +31,12 @@ public class GUIScript : MonoBehaviour {
 	public Text playerAttack3;
 	public Text playerAttack4;
 	private bool generatedAttacks = false;
-
+    private bool swapPanelOpen;
 
 	// Use this for initialization
 	void Awake () {
+        swapPanelOpen = true;
+        togglePanel();
         Console.WriteLine("PK : GUIScript : Initalizing");
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
 		enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
@@ -87,6 +91,27 @@ public class GUIScript : MonoBehaviour {
         enemyPokemonName.text = enemyStats.PokemonName.ToString();
         int level = enemyStats.Level;
         enemyPokemonLevel.text = "Lv" + level.ToString();
+    }
+
+    public void togglePanel()
+    {
+        
+        swapPanelOpen = !swapPanelOpen;
+        Debug.LogWarning(string.Format("Called to open change pokemon panel {0}", swapPanelOpen));
+        swapPanelUI.gameObject.SetActive(swapPanelOpen);
+        foreach (Transform child in swapPanelUI)
+        {
+            child.gameObject.SetActive(swapPanelOpen);
+        }
+
+        if (swapPanelOpen)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
     }
 
 

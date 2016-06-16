@@ -597,7 +597,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 705434586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: -0.4, z: 5}
+  m_LocalPosition: {x: -3.2, y: -0.4, z: 5}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 5556833}
@@ -782,7 +782,7 @@ GameObject:
   - 222: {fileID: 1279935333}
   - 114: {fileID: 1279935332}
   m_Layer: 5
-  m_Name: Gifs (1)
+  m_Name: Dom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -802,8 +802,8 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: -146}
-  m_SizeDelta: {x: 99, y: 53}
+  m_AnchoredPosition: {x: -334, y: -141}
+  m_SizeDelta: {x: 62, y: 41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1279935332
 MonoBehaviour:
@@ -1277,10 +1277,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2025695560}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0003490448, y: 0.0012187958}
-  m_SizeDelta: {x: 1045.3, y: 640}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.000120162964, y: 0.21061856}
+  m_SizeDelta: {x: 0.00024414, y: -0.42126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013993509
 MonoBehaviour:

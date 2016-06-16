@@ -296,18 +296,8 @@ public class PlayerPokemonHandler : MonoBehaviour
     /// Just a test case for swapping pokemon and making sure that they change 
     /// the proper variables
     /// </summary>
-    public void SwapPlayerPokemon()
+    public void SwapPlayerPokemon(int swapIndex)
     {
-        int swapIndex = curPlayerPokemonIndex;
-        if (swapIndex < playerTeam.Count -1)
-        {
-            swapIndex++;
-        }
-        else
-        {
-            swapIndex = 0;
-        }
-
         OnChangePokemon(swapIndex);
     }
 
