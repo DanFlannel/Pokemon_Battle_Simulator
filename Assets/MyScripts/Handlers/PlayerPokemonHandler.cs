@@ -1,13 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class PlayerPokemonHandler : MonoBehaviour
 {
     PokemonEntity testPokemon;
-    List<PokemonEntity> playerTeam = new List<PokemonEntity>();
+    public List<PokemonEntity> playerTeam = new List<PokemonEntity>();
     private int curPlayerPokemonIndex;
-    private const int TEAMLENGTH = 6;
+    [HideInInspector]
+    public readonly int TEAMLENGTH = 6;
 
     public int PokemonID;
     public string PokemonName;
@@ -80,6 +82,7 @@ public class PlayerPokemonHandler : MonoBehaviour
     private int GifID;
 
     private bool InitPokemonData;
+
     // Use this for initialization
     void Start()
     {
@@ -105,6 +108,7 @@ public class PlayerPokemonHandler : MonoBehaviour
         }
         curPlayerPokemonIndex = 0;
         OnChangePokemon(curPlayerPokemonIndex);
+        gui.updatePokemonNames(playerTeam);
         // Debug.Log("Scene has now loaded with Player: " + PokemonName);
     }
 
@@ -300,5 +304,4 @@ public class PlayerPokemonHandler : MonoBehaviour
     {
         OnChangePokemon(swapIndex);
     }
-
 }

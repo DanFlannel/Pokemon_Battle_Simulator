@@ -217,18 +217,18 @@ RectTransform:
   m_GameObject: {fileID: 143208903}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1.2873104, y: 1.2873104, z: 0.6436552}
   m_Children:
   - {fileID: 738110661}
   - {fileID: 1085441741}
   - {fileID: 914674427}
   - {fileID: 1782099790}
   - {fileID: 661607563}
-  m_Father: {fileID: 581889031}
-  m_RootOrder: 2
+  m_Father: {fileID: 1527028100}
+  m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -336, y: 247}
+  m_AnchoredPosition: {x: -216.26813, y: 158.98279}
   m_SizeDelta: {x: 145, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &166285982
@@ -970,14 +970,14 @@ RectTransform:
   m_GameObject: {fileID: 491420624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6436552, y: 0.6436552, z: 0.6436552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2063066929}
-  m_Father: {fileID: 1527028100}
-  m_RootOrder: 5
+  m_Father: {fileID: 1187991815}
+  m_RootOrder: 6
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 629.0796, y: -11.587044}
+  m_AnchoredPosition: {x: 977.3501, y: -18.00197}
   m_SizeDelta: {x: 68.234, y: 36.004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &491420626
@@ -1173,8 +1173,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1410353232}
-  - {fileID: 1658109067}
-  - {fileID: 143208904}
   - {fileID: 1465882009}
   - {fileID: 1308581376}
   m_Father: {fileID: 0}
@@ -1662,7 +1660,7 @@ RectTransform:
   m_Children:
   - {fileID: 1302076855}
   m_Father: {fileID: 1527028100}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 286.4265, y: -158.33917}
@@ -2364,10 +2362,10 @@ RectTransform:
   - {fileID: 1330111957}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 3
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 730.703, y: -303.5236}
+  m_SizeDelta: {x: 425, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1134782652
 MonoBehaviour:
@@ -2415,6 +2413,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1465882010}
+        m_MethodName: togglePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2471,7 +2480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1187991815
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2488,8 +2497,9 @@ RectTransform:
   - {fileID: 1134782651}
   - {fileID: 2128536120}
   - {fileID: 1963932907}
+  - {fileID: 491420625}
   m_Father: {fileID: 1527028100}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0015583488, y: 0.13544743}
@@ -2649,10 +2659,10 @@ RectTransform:
   - {fileID: 2144695135}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 280.70303, y: -123.52359}
+  m_SizeDelta: {x: 425, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1259180063
 MonoBehaviour:
@@ -2696,6 +2706,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1620464050}
         m_MethodName: SwapPlayerPokemon
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1465882010}
+        m_MethodName: togglePanel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2874,7 +2895,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 581889031}
-  m_RootOrder: 4
+  m_RootOrder: 2
 --- !u!114 &1308581377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3208,7 +3229,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 581889031}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -3226,6 +3247,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swapPanelUI: {fileID: 1187991815}
+  swapButtons:
+  - {fileID: 1259180063}
+  - {fileID: 1988768939}
+  - {fileID: 1580025915}
+  - {fileID: 1134782652}
+  - {fileID: 2128536121}
+  - {fileID: 1963932908}
   playerPokemonName: {fileID: 1066501905}
   enemyPokemonName: {fileID: 914674428}
   playerPokemonLevel: {fileID: 192327835}
@@ -3401,12 +3429,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1658109067}
+  - {fileID: 143208904}
   - {fileID: 1611981541}
   - {fileID: 1550040122}
   - {fileID: 791377164}
   - {fileID: 2056152675}
   - {fileID: 1187991815}
-  - {fileID: 491420625}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
@@ -3445,7 +3474,7 @@ RectTransform:
   - {fileID: 532760639}
   - {fileID: 702875094}
   m_Father: {fileID: 1527028100}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -80.37323, y: -154.23907}
@@ -3505,10 +3534,10 @@ RectTransform:
   - {fileID: 1475069866}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 280.70303, y: -303.5236}
+  m_SizeDelta: {x: 425, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1580025915
 MonoBehaviour:
@@ -3556,6 +3585,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1465882010}
+        m_MethodName: togglePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3623,11 +3663,11 @@ RectTransform:
   m_LocalScale: {x: 0.6436552, y: 0.6436552, z: 0.6436552}
   m_Children: []
   m_Father: {fileID: 1527028100}
-  m_RootOrder: 0
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0032142918, y: -158.33917}
-  m_SizeDelta: {x: 1045, y: 127}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -0.93833923, y: -156.48}
+  m_SizeDelta: {x: 362, y: 121.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1611981542
 MonoBehaviour:
@@ -3997,7 +4037,7 @@ RectTransform:
   m_GameObject: {fileID: 1658109066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1.2873104, y: 1.2873104, z: 0.6436552}
   m_Children:
   - {fileID: 932132747}
   - {fileID: 166285983}
@@ -4006,11 +4046,11 @@ RectTransform:
   - {fileID: 192327834}
   - {fileID: 1967676733}
   - {fileID: 915995570}
-  m_Father: {fileID: 581889031}
-  m_RootOrder: 1
+  m_Father: {fileID: 1527028100}
+  m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 304, y: -117}
+  m_AnchoredPosition: {x: 195.6712, y: -75.30768}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1670394661
@@ -4506,10 +4546,10 @@ RectTransform:
   - {fileID: 1923641353}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 5
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 730.703, y: -483.5236}
+  m_SizeDelta: {x: 425, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963932908
 MonoBehaviour:
@@ -4557,6 +4597,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1465882010}
+        m_MethodName: togglePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4700,10 +4751,10 @@ RectTransform:
   - {fileID: 775192430}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 730.703, y: -123.52359}
+  m_SizeDelta: {x: 425, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988768939
 MonoBehaviour:
@@ -4751,6 +4802,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1465882010}
+        m_MethodName: togglePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5016,7 +5078,7 @@ RectTransform:
   m_Children:
   - {fileID: 1626699072}
   m_Father: {fileID: 1527028100}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 195.6712, y: -158.33917}
@@ -5247,10 +5309,10 @@ RectTransform:
   - {fileID: 805608221}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 4
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 280.70303, y: -483.5236}
+  m_SizeDelta: {x: 425, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2128536121
 MonoBehaviour:
@@ -5298,6 +5360,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1465882010}
+        m_MethodName: togglePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
