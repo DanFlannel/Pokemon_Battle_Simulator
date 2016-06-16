@@ -72,13 +72,14 @@ public class PlayerPokemonHandler : MonoBehaviour
     private GifRenderer gif;
     private GUIScript gui;
     private PokemonAttacks attackData;
+    private TurnController tc;
 
     private int tempID;
     public int curHp;
     public int maxHP;
     private int GifID;
 
-
+    private bool InitPokemonData;
     // Use this for initialization
     void Start()
     {
@@ -87,11 +88,13 @@ public class PlayerPokemonHandler : MonoBehaviour
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
         gif = this.GetComponent<GifRenderer>();
         gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
+        tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
         Init();
     }
 
     private void Init()
     {
+        InitPokemonData = true;
         for (int i = 0; i < TEAMLENGTH; i++)
         {
             Level = 100;
@@ -100,7 +103,8 @@ public class PlayerPokemonHandler : MonoBehaviour
             CreatePokemonStruct();
             //DebugPokemonStruct();
         }
-        OnChangePokemon(0);
+        curPlayerPokemonIndex = 0;
+        OnChangePokemon(curPlayerPokemonIndex);
         // Debug.Log("Scene has now loaded with Player: " + PokemonName);
     }
 
@@ -182,16 +186,28 @@ public class PlayerPokemonHandler : MonoBehaviour
     /// <param name="index">index number in the team</param>
     private void OnChangePokemon(int index)
     {
+        if (!InitPokemonData)
+        {
+            Debug.LogWarning("Saving Pokemon Data To Index: " + curPlayerPokemonIndex);
+            //saves the current pokemon data if we have a team already
+            SaveStats(playerTeam[curPlayerPokemonIndex]);
+        }
+        Debug.LogWarning("Loading Pokemon From Index: " + index);
+        //update our current index after saving the data
+        curPlayerPokemonIndex = index;
         //update the stats first so that the ID and Name are right before calling
         //to change the sprite
-        UpdateStats(playerTeam[index]);
+        UpdateStats(playerTeam[curPlayerPokemonIndex]);
         GifID = PokemonID + 1;
         gif.ChangeSprite(PokemonName, GifID);
         gui.UpdatePlayerInfo();
+        tc.setPlayerHealthBar();
+
+        InitPokemonData = false;
     }
 
     /// <summary>
-    /// 
+    /// Updates the stats in this script to be the ones of the current Pokemon's
     /// </summary>
     private void UpdateStats(PokemonEntity pk)
     {
@@ -211,13 +227,6 @@ public class PlayerPokemonHandler : MonoBehaviour
         attack4 = pk.Attack4;
 
         //Ensure that we don't mess up the base stats here
-
-        Attack = pk.Attack;
-        Defense = pk.Defense;
-        Special_Attack = pk.Special_Attack;
-        Special_Defense = pk.Special_Defense;
-        Speed = pk.Speed;
-
         attack_Stage = pk.attack_Stage;
         defense_Stage = pk.defense_Stage;
         spAttack_Stage = pk.spAttack_Stage;
@@ -233,13 +242,47 @@ public class PlayerPokemonHandler : MonoBehaviour
         isConfused = pk.isConfused;
         isSleeping = pk.isSleeping;
         isStunned = pk.isStunned;
+
         isFlinched = false;
-        isBurned = pk.isBurned;
         isFlying = false;
+
+        isBurned = pk.isBurned;
         isParalized = pk.isParalized;
+        isFrozen = pk.isFrozen;
 
         sleepDuration = pk.sleepDuration;
         confusedDuration = pk.confusedDuration;
+    }
+
+    /// <summary>
+    /// Saves the current stats to the pokemon so that when we 
+    /// Switch back, the pokemon doesnt get reset
+    /// </summary>
+    /// <param name="pk">Pokemon To Save</param>
+    private void SaveStats(PokemonEntity pk)
+    {
+        //PokemonID    PokemonName    Level    MaxHP    Type1    Type2
+        //Attack1    Attack2    Attack3    Attack4    Attack    Defense
+        //SpAttack    SpDefense    Speed    
+        pk.curHp = curHp;
+
+        //Unsure if we keep stage changes across pokemon changes
+        //probably going to have to generate another method to handle special cases.
+        pk.attack_Stage = attack_Stage;
+        pk.defense_Stage = defense_Stage;
+        pk.spAttack_Stage = spAttack_Stage;
+        pk.spDefense_stage = spDefense_stage;
+        pk.speed_stage = speed_stage;
+
+        pk.isSleeping = isSleeping;
+        pk.sleepDuration = sleepDuration;
+
+        pk.isConfused = false;
+        pk.confusedDuration = 0;
+
+        pk.isBurned = isBurned;
+        pk.isParalized = isParalized;
+        pk.isFrozen = isFrozen;
     }
 
     /// <summary>
@@ -248,17 +291,17 @@ public class PlayerPokemonHandler : MonoBehaviour
     /// </summary>
     public void SwapPlayerPokemon()
     {
-
-        if (curPlayerPokemonIndex < playerTeam.Count -1)
+        int swapIndex = curPlayerPokemonIndex;
+        if (swapIndex < playerTeam.Count -1)
         {
-            curPlayerPokemonIndex++;
+            swapIndex++;
         }
         else
         {
-            curPlayerPokemonIndex = 0;
+            swapIndex = 0;
         }
 
-        OnChangePokemon(curPlayerPokemonIndex);
+        OnChangePokemon(swapIndex);
     }
 
 }

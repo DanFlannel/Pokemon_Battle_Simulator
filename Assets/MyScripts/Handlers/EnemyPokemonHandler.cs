@@ -33,16 +33,16 @@ public class EnemyPokemonHandler : MonoBehaviour
 
     private int HP { get; set; }
     public int Level { get; private set; }
-    public int Attack { get; private set; }
-    public int attack_Stage { get; set; }
 
-    public int Defense { get; private set; }
+    public int Attack;// { get; private set; }
+    public int attack_Stage { get; set; }
+    public int Defense;// { get; private set; }
     public int defense_Stage { get; set; }
-    public int Special_Attack { get; private set; }
+    public int Special_Attack;// { get; private set; }
     public int spAttack_Stage { get; set; }
-    public int Special_Defense { get; private set; }
+    public int Special_Defense;// { get; private set; }
     public int spDefense_stage { get; set; }
-    public int Speed { get; private set; }
+    public int Speed;// { get; private set; }
     public int speed_stage { get; set; }
 
     public string Type1 { get; private set; }
@@ -74,6 +74,7 @@ public class EnemyPokemonHandler : MonoBehaviour
     private GifRenderer gif;
     public GUIScript gui;
     private PokemonAttacks attackData;
+    private TurnController tc;
 
     private int GifID;
 
@@ -90,6 +91,7 @@ public class EnemyPokemonHandler : MonoBehaviour
         pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
         gif = this.GetComponent<GifRenderer>();
         gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
+        tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
         Init();
     }
 
@@ -110,9 +112,10 @@ public class EnemyPokemonHandler : MonoBehaviour
     private void FetchPokemonBaseStats(int id)
     {
         PokemonName = pl.GetName(id);
-        PokemonID = id + 1;
+        PokemonID = id;
+        GifID = PokemonID + 1;
 
-        gif.ChangeSprite(PokemonName, PokemonID);
+        //gif.ChangeSprite(PokemonName, PokemonID);
 
         baseHP = pl.GetHP(id);
         baseAttack = pl.GetAttack(id);
@@ -223,10 +226,11 @@ public class EnemyPokemonHandler : MonoBehaviour
         GifID = PokemonID + 1;
         gif.ChangeSprite(PokemonName, GifID);
         gui.UpdateEnemyInfo();
+        tc.setEnemyHealthBar();
     }
 
     /// <summary>
-    /// 
+    /// Updates the stats in this script to be the ones of the current Pokemon's
     /// </summary>
     private void UpdateStats(PokemonEntity pk)
     {

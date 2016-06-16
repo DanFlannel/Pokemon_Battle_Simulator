@@ -83,7 +83,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
 
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         c_Queue = this.GetComponent<CoroutineList>();
         Init();
@@ -95,22 +95,20 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
         if (enemyStats == null)
         {
+            Debug.LogError("No EnemyHandler");
             Console.WriteLine("PK: Turn Controller: Enemy Stats Null");
         }
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
         if (playerStats == null)
         {
+            Debug.LogError("No PlayerHandler");
             Console.WriteLine("PK: Turn Controller: Player Stats Null");
         }
         gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
         if (gui == null)
         {
+            Debug.LogError("No GUIScript");
             Console.WriteLine("PK: Turn Controller: gui Null");
-        }
-
-        if (playerStats == null)
-        {
-            Debug.Log("Cannot find PokemonCreatorBack");
         }
     }
 
@@ -318,11 +316,25 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(1, enemyHealthBar, newSliderValue)));
     }
 
+    public void setEnemyHealthBar()
+    {
+        Debug.Log("Enemy Cur HP: " + enemyStats.curHp);
+        Debug.Log("Enemy Max HP: " + enemyStats.maxHP);
+        float newSliderValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;
+        enemyHealthBar.value = newSliderValue;
+    }
+
     private void changePlayerHealthBar()
     { 
         //need to put in some logic that changes the health bar over time
         float newSliderValue = (float)playerStats.curHp / (float)playerStats.maxHP;
        c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(1, playerHealthBar, newSliderValue)));
+    }
+
+    public void setPlayerHealthBar()
+    {
+        float newSliderValue = (float)playerStats.curHp / (float)playerStats.maxHP;
+        playerHealthBar.value = newSliderValue;
     }
 
     private bool checkDead()

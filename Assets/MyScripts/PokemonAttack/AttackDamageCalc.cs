@@ -47,7 +47,7 @@ public class AttackDamageCalc : MonoBehaviour
     #endregion
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         Init();
     }
@@ -56,7 +56,15 @@ public class AttackDamageCalc : MonoBehaviour
     {
         Console.WriteLine("PK : Attack Damage Calculator: Initalizing");
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
+        if(enemyStats == null)
+        {
+            Debug.LogError("No Enemy Stats");
+        }
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
+        if(playerStats == null)
+        {
+            Debug.Log("No Player Stats");
+        }
 
         attacks = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
         //genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
@@ -203,8 +211,14 @@ public class AttackDamageCalc : MonoBehaviour
 
         //Setup for the damage calculations
         set_attack_and_def(attack_index, isPlayer, attackCat);
-        if (attack_mod == 0) Debug.LogError("Attack modifier is 0");
-        if (defense_mod == 0) Debug.LogError("Defense modifier is 0");
+        if (attack_mod == 0)
+        {
+            Debug.LogError("Attack modifier is 0");
+        }
+        if (defense_mod == 0)
+        {
+            Debug.LogError("Defense modifier is 0");
+        }
 
         float level_mod = levelModifier(isPlayer);
         float att_div_defense = baseAttackPower(attack_index) / defense_mod;
@@ -328,6 +342,8 @@ public class AttackDamageCalc : MonoBehaviour
                 attack_mod = enemyStats.Special_Attack;
                 defense_mod = playerStats.Special_Defense;
             }
+            Debug.Log("SpAttack: " + attack_mod);
+            Debug.Log("SpDefense: " + defense_mod);
         }
         if (attackCat == attacks.Physical)                  //we are calculating a physical attack
         {
@@ -341,10 +357,9 @@ public class AttackDamageCalc : MonoBehaviour
                 attack_mod = enemyStats.Attack;
                 defense_mod = playerStats.Defense;
             }
+            Debug.Log("Attack: " + attack_mod);
+            Debug.Log("Defense: " + defense_mod);
         }
-
-        //Debug.Log("Attack: " + attack_mod);
-        //Debug.Log("Defense: " + defense_mod);
     }
 
     /// <summary>
@@ -425,7 +440,7 @@ public class AttackDamageCalc : MonoBehaviour
 
         if (isPlayer)
         {
-            int index = enemyStats.PokemonID - 1;
+            int index = enemyStats.PokemonID;
             if (enemyStats.PokemonName == damage_mult.master_list[index].name)
             {
                 modifier = fetchAttackTypeIndex(attackType, index);

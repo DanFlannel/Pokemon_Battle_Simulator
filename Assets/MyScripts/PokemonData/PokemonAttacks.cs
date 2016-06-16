@@ -2428,7 +2428,6 @@ public class PokemonAttacks : MonoBehaviour
 		int[] hm = {Flash};
 		searchHMList(VoltorbAttacks, hm);
 		master_attack_list.Add(new masterAttackList("Voltorb", VoltorbAttacks));
-        Debug.LogWarning("Voltorb attack total: " + VoltorbAttacks.Count);
 	}
 
 	private void Electrode(){

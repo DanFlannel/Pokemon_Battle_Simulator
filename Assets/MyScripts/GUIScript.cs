@@ -36,16 +36,7 @@ public class GUIScript : MonoBehaviour {
         Console.WriteLine("PK : GUIScript : Initalizing");
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
 		enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
-    }	
-	
-	/*//** need to remove this
-	void Update () { 
-		if(attackGen.attackDatabaseCompiled && !generatedAttacks){
-            UpdatePlayerInfo();
-            UpdateEnemyInfo();
-            Console.WriteLine("PK : GUIScript : Initalized");
-        }
-	}*/
+    }
 
     /// <summary>
     /// Gets the Pokemon's health and displays it on the GUI
