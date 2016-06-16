@@ -970,14 +970,14 @@ RectTransform:
   m_GameObject: {fileID: 491420624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6436552, y: 0.6436552, z: 0.6436552}
   m_Children:
   - {fileID: 2063066929}
-  m_Father: {fileID: 1187991815}
-  m_RootOrder: 6
+  m_Father: {fileID: 1527028100}
+  m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 977.35, y: -18.002}
+  m_AnchoredPosition: {x: 629.0796, y: -11.587044}
   m_SizeDelta: {x: 68.234, y: 36.004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &491420626
@@ -1605,7 +1605,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pokemon Name 1
+  m_Text: Pokemon Name 2
 --- !u!222 &775192432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1822,7 +1822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pokemon Name 1
+  m_Text: Pokemon Name 5
 --- !u!222 &805608223
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2364,10 +2364,10 @@ RectTransform:
   - {fileID: 1330111957}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 3
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 730.703, y: -303.5236}
-  m_SizeDelta: {x: 425, y: 175}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1134782652
 MonoBehaviour:
@@ -2414,7 +2414,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2471,7 +2471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1187991815
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2488,7 +2488,6 @@ RectTransform:
   - {fileID: 1134782651}
   - {fileID: 2128536120}
   - {fileID: 1963932907}
-  - {fileID: 491420625}
   m_Father: {fileID: 1527028100}
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
@@ -2650,10 +2649,10 @@ RectTransform:
   - {fileID: 2144695135}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 280.70303, y: -123.52359}
-  m_SizeDelta: {x: 425, y: 175}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1259180063
 MonoBehaviour:
@@ -2986,7 +2985,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pokemon Name 1
+  m_Text: Pokemon Name 4
 --- !u!222 &1330111959
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3311,7 +3310,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pokemon Name 1
+  m_Text: Pokemon Name 3
 --- !u!222 &1475069868
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3407,6 +3406,7 @@ RectTransform:
   - {fileID: 791377164}
   - {fileID: 2056152675}
   - {fileID: 1187991815}
+  - {fileID: 491420625}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
@@ -3505,10 +3505,10 @@ RectTransform:
   - {fileID: 1475069866}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 280.70303, y: -303.5236}
-  m_SizeDelta: {x: 425, y: 175}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1580025915
 MonoBehaviour:
@@ -3555,7 +3555,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3641,15 +3641,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058823, g: 0.7058823, b: 0.7058823, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4307,7 +4307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pokemon Name 1
+  m_Text: Pokemon Name 6
 --- !u!222 &1923641355
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4506,10 +4506,10 @@ RectTransform:
   - {fileID: 1923641353}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 5
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 730.703, y: -483.5236}
-  m_SizeDelta: {x: 425, y: 175}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963932908
 MonoBehaviour:
@@ -4700,10 +4700,10 @@ RectTransform:
   - {fileID: 775192430}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 730.703, y: -123.52359}
-  m_SizeDelta: {x: 425, y: 175}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988768939
 MonoBehaviour:
@@ -4750,7 +4750,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5247,10 +5247,10 @@ RectTransform:
   - {fileID: 805608221}
   m_Father: {fileID: 1187991815}
   m_RootOrder: 4
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 280.70303, y: -483.5236}
-  m_SizeDelta: {x: 425, y: 175}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2128536121
 MonoBehaviour:
@@ -5297,7 +5297,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
