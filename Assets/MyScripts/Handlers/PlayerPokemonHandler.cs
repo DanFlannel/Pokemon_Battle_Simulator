@@ -193,11 +193,9 @@ public class PlayerPokemonHandler : MonoBehaviour
     {
         if (!InitPokemonData)
         {
-            Debug.LogWarning("Saving Pokemon Data To Index: " + curPlayerPokemonIndex);
             //saves the current pokemon data if we have a team already
             SaveStats(playerTeam[curPlayerPokemonIndex]);
         }
-        Debug.LogWarning("Loading Pokemon From Index: " + index);
         //update our current index after saving the data
         curPlayerPokemonIndex = index;
         //update the stats first so that the ID and Name are right before calling

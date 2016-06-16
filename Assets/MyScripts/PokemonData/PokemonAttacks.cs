@@ -1768,9 +1768,9 @@ public class PokemonAttacks : MonoBehaviour
 		int[] tm = {MegaPunch,MegaKick, Toxic,BodySlam, TakeDown, DoubleEdge,HyperBeam, BubbleBeam,WaterGun,IceBeam,
 			Blizzard, Submission,Counter,SeismicToss, Rage,Earthquake,Fissure,Psychic_TM,Mimic, DoubleTeam, 
 			Bide,Metronome,SkullBash, Rest,Psywave, Substitute};
-		searchTMList(PoliwhirlAttacks, tm);
+		searchTMList(PoliwrathAttacks, tm);
 		int[] hm = {Surf,Strength};
-		searchHMList(PoliwhirlAttacks,hm);
+		searchHMList(PoliwrathAttacks, hm);
 		master_attack_list.Add(new masterAttackList("Poliwrath", PoliwrathAttacks));
 	}
 	

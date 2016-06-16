@@ -106,7 +106,7 @@ public class GUIScript : MonoBehaviour
     {
 
         swapPanelOpen = !swapPanelOpen;
-        Debug.LogWarning(string.Format("Called to open change pokemon panel {0}", swapPanelOpen));
+        //Debug.LogWarning(string.Format("Called to open change pokemon panel {0}", swapPanelOpen));
         swapPanelUI.gameObject.SetActive(swapPanelOpen);
         foreach (Transform child in swapPanelUI)
         {
