@@ -14,6 +14,7 @@ public class GUIScript : MonoBehaviour
 
     public Transform swapPanelUI;
     public Button[] swapButtons;
+    public Slider[] swapHealthBars;
 
     public Text playerPokemonName;
     public Text enemyPokemonName;
@@ -125,12 +126,23 @@ public class GUIScript : MonoBehaviour
 
     public void updatePokemonNames(List<PokemonEntity> pokemonTeam)
     {
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < playerStats.TEAMLENGTH; i++)
         {
             Text buttonText = swapButtons[i].GetComponentInChildren<Text>();
             string pokemonName = pokemonTeam[i].Name;
             buttonText.text = pokemonName;
             //Debug.Log("Pokemon Name: " + pokemonName);
+        }
+    }
+
+    public void updatePokemonHealth(List<PokemonEntity> pokemonTeam)
+    {
+        for(int i = 0; i < playerStats.TEAMLENGTH; i++)
+        {
+            float curHealth = pokemonTeam[i].curHp;
+            float maxHealth = pokemonTeam[i].maxHP;
+            float newValue = curHealth / maxHealth;
+            swapHealthBars[i].value = newValue;
         }
     }
 }
