@@ -26,6 +26,8 @@ public class Moves : MonoBehaviour
     private readonly string snatch = "snatch";      //: Can be stolen from the original user and instead used by another Pokemon using Snatch.
     private readonly string sound = "sound";        //: Has no effect on Pokemon with the Ability Soundproof.
 
+    private readonly string highCrit = "highcritical"; //:has a 2x critical hit ratio
+
     //Categories Of Attacks
     private readonly string Normal = "Normal";
     private readonly string Fighting = "Fighting";
@@ -43,6 +45,7 @@ public class Moves : MonoBehaviour
     private readonly string Bug = "Bug";
     private readonly string Rock = "Rock";
     private readonly string Electric = "Electric";
+    private readonly string Fairy = "Fairy";
 
 
     //Types Of Attacks
@@ -55,6 +58,7 @@ public class Moves : MonoBehaviour
     private readonly string c_Tough = "Tough";
     private readonly string c_Beautiful = "Beautiful";
     private readonly string c_Cool = "Cool";
+    private readonly string c_Cute = "Cute";
 
     //Target Types
     private readonly string t_normal = "normal";
@@ -62,14 +66,16 @@ public class Moves : MonoBehaviour
     private readonly string t_self = "self";
     private readonly string t_allAlly_Self = "adjacentAllyOrSelf";
     private readonly string t_any = "any";
+    private readonly string t_allAlly = "allyTeam";
+    private readonly string t_adjacentAlly = "adjacentAlly";
 
     public List<Move> PokemonMoves = new List<Move>();
+    private List<string> flags = new List<string>();
 
     public void Moves_A_E()
     {
-        List<string> flags = new List<string>();
 
-        flags.Add(protect); flags.Add(mirror);  flags.Add(heal);
+        flagsAdd(protect, mirror, heal);
         PokemonMoves.Add(new Move(
         /*name          */ "Absorb",
         /*num           */  71,
@@ -88,7 +94,7 @@ public class Moves : MonoBehaviour
         ));
         flags.Clear();
 
-        flags.Add(protect); flags.Add(mirror);
+        flagsAdd(protect, mirror);
         PokemonMoves.Add(new Move(
         /*name          */ "Acid",
         /*num           */  51,
@@ -107,7 +113,7 @@ public class Moves : MonoBehaviour
         ));
         flags.Clear();
 
-        flags.Add(snatch);
+        flagsAdd(snatch);
         PokemonMoves.Add(new Move(
         /*name          */ "Acid Armor",
         /*num           */  151,
@@ -125,7 +131,7 @@ public class Moves : MonoBehaviour
         /*contesttype   */  c_Tough
         ));
 
-        flags.Add(contact); flags.Add(protect); flags.Add(mirror); flags.Add(distance);
+        flagsAdd(contact, protect, mirror, distance);
         PokemonMoves.Add(new Move(
         /*name          */ "Acrobatics",
         /*num           */  512,
@@ -144,7 +150,7 @@ public class Moves : MonoBehaviour
         ));
         flags.Clear();
 
-
+        flagsAdd();
         PokemonMoves.Add(new Move(
         /*name          */ "Acupressure",
         /*num           */  367,
@@ -165,9 +171,9 @@ public class Moves : MonoBehaviour
         ));
         flags.Clear();
 
-        flags.Add(contact); flags.Add(protect); flags.Add(mirror); flags.Add(distance);
+        flagsAdd(contact, protect, mirror, distance);
         PokemonMoves.Add(new Move(
-        /*name          */ "Aerialace",
+        /*name          */ "Aerial Ace",
         /*num           */  332,
         /*accuracy      */  100,
         /*basePower     */  60,
@@ -183,6 +189,303 @@ public class Moves : MonoBehaviour
         /*contesttype   */  c_Cool
         ));
         flags.Clear();
+
+        flagsAdd(protect, mirror, distance, highCrit);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Aeroblast",
+        /*num           */  177,
+        /*accuracy      */  95,
+        /*basePower     */  100,
+        /*category      */  Special,
+        /*desc          */  "Has a higher chance for a critical hit.",
+        /*shortDesc     */  "High critical hit ratio.",
+        /*id            */  "aeroblast",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_any,
+        /*type          */  Flying,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "After You",
+        /*num           */  495,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The target makes its move immediately after the user this turn, no matter"+
+        " the priority of its selected move. Fails if the target would have moved next anyway, or if the"+
+        " target already moved this turn.",
+        /*shortDesc     */  "The target makes its move right after the user.",
+        /*id            */  "afteryou",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_normal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Agility",
+        /*num           */  97,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Speed by 2 stages.",
+        /*shortDesc     */  "Raises the user's Speed by 2.",
+        /*id            */  "agility",
+        /*pp            */  30,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_self,
+        /*type          */  Psychic,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror, highCrit);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Air Cutter",
+        /*num           */  314,
+        /*accuracy      */  95,
+        /*basePower     */  60,
+        /*category      */  Special,
+        /*desc          */  "Has a higher chance for a critical hit.",
+        /*shortDesc     */  "High critical hit ratio. Hits adjacent foes.",
+        /*id            */  "aircutter",
+        /*pp            */  25,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_allAdjacent,
+        /*type          */  Flying,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror, distance);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Air Slash",
+        /*num           */  403,
+        /*accuracy      */  95,
+        /*basePower     */  75,
+        /*category      */  Special,
+        /*desc          */  "Has a 30% chance to flinch the target.",
+        /*shortDesc     */  "30% chance to flinch the target.",
+        /*id            */  "airslash",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_any,
+        /*type          */  Flying,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd();
+        PokemonMoves.Add(new Move(
+        /*name          */ "Ally Switch",
+        /*num           */  502,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The user swaps positions with its ally on the opposite side of the field."+
+        " Fails if there is no Pokemon at that position, if the user is the only Pokemon on its side, or"+
+        " if the user is in the middle.",
+        /*shortDesc     */  "Switches position with the ally on the far side.",
+        /*id            */  "allyswitch",
+        /*pp            */  15,
+        /*priority      */  1,
+        /*flags         */  flags,
+        /*target        */  t_self,
+        /*type          */  Psychic,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Amnesia",
+        /*num           */  133,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Special Defense by 2 stages.",
+        /*shortDesc     */  "Raises the user's Sp. Def by 2.",
+        /*id            */  "amnesia",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_self,
+        /*type          */  Psychic,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Ancient Power",
+        /*num           */  246,
+        /*accuracy      */  100,
+        /*basePower     */  60,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to raise the user's Attack, Defense, Special Attack,"+
+        " Special Defense, and Speed by 1 stage.",
+        /*shortDesc     */  "10% chance to raise all stats by 1 (not acc/eva).",
+        /*id            */  "ancientpower",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_normal,
+        /*type          */  Rock,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Aqua Jet",
+        /*num           */  453,
+        /*accuracy      */  100,
+        /*basePower     */  40,
+        /*category      */  Physical,
+        /*desc          */  "No additional effect.",
+        /*shortDesc     */  "Usually goes first.",
+        /*id            */  "aquajet",
+        /*pp            */  20,
+        /*priority      */  1,
+        /*flags         */  flags,
+        /*target        */  t_normal,
+        /*type          */  Water,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Aqua Ring",
+        /*num           */  392,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The user has 1/16 of its maximum HP, rounded down, restored at the end of"+
+        " each turn while it remains active. If the user uses Baton Pass, the replacement will receive the"+
+        " healing effect.",
+        /*shortDesc     */  "User recovers 1/16 max HP per turn.",
+        /*id            */  "aquaring",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_self,
+        /*type          */  Water,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Arm Thrust",
+        /*num           */  292,
+        /*accuracy      */  100,
+        /*basePower     */  15,
+        /*category      */  Physical,
+        /*desc          */  "Hits two to five times. Has a 1/3 chance to hit two or three times, and"+
+        " a 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it"+
+        " will take damage for the remaining hits. If the user has the Ability Skill Link, this move will"+
+        "always hit five times.",
+        /*shortDesc     */  "Hits 2-5 times in one turn.",
+        /*id            */  "armthrust",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_normal,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch, distance);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Aromatherapy",
+        /*num           */  312,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Every Pokemon in the user's party is cured of its major status condition."+
+        " Active Pokemon with the Ability Sap Sipper are not cured, unless they are the user.",
+        /*shortDesc     */  "Cures the user's party of all status conditions.",
+        /*id            */  "aromatherapy",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_allAlly,
+        /*type          */  Grass,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Aromatic Mist",
+        /*num           */  597,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the target's Special Defense by 1 stage. Fails if there is no ally"+
+        " adjacent to the user.",
+        /*shortDesc     */  "Raises an ally's Sp. Def by 1.",
+        /*id            */  "aromaticmist",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_adjacentAlly,
+        /*type          */  Fairy,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd();
+        PokemonMoves.Add(new Move(
+        /*name          */ "Assist",
+        /*num           */  274,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "A random move among those known by the user's party members is selected for"+
+        " use. Does not select Assist, Belch, Bestow, Bounce, Chatter, Circle Throw, Copycat, Counter, "+
+        "Covet, Destiny Bond, Detect, Dig, Dive, Dragon Tail, Endure, Feint, Fly, Focus Punch, Follow Me,"+
+        " Helping Hand, Hold Hands, King's Shield, Mat Block, Me First, Metronome, Mimic, Mirror Coat, "+
+        "Mirror Move, Nature Power, Phantom Force, Protect, Rage Powder, Roar, Shadow Force, Sketch, "+
+        "Sky Drop, Sleep Talk, Snatch, Spiky Shield, Struggle, Switcheroo, Thief, Transform, Trick, or "+
+        "Whirlwind.",
+        /*shortDesc     */  "Uses a random move known by a team member.",
+        /*id            */  "assist",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  t_self,
+        /*type          */  t_normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+    }
+
+    private void flagsAdd(params string[] s)
+    {
+        if(s.Length == 0)
+        {
+            return;
+        }
+
+        for(int i = 0; i < s.Length; i++)
+        {
+            flags.Add(s[i]);
+        }
     }
 
     public struct Move
@@ -223,4 +526,5 @@ public class Moves : MonoBehaviour
             contestType = m_contestType;
         }
     }
+
 }
