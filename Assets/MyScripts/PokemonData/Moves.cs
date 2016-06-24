@@ -28,7 +28,7 @@ public class Moves : MonoBehaviour
 
     private readonly string highCrit = "highcritical"; //:has a 2x critical hit ratio
 
-    //Categories Of Attacks
+    #region Categories Of Attacks
     private readonly string Normal = "Normal";
     private readonly string Fighting = "Fighting";
     private readonly string Water = "Water";
@@ -45,36 +45,62 @@ public class Moves : MonoBehaviour
     private readonly string Bug = "Bug";
     private readonly string Rock = "Rock";
     private readonly string Electric = "Electric";
+
     private readonly string Fairy = "Fairy";
+    private readonly string Steel = "Steel";
+    #endregion
 
 
-    //Types Of Attacks
-    private readonly string Special = "Special";
-    private readonly string Physical = "Physical";
-    private readonly string Status = "Status";
+    #region Types Of Attacks
+    public readonly string Special = "Special";
+    public readonly string Physical = "Physical";
+    public readonly string Status = "Status";
+    #endregion
 
-    //Contest Types
+    #region Contest Types
     private readonly string c_Clever = "Clever";
     private readonly string c_Tough = "Tough";
     private readonly string c_Beautiful = "Beautiful";
     private readonly string c_Cool = "Cool";
     private readonly string c_Cute = "Cute";
+    #endregion
 
-    //Target Types
-    private readonly string t_normal = "normal";
-    private readonly string t_allAdjacent = "allAdjacentFoes";
-    private readonly string t_self = "self";
-    private readonly string t_allAlly_Self = "adjacentAllyOrSelf";
-    private readonly string t_any = "any";
-    private readonly string t_allAlly = "allyTeam";
-    private readonly string t_adjacentAlly = "adjacentAlly";
+    #region Target Types
+    private readonly string tNormal = "normal";
+    private readonly string tAllAdjacent = "allAdjacentFoes";
+    private readonly string tSelf = "self";
+    private readonly string tAllAlly_Self = "adjacentAllyOrSelf";
+    private readonly string tAny = "any";
+    private readonly string tAllAlly = "allyTeam";
+    private readonly string tAdjacentAlly = "adjacentAlly";
+    #endregion
 
     public List<Move> PokemonMoves = new List<Move>();
     private List<string> flags = new List<string>();
 
-    public void Moves_A_E()
+    void Start()
     {
+        InitalizeMovesDataBase();
+    }
 
+    private void InitalizeMovesDataBase()
+    {
+        float time1 = Time.time;
+
+        moves_A();
+        moves_B();
+
+
+        float time2 = Time.time;
+        float totaltime = time2 - time1;
+        Debug.Log(string.Format("Took {0} seconds", totaltime));
+    }
+
+    /// <summary>
+    /// All the moves that start with the letter A (30)
+    /// </summary>
+    private void moves_A()
+    {
         flagsAdd(protect, mirror, heal);
         PokemonMoves.Add(new Move(
         /*name          */ "Absorb",
@@ -82,13 +108,14 @@ public class Moves : MonoBehaviour
         /*accuracy      */  100,
         /*basePower     */  20,
         /*category      */  Special,
-        /*desc          */  "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+        /*desc          */  "The user recovers 1/2 the HP lost by the target, rounded half up. If Big"+
+        " Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
         /*shortDesc     */  "User recovers 50% of the damage dealt.",
         /*id            */  "absorb",
         /*pp            */  25,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_normal,
+        /*target        */  tNormal,
         /*type          */  Grass,
         /*contesttype   */  c_Clever
         ));
@@ -107,7 +134,7 @@ public class Moves : MonoBehaviour
         /*pp            */  30,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_allAdjacent,
+        /*target        */  tAllAdjacent,
         /*type          */  Poison,
         /*contesttype   */  "Clever"
         ));
@@ -126,7 +153,7 @@ public class Moves : MonoBehaviour
         /*pp            */  20,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_self,
+        /*target        */  tSelf,
         /*type          */  Poison,
         /*contesttype   */  c_Tough
         ));
@@ -144,7 +171,7 @@ public class Moves : MonoBehaviour
         /*pp            */  15,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_normal,
+        /*target        */  tNormal,
         /*type          */  Flying,
         /*contesttype   */  c_Cool
         ));
@@ -165,7 +192,7 @@ public class Moves : MonoBehaviour
         /*pp            */  30,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_allAlly_Self,
+        /*target        */  tAllAlly_Self,
         /*type          */  Normal,
         /*contesttype   */  c_Tough
         ));
@@ -184,7 +211,7 @@ public class Moves : MonoBehaviour
         /*pp            */  20,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_any,
+        /*target        */  tAny,
         /*type          */  Flying,
         /*contesttype   */  c_Cool
         ));
@@ -203,7 +230,7 @@ public class Moves : MonoBehaviour
         /*pp            */  5,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_any,
+        /*target        */  tAny,
         /*type          */  Flying,
         /*contesttype   */  c_Cool
         ));
@@ -224,7 +251,7 @@ public class Moves : MonoBehaviour
         /*pp            */  15,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_normal,
+        /*target        */  tNormal,
         /*type          */  Normal,
         /*contesttype   */  c_Cute
         ));
@@ -243,7 +270,7 @@ public class Moves : MonoBehaviour
         /*pp            */  30,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_self,
+        /*target        */  tSelf,
         /*type          */  Psychic,
         /*contesttype   */  c_Cool
         ));
@@ -262,7 +289,7 @@ public class Moves : MonoBehaviour
         /*pp            */  25,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_allAdjacent,
+        /*target        */  tAllAdjacent,
         /*type          */  Flying,
         /*contesttype   */  c_Cool
         ));
@@ -281,7 +308,7 @@ public class Moves : MonoBehaviour
         /*pp            */  15,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_any,
+        /*target        */  tAny,
         /*type          */  Flying,
         /*contesttype   */  c_Cool
         ));
@@ -302,7 +329,7 @@ public class Moves : MonoBehaviour
         /*pp            */  15,
         /*priority      */  1,
         /*flags         */  flags,
-        /*target        */  t_self,
+        /*target        */  tSelf,
         /*type          */  Psychic,
         /*contesttype   */  c_Clever
         ));
@@ -321,7 +348,7 @@ public class Moves : MonoBehaviour
         /*pp            */  20,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_self,
+        /*target        */  tSelf,
         /*type          */  Psychic,
         /*contesttype   */  c_Cute
         ));
@@ -341,7 +368,7 @@ public class Moves : MonoBehaviour
         /*pp            */  5,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_normal,
+        /*target        */  tNormal,
         /*type          */  Rock,
         /*contesttype   */  c_Tough
         ));
@@ -360,7 +387,7 @@ public class Moves : MonoBehaviour
         /*pp            */  20,
         /*priority      */  1,
         /*flags         */  flags,
-        /*target        */  t_normal,
+        /*target        */  tNormal,
         /*type          */  Water,
         /*contesttype   */  c_Cool
         ));
@@ -381,7 +408,7 @@ public class Moves : MonoBehaviour
         /*pp            */  20,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_self,
+        /*target        */  tSelf,
         /*type          */  Water,
         /*contesttype   */  c_Beautiful
         ));
@@ -403,7 +430,7 @@ public class Moves : MonoBehaviour
         /*pp            */  20,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_normal,
+        /*target        */  tNormal,
         /*type          */  Fighting,
         /*contesttype   */  c_Tough
         ));
@@ -423,7 +450,7 @@ public class Moves : MonoBehaviour
         /*pp            */  5,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_allAlly,
+        /*target        */  tAllAlly,
         /*type          */  Grass,
         /*contesttype   */  c_Clever
         ));
@@ -443,7 +470,7 @@ public class Moves : MonoBehaviour
         /*pp            */  20,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_adjacentAlly,
+        /*target        */  tAdjacentAlly,
         /*type          */  Fairy,
         /*contesttype   */  c_Beautiful
         ));
@@ -468,13 +495,400 @@ public class Moves : MonoBehaviour
         /*pp            */  20,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  t_self,
-        /*type          */  t_normal,
+        /*target        */  tSelf,
+        /*type          */  Normal,
         /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(contact,protect,mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Assurance",
+        /*num           */  372,
+        /*accuracy      */  100,
+        /*basePower     */  60,
+        /*category      */  Physical,
+        /*desc          */  "Power doubles if the target has already taken damage this turn, other than"+
+        " direct damage from Belly Drum, confusion, Curse, or Pain Split.",
+        /*shortDesc     */  "Power doubles if target was damaged this turn.",
+        /*id            */  "assurance",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Dark,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Astonish",
+        /*num           */  310,
+        /*accuracy      */  100,
+        /*basePower     */  30,
+        /*category      */  Physical,
+        /*desc          */  "Has a 30% chance to flinch the target.",
+        /*shortDesc     */  "30% chance to flinch the target.",
+        /*id            */  "astonish",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ghost,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(highCrit, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Attack Order",
+        /*num           */  454,
+        /*accuracy      */  100,
+        /*basePower     */  90,
+        /*category      */  Physical,
+        /*desc          */  "Has a higher chance for a critical hit.",
+        /*shortDesc     */  "High critical hit ratio.",
+        /*id            */  "attackorder",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Bug,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, reflectable, mirror, authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Attract",
+        /*num           */  213,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Causes the target to become infatuated, making it unable to attack 50% of"+
+        " the time. Fails if both the user and the target are the same gender, if either is genderless,"+
+        " or if the target is already infatuated. The effect ends when either the user or the target is "+
+        "no longer active. Pokemon with the Ability Oblivious or protected by the Ability Aroma Veil are "+
+        "immune.",
+        /*shortDesc     */  "A target of the opposite gender gets infatuated.",
+        /*id            */  "attract",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(bullet, protect, pulse, mirror, distance);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Aura Sphere",
+        /*num           */  396,
+        /*accuracy      */  100,
+        /*basePower     */  80,
+        /*category      */  Special,
+        /*desc          */  "This move does not check accuracy.",
+        /*shortDesc     */  "This move does not check accuracy.",
+        /*id            */  "aurasphere",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAny,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Aurora Beam",
+        /*num           */  62,
+        /*accuracy      */  100,
+        /*basePower     */  80,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to lower the target's Attack by 1 stage.",
+        /*shortDesc     */  "10% chance to lower the foe's Attack by 1.",
+        /*id            */  "aurorabeam",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ice,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Autotomize",
+        /*num           */  475,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Speed by 2 stages. If the user's Speed was changed, the"+
+        " user's weight is reduced by 100kg as long as it remains active. This effect is stackable but"+
+        " cannot reduce the user's weight to less than 0.1kg.",
+        /*shortDesc     */  "Raises the user's Speed by 2; user loses 100 kg.",
+        /*id            */  "autotomize",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Steel,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Avalanche",
+        /*num           */  4719,
+        /*accuracy      */  100,
+        /*basePower     */  60,
+        /*category      */  Physical,
+        /*desc          */  "Power doubles if the user was hit by the target this turn.",
+        /*shortDesc     */  "Power doubles if user is damaged by the target.",
+        /*id            */  "avalanche",
+        /*pp            */  10,
+        /*priority      */  -4,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ice,
+        /*contesttype   */  c_Beautiful
         ));
         flags.Clear();
     }
 
+    /// <summary>
+    /// All the moves that start with the letter B
+    /// </summary>
+    private void moves_B()
+    {
+        flagsAdd(protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Baby-Doll Eyes",
+        /*num           */  608,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Lowers the target's Attack by 1 stage.",
+        /*shortDesc     */  "Lowers the target's Attack by 1.",
+        /*id            */  "babydolleyes",
+        /*pp            */  30,
+        /*priority      */  1,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fairy,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(bullet, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Barrage",
+        /*num           */  140,
+        /*accuracy      */  85,
+        /*basePower     */  15,
+        /*category      */  Physical,
+        /*desc          */  "Hits two to five times. Has a 1/3 chance to hit two or three times, and"+
+        " a 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it"+
+        " will take damage for the remaining hits. If the user has the Ability Skill Link, this move will"+
+        " always hit five times.",
+        /*shortDesc     */  "Hits 2-5 times in one turn.",
+        /*id            */  "barrage",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  tNormal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Barrier",
+        /*num           */  112,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Defense by 2 stages.",
+        /*shortDesc     */  "Raises the user's Defense by 2.",
+        /*id            */  "barrier",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Psychic,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd();
+        PokemonMoves.Add(new Move(
+        /*name          */ "Baton Pass",
+        /*num           */  226,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The user is replaced with another Pokemon in its party. The selected"+
+        " Pokemon has the user's stat stage changes, confusion, and certain move effects transferred"+
+        " to it.",
+        /*shortDesc     */  "User switches, passing stat changes and more.",
+        /*id            */  "batonpass",
+        /*pp            */  40,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Beat Up",
+        /*num           */  251,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Physical,
+        /*desc          */  "Hits one time for the user and one time for each unfainted Pokemon"+
+        " without a major status condition in the user's party. The power of each hit is equal to 5+(X/10)"+
+        ", where X is each participating Pokemon's base Attack; each hit is considered to come from the"+
+        " user.",
+        /*shortDesc     */  "All healthy allies aid in damaging the target.",
+        /*id            */  "beatup",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Dark,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(protect);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Belch",
+        /*num           */  562,
+        /*accuracy      */  90,
+        /*basePower     */  120,
+        /*category      */  Special,
+        /*desc          */  "This move cannot be selected until the user eats a Berry, either by eating"+
+        " one that was held, stealing and eating one off another Pokemon with Bug Bite or Pluck, or eating"+
+        " one that was thrown at it with Fling. Once the condition is met, this move can be selected and"+
+        " used for the rest of the battle even if the user gains or uses another item or switches out."+
+        " Consuming a Berry with Natural Gift does not count for the purposes of eating one.",
+        /*shortDesc     */  "Cannot be selected until the user eats a Berry.",
+        /*id            */  "belch",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Poison,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Belly Drum",
+        /*num           */  187,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Attack by 12 stages in exchange for the user losing 1/2"+
+        " of its maximum HP, rounded down. Fails if the user would faint or if its Attack stat stage is"+
+        " 6.",
+        /*shortDesc     */  "User loses 50% max HP. Maximizes Attack.",
+        /*id            */  "bellydrum",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(mirror, authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bestow",
+        /*num           */  516,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The target receives the user's held item. Fails if the user has no item or"+
+        " is holding a Mail, if the target is already holding an item, if the user is a Kyogre holding a"+
+        " Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a"+
+        " Plate, a Genesect holding a Drive, a Pokemon that can Mega Evolve holding the Mega Stone for its"+
+        " species, or if the target is one of those Pokemon and the user is holding the respective item.",
+        /*shortDesc     */  "User passes its held item to the target.",
+        /*id            */  "bestow",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bide",
+        /*num           */  117,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Physical,
+        /*desc          */  "The user spends two turns locked into this move and then, on the "+
+        " turn after using this move, the user attacks the last Pokemon that hit it, inflicting"+
+        " double the damage in HP it lost during the two turns. If the last Pokemon that hit it is"+
+        " no longer on the field, the user attacks a random foe instead. If the user is prevented from"+
+        " moving during this move's use, the effect ends. This move does not check accuracy.",
+        /*shortDesc     */  "Waits 2 turns; deals double the damage taken.",
+        /*id            */  "bide",
+        /*pp            */  10,
+        /*priority      */  1,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Normal,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bind",
+        /*num           */  20,
+        /*accuracy      */  85,
+        /*basePower     */  15,
+        /*category      */  Physical,
+        /*desc          */  "Prevents the target from switching for four or five turns; seven turns if the"+
+        " user is holding Grip Claw. Causes damage to the target equal to 1/8 of its maximum HP"+
+        " (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect."+
+        " The target can still switch out if it is holding Shed Shell or uses Baton Pass, Parting Shot,"+
+        " U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if"+
+        " the target uses Rapid Spin or Substitute. This effect is not stackable or reset by using this or"+
+        " another partial-trapping move.",
+        /*shortDesc     */  "Traps and damages the target for 4-5 turns.",
+        /*id            */  "bide",
+        /*pp            */  20,
+        /*priority      */  1,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+    }
+
+    /// <summary>
+    /// Takes in an infinite number of strings that are associated with the flags to add them all in one method
+    /// </summary>
+    /// <param name="s">flag strings</param>
     private void flagsAdd(params string[] s)
     {
         if(s.Length == 0)
@@ -490,20 +904,20 @@ public class Moves : MonoBehaviour
 
     public struct Move
     {
-        string name;
-        int num;
-        int accuracy;
-        int basePower;
-        string category;
-        string desc;
-        string shortDesc;
-        string id;
-        int pp;
-        int priority;
-        List<string> flags;
-        string target;
-        string type;
-        string contestType;
+        public string name;
+        public int num;
+        public int accuracy;
+        public int basePower;
+        public string category;
+        public string desc;
+        public string shortDesc;
+        public string id;
+        public int pp;
+        public int priority;
+        public List<string> flags;
+        public string target;
+        public string type;
+        public string contestType;
 
         public Move(string m_name, int m_num, int m_accuracy, int m_basePower, string m_category,
             string m_desc, string m_shortDesc, string m_id, int m_pp,

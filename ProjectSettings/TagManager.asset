@@ -13,6 +13,7 @@ TagManager:
   - TurnController
   - dmg_mult
   - AttackData
+  - Moves
   layers:
   - Default
   - TransparentFX
