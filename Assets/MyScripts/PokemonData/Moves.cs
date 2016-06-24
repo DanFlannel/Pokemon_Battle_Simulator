@@ -67,7 +67,7 @@ public class Moves : MonoBehaviour
 
     #region Target Types
     private readonly string tNormal = "normal";
-    private readonly string tAllAdjacent = "allAdjacentFoes";
+    private readonly string tAllAdjacentFoes = "allAdjacentFoes";
     private readonly string tSelf = "self";
     private readonly string tAllAlly_Self = "adjacentAllyOrSelf";
     private readonly string tAny = "any";
@@ -134,7 +134,7 @@ public class Moves : MonoBehaviour
         /*pp            */  30,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  tAllAdjacent,
+        /*target        */  tAllAdjacentFoes,
         /*type          */  Poison,
         /*contesttype   */  "Clever"
         ));
@@ -289,7 +289,7 @@ public class Moves : MonoBehaviour
         /*pp            */  25,
         /*priority      */  0,
         /*flags         */  flags,
-        /*target        */  tAllAdjacent,
+        /*target        */  tAllAdjacentFoes,
         /*type          */  Flying,
         /*contesttype   */  c_Cool
         ));
@@ -877,6 +877,144 @@ public class Moves : MonoBehaviour
         /*id            */  "bide",
         /*pp            */  20,
         /*priority      */  1,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(bite, contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bite",
+        /*num           */  44,
+        /*accuracy      */  100,
+        /*basePower     */  60,
+        /*category      */  Physical,
+        /*desc          */  "Has a 30% chance to flinch the target.",
+        /*shortDesc     */  "30% chance to flinch the target.",
+        /*id            */  "bite",
+        /*pp            */  25,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Dark,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(recharge, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Blast Burn",
+        /*num           */  307,
+        /*accuracy      */  90,
+        /*basePower     */  150,
+        /*category      */  Special,
+        /*desc          */  "If this move is successful, the user must recharge on the following turn "+
+        "and cannot make a move.",
+        /*shortDesc     */  "User cannot move next turn.",
+        /*id            */  "blastburn",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(contact, protect, mirror, highCrit);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Blaze Kick",
+        /*num           */  299,
+        /*accuracy      */  90,
+        /*basePower     */  85,
+        /*category      */  Physical,
+        /*desc          */  "Has a 10% chance to burn the target and a higher chance for a critical hit.",
+        /*shortDesc     */  "High critical hit ratio. 10% chance to burn.",
+        /*id            */  "blazekick",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Blizzard",
+        /*num           */  59,
+        /*accuracy      */  70,
+        /*basePower     */  110,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to freeze the target. If the weather is Hail, this move does"+
+        " not check accuracy.",
+        /*shortDesc     */  "High critical hit ratio. 10% chance to burn.",
+        /*id            */  "blizzard",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAllAdjacentFoes,
+        /*type          */  Ice,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Block",
+        /*num           */  355,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Prevents the target from switching out. The target can still switch out if it"+
+        " is holding Shed Shell or uses Baton Pass, Parting Shot, U-turn, or Volt Switch. If the target"+
+        " leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the "+
+        "user leaves the field.",
+        /*shortDesc     */  "The target cannot switch out.",
+        /*id            */  "block",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Blue Flare",
+        /*num           */  551,
+        /*accuracy      */  85,
+        /*basePower     */  130,
+        /*category      */  Special,
+        /*desc          */  "Has a 20% chance to burn the target.",
+        /*shortDesc     */  "20% chance to burn the target.",
+        /*id            */  "blueflare",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror, nonsky);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Body Slam",
+        /*num           */  34,
+        /*accuracy      */  100,
+        /*basePower     */  85,
+        /*category      */  Physical,
+        /*desc          */  "Has a 30% chance to paralyze the target. Damage doubles and no accuracy"+
+        " check is done if the target has used Minimize while active.",
+        /*shortDesc     */  "30% chance to paralyze the target.",
+        /*id            */  "bodyslam",
+        /*pp            */  15,
+        /*priority      */  0,
         /*flags         */  flags,
         /*target        */  tNormal,
         /*type          */  Normal,
