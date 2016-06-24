@@ -73,6 +73,8 @@ public class Moves : MonoBehaviour
     private readonly string tAny = "any";
     private readonly string tAllAlly = "allyTeam";
     private readonly string tAdjacentAlly = "adjacentAlly";
+    private readonly string tAllAdjacent = "allAdjacent";
+    private readonly string tScripted = "scripted";
     #endregion
 
     public List<Move> PokemonMoves = new List<Move>();
@@ -89,6 +91,7 @@ public class Moves : MonoBehaviour
 
         moves_A();
         moves_B();
+        moves_C();
 
 
         float time2 = Time.time;
@@ -1019,6 +1022,1041 @@ public class Moves : MonoBehaviour
         /*target        */  tNormal,
         /*type          */  Normal,
         /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bolt Strike",
+        /*num           */  550,
+        /*accuracy      */  85,
+        /*basePower     */  130,
+        /*category      */  Physical,
+        /*desc          */  "Has a 20% chance to paralyze the target.",
+        /*shortDesc     */  "20% chance to paralyze the target.",
+        /*id            */  "boltstrike",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Electric,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bone Club",
+        /*num           */  125,
+        /*accuracy      */  85,
+        /*basePower     */  65,
+        /*category      */  Physical,
+        /*desc          */  "Has a 10% chance to flinch the target.",
+        /*shortDesc     */  "10% chance to flinch the target.",
+        /*id            */  "boneclub",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ground,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bone Rush",
+        /*num           */  198,
+        /*accuracy      */  90,
+        /*basePower     */  25,
+        /*category      */  Physical,
+        /*desc          */  "Hits two to five times. Has a 1/3 chance to hit two or three times, and a"+
+        " 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it "+
+        "will take damage for the remaining hits. If the user has the Ability Skill Link, this move will"+
+        " always hit five times.",
+        /*shortDesc     */  "Hits 2-5 times in one turn.",
+        /*id            */  "bonerush",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ground,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bonemerang",
+        /*num           */  155,
+        /*accuracy      */  90,
+        /*basePower     */  50,
+        /*category      */  Special,
+        /*desc          */  "Hits twice. If the first hit breaks the target's substitute, it will take"+
+        " damage for the second hit.",
+        /*shortDesc     */  "Hits 2 times in one turn.",
+        /*id            */  "bonemerang",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ground,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, charge, protect, mirror, gravity, distance);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bounce",
+        /*num           */  340,
+        /*accuracy      */  85,
+        /*basePower     */  85,
+        /*category      */  Physical,
+        /*desc          */  "Has a 30% chance to paralyze the target. This attack charges on the first"+
+        " turn and executes on the second. On the first turn, the user avoids all attacks other than Gust,"+
+        " Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister. If the user is"+
+        " holding a Power Herb, the move completes in one turn.",
+        /*shortDesc     */  "Bounces turn 1. Hits turn 2. 30% paralyze.",
+        /*id            */  "bounce",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAny,
+        /*type          */  Flying,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror, distance);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Brave Bird",
+        /*num           */  413,
+        /*accuracy      */  100,
+        /*basePower     */  120,
+        /*category      */  Physical,
+        /*desc          */  "If the target lost HP, the user takes recoil damage equal to 33% the HP"+
+        " lost by the target, rounded half up, but not less than 1 HP.",
+        /*shortDesc     */  "Has 33% recoil.",
+        /*id            */  "bravebird",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAny,
+        /*type          */  Flying,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Brick Break",
+        /*num           */  280,
+        /*accuracy      */  100,
+        /*basePower     */  75,
+        /*category      */  Physical,
+        /*desc          */  "If this attack does not miss, the effects of Reflect and Light Screen end"+
+        " for the target's side of the field before damage is calculated.",
+        /*shortDesc     */  "Destroys screens, unless the target is immune.",
+        /*id            */  "brickbreak",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Brine",
+        /*num           */  362,
+        /*accuracy      */  100,
+        /*basePower     */  65,
+        /*category      */  Physical,
+        /*desc          */  "Power doubles if the target has less than or equal to half of its maximum"+
+        " HP remaining.",
+        /*shortDesc     */  "Power doubles if the target's HP is 50% or less.",
+        /*id            */  "brine",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Water,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bubble",
+        /*num           */  145,
+        /*accuracy      */  100,
+        /*basePower     */  40,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to lower the target's Speed by 1 stage.",
+        /*shortDesc     */  "10 % chance to lower the foe(s) Speed by 1.",
+        /*id            */  "bubble",
+        /*pp            */  30,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAllAdjacentFoes,
+        /*type          */  Water,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bubble Beam",
+        /*num           */  61,
+        /*accuracy      */  100,
+        /*basePower     */  65,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to lower the target's Speed by 1 stage.",
+        /*shortDesc     */  "10 % chance to lower the target's Speed by 1.",
+        /*id            */  "bubblebeam",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Water,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror, sound, authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bug Buzz",
+        /*num           */  405,
+        /*accuracy      */  100,
+        /*basePower     */  90,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        /*shortDesc     */  "10% chance to lower the target's Sp. Def. by 1.",
+        /*id            */  "bugbuzz",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Bug,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bulk Up",
+        /*num           */  339,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Attack and Defense by 1 stage.",
+        /*shortDesc     */  "Raises the user's Attack and Defense by 1.",
+        /*id            */  "bulkup",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror, nonsky);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bulldoze",
+        /*num           */  523,
+        /*accuracy      */  100,
+        /*basePower     */  60,
+        /*category      */  Physical,
+        /*desc          */  "Has a 100% chance to lower the target's Speed by 1 stage.",
+        /*shortDesc     */  "100% chance to lower adjacent Pkmn Speed by 1.",
+        /*id            */  "bulldoze",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAllAdjacent,
+        /*type          */  Ground,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror, punch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bullet Punch",
+        /*num           */  418,
+        /*accuracy      */  100,
+        /*basePower     */  40,
+        /*category      */  Physical,
+        /*desc          */  "No additional effect.",
+        /*shortDesc     */  "Usually goes first.",
+        /*id            */  "bulletpunch",
+        /*pp            */  30,
+        /*priority      */  1,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Steel,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(bullet, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Bullet Seed",
+        /*num           */  331,
+        /*accuracy      */  100,
+        /*basePower     */  25,
+        /*category      */  Physical,
+        /*desc          */  "Hits two to five times. Has a 1/3 chance to hit two or three times, and a"+
+        " 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it "+
+        "will take damage for the remaining hits. If the user has the Ability Skill Link, this move will"+
+        " always hit five times.",
+        /*shortDesc     */  "Hits 2-5 times in one turn.",
+        /*id            */  "bulletseed",
+        /*pp            */  30,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ground,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+    }
+
+    /// <summary>
+    /// All the moves that start with the letter C
+    /// </summary>
+    private void moves_C()
+    {
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Calm Mind",
+        /*num           */  347,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Special Attack and Special Defense by 1 stage.",
+        /*shortDesc     */  "Raises the user's Sp. Atk and Sp. Def by 1.",
+        /*id            */  "calmmind",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Psychic,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Camouflage",
+        /*num           */  293,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The user's type changes based on the battle terrain. Normal type on the"+
+        " regular Wi-Fi terrain, Electric type during Electric Terrain, Fairy type during Misty Terrain,"+
+        " and Grass type during Grassy Terrain. Fails if the user's type cannot be changed or if the user"+
+        " is already purely that type.",
+        /*shortDesc     */  "Changes user's type by terrain (default Normal).",
+        /*id            */  "camouflage",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Normal,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Captivate",
+        /*num           */  445,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Lowers the target's Special Attack by 2 stages. The target is unaffected"+
+        " if both the user and the target are the same gender, or if either is genderless. Pokemon with"+
+        " the Ability Oblivious are immune.",
+        /*shortDesc     */  "Lowers the foe(s) Sp. Atk by 2 if opposite gender.",
+        /*id            */  "captivate",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAllAdjacentFoes,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd();
+        PokemonMoves.Add(new Move(
+        /*name          */ "Celebrate",
+        /*num           */  606,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "It is your birthday.",
+        /*shortDesc     */  "No competitive use. Or any use.",
+        /*id            */  "celebrate",
+        /*pp            */  40,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Charge Beam",
+        /*num           */  451,
+        /*accuracy      */  90,
+        /*basePower     */  50,
+        /*category      */  Special,
+        /*desc          */  "Has a 70% chance to raise the user's Special Attack by 1 stage.",
+        /*shortDesc     */  "70% chance to raise the user's Sp. Atk by 1.",
+        /*id            */  "chargebeam",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Electric,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Charm",
+        /*num           */  204,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Lowers the target's Attack by 2 stages.",
+        /*shortDesc     */  "Lowers the target's Attack by 2 stages.",
+        /*id            */  "charm",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fairy,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror, sound, distance, authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Chatter",
+        /*num           */  448,
+        /*accuracy      */  100,
+        /*basePower     */  65,
+        /*category      */  Special,
+        /*desc          */  "Has a 100% chance to confuse the target.",
+        /*shortDesc     */  "100% chance to confuse the target.",
+        /*id            */  "chatter",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAny,
+        /*type          */  Flying,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Chip Away",
+        /*num           */  498,
+        /*accuracy      */  100,
+        /*basePower     */  70,
+        /*category      */  Physical,
+        /*desc          */  "Ignores the target's stat stage changes, including evasiveness.",
+        /*shortDesc     */  "Ignores the target's stat stage changes.",
+        /*id            */  "chipaway",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Circle Throw",
+        /*num           */  509,
+        /*accuracy      */  90,
+        /*basePower     */  60,
+        /*category      */  Physical,
+        /*desc          */  "If both the user and the target have not fainted, the target is forced to"+
+        " switch out and be replaced with a random unfainted ally. This effect fails if the target used"+
+        " Ingrain previously, has the Ability Suction Cups, or this move hit a substitute.",
+        /*shortDesc     */  "Forces the target to switch to a random ally.",
+        /*id            */  "circlethrow",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Clamp",
+        /*num           */  128,
+        /*accuracy      */  85,
+        /*basePower     */  35,
+        /*category      */  Physical,
+        /*desc          */  "Prevents the target from switching for four or five turns; seven turns if"+
+        " the user is holding Grip Claw. Causes damage to the target equal to 1/8 of its maximum HP "+
+        "(1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect."+
+        " The target can still switch out if it is holding Shed Shell or uses Baton Pass, Parting Shot,"+
+        " U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or "+
+        "if the target uses Rapid Spin or Substitute. This effect is not stackable or reset by using this"+
+        " or another partial-trapping move.",
+        /*shortDesc     */  "Traps and damages the target for 4-5 turns.",
+        /*id            */  "clamp",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Water,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Clear Smog",
+        /*num           */  499,
+        /*accuracy      */  100,
+        /*basePower     */  50,
+        /*category      */  Special,
+        /*desc          */  "Resets all of the target's stat stages to 0.",
+        /*shortDesc     */  "Eliminates the target's stat changes.",
+        /*id            */  "clearsmog",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Poison,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Close Combat",
+        /*num           */  370,
+        /*accuracy      */  100,
+        /*basePower     */  120,
+        /*category      */  Physical,
+        /*desc          */  "Lowers the user's Defense and Special Defense by 1 stage.",
+        /*shortDesc     */  "Lowers the user's Defense and Sp. Def by 1.",
+        /*id            */  "closecombat",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Coil",
+        /*num           */  489,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Attack, Defense, and accuracy by 1 stage.",
+        /*shortDesc     */  "Raises the user's Attack, Defense, and accuracy by 1.",
+        /*id            */  "coil",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Poison,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror, punch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Comet Punch",
+        /*num           */  4,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Hits two to five times. Has a 1/3 chance to hit two or three times, and a"+
+        " 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it"+
+        " will take damage for the remaining hits. If the user has the Ability Skill Link, this move will"+
+        " always hit five times.",
+        /*shortDesc     */  "Hits 2-5 times in one turn.",
+        /*id            */  "cometpunch",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(reflectable, mirror, sound, authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Confide",
+        /*num           */  590,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Lowers the target's Special Attack by 1 stage.",
+        /*shortDesc     */  "Lowers the target's Special Attack by 1.",
+        /*id            */  "confide",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Confuse Ray",
+        /*num           */  109,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Causes the target to become confused.",
+        /*shortDesc     */  "Confuses the target.",
+        /*id            */  "confuseray",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ghost,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Confusion",
+        /*num           */  93,
+        /*accuracy      */  100,
+        /*basePower     */  50,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to confuse the target.",
+        /*shortDesc     */  "10% chance to confuse the target.",
+        /*id            */  "confusion",
+        /*pp            */  25,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Psychic,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Constrict",
+        /*num           */  132,
+        /*accuracy      */  100,
+        /*basePower     */  10,
+        /*category      */  Physical,
+        /*desc          */  "Has a 10% chance to lower the target's Speed by 1 stage.",
+        /*shortDesc     */  "10% chance to lower the target's Speed by 1.",
+        /*id            */  "constrict",
+        /*pp            */  35,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Conversion",
+        /*num           */  160,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The user's type changes to match the original type of the move in its first"+
+        " move slot. Fails if the user cannot change its type, or if the type is one of the user's current"+
+        " types.",
+        /*shortDesc     */  "Changes user's type to match its first move.",
+        /*id            */  "conversion",
+        /*pp            */  30,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Normal,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Conversion2",
+        /*num           */  176,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The user's type changes to match a type that resists or is immune to the type"+
+        " of the last move used by the target, but not either of its current types. The determined type of"+
+        " the move is used rather than the original type. Fails if the target has not made a move, if the"+
+        " user cannot change its type, or if this move would only be able to select one of the user's "+
+        "current types.",
+        /*shortDesc     */  "Changes user's type to resist target's last move.",
+        /*id            */  "conversion2",
+        /*pp            */  30,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd();
+        PokemonMoves.Add(new Move(
+        /*name          */ "Copycat",
+        /*num           */  383,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The user uses the last move used by any Pokemon, including itself. Fails if"+
+        " no move has been used, or if the last move used was Assist, Belch, Bestow, Chatter, Circle Throw,"+
+        " Copycat, Counter, Covet, Destiny Bond, Detect, Dragon Tail, Endure, Feint, Focus Punch, Follow Me"+
+        ", Helping Hand, Hold Hands, King's Shield, Mat Block, Me First, Metronome, Mimic, Mirror Coat, "+
+        "Mirror Move, Nature Power, Protect, Rage Powder, Roar, Sketch, Sleep Talk, Snatch, Spiky Shield, "+
+        "Struggle, Switcheroo, Thief, Transform, Trick, or Whirlwind.",
+        /*shortDesc     */  "Uses the last move used in the battle.",
+        /*id            */  "copycat",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Cosmic Power",
+        /*num           */  332,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Defense and Special Defense by 1 stage.",
+        /*shortDesc     */  "Raises the user's Defense and Sp. Def by 1.",
+        /*id            */  "cosmicpower",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Psychic,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Cotton Guard",
+        /*num           */  583,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's Defense by 3 stages.",
+        /*shortDesc     */  "Raises the user's Defense by 3.",
+        /*id            */  "cottonguard",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Grass,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(powder, protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Cotton Spore",
+        /*num           */  178,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Lowers the target's Speed by 2 stages.",
+        /*shortDesc     */  "Lowers the target's Speed by 2.",
+        /*id            */  "cottonspore",
+        /*pp            */  40,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAllAdjacentFoes,
+        /*type          */  Grass,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Counter",
+        /*num           */  68,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Physical,
+        /*desc          */  "Deals damage to the last foe to hit the user with a physical attack this"+
+        " turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from"+
+        " the attack, this move deals damage with a Base Power of 1 instead. If that foe's position is no"+
+        " longer in use, the damage is done to a random foe in range. Only the last hit of a multi-hit"+
+        " attack is counted. Fails if the user was not hit by a foe's physical attack this turn.",
+        /*shortDesc     */  "If hit by physical attack, returns double damage.",
+        /*id            */  "counter",
+        /*pp            */  20,
+        /*priority      */  -5,
+        /*flags         */  flags,
+        /*target        */  tScripted,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Covet",
+        /*num           */  343,
+        /*accuracy      */  100,
+        /*basePower     */  60,
+        /*category      */  Physical,
+        /*desc          */  "If this attack was successful and the user has not fainted, it steals the"+
+        " target's held item if the user is not holding one. The target's item is not stolen if it is a"+
+        " Mail, or if the target is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina"+
+        " holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, or a Pokemon that"+
+        " can Mega Evolve holding the Mega Stone for its species. Items lost to this move cannot be"+
+        " regained with Recycle or the Ability Harvest.",
+        /*shortDesc     */  "If the user has no item, it steals the target's.",
+        /*id            */  "covet",
+        /*pp            */  25,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror, highCrit);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Crabhammer",
+        /*num           */  152,
+        /*accuracy      */  90,
+        /*basePower     */  100,
+        /*category      */  Physical,
+        /*desc          */  "Has a higher chance for a critical hit.",
+        /*shortDesc     */  "High critical hit ratio.",
+        /*id            */  "crabhammer",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Water,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd();
+        PokemonMoves.Add(new Move(
+        /*name          */ "Crafty Shield",
+        /*num           */  578,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "The user and its party members are protected from non-damaging attacks made"+
+        " by other Pokemon, including allies, during this turn. Fails if the user moves last this turn or"+
+        " if this move is already in effect for the user's side.",
+        /*shortDesc     */  "Protects allies from Status moves this turn.",
+        /*id            */  "craftyshield",
+        /*pp            */  10,
+        /*priority      */  3,
+        /*flags         */  flags,
+        /*target        */  tAllAlly,
+        /*type          */  Fairy,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror, highCrit);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Cross Chop",
+        /*num           */  238,
+        /*accuracy      */  80,
+        /*basePower     */  100,
+        /*category      */  Physical,
+        /*desc          */  "Has a higher chance for a critical hit.",
+        /*shortDesc     */  "High critical hit ratio.",
+        /*id            */  "crosschop",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror, highCrit);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Cross Poison",
+        /*num           */  440,
+        /*accuracy      */  100,
+        /*basePower     */  70,
+        /*category      */  Physical,
+        /*desc          */  "Has a 10% chance to poison the target and a higher chance for a critical hit.",
+        /*shortDesc     */  "High critical hit ratio. 10% chance to poison.",
+        /*id            */  "crosspoison",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Poison,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(bite, contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Crunch",
+        /*num           */  242,
+        /*accuracy      */  100,
+        /*basePower     */  80,
+        /*category      */  Physical,
+        /*desc          */  "Has a 20% chance to lower the target's Defense by 1 stage.",
+        /*shortDesc     */  "20% chance to lower the target's Defense by 1.",
+        /*id            */  "crunch",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Dark,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Crush Claw",
+        /*num           */  306,
+        /*accuracy      */  95,
+        /*basePower     */  75,
+        /*category      */  Physical,
+        /*desc          */  "Has a 50% chance to lower the target's Defense by 1 stage.",
+        /*shortDesc     */  "50% chance to lower the target's Defense by 1.",
+        /*id            */  "crushclaw",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Crush Grip",
+        /*num           */  462,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Physical,
+        /*desc          */  "Power is equal to 120 * (target's current HP / target's maximum HP), "+
+        "rounded half down, but not less than 1.",
+        /*shortDesc     */  "More power the more HP the target has left.",
+        /*id            */  "crushgrip",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Curse",
+        /*num           */  174,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "If the user is not a Ghost type, lowers the user's Speed by 1 stage and "+
+        "raises the user's Attack and Defense by 1 stage. If the user is a Ghost type, the user loses"+
+        " 1/2 of its maximum HP, rounded down and even if it would cause fainting, in exchange for the"+
+        " target losing 1/4 of its maximum HP, rounded down, at the end of each turn while it is active."+
+        " If the target uses Baton Pass, the replacement will continue to be affected. Fails if there is"+
+        " no target or if the target is already affected.",
+        /*shortDesc     */  "Curses if Ghost, else +1 Atk, +1 Def, -1 Spe.",
+        /*id            */  "curse",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ghost,
+        /*contesttype   */  c_Tough
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Cut",
+        /*num           */  15,
+        /*accuracy      */  95,
+        /*basePower     */  50,
+        /*category      */  Physical,
+        /*desc          */  "No additional effect.",
+        /*shortDesc     */  "No additional effect.",
+        /*id            */  "cut",
+        /*pp            */  30,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cool
+        ));
+        flags.Clear();
+    }
+
+    private void moves_D()
+    {
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Cut",
+        /*num           */  15,
+        /*accuracy      */  95,
+        /*basePower     */  50,
+        /*category      */  Physical,
+        /*desc          */  "No additional effect.",
+        /*shortDesc     */  "No additional effect.",
+        /*id            */  "cut",
+        /*pp            */  30,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cool
         ));
         flags.Clear();
     }
