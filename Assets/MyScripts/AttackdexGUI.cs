@@ -75,7 +75,7 @@ public class AttackdexGUI : MonoBehaviour {
 
     private string Description()
     {
-        string final = "Description: " + moves.PokemonMoves[index].desc;
+        string final = "Description: " + moves.PokemonMoves[index].shortDesc;
         return final;
     }
 
