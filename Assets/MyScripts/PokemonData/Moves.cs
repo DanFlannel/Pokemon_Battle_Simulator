@@ -3171,6 +3171,388 @@ public class Moves : MonoBehaviour
         /*contesttype   */  c_Cute
         ));
         flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Feint Attack",
+        /*num           */  185,
+        /*accuracy      */  100,
+        /*basePower     */  60,
+        /*category      */  Physical,
+        /*desc          */  "This move does not check accuracy.",
+        /*shortDesc     */  "This move does not check accuracy.",
+        /*id            */  "feintattack",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Dark,
+        /*contesttype   */  c_Clever
+        ));
+        flags.Clear();
+
+        flagsAdd(mirror, authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fairy Lock",
+        /*num           */  587,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Prevents all active Pokemon from switching next turn. A Pokemon can still switch out if it is holding Shed Shell or uses Baton Pass, Parting Shot, U-turn, or Volt Switch. Fails if this move was used successfully last turn.",
+        /*shortDesc     */  "Prevents all Pokemon from switching next turn.",
+        /*id            */  "fairylock",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAll,
+        /*type          */  Fairy,
+        /*contesttype   */  c_Clever
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fairy Wind",
+        /*num           */  584,
+        /*accuracy      */  100,
+        /*basePower     */  40,
+        /*category      */  Special,
+        /*desc          */  "No additional effect.",
+        /*shortDesc     */  "No additional effect.",
+        /*id            */  "fairywind",
+        /*pp            */  30,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fairy,
+        /*contesttype   */  c_Beautiful
+        ));
+        flags.Clear();
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fake Out",
+        /*num           */  252,
+        /*accuracy      */  100,
+        /*basePower     */  40,
+        /*category      */  Physical,
+        /*desc          */  "Has a 100% chance to flinch the target. Fails unless it is the user's first turn on the field.",
+        /*shortDesc     */  "Hits first. First turn out only. 100% flinch chance.",
+        /*id            */  "fakeout",
+        /*pp            */  10,
+        /*priority      */  3,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+        flags.Clear();
+
+        flagsAdd(protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fake Tears",
+        /*num           */  252,
+        /*accuracy      */  100,
+        /*basePower     */  40,
+        /*category      */  Physical,
+        /*desc          */  "Lowers the target's Special Defense by 2 stages.",
+        /*shortDesc     */  "Lowers the target's Sp. Def by 2.",
+        /*id            */  "faketears",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Dark,
+        /*contesttype   */  c_Cute
+        ));
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "False Swipe",
+        /*num           */  206,
+        /*accuracy      */  100,
+        /*basePower     */  40,
+        /*category      */  Physical,
+        /*desc          */  "Leaves the target with at least 1 HP.",
+        /*shortDesc     */  "Always leaves the target with at least 1 HP.",
+        /*id            */  "falseswipe",
+        /*pp            */  40,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Feather Dance",
+        /*num           */  297,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Lowers the target's Attack by 2 stages.",
+        /*shortDesc     */  "Lowers the target's Attack by 2.",
+        /*id            */  "featherdance",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Flying,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Feint",
+        /*num           */  364,
+        /*accuracy      */  100,
+        /*basePower     */  30,
+        /*category      */  Status,
+        /*desc          */  "If this move is successful, it breaks through the target's Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
+        /*shortDesc     */  "Nullifies Detect, Protect, and Quick/Wide Guard.",
+        /*id            */  "feint",
+        /*pp            */  10,
+        /*priority      */  2,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Clever
+        ));
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fell Stinger",
+        /*num           */  565,
+        /*accuracy      */  100,
+        /*basePower     */  30,
+        /*category      */  Physical,
+        /*desc          */  "Raises the user's Attack by 2 stages if this move knocks out the target.",
+        /*shortDesc     */  "Raises user's Attack by 2 if this KOes the target.",
+        /*id            */  "fellstinger",
+        /*pp            */  25,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Bug,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fiery Dance",
+        /*num           */  552,
+        /*accuracy      */  100,
+        /*basePower     */  80,
+        /*category      */  Special,
+        /*desc          */  "Has a 50% chance to raise the user's Special Attack by 1 stage.",
+        /*shortDesc     */  "50% chance to raise the user's Sp. Atk by 1.",
+        /*id            */  "fierydance",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(protect);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Final Gambit",
+        /*num           */  515,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Special,
+        /*desc          */  "Deals damage to the target equal to the user's current HP. If this move is successful, the user faints.",
+        /*shortDesc     */  "Does damage equal to the user's HP. User faints.",
+        /*id            */  "finalgambit",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Tough
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fire Blast",
+        /*num           */  126,
+        /*accuracy      */  85,
+        /*basePower     */  110,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to burn the target.",
+        /*shortDesc     */  "10% chance to burn the target.",
+        /*id            */  "fireblast",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(bite, contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fire Fang",
+        /*num           */  424,
+        /*accuracy      */  95,
+        /*basePower     */  65,
+        /*category      */  Physical,
+        /*desc          */  "Has a 10% chance to burn the target and a 10% chance to flinch it.",
+        /*shortDesc     */  "10% chance to burn. 10% chance to flinch.",
+        /*id            */  "firefang",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(protect, mirror, nonsky);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fire Pledge",
+        /*num           */  519,
+        /*accuracy      */  100,
+        /*basePower     */  80,
+        /*category      */  Special,
+        /*desc          */  "If one of the user's allies chose to use Grass Pledge or Water Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Grass Pledge, the ally uses Fire Pledge with 150 Base Power and a sea of fire appears on the target's side for 4 turns, which causes damage to non-Fire types equal to 1/8 of their maximum HP, rounded down, at the end of each turn during effect. If combined with Water Pledge, the ally uses Water Pledge with 150 Base Power and a rainbow appears on the user's side for 4 turns, which doubles secondary effect chances but does not stack with the Ability Serene Grace. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Fire Gem.",
+        /*shortDesc     */  "Use with Grass or Water Pledge for added effect.",
+        /*id            */  "firepledge",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fire Spin",
+        /*num           */  83,
+        /*accuracy      */  85,
+        /*basePower     */  35,
+        /*category      */  Special,
+        /*desc          */  "Prevents the target from switching for four or five turns; seven turns if the user is holding Grip Claw. Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Parting Shot, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute. This effect is not stackable or reset by using this or another partial-trapping move.",
+        /*shortDesc     */  "Traps and damages the target for 4-5 turns.",
+        /*id            */  "firespin",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(protect, mirror, nonsky);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fissure",
+        /*num           */  90,
+        /*accuracy      */  30,
+        /*basePower     */  0,
+        /*category      */  Physical,
+        /*desc          */  "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Ability Sturdy are immune.",
+        /*shortDesc     */  "OHKOs the target. Fails if user is a lower level.",
+        /*id            */  "fissure",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ground,
+        /*contesttype   */  c_Tough
+        ));
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flail",
+        /*num           */  175,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Physical,
+        /*desc          */  "Deals damage to the target based on the amount of HP the user has left. X is equal to (user's current HP * 48 / user's maximum HP), rounded down; the base power of this attack is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1.",
+        /*shortDesc     */  "More power the less HP the user has left.",
+        /*id            */  "flail",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flame Burst",
+        /*num           */  481,
+        /*accuracy      */  100,
+        /*basePower     */  70,
+        /*category      */  Physical,
+        /*desc          */  "Deals damage to the target based on the amount of HP the user has left. X is equal to (user's current HP * 48 / user's maximum HP), rounded down; the base power of this attack is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1.",
+        /*shortDesc     */  "More power the less HP the user has left.",
+        /*id            */  "flail",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flame Charge",
+        /*num           */  488,
+        /*accuracy      */  100,
+        /*basePower     */  50,
+        /*category      */  Physical,
+        /*desc          */  "Has a 100% chance to raise the user's Speed by 1 stage.",
+        /*shortDesc     */  "100% chance to raise the user's Speed by 1.",
+        /*id            */  "flamecharge",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(contact, protect, mirror, defrost);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flame Wheel",
+        /*num           */  172,
+        /*accuracy      */  100,
+        /*basePower     */  60,
+        /*category      */  Physical,
+        /*desc          */  "Has a 10% chance to burn the target.",
+        /*shortDesc     */  "10% chance to burn the target. Thaws user.",
+        /*id            */  "flamewheel",
+        /*pp            */  25,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flamethrower",
+        /*num           */  53,
+        /*accuracy      */  100,
+        /*basePower     */  90,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to burn the target.",
+        /*shortDesc     */  "10% chance to burn the target.",
+        /*id            */  "flamethrower",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+
     }
 
     /// <summary>
