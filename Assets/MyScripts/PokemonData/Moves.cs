@@ -3553,6 +3553,60 @@ public class Moves : MonoBehaviour
         /*contesttype   */  c_Beautiful
         ));
 
+        flagsAdd(contact, protect, mirror, defrost);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flare Blitz",
+        /*num           */  394,
+        /*accuracy      */  100,
+        /*basePower     */  120,
+        /*category      */  Physical,
+        /*desc          */  "Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+        /*shortDesc     */  "Has 33% recoil. 10% chance to burn. Thaws user.",
+        /*id            */  "flamethrower",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(protect, mirror, reflectable);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flash",
+        /*num           */  394,
+        /*accuracy      */  100,
+        /*basePower     */  120,
+        /*category      */  Physical,
+        /*desc          */  "Lowers the target's accuracy by 1 stage.",
+        /*shortDesc     */  "Lowers the target's accuracy by 1.",
+        /*id            */  "flash",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flash Cannon",
+        /*num           */  430,
+        /*accuracy      */  100,
+        /*basePower     */  80,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        /*shortDesc     */  "10% chance to lower the target's Sp. Def by 1.",
+        /*id            */  "flashcannon",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Steel,
+        /*contesttype   */  c_Beautiful
+        ));
+
     }
 
     /// <summary>
