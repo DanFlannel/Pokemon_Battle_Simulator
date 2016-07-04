@@ -81,7 +81,7 @@ public class Moves : MonoBehaviour
     public List<Move> PokemonMoves = new List<Move>();
     private List<string> flags = new List<string>();
 
-    void Start()
+    void Awake()
     {
         InitalizeMovesDataBase();
     }

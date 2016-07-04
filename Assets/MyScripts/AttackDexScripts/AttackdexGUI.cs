@@ -24,7 +24,7 @@ public class AttackdexGUI : MonoBehaviour {
         UpdateInformation();
 	}
 
-    private void UpdateInformation()
+    public void UpdateInformation()
     {
         tName.text = Name();
         tNum.text = Number();
@@ -36,6 +36,21 @@ public class AttackdexGUI : MonoBehaviour {
         tPriority.text = Priority();
         tContest.text = ContestType();
 
+    }
+
+    public void UpdateInformation(int n)
+    {
+        index = n;
+
+        tName.text = Name();
+        tNum.text = Number();
+        tPP.text = PP();
+        tCategory.text = Category();
+        tPower.text = BasePower();
+        tAccuracy.text = Accuracy();
+        tDesc.text = Description();
+        tPriority.text = Priority();
+        tContest.text = ContestType();
     }
 
     private string Name()
