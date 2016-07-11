@@ -449,5 +449,6 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
             slider.value = Mathf.Lerp(curValue,newValue, lerpValue);
             yield return null;
         }
+        Debug.Log("HelathBarCompelte");
     }
 }
