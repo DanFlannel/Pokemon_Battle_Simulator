@@ -5,14 +5,8 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scene/Standalone/main menu.unity
-  - enabled: 0
-    path: Assets/Scene/Standalone/battle_scene.unity
-  - enabled: 0
-    path: Assets/Scene/WebGL/webgl_menu.unity
-  - enabled: 0
-    path: Assets/Scene/WebGL/webgl_battle.unity
+  - enabled: 1
+    path: Assets/FatBobbyGamingLogo/FatBobbyGaming.unity
   - enabled: 1
     path: Assets/Scene/Mobile/mobile_menu.unity
   - enabled: 1

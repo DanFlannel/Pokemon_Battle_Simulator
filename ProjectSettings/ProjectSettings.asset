@@ -10,7 +10,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: FatBobby
-  productName: "Pok\xE9Battle"
+  productName: "Pok\xE9 Project"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_ShowUnitySplashScreen: 1
@@ -26,7 +26,7 @@ PlayerSettings:
   m_MobileMTRendering: 1
   m_Stereoscopic3D: 0
   iosShowActivityIndicatorOnLoading: -1
-  androidShowActivityIndicatorOnLoading: 0
+  androidShowActivityIndicatorOnLoading: 2
   iosAppInBackgroundBehavior: 0
   displayResolutionDialog: 1
   iosAllowHTTPDownload: 1
@@ -90,7 +90,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.FatBobbyGaming.Pokemon
-  bundleVersion: 1.20
+  bundleVersion: 1.21
   preloadedAssets:
   - {fileID: -1121539586, guid: 1f6019ef0b441fd48a180094c237bf11, type: 3}
   metroEnableIndependentInputSource: 0
@@ -98,7 +98,7 @@ PlayerSettings:
   xboxOneDisableKinectGpuReservation: 0
   virtualRealitySupported: 0
   productGUID: 08575a2fcb8dda64fb4f3ea47e75c429
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 21
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -159,8 +159,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/Dan/Documents/GitHub/_KEYSTORE/pokeBattle.keystore
-  AndroidKeyaliasName: flannel007
+  AndroidKeystoreName: C:/Users/danfl/Documents/GitHub/_APK/Keystore/PokeProject.keystore
+  AndroidKeyaliasName: libby
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   androidEnableBanner: 1
@@ -174,7 +174,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 01bcfe885cc7e82449fe10aa7b0f8b2e, type: 3}
+      m_Icon: {fileID: 2800000, guid: 9129da8908bf8d846b502c1fdcaf8611, type: 3}
       m_Width: 128
       m_Height: 128
   m_BuildTargetBatching:
