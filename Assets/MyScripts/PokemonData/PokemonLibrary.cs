@@ -324,11 +324,11 @@ public class PokemonLibrary : MonoBehaviour
 	}
 	
 	public string GetType1(int id){
-		return pokemonList[id].pokemonType1;
+		return pokemonList[id].type1;
 	}
 	
 	public string GetType2(int id){
-		return pokemonList[id].pokemonType2;
+		return pokemonList[id].type2;
 	}
 	#endregion
 }
@@ -344,8 +344,8 @@ public struct Pokemon
 	public int specialDefense;
 	public int speed;
 	public bool canEvolve;
-	public string pokemonType1;
-	public string pokemonType2;
+	public string type1;
+	public string type2;
 	
 	
 	public Pokemon (int sID, string sName, int sHP, int sAttack, int sDefense, int sSpecialA, int sSpecialD, int sSpeed, bool sCanEvolve, string t1, string t2)
@@ -359,7 +359,7 @@ public struct Pokemon
 		specialAttack = sSpecialA;
 		specialDefense = sSpecialD;
 		canEvolve = sCanEvolve;
-		pokemonType1 = t1;
-		pokemonType2 = t2;
+		type1 = t1;
+		type2 = t2;
 	}
 }

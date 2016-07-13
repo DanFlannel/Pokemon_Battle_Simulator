@@ -70,7 +70,7 @@ public class PlayerPokemonHandler : MonoBehaviour
 
     public string cachedAttackName;
 
-    private PokemonLibrary pl;
+    private PokemonLibrary pokeDex;
     private GifRenderer gif;
     private GUIScript gui;
     private PokemonAttacks attackData;
@@ -88,7 +88,7 @@ public class PlayerPokemonHandler : MonoBehaviour
     {
         tempID = Random.Range(0, 151);
         attackData = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
-        pl = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
+        pokeDex = GameObject.FindGameObjectWithTag("Library").GetComponent<PokemonLibrary>();
         gif = this.GetComponent<GifRenderer>();
         gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
         tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
@@ -114,21 +114,21 @@ public class PlayerPokemonHandler : MonoBehaviour
 
     private void FetchPokemonBaseStats(int id)
     {
-        PokemonName = pl.GetName(id);
+        PokemonName = pokeDex.GetName(id);
         PokemonID = id;
         GifID = PokemonID + 1;
 
         //gif.ChangeSprite(PokemonName, GifID);
 
-        baseHP = pl.GetHP(id);
-        baseAttack = pl.GetAttack(id);
-        baseDefense = pl.GetDefense(id);
-        baseSpecial_Attack = pl.GetSpecialAttack(id);
-        baseSpecial_Defense = pl.GetSpecialDefense(id);
-        baseSpeed = pl.GetSpeed(id);
-        CanEvolve = pl.GetCanEvolve(id);
-        Type1 = pl.GetType1(id);
-        Type2 = pl.GetType2(id);
+        baseHP = pokeDex.GetHP(id);
+        baseAttack = pokeDex.GetAttack(id);
+        baseDefense = pokeDex.GetDefense(id);
+        baseSpecial_Attack = pokeDex.GetSpecialAttack(id);
+        baseSpecial_Defense = pokeDex.GetSpecialDefense(id);
+        baseSpeed = pokeDex.GetSpeed(id);
+        CanEvolve = pokeDex.GetCanEvolve(id);
+        Type1 = pokeDex.GetType1(id);
+        Type2 = pokeDex.GetType2(id);
     }
 
     public void updateStatStage(string type, float multiplier)
