@@ -4255,12 +4255,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eea78de90b1ada4bb754974ba630d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 940f0a743f52ee2429ff9bb757776d8e, type: 3}
+  clip: {fileID: 8300000, guid: 1b93a212f582c2f4b9c095fcd15cc78e, type: 3}
   aSource: {fileID: 0}
   loopedOnce: 0
   finished: 0
   loopStart: 3.7
-  loopEnd: 180
+  loopEnd: 80
 --- !u!114 &1768884907
 MonoBehaviour:
   m_ObjectHideFlags: 0
