@@ -1,9 +1,11 @@
 
 
-  <p><h1> Pokemon Battle Simulator</h1>
+  <h1 align ="center"> Pokemon Battle Simulator</h1>
+  <p align="center">
   <img src="https://docs.google.com/uc?export=download&id=0B4fjzCPc3y-bdGVMNnkySk1aMG8" alt="Pokeball" align="middle">
   </p>
   
+  <h2 align="center"> Download </h2>
   
   __What is it?__
   ---
