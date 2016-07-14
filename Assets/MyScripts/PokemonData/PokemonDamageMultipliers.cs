@@ -151,7 +151,7 @@ public class PokemonDamageMultipliers : MonoBehaviour
             /*Grass*/ 2f,
             /*Electric*/2f,
             /*Psychic*/ 1f,
-            /*Ice*/.5f, 
+            /*Ice*/.5f,
             /*Dragon*/1f,
             /*Dark*/1f,
             /*Fairy*/1f);
@@ -772,7 +772,7 @@ public class PokemonDamageMultipliers : MonoBehaviour
             /*Electric*/ 1f,
             /*Psychic*/1f,
             /*Ice*/2f,
-            /*Dragon*/1f, 
+            /*Dragon*/1f,
             /*Dark*/1f,
             /*Fairy*/1f);
 
