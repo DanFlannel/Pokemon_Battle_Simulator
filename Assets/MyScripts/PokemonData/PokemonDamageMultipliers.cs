@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+/// This class precalculates the necessary combinations of types for their own damage multupliers then assigned them to each pokemon
+/// </summary>
 public class PokemonDamageMultipliers : MonoBehaviour
 {
 
@@ -32,7 +35,7 @@ public class PokemonDamageMultipliers : MonoBehaviour
     private dmgMult bug_grass;
 
     private dmgMult normal;
-    //private dmgMult normal_fairy;
+    private dmgMult normal_fairy;
     private dmgMult normal_flying;
 
     private dmgMult electric;
@@ -51,9 +54,9 @@ public class PokemonDamageMultipliers : MonoBehaviour
     private dmgMult poison_flying;
 
     private dmgMult psychic;
-    //private dmgMult psychic_fairy;
+    private dmgMult psychic_fairy;
 
-    //private dmgMult fairy;
+    private dmgMult fairy;
 
     private dmgMult ghost_poison;
 

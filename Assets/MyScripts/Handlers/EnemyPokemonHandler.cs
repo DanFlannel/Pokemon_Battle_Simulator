@@ -82,6 +82,7 @@ public class EnemyPokemonHandler : MonoBehaviour
     public int curHp { get; set; }
     public int maxHP { get; private set; }
 
+    public Status_TypeA statusTypeA;
 
     // Use this for initialization
     void Start()

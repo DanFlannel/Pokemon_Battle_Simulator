@@ -15,6 +15,7 @@ public class PokemonEntity
     //these are the only variables that can be passed in
     //in order to generate the rest of the stats for the pokemon
 
+    public Status_TypeA status_A;
 
     public int ID { get; private set; }
     public string Name { get; private set; }
@@ -237,3 +238,14 @@ public class PokemonEntity
         Attack4 = attackMoves[rndNums[3]].attack.name;
     }
 }
+
+public enum Status_TypeA
+{
+    none,
+    burned,
+    paralized,
+    poisioned,
+    toxic,
+    frozen,
+    sleep
+};

@@ -269,12 +269,26 @@ public class Attack_Special_Methods : MonoBehaviour {
         bool stunHit = stunProbability(prob);
         if (stunHit)
         {
-            one_eigth_temp(isPlayer, duration);
+            
             Debug.Log("Target Pokemon is now burned");
             if (isPlayer)
+            {
                 enemyStats.isBurned = true;
-            else
+                if (enemyStats.statusTypeA == Status_TypeA.none)
+                {
+                    enemyStats.statusTypeA = Status_TypeA.burned;
+                    one_eigth_temp(isPlayer, duration);
+                }
+            }
+            else {
+                
+                if (playerStats.statusTypeA == Status_TypeA.none)
+                {
+                    playerStats.statusTypeA = Status_TypeA.burned;
+                    one_eigth_temp(isPlayer, duration);
+                }
                 playerStats.isBurned = true;
+            }
         }
     }
 

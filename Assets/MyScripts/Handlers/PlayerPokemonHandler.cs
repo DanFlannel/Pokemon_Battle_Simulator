@@ -27,6 +27,7 @@ public class PlayerPokemonHandler : MonoBehaviour
     private int levelBonus;
 
     private bool CanEvolve; //not sure the use of this but its there
+    public Status_TypeA statusTypeA;
 
     public int Level;
 
@@ -292,6 +293,7 @@ public class PlayerPokemonHandler : MonoBehaviour
         pk.isBurned = isBurned;
         pk.isParalized = isParalized;
         pk.isFrozen = isFrozen;
+        pk.status_A = statusTypeA;
     }
 
     /// <summary>
