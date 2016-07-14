@@ -4,8 +4,7 @@
   <p align="center">
   <img src="https://docs.google.com/uc?export=download&id=0B4fjzCPc3y-bdGVMNnkySk1aMG8" alt="Pokeball" align="middle">
   </p>
-  
-  <h2 align="center"> Download </h2>
+  <h2 align="center"> [Download](https://docs.google.com/uc?export=download&id=0B4fjzCPc3y-bRXBSaDJENkx0NVU) </h2>
   
   __What is it?__
   ---
@@ -16,7 +15,7 @@
   __What is left?__
   ---
   
-  Above states that the ideal pokemon game will use sprites but due to the recent popularity of pokemon go, there is a chance that I might be able to use AR and the same models, plus you know the particle effects that I have mentioned, which aren't done. What is left is to do the damage effects/status, 30 attacks, and the swap feature, and some basic AI where the enemy swaps out dead pokemon, and finally an end battle check. As well as making the UI better for the actual game, once these are completed, that the random battle generation is done. Also I would like to have the pokedex/database (generation 1 only) finished updating along with all 600+ attacks (all generations). I will be posting a proper download link to the application by 7/19/2016.
+  Above states that the ideal pokemon game will use sprites but due to the recent popularity of pokemon go, there is a chance that I might be able to use AR and the same models, plus you know the particle effects that I have mentioned, which aren't done. What is left is to do the damage effects/status, 30 attacks, and the swap feature, and some basic AI where the enemy swaps out dead pokemon, and finally an end battle check. As well as making the UI better for the actual game, once these are completed, that the random battle generation is done. Also I would like to have the pokedex/database (generation 1 only) finished updating along with all 600+ attacks (all generations). The download will be constantly updated as I just found out googleDrive has a versions thing where I can continually upload to the same download link which is awesome.
   
   __The Latest Version__
   ---
