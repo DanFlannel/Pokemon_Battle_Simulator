@@ -278,8 +278,8 @@ public class Attack_Special_Methods : MonoBehaviour {
         return damage;
     }
 
-    //THESE ARE TYPE A STATUS EFFECTS
-    
+    //Non-volatile status effects
+
     /// <summary>
     /// Burns a pokemon if their Type A status is none and they aren't a fire type
     /// </summary>
@@ -295,18 +295,18 @@ public class Attack_Special_Methods : MonoBehaviour {
             if (isPlayer && enemyStats.Type1 != attacks.Fire && enemyStats.Type2 != attacks.Fire)
             {
                 enemyStats.isBurned = true;
-                if (enemyStats.statusTypeA == Status_TypeA.none)
+                if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Enemy Burned");
-                    enemyStats.statusTypeA = Status_TypeA.burned;
+                    enemyStats.non_volitile_status = nonVolitileStatusEffects.burned;
                 }
             }
             else if(playerStats.Type1 != attacks.Fire && playerStats.Type2 != attacks.Fire) {
                 
-                if (playerStats.statusTypeA == Status_TypeA.none)
+                if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("player Burned");
-                    playerStats.statusTypeA = Status_TypeA.burned;
+                    playerStats.non_volitile_status = nonVolitileStatusEffects.burned;
                 }
                 playerStats.isBurned = true;
             }
@@ -327,19 +327,19 @@ public class Attack_Special_Methods : MonoBehaviour {
             if (isPlayer && enemyStats.Type1 != attacks.Ice && enemyStats.Type2 != attacks.Ice)
             {
                 enemyStats.isFrozen = true;
-                if (enemyStats.statusTypeA == Status_TypeA.none)
+                if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Enemy Frozen");
-                    enemyStats.statusTypeA = Status_TypeA.frozen;
+                    enemyStats.non_volitile_status = nonVolitileStatusEffects.frozen;
                 }
             }
             else if(playerStats.Type1 != attacks.Ice && playerStats.Type2 != attacks.Ice)
             {
                 playerStats.isFrozen = true;
-                if (playerStats.statusTypeA == Status_TypeA.none)
+                if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Player Frozen");
-                    playerStats.statusTypeA = Status_TypeA.frozen;
+                    playerStats.non_volitile_status = nonVolitileStatusEffects.frozen;
                 }
             }
         }
@@ -358,20 +358,20 @@ public class Attack_Special_Methods : MonoBehaviour {
             Debug.Log("Implimenting Paralysis");
             if (isPlayer && enemyStats.Type1 != attacks.Electric && enemyStats.Type2 != attacks.Electric)
             {
-                if (enemyStats.statusTypeA == Status_TypeA.none)
+                if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Enemy Paralized");
-                    enemyStats.statusTypeA = Status_TypeA.paralized;
+                    enemyStats.non_volitile_status = nonVolitileStatusEffects.paralized;
                     changeStats(speed, -6, !isPlayer);
                 }
                 enemyStats.isParalized = true;               
             }
             else if(playerStats.Type1 != attacks.Electric && playerStats.Type2 != attacks.Electric)
             {
-                if (enemyStats.statusTypeA == Status_TypeA.none)
+                if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Player Paralized");
-                    playerStats.statusTypeA = Status_TypeA.paralized;
+                    playerStats.non_volitile_status = nonVolitileStatusEffects.paralized;
                     changeStats(speed, -6, isPlayer);
                 }
             }
@@ -390,18 +390,18 @@ public class Attack_Special_Methods : MonoBehaviour {
         {
             if (isPlayer && enemyStats.Type1 != attacks.Steel && enemyStats.Type1 != attacks.Poison && enemyStats.Type2 != attacks.Steel && enemyStats.Type2 != attacks.Poison)
             {
-                if (enemyStats.statusTypeA == Status_TypeA.none)
+                if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Enemy now has Toxic");
-                    enemyStats.statusTypeA = Status_TypeA.poisioned;
+                    enemyStats.non_volitile_status = nonVolitileStatusEffects.poisioned;
                 }
             }
             else if (playerStats.Type1 != attacks.Steel && playerStats.Type1 != attacks.Poison && playerStats.Type2 != attacks.Steel && playerStats.Type2 != attacks.Poison)
             {
-                if (playerStats.statusTypeA == Status_TypeA.none)
+                if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Player now has Toxic");
-                    playerStats.statusTypeA = Status_TypeA.poisioned;
+                    playerStats.non_volitile_status = nonVolitileStatusEffects.poisioned;
                 }
             }
         }
@@ -415,23 +415,53 @@ public class Attack_Special_Methods : MonoBehaviour {
     {
         if (isPlayer && enemyStats.Type1 != attacks.Steel && enemyStats.Type1 != attacks.Poison && enemyStats.Type2 != attacks.Steel && enemyStats.Type2 != attacks.Poison)
         {
-            if (enemyStats.statusTypeA == Status_TypeA.none)
+            if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
             {
                 Debug.Log("Enemy now has Toxic");
-                enemyStats.statusTypeA = Status_TypeA.toxic;
+                enemyStats.non_volitile_status = nonVolitileStatusEffects.toxic;
             }
         }
         else if (playerStats.Type1 != attacks.Steel && playerStats.Type1 != attacks.Poison && playerStats.Type2 != attacks.Steel && playerStats.Type2 != attacks.Poison)
         {
-            if (playerStats.statusTypeA == Status_TypeA.none)
+            if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
             {
                 Debug.Log("Player now has Toxic");
-                playerStats.statusTypeA = Status_TypeA.toxic;
+                playerStats.non_volitile_status = nonVolitileStatusEffects.toxic;
             }
         }
     }
 
+    /// <summary>
+    /// Puts the pokemon to sleep if they have no other status effect on them
+    /// </summary>
+    /// <param name="isPlayer">is the player attacking</param>
+    /// <param name="prob">probability of it hitting</param>
+    /// <param name="duration">duration pokemon is asleep for</param>
+    public void isSleep(bool isPlayer, int prob, int duration)
+    {
+        bool stunHit = stunProbability(prob);
+        if (stunHit)
+        {
+            Debug.Log("Implimenting Sleep");
+            if (isPlayer)
+            {
+                if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
+                {
+                    Debug.Log("Enemy Asleep");
+                    enemyStats.non_volitile_status = nonVolitileStatusEffects.sleep;
+                }
+            }
+            else
+            {
 
+                if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
+                {
+                    Debug.Log("Player Asleep");
+                    playerStats.non_volitile_status = nonVolitileStatusEffects.sleep;
+                }
+            }
+        }
+    }
 
 
     public void isConfused(bool isPlayer, int prob, int duration)

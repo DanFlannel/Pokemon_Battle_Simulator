@@ -15,7 +15,7 @@ public class PokemonEntity
     //these are the only variables that can be passed in
     //in order to generate the rest of the stats for the pokemon
 
-    public Status_TypeA status_A;
+    public nonVolitileStatusEffects status_A;
 
     public int ID { get; private set; }
     public string Name { get; private set; }
@@ -104,7 +104,7 @@ public class PokemonEntity
         sleepDuration = 0;
         confusedDuration = 0;
 
-        status_A = Status_TypeA.none;
+        status_A = nonVolitileStatusEffects.none;
 
         //need to set these to something before updaing them
         setStages();
@@ -242,7 +242,7 @@ public class PokemonEntity
     }
 }
 
-public enum Status_TypeA
+public enum nonVolitileStatusEffects
 {
     none,
     burned,

@@ -84,7 +84,7 @@ public class EnemyPokemonHandler : MonoBehaviour
 
     public bool InitPokemonData { get; private set; }
 
-    public Status_TypeA statusTypeA;
+    public nonVolitileStatusEffects non_volitile_status;
 
     // Use this for initialization
     void Start()
@@ -297,7 +297,7 @@ public class EnemyPokemonHandler : MonoBehaviour
         pk.isBurned = isBurned;
         pk.isParalized = isParalized;
         pk.isFrozen = isFrozen;
-        pk.status_A = statusTypeA;
+        pk.status_A = non_volitile_status;
     }
 
     /// <summary>
