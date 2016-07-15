@@ -24,6 +24,9 @@ public class AttackDexList : MonoBehaviour {
         {
             GameObject go = Instantiate(prefab, content.transform.position, Quaternion.identity) as GameObject;
             go.transform.SetParent(content.transform);
+
+            go.transform.localScale = new Vector3(1, 1, 1);
+
             Text t = go.GetComponentInChildren<Text>();
             t.text = movesData.PokemonMoves[i].name;
 

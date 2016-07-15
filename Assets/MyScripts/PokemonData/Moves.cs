@@ -96,6 +96,7 @@ public class Moves : MonoBehaviour
         moves_D();
         moves_E();
         moves_F();
+        moves_G();
 
         float time2 = Time.time;
         float totaltime = time2 - time1;
@@ -3607,6 +3608,460 @@ public class Moves : MonoBehaviour
         /*contesttype   */  c_Beautiful
         ));
 
+        flagsAdd(protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flatter",
+        /*num           */  260,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the target's Special Attack by 1 stage and confuses it.",
+        /*shortDesc     */  "Raises the target's Sp. Atk by 1 and confuses it.",
+        /*id            */  "flatter",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Dark,
+        /*contesttype   */  c_Clever
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fling",
+        /*num           */  374,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Physical,
+        /*desc          */  "The power of this move is based on the user's held item. The held item is lost and it activates for the target if applicable. If there is no target or the target avoids this move by protecting itself, the user's held item is still lost. The user can regain a thrown item with Recycle or the Ability Harvest. Fails if the user has no held item, if the held item cannot be thrown, if the user is under the effect of Embargo or Magic Room, or if the user has the Ability Klutz.",
+        /*shortDesc     */  "Flings the user's item at the target. Power varies.",
+        /*id            */  "fling",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Dark,
+        /*contesttype   */  c_Cute
+        ));
+
+        flagsAdd(distance);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flower Shield",
+        /*num           */  579,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the Defense of all Grass-type Pokemon on the field by 1 stage.",
+        /*shortDesc     */  "Raises Defense by 1 of all active Grass types.",
+        /*id            */  "flowershield",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAll,
+        /*type          */  Fairy,
+        /*contesttype   */  c_Beautiful
+        ));
+        
+        flagsAdd(contact, charge, protect, mirror, gravity, distance);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fly",
+        /*num           */  19,
+        /*accuracy      */  95,
+        /*basePower     */  90,
+        /*category      */  Physical,
+        /*desc          */  "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister. If the user is holding a Power Herb, the move completes in one turn.",
+        /*shortDesc     */  "Flies up on first turn, then strikes the next turn.",
+        /*id            */  "fly",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAny,
+        /*type          */  Flying,
+        /*contesttype   */  c_Clever
+        ));
+
+        flagsAdd(contact, protect, mirror, gravity, distance, nonsky);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Flying Press",
+        /*num           */  560,
+        /*accuracy      */  95,
+        /*basePower     */  90,
+        /*category      */  Physical,
+        /*desc          */  "This move combines Flying in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+        /*shortDesc     */  "Combines Flying in its type effectiveness.",
+        /*id            */  "flyingpress",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tAny,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Tough
+        ));
+
+        flagsAdd(bullet, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Focus Blast",
+        /*num           */  411,
+        /*accuracy      */  70,
+        /*basePower     */  120,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        /*shortDesc     */  "10% chance to lower the target's Sp. Def by 1.",
+        /*id            */  "focusblast",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(snatch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Focus Energy",
+        /*num           */  116,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Raises the user's chance for a critical hit by 2 stages. Fails if the user already has the effect. Baton Pass can be used to transfer this effect to an ally.",
+        /*shortDesc     */  "Raises the user's critical hit ratio by 2.",
+        /*id            */  "focusenergy",
+        /*pp            */  30,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(contact, protect, punch);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Focus Punch",
+        /*num           */  264,
+        /*accuracy      */  100,
+        /*basePower     */  150,
+        /*category      */  Physical,
+        /*desc          */  "The user loses its focus and does nothing if it is hit by a damaging attack this turn before it can execute the move.",
+        /*shortDesc     */  "Fails if the user takes damage before it hits.",
+        /*id            */  "focuspunch",
+        /*pp            */  20,
+        /*priority      */  -3,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Tough
+        ));
+
+        flagsAdd();
+        PokemonMoves.Add(new Move(
+        /*name          */ "Focus Punch",
+        /*num           */  266,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Until the end of the turn, all single-target attacks from the foe's team are redirected to the user if they are in range. Such attacks are redirected to the user before they can be reflected by Magic Coat or the Ability Magic Bounce, or drawn in by the Abilities Lightning Rod or Storm Drain. Fails if it is not a Double or Triple Battle.",
+        /*shortDesc     */  "The foes' moves target the user on the turn used.",
+        /*id            */  "followme",
+        /*pp            */  20,
+        /*priority      */  2,
+        /*flags         */  flags,
+        /*target        */  tSelf,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Force Palm",
+        /*num           */  395,
+        /*accuracy      */  100,
+        /*basePower     */  60,
+        /*category      */  Physical,
+        /*desc          */  "Has a 30% chance to paralyze the target.",
+        /*shortDesc     */  "30% chance to paralyze the target.",
+        /*id            */  "forcepalm",
+        /*pp            */  20,
+        /*priority      */  2,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fighting,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(protect, reflectable, mirror, authentic);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Foresight",
+        /*num           */  193,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Causes the target to have its positive evasiveness stat stage ignored while it is active. Normal- and Fighting-type attacks can hit the target if it is a Ghost type. The effect ends when the target is no longer active. Fails if the target is already affected, or affected by Miracle Eye or Odor Sleuth.",
+        /*shortDesc     */  "Fighting, Normal hit Ghost. Evasiveness ignored.",
+        /*id            */  "foresight",
+        /*pp            */  40,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Clever
+        ));
+
+        flagsAdd(protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Forest's Curse",
+        /*num           */  571,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Causes the target to have its positive evasiveness stat stage ignored while it is active. Normal- and Fighting-type attacks can hit the target if it is a Ghost type. The effect ends when the target is no longer active. Fails if the target is already affected, or affected by Miracle Eye or Odor Sleuth.",
+        /*shortDesc     */  "Fighting, Normal hit Ghost. Evasiveness ignored.",
+        /*id            */  "forestscurse",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Grass,
+        /*contesttype   */  c_Clever
+        ));
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Foul Play",
+        /*num           */  492,
+        /*accuracy      */  100,
+        /*basePower     */  95,
+        /*category      */  Physical,
+        /*desc          */  "Damage is calculated using the target's Attack stat, including stat stage changes. The user's Ability, item, and burn are used as normal.",
+        /*shortDesc     */  "Uses target's Attack stat in damage calculation.",
+        /*id            */  "foulplay",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Dark,
+        /*contesttype   */  c_Clever
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Freeze-Dry",
+        /*num           */  573,
+        /*accuracy      */  100,
+        /*basePower     */  70,
+        /*category      */  Special,
+        /*desc          */  "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
+        /*shortDesc     */  "10% chance to freeze. Super effective on Water.",
+        /*id            */  "freezedry",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ice,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(charge, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Freeze Shock",
+        /*num           */  553,
+        /*accuracy      */  90,
+        /*basePower     */  140,
+        /*category      */  Physical,
+        /*desc          */  "Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
+        /*shortDesc     */  "Charges turn 1. Hits turn 2. 30% paralyze.",
+        /*id            */  "freezeshock",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ice,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(recharge, protect, mirror, nonsky);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Frenzy Plant",
+        /*num           */  338,
+        /*accuracy      */  90,
+        /*basePower     */  150,
+        /*category      */  Special,
+        /*desc          */  "If this move is successful, the user must recharge on the following turn and cannot make a move.",
+        /*shortDesc     */  "User cannot move next turn.",
+        /*id            */  "frenzyplant",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Grass,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Frost Breath",
+        /*num           */  524,
+        /*accuracy      */  90,
+        /*basePower     */  60,
+        /*category      */  Special,
+        /*desc          */  "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Abilities Battle Armor or Shell Armor.",
+        /*shortDesc     */  "Always results in a critical hit.",
+        /*id            */  "frostbreath",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Ice,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "frustration",
+        /*num           */  218,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Physical,
+        /*desc          */  "Power is equal to the greater of ((255 - user's Happiness) * 2/5), rounded down, or 1.",
+        /*shortDesc     */  "Max 102 power at minimum Happiness.",
+        /*id            */  "frustration",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cute
+        ));
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fury Attack",
+        /*num           */  31,
+        /*accuracy      */  85,
+        /*basePower     */  15,
+        /*category      */  Physical,
+        /*desc          */  "Hits two to five times. Has a 1/3 chance to hit two or three times, and a 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Ability Skill Link, this move will always hit five times.",
+        /*shortDesc     */  "Hits 2-5 times in one turn.",
+        /*id            */  "furyattack",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fury Cutter",
+        /*num           */  210,
+        /*accuracy      */  95,
+        /*basePower     */  40,
+        /*category      */  Physical,
+        /*desc          */  "Power doubles with each successful hit, up to a maximum of 160 power; resets to 40 power if the move misses or another move is used.",
+        /*shortDesc     */  "Power doubles with each hit, up to 160.",
+        /*id            */  "furycutter",
+        /*pp            */  20,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Bug,
+        /*contesttype   */  c_Cool
+        ));
+
+
+        flagsAdd(contact, protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fury Swipes",
+        /*num           */  154,
+        /*accuracy      */  80,
+        /*basePower     */  18,
+        /*category      */  Physical,
+        /*desc          */  "Hits two to five times. Has a 1/3 chance to hit two or three times, and a 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Ability Skill Link, this move will always hit five times.",
+        /*shortDesc     */  "Hits 2-5 times in one turn.",
+        /*id            */  "furycutter",
+        /*pp            */  15,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Normal,
+        /*contesttype   */  c_Tough
+        ));
+
+        flagsAdd(protect, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fusion Bolt",
+        /*num           */  559,
+        /*accuracy      */  100,
+        /*basePower     */  100,
+        /*category      */  Physical,
+        /*desc          */  "Power doubles if the last move used by any Pokemon this turn was Fusion Flare.",
+        /*shortDesc     */  "Power doubles if used after Fusion Flare.",
+        /*id            */  "fusionbolt",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Electric,
+        /*contesttype   */  c_Cool
+        ));
+
+        flagsAdd(protect, mirror, defrost);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Fusion Flare",
+        /*num           */  558,
+        /*accuracy      */  100,
+        /*basePower     */  100,
+        /*category      */  Special,
+        /*desc          */  "Power doubles if the last move used by any Pokemon this turn was Fusion Bolt.",
+        /*shortDesc     */  "Power doubles if used after Fusion Bolt.",
+        /*id            */  "fusionbolt",
+        /*pp            */  5,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Fire,
+        /*contesttype   */  c_Beautiful
+        ));
+
+        flagsAdd(protect, mirror, defrost);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Future Sight",
+        /*num           */  248,
+        /*accuracy      */  100,
+        /*basePower     */  120,
+        /*category      */  Special,
+        /*desc          */  "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire is already in effect for the target's position.",
+        /*shortDesc     */  "Hits two turns after being used.",
+        /*id            */  "futuresight",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Psychic,
+        /*contesttype   */  c_Clever
+        ));
+
+    }
+
+    public void moves_G()
+    {
+        flagsAdd(protect, reflectable, mirror);
+        PokemonMoves.Add(new Move(
+        /*name          */ "Gastro Acid",
+        /*num           */  380,
+        /*accuracy      */  100,
+        /*basePower     */  0,
+        /*category      */  Status,
+        /*desc          */  "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. Fails if the target's Ability is Multitype or Stance Change.",
+        /*shortDesc     */  "Nullifies the target's Ability.",
+        /*id            */  "gastroacid",
+        /*pp            */  10,
+        /*priority      */  0,
+        /*flags         */  flags,
+        /*target        */  tNormal,
+        /*type          */  Poison,
+        /*contesttype   */  c_Tough
+        ));
     }
 
     /// <summary>

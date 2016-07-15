@@ -16,6 +16,7 @@ public class AttackdexGUI : MonoBehaviour {
     public Text tDesc;
     public Text tPriority;
     public Text tContest;
+    public Text tType;
 
 	// Use this for initialization
 	void Start () {
@@ -34,7 +35,8 @@ public class AttackdexGUI : MonoBehaviour {
         tAccuracy.text = Accuracy();
         tDesc.text = Description();
         tPriority.text = Priority();
-        tContest.text = ContestType();
+        //tContest.text = ContestType();
+        tType.text = AttackType();
 
     }
 
@@ -55,7 +57,7 @@ public class AttackdexGUI : MonoBehaviour {
 
     private string Name()
     {
-        return moves.PokemonMoves[index].name;
+        return moves.PokemonMoves[index].name.ToString();
     }
 
     private string Number()
@@ -65,7 +67,7 @@ public class AttackdexGUI : MonoBehaviour {
 
     private string Category()
     {
-        return moves.PokemonMoves[index].category;
+        return moves.PokemonMoves[index].category.ToString();
     }
 
     private string PP()
@@ -76,6 +78,11 @@ public class AttackdexGUI : MonoBehaviour {
     private string BasePower()
     {
         return moves.PokemonMoves[index].basePower.ToString();
+    }
+
+    private string AttackType()
+    {
+        return moves.PokemonMoves[index].type.ToString();
     }
 
     private string Accuracy()
@@ -111,7 +118,7 @@ public class AttackdexGUI : MonoBehaviour {
 
     private string ContestType()
     {
-        return moves.PokemonMoves[index].contestType;
+        return moves.PokemonMoves[index].contestType.ToString();
     }
 
     public void NextAttack()
