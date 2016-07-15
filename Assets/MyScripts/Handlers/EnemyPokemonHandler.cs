@@ -82,6 +82,8 @@ public class EnemyPokemonHandler : MonoBehaviour
     public int curHp { get; set; }
     public int maxHP { get; private set; }
 
+    public bool InitPokemonData { get; private set; }
+
     public Status_TypeA statusTypeA;
 
     // Use this for initialization
@@ -162,42 +164,6 @@ public class EnemyPokemonHandler : MonoBehaviour
         HP = (int)hpBonus + (int)hpLevelBonus;
     }
 
-    public void updateStatStage(string type, float multiplier)
-    {
-        float levelCalc = .79f + ((float)Level / 100);
-        switch (type)
-        {
-            case "attack":
-                float attackCalc = (float)baseAttack * levelCalc;
-                Attack = (int)attackCalc + levelBonus;
-                Attack = (int)(Attack * multiplier);
-                break;
-            case "defense":
-                float defenseCalc = (float)baseDefense * levelCalc;
-                Defense = (int)defenseCalc + levelBonus;
-                Defense = (int)(Defense * multiplier);
-                break;
-            case "spAttack":
-                float spaBonus = (float)baseSpecial_Attack * levelCalc;
-                Special_Attack = (int)spaBonus + levelBonus;
-                Special_Attack = (int)(Special_Attack * multiplier);
-                break;
-            case "spDefense":
-                float spdBonus = (float)baseSpecial_Defense * levelCalc;
-                Special_Defense = (int)spdBonus + levelBonus;
-                Special_Defense = (int)(Special_Defense * multiplier);
-                break;
-            case "speed":
-                float spBonus = (float)baseSpeed * levelCalc;
-                Speed = (int)spBonus + levelBonus;
-                Speed = (int)(Speed * multiplier);
-                break;
-            default:
-                Debug.Log("no type " + type + " found");
-                break;
-        }
-    }
-
     private void CreatePokemonStruct()
     {
         testPokemon = new PokemonEntity(PokemonName, PokemonID, Level, baseHP, baseAttack,
@@ -221,13 +187,22 @@ public class EnemyPokemonHandler : MonoBehaviour
     /// <param name="index">index number in the team</param>
     private void OnChangePokemon(int index)
     {
+        if (!InitPokemonData)
+        {
+            //saves the current pokemon data if we have a team already
+            SaveStats(enemyTeam[curEnemyPokemonIndex]);
+        }
+        //update our current index after saving the data
+        curEnemyPokemonIndex = index;
         //update the stats first so that the ID and Name are right before calling
         //to change the sprite
-        UpdateStats(enemyTeam[index]);
+        UpdateStats(enemyTeam[curEnemyPokemonIndex]);
         GifID = PokemonID + 1;
         gif.ChangeSprite(PokemonName, GifID);
         gui.UpdateEnemyInfo();
         tc.setEnemyHealthBar();
+
+        InitPokemonData = false;
     }
 
     /// <summary>
@@ -282,23 +257,45 @@ public class EnemyPokemonHandler : MonoBehaviour
         sleepDuration = pk.sleepDuration;
         confusedDuration = pk.confusedDuration;
     }
+    
+    /// <summary>
+    /// Saves the current stats to the pokemon so that when we 
+    /// Switch back, the pokemon doesnt get reset
+    /// </summary>
+    /// <param name="pk">Pokemon To Save</param>
+    private void SaveStats(PokemonEntity pk)
+    {
+        //PokemonID    PokemonName    Level    MaxHP    Type1    Type2
+        //Attack1    Attack2    Attack3    Attack4    Attack    Defense
+        //SpAttack    SpDefense    Speed    
+        pk.curHp = curHp;
+
+        //Unsure if we keep stage changes across pokemon changes
+        //probably going to have to generate another method to handle special cases.
+        pk.attack_Stage = attack_Stage;
+        pk.defense_Stage = defense_Stage;
+        pk.spAttack_Stage = spAttack_Stage;
+        pk.spDefense_stage = spDefense_stage;
+        pk.speed_stage = speed_stage;
+
+        pk.isSleeping = isSleeping;
+        pk.sleepDuration = sleepDuration;
+
+        pk.isConfused = false;
+        pk.confusedDuration = 0;
+
+        pk.isBurned = isBurned;
+        pk.isParalized = isParalized;
+        pk.isFrozen = isFrozen;
+        pk.status_A = statusTypeA;
+    }
 
     /// <summary>
     /// Just a test case for swapping pokemon and making sure that they change 
     /// the proper variables
     /// </summary>
-    public void swapEnemyPokemon()
+    public void SwapEnemyPokemon(int swapIndex)
     {
-
-        if (curEnemyPokemonIndex < enemyTeam.Count - 1)
-        {
-            curEnemyPokemonIndex++;
-        }
-        else
-        {
-            curEnemyPokemonIndex = 0;
-        }
-
-        OnChangePokemon(curEnemyPokemonIndex);
+        OnChangePokemon(swapIndex);
     }
 }
