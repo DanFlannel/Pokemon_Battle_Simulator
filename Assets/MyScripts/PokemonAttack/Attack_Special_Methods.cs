@@ -33,6 +33,20 @@ public class Attack_Special_Methods : MonoBehaviour {
         //Console.WriteLine("PK : Attack Switch Case: Initalized");
     }
 
+    //NEED TO ADJUST TO THIS...
+    public bool Chance_100 (int prob)
+    {
+        bool chance = false;
+
+        int guess = Mathf.RoundToInt(Random.Range(0, 100));
+        if(guess < prob)
+        {
+            chance = true;
+        }
+
+        return chance;
+    }
+
     /// <summary>
     /// Takes in the probability of getting a stun for a move out of ten, then makes a list of that many unique random numbers
     /// if the guess is any of those unique random numbers the method returns true, otherwise the attack did not stun the 
@@ -264,58 +278,161 @@ public class Attack_Special_Methods : MonoBehaviour {
         return damage;
     }
 
-    public void isBurned(bool isPlayer, int prob, int duration)  //lose 1/8th
+    //THESE ARE TYPE A STATUS EFFECTS
+    
+    /// <summary>
+    /// Burns a pokemon if their Type A status is none and they aren't a fire type
+    /// </summary>
+    /// <param name="isPlayer">who is attacking</param>
+    /// <param name="prob">the probability of being hit</param>
+    /// <param name="duration">duration of the effect</param>
+    public void isBurned(bool isPlayer, int prob, int duration)
     {
         bool stunHit = stunProbability(prob);
         if (stunHit)
         {
-            
-            Debug.Log("Target Pokemon is now burned");
-            if (isPlayer)
+            Debug.Log("Implimenting Burn");
+            if (isPlayer && enemyStats.Type1 != attacks.Fire && enemyStats.Type2 != attacks.Fire)
             {
                 enemyStats.isBurned = true;
                 if (enemyStats.statusTypeA == Status_TypeA.none)
                 {
+                    Debug.Log("Enemy Burned");
                     enemyStats.statusTypeA = Status_TypeA.burned;
-                    one_eigth_temp(isPlayer, duration);
                 }
             }
-            else {
+            else if(playerStats.Type1 != attacks.Fire && playerStats.Type2 != attacks.Fire) {
                 
                 if (playerStats.statusTypeA == Status_TypeA.none)
                 {
+                    Debug.Log("player Burned");
                     playerStats.statusTypeA = Status_TypeA.burned;
-                    one_eigth_temp(isPlayer, duration);
                 }
                 playerStats.isBurned = true;
             }
         }
     }
 
+    /// <summary>
+    /// Freezes a Pokemon if they arent an ice type and dont have any other type A status effects
+    /// </summary>
+    /// <param name="isPlayer">is the player attacking</param>
+    /// <param name="prob">probability of getting frozen</param>
     public void isFrozen(bool isPlayer, int prob)
     {
         bool stunHit = stunProbability(prob);
         if (stunHit)
         {
-            Debug.Log("target should be frozen");
-            if (isPlayer)
+            Debug.Log("Implimenting Freeze");
+            if (isPlayer && enemyStats.Type1 != attacks.Ice && enemyStats.Type2 != attacks.Ice)
             {
-                if (enemyStats.Type1.ToLower() != "ice" && enemyStats.Type2.ToLower() != "ice")
+                enemyStats.isFrozen = true;
+                if (enemyStats.statusTypeA == Status_TypeA.none)
                 {
-                    Debug.Log("Target Pokemon is now Frozen");
-                    enemyStats.isFrozen = true;
+                    Debug.Log("Enemy Frozen");
+                    enemyStats.statusTypeA = Status_TypeA.frozen;
                 }
             }
-            else
+            else if(playerStats.Type1 != attacks.Ice && playerStats.Type2 != attacks.Ice)
             {
-                if (playerStats.Type1.ToLower() != "ice" && playerStats.Type2.ToLower() != "ice")
+                playerStats.isFrozen = true;
+                if (playerStats.statusTypeA == Status_TypeA.none)
                 {
-                    Debug.Log("Target Pokemon is now Frozen");
-                    playerStats.isFrozen = true;
+                    Debug.Log("Player Frozen");
+                    playerStats.statusTypeA = Status_TypeA.frozen;
                 }
             }
         }
     }
+
+    /// <summary>
+    /// Paralizes a Pokemon if they have no other status effects and aren't an electric type
+    /// </summary>
+    /// <param name="isPlayer">is the player attacking</param>
+    /// <param name="prob">probability of landing this effect</param>
+    public void isParalized(bool isPlayer, int prob)
+    {
+        bool stunHit = stunProbability(prob);
+        if (stunHit)
+        {
+            Debug.Log("Implimenting Paralysis");
+            if (isPlayer && enemyStats.Type1 != attacks.Electric && enemyStats.Type2 != attacks.Electric)
+            {
+                if (enemyStats.statusTypeA == Status_TypeA.none)
+                {
+                    Debug.Log("Enemy Paralized");
+                    enemyStats.statusTypeA = Status_TypeA.paralized;
+                    changeStats(speed, -6, !isPlayer);
+                }
+                enemyStats.isParalized = true;               
+            }
+            else if(playerStats.Type1 != attacks.Electric && playerStats.Type2 != attacks.Electric)
+            {
+                if (enemyStats.statusTypeA == Status_TypeA.none)
+                {
+                    Debug.Log("Player Paralized");
+                    playerStats.statusTypeA = Status_TypeA.paralized;
+                    changeStats(speed, -6, isPlayer);
+                }
+            }
+        }
+    }
+
+    /// <summary>
+    /// Applies a poision to the pokemon if they aren't steel or posion type and have no other status effects
+    /// </summary>
+    /// <param name="isPlayer"></param>
+    /// <param name="prob"></param>
+    public void isPosioned(bool isPlayer, int prob)
+    {
+        bool stunHit = stunProbability(prob);
+        if (stunHit)
+        {
+            if (isPlayer && enemyStats.Type1 != attacks.Steel && enemyStats.Type1 != attacks.Poison && enemyStats.Type2 != attacks.Steel && enemyStats.Type2 != attacks.Poison)
+            {
+                if (enemyStats.statusTypeA == Status_TypeA.none)
+                {
+                    Debug.Log("Enemy now has Toxic");
+                    enemyStats.statusTypeA = Status_TypeA.poisioned;
+                }
+            }
+            else if (playerStats.Type1 != attacks.Steel && playerStats.Type1 != attacks.Poison && playerStats.Type2 != attacks.Steel && playerStats.Type2 != attacks.Poison)
+            {
+                if (playerStats.statusTypeA == Status_TypeA.none)
+                {
+                    Debug.Log("Player now has Toxic");
+                    playerStats.statusTypeA = Status_TypeA.poisioned;
+                }
+            }
+        }
+    }
+
+    /// <summary>
+    /// Applying toxic to a pokemon if they arent either steel or a poison type pokemon and have no other status effects
+    /// </summary>
+    /// <param name="isPlayer">is the player attacking</param>
+    public void toxic(bool isPlayer)
+    {
+        if (isPlayer && enemyStats.Type1 != attacks.Steel && enemyStats.Type1 != attacks.Poison && enemyStats.Type2 != attacks.Steel && enemyStats.Type2 != attacks.Poison)
+        {
+            if (enemyStats.statusTypeA == Status_TypeA.none)
+            {
+                Debug.Log("Enemy now has Toxic");
+                enemyStats.statusTypeA = Status_TypeA.toxic;
+            }
+        }
+        else if (playerStats.Type1 != attacks.Steel && playerStats.Type1 != attacks.Poison && playerStats.Type2 != attacks.Steel && playerStats.Type2 != attacks.Poison)
+        {
+            if (playerStats.statusTypeA == Status_TypeA.none)
+            {
+                Debug.Log("Player now has Toxic");
+                playerStats.statusTypeA = Status_TypeA.toxic;
+            }
+        }
+    }
+
+
+
 
     public void isConfused(bool isPlayer, int prob, int duration)
     {
@@ -356,32 +473,6 @@ public class Attack_Special_Methods : MonoBehaviour {
                 {
                     Debug.Log("Target Pokemon is now Flinched");
                     playerStats.isFlinched = true;
-                }
-            }
-        }
-    }
-
-    public void isParalized(bool isPlayer, int prob)
-    {
-        bool stunHit = stunProbability(prob);
-        if (stunHit)
-        {
-            if (isPlayer)
-            {
-                if (enemyStats.Type1.ToLower() != "electric" && enemyStats.Type2.ToLower() != "electric" && !enemyStats.hasSubstitute)
-                {
-                    Debug.Log("Target Pokemon is now paralized");
-                    enemyStats.isParalized = true;
-                    changeStats(speed, -6, !isPlayer);
-                }
-            }
-            else
-            {
-                if (playerStats.Type1.ToLower() != "electric" && playerStats.Type2.ToLower() != "electric" && !playerStats.hasSubstitute)
-                {
-                    Debug.Log("Target Pokemon is now paralized");
-                    playerStats.isParalized = true;
-                    changeStats(speed, -6, isPlayer);
                 }
             }
         }
@@ -565,6 +656,8 @@ public class Attack_Special_Methods : MonoBehaviour {
         return applyEffect;
     }
 
+
+    //THESE NEED TO BE ELEMINATED
     public void one_sixteenth_perm(bool isPlayer)
     {
         if (isPlayer)
@@ -617,17 +710,8 @@ public class Attack_Special_Methods : MonoBehaviour {
         }
     }
 
-    public void toxic(bool isPlayer)
-    {
-        if (isPlayer)
-        {
-            tc.enemy_toxic = true;
-        }
-        else
-        {
-            tc.player_toxic = true;
-        }
-    }
+
+
 
     public void leech_seed(bool isPlayer)
     {

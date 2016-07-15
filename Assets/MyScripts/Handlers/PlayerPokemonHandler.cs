@@ -173,7 +173,7 @@ public class PlayerPokemonHandler : MonoBehaviour
         testPokemon = new PokemonEntity(PokemonName, PokemonID, Level, baseHP, baseAttack,
             baseDefense, baseSpecial_Attack, baseSpecial_Defense, baseSpeed, Type1, Type2,
             attackData.masterGetAttacks(PokemonID));
-        DebugPokemonStruct();
+        //DebugPokemonStruct();
         playerTeam.Add(testPokemon);
     }
 

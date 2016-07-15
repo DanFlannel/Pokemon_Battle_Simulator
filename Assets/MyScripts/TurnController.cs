@@ -318,8 +318,8 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
 
     public void setEnemyHealthBar()
     {
-        Debug.Log("Enemy Cur HP: " + enemyStats.curHp);
-        Debug.Log("Enemy Max HP: " + enemyStats.maxHP);
+        //Debug.Log("Enemy Cur HP: " + enemyStats.curHp);
+        //Debug.Log("Enemy Max HP: " + enemyStats.maxHP);
         float newSliderValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;
         enemyHealthBar.value = newSliderValue;
     }

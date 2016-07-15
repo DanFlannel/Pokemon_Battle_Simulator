@@ -89,22 +89,23 @@ public class PokemonAttacks : MonoBehaviour
     [HideInInspector]
 	public string Status = "Status";
 
-	private const string Normal = "Normal";
-	private const string Fighting = "Fighting";
-	private const string Water = "Water";
-	private const string Poison = "Poison";
-	private const string Ice = "Ice";
-	private const string Ground = "Ground";
-	private const string Grass = "Grass";
-	private const string Psychic = "Psychic";
-	private const string Dark = "Dark";
-	private const string Ghost = "Ghost";
-	private const string Dragon = "Dragon";
-	private const string Flying = "Flying";
-	private const string Fire = "Fire";
-	private const string Bug = "Bug";
-	private const string Rock = "Rock";
-	private const string Electric = "Electric";
+	public readonly string Normal = "Normal";
+    public readonly string Fighting = "Fighting";
+    public readonly string Water = "Water";
+    public readonly string Poison = "Poison";
+    public readonly string Ice = "Ice";
+    public readonly string Ground = "Ground";
+    public readonly string Grass = "Grass";
+    public readonly string Psychic = "Psychic";
+    public readonly string Dark = "Dark";
+    public readonly string Ghost = "Ghost";
+    public readonly string Dragon = "Dragon";
+    public readonly string Flying = "Flying";
+    public readonly string Fire = "Fire";
+    public readonly string Bug = "Bug";
+    public readonly string Rock = "Rock";
+    public readonly string Electric = "Electric";
+    public readonly string Steel = "Steel";
 	#endregion
 	
 	#region Pokemon List 1-24

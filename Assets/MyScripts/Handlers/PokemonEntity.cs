@@ -104,6 +104,8 @@ public class PokemonEntity
         sleepDuration = 0;
         confusedDuration = 0;
 
+        status_A = Status_TypeA.none;
+
         //need to set these to something before updaing them
         setStages();
         setBools();
@@ -173,6 +175,7 @@ public class PokemonEntity
         float hpBonus = (float)baseHP * hpLevelCalc;
         float hpLevelBonus = 110f * (float)Level / 100f;
         maxHP = (int)hpBonus + (int)hpLevelBonus;
+
         curHp = maxHP;
     }
 

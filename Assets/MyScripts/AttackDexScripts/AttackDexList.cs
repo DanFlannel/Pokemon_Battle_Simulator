@@ -2,6 +2,9 @@
 using System.Collections;
 using UnityEngine.UI;
 
+/// <summary>
+/// 
+/// </summary>
 public class AttackDexList : MonoBehaviour {
 
     public GameObject prefab;

@@ -79,8 +79,8 @@ public class EnemyPokemonHandler : MonoBehaviour
     private int GifID;
 
     private int tempID { get; set; }
-    public int curHp { get; set; }
-    public int maxHP { get; private set; }
+    public int curHp;// { get; set; }
+    public int maxHP;// { get; private set; }
 
     public bool InitPokemonData { get; private set; }
 
@@ -100,15 +100,19 @@ public class EnemyPokemonHandler : MonoBehaviour
 
     private void Init()
     {
+        InitPokemonData = true;
         for (int i = 0; i < TEAMLENGTH; i++)
         {
             Level = 100;
             tempID = Random.Range(0, 151);
             FetchPokemonBaseStats(tempID);
             CreatePokemonStruct();
-            //DebugPokemonStruct();
+            DebugPokemonStruct();
         }
-        OnChangePokemon(0);
+
+        curEnemyPokemonIndex = 0;
+        OnChangePokemon(curEnemyPokemonIndex);
+        gui.updatePokemonNames(enemyTeam);
 
     }
 
@@ -131,37 +135,40 @@ public class EnemyPokemonHandler : MonoBehaviour
         Type2 = pokeDex.GetType2(id);
     }
 
-    private void StatsBasedOffLevel()
+    public void updateStatStage(string type, float multiplier)
     {
-
-        //max hp = 2* base stat + 110
-        //max other stats = 1.79 * stat + 5(levelBonus)
-        //level bonus cannot exceed 5
-        Level = (int)Random.Range(70f, 100f) + 1;
-        Level = 100;
-        levelBonus = Level / (int)(Random.Range(16f, 20f) + 1); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
-
-        float hpLevelCalc = 1f + ((float)Level / 100);
         float levelCalc = .79f + ((float)Level / 100);
-
-        float attackCalc = (float)baseAttack * levelCalc;
-        Attack = (int)attackCalc + levelBonus;
-
-        float defenseCalc = (float)baseDefense * levelCalc;
-        Defense = (int)defenseCalc + levelBonus;
-
-        float spaBonus = (float)baseSpecial_Attack * levelCalc;
-        Special_Attack = (int)spaBonus + levelBonus;
-
-        float spdBonus = (float)baseSpecial_Defense * levelCalc;
-        Special_Defense = (int)spdBonus + levelBonus;
-
-        float spBonus = (float)baseSpeed * levelCalc;
-        Speed = (int)spBonus + levelBonus;
-
-        float hpBonus = (float)baseHP * hpLevelCalc;
-        float hpLevelBonus = 110f * (float)Level / 100f;
-        HP = (int)hpBonus + (int)hpLevelBonus;
+        switch (type)
+        {
+            case "attack":
+                float attackCalc = (float)baseAttack * levelCalc;
+                Attack = (int)attackCalc + levelBonus;
+                Attack = (int)(Attack * multiplier);
+                break;
+            case "defense":
+                float defenseCalc = (float)baseDefense * levelCalc;
+                Defense = (int)defenseCalc + levelBonus;
+                Defense = (int)(Defense * multiplier);
+                break;
+            case "spAttack":
+                float spaBonus = (float)baseSpecial_Attack * levelCalc;
+                Special_Attack = (int)spaBonus + levelBonus;
+                Special_Attack = (int)(Special_Attack * multiplier);
+                break;
+            case "spDefense":
+                float spdBonus = (float)baseSpecial_Defense * levelCalc;
+                Special_Defense = (int)spdBonus + levelBonus;
+                Special_Defense = (int)(Special_Defense * multiplier);
+                break;
+            case "speed":
+                float spBonus = (float)baseSpeed * levelCalc;
+                Speed = (int)spBonus + levelBonus;
+                Speed = (int)(Speed * multiplier);
+                break;
+            default:
+                Debug.Log("no type " + type + " found");
+                break;
+        }
     }
 
     private void CreatePokemonStruct()
@@ -174,8 +181,8 @@ public class EnemyPokemonHandler : MonoBehaviour
 
     private void DebugPokemonStruct()
     {
-        Debug.Log(string.Format("Name {0} ID {1} MaxHP {2} Attack {3} Defense {4} SP Attack {5} Level {6}",
-            testPokemon.Name, testPokemon.ID, testPokemon.maxHP, testPokemon.Attack,
+        Debug.Log(string.Format("Name {0} ID {1} CurHP {2} Attack {3} Defense {4} SP Attack {5} Level {6}",
+            testPokemon.Name, testPokemon.ID, testPokemon.curHp, testPokemon.Attack,
             testPokemon.Defense, testPokemon.Special_Attack, testPokemon.Level));
         Debug.Log(string.Format("Attack 1: {0} Attack 2: {1} Attack 3: {2} Attack 4: {3}",
             testPokemon.Attack1, testPokemon.Attack2, testPokemon.Attack3, testPokemon.Attack4));
@@ -196,6 +203,7 @@ public class EnemyPokemonHandler : MonoBehaviour
         curEnemyPokemonIndex = index;
         //update the stats first so that the ID and Name are right before calling
         //to change the sprite
+        
         UpdateStats(enemyTeam[curEnemyPokemonIndex]);
         GifID = PokemonID + 1;
         gif.ChangeSprite(PokemonName, GifID);
@@ -210,12 +218,12 @@ public class EnemyPokemonHandler : MonoBehaviour
     /// </summary>
     private void UpdateStats(PokemonEntity pk)
     {
-
         PokemonID = pk.ID;
         PokemonName = pk.Name;
         Level = pk.Level;
 
         curHp = pk.curHp;
+        Debug.Log("Enemy Cur HP: " + curHp);
         maxHP = pk.maxHP;
 
         Type1 = pk.Type1;
@@ -226,14 +234,13 @@ public class EnemyPokemonHandler : MonoBehaviour
         attack3 = pk.Attack3;
         attack4 = pk.Attack4;
 
-        //Ensure that we don't mess up the base stats here
-
         Attack = pk.Attack;
         Defense = pk.Defense;
         Special_Attack = pk.Special_Attack;
         Special_Defense = pk.Special_Defense;
         Speed = pk.Speed;
 
+        //Ensure that we don't mess up the base stats here
         attack_Stage = pk.attack_Stage;
         defense_Stage = pk.defense_Stage;
         spAttack_Stage = pk.spAttack_Stage;
@@ -249,10 +256,13 @@ public class EnemyPokemonHandler : MonoBehaviour
         isConfused = pk.isConfused;
         isSleeping = pk.isSleeping;
         isStunned = pk.isStunned;
+
         isFlinched = false;
-        isBurned = pk.isBurned;
         isFlying = false;
+
+        isBurned = pk.isBurned;
         isParalized = pk.isParalized;
+        isFrozen = pk.isFrozen;
 
         sleepDuration = pk.sleepDuration;
         confusedDuration = pk.confusedDuration;
