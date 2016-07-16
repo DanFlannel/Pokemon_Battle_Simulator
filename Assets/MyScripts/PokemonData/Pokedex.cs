@@ -1531,7 +1531,7 @@ public class Pokedex : MonoBehaviour
     
     /// <summary>
     /// Number      : Done
-    /// Name        :
+    /// Name        : Done
     /// Stats       :
     /// Abilities   :
     /// Height      :
@@ -1566,7 +1566,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  77,
-            /*Name      */  "Empty",
+            /*Name      */  "Ponyta",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1574,7 +1574,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Rapidash",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1585,7 +1585,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  78,
-            /*Name      */  "Empty",
+            /*Name      */  "Rapidash",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1604,7 +1604,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  79,
-            /*Name      */  "Empty",
+            /*Name      */  "Slowpoke",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1612,7 +1612,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Slowbro",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1623,7 +1623,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  80,
-            /*Name      */  "Empty",
+            /*Name      */  "Slowbro",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1642,7 +1642,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  81,
-            /*Name      */  "Empty",
+            /*Name      */  "Magnemite",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1650,7 +1650,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Magneton",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1661,7 +1661,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  82,
-            /*Name      */  "Empty",
+            /*Name      */  "Magneton",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1680,7 +1680,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  83,
-            /*Name      */  "Empty",
+            /*Name      */  "Farfetch'd",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1699,7 +1699,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  84,
-            /*Name      */  "Empty",
+            /*Name      */  "Doduo",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1707,7 +1707,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Dodrio",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1726,7 +1726,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Dodrio",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1737,7 +1737,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  86,
-            /*Name      */  "Empty",
+            /*Name      */  "Seel",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1745,7 +1745,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Dewgong",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1756,7 +1756,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  87,
-            /*Name      */  "Empty",
+            /*Name      */  "Dewgong",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1775,7 +1775,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  88,
-            /*Name      */  "Empty",
+            /*Name      */  "Grimer",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1783,7 +1783,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Muk",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1794,7 +1794,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  89,
-            /*Name      */  "Empty",
+            /*Name      */  "Muk",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1813,7 +1813,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  90,
-            /*Name      */  "Empty",
+            /*Name      */  "Shellder",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1821,7 +1821,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Cloyster",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1832,7 +1832,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  91,
-            /*Name      */  "Empty",
+            /*Name      */  "Cloyster",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1851,7 +1851,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  92,
-            /*Name      */  "Empty",
+            /*Name      */  "Gastly",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1859,7 +1859,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Haunter",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1870,7 +1870,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  93,
-            /*Name      */  "Empty",
+            /*Name      */  "Haunter",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1878,7 +1878,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Gengar",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1889,7 +1889,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  94,
-            /*Name      */  "Empty",
+            /*Name      */  "Gengar",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1908,7 +1908,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  95,
-            /*Name      */  "Empty",
+            /*Name      */  "Onix",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1927,7 +1927,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  96,
-            /*Name      */  "Empty",
+            /*Name      */  "Drowzee",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1935,7 +1935,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Hypno",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1946,7 +1946,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  97,
-            /*Name      */  "Empty",
+            /*Name      */  "Hypno",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1965,7 +1965,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  98,
-            /*Name      */  "Empty",
+            /*Name      */  "Krabby",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -1973,7 +1973,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Kingler",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -1984,7 +1984,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  99,
-            /*Name      */  "Empty",
+            /*Name      */  "Kingler",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2003,7 +2003,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  100,
-            /*Name      */  "Empty",
+            /*Name      */  "Voltorb",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2022,7 +2022,7 @@ public class Pokedex : MonoBehaviour
     
     /// <summary>
     /// Number      : Done
-    /// Name        :
+    /// Name        : Done
     /// Stats       :
     /// Abilities   :
     /// Height      :
@@ -2038,7 +2038,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  100,
-            /*Name      */  "Empty",
+            /*Name      */  "Electrode",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2057,7 +2057,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  102,
-            /*Name      */  "Empty",
+            /*Name      */  "Exeggcute",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2065,7 +2065,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Exeggutor",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -2076,7 +2076,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  103,
-            /*Name      */  "Empty",
+            /*Name      */  "Exeggutor",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2095,7 +2095,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  104,
-            /*Name      */  "Empty",
+            /*Name      */  "Cubone",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2103,7 +2103,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Marowak",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -2114,7 +2114,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  105,
-            /*Name      */  "Empty",
+            /*Name      */  "Marowak",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2133,7 +2133,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  106,
-            /*Name      */  "Empty",
+            /*Name      */  "Hitmonlee",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2152,7 +2152,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  107,
-            /*Name      */  "Empty",
+            /*Name      */  "Hitmonchan",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2171,7 +2171,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  108,
-            /*Name      */  "Empty",
+            /*Name      */  "Lickitung",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2190,7 +2190,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  109,
-            /*Name      */  "Empty",
+            /*Name      */  "Koffing",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2198,7 +2198,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Weezing",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -2209,7 +2209,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  110,
-            /*Name      */  "Empty",
+            /*Name      */  "Weezing",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2228,7 +2228,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  111,
-            /*Name      */  "Empty",
+            /*Name      */  "Rhyhorn",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2236,7 +2236,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Rhydon",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -2247,7 +2247,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  112,
-            /*Name      */  "Empty",
+            /*Name      */  "Rhydon",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2266,7 +2266,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  113,
-            /*Name      */  "Empty",
+            /*Name      */  "Chansey",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2285,7 +2285,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  114,
-            /*Name      */  "Empty",
+            /*Name      */  "Tangela",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2304,7 +2304,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  115,
-            /*Name      */  "Empty",
+            /*Name      */  "Kangaskhan",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2323,7 +2323,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  116,
-            /*Name      */  "Empty",
+            /*Name      */  "Horsea",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2331,7 +2331,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Seadra",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -2342,7 +2342,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  117,
-            /*Name      */  "Empty",
+            /*Name      */  "Seadra",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2361,7 +2361,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  118,
-            /*Name      */  "Empty",
+            /*Name      */  "Goldeen",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2369,7 +2369,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Seaking",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -2380,7 +2380,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  119,
-            /*Name      */  "Empty",
+            /*Name      */  "Seaking",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2399,7 +2399,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  120,
-            /*Name      */  "Empty",
+            /*Name      */  "Staryu",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2407,7 +2407,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Starmie",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -2418,7 +2418,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  121,
-            /*Name      */  "Empty",
+            /*Name      */  "Starmie",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2437,7 +2437,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  122,
-            /*Name      */  "Empty",
+            /*Name      */  "Mr. Mime",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2456,7 +2456,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  123,
-            /*Name      */  "Empty",
+            /*Name      */  "Scyther",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2475,7 +2475,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  124,
-            /*Name      */  "Empty",
+            /*Name      */  "Jynx",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2494,7 +2494,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  125,
-            /*Name      */  "Empty",
+            /*Name      */  "Electabuzz",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2513,7 +2513,7 @@ public class Pokedex : MonoBehaviour
     
     /// <summary>
     /// Number      : Done
-    /// Name        :
+    /// Name        : Done
     /// Stats       :
     /// Abilities   :
     /// Height      :
@@ -2529,7 +2529,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  126,
-            /*Name      */  "Empty",
+            /*Name      */  "Magmar",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2548,7 +2548,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  127,
-            /*Name      */  "Empty",
+            /*Name      */  "Pinsir",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2567,7 +2567,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  128,
-            /*Name      */  "Empty",
+            /*Name      */  "Tauros",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2586,7 +2586,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  129,
-            /*Name      */  "Empty",
+            /*Name      */  "Magikarp",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2594,7 +2594,7 @@ public class Pokedex : MonoBehaviour
             /*Abilities */  Abilities,
             /*Height    */  100f,
             /*Weight    */  100f,
-            /*Evolution */  "Empty",
+            /*Evolution */  "Gyarados",
             /*Evo Level */  0,
             /*EggGroup  */  EggGroups
             ));
@@ -2605,7 +2605,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  130,
-            /*Name      */  "Empty",
+            /*Name      */  "Gyarados",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2624,7 +2624,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  131,
-            /*Name      */  "Empty",
+            /*Name      */  "Lapras",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2643,7 +2643,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  132,
-            /*Name      */  "Empty",
+            /*Name      */  "Ditto",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2658,11 +2658,12 @@ public class Pokedex : MonoBehaviour
         Abilities.Clear();
         EggGroups.Clear();
 
+        //UGH EVEE HAS 3 DIFFERENT EVOUTIONS
         abilitiesAdd(torrent, rainDish);
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  133,
-            /*Name      */  "Empty",
+            /*Name      */  "Eevee",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2681,7 +2682,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  134,
-            /*Name      */  "Empty",
+            /*Name      */  "Vaporeon",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2700,7 +2701,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  135,
-            /*Name      */  "Empty",
+            /*Name      */  "Jolteon",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2719,7 +2720,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  136,
-            /*Name      */  "Empty",
+            /*Name      */  "Flareon",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2738,7 +2739,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  137,
-            /*Name      */  "Empty",
+            /*Name      */  "Porygon",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2757,7 +2758,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  138,
-            /*Name      */  "Empty",
+            /*Name      */  "Omanyte",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2776,7 +2777,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  139,
-            /*Name      */  "Empty",
+            /*Name      */  "Omastar",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2795,7 +2796,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  140,
-            /*Name      */  "Empty",
+            /*Name      */  "Kabuto",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2814,7 +2815,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  141,
-            /*Name      */  "Empty",
+            /*Name      */  "Kabutops",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2833,7 +2834,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  142,
-            /*Name      */  "Empty",
+            /*Name      */  "Aerodactyl",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2852,7 +2853,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  143,
-            /*Name      */  "Empty",
+            /*Name      */  "Snorlax",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2871,7 +2872,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  144,
-            /*Name      */  "Empty",
+            /*Name      */  "Articuno",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2890,7 +2891,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  145,
-            /*Name      */  "Empty",
+            /*Name      */  "Zapdos",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2909,7 +2910,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  146,
-            /*Name      */  "Empty",
+            /*Name      */  "Moltres",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2928,7 +2929,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  147,
-            /*Name      */  "Empty",
+            /*Name      */  "Dratini",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2947,7 +2948,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  148,
-            /*Name      */  "Empty",
+            /*Name      */  "Dragonair",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2966,7 +2967,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  149,
-            /*Name      */  "Empty",
+            /*Name      */  "Dragonite",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -2985,7 +2986,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  150,
-            /*Name      */  "Empty",
+            /*Name      */  "Mewtwo",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,
@@ -3004,7 +3005,7 @@ public class Pokedex : MonoBehaviour
         eggGroupAdd(monster, monster);
         pokeDex.Add(new PokemonClass(
             /*Number    */  151,
-            /*Name      */  "Empty",
+            /*Name      */  "Mew",
             /*Type 1    */  null,
             /*Type 2    */  null,
             /*MGender%  */  0.875f,

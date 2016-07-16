@@ -49,7 +49,6 @@ public class PokemonEntity
     public int spDefense_stage { get; set; }
     public int speed_stage { get; set; }
 
-    //gotta get these generated.....
     public string Attack1 { get; private set; }
     public string Attack2 { get; private set; }
     public string Attack3 { get; private set; }
@@ -60,14 +59,17 @@ public class PokemonEntity
     public bool canAttack { get; set; }
     public bool canBeAttacked { get; set; }
     public bool isConfused { get; set; }
-    public bool isSleeping { get; set; }
+
     public bool hasAttacked { get; set; }
     public bool isStunned { get; set; }
     public bool isFlinched { get; set; }
-    public bool isBurned { get; set; }
-    public bool isFrozen { get; set; }
+
     public bool isFlying { get; set; }
+
     public bool isParalized { get; set; }
+    public bool isBurned { get; set; }
+    public bool isSleeping { get; set; }
+    public bool isFrozen { get; set; }
     //public bool hasSubstitute { get; set; }
     //public bool hasLightScreen { get; set; }
 
