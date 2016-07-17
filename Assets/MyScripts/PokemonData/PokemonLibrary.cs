@@ -273,7 +273,6 @@ public class PokemonLibrary : MonoBehaviour
 		
 		pokemonList.Add (new Pokemon (147, "Dratini", 41, 64, 45, 50, 50, 50, true, dragon, empty));
 		pokemonList.Add (new Pokemon (148, "Dragonair", 61, 84, 65, 70, 70, 70, false, dragon, empty));
-		
 		pokemonList.Add (new Pokemon (149, "Dragonite", 91, 134, 95, 100, 100, 80, false, flying, dragon));
 		
 		pokemonList.Add (new Pokemon (150, "Mewtwo", 106, 110, 90, 154, 100, 130, false, psychic, empty));
