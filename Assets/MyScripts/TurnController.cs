@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using System;
 using CoroutineQueueHelper;
+using System.Threading;
 /// <summary>
 /// This class handles how the turn is played out. 
 /// It handles doing attack damage to both the enemy and player
@@ -12,6 +13,9 @@ using CoroutineQueueHelper;
 /// </summary>
 public class TurnController : CoroutineQueueHelper.CoroutineList
 {
+    public GameObject textPanel;
+    public Text moveText;
+
     public CoroutineList c_Queue;
     public bool EndOfTurn;
 
@@ -89,37 +93,19 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     private EnemyPokemonHandler enemyStats;
     private GUIScript gui;
 
-
-
-
     // Use this for initialization
     void Awake()
     {
+        textPanel.SetActive(false);
         c_Queue = this.GetComponent<CoroutineList>();
         Init();
     }
 
     private void Init()
     {
-        Console.WriteLine("PK: Turn Controller: Initalizing");
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
-        if (enemyStats == null)
-        {
-            Debug.LogError("No EnemyHandler");
-            Console.WriteLine("PK: Turn Controller: Enemy Stats Null");
-        }
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
-        if (playerStats == null)
-        {
-            Debug.LogError("No PlayerHandler");
-            Console.WriteLine("PK: Turn Controller: Player Stats Null");
-        }
         gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
-        if (gui == null)
-        {
-            Debug.LogError("No GUIScript");
-            Console.WriteLine("PK: Turn Controller: gui Null");
-        }
     }
 
     private void DelayInit()
@@ -130,7 +116,6 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
             PlayerHealth = playerStats.curHp;
             checkSpeed();
             hasInitalized = true;
-            Console.WriteLine("PK: Turn Controller Initalized");
         }
     }
 
@@ -154,6 +139,8 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
             }
             PlayerDataComplete = false;
             EnemyDataComplete = false;
+
+            c_Queue.AddCoroutineToQueue(DisableTextPanel());
             c_Queue.StartQueue();
         }
     }
@@ -193,10 +180,10 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     private void damage_Player_to_Enemy()
     {
         Debug.Log("Player is doing move");
+        attackText(true);
         if (PlayerDamage > 0)
         {
             enemyStats.curHp -= PlayerDamage;
-            //Debug.Log(enemyStats.curHp + "/" + enemyStats.maxHP);
             changeEnemyHealthBar();
         }
     }
@@ -204,10 +191,10 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     private void damage_Enemy_to_Player()
     {
         Debug.Log("Enemy is doing move");
+        attackText(false);
         if (EnemyDamage > 0)
         {
             playerStats.curHp -= EnemyDamage;
-            //Debug.Log(playerStats.curHp + "/" + playerStats.maxHP);
             changePlayerHealthBar();
 
         }
@@ -228,48 +215,18 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
 
     private void damage_Enemy_Effects()
     {
-        if (!enemy_one_eigth && !enemy_one_sixteen)
+        if (enemyNVStatus != nonVolitileStatusEffects.none)
         {
-            return;
+            Debug.Log("Dealing non volitile status effect");
+
         }
-        Debug.Log("Enemy is taking after turn damage!");
-        if (enemy_one_eigth)    //there is an effect that takes away 1/8th of the enemies health
+    }
+
+    private void checkEnemyNVStatus()
+    {
+        if (enemyNVStatus != nonVolitileStatusEffects.none)
         {
-            //base case this is permanant
-            if (enemy_one_eigth_duration == -1)
-            {
-            }
-            else if (enemy_one_eigth_duration > 0)
-            {
-                enemy_one_eigth_duration--; //keep going down each turn based off inital damage
-            }
-            else if (enemy_one_eigth_duration == 0)  //the effect will end after this turn is over
-            {
-                enemy_one_eigth = false;
-            }
-            float damage = (float)enemyStats.maxHP * (float)(1f / 8f);  //gets the exact value
-            enemyStats.curHp -= Mathf.RoundToInt(damage);   //round the damage
-            changeEnemyHealthBar();
-        }
-        if (enemy_one_sixteen)  //there is an effect that is taking away 1/16th of the enemy's health
-        {
-            //base case this is permanant
-            if (enemy_one_sixteenth_duration == -1)
-            {
-            }
-            //this effect is lasting
-            else if (enemy_one_sixteenth_duration > 0)
-            {
-                enemy_one_sixteenth_duration--;
-            }
-            //this effect is ending
-            else if (enemy_one_sixteenth_duration == 0)
-            {
-                enemy_one_sixteen = false;
-            }
-            float damage = (float)enemyStats.maxHP * (float)(1f / 16f);  //gets the exact value
-            enemyStats.curHp -= Mathf.RoundToInt(damage);   //round the damage and apply it
-            changeEnemyHealthBar(); //apply the damage to the health bar
+
         }
     }
 
@@ -328,17 +285,14 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
 
     public void setEnemyHealthBar()
     {
-        //Debug.Log("Enemy Cur HP: " + enemyStats.curHp);
-        //Debug.Log("Enemy Max HP: " + enemyStats.maxHP);
         float newSliderValue = (float)enemyStats.curHp / (float)enemyStats.maxHP;
         enemyHealthBar.value = newSliderValue;
     }
 
     private void changePlayerHealthBar()
-    { 
-        //need to put in some logic that changes the health bar over time
+    {
         float newSliderValue = (float)playerStats.curHp / (float)playerStats.maxHP;
-       c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(1, playerHealthBar, newSliderValue)));
+        c_Queue.AddCoroutineToQueue((AnimateSliderOverTime(1, playerHealthBar, newSliderValue)));
     }
 
     public void setPlayerHealthBar()
@@ -357,7 +311,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         }
         if (enemyStats.curHp <= 0)
         {
-            //the ennemy is dead
+            //the enemy is dead
             isDead = true;
         }
         if (isDead)
@@ -372,8 +326,14 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     {
         Debug.Log("Player is attacking first!");
         //apply damage to enemy if there is any and check to make sure the enemy is alive still
-        damage_Player_to_Enemy();
-
+        if (!PlayerMissed)
+        {
+            damage_Player_to_Enemy();
+        }
+        else
+        {
+            Debug.LogWarning("Player did move and missed");
+        }
         //then heal the player
         healPlayer();
 
@@ -436,6 +396,52 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
 
     }
 
+    private void attackText(bool isPlayer)
+    {
+        string pokemon = playerStats.PokemonName;
+        string move = Player_attackName;
+
+
+        if (!isPlayer)
+        {
+            pokemon = enemyStats.PokemonName;
+            move = Enemy_attackName;
+        }
+
+        string text = pokemon + " used " + move + ".";
+        c_Queue.AddCoroutineToQueue(DisplayText(text));
+
+    }
+
+    private void dmgStatusText(bool isPlayer)
+    {
+        nonVolitileStatusEffects curNVE = playerNVStatus;
+        string pokemon = playerStats.PokemonName;
+        if (!isPlayer)
+        {
+            pokemon = enemyStats.PokemonName;
+            curNVE = enemyNVStatus;
+        }
+
+        string status = "";
+
+        switch (curNVE)
+        {
+            case nonVolitileStatusEffects.burned:
+                status = "burn";
+                break;
+            case nonVolitileStatusEffects.poisioned:
+                status = "poison";
+                break;
+            case nonVolitileStatusEffects.toxic:
+                status = "toxic";
+                break;
+        }
+
+        string text = pokemon + " was hurt by " + status + ".";
+
+    }
+
     /// <summary>
     /// This enumerator lerps unity's sliders, in this case whatever health bar is passed in
     /// </summary>
@@ -445,20 +451,70 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     /// <returns></returns>
     IEnumerator AnimateSliderOverTime(float seconds, Slider slider, float newValue)
     {
-        Debug.Log("Animating Healthbar");
+        //Debug.Log("Animating Healthbar");
         float animationTime = 0f;
         while (animationTime < seconds)
         {
             animationTime += Time.deltaTime;
             float lerpValue = animationTime / seconds;
             float curValue = slider.value;
-            if(newValue < 0)
+            if (newValue < 0)
             {
                 newValue = 0;
             }
-            slider.value = Mathf.Lerp(curValue,newValue, lerpValue);
+            slider.value = Mathf.Lerp(curValue, newValue, lerpValue);
             yield return null;
         }
-        Debug.Log("HelathBarCompelte");
+        //Debug.Log("HelathBarCompelte");
+    }
+
+    IEnumerator DisableTextPanel()
+    {
+        textPanel.SetActive(false);
+        yield return null;
+    }
+
+    IEnumerator DisplayText(string text_to_display)
+    {
+        float CHAR_DELAY = .05f;
+        float WAIT_TIMER = .5f;
+
+        if (!textPanel.activeInHierarchy)
+        {
+            textPanel.SetActive(true);
+        }
+        moveText.text = "";
+
+        Char[] chars = text_to_display.ToCharArray();
+        int length = chars.Length;
+        string temp, cur = "";
+
+        float seconds = chars.Length * CHAR_DELAY;
+        float animationTime = 0;
+        float nextLetterTime = 0;
+
+        while (animationTime < seconds)
+        {
+            animationTime += Time.deltaTime;
+            cur = moveText.text;
+            int charsUsed = cur.Length - 1;
+            int nextChar = charsUsed + 1;
+            if (nextLetterTime <= animationTime && nextChar < length)
+            {
+                nextLetterTime = CHAR_DELAY * charsUsed;
+                temp = cur + chars[nextChar];
+                cur = temp;
+
+            }
+            moveText.text = cur;
+            yield return null;
+        }
+
+        animationTime = 0;
+        while (animationTime < WAIT_TIMER)
+        {
+            animationTime += Time.deltaTime;
+            yield return null;
+        }
     }
 }

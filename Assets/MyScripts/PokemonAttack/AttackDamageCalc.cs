@@ -161,7 +161,7 @@ public class AttackDamageCalc : MonoBehaviour
         {
             return;
         }
-        Debug.Log("Attack Name: " + attack_name);
+        //Debug.Log("Attack Name: " + attack_name);
         switch (attackCat)
         {
             case "Status":
@@ -342,8 +342,8 @@ public class AttackDamageCalc : MonoBehaviour
                 attack_mod = enemyStats.Special_Attack;
                 defense_mod = playerStats.Special_Defense;
             }
-            Debug.Log("SpAttack: " + attack_mod);
-            Debug.Log("SpDefense: " + defense_mod);
+            //Debug.Log("SpAttack: " + attack_mod);
+            //Debug.Log("SpDefense: " + defense_mod);
         }
         if (attackCat == attacks.Physical)                  //we are calculating a physical attack
         {
@@ -357,8 +357,8 @@ public class AttackDamageCalc : MonoBehaviour
                 attack_mod = enemyStats.Attack;
                 defense_mod = playerStats.Defense;
             }
-            Debug.Log("Attack: " + attack_mod);
-            Debug.Log("Defense: " + defense_mod);
+            //Debug.Log("Attack: " + attack_mod);
+            //Debug.Log("Defense: " + defense_mod);
         }
     }
 

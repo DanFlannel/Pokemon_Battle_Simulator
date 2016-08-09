@@ -107,12 +107,11 @@ public class EnemyPokemonHandler : MonoBehaviour
             tempID = Random.Range(0, 151);
             FetchPokemonBaseStats(tempID);
             CreatePokemonStruct();
-            DebugPokemonStruct();
+            //DebugPokemonStruct();
         }
 
         curEnemyPokemonIndex = 0;
         OnChangePokemon(curEnemyPokemonIndex);
-        gui.updatePokemonNames(enemyTeam);
 
     }
 

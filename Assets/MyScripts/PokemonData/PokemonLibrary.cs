@@ -233,7 +233,7 @@ public class PokemonLibrary : MonoBehaviour
 		
 		pokemonList.Add (new Pokemon (124, "Jynx", 65, 50, 35, 115, 95, 95, false, ice, psychic));
 		
-		pokemonList.Add (new Pokemon (125, "Electabuzz", 65, 83, 57, 95, 85, 105, false, electric, empty));
+		pokemonList.Add (new Pokemon (125, "Electrabuzz", 65, 83, 57, 95, 85, 105, false, electric, empty));
 		
 		pokemonList.Add (new Pokemon (126, "Magmar", 65, 95, 57, 100, 85, 93, false, fire, empty));
 		
