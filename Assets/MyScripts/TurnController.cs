@@ -45,6 +45,20 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     public bool Enemy_AppliedStatusEffect = false;
     public Slider enemyHealthBar;
 
+    [Header("Type A Conditions")]
+    public nonVolitileStatusEffects playerNVStatus;
+    public nonVolitileStatusEffects enemyNVStatus;
+
+    [Header("Type B Conditions")]
+    public bool playerConfused;
+    public int playerConfusedDur;
+
+    public bool enemyconfused;
+    public int enemyConfusedDur;
+
+    [Header("Type C Conditions")]
+    //....
+
     [Header("Post Damage Conditions")]
     public bool player_one_sixteenth = false;
     public int player_one_sixteenth_duration = -1;
@@ -65,12 +79,8 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     public bool enemy_toxic = false;
     public int enemy_toxic_mult = 0;
 
-    [Header("Sleep")]
-    public bool player_isAsleep = false;
-    public int player_sleepDur = 0;
 
-    public bool enemy_isAsleep = false;
-    public int enemy_sleepDur = 0;
+    //---------------------------------//
     private bool hasInitalized = false;
 
     private int HelathBarChangeDuration = 1;

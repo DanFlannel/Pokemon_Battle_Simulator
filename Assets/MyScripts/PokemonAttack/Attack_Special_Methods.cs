@@ -294,7 +294,6 @@ public class Attack_Special_Methods : MonoBehaviour {
             Debug.Log("Implimenting Burn");
             if (isPlayer && enemyStats.Type1 != attacks.Fire && enemyStats.Type2 != attacks.Fire)
             {
-                enemyStats.isBurned = true;
                 if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Enemy Burned");
@@ -308,7 +307,6 @@ public class Attack_Special_Methods : MonoBehaviour {
                     Debug.Log("player Burned");
                     playerStats.non_volitile_status = nonVolitileStatusEffects.burned;
                 }
-                playerStats.isBurned = true;
             }
         }
     }
@@ -764,6 +762,7 @@ public class Attack_Special_Methods : MonoBehaviour {
             tc.PlayerRecoil = (int)recoil;
             tc.PlayerDataComplete = true;
             tc.Player_attackName = name;
+            tc.playerNVStatus = playerStats.non_volitile_status;
         }
         else
         {
@@ -772,6 +771,7 @@ public class Attack_Special_Methods : MonoBehaviour {
             tc.EnemyRecoil = (int)recoil;
             tc.EnemyDataComplete = true;
             tc.Enemy_attackName = name;
+            tc.enemyNVStatus = enemyStats.non_volitile_status;
         }
     }
 

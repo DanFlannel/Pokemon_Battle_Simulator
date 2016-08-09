@@ -90,7 +90,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.FatBobbyGaming.Pokemon
-  bundleVersion: 1.25
+  bundleVersion: 1.51
   preloadedAssets:
   - {fileID: -1121539586, guid: 1f6019ef0b441fd48a180094c237bf11, type: 3}
   metroEnableIndependentInputSource: 0
@@ -98,7 +98,7 @@ PlayerSettings:
   xboxOneDisableKinectGpuReservation: 0
   virtualRealitySupported: 0
   productGUID: 08575a2fcb8dda64fb4f3ea47e75c429
-  AndroidBundleVersionCode: 25
+  AndroidBundleVersionCode: 51
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -159,7 +159,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/Dan/Documents/GitHub/Pokemon_Battle_Simulator/Assets/Editor/Key.keystore
+  AndroidKeystoreName: C:/Users/danfl/Documents/GitHub/Pokemon_Battle_Simulator/Assets/Editor/Key.keystore
   AndroidKeyaliasName: libby
   AndroidTVCompatibility: 1
   AndroidIsGame: 1

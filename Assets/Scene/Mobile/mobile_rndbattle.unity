@@ -809,6 +809,9 @@ MonoBehaviour:
   Special_Defense: 0
   Speed: 0
   gui: {fileID: 0}
+  curHp: 0
+  maxHP: 0
+  non_volitile_status: 0
 --- !u!1 &347085799
 GameObject:
   m_ObjectHideFlags: 0
@@ -3195,7 +3198,7 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 224: {fileID: 1423660750}
+  - 4: {fileID: 1423660750}
   - 114: {fileID: 1423660751}
   m_Layer: 5
   m_Name: TurnController
@@ -3204,8 +3207,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1423660750
-RectTransform:
+--- !u!4 &1423660750
+Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3216,11 +3219,6 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 649311626}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 156.39445}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1423660751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3259,6 +3257,12 @@ MonoBehaviour:
   Enemy_StatusMove: 0
   Enemy_AppliedStatusEffect: 0
   enemyHealthBar: {fileID: 661607564}
+  playerNVStatus: 0
+  enemyNVStatus: 0
+  playerConfused: 0
+  playerConfusedDur: 0
+  enemyconfused: 0
+  enemyConfusedDur: 0
   player_one_sixteenth: 0
   player_one_sixteenth_duration: -1
   player_one_eigth: 0
@@ -3273,10 +3277,6 @@ MonoBehaviour:
   player_toxic_mult: 0
   enemy_toxic: 0
   enemy_toxic_mult: 0
-  player_isAsleep: 0
-  player_sleepDur: 0
-  enemy_isAsleep: 0
-  enemy_sleepDur: 0
 --- !u!1 &1465882008
 GameObject:
   m_ObjectHideFlags: 0
@@ -3888,6 +3888,7 @@ MonoBehaviour:
   attack2: 
   attack3: 
   attack4: 
+  non_volitile_status: 0
   Level: 0
   Attack: 0
   attack_Stage: 0
@@ -3906,13 +3907,13 @@ MonoBehaviour:
   canAttack: 1
   canBeAttacked: 1
   isConfused: 0
-  isSleeping: 0
   hasAttacked: 0
   isStunned: 0
   isFlinched: 0
+  isFlying: 0
   isBurned: 0
   isFrozen: 0
-  isFlying: 0
+  isSleeping: 0
   isParalized: 0
   cachedDamage: 0
   hasSubstitute: 0
@@ -5686,7 +5687,7 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 224: {fileID: 2144975217}
+  - 4: {fileID: 2144975217}
   - 114: {fileID: 2144975218}
   m_Layer: 5
   m_Name: Attack Damage Calc
@@ -5695,23 +5696,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &2144975217
-RectTransform:
+--- !u!4 &2144975217
+Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2144975216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 250, y: 156.39447, z: 0}
   m_LocalScale: {x: 1.298, y: 1.298, z: 1.298}
   m_Children: []
   m_Father: {fileID: 649311626}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 156.39447}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144975218
 MonoBehaviour:
   m_ObjectHideFlags: 0
