@@ -52,6 +52,8 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     [Header("Type A Conditions")]
     public nonVolitileStatusEffects playerNVStatus;
     public nonVolitileStatusEffects enemyNVStatus;
+    public int playerToxicDur;
+    public int enemyToxicDur;
 
     [Header("Type B Conditions")]
     public bool playerConfused;
@@ -217,8 +219,19 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     {
         if (enemyNVStatus != nonVolitileStatusEffects.none)
         {
-            Debug.Log("Dealing non volitile status effect");
-
+            if(enemyNVStatus == nonVolitileStatusEffects.burned || enemyNVStatus == nonVolitileStatusEffects.poisioned || enemyNVStatus == nonVolitileStatusEffects.toxic)
+            {
+                Debug.Log("Dealing non volitile status effect");
+                float one_eight = enemyStats.maxHP / 8f;
+                if(enemyNVStatus == nonVolitileStatusEffects.toxic)
+                {
+                    enemyToxicDur++;
+                    one_eight *= enemyToxicDur;
+                }
+                enemyStats.curHp -= (int)one_eight;
+                dmgStatusText(false);
+                changeEnemyHealthBar();
+            }
         }
     }
 
@@ -226,7 +239,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     {
         if (enemyNVStatus != nonVolitileStatusEffects.none)
         {
-
+            
         }
     }
 
@@ -439,7 +452,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         }
 
         string text = pokemon + " was hurt by " + status + ".";
-
+        c_Queue.AddCoroutineToQueue(DisplayText(text));
     }
 
     /// <summary>
