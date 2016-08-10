@@ -235,11 +235,25 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         }
     }
 
+    /// <summary>
+    /// These are the status effects the impead on the ability to move
+    /// </summary>
     private void checkEnemyNVStatus()
     {
         if (enemyNVStatus != nonVolitileStatusEffects.none)
         {
-            
+            if (enemyNVStatus == nonVolitileStatusEffects.paralized)
+            {
+                //25% we can't attack
+            }
+            if (enemyNVStatus == nonVolitileStatusEffects.sleep)
+            {
+                //we can't move
+            }
+            if(enemyNVStatus == nonVolitileStatusEffects.frozen)
+            {
+                //We can't attack but we can break free?
+            }
         }
     }
 
