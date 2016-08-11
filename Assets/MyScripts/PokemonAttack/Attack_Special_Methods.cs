@@ -34,11 +34,11 @@ public class Attack_Special_Methods : MonoBehaviour {
     }
 
     //NEED TO ADJUST TO THIS...
-    public bool Chance_100 (int prob)
+    public bool Chance_100 (float prob)
     {
         bool chance = false;
 
-        int guess = Mathf.RoundToInt(Random.Range(0, 100));
+        float guess = Random.Range(0, 100);
         if(guess < prob)
         {
             chance = true;
@@ -286,10 +286,10 @@ public class Attack_Special_Methods : MonoBehaviour {
     /// <param name="isPlayer">who is attacking</param>
     /// <param name="prob">the probability of being hit</param>
     /// <param name="duration">duration of the effect</param>
-    public void isBurned(bool isPlayer, int prob, int duration)
+    public void isBurned(bool isPlayer, float prob)
     {
-        bool stunHit = stunProbability(prob);
-        if (stunHit)
+        bool isHit = Chance_100(prob);
+        if (isHit)
         {
             Debug.Log("Implimenting Burn");
             if (isPlayer && enemyStats.Type1 != attacks.Fire && enemyStats.Type2 != attacks.Fire)
@@ -316,10 +316,10 @@ public class Attack_Special_Methods : MonoBehaviour {
     /// </summary>
     /// <param name="isPlayer">is the player attacking</param>
     /// <param name="prob">probability of getting frozen</param>
-    public void isFrozen(bool isPlayer, int prob)
+    public void isFrozen(bool isPlayer, float prob)
     {
-        bool stunHit = stunProbability(prob);
-        if (stunHit)
+        bool isHit = Chance_100(prob);
+        if (isHit)
         {
             Debug.Log("Implimenting Freeze");
             if (isPlayer && enemyStats.Type1 != attacks.Ice && enemyStats.Type2 != attacks.Ice)
@@ -348,10 +348,10 @@ public class Attack_Special_Methods : MonoBehaviour {
     /// </summary>
     /// <param name="isPlayer">is the player attacking</param>
     /// <param name="prob">probability of landing this effect</param>
-    public void isParalized(bool isPlayer, int prob)
+    public void isParalized(bool isPlayer, float prob)
     {
-        bool stunHit = stunProbability(prob);
-        if (stunHit)
+        bool isHit = Chance_100(prob);
+        if (isHit)
         {
             Debug.Log("Implimenting Paralysis");
             if (isPlayer && enemyStats.Type1 != attacks.Electric && enemyStats.Type2 != attacks.Electric)
@@ -381,16 +381,16 @@ public class Attack_Special_Methods : MonoBehaviour {
     /// </summary>
     /// <param name="isPlayer"></param>
     /// <param name="prob"></param>
-    public void isPosioned(bool isPlayer, int prob)
+    public void isPosioned(bool isPlayer, float prob)
     {
-        bool stunHit = stunProbability(prob);
-        if (stunHit)
+        bool isHit = Chance_100(prob);
+        if (isHit)
         {
             if (isPlayer && enemyStats.Type1 != attacks.Steel && enemyStats.Type1 != attacks.Poison && enemyStats.Type2 != attacks.Steel && enemyStats.Type2 != attacks.Poison)
             {
                 if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
-                    Debug.Log("Enemy now has Toxic");
+                    Debug.Log("Enemy is Poisoned");
                     enemyStats.non_volitile_status = nonVolitileStatusEffects.poisioned;
                 }
             }
@@ -398,7 +398,7 @@ public class Attack_Special_Methods : MonoBehaviour {
             {
                 if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
-                    Debug.Log("Player now has Toxic");
+                    Debug.Log("Player is Poisoned");
                     playerStats.non_volitile_status = nonVolitileStatusEffects.poisioned;
                 }
             }
@@ -435,10 +435,10 @@ public class Attack_Special_Methods : MonoBehaviour {
     /// <param name="isPlayer">is the player attacking</param>
     /// <param name="prob">probability of it hitting</param>
     /// <param name="duration">duration pokemon is asleep for</param>
-    public void isSleep(bool isPlayer, int prob, int duration)
+    public void isSleep(bool isPlayer, float prob, int duration)
     {
-        bool stunHit = stunProbability(prob);
-        if (stunHit)
+        bool isHit = Chance_100(prob);
+        if (isHit)
         {
             Debug.Log("Implimenting Sleep");
             if (isPlayer)
@@ -446,6 +446,7 @@ public class Attack_Special_Methods : MonoBehaviour {
                 if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Enemy Asleep");
+                    tc.enemyNVDur = duration;
                     enemyStats.non_volitile_status = nonVolitileStatusEffects.sleep;
                 }
             }
@@ -455,6 +456,7 @@ public class Attack_Special_Methods : MonoBehaviour {
                 if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Player Asleep");
+                    tc.playerNVDur = duration;
                     playerStats.non_volitile_status = nonVolitileStatusEffects.sleep;
                 }
             }
@@ -462,10 +464,10 @@ public class Attack_Special_Methods : MonoBehaviour {
     }
 
 
-    public void isConfused(bool isPlayer, int prob, int duration)
+    public void isConfused(bool isPlayer, float prob, int duration)
     {
-        bool stunHit = stunProbability(prob);
-        if (stunHit)
+        bool isHit = Chance_100(prob);
+        if (isHit)
         {
             if (isPlayer)
             {
@@ -482,10 +484,10 @@ public class Attack_Special_Methods : MonoBehaviour {
         }
     }
 
-    public void isFlinched(bool isPlayer, int prob)
+    public void isFlinched(bool isPlayer, float prob)
     {
-        bool stunHit = stunProbability(prob);
-        if (stunHit)
+        bool isHit = Chance_100(prob);
+        if (isHit)
         {
             if (isPlayer)
             {

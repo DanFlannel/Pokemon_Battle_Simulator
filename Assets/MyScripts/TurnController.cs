@@ -52,8 +52,9 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     [Header("Type A Conditions")]
     public nonVolitileStatusEffects playerNVStatus;
     public nonVolitileStatusEffects enemyNVStatus;
-    public int playerToxicDur;
-    public int enemyToxicDur;
+
+    public int playerNVDur;
+    public int enemyNVDur;
 
     [Header("Type B Conditions")]
     public bool playerConfused;
@@ -147,6 +148,9 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         }
     }
 
+    /// <summary>
+    /// Checks the speed and decide who attacks first
+    /// </summary>
     public void checkSpeed()
     {
         if (playerStats.Speed >= enemyStats.Speed)
@@ -160,6 +164,8 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
             Enemy_AttacksFirst = true;
         }
     }
+
+    //..
 
     private void healPlayer()
     {
@@ -179,29 +185,6 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         changePlayerHealthBar();
     }
 
-    private void damage_Player_to_Enemy()
-    {
-        Debug.Log("Player is doing move");
-        attackText(true);
-        if (PlayerDamage > 0)
-        {
-            enemyStats.curHp -= PlayerDamage;
-            changeEnemyHealthBar();
-        }
-    }
-
-    private void damage_Enemy_to_Player()
-    {
-        Debug.Log("Enemy is doing move");
-        attackText(false);
-        if (EnemyDamage > 0)
-        {
-            playerStats.curHp -= EnemyDamage;
-            changePlayerHealthBar();
-
-        }
-    }
-
     private void healEnemy()
     {
         if (enemyStats.curHp + EnemyHeal > enemyStats.maxHP)
@@ -215,6 +198,111 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         changeEnemyHealthBar();
     }
 
+    //..
+
+    private void player_DoMove()
+    {
+        if (PlayerMissed)
+        {
+            attackText(true);
+            string text = playerStats.PokemonName + " missed!";
+            c_Queue.AddCoroutineToQueue(DisplayText(text));
+            return;
+        }
+
+        Debug.Log("Player is doing move");
+        attackText(true);
+        if (PlayerDamage > 0)
+        {
+            enemyStats.curHp -= PlayerDamage;
+            changeEnemyHealthBar();
+        }
+    }
+
+    private void enemy_DoMove()
+    {
+        if (checkEnemyNVStatus())
+        {
+            Debug.Log("Cant move because of status");
+            return;
+        }
+
+        if (EnemyMissed)
+        {
+            attackText(false);
+            string text = enemyStats.PokemonName + " missed!";
+            c_Queue.AddCoroutineToQueue(DisplayText(text));
+            return;
+        }
+
+        Debug.Log("Enemy is doing move");
+        attackText(false);
+        if (EnemyDamage > 0)
+        {
+            playerStats.curHp -= EnemyDamage;
+            changePlayerHealthBar();
+
+        }
+    }
+
+    //..
+
+    /// <summary>
+    /// These are the status effects the impead on the ability to move
+    /// </summary>
+    private bool checkEnemyNVStatus()
+    {
+        if (enemyNVStatus != nonVolitileStatusEffects.none)
+        {
+            if (enemyNVStatus == nonVolitileStatusEffects.paralized)
+            {
+                int rnd = UnityEngine.Random.Range(1, 4);
+                if(rnd == 1)
+                {
+                    string text = enemyStats.PokemonName + " is Paralized!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+                    return true;
+                }
+            }
+            if (enemyNVStatus == nonVolitileStatusEffects.sleep)
+            {
+                enemyNVDur--;
+                string text = "";
+                if(enemyNVDur == 0)
+                {
+                    text = enemyStats.PokemonName + " woke up!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+                }
+                else {
+                    text = enemyStats.PokemonName + " is fast asleep!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+                    return true;
+                }
+                
+            }
+            if (enemyNVStatus == nonVolitileStatusEffects.frozen)
+            {
+                int rnd = UnityEngine.Random.Range(1, 10);
+                if (rnd >= 2)
+                {
+                    string text = enemyStats.PokemonName + " is Frozen!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+                    return true;
+                }
+                else
+                {
+                    enemyNVStatus = nonVolitileStatusEffects.none;
+                    string text = enemyStats.PokemonName + " thawed out!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+                    
+                }
+            }
+        }
+        return false;
+    }
+
+    //..
+
     private void damage_Enemy_Effects()
     {
         if (enemyNVStatus != nonVolitileStatusEffects.none)
@@ -225,8 +313,8 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
                 float one_eight = enemyStats.maxHP / 8f;
                 if(enemyNVStatus == nonVolitileStatusEffects.toxic)
                 {
-                    enemyToxicDur++;
-                    one_eight *= enemyToxicDur;
+                    enemyNVDur++;
+                    one_eight *= enemyNVDur;
                 }
                 enemyStats.curHp -= (int)one_eight;
                 dmgStatusText(false);
@@ -235,74 +323,27 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         }
     }
 
-    /// <summary>
-    /// These are the status effects the impead on the ability to move
-    /// </summary>
-    private void checkEnemyNVStatus()
+    private void damage_Player_Effects()
     {
-        if (enemyNVStatus != nonVolitileStatusEffects.none)
+        if (playerNVStatus != nonVolitileStatusEffects.none)
         {
-            if (enemyNVStatus == nonVolitileStatusEffects.paralized)
+            if (playerNVStatus == nonVolitileStatusEffects.burned || playerNVStatus == nonVolitileStatusEffects.poisioned || playerNVStatus == nonVolitileStatusEffects.toxic)
             {
-                //25% we can't attack
-            }
-            if (enemyNVStatus == nonVolitileStatusEffects.sleep)
-            {
-                //we can't move
-            }
-            if(enemyNVStatus == nonVolitileStatusEffects.frozen)
-            {
-                //We can't attack but we can break free?
+                Debug.Log("Dealing non volitile status effect");
+                float one_eight = playerStats.maxHP / 8f;
+                if (playerNVStatus == nonVolitileStatusEffects.toxic)
+                {
+                    playerNVDur++;
+                    one_eight *= playerNVDur;
+                }
+                playerStats.curHp -= (int)one_eight;
+                dmgStatusText(true);
+                changePlayerHealthBar();
             }
         }
     }
 
-    private void damage_Player_Effects()
-    {
-        if (!player_one_eigth && !player_one_sixteenth)
-        {
-            return;
-        }
-        Debug.Log("Player is taking after turn damage!");
-        if (player_one_eigth)    //there is an effect that takes away 1/8th of the enemies health
-        {
-            //base case this is permanant
-            if (player_one_eigth_duration == -1)
-            {
-            }
-            else if (player_one_eigth_duration > 0)
-            {
-                player_one_eigth_duration--; //keep going down each turn based off inital damage
-            }
-            else if (player_one_eigth_duration == 0)  //the effect will end after this turn is over
-            {
-                player_one_eigth = false;
-            }
-            float damage = (float)playerStats.maxHP * (float)(1f / 8f);  //gets the exact value
-            playerStats.curHp -= Mathf.RoundToInt(damage);   //round the damage
-            changePlayerHealthBar();
-        }
-        if (player_one_sixteenth)  //there is an effect that is taking away 1/16th of the enemy's health
-        {
-            //base case this is permanant
-            if (player_one_sixteenth_duration == -1)
-            {
-            }
-            //this effect is lasting
-            else if (player_one_sixteenth_duration > 0)
-            {
-                player_one_sixteenth_duration--;
-            }
-            //this effect is ending
-            else if (player_one_sixteenth_duration == 0)
-            {
-                player_one_sixteenth = false;
-            }
-            float damage = (float)playerStats.maxHP * (float)(1f / 16f);  //gets the exact value
-            playerStats.curHp -= Mathf.RoundToInt(damage);   //round the damage and apply it
-            changePlayerHealthBar(); //apply the damage to the health bar
-        }
-    }
+    //..
 
     private void changeEnemyHealthBar()
     {
@@ -328,6 +369,8 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         playerHealthBar.value = newSliderValue;
     }
 
+    //..
+
     private bool checkDead()
     {
         bool isDead = false;
@@ -349,13 +392,15 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         return isDead;
     }
 
+    //..
+
     private void PlayerAttacksFirst()
     {
         Debug.Log("Player is attacking first!");
         //apply damage to enemy if there is any and check to make sure the enemy is alive still
         if (!PlayerMissed)
         {
-            damage_Player_to_Enemy();
+            player_DoMove();
         }
         else
         {
@@ -370,7 +415,8 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         //apply damage to player and check if the player is still alive
         if (enemyStats.curHp > 0)   //checks to see that the enemy is still alive before the enemy attacks
         {
-            damage_Enemy_to_Player();
+                enemy_DoMove();
+
             gui.updatePlayerHealth();
 
             //then heal the enemy
@@ -395,7 +441,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     private void EnemyAttacksFrist()
     {
         //apply damage to the player
-        damage_Enemy_to_Player();
+        enemy_DoMove();
         gui.updatePlayerHealth();
         //heal the enemy
         healEnemy();
@@ -405,7 +451,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         if (playerStats.curHp > 0)
         {
             //apply damage to the enemy
-            damage_Player_to_Enemy();
+            player_DoMove();
             //heal the player
             healPlayer();
             //enemy effects
@@ -422,6 +468,8 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         }
 
     }
+
+    //..
 
     private void attackText(bool isPlayer)
     {

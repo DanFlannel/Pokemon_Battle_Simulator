@@ -23,39 +23,50 @@ public class Attack_Switch_Case : Attack_Special_Methods {
             default:
                 Debug.Log("No status move with name " + name + " found");
                 break;
-            case "acid armor":
+            //raises users defense by 2 stages
+            case "acid armor":          
                 changeStats(defense, 2, isPlayer);
                 break;
-            case "agility":
+            //raises users speed by 2 stages
+            case "agility":             
                 changeStats(speed, 2, isPlayer);
                 break;
-            case "amnesia":
+            //raises users spDefense by 2 stages
+            case "amnesia":             
                 changeStats(spDefense, 2, isPlayer);
                 break;
+            //raises users defense by 2 stages
             case "barrier":
                 changeStats(defense, 2, isPlayer);
                 break;
+            //confuses opponenet
             case "confuse ray":
                 rnd = UnityEngine.Random.Range(1, 4);
                 isConfused(isPlayer, 10, rnd);                      
                 break;
+            //chages users type of its first move
             case "conversion":
                 conversion(isPlayer, name);
                 break;
+            //raises uers defense by 1 stage
             case "defense curl":
                 changeStats(defense, 1, isPlayer);
                 break;
+            //disables enemies last move for a few turns
             case "disable":
-                                        //disables the enemies last move
+                                        
                 break;
+            //raises user evasive stage by one
             case "double team":
-                                        //raises user evasive stage by one
+                                        
                 break;
+            //lowers opponents accuracy by 1 stage
             case "flash":
-                                        //Do something
+                                        
                 break;
+            //increases crit ratio...
             case "focus energy":
-                                        //increases crit ratio...
+                                        
                 break;
             case "growl":
                 changeStats(attack, -1, !isPlayer);
@@ -111,21 +122,25 @@ public class Attack_Switch_Case : Attack_Special_Methods {
             case "meditate":
                 changeStats(attack, 1, isPlayer);
                 break;
-            case "metronome":           //preforms any move in the game at random? WTF?
+            //preforms any move in the game at random?
+            case "metronome":           
                 break;
-            case "mimic":               //copies the opponents last move and replaces mimic with that
+            //copies the opponents last move and replaces mimic with that
+            case "mimic":               
                 break;
-            case "minimize":            //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
+            //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
+            case "minimize":            
                 break;
             case "mirror move":         //preforms the opponents last move....
                 break;
-            case "mist":                //no stat changes for 5 turns
+            //no stat changes for 5 turns
+            case "mist":                
                 break;
-            case "poison gas":          //poisons the target so they lose 1/8 their hp per turn
-                one_eigth_perm(isPlayer);
+            case "poison gas":          
+                isPosioned(isPlayer, 100);
                 break;
-            case "poison powder":       //poisons the target so they lose 1/8 their hp per turn
-                one_eigth_perm(isPlayer);
+            case "poison powder":       
+                isPosioned(isPlayer, 100);
                 break;
             case "recover":
                 if (isPlayer)
@@ -184,14 +199,14 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 changeStats(speed, -2, !isPlayer);
                 break;
             case "stun spore":
-                isParalized(isPlayer, 10);
+                isParalized(isPlayer, 100);
                 break;
             case "substitute":
                 substitute(isPlayer);
                 break;
             case "supersonic":
                 rnd = UnityEngine.Random.Range(1, 4);
-                isConfused(isPlayer, 10, rnd);
+                isConfused(isPlayer, 100, rnd);
                 break;
             case "swords dance":
                 changeStats(attack, 2, isPlayer);
@@ -203,7 +218,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 //say something stupid here
                 break;
             case "thunder wave":
-                isParalized(isPlayer, 10);
+                isParalized(isPlayer, 100);
                 break;
             case "toxic":               //increasingly does more toxic damage at the end of each turn, starts at 1/16
                 toxic(isPlayer); 
@@ -226,7 +241,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
         final_heal = 0;
         recoil = 0;
         string tempname = name.ToLower();
-        bool stunHit = false;
+        bool isHit = false;
         int rnd;
         switch (tempname)
         {
@@ -244,13 +259,13 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 one_sixteenth_temp(isPlayer, rnd);
                 break;
             case "bite":
-                isFlinched(isPlayer, 3);
+                isFlinched(isPlayer, 30);
                 break;
             case "body slam":
-                isParalized(isPlayer, 3);
+                isParalized(isPlayer, 30);
                 break;
             case "bone club":
-                isFlinched(isPlayer, 1);
+                isFlinched(isPlayer, 10);
                 break;
             case "bonemerang":
                 rnd = 2;
@@ -265,8 +280,8 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 predictedDamage = multiAttack(rnd,name);
                 break;
             case "constrict":
-                stunHit = stunProbability(1);
-                if (stunHit)
+                isHit = Chance_100(10);
+                if (isHit)
                 {
                     changeStats(speed, -1, !isPlayer);
                 }
@@ -292,7 +307,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 break;
             case "dizzy punch":
                 rnd = UnityEngine.Random.Range(1, 4);
-                isConfused(isPlayer, 2, rnd);
+                isConfused(isPlayer, 20, rnd);
                 break;
             case "double kick":
                 rnd = 2;
@@ -320,8 +335,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                     enemyStats.curHp = 0;
                 break;
             case "fire punch":
-                rnd = UnityEngine.Random.Range(4, 5);
-                isBurned(isPlayer, 1, rnd);
+                isBurned(isPlayer, 10);
                 break;
             case "fissure":
                 oneHitKO(isPlayer);
@@ -351,7 +365,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 oneHitKO(isPlayer);
                 break;
             case "headbutt":
-                isFlinched(isPlayer, 3);
+                isFlinched(isPlayer, 30);
                 break;
             case "high jump kick":      //if this misses it casues 1/2 of the damage it would have inflicted on the user
                 break;
@@ -361,10 +375,10 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 oneHitKO(isPlayer);
                 break;
             case "hyper fang":
-                isFlinched(isPlayer, 1);
+                isFlinched(isPlayer, 10);
                 break;
             case "ice punch":
-                isFrozen(isPlayer, 1);
+                isFrozen(isPlayer, 10);
                 break;
             case "jump kick":           //lose 1/2 hp is the user misses just like high jump kick
                 break;
@@ -374,7 +388,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 final_heal = Mathf.Round(predictedDamage / 2f);
                 break;
             case "low kick":
-                isFlinched(isPlayer, 3);
+                isFlinched(isPlayer, 30);
                 break;
             case "mega kick":           //no additional effect
                 break;
@@ -389,11 +403,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 predictedDamage = multiAttack(rnd, name);
                 break;
             case "poison sting":        //chance to poison the target
-                stunHit = stunProbability(3);
-                if (stunHit)
-                {
-                    one_eigth_perm(isPlayer);
-                }
+                isPosioned(isPlayer, 30);
                 break;
             case "pound":               //no additional effect
                 break;
@@ -404,12 +414,12 @@ public class Attack_Switch_Case : Attack_Special_Methods {
             case "razor leaf":          //high crit ratio
                 break;
             case "rock slide":
-                isFlinched(isPlayer, 3);
+                isFlinched(isPlayer, 30);
                 break;
             case "rock throw":          //no additional effect
                 break;
             case "rolling kick":
-                isFlinched(isPlayer, 3);
+                isFlinched(isPlayer, 30);
                 break;
             case "scratch":             //no additional effect
                 break;
@@ -429,7 +439,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
             case "skull bash":          //charges first turn, raising defense, hits on the second turn
                 break;
             case "sky attack":          //charges on first turn, hits on second, 30% flinch chance
-                isFlinched(isPlayer, 3);
+                isFlinched(isPlayer, 30);
                 break;
             case "slam":                //no additional effect
                 break;
@@ -440,7 +450,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 predictedDamage = multiAttack(rnd, name);
                 break;
             case "stomp":               //if minimized *2 damage
-                isFlinched(isPlayer, 3);
+                isFlinched(isPlayer, 30);
                 break;
             case "strength":            //no additional effect
                 break;
@@ -467,22 +477,18 @@ public class Attack_Switch_Case : Attack_Special_Methods {
             case "thrash":              //attacks for 2-3 turns, but cannot switch out or use a different attack
                 break;
             case "thunder punch":
-                isParalized(isPlayer, 1);
+                isParalized(isPlayer, 10);
                 break;
             case "twineedle":           //20% chance to poison the target
                 multiAttack(2, name);
-                stunHit = stunProbability(2);
-                if (stunHit)
-                {
-                    one_eigth_perm(isPlayer);
-                }
+                isPosioned(isPlayer, 20);
                 break;
             case "vice grip":           //no additional effect
                 break;
             case "vine whip":           //no additional effect
                 break;
             case "waterfall":
-                isFlinched(isPlayer, 2);
+                isFlinched(isPlayer, 20);
                 break;
             case "wing attack":         //no additional effect, can hit non-adjacent pokemon in triple battles
                 break;
@@ -510,7 +516,7 @@ public class Attack_Switch_Case : Attack_Special_Methods {
         recoil = 0;
         string tempname = name.ToLower();
         int rnd;
-        bool stunHit = false;
+        bool isHit = false;
         switch (tempname)
         {
             default:
@@ -520,31 +526,39 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 final_heal = predictedDamage / 2f;
                 break;
             case "acid":
-                stunHit = stunProbability(1);
-                if (stunHit)
+                isHit = Chance_100(10);
+                if (isHit)
+                {
                     changeStats(spDefense, -1, !isPlayer);
+                }
                 break;
             case "aurora beam":
-                stunHit = stunProbability(1);
-                if (stunHit)
+                isHit = Chance_100(10);
+                if (isHit)
+                {
                     changeStats(attack, -1, !isPlayer);
+                }
                 break;
             case "blizzard":
-                isFrozen(isPlayer, 1);
+                isFrozen(isPlayer, 10);
                 break;
             case "bubble":
-                stunHit = stunProbability(1);
-                if (stunHit)
+                isHit = Chance_100(10);
+                if (isHit)
+                {
                     changeStats(speed, -1, !isPlayer);
+                }
                 break;
             case "bubble beam":
-                stunHit = stunProbability(1);
-                if (stunHit)
+                isHit = Chance_100(10);
+                if (isHit)
+                {
                     changeStats(speed, -1, !isPlayer);
+                }
                 break;
             case "confusion":
                 rnd = UnityEngine.Random.Range(1, 4);
-                isConfused(isPlayer, 1, rnd);
+                isConfused(isPlayer, 10, rnd);
                 break;
             case "dragon rage":
                 predictedDamage = 40;
@@ -553,20 +567,15 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 predictedDamage = dreamEater(isPlayer, predictedDamage);
                 break;
             case "ember":
-                rnd = UnityEngine.Random.Range(4, 5);
-                isBurned(isPlayer, 1, rnd);
+                isBurned(isPlayer, 10);
                 break;
             case "fire blast":
-                rnd = UnityEngine.Random.Range(4, 5);
-                isBurned(isPlayer, 1, rnd);
+                isBurned(isPlayer, 10);
                 break;
-            case "fire spin":           //burns the target for 4-5 turns
-                rnd = UnityEngine.Random.Range(4, 5);
-                isBurned(isPlayer, 10, rnd);
+            case "fire spin":           //Damages the target for 4-5 turns
                 break;
             case "flamethrower":
-                rnd = UnityEngine.Random.Range(4, 5);
-                isBurned(isPlayer, 1, rnd);
+                isBurned(isPlayer, 10);
                 break;
             case "gust":
                 if (isPlayer)
@@ -584,12 +593,14 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 break;
             case "hyper beam":          //cannot move next turn
                 if (isPlayer)
+                {
                     playerStats.canAttack = false;
+                }
                 else
                     enemyStats.canAttack = false;
                 break;
             case "ice beam":
-                isFrozen(isPlayer, 1);
+                isFrozen(isPlayer, 10);
                 break;
             case "mega drain":
                 final_heal = Mathf.Round(predictedDamage / 2f);
@@ -601,12 +612,14 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 break;
             case "psybeam":
                 rnd = UnityEngine.Random.Range(1, 4);
-                isConfused(isPlayer, 1, rnd);
+                isConfused(isPlayer, 10, rnd);
                 break;
             case "psychic":
-                stunHit = stunProbability(1);
-                if (stunHit)
+                isHit = Chance_100(10);
+                if (isHit)
+                {
                     changeStats(spDefense, -1, !isPlayer);
+                }
                 break;
             case "psywave":
                 float mod = UnityEngine.Random.Range(.5f, 1.5f);
@@ -616,18 +629,10 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 final_damage = 0;
                 break;
             case "sludge":              //30% chance to poison the target
-                stunHit = stunProbability(3);
-                if (stunHit)
-                {
-                    one_eigth_perm(isPlayer);
-                }
+                isPosioned(isPlayer, 30);
                 break;
             case "smog":                //40% chance to poison the target
-                stunHit = stunProbability(4);
-                if (stunHit)
-                {
-                    one_eigth_perm(isPlayer);
-                }
+                isPosioned(isPlayer, 40);
                 break;
             case "solar beam":          //charges on the fist turn, hits on the second
                 break;
@@ -639,19 +644,19 @@ public class Attack_Switch_Case : Attack_Special_Methods {
             case "swift":               //ignores evasiveness and accuracy
                 break;
             case "thunder":
-                isParalized(isPlayer, 3);
+                isParalized(isPlayer, 30);
                 break;
             case "thunder shock":
-                isParalized(isPlayer, 1);
+                isParalized(isPlayer, 10);
                 break;
             case "thunder bolt":
-                isParalized(isPlayer, 1);
+                isParalized(isPlayer, 10);
                 break;
             case "tri attack":          //I changed this from 6.67% chance for each to 10%
                 rnd = UnityEngine.Random.Range(4, 5);
-                isParalized(isPlayer, 1);
-                isBurned(isPlayer, 1, rnd);
-                isFrozen(isPlayer, 1);
+                isParalized(isPlayer, 6.67f);
+                isBurned(isPlayer, 6.67f);
+                isFrozen(isPlayer, 6.67f);
                 break;
             case "water gun":           //no additional effect
                 break;
