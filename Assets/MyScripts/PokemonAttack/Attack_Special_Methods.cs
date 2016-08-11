@@ -33,12 +33,19 @@ public class Attack_Special_Methods : MonoBehaviour {
         //Console.WriteLine("PK : Attack Switch Case: Initalized");
     }
 
-    //NEED TO ADJUST TO THIS...
+    //..
+
+    /// <summary>
+    /// Does a random guess for a probability in 100
+    /// </summary>
+    /// <param name="prob"></param>
+    /// <returns></returns>
     public bool Chance_100 (float prob)
     {
         bool chance = false;
 
         float guess = Random.Range(0, 100);
+        //Debug.Log(guess + " : " + prob);
         if(guess < prob)
         {
             chance = true;
@@ -47,37 +54,7 @@ public class Attack_Special_Methods : MonoBehaviour {
         return chance;
     }
 
-    /// <summary>
-    /// Takes in the probability of getting a stun for a move out of ten, then makes a list of that many unique random numbers
-    /// if the guess is any of those unique random numbers the method returns true, otherwise the attack did not stun the 
-    /// enemy pokemon
-    /// </summary>
-    public bool stunProbability(int prob)
-    {
-        bool stunHit = false;
-        List<int> probability = new List<int>();
-        for (int i = 0; i < prob; i++)
-        {
-            int chance = Mathf.RoundToInt(UnityEngine.Random.Range(1f, 10f));
-            while (probability.Contains(chance))
-            {
-                chance = Mathf.RoundToInt(UnityEngine.Random.Range(1f, 10f));
-            }
-            probability.Add(chance);
-        }
-
-        int guess = Mathf.RoundToInt(UnityEngine.Random.Range(1f, 10f));        //Gets our guess, a random integer between 1 and 10
-
-        for (int i = 0; i < probability.Count; i++)
-        {
-            if (guess == probability[i])
-            {
-                stunHit = true;
-            }
-        }
-
-        return stunHit;
-    }
+    //..
 
     public void changeStats(string type, int stageMod, bool isPlayer)
     {
@@ -333,7 +310,6 @@ public class Attack_Special_Methods : MonoBehaviour {
             }
             else if(playerStats.Type1 != attacks.Ice && playerStats.Type2 != attacks.Ice)
             {
-                playerStats.isFrozen = true;
                 if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Player Frozen");
@@ -463,6 +439,7 @@ public class Attack_Special_Methods : MonoBehaviour {
         }
     }
 
+    //..
 
     public void isConfused(bool isPlayer, float prob, int duration)
     {
@@ -508,6 +485,8 @@ public class Attack_Special_Methods : MonoBehaviour {
         }
     }
 
+    //..
+
     public void conversion(bool isPlayer, string name)
     {
         //List<string> tempList = new List<string>();
@@ -534,7 +513,7 @@ public class Attack_Special_Methods : MonoBehaviour {
 
         if (isPlayer)
         {
-            if (enemyStats.isSleeping)
+            if (tc.enemyNVStatus == nonVolitileStatusEffects.sleep)
             {
                 final_heal = Mathf.Round(predictedDamage / 2f);
             }
@@ -545,7 +524,7 @@ public class Attack_Special_Methods : MonoBehaviour {
         }
         else
         {
-            if (playerStats.isSleeping)
+            if (tc.playerNVStatus == nonVolitileStatusEffects.sleep)
             {
                 final_heal = Mathf.Round(predictedDamage / 2f);
             }
@@ -586,7 +565,7 @@ public class Attack_Special_Methods : MonoBehaviour {
             acc = playerStats.Level - enemyStats.Level + 30;
         else
             acc = enemyStats.Level - playerStats.Level + 30;
-        if (attackCalc.moveHitProbability(acc))
+        if (attackCalc.checkAccuracy_and_Hit(acc))
         {
             if (isPlayer)
                 enemyStats.curHp = 0;
@@ -657,36 +636,6 @@ public class Attack_Special_Methods : MonoBehaviour {
         }
     }
 
-    public bool checkForStatus(bool isPlayer)
-    {
-        bool applyEffect = false;
-        if (isPlayer)
-        {
-            if (playerStats.Speed > enemyStats.Speed)
-            {
-                applyEffect = true;
-            }
-            else
-            {
-                applyEffect = false;
-            }
-        }
-        else
-        {
-            if (enemyStats.Speed > playerStats.Speed)
-            {
-                applyEffect = true;
-            }
-            else
-            {
-                applyEffect = false;
-            }
-        }
-
-        return applyEffect;
-    }
-
-
     //THESE NEED TO BE ELEMINATED
     public void one_sixteenth_perm(bool isPlayer)
     {
@@ -740,8 +689,7 @@ public class Attack_Special_Methods : MonoBehaviour {
         }
     }
 
-
-
+    //..
 
     public void leech_seed(bool isPlayer)
     {
@@ -755,7 +703,12 @@ public class Attack_Special_Methods : MonoBehaviour {
         }
     }
 
-    public void updateTurnController(bool isPlayer, string name)
+    /// <summary>
+    /// Updates the controls
+    /// </summary>
+    /// <param name="isPlayer">player or enemy</param>
+    /// <param name="name">Attack name</param>
+    public void updateTurnController(bool isPlayer, string name, AttackType type)
     {
         if (isPlayer)
         {
@@ -764,6 +717,7 @@ public class Attack_Special_Methods : MonoBehaviour {
             tc.PlayerRecoil = (int)recoil;
             tc.PlayerDataComplete = true;
             tc.Player_attackName = name;
+            tc.Player_AttackType = type;
             tc.playerNVStatus = playerStats.non_volitile_status;
         }
         else
@@ -773,6 +727,7 @@ public class Attack_Special_Methods : MonoBehaviour {
             tc.EnemyRecoil = (int)recoil;
             tc.EnemyDataComplete = true;
             tc.Enemy_attackName = name;
+            tc.Enemy_AttackType = type;
             tc.enemyNVStatus = enemyStats.non_volitile_status;
         }
     }

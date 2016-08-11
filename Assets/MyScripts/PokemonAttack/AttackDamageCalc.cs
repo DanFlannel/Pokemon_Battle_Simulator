@@ -156,7 +156,7 @@ public class AttackDamageCalc : MonoBehaviour
         int accuracy = attacks.attackList[attack_index].accuracy;
         //Debug.Log("Predicted Damage: " + predictedDamage);
 
-        bool hit = moveHitProbability(accuracy);
+        bool hit = checkAccuracy_and_Hit(accuracy);
         if (!hit)
         {
             return;
@@ -165,7 +165,7 @@ public class AttackDamageCalc : MonoBehaviour
         switch (attackCat)
         {
             case "Status":
-                attack_Switch_Case.statusAttacks(attack_name, isPlayer);
+                attack_Switch_Case.updateTurnController(isPlayer, attack_name, AttackType.status);
                 break;
             case "Physical":
                 attack_Switch_Case.physicalAttacks(attack_name, predictedDamage, isPlayer);
@@ -572,39 +572,21 @@ public class AttackDamageCalc : MonoBehaviour
     /// <param name="accuracy">the accuracy of the move being passed in</param>
     /// <returns>true if the move hit, false if it missed</returns>
     /// </summary>
-    public bool moveHitProbability(int accuracy)
+    public bool checkAccuracy_and_Hit(int accuracy)
     {
         bool hit = true;
-        int hitProb = accuracy / 5;
-        int missProb = 20 - hitProb;
-        //Debug.Log("accuracy = " + hitProb);
-        //Debug.Log("miss probability = " + missProb + "/20");
 
-        if (missProb >= 20)
+        if (accuracy == 100 || accuracy == 0)
         {
             hit = true;
-            return hit;
+            //Debug.Log("100% acc: " + accuracy + " : " + hit);
         }
-        List<int> missNums = new List<int>();
-
-        for (int i = 0; i < missProb; i++)
+        else
         {
-            int chance = Mathf.RoundToInt(UnityEngine.Random.Range(1, 20));
-            while (missNums.Contains(chance))
-            {
-                chance = Mathf.RoundToInt(UnityEngine.Random.Range(1, 20));
-            }
-            missNums.Add(chance);
+            hit = attack_Switch_Case.Chance_100(accuracy);
+            //Debug.Log("not 100%: " + accuracy + " : " + hit);
         }
 
-        int guess = Mathf.RoundToInt(UnityEngine.Random.Range(1, 20));
-        for (int i = 0; i < missProb; i++)
-        {
-            if (missNums[i] == guess)
-            {
-                hit = false;
-            }
-        }
         if (!hit)
         {
             Debug.LogWarning("The move missed!");
@@ -637,7 +619,6 @@ public class AttackDamageCalc : MonoBehaviour
                 tc.EnemyMissed = false;
             }
         }
-
         return hit;
     }
 

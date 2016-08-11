@@ -231,8 +231,8 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 changeStats(defense, 1, isPlayer);
                 break;
         }
-        Debug.Log("Did a status move!");
-        updateTurnController(isPlayer, name);
+        //Debug.Log("Did a status move!");
+        //updateTurnController(isPlayer, name);
     }
 
     public void physicalAttacks(string name, float predictedDamage, bool isPlayer)
@@ -498,14 +498,10 @@ public class Attack_Switch_Case : Attack_Special_Methods {
                 break;
         }
         final_damage = predictedDamage;
-
-        Debug.Log("Did a Physical Attack!");
-        Debug.Log("final heal = " + final_heal);
-        Debug.Log("final damage = " + final_damage);
-
-
-        updateTurnController(isPlayer, name);
-
+        //Debug.Log("Did a Physical Attack!");
+        //Debug.Log("final heal = " + final_heal);
+        //Debug.Log("final damage = " + final_damage);
+        updateTurnController(isPlayer, name, AttackType.physical);
     }
 
     public void specialAttacks(string name, float predictedDamage, bool isPlayer)
@@ -668,6 +664,6 @@ public class Attack_Switch_Case : Attack_Special_Methods {
         Debug.Log("final heal = " + final_heal);
         Debug.Log("final damage = " + final_damage);
 
-        updateTurnController(isPlayer, name);
+        updateTurnController(isPlayer, name, AttackType.special);
     }
 }

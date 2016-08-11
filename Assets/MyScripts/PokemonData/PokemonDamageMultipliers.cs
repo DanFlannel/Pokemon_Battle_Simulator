@@ -936,7 +936,7 @@ public class PokemonDamageMultipliers : MonoBehaviour
         master_list.Add(new pokemon_dmg_multipliers("Rhydon", ground_rock));
         master_list.Add(new pokemon_dmg_multipliers("Chansey", normal));
         master_list.Add(new pokemon_dmg_multipliers("Tangela", grass));
-        master_list.Add(new pokemon_dmg_multipliers("Kangaskan", normal));
+        master_list.Add(new pokemon_dmg_multipliers("Kangaskhan", normal));
         master_list.Add(new pokemon_dmg_multipliers("Horsea", water));
         master_list.Add(new pokemon_dmg_multipliers("Seadra", water));
         master_list.Add(new pokemon_dmg_multipliers("Goldeen", water));

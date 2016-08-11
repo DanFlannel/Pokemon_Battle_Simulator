@@ -27,6 +27,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     public bool PlayerCriticalStrike = false;
     public bool PlayerMissed = false;
     public string Player_attackName;
+    public AttackType Player_AttackType;
     public bool Player_AttacksFirst = false;
     public bool PlayerDataComplete = false;
     public bool Player_StatusMove = false;
@@ -43,6 +44,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     public bool EnemyCriticalStrike = false;
     public bool EnemyMissed = false;
     public string Enemy_attackName;
+    public AttackType Enemy_AttackType;
     public bool Enemy_AttacksFirst = false;
     public bool EnemyDataComplete = false;
     public bool Enemy_StatusMove = false;
@@ -95,6 +97,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     private PlayerPokemonHandler playerStats;
     private EnemyPokemonHandler enemyStats;
     private GUIScript gui;
+    private Attack_Switch_Case attack_Switch_Case;
 
     // Use this for initialization
     void Awake()
@@ -109,6 +112,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
         enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
         gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<GUIScript>();
+        attack_Switch_Case = GameObject.FindGameObjectWithTag("Attacks").GetComponent<Attack_Switch_Case>();
     }
 
     private void DelayInit()
@@ -202,11 +206,25 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
 
     private void player_DoMove()
     {
+        if (checkPlayerNVStatus())
+        {
+            Debug.Log("Cant move because of status");
+            return;
+        }
+
         if (PlayerMissed)
         {
             attackText(true);
             string text = playerStats.PokemonName + " missed!";
             c_Queue.AddCoroutineToQueue(DisplayText(text));
+            return;
+        }
+
+        if (Player_AttackType == AttackType.status)
+        {
+            Debug.Log("Player is doing status move");
+            attackText(true);
+            attack_Switch_Case.statusAttacks(Player_attackName, false);
             return;
         }
 
@@ -232,6 +250,13 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
             attackText(false);
             string text = enemyStats.PokemonName + " missed!";
             c_Queue.AddCoroutineToQueue(DisplayText(text));
+            return;
+        }
+
+        if(Enemy_AttackType == AttackType.status)
+        {
+            attackText(false);
+            attack_Switch_Case.statusAttacks(Enemy_attackName, false);
             return;
         }
 
@@ -295,6 +320,57 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
                     string text = enemyStats.PokemonName + " thawed out!";
                     c_Queue.AddCoroutineToQueue(DisplayText(text));
                     
+                }
+            }
+        }
+        return false;
+    }
+
+    private bool checkPlayerNVStatus()
+    {
+        if (playerNVStatus != nonVolitileStatusEffects.none)
+        {
+            if (playerNVStatus == nonVolitileStatusEffects.paralized)
+            {
+                int rnd = UnityEngine.Random.Range(1, 4);
+                if (rnd == 1)
+                {
+                    string text = playerStats.PokemonName + " is Paralized!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+                    return true;
+                }
+            }
+            if (playerNVStatus == nonVolitileStatusEffects.sleep)
+            {
+                playerNVDur--;
+                string text = "";
+                if (playerNVDur == 0)
+                {
+                    text = playerStats.PokemonName + " woke up!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+                }
+                else {
+                    text = playerStats.PokemonName + " is fast asleep!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+                    return true;
+                }
+
+            }
+            if (playerNVStatus == nonVolitileStatusEffects.frozen)
+            {
+                int rnd = UnityEngine.Random.Range(1, 10);
+                if (rnd >= 2)
+                {
+                    string text = playerStats.PokemonName + " is Frozen!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+                    return true;
+                }
+                else
+                {
+                    playerNVStatus = nonVolitileStatusEffects.none;
+                    string text = playerStats.PokemonName + " thawed out!";
+                    c_Queue.AddCoroutineToQueue(DisplayText(text));
+
                 }
             }
         }
@@ -398,14 +474,7 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
     {
         Debug.Log("Player is attacking first!");
         //apply damage to enemy if there is any and check to make sure the enemy is alive still
-        if (!PlayerMissed)
-        {
-            player_DoMove();
-        }
-        else
-        {
-            Debug.LogWarning("Player did move and missed");
-        }
+        player_DoMove();
         //then heal the player
         healPlayer();
 
@@ -592,4 +661,13 @@ public class TurnController : CoroutineQueueHelper.CoroutineList
             yield return null;
         }
     }
+
+
 }
+
+public enum AttackType
+{
+    status,
+    physical,
+    special
+};

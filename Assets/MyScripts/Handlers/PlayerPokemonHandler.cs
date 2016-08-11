@@ -56,12 +56,6 @@ public class PlayerPokemonHandler : MonoBehaviour
     public bool isFlinched = false;
     public bool isFlying = false;
 
-    //Gotta get rid of these
-    public bool isBurned = false;
-    public bool isFrozen = false;
-    public bool isSleeping = false;
-    public bool isParalized = false;
-
     public float cachedDamage = 0;
 
     public bool hasSubstitute = false;
@@ -253,15 +247,10 @@ public class PlayerPokemonHandler : MonoBehaviour
         hasAttacked = false;
 
         isConfused = pk.isConfused;
-        isSleeping = pk.isSleeping;
         isStunned = pk.isStunned;
 
         isFlinched = false;
         isFlying = false;
-
-        isBurned = pk.isBurned;
-        isParalized = pk.isParalized;
-        isFrozen = pk.isFrozen;
 
         sleepDuration = pk.sleepDuration;
         confusedDuration = pk.confusedDuration;
@@ -287,15 +276,11 @@ public class PlayerPokemonHandler : MonoBehaviour
         pk.spDefense_stage = spDefense_stage;
         pk.speed_stage = speed_stage;
 
-        pk.isSleeping = isSleeping;
         pk.sleepDuration = sleepDuration;
 
         pk.isConfused = false;
         pk.confusedDuration = 0;
 
-        pk.isBurned = isBurned;
-        pk.isParalized = isParalized;
-        pk.isFrozen = isFrozen;
         pk.status_A = non_volitile_status;
     }
 
