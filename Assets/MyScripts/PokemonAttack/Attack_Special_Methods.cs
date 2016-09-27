@@ -428,7 +428,6 @@ public class Attack_Special_Methods : MonoBehaviour {
             }
             else
             {
-
                 if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
                 {
                     Debug.Log("Player Asleep");

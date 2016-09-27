@@ -2196,18 +2196,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b42ed4d9b85f7534387aeb88aecb22e4, type: 3}
-    m_FontSize: 24
+    m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 25
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Victreebel
+  m_Text: Electrabuzz
 --- !u!222 &1066501906
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3339,6 +3339,7 @@ MonoBehaviour:
   PlayerCriticalStrike: 0
   PlayerMissed: 1
   Player_attackName: 
+  Player_AttackType: 0
   Player_AttacksFirst: 0
   PlayerDataComplete: 0
   Player_StatusMove: 0
@@ -3351,6 +3352,7 @@ MonoBehaviour:
   EnemyCriticalStrike: 0
   EnemyMissed: 0
   Enemy_attackName: 
+  Enemy_AttackType: 0
   Enemy_AttacksFirst: 0
   EnemyDataComplete: 0
   Enemy_StatusMove: 0
@@ -3358,8 +3360,8 @@ MonoBehaviour:
   enemyHealthBar: {fileID: 661607564}
   playerNVStatus: 0
   enemyNVStatus: 0
-  playerToxicDur: 0
-  enemyToxicDur: 0
+  playerNVDur: 0
+  enemyNVDur: 0
   playerConfused: 0
   playerConfusedDur: 0
   enemyconfused: 0
@@ -4086,10 +4088,6 @@ MonoBehaviour:
   isStunned: 0
   isFlinched: 0
   isFlying: 0
-  isBurned: 0
-  isFrozen: 0
-  isSleeping: 0
-  isParalized: 0
   cachedDamage: 0
   hasSubstitute: 0
   hasLightScreen: 0
