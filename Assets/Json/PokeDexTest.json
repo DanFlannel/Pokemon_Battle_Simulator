@@ -11,7 +11,7 @@
 		"weight": 6.9,
 		"color": "Green",
 		"evos": ["ivysaur"],
-		"eggGroups": ["Monster", "Grass"],
+		"eggGroups": ["Monster", "Grass"]
 	},
 	{
 		"name" : "ivysaur",
@@ -27,7 +27,7 @@
 		"prevo": "bulbasaur",
 		"evos": ["venusaur"],
 		"evoLevel": 16,
-		"eggGroups": ["Monster", "Grass"],
+		"eggGroups": ["Monster", "Grass"]
 	},
 
 	{
@@ -44,7 +44,7 @@
 		"prevo": "ivysaur",
 		"evoLevel": 32,
 		"eggGroups": ["Monster", "Grass"],
-		"otherFormes": ["venusaurmega"],
+		"otherFormes": ["venusaurmega"]
 	},
 
 	{
@@ -61,7 +61,7 @@
 		"height": 2.4,
 		"weight": 155.5,
 		"color": "Green",
-		"eggGroups": ["Monster", "Grass"],
+		"eggGroups": ["Monster", "Grass"]
 	},
 
 	{
@@ -76,7 +76,7 @@
 		"weight": 8.5,
 		"color": "Red",
 		"evos": ["charmeleon"],
-		"eggGroups": ["Monster", "Dragon"],
+		"eggGroups": ["Monster", "Dragon"]
 	}
 	]
 }

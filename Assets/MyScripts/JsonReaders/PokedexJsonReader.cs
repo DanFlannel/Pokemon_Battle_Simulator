@@ -19,44 +19,41 @@ public class PokedexJsonReader : MonoBehaviour
 
     void readJson()
     {
-        json = JsonUtility.FromJson<JsonHolder>(jsonFile.text);
+        json = JsonUtility.FromJson<PokedexJson>(jsonFile.text);
     }
 
-    private class JsonHolder
+    private class PokedexJson
     {
-        JsonItem[] pokemon;
+        PokemonJsonData[] pokemon;
     }
 
-    private class JsonItem
+    private class PokemonJsonData
     {
         string name;
-        JsonStats stats;
-    }
-
-    private class JsonStats
-    {
         int num;
         string species;
         string baseSpecies;
-        JsonStatsSub1 types;
-        float[] genderRatio;
-        JsonStatsSub2 subStats;
+        string forme;
+        string formeLetter;
+        string[] types;
+        genderRatioJson genderRatio;
+        baseStatsJson subStats;
         string[] abilities;
-        float height;
-        float weight;
+        float height;   //in meters
+        float weight;   //in KG
         string color;
         string[] evos;
         string[] eggGroups;
-
+        string[] otherFormes;
     }
 
-    private class JsonStatsSub1
+    private class genderRatioJson
     {
-        string type1;
-        string type2;
+        float M;
+        float F;
     }
 
-    private class JsonStatsSub2
+    private class baseStatsJson
     {
         int hp;
         int atk;
