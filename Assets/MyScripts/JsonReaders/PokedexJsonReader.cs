@@ -9,7 +9,6 @@ public class PokedexJsonReader : MonoBehaviour
 
     public TextAsset jsonFile;
     private object json;
-    private
 
     // Use this for initialization
     void Start()
@@ -20,6 +19,7 @@ public class PokedexJsonReader : MonoBehaviour
     void readJson()
     {
         json = JsonUtility.FromJson<PokedexJson>(jsonFile.text);
+        
     }
 
     private class PokedexJson
@@ -37,12 +37,16 @@ public class PokedexJsonReader : MonoBehaviour
         string formeLetter;
         string[] types;
         genderRatioJson genderRatio;
-        baseStatsJson subStats;
+        string gender;
+        baseStatsJson baseStates;
         string[] abilities;
         float height;   //in meters
         float weight;   //in KG
         string color;
         string[] evos;
+        string prevo;
+        int evoLevel;
+        string evoMove;
         string[] eggGroups;
         string[] otherFormes;
     }
