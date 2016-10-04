@@ -36,8 +36,8 @@ public class PokedexJsonReader : MonoBehaviour
         string forme;
         string formeLetter;
         string[] types;
-        genderRatioJson genderRatio;
         string gender;
+        genderRatioJson genderRatio;
         baseStatsJson baseStates;
         string[] abilities;
         float height;   //in meters

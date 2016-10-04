@@ -79,33 +79,6 @@
         },
 
         {
-            "name": "venusaurmega",
-            "num": 3,
-            "species": "Venusaur-Mega",
-            "baseSpecies": "Venusaur",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Grass", "Poison" ],
-            "genderRatio": {
-                "M": 0.875,
-                "F": 0.125
-            },
-            "baseStats": {
-                "hp": 80,
-                "atk": 100,
-                "def": 123,
-                "spa": 122,
-                "spd": 120,
-                "spe": 80
-            },
-            "abilities": [ "Thick Fat" ],
-            "height": 2.4,
-            "weight": 155.5,
-            "color": "Green",
-            "eggGroups": [ "Monster", "Grass" ]
-        },
-
-        {
             "name": "charmander",
             "num": 4,
             "species": "Charmander",
@@ -184,59 +157,6 @@
         },
 
         {
-            "name": "charizardmegax",
-            "num": 6,
-            "species": "Charizard-Mega-X",
-            "baseSpecies": "Charizard",
-            "forme": "Mega-X",
-            "formeLetter": "M",
-            "types": [ "Fire", "Dragon" ],
-            "genderRatio": {
-                "M": 0.875,
-                "F": 0.125
-            },
-            "baseStats": {
-                "hp": 78,
-                "atk": 130,
-                "def": 111,
-                "spa": 130,
-                "spd": 85,
-                "spe": 100
-            },
-            "abilities": [ "Tough Claws" ],
-            "height": 1.7,
-            "weight": 110.5,
-            "color": "Red",
-            "eggGroups": [ "Monster", "Dragon" ]
-        },
-        {
-            "name": "charizardmegay",
-            "num": 6,
-            "species": "Charizard-Mega-Y",
-            "baseSpecies": "Charizard",
-            "forme": "Mega-Y",
-            "formeLetter": "M",
-            "types": [ "Fire", "Flying" ],
-            "genderRatio": {
-                "M": 0.875,
-                "F": 0.125
-            },
-            "baseStats": {
-                "hp": 78,
-                "atk": 104,
-                "def": 78,
-                "spa": 159,
-                "spd": 115,
-                "spe": 100
-            },
-            "abilities": [ "Drought" ],
-            "height": 1.7,
-            "weight": 100.5,
-            "color": "Red",
-            "eggGroups": [ "Monster", "Dragon" ]
-        },
-
-        {
             "name": "squirtle",
             "num": 7,
             "species": "Squirtle",
@@ -312,33 +232,6 @@
             "evoLevel": 36,
             "eggGroups": [ "Monster", "Water 1" ],
             "otherFormes": [ "blastoisemega" ]
-        },
-
-        {
-            "name": "blastoisemega",
-            "num": 9,
-            "species": "Blastoise-Mega",
-            "baseSpecies": "Blastoise",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Water" ],
-            "genderRatio": {
-                "M": 0.875,
-                "F": 0.125
-            },
-            "baseStats": {
-                "hp": 79,
-                "atk": 103,
-                "def": 120,
-                "spa": 135,
-                "spd": 115,
-                "spe": 78
-            },
-            "abilities": [ "Mega Launcher" ],
-            "height": 1.6,
-            "weight": 101.1,
-            "color": "Blue",
-            "eggGroups": [ "Monster", "Water 1" ]
         },
 
         {
@@ -471,29 +364,6 @@
         },
 
         {
-
-            "name": "beedrillmega",
-            "num": 15,
-            "species": "Beedrill-Mega",
-            "baseSpecies": "Beedrill",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Bug", "Poison" ],
-            "baseStats": {
-                "hp": 65,
-                "atk": 150,
-                "def": 40,
-                "spa": 15,
-                "spd": 80,
-                "spe": 145
-            },
-            "abilities": [ "Adaptability" ],
-            "height": 1.4,
-            "weight": 40.5,
-            "color": "Yellow",
-            "eggGroups": [ "Bug" ]
-        },
-        {
             "name": "pidgey",
             "num": 16,
             "species": "Pidgey",
@@ -557,29 +427,6 @@
             "evoLevel": 36,
             "eggGroups": [ "Flying" ],
             "otherFormes": [ "pidgeotmega" ]
-        },
-
-        {
-            "name": "pidgeotmega",
-            "num": 18,
-            "species": "Pidgeot-Mega",
-            "baseSpecies": "Pidgeot",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Normal", "Flying" ],
-            "baseStats": {
-                "hp": 83,
-                "atk": 80,
-                "def": 80,
-                "spa": 135,
-                "spd": 80,
-                "spe": 121
-            },
-            "abilities": [ "No Guard" ],
-            "height": 2.2,
-            "weight": 50.5,
-            "color": "Brown",
-            "eggGroups": [ "Flying" ]
         },
 
         {
@@ -734,151 +581,6 @@
             "eggGroups": [ "Field", "Fairy" ],
             "otherFormes": [ "pikachucosplay", "pikachurockstar", "pikachubelle", "pikachupopstar", "pikachuphd", "pikachulibre" ]
         },
-
-        /*
-        {
-            "name": "pikachucosplay",
-            "num": 25,
-            "species": "Pikachu-Cosplay",
-            "baseSpecies": "Pikachu",
-            "forme": "Cosplay",
-            "formeLetter": "C",
-            "types": [ "Electric" ],
-            "gender" : "F",
-            "baseStats": {
-                "hp": 35,
-                "atk": 55,
-                "def": 40,
-                "spa": 50,
-                "spd": 50,
-                "spe": 90
-            },
-            "abilities": [ "Lightning Rod" ],
-            "height": 0.4,
-            "weight": 6,
-            "color": "Yellow",
-            "eggGroups": [ "Undiscovered" ]
-        },
-
-        {
-            "name": "pikachurockstar",
-            "num": 25,
-            "species": "Pikachu-Rock-Star",
-            "baseSpecies": "Pikachu",
-            "forme": "Rock-Star",
-            "formeLetter": "R",
-            "types": [ "Electric" ],
-            "gender" : "F",
-            "baseStats": {
-                "hp": 35,
-                "atk": 55,
-                "def": 40,
-                "spa": 50,
-                "spd": 50,
-                "spe": 90
-            },
-            "abilities": [ "Lightning Rod" ],
-            "height": 0.4,
-            "weight": 6,
-            "color": "Yellow",
-            "eggGroups": [ "Undiscovered" ]
-        },
-
-        {
-            "name": "pikachubelle",
-            "num": 25,
-            "species": "Pikachu-Belle",
-            "baseSpecies": "Pikachu",
-            "forme": "Belle",
-            "formeLetter": "B",
-            "types": [ "Electric" ],
-            "gender" : "F",
-            "baseStats": {
-                "hp": 35,
-                "atk": 55,
-                "def": 40,
-                "spa": 50,
-                "spd": 50,
-                "spe": 90
-            },
-            "abilities": [ "Lightning Rod" ],
-            "height": 0.4,
-            "weight": 6,
-            "color": "Yellow",
-            "eggGroups": [ "Undiscovered" ]
-        },
-
-        {
-            "name": "pikachupopstar",
-            "num": 25,
-            "species": "Pikachu-Pop-Star",
-            "baseSpecies": "Pikachu",
-            "forme": "Pop-Star",
-            "formeLetter": "P",
-            "types": [ "Electric" ],
-            "gender" : "F",
-            "baseStats": {
-                "hp": 35,
-                "atk": 55,
-                "def": 40,
-                "spa": 50,
-                "spd": 50,
-                "spe": 90
-            },
-            "abilities": [ "Lightning Rod" ],
-            "height": 0.4,
-            "weight": 6,
-            "color": "Yellow",
-            "eggGroups": [ "Undiscovered" ]
-        },
-        {
-            "name": "pikachuphd",
-            "num": 25,
-            "species": "Pikachu-PhD",
-            "baseSpecies": "Pikachu",
-            "forme": "PhD",
-            "formeLetter": "D",
-            "types": [ "Electric" ],
-            "gender" : "F",
-            "baseStats": {
-                "hp": 35,
-                "atk": 55,
-                "def": 40,
-                "spa": 50,
-                "spd": 50,
-                "spe": 90
-            },
-            "abilities": [ "Lightning Rod" ],
-            "height": 0.4,
-            "weight": 6,
-            "color": "Yellow",
-            "eggGroups": [ "Undiscovered" ],
-        },
-
-        {
-            "name": "pikachulibre",
-            "num": 25,
-            "species": "Pikachu-Libre",
-            "baseSpecies": "Pikachu",
-            "forme": "Libre",
-            "formeLetter": "L",
-            "types": [ "Electric" ],
-            "gender" : "F",
-            "baseStats": {
-                "hp": 35,
-                "atk": 55,
-                "def": 40,
-                "spa": 50,
-                "spd": 50,
-                "spe": 90
-            },
-            "abilities": [ "Lightning Rod" ],
-            "height": 0.4,
-            "weight": 6,
-            "color": "Yellow",
-            "eggGroups": [ "Undiscovered" ]
-        },
-        //*/
 
         {
             "name": "raichu",
@@ -1777,32 +1479,7 @@
             "eggGroups": [ "Human-Like" ],
             "otherFormes": [ "alakazammega" ]
         },
-        {
-            "name": "alakazammega",
-            "num": 65,
-            "species": "Alakazam-Mega",
-            "baseSpecies": "Alakazam",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Psychic" ],
-            "genderRatio": {
-                "M": 0.75,
-                "F": 0.25
-            },
-            "baseStats": {
-                "hp": 55,
-                "atk": 50,
-                "def": 65,
-                "spa": 175,
-                "spd": 95,
-                "spe": 150
-            },
-            "abilities": [ "Trace" ],
-            "height": 1.2,
-            "weight": 48,
-            "color": "Brown",
-            "eggGroups": [ "Human-Like" ]
-        },
+
         {
             "name": "machop",
             "num": 66,
@@ -2003,6 +1680,7 @@
             "evos": [ "graveler" ],
             "eggGroups": [ "Mineral" ]
         },
+
         {
             "name": "graveler",
             "num": 75,
@@ -2130,28 +1808,6 @@
             "eggGroups": [ "Monster", "Water 1" ],
             "otherFormes": [ "slowbromega" ]
         },
-        {
-            "name": "slowbromega",
-            "num": 80,
-            "species": "Slowbro-Mega",
-            "baseSpecies": "Slowbro",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Water", "Psychic" ],
-            "baseStats": {
-                "hp": 95,
-                "atk": 75,
-                "def": 180,
-                "spa": 130,
-                "spd": 80,
-                "spe": 30
-            },
-            "abilities": [ "Shell Armor" ],
-            "height": 2,
-            "weight": 120,
-            "color": "Pink",
-            "eggGroups": [ "Monster", "Water 1" ]
-        },
 
         {
             "name": "magnemite",
@@ -2174,6 +1830,7 @@
             "evos": [ "magneton" ],
             "eggGroups": [ "Mineral" ]
         },
+
         {
             "name": "magneton",
             "num": 82,
@@ -2444,28 +2101,7 @@
             "eggGroups": [ "Amorphous" ],
             "otherFormes": [ "gengarmega" ]
         },
-        {
-            "name": "gengarmega",
-            "num": 94,
-            "species": "Gengar-Mega",
-            "baseSpecies": "Gengar",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Ghost", "Poison" ],
-            "baseStats": {
-                "hp": 60,
-                "atk": 65,
-                "def": 80,
-                "spa": 170,
-                "spd": 95,
-                "spe": 130
-            },
-            "abilities": [ "Shadow Tag" ],
-            "height": 1.4,
-            "weight": 40.5,
-            "color": "Purple",
-            "eggGroups": [ "Amorphous" ]
-        },
+
         {
             "name": "onix",
             "num": 95,
@@ -2904,29 +2540,7 @@
             "eggGroups": [ "Monster" ],
             "otherFormes": [ "kangaskhanmega" ]
         },
-        {
-            "name": "kangaskhanmega",
-            "num": 115,
-            "species": "Kangaskhan-Mega",
-            "baseSpecies": "Kangaskhan",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Normal" ],
-            "gender": "F",
-            "baseStats": {
-                "hp": 105,
-                "atk": 125,
-                "def": 100,
-                "spa": 60,
-                "spd": 100,
-                "spe": 100
-            },
-            "abilities": [ "Parental Bond" ],
-            "height": 2.2,
-            "weight": 100,
-            "color": "Brown",
-            "eggGroups": [ "Monster" ]
-        },
+
         {
             "name": "horsea",
             "num": 116,
@@ -3189,28 +2803,7 @@
             "eggGroups": [ "Bug" ],
             "otherFormes": [ "pinsirmega" ]
         },
-        {
-            "name": "pinsirmega",
-            "num": 127,
-            "species": "Pinsir-Mega",
-            "baseSpecies": "Pinsir",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Bug", "Flying" ],
-            "baseStats": {
-                "hp": 65,
-                "atk": 155,
-                "def": 120,
-                "spa": 65,
-                "spd": 90,
-                "spe": 105
-            },
-            "abilities": [ "Aerilate" ],
-            "height": 1.7,
-            "weight": 59,
-            "color": "Brown",
-            "eggGroups": [ "Bug" ]
-        },
+
         {
             "name": "tauros",
             "num": 128,
@@ -3273,28 +2866,7 @@
             "eggGroups": [ "Water 2", "Dragon" ],
             "otherFormes": [ "gyaradosmega" ]
         },
-        {
-            "name": "gyaradosmega",
-            "num": 130,
-            "species": "Gyarados-Mega",
-            "baseSpecies": "Gyarados",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Water", "Dark" ],
-            "baseStats": {
-                "hp": 95,
-                "atk": 155,
-                "def": 109,
-                "spa": 70,
-                "spd": 130,
-                "spe": 81
-            },
-            "abilities": [ "Mold Breaker" ],
-            "height": 6.5,
-            "weight": 305,
-            "color": "Blue",
-            "eggGroups": [ "Water 2", "Dragon" ]
-        },
+
         {
             "name": "lapras",
             "num": 131,
@@ -3577,8 +3149,7 @@
             "otherFormes": [ "aerodactylmega" ]
         },
 
-
-       {
+        {
             "name": "snorlax",
             "num": 143,
             "species": "Snorlax",
@@ -3748,8 +3319,6 @@
             "otherFormes": [ "mewtwomegax", "mewtwomegay" ]
         },
 
-
-
         {
             "name": "mew",
             "num": 151,
@@ -3772,87 +3341,3 @@
         }
     ]
 }
-
-/*
-        {
-            "name": "aerodactylmega",
-            "num": 142,
-            "species": "Aerodactyl-Mega",
-            "baseSpecies": "Aerodactyl",
-            "forme": "Mega",
-            "formeLetter": "M",
-            "types": [ "Rock", "Flying" ],
-            "genderRatio": {
-                "M": 0.875,
-                "F": 0.125
-            },
-            "baseStats": {
-                "hp": 80,
-                "atk": 135,
-                "def": 85,
-                "spa": 70,
-                "spd": 95,
-                "spe": 150
-            },
-            "abilities": [ "Tough Claws" ],
-            "height": 2.1,
-            "weight": 79,
-            "color": "Purple",
-            "eggGroups": [ "Flying" ]
-        },
-        
-        */
-
-/*
-        {
-            "name": "mewtwomegax",
-            "num": 150,
-            "species": "Mewtwo-Mega-X",
-            "baseSpecies": "Mewtwo",
-            "forme": "Mega-X",
-            "formeLetter": "M",
-            "types": [ "Psychic", "Fighting" ],
-            "gender": "N",
-            "baseStats": {
-                "hp": 106,
-                "atk": 190,
-                "def": 100,
-                "spa": 154,
-                "spd": 100,
-                "spe": 130
-            },
-            "abilities": [ "Steadfast" ],
-            "height": 2.3,
-            "weight": 127,
-            "color": "Purple",
-            "eggGroups": [ "Undiscovered" ]
-        },
-
-        {
-            "name": "mewtwomegay",
-            "num": 150,
-            "species": "Mewtwo-Mega-Y",
-            "baseSpecies": "Mewtwo",
-            "forme": "Mega-Y",
-            "formeLetter": "M",
-            "types": [ "Psychic" ],
-            "gender" : "N",
-            "baseStats": {
-                "hp": 106,
-                "atk": 150,
-                "def": 70,
-                "spa": 194,
-                "spd": 120,
-                "spe": 140
-            },
-            "abilities": [ "Insomnia" ],
-            "height": 1.5,
-            "weight": 33,
-            "eggGroups": [ "Undiscovered" ]
-            "color": "Purple",
-        },
-
-        */
-
-
-//*/
