@@ -1135,15 +1135,24 @@ public class PokemonDamageMultipliers : MonoBehaviour
         return master_list[0].damage;
     }
 
-    public dmgMult getMultiplier(string t1, string t2)
+    public dmgMult createMultiplier(string[] types)
     {
+        string t1 = types[0];
         dmgMult type1 = getSingleType(t1);
-        if (t2 == null)
+
+        if (t1 == null)
+        {
+            Debug.LogError("No types passed into damage multiplier");
+            return type1;
+        }
+
+        if (types.Length == 1)
         {
             return type1;
         }
         else
         {
+            string t2 = types[1];
             dmgMult type2 = getSingleType(t2);
             return multiplyTypes(type1, type2);
         }
@@ -1214,6 +1223,11 @@ public class PokemonDamageMultipliers : MonoBehaviour
             case TypesStrings.Ghost:
                 type = ghost;
                 break;
+
+            case TypesStrings.Grass:
+                type = grass;
+                break;
+
             case TypesStrings.Ground:
                 type = ground;
                 break;
@@ -1241,6 +1255,10 @@ public class PokemonDamageMultipliers : MonoBehaviour
                 type = steel;
                 break;
 
+            case TypesStrings.Water:
+                type = water;
+                break;
+            
             default:
                 Debug.LogError("No Type found with name: " + t);
                 type = normal;

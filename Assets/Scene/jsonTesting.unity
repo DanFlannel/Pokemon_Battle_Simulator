@@ -187,7 +187,7 @@ GameObject:
   - 4: {fileID: 709997102}
   - 114: {fileID: 709997104}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: PokeDex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

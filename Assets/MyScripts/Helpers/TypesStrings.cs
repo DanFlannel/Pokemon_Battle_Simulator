@@ -19,4 +19,6 @@ public static class TypesStrings {
     public const string Dragon = "Dragon";
     public const string Fairy = "Fairy";
     public const string Dark = "Dark";
+    public const string Grass = "Grass";
+    public const string Water = "Water";
 }
