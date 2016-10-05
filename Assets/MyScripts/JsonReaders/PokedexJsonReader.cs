@@ -8,18 +8,17 @@ public class PokedexJsonReader : MonoBehaviour
 {
 
     public TextAsset jsonFile;
-    private object json;
+    private PokedexJson json;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
-        readJson();
+        createPokeDex();
     }
 
-    void readJson()
+    void createPokeDex()
     {
         json = JsonUtility.FromJson<PokedexJson>(jsonFile.text);
-        
     }
 
     private class PokedexJson
