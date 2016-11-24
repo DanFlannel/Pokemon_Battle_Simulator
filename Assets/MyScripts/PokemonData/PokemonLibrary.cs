@@ -331,34 +331,3 @@ public class PokemonLibrary : MonoBehaviour
 	}
 	#endregion
 }
-
-public struct Pokemon
-{
-	public int pokemonID;
-	public string name;
-	public int hp;
-	public int attack;
-	public int defense;
-	public int specialAttack;
-	public int specialDefense;
-	public int speed;
-	public bool canEvolve;
-	public string type1;
-	public string type2;
-	
-	
-	public Pokemon (int sID, string sName, int sHP, int sAttack, int sDefense, int sSpecialA, int sSpecialD, int sSpeed, bool sCanEvolve, string t1, string t2)
-	{
-		pokemonID = sID;
-		name = sName;
-		hp = sHP;
-		attack = sAttack;
-		defense = sDefense;
-		speed = sSpeed;
-		specialAttack = sSpecialA;
-		specialDefense = sSpecialD;
-		canEvolve = sCanEvolve;
-		type1 = t1;
-		type2 = t2;
-	}
-}

@@ -1,15 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class FBG_BattleSimulator : MonoBehaviour {
+namespace FatBobbyGaming
+{
+    public class FBG_BattleSimulator : MonoBehaviour
+    {
+        public List<PokemonEntity> redTeam;
+        public List<PokemonEntity> blueTeam;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+        // Use this for initialization
+        void Start()
+        {
+            PokedexData pokeDex = FBG_JsonReader.createPokeDex();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+    }
 }

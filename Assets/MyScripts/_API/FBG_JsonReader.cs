@@ -51,55 +51,56 @@ namespace FatBobbyGaming
             t = o as TextAsset;
             return t;
         }
+    }
 
-        [Serializable]
-        public class PokedexData
-        {
-            public PokemonJsonData[] pokemon;
-        }
+    [Serializable]
+    public class PokedexData
+    {
+        public PokemonJsonData[] pokemon;
+    }
 
-        [Serializable]
-        public class PokemonJsonData
-        {
-            public string name;
-            public int num;
-            public string species;
-            public string baseSpecies;
-            public string forme;
-            public string formeLetter;
-            public string[] types;
-            public string gender;
-            public genderRatioJson genderRatio;
-            public baseStatsJson baseStates;
-            public string[] abilities;
-            public float height;   //in meters
-            public float weight;   //in KG
-            public string color;
-            public string[] evos;
-            public string prevo;
-            public int evoLevel;
-            public string evoMove;
-            public string[] eggGroups;
-            public string[] otherFormes;
-            public dmgMult damageMultiplier;
-        }
+    [Serializable]
+    public class PokemonJsonData
+    {
+        public string name;
+        public int num;
+        public string species;
+        public string baseSpecies;
+        public string forme;
+        public string formeLetter;
+        public string[] types;
+        public string gender;
+        public genderRatioJson genderRatio;
+        public baseStatsJson baseStates;
+        public string[] abilities;
+        public float height;   //in meters
+        public float weight;   //in KG
+        public string color;
+        public string[] evos;
+        public string prevo;
+        public int evoLevel;
+        public string evoMove;
+        public string[] eggGroups;
+        public string[] otherFormes;
+        public dmgMult damageMultiplier;
+    }
 
-        [Serializable]
-        public class genderRatioJson
-        {
-            public float M;
-            public float F;
-        }
+    [Serializable]
+    public class genderRatioJson
+    {
+        public float M;
+        public float F;
+    }
 
-        [Serializable]
-        public class baseStatsJson
-        {
-            public int hp;
-            public int atk;
-            public int def;
-            public int spa;
-            public int spd;
-            public int spe;
-        }
+    [Serializable]
+    public class baseStatsJson
+    {
+        public int hp;
+        public int atk;
+        public int def;
+        public int spa;
+        public int spd;
+        public int spe;
     }
 }
+

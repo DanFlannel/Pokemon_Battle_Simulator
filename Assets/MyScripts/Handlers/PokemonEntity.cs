@@ -243,14 +243,3 @@ public class PokemonEntity
         Attack4 = attackMoves[rndNums[3]].attack.name;
     }
 }
-
-public enum nonVolitileStatusEffects
-{
-    none,
-    burned,
-    paralized,
-    poisioned,
-    toxic,
-    frozen,
-    sleep
-};
