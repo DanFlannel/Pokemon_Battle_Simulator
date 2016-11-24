@@ -20,3 +20,27 @@ public enum pokemonPosition
     normal, 
     flying
 };
+
+public enum attackStatus
+{
+    Charging,
+    Normal,
+    Recharging
+};
+
+public enum PokemonGeneration
+{
+    Gen1,
+    Gen2,
+    Gen3,
+    Gen4,
+    Gen5,
+    Gen6,
+    Gen7
+};
+
+public enum PokemonTeam
+{
+    redTeam,
+    blueTeam
+};

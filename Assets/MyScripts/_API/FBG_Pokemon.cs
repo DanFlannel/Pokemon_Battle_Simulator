@@ -12,6 +12,7 @@ namespace FatBobbyGaming
 
         public nonVolitileStatusEffects status_A;
         public pokemonPosition position;
+        public attackStatus atkStatus;
 
         public int ID { get; private set; }
         public string Name { get; private set; }
@@ -25,14 +26,14 @@ namespace FatBobbyGaming
         private int baseSpecial_Defense { get; set; }
         private int baseSpeed { get; set; }
 
-        public string Type1 { get; private set; }
-        public string Type2 { get; private set; }
+
         //*******************************************************//
 
-        //private bool CanEvolve { get; set; }
-        private int levelBonus { get; set; }
-
         //using properties to protect how these variables are set
+        public string type1 { get; private set; }
+        public string type2 { get; private set; }
+        public dmgMult damageMultiplier { get; private set; }
+
         public int Attack { get; private set; }
         public int Defense { get; private set; }
         public int Special_Attack { get; private set; }
@@ -65,27 +66,29 @@ namespace FatBobbyGaming
 
         private List<int> randomNumbers = new List<int>();
 
-        public FBG_Pokemon(string m_Name, int m_ID, int m_Level, int m_baseHP, int m_baseAttack, int m_baseDefense,
-            int m_baseSpAttack, int m_baseSpDef, int m_baseSpeed, string m_Type1, string m_Type2,
-            List<attackIndex> attackMoves)
+        public FBG_Pokemon(int m_Level, corePokemonData data, List<attackIndex> attackMoves)
         {
-            Name = m_Name;
-            ID = m_ID;
+            Name = data.name;
+            ID = data.id;
             Level = m_Level;
 
-            baseHP = m_baseHP;
-            baseAttack = m_baseAttack;
-            baseDefense = m_baseDefense;
-            baseSpecial_Attack = m_baseSpAttack;
-            baseSpecial_Defense = m_baseSpDef;
-            baseSpeed = m_baseSpeed;
+            baseHP = data.baseStats.hp;
+            baseAttack = data.baseStats.atk;
+            baseDefense = data.baseStats.def;
+            baseSpecial_Attack = data.baseStats.spa;
+            baseSpecial_Defense = data.baseStats.spd;
+            baseSpeed = data.baseStats.spe;
 
-            Type1 = m_Type1;
-            Type2 = m_Type2;
+            type1 = data.type1;
+            type2 = data.type2;
+
+            damageMultiplier = data.damageMultiplier;
 
             cachedDamage = 0;
 
             status_A = nonVolitileStatusEffects.none;
+            position = pokemonPosition.normal;
+            atkStatus = attackStatus.Normal;
 
             //need to set these to something before updaing them
             setStages();
@@ -99,7 +102,6 @@ namespace FatBobbyGaming
         private void setBools()
         {
             isChargingAttack = false;
-            isUnderground = false;
             hasAttacked = false;
             isFlying = false;
         }
@@ -123,7 +125,7 @@ namespace FatBobbyGaming
             //max hp = 2* base stat + 110
             //max other stats = 1.79 * stat + 5(levelBonus)
             //level bonus cannot exceed 5
-            levelBonus = Level / (int)UnityEngine.Random.Range(16f, 20f); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
+            int levelBonus = Level / (int)Random.Range(16f, 20f); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
 
             float hpLevelCalc = 1f + ((float)Level / 100);
             float levelCalc = .79f + ((float)Level / 100);
@@ -148,6 +150,7 @@ namespace FatBobbyGaming
             maxHP = (int)hpBonus + (int)hpLevelBonus;
 
             curHp = maxHP;
+            //Debug.Log("Stats generated");
         }
 
         /// <summary>
