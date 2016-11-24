@@ -10,9 +10,12 @@ namespace FatBobbyGaming
         public List<PokemonEntity> blueTeam;
 
         // Use this for initialization
-        void Start()
+        void Awake()
         {
+            //this initalizes our pokedex
             PokedexData pokeDex = FBG_JsonReader.createPokeDex();
+            //this initalizes the attack library
+            FBG_Atk_Data.createAttackLibrary();
         }
 
         // Update is called once per frame

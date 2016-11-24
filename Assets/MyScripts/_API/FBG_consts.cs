@@ -26,9 +26,14 @@ namespace FatBobbyGaming
 
 
         public const string defense = "defense";
-        public static string attack = "attack";
-        public static string spAttack = "spAttack";
-        public static string spDefense = "spDefense";
-        public static string speed = "speed";
+        public const string attack = "attack";
+        public const string spAttack = "spAttack";
+        public const string spDefense = "spDefense";
+        public const string speed = "speed";
+
+
+        public const string Physical = "Physical";
+        public const string Special = "Special";
+        public const string Status = "Status";
     }
 }
