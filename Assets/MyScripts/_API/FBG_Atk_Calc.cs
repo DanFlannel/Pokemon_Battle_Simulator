@@ -19,11 +19,6 @@ namespace FatBobbyGaming
         private FBG_Pokemon target;
         private FBG_Pokemon self;
 
-        public string
-            enemyType1, enemyType2;
-        public string
-            playerType1, playerType2;
-
         //private GenerateAttacks genAttacks;
 
         private float attack_mod;
@@ -58,18 +53,6 @@ namespace FatBobbyGaming
             damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
             tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
             Console.WriteLine("PK : Attack Damage Calculator: Initalized");
-        }
-
-        /// <summary>
-        /// Gets the pokemon Types for the Type modifier in the damage calculation
-        /// </summary>
-        private void getPokemonTypes()
-        {
-            enemyType1 = playerStats.Type1;
-            enemyType2 = playerStats.Type2;
-
-            playerType1 = enemyStats.Type1;
-            playerType2 = enemyStats.Type2;
         }
 
         /// <summary>
@@ -241,7 +224,7 @@ namespace FatBobbyGaming
         {
             float modifier;
             float stab;
-            if (isStab(attackType, isPlayer))
+            if (isStab(attackType))
             {
                 stab = 1.5f;
             }
@@ -260,7 +243,7 @@ namespace FatBobbyGaming
                 critical = 1.5f;
             }
             float rnd = UnityEngine.Random.Range(.85f, 1f);
-            float typeMultiplier = getTypeMultiplier(attackType, isPlayer);
+            float typeMultiplier = fetchDmgMultModifier(attackType, target);
 
             if (typeMultiplier == 0)
             {
@@ -368,31 +351,13 @@ namespace FatBobbyGaming
         /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
         /// <returns>a boolean that is true if the move is a stab type move or not</returns>
         /// </summary>
-        private bool isStab(string attackType, bool isPlayer)
+        private bool isStab(string attackType)
         {
-            getPokemonTypes();
-            if (isPlayer)
+            if(attackType == self.type1 || attackType == self.type2)
             {
-                if (attackType == playerType1 || attackType == playerType2)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
+                return true;
             }
-            else
-            {
-                if (attackType == enemyType1 || attackType == enemyType2)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
+            return false;
         }
 
         /// <summary>
@@ -416,112 +381,70 @@ namespace FatBobbyGaming
         }
 
         /// <summary>
-        ///  Returns the type modifier for the attack based off of the pokemon's damange multiplier for that specific type of attack 
-        /// <param name="attackType">the attack type or the mvoe being passed in</param>
-        /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
-        /// <returns>the multiplier as a float</returns>
-        /// </summary>
-        private float getTypeMultiplier(string attackType, bool isPlayer)
-        {
-            float modifier = 0f;
-
-            if (isPlayer)
-            {
-                int index = enemyStats.PokemonID;
-                if (enemyStats.PokemonName == damage_mult.master_list[index].name)
-                {
-                    modifier = fetchAttackTypeIndex(attackType, index);
-                }
-                else
-                {
-                    Debug.LogError("name did not match when searching for multiplier");
-                    Debug.LogError("searched for " + enemyStats.PokemonName);
-                    Debug.LogError("found " + damage_mult.master_list[index].name);
-                }
-            }
-            else
-            {
-                int index = playerStats.PokemonID;
-                if (playerStats.PokemonName == damage_mult.master_list[index].name)
-                {
-                    modifier = fetchAttackTypeIndex(attackType, index);
-                }
-                else
-                {
-                    Debug.LogError("name did not match when searching for multiplier");
-                    Debug.LogError("searched for " + playerStats.PokemonName);
-                    Debug.LogError("found " + damage_mult.master_list[index].name);
-                }
-            }
-            //Debug.Log("Type modifier for attacs is: " + modifier);
-            return modifier;
-        }
-
-        /// <summary>
         /// Uses the index to get the type multiplier from the master list in the damage multiplier class
         /// <param name="attackType">the type of the attack</param>
         /// <param name="index">the index of the attack move in the attack list</param>
         /// <returns>the modifier of the attack move based off its attack type</returns>
         /// </summary>
-        private float fetchAttackTypeIndex(string attackType, int index)
+        private float fetchDmgMultModifier(string attackType, FBG_Pokemon p)
         {
             float modifier = 0f;
             attackType = attackType.ToLower();
             switch (attackType)
             {
                 case "normal":
-                    modifier = damage_mult.master_list[index].damage.normal;
+                    modifier = p.damageMultiplier.normal;
                     break;
                 case "fighting":
-                    modifier = damage_mult.master_list[index].damage.fighting;
+                    modifier = p.damageMultiplier.fighting;
                     break;
                 case "flying":
-                    modifier = damage_mult.master_list[index].damage.flying;
+                    modifier = p.damageMultiplier.flying;
                     break;
                 case "poison":
-                    modifier = damage_mult.master_list[index].damage.poison;
+                    modifier = p.damageMultiplier.poison;
                     break;
                 case "ground":
-                    modifier = damage_mult.master_list[index].damage.ground;
+                    modifier = p.damageMultiplier.ground;
                     break;
                 case "rock":
-                    modifier = damage_mult.master_list[index].damage.rock;
+                    modifier = p.damageMultiplier.rock;
                     break;
                 case "bug":
-                    modifier = damage_mult.master_list[index].damage.bug;
+                    modifier = p.damageMultiplier.bug;
                     break;
                 case "ghost":
-                    modifier = damage_mult.master_list[index].damage.ghost;
+                    modifier = p.damageMultiplier.ghost;
                     break;
                 case "steel":
-                    modifier = damage_mult.master_list[index].damage.steel;
+                    modifier = p.damageMultiplier.steel;
                     break;
                 case "fire":
-                    modifier = damage_mult.master_list[index].damage.fire;
+                    modifier = p.damageMultiplier.fire;
                     break;
                 case "water":
-                    modifier = damage_mult.master_list[index].damage.water;
+                    modifier = p.damageMultiplier.water;
                     break;
                 case "grass":
-                    modifier = damage_mult.master_list[index].damage.grass;
+                    modifier = p.damageMultiplier.grass;
                     break;
                 case "electric":
-                    modifier = damage_mult.master_list[index].damage.electric;
+                    modifier = p.damageMultiplier.electric;
                     break;
                 case "psychic":
-                    modifier = damage_mult.master_list[index].damage.psychic;
+                    modifier = p.damageMultiplier.psychic;
                     break;
                 case "ice":
-                    modifier = damage_mult.master_list[index].damage.ice;
+                    modifier = p.damageMultiplier.ice;
                     break;
                 case "dragon":
-                    modifier = damage_mult.master_list[index].damage.dragon;
+                    modifier = p.damageMultiplier.dragon;
                     break;
                 case "dark":
-                    modifier = damage_mult.master_list[index].damage.dark;
+                    modifier = p.damageMultiplier.dark;
                     break;
                 case "fairy":
-                    modifier = damage_mult.master_list[index].damage.fairy;
+                    modifier = p.damageMultiplier.fairy;
                     break;
             }
             return modifier;
