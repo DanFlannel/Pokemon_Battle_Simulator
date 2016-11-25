@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+
+
 
 namespace FatBobbyGaming
 {
+    //Load time is between 60-120 miliseconds
     public class FBG_BattleSimulator : MonoBehaviour
     {
         public List<FBG_Pokemon> redTeam = new List<FBG_Pokemon>();
@@ -16,6 +20,8 @@ namespace FatBobbyGaming
         // Use this for initialization
         void Awake()
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             //this initalizes our pokedex
             pokeDex = FBG_JsonReader.createPokeDex();
             //Debug.Log(string.Format("{0} {1} ", pokeDex.pokemon[0].name, pokeDex.pokemon[0].baseStates.atk));
@@ -24,6 +30,9 @@ namespace FatBobbyGaming
             //this creates our teams
             createTeams();
             //debugRedTeam();
+
+            sw.Stop();
+            print(string.Format("Time to load {0}ms", sw.ElapsedMilliseconds));
         }
 
         private void createTeams()

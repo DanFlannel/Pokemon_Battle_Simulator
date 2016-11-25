@@ -131,6 +131,7 @@
         },
 
         {
+            "name":  "charizard",
             "num": 6,
             "species": "Charizard",
             "types": [ "Fire", "Flying" ],

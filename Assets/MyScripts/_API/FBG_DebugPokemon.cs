@@ -79,12 +79,12 @@ namespace FatBobbyGaming {
 
             if (index < 0)
             {
-                index = 0;
+                index = pokemonTeamData.Count - 1;
             }
 
-            if (index > pokemonTeamData.Count)
+            if (index >= pokemonTeamData.Count)
             {
-                index = pokemonTeamData.Count - 1;
+                index = 0;
             }
 
             FBG_Pokemon p = pokemonTeamData[index];
