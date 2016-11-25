@@ -5,6 +5,9 @@ using System;
 /// <summary>
 /// This class handles the fetching of the sprites from the resource folder
 /// </summary>
+
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class GifRenderer : MonoBehaviour
 {
 
@@ -14,18 +17,8 @@ public class GifRenderer : MonoBehaviour
 
     void Start()
     {
-        
         anim = this.GetComponent<Animator>();
-        if (anim == null)
-        {
-            Debug.Log("no animator on this obect");
-        }
         gifRenderer = this.GetComponent<SpriteRenderer>();
-        if (gifRenderer == null)
-        {
-            Debug.Log("No sprite renderer on this object");
-        }
-
     }
 
     /// <summary>

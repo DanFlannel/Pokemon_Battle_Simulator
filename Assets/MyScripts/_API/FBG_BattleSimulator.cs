@@ -35,6 +35,11 @@ namespace FatBobbyGaming
             print(string.Format("Time to load {0}ms", sw.ElapsedMilliseconds));
         }
 
+        public void buttonTest(int t)
+        {
+
+        }
+
         private void createTeams()
         {
             corePokemonData data;

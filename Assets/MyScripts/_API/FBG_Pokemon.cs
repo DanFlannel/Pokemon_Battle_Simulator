@@ -46,18 +46,7 @@ namespace FatBobbyGaming
         public int spDefense_stage { get; set; }
         public int speed_stage { get; set; }
 
-        public string Attack1 { get; private set; }
-        public string Attack2 { get; private set; }
-        public string Attack3 { get; private set; }
-        public string Attack4 { get; private set; }
-
-        public bool isChargingAttack { get; set; }
-        public bool isUnderground { get; set; }
-        public bool canAttack { get; set; }
-        public bool canBeAttacked { get; set; }
-
-        public bool hasAttacked { get; set; }
-        public bool isFlying { get; set; }
+        public List<string> attackMoves = new List<string>();
 
         public float cachedDamage { get; set; }
 
@@ -92,18 +81,10 @@ namespace FatBobbyGaming
 
             //need to set these to something before updaing them
             setStages();
-            setBools();
             generatePokemonStats(Level);
             randomNumbers = generateRandomList(attackMoves.Count);
             SetAttacks(attackMoves, randomNumbers);
 
-        }
-
-        private void setBools()
-        {
-            isChargingAttack = false;
-            hasAttacked = false;
-            isFlying = false;
         }
 
         private void setStages()
@@ -209,10 +190,10 @@ namespace FatBobbyGaming
         //We will see if we can do something about that hardcoding...
         private void SetAttacks(List<attackIndex> attackMoves, List<int> rndNums)
         {
-            Attack1 = attackMoves[rndNums[0]].attack.name;
-            Attack2 = attackMoves[rndNums[1]].attack.name;
-            Attack3 = attackMoves[rndNums[2]].attack.name;
-            Attack4 = attackMoves[rndNums[3]].attack.name;
+            for(int i = 0; i < rndNums.Count; i++)
+            {
+                attackMoves.Add(attackMoves[rndNums[i]]);
+            }
         }
     }
 }

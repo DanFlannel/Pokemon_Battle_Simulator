@@ -143,4 +143,18 @@ public struct Pokemon
     }
 }
 
+public struct MoveResult
+{
+    public float damage;
+    public float heal;
+    public float recoil;
+
+    public MoveResult(float d, float h, float r)
+    {
+        damage = d;
+        heal = h;
+        recoil = r;
+    }
+}
+
 

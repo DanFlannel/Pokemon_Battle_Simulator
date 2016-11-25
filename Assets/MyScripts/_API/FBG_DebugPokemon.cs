@@ -22,6 +22,8 @@ namespace FatBobbyGaming {
         public List<string> attacks = new List<string>();
 
         public nonVolitileStatusEffects status_A;
+        public pokemonPosition position;
+        public attackStatus atkStatus;
 
         private PokemonTeam storedTeam;
         private int storedIndex;
@@ -34,7 +36,6 @@ namespace FatBobbyGaming {
             storedTeam = curTeam;
             storedIndex = index;
             updateStats();
-
         }
 
         // Update is called once per frame
@@ -98,13 +99,11 @@ namespace FatBobbyGaming {
             m_SpecialDefense = p.Special_Defense;
 
             attacks.Clear();
-            attacks.Add(p.Attack1);
-            attacks.Add(p.Attack2);
-            attacks.Add(p.Attack3);
-            attacks.Add(p.Attack4);
+            attacks = p.attackMoves;
 
             status_A = p.status_A;
-
+            position = p.position;
+            atkStatus = p.atkStatus;
         }
     }
 }

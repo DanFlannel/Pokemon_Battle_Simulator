@@ -14,24 +14,15 @@ namespace FatBobbyGaming
         private EnemyPokemonHandler enemyStats;
         private PokemonAttacks attacks;
         private PokemonDamageMultipliers damage_mult;
-        private Attack_Switch_Case attack_Switch_Case;
         private TurnController tc;
 
-        [Header("Player")]
-        public string
-            playerAttack1, playerAttack2, playerAttack3, playerAttack4;
-
-        [Header("Enemy")]
-        public string
-            enemyAttack1, enemyAttack2, enemyAttack3, enemyAttack4;
+        private FBG_Pokemon target;
+        private FBG_Pokemon self;
 
         public string
             enemyType1, enemyType2;
         public string
             playerType1, playerType2;
-
-        private dmgMult playerDamageMultiplier;
-        private dmgMult enemyDamageMultiplier;
 
         //private GenerateAttacks genAttacks;
 
@@ -64,7 +55,6 @@ namespace FatBobbyGaming
 
             attacks = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
             //genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
-            attack_Switch_Case = GameObject.FindGameObjectWithTag("Attacks").GetComponent<Attack_Switch_Case>();
             damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
             tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
             Console.WriteLine("PK : Attack Damage Calculator: Initalized");
@@ -139,6 +129,40 @@ namespace FatBobbyGaming
         }
 
         /// <summary>
+        /// This method takes the name of the attack and then passes it into other methods in the Attack_Switch_Case to get the effect
+        /// of the attack on the enemy or player pokemon, if it is a status type of attack or one that deals damage or stuns...ect.
+        /// </summary>
+        public void calculateAttackEffect()
+        {
+            int attack_index = getAttackListIndex(attack_name);
+            //Debug.Log("attack index: " + attack_index);
+            string attackCat = attacks.attackList[attack_index].cat;
+
+            float predictedDamage = calculateDamage(attack_name);
+            int accuracy = attacks.attackList[attack_index].accuracy;
+            //Debug.Log("Predicted Damage: " + predictedDamage);
+
+            bool hit = checkAccuracy_and_Hit(accuracy);
+            if (!hit)
+            {
+                return;
+            }
+            //Debug.Log("Attack Name: " + attack_name);
+            switch (attackCat)
+            {
+                case "Status":
+                    //attack_Switch_Case.updateTurnController(isPlayer, attack_name, AttackType.status);
+                    break;
+                case "Physical":
+                    //attack_Switch_Case.physicalAttacks(attack_name, predictedDamage, isPlayer);
+                    break;
+                case "Special":
+                    //attack_Switch_Case.specialAttacks(attack_name, predictedDamage, isPlayer);
+                    break;
+            }
+        }
+
+        /// <summary>
         /// This method calculates the damage that each attack will do based off the serebii.net damage formula, this does not take into effect the different modifiers or attack calculations each specific move has
         /// <param name="name">takes in the name of the current attack being passed in</param>
         /// <returns>the final basic damage based on all modifiers and multipliers</returns>
@@ -161,7 +185,7 @@ namespace FatBobbyGaming
             string attackType = attacks.attackList[attack_index].type;
             string attackCat = attacks.attackList[attack_index].cat;
 
-            if (attackCat == "Status")   //we do not have to calculate damage for status moves!
+            if (attackCat == FBG_consts.Status)   //we do not have to calculate damage for status moves!
             {
                 return 0;
             }
@@ -520,7 +544,7 @@ namespace FatBobbyGaming
             }
             else
             {
-                hit = attack_Switch_Case.Chance_100(accuracy);
+                hit = FBG_Atk_Methods.Chance_100(accuracy);
                 //Debug.Log("not 100%: " + accuracy + " : " + hit);
             }
 
