@@ -143,18 +143,21 @@ public struct Pokemon
     }
 }
 
-public struct damageReport
+public struct move_DmgReport
 {
     public float damage;
     public float heal;
     public float recoil;
+    public string stageName;
+    public int stageDiff;
 
-    public damageReport(float d, float h, float r)
+    public move_DmgReport(float d, float h, float r, string s, int i)
     {
         damage = d;
         heal = h;
         recoil = r;
+        stageName = s;
+        stageDiff = i;
     }
 }
-
 

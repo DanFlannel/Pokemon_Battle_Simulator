@@ -7,15 +7,29 @@ namespace FatBobbyGaming
     {
         //TODO:
         //I need to set these before calling this method it will reduce a lot of code
-        public static PokemonEntity target;
-        public static PokemonEntity self;
+        public static FBG_Pokemon target;
+        public static FBG_Pokemon self;
+
+        private static float damage;
+        private static float heal;
+        private static float recoil;
+        private static string stageName;
+        private static int stageDiff;
+
+        public static void setPokemon(FBG_Pokemon tar, FBG_Pokemon s)
+        {
+            target = tar;
+            self = s;
+
+            damage = 0;
+            heal = 0;
+            recoil = 0;
+            stageName = "";
+            stageDiff = 0;
+        }
 
         public static void statusAttacks(string name, bool isPlayer)
         {
-            //Debug.Log("attack name: " + name);
-            FBG_Atk_Methods.final_damage = 0;
-            FBG_Atk_Methods.final_heal = 0;
-            FBG_Atk_Methods.recoil = 0;
             string tempname = name.ToLower();
             int rnd;
             switch (tempname)
@@ -144,26 +158,12 @@ namespace FatBobbyGaming
                     FBG_Atk_Methods.isPosioned(isPlayer, 100);
                     break;
                 case "recover":
-                    if (isPlayer)
-                    {
-                        FBG_Atk_Methods.final_heal = FBG_Atk_Methods.playerStats.maxHP / 2f;
-                    }
-                    else
-                    {
-                        FBG_Atk_Methods.final_heal = FBG_Atk_Methods.enemyStats.maxHP / 2f;
-                    }
+                    heal = self.maxHP / 2f;
                     break;
                 case "reflect":             //halves the damage from physical attacks for 5 turns
                     break;
                 case "rest":                //user falls asleep for 2 turns but health is fully recovered
-                    if (isPlayer)
-                    {
-                        FBG_Atk_Methods.final_heal = FBG_Atk_Methods.playerStats.maxHP;
-                    }
-                    else
-                    {
-                        FBG_Atk_Methods.final_heal = FBG_Atk_Methods.enemyStats.maxHP;
-                    }
+                        heal = self.maxHP;
                     break;
                 case "roar":                //opponent switches pokemon out
                     break;
@@ -181,17 +181,10 @@ namespace FatBobbyGaming
                 case "smokescreen":         //lower accuracy by one stage
                     break;
                 case "soft boiled":
-                    if (isPlayer)
-                    {
-                        FBG_Atk_Methods.final_heal = FBG_Atk_Methods.playerStats.maxHP / 2f;
-                    }
-                    else
-                    {
-                        FBG_Atk_Methods.final_heal = FBG_Atk_Methods.enemyStats.maxHP / 2f;
-                    }
+                    heal = self.maxHP / 2f;
                     break;
                 case "splash":              //This does nothing
-                    FBG_Atk_Methods.final_damage = 0;
+                    damage = 0;
                     break;
                 case "spore":               //puts the opponent to sleep for 1-3 turns
                     rnd = UnityEngine.Random.Range(1, 3);
@@ -238,48 +231,55 @@ namespace FatBobbyGaming
 
         public static void physicalAttacks(string name, float predictedDamage, bool isPlayer)
         {
-            FBG_Atk_Methods.final_damage = 0;
-            FBG_Atk_Methods.final_heal = 0;
-            FBG_Atk_Methods.recoil = 0;
             string tempname = name.ToLower();
             bool isHit = false;
             int rnd;
             switch (tempname)
             {
                 default:
-                    Debug.Log("No physical attack with name " + name.ToLower() + " found");
+                    Debug.LogError("No physical attack with name " + name.ToLower() + " found");
                     break;
+
                 case "barrage":
                     rnd = UnityEngine.Random.Range(2, 5);
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
+
                 case "bide":                //waits 2 turns then deals back double.... :(
                     break;
+
                 case "bind":                //need to create a damage over time effect here for rndBind turns
                     rnd = UnityEngine.Random.Range(4, 5);
                     FBG_Atk_Methods.one_sixteenth_temp(isPlayer, rnd);
                     break;
+
                 case "bite":
                     FBG_Atk_Methods.isFlinched(isPlayer, 30);
                     break;
+
                 case "body slam":
                     FBG_Atk_Methods.isParalized(isPlayer, 30);
                     break;
+
                 case "bone club":
                     FBG_Atk_Methods.isFlinched(isPlayer, 10);
                     break;
+
                 case "bonemerang":
                     rnd = 2;
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
+
                 case "clamp":               //traps for 4-5 turns dealing 1/16th damage
                     rnd = UnityEngine.Random.Range(4, 5);
                     FBG_Atk_Methods.one_sixteenth_temp(isPlayer, rnd);
+
                     break;
                 case "comet punch":
                     rnd = UnityEngine.Random.Range(2, 5);
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
+
                 case "constrict":
                     isHit = FBG_Atk_Methods.Chance_100(10);
                     if (isHit)
@@ -287,13 +287,17 @@ namespace FatBobbyGaming
                         FBG_Atk_Methods.changeStats(FBG_consts.speed, -1, !isPlayer);
                     }
                     break;
+
                 case "counter":             //hits back with 2x power iff is hit with physical attack
                     break;
+
                 case "crabhammer":          //has a 1/8 crit ratio not a 1/16.... have to recalculate for this
                     break;
+
                 case "cut":                 //no additional effects
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "dig":                 //redo based off of turn controller
                     if (isPlayer)
                     {
@@ -307,43 +311,54 @@ namespace FatBobbyGaming
                     }
                     predictedDamage = 0;
                     break;
+
                 case "dizzy punch":
                     rnd = UnityEngine.Random.Range(1, 4);
                     FBG_Atk_Methods.isConfused(isPlayer, 20, rnd);
                     break;
+
                 case "double kick":
                     rnd = 2;
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
+
                 case "double slap":
                     rnd = UnityEngine.Random.Range(2, 5);
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
+
                 case "double edge":
-                    FBG_Atk_Methods.recoil = predictedDamage / 3f;
-                    FBG_Atk_Methods.recoil = Mathf.Round(FBG_Atk_Methods.recoil);
+                    recoil = Mathf.Round(predictedDamage / 3f);
                     break;
+
                 case "drill peck":          //no additional effects
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "earthquake":
                     predictedDamage = FBG_Atk_Methods.earthQuake(isPlayer, predictedDamage);
                     break;
+
                 case "egg bomb":            //no additional effects 
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+                //***********************//
                 case "explosion":           //causes user to faint
                     if (isPlayer)
                         FBG_Atk_Methods.playerStats.curHp = 0;
                     else
                         FBG_Atk_Methods.enemyStats.curHp = 0;
                     break;
+
                 case "fire punch":
                     FBG_Atk_Methods.isBurned(isPlayer, 10);
                     break;
+
                 case "fissure":
                     FBG_Atk_Methods.oneHitKO(isPlayer);
                     break;
+
+                //*****************************************//
                 case "fly":
                     if (isPlayer)
                     {
@@ -357,88 +372,119 @@ namespace FatBobbyGaming
                     }
                     predictedDamage = 0;
                     break;
+
                 case "fury attack":
                     rnd = UnityEngine.Random.Range(2, 5);
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
+
                 case "fury swipes":
                     rnd = UnityEngine.Random.Range(2, 5);
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
+
                 case "guillotine":
                     FBG_Atk_Methods.oneHitKO(isPlayer);
                     break;
+
                 case "headbutt":
                     FBG_Atk_Methods.isFlinched(isPlayer, 30);
                     break;
+
+                //************************************************//
                 case "high jump kick":      //if this misses it casues 1/2 of the damage it would have inflicted on the user
                     break;
+
                 case "horn attack":         //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "horn drill":
                     FBG_Atk_Methods.oneHitKO(isPlayer);
                     break;
+
                 case "hyper fang":
                     FBG_Atk_Methods.isFlinched(isPlayer, 10);
                     break;
+
                 case "ice punch":
                     FBG_Atk_Methods.isFrozen(isPlayer, 10);
                     break;
+
+                //***********************************************//
                 case "jump kick":           //lose 1/2 hp is the user misses just like high jump kick
                     break;
+
                 case "karate chop":         //high crit ratio 1/8 versus 1/16
                     break;
+
                 case "leech life":
-                    FBG_Atk_Methods.final_heal = Mathf.Round(predictedDamage / 2f);
+                    heal = Mathf.Round(predictedDamage / 2f);
                     break;
+
                 case "low kick":
                     FBG_Atk_Methods.isFlinched(isPlayer, 30);
                     break;
+
                 case "mega kick":           //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "mega punch":          //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "pay day":             //small amount of money at the end of the battle??
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "peck":                //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "pin missile":
                     rnd = UnityEngine.Random.Range(2, 5);
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
+
                 case "poison sting":        //chance to poison the target
                     FBG_Atk_Methods.isPosioned(isPlayer, 30);
                     break;
+
                 case "pound":               //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "quick attack":        //has +1 priority
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "rage":                //while rage is active, user increases his/her attack by one stage each time the user is hit
                     break;
+
                 case "razor leaf":          //high crit ratio
                     break;
+
                 case "rock slide":
                     FBG_Atk_Methods.isFlinched(isPlayer, 30);
                     break;
+
                 case "rock throw":          //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "rolling kick":
                     FBG_Atk_Methods.isFlinched(isPlayer, 30);
                     break;
+
                 case "scratch":             //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "seismic toss":
                     predictedDamage = FBG_Atk_Methods.levelBasedDamage(isPlayer);
                     break;
+                //***************************************************//
                 case "self destruct":       //user faints
                     if (isPlayer)
                     {
@@ -449,67 +495,81 @@ namespace FatBobbyGaming
                         FBG_Atk_Methods.enemyStats.curHp = 0;
                     }
                     break;
+
                 case "skull bash":          //charges first turn, raising defense, hits on the second turn
                     break;
+
                 case "sky attack":          //charges on first turn, hits on second, 30% flinch chance
                     FBG_Atk_Methods.isFlinched(isPlayer, 30);
                     break;
+
                 case "slam":                //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "slash":               //high crit ratio 1/8 not 1/16
                     break;
+
                 case "spike cannon":
                     rnd = UnityEngine.Random.Range(2, 5);
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
+
                 case "stomp":               //if minimized *2 damage
                     FBG_Atk_Methods.isFlinched(isPlayer, 30);
                     break;
+
                 case "strength":            //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "struggle":            //hurts the user if all the pp are gone
                     break;
+
                 case "submission":
-                    FBG_Atk_Methods.recoil = Mathf.Round(FBG_Atk_Methods.final_damage / 4f);
+                    recoil = Mathf.Round(FBG_Atk_Methods.final_damage / 4f);
                     break;
+
                 case "super fang":
-                    if (isPlayer)
-                    {
-                        predictedDamage = FBG_Atk_Methods.enemyStats.curHp / 2f;
-                    }
-                    else
-                    {
-                        predictedDamage = FBG_Atk_Methods.playerStats.curHp / 2f;
-                    }
+                    predictedDamage = target.curHp / 2f;
                     break;
+
                 case "tackle":              //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "take down":
-                    FBG_Atk_Methods.recoil = Mathf.Round(predictedDamage / 4f);
+                    recoil = Mathf.Round(predictedDamage / 4f);
                     break;
+
                 case "thrash":              //attacks for 2-3 turns, but cannot switch out or use a different attack
                     break;
+
                 case "thunder punch":
                     FBG_Atk_Methods.isParalized(isPlayer, 10);
                     break;
+
                 case "twineedle":           //20% chance to poison the target
                     FBG_Atk_Methods.multiAttack(2, name);
                     FBG_Atk_Methods.isPosioned(isPlayer, 20);
                     break;
+
                 case "vice grip":           //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "vine whip":           //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "waterfall":
                     FBG_Atk_Methods.isFlinched(isPlayer, 20);
                     break;
+
                 case "wing attack":         //no additional effect, can hit non-adjacent pokemon in triple battles
+                    FBG_Atk_Methods.noAdditionalEffect();
                     break;
+                //**************************************//
                 case "wrap":                //causes 1/16th damage for 4-5 turns
                     rnd = UnityEngine.Random.Range(4, 5);
                     FBG_Atk_Methods.one_sixteenth_temp(isPlayer, rnd);

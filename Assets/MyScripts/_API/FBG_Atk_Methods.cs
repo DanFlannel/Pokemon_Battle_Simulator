@@ -4,12 +4,6 @@ namespace FatBobbyGaming
 {
     public static class FBG_Atk_Methods
     {
-
-        //create a struct out of these 3 things and return it!
-        public static float final_damage;
-        public static float final_heal;
-        public static float recoil;
-
         //I also need to get rid of these
         public static PlayerPokemonHandler playerStats;
         public static EnemyPokemonHandler enemyStats;

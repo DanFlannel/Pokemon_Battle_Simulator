@@ -105,28 +105,28 @@ namespace FatBobbyGaming
         /// This method takes the name of the attack and then passes it into other methods in the Attack_Switch_Case to get the effect
         /// of the attack on the enemy or player pokemon, if it is a status type of attack or one that deals damage or stuns...ect.
         /// </summary>
-        public void calculateAttackEffect(FBG_Pokemon t, FBG_Pokemon s, string atkName)
+        public MoveResults calculateAttackEffect(FBG_Pokemon t, FBG_Pokemon s, string atkName)
         {
+            MoveResults MR = new MoveResults();
             targetPokemon = t;
             thisPokemon = s;
-
             Debug.LogWarning(string.Format(" {0} is using {1} ", thisPokemon.Name, atkName));
 
             int atkIndex = getAttackListIndex(atkName);
-            //Debug.Log("attack index: " + attack_index);
-            string attackCat = FBG_Atk_Data.attackList[atkIndex].cat;
 
-            float predictedDamage = calculateDamage(atkName, atkIndex);
+            string atkCat = FBG_Atk_Data.attackList[atkIndex].cat;
+            string atkType = FBG_Atk_Data.attackList[atkIndex].type;
             int accuracy = FBG_Atk_Data.attackList[atkIndex].accuracy;
-            //Debug.Log("Predicted Damage: " + predictedDamage);
 
-            bool hit = checkAccuracy_and_Hit(accuracy);
-            if (!hit)
-            {
-                return;
-            }
+            float dmg = calculateDamage(atkName, atkIndex);
+            //this also sets our crit bool in the move results
+            float dmgMod = modifier(atkName, atkType, MR);
+            dmg = Mathf.Round(dmg * dmgMod);
+
+            MR.hit = checkAccuracy_and_Hit(accuracy);
+
             //Debug.Log("Attack Name: " + attack_name);
-            switch (attackCat)
+            switch (atkCat)
             {
                 case "Status":
                     //attack_Switch_Case.updateTurnController(isPlayer, attack_name, AttackType.status);
@@ -138,6 +138,7 @@ namespace FatBobbyGaming
                     //attack_Switch_Case.specialAttacks(attack_name, predictedDamage, isPlayer);
                     break;
             }
+            return MR;
         }
 
         /// <summary>
@@ -145,17 +146,16 @@ namespace FatBobbyGaming
         /// <param name="atkName">takes in the name of the current attack being passed in</param>
         /// <returns>the final basic damage based on all modifiers and multipliers</returns>
         /// </summary>
-        public float calculateDamage(string atkName, int atkIndex)
+        private float calculateDamage(string atkName, int atkIndex)
         {
-            float final_damage = 0;
+            float dmg = 0;
 
-            string attackType = FBG_Atk_Data.attackList[atkIndex].type;
             string attackCat = FBG_Atk_Data.attackList[atkIndex].cat;
             set_attack_and_def(attackCat);
 
             if (calcExitConditions(attackCat, atkName, atkIndex))
             {
-                return 0;
+                return dmg;
             }
 
 
@@ -163,23 +163,23 @@ namespace FatBobbyGaming
             float att_div_defense = ((float)FBG_Atk_Data.attackList[atkIndex].power) / defense_mod;
 
             //Debug.Log("attack div defense: " + baseAttackPower(attack_index) + "/" + defense_mod + " = " + att_div_defense);
-            float damage_mod = modifier(atkName, attackType);
+            
 
             //Damage Calculations here
-            final_damage = level_mod;
+            dmg = level_mod;
             //Debug.Log("Damage LEVEL MOD: " + "mod: " + level_mod + " Damage: " + final_damage);
-            final_damage *= attack_mod;
+            dmg *= attack_mod;
             //Debug.Log("Damage * ATTACK MOD: " + "mod: " + attack_mod + " Damage: " + final_damage);
-            final_damage *= att_div_defense;
+            dmg *= att_div_defense;
             //Debug.Log("Damage * ATTACK/Defense: " + "mod: " + att_div_defense + " Damage: " + final_damage);
-            final_damage /= 50;
+            dmg /= 50;
             //Debug.Log("Damage /50" + " Damage: " + final_damage);
-            final_damage += 2;
+            dmg += 2;
             //Debug.Log("Damage +2: " + " Damage: " + final_damage);
-            final_damage *= damage_mod;
+            //final_damage *= damage_mod;
             //Debug.Log("Damage * damage_Mod: " + "mod: " + damage_mod + " Damage: " + final_damage);
-            final_damage = Mathf.Round(final_damage);
-            return final_damage;
+            //final_damage = Mathf.Round(final_damage);
+            return dmg;
         }
 
         private bool calcExitConditions(string atkCat, string atkName, int atkIndex)
@@ -218,7 +218,7 @@ namespace FatBobbyGaming
         /// <param name="atkName">the name of the move being passed in</param>
         /// <returns>the final value of all the modifiers</returns>
         /// </summary>
-        private float modifier(string atkName, string attackType)
+        private float modifier(string atkName, string attackType, MoveResults mr)
         {
             float modifier;
             float stab = 1f;
@@ -231,6 +231,7 @@ namespace FatBobbyGaming
             int critProb = critChance(atkName);
             //Debug.Log("Crit chance: 1 /" + critProb);
             bool crit = isCrit(critProb);
+            mr.crit = crit;
             if (crit)
             {
                 Debug.Log("Critical HIT!");
@@ -328,7 +329,7 @@ namespace FatBobbyGaming
         /// <param name="name">the name of the move being passed in</param>
         /// <returns>the index of the move being passed in, within the attack list</returns>
         /// </summary>
-        public int getAttackListIndex(string name)
+        private int getAttackListIndex(string name)
         {
             //Debug.Log("called Attack List Index");
             for (int i = 0; i < FBG_Atk_Data.attackList.Count; i++)
@@ -419,54 +420,13 @@ namespace FatBobbyGaming
         /// <param name="accuracy">the accuracy of the move being passed in</param>
         /// <returns>true if the move hit, false if it missed</returns>
         /// </summary>
-        public bool checkAccuracy_and_Hit(int accuracy)
+        private bool checkAccuracy_and_Hit(int accuracy)
         {
-            bool hit = true;
-
             if (accuracy == 100 || accuracy == 0)
             {
-                hit = true;
-                //Debug.Log("100% acc: " + accuracy + " : " + hit);
+                return true;
             }
-            else
-            {
-                hit = FBG_Atk_Methods.Chance_100(accuracy);
-                //Debug.Log("not 100%: " + accuracy + " : " + hit);
-            }
-
-            if (!hit)
-            {
-                Debug.LogWarning("The move missed!");
-                if (isPlayer)
-                {
-                    tc.PlayerMissed = true;
-                    tc.PlayerDamage = 0;
-                    tc.PlayerHeal = 0;
-                    tc.PlayerRecoil = 0;
-                    tc.PlayerDataComplete = true;
-
-                }
-                else
-                {
-                    tc.EnemyMissed = true;
-                    tc.EnemyDamage = 0;
-                    tc.EnemyRecoil = 0;
-                    tc.EnemyHeal = 0;
-                    tc.EnemyDataComplete = true;
-                }
-            }
-            else
-            {
-                if (isPlayer)
-                {
-                    tc.PlayerMissed = false;
-                }
-                else
-                {
-                    tc.EnemyMissed = false;
-                }
-            }
-            return hit;
+            return FBG_Atk_Methods.Chance_100(accuracy);
         }
 
         /// <summary>
@@ -474,7 +434,7 @@ namespace FatBobbyGaming
         /// <param name="chance">the chance probability either (1/8) or (1/16)</param>
         /// <returns>true if the move crit, false if it did not</returns>
         ///</summary>
-        public bool isCrit(int chance)
+        private bool isCrit(int chance)
         {
             bool crit = false;
 
@@ -547,7 +507,7 @@ namespace FatBobbyGaming
         public bool crit;
         public string affectedStage;
         public int stageDiff;
-        public damageReport dmg;
+        public move_DmgReport dmg;
     }
 
 }
