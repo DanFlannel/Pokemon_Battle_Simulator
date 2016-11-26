@@ -12,14 +12,10 @@ namespace FatBobbyGaming
         #region Declared Variables
         private PlayerPokemonHandler playerStats;
         private EnemyPokemonHandler enemyStats;
-        private PokemonAttacks attacks;
-        private PokemonDamageMultipliers damage_mult;
         private TurnController tc;
 
-        private FBG_Pokemon target;
-        private FBG_Pokemon self;
-
-        //private GenerateAttacks genAttacks;
+        private FBG_Pokemon targetPokemon;
+        private FBG_Pokemon thisPokemon;
 
         private float attack_mod;
         private float defense_mod;
@@ -47,12 +43,6 @@ namespace FatBobbyGaming
             {
                 Debug.Log("No Player Stats");
             }
-
-            attacks = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
-            //genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
-            damage_mult = GameObject.FindGameObjectWithTag("dmg_mult").GetComponent<PokemonDamageMultipliers>();
-            tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
-            Console.WriteLine("PK : Attack Damage Calculator: Initalized");
         }
 
         /// <summary>
@@ -115,14 +105,19 @@ namespace FatBobbyGaming
         /// This method takes the name of the attack and then passes it into other methods in the Attack_Switch_Case to get the effect
         /// of the attack on the enemy or player pokemon, if it is a status type of attack or one that deals damage or stuns...ect.
         /// </summary>
-        public void calculateAttackEffect()
+        public void calculateAttackEffect(FBG_Pokemon t, FBG_Pokemon s, string atkName)
         {
-            int attack_index = getAttackListIndex(attack_name);
-            //Debug.Log("attack index: " + attack_index);
-            string attackCat = attacks.attackList[attack_index].cat;
+            targetPokemon = t;
+            thisPokemon = s;
 
-            float predictedDamage = calculateDamage(attack_name);
-            int accuracy = attacks.attackList[attack_index].accuracy;
+            Debug.LogWarning(string.Format(" {0} is using {1} ", thisPokemon.Name, atkName));
+
+            int atkIndex = getAttackListIndex(atkName);
+            //Debug.Log("attack index: " + attack_index);
+            string attackCat = FBG_Atk_Data.attackList[atkIndex].cat;
+
+            float predictedDamage = calculateDamage(atkName, atkIndex);
+            int accuracy = FBG_Atk_Data.attackList[atkIndex].accuracy;
             //Debug.Log("Predicted Damage: " + predictedDamage);
 
             bool hit = checkAccuracy_and_Hit(accuracy);
@@ -147,53 +142,28 @@ namespace FatBobbyGaming
 
         /// <summary>
         /// This method calculates the damage that each attack will do based off the serebii.net damage formula, this does not take into effect the different modifiers or attack calculations each specific move has
-        /// <param name="name">takes in the name of the current attack being passed in</param>
+        /// <param name="atkName">takes in the name of the current attack being passed in</param>
         /// <returns>the final basic damage based on all modifiers and multipliers</returns>
         /// </summary>
-        public float calculateDamage(string name)
+        public float calculateDamage(string atkName, int atkIndex)
         {
-            if (!isPlayer)
-            {
-                Debug.LogWarning("Enemy Attack Name: " + name);
-            }
-            else
-            {
-                Debug.LogWarning("Player Attack Name: " + name);
-            }
-
             float final_damage = 0;
-            //Setup for the methods that will get different aspects of the damage calculation
-            int attack_index = getAttackListIndex(name);
-            //Debug.Log("attack index: " + attack_index);
-            string attackType = attacks.attackList[attack_index].type;
-            string attackCat = attacks.attackList[attack_index].cat;
 
-            if (attackCat == FBG_consts.Status)   //we do not have to calculate damage for status moves!
+            string attackType = FBG_Atk_Data.attackList[atkIndex].type;
+            string attackCat = FBG_Atk_Data.attackList[atkIndex].cat;
+            set_attack_and_def(attackCat);
+
+            if (calcExitConditions(attackCat, atkName, atkIndex))
             {
                 return 0;
             }
-            if (baseAttackPower(attack_index) == 0)  //there is no base attack power so we can just return 0, it is a sepcial attack that has its own calculations
-            {
-                Debug.Log("This attack calclates it's own damage: " + name);
-                return 0;
-            }
 
-            //Setup for the damage calculations
-            set_attack_and_def(attack_index, isPlayer, attackCat);
-            if (attack_mod == 0)
-            {
-                Debug.LogError("Attack modifier is 0");
-            }
-            if (defense_mod == 0)
-            {
-                Debug.LogError("Defense modifier is 0");
-            }
 
-            float level_mod = levelModifier(isPlayer);
-            float att_div_defense = baseAttackPower(attack_index) / defense_mod;
+            float level_mod = levelModifier();
+            float att_div_defense = ((float)FBG_Atk_Data.attackList[atkIndex].power) / defense_mod;
 
             //Debug.Log("attack div defense: " + baseAttackPower(attack_index) + "/" + defense_mod + " = " + att_div_defense);
-            float damage_mod = modifier(attack_index, attackType, isPlayer, name);
+            float damage_mod = modifier(atkName, attackType);
 
             //Damage Calculations here
             final_damage = level_mod;
@@ -212,29 +182,53 @@ namespace FatBobbyGaming
             return final_damage;
         }
 
+        private bool calcExitConditions(string atkCat, string atkName, int atkIndex)
+        {
+
+            if (atkCat == FBG_consts.Status) //we do not have to calculate damage for status moves!
+            {
+                Debug.Log("Status move");
+                return false;
+            }
+            if (FBG_Atk_Data.attackList[atkIndex].power == 0)  //there is no base attack power so we can just return 0, it is a sepcial attack that has its own calculations
+            {
+                Debug.Log("This attack calclates it's own damage: " + atkName);
+                return false;
+            }
+
+            if (attack_mod == 0)
+            {
+                Debug.LogError("Attack modifier is 0");
+                return false;
+            }
+            if (defense_mod == 0)
+            {
+                Debug.LogError("Defense modifier is 0");
+                return false;
+            }
+
+            return true;
+        }
+
         /// <summary>
         /// Sets the multiplier Base Power * STAB * Type modifier * Critical * other * randomNum(.85,1)
-        /// <param name="index">the index of the move in the attack list</param>
+        /// <param name="atkIndex">the index of the move in the attack list</param>
         /// <param name="attackType">the attack type of the move being passed in</param>
         /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
-        /// <param name="name">the name of the move being passed in</param>
+        /// <param name="atkName">the name of the move being passed in</param>
         /// <returns>the final value of all the modifiers</returns>
         /// </summary>
-        private float modifier(int index, string attackType, bool isPlayer, string name)
+        private float modifier(string atkName, string attackType)
         {
             float modifier;
-            float stab;
+            float stab = 1f;
             if (isStab(attackType))
             {
                 stab = 1.5f;
             }
-            else
-            {
-                stab = 1f;
-            }
 
             float critical = 1f;
-            int critProb = critChance(name);
+            int critProb = critChance(atkName);
             //Debug.Log("Crit chance: 1 /" + critProb);
             bool crit = isCrit(critProb);
             if (crit)
@@ -243,7 +237,7 @@ namespace FatBobbyGaming
                 critical = 1.5f;
             }
             float rnd = UnityEngine.Random.Range(.85f, 1f);
-            float typeMultiplier = fetchDmgMultModifier(attackType, target);
+            float typeMultiplier = fetchDmgMultModifier(attackType);
 
             if (typeMultiplier == 0)
             {
@@ -270,25 +264,14 @@ namespace FatBobbyGaming
         /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
         /// <returns>a float value of the level modifier</returns>
         /// </summary>
-        private float levelModifier(bool isPlayer)
+        private float levelModifier()
         {
             //(2 * level / 5) + 2
-            float level;
-            float modifier;
-            if (isPlayer)
-            {
-                level = playerStats.Level;
-            }
-            else
-            {
-                level = enemyStats.Level;
-            }
-
-            modifier = 2 * level;
+            float level = targetPokemon.Level;
+            float modifier = 2 * level;
             modifier /= 5;
             modifier += 2;
 
-            //Debug.Log("Level modifier: " + modifier);
             return modifier;
         }
 
@@ -298,37 +281,17 @@ namespace FatBobbyGaming
         /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
         /// <param name="attackCat">the category of the attack move, either special, status, or physical</param>
         /// </summary>
-        private void set_attack_and_def(int attack_index, bool isPlayer, string attackCat)
+        private void set_attack_and_def(string attackCat)
         {
-            if (attackCat == attacks.Special)                  //we are calculating a special attack
+            if (attackCat == FBG_consts.Special)                  //we are calculating a special attack
             {
-                if (isPlayer)                                   //the player is using a special attack
-                {
-                    attack_mod = playerStats.Special_Attack;
-                    defense_mod = enemyStats.Special_Defense;
-                }
-                else                                            //the enemy is using a special attack
-                {
-                    attack_mod = enemyStats.Special_Attack;
-                    defense_mod = playerStats.Special_Defense;
-                }
-                //Debug.Log("SpAttack: " + attack_mod);
-                //Debug.Log("SpDefense: " + defense_mod);
+                attack_mod = thisPokemon.Special_Attack;
+                defense_mod = targetPokemon.Special_Defense;
             }
-            if (attackCat == attacks.Physical)                  //we are calculating a physical attack
+            if (attackCat == FBG_consts.Physical)                  //we are calculating a physical attack
             {
-                if (isPlayer)                                   //the player is using a physical attack
-                {
-                    attack_mod = playerStats.Attack;
-                    defense_mod = enemyStats.Defense;
-                }
-                else                                            //the enemy is using a physical attack
-                {
-                    attack_mod = enemyStats.Attack;
-                    defense_mod = playerStats.Defense;
-                }
-                //Debug.Log("Attack: " + attack_mod);
-                //Debug.Log("Defense: " + defense_mod);
+                attack_mod = thisPokemon.Attack;
+                defense_mod = targetPokemon.Defense;
             }
         }
 
@@ -340,7 +303,7 @@ namespace FatBobbyGaming
         private float baseAttackPower(int index)
         {
             float base_damage = 0;
-            base_damage = (float)attacks.attackList[index].power;
+            base_damage = (float)FBG_Atk_Data.attackList[index].power;
             //Debug.Log("Base Damage: " + base_damage);
             return base_damage;
         }
@@ -353,7 +316,7 @@ namespace FatBobbyGaming
         /// </summary>
         private bool isStab(string attackType)
         {
-            if(attackType == self.type1 || attackType == self.type2)
+            if(attackType == thisPokemon.type1 || attackType == thisPokemon.type2)
             {
                 return true;
             }
@@ -368,9 +331,9 @@ namespace FatBobbyGaming
         public int getAttackListIndex(string name)
         {
             //Debug.Log("called Attack List Index");
-            for (int i = 0; i < attacks.attackList.Count; i++)
+            for (int i = 0; i < FBG_Atk_Data.attackList.Count; i++)
             {
-                if (name.ToLower() == attacks.attackList[i].name.ToLower())
+                if (name.ToLower() == FBG_Atk_Data.attackList[i].name.ToLower())
                 {
                     //Debug.Log("Calculating Damage for " + name);
                     return i;
@@ -386,65 +349,65 @@ namespace FatBobbyGaming
         /// <param name="index">the index of the attack move in the attack list</param>
         /// <returns>the modifier of the attack move based off its attack type</returns>
         /// </summary>
-        private float fetchDmgMultModifier(string attackType, FBG_Pokemon p)
+        private float fetchDmgMultModifier(string attackType)
         {
             float modifier = 0f;
             attackType = attackType.ToLower();
             switch (attackType)
             {
                 case "normal":
-                    modifier = p.damageMultiplier.normal;
+                    modifier = targetPokemon.damageMultiplier.normal;
                     break;
                 case "fighting":
-                    modifier = p.damageMultiplier.fighting;
+                    modifier = targetPokemon.damageMultiplier.fighting;
                     break;
                 case "flying":
-                    modifier = p.damageMultiplier.flying;
+                    modifier = targetPokemon.damageMultiplier.flying;
                     break;
                 case "poison":
-                    modifier = p.damageMultiplier.poison;
+                    modifier = targetPokemon.damageMultiplier.poison;
                     break;
                 case "ground":
-                    modifier = p.damageMultiplier.ground;
+                    modifier = targetPokemon.damageMultiplier.ground;
                     break;
                 case "rock":
-                    modifier = p.damageMultiplier.rock;
+                    modifier = targetPokemon.damageMultiplier.rock;
                     break;
                 case "bug":
-                    modifier = p.damageMultiplier.bug;
+                    modifier = targetPokemon.damageMultiplier.bug;
                     break;
                 case "ghost":
-                    modifier = p.damageMultiplier.ghost;
+                    modifier = targetPokemon.damageMultiplier.ghost;
                     break;
                 case "steel":
-                    modifier = p.damageMultiplier.steel;
+                    modifier = targetPokemon.damageMultiplier.steel;
                     break;
                 case "fire":
-                    modifier = p.damageMultiplier.fire;
+                    modifier = targetPokemon.damageMultiplier.fire;
                     break;
                 case "water":
-                    modifier = p.damageMultiplier.water;
+                    modifier = targetPokemon.damageMultiplier.water;
                     break;
                 case "grass":
-                    modifier = p.damageMultiplier.grass;
+                    modifier = targetPokemon.damageMultiplier.grass;
                     break;
                 case "electric":
-                    modifier = p.damageMultiplier.electric;
+                    modifier = targetPokemon.damageMultiplier.electric;
                     break;
                 case "psychic":
-                    modifier = p.damageMultiplier.psychic;
+                    modifier = targetPokemon.damageMultiplier.psychic;
                     break;
                 case "ice":
-                    modifier = p.damageMultiplier.ice;
+                    modifier = targetPokemon.damageMultiplier.ice;
                     break;
                 case "dragon":
-                    modifier = p.damageMultiplier.dragon;
+                    modifier = targetPokemon.damageMultiplier.dragon;
                     break;
                 case "dark":
-                    modifier = p.damageMultiplier.dark;
+                    modifier = targetPokemon.damageMultiplier.dark;
                     break;
                 case "fairy":
-                    modifier = p.damageMultiplier.fairy;
+                    modifier = targetPokemon.damageMultiplier.fairy;
                     break;
             }
             return modifier;
@@ -576,6 +539,15 @@ namespace FatBobbyGaming
             }
             return chance;
         }
+    }
+
+    public class MoveResults
+    {
+        public bool hit;
+        public bool crit;
+        public string affectedStage;
+        public int stageDiff;
+        public damageReport dmg;
     }
 
 }

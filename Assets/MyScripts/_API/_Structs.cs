@@ -143,13 +143,13 @@ public struct Pokemon
     }
 }
 
-public struct MoveResult
+public struct damageReport
 {
     public float damage;
     public float heal;
     public float recoil;
 
-    public MoveResult(float d, float h, float r)
+    public damageReport(float d, float h, float r)
     {
         damage = d;
         heal = h;

@@ -8,7 +8,7 @@ namespace FatBobbyGaming {
 
 
         #region Declared Variables
-        private static List<attacks> attackList = new List<attacks>();
+        public static List<attacks> attackList = new List<attacks>();
         private static List<attackIndex> HM_List = new List<attackIndex>();
         private static List<attackIndex> TM_List = new List<attackIndex>();
         public static List<masterAttackList> master_attack_list = new List<masterAttackList>();    //master list of the lists of attacks
