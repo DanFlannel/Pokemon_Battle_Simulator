@@ -11,6 +11,10 @@ namespace FatBobbyGaming
         //in order to generate the rest of the stats for the pokemon
 
         public nonVolitileStatusEffects status_A;
+        public int nonVolDuration;
+
+        public volitileStatusEffects status_B;
+
         public pokemonPosition position;
         public attackStatus atkStatus;
 
@@ -25,14 +29,14 @@ namespace FatBobbyGaming
         private int baseSpecial_Attack { get; set; }
         private int baseSpecial_Defense { get; set; }
         private int baseSpeed { get; set; }
-
+        private int levelBonus { get; set; }
 
         //*******************************************************//
 
         //using properties to protect how these variables are set
-        public string type1 { get; private set; }
-        public string type2 { get; private set; }
-        public dmgMult damageMultiplier { get; private set; }
+        public string type1 { get; set; }
+        public string type2 { get; set; }
+        public dmgMult damageMultiplier { get; set; }
 
         public int Attack { get; private set; }
         public int Defense { get; private set; }
@@ -46,7 +50,7 @@ namespace FatBobbyGaming
         public int spDefense_stage { get; set; }
         public int speed_stage { get; set; }
 
-        public List<string> attackMoves = new List<string>();
+        public List<string> atkMoves = new List<string>();
 
         public float cachedDamage { get; set; }
 
@@ -54,6 +58,9 @@ namespace FatBobbyGaming
         public int maxHP { get; private set; }
 
         private List<int> randomNumbers = new List<int>();
+
+        public bool isFlinched;
+        public bool hasSubstitute;
 
         public FBG_Pokemon(int m_Level, corePokemonData data, List<attackIndex> attackMoves)
         {
@@ -76,6 +83,8 @@ namespace FatBobbyGaming
             cachedDamage = 0;
 
             status_A = nonVolitileStatusEffects.none;
+            nonVolDuration = 0;
+
             position = pokemonPosition.normal;
             atkStatus = attackStatus.Normal;
 
@@ -84,7 +93,7 @@ namespace FatBobbyGaming
             generatePokemonStats(Level);
             randomNumbers = generateRandomList(attackMoves.Count);
             SetAttacks(attackMoves, randomNumbers);
-
+            //Debug.Log(attackMoves.Count);
         }
 
         private void setStages()
@@ -106,7 +115,7 @@ namespace FatBobbyGaming
             //max hp = 2* base stat + 110
             //max other stats = 1.79 * stat + 5(levelBonus)
             //level bonus cannot exceed 5
-            int levelBonus = Level / (int)Random.Range(16f, 20f); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
+            levelBonus = Level / (int)Random.Range(16f, 20f); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
 
             float hpLevelCalc = 1f + ((float)Level / 100);
             float levelCalc = .79f + ((float)Level / 100);
@@ -192,7 +201,51 @@ namespace FatBobbyGaming
         {
             for(int i = 0; i < rndNums.Count; i++)
             {
-                attackMoves.Add(attackMoves[rndNums[i]]);
+                atkMoves.Add(attackMoves[rndNums[i]].attack.name);
+            }
+        }
+
+        public void resetStatStages()
+        {
+            updateStatStage(FBG_consts.attack, 1);
+            updateStatStage(FBG_consts.defense, 1);
+            updateStatStage(FBG_consts.spAttack, 1);
+            updateStatStage(FBG_consts.spDefense, 1);
+        }
+
+        public void updateStatStage(string type, float multiplier)
+        {
+            float levelCalc = .79f + ((float)Level / 100);
+            switch (type)
+            {
+                case "attack":
+                    float attackCalc = (float)baseAttack * levelCalc;
+                    Attack = (int)attackCalc + levelBonus;
+                    Attack = (int)(Attack * multiplier);
+                    break;
+                case "defense":
+                    float defenseCalc = (float)baseDefense * levelCalc;
+                    Defense = (int)defenseCalc + levelBonus;
+                    Defense = (int)(Defense * multiplier);
+                    break;
+                case "spAttack":
+                    float spaBonus = (float)baseSpecial_Attack * levelCalc;
+                    Special_Attack = (int)spaBonus + levelBonus;
+                    Special_Attack = (int)(Special_Attack * multiplier);
+                    break;
+                case "spDefense":
+                    float spdBonus = (float)baseSpecial_Defense * levelCalc;
+                    Special_Defense = (int)spdBonus + levelBonus;
+                    Special_Defense = (int)(Special_Defense * multiplier);
+                    break;
+                case "speed":
+                    float spBonus = (float)baseSpeed * levelCalc;
+                    Speed = (int)spBonus + levelBonus;
+                    Speed = (int)(Speed * multiplier);
+                    break;
+                default:
+                    Debug.Log("no type " + type + " found");
+                    break;
             }
         }
     }

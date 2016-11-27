@@ -6,110 +6,26 @@ using System;
 
 namespace FatBobbyGaming
 {
-    public class FBG_Atk_Calc : MonoBehaviour
+    public static class FBG_Atk_Calc
     {
 
-        #region Declared Variables
-        private PlayerPokemonHandler playerStats;
-        private EnemyPokemonHandler enemyStats;
-        private TurnController tc;
+        private static FBG_Pokemon targetPokemon;
+        private static FBG_Pokemon thisPokemon;
 
-        private FBG_Pokemon targetPokemon;
-        private FBG_Pokemon thisPokemon;
+        private static float attack_mod;
+        private static float defense_mod;
 
-        private float attack_mod;
-        private float defense_mod;
-
-        private bool isPlayer;
-        private string attack_name;
-        #endregion
-
-        // Use this for initialization
-        void Awake()
-        {
-            Init();
-        }
-
-        private void Init()
-        {
-            Console.WriteLine("PK : Attack Damage Calculator: Initalizing");
-            enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
-            if (enemyStats == null)
-            {
-                Debug.LogError("No Enemy Stats");
-            }
-            playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
-            if (playerStats == null)
-            {
-                Debug.Log("No Player Stats");
-            }
-        }
-
-        /// <summary>
-        /// Button method, makes sure that if the button was clicked, the isPlayer boolean is true
-        /// <param name="p">a boolean to set the isPlayer boolean</param>
-        /// </summary>
-        public void isPlayer_Button(bool p)
-        {
-            isPlayer = p;
-        }
-
-        /// <summary>
-        /// Button method, tells this script which attack has been called based off an integer between 1 and 4
-        /// <param name="index">the index of the current attack in the list of attacks</param>
-        /// </summary>
-        public void get_attack_name(int index)
-        {
-            if (isPlayer)
-            {
-                if (index == 1)
-                {
-                    attack_name = playerStats.attack1;
-                }
-                if (index == 2)
-                {
-                    attack_name = playerStats.attack2;
-                }
-                if (index == 3)
-                {
-                    attack_name = playerStats.attack3;
-                }
-                if (index == 4)
-                {
-                    attack_name = playerStats.attack4;
-                }
-            }
-            else
-            {
-                index = (int)UnityEngine.Random.Range(1, 5);
-                if (index == 1)
-                {
-                    attack_name = enemyStats.attack1;
-                }
-                if (index == 2)
-                {
-                    attack_name = enemyStats.attack2;
-                }
-                if (index == 3)
-                {
-                    attack_name = enemyStats.attack3;
-                }
-                if (index == 4)
-                {
-                    attack_name = enemyStats.attack4;
-                }
-            }
-        }
 
         /// <summary>
         /// This method takes the name of the attack and then passes it into other methods in the Attack_Switch_Case to get the effect
         /// of the attack on the enemy or player pokemon, if it is a status type of attack or one that deals damage or stuns...ect.
         /// </summary>
-        public MoveResults calculateAttackEffect(FBG_Pokemon t, FBG_Pokemon s, string atkName)
+        public static MoveResults calculateAttackEffect(FBG_Pokemon tar, FBG_Pokemon self, string atkName)
         {
             MoveResults MR = new MoveResults();
-            targetPokemon = t;
-            thisPokemon = s;
+            move_DmgReport report = new move_DmgReport();
+            targetPokemon = tar;
+            thisPokemon = self;
             Debug.LogWarning(string.Format(" {0} is using {1} ", thisPokemon.Name, atkName));
 
             int atkIndex = getAttackListIndex(atkName);
@@ -118,27 +34,50 @@ namespace FatBobbyGaming
             string atkType = FBG_Atk_Data.attackList[atkIndex].type;
             int accuracy = FBG_Atk_Data.attackList[atkIndex].accuracy;
 
-            float dmg = calculateDamage(atkName, atkIndex);
+            float baseDamage = calculateDamage(atkName, atkIndex);
             //this also sets our crit bool in the move results
             float dmgMod = modifier(atkName, atkType, MR);
-            dmg = Mathf.Round(dmg * dmgMod);
+            baseDamage = Mathf.Round(baseDamage * dmgMod);
 
             MR.hit = checkAccuracy_and_Hit(accuracy);
 
             //Debug.Log("Attack Name: " + attack_name);
+            FBG_Atk_Switch.setPokemon(tar, self, MR);
             switch (atkCat)
             {
-                case "Status":
-                    //attack_Switch_Case.updateTurnController(isPlayer, attack_name, AttackType.status);
+                case FBG_consts.Status:
+                    report = FBG_Atk_Switch.statusAttacks(atkName);
                     break;
-                case "Physical":
-                    //attack_Switch_Case.physicalAttacks(attack_name, predictedDamage, isPlayer);
+                case FBG_consts.Physical:
+                    report = FBG_Atk_Switch.physicalAttacks(atkName, baseDamage);
                     break;
-                case "Special":
-                    //attack_Switch_Case.specialAttacks(attack_name, predictedDamage, isPlayer);
+                case FBG_consts.Special:
+                    report = FBG_Atk_Switch.specialAttacks(atkName, baseDamage);
                     break;
             }
+
+            MR.dmgReport = report;
             return MR;
+        }
+
+        /// <summary>
+        /// Gets the index of the pokemon in the attack list so we can use this index later rather than having to get it multiple times
+        /// <param name="name">the name of the move being passed in</param>
+        /// <returns>the index of the move being passed in, within the attack list</returns>
+        /// </summary>
+        public static int getAttackListIndex(string name)
+        {
+            //Debug.Log("called Attack List Index");
+            for (int i = 0; i < FBG_Atk_Data.attackList.Count; i++)
+            {
+                if (name.ToLower() == FBG_Atk_Data.attackList[i].name.ToLower())
+                {
+                    //Debug.Log("Calculating Damage for " + name);
+                    return i;
+                }
+            }
+            Debug.Log("No Attack with name " + name + " found");
+            return 0;
         }
 
         /// <summary>
@@ -146,7 +85,7 @@ namespace FatBobbyGaming
         /// <param name="atkName">takes in the name of the current attack being passed in</param>
         /// <returns>the final basic damage based on all modifiers and multipliers</returns>
         /// </summary>
-        private float calculateDamage(string atkName, int atkIndex)
+        private static float calculateDamage(string atkName, int atkIndex)
         {
             float dmg = 0;
 
@@ -182,7 +121,7 @@ namespace FatBobbyGaming
             return dmg;
         }
 
-        private bool calcExitConditions(string atkCat, string atkName, int atkIndex)
+        private static bool calcExitConditions(string atkCat, string atkName, int atkIndex)
         {
 
             if (atkCat == FBG_consts.Status) //we do not have to calculate damage for status moves!
@@ -218,7 +157,7 @@ namespace FatBobbyGaming
         /// <param name="atkName">the name of the move being passed in</param>
         /// <returns>the final value of all the modifiers</returns>
         /// </summary>
-        private float modifier(string atkName, string attackType, MoveResults mr)
+        private static float modifier(string atkName, string attackType, MoveResults mr)
         {
             float modifier;
             float stab = 1f;
@@ -242,7 +181,7 @@ namespace FatBobbyGaming
 
             if (typeMultiplier == 0)
             {
-                Debug.Log("The pokemon is immune");
+                Debug.Log("The pokemon is immune to " + attackType);
                 return 0;
             }
             else if (typeMultiplier < 1)
@@ -265,7 +204,7 @@ namespace FatBobbyGaming
         /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
         /// <returns>a float value of the level modifier</returns>
         /// </summary>
-        private float levelModifier()
+        private static float levelModifier()
         {
             //(2 * level / 5) + 2
             float level = targetPokemon.Level;
@@ -282,7 +221,7 @@ namespace FatBobbyGaming
         /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
         /// <param name="attackCat">the category of the attack move, either special, status, or physical</param>
         /// </summary>
-        private void set_attack_and_def(string attackCat)
+        private static void set_attack_and_def(string attackCat)
         {
             if (attackCat == FBG_consts.Special)                  //we are calculating a special attack
             {
@@ -301,7 +240,7 @@ namespace FatBobbyGaming
         /// <param name="index">the index of the move in the list of attacks</param>
         /// <returns> the base damage of the move</returns>
         /// </summary>
-        private float baseAttackPower(int index)
+        private static float baseAttackPower(int index)
         {
             float base_damage = 0;
             base_damage = (float)FBG_Atk_Data.attackList[index].power;
@@ -315,7 +254,7 @@ namespace FatBobbyGaming
         /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
         /// <returns>a boolean that is true if the move is a stab type move or not</returns>
         /// </summary>
-        private bool isStab(string attackType)
+        private static bool isStab(string attackType)
         {
             if(attackType == thisPokemon.type1 || attackType == thisPokemon.type2)
             {
@@ -325,32 +264,12 @@ namespace FatBobbyGaming
         }
 
         /// <summary>
-        /// Gets the index of the pokemon in the attack list so we can use this index later rather than having to get it multiple times
-        /// <param name="name">the name of the move being passed in</param>
-        /// <returns>the index of the move being passed in, within the attack list</returns>
-        /// </summary>
-        private int getAttackListIndex(string name)
-        {
-            //Debug.Log("called Attack List Index");
-            for (int i = 0; i < FBG_Atk_Data.attackList.Count; i++)
-            {
-                if (name.ToLower() == FBG_Atk_Data.attackList[i].name.ToLower())
-                {
-                    //Debug.Log("Calculating Damage for " + name);
-                    return i;
-                }
-            }
-            Debug.Log("No Attack with name " + name + " found");
-            return 0;
-        }
-
-        /// <summary>
         /// Uses the index to get the type multiplier from the master list in the damage multiplier class
         /// <param name="attackType">the type of the attack</param>
         /// <param name="index">the index of the attack move in the attack list</param>
         /// <returns>the modifier of the attack move based off its attack type</returns>
         /// </summary>
-        private float fetchDmgMultModifier(string attackType)
+        private static float fetchDmgMultModifier(string attackType)
         {
             float modifier = 0f;
             attackType = attackType.ToLower();
@@ -420,7 +339,7 @@ namespace FatBobbyGaming
         /// <param name="accuracy">the accuracy of the move being passed in</param>
         /// <returns>true if the move hit, false if it missed</returns>
         /// </summary>
-        private bool checkAccuracy_and_Hit(int accuracy)
+        private static bool checkAccuracy_and_Hit(int accuracy)
         {
             if (accuracy == 100 || accuracy == 0)
             {
@@ -434,41 +353,16 @@ namespace FatBobbyGaming
         /// <param name="chance">the chance probability either (1/8) or (1/16)</param>
         /// <returns>true if the move crit, false if it did not</returns>
         ///</summary>
-        private bool isCrit(int chance)
+        private static bool isCrit(int chance)
         {
-            bool crit = false;
-
             int guess = UnityEngine.Random.Range(1, chance);
             int guess2 = UnityEngine.Random.Range(1, chance);
 
             if (guess == guess2)
             {
-                crit = true;
+                return true;
             }
-            if (crit)
-            {
-                if (isPlayer)
-                {
-                    tc.PlayerCriticalStrike = true;
-                }
-                else
-                {
-                    tc.EnemyCriticalStrike = true;
-                }
-            }
-            else
-            {
-                if (isPlayer)
-                {
-                    tc.PlayerCriticalStrike = false;
-                }
-                else
-                {
-                    tc.EnemyCriticalStrike = false;
-                }
-            }
-
-            return crit;
+            return false;
         }
 
         /// <summary>
@@ -476,7 +370,7 @@ namespace FatBobbyGaming
         /// </summary>
         /// <param name="name"> the name of the attack</param>
         /// <returns>the crit chance of the move either (1/8) or (1/16)</returns>
-        private int critChance(string name)
+        private static int critChance(string name)
         {
             int chance;
             switch (name.ToLower())
@@ -505,9 +399,10 @@ namespace FatBobbyGaming
     {
         public bool hit;
         public bool crit;
+        public bool flinched;
         public string affectedStage;
         public int stageDiff;
-        public move_DmgReport dmg;
+        public move_DmgReport dmgReport;
     }
 
 }

@@ -7,8 +7,9 @@ namespace FatBobbyGaming
     {
         //TODO:
         //I need to set these before calling this method it will reduce a lot of code
-        public static FBG_Pokemon target;
-        public static FBG_Pokemon self;
+        private static FBG_Pokemon target;
+        private static FBG_Pokemon self;
+        private static MoveResults moveRes;
 
         private static float damage;
         private static float heal;
@@ -16,10 +17,11 @@ namespace FatBobbyGaming
         private static string stageName;
         private static int stageDiff;
 
-        public static void setPokemon(FBG_Pokemon tar, FBG_Pokemon s)
+        public static void setPokemon(FBG_Pokemon tar, FBG_Pokemon s, MoveResults mr)
         {
             target = tar;
             self = s;
+            moveRes = mr;
 
             damage = 0;
             heal = 0;
@@ -28,7 +30,7 @@ namespace FatBobbyGaming
             stageDiff = 0;
         }
 
-        public static void statusAttacks(string name, bool isPlayer)
+        public static move_DmgReport statusAttacks(string name)
         {
             string tempname = name.ToLower();
             int rnd;
@@ -38,198 +40,264 @@ namespace FatBobbyGaming
                 default:
                     Debug.Log("No status move with name " + name + " found");
                     break;
+
                 //raises users defense by 2 stages
                 case "acid armor":
-                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 2, isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 2, self);
+                    stageName = FBG_consts.defense;
+                    stageDiff = 2;
                     break;
+
                 //raises users speed by 2 stages
                 case "agility":
-                    FBG_Atk_Methods.changeStats(FBG_consts.speed, 2, isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.speed, 2, self);
+                    stageName = FBG_consts.speed;
+                    stageDiff = 2;
                     break;
+
                 //raises users spDefense by 2 stages
                 case "amnesia":
-                    FBG_Atk_Methods.changeStats(FBG_consts.spDefense, 2, isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.spDefense, 2, self);
+                    stageName = FBG_consts.spDefense;
+                    stageDiff = 2;
                     break;
+
                 //raises users defense by 2 stages
                 case "barrier":
-                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 2, isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 2, self);
+                    stageName = FBG_consts.defense;
+                    stageDiff = 2;
                     break;
+
                 //confuses opponenet
                 case "confuse ray":
                     rnd = UnityEngine.Random.Range(1, 4);
-                    FBG_Atk_Methods.isConfused(isPlayer, 10, rnd);
+                    FBG_Atk_Methods.isConfused(target, 10, rnd);
                     break;
+
                 //chages users type of its first move
                 case "conversion":
-                    FBG_Atk_Methods.conversion(isPlayer, name);
+                    FBG_Atk_Methods.conversion(self);
                     break;
+
                 //raises uers defense by 1 stage
                 case "defense curl":
-                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 1, isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 1, self);
+                    stageName = FBG_consts.defense;
+                    stageDiff = 1;
                     break;
+
                 //disables enemies last move for a few turns
                 case "disable":
-
                     break;
                 //raises user evasive stage by one
                 case "double team":
-
                     break;
+
                 //lowers opponents accuracy by 1 stage
                 case "flash":
-
                     break;
+
                 //increases crit ratio...
                 case "focus energy":
-
                     break;
+
                 case "growl":
-                    FBG_Atk_Methods.changeStats(FBG_consts.attack, -1, !isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.attack, -1, target);
+                    stageName = FBG_consts.attack;
+                    stageDiff = -1;
                     break;
-                case "growth":
-                    FBG_Atk_Methods.changeStats(FBG_consts.spAttack, 1, isPlayer);
-                    FBG_Atk_Methods.changeStats(FBG_consts.attack, 1, isPlayer);
-                    break;
-                case "harden":
-                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 1, isPlayer);
-                    break;
-                case "haze":
-                    FBG_Atk_Methods.updateStatChange(FBG_consts.attack, 1, isPlayer);
-                    FBG_Atk_Methods.updateStatChange(FBG_consts.defense, 1, isPlayer);
-                    FBG_Atk_Methods.updateStatChange(FBG_consts.spAttack, 1, isPlayer);
-                    FBG_Atk_Methods.updateStatChange(FBG_consts.spDefense, 1, isPlayer);
 
-                    FBG_Atk_Methods.updateStatChange(FBG_consts.attack, 1, !isPlayer);
-                    FBG_Atk_Methods.updateStatChange(FBG_consts.defense, 1, !isPlayer);
-                    FBG_Atk_Methods.updateStatChange(FBG_consts.spAttack, 1, !isPlayer);
-                    FBG_Atk_Methods.updateStatChange(FBG_consts.spDefense, 1, !isPlayer);
+                case "growth":
+                    FBG_Atk_Methods.changeStats(FBG_consts.spAttack, 1, self);
+                    FBG_Atk_Methods.changeStats(FBG_consts.attack, 1, self);
+                    stageName = FBG_consts.attack + " & " + FBG_consts.spAttack;
+                    stageDiff = 1;
                     break;
+
+                case "harden":
+                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 1, self);
+                    stageName = FBG_consts.defense;
+                    stageDiff = 1;
+                    break;
+
+                case "haze":
+                    self.resetStatStages();
+                    target.resetStatStages();
+                    stageName = "reset all stat changes";
+                    stageDiff = 0;
+                    break;
+
                 case "hypnosis":
                     rnd = UnityEngine.Random.Range(1, 3);
                     //puts the user to sleep for rnd turns
                     break;
+
                 case "kinesis":
                     //lower enemy accuracy by 1 stage
                     break;
+
                 case "leech seed":
-                    FBG_Atk_Methods.one_eigth_perm(isPlayer);
-                    FBG_Atk_Methods.leech_seed(isPlayer);
                     break;
+
                 case "leer":
-                    FBG_Atk_Methods.changeStats(FBG_consts.defense, -1, !isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.defense, -1, target);
+                    stageName = FBG_consts.defense;
+                    stageDiff = -1;
                     break;
+
                 case "light screen":
-                    if (isPlayer)
-                    {
-                        FBG_Atk_Methods.playerStats.hasLightScreen = true;
-                        FBG_Atk_Methods.playerStats.lightScreenDuration = 5;
-                    }
-                    else
-                    {
-                        FBG_Atk_Methods.enemyStats.hasLightScreen = true;
-                        FBG_Atk_Methods.enemyStats.lightScreenDuration = 5;
-                    }
                     break;
+
                 case "lovely kiss":
                     rnd = UnityEngine.Random.Range(1, 3);
                     //puts the user to sleep for rnd turns
                     break;
+
                 case "meditate":
-                    FBG_Atk_Methods.changeStats(FBG_consts.attack, 1, isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.attack, 1, self);
+                    stageName = FBG_consts.attack;
+                    stageDiff = 1;
                     break;
+
                 //preforms any move in the game at random?
                 case "metronome":
                     break;
+
                 //copies the opponents last move and replaces mimic with that
                 case "mimic":
                     break;
+
                 //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
                 case "minimize":
                     break;
+
                 case "mirror move":         //preforms the opponents last move....
                     break;
+
                 //no stat changes for 5 turns
                 case "mist":
                     break;
+
                 case "poison gas":
-                    FBG_Atk_Methods.isPosioned(isPlayer, 100);
+                    FBG_Atk_Methods.isPosioned(target, 100);
                     break;
+
                 case "poison powder":
-                    FBG_Atk_Methods.isPosioned(isPlayer, 100);
+                    FBG_Atk_Methods.isPosioned(target, 100);
                     break;
+
                 case "recover":
                     heal = self.maxHP / 2f;
                     break;
+
                 case "reflect":             //halves the damage from physical attacks for 5 turns
                     break;
+
                 case "rest":                //user falls asleep for 2 turns but health is fully recovered
                         heal = self.maxHP;
                     break;
+
                 case "roar":                //opponent switches pokemon out
                     break;
+
                 case "sand attack":         //lowers opponent accuracy by one stage
                     break;
+
                 case "screech":
-                    FBG_Atk_Methods.changeStats(FBG_consts.defense, -2, !isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.defense, -2, target);
+                    stageName = FBG_consts.defense;
+                    stageDiff = -2;
                     break;
+
                 case "sharpen":
-                    FBG_Atk_Methods.changeStats(FBG_consts.attack, 1, isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.attack, 1, self);
+                    stageName = FBG_consts.attack;
+                    stageDiff = 1;
                     break;
+
                 case "sing":                //puts the user to sleep for 1-3 turns
                     rnd = UnityEngine.Random.Range(1, 3);
                     break;
+
                 case "smokescreen":         //lower accuracy by one stage
                     break;
+
                 case "soft boiled":
                     heal = self.maxHP / 2f;
                     break;
+
                 case "splash":              //This does nothing
                     damage = 0;
                     break;
+
                 case "spore":               //puts the opponent to sleep for 1-3 turns
                     rnd = UnityEngine.Random.Range(1, 3);
                     break;
+
                 case "string shot":
-                    FBG_Atk_Methods.changeStats(FBG_consts.speed, -2, !isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.speed, -2, target);
+                    stageName = FBG_consts.speed;
+                    stageDiff = -2;
                     break;
+
                 case "stun spore":
-                    FBG_Atk_Methods.isParalized(isPlayer, 100);
+                    FBG_Atk_Methods.isParalized(target, 100);
                     break;
+
                 case "substitute":
-                    FBG_Atk_Methods.substitute(isPlayer);
+                    FBG_Atk_Methods.substitute(self, moveRes);
                     break;
+
                 case "supersonic":
                     rnd = UnityEngine.Random.Range(1, 4);
-                    FBG_Atk_Methods.isConfused(isPlayer, 100, rnd);
+                    FBG_Atk_Methods.isConfused(target, 100, rnd);
                     break;
+
                 case "swords dance":
-                    FBG_Atk_Methods.changeStats(FBG_consts.attack, 2, isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.attack, 2, self);
+                    stageName = FBG_consts.attack;
+                    stageDiff = 2;
                     break;
+
                 case "tail whip":
-                    FBG_Atk_Methods.changeStats(FBG_consts.defense, -1, !isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.defense, -1, target);
+                    stageName = FBG_consts.attack;
+                    stageDiff = -1;
                     break;
+
                 case "teleport":
                     //say something stupid here
                     break;
+
                 case "thunder wave":
-                    FBG_Atk_Methods.isParalized(isPlayer, 100);
+                    FBG_Atk_Methods.isParalized(target, 100);
                     break;
+
                 case "toxic":               //increasingly does more toxic damage at the end of each turn, starts at 1/16
-                    FBG_Atk_Methods.toxic(isPlayer);
+                    FBG_Atk_Methods.toxic(target);
                     break;
+
                 case "transform":           //takes the attacks of the opponent
                     break;
+
                 case "whirlwind":           //blows the opponent away if they are a lower level
                     break;
+
                 case "withdraw":
-                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 1, isPlayer);
+                    FBG_Atk_Methods.changeStats(FBG_consts.defense, 1, self);
+                    stageName = FBG_consts.defense;
+                    stageDiff = 1;
                     break;
+
             }
             //Debug.Log("Did a status move!");
             //updateTurnController(isPlayer, name);
+            move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
+            return report;
         }
 
-        public static void physicalAttacks(string name, float predictedDamage, bool isPlayer)
+        public static move_DmgReport physicalAttacks(string name, float predictedDamage)
         {
             string tempname = name.ToLower();
             bool isHit = false;
@@ -250,19 +318,18 @@ namespace FatBobbyGaming
 
                 case "bind":                //need to create a damage over time effect here for rndBind turns
                     rnd = UnityEngine.Random.Range(4, 5);
-                    FBG_Atk_Methods.one_sixteenth_temp(isPlayer, rnd);
                     break;
 
                 case "bite":
-                    FBG_Atk_Methods.isFlinched(isPlayer, 30);
+                    FBG_Atk_Methods.isFlinched(target, 30);
                     break;
 
                 case "body slam":
-                    FBG_Atk_Methods.isParalized(isPlayer, 30);
+                    FBG_Atk_Methods.isParalized(target, 30);
                     break;
 
                 case "bone club":
-                    FBG_Atk_Methods.isFlinched(isPlayer, 10);
+                    FBG_Atk_Methods.isFlinched(target, 10);
                     break;
 
                 case "bonemerang":
@@ -272,9 +339,8 @@ namespace FatBobbyGaming
 
                 case "clamp":               //traps for 4-5 turns dealing 1/16th damage
                     rnd = UnityEngine.Random.Range(4, 5);
-                    FBG_Atk_Methods.one_sixteenth_temp(isPlayer, rnd);
-
                     break;
+
                 case "comet punch":
                     rnd = UnityEngine.Random.Range(2, 5);
                     predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
@@ -284,7 +350,9 @@ namespace FatBobbyGaming
                     isHit = FBG_Atk_Methods.Chance_100(10);
                     if (isHit)
                     {
-                        FBG_Atk_Methods.changeStats(FBG_consts.speed, -1, !isPlayer);
+                        FBG_Atk_Methods.changeStats(FBG_consts.speed, -1, target);
+                        stageName = FBG_consts.speed;
+                        stageDiff = -1;
                     }
                     break;
 
@@ -299,22 +367,13 @@ namespace FatBobbyGaming
                     break;
 
                 case "dig":                 //redo based off of turn controller
-                    if (isPlayer)
-                    {
-                        FBG_Atk_Methods.playerStats.isUnderground = true;
-                        FBG_Atk_Methods.playerStats.cachedDamage = predictedDamage;
-                    }
-                    else
-                    {
-                        FBG_Atk_Methods.enemyStats.isUnderground = true;
-                        FBG_Atk_Methods.enemyStats.cachedDamage = predictedDamage;
-                    }
+                    self.position = pokemonPosition.underground;
                     predictedDamage = 0;
                     break;
 
                 case "dizzy punch":
                     rnd = UnityEngine.Random.Range(1, 4);
-                    FBG_Atk_Methods.isConfused(isPlayer, 20, rnd);
+                    FBG_Atk_Methods.isConfused(target, 20, rnd);
                     break;
 
                 case "double kick":
@@ -336,7 +395,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "earthquake":
-                    predictedDamage = FBG_Atk_Methods.earthQuake(isPlayer, predictedDamage);
+                    predictedDamage = FBG_Atk_Methods.earthQuake(target, predictedDamage);
                     break;
 
                 case "egg bomb":            //no additional effects 
@@ -344,33 +403,19 @@ namespace FatBobbyGaming
                     break;
                 //***********************//
                 case "explosion":           //causes user to faint
-                    if (isPlayer)
-                        FBG_Atk_Methods.playerStats.curHp = 0;
-                    else
-                        FBG_Atk_Methods.enemyStats.curHp = 0;
                     break;
 
                 case "fire punch":
-                    FBG_Atk_Methods.isBurned(isPlayer, 10);
+                    FBG_Atk_Methods.isBurned(target, 10);
                     break;
 
                 case "fissure":
-                    FBG_Atk_Methods.oneHitKO(isPlayer);
+                    FBG_Atk_Methods.oneHitKO(target, self, moveRes);
                     break;
 
                 //*****************************************//
                 case "fly":
-                    if (isPlayer)
-                    {
-                        FBG_Atk_Methods.playerStats.isFlying = true;
-                        FBG_Atk_Methods.playerStats.cachedDamage = predictedDamage;
-                    }
-                    else
-                    {
-                        FBG_Atk_Methods.enemyStats.isFlying = true;
-                        FBG_Atk_Methods.enemyStats.cachedDamage = predictedDamage;
-                    }
-                    predictedDamage = 0;
+                    self.position = pokemonPosition.flying;
                     break;
 
                 case "fury attack":
@@ -384,11 +429,11 @@ namespace FatBobbyGaming
                     break;
 
                 case "guillotine":
-                    FBG_Atk_Methods.oneHitKO(isPlayer);
+                    FBG_Atk_Methods.oneHitKO(target, self, moveRes);
                     break;
 
                 case "headbutt":
-                    FBG_Atk_Methods.isFlinched(isPlayer, 30);
+                    FBG_Atk_Methods.isFlinched(target, 30);
                     break;
 
                 //************************************************//
@@ -400,15 +445,15 @@ namespace FatBobbyGaming
                     break;
 
                 case "horn drill":
-                    FBG_Atk_Methods.oneHitKO(isPlayer);
+                    FBG_Atk_Methods.oneHitKO(target, self, moveRes);
                     break;
 
                 case "hyper fang":
-                    FBG_Atk_Methods.isFlinched(isPlayer, 10);
+                    FBG_Atk_Methods.isFlinched(target, 10);
                     break;
 
                 case "ice punch":
-                    FBG_Atk_Methods.isFrozen(isPlayer, 10);
+                    FBG_Atk_Methods.isFrozen(target, 10);
                     break;
 
                 //***********************************************//
@@ -423,7 +468,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "low kick":
-                    FBG_Atk_Methods.isFlinched(isPlayer, 30);
+                    FBG_Atk_Methods.isFlinched(self, 30);
                     break;
 
                 case "mega kick":           //no additional effect
@@ -448,7 +493,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "poison sting":        //chance to poison the target
-                    FBG_Atk_Methods.isPosioned(isPlayer, 30);
+                    FBG_Atk_Methods.isPosioned(target, 30);
                     break;
 
                 case "pound":               //no additional effect
@@ -466,7 +511,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "rock slide":
-                    FBG_Atk_Methods.isFlinched(isPlayer, 30);
+                    FBG_Atk_Methods.isFlinched(target, 30);
                     break;
 
                 case "rock throw":          //no additional effect
@@ -474,7 +519,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "rolling kick":
-                    FBG_Atk_Methods.isFlinched(isPlayer, 30);
+                    FBG_Atk_Methods.isFlinched(target, 30);
                     break;
 
                 case "scratch":             //no additional effect
@@ -482,25 +527,17 @@ namespace FatBobbyGaming
                     break;
 
                 case "seismic toss":
-                    predictedDamage = FBG_Atk_Methods.levelBasedDamage(isPlayer);
+                    predictedDamage = FBG_Atk_Methods.levelBasedDamage(target);
                     break;
                 //***************************************************//
                 case "self destruct":       //user faints
-                    if (isPlayer)
-                    {
-                        FBG_Atk_Methods.playerStats.curHp = 0;
-                    }
-                    else
-                    {
-                        FBG_Atk_Methods.enemyStats.curHp = 0;
-                    }
                     break;
 
                 case "skull bash":          //charges first turn, raising defense, hits on the second turn
                     break;
 
                 case "sky attack":          //charges on first turn, hits on second, 30% flinch chance
-                    FBG_Atk_Methods.isFlinched(isPlayer, 30);
+                    FBG_Atk_Methods.isFlinched(target, 30);
                     break;
 
                 case "slam":                //no additional effect
@@ -516,7 +553,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "stomp":               //if minimized *2 damage
-                    FBG_Atk_Methods.isFlinched(isPlayer, 30);
+                    FBG_Atk_Methods.isFlinched(target, 30);
                     break;
 
                 case "strength":            //no additional effect
@@ -527,7 +564,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "submission":
-                    recoil = Mathf.Round(FBG_Atk_Methods.final_damage / 4f);
+                    recoil = Mathf.Round(damage / 4f);
                     break;
 
                 case "super fang":
@@ -546,12 +583,12 @@ namespace FatBobbyGaming
                     break;
 
                 case "thunder punch":
-                    FBG_Atk_Methods.isParalized(isPlayer, 10);
+                    FBG_Atk_Methods.isParalized(target, 10);
                     break;
 
                 case "twineedle":           //20% chance to poison the target
                     FBG_Atk_Methods.multiAttack(2, name);
-                    FBG_Atk_Methods.isPosioned(isPlayer, 20);
+                    FBG_Atk_Methods.isPosioned(target, 20);
                     break;
 
                 case "vice grip":           //no additional effect
@@ -563,7 +600,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "waterfall":
-                    FBG_Atk_Methods.isFlinched(isPlayer, 20);
+                    FBG_Atk_Methods.isFlinched(target, 20);
                     break;
 
                 case "wing attack":         //no additional effect, can hit non-adjacent pokemon in triple battles
@@ -572,22 +609,19 @@ namespace FatBobbyGaming
                 //**************************************//
                 case "wrap":                //causes 1/16th damage for 4-5 turns
                     rnd = UnityEngine.Random.Range(4, 5);
-                    FBG_Atk_Methods.one_sixteenth_temp(isPlayer, rnd);
                     break;
             }
-            FBG_Atk_Methods.final_damage = predictedDamage;
+            damage = predictedDamage;
             //Debug.Log("Did a Physical Attack!");
             //Debug.Log("final heal = " + final_heal);
             //Debug.Log("final damage = " + final_damage);
-            FBG_Atk_Methods.updateTurnController(isPlayer, name, AttackType.physical);
+
+            move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
+            return report;
         }
 
-        public static void specialAttacks(string name, float predictedDamage, bool isPlayer)
+        public static move_DmgReport specialAttacks(string name, float predictedDamage)
         {
-            //Debug.Log("attack name: " + name);
-            FBG_Atk_Methods.final_damage = 0;
-            FBG_Atk_Methods.final_heal = 0;
-            FBG_Atk_Methods.recoil = 0;
             string tempname = name.ToLower();
             int rnd;
             bool isHit = false;
@@ -596,157 +630,187 @@ namespace FatBobbyGaming
                 default:
                     Debug.Log("No special attack with name " + name + " found");
                     break;
+
                 case "absorb":
-                    FBG_Atk_Methods.final_heal = predictedDamage / 2f;
+                    heal = predictedDamage / 2f;
                     break;
+
                 case "acid":
                     isHit = FBG_Atk_Methods.Chance_100(10);
                     if (isHit)
                     {
-                        FBG_Atk_Methods.changeStats(FBG_consts.spDefense, -1, !isPlayer);
+                        FBG_Atk_Methods.changeStats(FBG_consts.spDefense, -1, target);
+                        stageName = FBG_consts.spDefense;
+                        stageDiff = -1;
                     }
                     break;
+
                 case "aurora beam":
                     isHit = FBG_Atk_Methods.Chance_100(10);
                     if (isHit)
                     {
-                        FBG_Atk_Methods.changeStats(FBG_consts.attack, -1, !isPlayer);
+                        FBG_Atk_Methods.changeStats(FBG_consts.attack, -1, target);
+                        stageName = FBG_consts.attack;
+                        stageDiff = -1;
                     }
                     break;
+
                 case "blizzard":
-                    FBG_Atk_Methods.isFrozen(isPlayer, 10);
+                    FBG_Atk_Methods.isFrozen(target, 10);
                     break;
+
                 case "bubble":
                     isHit = FBG_Atk_Methods.Chance_100(10);
                     if (isHit)
                     {
-                        FBG_Atk_Methods.changeStats(FBG_consts.speed, -1, !isPlayer);
+                        FBG_Atk_Methods.changeStats(FBG_consts.speed, -1, target);
+                        stageName = FBG_consts.speed;
+                        stageDiff = -1;
                     }
                     break;
+
                 case "bubble beam":
                     isHit = FBG_Atk_Methods.Chance_100(10);
                     if (isHit)
                     {
-                        FBG_Atk_Methods.changeStats(FBG_consts.speed, -1, !isPlayer);
+                        FBG_Atk_Methods.changeStats(FBG_consts.speed, -1, target);
+                        stageName = FBG_consts.speed;
+                        stageDiff = -1;
                     }
                     break;
+
                 case "confusion":
                     rnd = UnityEngine.Random.Range(1, 4);
-                    FBG_Atk_Methods.isConfused(isPlayer, 10, rnd);
+                    FBG_Atk_Methods.isConfused(target, 10, rnd);
                     break;
+
                 case "dragon rage":
                     predictedDamage = 40;
                     break;
+
                 case "dream eater":
-                    predictedDamage = FBG_Atk_Methods.dreamEater(isPlayer, predictedDamage);
+                    predictedDamage = FBG_Atk_Methods.dreamEater(target, predictedDamage, moveRes);
                     break;
+
                 case "ember":
-                    FBG_Atk_Methods.isBurned(isPlayer, 10);
+                    FBG_Atk_Methods.isBurned(target, 10);
                     break;
+
                 case "fire blast":
-                    FBG_Atk_Methods.isBurned(isPlayer, 10);
+                    FBG_Atk_Methods.isBurned(target, 10);
                     break;
+
                 case "fire spin":           //Damages the target for 4-5 turns
                     break;
+
                 case "flamethrower":
-                    FBG_Atk_Methods.isBurned(isPlayer, 10);
+                    FBG_Atk_Methods.isBurned(target, 10);
                     break;
+
                 case "gust":
-                    if (isPlayer)
+                    if(target.position == pokemonPosition.flying)
                     {
-                        if (FBG_Atk_Methods.enemyStats.isFlying)
-                            predictedDamage *= 2f;
-                    }
-                    else
-                    {
-                        if (FBG_Atk_Methods.playerStats.isFlying)
-                            predictedDamage *= 2f;
+                        predictedDamage *= 2f;
                     }
                     break;
+
                 case "hydro pump":          //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
                 case "hyper beam":          //cannot move next turn
-                    if (isPlayer)
-                    {
-                        FBG_Atk_Methods.playerStats.canAttack = false;
-                    }
-                    else
-                    {
-                        FBG_Atk_Methods.enemyStats.canAttack = false;
-                    }
+                    
                     break;
+
                 case "ice beam":
-                    FBG_Atk_Methods.isFrozen(isPlayer, 10);
+                    FBG_Atk_Methods.isFrozen(target, 10);
                     break;
+
                 case "mega drain":
-                    FBG_Atk_Methods.final_heal = Mathf.Round(predictedDamage / 2f);
+                    heal = Mathf.Round(predictedDamage / 2f);
                     break;
+
                 case "night shade":
-                    predictedDamage = FBG_Atk_Methods.levelBasedDamage(isPlayer);
+                    predictedDamage = FBG_Atk_Methods.levelBasedDamage(target);
                     break;
+
                 case "petal dance":         //attacks for 2-3 turns, cannot be switched out, then becomes confused
                     break;
+
                 case "psybeam":
                     rnd = UnityEngine.Random.Range(1, 4);
-                    FBG_Atk_Methods.isConfused(isPlayer, 10, rnd);
+                    FBG_Atk_Methods.isConfused(target, 10, rnd);
                     break;
+
                 case "psychic":
                     isHit = FBG_Atk_Methods.Chance_100(10);
                     if (isHit)
                     {
-                        FBG_Atk_Methods.changeStats(FBG_consts.spDefense, -1, !isPlayer);
+                        FBG_Atk_Methods.changeStats(FBG_consts.spDefense, -1, target);
+                        stageName = FBG_consts.spDefense;
+                        stageDiff = -1;
                     }
                     break;
+
                 case "psywave":
                     float mod = UnityEngine.Random.Range(.5f, 1.5f);
-                    predictedDamage = FBG_Atk_Methods.levelBasedDamage(isPlayer) * mod;
+                    predictedDamage = FBG_Atk_Methods.levelBasedDamage(target) * mod;
                     break;
+
                 case "razor wind":          //charges the first turn then attacks the second
-                    FBG_Atk_Methods.final_damage = 0;
+                    damage = 0;
                     break;
+
                 case "sludge":              //30% chance to poison the target
-                    FBG_Atk_Methods.isPosioned(isPlayer, 30);
+                    FBG_Atk_Methods.isPosioned(target, 30);
                     break;
+
                 case "smog":                //40% chance to poison the target
-                    FBG_Atk_Methods.isPosioned(isPlayer, 40);
+                    FBG_Atk_Methods.isPosioned(target, 40);
                     break;
+
                 case "solar beam":          //charges on the fist turn, hits on the second
                     break;
+
                 case "sonic boom":
-                    predictedDamage = FBG_Atk_Methods.sonicBoom(isPlayer);
+                    predictedDamage = FBG_Atk_Methods.sonicBoom(target);
                     break;
+
                 case "surf":                //does double damage if the pokemon used dive(introduced in gen3)
                     break;
+
                 case "swift":               //ignores evasiveness and accuracy
                     break;
+
                 case "thunder":
-                    FBG_Atk_Methods.isParalized(isPlayer, 30);
+                    FBG_Atk_Methods.isParalized(target, 30);
                     break;
+
                 case "thunder shock":
-                    FBG_Atk_Methods.isParalized(isPlayer, 10);
+                    FBG_Atk_Methods.isParalized(target, 10);
                     break;
+
                 case "thunder bolt":
-                    FBG_Atk_Methods.isParalized(isPlayer, 10);
+                    FBG_Atk_Methods.isParalized(target, 10);
                     break;
-                case "tri attack":          //I changed this from 6.67% chance for each to 10%
+
+                case "tri attack":          //6.67% chance for each
                     rnd = UnityEngine.Random.Range(4, 5);
-                    FBG_Atk_Methods.isParalized(isPlayer, 6.67f);
-                    FBG_Atk_Methods.isBurned(isPlayer, 6.67f);
-                    FBG_Atk_Methods.isFrozen(isPlayer, 6.67f);
+                    FBG_Atk_Methods.isParalized(target, 6.67f);
+                    FBG_Atk_Methods.isBurned(target, 6.67f);
+                    FBG_Atk_Methods.isFrozen(target, 6.67f);
                     break;
+
                 case "water gun":           //no additional effect
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
+
             }
             //Check for lightscreen to halve special attack damage
-            FBG_Atk_Methods.final_damage = predictedDamage;
+            damage = predictedDamage;
 
-            Debug.Log("Did a Special Attack!");
-            Debug.Log("final heal = " + FBG_Atk_Methods.final_heal);
-            Debug.Log("final damage = " + FBG_Atk_Methods.final_damage);
-
-            FBG_Atk_Methods.updateTurnController(isPlayer, name, AttackType.special);
+            move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
+            return report;
         }
     }
 }

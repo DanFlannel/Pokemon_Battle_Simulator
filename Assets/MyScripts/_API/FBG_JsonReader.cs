@@ -12,6 +12,9 @@ namespace FatBobbyGaming
             TextAsset jsonFile = loadTextFile();
             //Stopwatch sw = new Stopwatch();
             //sw.Start();
+            FBG_Atk_Data.createAttackLibrary();
+            FBG_DmgMult.dmgMultInit();
+
             PokedexData p = JsonUtility.FromJson<PokedexData>(jsonFile.text);
             createDamageMultipliers(p);
             //debugJson(p);

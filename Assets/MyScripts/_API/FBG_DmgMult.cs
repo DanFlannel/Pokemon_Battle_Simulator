@@ -31,7 +31,7 @@ namespace FatBobbyGaming
         private static dmgMult steel;
         #endregion
 
-        private static void dmgMultInit()
+        public static void dmgMultInit()
         {
             fire = new dmgMult(
                 /*Normal*/  1f,

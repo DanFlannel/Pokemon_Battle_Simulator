@@ -14,6 +14,13 @@ public enum nonVolitileStatusEffects
     sleep
 };
 
+public enum volitileStatusEffects
+{
+    none,
+    confused,
+    infatuated
+};
+
 public enum pokemonPosition
 {
     underground,

@@ -27,6 +27,11 @@ namespace FatBobbyGaming
 
         //..
 
+        public static void noAdditionalEffect()
+        {
+            return;
+        }
+
         /// <summary>
         /// Does a random guess for a probability in 100
         /// </summary>
@@ -46,11 +51,29 @@ namespace FatBobbyGaming
             return chance;
         }
 
+        /// <summary>
+        /// Checks the type of the target pokemon against all of the strings passes in, checks both type1 and type2
+        /// </summary>
+        /// <param name="target">target pokemon</param>
+        /// <param name="s"> types to check as strings</param>
+        /// <returns></returns>
+        private static bool checkTypes(FBG_Pokemon target, params string[] s)
+        {
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (target.type1 == s[i] || target.type2 == s[i])
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         //..
 
-        public static void changeStats(string type, int stageMod, bool isPlayer)
+        public static void changeStats(string type, int stageMod, FBG_Pokemon target)
         {
-            int newStage = getStatStage(type, isPlayer);
+            int newStage = getStatStage(type, target);
             newStage += stageMod;
 
             if (newStage > 6)
@@ -58,133 +81,70 @@ namespace FatBobbyGaming
             if (newStage < -6)
                 newStage = -6;
 
-            setStatStage(type, newStage, isPlayer);
+            setStatStage(type, newStage, target);
             float multiplier = stageToMultiplier(newStage);
-            updateStatChange(type, multiplier, isPlayer);
 
+            target.updateStatStage(type, multiplier);
         }
 
-        public static int getStatStage(string type, bool isPlayer)
+        private static int getStatStage(string type, FBG_Pokemon target)
         {
             int statStage = 0;
-            if (isPlayer)
+
+            switch (type)
             {
-                switch (type)
-                {
-                    case "attack":
-                        statStage = playerStats.attack_Stage;
-                        break;
-                    case "spAttack":
-                        statStage = playerStats.spAttack_Stage;
-                        break;
-                    case "defense":
-                        statStage = playerStats.defense_Stage;
-                        break;
-                    case "spDefense":
-                        statStage = playerStats.spDefense_stage;
-                        break;
-                    case "speed":
-                        statStage = playerStats.speed_stage;
-                        break;
-                    default:
-                        Debug.Log("no type " + type + " found");
-                        break;
-                }
+                case "attack":
+                    statStage = target.attack_Stage;
+                    break;
+                case "spAttack":
+                    statStage = target.spAttack_Stage;
+                    break;
+                case "defense":
+                    statStage = target.defense_Stage;
+                    break;
+                case "spDefense":
+                    statStage = target.spDefense_stage;
+                    break;
+                case "speed":
+                    statStage = target.speed_stage;
+                    break;
+                default:
+                    Debug.Log("no type " + type + " found");
+                    break;
             }
-            else
-            {
-                switch (type)
-                {
-                    case "attack":
-                        statStage = enemyStats.attack_Stage;
-                        break;
-                    case "spAttack":
-                        statStage = enemyStats.spAttack_Stage;
-                        break;
-                    case "defense":
-                        statStage = enemyStats.defense_Stage;
-                        break;
-                    case "spDefense":
-                        statStage = enemyStats.spDefense_stage;
-                        break;
-                    case "speed":
-                        statStage = enemyStats.speed_stage;
-                        break;
-                    default:
-                        Debug.Log("no type " + type + " found");
-                        break;
-                }
-            }
+
             return statStage;
         }
 
-        public static void setStatStage(string type, int newStage, bool isPlayer)
+        private static void setStatStage(string type, int newStage, FBG_Pokemon target)
         {
-            if (isPlayer)
+
+            switch (type)
             {
-                switch (type)
-                {
-                    case "attack":
-                        playerStats.attack_Stage = newStage;
-                        break;
-                    case "spAttack":
-                        playerStats.spAttack_Stage = newStage;
-                        break;
-                    case "defense":
-                        playerStats.defense_Stage = newStage;
-                        break;
-                    case "spDefense":
-                        playerStats.spDefense_stage = newStage;
-                        break;
-                    case "speed":
-                        playerStats.speed_stage = newStage;
-                        break;
-                    default:
-                        Debug.LogError("no type " + type + " found");
-                        break;
-                }
+                case "attack":
+                    target.attack_Stage = newStage;
+                    break;
+                case "spAttack":
+                    target.spAttack_Stage = newStage;
+                    break;
+                case "defense":
+                    target.defense_Stage = newStage;
+                    break;
+                case "spDefense":
+                    target.spDefense_stage = newStage;
+                    break;
+                case "speed":
+                    target.speed_stage = newStage;
+                    break;
+                default:
+                    Debug.LogError("no type " + type + " found");
+                    break;
             }
-            else
-            {
-                switch (type)
-                {
-                    case "attack":
-                        enemyStats.attack_Stage = newStage;
-                        break;
-                    case "spAttack":
-                        enemyStats.spAttack_Stage = newStage;
-                        break;
-                    case "defense":
-                        enemyStats.defense_Stage = newStage;
-                        break;
-                    case "spDefense":
-                        enemyStats.spDefense_stage = newStage;
-                        break;
-                    case "speed":
-                        enemyStats.speed_stage = newStage;
-                        break;
-                    default:
-                        Debug.LogError("no type " + type + " found");
-                        break;
-                }
-            }
+
         }
 
-        public static void updateStatChange(string type, float multiplier, bool isPlayer)
+        private static float stageToMultiplier(int stage)
         {
-            if (isPlayer)
-            {
-                playerStats.updateStatStage(type, multiplier);
-            }
-            else
-            {
-                enemyStats.updateStatStage(type, multiplier);
-            }
-        }
-
-        public static float stageToMultiplier(int stage)
-        {
-
             float multiplier = 1;
             switch (stage)
             {
@@ -255,29 +215,14 @@ namespace FatBobbyGaming
         /// <param name="isPlayer">who is attacking</param>
         /// <param name="prob">the probability of being hit</param>
         /// <param name="duration">duration of the effect</param>
-        public static void isBurned(bool isPlayer, float prob)
+        public static void isBurned(FBG_Pokemon target, float prob)
         {
-            bool isHit = Chance_100(prob);
-            if (isHit)
-            {
-                Debug.Log("Implimenting Burn");
-                if (isPlayer && enemyStats.Type1 != attacks.Fire && enemyStats.Type2 != attacks.Fire)
-                {
-                    if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("Enemy Burned");
-                        enemyStats.non_volitile_status = nonVolitileStatusEffects.burned;
-                    }
-                }
-                else if (playerStats.Type1 != attacks.Fire && playerStats.Type2 != attacks.Fire)
-                {
+            if (!Chance_100(prob)) return;
+            if (checkTypes(target, FBG_consts.Fire)) return;
 
-                    if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("player Burned");
-                        playerStats.non_volitile_status = nonVolitileStatusEffects.burned;
-                    }
-                }
+            if (target.status_A == nonVolitileStatusEffects.none)
+            {
+                target.status_A = nonVolitileStatusEffects.burned;
             }
         }
 
@@ -286,29 +231,14 @@ namespace FatBobbyGaming
         /// </summary>
         /// <param name="isPlayer">is the player attacking</param>
         /// <param name="prob">probability of getting frozen</param>
-        public static void isFrozen(bool isPlayer, float prob)
+        public static void isFrozen(FBG_Pokemon target, float prob)
         {
-            bool isHit = Chance_100(prob);
-            if (isHit)
+            if (!Chance_100(prob)) return;
+            if (checkTypes(target, FBG_consts.Ice)) return;
+
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
-                Debug.Log("Implimenting Freeze");
-                if (isPlayer && enemyStats.Type1 != attacks.Ice && enemyStats.Type2 != attacks.Ice)
-                {
-                    enemyStats.isFrozen = true;
-                    if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("Enemy Frozen");
-                        enemyStats.non_volitile_status = nonVolitileStatusEffects.frozen;
-                    }
-                }
-                else if (playerStats.Type1 != attacks.Ice && playerStats.Type2 != attacks.Ice)
-                {
-                    if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("Player Frozen");
-                        playerStats.non_volitile_status = nonVolitileStatusEffects.frozen;
-                    }
-                }
+                target.status_A = nonVolitileStatusEffects.frozen;
             }
         }
 
@@ -317,31 +247,15 @@ namespace FatBobbyGaming
         /// </summary>
         /// <param name="isPlayer">is the player attacking</param>
         /// <param name="prob">probability of landing this effect</param>
-        public static void isParalized(bool isPlayer, float prob)
+        public static void isParalized(FBG_Pokemon target, float prob)
         {
-            bool isHit = Chance_100(prob);
-            if (isHit)
+            if (!Chance_100(prob)) return;
+            if (checkTypes(target, FBG_consts.Electric)) return;
+
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
-                Debug.Log("Implimenting Paralysis");
-                if (isPlayer && enemyStats.Type1 != attacks.Electric && enemyStats.Type2 != attacks.Electric)
-                {
-                    if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("Enemy Paralized");
-                        enemyStats.non_volitile_status = nonVolitileStatusEffects.paralized;
-                        changeStats(FBG_consts.speed, -6, !isPlayer);
-                    }
-                    enemyStats.isParalized = true;
-                }
-                else if (playerStats.Type1 != attacks.Electric && playerStats.Type2 != attacks.Electric)
-                {
-                    if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("Player Paralized");
-                        playerStats.non_volitile_status = nonVolitileStatusEffects.paralized;
-                        changeStats(FBG_consts.speed, -6, isPlayer);
-                    }
-                }
+                target.status_A = nonVolitileStatusEffects.paralized;
+                changeStats(FBG_consts.speed, -6, target);
             }
         }
 
@@ -350,27 +264,14 @@ namespace FatBobbyGaming
         /// </summary>
         /// <param name="isPlayer"></param>
         /// <param name="prob"></param>
-        public static void isPosioned(bool isPlayer, float prob)
+        public static void isPosioned(FBG_Pokemon target, float prob)
         {
-            bool isHit = Chance_100(prob);
-            if (isHit)
+            if (!Chance_100(prob)) return;
+            if (checkTypes(target, FBG_consts.Steel, FBG_consts.Poison)) return;
+
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
-                if (isPlayer && enemyStats.Type1 != attacks.Steel && enemyStats.Type1 != attacks.Poison && enemyStats.Type2 != attacks.Steel && enemyStats.Type2 != attacks.Poison)
-                {
-                    if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("Enemy is Poisoned");
-                        enemyStats.non_volitile_status = nonVolitileStatusEffects.poisioned;
-                    }
-                }
-                else if (playerStats.Type1 != attacks.Steel && playerStats.Type1 != attacks.Poison && playerStats.Type2 != attacks.Steel && playerStats.Type2 != attacks.Poison)
-                {
-                    if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("Player is Poisoned");
-                        playerStats.non_volitile_status = nonVolitileStatusEffects.poisioned;
-                    }
-                }
+                target.status_A = nonVolitileStatusEffects.poisioned;
             }
         }
 
@@ -378,23 +279,13 @@ namespace FatBobbyGaming
         /// Applying toxic to a pokemon if they arent either steel or a poison type pokemon and have no other status effects
         /// </summary>
         /// <param name="isPlayer">is the player attacking</param>
-        public static void toxic(bool isPlayer)
+        public static void toxic(FBG_Pokemon target)
         {
-            if (isPlayer && enemyStats.Type1 != attacks.Steel && enemyStats.Type1 != attacks.Poison && enemyStats.Type2 != attacks.Steel && enemyStats.Type2 != attacks.Poison)
+            if (checkTypes(target, FBG_consts.Steel, FBG_consts.Poison)) return;
+
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
-                if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
-                {
-                    Debug.Log("Enemy now has Toxic");
-                    enemyStats.non_volitile_status = nonVolitileStatusEffects.toxic;
-                }
-            }
-            else if (playerStats.Type1 != attacks.Steel && playerStats.Type1 != attacks.Poison && playerStats.Type2 != attacks.Steel && playerStats.Type2 != attacks.Poison)
-            {
-                if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
-                {
-                    Debug.Log("Player now has Toxic");
-                    playerStats.non_volitile_status = nonVolitileStatusEffects.toxic;
-                }
+                target.status_A = nonVolitileStatusEffects.toxic;
             }
         }
 
@@ -404,289 +295,123 @@ namespace FatBobbyGaming
         /// <param name="isPlayer">is the player attacking</param>
         /// <param name="prob">probability of it hitting</param>
         /// <param name="duration">duration pokemon is asleep for</param>
-        public static void isSleep(bool isPlayer, float prob, int duration)
+        public static void isSleep(FBG_Pokemon target, float prob, int duration)
         {
-            bool isHit = Chance_100(prob);
-            if (isHit)
+            if (!Chance_100(prob)) return;
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
-                Debug.Log("Implimenting Sleep");
-                if (isPlayer)
-                {
-                    if (enemyStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("Enemy Asleep");
-                        tc.enemyNVDur = duration;
-                        enemyStats.non_volitile_status = nonVolitileStatusEffects.sleep;
-                    }
-                }
-                else
-                {
-                    if (playerStats.non_volitile_status == nonVolitileStatusEffects.none)
-                    {
-                        Debug.Log("Player Asleep");
-                        tc.playerNVDur = duration;
-                        playerStats.non_volitile_status = nonVolitileStatusEffects.sleep;
-                    }
-                }
+                target.nonVolDuration = duration;
+                target.status_A = nonVolitileStatusEffects.toxic;
             }
+        }
+
+        //.. Status B
+
+        public static void isConfused(FBG_Pokemon target, float prob, int duration)
+        {
+            if (!Chance_100(prob)) return;
+
+            if (target.status_B == volitileStatusEffects.none)
+            {
+                target.status_B = volitileStatusEffects.confused;
+            }
+        }
+
+        //I need to add gender to the FBG_Pokemon before I can implement this
+        public static void isInfatuated(FBG_Pokemon target, FBG_Pokemon self, float prob)
+        {
+            if (!Chance_100(prob)) return;
+
+            if (target.status_B == volitileStatusEffects.none)
+            {
+
+                target.status_B = volitileStatusEffects.infatuated;
+            }
+        }
+
+        //Other
+
+        public static void isFlinched(FBG_Pokemon target, float prob)
+        {
+            if (!Chance_100(prob)) return;
+            target.isFlinched = true;
         }
 
         //..
 
-        public static void isConfused(bool isPlayer, float prob, int duration)
+        public static void conversion(FBG_Pokemon self)
         {
-            bool isHit = Chance_100(prob);
-            if (isHit)
-            {
-                if (isPlayer)
-                {
-                    Debug.Log("Target Pokemon is now Confused");
-                    enemyStats.isConfused = true;
-                    enemyStats.confusedDuration = duration;
-                }
-                else
-                {
-                    Debug.Log("Target Pokemon is now Confused");
-                    playerStats.isConfused = true;
-                    playerStats.confusedDuration = duration;
-                }
-            }
+
+            //tempList = genAttacks.get_playerAttackName();
+            //string tempName = tempList[0];
+            string name = self.atkMoves[0];
+            int attack_index = FBG_Atk_Calc.getAttackListIndex(name);
+            string attack_type = attacks.attackList[attack_index].type;
+            self.type1 = attack_type;
+            string[] types = new string[2];
+            types[0] = self.type1;
+            types[1] = self.type2;
+            self.damageMultiplier = FBG_DmgMult.createMultiplier(types);
         }
 
-        public static void isFlinched(bool isPlayer, float prob)
+        public static float dreamEater(FBG_Pokemon target, float predictedDamage, MoveResults mr)
         {
-            bool isHit = Chance_100(prob);
-            if (isHit)
-            {
-                if (isPlayer)
-                {
-                    if (!enemyStats.hasAttacked)
-                    {
-                        Debug.Log("Target Pokemon is now Flinched");
-                        enemyStats.isFlinched = true;
-                    }
-                }
-                else
-                {
-                    if (!playerStats.hasAttacked)
-                    {
-                        Debug.Log("Target Pokemon is now Flinched");
-                        playerStats.isFlinched = true;
-                    }
-                }
-            }
-        }
 
-        //..
-
-        public static void conversion(bool isPlayer, string name)
-        {
-            //List<string> tempList = new List<string>();
-            if (isPlayer)
+            if (target.status_A == nonVolitileStatusEffects.sleep)
             {
-                //tempList = genAttacks.get_playerAttackName();
-                //string tempName = tempList[0];
-                int attack_index = attackCalc.getAttackListIndex(name);
-                string attack_type = attacks.attackList[attack_index].type;
-                playerStats.Type1 = attack_type;
+                mr.dmgReport.heal = Mathf.Round(predictedDamage / 2f);
             }
             else
             {
-                //tempList = genAttacks.get_enemyAttackName();
-                //string tempName = tempList[0];
-                int attack_index = attackCalc.getAttackListIndex(name);
-                string attack_type = attacks.attackList[attack_index].type;
-                playerStats.Type1 = attack_type;
+                mr.dmgReport.damage = 0;
             }
-        }
-
-        public static float dreamEater(bool isPlayer, float predictedDamage)
-        {
-
-            if (isPlayer)
-            {
-                if (tc.enemyNVStatus == nonVolitileStatusEffects.sleep)
-                {
-                    final_heal = Mathf.Round(predictedDamage / 2f);
-                }
-                else
-                {
-                    predictedDamage = 0;
-                }
-            }
-            else
-            {
-                if (tc.playerNVStatus == nonVolitileStatusEffects.sleep)
-                {
-                    final_heal = Mathf.Round(predictedDamage / 2f);
-                }
-                else
-                {
-                    predictedDamage = 0;
-                }
-            }
-
             return predictedDamage;
         }
 
-        public static float earthQuake(bool isPlayer, float predictedDamage)
+        public static float earthQuake(FBG_Pokemon target, float predictedDamage)
         {
-
-            if (isPlayer)
+            if (target.position == pokemonPosition.underground)
             {
-                if (enemyStats.isUnderground)
-                {
-                    predictedDamage *= 2f;
-                }
+                return Mathf.Round(predictedDamage * 2);
             }
-            else
-            {
-                if (playerStats.isUnderground)
-                {
-                    predictedDamage *= 2f;
-                }
-            }
-
             return predictedDamage;
         }
 
-        public static void oneHitKO(bool isPlayer)
+        public static float oneHitKO(FBG_Pokemon target, FBG_Pokemon self, MoveResults mr)
         {
-            int acc;
-            if (isPlayer)
-                acc = playerStats.Level - enemyStats.Level + 30;
-            else
-                acc = enemyStats.Level - playerStats.Level + 30;
-            if (attackCalc.checkAccuracy_and_Hit(acc))
+            int acc = target.Level - self.Level + 30;
+            if (Chance_100(acc))
             {
-                if (isPlayer)
-                    enemyStats.curHp = 0;
-                else
-                    playerStats.curHp = 0;
+                return target.maxHP;
             }
+            mr.hit = false;
+            return 0;
         }
 
-        public static float levelBasedDamage(bool isPlayer)
+        public static float levelBasedDamage(FBG_Pokemon target)
         {
-            float damage = 0;
-            if (isPlayer)
-            {
-                damage = enemyStats.Level;
-            }
-            else
-            {
-                damage = playerStats.Level;
-            }
+            float damage = target.Level;
             return damage;
         }
 
-        public static float sonicBoom(bool isPlayer)
+        public static float sonicBoom(FBG_Pokemon target)
         {
-            float damage = 0;
-            if (isPlayer)
+            if (checkTypes(target, FBG_consts.Ghost))
             {
-                if (enemyStats.Type1 == "Ghost" || enemyStats.Type2 == "Ghost")
-                {
-                    damage = 0;
-                }
-                else
-                {
-                    damage = 20;
-                }
+                return 0;
             }
             else
             {
-                if (playerStats.Type1 == "Ghost" || playerStats.Type2 == "Ghost")
-                {
-                    damage = 0;
-                }
-                else
-                {
-                    damage = 20;
-                }
+                return 20f;
             }
-            return damage;
         }
 
-        public static void substitute(bool isPlayer)
+        public static void substitute(FBG_Pokemon target, MoveResults mr)
         {
-            if (isPlayer)
-            {
-                if (playerStats.curHp > (playerStats.maxHP / 4f))
-                {
-                    playerStats.hasSubstitute = true;
-                    recoil = playerStats.maxHP / 4f;
-                }
-            }
-            else
-            {
-                if (enemyStats.curHp > (enemyStats.maxHP / 4f))
-                {
-                    enemyStats.hasSubstitute = true;
-                    recoil = playerStats.maxHP / 4f;
-                }
-            }
+            mr.dmgReport.recoil = Mathf.Round(target.maxHP / 4f);
+            target.hasSubstitute = true;
+            //subsitute health = mr.dmg.recoil
         }
-
-        //THESE NEED TO BE ELEMINATED
-        public static void one_sixteenth_perm(bool isPlayer)
-        {
-            if (isPlayer)
-            {
-                tc.enemy_one_sixteen = true;
-            }
-            else
-            {
-                tc.player_one_sixteenth = true;
-            }
-        }
-
-        public static void one_sixteenth_temp(bool isPlayer, int duration)
-        {
-            if (isPlayer)
-            {
-                tc.enemy_one_sixteen = true;
-                tc.enemy_one_sixteenth_duration = duration;
-            }
-            else
-            {
-                tc.player_one_sixteenth = true;
-                tc.player_one_sixteenth_duration = duration;
-            }
-        }
-
-        public static void one_eigth_perm(bool isPlayer)
-        {
-            if (isPlayer)
-            {
-                tc.enemy_one_eigth = true;
-            }
-            else
-            {
-                tc.player_one_eigth = true;
-            }
-        }
-
-        public static void one_eigth_temp(bool isPlayer, int duration)
-        {
-            if (isPlayer)
-            {
-                tc.enemy_one_eigth = true;
-                tc.enemy_one_eigth_duration = duration;
-            }
-            else
-            {
-                tc.player_one_eigth = true;
-                tc.player_one_eigth_duration = duration;
-            }
-        }
-
-        public static void noAdditionalEffect()
-        {
-            return;
-        }
-
-        //..
 
         public static void leech_seed(bool isPlayer)
         {
@@ -697,35 +422,6 @@ namespace FatBobbyGaming
             else
             {
                 tc.player_leech_seed = true;
-            }
-        }
-
-        /// <summary>
-        /// Updates the controls
-        /// </summary>
-        /// <param name="isPlayer">player or enemy</param>
-        /// <param name="name">Attack name</param>
-        public static void updateTurnController(bool isPlayer, string name, AttackType type)
-        {
-            if (isPlayer)
-            {
-                tc.PlayerDamage = (int)final_damage;
-                tc.PlayerHeal = (int)final_heal;
-                tc.PlayerRecoil = (int)recoil;
-                tc.PlayerDataComplete = true;
-                tc.Player_attackName = name;
-                tc.Player_AttackType = type;
-                tc.playerNVStatus = playerStats.non_volitile_status;
-            }
-            else
-            {
-                tc.EnemyDamage = (int)final_damage;
-                tc.EnemyHeal = (int)final_heal;
-                tc.EnemyRecoil = (int)recoil;
-                tc.EnemyDataComplete = true;
-                tc.Enemy_attackName = name;
-                tc.Enemy_AttackType = type;
-                tc.enemyNVStatus = enemyStats.non_volitile_status;
             }
         }
 

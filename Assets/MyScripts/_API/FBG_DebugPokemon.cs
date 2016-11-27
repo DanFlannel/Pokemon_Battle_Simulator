@@ -19,7 +19,8 @@ namespace FatBobbyGaming {
         public int m_SpecialAttack;
         public int m_SpecialDefense;
 
-        public List<string> attacks = new List<string>();
+        public List<string> atkMoves = new List<string>();
+        public dmgMult damageMultiplier;
 
         public nonVolitileStatusEffects status_A;
         public pokemonPosition position;
@@ -98,12 +99,13 @@ namespace FatBobbyGaming {
             m_SpecialAttack = p.Special_Attack;
             m_SpecialDefense = p.Special_Defense;
 
-            attacks.Clear();
-            attacks = p.attackMoves;
+            atkMoves = p.atkMoves;
 
             status_A = p.status_A;
             position = p.position;
             atkStatus = p.atkStatus;
+
+            damageMultiplier = p.damageMultiplier;
         }
     }
 }

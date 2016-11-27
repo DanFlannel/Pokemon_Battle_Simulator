@@ -52,7 +52,7 @@ public struct masterAttackList
 }
 
 
-
+[System.Serializable]
 public struct dmgMult
 {
     public float normal;
@@ -143,6 +143,7 @@ public struct Pokemon
     }
 }
 
+[System.Serializable]
 public struct move_DmgReport
 {
     public float damage;
