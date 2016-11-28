@@ -291,14 +291,14 @@ namespace FatBobbyGaming
                     break;
 
             }
-            //Debug.Log("Did a status move!");
-            //updateTurnController(isPlayer, name);
+            Debug.Log(string.Format(" dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4}", damage, heal, recoil, stageName, stageDiff));
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
             return report;
         }
 
-        public static move_DmgReport physicalAttacks(string name, float predictedDamage)
+        public static move_DmgReport physicalAttacks(string name, float baseDamage)
         {
+            damage = baseDamage;
             string tempname = name.ToLower();
             bool isHit = false;
             int rnd;
@@ -310,7 +310,7 @@ namespace FatBobbyGaming
 
                 case "barrage":
                     rnd = UnityEngine.Random.Range(2, 5);
-                    predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
+                    damage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
 
                 case "bide":                //waits 2 turns then deals back double.... :(
@@ -334,7 +334,7 @@ namespace FatBobbyGaming
 
                 case "bonemerang":
                     rnd = 2;
-                    predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
+                    damage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
 
                 case "clamp":               //traps for 4-5 turns dealing 1/16th damage
@@ -343,7 +343,7 @@ namespace FatBobbyGaming
 
                 case "comet punch":
                     rnd = UnityEngine.Random.Range(2, 5);
-                    predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
+                    damage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
 
                 case "constrict":
@@ -368,7 +368,6 @@ namespace FatBobbyGaming
 
                 case "dig":                 //redo based off of turn controller
                     self.position = pokemonPosition.underground;
-                    predictedDamage = 0;
                     break;
 
                 case "dizzy punch":
@@ -378,16 +377,16 @@ namespace FatBobbyGaming
 
                 case "double kick":
                     rnd = 2;
-                    predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
+                    damage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
 
                 case "double slap":
                     rnd = UnityEngine.Random.Range(2, 5);
-                    predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
+                    damage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
 
                 case "double edge":
-                    recoil = Mathf.Round(predictedDamage / 3f);
+                    recoil = Mathf.Round(damage / 3f);
                     break;
 
                 case "drill peck":          //no additional effects
@@ -395,7 +394,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "earthquake":
-                    predictedDamage = FBG_Atk_Methods.earthQuake(target, predictedDamage);
+                    damage = FBG_Atk_Methods.earthQuake(target, damage);
                     break;
 
                 case "egg bomb":            //no additional effects 
@@ -420,12 +419,12 @@ namespace FatBobbyGaming
 
                 case "fury attack":
                     rnd = UnityEngine.Random.Range(2, 5);
-                    predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
+                    damage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
 
                 case "fury swipes":
                     rnd = UnityEngine.Random.Range(2, 5);
-                    predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
+                    damage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
 
                 case "guillotine":
@@ -464,7 +463,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "leech life":
-                    heal = Mathf.Round(predictedDamage / 2f);
+                    heal = Mathf.Round(damage / 2f);
                     break;
 
                 case "low kick":
@@ -489,7 +488,7 @@ namespace FatBobbyGaming
 
                 case "pin missile":
                     rnd = UnityEngine.Random.Range(2, 5);
-                    predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
+                    damage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
 
                 case "poison sting":        //chance to poison the target
@@ -527,7 +526,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "seismic toss":
-                    predictedDamage = FBG_Atk_Methods.levelBasedDamage(target);
+                    damage = FBG_Atk_Methods.levelBasedDamage(target);
                     break;
                 //***************************************************//
                 case "self destruct":       //user faints
@@ -549,7 +548,7 @@ namespace FatBobbyGaming
 
                 case "spike cannon":
                     rnd = UnityEngine.Random.Range(2, 5);
-                    predictedDamage = FBG_Atk_Methods.multiAttack(rnd, name);
+                    damage = FBG_Atk_Methods.multiAttack(rnd, name);
                     break;
 
                 case "stomp":               //if minimized *2 damage
@@ -568,7 +567,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "super fang":
-                    predictedDamage = target.curHp / 2f;
+                    damage = target.curHp / 2f;
                     break;
 
                 case "tackle":              //no additional effect
@@ -576,7 +575,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "take down":
-                    recoil = Mathf.Round(predictedDamage / 4f);
+                    recoil = Mathf.Round(damage / 4f);
                     break;
 
                 case "thrash":              //attacks for 2-3 turns, but cannot switch out or use a different attack
@@ -611,17 +610,16 @@ namespace FatBobbyGaming
                     rnd = UnityEngine.Random.Range(4, 5);
                     break;
             }
-            damage = predictedDamage;
-            //Debug.Log("Did a Physical Attack!");
-            //Debug.Log("final heal = " + final_heal);
-            //Debug.Log("final damage = " + final_damage);
+
+            Debug.Log(string.Format(" dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4}", damage, heal, recoil, stageName, stageDiff));
 
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
             return report;
         }
 
-        public static move_DmgReport specialAttacks(string name, float predictedDamage)
+        public static move_DmgReport specialAttacks(string name, float baseDamage)
         {
+            damage = baseDamage;
             string tempname = name.ToLower();
             int rnd;
             bool isHit = false;
@@ -632,7 +630,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "absorb":
-                    heal = predictedDamage / 2f;
+                    heal = damage / 2f;
                     break;
 
                 case "acid":
@@ -685,11 +683,11 @@ namespace FatBobbyGaming
                     break;
 
                 case "dragon rage":
-                    predictedDamage = 40;
+                    damage = 40;
                     break;
 
                 case "dream eater":
-                    predictedDamage = FBG_Atk_Methods.dreamEater(target, predictedDamage, moveRes);
+                    damage = FBG_Atk_Methods.dreamEater(target, damage, moveRes);
                     break;
 
                 case "ember":
@@ -710,7 +708,7 @@ namespace FatBobbyGaming
                 case "gust":
                     if(target.position == pokemonPosition.flying)
                     {
-                        predictedDamage *= 2f;
+                        damage *= 2f;
                     }
                     break;
 
@@ -727,11 +725,11 @@ namespace FatBobbyGaming
                     break;
 
                 case "mega drain":
-                    heal = Mathf.Round(predictedDamage / 2f);
+                    heal = Mathf.Round(damage / 2f);
                     break;
 
                 case "night shade":
-                    predictedDamage = FBG_Atk_Methods.levelBasedDamage(target);
+                    damage = FBG_Atk_Methods.levelBasedDamage(target);
                     break;
 
                 case "petal dance":         //attacks for 2-3 turns, cannot be switched out, then becomes confused
@@ -754,7 +752,7 @@ namespace FatBobbyGaming
 
                 case "psywave":
                     float mod = UnityEngine.Random.Range(.5f, 1.5f);
-                    predictedDamage = FBG_Atk_Methods.levelBasedDamage(target) * mod;
+                    damage = FBG_Atk_Methods.levelBasedDamage(target) * mod;
                     break;
 
                 case "razor wind":          //charges the first turn then attacks the second
@@ -773,7 +771,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "sonic boom":
-                    predictedDamage = FBG_Atk_Methods.sonicBoom(target);
+                    damage = FBG_Atk_Methods.sonicBoom(target);
                     break;
 
                 case "surf":                //does double damage if the pokemon used dive(introduced in gen3)
@@ -807,7 +805,8 @@ namespace FatBobbyGaming
 
             }
             //Check for lightscreen to halve special attack damage
-            damage = predictedDamage;
+
+            Debug.Log(string.Format(" dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4}", damage, heal, recoil, stageName, stageDiff));
 
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
             return report;

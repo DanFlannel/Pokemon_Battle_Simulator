@@ -26,7 +26,7 @@ namespace FatBobbyGaming
             move_DmgReport report = new move_DmgReport();
             targetPokemon = tar;
             thisPokemon = self;
-            Debug.LogWarning(string.Format(" {0} is using {1} ", thisPokemon.Name, atkName));
+            Debug.LogWarning(string.Format(" {0} is using {1} on {2} ", self.Name, atkName, tar.Name));
 
             int atkIndex = getAttackListIndex(atkName);
 
@@ -35,9 +35,11 @@ namespace FatBobbyGaming
             int accuracy = FBG_Atk_Data.attackList[atkIndex].accuracy;
 
             float baseDamage = calculateDamage(atkName, atkIndex);
+            //Debug.Log("Base Damage: " + baseDamage);
             //this also sets our crit bool in the move results
             float dmgMod = modifier(atkName, atkType, MR);
             baseDamage = Mathf.Round(baseDamage * dmgMod);
+            Debug.Log("Damage: " + baseDamage);
 
             MR.hit = checkAccuracy_and_Hit(accuracy);
 
@@ -46,17 +48,22 @@ namespace FatBobbyGaming
             switch (atkCat)
             {
                 case FBG_consts.Status:
+                    Debug.Log("Status Move");
                     report = FBG_Atk_Switch.statusAttacks(atkName);
                     break;
                 case FBG_consts.Physical:
+                    Debug.Log("Physical Move");
                     report = FBG_Atk_Switch.physicalAttacks(atkName, baseDamage);
                     break;
                 case FBG_consts.Special:
+                    Debug.Log("Special Move");
                     report = FBG_Atk_Switch.specialAttacks(atkName, baseDamage);
                     break;
             }
 
             MR.dmgReport = report;
+
+            Debug.Log("Final Damage " + MR.dmgReport.damage);
             return MR;
         }
 
@@ -94,6 +101,7 @@ namespace FatBobbyGaming
 
             if (calcExitConditions(attackCat, atkName, atkIndex))
             {
+                Debug.LogWarning("base damage exit conditions met");
                 return dmg;
             }
 
@@ -116,7 +124,6 @@ namespace FatBobbyGaming
             dmg += 2;
             //Debug.Log("Damage +2: " + " Damage: " + final_damage);
             //final_damage *= damage_mod;
-            //Debug.Log("Damage * damage_Mod: " + "mod: " + damage_mod + " Damage: " + final_damage);
             //final_damage = Mathf.Round(final_damage);
             return dmg;
         }
@@ -127,26 +134,26 @@ namespace FatBobbyGaming
             if (atkCat == FBG_consts.Status) //we do not have to calculate damage for status moves!
             {
                 Debug.Log("Status move");
-                return false;
+                return true;
             }
             if (FBG_Atk_Data.attackList[atkIndex].power == 0)  //there is no base attack power so we can just return 0, it is a sepcial attack that has its own calculations
             {
                 Debug.Log("This attack calclates it's own damage: " + atkName);
-                return false;
+                return true;
             }
 
             if (attack_mod == 0)
             {
                 Debug.LogError("Attack modifier is 0");
-                return false;
+                return true;
             }
             if (defense_mod == 0)
             {
                 Debug.LogError("Defense modifier is 0");
-                return false;
+                return true;
             }
 
-            return true;
+            return false;
         }
 
         /// <summary>
@@ -233,6 +240,7 @@ namespace FatBobbyGaming
                 attack_mod = thisPokemon.Attack;
                 defense_mod = targetPokemon.Defense;
             }
+            Debug.Log(string.Format("atk: {0} def: {1}", attack_mod, defense_mod));
         }
 
         /// <summary>
@@ -395,13 +403,12 @@ namespace FatBobbyGaming
         }
     }
 
+    [System.Serializable]
     public class MoveResults
     {
         public bool hit;
         public bool crit;
         public bool flinched;
-        public string affectedStage;
-        public int stageDiff;
         public move_DmgReport dmgReport;
     }
 
