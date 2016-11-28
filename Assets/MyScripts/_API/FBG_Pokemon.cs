@@ -86,7 +86,7 @@ namespace FatBobbyGaming
             nonVolDuration = 0;
 
             position = pokemonPosition.normal;
-            atkStatus = attackStatus.Normal;
+            atkStatus = attackStatus.normal;
 
             //need to set these to something before updaing them
             setStages();

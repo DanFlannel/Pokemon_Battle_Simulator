@@ -174,6 +174,7 @@ namespace FatBobbyGaming
 
                 //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
                 case "minimize":
+                    self.position = pokemonPosition.minimized;
                     break;
 
                 case "mirror move":         //preforms the opponents last move....
@@ -556,6 +557,10 @@ namespace FatBobbyGaming
                     break;
 
                 case "stomp":               //if minimized *2 damage
+                    if(target.position == pokemonPosition.minimized)
+                    {
+                        damage *= 2f;
+                    }
                     FBG_Atk_Methods.isFlinched(target, 30);
                     break;
 

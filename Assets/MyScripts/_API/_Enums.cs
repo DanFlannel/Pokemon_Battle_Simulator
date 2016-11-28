@@ -23,16 +23,18 @@ public enum volitileStatusEffects
 
 public enum pokemonPosition
 {
+    normal,
+    underwater,
+    minimized,
     underground,
-    normal, 
     flying
 };
 
 public enum attackStatus
 {
-    Charging,
-    Normal,
-    Recharging
+    normal,
+    charging,
+    recharging
 };
 
 public enum PokemonGeneration
