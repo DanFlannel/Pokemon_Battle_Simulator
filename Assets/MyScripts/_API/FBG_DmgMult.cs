@@ -6,11 +6,7 @@ namespace FatBobbyGaming
 {
     public static class FBG_DmgMult
     {
-
-        public static List<pokemon_dmg_multipliers> master_list = new List<pokemon_dmg_multipliers>();
-
         #region List of various arrays of damage multipliers
-
         private static dmgMult grass;
         private static dmgMult fire;
         private static dmgMult water;
@@ -393,28 +389,6 @@ namespace FatBobbyGaming
                 /*Dark*/ 1f,
                 /*Fairy*/ .5f);
         }
-        
-
-        //Check on why I should continue to use this structure?
-        public static dmgMult getMultiplier(string name)
-        {
-            for (int i = 0; i < master_list.Count; i++)
-            {
-                if (name == master_list[i].name)
-                {
-                    return master_list[i].damage;
-                }
-            }
-            Debug.Log("Couldn't find damage multiplier for " + name);
-            return master_list[0].damage;
-        }
-
-        public static dmgMult getMultiplier(int i)
-        {
-            return master_list[i].damage;
-        }
-
-
 
         public static dmgMult createMultiplier(string[] types)
         {

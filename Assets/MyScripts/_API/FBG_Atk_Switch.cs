@@ -6,7 +6,8 @@ namespace FatBobbyGaming
     public static class FBG_Atk_Switch
     {
         //TODO:
-        //I need to set these before calling this method it will reduce a lot of code
+        //I need to set these before calling this method it will reduce a lot of code.
+        //
         private static FBG_Pokemon target;
         private static FBG_Pokemon self;
         private static MoveResults moveRes;
@@ -162,6 +163,9 @@ namespace FatBobbyGaming
 
                 //preforms any move in the game at random?
                 case "metronome":
+                    rnd = Random.Range(0, FBG_Atk_Data.attackList.Count);
+                    string atkName = FBG_Atk_Data.attackList[rnd].name;
+                    FBG_Atk_Calc.calculateAttackEffect(target, self, atkName);
                     break;
 
                 //copies the opponents last move and replaces mimic with that

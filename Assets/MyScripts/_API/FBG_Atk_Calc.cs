@@ -8,7 +8,6 @@ namespace FatBobbyGaming
 {
     public static class FBG_Atk_Calc
     {
-
         private static FBG_Pokemon targetPokemon;
         private static FBG_Pokemon thisPokemon;
 
@@ -403,7 +402,7 @@ namespace FatBobbyGaming
         }
     }
 
-    [System.Serializable]
+    [Serializable]
     public class MoveResults
     {
         public bool hit;

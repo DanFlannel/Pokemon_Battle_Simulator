@@ -6,7 +6,6 @@ using System;
 namespace FatBobbyGaming {
     public static class FBG_Atk_Data {
 
-
         #region Declared Variables
         public static List<attacks> attackList = new List<attacks>();
         private static List<attackIndex> HM_List = new List<attackIndex>();
@@ -243,8 +242,6 @@ namespace FatBobbyGaming {
         private static List<attackIndex> MewtwoAttacks = new List<attackIndex>();
         private static List<attackIndex> MewAttacks = new List<attackIndex>();
         #endregion
-
-
         #endregion
 
         public static void createAttackLibrary()
@@ -3356,11 +3353,6 @@ namespace FatBobbyGaming {
                 Debug.LogError("Error fetching attacks: " + e.Message);
                 return master_attack_list[0].attackIndex;
             }
-        }
-
-        public static string masterGetName(int id)
-        {
-            return master_attack_list[id].name;
         }
 
         private static void searchTMList(List<attackIndex> pokemon, int[] attacks)

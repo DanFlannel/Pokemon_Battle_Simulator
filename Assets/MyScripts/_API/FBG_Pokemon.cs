@@ -196,7 +196,6 @@ namespace FatBobbyGaming
             return rndNumberList;
         }
 
-        //We will see if we can do something about that hardcoding...
         private void SetAttacks(List<attackIndex> attackMoves, List<int> rndNums)
         {
             for(int i = 0; i < rndNums.Count; i++)
