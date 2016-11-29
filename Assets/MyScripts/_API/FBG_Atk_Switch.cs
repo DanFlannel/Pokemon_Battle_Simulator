@@ -5,11 +5,8 @@ namespace FatBobbyGaming
 {
     public static class FBG_Atk_Switch
     {
-        //TODO:
-        //I need to set these before calling this method it will reduce a lot of code.
-        //
-        private static FBG_Pokemon target;
-        private static FBG_Pokemon self;
+        public static FBG_Pokemon target;
+        public static FBG_Pokemon self;
         private static MoveResults moveRes;
 
         private static float damage;
@@ -37,7 +34,6 @@ namespace FatBobbyGaming
             int rnd;
             switch (tempname)
             {
-                
                 default:
                     Debug.Log("No status move with name " + name + " found");
                     break;
@@ -72,7 +68,7 @@ namespace FatBobbyGaming
 
                 //confuses opponenet
                 case "confuse ray":
-                    rnd = UnityEngine.Random.Range(1, 4);
+                    rnd = Random.Range(1, 4);
                     FBG_Atk_Methods.isConfused(target, 10, rnd);
                     break;
 
@@ -130,8 +126,8 @@ namespace FatBobbyGaming
                     break;
 
                 case "hypnosis":
-                    rnd = UnityEngine.Random.Range(1, 3);
-                    //puts the user to sleep for rnd turns
+                    rnd = Random.Range(1, 3);
+                    FBG_Atk_Methods.isSleep(target, 100, rnd);
                     break;
 
                 case "kinesis":
@@ -139,6 +135,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "leech seed":
+
                     break;
 
                 case "leer":
@@ -170,6 +167,18 @@ namespace FatBobbyGaming
 
                 //copies the opponents last move and replaces mimic with that
                 case "mimic":
+                    int n = 0;
+                    int index = FBG_BattleSimulator.moveHistory.Count;
+                    string attack = FBG_BattleSimulator.moveHistory[index].attackName;
+                    for(int i = 0; i < self.atkMoves.Count; i++)
+                    {
+                        if(self.atkMoves[i].ToLower() == "mimic")
+                        {
+                            n = i;
+                            break;
+                        }
+                    }
+                    self.atkMoves[n] = attack;
                     break;
 
                 //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
@@ -178,6 +187,9 @@ namespace FatBobbyGaming
                     break;
 
                 case "mirror move":         //preforms the opponents last move....
+                    int mirrorMove = FBG_BattleSimulator.moveHistory.Count;
+                    string mirrorAttack = FBG_BattleSimulator.moveHistory[mirrorMove].attackName;
+                    FBG_Atk_Calc.calculateAttackEffect(target, self, mirrorAttack);
                     break;
 
                 //no stat changes for 5 turns
@@ -222,7 +234,8 @@ namespace FatBobbyGaming
                     break;
 
                 case "sing":                //puts the user to sleep for 1-3 turns
-                    rnd = UnityEngine.Random.Range(1, 3);
+                    rnd = Random.Range(1, 3);
+                    FBG_Atk_Methods.isSleep(target, 100, rnd);
                     break;
 
                 case "smokescreen":         //lower accuracy by one stage
@@ -238,6 +251,7 @@ namespace FatBobbyGaming
 
                 case "spore":               //puts the opponent to sleep for 1-3 turns
                     rnd = UnityEngine.Random.Range(1, 3);
+                    FBG_Atk_Methods.isSleep(target, 100, rnd);
                     break;
 
                 case "string shot":
@@ -284,6 +298,8 @@ namespace FatBobbyGaming
                     break;
 
                 case "transform":           //takes the attacks of the opponent
+                    self.atkMoves = target.atkMoves;
+                    //need to update atk buttons names if we are the player
                     break;
 
                 case "whirlwind":           //blows the opponent away if they are a lower level
@@ -373,6 +389,7 @@ namespace FatBobbyGaming
 
                 case "dig":                 //redo based off of turn controller
                     self.position = pokemonPosition.underground;
+                    self.atkStatus = attackStatus.charging;
                     break;
 
                 case "dizzy punch":
@@ -407,6 +424,7 @@ namespace FatBobbyGaming
                     break;
                 //***********************//
                 case "explosion":           //causes user to faint
+                    recoil = self.maxHP;
                     break;
 
                 case "fire punch":
@@ -420,6 +438,7 @@ namespace FatBobbyGaming
                 //*****************************************//
                 case "fly":
                     self.position = pokemonPosition.flying;
+                    self.atkStatus = attackStatus.charging;
                     break;
 
                 case "fury attack":
@@ -442,6 +461,10 @@ namespace FatBobbyGaming
 
                 //************************************************//
                 case "high jump kick":      //if this misses it casues 1/2 of the damage it would have inflicted on the user
+                    if (!moveRes.hit)
+                    {
+                        recoil = damage / 2f;
+                    }
                     break;
 
                 case "horn attack":         //no additional effect
@@ -462,6 +485,10 @@ namespace FatBobbyGaming
 
                 //***********************************************//
                 case "jump kick":           //lose 1/2 hp is the user misses just like high jump kick
+                    if (!moveRes.hit)
+                    {
+                        recoil = damage / 8f;
+                    }
                     break;
 
                 case "karate chop":         //high crit ratio 1/8 versus 1/16
@@ -535,9 +562,11 @@ namespace FatBobbyGaming
                     break;
                 //***************************************************//
                 case "self destruct":       //user faints
+                    recoil = self.maxHP;
                     break;
 
                 case "skull bash":          //charges first turn, raising defense, hits on the second turn
+                    self.atkStatus = attackStatus.charging;
                     break;
 
                 case "sky attack":          //charges on first turn, hits on second, 30% flinch chance
@@ -726,7 +755,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "hyper beam":          //cannot move next turn
-                    
+                    self.atkStatus = attackStatus.recharging;
                     break;
 
                 case "ice beam":
@@ -765,7 +794,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "razor wind":          //charges the first turn then attacks the second
-                    damage = 0;
+                    self.atkStatus = attackStatus.charging;
                     break;
 
                 case "sludge":              //30% chance to poison the target
@@ -777,6 +806,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "solar beam":          //charges on the fist turn, hits on the second
+                    self.atkStatus = attackStatus.charging;
                     break;
 
                 case "sonic boom":

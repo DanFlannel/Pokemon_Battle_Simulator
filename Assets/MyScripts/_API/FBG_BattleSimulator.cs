@@ -12,6 +12,7 @@ namespace FatBobbyGaming
     {
         public List<FBG_Pokemon> redTeam = new List<FBG_Pokemon>();
         public List<FBG_Pokemon> blueTeam = new List<FBG_Pokemon>();
+        public static List<battleHistory> moveHistory = new List<battleHistory>();
         public int teamSize = 1;
         public int redIndex;
         public int blueIndex;
@@ -19,6 +20,8 @@ namespace FatBobbyGaming
         public MoveResults redResult;
         [HideInInspector]
         public PokedexData pokeDex;
+
+
 
         // Use this for initialization
         void Awake()
@@ -35,21 +38,28 @@ namespace FatBobbyGaming
             createTeams();
             //debugRedTeam();
 
+            this.GetComponent<FBG_BattleGUI>().setButtonNames(redTeam[redIndex].atkMoves);
+
             sw.Stop();
             print(string.Format("Time to load {0}ms", sw.ElapsedMilliseconds));
         }
 
-        public void buttonTest(int index)
+        public void redTeamAttack(int index)
         {
             string atkName = redTeam[redIndex].atkMoves[index];
             redResult = FBG_Atk_Calc.calculateAttackEffect(blueTeam[blueIndex], redTeam[redIndex], atkName);
+            string pName = redTeam[redIndex].Name;
+
+            battleHistory hist = new battleHistory(pName, atkName, redResult);
+            moveHistory.Add(hist);
+
         }
 
         private void createTeams()
         {
             corePokemonData data;
             int id;
-            int level;
+            int level = 75;
             List<attackIndex> attacks = new List<attackIndex>();
             FBG_Pokemon pokemon;
 
@@ -58,7 +68,7 @@ namespace FatBobbyGaming
             {
                 id = Random.Range(0, 151);
                 //id = 0;
-                level = 100;
+                //level = 100;
                 data = FBG_JsonReader.pokemonStats(pokeDex, id);
                 attacks = FBG_Atk_Data.masterGetAttacks(id);
                 //print(string.Format("{0}", attacks.Count));
@@ -84,6 +94,21 @@ namespace FatBobbyGaming
                 if (redTeam[i] == null) return;
                 print(string.Format("Red Team {0} Name: {1} Level {7} atk: {2} def: {3} spa: {4} spd: {5} spe: {6}", i, tmp.Name, tmp.Attack, tmp.Defense, tmp.Special_Attack, tmp.Special_Defense, tmp.Speed, tmp.Level));
             }
+        }
+    }
+
+    [System.Serializable]
+    public class battleHistory
+    {
+        public string pokemonName;
+        public string attackName;
+        public MoveResults MR;
+
+        public battleHistory( string name, string atkName, MoveResults mr)
+        {
+            pokemonName = name;
+            attackName = atkName;
+            MR = mr;
         }
     }
 }

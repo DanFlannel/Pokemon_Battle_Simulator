@@ -4,28 +4,6 @@ namespace FatBobbyGaming
 {
     public static class FBG_Atk_Methods
     {
-        //I also need to get rid of these
-        public static PlayerPokemonHandler playerStats;
-        public static EnemyPokemonHandler enemyStats;
-        public static AttackDamageCalc attackCalc;
-        public static PokemonAttacks attacks;
-        public static TurnController tc;
-
-        public static void SpecialCasesInit()
-        {
-            //Console.WriteLine("PK : Attack Switch Case: Initalizing");
-
-            enemyStats = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyPokemonHandler>();
-            playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPokemonHandler>();
-            attackCalc = GameObject.FindGameObjectWithTag("Attacks").GetComponent<AttackDamageCalc>();
-            //genAttacks = GameObject.FindGameObjectWithTag("Attacks").GetComponent<GenerateAttacks>();
-            attacks = GameObject.FindGameObjectWithTag("AttackData").GetComponent<PokemonAttacks>();
-            tc = GameObject.FindGameObjectWithTag("TurnController").GetComponent<TurnController>();
-
-            //Console.WriteLine("PK : Attack Switch Case: Initalized");
-        }
-
-        //..
 
         public static void noAdditionalEffect()
         {
@@ -201,7 +179,8 @@ namespace FatBobbyGaming
             float damage = 0;
             for (int i = 0; i < rnd; i++)
             {
-                damage += attackCalc.calculateDamage(name);
+                MoveResults mr = FBG_Atk_Calc.calculateAttackEffect(FBG_Atk_Switch.target, FBG_Atk_Switch.self, name);
+                damage += mr.dmgReport.damage;
             }
             Debug.Log("Final Damage: " + damage);
             return damage;
@@ -346,7 +325,7 @@ namespace FatBobbyGaming
             //string tempName = tempList[0];
             string name = self.atkMoves[0];
             int attack_index = FBG_Atk_Calc.getAttackListIndex(name);
-            string attack_type = attacks.attackList[attack_index].type;
+            string attack_type = FBG_Atk_Data.attackList[attack_index].type;
             self.type1 = attack_type;
             string[] types = new string[2];
             types[0] = self.type1;
@@ -415,14 +394,7 @@ namespace FatBobbyGaming
 
         public static void leech_seed(bool isPlayer)
         {
-            if (isPlayer)
-            {
-                tc.enemy_leech_seed = true;
-            }
-            else
-            {
-                tc.player_leech_seed = true;
-            }
+
         }
 
     }

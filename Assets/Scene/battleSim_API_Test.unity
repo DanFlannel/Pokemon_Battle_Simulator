@@ -101,6 +101,7 @@ GameObject:
   - 114: {fileID: 589560779}
   - 114: {fileID: 589560778}
   - 114: {fileID: 589560781}
+  - 114: {fileID: 589560782}
   m_Layer: 0
   m_Name: Battle Simulator
   m_TagString: Untagged
@@ -162,9 +163,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67a09b24cdb30454ba4e5a20ee584b17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveHistory: []
   teamSize: 6
   redIndex: 0
   blueIndex: 0
+  redResult:
+    hit: 0
+    crit: 0
+    flinched: 0
+    dmgReport:
+      damage: 0
+      heal: 0
+      recoil: 0
+      stageName: 
+      stageDiff: 0
   pokeDex:
     pokemon: []
 --- !u!4 &589560780
@@ -223,6 +235,22 @@ MonoBehaviour:
   status_A: 0
   position: 0
   atkStatus: 0
+--- !u!114 &589560782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589560777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d20a9ed7494dcbb4ab733f05b2cd78d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btns:
+  - {fileID: 2043605785}
+  - {fileID: 1500088907}
+  - {fileID: 1294961711}
+  - {fileID: 2125132591}
 --- !u!1 &632204970
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,7 +721,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 589560779}
-        m_MethodName: buttonTest
+        m_MethodName: redTeamAttack
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -889,7 +917,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 589560779}
-        m_MethodName: buttonTest
+        m_MethodName: redTeamAttack
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1148,7 +1176,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 589560779}
-        m_MethodName: buttonTest
+        m_MethodName: redTeamAttack
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1270,7 +1298,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 589560779}
-        m_MethodName: buttonTest
+        m_MethodName: redTeamAttack
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
