@@ -26,6 +26,8 @@ namespace FatBobbyGaming
             recoil = 0;
             stageName = "";
             stageDiff = 0;
+
+            s.nextAttack = "";
         }
 
         public static move_DmgReport statusAttacks(string name)
@@ -212,7 +214,8 @@ namespace FatBobbyGaming
                     break;
 
                 case "rest":                //user falls asleep for 2 turns but health is fully recovered
-                        heal = self.maxHP;
+                    heal = self.maxHP;
+                    FBG_Atk_Methods.isSleep(self, 100, 2);
                     break;
 
                 case "roar":                //opponent switches pokemon out
@@ -335,6 +338,28 @@ namespace FatBobbyGaming
                     break;
 
                 case "bide":                //waits 2 turns then deals back double.... :(
+                    if(self.atkStatus == attackStatus.normal)
+                    {
+
+                        self.cachedDamage += (baseDamage * 2f);
+                        self.atkStatus = attackStatus.charging_2;
+                        self.nextAttack = "bide";
+                    }
+                    else if(self.atkStatus == attackStatus.charging_2)
+                    {
+                        
+                        self.atkStatus = attackStatus.charging;
+                        self.cachedDamage += (baseDamage * 2f);
+                        self.nextAttack = "bide";
+
+                    }
+                    else if(self.atkStatus == attackStatus.charging)
+                    {
+                        self.atkStatus = attackStatus.normal;
+                        damage = self.cachedDamage;
+                        self.cachedDamage = 0;
+                    }
+                    
                     break;
 
                 case "bind":                //need to create a damage over time effect here for rndBind turns
@@ -378,6 +403,15 @@ namespace FatBobbyGaming
                     break;
 
                 case "counter":             //hits back with 2x power iff is hit with physical attack
+                    //check that it attacks second
+                    if(self.Speed < target.Speed)
+                    {
+                        int index = FBG_BattleSimulator.moveHistory.Count;
+                        if (FBG_BattleSimulator.moveHistory[index].atkCategory == FBG_consts.Physical)
+                         {
+                            damage *= 2;
+                        }
+                    }
                     break;
 
                 case "crabhammer":          //has a 1/8 crit ratio not a 1/16.... have to recalculate for this
@@ -388,8 +422,21 @@ namespace FatBobbyGaming
                     break;
 
                 case "dig":                 //redo based off of turn controller
-                    self.position = pokemonPosition.underground;
-                    self.atkStatus = attackStatus.charging;
+                    
+                    if(self.atkStatus == attackStatus.normal)
+                    {
+                        self.position = pokemonPosition.underground;
+                        self.atkStatus = attackStatus.charging;
+                        self.cachedDamage = baseDamage;
+                        self.nextAttack = "dig";
+
+                    }else if(self.atkStatus == attackStatus.charging)
+                    {
+                        damage = self.cachedDamage;
+                        self.position = pokemonPosition.normal;
+                        self.atkStatus = attackStatus.normal;
+                        self.cachedDamage = 0;
+                    }
                     break;
 
                 case "dizzy punch":
@@ -422,7 +469,7 @@ namespace FatBobbyGaming
                 case "egg bomb":            //no additional effects 
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
-                //***********************//
+
                 case "explosion":           //causes user to faint
                     recoil = self.maxHP;
                     break;
@@ -437,8 +484,20 @@ namespace FatBobbyGaming
 
                 //*****************************************//
                 case "fly":
-                    self.position = pokemonPosition.flying;
-                    self.atkStatus = attackStatus.charging;
+                    if (self.atkStatus == attackStatus.normal)
+                    {
+                        self.position = pokemonPosition.flying;
+                        self.atkStatus = attackStatus.charging;
+                        self.cachedDamage = baseDamage;
+                        self.nextAttack = "fly";
+
+                    }else if(self.atkStatus == attackStatus.charging)
+                    {
+                        damage = self.cachedDamage;
+                        self.position = pokemonPosition.normal;
+                        self.atkStatus = attackStatus.normal;
+                        self.cachedDamage = 0;
+                    }
                     break;
 
                 case "fury attack":
@@ -459,7 +518,6 @@ namespace FatBobbyGaming
                     FBG_Atk_Methods.isFlinched(target, 30);
                     break;
 
-                //************************************************//
                 case "high jump kick":      //if this misses it casues 1/2 of the damage it would have inflicted on the user
                     if (!moveRes.hit)
                     {
@@ -483,7 +541,6 @@ namespace FatBobbyGaming
                     FBG_Atk_Methods.isFrozen(target, 10);
                     break;
 
-                //***********************************************//
                 case "jump kick":           //lose 1/2 hp is the user misses just like high jump kick
                     if (!moveRes.hit)
                     {
@@ -566,7 +623,18 @@ namespace FatBobbyGaming
                     break;
 
                 case "skull bash":          //charges first turn, raising defense, hits on the second turn
-                    self.atkStatus = attackStatus.charging;
+                    if (self.atkStatus == attackStatus.normal)
+                    {
+                        self.atkStatus = attackStatus.charging;
+                        self.cachedDamage = baseDamage;
+                        self.nextAttack = "skull bash";
+
+                    }else if(self.atkStatus == attackStatus.charging)
+                    {
+                        self.atkStatus = attackStatus.normal;
+                        damage = self.cachedDamage;
+                        self.cachedDamage = 0;
+                    }
                     break;
 
                 case "sky attack":          //charges on first turn, hits on second, 30% flinch chance
@@ -755,7 +823,16 @@ namespace FatBobbyGaming
                     break;
 
                 case "hyper beam":          //cannot move next turn
-                    self.atkStatus = attackStatus.recharging;
+                    if (self.atkStatus == attackStatus.normal)
+                    {
+                        damage = baseDamage;
+                        self.atkStatus = attackStatus.recharging;
+                        self.nextAttack = "hyper beam";
+
+                    }else if(self.atkStatus == attackStatus.recharging)
+                    {
+                        self.atkStatus = attackStatus.normal;
+                    }
                     break;
 
                 case "ice beam":
@@ -794,7 +871,18 @@ namespace FatBobbyGaming
                     break;
 
                 case "razor wind":          //charges the first turn then attacks the second
-                    self.atkStatus = attackStatus.charging;
+                    if (self.atkStatus == attackStatus.normal)
+                    {
+                        self.cachedDamage = baseDamage;
+                        self.atkStatus = attackStatus.charging;
+                        self.nextAttack = "razor wind";
+
+                    }else if(self.atkStatus == attackStatus.charging)
+                    {
+                        self.atkStatus = attackStatus.normal;
+                        damage = self.cachedDamage;
+                        self.cachedDamage = 0;
+                    }
                     break;
 
                 case "sludge":              //30% chance to poison the target
@@ -806,7 +894,18 @@ namespace FatBobbyGaming
                     break;
 
                 case "solar beam":          //charges on the fist turn, hits on the second
-                    self.atkStatus = attackStatus.charging;
+                    if(self.atkStatus == attackStatus.normal)
+                    {
+                        self.cachedDamage = baseDamage;
+                        self.atkStatus = attackStatus.charging;
+                        self.nextAttack = "solar beam";
+
+                    }else if(self.atkStatus == attackStatus.charging)
+                    {
+                        damage = self.cachedDamage;
+                        self.atkStatus = attackStatus.normal;
+                        self.cachedDamage = 0;
+                    }
                     break;
 
                 case "sonic boom":
@@ -827,7 +926,7 @@ namespace FatBobbyGaming
                     FBG_Atk_Methods.isParalized(target, 10);
                     break;
 
-                case "thunder bolt":
+                case "thunderbolt":
                     FBG_Atk_Methods.isParalized(target, 10);
                     break;
 

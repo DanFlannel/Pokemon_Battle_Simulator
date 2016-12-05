@@ -25,6 +25,12 @@ namespace FatBobbyGaming
             move_DmgReport report = new move_DmgReport();
             targetPokemon = tar;
             thisPokemon = self;
+
+            if(thisPokemon.nextAttack != "")
+            {
+                atkName = thisPokemon.nextAttack;
+            }
+
             Debug.LogWarning(string.Format(" {0} is using {1} on {2} ", self.Name, atkName, tar.Name));
 
             int atkIndex = getAttackListIndex(atkName);
@@ -38,7 +44,7 @@ namespace FatBobbyGaming
             //this also sets our crit bool in the move results
             float dmgMod = modifier(atkName, atkType, MR);
             baseDamage = Mathf.Round(baseDamage * dmgMod);
-            Debug.Log("Damage: " + baseDamage);
+            //Debug.Log("Damage: " + baseDamage);
 
             MR.hit = checkAccuracy_and_Hit(accuracy);
 
@@ -62,7 +68,7 @@ namespace FatBobbyGaming
 
             MR.dmgReport = report;
 
-            Debug.Log("Final Damage " + MR.dmgReport.damage);
+            //Debug.Log("Final Damage " + MR.dmgReport.damage);
             return MR;
         }
 
@@ -239,7 +245,7 @@ namespace FatBobbyGaming
                 attack_mod = thisPokemon.Attack;
                 defense_mod = targetPokemon.Defense;
             }
-            Debug.Log(string.Format("atk: {0} def: {1}", attack_mod, defense_mod));
+            //Debug.Log(string.Format("atk: {0} def: {1}", attack_mod, defense_mod));
         }
 
         /// <summary>

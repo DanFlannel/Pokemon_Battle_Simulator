@@ -3323,7 +3323,7 @@ namespace FatBobbyGaming {
         #endregion
 
         #region Searching Methods, Getters and Setters
-        private static attacks searchAttackList(string sName)
+        public static attacks searchAttackList(string sName)
         {
             for (int i = 0; i < attackList.Count; i++)
             {

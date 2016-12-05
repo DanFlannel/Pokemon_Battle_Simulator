@@ -32,8 +32,9 @@ public enum pokemonPosition
 
 public enum attackStatus
 {
-    normal,
+    charging_2,
     charging,
+    normal,
     recharging
 };
 

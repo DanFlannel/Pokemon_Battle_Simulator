@@ -22,6 +22,7 @@ namespace FatBobbyGaming {
         public List<string> atkMoves = new List<string>();
         public dmgMult damageMultiplier;
 
+        public string nextAttack;
         public nonVolitileStatusEffects status_A;
         public pokemonPosition position;
         public attackStatus atkStatus;
@@ -43,8 +44,9 @@ namespace FatBobbyGaming {
         void Update() {
             if(checkTeam() || checkIndex())
             {
-                updateStats();
+                //updateStats();
             }
+            updateStats();
         }
 
         private bool checkIndex()
@@ -106,6 +108,7 @@ namespace FatBobbyGaming {
             atkStatus = p.atkStatus;
 
             damageMultiplier = p.damageMultiplier;
+            nextAttack = p.nextAttack;
         }
     }
 }

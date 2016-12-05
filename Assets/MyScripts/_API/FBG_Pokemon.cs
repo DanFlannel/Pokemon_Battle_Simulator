@@ -53,6 +53,7 @@ namespace FatBobbyGaming
         public List<string> atkMoves = new List<string>();
 
         public float cachedDamage { get; set; }
+        public string nextAttack { get; set; }
 
         public int curHp { get; set; }
         public int maxHP { get; private set; }
@@ -87,6 +88,8 @@ namespace FatBobbyGaming
 
             position = pokemonPosition.normal;
             atkStatus = attackStatus.normal;
+
+            nextAttack = "";
 
             //need to set these to something before updaing them
             setStages();
