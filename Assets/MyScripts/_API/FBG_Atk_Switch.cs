@@ -302,6 +302,7 @@ namespace FatBobbyGaming
 
                 case "transform":           //takes the attacks of the opponent
                     self.atkMoves = target.atkMoves;
+
                     //need to update atk buttons names if we are the player
                     break;
 

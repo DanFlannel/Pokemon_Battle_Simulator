@@ -2,8 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-
-
+using UnityEngine.UI;
 
 namespace FatBobbyGaming
 {
@@ -21,7 +20,7 @@ namespace FatBobbyGaming
         [HideInInspector]
         public PokedexData pokeDex;
 
-
+        public FBG_BattleGUI battleGUI;
 
         // Use this for initialization
         void Awake()
@@ -38,10 +37,16 @@ namespace FatBobbyGaming
             createTeams();
             //debugRedTeam();
 
-            this.GetComponent<FBG_BattleGUI>().setButtonNames(redTeam[redIndex].atkMoves);
+            battleGUI = this.GetComponent<FBG_BattleGUI>();
+            checkButtonNames();
 
             sw.Stop();
             print(string.Format("Time to load {0}ms", sw.ElapsedMilliseconds));
+        }
+
+        void Update()
+        {
+            checkButtonNames();
         }
 
         public void redTeamAttack(int index)
@@ -54,6 +59,18 @@ namespace FatBobbyGaming
             battleHistory hist = new battleHistory(pName, atkName, redResult);
             moveHistory.Add(hist);
 
+        }
+
+        //cheap way of doing mimic and transform
+        public void checkButtonNames()
+        {
+            for(int i = 0; i < battleGUI.btns.Length; i++)
+            {
+                if(redTeam[redIndex].atkMoves[i] != battleGUI.btns[i].GetComponentInChildren<Text>().text)
+                {
+                    battleGUI.setButtonNames(redTeam[redIndex].atkMoves);
+                }
+            }
         }
 
         private void createTeams()

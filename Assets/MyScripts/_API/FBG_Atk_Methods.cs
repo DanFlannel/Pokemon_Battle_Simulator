@@ -378,7 +378,7 @@ namespace FatBobbyGaming
             }
             else
             {
-                mr.dmgReport.damage = 0;
+                predictedDamage = 0;
             }
             return predictedDamage;
         }
