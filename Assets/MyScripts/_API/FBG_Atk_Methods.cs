@@ -316,6 +316,42 @@ namespace FatBobbyGaming
             target.isFlinched = true;
         }
 
+        public static float ChargingMove(FBG_Pokemon self, string atkName, float dmg)
+        {
+            if (self.atkStatus == attackStatus.normal)
+            {
+                self.cachedDamage = dmg;
+                self.atkStatus = attackStatus.charging;
+                self.nextAttack = "razor wind";
+                dmg = 0;
+
+            }
+            else if (self.atkStatus == attackStatus.charging)
+            {
+                self.atkStatus = attackStatus.normal;
+                dmg = self.cachedDamage;
+                self.cachedDamage = 0;
+            }
+            return dmg;
+        }
+
+        public static float ReChargeMove(FBG_Pokemon self, string atkName, float dmg)
+        {
+            if (self.atkStatus == attackStatus.normal)
+            {
+                self.atkStatus = attackStatus.recharging;
+                self.nextAttack = "hyper beam";
+
+            }
+            else if (self.atkStatus == attackStatus.recharging)
+            {
+                self.atkStatus = attackStatus.normal;
+                dmg = 0;
+            }
+
+            return dmg;
+        }
+
         //..
 
         public static void conversion(FBG_Pokemon self)

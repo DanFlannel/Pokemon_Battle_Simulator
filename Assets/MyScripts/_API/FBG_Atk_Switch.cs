@@ -628,6 +628,9 @@ namespace FatBobbyGaming
                         self.atkStatus = attackStatus.charging;
                         self.cachedDamage = baseDamage;
                         self.nextAttack = "skull bash";
+                        FBG_Atk_Methods.changeStats(FBG_consts.defense, 1, self);
+                        stageName = FBG_consts.defense;
+                        stageDiff = 1;
 
                     }else if(self.atkStatus == attackStatus.charging)
                     {
@@ -685,6 +688,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "thrash":              //attacks for 2-3 turns, but cannot switch out or use a different attack
+
                     break;
 
                 case "thunder punch":
@@ -823,16 +827,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "hyper beam":          //cannot move next turn
-                    if (self.atkStatus == attackStatus.normal)
-                    {
-                        damage = baseDamage;
-                        self.atkStatus = attackStatus.recharging;
-                        self.nextAttack = "hyper beam";
-
-                    }else if(self.atkStatus == attackStatus.recharging)
-                    {
-                        self.atkStatus = attackStatus.normal;
-                    }
+                    damage = FBG_Atk_Methods.ReChargeMove(self, name, baseDamage);
                     break;
 
                 case "ice beam":
@@ -871,18 +866,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "razor wind":          //charges the first turn then attacks the second
-                    if (self.atkStatus == attackStatus.normal)
-                    {
-                        self.cachedDamage = baseDamage;
-                        self.atkStatus = attackStatus.charging;
-                        self.nextAttack = "razor wind";
-
-                    }else if(self.atkStatus == attackStatus.charging)
-                    {
-                        self.atkStatus = attackStatus.normal;
-                        damage = self.cachedDamage;
-                        self.cachedDamage = 0;
-                    }
+                    damage = FBG_Atk_Methods.ChargingMove(self, name, baseDamage);
                     break;
 
                 case "sludge":              //30% chance to poison the target
@@ -894,18 +878,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "solar beam":          //charges on the fist turn, hits on the second
-                    if(self.atkStatus == attackStatus.normal)
-                    {
-                        self.cachedDamage = baseDamage;
-                        self.atkStatus = attackStatus.charging;
-                        self.nextAttack = "solar beam";
-
-                    }else if(self.atkStatus == attackStatus.charging)
-                    {
-                        damage = self.cachedDamage;
-                        self.atkStatus = attackStatus.normal;
-                        self.cachedDamage = 0;
-                    }
+                    damage = FBG_Atk_Methods.ChargingMove(self, name, baseDamage);
                     break;
 
                 case "sonic boom":
