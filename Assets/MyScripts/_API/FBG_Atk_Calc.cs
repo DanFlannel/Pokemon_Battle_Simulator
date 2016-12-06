@@ -352,13 +352,42 @@ namespace FatBobbyGaming
         /// <param name="accuracy">the accuracy of the move being passed in</param>
         /// <returns>true if the move hit, false if it missed</returns>
         /// </summary>
-        private static bool checkAccuracy_and_Hit(int accuracy)
+        private static bool checkAccuracy_and_Hit(FBG_Pokemon self, FBG_Pokemon tar, int accuracy)
         {
             if (accuracy == 100 || accuracy == 0)
             {
                 return true;
             }
-            return FBG_Atk_Methods.Chance_100(accuracy);
+
+            float accStage = self.acc_stage;
+            float accMod = accStage + 3f;
+            if(accStage >= 1)
+            {
+                accMod *= 100;
+                accMod /= 3f;
+            }
+            else 
+            {
+                accMod = 300f / accMod;
+
+            }
+
+            float evadeStage = tar.evasive_stage;
+            float evadeMod = evadeStage + 3;
+
+            if(evadeStage >= 1)
+            {
+                evadeMod = 300f / evadeMod;
+            }else
+            {
+                evadeMod *= 100;
+                evadeMod /= 3f;
+            }
+
+            float probability = accuracy * accMod * (1-evadeMod);
+            Debug.Log("Hit probability: " + probability);
+
+            return FBG_Atk_Methods.Chance_100(probability);
         }
 
         /// <summary>

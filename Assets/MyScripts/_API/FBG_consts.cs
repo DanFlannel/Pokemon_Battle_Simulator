@@ -30,6 +30,8 @@ namespace FatBobbyGaming
         public const string spAttack = "spAttack";
         public const string spDefense = "spDefense";
         public const string speed = "speed";
+        public const string accuracy = "accuracy";
+        public const string evasion = "evasion";
 
 
         public const string Physical = "Physical";

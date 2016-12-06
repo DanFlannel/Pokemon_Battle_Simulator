@@ -49,6 +49,8 @@ namespace FatBobbyGaming
         public int spAttack_Stage { get; set; }
         public int spDefense_stage { get; set; }
         public int speed_stage { get; set; }
+        public int acc_stage { get; set; }
+        public int evasive_stage { get; set; }
 
         public List<string> atkMoves = new List<string>();
 

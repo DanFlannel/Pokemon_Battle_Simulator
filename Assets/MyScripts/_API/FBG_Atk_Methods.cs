@@ -60,11 +60,17 @@ namespace FatBobbyGaming
                 newStage = -6;
 
             setStatStage(type, newStage, target);
-            float multiplier = stageToMultiplier(newStage);
 
+            if (type == FBG_consts.accuracy || type == FBG_consts.evasion)
+            {
+                return;
+            }
+
+            float multiplier = stageToMultiplier_BaseStat(newStage);
             target.updateStatStage(type, multiplier);
         }
 
+        //done for acc and evasion
         private static int getStatStage(string type, FBG_Pokemon target)
         {
             int statStage = 0;
@@ -86,6 +92,12 @@ namespace FatBobbyGaming
                 case "speed":
                     statStage = target.speed_stage;
                     break;
+                case "accuracy":
+                    statStage = target.acc_stage;
+                    break;
+                case "evasion":
+                    statStage = target.evasive_stage;
+                    break;
                 default:
                     Debug.Log("no type " + type + " found");
                     break;
@@ -96,24 +108,36 @@ namespace FatBobbyGaming
 
         private static void setStatStage(string type, int newStage, FBG_Pokemon target)
         {
-
             switch (type)
             {
-                case "attack":
+                case FBG_consts.attack:
                     target.attack_Stage = newStage;
                     break;
-                case "spAttack":
+
+                case FBG_consts.spAttack:
                     target.spAttack_Stage = newStage;
                     break;
-                case "defense":
+
+                case FBG_consts.defense:
                     target.defense_Stage = newStage;
                     break;
-                case "spDefense":
+
+                case FBG_consts.spDefense:
                     target.spDefense_stage = newStage;
                     break;
-                case "speed":
+
+                case FBG_consts.speed:
                     target.speed_stage = newStage;
                     break;
+
+                case FBG_consts.accuracy:
+                    target.acc_stage = newStage;
+                    break;
+
+                case FBG_consts.evasion:
+                    target.evasive_stage = newStage;
+                    break;
+
                 default:
                     Debug.LogError("no type " + type + " found");
                     break;
@@ -121,9 +145,9 @@ namespace FatBobbyGaming
 
         }
 
-        private static float stageToMultiplier(int stage)
+        private static float stageToMultiplier_BaseStat(int stage)
         {
-            float multiplier = 1;
+            float multiplier = 1f;
             switch (stage)
             {
                 case -6:
