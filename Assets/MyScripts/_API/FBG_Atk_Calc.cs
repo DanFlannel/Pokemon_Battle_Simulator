@@ -68,6 +68,10 @@ namespace FatBobbyGaming
 
             MR.dmgReport = report;
 
+            if(self.atkStatus != attackStatus.normal)
+            {
+                MR.dmgReport.damage = 0;
+            }
             //Debug.Log("Final Damage " + MR.dmgReport.damage);
             return MR;
         }

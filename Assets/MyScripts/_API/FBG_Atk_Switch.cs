@@ -660,7 +660,19 @@ namespace FatBobbyGaming
                     break;
 
                 case "sky attack":          //charges on first turn, hits on second, 30% flinch chance
-                    FBG_Atk_Methods.isFlinched(target, 30);
+                    if(self.atkStatus == attackStatus.normal)
+                    {
+                        self.atkStatus = attackStatus.charging;
+                        self.cachedDamage = baseDamage;
+                        self.nextAttack = "sky attack";
+                    }
+                    if (self.atkStatus == attackStatus.charging)
+                    {
+                        self.atkStatus = attackStatus.normal;
+                        damage = self.cachedDamage;
+                        FBG_Atk_Methods.isFlinched(target, 30);
+                        self.cachedDamage = 0;
+                    }
                     break;
 
                 case "slam":                //no additional effect
