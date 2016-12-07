@@ -46,7 +46,7 @@ namespace FatBobbyGaming
             baseDamage = Mathf.Round(baseDamage * dmgMod);
             //Debug.Log("Damage: " + baseDamage);
 
-            MR.hit = checkAccuracy_and_Hit(accuracy);
+            MR.hit = checkAccuracy_and_Hit(self, tar, atkName, accuracy);
 
             //Debug.Log("Attack Name: " + attack_name);
             FBG_Atk_Switch.setPokemon(tar, self, MR);
@@ -352,10 +352,11 @@ namespace FatBobbyGaming
         /// <param name="accuracy">the accuracy of the move being passed in</param>
         /// <returns>true if the move hit, false if it missed</returns>
         /// </summary>
-        private static bool checkAccuracy_and_Hit(FBG_Pokemon self, FBG_Pokemon tar, int accuracy)
+        private static bool checkAccuracy_and_Hit(FBG_Pokemon self, FBG_Pokemon tar,string atkName, int accuracy)
         {
-            if (accuracy == 100 || accuracy == 0)
+            if(accuracy == 0)
             {
+                Debug.Log("Has 0 accuracy: " + atkName);
                 return true;
             }
 
@@ -384,8 +385,17 @@ namespace FatBobbyGaming
                 evadeMod /= 3f;
             }
 
-            float probability = accuracy * accMod * (1-evadeMod);
-            Debug.Log("Hit probability: " + probability);
+            float probability = (accuracy) * (accMod /evadeMod);
+            if (ignoreAcc_Evade(atkName))
+            {
+                probability = accuracy;
+            }
+
+            if(probability >= 100)
+            {
+                return true;
+            }
+            Debug.Log(string.Format("move acc {0} self acc {1} target evasion {2} total probability {3} * {4} = {5}", accuracy, accMod, evadeMod, (accuracy), (accMod/evadeMod), probability));
 
             return FBG_Atk_Methods.Chance_100(probability);
         }
@@ -434,6 +444,23 @@ namespace FatBobbyGaming
                     break;
             }
             return chance;
+        }
+
+        private static bool ignoreAcc_Evade(string atkName)
+        {
+            string name = atkName.ToLower();
+
+            string[] ignoreMoves = { "swift", "" };
+            for(int i = 0; i < ignoreMoves.Length; i++)
+            {
+                if(name == ignoreMoves[i])
+                {
+                    Debug.Log("This move ignores accuracy and evasion");
+                    return true;
+                }
+            }
+            return false;
+
         }
     }
 

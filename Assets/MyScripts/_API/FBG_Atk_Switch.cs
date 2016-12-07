@@ -91,10 +91,16 @@ namespace FatBobbyGaming
                     break;
                 //raises user evasive stage by one
                 case "double team":
+                    FBG_Atk_Methods.changeStats(FBG_consts.evasion, 1, self);
+                    stageName = FBG_consts.evasion;
+                    stageDiff = 1;
                     break;
 
                 //lowers opponents accuracy by 1 stage
                 case "flash":
+                    FBG_Atk_Methods.changeStats(FBG_consts.accuracy, -1, target);
+                    stageName = FBG_consts.accuracy;
+                    stageDiff = -1;
                     break;
 
                 //increases crit ratio...
@@ -134,6 +140,9 @@ namespace FatBobbyGaming
 
                 case "kinesis":
                     //lower enemy accuracy by 1 stage
+                    FBG_Atk_Methods.changeStats(FBG_consts.accuracy, -1, target);
+                    stageName = FBG_consts.accuracy;
+                    stageDiff = -1;
                     break;
 
                 case "leech seed":
@@ -186,6 +195,9 @@ namespace FatBobbyGaming
                 //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
                 case "minimize":
                     self.position = pokemonPosition.minimized;
+                    FBG_Atk_Methods.changeStats(FBG_consts.evasion, 1, self);
+                    stageName = FBG_consts.evasion;
+                    stageDiff = 1;
                     break;
 
                 case "mirror move":         //preforms the opponents last move....
@@ -222,6 +234,9 @@ namespace FatBobbyGaming
                     break;
 
                 case "sand attack":         //lowers opponent accuracy by one stage
+                    FBG_Atk_Methods.changeStats(FBG_consts.accuracy, -1, target);
+                    stageName = FBG_consts.accuracy;
+                    stageDiff = -1;
                     break;
 
                 case "screech":
@@ -242,6 +257,9 @@ namespace FatBobbyGaming
                     break;
 
                 case "smokescreen":         //lower accuracy by one stage
+                    FBG_Atk_Methods.changeStats(FBG_consts.accuracy, -1, target);
+                    stageName = FBG_consts.accuracy;
+                    stageDiff = -1;
                     break;
 
                 case "soft boiled":

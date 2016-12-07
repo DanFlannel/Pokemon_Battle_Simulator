@@ -212,9 +212,16 @@ namespace FatBobbyGaming
         public void resetStatStages()
         {
             updateStatStage(FBG_consts.attack, 1);
+            attack_Stage = 0;
             updateStatStage(FBG_consts.defense, 1);
+            defense_Stage = 0;
             updateStatStage(FBG_consts.spAttack, 1);
+            spAttack_Stage = 0;
             updateStatStage(FBG_consts.spDefense, 1);
+            spDefense_stage = 0;
+            acc_stage = 0;
+            evasive_stage = 0;
+
         }
 
         public void updateStatStage(string type, float multiplier)
