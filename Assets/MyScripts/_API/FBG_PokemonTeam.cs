@@ -8,11 +8,14 @@ namespace FatBobbyGaming
         public bool hasMist;
         public bool hasReflect;
         public bool hasLightScreen;
-        public bool canSwap;
+        public bool isBound;
 
         private int lightScreenDur;
         private int reflectDur;
         private int mistDur;
+
+        private int bindDuration;
+        private float bindDamage;
 
 
         public FBG_PokemonTeam()
@@ -25,7 +28,7 @@ namespace FatBobbyGaming
             hasMist = false;
             hasReflect = false;
             hasLightScreen = false;
-            canSwap = true;
+            isBound = false;
         }
 
         public void addMist()
@@ -46,11 +49,19 @@ namespace FatBobbyGaming
             reflectDur = dur;
         }
 
+        public void addBind(int dur, float dmg)
+        {
+            isBound = true;
+            bindDuration = dur;
+            bindDamage = dmg;
+        }
+
         public void EndOfTurn()
         {
             reduceLightScreen();
             reduceMist();
             reduceReflect();
+            reduceBind();
         }
 
         private void reduceLightScreen()
@@ -84,6 +95,18 @@ namespace FatBobbyGaming
             {
                 lightScreenDur = 0;
                 hasLightScreen = false;
+            }
+        }
+
+        private void reduceBind()
+        {
+            if (!isBound) return;
+            bindDuration--;
+            if(bindDuration <= 0)
+            {
+                bindDuration = 0;
+                bindDamage = 0;
+                isBound = false;
             }
         }
 
