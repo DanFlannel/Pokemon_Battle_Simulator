@@ -15,6 +15,9 @@ namespace FatBobbyGaming
         private static string stageName;
         private static int stageDiff;
 
+        public static bool ignoreReflect;
+        public static bool ignoreLightScreen;
+
         public static void setPokemon(FBG_Pokemon tar, FBG_Pokemon s, MoveResults mr)
         {
             target = tar;
@@ -28,6 +31,8 @@ namespace FatBobbyGaming
             stageDiff = 0;
 
             s.nextAttack = "";
+
+            ignoreReflect = ignoreLightScreen = false;
         }
 
         public static move_DmgReport statusAttacks(string name)
@@ -105,6 +110,9 @@ namespace FatBobbyGaming
 
                 //increases crit ratio...
                 case "focus energy":
+                    //
+                    //
+                    //
                     break;
 
                 case "growl":
@@ -146,7 +154,9 @@ namespace FatBobbyGaming
                     break;
 
                 case "leech seed":
-
+                    //
+                    //
+                    //
                     break;
 
                 case "leer":
@@ -156,6 +166,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "light screen":
+                    self.team.addLightScreen(5);
                     break;
 
                 case "lovely kiss":
@@ -206,8 +217,12 @@ namespace FatBobbyGaming
                     FBG_Atk_Calc.calculateAttackEffect(target, self, mirrorAttack);
                     break;
 
-                //no stat changes for 5 turns
+                //no negative stat changes to self or allies for 5 turns
                 case "mist":
+                    if (!self.team.hasMist)
+                    {
+                        self.team.addMist();
+                    }
                     break;
 
                 case "poison gas":
@@ -223,6 +238,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "reflect":             //halves the damage from physical attacks for 5 turns
+                    self.team.addReflect(5);
                     break;
 
                 case "rest":                //user falls asleep for 2 turns but health is fully recovered
@@ -308,6 +324,7 @@ namespace FatBobbyGaming
 
                 case "teleport":
                     //say something stupid here
+                    FBG_Atk_Methods.noAdditionalEffect();
                     break;
 
                 case "thunder wave":
@@ -335,6 +352,7 @@ namespace FatBobbyGaming
 
             }
             Debug.Log(string.Format(" dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4}", damage, heal, recoil, stageName, stageDiff));
+
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
             return report;
         }
@@ -374,6 +392,7 @@ namespace FatBobbyGaming
                     }
                     else if(self.atkStatus == attackStatus.charging)
                     {
+                        ignoreReflect = true;
                         self.atkStatus = attackStatus.normal;
                         damage = self.cachedDamage;
                         self.cachedDamage = 0;
@@ -422,8 +441,9 @@ namespace FatBobbyGaming
                     break;
 
                 case "counter":             //hits back with 2x power iff is hit with physical attack
+                    ignoreReflect = true;
                     //check that it attacks second
-                    if(self.Speed < target.Speed)
+                    if (self.Speed < target.Speed)
                     {
                         int index = FBG_BattleSimulator.moveHistory.Count;
                         if (FBG_BattleSimulator.moveHistory[index].atkCategory == FBG_consts.Physical)
@@ -636,7 +656,7 @@ namespace FatBobbyGaming
                 case "seismic toss":
                     damage = FBG_Atk_Methods.levelBasedDamage(target);
                     break;
-                //***************************************************//
+
                 case "self destruct":       //user faints
                     recoil = self.maxHP;
                     break;
@@ -707,6 +727,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "super fang":
+                    ignoreReflect = true;
                     damage = target.curHp / 2f;
                     break;
 
@@ -750,6 +771,11 @@ namespace FatBobbyGaming
                 case "wrap":                //causes 1/16th damage for 4-5 turns
                     rnd = UnityEngine.Random.Range(4, 5);
                     break;
+            }
+
+            if(target.team.hasReflect && !ignoreReflect)
+            {
+                damage /= 2f;
             }
 
             Debug.Log(string.Format(" dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4}", damage, heal, recoil, stageName, stageDiff));
@@ -824,6 +850,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "dragon rage":
+                    ignoreLightScreen = true;
                     damage = 40;
                     break;
 
@@ -949,6 +976,12 @@ namespace FatBobbyGaming
             //Check for lightscreen to halve special attack damage
 
             Debug.Log(string.Format(" dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4}", damage, heal, recoil, stageName, stageDiff));
+
+            if(target.team.hasLightScreen && !ignoreLightScreen)
+            {
+                Debug.Log("halving damage because of light screen");
+                damage /= 2f;
+            }
 
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
             return report;

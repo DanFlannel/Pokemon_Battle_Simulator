@@ -54,3 +54,11 @@ public enum PokemonTeam
     redTeam,
     blueTeam
 };
+
+public enum Weather
+{
+    normal,
+    sunshine,
+    sandstorm,
+    rainy
+};

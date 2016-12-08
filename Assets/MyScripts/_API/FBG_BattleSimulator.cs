@@ -16,6 +16,10 @@ namespace FatBobbyGaming
         public int redIndex;
         public int blueIndex;
 
+        private FBG_PokemonTeam redTeamStatus = new FBG_PokemonTeam();
+        private FBG_PokemonTeam blueTeamStatus = new FBG_PokemonTeam();
+
+
         public MoveResults redResult;
         [HideInInspector]
         public PokedexData pokeDex;
@@ -27,11 +31,12 @@ namespace FatBobbyGaming
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            //this initalizes our pokedex
 
+            //get the enviornment ready
+            FBG_BattleEnviornment.init();
+
+            //this initalizes our pokedex
             pokeDex = FBG_JsonReader.createPokeDex();
-            //Debug.Log(string.Format("{0} {1} ", pokeDex.pokemon[0].name, pokeDex.pokemon[0].baseStates.atk));
-            //this initalizes the attack library
 
             //this creates our teams
             createTeams();
@@ -90,7 +95,7 @@ namespace FatBobbyGaming
                 data = FBG_JsonReader.pokemonStats(pokeDex, id);
                 attacks = FBG_Atk_Data.masterGetAttacks(id);
                 //print(string.Format("{0}", attacks.Count));
-                pokemon = new FBG_Pokemon(level, data, attacks);
+                pokemon = new FBG_Pokemon(level, data, attacks, ref redTeamStatus);
 
                 redTeam.Add(pokemon);
 
@@ -98,7 +103,7 @@ namespace FatBobbyGaming
                 //id = 1;
                 data = FBG_JsonReader.pokemonStats(pokeDex, id);
                 attacks = FBG_Atk_Data.masterGetAttacks(id);
-                pokemon = new FBG_Pokemon(level, data, attacks);
+                pokemon = new FBG_Pokemon(level, data, attacks, ref blueTeamStatus);
 
                 blueTeam.Add(pokemon);
             }

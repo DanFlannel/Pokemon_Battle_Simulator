@@ -9,14 +9,15 @@ namespace FatBobbyGaming
         //*****************************************************//
         //these are the only variables that can be passed in
         //in order to generate the rest of the stats for the pokemon
+        public FBG_PokemonTeam team;
 
-        public nonVolitileStatusEffects status_A;
-        public int nonVolDuration;
+        public nonVolitileStatusEffects status_A { get; set; }
+        public int nonVolDuration { get; set; }
 
-        public volitileStatusEffects status_B;
+        public volitileStatusEffects status_B { get; set; }
 
-        public pokemonPosition position;
-        public attackStatus atkStatus;
+        public pokemonPosition position { get; set; }
+        public attackStatus atkStatus { get; set; }
 
         public int ID { get; private set; }
         public string Name { get; private set; }
@@ -62,11 +63,13 @@ namespace FatBobbyGaming
 
         private List<int> randomNumbers = new List<int>();
 
-        public bool isFlinched;
+        public bool isFlinched { get; set; }
         public bool hasSubstitute;
 
-        public FBG_Pokemon(int m_Level, corePokemonData data, List<attackIndex> attackMoves)
+        public FBG_Pokemon(int m_Level, corePokemonData data, List<attackIndex> attackMoves, ref FBG_PokemonTeam t)
         {
+            team = t;
+
             Name = data.name;
             ID = data.id;
             Level = m_Level;

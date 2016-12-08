@@ -51,6 +51,11 @@ namespace FatBobbyGaming
 
         public static void changeStats(string type, int stageMod, FBG_Pokemon target)
         {
+            if (target.team.hasMist && stageMod < 0)
+            {
+                    return;
+            }
+
             int newStage = getStatStage(type, target);
             newStage += stageMod;
 
@@ -418,6 +423,9 @@ namespace FatBobbyGaming
 
         public static float oneHitKO(FBG_Pokemon target, FBG_Pokemon self, MoveResults mr)
         {
+            FBG_Atk_Switch.ignoreLightScreen = true;
+            FBG_Atk_Switch.ignoreReflect = true;
+
             int acc = target.Level - self.Level + 30;
             if (Chance_100(acc))
             {
@@ -429,12 +437,17 @@ namespace FatBobbyGaming
 
         public static float levelBasedDamage(FBG_Pokemon target)
         {
+            FBG_Atk_Switch.ignoreLightScreen = true;
+            FBG_Atk_Switch.ignoreReflect = true;
+
             float damage = target.Level;
             return damage;
         }
 
         public static float sonicBoom(FBG_Pokemon target)
         {
+            FBG_Atk_Switch.ignoreLightScreen = true;
+
             if (checkTypes(target, FBG_consts.Ghost))
             {
                 return 0;
