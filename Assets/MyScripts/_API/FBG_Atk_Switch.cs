@@ -93,6 +93,18 @@ namespace FatBobbyGaming
 
                 //disables enemies last move for a few turns
                 case "disable":
+                    if(self.Speed > target.Speed)
+                    {
+                        moveRes.hit = false;
+                        break;
+                    }
+                    string moveName = FBG_BattleSimulator.moveHistory[FBG_BattleSimulator.moveHistory.Count].attackName;
+                    disable dis = new disable(tempname, 4, target, moveName);
+
+                    if (!FBG_Atk_Methods.hasEffector(target, tempname))
+                    {
+                        target.effectors.Add(dis);
+                    }
                     break;
                 //raises user evasive stage by one
                 case "double team":
@@ -633,7 +645,16 @@ namespace FatBobbyGaming
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
 
-                case "rage":                //while rage is active, user increases his/her attack by one stage each time the user is hit
+                case "rage":
+                    repeatAttack_Confused rage = new repeatAttack_Confused(tempname, 1, self);
+                    for (int i = 0; i < self.effectors.Count; i++)
+                    {
+                        if (self.effectors[i].name == tempname)
+                        {
+                            self.effectors[i].duration = 1;
+                        }
+                    }
+                    self.effectors.Add(rage);
                     break;
 
                 case "razor leaf":          //high crit ratio
@@ -722,6 +743,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "struggle":            //hurts the user if all the pp are gone
+                    recoil = self.maxHP / 4f;
                     break;
 
                 case "submission":
@@ -742,7 +764,12 @@ namespace FatBobbyGaming
                     break;
 
                 case "thrash":              //attacks for 2-3 turns, but cannot switch out or use a different attack
-
+                    int dur = Random.Range(2, 3);
+                    repeatAttack_Confused thrash = new repeatAttack_Confused(tempname, dur, self);
+                    if(!FBG_Atk_Methods.hasEffector(self, tempname))
+                    {
+                        self.effectors.Add(thrash);
+                    }
                     break;
 
                 case "thunder punch":
@@ -906,6 +933,12 @@ namespace FatBobbyGaming
                     break;
 
                 case "petal dance":         //attacks for 2-3 turns, cannot be switched out, then becomes confused
+                    int dur = Random.Range(2, 3);
+                    repeatAttack_Confused petalDance = new repeatAttack_Confused(tempname, dur, self);
+                    if (!FBG_Atk_Methods.hasEffector(self, tempname))
+                    {
+                        self.effectors.Add(petalDance);
+                    }
                     break;
 
                 case "psybeam":

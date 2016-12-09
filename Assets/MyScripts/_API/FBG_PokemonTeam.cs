@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 namespace FatBobbyGaming
 {
@@ -21,10 +21,10 @@ namespace FatBobbyGaming
         public int bindDuration;
         public float bindDamage;
 
+        public List<int> aliveIndexs = new List<int>();
 
         public FBG_PokemonTeam()
         {
-            enemyTeam = eTeam;
             init();
         }
 
@@ -43,24 +43,32 @@ namespace FatBobbyGaming
 
         public void addMist()
         {
+            if (hasMist) return;
+
             hasMist = true;
             mistDur = 5;
         }
 
         public void addLightScreen(int dur)
         {
+            if (hasLightScreen) return;
+
             hasLightScreen = true;
             lightScreenDur = dur;
         }
 
         public void addReflect(int dur)
         {
+            if (hasReflect) return;
+
             hasReflect = true;
             reflectDur = dur;
         }
 
         public void addBind(int dur, float dmg)
         {
+            if (isBound) return;
+
             isBound = true;
             bindDuration = dur;
             bindDamage = dmg;
@@ -82,6 +90,7 @@ namespace FatBobbyGaming
             reduceBind();
 
             //we do the leech seed damage and healing in the battleSim so we can add text and effects
+            //along with the bind as well
         }
 
         private void reduceLightScreen()

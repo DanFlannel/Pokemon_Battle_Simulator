@@ -11,6 +11,8 @@ namespace FatBobbyGaming
         //in order to generate the rest of the stats for the pokemon
         public FBG_PokemonTeam team;
 
+        public List<FBG_PokemonEffector> effectors = new List<FBG_PokemonEffector>();
+
         public nonVolitileStatusEffects status_A { get; set; }
         public int nonVolDuration { get; set; }
 

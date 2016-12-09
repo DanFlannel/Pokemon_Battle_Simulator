@@ -27,47 +27,18 @@ namespace FatBobbyGaming {
         public pokemonPosition position;
         public attackStatus atkStatus;
 
-        private PokemonTeam storedTeam;
-        private int storedIndex;
         private FBG_BattleSimulator battlesim;
         private List<FBG_Pokemon> pokemonTeamData = new List<FBG_Pokemon>();
 
         // Use this for initialization
         void Start() {
             battlesim = this.GetComponent<FBG_BattleSimulator>();
-            storedTeam = curTeam;
-            storedIndex = index;
             updateStats();
         }
 
         // Update is called once per frame
         void Update() {
-            if(checkTeam() || checkIndex())
-            {
-                //updateStats();
-            }
             updateStats();
-        }
-
-        private bool checkIndex()
-        {
-            if (storedIndex == index)
-            {
-                return false;
-            }
-            storedIndex = index;
-            return true;
-
-        }
-
-        private bool checkTeam()
-        {
-            if (storedTeam == curTeam)
-            {
-                return false;
-            }
-            storedTeam = curTeam;
-            return true;
         }
 
         private void updateStats()

@@ -39,7 +39,7 @@ namespace FatBobbyGaming
             string atkType = FBG_Atk_Data.attackList[atkIndex].type;
             int accuracy = FBG_Atk_Data.attackList[atkIndex].accuracy;
 
-            float baseDamage = calculateDamage(atkName, atkIndex);
+            float baseDamage = calculateDamage(atkName, atkCat, atkIndex);
             //Debug.Log("Base Damage: " + baseDamage);
             //this also sets our crit bool in the move results
             float dmgMod = modifier(atkName, atkType, MR);
@@ -101,26 +101,21 @@ namespace FatBobbyGaming
         /// <param name="atkName">takes in the name of the current attack being passed in</param>
         /// <returns>the final basic damage based on all modifiers and multipliers</returns>
         /// </summary>
-        private static float calculateDamage(string atkName, int atkIndex)
+        private static float calculateDamage(string atkName, string atkCat, int atkIndex)
         {
-            float dmg = 0;
-
-            string attackCat = FBG_Atk_Data.attackList[atkIndex].cat;
-            set_attack_and_def(attackCat);
-
-            if (calcExitConditions(attackCat, atkName, atkIndex))
+            if (calcExitConditions(atkCat, atkName, atkIndex))
             {
-                Debug.LogWarning("base damage exit conditions met");
-                return dmg;
+                Debug.LogWarning("damage exit conditions met");
+                return 0;
             }
 
-
+            set_attack_and_def(atkCat);
             float level_mod = levelModifier();
             float att_div_defense = ((float)FBG_Atk_Data.attackList[atkIndex].power) / defense_mod;
 
             //Debug.Log("attack div defense: " + baseAttackPower(attack_index) + "/" + defense_mod + " = " + att_div_defense);
-            
 
+            float dmg = 0;
             //Damage Calculations here
             dmg = level_mod;
             //Debug.Log("Damage LEVEL MOD: " + "mod: " + level_mod + " Damage: " + final_damage);
@@ -137,6 +132,13 @@ namespace FatBobbyGaming
             return dmg;
         }
 
+        /// <summary>
+        /// A set of variables for which we check if we even have to calculate damage for
+        /// </summary>
+        /// <param name="atkCat"></param>
+        /// <param name="atkName"></param>
+        /// <param name="atkIndex"></param>
+        /// <returns></returns>
         private static bool calcExitConditions(string atkCat, string atkName, int atkIndex)
         {
 

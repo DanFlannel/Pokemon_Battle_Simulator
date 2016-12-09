@@ -19,7 +19,6 @@ namespace FatBobbyGaming
         private FBG_PokemonTeam redTeamStatus = new FBG_PokemonTeam();
         public FBG_PokemonTeam blueTeamStatus = new FBG_PokemonTeam();
 
-
         public MoveResults redResult;
         [HideInInspector]
         public PokedexData pokeDex;
@@ -60,6 +59,11 @@ namespace FatBobbyGaming
         public void redTeamAttack(int index)
         {
             string atkName = redTeam[redIndex].atkMoves[index];
+
+            if (atkName == "")
+            {
+                return;
+            }
             //print(atkName);
             redResult = FBG_Atk_Calc.calculateAttackEffect(blueTeam[blueIndex], redTeam[redIndex], atkName);
             string pName = redTeam[redIndex].Name;
@@ -122,56 +126,15 @@ namespace FatBobbyGaming
             }
         }
 
-        private bool checkPlayerNVStatus(FBG_Pokemon self)
+        public void swapPokemon(FBG_Pokemon tar, FBG_Pokemon desired)
         {
-            if (self.status_A != nonVolitileStatusEffects.none)
+            if(tar.team == blueTeamStatus)
             {
-                if (self.status_A == nonVolitileStatusEffects.paralized)
-                {
-                    int rnd = UnityEngine.Random.Range(1, 4);
-                    if (rnd == 1)
-                    {
-                        string text = self.Name + " is Paralized!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
-                        return true;
-                    }
-                }
-                if (self.status_A == nonVolitileStatusEffects.sleep)
-                {
-                    self.nonVolDuration--;
-                    string text = "";
-                    if (self.nonVolDuration == 0)
-                    {
-                        text = self.Name + " woke up!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
-                    }
-                    else
-                    {
-                        text = self.Name + " is fast asleep!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
-                        return true;
-                    }
 
-                }
-                if (self.status_A == nonVolitileStatusEffects.frozen)
-                {
-                    int rnd = UnityEngine.Random.Range(1, 10);
-                    if (rnd >= 2)
-                    {
-                        string text = self.Name + " is Frozen!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
-                        return true;
-                    }
-                    else
-                    {
-                        self.status_A = nonVolitileStatusEffects.none;
-                        string text = self.Name + " thawed out!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
+            }else
+            {
 
-                    }
-                }
             }
-            return false;
         }
     }
 

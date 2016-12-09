@@ -469,5 +469,17 @@ namespace FatBobbyGaming
         {
 
         }
+
+        public static bool hasEffector(FBG_Pokemon target, string eName)
+        {
+            for (int i = 0; i < target.effectors.Count; i++)
+            {
+                if (target.effectors[i].name == eName)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
