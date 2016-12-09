@@ -3,24 +3,34 @@ using System.Collections;
 
 namespace FatBobbyGaming
 {
+    [System.Serializable]
     public class FBG_PokemonTeam
     {
+        public FBG_PokemonTeam enemyTeam;
+
         public bool hasMist;
         public bool hasReflect;
         public bool hasLightScreen;
         public bool isBound;
+        public bool hasLeechSeed;
 
         private int lightScreenDur;
         private int reflectDur;
         private int mistDur;
 
-        private int bindDuration;
-        private float bindDamage;
+        public int bindDuration;
+        public float bindDamage;
 
 
         public FBG_PokemonTeam()
         {
+            enemyTeam = eTeam;
             init();
+        }
+
+        public void assignEnemyTeam(ref FBG_PokemonTeam eTeam)
+        {
+            enemyTeam = eTeam;
         }
 
         public void init()
@@ -56,12 +66,22 @@ namespace FatBobbyGaming
             bindDamage = dmg;
         }
 
+        public void OnSwap()
+        {
+            if (enemyTeam.hasLeechSeed)
+            {
+                enemyTeam.hasLeechSeed = false;
+            }
+        }
+
         public void EndOfTurn()
         {
             reduceLightScreen();
             reduceMist();
             reduceReflect();
             reduceBind();
+
+            //we do the leech seed damage and healing in the battleSim so we can add text and effects
         }
 
         private void reduceLightScreen()

@@ -17,7 +17,7 @@ namespace FatBobbyGaming
         public int blueIndex;
 
         private FBG_PokemonTeam redTeamStatus = new FBG_PokemonTeam();
-        private FBG_PokemonTeam blueTeamStatus = new FBG_PokemonTeam();
+        public FBG_PokemonTeam blueTeamStatus = new FBG_PokemonTeam();
 
 
         public MoveResults redResult;
@@ -31,6 +31,9 @@ namespace FatBobbyGaming
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
+
+            redTeamStatus.assignEnemyTeam(ref blueTeamStatus);
+            blueTeamStatus.assignEnemyTeam(ref redTeamStatus);
 
             //get the enviornment ready
             FBG_BattleEnviornment.init();

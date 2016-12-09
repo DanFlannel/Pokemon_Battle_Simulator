@@ -154,9 +154,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "leech seed":
-                    //
-                    //
-                    //
+                    self.team.hasLeechSeed = true;
                     break;
 
                 case "leer":
@@ -170,8 +168,8 @@ namespace FatBobbyGaming
                     break;
 
                 case "lovely kiss":
-                    rnd = UnityEngine.Random.Range(1, 3);
-                    //puts the user to sleep for rnd turns
+                    rnd = Random.Range(1, 3);
+                    FBG_Atk_Methods.isSleep(target, 100, rnd);
                     break;
 
                 case "meditate":
@@ -401,7 +399,9 @@ namespace FatBobbyGaming
                     break;
 
                 case "bind":                //need to create a damage over time effect here for rndBind turns
-                    rnd = UnityEngine.Random.Range(4, 5);
+                    rnd = Random.Range(4, 5);
+                    float bindDmg = target.maxHP / 16f;
+                    target.team.addBind(rnd, bindDmg);
                     break;
 
                 case "bite":
@@ -422,7 +422,9 @@ namespace FatBobbyGaming
                     break;
 
                 case "clamp":               //traps for 4-5 turns dealing 1/16th damage
-                    rnd = UnityEngine.Random.Range(4, 5);
+                    rnd = Random.Range(4, 5);
+                    float clampDmg = target.maxHP / 16f;
+                    target.team.addBind(rnd, clampDmg);
                     break;
 
                 case "comet punch":
@@ -867,6 +869,9 @@ namespace FatBobbyGaming
                     break;
 
                 case "fire spin":           //Damages the target for 4-5 turns
+                    rnd = Random.Range(4, 5);
+                    float fSpingDmg = target.maxHP / 16f;
+                    target.team.addBind(rnd, fSpingDmg);
                     break;
 
                 case "flamethrower":
