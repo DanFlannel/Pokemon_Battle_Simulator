@@ -22,6 +22,7 @@ namespace FatBobbyGaming
         public MoveResults redResult;
         [HideInInspector]
         public PokedexData pokeDex;
+        public AttackData attackDex;
 
         public FBG_BattleGUI battleGUI;
 
@@ -39,6 +40,7 @@ namespace FatBobbyGaming
 
             //this initalizes our pokedex
             pokeDex = FBG_JsonReader.createPokeDex();
+            attackDex = FBG_JsonAttack.createAttackDex();
 
             //this creates our teams
             createTeams();
