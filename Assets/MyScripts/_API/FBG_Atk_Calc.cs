@@ -46,7 +46,10 @@ namespace FatBobbyGaming
             baseDamage = Mathf.Round(baseDamage * dmgMod);
             //Debug.Log("Damage: " + baseDamage);
 
-            MR.hit = checkAccuracy_and_Hit(self, tar, atkName, accuracy);
+            if (atkCat != FBG_consts.Status)
+            {
+                MR.hit = checkAccuracy_and_Hit(self, tar, atkName, accuracy);
+            }
 
             //Debug.Log("Attack Name: " + attack_name);
             FBG_Atk_Switch.setPokemon(tar, self, MR);
@@ -353,13 +356,15 @@ namespace FatBobbyGaming
         }
 
         /// <summary>
-        /// This method takes in the acuracy of the pokemon (always divisible by 5) and calculates if it hits or not and returns a boolean
+        /// This method takes in the acuracy of the pokemon and calculates if it hits or not and returns a boolean
         /// value based on if it hits
         /// <param name="accuracy">the accuracy of the move being passed in</param>
         /// <returns>true if the move hit, false if it missed</returns>
         /// </summary>
         private static bool checkAccuracy_and_Hit(FBG_Pokemon self, FBG_Pokemon tar,string atkName, int accuracy)
         {
+            //honestly double check the status of moves
+
             if(accuracy == 0)
             {
                 Debug.Log("Has 0 accuracy: " + atkName);
