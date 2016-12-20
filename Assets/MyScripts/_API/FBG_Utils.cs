@@ -11,7 +11,7 @@ namespace FatBobbyGaming
         /// </summary>
         /// <param name="self">the pokemon to check</param>
         /// <returns></returns>
-        private static bool checkPlayerNVStatus(FBG_Pokemon self)
+        public static bool checkPlayerNVStatus(FBG_Pokemon self)
         {
             if (self.status_A != nonVolitileStatusEffects.none)
             {
@@ -62,5 +62,30 @@ namespace FatBobbyGaming
             }
             return false;
         }
+
+        public static AttackJsonData getAttack(AttackData dex, int num)
+        {
+            for(int i = 0; i < dex.attacks.Length; i++)
+            {
+                if(dex.attacks[i].num == num)
+                {
+                    return dex.attacks[i];
+                }
+            }
+            return null;
+        }
+
+        public static AttackJsonData getAttack(AttackData dex, string name)
+        {
+            for (int i = 0; i < dex.attacks.Length; i++)
+            {
+                if (dex.attacks[i].id == name.ToLower())
+                {
+                    return dex.attacks[i];
+                }
+            }
+            return null;
+        }
+
     }
 }

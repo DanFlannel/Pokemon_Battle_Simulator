@@ -25,7 +25,6 @@ namespace FatBobbyGaming
         public string Name { get; private set; }
         public int Level { get; private set; }
 
-        //made these private to protect them
         private int baseHP { get; set; }
         private int baseAttack { get; set; }
         private int baseDefense { get; set; }
@@ -34,9 +33,6 @@ namespace FatBobbyGaming
         private int baseSpeed { get; set; }
         private int levelBonus { get; set; }
 
-        //*******************************************************//
-
-        //using properties to protect how these variables are set
         public string type1 { get; set; }
         public string type2 { get; set; }
         public dmgMult damageMultiplier { get; set; }
@@ -54,6 +50,8 @@ namespace FatBobbyGaming
         public int speed_stage { get; set; }
         public int acc_stage { get; set; }
         public int evasive_stage { get; set; }
+
+        public int critRatio_stage { get; set; }
 
         public List<string> atkMoves = new List<string>();
 

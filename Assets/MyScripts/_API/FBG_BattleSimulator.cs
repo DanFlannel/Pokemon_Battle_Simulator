@@ -11,7 +11,7 @@ namespace FatBobbyGaming
     {
         public List<FBG_Pokemon> redTeam = new List<FBG_Pokemon>();
         public List<FBG_Pokemon> blueTeam = new List<FBG_Pokemon>();
-        public static List<battleHistory> moveHistory = new List<battleHistory>();
+
         public int teamSize = 1;
         public int redIndex;
         public int blueIndex;
@@ -20,9 +20,10 @@ namespace FatBobbyGaming
         public FBG_PokemonTeam blueTeamStatus = new FBG_PokemonTeam();
 
         public MoveResults redResult;
-        [HideInInspector]
-        public PokedexData pokeDex;
-        public AttackData attackDex;
+
+        public static PokedexData pokeDex;
+        public static AttackData attackDex;
+        public static List<battleHistory> moveHistory = new List<battleHistory>();
 
         public FBG_BattleGUI battleGUI;
 

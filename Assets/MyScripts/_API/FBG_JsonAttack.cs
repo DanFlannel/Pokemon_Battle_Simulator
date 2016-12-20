@@ -26,7 +26,11 @@ namespace FatBobbyGaming
             //print(json.pokemon[0].name);
             for (int i = 0; i < a.attacks.Length; i++)
             {
-                UnityEngine.Debug.Log(string.Format("{0} {1}",i, a.attacks[i].name));
+                //UnityEngine.Debug.Log(string.Format("{0} {1}",i, a.attacks[i].name));
+                if(a.attacks[i].critRatio != 0)
+                {
+                    UnityEngine.Debug.Log(string.Format("{0} {1}", a.attacks[i].num, a.attacks[i].name));
+                }
             }
             //print(index);
         }
@@ -61,7 +65,7 @@ namespace FatBobbyGaming
         public string category;
         public string desc;
         public string shortDesc;
-        public int id;
+        public string id;
         public string name;
         public int pp;
         public int priority;
