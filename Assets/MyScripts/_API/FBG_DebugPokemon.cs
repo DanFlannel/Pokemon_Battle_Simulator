@@ -27,6 +27,8 @@ namespace FatBobbyGaming {
         public pokemonPosition position;
         public attackStatus atkStatus;
 
+        public int critRatio;
+
         private FBG_BattleSimulator battlesim;
         private List<FBG_Pokemon> pokemonTeamData = new List<FBG_Pokemon>();
 
@@ -80,6 +82,8 @@ namespace FatBobbyGaming {
 
             damageMultiplier = p.damageMultiplier;
             nextAttack = p.nextAttack;
+
+            critRatio = p.critRatio_stage;
         }
     }
 }

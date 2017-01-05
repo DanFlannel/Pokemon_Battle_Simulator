@@ -417,7 +417,7 @@ namespace FatBobbyGaming
         private static bool isCrit(int chance)
         {
             float divider = 1f / (float)chance;
-            Debug.Log("crit chance: " + divider);
+            Debug.Log("crit chance: " + divider * 100f);
             return FBG_Atk_Methods.Chance_100(divider * 100f);
         }
 
