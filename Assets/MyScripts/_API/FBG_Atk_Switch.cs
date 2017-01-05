@@ -45,7 +45,7 @@ namespace FatBobbyGaming
                     Debug.Log("No status move with name " + name + " found");
                     break;
 
-                //raises users defense by 2 stages
+                //raises users defense by 2 stagesage
                 case "acid armor":
                     FBG_Atk_Methods.changeStats(FBG_consts.defense, 2, self);
                     stageName = FBG_consts.defense;
@@ -122,9 +122,11 @@ namespace FatBobbyGaming
 
                 //increases crit ratio...
                 case "focus energy":
-                    //
-                    //
-                    //
+                    self.critRatio_stage++;
+                    if(self.critRatio_stage > 6)
+                    {
+                        self.critRatio_stage = 6;
+                    }
                     break;
 
                 case "growl":
@@ -646,7 +648,7 @@ namespace FatBobbyGaming
                     break;
 
                 case "rage":
-                    repeatAttack_Confused rage = new repeatAttack_Confused(tempname, 1, self);
+                    rage r = new rage(tempname, 1, self);
                     for (int i = 0; i < self.effectors.Count; i++)
                     {
                         if (self.effectors[i].name == tempname)
@@ -654,7 +656,7 @@ namespace FatBobbyGaming
                             self.effectors[i].duration = 1;
                         }
                     }
-                    self.effectors.Add(rage);
+                    self.effectors.Add(r);
                     break;
 
                 case "razor leaf":          //high crit ratio

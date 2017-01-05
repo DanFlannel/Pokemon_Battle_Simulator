@@ -39,6 +39,7 @@ namespace FatBobbyGaming
         {
             target.team.addBind(1, 0);
             target.nextAttack = name;
+            duration--;
         }
     }
 
@@ -55,18 +56,23 @@ namespace FatBobbyGaming
             target = tar;
         }
 
-        public void endEffect()
-        {
-            target.updateStatStage(FBG_consts.attack, 1);
-            return;
-        }
+        public void endEffect() { }
 
         public void turnEffect()
         {
             //if we are hit by a direct contact our attack goes up by one stat
             //how do I check if the last attack was a direct contact one?
             //Move battle history -> get move name -> check to see if it was a direct contact
-            FBG_Atk_Methods.changeStats(FBG_consts.attack, 1, target);
+
+            string prevAttack = FBG_BattleSimulator.moveHistory[FBG_BattleSimulator.moveHistory.Count].attackName;
+            AttackJsonData atk = FBG_JsonAttack.getAttack(FBG_BattleSimulator.attackDex, prevAttack);
+            bool contact = FBG_JsonAttack.checkFlags("contact", atk);
+
+            if (contact)
+            {
+                FBG_Atk_Methods.changeStats(FBG_consts.attack, 1, target);
+            }
+            duration--;
         }
     }
 

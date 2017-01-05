@@ -7,6 +7,30 @@ namespace FatBobbyGaming
 {
     public static class FBG_JsonAttack
     {
+
+        /*
+        List of flags and their descriptions:
+        authentic: Ignores a target's substitute.
+        bite: Power is multiplied by 1.5 when used by a Pokemon with the Ability Strong Jaw.
+        bullet: Has no effect on Pokemon with the Ability Bulletproof.
+        charge: The user is unable to make a move between turns.
+        contact: Makes contact.
+        defrost: Thaws the user if executed successfully while the user is frozen.
+        distance: Can target a Pokemon positioned anywhere in a Triple Battle.
+        gravity: Prevented from being executed or selected during Gravity's effect.
+        heal: Prevented from being executed or selected during Heal Block's effect.
+        mirror: Can be copied by Mirror Move.
+        nonsky: Prevented from being executed or selected in a Sky Battle.
+        powder: Has no effect on Grass-type Pokemon, Pokemon with the Ability Overcoat, and Pokemon holding Safety Goggles.
+        protect: Blocked by Detect, Protect, Spiky Shield, and if not a Status move, King's Shield.
+        pulse: Power is multiplied by 1.5 when used by a Pokemon with the Ability Mega Launcher.
+        punch: Power is multiplied by 1.2 when used by a Pokemon with the Ability Iron Fist.
+        recharge: If this move is successful, the user must recharge on the following turn and cannot make a move.
+        reflectable: Bounced back to the original user by Magic Coat or the Ability Magic Bounce.
+        snatch: Can be stolen from the original user and instead used by another Pokemon using Snatch.
+        sound: Has no effect on Pokemon with the Ability Soundproof.
+        */
+
         public static AttackData createAttackDex()
         {
             TextAsset jsonFile = loadTextFile();
@@ -27,7 +51,7 @@ namespace FatBobbyGaming
             for (int i = 0; i < a.attacks.Length; i++)
             {
                 //UnityEngine.Debug.Log(string.Format("{0} {1}",i, a.attacks[i].name));
-                if(a.attacks[i].critRatio != 0)
+                if (a.attacks[i].critRatio != 0)
                 {
                     UnityEngine.Debug.Log(string.Format("{0} {1}", a.attacks[i].num, a.attacks[i].name));
                 }
@@ -47,6 +71,35 @@ namespace FatBobbyGaming
             }
             t = o as TextAsset;
             return t;
+        }
+
+        public static bool checkFlags(string flag, AttackJsonData attack)
+        {
+            if (attack.flags.Length == 0) return false;
+
+            for (int i = 0; i < attack.flags.Length; i++)
+            {
+                if (flag.ToLower() == attack.flags[i].ToLower())
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static AttackJsonData getAttack(AttackData attackdex, string atkName)
+        {
+
+
+            for(int i = 0; i < attackdex.attacks.Length; i++)
+            {
+                if(atkName.ToLower() == attackdex.attacks[i].name.ToLower())
+                {
+                    return attackdex.attacks[i];
+                }
+            }
+
+            return null; 
         }
     }
 
