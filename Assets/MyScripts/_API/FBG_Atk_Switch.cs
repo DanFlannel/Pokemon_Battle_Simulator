@@ -336,6 +336,7 @@ namespace FatBobbyGaming
 
                 case "teleport":
                     //say something stupid here
+                    //change the enviornment but not the weather
                     FBG_Atk_Methods.noAdditionalEffect();
                     break;
 
@@ -537,7 +538,6 @@ namespace FatBobbyGaming
                     FBG_Atk_Methods.oneHitKO(target, self, moveRes);
                     break;
 
-                //*****************************************//
                 case "fly":
                     if (self.atkStatus == attackStatus.normal)
                     {

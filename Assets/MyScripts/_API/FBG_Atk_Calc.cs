@@ -42,7 +42,7 @@ namespace FatBobbyGaming
             float baseDamage = calculateDamage(atkName, atkCat, atkIndex);
             //Debug.Log("Base Damage: " + baseDamage);
             //this also sets our crit bool in the move results
-            float dmgMod = modifier(atkName, atkType, MR);
+            float dmgMod = modifier(self, atkName, atkType, MR);
             baseDamage = Mathf.Round(baseDamage * dmgMod);
             //Debug.Log("Damage: " + baseDamage);
 
@@ -178,7 +178,7 @@ namespace FatBobbyGaming
         /// <param name="atkName">the name of the move being passed in</param>
         /// <returns>the final value of all the modifiers</returns>
         /// </summary>
-        private static float modifier(string atkName, string attackType, MoveResults mr)
+        private static float modifier(FBG_Pokemon self, string atkName, string attackType, MoveResults mr)
         {
             float modifier;
             float stab = 1f;
@@ -188,7 +188,7 @@ namespace FatBobbyGaming
             }
 
             float critical = 1f;
-            int critProb = critChance(atkName);
+            int critProb = critChance(self, atkName);
             //Debug.Log("Crit chance: 1 /" + critProb);
             bool crit = isCrit(critProb);
             mr.crit = crit;
@@ -363,8 +363,6 @@ namespace FatBobbyGaming
         /// </summary>
         private static bool checkAccuracy_and_Hit(FBG_Pokemon self, FBG_Pokemon tar,string atkName, int accuracy)
         {
-            //honestly double check the status of moves
-
             if(accuracy == 0)
             {
                 Debug.Log("Has 0 accuracy: " + atkName);
@@ -418,45 +416,65 @@ namespace FatBobbyGaming
         ///</summary>
         private static bool isCrit(int chance)
         {
-            int guess = UnityEngine.Random.Range(1, chance);
-            int guess2 = UnityEngine.Random.Range(1, chance);
-
-            if (guess == guess2)
-            {
-                return true;
-            }
-            return false;
+            float divider = 1f / (float)chance;
+            Debug.Log("crit chance: " + divider);
+            return FBG_Atk_Methods.Chance_100(divider * 100f);
         }
 
         /// <summary>
-        /// Handles the cases where the move has a high probability of getting a critical hit (1/8) versus (1/16)
+        /// Handles the crit ratio of the pokemon and of the attack move
         /// </summary>
-        /// <param name="name"> the name of the attack</param>
+        /// <param name="atkName"> the name of the attack</param>
         /// <returns>the crit chance of the move either (1/8) or (1/16)</returns>
-        private static int critChance(string name)
+        private static int critChance(FBG_Pokemon self, string atkName)
         {
-            int chance;
-            switch (name.ToLower())
+            int stage = self.critRatio_stage;
+            int atkratio =  FBG_JsonAttack.getAttack(FBG_BattleSimulator.attackDex, atkName).critRatio;
+            int total = stage + atkratio;
+            int final;
+            switch (total)
             {
                 default:
-                    chance = 16;
+                    final = 16;
                     break;
-                case "crabhamer":
-                    chance = 8;
+
+                case 0:
+                    final = 16;
                     break;
-                case "karate chop":
-                    chance = 8;
+
+                case 1:
+                    final = 8;
                     break;
-                case "razor leaf":
-                    chance = 8;
+
+                case 2:
+                    final = 2;
                     break;
-                case "slash":
-                    chance = 8;
+
+                case 3:
+                    final = 1;
                     break;
+
+                case 4:
+                    final = 1;
+                    break;
+
+                case 5:
+                    final = 1;
+                    break;
+
+                case 6:
+                    final = 1;
+                    break;
+
             }
-            return chance;
+            return final;
         }
 
+        /// <summary>
+        /// This checks if we ignore accuracy and evasion, simply using a string array that we define
+        /// </summary>
+        /// <param name="atkName"></param>
+        /// <returns></returns>
         private static bool ignoreAcc_Evade(string atkName)
         {
             string name = atkName.ToLower();

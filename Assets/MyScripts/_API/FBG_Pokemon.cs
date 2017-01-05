@@ -5,10 +5,6 @@ namespace FatBobbyGaming
 {
     public class FBG_Pokemon
     {
-
-        //*****************************************************//
-        //these are the only variables that can be passed in
-        //in order to generate the rest of the stats for the pokemon
         public FBG_PokemonTeam team;
 
         public List<FBG_PokemonEffector> effectors = new List<FBG_PokemonEffector>();
