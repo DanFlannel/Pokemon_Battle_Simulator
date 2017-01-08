@@ -53,7 +53,7 @@ namespace FatBobbyGaming
                 //UnityEngine.Debug.Log(string.Format("{0} {1}",i, a.attacks[i].name));
                 if (a.attacks[i].critRatio != 0)
                 {
-                    //UnityEngine.Debug.Log(string.Format("{0} {1}", a.attacks[i].num, a.attacks[i].name));
+                    UnityEngine.Debug.Log(string.Format("{0} {1}", a.attacks[i].num, a.attacks[i].name));
                 }
             }
             //print(index);

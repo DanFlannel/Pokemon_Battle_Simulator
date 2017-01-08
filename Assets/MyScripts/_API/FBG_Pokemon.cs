@@ -107,7 +107,7 @@ namespace FatBobbyGaming
             spAttack_Stage = 0;
             spDefense_stage = 0;
             speed_stage = 0;
-            critRatio_stage = 0;
+            critRatio_stage = 1;
         }
 
         /// <summary>
