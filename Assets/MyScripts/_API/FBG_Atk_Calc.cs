@@ -429,7 +429,7 @@ namespace FatBobbyGaming
         private static int critChance(FBG_Pokemon self, string atkName)
         {
             int stage = self.critRatio_stage;
-            int atkratio =  FBG_JsonAttack.getAttack(FBG_BattleSimulator.attackDex, atkName).critRatio - 1;
+            int atkratio = FBG_BattleSimulator.attackDex.Get(atkName).critRatio - 1;
             int total = stage + atkratio;
             int final;
 
