@@ -102,7 +102,7 @@ namespace FatBobbyGaming
                 id = Random.Range(0, 151);
                 //id = 0;
                 //level = 100;
-                data = FBG_JsonReader.pokemonStats(pokeDex, id);
+                data = pokeDex.getStats(id);
                 attacks = FBG_Atk_Data.masterGetAttacks(id);
                 //print(string.Format("{0}", attacks.Count));
                 pokemon = new FBG_Pokemon(level, data, attacks, ref redTeamStatus);
@@ -111,7 +111,7 @@ namespace FatBobbyGaming
 
                 id = Random.Range(0, 151);
                 //id = 1;
-                data = FBG_JsonReader.pokemonStats(pokeDex, id);
+                data = pokeDex.getStats(id);
                 attacks = FBG_Atk_Data.masterGetAttacks(id);
                 pokemon = new FBG_Pokemon(level, data, attacks, ref blueTeamStatus);
 

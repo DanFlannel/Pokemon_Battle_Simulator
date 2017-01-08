@@ -23,14 +23,6 @@ namespace FatBobbyGaming
             return p;
         }
 
-        public static corePokemonData pokemonStats(PokedexData p, int id)
-        {
-            PokemonJsonData pokemon = p.pokemon[id];
-            
-            corePokemonData data = new corePokemonData(pokemon);
-            return data;
-        }
-
         private static void createDamageMultipliers(PokedexData Pokedex)
         {
             Stopwatch sw = new Stopwatch();

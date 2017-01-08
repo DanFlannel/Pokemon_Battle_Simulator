@@ -65,8 +65,7 @@ namespace FatBobbyGaming
             //Move battle history -> get move name -> check to see if it was a direct contact
 
             string prevAttack = FBG_BattleSimulator.moveHistory[FBG_BattleSimulator.moveHistory.Count].attackName;
-            AttackJsonData atk = FBG_JsonAttack.getAttack(FBG_BattleSimulator.attackDex, prevAttack);
-            bool contact = FBG_JsonAttack.checkFlags("contact", atk);
+            bool contact = FBG_BattleSimulator.attackDex.checkFlag(prevAttack, "contact");
 
             if (contact)
             {

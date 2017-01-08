@@ -72,35 +72,6 @@ namespace FatBobbyGaming
             t = o as TextAsset;
             return t;
         }
-
-        public static bool checkFlags(string flag, AttackJsonData attack)
-        {
-            if (attack.flags.Length == 0) return false;
-
-            for (int i = 0; i < attack.flags.Length; i++)
-            {
-                if (flag.ToLower() == attack.flags[i].ToLower())
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        public static AttackJsonData getAttack(AttackData attackdex, string atkName)
-        {
-
-
-            for(int i = 0; i < attackdex.attacks.Length; i++)
-            {
-                if(atkName.ToLower() == attackdex.attacks[i].name.ToLower())
-                {
-                    return attackdex.attacks[i];
-                }
-            }
-
-            return null; 
-        }
     }
 
     [Serializable]
