@@ -42,7 +42,7 @@ namespace FatBobbyGaming
             //debugRedTeam();
 
             battleGUI = this.GetComponent<FBG_BattleGUI>();
-            checkButtonNames();
+            battleGUI.checkButtonNames(redTeam, redIndex);
 
             sw.Stop();
             print(string.Format("Time to load {0}ms", sw.ElapsedMilliseconds));
@@ -50,7 +50,7 @@ namespace FatBobbyGaming
 
         void Update()
         {
-            checkButtonNames();
+            battleGUI.checkButtonNames(redTeam, redIndex);
         }
 
         public void redTeamAttack(int index)
@@ -91,18 +91,6 @@ namespace FatBobbyGaming
 
             battleHistory hist = new battleHistory(self.Name, atkName, blueResult);
             moveHistory.Add(hist);          
-        }
-
-        //cheap way of doing mimic and transform
-        public void checkButtonNames()
-        {
-            for(int i = 0; i < battleGUI.btns.Length; i++)
-            {
-                if(redTeam[redIndex].atkMoves[i] != battleGUI.btns[i].GetComponentInChildren<Text>().text)
-                {
-                    battleGUI.setButtonNames(redTeam[redIndex].atkMoves);
-                }
-            }
         }
 
         private void createTeams()

@@ -63,29 +63,5 @@ namespace FatBobbyGaming
             return false;
         }
 
-        public static AttackJsonData getAttack(AttackData dex, int num)
-        {
-            for(int i = 0; i < dex.attacks.Length; i++)
-            {
-                if(dex.attacks[i].num == num)
-                {
-                    return dex.attacks[i];
-                }
-            }
-            return null;
-        }
-
-        public static AttackJsonData getAttack(AttackData dex, string name)
-        {
-            for (int i = 0; i < dex.attacks.Length; i++)
-            {
-                if (dex.attacks[i].id == name.ToLower())
-                {
-                    return dex.attacks[i];
-                }
-            }
-            return null;
-        }
-
     }
 }
