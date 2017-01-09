@@ -20,15 +20,13 @@ namespace FatBobbyGaming
         public FBG_PokemonTeam blueTeamStatus = new FBG_PokemonTeam();
 
         public MoveResults redResult;
-
-        public static PokedexData pokeDex;
-        public static AttackData attackDex;
+        public MoveResults blueResult;
         public static List<battleHistory> moveHistory = new List<battleHistory>();
 
         public FBG_BattleGUI battleGUI;
 
         // Use this for initialization
-        void Awake()
+        private void Start()
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
@@ -38,10 +36,6 @@ namespace FatBobbyGaming
 
             //get the enviornment ready
             FBG_BattleEnviornment.init();
-
-            //this initalizes our pokedex
-            pokeDex = FBG_JsonReader.createPokeDex();
-            attackDex = FBG_JsonAttack.createAttackDex();
 
             //this creates our teams
             createTeams();
@@ -68,12 +62,35 @@ namespace FatBobbyGaming
                 return;
             }
             //print(atkName);
-            redResult = FBG_Atk_Calc.calculateAttackEffect(blueTeam[blueIndex], redTeam[redIndex], atkName);
-            string pName = redTeam[redIndex].Name;
 
-            battleHistory hist = new battleHistory(pName, atkName, redResult);
+            FBG_Pokemon self = redTeam[redIndex];
+            FBG_Pokemon tar = blueTeam[blueIndex];
+            redResult = FBG_Atk_Calc.calculateAttackEffect(tar,self, atkName);
+
+            //I have to redo how the history is done
+            battleHistory hist = new battleHistory(self.Name, atkName, redResult);
             moveHistory.Add(hist);
 
+        }
+
+        //this is the random AI attack
+        private void blueTeamAttack()
+        {
+            int len = blueTeam[blueIndex].atkMoves.Count;
+            int rnd = Random.Range(0, len);
+            string atkName = blueTeam[blueIndex].atkMoves[rnd];
+
+            while (atkName == "")
+            {
+                rnd = Random.Range(0, len);
+                atkName = blueTeam[blueIndex].atkMoves[rnd];
+            }
+            FBG_Pokemon self = blueTeam[blueIndex];
+            FBG_Pokemon tar = redTeam[redIndex];
+            blueResult = FBG_Atk_Calc.calculateAttackEffect(tar, self, atkName);
+
+            battleHistory hist = new battleHistory(self.Name, atkName, blueResult);
+            moveHistory.Add(hist);          
         }
 
         //cheap way of doing mimic and transform
@@ -102,7 +119,7 @@ namespace FatBobbyGaming
                 id = Random.Range(0, 151);
                 //id = 0;
                 //level = 100;
-                data = pokeDex.getStats(id);
+                data = FBG_DexHandler.pokeDex.getStats(id);
                 attacks = FBG_Atk_Data.masterGetAttacks(id);
                 //print(string.Format("{0}", attacks.Count));
                 pokemon = new FBG_Pokemon(level, data, attacks, ref redTeamStatus);
@@ -111,7 +128,7 @@ namespace FatBobbyGaming
 
                 id = Random.Range(0, 151);
                 //id = 1;
-                data = pokeDex.getStats(id);
+                data = FBG_DexHandler.pokeDex.getStats(id);
                 attacks = FBG_Atk_Data.masterGetAttacks(id);
                 pokemon = new FBG_Pokemon(level, data, attacks, ref blueTeamStatus);
 

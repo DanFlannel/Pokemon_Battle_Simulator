@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-namespace FatBobbyGaming {
-    public class FBG_DebugPokemon : MonoBehaviour {
+namespace FatBobbyGaming
+{
+    public class FBG_DebugPokemon : MonoBehaviour
+    {
 
         [Header("Team Information")]
         public PokemonTeam curTeam = PokemonTeam.redTeam;
@@ -33,19 +35,21 @@ namespace FatBobbyGaming {
         private List<FBG_Pokemon> pokemonTeamData = new List<FBG_Pokemon>();
 
         // Use this for initialization
-        void Start() {
+        void Start()
+        {
             battlesim = this.GetComponent<FBG_BattleSimulator>();
             updateStats();
         }
 
         // Update is called once per frame
-        void Update() {
+        void Update()
+        {
             updateStats();
         }
 
         private void updateStats()
         {
-            if(curTeam == PokemonTeam.redTeam)
+            if (curTeam == PokemonTeam.redTeam)
             {
                 pokemonTeamData = battlesim.redTeam;
             }
@@ -63,6 +67,8 @@ namespace FatBobbyGaming {
             {
                 index = 0;
             }
+
+            if (pokemonTeamData.Count == 0) return;
 
             FBG_Pokemon p = pokemonTeamData[index];
             pokeName = p.Name;
