@@ -610,9 +610,9 @@ namespace FatBobbyGaming {
             attackList.Add(new attacks("Peck", FBG_consts.Flying, FBG_consts.Physical, 35, 100, 35));
             attackList.Add(new attacks("Petal Dance", FBG_consts.Grass, FBG_consts.Special, 120, 100, 10));
             attackList.Add(new attacks("Pin Missile", FBG_consts.Bug, FBG_consts.Physical, 25, 85, 20));
-            attackList.Add(new attacks("FBG_consts.Poison Gas", FBG_consts.Poison, FBG_consts.Status, 0, 90, 40));
-            attackList.Add(new attacks("FBG_consts.Poison Powder", FBG_consts.Poison, FBG_consts.Status, 0, 75, 35));
-            attackList.Add(new attacks("FBG_consts.Poison Sting", FBG_consts.Poison, FBG_consts.Physical, 15, 100, 35));
+            attackList.Add(new attacks("Poison Gas", FBG_consts.Poison, FBG_consts.Status, 0, 90, 40));
+            attackList.Add(new attacks("Poison Powder", FBG_consts.Poison, FBG_consts.Status, 0, 75, 35));
+            attackList.Add(new attacks("Poison Sting", FBG_consts.Poison, FBG_consts.Physical, 15, 100, 35));
             attackList.Add(new attacks("Pound", FBG_consts.Normal, FBG_consts.Physical, 40, 100, 35));
             attackList.Add(new attacks("Psybeam", FBG_consts.Psychic, FBG_consts.Special, 65, 100, 20));
             attackList.Add(new attacks("Psychic", FBG_consts.Psychic, FBG_consts.Special, 90, 100, 10));
