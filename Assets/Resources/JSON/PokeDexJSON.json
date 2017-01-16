@@ -474,7 +474,7 @@
         },
 
         {
-            "name": "spearow:",
+            "name": "spearow",
             "num": 21,
             "species": "Spearow",
             "types": [ "Normal", "Flying" ],
@@ -813,7 +813,7 @@
         },
 
         {
-            "name": "clefable:",
+            "name": "clefable",
             "num": 36,
             "species": "Clefable",
             "types": [ "Fairy" ],
