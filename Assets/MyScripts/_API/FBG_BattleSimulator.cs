@@ -134,6 +134,7 @@ namespace FatBobbyGaming
             }
         }
 
+        //this swaps the index??
         public void swapPokemon(FBG_Pokemon tar, FBG_Pokemon desired)
         {
             if(tar.team == blueTeamStatus)
