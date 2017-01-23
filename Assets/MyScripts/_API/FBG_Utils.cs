@@ -11,8 +11,9 @@ namespace FatBobbyGaming
         /// </summary>
         /// <param name="self">the pokemon to check</param>
         /// <returns></returns>
-        public static bool checkPlayerNVStatus(FBG_Pokemon self)
+        public static nonVolitleMove isMoveHaltedByNV(FBG_Pokemon self)
         {
+            string text = "";
             if (self.status_A != nonVolitileStatusEffects.none)
             {
                 if (self.status_A == nonVolitileStatusEffects.paralized)
@@ -20,25 +21,21 @@ namespace FatBobbyGaming
                     int rnd = UnityEngine.Random.Range(1, 4);
                     if (rnd == 1)
                     {
-                        string text = self.Name + " is Paralized!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
-                        return true;
+                        text = self.Name + " is Paralized!";
+                        return new nonVolitleMove(text, true);
                     }
                 }
                 if (self.status_A == nonVolitileStatusEffects.sleep)
                 {
                     self.nonVolDuration--;
-                    string text = "";
                     if (self.nonVolDuration == 0)
                     {
                         text = self.Name + " woke up!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
                     }
                     else
                     {
                         text = self.Name + " is fast asleep!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
-                        return true;
+                        return new nonVolitleMove(text, true);
                     }
 
                 }
@@ -47,21 +44,30 @@ namespace FatBobbyGaming
                     int rnd = UnityEngine.Random.Range(1, 10);
                     if (rnd >= 2)
                     {
-                        string text = self.Name + " is Frozen!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
-                        return true;
+                        text = self.Name + " is Frozen!";
+                        return new nonVolitleMove(text, true);
                     }
                     else
                     {
                         self.status_A = nonVolitileStatusEffects.none;
-                        string text = self.Name + " thawed out!";
-                        //c_Queue.AddCoroutineToQueue(DisplayText(text));
-
+                        text = self.Name + " thawed out!";
                     }
                 }
             }
-            return false;
+            return new nonVolitleMove(text, false);
         }
 
+    }
+
+    public class nonVolitleMove
+    {
+        public string text;
+        public bool isAffected;
+       
+        public nonVolitleMove(string t, bool b)
+        {
+            text = t;
+            isAffected = b;
+        }
     }
 }

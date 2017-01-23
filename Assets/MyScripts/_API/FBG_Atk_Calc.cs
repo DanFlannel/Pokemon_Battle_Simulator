@@ -21,7 +21,7 @@ namespace FatBobbyGaming
         /// </summary>
         public static MoveResults calculateAttackEffect(FBG_Pokemon tar, FBG_Pokemon self, string atkName)
         {
-            MoveResults MR = new MoveResults();
+            MoveResults MR = new MoveResults(atkName);
             move_DmgReport report = new move_DmgReport();
             targetPokemon = tar;
             thisPokemon = self;
@@ -502,10 +502,16 @@ namespace FatBobbyGaming
     [Serializable]
     public class MoveResults
     {
+        public string name;
         public bool hit;
         public bool crit;
         public bool flinched;
         public move_DmgReport dmgReport;
+
+        public MoveResults(string s)
+        {
+            name = s;
+        }
     }
 
 }
