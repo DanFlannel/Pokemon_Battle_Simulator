@@ -80,6 +80,9 @@ namespace FatBobbyGaming
             FBG_Pokemon tar = blueTeam[blueIndex];
             redResult = FBG_Atk_Calc.calculateAttackEffect(tar,self, atkName);
 
+            battleHistory hist = new battleHistory(self.Name, redResult.name, redResult);
+            moveHistory.Add(hist);
+
             isRedMoveCalculated = true;
         }
 
@@ -104,7 +107,10 @@ namespace FatBobbyGaming
             FBG_Pokemon tar = redTeam[redIndex];
             blueResult = FBG_Atk_Calc.calculateAttackEffect(tar, self, atkName);
 
-            isBlueMoveCalculated = true;       
+            battleHistory hist = new battleHistory(self.Name, blueResult.name, blueResult);
+            moveHistory.Add(hist);
+
+            isBlueMoveCalculated = true;
         }
 
         private void createTeams()
@@ -208,18 +214,15 @@ namespace FatBobbyGaming
             }
 
             //Recoil
-            if(move.dmgReport.recoil > 0)
+            if (move.dmgReport.recoil > 0)
             {
-                if(self.curHp - move.dmgReport.recoil <= 0)
+                if (self.curHp - move.dmgReport.recoil <= 0)
                 {
                     move.dmgReport.recoil = self.curHp;
                 }
                 self.curHp -= (int)move.dmgReport.recoil;
                 //we have to force ourselves to switch
             }
-
-            battleHistory hist = new battleHistory(self.Name, move.name, move);
-            moveHistory.Add(hist);
         }
 
         //this swaps the index??
