@@ -80,8 +80,20 @@ namespace FatBobbyGaming
             FBG_Pokemon tar = blueTeam[blueIndex];
             redResult = FBG_Atk_Calc.calculateAttackEffect(tar,self, atkName);
 
-            battleHistory hist = new battleHistory(self.Name, redResult.name, redResult);
-            moveHistory.Add(hist);
+            //if we go first we add the move to the history of moves
+            if (redTeam[redIndex].Speed > blueTeam[blueIndex].Speed)
+            {
+                battleHistory hist = new battleHistory(self.Name, redResult.name, redResult);
+                moveHistory.Add(hist);
+            }else
+            {
+                //if we go seconds and didnt die, we also add the move to the history of moves
+                if(redTeam[redIndex].curHp - blueResult.dmgReport.damage > 0)
+                {
+                    battleHistory hist = new battleHistory(self.Name, redResult.name, redResult);
+                    moveHistory.Add(hist);
+                }
+            }
 
             isRedMoveCalculated = true;
         }
@@ -107,8 +119,20 @@ namespace FatBobbyGaming
             FBG_Pokemon tar = redTeam[redIndex];
             blueResult = FBG_Atk_Calc.calculateAttackEffect(tar, self, atkName);
 
-            battleHistory hist = new battleHistory(self.Name, blueResult.name, blueResult);
-            moveHistory.Add(hist);
+            //if this pokemon went first we add that move to our history of moves
+            if(blueTeam[blueIndex].Speed > redTeam[redIndex].Speed)
+            {
+                battleHistory hist = new battleHistory(self.Name, blueResult.name, blueResult);
+                moveHistory.Add(hist);
+            }else
+            {
+                //if we didnt go first we will add this move to the history if we don't die before we use it
+                if(blueTeam[blueIndex].curHp - redResult.dmgReport.damage > 0)
+                {
+                    battleHistory hist = new battleHistory(self.Name, blueResult.name, blueResult);
+                    moveHistory.Add(hist);
+                }
+            }
 
             isBlueMoveCalculated = true;
         }
@@ -181,6 +205,7 @@ namespace FatBobbyGaming
         /// <param name="move">the move results when calculated</param>
         private void doMove(FBG_Pokemon tar, FBG_Pokemon self, MoveResults move)
         {
+            //if the current pokemon is dead, then we do not apply damage, heal, or recoil
             if (self.curHp <= 0) return;
             if(self.status_A != nonVolitileStatusEffects.none)
             {
