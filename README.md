@@ -7,13 +7,12 @@
   __What is it?__
   ---
 
-  The Pokemon Battle Simulator is a powerful yet lightweight generation 1 battle simulator. The intent of this project is to create a mobile version of the battles in pokemon found in generation 1. I am using the most recent stats found in generation 6 including the fairy type. I will hopefully complete the entire databases from Generation 1 - 6 for the attacks, damage multipliers and pokemon themselves however will only code the attacks associated with generation 1, but leaving room for more generation of attacks to be coded. This app will ideally use all the sprites from the most recent pokemon game for graphics and some particle effects if  can get that far. 
-  I will post issues as they pop up and they are more like a todo list. I hope that this turns out okay. It has been a long time coming. 
+  The Pokemon Battle Simulator is a powerful yet lightweight generation 1 battle simulator. The goal origionally was to have a mobile version available to attack basic AI with all of the attack moves and any pokemon in the game. Now the goal is adjusted to be simply Pokemon Statium in VR.
   
   __What is left?__
   ---
   
-  Above states that the ideal pokemon game will use sprites but due to the recent popularity of pokemon go, there is a chance that I might be able to use AR and the same models, plus you know the particle effects that I have mentioned, which aren't done. What is left is to do the damage effects/status, 30 attacks, and the swap feature, and some basic AI where the enemy swaps out dead pokemon, and finally an end battle check. As well as making the UI better for the actual game, once these are completed, that the random battle generation is done. Also I would like to have the pokedex/database (generation 1 only) finished updating along with all 600+ attacks (all generations). The download will be constantly updated as I just found out googleDrive has a versions thing where I can continually upload to the same download link which is awesome.
+  Above states that the ideal pokemon game will use sprites but due to the recent popularity of pokemon go, and VR, I have to implement all of the pokemon models in VR, I have noticed they aren't rigged so while this poses an issue, we will see how I move forward. What is left is 2 attack moves, final calulcations and a basic mobile version, with basic AI and functionality. After this is completed for both android and iPhone I will move on to the VR portion, which should be simple if I already have the mobile version completed. Also I would like to have the pokedex/database (generation 1 only) finished updating along with all 600+ attacks (all generations). There is no current download as I redid a lot of it and lost some functionality in the process. 
   
   __The Latest Version__
   ---
@@ -32,7 +31,7 @@
   **Downloading**
   ---  
   You must have Unity 5 installed, the current version is being built 
-  on 5.3.4f
+  on 5.5.0
   
   You should save this in its own folder, then go under open project in
   unity and navigate to the main folder of this project.
