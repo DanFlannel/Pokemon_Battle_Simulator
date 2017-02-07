@@ -94,7 +94,6 @@ namespace FatBobbyGaming
                     moveHistory.Add(hist);
                 }
             }
-
             isRedMoveCalculated = true;
         }
 
@@ -133,7 +132,6 @@ namespace FatBobbyGaming
                     moveHistory.Add(hist);
                 }
             }
-
             isBlueMoveCalculated = true;
         }
 
