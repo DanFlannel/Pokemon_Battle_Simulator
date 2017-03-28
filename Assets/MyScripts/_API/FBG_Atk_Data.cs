@@ -704,7 +704,7 @@ namespace FatBobbyGaming {
             BulbasarAttacks.Add(new attackIndex(searchAttackList("Growl"), 1));
             BulbasarAttacks.Add(new attackIndex(searchAttackList("Leech Seed"), 7));
             BulbasarAttacks.Add(new attackIndex(searchAttackList("Vine Whip"), 13));
-            BulbasarAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 20));
+            BulbasarAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 20));
             BulbasarAttacks.Add(new attackIndex(searchAttackList("Razor Leaf"), 27));
             BulbasarAttacks.Add(new attackIndex(searchAttackList("Growth"), 34));
             BulbasarAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 41));
@@ -726,7 +726,7 @@ namespace FatBobbyGaming {
             IvysaurAttacks.Add(new attackIndex(searchAttackList("Growl"), 1));
             IvysaurAttacks.Add(new attackIndex(searchAttackList("Leech Seed"), 1));
             IvysaurAttacks.Add(new attackIndex(searchAttackList("Vine Whip"), 13));
-            IvysaurAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 22));
+            IvysaurAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 22));
             IvysaurAttacks.Add(new attackIndex(searchAttackList("Razor Leaf"), 30));
             IvysaurAttacks.Add(new attackIndex(searchAttackList("Growth"), 38));
             IvysaurAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 46));
@@ -746,7 +746,7 @@ namespace FatBobbyGaming {
             VenusaurAttacks.Add(new attackIndex(searchAttackList("Growl"), 1));
             VenusaurAttacks.Add(new attackIndex(searchAttackList("Leech Seed"), 1));
             VenusaurAttacks.Add(new attackIndex(searchAttackList("Vine Whip"), 13));
-            VenusaurAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 22));
+            VenusaurAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 22));
             VenusaurAttacks.Add(new attackIndex(searchAttackList("Razor Leaf"), 30));
             VenusaurAttacks.Add(new attackIndex(searchAttackList("Growth"), 38));
             VenusaurAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 46));
@@ -901,7 +901,7 @@ namespace FatBobbyGaming {
         private static void Butterfree()
         {
             ButterfreeAttacks.Add(new attackIndex(searchAttackList("Confusion"), 1));
-            ButterfreeAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 15));
+            ButterfreeAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 15));
             ButterfreeAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 16));
             ButterfreeAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 17));
             ButterfreeAttacks.Add(new attackIndex(searchAttackList("Supersonic"), 21));
@@ -916,7 +916,7 @@ namespace FatBobbyGaming {
 
         private static void Weedle()
         {
-            WeedleAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 1));
+            WeedleAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 1));
             WeedleAttacks.Add(new attackIndex(searchAttackList("String Shot"), 1));
             master_attack_list.Add(new masterAttackList("Weedle", WeedleAttacks));
         }
@@ -1068,7 +1068,7 @@ namespace FatBobbyGaming {
         {
             EkansAttacks.Add(new attackIndex(searchAttackList("Leer"), 1));
             EkansAttacks.Add(new attackIndex(searchAttackList("Wrap"), 1));
-            EkansAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 10));
+            EkansAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 10));
             EkansAttacks.Add(new attackIndex(searchAttackList("Bite"), 17));
             EkansAttacks.Add(new attackIndex(searchAttackList("Glare"), 24));
             EkansAttacks.Add(new attackIndex(searchAttackList("Screech"), 31));
@@ -1086,7 +1086,7 @@ namespace FatBobbyGaming {
         {
             ArbokAttacks.Add(new attackIndex(searchAttackList("Leer"), 1));
             ArbokAttacks.Add(new attackIndex(searchAttackList("Wrap"), 1));
-            ArbokAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 1));
+            ArbokAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 1));
             ArbokAttacks.Add(new attackIndex(searchAttackList("Bite"), 17));
             ArbokAttacks.Add(new attackIndex(searchAttackList("Glare"), 27));
             ArbokAttacks.Add(new attackIndex(searchAttackList("Screech"), 36));
@@ -1142,7 +1142,7 @@ namespace FatBobbyGaming {
             SandshrewAttacks.Add(new attackIndex(searchAttackList("Scratch"), 1));
             SandshrewAttacks.Add(new attackIndex(searchAttackList("Sand Attack"), 10));
             SandshrewAttacks.Add(new attackIndex(searchAttackList("Slash"), 17));
-            SandshrewAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 24));
+            SandshrewAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 24));
             SandshrewAttacks.Add(new attackIndex(searchAttackList("Swift"), 31));
             SandshrewAttacks.Add(new attackIndex(searchAttackList("Fury Swipes"), 38));
 
@@ -1159,7 +1159,7 @@ namespace FatBobbyGaming {
             SandslashAttacks.Add(new attackIndex(searchAttackList("Scratch"), 1));
             SandslashAttacks.Add(new attackIndex(searchAttackList("Sand Attack"), 1));
             SandslashAttacks.Add(new attackIndex(searchAttackList("Slash"), 17));
-            SandslashAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 27));
+            SandslashAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 27));
             SandslashAttacks.Add(new attackIndex(searchAttackList("Swift"), 36));
             SandslashAttacks.Add(new attackIndex(searchAttackList("Fury Swipes"), 47));
 
@@ -1176,7 +1176,7 @@ namespace FatBobbyGaming {
             Nidoran_FAttacks.Add(new attackIndex(searchAttackList("Growl"), 1));
             Nidoran_FAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
             Nidoran_FAttacks.Add(new attackIndex(searchAttackList("Scratch"), 8));
-            Nidoran_FAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 14));
+            Nidoran_FAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 14));
             Nidoran_FAttacks.Add(new attackIndex(searchAttackList("Tail Whip"), 21));
             Nidoran_FAttacks.Add(new attackIndex(searchAttackList("Bite"), 29));
             Nidoran_FAttacks.Add(new attackIndex(searchAttackList("Fury Swipes"), 36));
@@ -1193,7 +1193,7 @@ namespace FatBobbyGaming {
             NidorinaAttacks.Add(new attackIndex(searchAttackList("Growl"), 1));
             NidorinaAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
             NidorinaAttacks.Add(new attackIndex(searchAttackList("Scratch"), 1));
-            NidorinaAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 14));
+            NidorinaAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 14));
             NidorinaAttacks.Add(new attackIndex(searchAttackList("Tail Whip"), 23));
             NidorinaAttacks.Add(new attackIndex(searchAttackList("Bite"), 32));
             NidorinaAttacks.Add(new attackIndex(searchAttackList("Fury Swipes"), 41));
@@ -1211,7 +1211,7 @@ namespace FatBobbyGaming {
             NidoqueenAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
             NidoqueenAttacks.Add(new attackIndex(searchAttackList("Tail Whip"), 1));
             NidoqueenAttacks.Add(new attackIndex(searchAttackList("Body Slam"), 1));
-            NidoqueenAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 14));
+            NidoqueenAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 14));
 
             int[] tm = {MegaPunch,MegaKick, Toxic,HornDrill, BodySlam,TakeDown, DoubleEdge,WaterGun,IceBeam, Blizzard,
             HyperBeam,Payday,Submission,Counter,SeismicToss,ThunderBolt,Thunder,Earthquake, Mimic, DoubleTeam,Reflect,
@@ -1227,7 +1227,7 @@ namespace FatBobbyGaming {
             Nidoran_MAttacks.Add(new attackIndex(searchAttackList("Leer"), 1));
             Nidoran_MAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
             Nidoran_MAttacks.Add(new attackIndex(searchAttackList("Horn Attack"), 8));
-            Nidoran_MAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 14));
+            Nidoran_MAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 14));
             Nidoran_MAttacks.Add(new attackIndex(searchAttackList("Focus Energy"), 21));
             Nidoran_MAttacks.Add(new attackIndex(searchAttackList("Fury Attack"), 29));
             Nidoran_MAttacks.Add(new attackIndex(searchAttackList("Horn Drill"), 36));
@@ -1244,7 +1244,7 @@ namespace FatBobbyGaming {
             NidorinoAttacks.Add(new attackIndex(searchAttackList("Growl"), 1));
             NidorinoAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
             NidorinoAttacks.Add(new attackIndex(searchAttackList("Scratch"), 1));
-            NidorinoAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 14));
+            NidorinoAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 14));
             NidorinoAttacks.Add(new attackIndex(searchAttackList("Tail Whip"), 23));
             NidorinoAttacks.Add(new attackIndex(searchAttackList("Bite"), 32));
             NidorinoAttacks.Add(new attackIndex(searchAttackList("Fury Swipes"), 41));
@@ -1259,7 +1259,7 @@ namespace FatBobbyGaming {
         private static void NidoKing()
         {
             NidokingAttacks.Add(new attackIndex(searchAttackList("Horn Attack"), 1));
-            NidokingAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 1));
+            NidokingAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 1));
             NidokingAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
             NidokingAttacks.Add(new attackIndex(searchAttackList("Thrash"), 1));
 
@@ -1405,7 +1405,7 @@ namespace FatBobbyGaming {
         private static void Oddish()
         {
             OddishAttacks.Add(new attackIndex(searchAttackList("Absorb"), 1));
-            OddishAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 15));
+            OddishAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 15));
             OddishAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 17));
             OddishAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 19));
             OddishAttacks.Add(new attackIndex(searchAttackList("Acid"), 24));
@@ -1423,7 +1423,7 @@ namespace FatBobbyGaming {
         private static void Gloom()
         {
             GloomAttacks.Add(new attackIndex(searchAttackList("Absorb"), 1));
-            GloomAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 1));
+            GloomAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 1));
             GloomAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 1));
             GloomAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 19));
             GloomAttacks.Add(new attackIndex(searchAttackList("Acid"), 28));
@@ -1444,7 +1444,7 @@ namespace FatBobbyGaming {
             VileplumeAttacks.Add(new attackIndex(searchAttackList("Petal Dance"), 1));
             VileplumeAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 1));
             VileplumeAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 1));
-            VileplumeAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 15));
+            VileplumeAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 15));
 
             int[] tm = {SwordsDance, Toxic,TakeDown, DoubleEdge,HyperBeam, Rage,MegaDrain, SolarBeam, Mimic, DoubleTeam,
             Reflect,Bide,Rest, Substitute};
@@ -1492,7 +1492,7 @@ namespace FatBobbyGaming {
         {
             VenonatAttacks.Add(new attackIndex(searchAttackList("Disable"), 1));
             VenonatAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
-            VenonatAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 24));
+            VenonatAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 24));
             VenonatAttacks.Add(new attackIndex(searchAttackList("Leech Life"), 27));
             VenonatAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 30));
             VenonatAttacks.Add(new attackIndex(searchAttackList("Psybeam"), 35));
@@ -1508,7 +1508,7 @@ namespace FatBobbyGaming {
         private static void Venomoth()
         {
             VenomothAttacks.Add(new attackIndex(searchAttackList("Disable"), 1));
-            VenomothAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 1));
+            VenomothAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 1));
             VenomothAttacks.Add(new attackIndex(searchAttackList("Leech Life"), 1));
             VenomothAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
             VenomothAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 30));
@@ -1847,7 +1847,7 @@ namespace FatBobbyGaming {
             BellsproutAttacks.Add(new attackIndex(searchAttackList("Growth"), 1));
             BellsproutAttacks.Add(new attackIndex(searchAttackList("Vine Whip"), 1));
             BellsproutAttacks.Add(new attackIndex(searchAttackList("Wrap"), 13));
-            BellsproutAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 15));
+            BellsproutAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 15));
             BellsproutAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 18));
             BellsproutAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 21));
             BellsproutAttacks.Add(new attackIndex(searchAttackList("Acid"), 26));
@@ -1867,7 +1867,7 @@ namespace FatBobbyGaming {
             WeepinbellAttacks.Add(new attackIndex(searchAttackList("Growth"), 1));
             WeepinbellAttacks.Add(new attackIndex(searchAttackList("Vine Whip"), 1));
             WeepinbellAttacks.Add(new attackIndex(searchAttackList("Wrap"), 1));
-            WeepinbellAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 15));
+            WeepinbellAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 15));
             WeepinbellAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 18));
             WeepinbellAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 23));
             WeepinbellAttacks.Add(new attackIndex(searchAttackList("Acid"), 29));
@@ -1889,7 +1889,7 @@ namespace FatBobbyGaming {
             VictreebelAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 1));
             VictreebelAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 1));
             VictreebelAttacks.Add(new attackIndex(searchAttackList("Wrap"), 13));
-            VictreebelAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 15));
+            VictreebelAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 15));
 
             int[] tm = {SwordsDance, Toxic, TakeDown, DoubleEdge,HyperBeam, Rage,MegaDrain,SolarBeam,Mimic, DoubleTeam,
             Reflect, Bide, Rest, Substitute};
@@ -1904,7 +1904,7 @@ namespace FatBobbyGaming {
             TentacoolAttacks.Add(new attackIndex(searchAttackList("Acid"), 1));
             TentacoolAttacks.Add(new attackIndex(searchAttackList("Supersonic"), 7));
             TentacoolAttacks.Add(new attackIndex(searchAttackList("Wrap"), 13));
-            TentacoolAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 18));
+            TentacoolAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 18));
             TentacoolAttacks.Add(new attackIndex(searchAttackList("Water Gun"), 22));
             TentacoolAttacks.Add(new attackIndex(searchAttackList("Constrict"), 27));
             TentacoolAttacks.Add(new attackIndex(searchAttackList("Barrier"), 33));
@@ -1924,7 +1924,7 @@ namespace FatBobbyGaming {
             TentacruelAttacks.Add(new attackIndex(searchAttackList("Acid"), 1));
             TentacruelAttacks.Add(new attackIndex(searchAttackList("Supersonic"), 1));
             TentacruelAttacks.Add(new attackIndex(searchAttackList("Wrap"), 1));
-            TentacruelAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Sting"), 18));
+            TentacruelAttacks.Add(new attackIndex(searchAttackList("Poison Sting"), 18));
             TentacruelAttacks.Add(new attackIndex(searchAttackList("Water Gun"), 22));
             TentacruelAttacks.Add(new attackIndex(searchAttackList("Constrict"), 27));
             TentacruelAttacks.Add(new attackIndex(searchAttackList("Barrier"), 35));
@@ -2197,7 +2197,7 @@ namespace FatBobbyGaming {
         {
             GrimerAttacks.Add(new attackIndex(searchAttackList("Disable"), 1));
             GrimerAttacks.Add(new attackIndex(searchAttackList("Pound"), 1));
-            GrimerAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Gas"), 30));
+            GrimerAttacks.Add(new attackIndex(searchAttackList("Poison Gas"), 30));
             GrimerAttacks.Add(new attackIndex(searchAttackList("Minimize"), 33));
             GrimerAttacks.Add(new attackIndex(searchAttackList("Sludge"), 37));
             GrimerAttacks.Add(new attackIndex(searchAttackList("Harden"), 42));
@@ -2214,7 +2214,7 @@ namespace FatBobbyGaming {
         {
             MukAttacks.Add(new attackIndex(searchAttackList("Disable"), 1));
             MukAttacks.Add(new attackIndex(searchAttackList("Pound"), 1));
-            MukAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Gas"), 30));
+            MukAttacks.Add(new attackIndex(searchAttackList("Poison Gas"), 30));
             MukAttacks.Add(new attackIndex(searchAttackList("Minimize"), 33));
             MukAttacks.Add(new attackIndex(searchAttackList("Sludge"), 37));
             MukAttacks.Add(new attackIndex(searchAttackList("Harden"), 45));
@@ -2330,7 +2330,7 @@ namespace FatBobbyGaming {
             DrowzeeAttacks.Add(new attackIndex(searchAttackList("Disable"), 12));
             DrowzeeAttacks.Add(new attackIndex(searchAttackList("Confusion"), 17));
             DrowzeeAttacks.Add(new attackIndex(searchAttackList("Headbutt"), 24));
-            DrowzeeAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Gas"), 29));
+            DrowzeeAttacks.Add(new attackIndex(searchAttackList("Poison Gas"), 29));
             DrowzeeAttacks.Add(new attackIndex(searchAttackList("Psychic"), 32));
             DrowzeeAttacks.Add(new attackIndex(searchAttackList("Meditate"), 37));
 
@@ -2351,7 +2351,7 @@ namespace FatBobbyGaming {
             HypnoAttacks.Add(new attackIndex(searchAttackList("Disable"), 1));
             HypnoAttacks.Add(new attackIndex(searchAttackList("Confusion"), 1));
             HypnoAttacks.Add(new attackIndex(searchAttackList("Headbutt"), 24));
-            HypnoAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Gas"), 33));
+            HypnoAttacks.Add(new attackIndex(searchAttackList("Poison Gas"), 33));
             HypnoAttacks.Add(new attackIndex(searchAttackList("Psychic"), 37));
             HypnoAttacks.Add(new attackIndex(searchAttackList("Meditate"), 43));
 
@@ -2445,7 +2445,7 @@ namespace FatBobbyGaming {
             ExeggcuteAttacks.Add(new attackIndex(searchAttackList("Reflect"), 25));
             ExeggcuteAttacks.Add(new attackIndex(searchAttackList("Leech Seed"), 28));
             ExeggcuteAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 32));
-            ExeggcuteAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 37));
+            ExeggcuteAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 37));
             ExeggcuteAttacks.Add(new attackIndex(searchAttackList("Solar Beam"), 42));
             ExeggcuteAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 48));
 
@@ -2657,7 +2657,7 @@ namespace FatBobbyGaming {
             TangelaAttacks.Add(new attackIndex(searchAttackList("Bind"), 1));
             TangelaAttacks.Add(new attackIndex(searchAttackList("Constrict"), 1));
             TangelaAttacks.Add(new attackIndex(searchAttackList("Absorb"), 29));
-            TangelaAttacks.Add(new attackIndex(searchAttackList("FBG_consts.Poison Powder"), 32));
+            TangelaAttacks.Add(new attackIndex(searchAttackList("Poison Powder"), 32));
             TangelaAttacks.Add(new attackIndex(searchAttackList("Stun Spore"), 36));
             TangelaAttacks.Add(new attackIndex(searchAttackList("Sleep Powder"), 39));
             TangelaAttacks.Add(new attackIndex(searchAttackList("Slam"), 45));
