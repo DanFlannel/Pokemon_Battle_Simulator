@@ -4,19 +4,18 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Diagnostics;
+using FBG.Data;
 
 public class PokedexJsonReader : MonoBehaviour
 {
 
     public TextAsset jsonFile;
     private PokedexData json;
-    private PokemonDamageMultipliers pdm;
 
     // Use this for initialization
     void Awake()
     {
         createPokeDex();
-        pdm = this.GetComponent<PokemonDamageMultipliers>();
         createDamageMultipliers();
     }
 
@@ -40,7 +39,7 @@ public class PokedexJsonReader : MonoBehaviour
         sw.Start();
         for (int i = 0; i < json.pokemon.Length -1; i++)
         {
-            json.pokemon[i].damageMultiplier = pdm.createMultiplier(json.pokemon[i].types);
+            json.pokemon[i].damageMultiplier = DamageMultipliers.createMultiplier(json.pokemon[i].types);
         }
         sw.Stop();
         print("time to create dmg multipliers in ms: " + sw.ElapsedMilliseconds);
