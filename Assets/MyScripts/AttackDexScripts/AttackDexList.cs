@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using FBG.Data;
+using FBG.JSON;
 
 /// <summary>
 /// 
@@ -9,18 +11,17 @@ public class AttackDexList : MonoBehaviour {
 
     public GameObject prefab;
     public GameObject content;
-    public Moves movesData;
+    private AttackData movesData;
 
 	// Use this for initialization
 	void Start () {
-
-        movesData = GameObject.FindGameObjectWithTag("Moves").GetComponent<Moves>();
+        movesData = DexHolder.attackDex;
         GenerateList();
 	}
 
     private void GenerateList()
     {
-        for(int i = 0; i < movesData.PokemonMoves.Count; i++)
+        for(int i = 0; i < movesData.attacks.Length; i++)
         {
             GameObject go = Instantiate(prefab, content.transform.position, Quaternion.identity) as GameObject;
             go.transform.SetParent(content.transform);
@@ -28,7 +29,7 @@ public class AttackDexList : MonoBehaviour {
             go.transform.localScale = new Vector3(1, 1, 1);
 
             Text t = go.GetComponentInChildren<Text>();
-            t.text = movesData.PokemonMoves[i].name;
+            t.text = movesData.attacks[i].name;
 
             go.GetComponent<AttackDexButtons>().id = i;
         }
