@@ -9,7 +9,6 @@ namespace FBG.Attack
 {
     public class PhysicalAtkHandler : BaseMoves, IAttackHandler
     {
-
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
         public MoveResults moveRes { get; set; }

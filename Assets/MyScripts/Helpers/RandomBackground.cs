@@ -17,9 +17,6 @@ public class RandomBackground : MonoBehaviour {
         setRndBackground();
 	}
 
-    /// <summary>
-    /// Gets
-    /// </summary>
     private void setRndBackground()
     {
         raw = this.GetComponent<RawImage>();
