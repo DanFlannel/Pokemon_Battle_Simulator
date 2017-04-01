@@ -372,6 +372,8 @@ namespace FBG.Attack
             }
             Debug.Log(string.Format(" dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4}", damage, heal, recoil, stageName, stageDiff));
 
+            ignoreLightScreen = false;
+            ignoreReflect = false;
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
             return report;
         }

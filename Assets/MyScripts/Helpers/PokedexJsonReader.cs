@@ -8,7 +8,6 @@ using FBG.Data;
 
 public class PokedexJsonReader : MonoBehaviour
 {
-
     public TextAsset jsonFile;
     private PokedexData json;
 

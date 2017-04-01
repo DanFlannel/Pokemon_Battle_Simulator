@@ -250,6 +250,8 @@ namespace FBG.Attack
                 damage /= 2f;
             }
 
+            ignoreLightScreen = false;
+            ignoreReflect = false;
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
             return report;
         }
