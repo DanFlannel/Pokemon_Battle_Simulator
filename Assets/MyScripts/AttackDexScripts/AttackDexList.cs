@@ -12,6 +12,7 @@ public class AttackDexList : MonoBehaviour {
     public GameObject prefab;
     public GameObject content;
     private AttackData movesData;
+    public int moveCap;
 
 	// Use this for initialization
 	void Start () {
@@ -23,15 +24,18 @@ public class AttackDexList : MonoBehaviour {
     {
         for(int i = 0; i < movesData.attacks.Length; i++)
         {
-            GameObject go = Instantiate(prefab, content.transform.position, Quaternion.identity) as GameObject;
-            go.transform.SetParent(content.transform);
+            if (movesData.attacks[i].num < moveCap)
+            {
+                GameObject go = Instantiate(prefab, content.transform.position, Quaternion.identity) as GameObject;
+                go.transform.SetParent(content.transform);
 
-            go.transform.localScale = new Vector3(1, 1, 1);
+                go.transform.localScale = new Vector3(1, 1, 1);
 
-            Text t = go.GetComponentInChildren<Text>();
-            t.text = movesData.attacks[i].name;
+                Text t = go.GetComponentInChildren<Text>();
+                t.text = movesData.attacks[i].name;
 
-            go.GetComponent<AttackDexButtons>().id = i;
+                go.GetComponent<AttackDexButtons>().id = i;
+            }
         }
     }
 }
