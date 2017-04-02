@@ -209,48 +209,65 @@ namespace FBG.Battle
         private void doMove(PokemonBase tar, PokemonBase self, MoveResults move)
         {
             //if the current pokemon is dead, then we do not apply damage, heal, or recoil
-            if (self.curHp <= 0) return;
+            if (self.curHp <= 0) { return; }
+            if (!checkNVStatus(self))
+            {
+                return;
+            }
+
+            //Damage
+            applyDamage(tar, self, move);
+
+            //Heal
+            applyHeal(tar, self, move);
+
+            //Recoil
+            applyRecoil(tar, self, move);
+        }
+
+        private bool checkNVStatus(PokemonBase self)
+        {
             if (self.status_A != nonVolitileStatusEffects.none)
             {
                 nonVolitleMove nv = Utilities.isMoveHaltedByNV(self);
                 if (nv.isAffected)
                 {
                     //well we don't do the move.... but we gotta say something in the text
-                    return;
+                    return true;
                 }
             }
+            return false;
+        }
 
-            //Damage
-            if (move.dmgReport.damage != 0)
+        private void applyDamage(PokemonBase tar, PokemonBase self, MoveResults move)
+        {
+            if (move.dmgReport.damage == 0) { return; }
+            if (tar.curHp - move.dmgReport.damage <= 0)
             {
-                if (tar.curHp - move.dmgReport.damage <= 0)
-                {
-                    move.dmgReport.damage = tar.curHp;
-                }
-                tar.curHp -= (int)move.dmgReport.damage;
-                //now we have to force the other team to switch!
+                move.dmgReport.damage = tar.curHp;
             }
+            tar.curHp -= (int)move.dmgReport.damage;
+            //now we have to force the other team to switch!
+        }
 
-            //Heal
-            if (move.dmgReport.heal > 0)
+        private void applyHeal(PokemonBase tar, PokemonBase self, MoveResults move)
+        {
+            if (move.dmgReport.heal == 0) { return; }
+            if (move.dmgReport.heal + self.curHp > self.maxHP)
             {
-                if (move.dmgReport.heal + self.curHp > self.maxHP)
-                {
-                    move.dmgReport.heal = self.maxHP - self.curHp;
-                }
-                self.curHp += (int)move.dmgReport.heal;
+                move.dmgReport.heal = self.maxHP - self.curHp;
             }
+            self.curHp += (int)move.dmgReport.heal;
+        }
 
-            //Recoil
-            if (move.dmgReport.recoil > 0)
+        private void applyRecoil(PokemonBase tar, PokemonBase self, MoveResults move)
+        {
+            if (move.dmgReport.recoil == 0) { return; }
+            if (self.curHp - move.dmgReport.recoil <= 0)
             {
-                if (self.curHp - move.dmgReport.recoil <= 0)
-                {
-                    move.dmgReport.recoil = self.curHp;
-                }
-                self.curHp -= (int)move.dmgReport.recoil;
-                //we have to force ourselves to switch
+                move.dmgReport.recoil = self.curHp;
             }
+            self.curHp -= (int)move.dmgReport.recoil;
         }
 
         //this swaps the index??

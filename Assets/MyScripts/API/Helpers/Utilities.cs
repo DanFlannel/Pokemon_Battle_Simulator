@@ -78,6 +78,72 @@ namespace FBG.Base
             }
             return new nonVolitleMove(text, isAffected);
         }
+
+        /// <summary>
+        /// This takes in a list and generates a random list of unique integers based off that number
+        /// </summary>
+        /// <param name="attackMoves"></param>
+        /// <returns></returns>
+        public static List<int> generateRandomList(int totalPossibleMoves)
+        {
+            List<int> rndNumberList = new List<int>();
+            //this is supposed to be a const
+            int MOVES = 4;
+
+            //Debug.Log("Range: " + totalPossibleMoves);
+            //Debug.Log("List Cout: " + list.Count);
+            int numToAdd = -1;
+            //if the pokemon has more than 4 moves that it can learn, then we pick from those randomly
+            if (totalPossibleMoves > MOVES)
+            {
+                for (int i = 0; i < MOVES; i++)
+                {
+                    numToAdd = UnityEngine.Random.Range(0, totalPossibleMoves);
+                    while (rndNumberList.Contains(numToAdd))
+                    {
+                        numToAdd = UnityEngine.Random.Range(0, totalPossibleMoves);
+                    }
+                    rndNumberList.Add(numToAdd);
+                }
+            }
+            //this ensures that all possible moves are added for pokemon with less than or equal to 4 moves
+            else
+            {
+                //Debug.LogWarning(string.Format("{0} total moves {1}", Name, totalPossibleMoves));
+
+                int totalMoves = 0;
+                for (int i = 0; i < MOVES; i++)
+                {
+                    if (totalMoves < totalPossibleMoves)
+                    {
+                        numToAdd = i;
+                        totalMoves++;
+                    }
+                    else
+                    {
+                        numToAdd = UnityEngine.Random.Range(0, totalMoves);
+                    }
+                    rndNumberList.Add(numToAdd);
+                }
+            }
+            //Debug.Log(string.Format("Name: {0} Total: {1} indexes: {2} {3} {4} {5}",
+            //    Name, totalPossibleMoves,
+            //    rndNumberList[0], rndNumberList[1], rndNumberList[2], rndNumberList[3]));
+            return rndNumberList;
+        }
+
+
+        public static bool probability(float prob, float bounds)
+        {
+            bool chance = false;
+            float guess = Random.Range(0, bounds);
+            //Debug.Log(guess + " : " + prob);
+            if (guess < prob)
+            {
+                chance = true;
+            }
+            return chance;
+        }
     }
 
     public class nonVolitleMove

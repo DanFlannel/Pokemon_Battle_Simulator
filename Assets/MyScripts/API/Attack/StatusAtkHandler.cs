@@ -166,8 +166,8 @@ namespace FBG.Attack
                     isSleep(target, 100, rnd);
                     break;
 
+                //lower enemy accuracy by 1 stage
                 case "kinesis":
-                    //lower enemy accuracy by 1 stage
                     changeStats(Consts.accuracy, -1, target);
                     stageName = Consts.accuracy;
                     stageDiff = -1;
@@ -253,19 +253,23 @@ namespace FBG.Attack
                     heal = self.maxHP / 2f;
                     break;
 
-                case "reflect":             //halves the damage from physical attacks for 5 turns
+                //halves the damage from physical attacks for 5 turns
+                case "reflect":             
                     self.team.addReflect(5);
                     break;
 
-                case "rest":                //user falls asleep for 2 turns but health is fully recovered
+                //user falls asleep for 2 turns but health is fully recovered
+                case "rest":                
                     heal = self.maxHP;
                     isSleep(self, 100, 2);
                     break;
 
-                case "roar":                //opponent switches pokemon out
+                //opponent switches pokemon out
+                case "roar":                
                     break;
 
-                case "sand attack":         //lowers opponent accuracy by one stage
+                //lowers opponent accuracy by one stage
+                case "sand attack":         
                     changeStats(Consts.accuracy, -1, target);
                     stageName = Consts.accuracy;
                     stageDiff = -1;
@@ -283,12 +287,14 @@ namespace FBG.Attack
                     stageDiff = 1;
                     break;
 
-                case "sing":                //puts the user to sleep for 1-3 turns
+                //puts the user to sleep for 1-3 turns
+                case "sing":                
                     rnd = Random.Range(1, 3);
                     isSleep(target, 100, rnd);
                     break;
 
-                case "smokescreen":         //lower accuracy by one stage
+                //lower accuracy by one stage
+                case "smokescreen":         
                     changeStats(Consts.accuracy, -1, target);
                     stageName = Consts.accuracy;
                     stageDiff = -1;
@@ -298,11 +304,13 @@ namespace FBG.Attack
                     heal = self.maxHP / 2f;
                     break;
 
-                case "splash":              //This does nothing
+                //This does nothing
+                case "splash":              
                     damage = 0;
                     break;
 
-                case "spore":               //puts the opponent to sleep for 1-3 turns
+                //puts the opponent to sleep for 1-3 turns
+                case "spore":               
                     rnd = UnityEngine.Random.Range(1, 3);
                     isSleep(target, 100, rnd);
                     break;
@@ -348,15 +356,14 @@ namespace FBG.Attack
                     isParalized(target, 100);
                     break;
 
-                case "toxic":               //increasingly does more toxic damage at the end of each turn, starts at 1/16
+                //increasingly does more toxic damage at the end of each turn, starts at 1/16
+                case "toxic":               
                     toxic(target);
                     break;
 
                 //takes the attacks of the opponent
                 case "transform":
                     self.atkMoves = target.atkMoves;
-
-                    //need to update atk buttons names if we are the player
                     break;
 
                 //blows the opponent away if they are a lower level

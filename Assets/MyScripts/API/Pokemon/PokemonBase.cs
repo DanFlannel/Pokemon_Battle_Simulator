@@ -100,7 +100,7 @@ namespace FBG.Base
             //need to set these to something before updaing them
             setStages();
             generatePokemonStats(Level);
-            randomNumbers = generateRandomList(attackMoves.Count);
+            randomNumbers = Utilities.generateRandomList(attackMoves.Count);
             SetAttacks(attackMoves, randomNumbers);
             //Debug.Log(attackMoves.Count);
         }
@@ -153,64 +153,24 @@ namespace FBG.Base
             //Debug.Log("Stats generated");
         }
 
-        /// <summary>
-        /// This takes in a list and generates a random list of unique integers based off that liast
-        /// </summary>
-        /// <param name="attackMoves"></param>
-        /// <returns></returns>
-        private List<int> generateRandomList(int totalPossibleMoves)
-        {
-            List<int> rndNumberList = new List<int>();
-            //this is supposed to be a const
-            int MOVES = 4;
-
-            //Debug.Log("Range: " + totalPossibleMoves);
-            //Debug.Log("List Cout: " + list.Count);
-            int numToAdd = -1;
-            //if the pokemon has more than 4 moves that it can learn, then we pick from those randomly
-            if (totalPossibleMoves > MOVES)
-            {
-                for (int i = 0; i < MOVES; i++)
-                {
-                    numToAdd = UnityEngine.Random.Range(0, totalPossibleMoves);
-                    while (rndNumberList.Contains(numToAdd))
-                    {
-                        numToAdd = UnityEngine.Random.Range(0, totalPossibleMoves);
-                    }
-                    rndNumberList.Add(numToAdd);
-                }
-            }
-            //this ensures that all possible moves are added for pokemon with less than or equal to 4 moves
-            else
-            {
-                //Debug.LogWarning(string.Format("{0} total moves {1}", Name, totalPossibleMoves));
-
-                int totalMoves = 0;
-                for (int i = 0; i < MOVES; i++)
-                {
-                    if (totalMoves < totalPossibleMoves)
-                    {
-                        numToAdd = i;
-                        totalMoves++;
-                    }
-                    else
-                    {
-                        numToAdd = UnityEngine.Random.Range(0, totalMoves);
-                    }
-                    rndNumberList.Add(numToAdd);
-                }
-            }
-            //Debug.Log(string.Format("Name: {0} Total: {1} indexes: {2} {3} {4} {5}",
-            //    Name, totalPossibleMoves,
-            //    rndNumberList[0], rndNumberList[1], rndNumberList[2], rndNumberList[3]));
-            return rndNumberList;
-        }
-
         private void SetAttacks(List<attackIndex> attackMoves, List<int> rndNums)
         {
             for (int i = 0; i < rndNums.Count; i++)
             {
                 atkMoves.Add(attackMoves[rndNums[i]].attack.name);
+            }
+        }
+
+        public void setCritStatus(int add)
+        {
+            critRatio_stage += add;
+            if(critRatio_stage > 6)
+            {
+                critRatio_stage = 6;
+            }
+            if(critRatio_stage < 0)
+            {
+                critRatio_stage = 0;
             }
         }
 
