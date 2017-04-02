@@ -6,7 +6,8 @@ using FBG.Data;
 
 namespace FBG.Attack
 {
-    public static class AtkData {
+    public static class MoveSets
+    {
 
         #region Declared Variables
         public static List<attacks> attackList = new List<attacks>();

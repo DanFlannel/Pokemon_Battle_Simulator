@@ -15,7 +15,7 @@ namespace FBG.JSON
             TextAsset jsonFile = loadTextFile();
             //Stopwatch sw = new Stopwatch();
             //sw.Start();
-            AtkData.createAttackLibrary();
+            MoveSets.createAttackLibrary();
             DamageMultipliers.Init();
 
             PokedexData p = JsonUtility.FromJson<PokedexData>(jsonFile.text);

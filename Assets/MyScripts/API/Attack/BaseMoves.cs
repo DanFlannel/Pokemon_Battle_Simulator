@@ -391,7 +391,7 @@ namespace FBG.Attack
             //string tempName = tempList[0];
             string name = self.atkMoves[0];
             int attack_index = AtkCalc.getAttackListIndex(name);
-            string attack_type = AtkData.attackList[attack_index].type;
+            string attack_type = MoveSets.attackList[attack_index].type;
             self.type1 = attack_type;
             string[] types = new string[2];
             types[0] = self.type1;

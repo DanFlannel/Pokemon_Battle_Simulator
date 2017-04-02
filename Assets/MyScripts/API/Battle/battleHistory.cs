@@ -16,7 +16,7 @@ namespace FBG.Battle
             attackName = atkName;
             MR = mr;
 
-            attacks move = AtkData.searchAttackList(atkName);
+            attacks move = MoveSets.searchAttackList(atkName);
             atkType = move.type;
             atkCategory = move.cat;
         }

@@ -196,8 +196,8 @@ namespace FBG.Attack
 
                 //preforms any move in the game at random?
                 case "metronome":
-                    rnd = Random.Range(0, AtkData.attackList.Count);
-                    string atkName = AtkData.attackList[rnd].name;
+                    rnd = Random.Range(0, MoveSets.attackList.Count);
+                    string atkName = MoveSets.attackList[rnd].name;
                     AtkCalc.calculateAttackEffect(target, self, atkName);
                     break;
 

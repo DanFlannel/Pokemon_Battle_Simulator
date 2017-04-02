@@ -34,9 +34,9 @@ namespace FBG.Attack
 
             int atkIndex = getAttackListIndex(atkName);
 
-            string atkCat = AtkData.attackList[atkIndex].cat;
-            string atkType = AtkData.attackList[atkIndex].type;
-            int accuracy = AtkData.attackList[atkIndex].accuracy;
+            string atkCat = MoveSets.attackList[atkIndex].cat;
+            string atkType = MoveSets.attackList[atkIndex].type;
+            int accuracy = MoveSets.attackList[atkIndex].accuracy;
 
             float baseDamage = calculateDamage(atkName, atkCat, atkIndex);
             //Debug.Log("Base Damage: " + baseDamage);
@@ -88,9 +88,9 @@ namespace FBG.Attack
         public static int getAttackListIndex(string name)
         {
             //Debug.Log("called Attack List Index");
-            for (int i = 0; i < AtkData.attackList.Count; i++)
+            for (int i = 0; i < MoveSets.attackList.Count; i++)
             {
-                if (name.ToLower() == AtkData.attackList[i].name.ToLower())
+                if (name.ToLower() == MoveSets.attackList[i].name.ToLower())
                 {
                     //Debug.Log("Calculating Damage for " + name);
                     return i;
@@ -115,7 +115,7 @@ namespace FBG.Attack
             }
 
             float level_mod = levelModifier();
-            float att_div_defense = ((float)AtkData.attackList[atkIndex].power) / defense_mod;
+            float att_div_defense = ((float)MoveSets.attackList[atkIndex].power) / defense_mod;
 
             //Debug.Log("attack div defense: " + baseAttackPower(attack_index) + "/" + defense_mod + " = " + att_div_defense);
 
@@ -151,7 +151,7 @@ namespace FBG.Attack
                 Debug.Log("Status move");
                 return true;
             }
-            if (AtkData.attackList[atkIndex].power == 0)  //there is no base attack power so we can just return 0, it is a sepcial attack that has its own calculations
+            if (MoveSets.attackList[atkIndex].power == 0)  //there is no base attack power so we can just return 0, it is a sepcial attack that has its own calculations
             {
                 Debug.Log("This attack calclates it's own damage: " + atkName);
                 return true;
@@ -266,7 +266,7 @@ namespace FBG.Attack
         private static float baseAttackPower(int index)
         {
             float base_damage = 0;
-            base_damage = (float)AtkData.attackList[index].power;
+            base_damage = (float)MoveSets.attackList[index].power;
             //Debug.Log("Base Damage: " + base_damage);
             return base_damage;
         }

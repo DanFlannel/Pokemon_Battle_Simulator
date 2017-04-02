@@ -154,7 +154,7 @@ namespace FBG.Battle
                 //id = 0;
                 //level = 100;
                 data = DexHolder.pokeDex.getStats(id);
-                attacks = AtkData.masterGetAttacks(id);
+                attacks = MoveSets.masterGetAttacks(id);
                 //print(string.Format("{0}", attacks.Count));
                 pokemon = new PokemonBase(level, data, attacks, ref redTeamStatus);
 
@@ -163,7 +163,7 @@ namespace FBG.Battle
                 id = Random.Range(0, 151);
                 //id = 1;
                 data = DexHolder.pokeDex.getStats(id);
-                attacks = AtkData.masterGetAttacks(id);
+                attacks = MoveSets.masterGetAttacks(id);
                 pokemon = new PokemonBase(level, data, attacks, ref blueTeamStatus);
 
                 blueTeam.Add(pokemon);
