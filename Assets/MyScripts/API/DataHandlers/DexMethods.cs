@@ -2,20 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 using FBG.JSON;
+using System.Linq;
 
 namespace FBG.Data
 {
     public static class DexMethods
     {
+        /// <summary>
+        /// Got this from http://stackoverflow.com/questions/7411438/remove-characters-from-c-sharp-string
+        /// Use this to remove all non alphabetical characters, spaces from a given string
+        /// </summary>
+        /// <param name="str">string to be stripped</param>
+        /// <returns>a string with only lower case characters</returns>
+        public static string stripString(string str)
+        {
+            str = new string((from c in str where char.IsWhiteSpace(c) || char.IsLetterOrDigit(c) select c).ToArray());
+            str = str.Replace(" ", string.Empty);
+            return str.ToLower();
+        }
+
         public static AttackJsonData Get(this AttackData a, string atkName)
         {
             for (int i = 0; i < a.attacks.Length; i++)
             {
-                if (atkName.ToLower() == a.attacks[i].name.ToLower())
+                atkName = stripString(atkName);
+                string id = stripString(a.attacks[i].id);
+                if (atkName == id)
                 {
                     return a.attacks[i];
                 }
             }
+            Debug.Log(string.Format("Attack {0} not found in {1} attacks", atkName, a.attacks.Length));
             return null;
         }
 

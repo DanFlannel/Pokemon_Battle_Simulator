@@ -432,7 +432,11 @@ namespace FBG.Attack
         private static int critChance(PokemonBase self, string atkName)
         {
             int stage = self.critRatio_stage;
-            int atkratio = DexHolder.attackDex.Get(atkName).critRatio - 1;
+            if(DexHolder.attackDex == null)
+            {
+                Debug.Log("Null attack dex?");
+            }
+            int atkratio = DexHolder.attackDex.Get(atkName).critRatio;
             int total = stage + atkratio;
             int final;
 

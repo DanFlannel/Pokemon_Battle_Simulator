@@ -1533,6 +1533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 101312, guid: e32ef8ed4e207a943aeb2fdb1da219cd, type: 2}
   content: {fileID: 880101660}
+  moveCap: 166
 --- !u!1 &1039375001
 GameObject:
   m_ObjectHideFlags: 0
