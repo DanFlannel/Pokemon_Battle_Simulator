@@ -1,13 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using FBG.Attack;
 using FBG.Data;
 using FBG.JSON;
 
 namespace FBG.Base
 {
-    public class PokemonBase : MonoBehaviour
+    public class PokemonBase
     {
         public TeamPokemon team;
 
@@ -124,7 +123,7 @@ namespace FBG.Base
             //max hp = 2* base stat + 110
             //max other stats = 1.79 * stat + 5(levelBonus)
             //level bonus cannot exceed 5
-            levelBonus = Level / (int)Random.Range(16f, 20f); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
+            levelBonus = Level / (int)UnityEngine.Random.Range(16f, 20f); //level bonus is between 17 and 20 to add some slight variation to the maximum base stats
 
             float hpLevelCalc = 1f + ((float)Level / 100);
             float levelCalc = .79f + ((float)Level / 100);
