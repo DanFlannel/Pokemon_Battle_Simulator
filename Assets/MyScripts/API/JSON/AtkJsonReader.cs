@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System;
 using UnityEngine;
+using System.Diagnostics;
 
 namespace FBG.JSON
 {
@@ -34,26 +35,27 @@ namespace FBG.JSON
         public static AttackData createAttackDex()
         {
             TextAsset jsonFile = loadTextFile();
-            //Stopwatch sw = new Stopwatch();
-            //sw.Start();
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
 
             AttackData a = JsonUtility.FromJson<AttackData>(jsonFile.text);
-            debugJson(a);
-            //sw.Stop();
-            //print("time to create json in ms: " + sw.ElapsedMilliseconds);
+            //debugJson(a);
+            sw.Stop();
+            UnityEngine.Debug.Log("time to create atk json in ms: " + sw.ElapsedMilliseconds);
             return a;
         }
 
         private static void debugJson(AttackData a)
         {
-            //int index = 0;
+            int index = 0;
             //print(json.pokemon[0].name);
             for (int i = 0; i < a.attacks.Length; i++)
             {
                 //UnityEngine.Debug.Log(string.Format("{0} {1}",i, a.attacks[i].name));
                 if (a.attacks[i].critRatio != 0)
                 {
-                    UnityEngine.Debug.Log(string.Format("num: {0} name: {1} crit: {2}", a.attacks[i].num, a.attacks[i].name, a.attacks[i].critRatio));
+                    //UnityEngine.Debug.Log(string.Format("num: {0} name: {1} crit: {2}", a.attacks[i].num, a.attacks[i].name, a.attacks[i].critRatio));
+                    index++;
                 }
             }
             //print(index);

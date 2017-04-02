@@ -13,16 +13,16 @@ namespace FBG.JSON
         public static PokedexData createPokeDex()
         {
             TextAsset jsonFile = loadTextFile();
-            //Stopwatch sw = new Stopwatch();
-            //sw.Start();
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             MoveSets.createAttackLibrary();
             DamageMultipliers.Init();
 
             PokedexData p = JsonUtility.FromJson<PokedexData>(jsonFile.text);
             createDamageMultipliers(p);
             //debugJson(p);
-            //sw.Stop();
-            //print("time to create json in ms: " + sw.ElapsedMilliseconds);
+            sw.Stop();
+            UnityEngine.Debug.Log("time to create pokedex json in ms: " + sw.ElapsedMilliseconds);
             return p;
         }
 
