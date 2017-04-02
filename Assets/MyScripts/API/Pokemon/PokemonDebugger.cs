@@ -11,6 +11,7 @@ namespace FBG.Debuggers
         [Header("Team Information")]
         public PokemonTeam curTeam = PokemonTeam.redTeam;
         public int index = 0;
+        public bool matchCurIndex;
 
         [Header("Pokemon Data")]
 
@@ -39,7 +40,7 @@ namespace FBG.Debuggers
         // Use this for initialization
         void Start()
         {
-            battlesim = this.GetComponent<BattleSimulator>();
+            battlesim = BattleSimulator.Instance;
             updateStats();
         }
 
@@ -51,13 +52,22 @@ namespace FBG.Debuggers
 
         private void updateStats()
         {
+
             if (curTeam == PokemonTeam.redTeam)
             {
                 pokemonTeamData = battlesim.redTeam;
+                if (matchCurIndex)
+                {
+                    index = battlesim.redIndex;
+                }
             }
             else
             {
                 pokemonTeamData = battlesim.blueTeam;
+                if (matchCurIndex)
+                {
+                    index = battlesim.blueIndex;
+                }
             }
 
             if (index < 0)

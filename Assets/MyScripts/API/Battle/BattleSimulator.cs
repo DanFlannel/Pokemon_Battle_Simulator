@@ -11,6 +11,9 @@ namespace FBG.Battle
 {
     public class BattleSimulator : MonoBehaviour
     {
+        private static BattleSimulator instance = null;
+        public static BattleSimulator Instance { get { return instance; } }
+
         public List<PokemonBase> redTeam = new List<PokemonBase>();
         public List<PokemonBase> blueTeam = new List<PokemonBase>();
 
@@ -19,7 +22,7 @@ namespace FBG.Battle
         public int blueIndex;
 
         private TeamPokemon redTeamStatus = new TeamPokemon();
-        public TeamPokemon blueTeamStatus = new TeamPokemon();
+        private TeamPokemon blueTeamStatus = new TeamPokemon();
 
         public MoveResults redResult;
         public MoveResults blueResult;
@@ -29,6 +32,18 @@ namespace FBG.Battle
 
         private bool isRedMoveCalculated;
         private bool isBlueMoveCalculated;
+
+        private void Awake()
+        {
+            if (instance != null && instance != this)
+            {
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                instance = this;
+            }
+        }
 
         // Use this for initialization
         private void Start()
@@ -58,8 +73,30 @@ namespace FBG.Battle
 
         void Update()
         {
+            capPokemonIndex();
             battleGUI.checkButtonNames(redTeam, redIndex);
             doTurn();
+        }
+
+        private void capPokemonIndex()
+        {
+            if(redIndex > teamSize - 1)
+            {
+                redIndex = teamSize - 1;
+            }
+            if(blueIndex > teamSize -1)
+            {
+                blueIndex = teamSize - 1;
+            }
+
+            if(redIndex < 0)
+            {
+                redIndex = 0;
+            }
+            if(blueIndex < 0)
+            {
+                blueIndex = 0;
+            }
         }
 
         public void redTeamAttack(int index)
@@ -170,16 +207,6 @@ namespace FBG.Battle
             }
         }
 
-        private void debugRedTeam()
-        {
-            for (int i = 0; i < redTeam.Count; i++)
-            {
-                PokemonBase tmp = redTeam[i];
-                if (redTeam[i] == null) return;
-                print(string.Format("Red Team {0} Name: {1} Level {7} atk: {2} def: {3} spa: {4} spd: {5} spe: {6}", i, tmp.Name, tmp.Attack, tmp.Defense, tmp.Special_Attack, tmp.Special_Defense, tmp.Speed, tmp.Level));
-            }
-        }
-
         private void doTurn()
         {
             if (isRedMoveCalculated && isBlueMoveCalculated)
@@ -232,7 +259,7 @@ namespace FBG.Battle
                 nonVolitleMove nv = Utilities.isMoveHaltedByNV(self);
                 if (nv.isAffected)
                 {
-                    //well we don't do the move.... but we gotta say something in the text
+                    //TODO add text coriutine
                     return true;
                 }
             }
