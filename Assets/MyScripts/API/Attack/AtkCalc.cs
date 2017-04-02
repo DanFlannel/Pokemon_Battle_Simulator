@@ -409,7 +409,7 @@ namespace FBG.Attack
             }
             Debug.Log(string.Format("move acc {0} self acc {1} target evasion {2} total probability {3} * {4} = {5}", accuracy, accMod, evadeMod, (accuracy), (accMod / evadeMod), prob));
 
-            return probability(prob, 100f);
+            return Utilities.probability(prob, 100f);
         }
 
         /// <summary>
@@ -420,8 +420,9 @@ namespace FBG.Attack
         private static bool isCrit(int chance)
         {
             float divider = 1f / (float)chance;
-            Debug.Log("crit chance: " + divider * 100f);
-            return probability(divider * 100f, 100f);
+            divider *= 100f;
+            Debug.Log("crit chance: " + divider);
+            return Utilities.probability(divider, 100f);
         }
 
         /// <summary>
@@ -499,18 +500,6 @@ namespace FBG.Attack
             }
             return false;
 
-        }
-
-        public static bool probability(float prob, float bounds)
-        {
-            bool chance = false;
-            float guess = Random.Range(0, bounds);
-            //Debug.Log(guess + " : " + prob);
-            if (guess < prob)
-            {
-                chance = true;
-            }
-            return chance;
         }
     }
 }
