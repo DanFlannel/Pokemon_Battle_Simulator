@@ -22,8 +22,6 @@ public class AttackdexGUI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         moves = DexHolder.attackDex;
-        index = 0;
-        UpdateInformation();
 	}
 
     public void UpdateInformation()

@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using FBG.Data;
 using FBG.JSON;
+using System.Collections.Generic;
 
 /// <summary>
 /// 
@@ -11,20 +12,20 @@ public class AttackDexList : MonoBehaviour {
 
     public GameObject prefab;
     public GameObject content;
-    private AttackData movesData;
+    private List<GameObject> buttons = new List<GameObject>();
     public int moveCap;
 
 	// Use this for initialization
 	void Start () {
-        movesData = DexHolder.attackDex;
         GenerateList();
+        loadEntry(0);
 	}
 
     private void GenerateList()
     {
-        for(int i = 0; i < movesData.attacks.Length; i++)
+        for(int i = 0; i < DexHolder.attackDex.attacks.Length; i++)
         {
-            if (movesData.attacks[i].num < moveCap)
+            if (DexHolder.attackDex.attacks[i].num < moveCap  )
             {
                 GameObject go = Instantiate(prefab, content.transform.position, Quaternion.identity) as GameObject;
                 go.transform.SetParent(content.transform);
@@ -32,10 +33,18 @@ public class AttackDexList : MonoBehaviour {
                 go.transform.localScale = new Vector3(1, 1, 1);
 
                 Text t = go.GetComponentInChildren<Text>();
-                t.text = movesData.attacks[i].name;
+                t.text = DexHolder.attackDex.attacks[i].name;
 
                 go.GetComponent<AttackDexButtons>().id = i;
+                buttons.Add(go);
             }
         }
+    }
+
+    private void loadEntry(int n)
+    {
+        GameObject go = buttons[n];
+        Button btn = go.GetComponentInChildren<Button>();
+        btn.onClick.Invoke();
     }
 }
