@@ -52,6 +52,7 @@ public class AttackdexGUI : MonoBehaviour {
         tDesc.text = Description();
         tPriority.text = Priority();
         tContest.text = ContestType();
+        tType.text = AttackType();
     }
 
     private string Name()
