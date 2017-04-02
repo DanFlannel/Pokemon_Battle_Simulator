@@ -53,7 +53,7 @@ namespace FBG.JSON
                 //UnityEngine.Debug.Log(string.Format("{0} {1}",i, a.attacks[i].name));
                 if (a.attacks[i].critRatio != 0)
                 {
-                    //UnityEngine.Debug.Log(string.Format("{0} {1}", a.attacks[i].num, a.attacks[i].name));
+                    UnityEngine.Debug.Log(string.Format("num: {0} name: {1} crit: {2}", a.attacks[i].num, a.attacks[i].name, a.attacks[i].critRatio));
                 }
             }
             //print(index);
