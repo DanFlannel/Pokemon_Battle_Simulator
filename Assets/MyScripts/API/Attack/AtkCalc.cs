@@ -21,38 +21,52 @@ namespace FBG.Attack
         public static MoveResults calculateAttackEffect(PokemonBase tar, PokemonBase self, string atkName)
         {
             MoveResults MR = new MoveResults(atkName);
-            move_DmgReport report = new move_DmgReport();
             targetPokemon = tar;
             thisPokemon = self;
 
-            if (thisPokemon.nextAttack != "")
-            {
-                atkName = thisPokemon.nextAttack;
-            }
+            atkName = checkCachedAttack(atkName, self); ;
 
             Debug.LogWarning(string.Format(" {0} is using {1} on {2} ", self.Name, atkName, tar.Name));
 
             int atkIndex = getAttackListIndex(atkName);
-
             string atkCat = MoveSets.attackList[atkIndex].cat;
             string atkType = MoveSets.attackList[atkIndex].type;
             int accuracy = MoveSets.attackList[atkIndex].accuracy;
 
+            float baseDamage = GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
+
+            MR.hit = checkAccuracy_and_Hit(self, tar, atkName, accuracy, atkCat);
+            MR.dmgReport = GenDmgReport(atkName, atkCat, baseDamage, tar, self, MR);
+
+            return MR;
+        }
+
+        private static string checkCachedAttack(string atkName, PokemonBase self)
+        {
+            if(self.nextAttack != "")
+            {
+                return self.nextAttack;
+            }
+            return atkName;
+        }
+
+        private static float GenBaseDamage(string atkName, string atkCat, string atkType, int atkIndex, PokemonBase self, MoveResults MR)
+        {
             float baseDamage = calculateDamage(atkName, atkCat, atkIndex);
             //Debug.Log("Base Damage: " + baseDamage);
             //this also sets our crit bool in the move results
             float dmgMod = modifier(self, atkName, atkType, MR);
             baseDamage = Mathf.Round(baseDamage * dmgMod);
             //Debug.Log("Damage: " + baseDamage);
+            return baseDamage;
+        }
 
-            if (atkCat != Consts.Status)
-            {
-                MR.hit = checkAccuracy_and_Hit(self, tar, atkName, accuracy);
-            }
-
-            //Debug.Log("Attack Name: " + attack_name);
+        private static move_DmgReport GenDmgReport (string atkName, string atkCat, float baseDamage, PokemonBase tar, PokemonBase self, MoveResults MR)
+        {
+            move_DmgReport report = new move_DmgReport();
             switch (atkCat)
             {
+
                 case Consts.Status:
                     Debug.Log("Status Move");
                     StatusAtkHandler statAtk = new StatusAtkHandler(tar, self, MR);
@@ -70,14 +84,12 @@ namespace FBG.Attack
                     break;
             }
 
-            MR.dmgReport = report;
-
             if (self.atkStatus != attackStatus.normal)
             {
-                MR.dmgReport.damage = 0;
+                report.damage = 0;
             }
-            //Debug.Log("Final Damage " + MR.dmgReport.damage);
-            return MR;
+
+            return report;
         }
 
         /// <summary>
@@ -362,8 +374,13 @@ namespace FBG.Attack
         /// <param name="accuracy">the accuracy of the move being passed in</param>
         /// <returns>true if the move hit, false if it missed</returns>
         /// </summary>
-        private static bool checkAccuracy_and_Hit(PokemonBase self, PokemonBase tar, string atkName, int accuracy)
+        private static bool checkAccuracy_and_Hit(PokemonBase self, PokemonBase tar, string atkName, int accuracy, string cat)
         {
+            if(cat == Consts.Status)
+            {
+                return true;
+            }
+
             if (accuracy == 0)
             {
                 Debug.Log("Has 0 accuracy: " + atkName);
@@ -436,13 +453,13 @@ namespace FBG.Attack
             {
                 Debug.Log("Null attack dex?");
             }
-            int atkratio = DexHolder.attackDex.Get(atkName).critRatio;
+            int atkratio = DexHolder.attackDex.Get(atkName).critRatio - 1;
             int total = stage + atkratio;
             int final;
 
             if (atkratio != 0 || stage != 0)
             {
-                Debug.Log(string.Format("stage: {0} attackRatio {1}", stage, atkratio));
+                Debug.Log(string.Format("stage: {0} attackRatio: {1} final: {2}", stage, atkratio, total));
             }
 
             switch (total)
