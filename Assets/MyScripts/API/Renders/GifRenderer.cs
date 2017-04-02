@@ -12,6 +12,7 @@ public class GifRenderer : MonoBehaviour
     //private SpriteRenderer gifRenderer;
     private Animator anim;
     private bool isPlayer;
+    public float speed = 2f;
 
     void Start()
     {
@@ -29,27 +30,14 @@ public class GifRenderer : MonoBehaviour
     {
         //Debug.Log("called sprite render");
         string gen = checkGen(id);
-        string direction = "Front";
-
-        string special  = specialCases(name);
-        if(special != null)
-        {
-            name = special;
-        }
-
-        isPlayer = (this.transform.tag == "Player");
-        if (isPlayer)
-        {
-            direction = "Back";
-        }
-
+        string direction = dir();
+        name = specialCases(name);
 
         object o;
         RuntimeAnimatorController control;
         string animationPath;
 
         animationPath = "Animations/" + gen + "/" + direction + "/" + name.ToUpper() + "_0";
-
 
         o = Resources.Load(animationPath);
         if (o == null)
@@ -63,9 +51,18 @@ public class GifRenderer : MonoBehaviour
         }
         anim.runtimeAnimatorController = control;
 
-        anim.speed = 2f;
+        anim.speed = speed;
         //Debug.Log("Seached Path: " + animationPath);
+    }
 
+    private string dir()
+    {
+        isPlayer = (this.transform.tag == "Player");
+        if (isPlayer)
+        {
+            return "Back";
+        }
+        return "Front";
     }
 
     /// <summary>
@@ -111,11 +108,11 @@ public class GifRenderer : MonoBehaviour
     /// <returns></returns>
     private string specialCases(string name)
     {
-        string newName = "";
+        string newName = name;
         switch (name)
         {
             default:
-                return null;
+                break;
             case "Mr. Mime":
                 newName = "Mr_Mime";
                 break;

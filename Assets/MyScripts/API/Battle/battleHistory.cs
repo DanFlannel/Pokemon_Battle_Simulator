@@ -2,6 +2,7 @@
 
 namespace FBG.Battle
 {
+    [System.Serializable]
     public class battleHistory
     {
         public string pokemonName;

@@ -42,5 +42,25 @@ namespace FBG.Battle
                 t.text = atkNames[i];
             }
         }
+
+        public void promptSwap()
+        {
+
+        }
+
+        public void swapPanel()
+        {
+
+        }
+
+        public void showBattleText(MoveResults MR)
+        {
+
+        }
+
+        public void showBattleText(string s)
+        {
+
+        }
     }
 }

@@ -58,7 +58,6 @@ namespace FBG.JSON
                     index++;
                 }
             }
-            //print(index);
         }
 
         private static TextAsset loadTextFile()

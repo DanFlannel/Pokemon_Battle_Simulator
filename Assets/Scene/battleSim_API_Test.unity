@@ -201,8 +201,6 @@ GameObject:
   m_Component:
   - component: {fileID: 589560780}
   - component: {fileID: 589560786}
-  - component: {fileID: 589560785}
-  - component: {fileID: 589560784}
   - component: {fileID: 589560783}
   m_Layer: 0
   m_Name: Battle Simulator
@@ -240,96 +238,6 @@ MonoBehaviour:
   - {fileID: 1500088907}
   - {fileID: 1294961711}
   - {fileID: 2125132591}
---- !u!114 &589560784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 589560777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad176183c6332ef47b3c3fbe8bd4e973, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  curTeam: 0
-  index: 0
-  pokeName: 
-  m_ID: 0
-  m_Level: 0
-  m_Attack: 0
-  m_Defenese: 0
-  m_SpecialAttack: 0
-  m_SpecialDefense: 0
-  atkMoves: []
-  damageMultiplier:
-    normal: 0
-    fighting: 0
-    flying: 0
-    poison: 0
-    ground: 0
-    rock: 0
-    bug: 0
-    ghost: 0
-    steel: 0
-    fire: 0
-    water: 0
-    grass: 0
-    electric: 0
-    psychic: 0
-    ice: 0
-    dragon: 0
-    dark: 0
-    fairy: 0
-  nextAttack: 
-  status_A: 0
-  position: 0
-  atkStatus: 0
-  critRatio: 0
---- !u!114 &589560785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 589560777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad176183c6332ef47b3c3fbe8bd4e973, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  curTeam: 0
-  index: 0
-  pokeName: 
-  m_ID: 0
-  m_Level: 0
-  m_Attack: 0
-  m_Defenese: 0
-  m_SpecialAttack: 0
-  m_SpecialDefense: 0
-  atkMoves: []
-  damageMultiplier:
-    normal: 0
-    fighting: 0
-    flying: 0
-    poison: 0
-    ground: 0
-    rock: 0
-    bug: 0
-    ghost: 0
-    steel: 0
-    fire: 0
-    water: 0
-    grass: 0
-    electric: 0
-    psychic: 0
-    ice: 0
-    dragon: 0
-    dark: 0
-    fairy: 0
-  nextAttack: 
-  status_A: 0
-  position: 0
-  atkStatus: 0
-  critRatio: 0
 --- !u!114 &589560786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341,9 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84a48053ffdf342408ec63e48e4c245e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  redTeam: []
-  blueTeam: []
-  teamSize: 1
+  teamSize: 6
   redIndex: 0
   blueIndex: 0
   battleGUI: {fileID: 0}
@@ -483,6 +389,81 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 816063387}
+--- !u!1 &846542195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 846542197}
+  - component: {fileID: 846542196}
+  m_Layer: 0
+  m_Name: Blue Team
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &846542196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846542195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad176183c6332ef47b3c3fbe8bd4e973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curTeam: 1
+  index: 0
+  matchCurIndex: 0
+  pokeName: 
+  m_ID: 0
+  m_Level: 0
+  m_Attack: 0
+  m_Defenese: 0
+  m_SpecialAttack: 0
+  m_SpecialDefense: 0
+  atkMoves: []
+  damageMultiplier:
+    normal: 0
+    fighting: 0
+    flying: 0
+    poison: 0
+    ground: 0
+    rock: 0
+    bug: 0
+    ghost: 0
+    steel: 0
+    fire: 0
+    water: 0
+    grass: 0
+    electric: 0
+    psychic: 0
+    ice: 0
+    dragon: 0
+    dark: 0
+    fairy: 0
+  nextAttack: 
+  status_A: 0
+  position: 0
+  atkStatus: 0
+  critRatio: 0
+--- !u!4 &846542197
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846542195}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 511.21048, y: 158.14935, z: 46.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &934425248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,6 +1237,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1739079480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1739079482}
+  - component: {fileID: 1739079481}
+  m_Layer: 0
+  m_Name: Red Team
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1739079481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1739079480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad176183c6332ef47b3c3fbe8bd4e973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curTeam: 0
+  index: 0
+  matchCurIndex: 0
+  pokeName: 
+  m_ID: 0
+  m_Level: 0
+  m_Attack: 0
+  m_Defenese: 0
+  m_SpecialAttack: 0
+  m_SpecialDefense: 0
+  atkMoves: []
+  damageMultiplier:
+    normal: 0
+    fighting: 0
+    flying: 0
+    poison: 0
+    ground: 0
+    rock: 0
+    bug: 0
+    ghost: 0
+    steel: 0
+    fire: 0
+    water: 0
+    grass: 0
+    electric: 0
+    psychic: 0
+    ice: 0
+    dragon: 0
+    dark: 0
+    fairy: 0
+  nextAttack: 
+  status_A: 0
+  position: 0
+  atkStatus: 0
+  critRatio: 0
+--- !u!4 &1739079482
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1739079480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 511.21048, y: 158.14935, z: 46.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1758587212
 GameObject:
   m_ObjectHideFlags: 0
