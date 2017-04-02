@@ -114,7 +114,6 @@ namespace FBG.Attack
                 return 0;
             }
 
-            
             float level_mod = levelModifier();
             float att_div_defense = ((float)AtkData.attackList[atkIndex].power) / defense_mod;
 

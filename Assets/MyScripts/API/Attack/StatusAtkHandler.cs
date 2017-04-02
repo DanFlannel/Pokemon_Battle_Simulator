@@ -128,11 +128,7 @@ namespace FBG.Attack
 
                 //increases crit ratio...
                 case "focus energy":
-                    self.critRatio_stage += 2;
-                    if (self.critRatio_stage > 6)
-                    {
-                        self.critRatio_stage = 6;
-                    }
+                    self.changeCritStage(2);
                     break;
 
                 case "growl":

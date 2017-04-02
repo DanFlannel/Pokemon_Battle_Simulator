@@ -9,7 +9,6 @@ namespace FBG.Base
 {
     public class PokemonBase : MonoBehaviour
     {
-
         public TeamPokemon team;
 
         public List<IEffector> effectors = new List<IEffector>();
@@ -100,7 +99,7 @@ namespace FBG.Base
             //need to set these to something before updaing them
             setStages();
             generatePokemonStats(Level);
-            randomNumbers = Utilities.generateRandomList(attackMoves.Count);
+            randomNumbers = Utilities.generateRandomList(attackMoves.Count, 4);
             SetAttacks(attackMoves, randomNumbers);
             //Debug.Log(attackMoves.Count);
         }
@@ -112,7 +111,7 @@ namespace FBG.Base
             spAttack_Stage = 0;
             spDefense_stage = 0;
             speed_stage = 0;
-            critRatio_stage = 1;
+            critRatio_stage = 0;
         }
 
         /// <summary>
@@ -161,7 +160,7 @@ namespace FBG.Base
             }
         }
 
-        public void setCritStatus(int add)
+        public void changeCritStage(int add)
         {
             critRatio_stage += add;
             if(critRatio_stage > 6)

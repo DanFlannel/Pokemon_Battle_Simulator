@@ -84,24 +84,22 @@ namespace FBG.Base
         /// </summary>
         /// <param name="attackMoves"></param>
         /// <returns></returns>
-        public static List<int> generateRandomList(int totalPossibleMoves)
+        public static List<int> generateRandomList(int maxPossibility, int length)
         {
             List<int> rndNumberList = new List<int>();
-            //this is supposed to be a const
-            int MOVES = 4;
 
             //Debug.Log("Range: " + totalPossibleMoves);
             //Debug.Log("List Cout: " + list.Count);
             int numToAdd = -1;
             //if the pokemon has more than 4 moves that it can learn, then we pick from those randomly
-            if (totalPossibleMoves > MOVES)
+            if (maxPossibility > length)
             {
-                for (int i = 0; i < MOVES; i++)
+                for (int i = 0; i < length; i++)
                 {
-                    numToAdd = UnityEngine.Random.Range(0, totalPossibleMoves);
+                    numToAdd = UnityEngine.Random.Range(0, maxPossibility);
                     while (rndNumberList.Contains(numToAdd))
                     {
-                        numToAdd = UnityEngine.Random.Range(0, totalPossibleMoves);
+                        numToAdd = UnityEngine.Random.Range(0, maxPossibility);
                     }
                     rndNumberList.Add(numToAdd);
                 }
@@ -112,9 +110,9 @@ namespace FBG.Base
                 //Debug.LogWarning(string.Format("{0} total moves {1}", Name, totalPossibleMoves));
 
                 int totalMoves = 0;
-                for (int i = 0; i < MOVES; i++)
+                for (int i = 0; i < length; i++)
                 {
-                    if (totalMoves < totalPossibleMoves)
+                    if (totalMoves < maxPossibility)
                     {
                         numToAdd = i;
                         totalMoves++;
