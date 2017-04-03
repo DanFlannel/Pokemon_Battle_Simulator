@@ -14,10 +14,21 @@ namespace FBG.Battle
         public battleHistory(string name, string atkName, MoveResults mr)
         {
             pokemonName = name;
-            attackName = atkName;
+            attackName = mr.name;
             MR = mr;
 
             attacks move = MoveSets.searchAttackList(atkName);
+            atkType = move.type;
+            atkCategory = move.cat;
+        }
+
+        public battleHistory(string attackerName, MoveResults res)
+        {
+            pokemonName = attackerName;
+            attackerName = res.name;
+            MR = res;
+
+            attacks move = MoveSets.searchAttackList(res.name);
             atkType = move.type;
             atkCategory = move.cat;
         }
