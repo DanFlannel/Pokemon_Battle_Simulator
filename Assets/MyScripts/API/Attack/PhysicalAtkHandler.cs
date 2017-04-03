@@ -131,8 +131,8 @@ namespace FBG.Attack
                     //check that it attacks second
                     if (self.Speed < target.Speed)
                     {
-                        int index = BattleSimulator.moveHistory.Count;
-                        if (BattleSimulator.moveHistory[index].atkCategory == Consts.Physical)
+                        int index = BattleSimulator.Instance.moveHistory.Count;
+                        if (BattleSimulator.Instance.moveHistory[index].atkCategory == Consts.Physical)
                         {
                             damage *= 2;
                         }

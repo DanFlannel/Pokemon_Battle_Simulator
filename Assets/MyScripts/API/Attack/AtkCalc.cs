@@ -453,7 +453,7 @@ namespace FBG.Attack
             {
                 Debug.Log("Null attack dex?");
             }
-            int atkratio = DexHolder.attackDex.Get(atkName).critRatio - 1;
+            int atkratio = DexHolder.attackDex.GetCirtRatio(atkName);
             int total = stage + atkratio;
             int final;
 

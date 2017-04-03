@@ -18,6 +18,7 @@ namespace FBG.Debuggers
         public string pokeName;
         public int m_ID;
         public int m_Level;
+        public int m_CurHP;
 
         public int m_Attack;
         public int m_Defenese;
@@ -86,6 +87,7 @@ namespace FBG.Debuggers
             pokeName = p.Name;
             m_ID = p.ID;
             m_Level = p.Level;
+            m_CurHP = p.curHp;
 
             m_Attack = p.Attack;
             m_Defenese = p.Defense;

@@ -36,6 +36,26 @@ namespace FBG.Data
             return null;
         }
 
+        public static int GetCirtRatio(this AttackData a, string atkName)
+        {
+            int ratio = 0;
+            for (int i = 0; i < a.attacks.Length; i++)
+            {
+                atkName = stripString(atkName);
+                string id = stripString(a.attacks[i].id);
+                if (atkName == id)
+                {
+                    ratio = a.attacks[i].critRatio;
+                }
+            }
+            if(ratio > 0)
+            {
+                //subtracting 1 because all ratios start at 2 in the attack json
+                ratio--;
+            }
+            return ratio;
+        }
+
         public static bool checkFlag(this AttackData a, string atkName, string flag)
         {
             AttackJsonData atk = a.Get(atkName);

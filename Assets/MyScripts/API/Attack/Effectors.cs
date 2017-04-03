@@ -69,7 +69,7 @@ namespace FBG.Attack
             //how do I check if the last attack was a direct contact one?
             //Move battle history -> get move name -> check to see if it was a direct contact
 
-            string prevAttack = BattleSimulator.moveHistory[BattleSimulator.moveHistory.Count].attackName;
+            string prevAttack = BattleSimulator.Instance.moveHistory[BattleSimulator.Instance.moveHistory.Count].attackName;
             bool contact = DexHolder.attackDex.checkFlag(prevAttack, "contact");
 
             if (contact)

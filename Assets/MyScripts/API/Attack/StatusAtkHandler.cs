@@ -104,7 +104,7 @@ namespace FBG.Attack
                         moveRes.hit = false;
                         break;
                     }
-                    string moveName = BattleSimulator.moveHistory[BattleSimulator.moveHistory.Count].attackName;
+                    string moveName = BattleSimulator.Instance.moveHistory[BattleSimulator.Instance.moveHistory.Count].attackName;
                     disable dis = new disable(tempname, 4, target, moveName);
 
                     if (!hasEffector(target, tempname))
@@ -204,8 +204,8 @@ namespace FBG.Attack
                 //copies the opponents last move and replaces mimic with that
                 case "mimic":
                     int n = 0;
-                    int index = BattleSimulator.moveHistory.Count;
-                    string attack = BattleSimulator.moveHistory[index].attackName;
+                    int index = BattleSimulator.Instance.moveHistory.Count;
+                    string attack = BattleSimulator.Instance.moveHistory[index].attackName;
                     for (int i = 0; i < self.atkMoves.Count; i++)
                     {
                         if (self.atkMoves[i].ToLower() == "mimic")
@@ -227,8 +227,8 @@ namespace FBG.Attack
 
                 //preforms the opponents last move....
                 case "mirror move":
-                    int mirrorMove = BattleSimulator.moveHistory.Count;
-                    string mirrorAttack = BattleSimulator.moveHistory[mirrorMove].attackName;
+                    int mirrorMove = BattleSimulator.Instance.moveHistory.Count;
+                    string mirrorAttack = BattleSimulator.Instance.moveHistory[mirrorMove].attackName;
                     AtkCalc.calculateAttackEffect(target, self, mirrorAttack);
                     break;
 
