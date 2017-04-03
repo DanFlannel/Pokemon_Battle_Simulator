@@ -24,11 +24,6 @@ namespace FBG.Base
         {
             teamSize = size;
             instance = this;
-            Init();
-        }
-
-        public void Init()
-        {
             SetupTeamEffects();
         }
 

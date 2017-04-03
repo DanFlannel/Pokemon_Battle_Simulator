@@ -21,8 +21,6 @@ namespace FBG.Battle
         public TeamPokemon redTeam;
         public TeamPokemon blueTeam;
 
-        public MoveResults redResult;
-        public MoveResults blueResult;
         public List<battleHistory> moveHistory = new List<battleHistory>();
 
         public BattleGUI battleGUI;
@@ -30,8 +28,8 @@ namespace FBG.Battle
         public GifRenderer redSprite;
         public GifRenderer blueSprite;
 
-        public bool isRedMoveCalculated;
-        public bool isBlueMoveCalculated;
+        private bool isRedMoveCalculated;
+        private bool isBlueMoveCalculated;
 
         private int redAttackIndex;
         private int blueAttackIndex;
@@ -84,7 +82,6 @@ namespace FBG.Battle
         {
             capPokemonIndex();
             battleGUI.checkButtonNames(redTeam.curPokemon);
-            //doTurn();
             turnController();
         }
 
@@ -107,16 +104,6 @@ namespace FBG.Battle
             {
                 blueIndex = 0;
             }
-        }
-
-        private void attackButtons(int index)
-        {
-            if(redTeam.curPokemon.atkMoves[index] == "")
-            {
-                return;
-            }
-            redTeam.getMoveResults(index);
-            isRedMoveCalculated = true;
         }
 
         //this it the current button method
@@ -150,7 +137,7 @@ namespace FBG.Battle
         }
 
         //THIS WILL BE THE NEW TURN CONTROLLER
-        //The co-routines will be called from within the take turns
+        //The co-routines will be called/added from within the take turn methods
         //we have to split it up in case a pokemon swaps before the other team goes so we handle recalculating
         //also to prevent generating a queue of coroutines and having to clear it due to pokemon dying
         private void turnController()
