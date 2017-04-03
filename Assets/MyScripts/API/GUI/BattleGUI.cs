@@ -22,13 +22,13 @@ namespace FBG.Battle
 
         }
 
-        public void checkButtonNames(List<PokemonBase> list, int index)
+        public void checkButtonNames(PokemonBase pkmon)
         {
             for (int i = 0; i < btns.Length; i++)
             {
-                if (list[index].atkMoves[i] != btns[i].GetComponentInChildren<Text>().text)
+                if (pkmon.atkMoves[i] != btns[i].GetComponentInChildren<Text>().text)
                 {
-                    setButtonNames(list[index].atkMoves);
+                    setButtonNames(pkmon.atkMoves);
                 }
             }
         }
@@ -61,6 +61,11 @@ namespace FBG.Battle
         public void showBattleText(string s)
         {
 
+        }
+
+        public void changePokemonSprite(GifRenderer r, string name, int id)
+        {
+            r.ChangeSprite(name, id);
         }
     }
 }
