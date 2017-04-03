@@ -55,7 +55,7 @@ namespace FBG.Debuggers
 
             if (curTeam == PokemonTeam.redTeam)
             {
-                pokemonTeamData = battlesim.redTeam;
+                pokemonTeamData = battlesim.redTeam.pokemon;
                 if (matchCurIndex)
                 {
                     index = battlesim.redIndex;
@@ -63,7 +63,7 @@ namespace FBG.Debuggers
             }
             else
             {
-                pokemonTeamData = battlesim.blueTeam;
+                pokemonTeamData = battlesim.blueTeam.pokemon;
                 if (matchCurIndex)
                 {
                     index = battlesim.blueIndex;

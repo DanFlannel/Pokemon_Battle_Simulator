@@ -18,8 +18,8 @@ namespace FBG.Battle
         public int redIndex;
         public int blueIndex;
 
-        private TeamPokemon redTeam;
-        private TeamPokemon blueTeam;
+        public TeamPokemon redTeam;
+        public TeamPokemon blueTeam;
 
         public MoveResults redResult;
         public MoveResults blueResult;
@@ -69,8 +69,9 @@ namespace FBG.Battle
             battleGUI = this.GetComponent<BattleGUI>();
             battleGUI.checkButtonNames(redTeam.curPokemon);
 
-            battleGUI.changePokemonSprite(redSprite, redTeam.pokemon[redIndex].Name, redTeam.pokemon[redIndex].ID);
-            battleGUI.changePokemonSprite(blueSprite, blueTeam.pokemon[blueIndex].Name, blueTeam.pokemon[blueIndex].ID);
+            //UnityEngine.Debug.Log(string.Format("{0} {1}", redTeam.curPokemon.Name, redTeam.curPokemon.ID));
+            battleGUI.changePokemonSprite(redSprite, redTeam.curPokemon.Name, redTeam.curPokemon.ID);
+            battleGUI.changePokemonSprite(blueSprite, blueTeam.curPokemon.Name, blueTeam.curPokemon.ID);
 
             sw.Stop();
             print(string.Format("Time to load {0}ms", sw.ElapsedMilliseconds));

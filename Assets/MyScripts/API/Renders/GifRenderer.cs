@@ -10,11 +10,11 @@ public class GifRenderer : MonoBehaviour
 {
 
     //private SpriteRenderer gifRenderer;
-    private Animator anim;
+    public Animator anim;
     private bool isPlayer;
     public float speed = 2f;
 
-    void Start()
+    void Awake()
     {
         anim = this.GetComponent<Animator>();
         //gifRenderer = this.GetComponent<SpriteRenderer>();
@@ -48,6 +48,10 @@ public class GifRenderer : MonoBehaviour
         if (control == null)
         {
             Debug.Log("Did not load a controller");
+        }
+        if(anim == null)
+        {
+            Debug.Log("No animator");
         }
         anim.runtimeAnimatorController = control;
 
