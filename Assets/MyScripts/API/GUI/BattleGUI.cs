@@ -9,17 +9,11 @@ namespace FBG.Battle
     public class BattleGUI : MonoBehaviour
     {
         public Button[] btns;
+        private BattleSimulator sim;
 
-        // Use this for initialization
-        void Start()
+        public void setSimulator(ref BattleSimulator sim)
         {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
+            this.sim = sim;
         }
 
         public void checkButtonNames(PokemonBase pkmon)
@@ -41,6 +35,18 @@ namespace FBG.Battle
                 Text t = btns[i].GetComponentInChildren<Text>();
                 t.text = atkNames[i];
             }
+        }
+
+        public void attakButton(int index)
+        {
+            sim.redTeamAttack(index);
+            sim.blueTeamAttack();
+        }
+
+        public void swapButton(int index)
+        {
+            TeamPokemon team = sim.redTeam;
+            sim.swapPokemon(team, index);
         }
 
         public void promptSwap()

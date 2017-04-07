@@ -14,7 +14,6 @@ namespace FBG.Base
     {
         private TeamPokemon instance;
         public TeamPokemon enemyTeam;
-        public List<int> aliveIndexs = new List<int>();
         public List<PokemonBase> pokemon = new List<PokemonBase>();
         public int teamSize;
         public int curIndex;
@@ -32,8 +31,13 @@ namespace FBG.Base
             enemyTeam = team;
         }
 
-        public void OnSwap()
+        public void swap(int index)
         {
+            if(curIndex == index)
+            {
+                return;
+            }
+            curIndex = index;
             if (enemyTeam.hasLeechSeed)
             {
                 enemyTeam.hasLeechSeed = false;
@@ -53,7 +57,7 @@ namespace FBG.Base
         {
             if (curPokemon.curHp <= 0)
             {
-                //TODO prompt swap,
+                BattleSimulator.Instance.battleGUI.promptSwap();
                 return;
             }
             if (checkNVStatus())

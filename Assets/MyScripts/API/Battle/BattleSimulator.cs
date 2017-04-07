@@ -69,6 +69,7 @@ namespace FBG.Battle
 
             battleGUI = this.GetComponent<BattleGUI>();
             battleGUI.checkButtonNames(redTeam.curPokemon);
+            battleGUI.setSimulator(ref instance);
 
             //UnityEngine.Debug.Log(string.Format("{0} {1}", redTeam.curPokemon.Name, redTeam.curPokemon.ID));
             battleGUI.changePokemonSprite(redSprite, redTeam.curPokemon.Name, redTeam.curPokemon.ID);
@@ -106,17 +107,14 @@ namespace FBG.Battle
             }
         }
 
-        //this it the current button method
         public void redTeamAttack(int index)
         {
             redAttackIndex = index;
             isRedMoveCalculated = true;
-
-            blueTeamAttack();
         }
 
         //this is the random AI attack
-        private void blueTeamAttack()
+        public void blueTeamAttack()
         {
             blueAttackIndex = getRndMoveIndex();
             isBlueMoveCalculated = true;
@@ -136,10 +134,7 @@ namespace FBG.Battle
             return rnd;
         }
 
-        //THIS WILL BE THE NEW TURN CONTROLLER
-        //The co-routines will be called/added from within the take turn methods
-        //we have to split it up in case a pokemon swaps before the other team goes so we handle recalculating
-        //also to prevent generating a queue of coroutines and having to clear it due to pokemon dying
+        //TODO add things to the coroutine queue
         private void turnController()
         {
             if(isRedMoveCalculated && isBlueMoveCalculated)
@@ -168,17 +163,17 @@ namespace FBG.Battle
             moveHistory.Add(hist);
         }
 
-        //this swaps the index??
-        public void swapPokemon(TeamPokemon curTeam, int newIndex)
+
+        public void swapPokemon(TeamPokemon team, int newIndex)
         {
-            if (curTeam == blueTeam)
+            team.swap(newIndex);
+            GifRenderer r = redSprite;
+            if(team == blueTeam)
             {
-
+                r = blueSprite;
             }
-            else
-            {
 
-            }
+            battleGUI.changePokemonSprite(r, team.curPokemon.Name, team.curPokemon.ID);
         }
     }
 }
