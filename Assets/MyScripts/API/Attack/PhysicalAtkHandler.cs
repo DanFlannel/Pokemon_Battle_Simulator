@@ -7,7 +7,7 @@ using FBG.Battle;
 
 namespace FBG.Attack
 {
-    public class PhysicalAtkHandler : BaseMoves, IAttackHandler
+    public class PhysicalAtkHandler : PhysicalAtkMethods, IAttackHandler
     {
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
@@ -44,148 +44,93 @@ namespace FBG.Attack
         public move_DmgReport result(string name, float baseDamage)
         {
             damage = baseDamage;
-            string tempname = name.ToLower();
-            bool isHit = false;
-            int rnd;
-            switch (tempname)
+            switch (name.ToLower())
             {
                 default:
                     Debug.LogError("No physical attack with name " + name.ToLower() + " found");
                     break;
 
                 case "barrage":
-                    rnd = UnityEngine.Random.Range(2, 5);
-                    damage = multiAttack(rnd, name);
+                    damage = barrage(name);
                     break;
 
-                case "bide":                //waits 2 turns then deals back double.... :(
-                    if (self.atkStatus == attackStatus.normal)
-                    {
-                        self.cachedDamage += (baseDamage * 2f);
-                        self.atkStatus = attackStatus.charging_2;
-                        self.nextAttack = "bide";
-                    }
-                    else if (self.atkStatus == attackStatus.charging_2)
-                    {
-                        self.atkStatus = attackStatus.charging;
-                        self.cachedDamage += (baseDamage * 2f);
-                        self.nextAttack = "bide";
-
-                    }
-                    else if (self.atkStatus == attackStatus.charging)
-                    {
-                        ignoreReflect = true;
-                        self.atkStatus = attackStatus.normal;
-                        damage = self.cachedDamage;
-                        self.cachedDamage = 0;
-                    }
-
+                //waits 2 turns then deals back double
+                case "bide":                
+                    damage = bide(self, damage);
                     break;
 
-                case "bind":                //need to create a damage over time effect here for rndBind turns
-                    rnd = Random.Range(4, 5);
-                    float bindDmg = target.maxHP / 16f;
-                    target.team.addBind(rnd, bindDmg);
+                case "bind":
+                    bind(target);
                     break;
 
                 case "bite":
-                    isFlinched(target, 30);
+                    bite(target);
                     break;
 
                 case "body slam":
-                    isParalized(target, 30);
+                    bodySlam(target);
                     break;
 
                 case "bone club":
-                    isFlinched(target, 10);
+                    boneClub(target);
                     break;
 
                 case "bonemerang":
-                    rnd = 2;
-                    damage = multiAttack(rnd, name);
+                    damage = bonemerang(name);
                     break;
 
                 case "clamp":               //traps for 4-5 turns dealing 1/16th damage
-                    rnd = Random.Range(4, 5);
-                    float clampDmg = target.maxHP / 16f;
-                    target.team.addBind(rnd, clampDmg);
+                    clamp(target);
                     break;
 
                 case "comet punch":
-                    rnd = UnityEngine.Random.Range(2, 5);
-                    damage = multiAttack(rnd, name);
+                    damage = cometPunch(name);
                     break;
 
                 case "constrict":
-                    isHit = Chance_100(10);
-                    if (isHit)
+                    if (constrict(target))
                     {
-                        changeStats(Consts.speed, -1, target);
                         stageName = Consts.speed;
                         stageDiff = -1;
                     }
                     break;
 
                 case "counter":             //hits back with 2x power iff is hit with physical attack
-                    ignoreReflect = true;
-                    //check that it attacks second
-                    if (self.Speed < target.Speed)
-                    {
-                        int index = BattleSimulator.Instance.moveHistory.Count;
-                        if (BattleSimulator.Instance.moveHistory[index].atkCategory == Consts.Physical)
-                        {
-                            damage *= 2;
-                        }
-                    }
+                    damage = counter(self, target, damage);
                     break;
 
-                case "crabhammer":          //has a 1/8 crit ratio not a 1/16.... have to recalculate for this
+                //has a 1/8 crit ratio not a 1/16
+                case "crabhammer":
+                    crabHammer();
                     break;
 
                 case "cut":                 //no additional effects
-                    noAdditionalEffect();
+                    cut();
                     break;
 
                 case "dig":                 //redo based off of turn controller
-
-                    if (self.atkStatus == attackStatus.normal)
-                    {
-                        self.position = pokemonPosition.underground;
-                        self.atkStatus = attackStatus.charging;
-                        self.cachedDamage = baseDamage;
-                        self.nextAttack = "dig";
-
-                    }
-                    else if (self.atkStatus == attackStatus.charging)
-                    {
-                        damage = self.cachedDamage;
-                        self.position = pokemonPosition.normal;
-                        self.atkStatus = attackStatus.normal;
-                        self.cachedDamage = 0;
-                    }
+                    damage = dig(self, damage);
                     break;
 
                 case "dizzy punch":
-                    rnd = UnityEngine.Random.Range(1, 4);
-                    isConfused(target, 20, rnd);
+                    dizzyPunch(target);
                     break;
 
                 case "double kick":
-                    rnd = 2;
-                    damage = multiAttack(rnd, name);
+                    damage = doubleKick(name);
                     break;
 
                 case "double slap":
-                    rnd = UnityEngine.Random.Range(2, 5);
-                    damage = multiAttack(rnd, name);
+                    damage = doubleSlap(name);
                     break;
 
                 case "double edge":
                     recoil = Mathf.Round(damage / 3f);
+                    doubleEdge();
                     break;
 
                 case "drill peck":          //no additional effects
-                    noAdditionalEffect();
+                    drillPeck();
                     break;
 
                 case "earthquake":
@@ -193,55 +138,40 @@ namespace FBG.Attack
                     break;
 
                 case "egg bomb":            //no additional effects 
-                    noAdditionalEffect();
+                    eggBomb();
                     break;
 
                 case "explosion":           //causes user to faint
                     recoil = self.maxHP;
+                    explosion();
                     break;
 
                 case "fire punch":
-                    isBurned(target, 10);
+                    firePunch(target);
                     break;
 
                 case "fissure":
-                    oneHitKO(target, self, moveRes);
+                    damage = fissure(target, self, moveRes);
                     break;
 
                 case "fly":
-                    if (self.atkStatus == attackStatus.normal)
-                    {
-                        self.position = pokemonPosition.flying;
-                        self.atkStatus = attackStatus.charging;
-                        self.cachedDamage = baseDamage;
-                        self.nextAttack = "fly";
-
-                    }
-                    else if (self.atkStatus == attackStatus.charging)
-                    {
-                        damage = self.cachedDamage;
-                        self.position = pokemonPosition.normal;
-                        self.atkStatus = attackStatus.normal;
-                        self.cachedDamage = 0;
-                    }
+                    damage = fly(self, damage);
                     break;
 
                 case "fury attack":
-                    rnd = UnityEngine.Random.Range(2, 5);
-                    damage = multiAttack(rnd, name);
+                    damage = furyAttack(name);
                     break;
 
                 case "fury swipes":
-                    rnd = UnityEngine.Random.Range(2, 5);
-                    damage = multiAttack(rnd, name);
+                    damage = furySwipes(name);
                     break;
 
                 case "guillotine":
-                    oneHitKO(target, self, moveRes);
+                    damage = guillotine(target, self, moveRes);
                     break;
 
                 case "headbutt":
-                    isFlinched(target, 30);
+                    headbutt(target);
                     break;
 
                 case "high jump kick":      //if this misses it casues 1/2 of the damage it would have inflicted on the user
@@ -249,22 +179,23 @@ namespace FBG.Attack
                     {
                         recoil = damage / 2f;
                     }
+                    highJumpKick();
                     break;
 
                 case "horn attack":         //no additional effect
-                    noAdditionalEffect();
+                    hornAttack();
                     break;
 
                 case "horn drill":
-                    oneHitKO(target, self, moveRes);
+                    damage = hornDrill(target, self, moveRes);
                     break;
 
                 case "hyper fang":
-                    isFlinched(target, 10);
+                    hyperFang(target);
                     break;
 
                 case "ice punch":
-                    isFrozen(target, 10);
+                    icePunch(target);
                     break;
 
                 case "jump kick":           //lose 1/2 hp is the user misses just like high jump kick
@@ -272,85 +203,80 @@ namespace FBG.Attack
                     {
                         recoil = damage / 8f;
                     }
+                    jumpKick();
                     break;
 
                 case "karate chop":         //high crit ratio 1/8 versus 1/16
+                    karateChop();
                     break;
 
                 case "leech life":
                     heal = Mathf.Round(damage / 2f);
+                    leechLife();
                     break;
 
                 case "low kick":
-                    isFlinched(self, 30);
+                    lowKick(self);
                     break;
 
                 case "mega kick":           //no additional effect
-                    noAdditionalEffect();
+                    megaKick();
                     break;
 
                 case "mega punch":          //no additional effect
-                    noAdditionalEffect();
+                    megaPunch();
                     break;
 
                 case "pay day":             //small amount of money at the end of the battle??
-                    noAdditionalEffect();
+                    payDay();
                     break;
 
                 case "peck":                //no additional effect
-                    noAdditionalEffect();
+                    peck();
                     break;
 
                 case "pin missile":
-                    rnd = UnityEngine.Random.Range(2, 5);
-                    damage = multiAttack(rnd, name);
+                    damage = pinMissile(name);
                     break;
 
                 case "poison sting":        //chance to poison the target
-                    isPosioned(target, 30);
+                    poisonSting(target);
                     break;
 
                 case "pound":               //no additional effect
-                    noAdditionalEffect();
+                    pound();
                     break;
 
                 case "quick attack":        //has +1 priority
-                    noAdditionalEffect();
+                    quickAttack();
                     break;
 
                 case "rage":
-                    rage r = new rage(tempname, 1, self);
-                    for (int i = 0; i < self.effectors.Count; i++)
-                    {
-                        if (self.effectors[i].name == tempname)
-                        {
-                            self.effectors[i].duration = 1;
-                        }
-                    }
-                    self.effectors.Add(r);
+                    rage(self, name);
                     break;
 
                 case "razor leaf":          //high crit ratio
+                    razorLeaf();
                     break;
 
                 case "rock slide":
-                    isFlinched(target, 30);
+                    rockSlide(target);
                     break;
 
                 case "rock throw":          //no additional effect
-                    noAdditionalEffect();
+                    rockThrow();
                     break;
 
                 case "rolling kick":
-                    isFlinched(target, 30);
+                    rollingKick(target);
                     break;
 
                 case "scratch":             //no additional effect
-                    noAdditionalEffect();
+                    scratch();
                     break;
 
                 case "seismic toss":
-                    damage = levelBasedDamage(target);
+                    damage = seismicToss(target);
                     break;
 
                 case "self destruct":       //user faints
@@ -358,121 +284,91 @@ namespace FBG.Attack
                     break;
 
                 case "skull bash":          //charges first turn, raising defense, hits on the second turn
+                    damage = skullBash(self, baseDamage);
                     if (self.atkStatus == attackStatus.normal)
                     {
-                        self.atkStatus = attackStatus.charging;
-                        self.cachedDamage = baseDamage;
-                        self.nextAttack = "skull bash";
-                        changeStats(Consts.defense, 1, self);
                         stageName = Consts.defense;
                         stageDiff = 1;
-
-                    }
-                    else if (self.atkStatus == attackStatus.charging)
-                    {
-                        self.atkStatus = attackStatus.normal;
-                        damage = self.cachedDamage;
-                        self.cachedDamage = 0;
                     }
                     break;
 
                 case "sky attack":          //charges on first turn, hits on second, 30% flinch chance
-                    if (self.atkStatus == attackStatus.normal)
-                    {
-                        self.atkStatus = attackStatus.charging;
-                        self.cachedDamage = baseDamage;
-                        self.nextAttack = "sky attack";
-                    }
-                    if (self.atkStatus == attackStatus.charging)
-                    {
-                        self.atkStatus = attackStatus.normal;
-                        damage = self.cachedDamage;
-                        isFlinched(target, 30);
-                        self.cachedDamage = 0;
-                    }
+                    damage = skyAttack(self, target, baseDamage);
                     break;
 
                 case "slam":                //no additional effect
-                    noAdditionalEffect();
+                    slam();
                     break;
 
                 case "slash":               //high crit ratio 1/8 not 1/16
+                    slash();
                     break;
 
                 case "spike cannon":
-                    rnd = UnityEngine.Random.Range(2, 5);
-                    damage = multiAttack(rnd, name);
+                    damage = spikeCannon(name);
                     break;
 
                 case "stomp":               //if minimized *2 damage
-                    if (target.position == pokemonPosition.minimized)
-                    {
-                        damage *= 2f;
-                    }
-                    isFlinched(target, 30);
+                    damage = stomp(target, damage);
                     break;
 
                 case "strength":            //no additional effect
-                    noAdditionalEffect();
+                    strength();
                     break;
 
                 case "struggle":            //hurts the user if all the pp are gone
                     recoil = self.maxHP / 4f;
+                    struggle();
                     break;
 
                 case "submission":
                     recoil = Mathf.Round(damage / 4f);
+                    submission();
                     break;
 
                 case "super fang":
-                    ignoreReflect = true;
-                    damage = target.curHp / 2f;
+                    damage = superFang(target);
                     break;
 
                 case "tackle":              //no additional effect
-                    noAdditionalEffect();
+                    tackle();
                     break;
 
                 case "take down":
                     recoil = Mathf.Round(damage / 4f);
+                    takeDown();
                     break;
 
                 case "thrash":              //attacks for 2-3 turns, but cannot switch out or use a different attack
-                    int dur = Random.Range(2, 3);
-                    repeatAttack_Confused thrash = new repeatAttack_Confused(tempname, dur, self);
-                    if (!hasEffector(self, tempname))
-                    {
-                        self.effectors.Add(thrash);
-                    }
+                    thrash(self, name);
                     break;
 
                 case "thunder punch":
-                    isParalized(target, 10);
+                    thunderPunch(target);
                     break;
 
                 case "twineedle":           //20% chance to poison the target
-                    multiAttack(2, name);
-                    isPosioned(target, 20);
+                    damage = twinNeedle(target, name);
                     break;
 
                 case "vice grip":           //no additional effect
-                    noAdditionalEffect();
+                    viceGrip();
                     break;
 
                 case "vine whip":           //no additional effect
-                    noAdditionalEffect();
+                    vineWhip();
                     break;
 
                 case "waterfall":
-                    isFlinched(target, 20);
+                    waterFall(target);
                     break;
 
                 case "wing attack":         //no additional effect, can hit non-adjacent pokemon in triple battles
-                    noAdditionalEffect();
+                    wingAttack();
                     break;
-                //**************************************//
-                case "wrap":                //causes 1/16th damage for 4-5 turns
-                    rnd = UnityEngine.Random.Range(4, 5);
+
+                case "wrap":                //causes 1/16th damage for 4-5 turns, traps
+                    wrap(target);
                     break;
             }
 

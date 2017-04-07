@@ -412,15 +412,6 @@ namespace FBG.Attack
             return predictedDamage;
         }
 
-        public  float earthQuake(PokemonBase target, float predictedDamage)
-        {
-            if (target.position == pokemonPosition.underground)
-            {
-                return Mathf.Round(predictedDamage * 2);
-            }
-            return predictedDamage;
-        }
-
         public float oneHitKO(PokemonBase target, PokemonBase self, MoveResults mr)
         {
             ignoreLightScreen = true;
