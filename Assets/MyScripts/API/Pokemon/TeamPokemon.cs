@@ -53,13 +53,22 @@ namespace FBG.Base
             return result;
         }
 
-        public void takeTurn(int index)
+        public void takeTurn(int index, bool isSwapping)
         {
             if (curPokemon.curHp <= 0)
             {
                 BattleSimulator.Instance.battleGUI.promptSwap();
                 return;
             }
+
+            if (isSwapping)
+            {
+                Debug.Log("Swapping Pokemon");
+                swap(index);
+                BattleSimulator.Instance.changeSprites(this);
+                return;
+            }
+
             if (checkNVStatus())
             {
                 return;
@@ -68,6 +77,7 @@ namespace FBG.Base
             applyDamage(move);
             applyHeal(move);
             applyRecoil(move);
+            curPokemon.curPP[index]--;
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
         }
 
@@ -79,7 +89,6 @@ namespace FBG.Base
                 move.dmgReport.damage = enemyTeam.curPokemon.curHp;
             }
             enemyTeam.curPokemon.curHp -= (int)move.dmgReport.damage;
-            //now we have to force the other team to switch!
         }
 
         private void applyHeal(MoveResults move)

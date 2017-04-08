@@ -28,11 +28,14 @@ namespace FBG.Battle
         public GifRenderer redSprite;
         public GifRenderer blueSprite;
 
-        private bool isRedMoveCalculated;
-        private bool isBlueMoveCalculated;
+        public bool isRedMoveCalculated;
+        public bool isBlueMoveCalculated;
 
-        private int redAttackIndex;
-        private int blueAttackIndex;
+        private int redMoveIndex;
+        private int blueMoveIndex;
+
+        private bool isRedSwapping;
+        private bool isBlueSwapping;
 
         private void Awake()
         {
@@ -51,6 +54,9 @@ namespace FBG.Battle
         {
             isRedMoveCalculated = false;
             isBlueMoveCalculated = false;
+
+            isRedSwapping = false;
+            isBlueSwapping = false;
 
             Stopwatch sw = new Stopwatch();
             sw.Start();
@@ -107,16 +113,21 @@ namespace FBG.Battle
             }
         }
 
-        public void redTeamAttack(int index)
+        public bool redTeamAttack(int index)
         {
-            redAttackIndex = index;
+            redMoveIndex = index;
+            if(redTeam.curPokemon.curPP[index] < 0)
+            {
+                return false;
+            }
             isRedMoveCalculated = true;
+            return true;
         }
 
         //this is the random AI attack
         public void blueTeamAttack()
         {
-            blueAttackIndex = getRndMoveIndex();
+            blueMoveIndex = getRndMoveIndex();
             isBlueMoveCalculated = true;
         }
 
@@ -125,11 +136,18 @@ namespace FBG.Battle
             int len = blueTeam.pokemon[blueIndex].atkMoves.Count;
             int rnd = Random.Range(0, len);
             string atkName = blueTeam.pokemon[blueIndex].atkMoves[rnd];
+            if (blueTeam.curPokemon.curPP[rnd] <= 0)
+            {
+                atkName = "";
+            }
 
             while (atkName == "")
             {
                 rnd = Random.Range(0, len);
-                atkName = blueTeam.pokemon[blueIndex].atkMoves[rnd];
+                if (blueTeam.curPokemon.curPP[rnd] > 0)
+                {
+                    atkName = blueTeam.curPokemon.atkMoves[rnd];
+                }
             }
             return rnd;
         }
@@ -139,22 +157,35 @@ namespace FBG.Battle
         {
             if(isRedMoveCalculated && isBlueMoveCalculated)
             {
-                isRedMoveCalculated =  false;
-                isBlueMoveCalculated = false;
+
+
+                UnityEngine.Debug.Log(string.Format("red team index: {0} swap {1} blue team index {2} swap {3}", redMoveIndex, isRedSwapping, blueMoveIndex, isBlueSwapping));
 
                 //if the red team goes first...
                 if (redTeam.curPokemon.Speed >= blueTeam.curPokemon.Speed)
                 {
-                    redTeam.takeTurn(redAttackIndex);
-                    blueTeam.takeTurn(blueAttackIndex);
+                    redTeam.takeTurn(redMoveIndex, isRedSwapping);
+                    blueTeam.takeTurn(blueMoveIndex, isBlueSwapping);
                 }
                 //if the blue team goes first...
                 else
                 {
-                    blueTeam.takeTurn(redAttackIndex);
-                    redTeam.takeTurn(blueAttackIndex);
+                    blueTeam.takeTurn(redMoveIndex, isRedSwapping);
+                    redTeam.takeTurn(blueMoveIndex, isBlueSwapping);
                 }
+
+                resetTurn();
             }
+        }
+
+        private void resetTurn()
+        {
+            isRedMoveCalculated = false;
+            isBlueMoveCalculated = false;
+            isRedSwapping = false;
+            isBlueSwapping = false;
+            blueIndex = blueTeam.curIndex;
+            redIndex = redTeam.curIndex;
         }
 
         public void addMoveHistory(MoveResults res, PokemonBase attacker)
@@ -163,10 +194,8 @@ namespace FBG.Battle
             moveHistory.Add(hist);
         }
 
-
-        public void swapPokemon(TeamPokemon team, int newIndex)
+        public void changeSprites(TeamPokemon team)
         {
-            team.swap(newIndex);
             GifRenderer r = redSprite;
             if(team == blueTeam)
             {
@@ -174,6 +203,24 @@ namespace FBG.Battle
             }
 
             battleGUI.changePokemonSprite(r, team.curPokemon.Name, team.curPokemon.ID);
+        }
+
+        public void swapPokemon(TeamPokemon team, int index)
+        {
+            if (team == redTeam)
+            {
+                print("red team is swapping");
+                redMoveIndex = index;
+                isRedSwapping = true;
+                isRedMoveCalculated = true;
+                blueTeamAttack();
+            }
+            else
+            {
+                blueMoveIndex = index;
+                isBlueSwapping = true;
+                isBlueMoveCalculated = true;
+            }
         }
     }
 }

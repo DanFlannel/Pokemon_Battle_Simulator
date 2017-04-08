@@ -53,6 +53,8 @@ namespace FBG.Base
         public int critRatio_stage { get; set; }
 
         public List<string> atkMoves = new List<string>();
+        public List<int> maxPP = new List<int>();
+        public List<int> curPP = new List<int>();
 
         public float cachedDamage { get; set; }
         public string nextAttack { get; set; }
@@ -156,6 +158,8 @@ namespace FBG.Base
             for (int i = 0; i < rndNums.Count; i++)
             {
                 atkMoves.Add(attackMoves[rndNums[i]].attack.name);
+                maxPP.Add(attackMoves[rndNums[i]].attack.pp);
+                curPP.Add(attackMoves[rndNums[i]].attack.pp);
             }
         }
 
