@@ -470,5 +470,36 @@ namespace FBG.Attack
             }
             return false;
         }
+
+        public bool rndSwap(PokemonBase target)
+        {
+            if (canBeSwapped(target))
+            {
+                List<PokemonBase> pkmn = new List<PokemonBase>();
+                for(int i = 0; i < target.team.pokemon.Count; i++)
+                {
+                    if(target.team.pokemon[i].curHp > 0 && target.team.pokemon[i] != target.team.curPokemon)
+                    {
+                        pkmn.Add(target.team.pokemon[i]);
+                    }
+                }
+                int rnd = Random.Range(0, pkmn.Count);
+                target.team.swap(rnd);
+                return true;
+            }
+            return false;
+        }
+
+        private bool canBeSwapped(PokemonBase target)
+        {
+            for(int i = 0; i < target.team.pokemon.Count; i++)
+            {
+                if (target.team.pokemon[i].curHp > 0 && target.team.pokemon[i] != target.team.curPokemon)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

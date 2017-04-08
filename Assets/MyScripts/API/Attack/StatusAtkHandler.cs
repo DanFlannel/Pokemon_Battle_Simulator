@@ -261,7 +261,8 @@ namespace FBG.Attack
                     break;
 
                 //opponent switches pokemon out
-                case "roar":                
+                case "roar":
+                    moveRes.failed = rndSwap(target);
                     break;
 
                 //lowers opponent accuracy by one stage
@@ -364,6 +365,7 @@ namespace FBG.Attack
 
                 //blows the opponent away if they are a lower level
                 case "whirlwind":
+                    moveRes.failed = rndSwap(target);
                     break;
 
                 case "withdraw":
