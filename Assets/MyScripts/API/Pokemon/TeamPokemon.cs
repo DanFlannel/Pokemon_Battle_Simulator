@@ -33,15 +33,28 @@ namespace FBG.Base
 
         public void swap(int index)
         {
-            if(curIndex == index)
-            {
-                return;
-            }
             curIndex = index;
             if (enemyTeam.hasLeechSeed)
             {
                 enemyTeam.hasLeechSeed = false;
             }
+        }
+
+        public int getRndPokemon()
+        {
+            List<int> tmp = new List<int>();
+            for(int i = 0; i < pokemon.Count; i++)
+            {
+                if(pokemon[i].curHp > 0 && i != curIndex)
+                {
+                    tmp.Add(i);
+                }
+            }
+            if(tmp.Count == 0)
+            {
+                return -1;
+            }
+            return tmp[UnityEngine.Random.Range(0, tmp.Count)];
         }
 
         public MoveResults getMoveResults(int index)
@@ -55,19 +68,15 @@ namespace FBG.Base
 
         public void takeTurn(int index, bool isSwapping)
         {
-            if (curPokemon.curHp <= 0)
-            {
-                BattleSimulator.Instance.battleGUI.promptSwap();
-                return;
-            }
-
             if (isSwapping)
             {
                 Debug.Log("Swapping Pokemon");
                 swap(index);
-                BattleSimulator.Instance.changeSprites(this);
+                BattleSimulator.Instance.changeSprites(ref instance);
                 return;
             }
+
+            checkCurPokemon();
 
             if (checkNVStatus())
             {
@@ -78,7 +87,18 @@ namespace FBG.Base
             applyHeal(move);
             applyRecoil(move);
             curPokemon.curPP[index]--;
+            if(enemyTeam.curPokemon.curHp <= 0)
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
+        }
+
+        public void checkCurPokemon()
+        {
+            if (curPokemon.curHp <= 0)
+            {
+                Debug.Log("Dead pokemon, prompting swap");
+                BattleSimulator.Instance.battleGUI.promptSwap(ref instance);
+                return;
+            }
         }
 
         private void applyDamage(MoveResults move)

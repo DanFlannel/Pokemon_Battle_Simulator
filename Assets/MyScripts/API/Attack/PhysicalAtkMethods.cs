@@ -92,11 +92,11 @@ namespace FBG.Attack {
             return isHit;
         }
 
-        public float counter(PokemonBase self, PokemonBase target, float damage)
+        public float counter(PokemonBase self, PokemonBase target, MoveResults mr, float damage)
         {
             ignoreReflect = true;
             //check that it attacks second
-            if (self.Speed < target.Speed)
+            if (self.Speed < target.Speed && BattleSimulator.Instance.moveHistory.Count > 0)
             {
                 int index = BattleSimulator.Instance.moveHistory.Count;
                 if (BattleSimulator.Instance.moveHistory[index].atkCategory == Consts.Physical)
@@ -104,7 +104,8 @@ namespace FBG.Attack {
                     damage *= 2;
                 }
             }
-            return damage;
+            mr.failed = true;
+            return 0;
         }
 
         public void crabHammer() { }

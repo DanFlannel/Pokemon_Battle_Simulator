@@ -157,7 +157,6 @@ namespace FBG.Attack
         /// <returns></returns>
         private static bool calcExitConditions(string atkCat, string atkName, int atkIndex)
         {
-
             if (atkCat == Consts.Status) //we do not have to calculate damage for status moves!
             {
                 Debug.Log("Status move");
@@ -378,6 +377,7 @@ namespace FBG.Attack
         {
             if(cat == Consts.Status)
             {
+                Debug.Log("Status move, no accuracy check");
                 return true;
             }
 
@@ -419,12 +419,12 @@ namespace FBG.Attack
                 prob = accuracy;
             }
 
+            Debug.Log(string.Format("move acc {0} self acc {1} target evasion {2} total probability {3} * {4} = {5}", accuracy, accMod, evadeMod, (accuracy), (accMod / evadeMod), prob));
+
             if (prob >= 100)
             {
                 return true;
             }
-            Debug.Log(string.Format("move acc {0} self acc {1} target evasion {2} total probability {3} * {4} = {5}", accuracy, accMod, evadeMod, (accuracy), (accMod / evadeMod), prob));
-
             return Utilities.probability(prob, 100f);
         }
 

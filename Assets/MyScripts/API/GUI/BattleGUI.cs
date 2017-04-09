@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using FBG.Base;
+using FBG.Attack;
 
 namespace FBG.Battle
 {
@@ -11,9 +12,8 @@ namespace FBG.Battle
         public Button[] atkBtns;
         public Button[] swapBtns;
         public GameObject swapPanel;
-        public GameObject battleCam;
         private BattleSimulator sim;
-        private int swapIndex;
+        public int swapIndex;
 
         public void setSimulator(ref BattleSimulator sim)
         {
@@ -81,22 +81,36 @@ namespace FBG.Battle
             }
         }
 
-        public void promptSwap()
+        public void promptSwap(ref TeamPokemon team)
         {
+            if(team == sim.blueTeam)
+            {
+                
+                int index = team.getRndPokemon();
+                if(index == -1)
+                {
+                    Debug.Log("All enemies dead");
+                    return;
+                }
+                Debug.Log(string.Format("enemy pokemon force swapped: {0} ", index));
+                team.swap(index);
+                sim.swapPokemon(team, index);
+                sim.changeSprites(ref team);
+                return;
+            }
+            Debug.Log("Prompting swap panel");
             toggleSwapPanel();
         }
 
         public void toggleSwapPanel()
         {
             swapPanel.SetActive(!swapPanel.activeInHierarchy);
-            battleCam.SetActive(!swapPanel.activeInHierarchy);
             updateSwapPanel();
         }
 
         private void toggleSwapPanel(bool b)
         {
             swapPanel.SetActive(b);
-            battleCam.SetActive(!b);
             updateSwapPanel();
         }
 

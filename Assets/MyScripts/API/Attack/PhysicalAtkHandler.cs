@@ -96,7 +96,7 @@ namespace FBG.Attack
                     break;
 
                 case "counter":             //hits back with 2x power iff is hit with physical attack
-                    damage = counter(self, target, damage);
+                    damage = counter(self, target, moveRes, damage);
                     break;
 
                 //has a 1/8 crit ratio not a 1/16

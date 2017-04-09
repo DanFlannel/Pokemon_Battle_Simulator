@@ -454,9 +454,9 @@ namespace FBG.Attack
             //subsitute health = mr.dmg.recoil
         }
 
-        public  void leech_seed(bool isPlayer)
+        public  void leech_seed()
         {
-
+            
         }
 
         public  bool hasEffector(PokemonBase target, string eName)

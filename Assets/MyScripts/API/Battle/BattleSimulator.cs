@@ -157,9 +157,12 @@ namespace FBG.Battle
         {
             if(isRedMoveCalculated && isBlueMoveCalculated)
             {
-
-
                 UnityEngine.Debug.Log(string.Format("red team index: {0} swap {1} blue team index {2} swap {3}", redMoveIndex, isRedSwapping, blueMoveIndex, isBlueSwapping));
+
+                if (!isRedSwapping)
+                {
+
+                }
 
                 //if the red team goes first...
                 if (redTeam.curPokemon.Speed >= blueTeam.curPokemon.Speed)
@@ -173,6 +176,11 @@ namespace FBG.Battle
                     blueTeam.takeTurn(redMoveIndex, isRedSwapping);
                     redTeam.takeTurn(blueMoveIndex, isBlueSwapping);
                 }
+
+
+
+                redTeam.checkCurPokemon();
+                blueTeam.checkCurPokemon();
 
                 resetTurn();
             }
@@ -194,14 +202,13 @@ namespace FBG.Battle
             moveHistory.Add(hist);
         }
 
-        public void changeSprites(TeamPokemon team)
+        public void changeSprites(ref TeamPokemon team)
         {
             GifRenderer r = redSprite;
             if(team == blueTeam)
             {
                 r = blueSprite;
             }
-
             battleGUI.changePokemonSprite(r, team.curPokemon.Name, team.curPokemon.ID);
         }
 
