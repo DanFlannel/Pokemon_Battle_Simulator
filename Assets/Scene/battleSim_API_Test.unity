@@ -706,7 +706,7 @@ MonoBehaviour:
   - {fileID: 44806489}
   - {fileID: 1495597060}
   swapPanel: {fileID: 808244892}
-  battleCam: {fileID: 1010458214}
+  swapIndex: 0
 --- !u!114 &589560786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,7 +1127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curTeam: 1
   index: 0
-  matchCurIndex: 0
+  matchCurIndex: 1
   pokeName: 
   m_ID: 0
   m_Level: 0
@@ -3385,7 +3385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curTeam: 0
   index: 0
-  matchCurIndex: 0
+  matchCurIndex: 1
   pokeName: 
   m_ID: 0
   m_Level: 0
