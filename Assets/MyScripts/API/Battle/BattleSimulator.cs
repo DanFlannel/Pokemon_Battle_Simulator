@@ -155,35 +155,50 @@ namespace FBG.Battle
         //TODO add things to the coroutine queue
         private void turnController()
         {
-            if(isRedMoveCalculated && isBlueMoveCalculated)
+            if(isRedMoveCalculated)
             {
-                UnityEngine.Debug.Log(string.Format("red team index: {0} swap {1} blue team index {2} swap {3}", redMoveIndex, isRedSwapping, blueMoveIndex, isBlueSwapping));
+                blueTeamAttack();
+                //UnityEngine.Debug.Log(string.Format("red team index: {0} swap {1} blue team index {2} swap {3}", redMoveIndex, isRedSwapping, blueMoveIndex, isBlueSwapping));
 
-                if (!isRedSwapping)
+                List<TurnInformation> info = new List<TurnInformation>();
+                info.Add(new TurnInformation(redTeam.curPokemon, redMoveIndex, isRedSwapping));
+                info.Add(new TurnInformation(blueTeam.curPokemon, blueMoveIndex, isBlueSwapping));
+
+                TurnOrder turn = new TurnOrder(info);
+                for(int i = 0; i < turn.order.Count; i++)
                 {
-
+                    turn.order[i].pokemon.team.takeTurn(turn.order[i].moveIndex, turn.order[i].isSwapping);
                 }
 
-                //if the red team goes first...
-                if (redTeam.curPokemon.Speed >= blueTeam.curPokemon.Speed)
+                for(int i = 0; i < turn.order.Count; i++)
                 {
-                    redTeam.takeTurn(redMoveIndex, isRedSwapping);
-                    blueTeam.takeTurn(blueMoveIndex, isBlueSwapping);
+                    turn.order[i].pokemon.team.checkCurPokemon();
                 }
-                //if the blue team goes first...
-                else
-                {
-                    blueTeam.takeTurn(redMoveIndex, isRedSwapping);
-                    redTeam.takeTurn(blueMoveIndex, isBlueSwapping);
-                }
-
-
-
-                redTeam.checkCurPokemon();
-                blueTeam.checkCurPokemon();
-
                 resetTurn();
             }
+        }
+
+        private List<TurnInformation> determineOrder(params TurnInformation[] t)
+        {
+            List<TurnInformation> speed = new List<TurnInformation>();
+
+            List<TurnInformation> priorities = new List<TurnInformation>();
+
+            for(int i = 0; i < t.Length; i++)
+            {
+                if(t[i].priority > 0)
+                {
+                    priorities.Add(t[i]);
+                }
+                else
+                {
+                    speed.Add(t[i]);
+                }
+            }
+
+
+            return priorities;
+
         }
 
         private void resetTurn()
@@ -216,11 +231,9 @@ namespace FBG.Battle
         {
             if (team == redTeam)
             {
-                print("red team is swapping");
                 redMoveIndex = index;
                 isRedSwapping = true;
                 isRedMoveCalculated = true;
-                blueTeamAttack();
             }
             else
             {
