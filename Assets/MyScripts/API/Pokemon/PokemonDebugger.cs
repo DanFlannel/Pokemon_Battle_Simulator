@@ -24,6 +24,7 @@ namespace FBG.Debuggers
         public int m_Defenese;
         public int m_SpecialAttack;
         public int m_SpecialDefense;
+        public int m_Speed;
 
         public List<string> atkMoves = new List<string>();
         public dmgMult damageMultiplier;
@@ -93,6 +94,7 @@ namespace FBG.Debuggers
             m_Defenese = p.Defense;
             m_SpecialAttack = p.Special_Attack;
             m_SpecialDefense = p.Special_Defense;
+            m_Speed = p.Speed;
 
             atkMoves = p.atkMoves;
 

@@ -134,7 +134,7 @@ namespace FBG.Base
         public static bool probability(float prob, float bounds)
         {
             bool chance = false;
-            float guess = Random.Range(0, bounds);
+            float guess = Random.Range(0, bounds - 1);
             //Debug.Log(guess + " : " + prob);
             if (guess < prob)
             {
