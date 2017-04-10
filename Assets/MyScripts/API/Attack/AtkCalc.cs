@@ -61,6 +61,21 @@ namespace FBG.Attack
             return baseDamage;
         }
 
+        /// <summary>
+        /// Used for attacks that strike multiple times.
+        /// </summary>
+        /// <param name="self"></param>
+        /// <param name="atkName"></param>
+        /// <returns></returns>
+        public static float GenBaseDamage(PokemonBase self, string atkName) {
+            int atkIndex = getAttackListIndex(atkName);
+            string atkCat = MoveSets.attackList[atkIndex].cat;
+            string atkType = MoveSets.attackList[atkIndex].type;
+            MoveResults MR = new MoveResults(atkName);
+
+            return GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
+        }
+
         private static move_DmgReport GenDmgReport (string atkName, string atkCat, float baseDamage, PokemonBase tar, PokemonBase self, MoveResults MR)
         {
             move_DmgReport report = new move_DmgReport();
@@ -122,7 +137,7 @@ namespace FBG.Attack
             set_attack_and_def(atkCat);
             if (calcExitConditions(atkCat, atkName, atkIndex))
             {
-                Debug.LogWarning("damage exit conditions met");
+                //Debug.LogWarning("damage exit conditions met");
                 return 0;
             }
 
@@ -377,7 +392,7 @@ namespace FBG.Attack
         {
             if(cat == Consts.Status)
             {
-                Debug.Log("Status move, no accuracy check");
+                //Debug.Log("Status move, no accuracy check");
                 return true;
             }
 
@@ -419,7 +434,7 @@ namespace FBG.Attack
                 prob = accuracy;
             }
 
-            Debug.Log(string.Format("move acc {0} self acc {1} target evasion {2} total probability {3} * {4} = {5}", accuracy, accMod, evadeMod, (accuracy), (accMod / evadeMod), prob));
+            //Debug.Log(string.Format("move acc {0} self acc {1} target evasion {2} total probability {3} * {4} = {5}", accuracy, accMod, evadeMod, (accuracy), (accMod / evadeMod), prob));
 
             if (prob >= 100)
             {
@@ -437,7 +452,7 @@ namespace FBG.Attack
         {
             float divider = 1f / (float)chance;
             divider *= 100f;
-            Debug.Log("crit chance: " + divider);
+            //Debug.Log("crit chance: " + divider);
             return Utilities.probability(divider, 100f);
         }
 

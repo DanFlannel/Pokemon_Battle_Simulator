@@ -212,8 +212,7 @@ namespace FBG.Attack
             float damage = 0;
             for (int i = 0; i < rnd; i++)
             {
-                MoveResults mr = AtkCalc.calculateAttackEffect(AtkCalc.targetPokemon, AtkCalc.thisPokemon, name);
-                damage += mr.dmgReport.damage;
+                damage += AtkCalc.GenBaseDamage(AtkCalc.thisPokemon, name);
             }
             Debug.Log("Final Damage: " + damage);
             return damage;
