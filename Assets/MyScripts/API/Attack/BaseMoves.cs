@@ -214,7 +214,7 @@ namespace FBG.Attack
             {
                 damage += AtkCalc.GenBaseDamage(AtkCalc.thisPokemon, name);
             }
-            Debug.Log("Final Damage: " + damage);
+            Debug.Log(string.Format("Hit {0} times", rnd));
             return damage;
         }
 
