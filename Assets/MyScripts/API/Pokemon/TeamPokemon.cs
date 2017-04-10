@@ -76,7 +76,10 @@ namespace FBG.Base
                 return;
             }
 
-            checkCurPokemon();
+            if (!checkCurPokemon())
+            {
+                return;
+            }
 
             if (checkNVStatus())
             {
@@ -91,14 +94,15 @@ namespace FBG.Base
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
         }
 
-        public void checkCurPokemon()
+        public bool checkCurPokemon()
         {
             if (curPokemon.curHp <= 0)
             {
                 Debug.Log("Dead pokemon, prompting swap");
-                BattleSimulator.Instance.battleGUI.promptSwap(ref instance);
-                return;
+                BattleSimulator.Instance.battleGUI.promptSwap(ref instance, true);
+                return false;
             }
+            return true;
         }
 
         private void applyDamage(MoveResults move)
@@ -138,8 +142,6 @@ namespace FBG.Base
                 nonVolitleMove nv = Utilities.isMoveHaltedByNV(curPokemon);
                 if (nv.isAffected)
                 {
-
-                    //TODO add text to a coroutine
                     return true;
                 }
             }

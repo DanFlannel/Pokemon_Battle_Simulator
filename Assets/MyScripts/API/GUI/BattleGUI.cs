@@ -14,6 +14,7 @@ namespace FBG.Battle
         public GameObject swapPanel;
         private BattleSimulator sim;
         public int swapIndex;
+        private bool forceSwapping;
 
         public void setSimulator(ref BattleSimulator sim)
         {
@@ -74,14 +75,15 @@ namespace FBG.Battle
 
         public void swapButton()
         {
-            toggleSwapPanel();
-            if (swapIndex != sim.redTeam.curIndex)
+            if (swapIndex != sim.redTeam.curIndex && sim.redTeam.pokemon[swapIndex].curHp > 0)
             {
                 sim.swapPokemon(sim.redTeam, swapIndex);
+                toggleSwapPanel();
+                forceSwapping = false;
             }
         }
 
-        public void promptSwap(ref TeamPokemon team)
+        public void promptSwap(ref TeamPokemon team, bool isForced)
         {
             if(team == sim.blueTeam)
             {
@@ -92,18 +94,23 @@ namespace FBG.Battle
                     Debug.Log("All enemies dead");
                     return;
                 }
-                Debug.Log(string.Format("enemy pokemon force swapped: {0} ", index));
+                Debug.Log(string.Format("prompting enemy swap {0} ", index));
                 team.swap(index);
                 sim.swapPokemon(team, index);
                 sim.changeSprites(ref team);
                 return;
             }
-            Debug.Log("Prompting swap panel");
-            toggleSwapPanel();
+            Debug.Log("Prompting player swap");
+            forceSwapping = isForced;
+            if (!swapPanel.activeInHierarchy)
+            {
+                toggleSwapPanel();
+            }
         }
 
         public void toggleSwapPanel()
         {
+            Debug.Log("Toggle swap panel");
             swapPanel.SetActive(!swapPanel.activeInHierarchy);
             updateSwapPanel();
         }
