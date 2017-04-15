@@ -14,7 +14,7 @@ namespace FBG.Battle
         private static BattleSimulator instance = null;
         public static BattleSimulator Instance { get { return instance; } }
 
-        public int teamSize = 1;
+        public int teamSize = 6;
         public int redIndex;
         public int blueIndex;
 
@@ -168,6 +168,11 @@ namespace FBG.Battle
                 for(int i = 0; i < turn.order.Count; i++)
                 {
                     turn.order[i].pokemon.team.takeTurn(turn.order[i].moveIndex, turn.order[i].isSwapping);
+                }
+
+                for(int i = 0; i < turn.order.Count; i++)
+                {
+                    //post turn damage based strictly off speed
                 }
 
                 for(int i = 0; i < turn.order.Count; i++)

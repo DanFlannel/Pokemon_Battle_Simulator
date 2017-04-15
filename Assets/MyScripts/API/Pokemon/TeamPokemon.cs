@@ -7,7 +7,6 @@ using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
 
-
 namespace FBG.Base
 {
     public class TeamPokemon : TeamEffects
