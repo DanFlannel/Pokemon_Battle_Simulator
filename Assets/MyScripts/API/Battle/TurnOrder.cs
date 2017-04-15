@@ -12,9 +12,11 @@ namespace FBG.Battle
     {
         public List<TurnInformation> order;
         public List<TurnInformation> speedDetermined;
+        public bool swapped;
 
         public TurnOrder(List<TurnInformation> info)
         {
+            swapped = false;
             order = determineOrder(info);
         }
 
@@ -34,6 +36,7 @@ namespace FBG.Battle
                 if (info[i].isSwapping)
                 {
                     info[i].priority = 6;
+                    swapped = true;
                 }
             }
             return info;
@@ -88,6 +91,16 @@ namespace FBG.Battle
                 i += tmp.Count - 1;
             }
             return final;
+        }
+
+        public List<TurnInformation> speedOnly(params PokemonBase[] arr)
+        {
+            List<TurnInformation> info = new List<TurnInformation>();
+            for(int i = 0; i < arr.Length; i++)
+            {
+                info.Add(new TurnInformation(arr[i], 0, false));
+            }
+            return speedAll(info);
         }
 
         //sorts only pokemon with a priority move

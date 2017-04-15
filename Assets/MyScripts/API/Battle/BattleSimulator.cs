@@ -170,6 +170,11 @@ namespace FBG.Battle
                     turn.order[i].pokemon.team.takeTurn(turn.order[i].moveIndex, turn.order[i].isSwapping);
                 }
 
+                if (turn.swapped)
+                {
+                    info = turn.speedOnly(redTeam.curPokemon, blueTeam.curPokemon);
+                }
+
                 for(int i = 0; i < turn.order.Count; i++)
                 {
                     //post turn damage based strictly off speed
