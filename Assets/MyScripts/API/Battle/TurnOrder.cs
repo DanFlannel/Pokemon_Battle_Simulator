@@ -20,10 +20,23 @@ namespace FBG.Battle
 
         private List<TurnInformation> determineOrder(List<TurnInformation> info)
         {
+            info = adjustSwitching(info);
             //we determine the order all specifically by speed and store that
             speedDetermined = speedAll(info);
             //we then take into account priorities and re order the pokemon
             return combineSpeed_Priority(info, speedDetermined);
+        }
+
+        private List<TurnInformation> adjustSwitching (List<TurnInformation> info)
+        {
+            for(int i = 0; i < info.Count; i++)
+            {
+                if (info[i].isSwapping)
+                {
+                    info[i].priority = 6;
+                }
+            }
+            return info;
         }
 
         private List<TurnInformation> combineSpeed_Priority(List<TurnInformation> info, List<TurnInformation> speed)
