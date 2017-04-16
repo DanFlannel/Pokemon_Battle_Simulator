@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using FBG.Base;
+﻿using FBG.Base;
 using FBG.Data;
 using FBG.Battle;
 
