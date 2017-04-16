@@ -13,7 +13,8 @@ namespace FBG.Base
         public List<IEffector> effectors = new List<IEffector>();
 
         public nonVolitileStatusEffects status_A { get; set; }
-        public int nonVolDuration { get; set; }
+        public int nvCurDur { get; set; }
+        public int nvDur { get; set; }
 
         public volitileStatusEffects status_B { get; set; }
 
@@ -90,7 +91,7 @@ namespace FBG.Base
             cachedDamage = 0;
 
             status_A = nonVolitileStatusEffects.none;
-            nonVolDuration = 0;
+            nvDur = 0;
 
             position = pokemonPosition.normal;
             atkStatus = attackStatus.normal;
@@ -113,6 +114,14 @@ namespace FBG.Base
             spDefense_stage = 0;
             speed_stage = 0;
             critRatio_stage = 0;
+        }
+
+        private void endTurn()
+        {
+            if(status_A != nonVolitileStatusEffects.none)
+            {
+
+            }
         }
 
         /// <summary>

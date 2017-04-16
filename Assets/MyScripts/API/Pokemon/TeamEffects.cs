@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using FBG.Attack;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -50,7 +51,6 @@ namespace FBG.Base
             bindDuration = dur;
             bindDamage = dmg;
         }
-
 
 
         private void reduceLightScreen()
@@ -113,8 +113,63 @@ namespace FBG.Base
             reduceMist();
             reduceReflect();
             reduceBind();
-            //we do the leech seed damage and healing in the battleSim so we can add text and effects
-            //along with the bind as well
+        }
+
+
+        public void endOfTurnDamage(PokemonBase self)
+        {
+            if (self.curHp < 0) { return; }
+            if (isBound)
+            {
+                self.curHp -= Mathf.RoundToInt(bindDamage);
+            }
+
+            if (!isDamagingNV(self.status_A)) { return; }
+
+            int damage = 0;
+
+            if (self.status_A == nonVolitileStatusEffects.burned)
+            {
+                damage = Mathf.RoundToInt((float)self.maxHP / 8f);
+            }
+
+            if(self.status_A == nonVolitileStatusEffects.poisioned)
+            {
+                damage = Mathf.RoundToInt((float)self.maxHP / 16f);
+            }
+
+            if(self.status_A == nonVolitileStatusEffects.toxic)
+            {
+                damage = Mathf.RoundToInt((float)self.maxHP / 16f) * self.nvCurDur;
+            }
+            self.nvCurDur++;
+
+            self.curHp -= damage;
+        }
+
+        private bool isDamagingNV(nonVolitileStatusEffects nv)
+        {
+             return (nv == nonVolitileStatusEffects.burned || nv == nonVolitileStatusEffects.poisioned || nv == nonVolitileStatusEffects.toxic);
+            
+        }
+
+        public void checkEffectors(PokemonBase self)
+        {
+            //doing the whole new list thing to get rid of effects that have ended
+            List<IEffector> effects = new List<IEffector>();
+            for (int i = 0; i < self.effectors.Count; i++)
+            {
+                if (self.effectors[i].duration > 0)
+                {
+                    self.effectors[i].turnEffect();
+                    effects.Add(self.effectors[i]);
+                }
+                else
+                {
+                    self.effectors[i].endEffect();
+                }
+            }
+            self.effectors = effects;
         }
 
     }

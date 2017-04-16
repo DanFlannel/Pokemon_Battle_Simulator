@@ -297,6 +297,7 @@ namespace FBG.Attack
             if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.status_A = nonVolitileStatusEffects.toxic;
+                target.nvDur = 1;
             }
         }
 
@@ -311,7 +312,7 @@ namespace FBG.Attack
             if (!Chance_100(prob)) return;
             if (target.status_A == nonVolitileStatusEffects.none)
             {
-                target.nonVolDuration = duration;
+                target.nvDur = duration;
                 target.status_A = nonVolitileStatusEffects.toxic;
             }
         }

@@ -66,10 +66,11 @@ namespace FBG.Base
         {
             string text = "";
             bool isAffected = false;
-            self.nonVolDuration--;
-            if (self.nonVolDuration == 0)
+            self.nvDur--;
+            if (self.nvDur == 0)
             {
                 text = self.Name + " woke up!";
+                self.status_A = nonVolitileStatusEffects.none;
             }
             else
             {

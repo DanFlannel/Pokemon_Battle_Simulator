@@ -167,7 +167,8 @@ namespace FBG.Battle
                 TurnOrder turn = new TurnOrder(info);
                 for(int i = 0; i < turn.order.Count; i++)
                 {
-                    turn.order[i].pokemon.team.takeTurn(turn.order[i].moveIndex, turn.order[i].isSwapping);
+                    PokemonBase pkmn = turn.order[i].pokemon;
+                    pkmn.team.takeTurn(turn.order[i].moveIndex, turn.order[i].isSwapping, pkmn);
                 }
 
                 if (turn.swapped)
@@ -175,14 +176,20 @@ namespace FBG.Battle
                     info = turn.speedOnly(redTeam.curPokemon, blueTeam.curPokemon);
                 }
 
-                for(int i = 0; i < turn.order.Count; i++)
+                for(int i = 0; i < turn.speedDetermined.Count; i++)
                 {
-                    //post turn damage based strictly off speed
+                    PokemonBase pkmn = turn.speedDetermined[i].pokemon;
+                    pkmn.team.checkEffectors(pkmn);
+                    pkmn.team.endOfTurnDamage(pkmn);
                 }
+
+                redTeam.EndOfTurn();
+                blueTeam.EndOfTurn();
 
                 for(int i = 0; i < turn.order.Count; i++)
                 {
-                    turn.order[i].pokemon.team.checkCurPokemon();
+                    PokemonBase pkmn = turn.order[i].pokemon;
+                    turn.order[i].pokemon.team.checkPokemon(pkmn);
                 }
                 resetTurn();
             }
@@ -205,10 +212,7 @@ namespace FBG.Battle
                     speed.Add(t[i]);
                 }
             }
-
-
             return priorities;
-
         }
 
         private void resetTurn()

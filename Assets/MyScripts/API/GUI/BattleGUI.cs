@@ -75,7 +75,7 @@ namespace FBG.Battle
 
         public void swapButton()
         {
-            if (swapIndex != sim.redTeam.curIndex && sim.redTeam.pokemon[swapIndex].curHp > 0)
+            if (swapIndex != sim.redTeam.curIndex && sim.redTeam.pokemon[swapIndex].curHp > 0 && !sim.redTeam.isBound)
             {
                 sim.swapPokemon(sim.redTeam, swapIndex);
                 toggleSwapPanel();

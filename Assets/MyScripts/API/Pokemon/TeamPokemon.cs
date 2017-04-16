@@ -37,6 +37,7 @@ namespace FBG.Base
             {
                 enemyTeam.hasLeechSeed = false;
             }
+            pokemon[index].nvCurDur = 0;
         }
 
         public int getRndPokemon()
@@ -65,7 +66,7 @@ namespace FBG.Base
             return result;
         }
 
-        public void takeTurn(int index, bool isSwapping)
+        public void takeTurn(int index, bool isSwapping, PokemonBase pkmn)
         {
             if (isSwapping)
             {
@@ -75,7 +76,7 @@ namespace FBG.Base
                 return;
             }
 
-            if (!checkCurPokemon())
+            if (!checkPokemon(pkmn))
             {
                 return;
             }
@@ -93,12 +94,13 @@ namespace FBG.Base
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
         }
 
-        public bool checkCurPokemon()
+        public bool checkPokemon(PokemonBase pkmn)
         {
-            if (curPokemon.curHp <= 0)
+            if (pkmn.curHp <= 0)
             {
                 Debug.Log("Dead pokemon, prompting swap");
                 BattleSimulator.Instance.battleGUI.promptSwap(ref instance, true);
+                hasLeechSeed = false;
                 return false;
             }
             return true;
@@ -168,5 +170,7 @@ namespace FBG.Base
                 pokemon.Add(tmpPokemon);
             }
         }
+
+
     }
 }
