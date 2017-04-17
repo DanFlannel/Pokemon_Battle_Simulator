@@ -14,7 +14,6 @@ namespace FBG.Battle
         public GameObject swapPanel;
         private BattleSimulator sim;
         public int swapIndex;
-        private bool forceSwapping;
 
         public void setSimulator(ref BattleSimulator sim)
         {
@@ -79,7 +78,6 @@ namespace FBG.Battle
             {
                 sim.swapPokemon(sim.redTeam, swapIndex);
                 toggleSwapPanel();
-                forceSwapping = false;
             }
         }
 
@@ -101,7 +99,6 @@ namespace FBG.Battle
                 return;
             }
             Debug.Log("Prompting player swap");
-            forceSwapping = isForced;
             if (!swapPanel.activeInHierarchy)
             {
                 toggleSwapPanel();

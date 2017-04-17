@@ -122,11 +122,13 @@ namespace FBG.Base
             if (isBound)
             {
                 self.curHp -= Mathf.RoundToInt(bindDamage);
+                Debug.Log(string.Format("Applying bind damage: {0} to {1}",bindDamage, self.Name));
             }
 
             if (!isDamagingNV(self.status_A)) { return; }
 
             int damage = 0;
+            self.nvCurDur++;
 
             if (self.status_A == nonVolitileStatusEffects.burned)
             {
@@ -142,8 +144,7 @@ namespace FBG.Base
             {
                 damage = Mathf.RoundToInt((float)self.maxHP / 16f) * self.nvCurDur;
             }
-            self.nvCurDur++;
-
+            Debug.Log(string.Format("Applying {0} damage to {1} damage: {2}",self.status_A.ToString(), self.Name, damage));
             self.curHp -= damage;
         }
 

@@ -174,12 +174,12 @@ namespace FBG.Attack
         {
             if (atkCat == Consts.Status) //we do not have to calculate damage for status moves!
             {
-                Debug.Log("Status move");
+                //Debug.Log("Status move");
                 return true;
             }
             if (MoveSets.attackList[atkIndex].power == 0)  //there is no base attack power so we can just return 0, it is a sepcial attack that has its own calculations
             {
-                Debug.Log("This attack calclates it's own damage: " + atkName);
+                //Debug.Log("This attack calclates it's own damage: " + atkName);
                 return true;
             }
 

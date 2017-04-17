@@ -87,7 +87,7 @@ namespace FBG.Battle
                 List<TurnInformation> tmp = shuffle(searchForSpeed(info[i].speed, info));
                 add(final, tmp);
                 //add to i based on the length of the list, if there is a tie... then we dont want to count the next pokemon who is tied with the current one
-                UnityEngine.Debug.Log(tmp.Count - 1);
+                //UnityEngine.Debug.Log(tmp.Count - 1);
                 i += tmp.Count - 1;
             }
             return final;
@@ -192,7 +192,6 @@ namespace FBG.Battle
         //http://stackoverflow.com/questions/273313/randomize-a-listt
         private List<TurnInformation> shuffle(List<TurnInformation> list)
         {
-            Random rng = new Random();
             RNGCryptoServiceProvider provider = new RNGCryptoServiceProvider();
             int n = list.Count;
             while (n > 1)

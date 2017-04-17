@@ -205,6 +205,11 @@ namespace FBG.Attack
                 case "mimic":
                     int n = 0;
                     int index = BattleSimulator.Instance.moveHistory.Count;
+                    if(BattleSimulator.Instance.moveHistory.Count == 0)
+                    {
+                        moveRes.failed = true;
+                        break;
+                    }
                     string attack = BattleSimulator.Instance.moveHistory[index].attackName;
                     for (int i = 0; i < self.atkMoves.Count; i++)
                     {

@@ -234,6 +234,7 @@ namespace FBG.Attack
             if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.status_A = nonVolitileStatusEffects.burned;
+                target.nvCurDur = 0;
             }
         }
 
@@ -283,6 +284,7 @@ namespace FBG.Attack
             if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.status_A = nonVolitileStatusEffects.poisioned;
+                target.nvCurDur = 0;
             }
         }
 
@@ -297,7 +299,7 @@ namespace FBG.Attack
             if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.status_A = nonVolitileStatusEffects.toxic;
-                target.nvDur = 1;
+                target.nvCurDur = 0;
             }
         }
 
