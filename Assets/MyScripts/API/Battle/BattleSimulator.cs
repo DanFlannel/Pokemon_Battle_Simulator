@@ -52,6 +52,18 @@ namespace FBG.Battle
         // Use this for initialization
         private void Start()
         {
+            AI_RND_Battle(teamSize);
+        }
+
+        private void AI_RND_Battle(int size)
+        {
+            TeamPokemon t1 = new TeamPokemon(teamSize, "player");
+            TeamPokemon t2 = new TeamPokemon(teamSize, "AI");
+            setupTeamBattle(size, t1, t2);
+        }
+
+        private void setupTeamBattle(int size, TeamPokemon red, TeamPokemon blue)
+        {
             isRedMoveCalculated = false;
             isBlueMoveCalculated = false;
 
@@ -61,8 +73,8 @@ namespace FBG.Battle
             Stopwatch sw = new Stopwatch();
             sw.Start();
 
-            redTeam = new TeamPokemon(teamSize);
-            blueTeam = new TeamPokemon(teamSize);
+            redTeam = red;
+            blueTeam = blue;
 
             redTeam.assignEnemyTeam(ref blueTeam);
             blueTeam.assignEnemyTeam(ref redTeam);
@@ -157,6 +169,8 @@ namespace FBG.Battle
         {
             if(isRedMoveCalculated)
             {
+                ClearLog.ClearLogConsole();
+
                 blueTeamAttack();
                 //UnityEngine.Debug.Log(string.Format("red team index: {0} swap {1} blue team index {2} swap {3}", redMoveIndex, isRedSwapping, blueMoveIndex, isBlueSwapping));
 
