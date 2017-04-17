@@ -16,12 +16,14 @@ namespace FBG.Base
         public List<PokemonBase> pokemon = new List<PokemonBase>();
         public int teamSize;
         public int curIndex;
+        public string teamName;
         public PokemonBase curPokemon { get { return pokemon[curIndex]; } }
 
-        public TeamPokemon(int size)
+        public TeamPokemon(int size, string name)
         {
             teamSize = size;
             instance = this;
+            teamName = name;
             SetupTeamEffects();
         }
 
@@ -171,6 +173,10 @@ namespace FBG.Base
             }
         }
 
+        public void victory()
+        {
+
+        }
 
     }
 }

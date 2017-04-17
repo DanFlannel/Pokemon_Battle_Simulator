@@ -235,6 +235,7 @@ namespace FBG.Attack
             {
                 target.status_A = nonVolitileStatusEffects.burned;
                 target.nvCurDur = 0;
+                Debug.Log(string.Format("{0} is now burned", target.Name));
             }
         }
 
@@ -251,6 +252,7 @@ namespace FBG.Attack
             if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.status_A = nonVolitileStatusEffects.frozen;
+                Debug.Log(string.Format("{0} is now frozen", target.Name));
             }
         }
 
@@ -268,6 +270,7 @@ namespace FBG.Attack
             {
                 target.status_A = nonVolitileStatusEffects.paralized;
                 changeStats(Consts.speed, -6, target);
+                Debug.Log(string.Format("{0} is now paralized", target.Name));
             }
         }
 
@@ -285,6 +288,7 @@ namespace FBG.Attack
             {
                 target.status_A = nonVolitileStatusEffects.poisioned;
                 target.nvCurDur = 0;
+                Debug.Log(string.Format("{0} is now poisoned", target.Name));
             }
         }
 
@@ -300,6 +304,7 @@ namespace FBG.Attack
             {
                 target.status_A = nonVolitileStatusEffects.toxic;
                 target.nvCurDur = 0;
+                Debug.Log(string.Format("{0} is now badly posioned", target.Name));
             }
         }
 
@@ -316,6 +321,7 @@ namespace FBG.Attack
             {
                 target.nvDur = duration;
                 target.status_A = nonVolitileStatusEffects.toxic;
+                Debug.Log(string.Format("{0} is now asleep", target.Name));
             }
         }
 
@@ -328,6 +334,7 @@ namespace FBG.Attack
             if (target.status_B == volitileStatusEffects.none)
             {
                 target.status_B = volitileStatusEffects.confused;
+                Debug.Log(string.Format("{0} is now confused", target.Name));
             }
         }
 
@@ -339,6 +346,7 @@ namespace FBG.Attack
             if (target.status_B == volitileStatusEffects.none)
             {
                 target.status_B = volitileStatusEffects.infatuated;
+                Debug.Log(string.Format("{0} is now infatuated", target.Name));
             }
         }
 
