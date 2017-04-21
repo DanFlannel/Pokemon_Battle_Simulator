@@ -13,7 +13,7 @@
   __What is left?__
   ---
   
-  Above states that the ideal pokemon game will use sprites but due to the recent popularity of pokemon go, and VR, I would like to implement all of the pokemon models in VR, I have noticed they aren't rigged so while this poses a <b>major</b> issue, we will see how I move forward. What is left is a basic mobile version, with basic AI and functionality for both android and iPhone. There was a download previously, there isn't now because I just finished a second rework of the API (4/1/2017), and want to incorporate the final UI features and swaping before releasing. Future goals include either (team building and networking) or (implementing the 2D game). After completion of the mobile versions and the battle simulator's completion, I will re-evaluate the project's goals moving forward.
+  Above states that the ideal pokemon game will use sprites but due to the recent popularity of pokemon go, and VR, I would like to implement all of the pokemon models in VR, I have noticed they aren't rigged so while this poses a <b>major</b> issue, we will see how I move forward. What is left is a basic mobile version, with basic AI and functionality for both android and iPhone. There was a download previously, there isn't now because I finished a second rework of the API (4/1/2017), and want to incorporate the final UI features before releasing. Future goals include either (team building and networking) or (implementing the 2D game). After completion of the mobile versions and the battle simulator's completion, I will re-evaluate the project's goals moving forward.
   
   __The Latest Version__
   ---
