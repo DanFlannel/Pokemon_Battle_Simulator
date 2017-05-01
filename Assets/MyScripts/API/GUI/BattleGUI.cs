@@ -55,6 +55,11 @@ namespace FBG.Battle
 
         public void attakButton(int index)
         {
+            if (sim.isTurnRunning)
+            {
+                return;
+            }
+
             if (!sim.redTeamAttack(index))
             {
                 return;

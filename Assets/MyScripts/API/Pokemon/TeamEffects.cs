@@ -115,7 +115,6 @@ namespace FBG.Base
             reduceBind();
         }
 
-
         public void endOfTurnDamage(PokemonBase self)
         {
             if (self.curHp < 0) { return; }

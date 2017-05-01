@@ -28,14 +28,24 @@ namespace FBG.Battle
         public GifRenderer redSprite;
         public GifRenderer blueSprite;
 
+        [HideInInspector]
         public bool isRedMoveCalculated;
+        [HideInInspector]
         public bool isBlueMoveCalculated;
 
-        private int redMoveIndex;
-        private int blueMoveIndex;
+        [HideInInspector]
+        public int redMoveIndex;
+        [HideInInspector]
+        public int blueMoveIndex;
 
-        private bool isRedSwapping;
-        private bool isBlueSwapping;
+        [HideInInspector]
+        public bool isRedSwapping;
+        [HideInInspector]
+        public bool isBlueSwapping;
+
+        public bool isTurnRunning;
+
+        public BattleRoutines routine;
 
         private void Awake()
         {
@@ -52,6 +62,7 @@ namespace FBG.Battle
         // Use this for initialization
         private void Start()
         {
+            routine = this.gameObject.AddComponent<BattleRoutines>();
             AI_RND_Battle(teamSize);
         }
 
@@ -101,7 +112,7 @@ namespace FBG.Battle
         {
             capPokemonIndex();
             battleGUI.checkButtonNames(redTeam.curPokemon);
-            turnController();
+            //turnController();
         }
 
         private void capPokemonIndex()
@@ -133,6 +144,7 @@ namespace FBG.Battle
                 return false;
             }
             isRedMoveCalculated = true;
+            StartCoroutine(routine.takeTurn(instance));
             return true;
         }
 
@@ -229,7 +241,7 @@ namespace FBG.Battle
             return priorities;
         }
 
-        private void resetTurn()
+        public void resetTurn()
         {
             isRedMoveCalculated = false;
             isBlueMoveCalculated = false;
