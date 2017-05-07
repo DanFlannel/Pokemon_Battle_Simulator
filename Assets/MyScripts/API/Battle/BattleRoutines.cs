@@ -1,4 +1,5 @@
-﻿using FBG.Base;
+﻿using CoroutineQueueHelper;
+using FBG.Base;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,16 @@ namespace FBG.Battle
 {
     public class BattleRoutines : MonoBehaviour
     {
+
+        public CoroutineList queue;
+        private GameObject reference;
+
+        private void Start()
+        {
+            reference = new GameObject();
+            reference.name = "CoroutineHelper";
+            queue = reference.AddComponent<CoroutineList>();
+        }
 
         public IEnumerator takeTurn(BattleSimulator sim)
         {
@@ -22,7 +33,6 @@ namespace FBG.Battle
 
             for (int i = 0; i < turn.order.Count; i++)
             {
-                PokemonBase pkmn = turn.order[i].pokemon;
                 yield return StartCoroutine(pokemonMove(turn, i));
             }
 
@@ -33,8 +43,7 @@ namespace FBG.Battle
 
             for (int i = 0; i < turn.speedDetermined.Count; i++)
             {
-                PokemonBase pkmn = turn.speedDetermined[i].pokemon;
-                yield return StartCoroutine(EndOfTurnPokemon(pkmn));
+                yield return StartCoroutine(EndOfTurnPokemon(turn, i));
             }
 
             yield return StartCoroutine(EndOfTurnTeam(sim.redTeam));
@@ -49,14 +58,28 @@ namespace FBG.Battle
 
         #region IEnumerators for the turn
 
+        private IEnumerator pokemonMove(TurnOrder turn, int i)
         {
             PokemonBase pkmn = turn.order[i].pokemon;
             pkmn.team.takeTurn(turn.order[i].moveIndex, turn.order[i].isSwapping, pkmn);
-            yield return null;
+
+            //queue.AddCoroutineToQueue(testWait(1f));
+            //queue.AddCoroutineToQueue(testWait(1f));
+            //queue.AddCoroutineToQueue(testWait(1f));
+            //yield return new WaitUntil(() => queue.isQueueRunning() == false);
+            yield return StartCoroutine(queue.masterIEnumerator());
+            
         }
 
-        private IEnumerator EndOfTurnPokemon(PokemonBase pkmn)
+        public Coroutine waiting(float sec)
         {
+            return StartCoroutine(testWait(sec));
+        }
+
+        private IEnumerator EndOfTurnPokemon(TurnOrder turn, int i)
+        {
+            PokemonBase pkmn = turn.speedDetermined[i].pokemon;
+
             pkmn.team.checkEffectors(pkmn);
             pkmn.team.endOfTurnDamage(pkmn);
             yield return null;
@@ -71,7 +94,7 @@ namespace FBG.Battle
         private IEnumerator checkPokemon(TurnOrder turn, int i)
         {
             PokemonBase pkmn = turn.order[i].pokemon;
-            pkmn.team.checkPokemon(pkmn);
+            pkmn.team.isAlive(pkmn);
             yield return null;
         }
 
@@ -85,7 +108,12 @@ namespace FBG.Battle
 
         #region Effects
 
-
+        public IEnumerator testWait(float sec)
+        {
+            yield return new WaitForSeconds(sec);
+            Debug.Log("waited " + sec + " seconds");
+            yield return null;
+        }
 
         #endregion
 

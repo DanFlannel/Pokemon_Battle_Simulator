@@ -18,12 +18,14 @@ namespace FBG.Base
         public int curIndex;
         public string teamName;
         public PokemonBase curPokemon { get { return pokemon[curIndex]; } }
+        private BattleSimulator sim;
 
-        public TeamPokemon(int size, string name)
+        public TeamPokemon(int size, string name, ref BattleSimulator sim)
         {
             teamSize = size;
             instance = this;
             teamName = name;
+            this.sim = sim;
             SetupTeamEffects();
         }
 
@@ -78,7 +80,7 @@ namespace FBG.Base
                 return;
             }
 
-            if (!checkPokemon(pkmn))
+            if (!isAlive(pkmn))
             {
                 return;
             }
@@ -92,11 +94,10 @@ namespace FBG.Base
             applyHeal(move);
             applyRecoil(move);
             curPokemon.curPP[index]--;
-            if(enemyTeam.curPokemon.curHp <= 0)
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
         }
 
-        public bool checkPokemon(PokemonBase pkmn)
+        public bool isAlive(PokemonBase pkmn)
         {
             if (pkmn.curHp <= 0)
             {
@@ -177,6 +178,5 @@ namespace FBG.Base
         {
 
         }
-
     }
 }

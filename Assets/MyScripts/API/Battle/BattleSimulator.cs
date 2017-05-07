@@ -68,8 +68,8 @@ namespace FBG.Battle
 
         private void AI_RND_Battle(int size)
         {
-            TeamPokemon t1 = new TeamPokemon(teamSize, "player");
-            TeamPokemon t2 = new TeamPokemon(teamSize, "AI");
+            TeamPokemon t1 = new TeamPokemon(teamSize, "player", ref instance);
+            TeamPokemon t2 = new TeamPokemon(teamSize, "AI", ref instance);
             setupTeamBattle(size, t1, t2);
         }
 
@@ -145,6 +145,15 @@ namespace FBG.Battle
             }
             isRedMoveCalculated = true;
             StartCoroutine(routine.takeTurn(instance));
+
+            /*
+            routine.queue.AddCoroutineToQueue(routine.testWait(3f));
+            routine.queue.AddCoroutineToQueue(routine.testWait(3f));
+            routine.queue.AddCoroutineToQueue(routine.testWait(3f));
+
+            routine.queue.StartQueue();
+            */
+
             return true;
         }
 
@@ -215,7 +224,7 @@ namespace FBG.Battle
                 for(int i = 0; i < turn.order.Count; i++)
                 {
                     PokemonBase pkmn = turn.order[i].pokemon;
-                    turn.order[i].pokemon.team.checkPokemon(pkmn);
+                    turn.order[i].pokemon.team.isAlive(pkmn);
                 }
                 resetTurn();
             }

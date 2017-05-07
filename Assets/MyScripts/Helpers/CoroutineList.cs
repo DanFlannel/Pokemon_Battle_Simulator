@@ -11,7 +11,7 @@ namespace CoroutineQueueHelper
     public class CoroutineList : MonoBehaviour
     {
         private List<IEnumerator> CoroutineQueue = new List<IEnumerator>();
-        private bool isRunning = false;
+        public bool isRunning = false;
         public int lengthOfQueue;
 
         public void StartQueue()
@@ -51,23 +51,33 @@ namespace CoroutineQueueHelper
         {
             return isRunning;
         }
+        
+        public bool isFinished()
+        {
+            return !isRunning;
+        }
 
-        IEnumerator masterIEnumerator()
+        public Coroutine doActions()
+        {
+            return StartCoroutine(masterIEnumerator());
+        }
+
+        public IEnumerator masterIEnumerator()
         {
             isRunning = true;
             int i = 0;
             while(i < CoroutineQueue.Count && isRunning)
             {
-                //Debug.Log("Doing IEnum index: " + i);
+                Debug.Log("Doing IEnum index: " + i);
                 IEnumerator temp = CoroutineQueue[i];
-                while (temp.MoveNext())
-                {
-                    yield return null;
-                }
+                
+                yield return StartCoroutine(CoroutineQueue[i]);
                 i++;
             }
             isRunning = false;
             ClearQueue();
+            Debug.Log("Finished coroutine list");
+            yield return null;
         }
     }
 }
