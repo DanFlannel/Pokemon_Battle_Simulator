@@ -68,7 +68,7 @@ namespace CoroutineQueueHelper
             int i = 0;
             while(i < CoroutineQueue.Count && isRunning)
             {
-                Debug.Log("Doing IEnum index: " + i);
+                //Debug.Log("Doing IEnum index: " + i);
                 IEnumerator temp = CoroutineQueue[i];
                 
                 yield return StartCoroutine(CoroutineQueue[i]);
@@ -76,7 +76,7 @@ namespace CoroutineQueueHelper
             }
             isRunning = false;
             ClearQueue();
-            Debug.Log("Finished coroutine list");
+            //Debug.Log("Finished coroutine list");
             yield return null;
         }
     }

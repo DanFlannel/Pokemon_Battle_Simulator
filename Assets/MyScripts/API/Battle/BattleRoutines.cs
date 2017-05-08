@@ -106,8 +106,6 @@ namespace FBG.Battle
 
         #endregion
 
-        #region Effects
-
         public IEnumerator testWait(float sec)
         {
             yield return new WaitForSeconds(sec);
@@ -115,7 +113,81 @@ namespace FBG.Battle
             yield return null;
         }
 
-        #endregion
+        //pokemon basic turn moves
+
+        public IEnumerator usedMoveText(string pkName, string move)
+        {
+            string text = string.Format("{0} used {1}", pkName, move);
+            Debug.Log("move text coroutine: " + text);
+            yield return null;
+        }
+
+        public IEnumerator applyDamage()
+        {
+            Debug.Log("damage coroutine");
+            yield return null;  
+        }
+
+        public IEnumerator applyHeal()
+        {
+            Debug.Log("healing coroutine");
+            yield return null;
+        }
+
+        public IEnumerator applyRecoil()
+        {
+            Debug.Log("recoil coroutine");
+            yield return null;
+        }
+
+        public IEnumerator effectiveText()
+        {
+            yield return null;
+        }
+
+        //swapping or chaning pokemon
+
+        public IEnumerator throwPokeball()
+        {
+            yield return null;
+        }
+
+        public IEnumerator pokemonOut()
+        {
+            yield return null;
+        }
+
+        public IEnumerator pokemonReturn()
+        {
+            yield return null;
+        }
+
+        public IEnumerator pokemonFainted()
+        {
+            yield return null;
+        }
+
+        public IEnumerator swapPokemon()
+        {
+            yield return null;
+        }
+
+        public IEnumerator faintedText()
+        {
+            yield return null;
+        }
+
+        //other
+
+        public IEnumerator victory()
+        {
+            yield return null;
+        }
+
+        public IEnumerator displayText(string text)
+        {
+            yield return null;
+        }
 
     }
 

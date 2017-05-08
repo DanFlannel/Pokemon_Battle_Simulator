@@ -90,6 +90,9 @@ namespace FBG.Base
                 return;
             }
             MoveResults move = getMoveResults(index);
+
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
+
             applyDamage(move);
             applyHeal(move);
             applyRecoil(move);
@@ -117,6 +120,7 @@ namespace FBG.Base
                 move.dmgReport.damage = enemyTeam.curPokemon.curHp;
             }
             enemyTeam.curPokemon.curHp -= (int)move.dmgReport.damage;
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage());
         }
 
         private void applyHeal(MoveResults move)
@@ -127,6 +131,7 @@ namespace FBG.Base
                 move.dmgReport.heal = curPokemon.maxHP - curPokemon.curHp;
             }
             curPokemon.curHp += (int)move.dmgReport.heal;
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal());
         }
 
         private void applyRecoil(MoveResults move)
@@ -137,6 +142,7 @@ namespace FBG.Base
                 move.dmgReport.recoil = curPokemon.curHp;
             }
             curPokemon.curHp -= (int)move.dmgReport.recoil;
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyRecoil());
         }
 
         private bool checkNVStatus()
