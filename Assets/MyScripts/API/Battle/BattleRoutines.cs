@@ -1,8 +1,10 @@
 ﻿using CoroutineQueueHelper;
 using FBG.Base;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace FBG.Battle
 {
@@ -122,21 +124,24 @@ namespace FBG.Battle
             yield return null;
         }
 
-        public IEnumerator applyDamage()
+        public IEnumerator applyDamage(PokemonBase pkmn, float dmg)
         {
             Debug.Log("damage coroutine");
+            yield return StartCoroutine(changeHealthbar(pkmn, -dmg));
             yield return null;  
         }
 
-        public IEnumerator applyHeal()
+        public IEnumerator applyHeal(PokemonBase pkmn, float heal)
         {
             Debug.Log("healing coroutine");
+            yield return StartCoroutine(changeHealthbar(pkmn, heal));
             yield return null;
         }
 
-        public IEnumerator applyRecoil()
+        public IEnumerator applyRecoil(PokemonBase pkmn, float recoil)
         {
             Debug.Log("recoil coroutine");
+            yield return StartCoroutine(changeHealthbar(pkmn, -recoil));
             yield return null;
         }
 
@@ -177,7 +182,7 @@ namespace FBG.Battle
             yield return null;
         }
 
-        //other
+        //Effects
 
         public IEnumerator victory()
         {
@@ -186,6 +191,44 @@ namespace FBG.Battle
 
         public IEnumerator displayText(string text)
         {
+            yield return null;
+        }
+
+        public IEnumerator changeHealthbar(PokemonBase pkmn, float delta)
+        {
+            Slider slider = pkmn.team.GUIHolder.GetComponentInChildren<Slider>();
+            Text healthNum = pkmn.team.GUIHolder.transform.FindChild("HealthValue").GetComponent<Text>();
+            float speed = .025f;
+            float dmgNormalized = (pkmn.curHp + delta) / pkmn.maxHP;
+            float targetValue = slider.value - dmgNormalized;
+            targetValue = (float)Math.Round((decimal)targetValue, 4);
+            if(targetValue <= 0)
+            {
+                targetValue = 0;
+            }
+            float roundedValue = (float)Math.Round((decimal)slider.value, 4);
+            float totalDiff = 0;
+            Debug.Log(string.Format("slider values: {0} des: {1} mod: {2}", slider.value, targetValue, dmgNormalized));
+            while(roundedValue != targetValue)
+            {
+                float diff = Mathf.Lerp(slider.value, targetValue, speed);
+                slider.value = diff;
+                totalDiff += diff;
+                roundedValue = (float)Math.Round((decimal)slider.value, 4);
+                //Debug.Log(string.Format("slider: {0} target: {1}", slider.value, targetValue));
+                if(healthNum != null)
+                {
+                    int curHPValue = (int)(pkmn.maxHP * slider.value);
+                    healthNum.text = string.Format("{0}/{1}", curHPValue, pkmn.maxHP);
+                }
+                yield return null;
+            }
+
+            if(healthNum != null)
+            {
+                healthNum.text = string.Format("{0}/{1}", pkmn.curHp + (int)delta, pkmn.maxHP);
+            }
+            
             yield return null;
         }
 

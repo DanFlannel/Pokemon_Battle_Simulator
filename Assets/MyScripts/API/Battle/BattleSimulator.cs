@@ -14,6 +14,8 @@ namespace FBG.Battle
         private static BattleSimulator instance = null;
         public static BattleSimulator Instance { get { return instance; } }
 
+        [Header("Information")]
+        public bool isTurnRunning;
         public int teamSize = 6;
         public int redIndex;
         public int blueIndex;
@@ -21,31 +23,42 @@ namespace FBG.Battle
         public TeamPokemon redTeam;
         public TeamPokemon blueTeam;
 
+
         public List<battleHistory> moveHistory = new List<battleHistory>();
 
-        public BattleGUI battleGUI;
 
+
+        [Header("Red Team")]
         public GifRenderer redSprite;
+        public GameObject redGUI;
+
+        [Header("Blue Team")]
         public GifRenderer blueSprite;
+        public GameObject blueGUI;
 
         [HideInInspector]
         public bool isRedMoveCalculated;
+
         [HideInInspector]
         public bool isBlueMoveCalculated;
 
         [HideInInspector]
         public int redMoveIndex;
+
         [HideInInspector]
         public int blueMoveIndex;
 
         [HideInInspector]
         public bool isRedSwapping;
+
         [HideInInspector]
         public bool isBlueSwapping;
 
-        public bool isTurnRunning;
-
+        [HideInInspector]
         public BattleRoutines routine;
+
+        [HideInInspector]
+        public BattleGUI battleGUI;
 
         private void Awake()
         {
@@ -68,8 +81,8 @@ namespace FBG.Battle
 
         private void AI_RND_Battle(int size)
         {
-            TeamPokemon t1 = new TeamPokemon(teamSize, "player", ref instance);
-            TeamPokemon t2 = new TeamPokemon(teamSize, "AI", ref instance);
+            TeamPokemon t1 = new TeamPokemon(teamSize, "player", ref instance, redGUI);
+            TeamPokemon t2 = new TeamPokemon(teamSize, "AI", ref instance, blueGUI);
             setupTeamBattle(size, t1, t2);
         }
 

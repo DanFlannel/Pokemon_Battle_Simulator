@@ -17,15 +17,17 @@ namespace FBG.Base
         public int teamSize;
         public int curIndex;
         public string teamName;
+        public GameObject GUIHolder;
         public PokemonBase curPokemon { get { return pokemon[curIndex]; } }
         private BattleSimulator sim;
 
-        public TeamPokemon(int size, string name, ref BattleSimulator sim)
+        public TeamPokemon(int size, string name, ref BattleSimulator sim, GameObject gui)
         {
             teamSize = size;
             instance = this;
             teamName = name;
             this.sim = sim;
+            GUIHolder = gui;
             SetupTeamEffects();
         }
 
@@ -119,8 +121,10 @@ namespace FBG.Base
             {
                 move.dmgReport.damage = enemyTeam.curPokemon.curHp;
             }
+
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, move.dmgReport.damage));
+
             enemyTeam.curPokemon.curHp -= (int)move.dmgReport.damage;
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage());
         }
 
         private void applyHeal(MoveResults move)
@@ -130,8 +134,11 @@ namespace FBG.Base
             {
                 move.dmgReport.heal = curPokemon.maxHP - curPokemon.curHp;
             }
+
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal(curPokemon, move.dmgReport.heal));
+
             curPokemon.curHp += (int)move.dmgReport.heal;
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal());
+
         }
 
         private void applyRecoil(MoveResults move)
@@ -141,8 +148,10 @@ namespace FBG.Base
             {
                 move.dmgReport.recoil = curPokemon.curHp;
             }
+
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyRecoil(curPokemon, move.dmgReport.recoil));
+
             curPokemon.curHp -= (int)move.dmgReport.recoil;
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyRecoil());
         }
 
         private bool checkNVStatus()

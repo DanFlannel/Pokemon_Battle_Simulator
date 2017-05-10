@@ -10,9 +10,25 @@ namespace CoroutineQueueHelper
     /// </summary>
     public class CoroutineList : MonoBehaviour
     {
+        //Singleton Variables
+        private static CoroutineList instance;
+        public static CoroutineList Instance { get { return instance; } }
+
         private List<IEnumerator> CoroutineQueue = new List<IEnumerator>();
         public bool isRunning = false;
         public int lengthOfQueue;
+
+        private void Awake()
+        {
+            if (instance != null && instance != this)
+            {
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                instance = this;
+            }
+        }
 
         public void StartQueue()
         {
@@ -25,9 +41,12 @@ namespace CoroutineQueueHelper
             StopCoroutine(masterIEnumerator());   
         }
 
-        public void AddCoroutineToQueue(IEnumerator addThis)
+        public void AddCoroutineToQueue(params IEnumerator[] addThis)
         {
-            CoroutineQueue.Add(addThis);
+            for (int i = 0; i < addThis.Length; i++)
+            {
+                CoroutineQueue.Add(addThis[i]);
+            }
         }
 
         public void ClearQueue()
@@ -68,15 +87,12 @@ namespace CoroutineQueueHelper
             int i = 0;
             while(i < CoroutineQueue.Count && isRunning)
             {
-                //Debug.Log("Doing IEnum index: " + i);
-                IEnumerator temp = CoroutineQueue[i];
-                
+                IEnumerator temp = CoroutineQueue[i];   
                 yield return StartCoroutine(CoroutineQueue[i]);
                 i++;
             }
             isRunning = false;
             ClearQueue();
-            //Debug.Log("Finished coroutine list");
             yield return null;
         }
     }
