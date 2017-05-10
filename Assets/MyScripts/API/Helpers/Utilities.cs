@@ -53,7 +53,7 @@ namespace FBG.Base
             if (rnd >= 2)
             {
                 text = self.Name + " is Frozen!";
-                Debug.Log(string.Format("{0} is paralized and can't move", self.Name));
+                Debug.Log(string.Format("{0} is frozen and can't move", self.Name));
                 isAffected = true;
             }
             else
