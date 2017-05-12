@@ -122,9 +122,9 @@ namespace FBG.Base
                 move.dmgReport.damage = enemyTeam.curPokemon.curHp;
             }
 
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, move.dmgReport.damage));
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, (int)move.dmgReport.damage));
 
-            enemyTeam.curPokemon.curHp -= (int)move.dmgReport.damage;
+            //enemyTeam.curPokemon.curHp -= (int)move.dmgReport.damage;
         }
 
         private void applyHeal(MoveResults move)
@@ -135,9 +135,9 @@ namespace FBG.Base
                 move.dmgReport.heal = curPokemon.maxHP - curPokemon.curHp;
             }
 
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal(curPokemon, move.dmgReport.heal));
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal(curPokemon, (int)move.dmgReport.heal));
 
-            curPokemon.curHp += (int)move.dmgReport.heal;
+            //curPokemon.curHp += (int)move.dmgReport.heal;
 
         }
 
@@ -149,9 +149,9 @@ namespace FBG.Base
                 move.dmgReport.recoil = curPokemon.curHp;
             }
 
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyRecoil(curPokemon, move.dmgReport.recoil));
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyRecoil(curPokemon, (int)move.dmgReport.recoil));
 
-            curPokemon.curHp -= (int)move.dmgReport.recoil;
+            //curPokemon.curHp -= (int)move.dmgReport.recoil;
         }
 
         private bool checkNVStatus()
