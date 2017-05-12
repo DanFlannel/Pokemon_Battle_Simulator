@@ -25,7 +25,7 @@ namespace FBG.Battle
         public battleHistory(string attackerName, MoveResults res)
         {
             pokemonName = attackerName;
-            attackerName = res.name;
+            attackName = res.name;
             MR = res;
 
             attacks move = MoveSets.searchAttackList(res.name);
