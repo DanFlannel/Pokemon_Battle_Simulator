@@ -59,6 +59,8 @@ namespace FBG.Battle
             {
                 yield return StartCoroutine(checkPokemon(turn, i));
             }
+            Debug.Log("Ending the routine, closing the display text");
+            sim.battleGUI.toggleTextPanel(false);
             sim.isTurnRunning = false;
         }
 
@@ -74,7 +76,7 @@ namespace FBG.Battle
             //queue.AddCoroutineToQueue(testWait(1f));
             //yield return new WaitUntil(() => queue.isQueueRunning() == false);
             yield return StartCoroutine(queue.masterIEnumerator());
-            
+
         }
 
         public Coroutine waiting(float sec)
@@ -124,8 +126,8 @@ namespace FBG.Battle
         public IEnumerator usedMoveText(string pkName, string move)
         {
             string text = string.Format("{0} used {1}", pkName, move);
-            Debug.Log("move text coroutine: " + text);
-            yield return StartCoroutine(displayText(text));
+            //Debug.Log("move text coroutine: " + text);
+            yield return StartCoroutine(displayText(text, true));
 
             yield return null;
         }
@@ -134,7 +136,7 @@ namespace FBG.Battle
         {
             Debug.Log("damage coroutine");
             yield return StartCoroutine(changeHealthbar(pkmn, -dmg));
-            yield return null;  
+            yield return null;
         }
 
         public IEnumerator applyHeal(PokemonBase pkmn, int heal)
@@ -154,9 +156,9 @@ namespace FBG.Battle
         public IEnumerator effectiveText(string atkName, PokemonBase target)
         {
             attacks attack = MoveSets.searchAttackList(atkName);
-            float multiplier = DamageMultipliers.getEffectiveness(target.damageMultiplier, attack.cat);
+            float multiplier = DamageMultipliers.getEffectiveness(target.damageMultiplier, attack.type);
 
-            if(multiplier != 1)
+            if (multiplier != 1)
             {
                 string text = "";
                 if (multiplier == 0)
@@ -171,14 +173,23 @@ namespace FBG.Battle
                 {
                     text = "It was super effective!";
                 }
-                yield return StartCoroutine(displayText(text));
+                yield return StartCoroutine(displayText(text, false));
 
             }
             yield return null;
         }
 
-        public IEnumerator blockingNV(nonVolitileStatusEffects nv)
+        public IEnumerator blockingNV(PokemonBase pkmn)
         {
+            nonVolitileStatusEffects effect = pkmn.status_A;
+            string ending = effect.ToString();
+            if (effect == nonVolitileStatusEffects.sleep)
+            {
+                ending = "asleep";
+            }
+            string text = string.Format("{0} tried to move but is {1}", pkmn.Name, ending);
+            yield return StartCoroutine(displayText(text, true));
+
             yield return null;
         }
 
@@ -221,8 +232,30 @@ namespace FBG.Battle
             yield return null;
         }
 
-        public IEnumerator displayText(string text)
+        public IEnumerator displayText(string text, bool wait)
         {
+            sim.battleGUI.toggleTextPanel(true);
+            float delay = .025f;
+            string curText = "";
+            sim.battleGUI.getDisplayText().text = curText;
+            int index = 0;
+            while (curText != text)
+            {
+                yield return new WaitForSeconds(delay);
+                index++;
+                if (index > text.Length)
+                {
+                    break;
+                }
+                curText = text.Substring(0, index);
+                sim.battleGUI.getDisplayText().text = curText;
+                yield return null;
+            }
+            //adding a wait at the end of this just because
+            if (wait)
+            {
+                yield return new WaitForSeconds(3f);
+            }
             yield return null;
         }
 
@@ -239,7 +272,7 @@ namespace FBG.Battle
             Debug.Log(string.Format("slider targets, normalized: {0} rounded: {1}", dmgNormalized, roundedValue));
             float totalDiff = 0;
 
-            while(roundedValue != dmgNormalized)
+            while (roundedValue != dmgNormalized)
             {
                 float diff = Mathf.Lerp(slider.value, dmgNormalized, speed);
                 slider.value = diff;
@@ -250,18 +283,18 @@ namespace FBG.Battle
                 {
                     int curHPValue = (int)(pkmn.maxHP * slider.value);
                     healthNum.text = string.Format("{0}/{1}", curHPValue, pkmn.maxHP);
-                    if(curHPValue == (pkmn.curHp + delta)) { break; }
+                    if (curHPValue == (pkmn.curHp + delta)) { break; }
                 }
                 yield return null;
             }
 
             pkmn.curHp += delta;
 
-            if(healthNum != null)
+            if (healthNum != null)
             {
                 healthNum.text = string.Format("{0}/{1}", pkmn.curHp, pkmn.maxHP);
             }
-            
+
             yield return null;
         }
 

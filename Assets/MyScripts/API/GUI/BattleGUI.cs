@@ -92,7 +92,6 @@ namespace FBG.Battle
         {
             if(team == sim.blueTeam)
             {
-                
                 int index = team.getRndPokemon();
                 if(index == -1)
                 {
@@ -128,6 +127,11 @@ namespace FBG.Battle
         public void toggleTextPanel()
         {
             TextPanel.SetActive(!TextPanel.activeInHierarchy);
+        }
+
+        public Text getDisplayText()
+        {
+            return TextPanel.GetComponentInChildren<Text>();
         }
 
         public void toggleTextPanel(bool b)

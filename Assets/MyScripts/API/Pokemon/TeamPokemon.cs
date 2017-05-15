@@ -25,12 +25,13 @@ namespace FBG.Base
 
         public TeamPokemon(int size, string name, ref BattleSimulator sim, GameObject gui)
         {
-            guiRef = new GUIReferences(GUIHolder);
             teamSize = size;
             instance = this;
             teamName = name;
             this.sim = sim;
+
             GUIHolder = gui;
+            guiRef = new GUIReferences(GUIHolder);
             SetupTeamEffects();
         }
 
@@ -92,7 +93,7 @@ namespace FBG.Base
 
             if (checkNVStatus())
             {
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.blockingNV(curPokemon.status_A));
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.blockingNV(curPokemon));
                 return;
             }
             MoveResults move = getMoveResults(index);
