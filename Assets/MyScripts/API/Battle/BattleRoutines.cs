@@ -1,5 +1,7 @@
 ﻿using CoroutineQueueHelper;
+using FBG.Attack;
 using FBG.Base;
+using FBG.Data;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,15 +15,17 @@ namespace FBG.Battle
 
         public CoroutineList queue;
         private GameObject reference;
+        public BattleSimulator sim;
 
-        private void Start()
+        public void Initalize(ref BattleSimulator sim)
         {
+            this.sim = sim;
             reference = new GameObject();
             reference.name = "CoroutineHelper";
             queue = reference.AddComponent<CoroutineList>();
         }
 
-        public IEnumerator takeTurn(BattleSimulator sim)
+        public IEnumerator takeTurn()
         {
             sim.isTurnRunning = true;
             ClearLog.ClearLogConsole();
@@ -121,6 +125,8 @@ namespace FBG.Battle
         {
             string text = string.Format("{0} used {1}", pkName, move);
             Debug.Log("move text coroutine: " + text);
+            yield return StartCoroutine(displayText(text));
+
             yield return null;
         }
 
@@ -145,7 +151,33 @@ namespace FBG.Battle
             yield return null;
         }
 
-        public IEnumerator effectiveText()
+        public IEnumerator effectiveText(string atkName, PokemonBase target)
+        {
+            attacks attack = MoveSets.searchAttackList(atkName);
+            float multiplier = DamageMultipliers.getEffectiveness(target.damageMultiplier, attack.cat);
+
+            if(multiplier != 1)
+            {
+                string text = "";
+                if (multiplier == 0)
+                {
+                    text = string.Format("{0} is immune!", target.Name);
+                }
+                else if (multiplier < 1)
+                {
+                    text = "It was not very effective";
+                }
+                else
+                {
+                    text = "It was super effective!";
+                }
+                yield return StartCoroutine(displayText(text));
+
+            }
+            yield return null;
+        }
+
+        public IEnumerator blockingNV(nonVolitileStatusEffects nv)
         {
             yield return null;
         }
@@ -196,8 +228,8 @@ namespace FBG.Battle
 
         public IEnumerator changeHealthbar(PokemonBase pkmn, int delta)
         {
-            Slider slider = pkmn.team.GUIHolder.GetComponentInChildren<Slider>();
-            Text healthNum = pkmn.team.GUIHolder.transform.FindChild("HealthValue").GetComponent<Text>();
+            Slider slider = pkmn.team.guiRef.slider;
+            Text healthNum = pkmn.team.guiRef.health;
             float speed = .01f;
             float dmgNormalized = ((pkmn.curHp + (float)delta) / pkmn.maxHP);
             //Debug.Log(string.Format("curhp: {0} delta: {1} formula: {2}/{3} res: {4}", pkmn.curHp, delta, pkmn.curHp + delta, pkmn.maxHP, dmgNormalized));
