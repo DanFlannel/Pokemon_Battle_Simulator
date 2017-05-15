@@ -15,6 +15,8 @@ namespace FBG.Battle
         private BattleSimulator sim;
         public int swapIndex;
 
+        public GameObject TextPanel;
+
         public void setSimulator(ref BattleSimulator sim)
         {
             this.sim = sim;
@@ -123,19 +125,30 @@ namespace FBG.Battle
             updateSwapPanel();
         }
 
-        public void showBattleText(MoveResults MR)
+        public void toggleTextPanel()
         {
-
+            TextPanel.SetActive(!TextPanel.activeInHierarchy);
         }
 
-        public void showBattleText(string s)
+        public void toggleTextPanel(bool b)
         {
-
+            TextPanel.SetActive(true);
         }
 
         public void changePokemonSprite(GifRenderer r, string name, int id)
         {
             r.ChangeSprite(name, id);
+        }
+
+        public void updatePokemonPanel(PokemonBase pkmn)
+        {
+            GUIReferences gui = pkmn.team.guiRef;
+            gui.name.text = string.Format("{0}", pkmn.Name);
+            gui.level.text = string.Format("{0}", pkmn.Level);
+            gui.health.text = string.Format("{0}/{1}", pkmn.curHp, pkmn.maxHP);
+
+            float sliderValue = (float)pkmn.curHp / (float)pkmn.maxHP;
+            gui.slider.value = sliderValue;
         }
     }
 }
