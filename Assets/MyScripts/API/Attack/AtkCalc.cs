@@ -225,7 +225,8 @@ namespace FBG.Attack
                 critical = 1.5f;
             }
             float rnd = UnityEngine.Random.Range(.85f, 1f);
-            float typeMultiplier = fetchDmgMultModifier(attackType);
+            //float typeMultiplier = fetchDmgMultModifier(attackType);
+            float typeMultiplier = DamageMultipliers.getEffectiveness(targetPokemon.damageMultiplier, attackType);
 
             if (typeMultiplier == 0)
             {

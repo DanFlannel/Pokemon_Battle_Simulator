@@ -439,6 +439,90 @@ namespace FBG.Data
             return final;
         }
 
+        public static float getEffectiveness(dmgMult mult, string cat)
+        {
+            float effective = 0;
+            switch (cat)
+            {
+                default:
+                    Debug.Log(string.Format("No type: {0} found", cat));
+                    break;
+
+                case Consts.Bug:
+                    effective = mult.bug;
+                    break;
+
+                case Consts.Dark:
+                    effective = mult.dark;
+                    break;
+
+                case Consts.Dragon:
+                    effective = mult.dragon;
+                    break;
+
+                case Consts.Electric:
+                    effective = mult.electric;
+                    break;
+
+                case Consts.Fairy:
+                    effective = mult.fairy;
+                    break;
+
+                case Consts.Fighting:
+                    effective = mult.fighting;
+                    break;
+
+                case Consts.Fire:
+                    effective = mult.fire;
+                    break;
+
+                case Consts.Flying:
+                    effective = mult.flying;
+                    break;
+
+                case Consts.Ghost:
+                    effective = mult.ghost;
+                    break;
+
+                case Consts.Grass:
+                    effective = mult.grass;
+                    break;
+
+                case Consts.Ground:
+                    effective = mult.ground;
+                    break;
+
+                case Consts.Ice:
+                    effective = mult.ice;
+                    break;
+
+                case Consts.Normal:
+                    effective = mult.normal;
+                    break;
+
+                case Consts.Poison:
+                    effective = mult.poison;
+                    break;
+
+                case Consts.Psychic:
+                    effective = mult.psychic;
+                    break;
+
+                case Consts.Rock:
+                    effective = mult.rock;
+                    break;
+
+                case Consts.Steel:
+                    effective = mult.steel;
+                    break;
+
+                case Consts.Water:
+                    effective = mult.water;
+                    break;
+            }
+            return effective;
+        }
+
         private static dmgMult getSingleType(string t)
         {
             dmgMult type;
