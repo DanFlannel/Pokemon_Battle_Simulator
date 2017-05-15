@@ -23,10 +23,7 @@ namespace FBG.Battle
         public TeamPokemon redTeam;
         public TeamPokemon blueTeam;
 
-
         public List<battleHistory> moveHistory = new List<battleHistory>();
-
-
 
         [Header("Red Team")]
         public GifRenderer redSprite;
@@ -76,6 +73,8 @@ namespace FBG.Battle
         private void Start()
         {
             routine = this.gameObject.AddComponent<BattleRoutines>();
+            routine.Initalize(ref instance);
+
             AI_RND_Battle(teamSize);
         }
 
@@ -157,16 +156,8 @@ namespace FBG.Battle
                 return false;
             }
             isRedMoveCalculated = true;
-            StartCoroutine(routine.takeTurn(instance));
-
-            /*
-            routine.queue.AddCoroutineToQueue(routine.testWait(3f));
-            routine.queue.AddCoroutineToQueue(routine.testWait(3f));
-            routine.queue.AddCoroutineToQueue(routine.testWait(3f));
-
-            routine.queue.StartQueue();
-            */
-
+            StartCoroutine(routine.takeTurn());
+            
             return true;
         }
 

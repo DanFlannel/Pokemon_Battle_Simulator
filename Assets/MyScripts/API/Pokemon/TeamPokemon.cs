@@ -6,6 +6,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 namespace FBG.Base
 {
@@ -17,12 +18,14 @@ namespace FBG.Base
         public int teamSize;
         public int curIndex;
         public string teamName;
-        public GameObject GUIHolder;
+        private GameObject GUIHolder;
+        public GUIReferences guiRef;
         public PokemonBase curPokemon { get { return pokemon[curIndex]; } }
         private BattleSimulator sim;
 
         public TeamPokemon(int size, string name, ref BattleSimulator sim, GameObject gui)
         {
+            guiRef = new GUIReferences(GUIHolder);
             teamSize = size;
             instance = this;
             teamName = name;
@@ -89,6 +92,7 @@ namespace FBG.Base
 
             if (checkNVStatus())
             {
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.blockingNV(curPokemon.status_A));
                 return;
             }
             MoveResults move = getMoveResults(index);
@@ -98,6 +102,9 @@ namespace FBG.Base
             applyDamage(move);
             applyHeal(move);
             applyRecoil(move);
+
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
+
             curPokemon.curPP[index]--;
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
         }
@@ -192,6 +199,22 @@ namespace FBG.Base
         public void victory()
         {
 
+        }
+    }
+
+    public class GUIReferences
+    {
+        public Text name;
+        public Text level;
+        public Text health;
+        public Slider slider;
+
+        public GUIReferences(GameObject gui)
+        {
+            name = gui.transform.Find("Name").GetComponent<Text>();
+            level = gui.transform.Find("Level").GetComponent<Text>();
+            health = gui.transform.Find("HealthValue").GetComponent<Text>();
+            slider = gui.GetComponentInChildren<Slider>();
         }
     }
 }
