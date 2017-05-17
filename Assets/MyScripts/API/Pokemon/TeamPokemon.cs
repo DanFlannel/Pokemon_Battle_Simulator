@@ -104,7 +104,10 @@ namespace FBG.Base
             }
             else if (MoveSets.searchAttackList(move.name).cat == Consts.Status)
             {
-                Debug.Log("status move");
+                if (move.dmgReport.stageDelta != 0)
+                {
+                    sim.routine.queue.AddCoroutineToQueue(sim.routine.statusAffected(move));
+                }
             }
             else
             {

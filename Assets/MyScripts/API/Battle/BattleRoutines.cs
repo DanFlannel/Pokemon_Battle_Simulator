@@ -127,7 +127,7 @@ namespace FBG.Battle
 
         public IEnumerator usedMoveText(string pkName, string move)
         {
-            string text = string.Format("{0} used {1}", pkName, move);
+            string text = string.Format("{0} used {1}.", pkName, move);
             //Debug.Log("move text coroutine: " + text);
             yield return StartCoroutine(displayText(text, 2f));
 
@@ -247,6 +247,22 @@ namespace FBG.Battle
         public IEnumerator flinched(PokemonBase pkmn)
         {
             string text = string.Format("{0} flinched!", pkmn.Name);
+            yield return StartCoroutine(displayText(text, 2f));
+            yield return null;
+        }
+
+        public IEnumerator statusAffected(MoveResults move)
+        {
+            string text;
+            if(move.dmgReport.stagePokemon == "all")
+            {
+                text = string.Format("{0}", move.dmgReport.stageName);
+            }
+            else
+            {
+                string delta = stageChange(move.dmgReport.stageDelta);
+                text = string.Format("{0}'s {1} {2}.", move.dmgReport.stagePokemon, move.dmgReport.stageName.ToUpper(), delta);
+            }
             yield return StartCoroutine(displayText(text, 2f));
             yield return null;
         }
@@ -396,6 +412,36 @@ namespace FBG.Battle
                 delta = pkmn.maxHP - pkmn.curHp;
             }
             return delta;
+        }
+
+        /// <summary>
+        /// gets the string version of the increase or decrease in a stat.
+        /// </summary>
+        /// <param name="delta">the stat change</param>
+        /// <returns>a string describing the change</returns>
+        private string stageChange(int delta)
+        {
+            string text;
+
+            if(delta <= -2)
+            {
+                text = "decreased greatly";
+            }else if (delta == -1)
+            {
+                text = "decreased";
+            }else if(delta == 0)
+            {
+                text = "";
+                Debug.Log("Error found a 0 delta");
+            }else if(delta == 1)
+            {
+                text = "increased";
+            }
+            else
+            {
+                text = "increased greatly";
+            }
+            return text;
         }
     }
 }
