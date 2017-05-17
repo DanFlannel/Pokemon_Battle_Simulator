@@ -60,7 +60,7 @@ namespace FBG.Battle
                 yield return StartCoroutine(checkPokemon(turn, i));
             }
 
-            Debug.Log("Ending the routine, closing the display text");
+            //Debug.Log("Ending the routine, closing the display text");
             sim.battleGUI.toggleTextPanel(false);
             sim.isTurnRunning = false;
         }
@@ -325,11 +325,11 @@ namespace FBG.Battle
 
         private int checkDelta(PokemonBase pkmn, int delta)
         {
-            if(pkmn.curHp + delta <= 0)
+            if((pkmn.curHp + delta) <= 0)
             {
-                delta = pkmn.curHp;
+                delta = -pkmn.curHp;
             }
-            if(pkmn.curHp + delta >= pkmn.maxHP)
+            if((pkmn.curHp + delta) >= pkmn.maxHP)
             {
                 delta = pkmn.maxHP - pkmn.curHp;
             }
