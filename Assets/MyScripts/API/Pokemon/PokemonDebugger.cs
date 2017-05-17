@@ -54,7 +54,6 @@ namespace FBG.Debuggers
 
         private void updateStats()
         {
-
             if (curTeam == PokemonTeam.redTeam)
             {
                 pokemonTeamData = battlesim.redTeam.pokemon;

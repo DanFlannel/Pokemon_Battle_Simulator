@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
+using UnityEngine;
 
 namespace FBG.Battle
 {
@@ -107,6 +108,10 @@ namespace FBG.Battle
         private List<TurnInformation> priorityOnlySort(List<TurnInformation> info)
         {
             info = basicPrioritySort(info);
+            if(info.Count == 0)
+            {
+                return null;
+            }
             List<TurnInformation> final = new List<TurnInformation>();
             for (int i = 0; i < info.Count; i++)
             {
@@ -128,6 +133,11 @@ namespace FBG.Battle
 
         private List<TurnInformation> searchForPrioties(int priority, List<TurnInformation> info)
         {
+            if(info == null)
+            {
+                UnityEngine.Debug.Log("Null turn information");
+            }
+
             List<TurnInformation> result = new List<TurnInformation>();
             for (int i = 0; i < info.Count; i++)
             {
@@ -136,6 +146,12 @@ namespace FBG.Battle
                     result.Add(info[i]);
                 }
             }
+
+            if(result == null)
+            {
+                Debug.Log(string.Format("null result, info length: {0}", info.Count));
+            }
+
             return result;
         }
 
@@ -210,7 +226,16 @@ namespace FBG.Battle
 
         //adds t1 and t2 together
         private List<TurnInformation> add(List<TurnInformation> t1, List<TurnInformation> t2){
-            for(int i = 0; i < t2.Count; i++)
+            if(t1 == null)
+            {
+                t1 = new List<TurnInformation>();
+            }
+
+            if(t2 == null || t2.Count == 0)
+            {
+                return t1;
+            }
+            for (int i = 0; i < t2.Count; i++)
             {
                 t1.Add(t2[i]);
             }
@@ -220,6 +245,11 @@ namespace FBG.Battle
         //removes all of the instances of t2 in t1
         private List<TurnInformation> remove(List<TurnInformation> t1, List<TurnInformation> t2)
         {
+            if(t2 == null || t2.Count == 0)
+            {
+                return t1;
+            }
+
             List<TurnInformation> tmp = new List<TurnInformation>();
             for(int i = 0; i < t1.Count; i++)
             {
