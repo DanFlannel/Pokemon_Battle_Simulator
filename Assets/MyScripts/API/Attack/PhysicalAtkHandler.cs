@@ -12,12 +12,6 @@ namespace FBG.Attack
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
 
-        public float damage { get; set; }
-        public float heal { get; set; }
-        public float recoil { get; set; }
-        public string stageName { get; set; }
-        public int stageDiff { get; set; }
-
         public void setPokemon(PokemonBase tar, PokemonBase s, MoveResults mr)
         {
             target = tar;
@@ -29,6 +23,7 @@ namespace FBG.Attack
             recoil = 0;
             stageName = "";
             stageDiff = 0;
+            stagePokemon = "";
 
             s.nextAttack = "";
 
@@ -91,6 +86,7 @@ namespace FBG.Attack
                     {
                         stageName = Consts.speed;
                         stageDiff = -1;
+                        stagePokemon = target.Name;
                     }
                     break;
 
@@ -380,7 +376,7 @@ namespace FBG.Attack
 
             ignoreLightScreen = false;
             ignoreReflect = false;
-            move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
+            move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff, stagePokemon);
             return report;
         }
 

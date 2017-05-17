@@ -11,12 +11,6 @@ namespace FBG.Attack
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
 
-        public float damage { get; set; }
-        public float heal { get; set; }
-        public float recoil { get; set; }
-        public string stageName { get; set; }
-        public int stageDiff { get; set; }
-
         public SpecialAtkHandler(PokemonBase tar, PokemonBase s, MoveResults mr)
         {
             setPokemon(tar, s, mr);
@@ -62,6 +56,7 @@ namespace FBG.Attack
                         changeStats(Consts.spDefense, -1, target);
                         stageName = Consts.spDefense;
                         stageDiff = -1;
+                        stagePokemon = target.Name;
                     }
                     break;
 
@@ -72,6 +67,7 @@ namespace FBG.Attack
                         changeStats(Consts.attack, -1, target);
                         stageName = Consts.attack;
                         stageDiff = -1;
+                        stagePokemon = target.Name;
                     }
                     break;
 
@@ -86,6 +82,7 @@ namespace FBG.Attack
                         changeStats(Consts.speed, -1, target);
                         stageName = Consts.speed;
                         stageDiff = -1;
+                        stagePokemon = target.Name;
                     }
                     break;
 
@@ -96,6 +93,7 @@ namespace FBG.Attack
                         changeStats(Consts.speed, -1, target);
                         stageName = Consts.speed;
                         stageDiff = -1;
+                        stagePokemon = target.Name;
                     }
                     break;
 
@@ -179,6 +177,7 @@ namespace FBG.Attack
                         changeStats(Consts.spDefense, -1, target);
                         stageName = Consts.spDefense;
                         stageDiff = -1;
+                        stagePokemon = target.Name;
                     }
                     break;
 
@@ -251,7 +250,7 @@ namespace FBG.Attack
 
             ignoreLightScreen = false;
             ignoreReflect = false;
-            move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
+            move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff, stagePokemon);
             return report;
         }
 

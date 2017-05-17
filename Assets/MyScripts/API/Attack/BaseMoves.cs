@@ -12,6 +12,14 @@ namespace FBG.Attack
         public bool ignoreLightScreen { get; set; }
         public MoveResults moveRes { get; set; }
 
+        public float damage { get; set; }
+        public float heal { get; set; }
+        public float recoil { get; set; }
+        public string stageName { get; set; }
+        public int stageDiff { get; set; }
+        public string stagePokemon { get; set; }
+
+
         public  void noAdditionalEffect()
         {
             return;
@@ -471,11 +479,6 @@ namespace FBG.Attack
             mr.dmgReport.recoil = Mathf.Round(target.maxHP / 4f);
             target.hasSubstitute = true;
             //subsitute health = mr.dmg.recoil
-        }
-
-        public  void leech_seed()
-        {
-            
         }
 
         public  bool hasEffector(PokemonBase target, string eName)

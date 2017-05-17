@@ -3,9 +3,10 @@ using FBG.Base;
 using FBG.Data;
 using FBG.Battle;
 
-namespace FBG.Attack {
-    public class PhysicalAtkMethods :  BaseMoves{
-
+namespace FBG.Attack
+{
+    public class PhysicalAtkMethods : BaseMoves
+    {
         public float barrage(string name)
         {
             return multiAttack(Random.Range(2, 5), name);
@@ -385,7 +386,7 @@ namespace FBG.Attack {
         public void strength() { }
 
         public void struggle() { }
-        
+
         public void submission() { }
 
         public float superFang(PokemonBase target)

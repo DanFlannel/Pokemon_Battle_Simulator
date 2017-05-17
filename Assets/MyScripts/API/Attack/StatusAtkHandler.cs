@@ -12,12 +12,6 @@ namespace FBG.Attack
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
 
-        public float damage { get; set; }
-        public float heal { get; set; }
-        public float recoil { get; set; }
-        public string stageName { get; set; }
-        public int stageDiff { get; set; }
-
         public void setPokemon(PokemonBase tar, PokemonBase s, MoveResults mr)
         {
             target = tar;
@@ -27,8 +21,10 @@ namespace FBG.Attack
             damage = 0;
             heal = 0;
             recoil = 0;
+
             stageName = "";
             stageDiff = 0;
+            stagePokemon = "";
 
             s.nextAttack = "";
 
@@ -55,6 +51,7 @@ namespace FBG.Attack
                     changeStats(Consts.defense, 2, self);
                     stageName = Consts.defense;
                     stageDiff = 2;
+                    stagePokemon = self.Name;
                     break;
 
                 //raises users speed by 2 stages
@@ -62,6 +59,7 @@ namespace FBG.Attack
                     changeStats(Consts.speed, 2, self);
                     stageName = Consts.speed;
                     stageDiff = 2;
+                    stagePokemon = self.Name;
                     break;
 
                 //raises users spDefense by 2 stages
@@ -69,6 +67,7 @@ namespace FBG.Attack
                     changeStats(Consts.spDefense, 2, self);
                     stageName = Consts.spDefense;
                     stageDiff = 2;
+                    stagePokemon = self.Name;
                     break;
 
                 //raises users defense by 2 stages
@@ -76,6 +75,7 @@ namespace FBG.Attack
                     changeStats(Consts.defense, 2, self);
                     stageName = Consts.defense;
                     stageDiff = 2;
+                    stagePokemon = self.Name;
                     break;
 
                 //confuses opponenet
@@ -94,6 +94,7 @@ namespace FBG.Attack
                     changeStats(Consts.defense, 1, self);
                     stageName = Consts.defense;
                     stageDiff = 1;
+                    stagePokemon = self.Name;
                     break;
 
                 //disables enemies last move for a few turns
@@ -116,6 +117,7 @@ namespace FBG.Attack
                     changeStats(Consts.evasion, 1, self);
                     stageName = Consts.evasion;
                     stageDiff = 1;
+                    stagePokemon = self.Name;
                     break;
 
                 //lowers opponents accuracy by 1 stage
@@ -123,17 +125,22 @@ namespace FBG.Attack
                     changeStats(Consts.accuracy, -1, target);
                     stageName = Consts.accuracy;
                     stageDiff = -1;
+                    stagePokemon = target.Name;
                     break;
 
                 //increases crit ratio...
                 case "focus energy":
                     self.changeCritStage(2);
+                    stageName = "Critical Strike";
+                    stageDiff = 2;
+                    stagePokemon = self.Name;
                     break;
 
                 case "growl":
                     changeStats(Consts.attack, -1, target);
                     stageName = Consts.attack;
                     stageDiff = -1;
+                    stagePokemon = target.Name;
                     break;
 
                 case "growth":
@@ -141,12 +148,14 @@ namespace FBG.Attack
                     changeStats(Consts.attack, 1, self);
                     stageName = Consts.attack + " & " + Consts.spAttack;
                     stageDiff = 1;
+                    stagePokemon = self.Name;
                     break;
 
                 case "harden":
                     changeStats(Consts.defense, 1, self);
                     stageName = Consts.defense;
                     stageDiff = 1;
+                    stagePokemon = self.Name;
                     break;
 
                 case "haze":
@@ -154,6 +163,7 @@ namespace FBG.Attack
                     target.resetStatStages();
                     stageName = "reset all stat changes";
                     stageDiff = 0;
+                    stagePokemon = "all";
                     break;
 
                 case "hypnosis":
@@ -166,6 +176,7 @@ namespace FBG.Attack
                     changeStats(Consts.accuracy, -1, target);
                     stageName = Consts.accuracy;
                     stageDiff = -1;
+                    stagePokemon = target.Name;
                     break;
 
                 case "leech seed":
@@ -176,6 +187,7 @@ namespace FBG.Attack
                     changeStats(Consts.defense, -1, target);
                     stageName = Consts.defense;
                     stageDiff = -1;
+                    stagePokemon = target.Name;
                     break;
 
                 case "light screen":
@@ -191,6 +203,7 @@ namespace FBG.Attack
                     changeStats(Consts.attack, 1, self);
                     stageName = Consts.attack;
                     stageDiff = 1;
+                    stagePokemon = self.Name;
                     break;
 
                 //preforms any move in the game at random?
@@ -227,6 +240,7 @@ namespace FBG.Attack
                     changeStats(Consts.evasion, 1, self);
                     stageName = Consts.evasion;
                     stageDiff = 1;
+                    stagePokemon = self.Name;
                     break;
 
                 //preforms the opponents last move....
@@ -274,18 +288,21 @@ namespace FBG.Attack
                     changeStats(Consts.accuracy, -1, target);
                     stageName = Consts.accuracy;
                     stageDiff = -1;
+                    stagePokemon = target.Name;
                     break;
 
                 case "screech":
                     changeStats(Consts.defense, -2, target);
                     stageName = Consts.defense;
                     stageDiff = -2;
+                    stagePokemon = target.Name;
                     break;
 
                 case "sharpen":
                     changeStats(Consts.attack, 1, self);
                     stageName = Consts.attack;
                     stageDiff = 1;
+                    stagePokemon = self.Name;
                     break;
 
                 //puts the user to sleep for 1-3 turns
@@ -299,6 +316,7 @@ namespace FBG.Attack
                     changeStats(Consts.accuracy, -1, target);
                     stageName = Consts.accuracy;
                     stageDiff = -1;
+                    stagePokemon = target.Name;
                     break;
 
                 case "soft boiled":
@@ -320,6 +338,7 @@ namespace FBG.Attack
                     changeStats(Consts.speed, -2, target);
                     stageName = Consts.speed;
                     stageDiff = -2;
+                    stagePokemon = target.Name;
                     break;
 
                 case "stun spore":
@@ -339,12 +358,14 @@ namespace FBG.Attack
                     changeStats(Consts.attack, 2, self);
                     stageName = Consts.attack;
                     stageDiff = 2;
+                    stagePokemon = self.Name;
                     break;
 
                 case "tail whip":
                     changeStats(Consts.defense, -1, target);
                     stageName = Consts.attack;
                     stageDiff = -1;
+                    stagePokemon = target.Name;
                     break;
 
                 case "teleport":
@@ -376,6 +397,7 @@ namespace FBG.Attack
                     changeStats(Consts.defense, 1, self);
                     stageName = Consts.defense;
                     stageDiff = 1;
+                    stagePokemon = self.Name;
                     break;
 
             }
@@ -383,7 +405,7 @@ namespace FBG.Attack
 
             ignoreLightScreen = false;
             ignoreReflect = false;
-            move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff);
+            move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff, stagePokemon);
             return report;
         }
 

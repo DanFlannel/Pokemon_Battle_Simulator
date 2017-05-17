@@ -117,15 +117,17 @@ public struct move_DmgReport
     public float heal;
     public float recoil;
     public string stageName;
-    public int stageDiff;
+    public int stageDelta;
+    public string stagePokemon;
 
-    public move_DmgReport(float d, float h, float r, string s, int i)
+    public move_DmgReport(float damage, float heal, float recoil, string stageName, int stageDelta, string stagePokemon)
     {
-        damage = d;
-        heal = h;
-        recoil = r;
-        stageName = s;
-        stageDiff = i;
+        this.damage = damage;
+        this.heal = heal;
+        this.recoil = recoil;
+        this.stageName = stageName;
+        this.stageDelta = stageDelta;
+        this.stagePokemon = stagePokemon;
     }
 }
 
