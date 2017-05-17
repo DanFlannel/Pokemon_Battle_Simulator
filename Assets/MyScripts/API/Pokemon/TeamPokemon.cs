@@ -86,7 +86,6 @@ namespace FBG.Base
                 return;
             }
 
-
             if (!isAlive(pkmn))
             {
                 return;
@@ -95,13 +94,17 @@ namespace FBG.Base
             MoveResults move = getMoveResults(index);
             sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
 
-            if (checkNVStatus())
+            if (nvHaltingEffect())
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.blockingNV(curPokemon));
             }
             else if (move.flinched)
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.flinched(curPokemon));
+            }
+            else if (MoveSets.searchAttackList(move.name).cat == Consts.Status)
+            {
+                Debug.Log("status move");
             }
             else
             {
@@ -198,6 +201,10 @@ namespace FBG.Base
 
         }
 
+        /// <summary>
+        /// applying the status_A, non volitle status damage to a pokemon
+        /// </summary>
+        /// <param name="self">the pokemon the damage will be applied to</param>
         private void applyNVDamage(PokemonBase self)
         {
             if (!isDamagingNV(self.status_A)) { return; }
@@ -230,7 +237,11 @@ namespace FBG.Base
             sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(self, damage));
         }
 
-        private bool checkNVStatus()
+        /// <summary>
+        /// is the pokemon stopped by a non volitile status effect
+        /// </summary>
+        /// <returns></returns>
+        private bool nvHaltingEffect()
         {
             if (curPokemon.status_A != nonVolitileStatusEffects.none)
             {

@@ -155,6 +155,12 @@ namespace FBG.Battle
             yield return null;
         }
 
+        /// <summary>
+        /// Shows how effective the attack was against the pokemon, only shows immune, not very effective and super effective moves
+        /// </summary>
+        /// <param name="atkName">name of the attack</param>
+        /// <param name="target">target pokemon</param>
+        /// <returns></returns>
         public IEnumerator effectiveText(string atkName, PokemonBase target)
         {
             attacks attack = MoveSets.searchAttackList(atkName);
@@ -180,6 +186,12 @@ namespace FBG.Battle
             yield return null;
         }
 
+        /// <summary>
+        /// Text that is shown when the target pokemon gets a new on volitle status effect
+        /// </summary>
+        /// <param name="target">target pokemon</param>
+        /// <param name="statusName">name of the non volitle status</param>
+        /// <returns></returns>
         public IEnumerator addNV(PokemonBase target, string statusName)
         {
             string ending = statusName;
@@ -197,6 +209,11 @@ namespace FBG.Battle
             yield return null;
         }
 
+        /// <summary>
+        /// Handles the text that is shown when a pokemon cannot move due to their non volitle status effect
+        /// </summary>
+        /// <param name="pkmn">pokemon being affected</param>
+        /// <returns></returns>
         public IEnumerator blockingNV(PokemonBase pkmn)
         {
             nonVolitileStatusEffects effect = pkmn.status_A;
@@ -211,6 +228,10 @@ namespace FBG.Battle
             yield return null;
         }
 
+        /// <summary>
+        /// Handles the critcal hit text
+        /// </summary>
+        /// <returns></returns>
         public IEnumerator criticalHit()
         {
             string text = "Ciritcal Hit!";
@@ -218,6 +239,11 @@ namespace FBG.Battle
             yield return null;
         }
 
+        /// <summary>
+        /// handles the flinching text
+        /// </summary>
+        /// <param name="pkmn">pokemon that flinched</param>
+        /// <returns></returns>
         public IEnumerator flinched(PokemonBase pkmn)
         {
             string text = string.Format("{0} flinched!", pkmn.Name);
@@ -252,6 +278,11 @@ namespace FBG.Battle
             yield return null;
         }
 
+        /// <summary>
+        /// Displaying the fainted text
+        /// </summary>
+        /// <param name="pkmn"></param>
+        /// <returns></returns>
         public IEnumerator faintedText(PokemonBase pkmn)
         {
             string text = string.Format("{0} fainted!", pkmn.Name);
@@ -267,6 +298,12 @@ namespace FBG.Battle
             yield return null;
         }
 
+        /// <summary>
+        /// handler for all of the text to be displayed
+        /// </summary>
+        /// <param name="text">text to be displayed</param>
+        /// <param name="wait">the delay before moveing forward</param>
+        /// <returns></returns>
         public IEnumerator displayText(string text, float wait)
         {
             sim.battleGUI.toggleTextPanel(true);
@@ -291,6 +328,12 @@ namespace FBG.Battle
             yield return null;
         }
 
+        /// <summary>
+        /// Handles the health bar's movements
+        /// </summary>
+        /// <param name="pkmn">pokemon whose is being affected</param>
+        /// <param name="delta">the delta change in the pokemon's health</param>
+        /// <returns></returns>
         public IEnumerator changeHealthbar(PokemonBase pkmn, int delta)
         {
             delta = checkDelta(pkmn, delta);
@@ -336,6 +379,12 @@ namespace FBG.Battle
             yield return null;
         }
 
+        /// <summary>
+        /// checks the delta in the pokemon's health and ensures the Hp doenst have more than their max hp or less than 0
+        /// </summary>
+        /// <param name="pkmn">pokemon that is being affected</param>
+        /// <param name="delta">change in their health</param>
+        /// <returns></returns>
         private int checkDelta(PokemonBase pkmn, int delta)
         {
             if((pkmn.curHp + delta) <= 0)
@@ -349,5 +398,4 @@ namespace FBG.Battle
             return delta;
         }
     }
-
 }
