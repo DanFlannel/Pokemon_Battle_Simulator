@@ -113,8 +113,10 @@ namespace FBG.Battle
             battleGUI.setSimulator(ref instance);
 
             //UnityEngine.Debug.Log(string.Format("{0} {1}", redTeam.curPokemon.Name, redTeam.curPokemon.ID));
-            battleGUI.changePokemonSprite(redSprite, redTeam.curPokemon.Name, redTeam.curPokemon.ID);
-            battleGUI.changePokemonSprite(blueSprite, blueTeam.curPokemon.Name, blueTeam.curPokemon.ID);
+            updateGUI(ref redTeam);
+            updateGUI(ref blueTeam);
+            //battleGUI.changePokemon_GUI(redSprite, redTeam.curPokemon, redTeam.curPokemon.ID);
+            //battleGUI.changePokemon_GUI(blueSprite, blueTeam.curPokemon, blueTeam.curPokemon.ID);
 
             sw.Stop();
             print(string.Format("Time to load {0}ms", sw.ElapsedMilliseconds));
@@ -270,14 +272,14 @@ namespace FBG.Battle
             moveHistory.Add(hist);
         }
 
-        public void changeSprites(ref TeamPokemon team)
+        public void updateGUI(ref TeamPokemon team)
         {
             GifRenderer r = redSprite;
             if(team == blueTeam)
             {
                 r = blueSprite;
             }
-            battleGUI.changePokemonSprite(r, team.curPokemon.Name, team.curPokemon.ID);
+            battleGUI.changePokemon_GUI(r, team.curPokemon, team.curPokemon.ID);
         }
 
         public void swapPokemon(TeamPokemon team, int index)

@@ -21,6 +21,7 @@ namespace FBG.Battle
         {
             this.sim = sim;
             toggleSwapPanel(false);
+            toggleTextPanel(false);
         }
 
         public void checkButtonNames(PokemonBase pkmon)
@@ -101,7 +102,7 @@ namespace FBG.Battle
                 Debug.Log(string.Format("prompting enemy swap {0} ", index));
                 team.swap(index);
                 sim.swapPokemon(team, index);
-                sim.changeSprites(ref team);
+                sim.updateGUI(ref team);
                 return;
             }
             Debug.Log("Prompting player swap");
@@ -136,19 +137,20 @@ namespace FBG.Battle
 
         public void toggleTextPanel(bool b)
         {
-            TextPanel.SetActive(true);
+            TextPanel.SetActive(b);
         }
 
-        public void changePokemonSprite(GifRenderer r, string name, int id)
+        public void changePokemon_GUI(GifRenderer r, PokemonBase pkmn, int id)
         {
-            r.ChangeSprite(name, id);
+            updatePokemonPanel(pkmn);
+            r.ChangeSprite(pkmn.Name, id);
         }
 
-        public void updatePokemonPanel(PokemonBase pkmn)
+        private void updatePokemonPanel(PokemonBase pkmn)
         {
             GUIReferences gui = pkmn.team.guiRef;
             gui.name.text = string.Format("{0}", pkmn.Name);
-            gui.level.text = string.Format("{0}", pkmn.Level);
+            gui.level.text = string.Format("LvL {0}", pkmn.Level);
             gui.health.text = string.Format("{0}/{1}", pkmn.curHp, pkmn.maxHP);
 
             float sliderValue = (float)pkmn.curHp / (float)pkmn.maxHP;

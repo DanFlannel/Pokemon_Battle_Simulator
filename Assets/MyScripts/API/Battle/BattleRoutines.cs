@@ -59,6 +59,7 @@ namespace FBG.Battle
             {
                 yield return StartCoroutine(checkPokemon(turn, i));
             }
+
             Debug.Log("Ending the routine, closing the display text");
             sim.battleGUI.toggleTextPanel(false);
             sim.isTurnRunning = false;
@@ -127,7 +128,7 @@ namespace FBG.Battle
         {
             string text = string.Format("{0} used {1}", pkName, move);
             //Debug.Log("move text coroutine: " + text);
-            yield return StartCoroutine(displayText(text, true));
+            yield return StartCoroutine(displayText(text, 0f));
 
             yield return null;
         }
@@ -173,9 +174,26 @@ namespace FBG.Battle
                 {
                     text = "It was super effective!";
                 }
-                yield return StartCoroutine(displayText(text, false));
+                yield return StartCoroutine(displayText(text, 1f));
 
             }
+            yield return null;
+        }
+
+        public IEnumerator addNV(PokemonBase target, string statusName)
+        {
+            string ending = statusName;
+            if(statusName == nonVolitileStatusEffects.sleep.ToString())
+            {
+                ending = "asleep";
+            }
+            if(statusName == nonVolitileStatusEffects.toxic.ToString())
+            {
+                ending = "badly poisoned";
+            }
+
+            string text = string.Format("{0} is now {1}!", target.Name, ending);
+            displayText(text, 2f);
             yield return null;
         }
 
@@ -188,7 +206,7 @@ namespace FBG.Battle
                 ending = "asleep";
             }
             string text = string.Format("{0} tried to move but is {1}", pkmn.Name, ending);
-            yield return StartCoroutine(displayText(text, true));
+            yield return StartCoroutine(displayText(text, 1f));
 
             yield return null;
         }
@@ -232,7 +250,7 @@ namespace FBG.Battle
             yield return null;
         }
 
-        public IEnumerator displayText(string text, bool wait)
+        public IEnumerator displayText(string text, float wait)
         {
             sim.battleGUI.toggleTextPanel(true);
             float delay = .025f;
@@ -252,10 +270,7 @@ namespace FBG.Battle
                 yield return null;
             }
             //adding a wait at the end of this just because
-            if (wait)
-            {
-                yield return new WaitForSeconds(3f);
-            }
+            yield return new WaitForSeconds(wait);
             yield return null;
         }
 

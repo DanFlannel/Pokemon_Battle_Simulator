@@ -82,7 +82,7 @@ namespace FBG.Base
             {
                 Debug.Log("Swapping Pokemon");
                 swap(index);
-                BattleSimulator.Instance.changeSprites(ref instance);
+                BattleSimulator.Instance.updateGUI(ref instance);
                 return;
             }
 
@@ -125,15 +125,26 @@ namespace FBG.Base
 
         private void applyDamage(MoveResults move)
         {
-            if (move.dmgReport.damage == 0) { return; }
-            if (enemyTeam.curPokemon.curHp - move.dmgReport.damage <= 0)
+            if(move.statusEffect == "" && move.dmgReport.damage == 0)
             {
-                move.dmgReport.damage = enemyTeam.curPokemon.curHp;
+                return;
             }
 
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, (int)move.dmgReport.damage));
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
-            //enemyTeam.curPokemon.curHp -= (int)move.dmgReport.damage;
+            if(move.statusEffect != "")
+            {
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(enemyTeam.curPokemon, move.statusEffect));
+            }
+
+            if (move.dmgReport.damage != 0)
+            {
+                if (enemyTeam.curPokemon.curHp - move.dmgReport.damage <= 0)
+                {
+                    move.dmgReport.damage = enemyTeam.curPokemon.curHp;
+                }
+
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, (int)move.dmgReport.damage));
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
+            }
         }
 
         private void applyHeal(MoveResults move)
