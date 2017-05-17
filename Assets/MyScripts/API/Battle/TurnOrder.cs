@@ -133,7 +133,7 @@ namespace FBG.Battle
 
         private List<TurnInformation> searchForPrioties(int priority, List<TurnInformation> info)
         {
-            if(info == null)
+            if(info == null || info.Count == 0)
             {
                 UnityEngine.Debug.Log("Null turn information");
             }

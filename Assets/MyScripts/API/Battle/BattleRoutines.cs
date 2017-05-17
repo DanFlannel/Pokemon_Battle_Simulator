@@ -97,6 +97,7 @@ namespace FBG.Battle
         private IEnumerator EndOfTurnTeam(TeamPokemon team)
         {
             team.EndOfTurn();
+            yield return StartCoroutine(queue.masterIEnumerator());
             yield return null;
         }
 
@@ -128,7 +129,7 @@ namespace FBG.Battle
         {
             string text = string.Format("{0} used {1}", pkName, move);
             //Debug.Log("move text coroutine: " + text);
-            yield return StartCoroutine(displayText(text, 0f));
+            yield return StartCoroutine(displayText(text, 2f));
 
             yield return null;
         }
@@ -174,7 +175,7 @@ namespace FBG.Battle
                 {
                     text = "It was super effective!";
                 }
-                yield return StartCoroutine(displayText(text, 1f));
+                yield return StartCoroutine(displayText(text, 2f));
 
             }
             yield return null;
@@ -193,7 +194,7 @@ namespace FBG.Battle
             }
 
             string text = string.Format("{0} is now {1}!", target.Name, ending);
-            displayText(text, 2f);
+            yield return StartCoroutine(displayText(text, 2f));
             yield return null;
         }
 
@@ -238,8 +239,11 @@ namespace FBG.Battle
             yield return null;
         }
 
-        public IEnumerator faintedText()
+        public IEnumerator faintedText(PokemonBase pkmn)
         {
+            string text = string.Format("{0} fainted!", pkmn.Name);
+            yield return StartCoroutine(displayText(text, 2f));
+            yield return StartCoroutine(pokemonFainted());
             yield return null;
         }
 
@@ -276,6 +280,7 @@ namespace FBG.Battle
 
         public IEnumerator changeHealthbar(PokemonBase pkmn, int delta)
         {
+            delta = checkDelta(pkmn, delta);
             Slider slider = pkmn.team.guiRef.slider;
             Text healthNum = pkmn.team.guiRef.health;
             float speed = .01f;
@@ -310,9 +315,26 @@ namespace FBG.Battle
                 healthNum.text = string.Format("{0}/{1}", pkmn.curHp, pkmn.maxHP);
             }
 
+            if(pkmn.curHp == 0)
+            {
+                yield return StartCoroutine(faintedText(pkmn));
+            }
+
             yield return null;
         }
 
+        private int checkDelta(PokemonBase pkmn, int delta)
+        {
+            if(pkmn.curHp + delta <= 0)
+            {
+                delta = pkmn.curHp;
+            }
+            if(pkmn.curHp + delta >= pkmn.maxHP)
+            {
+                delta = pkmn.maxHP - pkmn.curHp;
+            }
+            return delta;
+        }
     }
 
 }
