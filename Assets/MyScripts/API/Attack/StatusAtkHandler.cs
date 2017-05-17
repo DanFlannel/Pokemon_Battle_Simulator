@@ -204,7 +204,7 @@ namespace FBG.Attack
                 //copies the opponents last move and replaces mimic with that
                 case "mimic":
                     int n = 0;
-                    int index = BattleSimulator.Instance.moveHistory.Count;
+                    int index = BattleSimulator.Instance.moveHistory.Count - 1;
                     if(BattleSimulator.Instance.moveHistory.Count == 0)
                     {
                         moveRes.failed = true;

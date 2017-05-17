@@ -10,6 +10,7 @@ namespace FBG.Attack
 
         public bool ignoreReflect { get; set; }
         public bool ignoreLightScreen { get; set; }
+        public MoveResults moveRes { get; set; }
 
         public  void noAdditionalEffect()
         {
@@ -236,6 +237,7 @@ namespace FBG.Attack
                 target.status_A = nonVolitileStatusEffects.burned;
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now burned", target.Name));
+                moveRes.statusEffect = nonVolitileStatusEffects.burned.ToString();
             }
         }
 
@@ -253,6 +255,7 @@ namespace FBG.Attack
             {
                 target.status_A = nonVolitileStatusEffects.frozen;
                 Debug.Log(string.Format("{0} is now frozen", target.Name));
+                moveRes.statusEffect = nonVolitileStatusEffects.frozen.ToString();
             }
         }
 
@@ -271,6 +274,7 @@ namespace FBG.Attack
                 target.status_A = nonVolitileStatusEffects.paralized;
                 changeStats(Consts.speed, -6, target);
                 Debug.Log(string.Format("{0} is now paralized", target.Name));
+                moveRes.statusEffect = nonVolitileStatusEffects.paralized.ToString();
             }
         }
 
@@ -289,6 +293,7 @@ namespace FBG.Attack
                 target.status_A = nonVolitileStatusEffects.poisioned;
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now poisoned", target.Name));
+                moveRes.statusEffect = nonVolitileStatusEffects.poisioned.ToString();
             }
         }
 
@@ -305,6 +310,7 @@ namespace FBG.Attack
                 target.status_A = nonVolitileStatusEffects.toxic;
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now badly posioned", target.Name));
+                moveRes.statusEffect = nonVolitileStatusEffects.toxic.ToString();
             }
         }
 
@@ -320,8 +326,9 @@ namespace FBG.Attack
             if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.nvDur = duration;
-                target.status_A = nonVolitileStatusEffects.toxic;
+                target.status_A = nonVolitileStatusEffects.sleep;
                 Debug.Log(string.Format("{0} is now asleep", target.Name));
+                moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
             }
         }
 
@@ -335,6 +342,7 @@ namespace FBG.Attack
             {
                 target.status_B = volitileStatusEffects.confused;
                 Debug.Log(string.Format("{0} is now confused", target.Name));
+                moveRes.statusEffect = volitileStatusEffects.confused.ToString();
             }
         }
 
@@ -347,6 +355,7 @@ namespace FBG.Attack
             {
                 target.status_B = volitileStatusEffects.infatuated;
                 Debug.Log(string.Format("{0} is now infatuated", target.Name));
+                moveRes.statusEffect = volitileStatusEffects.infatuated.ToString();
             }
         }
 

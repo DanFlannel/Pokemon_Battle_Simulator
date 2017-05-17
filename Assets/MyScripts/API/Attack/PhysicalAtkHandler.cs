@@ -11,7 +11,6 @@ namespace FBG.Attack
     {
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
-        public MoveResults moveRes { get; set; }
 
         public float damage { get; set; }
         public float heal { get; set; }

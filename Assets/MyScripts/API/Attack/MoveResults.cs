@@ -30,8 +30,14 @@
     /// </summary>
     public move_DmgReport dmgReport;
 
+    /// <summary>
+    /// the name of the status affect affed during the move
+    /// </summary>
+    public string statusEffect;
+
     public MoveResults(string s)
     {
         name = s;
+        statusEffect = "";
     }
 }
