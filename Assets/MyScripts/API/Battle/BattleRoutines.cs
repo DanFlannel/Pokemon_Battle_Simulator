@@ -136,7 +136,7 @@ namespace FBG.Battle
 
         public IEnumerator applyDamage(PokemonBase pkmn, int dmg)
         {
-            Debug.Log("damage coroutine");
+            //Debug.Log("damage coroutine");
             yield return StartCoroutine(changeHealthbar(pkmn, -dmg));
             yield return null;
         }
@@ -176,7 +176,6 @@ namespace FBG.Battle
                     text = "It was super effective!";
                 }
                 yield return StartCoroutine(displayText(text, 2f));
-
             }
             yield return null;
         }
@@ -209,6 +208,13 @@ namespace FBG.Battle
             string text = string.Format("{0} tried to move but is {1}", pkmn.Name, ending);
             yield return StartCoroutine(displayText(text, 1f));
 
+            yield return null;
+        }
+
+        public IEnumerator criticalHit()
+        {
+            string text = "Ciritcal Hit!";
+            yield return StartCoroutine(displayText(text, 1f));
             yield return null;
         }
 

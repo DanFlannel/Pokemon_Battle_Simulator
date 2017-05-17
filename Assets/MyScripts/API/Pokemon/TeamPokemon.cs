@@ -137,22 +137,14 @@ namespace FBG.Base
 
             if (move.dmgReport.damage != 0)
             {
-                /*
-                bool fainted = false;
-                if (enemyTeam.curPokemon.curHp - move.dmgReport.damage <= 0)
-                {
-                    fainted = true;
-                    move.dmgReport.damage = enemyTeam.curPokemon.curHp;
-                }
-                */
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, (int)move.dmgReport.damage));
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
-                /*
-                if (fainted)
+
+                if (move.crit)
                 {
-                    sim.routine.queue.AddCoroutineToQueue(sim.routine.faintedText(enemyTeam.curPokemon));
+                    sim.routine.queue.AddCoroutineToQueue(sim.routine.criticalHit());
                 }
-                */
+
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
             }
         }
 
