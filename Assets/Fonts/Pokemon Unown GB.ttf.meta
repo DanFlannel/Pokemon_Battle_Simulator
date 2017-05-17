@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 049ddcac6d4d1c844a9d2729255614b4
-timeCreated: 1495034144
+guid: 67ba84facf61b9344b2aeebbb5de20bb
+timeCreated: 1495034137
 licenseType: Pro
 TrueTypeFontImporter:
   serializedVersion: 4
@@ -9,9 +9,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Pokemon GB
+  fontName: Pokemon Unown GB
   fontNames:
-  - Pokemon GB
+  - Pokemon Unown GB
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 049ddcac6d4d1c844a9d2729255614b4
-timeCreated: 1495034144
+guid: 3a59fae1b201def48b6095eb71e6cc46
+timeCreated: 1495033987
 licenseType: Pro
 TrueTypeFontImporter:
   serializedVersion: 4
@@ -9,9 +9,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Pokemon GB
+  fontName: Pokemon X and Y
   fontNames:
-  - Pokemon GB
+  - Pokemon X and Y
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
