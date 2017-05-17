@@ -53,14 +53,14 @@ namespace FBG.Base
         public int getRndPokemon()
         {
             List<int> tmp = new List<int>();
-            for(int i = 0; i < pokemon.Count; i++)
+            for (int i = 0; i < pokemon.Count; i++)
             {
-                if(pokemon[i].curHp > 0 && i != curIndex)
+                if (pokemon[i].curHp > 0 && i != curIndex)
                 {
                     tmp.Add(i);
                 }
             }
-            if(tmp.Count == 0)
+            if (tmp.Count == 0)
             {
                 return -1;
             }
@@ -125,25 +125,34 @@ namespace FBG.Base
 
         private void applyDamage(MoveResults move)
         {
-            if(move.statusEffect == "" && move.dmgReport.damage == 0)
+            if (move.statusEffect == "" && move.dmgReport.damage == 0)
             {
                 return;
             }
 
-            if(move.statusEffect != "")
+            if (move.statusEffect != "")
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(enemyTeam.curPokemon, move.statusEffect));
             }
 
             if (move.dmgReport.damage != 0)
             {
+                /*
+                bool fainted = false;
                 if (enemyTeam.curPokemon.curHp - move.dmgReport.damage <= 0)
                 {
+                    fainted = true;
                     move.dmgReport.damage = enemyTeam.curPokemon.curHp;
                 }
-
+                */
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, (int)move.dmgReport.damage));
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
+                /*
+                if (fainted)
+                {
+                    sim.routine.queue.AddCoroutineToQueue(sim.routine.faintedText(enemyTeam.curPokemon));
+                }
+                */
             }
         }
 
@@ -158,7 +167,6 @@ namespace FBG.Base
             sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal(curPokemon, (int)move.dmgReport.heal));
 
             //curPokemon.curHp += (int)move.dmgReport.heal;
-
         }
 
         private void applyRecoil(MoveResults move)
@@ -172,6 +180,60 @@ namespace FBG.Base
             sim.routine.queue.AddCoroutineToQueue(sim.routine.applyRecoil(curPokemon, (int)move.dmgReport.recoil));
 
             //curPokemon.curHp -= (int)move.dmgReport.recoil;
+        }
+
+        public void endOfTurnDamage(PokemonBase self)
+        {
+            if (self.curHp < 0) { return; }
+            applyBindDamage(self);
+            applyNVDamage(self);
+        }
+
+        private void applyBindDamage(PokemonBase self)
+        {
+            if (!isBound) { return; }
+            string ending = "";
+            string text = "";
+            int damage = Mathf.RoundToInt(bindDamage);
+            ending = "bind";
+            text = string.Format("{0} was hurt by {1}", self.Name, ending);
+            Debug.Log(string.Format("Applying bind damage: {0} to {1}", bindDamage, self.Name));
+
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 2f));
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(self, damage));
+
+        }
+
+        private void applyNVDamage(PokemonBase self)
+        {
+            if (!isDamagingNV(self.status_A)) { return; }
+
+            string text = "";
+            int damage = 0;
+
+            self.nvCurDur++;
+
+            if (self.status_A == nonVolitileStatusEffects.burned)
+            {
+                damage = Mathf.RoundToInt((float)self.maxHP / 8f);
+            }
+
+            if (self.status_A == nonVolitileStatusEffects.poisioned)
+            {
+                damage = Mathf.RoundToInt((float)self.maxHP / 16f);
+            }
+
+            if (self.status_A == nonVolitileStatusEffects.toxic)
+            {
+                damage = Mathf.RoundToInt((float)self.maxHP / 16f) * self.nvCurDur;
+            }
+
+            Debug.Log(string.Format("Applying {0} damage to {1} damage: {2}", self.status_A.ToString(), self.Name, damage));
+
+            text = string.Format("{0} was hurt by {1}", self.Name, self.status_A.ToString());
+
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 2f));
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(self, damage));
         }
 
         private bool checkNVStatus()

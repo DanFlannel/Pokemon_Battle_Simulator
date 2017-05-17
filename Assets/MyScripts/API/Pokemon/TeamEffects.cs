@@ -115,42 +115,9 @@ namespace FBG.Base
             reduceBind();
         }
 
-        public void endOfTurnDamage(PokemonBase self)
-        {
-            if (self.curHp < 0) { return; }
-            if (isBound)
-            {
-                self.curHp -= Mathf.RoundToInt(bindDamage);
-                Debug.Log(string.Format("Applying bind damage: {0} to {1}",bindDamage, self.Name));
-            }
-
-            if (!isDamagingNV(self.status_A)) { return; }
-
-            int damage = 0;
-            self.nvCurDur++;
-
-            if (self.status_A == nonVolitileStatusEffects.burned)
-            {
-                damage = Mathf.RoundToInt((float)self.maxHP / 8f);
-            }
-
-            if(self.status_A == nonVolitileStatusEffects.poisioned)
-            {
-                damage = Mathf.RoundToInt((float)self.maxHP / 16f);
-            }
-
-            if(self.status_A == nonVolitileStatusEffects.toxic)
-            {
-                damage = Mathf.RoundToInt((float)self.maxHP / 16f) * self.nvCurDur;
-            }
-            Debug.Log(string.Format("Applying {0} damage to {1} damage: {2}",self.status_A.ToString(), self.Name, damage));
-            self.curHp -= damage;
-        }
-
-        private bool isDamagingNV(nonVolitileStatusEffects nv)
+        public bool isDamagingNV(nonVolitileStatusEffects nv)
         {
              return (nv == nonVolitileStatusEffects.burned || nv == nonVolitileStatusEffects.poisioned || nv == nonVolitileStatusEffects.toxic);
-            
         }
 
         public void checkEffectors(PokemonBase self)
