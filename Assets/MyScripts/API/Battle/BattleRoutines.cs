@@ -218,6 +218,13 @@ namespace FBG.Battle
             yield return null;
         }
 
+        public IEnumerator flinched(PokemonBase pkmn)
+        {
+            string text = string.Format("{0} flinched!", pkmn.Name);
+            yield return StartCoroutine(displayText(text, 2f));
+            yield return null;
+        }
+
         //swapping or chaning pokemon
 
         public IEnumerator throwPokeball()

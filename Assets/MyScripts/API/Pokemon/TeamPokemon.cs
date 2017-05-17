@@ -86,28 +86,30 @@ namespace FBG.Base
                 return;
             }
 
-            MoveResults move = getMoveResults(index);
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
 
             if (!isAlive(pkmn))
             {
                 return;
             }
-            else if (checkNVStatus())
+
+            MoveResults move = getMoveResults(index);
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
+
+            if (checkNVStatus())
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.blockingNV(curPokemon));
             }
             else if (move.flinched)
             {
-                //add the flinched text
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.flinched(curPokemon));
             }
             else
             {
                 applyDamage(move);
                 applyHeal(move);
                 applyRecoil(move);
+                curPokemon.curPP[index]--;
             }
-            curPokemon.curPP[index]--;
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
         }
 
