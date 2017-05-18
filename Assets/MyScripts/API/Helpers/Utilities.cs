@@ -73,13 +73,13 @@ namespace FBG.Base
             if (self.nvDur == 0)
             {
                 text = self.Name + " woke up!";
-                Debug.Log(string.Format("{0} woke up", self.Name));
+                Debug.Log(string.Format("{0} woke up!", self.Name));
                 self.status_A = nonVolitileStatusEffects.none;
             }
             else
             {
                 text = self.Name + " is fast asleep!";
-                Debug.Log(string.Format("{0} is asleep and can't move", self.Name));
+                Debug.Log(string.Format("{0} is asleep and can't move!", self.Name));
                 isAffected = true;
             }
             return new nonVolitleMove(text, isAffected);

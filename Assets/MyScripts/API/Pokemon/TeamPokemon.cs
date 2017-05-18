@@ -96,26 +96,27 @@ namespace FBG.Base
 
             if (nvHaltingEffect())
             {
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.blockingNV(curPokemon));
+                //sim.routine.queue.AddCoroutineToQueue(sim.routine.blockingNV(curPokemon));
             }
-            else if (move.flinched)
+
+            if (move.flinched)
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.flinched(curPokemon));
             }
-            else if (MoveSets.searchAttackList(move.name).cat == Consts.Status)
+
+            if (MoveSets.searchAttackList(move.name).cat == Consts.Status)
             {
                 if (move.dmgReport.stageDelta != 0)
                 {
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.statusAffected(move));
                 }
             }
-            else
-            {
-                applyDamage(move);
-                applyHeal(move);
-                applyRecoil(move);
-                curPokemon.curPP[index]--;
-            }
+
+            applyDamage(move);
+            applyHeal(move);
+            applyRecoil(move);
+            curPokemon.curPP[index]--;
+
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
         }
 
@@ -159,27 +160,13 @@ namespace FBG.Base
         private void applyHeal(MoveResults move)
         {
             if (move.dmgReport.heal == 0) { return; }
-            if (move.dmgReport.heal + curPokemon.curHp > curPokemon.maxHP)
-            {
-                move.dmgReport.heal = curPokemon.maxHP - curPokemon.curHp;
-            }
-
             sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal(curPokemon, (int)move.dmgReport.heal));
-
-            //curPokemon.curHp += (int)move.dmgReport.heal;
         }
 
         private void applyRecoil(MoveResults move)
         {
             if (move.dmgReport.recoil == 0) { return; }
-            if (curPokemon.curHp - move.dmgReport.recoil <= 0)
-            {
-                move.dmgReport.recoil = curPokemon.curHp;
-            }
-
             sim.routine.queue.AddCoroutineToQueue(sim.routine.applyRecoil(curPokemon, (int)move.dmgReport.recoil));
-
-            //curPokemon.curHp -= (int)move.dmgReport.recoil;
         }
 
         public void endOfTurnDamage(PokemonBase self)
@@ -201,7 +188,6 @@ namespace FBG.Base
 
             sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 2f));
             sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(self, damage));
-
         }
 
         /// <summary>
@@ -249,10 +235,15 @@ namespace FBG.Base
             if (curPokemon.status_A != nonVolitileStatusEffects.none)
             {
                 nonVolitleMove nv = Utilities.isMoveHaltedByNV(curPokemon);
+                if (nv.text != "")
+                {
+                    sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(nv.text, 2f));
+                }
                 if (nv.isAffected)
                 {
                     return true;
                 }
+
             }
             return false;
         }

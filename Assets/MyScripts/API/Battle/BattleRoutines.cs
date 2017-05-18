@@ -136,7 +136,7 @@ namespace FBG.Battle
 
         public IEnumerator applyDamage(PokemonBase pkmn, int dmg)
         {
-            //Debug.Log("damage coroutine");
+            Debug.Log("damage coroutine");
             yield return StartCoroutine(changeHealthbar(pkmn, -dmg));
             yield return null;
         }
@@ -152,6 +152,8 @@ namespace FBG.Battle
         {
             Debug.Log("recoil coroutine");
             yield return StartCoroutine(changeHealthbar(pkmn, -recoil));
+            string text = string.Format("{0} was hurt by recoil.", pkmn.Name);
+            yield return StartCoroutine(displayText(text, 1f));
             yield return null;
         }
 
@@ -318,7 +320,7 @@ namespace FBG.Battle
         /// handler for all of the text to be displayed
         /// </summary>
         /// <param name="text">text to be displayed</param>
-        /// <param name="wait">the delay before moveing forward</param>
+        /// <param name="wait">the delay before moving forward</param>
         /// <returns></returns>
         public IEnumerator displayText(string text, float wait)
         {
