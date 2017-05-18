@@ -333,7 +333,7 @@ namespace FBG.Attack
             if (!Chance_100(prob)) return;
             if (target.status_A == nonVolitileStatusEffects.none)
             {
-                target.nvDur = duration;
+                target.nvDur = duration + 1;
                 target.status_A = nonVolitileStatusEffects.sleep;
                 Debug.Log(string.Format("{0} is now asleep", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
@@ -480,6 +480,19 @@ namespace FBG.Attack
             target.hasSubstitute = true;
             //subsitute health = mr.dmg.recoil
         }
+
+        public void rest(PokemonBase target, int duration)
+        {
+            if (target.status_A != nonVolitileStatusEffects.sleep)
+            {
+                target.nvDur = duration + 1;
+                target.status_A = nonVolitileStatusEffects.sleep;
+                Debug.Log(string.Format("{0} is now asleep", target.Name));
+                moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
+                heal = target.maxHP;
+            }
+        }
+
 
         public  bool hasEffector(PokemonBase target, string eName)
         {

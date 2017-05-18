@@ -38,7 +38,7 @@ namespace FBG.Base
             int rnd = UnityEngine.Random.Range(1, 4);
             if (rnd == 1)
             {
-                string text = self.Name + " is Paralized!";
+                string text = self.Name + " is Paralized and can't move!";
                 Debug.Log(string.Format("{0} is paralized and can't move", self.Name));
                 return new nonVolitleMove(text, true);
             }
@@ -52,7 +52,7 @@ namespace FBG.Base
             int rnd = UnityEngine.Random.Range(1, 10);
             if (rnd >= 2)
             {
-                text = self.Name + " is Frozen!";
+                text = self.Name + " is Frozen and can't move!";
                 Debug.Log(string.Format("{0} is frozen and can't move", self.Name));
                 isAffected = true;
             }
@@ -78,7 +78,7 @@ namespace FBG.Base
             }
             else
             {
-                text = self.Name + " is fast asleep!";
+                text = self.Name + " is fast asleep and can't move!";
                 Debug.Log(string.Format("{0} is asleep and can't move!", self.Name));
                 isAffected = true;
             }

@@ -274,8 +274,7 @@ namespace FBG.Attack
 
                 //user falls asleep for 2 turns but health is fully recovered
                 case "rest":                
-                    heal = self.maxHP;
-                    isSleep(self, 100, 2);
+                        rest(self, 2);
                     break;
 
                 //opponent switches pokemon out

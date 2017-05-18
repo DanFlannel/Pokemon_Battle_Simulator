@@ -169,7 +169,6 @@ namespace FBG.Battle
                     }
                 }
             }
-            Debug.Log(tmp.Length);
             return tmp.ToList();
         }
 

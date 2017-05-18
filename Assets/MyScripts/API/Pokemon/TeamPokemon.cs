@@ -94,15 +94,6 @@ namespace FBG.Base
             MoveResults move = getMoveResults(index);
             sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
 
-            if (nvHaltingEffect())
-            {
-                //sim.routine.queue.AddCoroutineToQueue(sim.routine.blockingNV(curPokemon));
-            }
-
-            if (move.flinched)
-            {
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.flinched(curPokemon));
-            }
 
             if (MoveSets.searchAttackList(move.name).cat == Consts.Status)
             {
@@ -112,10 +103,13 @@ namespace FBG.Base
                 }
             }
 
-            applyDamage(move);
-            applyHeal(move);
-            applyRecoil(move);
-            curPokemon.curPP[index]--;
+            if (!nvHaltingEffect())
+            {
+                applyDamage(move);
+                applyHeal(move);
+                applyRecoil(move);
+                curPokemon.curPP[index]--;
+            }
 
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
         }
@@ -142,6 +136,11 @@ namespace FBG.Base
             if (move.statusEffect != "")
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(enemyTeam.curPokemon, move.statusEffect));
+            }
+
+            if (move.flinched)
+            {
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.flinched(curPokemon));
             }
 
             if (move.dmgReport.damage != 0)
