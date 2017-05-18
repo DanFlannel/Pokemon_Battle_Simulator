@@ -18,6 +18,10 @@ namespace FBG.Battle
         public TurnOrder(List<TurnInformation> info)
         {
             swapped = false;
+            if(info == null)
+            {
+                Debug.Log("info is null?");
+            }
             order = determineOrder(info);
         }
 
@@ -48,6 +52,7 @@ namespace FBG.Battle
             //create an upper and lower list (for positive and negative priorities)
             List<TurnInformation> upper = new List<TurnInformation>();
             List<TurnInformation> lower = new List<TurnInformation>();
+            
             //Add to those lists based on priority
             for (int i = 0; i < info.Count; i++)
             {
@@ -108,22 +113,13 @@ namespace FBG.Battle
         private List<TurnInformation> priorityOnlySort(List<TurnInformation> info)
         {
             info = basicPrioritySort(info);
-            if(info.Count == 0)
-            {
-                return null;
-            }
             List<TurnInformation> final = new List<TurnInformation>();
             for (int i = 0; i < info.Count; i++)
             {
-                List<TurnInformation> tmp = shuffle(searchForPrioties(info[i].priority, order));
-                if (info[i].priority != 0)
-                {
-                    add(final, tmp);
-                }
-                else
-                {
-                    UnityEngine.Debug.Log("Found priority 0 in priority search");
-                }
+                List<TurnInformation> tmp = shuffle(searchForPrioties(info[i].priority, info));
+                add(final, tmp);
+                //add to i based on the length of the list, if there is a tie... then we dont want to count the next pokemon who is tied with the current one
+                //UnityEngine.Debug.Log(tmp.Count - 1);
                 i += tmp.Count - 1;
             }
             return final;
@@ -133,11 +129,6 @@ namespace FBG.Battle
 
         private List<TurnInformation> searchForPrioties(int priority, List<TurnInformation> info)
         {
-            if(info == null || info.Count == 0)
-            {
-                UnityEngine.Debug.Log("Null turn information");
-            }
-
             List<TurnInformation> result = new List<TurnInformation>();
             for (int i = 0; i < info.Count; i++)
             {
@@ -146,12 +137,6 @@ namespace FBG.Battle
                     result.Add(info[i]);
                 }
             }
-
-            if(result == null)
-            {
-                Debug.Log(string.Format("null result, info length: {0}", info.Count));
-            }
-
             return result;
         }
 
@@ -184,6 +169,7 @@ namespace FBG.Battle
                     }
                 }
             }
+            Debug.Log(tmp.Length);
             return tmp.ToList();
         }
 
@@ -208,6 +194,11 @@ namespace FBG.Battle
         //http://stackoverflow.com/questions/273313/randomize-a-listt
         private List<TurnInformation> shuffle(List<TurnInformation> list)
         {
+            if(list.Count == 1)
+            {
+                return list;
+            }
+
             RNGCryptoServiceProvider provider = new RNGCryptoServiceProvider();
             int n = list.Count;
             while (n > 1)
