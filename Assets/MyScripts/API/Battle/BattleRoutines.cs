@@ -138,24 +138,25 @@ namespace FBG.Battle
 
         public IEnumerator applyDamage(PokemonBase pkmn, int dmg)
         {
-            Debug.Log("damage coroutine");
+            //Debug.Log("damage coroutine");
             yield return StartCoroutine(changeHealthbar(pkmn, -dmg));
             yield return null;
         }
 
         public IEnumerator applyHeal(PokemonBase pkmn, int heal)
         {
-            Debug.Log("healing coroutine");
+            //Debug.Log("healing coroutine");
             yield return StartCoroutine(changeHealthbar(pkmn, heal));
             yield return null;
         }
 
         public IEnumerator applyRecoil(PokemonBase pkmn, int recoil)
         {
-            Debug.Log("recoil coroutine");
-            yield return StartCoroutine(changeHealthbar(pkmn, -recoil));
+            //Debug.Log("recoil coroutine");
             string text = string.Format("{0} was hurt by recoil.", pkmn.Name);
+
             yield return StartCoroutine(displayText(text, 1f));
+            yield return StartCoroutine(changeHealthbar(pkmn, -recoil));
             yield return null;
         }
 

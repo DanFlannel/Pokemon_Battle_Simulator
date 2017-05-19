@@ -210,7 +210,13 @@ namespace FBG.Attack
                 case "metronome":
                     rnd = Random.Range(0, MoveSets.attackList.Count);
                     string atkName = MoveSets.attackList[rnd].name;
-                    AtkCalc.calculateAttackEffect(target, self, atkName);
+                    moveRes = AtkCalc.calculateAttackEffect(target, self, atkName);
+                    damage = moveRes.dmgReport.damage;
+                    heal = moveRes.dmgReport.heal;
+                    recoil = moveRes.dmgReport.recoil;
+                    stageName = moveRes.dmgReport.stageName;
+                    stageDiff = moveRes.dmgReport.stageDelta;
+                    stagePokemon = moveRes.dmgReport.stagePokemon;
                     break;
 
                 //copies the opponents last move and replaces mimic with that
