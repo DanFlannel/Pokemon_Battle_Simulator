@@ -137,7 +137,7 @@ namespace FBG.Base
 
         private void applyDamage(MoveResults move)
         {
-            if (move.statusEffect == "" && move.dmgReport.damage == 0)
+            if (move.dmgReport.damage == 0)
             {
                 return;
             }
@@ -150,10 +150,22 @@ namespace FBG.Base
             if (move.flinched)
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.flinched(curPokemon));
+                return;
             }
 
             if (move.dmgReport.damage != 0)
             {
+                if(enemyTeam.curPokemon.substituteHealth > 0 && !DexHolder.attackDex.checkFlag(move.name, "authentic"))
+                {
+                    sim.routine.queue.AddCoroutineToQueue(sim.routine.substituteHit(enemyTeam.curPokemon));
+                    enemyTeam.curPokemon.substituteHealth -= move.dmgReport.damage;
+                    if(enemyTeam.curPokemon.substituteHealth <= 0)
+                    {
+                        sim.routine.queue.AddCoroutineToQueue(sim.routine.substituteFaded(enemyTeam.curPokemon));
+                    }
+                    return;
+                }
+
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, (int)move.dmgReport.damage));
 
                 if (move.crit)
@@ -174,6 +186,13 @@ namespace FBG.Base
         private void applyRecoil(MoveResults move)
         {
             if (move.dmgReport.recoil == 0) { return; }
+
+            if(move.name.ToLower() != "substitute")
+            {
+                string text = string.Format("{0} was hurt by recoil.", curPokemon.Name);
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1f));
+            }
+
             sim.routine.queue.AddCoroutineToQueue(sim.routine.applyRecoil(curPokemon, (int)move.dmgReport.recoil));
         }
 

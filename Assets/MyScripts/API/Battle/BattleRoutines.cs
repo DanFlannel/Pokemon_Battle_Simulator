@@ -153,9 +153,6 @@ namespace FBG.Battle
         public IEnumerator applyRecoil(PokemonBase pkmn, int recoil)
         {
             //Debug.Log("recoil coroutine");
-            string text = string.Format("{0} was hurt by recoil.", pkmn.Name);
-
-            yield return StartCoroutine(displayText(text, 1f));
             yield return StartCoroutine(changeHealthbar(pkmn, -recoil));
             yield return null;
         }
@@ -282,6 +279,22 @@ namespace FBG.Battle
         public IEnumerator missed(PokemonBase pkmn)
         {
             string text = string.Format("{0} missed!");
+            yield return StartCoroutine(displayText(text, 2f));
+            yield return null;
+        }
+
+        public IEnumerator substituteHit(PokemonBase pkmn)
+        {
+            string text = string.Format("{0}'s substitute was damaged.", pkmn.Name);
+            yield return StartCoroutine(displayText(text, 2f));
+            yield return null;
+        }
+
+        public IEnumerator substituteFaded(PokemonBase pkmn)
+        {
+            pkmn.hasSubstitute = false;
+            pkmn.substituteHealth = 0;
+            string text = string.Format("{0}'s substitute faded.", pkmn.Name);
             yield return StartCoroutine(displayText(text, 2f));
             yield return null;
         }
