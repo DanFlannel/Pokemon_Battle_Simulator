@@ -67,6 +67,7 @@ namespace FBG.Base
 
         public bool isFlinched { get; set; }
         public bool hasSubstitute;
+        public float substituteHealth;
 
         public PokemonBase(int m_Level, corePokemonData data, List<attackIndex> attackMoves, ref TeamPokemon t)
         {

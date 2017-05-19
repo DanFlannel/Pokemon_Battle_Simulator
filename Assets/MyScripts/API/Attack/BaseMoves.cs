@@ -476,9 +476,16 @@ namespace FBG.Attack
 
         public  void substitute(PokemonBase target, MoveResults mr)
         {
-            mr.dmgReport.recoil = Mathf.Round(target.maxHP / 4f);
+            if(target.curHp <= Mathf.Round(target.maxHP / 4f) || target.hasSubstitute)
+            {
+                mr.failed = true;
+                return;
+            }
+
+            recoil = Mathf.Round(target.maxHP / 4f);
+            target.substituteHealth = recoil;
             target.hasSubstitute = true;
-            //subsitute health = mr.dmg.recoil
+            //Debug.Log(string.Format("Subsitute: {0} Health: {1}", target.hasSubstitute, target.substituteHealth));
         }
 
         public void rest(PokemonBase target, int duration)
