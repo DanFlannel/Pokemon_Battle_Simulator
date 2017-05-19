@@ -52,13 +52,15 @@ namespace FBG.Battle
                 yield return StartCoroutine(EndOfTurnPokemon(turn, i));
             }
 
-            yield return StartCoroutine(EndOfTurnTeam(sim.redTeam));
-            yield return StartCoroutine(EndOfTurnTeam(sim.blueTeam));
-
             for (int i = 0; i < turn.order.Count; i++)
             {
                 yield return StartCoroutine(checkPokemon(turn, i));
             }
+
+            yield return StartCoroutine(EndOfTurnTeam(sim.redTeam));
+            yield return StartCoroutine(EndOfTurnTeam(sim.blueTeam));
+
+
 
             //Debug.Log("Ending the routine, closing the display text");
             sim.battleGUI.toggleTextPanel(false);
@@ -165,7 +167,7 @@ namespace FBG.Battle
         /// <returns></returns>
         public IEnumerator effectiveText(string atkName, PokemonBase target)
         {
-            attacks attack = MoveSets.searchAttackList(atkName);
+            attacks attack = DexHolder.attackDex.getAttack(atkName);
             float multiplier = DamageMultipliers.getEffectiveness(target.damageMultiplier, attack.type);
 
             if (multiplier != 1)

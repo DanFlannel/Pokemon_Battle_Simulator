@@ -22,9 +22,10 @@ namespace FBG.Battle {
             priority = 0;
             team = pokemon.team;
             this.moveIndex = moveIndex;
+
             if (!this.isSwapping)
             {
-                priority = DexHolder.attackDex.Get(pokemon.atkMoves[moveIndex]).priority;
+                priority = DexHolder.attackDex.getAttackJsonData(pokemon.atkMoves[moveIndex]).priority;
             }
         }
 

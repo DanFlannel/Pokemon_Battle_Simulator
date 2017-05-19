@@ -94,15 +94,13 @@ namespace FBG.Base
             MoveResults move = getMoveResults(index);
             sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
 
-
-            if (MoveSets.searchAttackList(move.name).cat == Consts.Status)
+            if(DexHolder.attackDex.getAttack(move.name).cat == Consts.Status)
             {
                 if (move.dmgReport.stageDelta != 0)
                 {
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.statusAffected(move));
                 }
             }
-
             if (!nvHaltingEffect())
             {
                 applyDamage(move);
@@ -170,7 +168,7 @@ namespace FBG.Base
 
         public void endOfTurnDamage(PokemonBase self)
         {
-            if (self.curHp < 0) { return; }
+            if (self.curHp <= 0) { return; }
             applyBindDamage(self);
             applyNVDamage(self);
         }

@@ -1,4 +1,5 @@
 ﻿using FBG.Attack;
+using FBG.Data;
 
 namespace FBG.Battle
 {
@@ -17,7 +18,7 @@ namespace FBG.Battle
             attackName = mr.name;
             MR = mr;
 
-            attacks move = MoveSets.searchAttackList(atkName);
+            attacks move = DexHolder.attackDex.getAttack(atkName);
             atkType = move.type;
             atkCategory = move.cat;
         }
@@ -28,7 +29,7 @@ namespace FBG.Battle
             attackName = res.name;
             MR = res;
 
-            attacks move = MoveSets.searchAttackList(res.name);
+            attacks move = DexHolder.attackDex.getAttack(res.name);
             atkType = move.type;
             atkCategory = move.cat;
         }
