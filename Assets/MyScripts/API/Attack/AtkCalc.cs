@@ -75,7 +75,6 @@ namespace FBG.Attack
 
             return GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
         }
-
         private static move_DmgReport GenDmgReport (string atkName, string atkCat, float baseDamage, PokemonBase tar, PokemonBase self, MoveResults MR)
         {
             move_DmgReport report = new move_DmgReport();
@@ -264,6 +263,16 @@ namespace FBG.Attack
             return modifier;
         }
 
+        private static float levelModifier(PokemonBase target)
+        {
+            float level = target.Level;
+            float modifier = 2 * level;
+            modifier /= 5;
+            modifier += 2;
+
+            return modifier;
+        }
+
         /// <summary>
         ///  Sets the player and enemy attack and defense based on the attack category (physical, status, special)
         /// <param name="attack_index">the index of the move in the list of attacks</param>
@@ -283,6 +292,20 @@ namespace FBG.Attack
                 defense_mod = targetPokemon.Defense;
             }
             //Debug.Log(string.Format("atk: {0} def: {1}", attack_mod, defense_mod));
+        }
+
+        private static void set_attack_and_def(string atkCat, PokemonBase self, PokemonBase target)
+        {
+            if (atkCat == Consts.Special)                  //we are calculating a special attack
+            {
+                attack_mod = self.Special_Attack;
+                defense_mod = target.Special_Defense;
+            }
+            if (atkCat == Consts.Physical)                  //we are calculating a physical attack
+            {
+                attack_mod = self.Attack;
+                defense_mod = target.Defense;
+            }
         }
 
         /// <summary>

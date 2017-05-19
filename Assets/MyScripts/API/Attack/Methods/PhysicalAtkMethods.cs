@@ -96,17 +96,19 @@ namespace FBG.Attack
         public float counter(PokemonBase self, PokemonBase target, MoveResults mr, float damage)
         {
             ignoreReflect = true;
-            //check that it attacks second
-            if (self.Speed < target.Speed && BattleSimulator.Instance.moveHistory.Count > 0)
+
+            int index = BattleSimulator.Instance.moveHistory.Count - 1;
+            if (BattleSimulator.Instance.moveHistory[index].atkCategory == Consts.Physical)
             {
-                int index = BattleSimulator.Instance.moveHistory.Count;
-                if (BattleSimulator.Instance.moveHistory[index].atkCategory == Consts.Physical)
-                {
-                    damage *= 2;
-                }
+                //Debug.Log("counter was sucessful!");
+                return BattleSimulator.Instance.moveHistory[index].MR.dmgReport.damage * 2f;
             }
-            mr.failed = true;
-            return 0;
+            else
+            {
+                //Debug.Log("Counter was used against a non physical move so it failed.");
+                mr.failed = true;
+                return 0;
+            }
         }
 
         public void crabHammer() { }

@@ -271,6 +271,20 @@ namespace FBG.Battle
             yield return null;
         }
 
+        public IEnumerator failedMove()
+        {
+            string text = "It Failed!";
+            yield return StartCoroutine(displayText(text, 2f));
+            yield return null;
+        }
+
+        public IEnumerator missed(PokemonBase pkmn)
+        {
+            string text = string.Format("{0} missed!");
+            yield return StartCoroutine(displayText(text, 2f));
+            yield return null;
+        }
+
         //swapping or chaning pokemon
 
         public IEnumerator throwPokeball()

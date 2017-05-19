@@ -101,12 +101,23 @@ namespace FBG.Base
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.statusAffected(move));
                 }
             }
-            if (!nvHaltingEffect())
+
+            if (!nvHaltingEffect() && !move.failed && move.hit)
             {
                 applyDamage(move);
                 applyHeal(move);
                 applyRecoil(move);
                 curPokemon.curPP[index]--;
+            }
+
+            if (move.failed)
+            {
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.failedMove());
+            }
+
+            if (!move.hit && !move.failed)
+            {
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.missed(curPokemon));
             }
 
             BattleSimulator.Instance.addMoveHistory(move, curPokemon);
