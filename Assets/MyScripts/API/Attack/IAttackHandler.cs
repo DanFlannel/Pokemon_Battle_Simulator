@@ -9,6 +9,6 @@ public interface IAttackHandler  {
     PokemonBase self { get; set; }
     MoveResults moveRes { get; set; }
 
-    void setPokemon(PokemonBase tar, PokemonBase s, MoveResults mr);
+    void setPokemon(PokemonBase tar, PokemonBase s, ref MoveResults mr);
 
 }

@@ -12,7 +12,7 @@ namespace FBG.Attack
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
 
-        public void setPokemon(PokemonBase tar, PokemonBase s, MoveResults mr)
+        public void setPokemon(PokemonBase tar, PokemonBase s, ref MoveResults mr)
         {
             target = tar;
             self = s;
@@ -30,9 +30,9 @@ namespace FBG.Attack
             ignoreReflect = ignoreLightScreen = false;
         }
 
-        public PhysicalAtkHandler(PokemonBase tar, PokemonBase s, MoveResults mr)
+        public PhysicalAtkHandler(PokemonBase tar, PokemonBase s, ref MoveResults mr)
         {
-            setPokemon(tar, s, mr);
+            setPokemon(tar, s, ref mr);
         }
 
         public move_DmgReport result(string name, float baseDamage)

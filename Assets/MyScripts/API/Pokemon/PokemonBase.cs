@@ -117,14 +117,6 @@ namespace FBG.Base
             critRatio_stage = 0;
         }
 
-        private void endTurn()
-        {
-            if(status_A != nonVolitileStatusEffects.none)
-            {
-
-            }
-        }
-
         /// <summary>
         /// Generates all the inital stats for the pokemon
         /// </summary>

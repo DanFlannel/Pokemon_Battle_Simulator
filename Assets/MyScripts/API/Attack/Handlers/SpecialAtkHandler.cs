@@ -11,12 +11,12 @@ namespace FBG.Attack
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
 
-        public SpecialAtkHandler(PokemonBase tar, PokemonBase s, MoveResults mr)
+        public SpecialAtkHandler(PokemonBase tar, PokemonBase s, ref MoveResults mr)
         {
-            setPokemon(tar, s, mr);
+            setPokemon(tar, s, ref mr);
         }
 
-        public void setPokemon(PokemonBase tar, PokemonBase s, MoveResults mr)
+        public void setPokemon(PokemonBase tar, PokemonBase s, ref  MoveResults mr)
         {
             target = tar;
             self = s;

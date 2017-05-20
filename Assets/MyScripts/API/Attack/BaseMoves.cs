@@ -247,6 +247,10 @@ namespace FBG.Attack
                 Debug.Log(string.Format("{0} is now burned", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.burned.ToString();
             }
+            else
+            {
+                moveRes.failed = true;
+            }
         }
 
         /// <summary>
@@ -264,6 +268,10 @@ namespace FBG.Attack
                 target.status_A = nonVolitileStatusEffects.frozen;
                 Debug.Log(string.Format("{0} is now frozen", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.frozen.ToString();
+            }
+            else
+            {
+                moveRes.failed = true;
             }
         }
 
@@ -284,6 +292,10 @@ namespace FBG.Attack
                 Debug.Log(string.Format("{0} is now paralized", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.paralized.ToString();
             }
+            else
+            {
+                moveRes.failed = true;
+            }
         }
 
         /// <summary>
@@ -303,6 +315,10 @@ namespace FBG.Attack
                 Debug.Log(string.Format("{0} is now poisoned", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.poisioned.ToString();
             }
+            else
+            {
+                moveRes.failed = true;
+            }
         }
 
         /// <summary>
@@ -319,6 +335,10 @@ namespace FBG.Attack
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now badly posioned", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.toxic.ToString();
+            }
+            else
+            {
+                moveRes.failed = true;
             }
         }
 
@@ -337,6 +357,10 @@ namespace FBG.Attack
                 target.status_A = nonVolitileStatusEffects.sleep;
                 Debug.Log(string.Format("{0} is now asleep", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
+            }
+            else
+            {
+                moveRes.failed = true;
             }
         }
 

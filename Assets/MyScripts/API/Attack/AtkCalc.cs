@@ -83,17 +83,17 @@ namespace FBG.Attack
 
                 case Consts.Status:
                     Debug.Log("Status Move");
-                    StatusAtkHandler statAtk = new StatusAtkHandler(tar, self, MR);
+                    StatusAtkHandler statAtk = new StatusAtkHandler(tar, self, ref MR);
                     report = statAtk.result(atkName);
                     break;
                 case Consts.Physical:
                     Debug.Log("Physical Move");
-                    PhysicalAtkHandler physAtk = new PhysicalAtkHandler(tar, self, MR);
+                    PhysicalAtkHandler physAtk = new PhysicalAtkHandler(tar, self, ref MR);
                     report = physAtk.result(atkName, baseDamage);
                     break;
                 case Consts.Special:
                     Debug.Log("Special Move");
-                    SpecialAtkHandler spAtk = new SpecialAtkHandler(tar, self, MR);
+                    SpecialAtkHandler spAtk = new SpecialAtkHandler(tar, self, ref MR);
                     report = spAtk.result(atkName, baseDamage);
                     break;
             }

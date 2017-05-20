@@ -39,7 +39,6 @@ namespace FBG.Base
             if (rnd == 1)
             {
                 string text = self.Name + " is Paralized and can't move!";
-                Debug.Log(string.Format("{0} is paralized and can't move", self.Name));
                 return new nonVolitleMove(text, true);
             }
             return new nonVolitleMove("", false);
@@ -53,14 +52,12 @@ namespace FBG.Base
             if (rnd >= 2)
             {
                 text = self.Name + " is Frozen and can't move!";
-                Debug.Log(string.Format("{0} is frozen and can't move", self.Name));
                 isAffected = true;
             }
             else
             {
                 self.status_A = nonVolitileStatusEffects.none;
                 text = self.Name + " thawed out!";
-                Debug.Log(string.Format("{0} thawed out", self.Name));
             }
             return new nonVolitleMove(text, isAffected);
         }
@@ -73,13 +70,11 @@ namespace FBG.Base
             if (self.nvDur == 0)
             {
                 text = self.Name + " woke up!";
-                Debug.Log(string.Format("{0} woke up!", self.Name));
                 self.status_A = nonVolitileStatusEffects.none;
             }
             else
             {
                 text = self.Name + " is fast asleep and can't move!";
-                Debug.Log(string.Format("{0} is asleep and can't move!", self.Name));
                 isAffected = true;
             }
             return new nonVolitleMove(text, isAffected);

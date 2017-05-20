@@ -102,7 +102,7 @@ namespace FBG.Base
                 }
             }
 
-            if (!nvHaltingEffect() && !move.failed && move.hit)
+            if ((!nvHaltingEffect() || !move.failed) && move.hit)
             {
                 applyDamage(move);
                 applyHeal(move);
@@ -137,11 +137,6 @@ namespace FBG.Base
 
         private void applyDamage(MoveResults move)
         {
-            if (move.dmgReport.damage == 0)
-            {
-                return;
-            }
-
             if (move.statusEffect != "")
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(enemyTeam.curPokemon, move.statusEffect));
@@ -265,6 +260,7 @@ namespace FBG.Base
                 if (nv.text != "")
                 {
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(nv.text, 2f));
+                    Debug.Log(string.Format("Halted: {0} Text: {1}", nv.isAffected, nv.text));
                 }
                 if (nv.isAffected)
                 {
