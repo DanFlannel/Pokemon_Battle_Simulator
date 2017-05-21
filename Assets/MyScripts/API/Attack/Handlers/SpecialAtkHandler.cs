@@ -6,7 +6,7 @@ using FBG.Base;
 
 namespace FBG.Attack
 {
-    public class SpecialAtkHandler : BaseMoves, IAttackHandler
+    public class SpecialAtkHandler : SpecialAtkMethods, IAttackHandler
     {
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
@@ -37,8 +37,6 @@ namespace FBG.Attack
         {
             damage = baseDamage;
             string tempname = name.ToLower();
-            int rnd;
-            bool isHit = false;
             switch (tempname)
             {
                 default:
@@ -46,195 +44,143 @@ namespace FBG.Attack
                     break;
 
                 case "absorb":
-                    heal = damage / 2f;
+                    absorb();
                     break;
 
                 case "acid":
-                    isHit = Chance_100(10);
-                    if (isHit)
-                    {
-                        changeStats(Consts.spDefense, -1, target);
-                        stageName = Consts.spDefense;
-                        stageDiff = -1;
-                        stagePokemon = target.Name;
-                    }
+                    acid(target);
                     break;
 
                 case "aurora beam":
-                    isHit = Chance_100(10);
-                    if (isHit)
-                    {
-                        changeStats(Consts.attack, -1, target);
-                        stageName = Consts.attack;
-                        stageDiff = -1;
-                        stagePokemon = target.Name;
-                    }
+                    auroraBeam(target);
                     break;
 
                 case "blizzard":
-                    isFrozen(target, 10);
+                    blizzard(target);
                     break;
 
                 case "bubble":
-                    isHit = Chance_100(10);
-                    if (isHit)
-                    {
-                        changeStats(Consts.speed, -1, target);
-                        stageName = Consts.speed;
-                        stageDiff = -1;
-                        stagePokemon = target.Name;
-                    }
+                    bubble(target);
                     break;
 
                 case "bubble beam":
-                    isHit = Chance_100(10);
-                    if (isHit)
-                    {
-                        changeStats(Consts.speed, -1, target);
-                        stageName = Consts.speed;
-                        stageDiff = -1;
-                        stagePokemon = target.Name;
-                    }
+                    bubbleBeam(target);
                     break;
 
                 case "confusion":
-                    rnd = UnityEngine.Random.Range(1, 4);
-                    isConfused(target, 10, rnd);
+                    confusion(target);
                     break;
 
                 case "dragon rage":
-                    ignoreLightScreen = true;
-                    damage = 40;
+                    dragonRage();
                     break;
 
                 case "dream eater":
-                    damage = dreamEater(target, damage, moveRes);
+                    dreamEater(target);
                     break;
 
                 case "ember":
-                    isBurned(target, 10);
+                    ember(target);
                     break;
 
                 case "fire blast":
-                    isBurned(target, 10);
+                    fireBlast(target);
                     break;
 
                 case "fire spin":           //Damages the target for 4-5 turns
-                    rnd = Random.Range(4, 5);
-                    float fSpingDmg = target.maxHP / 16f;
-                    target.team.addBind(rnd, fSpingDmg);
+                    fireSpin(target);
                     break;
 
                 case "flamethrower":
-                    isBurned(target, 10);
+                    flameThrower(target);
                     break;
 
                 case "gust":
-                    if (target.position == pokemonPosition.flying)
-                    {
-                        damage *= 2f;
-                    }
+                    gust(target);
                     break;
 
                 case "hydro pump":          //no additional effect
-                    noAdditionalEffect();
+                    hydroPump();
                     break;
 
                 case "hyper beam":          //cannot move next turn
-                    damage = ReChargeMove(self, name, baseDamage);
+                    hyperBeam(self, tempname, baseDamage);
                     break;
 
                 case "ice beam":
-                    isFrozen(target, 10);
+                    iceBeam(target);
                     break;
 
                 case "mega drain":
-                    heal = Mathf.Round(damage / 2f);
+                    megaDrain();
                     break;
 
                 case "night shade":
-                    damage = levelBasedDamage(target);
+                    nightShade(target);
                     break;
 
                 case "petal dance":         //attacks for 2-3 turns, cannot be switched out, then becomes confused
-                    int dur = Random.Range(2, 3);
-                    repeatAttack_Confused petalDance = new repeatAttack_Confused(tempname, dur, self);
-                    if (!hasEffector(self, tempname))
-                    {
-                        self.effectors.Add(petalDance);
-                    }
+                    petalDance(tempname, self);
                     break;
 
                 case "psybeam":
-                    rnd = UnityEngine.Random.Range(1, 4);
-                    isConfused(target, 10, rnd);
+                    psybeam(target);
                     break;
 
                 case "psychic":
-                    isHit = Chance_100(10);
-                    if (isHit)
-                    {
-                        changeStats(Consts.spDefense, -1, target);
-                        stageName = Consts.spDefense;
-                        stageDiff = -1;
-                        stagePokemon = target.Name;
-                    }
+                    psychic(target);
                     break;
 
                 case "psywave":
-                    float mod = UnityEngine.Random.Range(.5f, 1.5f);
-                    damage = levelBasedDamage(target) * mod;
+                    psywave(target);
                     break;
 
                 case "razor wind":          //charges the first turn then attacks the second
-                    damage = ChargingMove(self, name, baseDamage);
+                    razorwind(self, tempname, baseDamage);
                     break;
 
                 case "sludge":              //30% chance to poison the target
-                    isPosioned(target, 30);
+                    sludge(target);
                     break;
 
                 case "smog":                //40% chance to poison the target
-                    isPosioned(target, 40);
+                    smog(target);
                     break;
 
                 case "solar beam":          //charges on the fist turn, hits on the second
-                    damage = ChargingMove(self, name, baseDamage);
+                    solarbeam(self, tempname, baseDamage);
                     break;
 
                 case "sonic boom":
-                    damage = sonicBoom(target);
+                    sonicBoom(target);
                     break;
 
                 case "surf":                //does double damage if the pokemon used dive(introduced in gen3)
-                    noAdditionalEffect();
+                    surf();
                     break;
 
                 case "swift":               //ignores evasiveness and accuracy
-                    noAdditionalEffect();
+                    swift();
                     break;
 
                 case "thunder":
-                    isParalized(target, 30);
+                    thunder(target);
                     break;
 
                 case "thunder shock":
-                    isParalized(target, 10);
+                    thunderShock(target);
                     break;
 
                 case "thunderbolt":
-                    isParalized(target, 10);
+                    thunderBolt(target);
                     break;
 
                 case "tri attack":          //6.67% chance for each
-                    rnd = UnityEngine.Random.Range(4, 5);
-                    isParalized(target, 6.67f);
-                    isBurned(target, 6.67f);
-                    isFrozen(target, 6.67f);
+                    triAttack(target);
                     break;
 
                 case "water gun":           //no additional effect
-                    noAdditionalEffect();
+                    waterGun();
                     break;
 
             }

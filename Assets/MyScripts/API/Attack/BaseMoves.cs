@@ -48,7 +48,7 @@ namespace FBG.Attack
         /// <param name="target">target pokemon</param>
         /// <param name="s"> types to check as strings</param>
         /// <returns></returns>
-        private  bool checkTypes(PokemonBase target, params string[] s)
+        public  bool checkTypes(PokemonBase target, params string[] s)
         {
             for (int i = 0; i < s.Length; i++)
             {
@@ -450,18 +450,6 @@ namespace FBG.Attack
             self.damageMultiplier = DamageMultipliers.createMultiplier(types);
         }
 
-        public  float dreamEater(PokemonBase target, float predictedDamage, MoveResults mr)
-        {
-            if (target.status_A == nonVolitileStatusEffects.sleep)
-            {
-                mr.dmgReport.heal = Mathf.Round(predictedDamage / 2f);
-            }
-            else
-            {
-                predictedDamage = 0;
-            }
-            return predictedDamage;
-        }
 
         public float oneHitKO(PokemonBase target, PokemonBase self, MoveResults mr)
         {
@@ -482,20 +470,6 @@ namespace FBG.Attack
             ignoreLightScreen = true;
             ignoreReflect = true;
             return target.Level;
-        }
-
-        public float sonicBoom(PokemonBase target)
-        {
-            ignoreLightScreen = true;
-
-            if (checkTypes(target, Consts.Ghost))
-            {
-                return 0;
-            }
-            else
-            {
-                return 20f;
-            }
         }
 
         public  void substitute(PokemonBase target, MoveResults mr)

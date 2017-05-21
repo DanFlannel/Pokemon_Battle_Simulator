@@ -157,7 +157,9 @@ namespace FBG.Attack
             return multiAttack(Random.Range(2, 5), name);
         }
 
-        public void doubleEdge() { }
+        public void doubleEdge() {
+            recoil = Mathf.Round(damage / 3f);
+        }
 
         public void drillPeck() { }
 
