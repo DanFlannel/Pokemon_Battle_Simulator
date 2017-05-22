@@ -129,7 +129,7 @@ namespace FBG.Attack
                     break;
 
                 case "earthquake":
-                    damage = earthQuake(target, damage);
+                    earthQuake(target, damage);
                     break;
 
                 case "egg bomb":            //no additional effects 

@@ -19,48 +19,7 @@ namespace FBG.Attack
         public int stageDiff { get; set; }
         public string stagePokemon { get; set; }
 
-
-        public  void noAdditionalEffect()
-        {
-            return;
-        }
-
-        /// <summary>
-        /// Does a random guess for a probability in 100
-        /// </summary>
-        /// <param name="prob"></param>
-        /// <returns></returns>
-        public  bool Chance_100(float prob)
-        {
-            bool chance = false;
-            float guess = Random.Range(0, 100);
-            //Debug.Log(guess + " : " + prob);
-            if (guess < prob)
-            {
-                chance = true;
-            }
-            return chance;
-        }
-
-        /// <summary>
-        /// Checks the type of the target pokemon against all of the strings passes in, checks both type1 and type2
-        /// </summary>
-        /// <param name="target">target pokemon</param>
-        /// <param name="s"> types to check as strings</param>
-        /// <returns></returns>
-        public  bool checkTypes(PokemonBase target, params string[] s)
-        {
-            for (int i = 0; i < s.Length; i++)
-            {
-                if (target.type1 == s[i] || target.type2 == s[i])
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        //..
+        //.. Chaning Stats Methods
 
         public  void changeStats(string type, int stageMod, PokemonBase target)
         {
@@ -88,7 +47,6 @@ namespace FBG.Attack
             target.updateStatStage(type, multiplier);
         }
 
-        //done for acc and evasion
         private  int getStatStage(string type, PokemonBase target)
         {
             int statStage = 0;
@@ -322,27 +280,6 @@ namespace FBG.Attack
         }
 
         /// <summary>
-        /// Applying toxic to a pokemon if they arent either steel or a poison type pokemon and have no other status effects
-        /// </summary>
-        /// <param name="isPlayer">is the player attacking</param>
-        public  void toxic(PokemonBase target)
-        {
-            if (checkTypes(target, Consts.Steel, Consts.Poison)) return;
-
-            if (target.status_A == nonVolitileStatusEffects.none)
-            {
-                target.status_A = nonVolitileStatusEffects.toxic;
-                target.nvCurDur = 0;
-                Debug.Log(string.Format("{0} is now badly posioned", target.Name));
-                moveRes.statusEffect = nonVolitileStatusEffects.toxic.ToString();
-            }
-            else
-            {
-                moveRes.failed = true;
-            }
-        }
-
-        /// <summary>
         /// Puts the pokemon to sleep if they have no other status effect on them
         /// </summary>
         /// <param name="isPlayer">is the player attacking</param>
@@ -433,24 +370,6 @@ namespace FBG.Attack
             return dmg;
         }
 
-        //..
-
-        public  void conversion(PokemonBase self)
-        {
-
-            //tempList = genAttacks.get_playerAttackName();
-            //string tempName = tempList[0];
-            string name = self.atkMoves[0];
-            int attack_index = AtkCalc.getAttackListIndex(name);
-            string attack_type = MoveSets.attackList[attack_index].type;
-            self.type1 = attack_type;
-            string[] types = new string[2];
-            types[0] = self.type1;
-            types[1] = self.type2;
-            self.damageMultiplier = DamageMultipliers.createMultiplier(types);
-        }
-
-
         public float oneHitKO(PokemonBase target, PokemonBase self, MoveResults mr)
         {
             ignoreLightScreen = true;
@@ -472,32 +391,7 @@ namespace FBG.Attack
             return target.Level;
         }
 
-        public  void substitute(PokemonBase target, MoveResults mr)
-        {
-            if(target.curHp <= Mathf.Round(target.maxHP / 4f) || target.hasSubstitute)
-            {
-                mr.failed = true;
-                return;
-            }
-
-            recoil = Mathf.Round(target.maxHP / 4f);
-            target.substituteHealth = recoil;
-            target.hasSubstitute = true;
-            //Debug.Log(string.Format("Subsitute: {0} Health: {1}", target.hasSubstitute, target.substituteHealth));
-        }
-
-        public void rest(PokemonBase target, int duration)
-        {
-            if (target.status_A != nonVolitileStatusEffects.sleep)
-            {
-                target.nvDur = duration + 1;
-                target.status_A = nonVolitileStatusEffects.sleep;
-                Debug.Log(string.Format("{0} is now asleep", target.Name));
-                moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
-                heal = target.maxHP;
-            }
-        }
-
+        //.. info/helpers
 
         public  bool hasEffector(PokemonBase target, string eName)
         {
@@ -511,7 +405,7 @@ namespace FBG.Attack
             return false;
         }
 
-        public bool rndSwap(PokemonBase target)
+        public void rndSwap(PokemonBase target)
         {
             if (canBeSwapped(target))
             {
@@ -525,9 +419,8 @@ namespace FBG.Attack
                 }
                 int rnd = Random.Range(0, pkmn.Count);
                 target.team.swap(rnd);
-                return true;
             }
-            return false;
+            moveRes.failed = true;
         }
 
         private bool canBeSwapped(PokemonBase target)
@@ -535,6 +428,40 @@ namespace FBG.Attack
             for(int i = 0; i < target.team.pokemon.Count; i++)
             {
                 if (target.team.pokemon[i].curHp > 0 && target.team.pokemon[i] != target.team.curPokemon)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Does a random guess for a probability in 100
+        /// </summary>
+        /// <param name="prob"></param>
+        /// <returns></returns>
+        public bool Chance_100(float prob)
+        {
+            bool chance = false;
+            float guess = Random.Range(0, 100);
+            //Debug.Log(guess + " : " + prob);
+            if (guess < prob)
+            {
+                chance = true;
+            }
+            return chance;
+        }
+    /// <summary>
+        /// Checks the type of the target pokemon against all of the strings passes in, checks both type1 and type2
+        /// </summary>
+        /// <param name="target">target pokemon</param>
+        /// <param name="s"> types to check as strings</param>
+        /// <returns></returns>
+        public bool checkTypes(PokemonBase target, params string[] s)
+        {
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (target.type1 == s[i] || target.type2 == s[i])
                 {
                     return true;
                 }

@@ -33,9 +33,11 @@ namespace FBG.Attack
             string atkType = MoveSets.attackList[atkIndex].type;
             int accuracy = MoveSets.attackList[atkIndex].accuracy;
 
+            MR.hit = checkAccuracy_and_Hit(self, tar, atkName, accuracy, atkCat);
+
             float baseDamage = GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
 
-            MR.hit = checkAccuracy_and_Hit(self, tar, atkName, accuracy, atkCat);
+
             MR.dmgReport = GenDmgReport(atkName, atkCat, baseDamage, tar, self, MR);
 
             return MR;

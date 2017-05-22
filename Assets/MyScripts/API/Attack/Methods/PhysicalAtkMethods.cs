@@ -163,13 +163,13 @@ namespace FBG.Attack
 
         public void drillPeck() { }
 
-        public float earthQuake(PokemonBase target, float damage)
+        public void earthQuake(PokemonBase target, float baseDamage)
         {
+            damage = baseDamage;
             if (target.position == pokemonPosition.underground)
             {
-                return Mathf.Round(damage * 2);
+                damage *= 2f;
             }
-            return damage;
         }
 
         public void eggBomb() { }
