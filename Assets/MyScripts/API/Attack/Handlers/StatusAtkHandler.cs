@@ -7,7 +7,7 @@ using FBG.Battle;
 
 namespace FBG.Attack
 {
-    public class StatusAtkHandler : BaseMoves, IAttackHandler
+    public class StatusAtkHandler : StatusAtkMethods, IAttackHandler
     {
         public PokemonBase target { get; set; }
         public PokemonBase self { get; set; }
@@ -39,7 +39,6 @@ namespace FBG.Attack
         public move_DmgReport result(string name)
         {
             string tempname = name.ToLower();
-            int rnd;
             switch (tempname)
             {
                 default:
@@ -48,40 +47,27 @@ namespace FBG.Attack
 
                 //raises users defense by 2 stagesage
                 case "acid armor":
-                    changeStats(Consts.defense, 2, self);
-                    stageName = Consts.defense;
-                    stageDiff = 2;
-                    stagePokemon = self.Name;
+                    acidArmor(self);
                     break;
 
                 //raises users speed by 2 stages
                 case "agility":
-                    changeStats(Consts.speed, 2, self);
-                    stageName = Consts.speed;
-                    stageDiff = 2;
-                    stagePokemon = self.Name;
+                    agility(self);
                     break;
 
                 //raises users spDefense by 2 stages
                 case "amnesia":
-                    changeStats(Consts.spDefense, 2, self);
-                    stageName = Consts.spDefense;
-                    stageDiff = 2;
-                    stagePokemon = self.Name;
+                    amnesia(self);
                     break;
 
                 //raises users defense by 2 stages
                 case "barrier":
-                    changeStats(Consts.defense, 2, self);
-                    stageName = Consts.defense;
-                    stageDiff = 2;
-                    stagePokemon = self.Name;
+                    barrier(self);
                     break;
 
                 //confuses opponenet
                 case "confuse ray":
-                    rnd = Random.Range(1, 4);
-                    isConfused(target, 10, rnd);
+                    confuseRay(target);
                     break;
 
                 //chages users type of its first move
@@ -91,318 +77,211 @@ namespace FBG.Attack
 
                 //raises uers defense by 1 stage
                 case "defense curl":
-                    changeStats(Consts.defense, 1, self);
-                    stageName = Consts.defense;
-                    stageDiff = 1;
-                    stagePokemon = self.Name;
+                    defenseCurl(self);
                     break;
 
                 //disables enemies last move for a few turns
                 case "disable":
-                    if (self.Speed > target.Speed)
-                    {
-                        moveRes.hit = false;
-                        break;
-                    }
-                    string moveName = BattleSimulator.Instance.moveHistory[BattleSimulator.Instance.moveHistory.Count].attackName;
-                    disable dis = new disable(tempname, 4, target, moveName);
-
-                    if (!hasEffector(target, tempname))
-                    {
-                        target.effectors.Add(dis);
-                    }
+                    disable(self, target, tempname);
                     break;
                 //raises user evasive stage by one
                 case "double team":
-                    changeStats(Consts.evasion, 1, self);
-                    stageName = Consts.evasion;
-                    stageDiff = 1;
-                    stagePokemon = self.Name;
+                    doubleTeam(self);
                     break;
 
                 //lowers opponents accuracy by 1 stage
                 case "flash":
-                    changeStats(Consts.accuracy, -1, target);
-                    stageName = Consts.accuracy;
-                    stageDiff = -1;
-                    stagePokemon = target.Name;
+                    flash(target);
                     break;
 
                 //increases crit ratio...
                 case "focus energy":
-                    self.changeCritStage(2);
-                    stageName = "Critical Strike";
-                    stageDiff = 2;
-                    stagePokemon = self.Name;
+                    focusEnergy(self);
                     break;
 
                 case "growl":
-                    changeStats(Consts.attack, -1, target);
-                    stageName = Consts.attack;
-                    stageDiff = -1;
-                    stagePokemon = target.Name;
+                    growl(target);
                     break;
 
                 case "growth":
-                    changeStats(Consts.spAttack, 1, self);
-                    changeStats(Consts.attack, 1, self);
-                    stageName = Consts.attack + " & " + Consts.spAttack;
-                    stageDiff = 1;
-                    stagePokemon = self.Name;
+                    growth(self);
                     break;
 
                 case "harden":
-                    changeStats(Consts.defense, 1, self);
-                    stageName = Consts.defense;
-                    stageDiff = 1;
-                    stagePokemon = self.Name;
+                    harden(self);
                     break;
 
                 case "haze":
-                    self.resetStatStages();
-                    target.resetStatStages();
-                    stageName = "reset all stat changes";
-                    stageDiff = 0;
-                    stagePokemon = "all";
+                    haze(self, target);
                     break;
 
                 case "hypnosis":
-                    rnd = Random.Range(1, 3);
-                    isSleep(target, 100, rnd);
+                    hypnosis(target);
                     break;
 
                 //lower enemy accuracy by 1 stage
                 case "kinesis":
-                    changeStats(Consts.accuracy, -1, target);
-                    stageName = Consts.accuracy;
-                    stageDiff = -1;
-                    stagePokemon = target.Name;
+                    kinesis(target);
                     break;
 
                 case "leech seed":
-                    self.team.hasLeechSeed = true;
+                    leechSeed(target);
                     break;
 
                 case "leer":
-                    changeStats(Consts.defense, -1, target);
-                    stageName = Consts.defense;
-                    stageDiff = -1;
-                    stagePokemon = target.Name;
+                    leer(target);
                     break;
 
                 case "light screen":
-                    self.team.addLightScreen(5);
+                    lightScreen(self);
                     break;
 
                 case "lovely kiss":
-                    rnd = Random.Range(1, 3);
-                    isSleep(target, 100, rnd);
+                    lovelyKiss(target);
                     break;
 
                 case "meditate":
-                    changeStats(Consts.attack, 1, self);
-                    stageName = Consts.attack;
-                    stageDiff = 1;
-                    stagePokemon = self.Name;
+                    meditate(self);
                     break;
 
                 //preforms any move in the game at random?
                 case "metronome":
-                    rnd = Random.Range(0, MoveSets.attackList.Count);
-                    string atkName = MoveSets.attackList[rnd].name;
-                    moveRes = AtkCalc.calculateAttackEffect(target, self, atkName);
-                    damage = moveRes.dmgReport.damage;
-                    heal = moveRes.dmgReport.heal;
-                    recoil = moveRes.dmgReport.recoil;
-                    stageName = moveRes.dmgReport.stageName;
-                    stageDiff = moveRes.dmgReport.stageDelta;
-                    stagePokemon = moveRes.dmgReport.stagePokemon;
+                    metronome(self, target);
                     break;
 
                 //copies the opponents last move and replaces mimic with that
                 case "mimic":
-                    int n = 0;
-                    int index = BattleSimulator.Instance.moveHistory.Count - 1;
-                    if(BattleSimulator.Instance.moveHistory.Count == 0)
-                    {
-                        moveRes.failed = true;
-                        break;
-                    }
-                    string attack = BattleSimulator.Instance.moveHistory[index].attackName;
-                    for (int i = 0; i < self.atkMoves.Count; i++)
-                    {
-                        if (self.atkMoves[i].ToLower() == "mimic")
-                        {
-                            n = i;
-                            break;
-                        }
-                    }
-                    self.atkMoves[n] = attack;
+                    mimic(self);
                     break;
 
                 //raise evasion by 1 stage STOMP and STEAMROLLER do double damage against a minimized opponent
                 case "minimize":
-                    self.position = pokemonPosition.minimized;
-                    changeStats(Consts.evasion, 1, self);
-                    stageName = Consts.evasion;
-                    stageDiff = 1;
-                    stagePokemon = self.Name;
+                    minimize(self);
                     break;
 
                 //preforms the opponents last move....
                 case "mirror move":
-                    int mirrorMove = BattleSimulator.Instance.moveHistory.Count;
-                    string mirrorAttack = BattleSimulator.Instance.moveHistory[mirrorMove].attackName;
-                    AtkCalc.calculateAttackEffect(target, self, mirrorAttack);
+                    mirrorMove(self, target);
                     break;
 
                 //no negative stat changes to self or allies for 5 turns
                 case "mist":
-                    self.team.addMist();
+                    mist(self);
                     break;
 
                 case "poison gas":
-                    isPosioned(target, 100);
+                    poisonGas(target);
                     break;
 
                 case "poison powder":
-                    isPosioned(target, 100);
+                    poisonPowder(target);
                     break;
 
                 case "recover":
-                    heal = self.maxHP / 2f;
+                    recover(self);
                     break;
 
                 //halves the damage from physical attacks for 5 turns
-                case "reflect":             
-                    self.team.addReflect(5);
+                case "reflect":
+                    reflect(self);
                     break;
 
                 //user falls asleep for 2 turns but health is fully recovered
-                case "rest":                
-                        rest(self, 2);
+                case "rest":
+                    rest(self, 2);
                     break;
 
                 //opponent switches pokemon out
                 case "roar":
-                    moveRes.failed = rndSwap(target);
+                    roar(target);
                     break;
 
                 //lowers opponent accuracy by one stage
-                case "sand attack":         
-                    changeStats(Consts.accuracy, -1, target);
-                    stageName = Consts.accuracy;
-                    stageDiff = -1;
-                    stagePokemon = target.Name;
+                case "sand attack":
+                    sandAttack(target);
                     break;
 
                 case "screech":
-                    changeStats(Consts.defense, -2, target);
-                    stageName = Consts.defense;
-                    stageDiff = -2;
-                    stagePokemon = target.Name;
+                    screech(target);
                     break;
 
                 case "sharpen":
-                    changeStats(Consts.attack, 1, self);
-                    stageName = Consts.attack;
-                    stageDiff = 1;
-                    stagePokemon = self.Name;
+                    sharpen(self);
                     break;
 
                 //puts the user to sleep for 1-3 turns
-                case "sing":                
-                    rnd = Random.Range(1, 3);
-                    isSleep(target, 100, rnd);
+                case "sing":
+                    sing(target);
                     break;
 
                 //lower accuracy by one stage
-                case "smokescreen":         
-                    changeStats(Consts.accuracy, -1, target);
-                    stageName = Consts.accuracy;
-                    stageDiff = -1;
-                    stagePokemon = target.Name;
+                case "smokescreen":
+                    smokeScreen(target);
                     break;
 
                 case "soft boiled":
-                    heal = self.maxHP / 2f;
+                    softBoiled(self);
                     break;
 
                 //This does nothing
-                case "splash":              
-                    damage = 0;
+                case "splash":
+                    splash();
                     break;
 
                 //puts the opponent to sleep for 1-3 turns
-                case "spore":               
-                    rnd = UnityEngine.Random.Range(1, 3);
-                    isSleep(target, 100, rnd);
+                case "spore":
+                    spore(target);
                     break;
 
                 case "string shot":
-                    changeStats(Consts.speed, -2, target);
-                    stageName = Consts.speed;
-                    stageDiff = -2;
-                    stagePokemon = target.Name;
+                    stringShot(target);
                     break;
 
                 case "stun spore":
-                    isParalized(target, 100);
+                    stunSpore(target);
                     break;
 
                 case "substitute":
-                    substitute(self, moveRes);
+                    substitute(self);
                     break;
 
                 case "supersonic":
-                    rnd = UnityEngine.Random.Range(1, 4);
-                    isConfused(target, 100, rnd);
+                    supersonic(target);
                     break;
 
                 case "swords dance":
-                    changeStats(Consts.attack, 2, self);
-                    stageName = Consts.attack;
-                    stageDiff = 2;
-                    stagePokemon = self.Name;
+                    swordsDance(self);
                     break;
 
                 case "tail whip":
-                    changeStats(Consts.defense, -1, target);
-                    stageName = Consts.attack;
-                    stageDiff = -1;
-                    stagePokemon = target.Name;
+                    tailWhip(target);
                     break;
 
                 case "teleport":
-                    //say something stupid here
-                    //change the enviornment but not the weather
-                    noAdditionalEffect();
+                    teleport();
                     break;
 
                 case "thunder wave":
-                    isParalized(target, 100);
+                    thunderWave(target);
                     break;
 
                 //increasingly does more toxic damage at the end of each turn, starts at 1/16
-                case "toxic":               
+                case "toxic":
                     toxic(target);
                     break;
 
                 //takes the attacks of the opponent
                 case "transform":
-                    self.atkMoves = target.atkMoves;
+                    transform(self, target);
                     break;
 
                 //blows the opponent away if they are a lower level
                 case "whirlwind":
-                    moveRes.failed = rndSwap(target);
+                    whirlwind(target);
                     break;
 
                 case "withdraw":
-                    changeStats(Consts.defense, 1, self);
-                    stageName = Consts.defense;
-                    stageDiff = 1;
-                    stagePokemon = self.Name;
+                    withdraw(self);
                     break;
 
             }
