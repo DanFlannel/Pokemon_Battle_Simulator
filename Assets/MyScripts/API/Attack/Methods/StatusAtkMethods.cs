@@ -169,7 +169,7 @@ public class StatusAtkMethods : BaseMoves
 
     public void leechSeed(PokemonBase target)
     {
-        if(checkTypes(target, Consts.Grass))
+        if(checkTypes(target, Consts.Grass) || target.hasSubstitute)
         {
             moveRes.failed = true;
             return;

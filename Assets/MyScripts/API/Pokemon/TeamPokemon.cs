@@ -204,11 +204,10 @@ namespace FBG.Base
 
         public void endOfTurnDamage(PokemonBase self)
         {
-            if (self.curHp >= 0)
-            {
-                applyBindDamage(self);
-                applyNVDamage(self);
-            }
+            if (self.curHp <= 0) { return; }
+
+            applyBindDamage(self);
+            applyNVDamage(self);
             applyLeechSeed(self, enemyTeam.curPokemon);
         }
 
@@ -277,12 +276,9 @@ namespace FBG.Base
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(target, dmg));
                 }
 
-                if (self.curHp > 0)
-                {
-                    text = string.Format("{0} was healed by leech seed");
-                    sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1.5f));
-                    sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal(self, dmg));
-                }
+                text = string.Format("{0} was healed by leech seed");
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1.5f));
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal(self, dmg));
             }
         }
 
@@ -333,7 +329,15 @@ namespace FBG.Base
 
         public void victory()
         {
-
+            for (int i = 0; i < enemyTeam.pokemon.Count; i++)
+            {
+                if (enemyTeam.pokemon[i].curHp >= 0)
+                {
+                    return;
+                }
+            }
+            Debug.Log(string.Format("{0} won!"));
+            //prompt victory panel
         }
     }
 
