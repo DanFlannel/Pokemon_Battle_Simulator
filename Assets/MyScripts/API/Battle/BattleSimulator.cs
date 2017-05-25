@@ -34,12 +34,6 @@ namespace FBG.Battle
         public GameObject blueGUI;
 
         [HideInInspector]
-        public bool isRedMoveCalculated;
-
-        [HideInInspector]
-        public bool isBlueMoveCalculated;
-
-        [HideInInspector]
         public int redMoveIndex;
 
         [HideInInspector]
@@ -87,9 +81,6 @@ namespace FBG.Battle
 
         private void setupTeamBattle(int size, TeamPokemon red, TeamPokemon blue)
         {
-            isRedMoveCalculated = false;
-            isBlueMoveCalculated = false;
-
             isRedSwapping = false;
             isBlueSwapping = false;
 
@@ -157,7 +148,6 @@ namespace FBG.Battle
             {
                 return false;
             }
-            isRedMoveCalculated = true;
             StartCoroutine(routine.takeTurn());
             
             return true;
@@ -167,7 +157,6 @@ namespace FBG.Battle
         public void blueTeamAttack()
         {
             blueMoveIndex = getRndMoveIndex();
-            isBlueMoveCalculated = true;
         }
 
         private int getRndMoveIndex()
@@ -213,8 +202,6 @@ namespace FBG.Battle
 
         public void resetTurn()
         {
-            isRedMoveCalculated = false;
-            isBlueMoveCalculated = false;
             isRedSwapping = false;
             isBlueSwapping = false;
             blueIndex = blueTeam.curIndex;
@@ -249,13 +236,11 @@ namespace FBG.Battle
             {
                 redMoveIndex = index;
                 isRedSwapping = true;
-                isRedMoveCalculated = true;
             }
             else
             {
                 blueMoveIndex = index;
                 isBlueSwapping = true;
-                isBlueMoveCalculated = true;
             }
         }
     }
