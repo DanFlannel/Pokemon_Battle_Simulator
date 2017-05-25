@@ -250,6 +250,12 @@ public class StatusAtkMethods : BaseMoves
     {
         int index = BattleSimulator.Instance.moveHistory.Count - 1;
         string mirrorAttack = BattleSimulator.Instance.moveHistory[index].attackName;
+        if(!DexHolder.attackDex.checkFlag(mirrorAttack, "mirror"))
+        {
+            moveRes.failed = true;
+            return;
+
+        }
         AtkCalc.calculateAttackEffect(target, self, mirrorAttack);
         moveRes.ignoreSemiInvulerable = true;
     }
