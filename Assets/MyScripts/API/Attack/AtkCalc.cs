@@ -101,12 +101,6 @@ namespace FBG.Attack
                     report = spAtk.result(atkName, baseDamage);
                     break;
             }
-
-            if (self.atkStatus != attackStatus.normal && report.damage != 0)
-            {
-                report.damage = 0;
-            }
-
             return report;
         }
 

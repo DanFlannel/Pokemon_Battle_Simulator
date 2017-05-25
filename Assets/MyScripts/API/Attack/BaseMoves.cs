@@ -204,6 +204,7 @@ namespace FBG.Attack
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now burned", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.burned.ToString();
+                moveRes.statusTarget = target.Name;
             }
             else
             {
@@ -226,6 +227,7 @@ namespace FBG.Attack
                 target.status_A = nonVolitileStatusEffects.frozen;
                 Debug.Log(string.Format("{0} is now frozen", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.frozen.ToString();
+                moveRes.statusTarget = target.Name;
             }
             else
             {
@@ -249,6 +251,7 @@ namespace FBG.Attack
                 changeStats(Consts.speed, -6, target);
                 Debug.Log(string.Format("{0} is now paralized", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.paralized.ToString();
+                moveRes.statusTarget = target.Name;
             }
             else
             {
@@ -272,6 +275,7 @@ namespace FBG.Attack
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now poisoned", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.poisioned.ToString();
+                moveRes.statusTarget = target.Name;
             }
             else
             {
@@ -294,6 +298,7 @@ namespace FBG.Attack
                 target.status_A = nonVolitileStatusEffects.sleep;
                 Debug.Log(string.Format("{0} is now asleep", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
+                moveRes.statusTarget = target.Name;
             }
             else
             {
@@ -312,6 +317,7 @@ namespace FBG.Attack
                 target.status_B = volitileStatusEffects.confused;
                 Debug.Log(string.Format("{0} is now confused", target.Name));
                 moveRes.statusEffect = volitileStatusEffects.confused.ToString();
+                moveRes.statusTarget = target.Name;
             }
         }
 
@@ -325,6 +331,7 @@ namespace FBG.Attack
                 target.status_B = volitileStatusEffects.infatuated;
                 Debug.Log(string.Format("{0} is now infatuated", target.Name));
                 moveRes.statusEffect = volitileStatusEffects.infatuated.ToString();
+                moveRes.statusTarget = target.Name;
             }
         }
 
@@ -355,19 +362,19 @@ namespace FBG.Attack
             return dmg;
         }
 
-        public  float ReChargeMove(PokemonBase self, string atkName, float dmg)
+        public  void ReChargeMove(PokemonBase self, string atkName, float dmg)
         {
             if (self.atkStatus == attackStatus.normal)
             {
                 self.atkStatus = attackStatus.recharging;
                 self.nextAttack = atkName;
+                damage = dmg;
             }
             else if (self.atkStatus == attackStatus.recharging)
             {
                 self.atkStatus = attackStatus.normal;
-                dmg = 0;
+                damage = 0;
             }
-            return dmg;
         }
 
         public float oneHitKO(PokemonBase target, PokemonBase self, MoveResults mr)

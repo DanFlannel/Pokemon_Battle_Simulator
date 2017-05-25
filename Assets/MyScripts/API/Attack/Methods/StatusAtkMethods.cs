@@ -301,6 +301,7 @@ public class StatusAtkMethods : BaseMoves
             target.status_A = nonVolitileStatusEffects.sleep;
             Debug.Log(string.Format("{0} is now asleep", target.Name));
             moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
+            moveRes.statusTarget = target.Name;
             heal = target.maxHP;
         }
         moveRes.ignoreSemiInvulerable = true;
@@ -445,6 +446,7 @@ public class StatusAtkMethods : BaseMoves
             target.nvCurDur = 0;
             Debug.Log(string.Format("{0} is now badly posioned", target.Name));
             moveRes.statusEffect = nonVolitileStatusEffects.toxic.ToString();
+            moveRes.statusTarget = target.Name;
         }
         else
         {
