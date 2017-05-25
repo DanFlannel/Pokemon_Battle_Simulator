@@ -35,6 +35,8 @@
     /// </summary>
     public string statusEffect;
 
+    public string statusTarget;
+
     public bool ignoreSemiInvulerable;
 
     public MoveResults(string s)

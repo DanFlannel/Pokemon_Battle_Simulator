@@ -91,6 +91,7 @@ namespace FBG.Battle
 
         public void promptSwap(ref TeamPokemon team, bool isForced)
         {
+            Debug.Log("Called prompt swap");
             if(team == sim.blueTeam)
             {
                 int index = team.getRndPokemon();

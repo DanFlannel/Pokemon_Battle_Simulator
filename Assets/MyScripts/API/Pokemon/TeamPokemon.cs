@@ -46,9 +46,12 @@ namespace FBG.Base
 
         public void swap(int index)
         {
+            Debug.Log(string.Format("swapping to index: {0}", index));
             curIndex = index;
             enemyTeam.hasLeechSeed = false;
             pokemon[index].nvCurDur = 0;
+            Debug.Log(string.Format("cur index: {0}, curpokemon: {1}", curIndex, curPokemon.Name));
+            
         }
 
         public int getRndPokemon()
@@ -105,6 +108,11 @@ namespace FBG.Base
             MoveResults move = getMoveResults(index);
             sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
 
+            if (enemyTeam.curPokemon.curHp <= 0)
+            {
+                move.failed = true;
+            }
+
             if (DexHolder.attackDex.getAttack(move.name).cat == Consts.Status)
             {
                 if (move.dmgReport.stageDelta != 0)
@@ -150,7 +158,7 @@ namespace FBG.Base
         {
             if (move.statusEffect != "")
             {
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(enemyTeam.curPokemon, move.statusEffect));
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(move.statusTarget, move.statusEffect));
             }
 
             if (move.flinched)

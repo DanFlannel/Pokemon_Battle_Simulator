@@ -115,7 +115,7 @@ public class SpecialAtkMethods : BaseMoves
 
     public void hyperBeam(PokemonBase self, string atkName, float baseDamage)
     {
-        damage = ReChargeMove(self, atkName, baseDamage);
+        ReChargeMove(self, atkName, baseDamage);
     }
 
     public void iceBeam(PokemonBase target)
