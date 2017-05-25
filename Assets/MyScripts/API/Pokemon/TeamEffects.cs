@@ -52,7 +52,6 @@ namespace FBG.Base
             bindDamage = dmg;
         }
 
-
         private void reduceLightScreen()
         {
             if (!hasReflect) { return; }

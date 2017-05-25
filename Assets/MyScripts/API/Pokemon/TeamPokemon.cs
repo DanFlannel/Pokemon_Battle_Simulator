@@ -13,15 +13,19 @@ namespace FBG.Base
     public class TeamPokemon : TeamEffects
     {
         private TeamPokemon instance;
+        private BattleSimulator sim;
+        private GameObject GUIHolder;
+
         public TeamPokemon enemyTeam;
         public List<PokemonBase> pokemon = new List<PokemonBase>();
+
         public int teamSize;
         public int curIndex;
+
         public string teamName;
-        private GameObject GUIHolder;
+
         public GUIReferences guiRef;
         public PokemonBase curPokemon { get { return pokemon[curIndex]; } }
-        private BattleSimulator sim;
 
         public TeamPokemon(int size, string name, ref BattleSimulator sim, GameObject gui)
         {
@@ -43,10 +47,7 @@ namespace FBG.Base
         public void swap(int index)
         {
             curIndex = index;
-            if (enemyTeam.hasLeechSeed)
-            {
-                enemyTeam.hasLeechSeed = false;
-            }
+            enemyTeam.hasLeechSeed = false;
             pokemon[index].nvCurDur = 0;
         }
 
@@ -70,7 +71,7 @@ namespace FBG.Base
         public MoveResults getMoveResults(int index)
         {
             string atkName = curPokemon.atkMoves[index];
-            if(curPokemon.nextAttack != "")
+            if (curPokemon.nextAttack != "")
             {
                 atkName = curPokemon.nextAttack;
             }
@@ -104,7 +105,7 @@ namespace FBG.Base
             MoveResults move = getMoveResults(index);
             sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
 
-            if(DexHolder.attackDex.getAttack(move.name).cat == Consts.Status)
+            if (DexHolder.attackDex.getAttack(move.name).cat == Consts.Status)
             {
                 if (move.dmgReport.stageDelta != 0)
                 {
@@ -160,11 +161,11 @@ namespace FBG.Base
 
             if (move.dmgReport.damage != 0)
             {
-                if(enemyTeam.curPokemon.substituteHealth > 0 && !DexHolder.attackDex.checkFlag(move.name, "authentic"))
+                if (enemyTeam.curPokemon.substituteHealth > 0 && !DexHolder.attackDex.checkFlag(move.name, "authentic"))
                 {
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.substituteHit(enemyTeam.curPokemon));
                     enemyTeam.curPokemon.substituteHealth -= move.dmgReport.damage;
-                    if(enemyTeam.curPokemon.substituteHealth <= 0)
+                    if (enemyTeam.curPokemon.substituteHealth <= 0)
                     {
                         sim.routine.queue.AddCoroutineToQueue(sim.routine.substituteFaded(enemyTeam.curPokemon));
                     }
@@ -192,7 +193,7 @@ namespace FBG.Base
         {
             if (move.dmgReport.recoil == 0) { return; }
 
-            if(move.name.ToLower() != "substitute")
+            if (move.name.ToLower() != "substitute")
             {
                 string text = string.Format("{0} was hurt by recoil.", curPokemon.Name);
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1f));
@@ -203,9 +204,12 @@ namespace FBG.Base
 
         public void endOfTurnDamage(PokemonBase self)
         {
-            if (self.curHp <= 0) { return; }
-            applyBindDamage(self);
-            applyNVDamage(self);
+            if (self.curHp >= 0)
+            {
+                applyBindDamage(self);
+                applyNVDamage(self);
+            }
+            applyLeechSeed(self, enemyTeam.curPokemon);
         }
 
         private void applyBindDamage(PokemonBase self)
@@ -232,7 +236,7 @@ namespace FBG.Base
 
             string text = "";
             int damage = 0;
-
+            string ending = self.status_A.ToString();
             self.nvCurDur++;
 
             if (self.status_A == nonVolitileStatusEffects.burned)
@@ -242,6 +246,7 @@ namespace FBG.Base
 
             if (self.status_A == nonVolitileStatusEffects.poisioned)
             {
+                ending = "poison";
                 damage = Mathf.RoundToInt((float)self.maxHP / 16f);
             }
 
@@ -250,12 +255,28 @@ namespace FBG.Base
                 damage = Mathf.RoundToInt((float)self.maxHP / 16f) * self.nvCurDur;
             }
 
-            Debug.Log(string.Format("Applying {0} damage to {1} damage: {2}", self.status_A.ToString(), self.Name, damage));
+            Debug.Log(string.Format("Applying {0} damage to {1} damage: {2}", ending, self.Name, damage));
 
-            text = string.Format("{0} was hurt by {1}", self.Name, self.status_A.ToString());
+            text = string.Format("{0} was hurt by {1}", self.Name, ending);
 
             sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 2f));
             sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(self, damage));
+        }
+
+        public void applyLeechSeed(PokemonBase self, PokemonBase target)
+        {
+            if (target.team.hasLeechSeed)
+            {
+                int dmg = Mathf.RoundToInt(target.maxHP / 8f);
+
+                string text = string.Format("{0} was hurt by leech seed", target.Name);
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1.5f));
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(target, dmg));
+
+                text = string.Format("{0} was healed by leech seed");
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1.5f));
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.applyHeal(self, dmg));
+            }
         }
 
         /// <summary>

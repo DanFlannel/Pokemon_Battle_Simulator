@@ -169,6 +169,11 @@ public class StatusAtkMethods : BaseMoves
 
     public void leechSeed(PokemonBase target)
     {
+        if(checkTypes(target, Consts.Grass))
+        {
+            moveRes.failed = true;
+            return;
+        }
         target.team.hasLeechSeed = true;
     }
 
