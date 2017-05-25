@@ -272,6 +272,12 @@ namespace FBG.Battle
             moveHistory.Add(hist);
         }
 
+        public void addMoveHistory(PokemonBase attacker, string moveName)
+        {
+            battleHistory hist = new battleHistory(attacker.Name, moveName, attacker.status_A.ToString());
+            moveHistory.Add(hist);
+        }
+
         public void updateGUI(ref TeamPokemon team)
         {
             GifRenderer r = redSprite;

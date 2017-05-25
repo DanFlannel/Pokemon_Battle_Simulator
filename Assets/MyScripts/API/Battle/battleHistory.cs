@@ -11,6 +11,7 @@ namespace FBG.Battle
         public string atkCategory;
         public string atkType;
         public MoveResults MR;
+        public string halted;
 
         public battleHistory(string name, string atkName, MoveResults mr)
         {
@@ -32,6 +33,13 @@ namespace FBG.Battle
             attacks move = DexHolder.attackDex.getAttack(res.name);
             atkType = move.type;
             atkCategory = move.cat;
+        }
+
+        public battleHistory(string attackerName, string moveName, string haltingcondition)
+        {
+            pokemonName = attackerName;
+            attackName = moveName;
+            halted = haltingcondition;
         }
     }
 }

@@ -70,6 +70,10 @@ namespace FBG.Base
         public MoveResults getMoveResults(int index)
         {
             string atkName = curPokemon.atkMoves[index];
+            if(curPokemon.nextAttack != "")
+            {
+                atkName = curPokemon.nextAttack;
+            }
             PokemonBase self = curPokemon;
             PokemonBase tar = enemyTeam.curPokemon;
             MoveResults result = AtkCalc.calculateAttackEffect(tar, self, atkName);
@@ -91,6 +95,12 @@ namespace FBG.Base
                 return;
             }
 
+            if (nvHaltingEffect())
+            {
+                BattleSimulator.Instance.addMoveHistory(curPokemon, curPokemon.atkMoves[index].ToString());
+                return;
+            }
+
             MoveResults move = getMoveResults(index);
             sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
 
@@ -102,7 +112,7 @@ namespace FBG.Base
                 }
             }
 
-            if ((!nvHaltingEffect() || !move.failed) && move.hit)
+            if (!move.failed && move.hit)
             {
                 applyDamage(move);
                 applyHeal(move);
