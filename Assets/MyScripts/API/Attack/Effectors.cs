@@ -72,6 +72,7 @@ namespace FBG.Attack
             if (contact)
             {
                 changeStats(Consts.attack, 1, target);
+                //add a display text routine here
             }
             duration--;
         }

@@ -191,51 +191,6 @@ namespace FBG.Battle
             return rnd;
         }
 
-        //TODO add things to the coroutine queue
-        private void turnController()
-        {
-            if(isRedMoveCalculated)
-            {
-                ClearLog.ClearLogConsole();
-
-                blueTeamAttack();
-                //UnityEngine.Debug.Log(string.Format("red team index: {0} swap {1} blue team index {2} swap {3}", redMoveIndex, isRedSwapping, blueMoveIndex, isBlueSwapping));
-
-                List<TurnInformation> info = new List<TurnInformation>();
-                info.Add(new TurnInformation(redTeam.curPokemon, redMoveIndex, isRedSwapping));
-                info.Add(new TurnInformation(blueTeam.curPokemon, blueMoveIndex, isBlueSwapping));
-
-                TurnOrder turn = new TurnOrder(info);
-                for(int i = 0; i < turn.order.Count; i++)
-                {
-                    PokemonBase pkmn = turn.order[i].pokemon;
-                    pkmn.team.takeTurn(turn.order[i].moveIndex, turn.order[i].isSwapping, pkmn);
-                }
-
-                if (turn.swapped)
-                {
-                    info = turn.speedOnly(redTeam.curPokemon, blueTeam.curPokemon);
-                }
-
-                for(int i = 0; i < turn.speedDetermined.Count; i++)
-                {
-                    PokemonBase pkmn = turn.speedDetermined[i].pokemon;
-                    pkmn.team.checkEffectors(pkmn);
-                    pkmn.team.endOfTurnDamage(pkmn);
-                }
-
-                redTeam.EndOfTurn();
-                blueTeam.EndOfTurn();
-
-                for(int i = 0; i < turn.order.Count; i++)
-                {
-                    PokemonBase pkmn = turn.order[i].pokemon;
-                    turn.order[i].pokemon.team.isAlive(pkmn);
-                }
-                resetTurn();
-            }
-        }
-
         private List<TurnInformation> determineOrder(params TurnInformation[] t)
         {
             List<TurnInformation> speed = new List<TurnInformation>();
