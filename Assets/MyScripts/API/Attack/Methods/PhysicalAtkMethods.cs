@@ -14,6 +14,8 @@ namespace FBG.Attack
 
         public float bide(PokemonBase self, float baseDamage)
         {
+            moveRes.ignoreSemiInvulerable = true;
+
             if (self.atkStatus == attackStatus.normal)
             {
                 self.cachedDamage += (baseDamage * 2f);
@@ -169,6 +171,7 @@ namespace FBG.Attack
             if (target.position == pokemonPosition.underground)
             {
                 damage *= 2f;
+                moveRes.ignoreSemiInvulerable = true;
             }
         }
 
@@ -183,6 +186,10 @@ namespace FBG.Attack
 
         public float fissure(PokemonBase target, PokemonBase self, MoveResults moveRes)
         {
+            if (target.position == pokemonPosition.underground)
+            {
+                moveRes.ignoreSemiInvulerable = true;
+            }
             return oneHitKO(target, self, moveRes);
         }
 
@@ -326,6 +333,8 @@ namespace FBG.Attack
                 self.cachedDamage = damage;
                 self.nextAttack = "skull bash";
                 changeStats(Consts.defense, 1, self);
+                stageName = Consts.defense;
+                stageDiff = 1;
                 return 0;
 
             }
@@ -389,9 +398,13 @@ namespace FBG.Attack
 
         public void strength() { }
 
-        public void struggle() { }
+        public void struggle(PokemonBase target) {
+            recoil = target.maxHP / 4f;
+        }
 
-        public void submission() { }
+        public void submission() {
+            recoil = Mathf.Round(damage / 4f);
+        }
 
         public float superFang(PokemonBase target)
         {
@@ -401,7 +414,9 @@ namespace FBG.Attack
 
         public void tackle() { }
 
-        public void takeDown() { }
+        public void takeDown() {
+            recoil = Mathf.Round(damage / 4f);
+        }
 
         public void thrash(PokemonBase self, string name)
         {

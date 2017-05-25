@@ -37,7 +37,6 @@ namespace FBG.Attack
 
             float baseDamage = GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
 
-
             MR.dmgReport = GenDmgReport(atkName, atkCat, baseDamage, tar, self, MR);
 
             return MR;
@@ -77,6 +76,7 @@ namespace FBG.Attack
 
             return GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
         }
+
         private static move_DmgReport GenDmgReport (string atkName, string atkCat, float baseDamage, PokemonBase tar, PokemonBase self, MoveResults MR)
         {
             move_DmgReport report = new move_DmgReport();
@@ -100,7 +100,7 @@ namespace FBG.Attack
                     break;
             }
 
-            if (self.atkStatus != attackStatus.normal)
+            if (self.atkStatus != attackStatus.normal && report.damage != 0)
             {
                 report.damage = 0;
             }
@@ -550,7 +550,7 @@ namespace FBG.Attack
         {
             string name = atkName.ToLower();
 
-            string[] ignoreMoves = { "swift", "" };
+            string[] ignoreMoves = { "swift", "fissure", "guillotine", "horn drill" };
             for (int i = 0; i < ignoreMoves.Length; i++)
             {
                 if (name == ignoreMoves[i])
@@ -561,6 +561,21 @@ namespace FBG.Attack
             }
             return false;
 
+        }
+
+        /// <summary>
+        /// This checks for the semi-invulnerable condition (flying, undergouround)
+        /// </summary>
+        /// <param name="mr">move results</param>
+        /// <returns>a bool determining if the pokemon move hit</returns>
+        private static bool checkSemiInvulnerable(MoveResults mr)
+        {
+            bool hitCheck = mr.hit;
+            if(targetPokemon.position != pokemonPosition.normal)
+            {
+                hitCheck = mr.hit && mr.ignoreSemiInvulerable;
+            }
+            return hitCheck;
         }
     }
 }

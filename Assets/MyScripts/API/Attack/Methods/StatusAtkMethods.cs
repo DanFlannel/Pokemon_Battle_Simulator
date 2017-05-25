@@ -8,18 +8,13 @@ using UnityEngine;
 
 public class StatusAtkMethods : BaseMoves
 {
-
-    public void move(PokemonBase target)
-    {
-
-    }
-
     public void acidArmor(PokemonBase target)
     {
         changeStats(Consts.defense, 2, target);
         stageName = Consts.defense;
         stageDiff = 2;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void agility(PokemonBase target)
@@ -28,6 +23,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.speed;
         stageDiff = 2;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void amnesia(PokemonBase target)
@@ -36,6 +32,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.spDefense;
         stageDiff = 2;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void barrier(PokemonBase target)
@@ -44,6 +41,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.defense;
         stageDiff = 2;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void confuseRay(PokemonBase target)
@@ -64,6 +62,7 @@ public class StatusAtkMethods : BaseMoves
         types[0] = target.type1;
         types[1] = target.type2;
         target.damageMultiplier = DamageMultipliers.createMultiplier(types);
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void defenseCurl(PokemonBase target)
@@ -72,6 +71,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.defense;
         stageDiff = 1;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void disable(PokemonBase self, PokemonBase target, string tempName)
@@ -96,6 +96,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.evasion;
         stageDiff = 1;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void flash(PokemonBase target)
@@ -112,6 +113,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = "Critical Strike";
         stageDiff = 2;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void growl(PokemonBase target)
@@ -129,6 +131,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.attack + " & " + Consts.spAttack;
         stageDiff = 1;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void harden(PokemonBase target)
@@ -137,6 +140,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.defense;
         stageDiff = 1;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void haze(PokemonBase self, PokemonBase target)
@@ -146,6 +150,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = "reset all stat changes";
         stageDiff = 0;
         stagePokemon = "all";
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void hypnosis(PokemonBase target)
@@ -178,6 +183,7 @@ public class StatusAtkMethods : BaseMoves
     public void lightScreen(PokemonBase target)
     {
         target.team.addLightScreen(5);
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void lovelyKiss(PokemonBase target)
@@ -192,6 +198,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.attack;
         stageDiff = 1;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void metronome(PokemonBase self, PokemonBase target)
@@ -226,6 +233,7 @@ public class StatusAtkMethods : BaseMoves
             }
         }
         target.atkMoves[n] = attack;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void minimize(PokemonBase target)
@@ -235,6 +243,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.evasion;
         stageDiff = 1;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void mirrorMove(PokemonBase self, PokemonBase target)
@@ -242,11 +251,13 @@ public class StatusAtkMethods : BaseMoves
         int mirrorMove = BattleSimulator.Instance.moveHistory.Count;
         string mirrorAttack = BattleSimulator.Instance.moveHistory[mirrorMove].attackName;
         AtkCalc.calculateAttackEffect(target, self, mirrorAttack);
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void mist(PokemonBase target)
     {
         target.team.addMist();
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void poisonGas(PokemonBase target)
@@ -262,11 +273,13 @@ public class StatusAtkMethods : BaseMoves
     public void recover(PokemonBase target)
     {
         heal = target.maxHP / 2f;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void reflect(PokemonBase target)
     {
         target.team.addReflect(5);
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void rest(PokemonBase target, int duration)
@@ -279,6 +292,7 @@ public class StatusAtkMethods : BaseMoves
             moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
             heal = target.maxHP;
         }
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void roar(PokemonBase target)
@@ -308,6 +322,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.attack;
         stageDiff = 1;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void sing(PokemonBase target)
@@ -327,9 +342,12 @@ public class StatusAtkMethods : BaseMoves
     public void softBoiled(PokemonBase target)
     {
         heal = target.maxHP / 2f;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
-    public void splash() { }
+    public void splash() {
+        moveRes.ignoreSemiInvulerable = true;
+    }
 
     public void spore(PokemonBase target)
     {
@@ -362,6 +380,7 @@ public class StatusAtkMethods : BaseMoves
         target.substituteHealth = recoil;
         target.hasSubstitute = true;
         //Debug.Log(string.Format("Subsitute: {0} Health: {1}", target.hasSubstitute, target.substituteHealth));
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void supersonic(PokemonBase target)
@@ -376,6 +395,7 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.attack;
         stageDiff = 2;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void tailWhip(PokemonBase target)
@@ -386,7 +406,9 @@ public class StatusAtkMethods : BaseMoves
         stagePokemon = target.Name;
     }
 
-    public void teleport() { }
+    public void teleport() {
+        moveRes.ignoreSemiInvulerable = true;
+    }
 
     public void thunderWave(PokemonBase target)
     {
@@ -397,9 +419,14 @@ public class StatusAtkMethods : BaseMoves
     /// Applying toxic to a pokemon if they arent either steel or a poison type pokemon and have no other status effects
     /// </summary>
     /// <param name="isPlayer">is the player attacking</param>
-    public void toxic(PokemonBase target)
+    public void toxic(PokemonBase self, PokemonBase target)
     {
         if (checkTypes(target, Consts.Steel, Consts.Poison)) return;
+
+        if(checkTypes(self, Consts.Poison))
+        {
+            moveRes.ignoreSemiInvulerable = true;
+        }
 
         if (target.status_A == nonVolitileStatusEffects.none)
         {
@@ -417,11 +444,16 @@ public class StatusAtkMethods : BaseMoves
     public void transform(PokemonBase self, PokemonBase target)
     {
         self.atkMoves = target.atkMoves;
+        moveRes.ignoreSemiInvulerable = true;
     }
 
     public void whirlwind(PokemonBase target)
     {
         rndSwap(target);
+        if(target.position == pokemonPosition.flying)
+        {
+            moveRes.ignoreSemiInvulerable = true;
+        }
     }
 
     public void withdraw(PokemonBase target)
@@ -430,5 +462,6 @@ public class StatusAtkMethods : BaseMoves
         stageName = Consts.defense;
         stageDiff = 1;
         stagePokemon = target.Name;
+        moveRes.ignoreSemiInvulerable = true;
     }
 }

@@ -156,7 +156,7 @@ namespace FBG.Attack
                     break;
 
                 case "surf":                //does double damage if the pokemon used dive(introduced in gen3)
-                    surf();
+                    surf(target);
                     break;
 
                 case "swift":               //ignores evasiveness and accuracy

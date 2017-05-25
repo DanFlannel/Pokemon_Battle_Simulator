@@ -35,9 +35,20 @@
     /// </summary>
     public string statusEffect;
 
+    public bool ignoreSemiInvulerable;
+
     public MoveResults(string s)
     {
         name = s;
+
+        hit = false;
+        crit = false;
+        flinched = false;
+        failed = false;
+
         statusEffect = "";
+
+        ignoreSemiInvulerable = false;
+
     }
 }

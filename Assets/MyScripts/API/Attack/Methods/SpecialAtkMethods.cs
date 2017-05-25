@@ -107,6 +107,7 @@ public class SpecialAtkMethods : BaseMoves
         if (target.position == pokemonPosition.flying)
         {
             damage *= 2f;
+            moveRes.ignoreSemiInvulerable = true;
         }
     }
 
@@ -196,13 +197,25 @@ public class SpecialAtkMethods : BaseMoves
         }
     }
 
-    public void surf() { }
+    public void surf(PokemonBase target) {
+        if(target.position == pokemonPosition.underwater)
+        {
+            damage *= 2f;
+            moveRes.ignoreSemiInvulerable = true;
+        }
+    }
 
-    public void swift() { }
+    public void swift() {
+        moveRes.ignoreSemiInvulerable = true;
+    }
 
     public void thunder(PokemonBase target)
     {
         isParalized(target, 30);
+        if(target.position == pokemonPosition.flying)
+        {
+            moveRes.ignoreSemiInvulerable = true;
+        }
     }
 
     public void thunderShock(PokemonBase target)

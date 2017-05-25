@@ -267,7 +267,7 @@ namespace FBG.Attack
 
                 //increasingly does more toxic damage at the end of each turn, starts at 1/16
                 case "toxic":
-                    toxic(target);
+                    toxic(self, target);
                     break;
 
                 //takes the attacks of the opponent
