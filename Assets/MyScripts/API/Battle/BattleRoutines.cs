@@ -289,7 +289,7 @@ namespace FBG.Battle
         {
             pkmn.hasSubstitute = false;
             pkmn.substituteHealth = 0;
-            string text = string.Format("{0}'s substitute faded.", pkmn.Name);
+            string text = string.Format("{0}'s substitute faded!", pkmn.Name);
             yield return StartCoroutine(displayText(text, 2f));
             yield return null;
         }

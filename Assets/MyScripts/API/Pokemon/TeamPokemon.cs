@@ -51,7 +51,6 @@ namespace FBG.Base
             enemyTeam.hasLeechSeed = false;
             pokemon[index].nvCurDur = 0;
             Debug.Log(string.Format("cur index: {0}, curpokemon: {1}", curIndex, curPokemon.Name));
-            
         }
 
         public int getRndPokemon()
@@ -80,7 +79,7 @@ namespace FBG.Base
             }
             PokemonBase self = curPokemon;
             PokemonBase tar = enemyTeam.curPokemon;
-            MoveResults result = AtkCalc.calculateAttackEffect(tar, self, atkName);
+            MoveResults result = AtkCalc.calculateAttack(tar, self, atkName);
             return result;
         }
 

@@ -6,7 +6,8 @@ using FBG.Data;
 
 namespace FBG.Attack
 {
-    public static class AtkCalc {
+    public static class AtkCalc
+    {
 
         public static PokemonBase targetPokemon;
         public static PokemonBase thisPokemon;
@@ -18,7 +19,7 @@ namespace FBG.Attack
         /// This method takes the name of the attack and then passes it into other methods in the Attack_Switch_Case to get the effect
         /// of the attack on the enemy or player pokemon, if it is a status type of attack or one that deals damage or stuns...ect.
         /// </summary>
-        public static MoveResults calculateAttackEffect(PokemonBase tar, PokemonBase self, string atkName)
+        public static MoveResults calculateAttack(PokemonBase tar, PokemonBase self, string atkName)
         {
             MoveResults MR = new MoveResults(atkName);
             targetPokemon = tar;
@@ -45,9 +46,8 @@ namespace FBG.Attack
 
         private static string checkCachedAttack(string atkName, PokemonBase self)
         {
-            if(self.nextAttack != "")
+            if (self.nextAttack != "")
             {
-                Debug.Log("found a cached attack");
                 return self.nextAttack;
             }
             return atkName;
@@ -70,7 +70,8 @@ namespace FBG.Attack
         /// <param name="self"></param>
         /// <param name="atkName"></param>
         /// <returns></returns>
-        public static float GenBaseDamage(PokemonBase self, string atkName) {
+        public static float GenBaseDamage(PokemonBase self, string atkName)
+        {
             int atkIndex = getAttackListIndex(atkName);
             string atkCat = MoveSets.attackList[atkIndex].cat;
             string atkType = MoveSets.attackList[atkIndex].type;
@@ -79,7 +80,7 @@ namespace FBG.Attack
             return GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
         }
 
-        private static move_DmgReport GenDmgReport (string atkName, string atkCat, float baseDamage, PokemonBase tar, PokemonBase self, MoveResults MR)
+        private static move_DmgReport GenDmgReport(string atkName, string atkCat, float baseDamage, PokemonBase tar, PokemonBase self, MoveResults MR)
         {
             move_DmgReport report = new move_DmgReport();
             switch (atkCat)
@@ -412,7 +413,7 @@ namespace FBG.Attack
         /// </summary>
         private static bool checkAccuracy_and_Hit(PokemonBase self, PokemonBase tar, string atkName, int accuracy, string cat)
         {
-            if(cat == Consts.Status)
+            if (cat == Consts.Status)
             {
                 //Debug.Log("Status move, no accuracy check");
                 return true;
@@ -486,7 +487,7 @@ namespace FBG.Attack
         private static int critChance(PokemonBase self, string atkName)
         {
             int stage = self.critRatio_stage;
-            if(DexHolder.attackDex == null)
+            if (DexHolder.attackDex == null)
             {
                 Debug.Log("Null attack dex?");
             }
@@ -567,7 +568,7 @@ namespace FBG.Attack
         private static bool checkSemiInvulnerable(MoveResults mr)
         {
             bool hitCheck = mr.hit;
-            if(targetPokemon.position != pokemonPosition.normal)
+            if (targetPokemon.position != pokemonPosition.normal)
             {
                 hitCheck = mr.hit && mr.ignoreSemiInvulerable;
             }

@@ -210,7 +210,7 @@ public class StatusAtkMethods : BaseMoves
     {
         int rnd = Random.Range(0, MoveSets.attackList.Count);
         string atkName = MoveSets.attackList[rnd].name;
-        moveRes = AtkCalc.calculateAttackEffect(target, self, atkName);
+        moveRes = AtkCalc.calculateAttack(target, self, atkName);
         damage = moveRes.dmgReport.damage;
         heal = moveRes.dmgReport.heal;
         recoil = moveRes.dmgReport.recoil;
@@ -261,7 +261,7 @@ public class StatusAtkMethods : BaseMoves
             return;
 
         }
-        AtkCalc.calculateAttackEffect(target, self, mirrorAttack);
+        AtkCalc.calculateAttack(target, self, mirrorAttack);
         moveRes.ignoreSemiInvulerable = true;
     }
 
@@ -433,7 +433,7 @@ public class StatusAtkMethods : BaseMoves
     /// <param name="isPlayer">is the player attacking</param>
     public void toxic(PokemonBase self, PokemonBase target)
     {
-        if (checkTypes(target, Consts.Steel, Consts.Poison)) return;
+        if (checkTypes(target, Consts.Steel, Consts.Poison)) { return; }
 
         if(checkTypes(self, Consts.Poison))
         {

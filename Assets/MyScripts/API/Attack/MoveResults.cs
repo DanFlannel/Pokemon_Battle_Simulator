@@ -35,8 +35,14 @@
     /// </summary>
     public string statusEffect;
 
+    /// <summary>
+    /// name of the pokemon being affected by the status effect
+    /// </summary>
     public string statusTarget;
 
+    /// <summary>
+    /// boolean for weather the moves ignores the semi invulnerable status of the target pokemon
+    /// </summary>
     public bool ignoreSemiInvulerable;
 
     public MoveResults(string s)
@@ -49,6 +55,7 @@
         failed = false;
 
         statusEffect = "";
+        statusTarget = "";
 
         ignoreSemiInvulerable = false;
 
