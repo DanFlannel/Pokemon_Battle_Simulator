@@ -52,11 +52,6 @@ namespace FBG.Battle
                 yield return StartCoroutine(EndOfTurnPokemon(turn, i));
             }
 
-            for (int i = 0; i < turn.order.Count; i++)
-            {
-                yield return StartCoroutine(checkPokemon(turn, i));
-            }
-
             yield return StartCoroutine(EndOfTurnTeam(sim.redTeam));
             yield return StartCoroutine(EndOfTurnTeam(sim.blueTeam));
 
@@ -177,7 +172,7 @@ namespace FBG.Battle
                 }
                 else if (multiplier < 1)
                 {
-                    text = "It was not very effective";
+                    text = "It was not very effective.";
                 }
                 else
                 {
@@ -194,7 +189,7 @@ namespace FBG.Battle
         /// <param name="target">target pokemon</param>
         /// <param name="statusName">name of the non volitle status</param>
         /// <returns></returns>
-        public IEnumerator addNV(PokemonBase target, string statusName)
+        public IEnumerator addNV(string target, string statusName)
         {
             string ending = statusName;
             if(statusName == nonVolitileStatusEffects.sleep.ToString())
@@ -206,7 +201,7 @@ namespace FBG.Battle
                 ending = "badly poisoned";
             }
 
-            string text = string.Format("{0} is now {1}!", target.Name, ending);
+            string text = string.Format("{0} is now {1}!", target, ending);
             yield return StartCoroutine(displayText(text, 2f));
             yield return null;
         }
