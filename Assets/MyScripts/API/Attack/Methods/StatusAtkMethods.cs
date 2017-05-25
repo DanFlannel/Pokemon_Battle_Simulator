@@ -81,7 +81,7 @@ public class StatusAtkMethods : BaseMoves
             moveRes.hit = false;
             return;
         }
-        string moveName = BattleSimulator.Instance.moveHistory[BattleSimulator.Instance.moveHistory.Count].attackName;
+        string moveName = BattleSimulator.Instance.moveHistory[BattleSimulator.Instance.moveHistory.Count - 1].attackName;
         disable dis = new disable(tempName, 4, target, moveName);
 
         if (!hasEffector(target, tempName))
@@ -248,8 +248,8 @@ public class StatusAtkMethods : BaseMoves
 
     public void mirrorMove(PokemonBase self, PokemonBase target)
     {
-        int mirrorMove = BattleSimulator.Instance.moveHistory.Count;
-        string mirrorAttack = BattleSimulator.Instance.moveHistory[mirrorMove].attackName;
+        int index = BattleSimulator.Instance.moveHistory.Count - 1;
+        string mirrorAttack = BattleSimulator.Instance.moveHistory[index].attackName;
         AtkCalc.calculateAttackEffect(target, self, mirrorAttack);
         moveRes.ignoreSemiInvulerable = true;
     }
