@@ -269,9 +269,13 @@ namespace FBG.Base
             {
                 int dmg = Mathf.RoundToInt(target.maxHP / 8f);
 
-                string text = string.Format("{0} was hurt by leech seed", target.Name);
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1.5f));
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(target, dmg));
+                string text = "";
+                if (target.curHp > 0)
+                {
+                    text = string.Format("{0} was hurt by leech seed", target.Name);
+                    sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1.5f));
+                    sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(target, dmg));
+                }
 
                 text = string.Format("{0} was healed by leech seed");
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1.5f));
