@@ -120,7 +120,6 @@ namespace FBG.Attack
                     break;
 
                 case "double edge":
-                    recoil = Mathf.Round(damage / 3f);
                     doubleEdge();
                     break;
 
@@ -169,12 +168,8 @@ namespace FBG.Attack
                     headbutt(target);
                     break;
 
-                case "high jump kick":      //if this misses it casues 1/2 of the damage it would have inflicted on the user
-                    if (!moveRes.hit)
-                    {
-                        recoil = damage / 2f;
-                    }
-                    highJumpKick();
+                case "high jump kick":      //if this misses it casues 1/2 of user's hp
+                    highJumpKick(self);
                     break;
 
                 case "horn attack":         //no additional effect
@@ -194,11 +189,7 @@ namespace FBG.Attack
                     break;
 
                 case "jump kick":           //lose 1/2 hp is the user misses just like high jump kick
-                    if (!moveRes.hit)
-                    {
-                        recoil = damage / 8f;
-                    }
-                    jumpKick();
+                    jumpKick(self);
                     break;
 
                 case "karate chop":         //high crit ratio 1/8 versus 1/16
@@ -323,7 +314,6 @@ namespace FBG.Attack
                     break;
 
                 case "take down":
-                    recoil = Mathf.Round(damage / 4f);
                     takeDown();
                     break;
 

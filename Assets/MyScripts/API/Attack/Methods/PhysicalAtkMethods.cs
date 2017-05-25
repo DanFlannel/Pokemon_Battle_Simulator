@@ -239,7 +239,12 @@ namespace FBG.Attack
             isFlinched(target, 30);
         }
 
-        public void highJumpKick() { }
+        public void highJumpKick(PokemonBase target) {
+            if (!moveRes.hit)
+            {
+                recoil = target.maxHP / 2f;
+            }
+        }
 
         public void hornAttack() { }
 
@@ -258,7 +263,12 @@ namespace FBG.Attack
             isFrozen(target, 10);
         }
 
-        public void jumpKick() { }
+        public void jumpKick(PokemonBase target) {
+            if (!moveRes.hit)
+            {
+                recoil = target.maxHP / 2f;
+            }
+        }
 
         public void karateChop() { }
 
