@@ -280,11 +280,6 @@ namespace FBG.Attack
 
                 case "skull bash":          //charges first turn, raising defense, hits on the second turn
                     damage = skullBash(self, baseDamage);
-                    if (self.atkStatus == attackStatus.normal)
-                    {
-                        stageName = Consts.defense;
-                        stageDiff = 1;
-                    }
                     break;
 
                 case "sky attack":          //charges on first turn, hits on second, 30% flinch chance
@@ -312,12 +307,10 @@ namespace FBG.Attack
                     break;
 
                 case "struggle":            //hurts the user if all the pp are gone
-                    recoil = self.maxHP / 4f;
-                    struggle();
+                    struggle(self);
                     break;
 
                 case "submission":
-                    recoil = Mathf.Round(damage / 4f);
                     submission();
                     break;
 
