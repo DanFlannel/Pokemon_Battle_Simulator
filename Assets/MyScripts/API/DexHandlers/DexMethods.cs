@@ -51,7 +51,7 @@ namespace FBG.Data
         {
             for (int i = 0; i < MoveSets.attackList.Count; i++)
             {
-                if (MoveSets.attackList[i].name == atkName)
+                if (MoveSets.attackList[i].name.ToLower() == atkName.ToLower())
                 {
                     return MoveSets.attackList[i];
                 }

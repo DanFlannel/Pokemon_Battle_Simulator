@@ -39,6 +39,7 @@ namespace FBG.Attack
 
             MR.dmgReport = GenDmgReport(atkName, atkCat, baseDamage, tar, self, MR);
 
+            MR.hit = checkSemiInvulnerable(MR);
             return MR;
         }
 
@@ -46,6 +47,7 @@ namespace FBG.Attack
         {
             if(self.nextAttack != "")
             {
+                Debug.Log("found a cached attack");
                 return self.nextAttack;
             }
             return atkName;
@@ -564,7 +566,7 @@ namespace FBG.Attack
         }
 
         /// <summary>
-        /// This checks for the semi-invulnerable condition (flying, undergouround)
+        /// This checks for the semi-invulnerable condition (flying, undergouround ect...) and if the move ignores it.
         /// </summary>
         /// <param name="mr">move results</param>
         /// <returns>a bool determining if the pokemon move hit</returns>

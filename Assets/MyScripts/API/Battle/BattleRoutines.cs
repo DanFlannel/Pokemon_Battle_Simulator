@@ -278,7 +278,7 @@ namespace FBG.Battle
 
         public IEnumerator missed(PokemonBase pkmn)
         {
-            string text = string.Format("{0} missed!");
+            string text = string.Format("{0} missed!", pkmn.Name);
             yield return StartCoroutine(displayText(text, 2f));
             yield return null;
         }
