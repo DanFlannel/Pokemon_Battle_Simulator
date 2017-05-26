@@ -28,8 +28,6 @@ namespace FBG.Battle
         public IEnumerator takeTurn()
         {
             sim.isTurnRunning = true;
-            ClearLog.ClearLogConsole();
-
             sim.blueTeamAttack();
 
             List<TurnInformation> info = new List<TurnInformation>();
@@ -55,11 +53,8 @@ namespace FBG.Battle
             yield return StartCoroutine(EndOfTurnTeam(sim.redTeam));
             yield return StartCoroutine(EndOfTurnTeam(sim.blueTeam));
 
-
-
-            //Debug.Log("Ending the routine, closing the display text");
-            sim.battleGUI.toggleTextPanel(false);
-            sim.isTurnRunning = false;
+            yield return StartCoroutine(resetTurn(sim));
+            
         }
 
         #region IEnumerators for the turn

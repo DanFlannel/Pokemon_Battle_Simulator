@@ -143,11 +143,14 @@ namespace FBG.Battle
 
         public bool redTeamAttack(int index)
         {
+            ClearLog.ClearLogConsole();
             redMoveIndex = index;
             if(redTeam.curPokemon.curPP[index] < 0)
             {
                 return false;
             }
+            print(string.Format("red team index: {0} blue team index {1}", redTeam.curIndex, blueTeam.curIndex));
+
             StartCoroutine(routine.takeTurn());
             
             return true;
@@ -180,32 +183,16 @@ namespace FBG.Battle
             return rnd;
         }
 
-        private List<TurnInformation> determineOrder(params TurnInformation[] t)
-        {
-            List<TurnInformation> speed = new List<TurnInformation>();
-
-            List<TurnInformation> priorities = new List<TurnInformation>();
-
-            for(int i = 0; i < t.Length; i++)
-            {
-                if(t[i].priority > 0)
-                {
-                    priorities.Add(t[i]);
-                }
-                else
-                {
-                    speed.Add(t[i]);
-                }
-            }
-            return priorities;
-        }
-
         public void resetTurn()
         {
+            isTurnRunning = false;
             isRedSwapping = false;
             isBlueSwapping = false;
             blueIndex = blueTeam.curIndex;
             redIndex = redTeam.curIndex;
+            battleGUI.toggleTextPanel(false);
+
+            print(string.Format("red team index: {0} blue team index {1}", redIndex, blueIndex));
         }
 
         public void addMoveHistory(MoveResults res, PokemonBase attacker)
