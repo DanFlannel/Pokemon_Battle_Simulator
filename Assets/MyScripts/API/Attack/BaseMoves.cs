@@ -195,8 +195,9 @@ namespace FBG.Attack
         /// <param name="duration">duration of the effect</param>
         public  void isBurned(PokemonBase target, float prob)
         {
-            if (!Chance_100(prob)) return;
-            if (checkTypes(target, Consts.Fire)) return;
+            if (!Chance_100(prob)) { return; }
+            if (checkTypes(target, Consts.Fire)) { return; }
+            if (target.hasSubstitute) { return; }
 
             if (target.status_A == nonVolitileStatusEffects.none)
             {
@@ -220,7 +221,8 @@ namespace FBG.Attack
         public  void isFrozen(PokemonBase target, float prob)
         {
             if (!Chance_100(prob)) return;
-            if (checkTypes(target, Consts.Ice)) return;
+            if (checkTypes(target, Consts.Ice)) { return; }
+            if (target.hasSubstitute) { return; }
 
             if (target.status_A == nonVolitileStatusEffects.none)
             {
@@ -243,7 +245,8 @@ namespace FBG.Attack
         public  void isParalized(PokemonBase target, float prob)
         {
             if (!Chance_100(prob)) return;
-            if (checkTypes(target, Consts.Electric)) return;
+            if (checkTypes(target, Consts.Electric)) { return; }
+            if(target.hasSubstitute) { return; }
 
             if (target.status_A == nonVolitileStatusEffects.none)
             {
@@ -266,8 +269,9 @@ namespace FBG.Attack
         /// <param name="prob"></param>
         public  void isPosioned(PokemonBase target, float prob)
         {
-            if (!Chance_100(prob)) return;
-            if (checkTypes(target, Consts.Steel, Consts.Poison)) return;
+            if (!Chance_100(prob)) { return; }
+            if (checkTypes(target, Consts.Steel, Consts.Poison)) { return; }
+            if (target.hasSubstitute) { return; }
 
             if (target.status_A == nonVolitileStatusEffects.none)
             {
@@ -291,7 +295,9 @@ namespace FBG.Attack
         /// <param name="duration">duration pokemon is asleep for</param>
         public  void isSleep(PokemonBase target, float prob, int duration)
         {
-            if (!Chance_100(prob)) return;
+            if (!Chance_100(prob)) { return; }
+            if (target.hasSubstitute) { return; }
+
             if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.nvDur = duration + 1;
@@ -310,7 +316,8 @@ namespace FBG.Attack
 
         public  void isConfused(PokemonBase target, float prob, int duration)
         {
-            if (!Chance_100(prob)) return;
+            if (!Chance_100(prob)) { return; }
+            if (target.hasSubstitute) { return; }
 
             if (target.status_B == volitileStatusEffects.none)
             {
