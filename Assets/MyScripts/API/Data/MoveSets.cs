@@ -509,6 +509,9 @@ namespace FBG.Attack
         private static void attackLibrary()
         {
             //attackList.Add (new attacks ());
+            #region Attack Tests
+            attackList.Add(new attacks("Kill", Consts.Fairy, Consts.Special, 10000, 100, 10));
+            #endregion
 
             #region Attacks 1 - 25
             attackList.Add(new attacks("Absorb", Consts.Grass, Consts.Special, 20, 100, 25));

@@ -188,11 +188,16 @@ namespace FBG.Battle
             isTurnRunning = false;
             isRedSwapping = false;
             isBlueSwapping = false;
-            blueIndex = blueTeam.curIndex;
-            redIndex = redTeam.curIndex;
+            updatePokemonIndex();
             battleGUI.toggleTextPanel(false);
 
             print(string.Format("red team index: {0} blue team index {1}", redIndex, blueIndex));
+        }
+
+        public void updatePokemonIndex()
+        {
+            blueIndex = blueTeam.curIndex;
+            redIndex = redTeam.curIndex;
         }
 
         public void addMoveHistory(MoveResults res, PokemonBase attacker)

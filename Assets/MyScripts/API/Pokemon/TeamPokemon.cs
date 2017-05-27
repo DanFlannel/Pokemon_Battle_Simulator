@@ -50,6 +50,7 @@ namespace FBG.Base
             curIndex = index;
             enemyTeam.hasLeechSeed = false;
             pokemon[index].nvCurDur = 0;
+            sim.updatePokemonIndex();
             Debug.Log(string.Format("cur index: {0}, curpokemon: {1}", curIndex, curPokemon.Name));
         }
 
@@ -85,6 +86,8 @@ namespace FBG.Base
 
         public void takeTurn(int index, bool isSwapping, PokemonBase pkmn)
         {
+            Debug.LogWarning(string.Format("{0}'s turn", pkmn.Name));
+
             if (isSwapping)
             {
                 Debug.Log("Swapping Pokemon");
@@ -146,7 +149,7 @@ namespace FBG.Base
             if (pkmn.curHp <= 0)
             {
                 Debug.Log("Dead pokemon, prompting swap");
-                BattleSimulator.Instance.battleGUI.promptSwap(ref instance, true);
+                sim.battleGUI.promptSwap(ref instance, true);
                 hasLeechSeed = false;
                 return false;
             }
