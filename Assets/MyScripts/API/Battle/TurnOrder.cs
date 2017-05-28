@@ -13,12 +13,10 @@ namespace FBG.Battle
     {
         public List<TurnInformation> order;
         public List<TurnInformation> speedDetermined;
-        public bool swapped;
 
         public TurnOrder(List<TurnInformation> info)
         {
-            swapped = false;
-            if(info == null)
+            if (info == null)
             {
                 Debug.Log("info is null?");
             }
@@ -34,14 +32,13 @@ namespace FBG.Battle
             return combineSpeed_Priority(info, speedDetermined);
         }
 
-        private List<TurnInformation> adjustSwitching (List<TurnInformation> info)
+        private List<TurnInformation> adjustSwitching(List<TurnInformation> info)
         {
-            for(int i = 0; i < info.Count; i++)
+            for (int i = 0; i < info.Count; i++)
             {
                 if (info[i].isSwapping)
                 {
-                    info[i].priority = 6;
-                    swapped = true;
+                    info[i].priority = 10;
                 }
             }
             return info;
@@ -52,7 +49,7 @@ namespace FBG.Battle
             //create an upper and lower list (for positive and negative priorities)
             List<TurnInformation> upper = new List<TurnInformation>();
             List<TurnInformation> lower = new List<TurnInformation>();
-            
+
             //Add to those lists based on priority
             for (int i = 0; i < info.Count; i++)
             {
@@ -88,7 +85,7 @@ namespace FBG.Battle
             //do a basic speed ordering so our for loop works....
             info = basicSpeedSort(info);
             List<TurnInformation> final = new List<TurnInformation>();
-            for(int i = 0; i < info.Count; i++)
+            for (int i = 0; i < info.Count; i++)
             {
                 List<TurnInformation> tmp = shuffle(searchForSpeed(info[i].speed, info));
                 add(final, tmp);
@@ -102,7 +99,7 @@ namespace FBG.Battle
         public List<TurnInformation> speedOnly(params PokemonBase[] arr)
         {
             List<TurnInformation> info = new List<TurnInformation>();
-            for(int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
                 info.Add(new TurnInformation(arr[i], 0, false));
             }
@@ -143,16 +140,15 @@ namespace FBG.Battle
         private List<TurnInformation> searchForSpeed(int speed, List<TurnInformation> info)
         {
             List<TurnInformation> result = new List<TurnInformation>();
-            for(int i = 0; i < info.Count; i++)
+            for (int i = 0; i < info.Count; i++)
             {
-                if(info[i].speed == speed)
+                if (info[i].speed == speed)
                 {
                     result.Add(info[i]);
                 }
             }
             return result;
         }
-
 
         //BASIC SORT
 
@@ -193,7 +189,7 @@ namespace FBG.Battle
         //http://stackoverflow.com/questions/273313/randomize-a-listt
         private List<TurnInformation> shuffle(List<TurnInformation> list)
         {
-            if(list.Count == 1)
+            if (list.Count == 1)
             {
                 return list;
             }
@@ -215,13 +211,14 @@ namespace FBG.Battle
         }
 
         //adds t1 and t2 together
-        private List<TurnInformation> add(List<TurnInformation> t1, List<TurnInformation> t2){
-            if(t1 == null)
+        private List<TurnInformation> add(List<TurnInformation> t1, List<TurnInformation> t2)
+        {
+            if (t1 == null)
             {
                 t1 = new List<TurnInformation>();
             }
 
-            if(t2 == null || t2.Count == 0)
+            if (t2 == null || t2.Count == 0)
             {
                 return t1;
             }
@@ -235,13 +232,13 @@ namespace FBG.Battle
         //removes all of the instances of t2 in t1
         private List<TurnInformation> remove(List<TurnInformation> t1, List<TurnInformation> t2)
         {
-            if(t2 == null || t2.Count == 0)
+            if (t2 == null || t2.Count == 0)
             {
                 return t1;
             }
 
             List<TurnInformation> tmp = new List<TurnInformation>();
-            for(int i = 0; i < t1.Count; i++)
+            for (int i = 0; i < t1.Count; i++)
             {
                 if (!t2.Contains(t1[i]))
                 {

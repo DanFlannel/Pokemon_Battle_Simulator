@@ -341,12 +341,13 @@ namespace FBG.Base
         {
             for (int i = 0; i < enemyTeam.pokemon.Count; i++)
             {
-                if (enemyTeam.pokemon[i].curHp >= 0)
+                if (enemyTeam.pokemon[i].curHp > 0)
                 {
+                    Debug.Log("found a healthy pokemon");
                     return;
                 }
             }
-            Debug.Log(string.Format("{0} won!"));
+            Debug.Log(string.Format("{0} won!", teamName));
             //prompt victory panel
         }
     }

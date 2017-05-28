@@ -39,9 +39,16 @@ namespace FBG.Battle
         {
             for (int i = 0; i < swapBtns.Length; i++)
             {
-                if (swapBtns[i].GetComponentInChildren<Text>().text != sim.redTeam.pokemon[i].Name)
+                if (i < sim.teamSize)
                 {
-                    swapBtns[i].GetComponentInChildren<Text>().text = sim.redTeam.pokemon[i].Name;
+                    if (swapBtns[i].GetComponentInChildren<Text>().text != sim.redTeam.pokemon[i].Name)
+                    {
+                        swapBtns[i].GetComponentInChildren<Text>().text = sim.redTeam.pokemon[i].Name;
+                    }
+                }
+                else
+                {
+                    swapBtns[i].gameObject.SetActive(false);
                 }
             }
         }
@@ -97,7 +104,7 @@ namespace FBG.Battle
                 int index = team.getRndPokemon();
                 if(index == -1)
                 {
-                    Debug.Log("All enemies dead");
+                    //Debug.Log("All enemies dead");
                     return;
                 }
                 Debug.Log(string.Format("prompting enemy swap {0} ", index));
@@ -115,7 +122,7 @@ namespace FBG.Battle
 
         public void toggleSwapPanel()
         {
-            Debug.Log("Toggle swap panel");
+            //Debug.Log("Toggle swap panel");
             swapPanel.SetActive(!swapPanel.activeInHierarchy);
             updateSwapPanel();
         }

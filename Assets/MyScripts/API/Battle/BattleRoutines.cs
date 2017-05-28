@@ -40,11 +40,6 @@ namespace FBG.Battle
                 yield return StartCoroutine(pokemonMove(turn, i));
             }
 
-            if (turn.swapped)
-            {
-                info = turn.speedOnly(sim.redTeam.curPokemon, sim.blueTeam.curPokemon);
-            }
-
             for (int i = 0; i < turn.speedDetermined.Count; i++)
             {
                 yield return StartCoroutine(EndOfTurnPokemon(turn, i));
@@ -90,6 +85,7 @@ namespace FBG.Battle
         private IEnumerator EndOfTurnTeam(TeamPokemon team)
         {
             team.EndOfTurn();
+            team.victory();
             yield return StartCoroutine(queue.masterIEnumerator());
             yield return null;
         }
@@ -108,6 +104,8 @@ namespace FBG.Battle
         }
 
         #endregion
+
+        //tests
 
         public IEnumerator testWait(float sec)
         {
@@ -332,8 +330,10 @@ namespace FBG.Battle
 
         //Effects
 
-        public IEnumerator victory()
+        public IEnumerator victory(string team)
         {
+            string text = string.Format("{0} won!");
+            yield return StartCoroutine(displayText(text, 3f));
             yield return null;
         }
 
