@@ -27,7 +27,7 @@ namespace FBG.Attack
 
             atkName = checkCachedAttack(atkName, self); ;
 
-            Debug.LogWarning(string.Format(" {0} is using {1} on {2} ", self.Name, atkName, tar.Name));
+            Debug.LogWarning(string.Format(" {0} is using {1} ", self.Name, atkName));
 
             int atkIndex = getAttackListIndex(atkName);
             string atkCat = MoveSets.attackList[atkIndex].cat;

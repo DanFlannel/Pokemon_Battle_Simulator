@@ -83,6 +83,7 @@ namespace FBG.Battle
 
             pkmn.team.checkEffectors(pkmn);
             pkmn.team.endOfTurnDamage(pkmn);
+            pkmn.team.isAlive(pkmn.team.curPokemon);
             yield return null;
         }
 
