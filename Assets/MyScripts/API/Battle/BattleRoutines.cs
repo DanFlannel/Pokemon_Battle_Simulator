@@ -12,7 +12,6 @@ namespace FBG.Battle
 {
     public class BattleRoutines : MonoBehaviour
     {
-
         public CoroutineList queue;
         private GameObject reference;
         public BattleSimulator sim;
@@ -58,18 +57,8 @@ namespace FBG.Battle
         {
             PokemonBase pkmn = turn.order[i].pokemon;
             pkmn.team.takeTurn(turn.order[i].moveIndex, turn.order[i].isSwapping, pkmn);
-
-            //queue.AddCoroutineToQueue(testWait(1f));
-            //queue.AddCoroutineToQueue(testWait(1f));
-            //queue.AddCoroutineToQueue(testWait(1f));
-            //yield return new WaitUntil(() => queue.isQueueRunning() == false);
             yield return StartCoroutine(queue.masterIEnumerator());
 
-        }
-
-        public Coroutine waiting(float sec)
-        {
-            return StartCoroutine(testWait(sec));
         }
 
         private IEnumerator EndOfTurnPokemon(TurnOrder turn, int i)
@@ -107,7 +96,7 @@ namespace FBG.Battle
 
         //tests
 
-        public IEnumerator testWait(float sec)
+        public IEnumerator wait(float sec)
         {
             yield return new WaitForSeconds(sec);
             Debug.Log("waited " + sec + " seconds");
@@ -332,8 +321,9 @@ namespace FBG.Battle
 
         public IEnumerator victory(string team)
         {
-            string text = string.Format("{0} won!");
+            string text = string.Format("{0} won!", team);
             yield return StartCoroutine(displayText(text, 3f));
+            sim.battleGUI.toggleEndPanel(true);
             yield return null;
         }
 
@@ -448,21 +438,21 @@ namespace FBG.Battle
 
             if(delta <= -2)
             {
-                text = "decreased greatly";
+                text = "decreased greatly!";
             }else if (delta == -1)
             {
-                text = "decreased";
+                text = "decreased.";
             }else if(delta == 0)
             {
                 text = "";
                 Debug.Log("Error found a 0 delta");
             }else if(delta == 1)
             {
-                text = "increased";
+                text = "increased.";
             }
             else
             {
-                text = "increased greatly";
+                text = "increased greatly!";
             }
             return text;
         }

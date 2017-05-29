@@ -12,6 +12,8 @@ namespace FBG.Battle
         public Button[] atkBtns;
         public Button[] swapBtns;
         public GameObject swapPanel;
+        public GameObject endPanel;
+        public GameObject overlay;
         private BattleSimulator sim;
         public int swapIndex;
 
@@ -22,6 +24,8 @@ namespace FBG.Battle
             this.sim = sim;
             toggleSwapPanel(false);
             toggleTextPanel(false);
+            toggleEndPanel(false);
+            overlay.SetActive(false);
         }
 
         public void checkButtonNames(PokemonBase pkmon)
@@ -127,7 +131,7 @@ namespace FBG.Battle
             updateSwapPanel();
         }
 
-        private void toggleSwapPanel(bool b)
+        public void toggleSwapPanel(bool b)
         {
             swapPanel.SetActive(b);
             updateSwapPanel();
@@ -138,15 +142,28 @@ namespace FBG.Battle
             TextPanel.SetActive(!TextPanel.activeInHierarchy);
         }
 
+        public void toggleTextPanel(bool b)
+        {
+            TextPanel.SetActive(b);
+        }
+
+        public void toggleEndPanel()
+        {
+            endPanel.SetActive(!endPanel.activeInHierarchy);
+            overlay.SetActive(!overlay.activeInHierarchy);
+        }
+
+        public void toggleEndPanel(bool b)
+        {
+            endPanel.SetActive(b);
+            overlay.SetActive(b);
+        }
+
         public Text getDisplayText()
         {
             return TextPanel.GetComponentInChildren<Text>();
         }
 
-        public void toggleTextPanel(bool b)
-        {
-            TextPanel.SetActive(b);
-        }
 
         public void changePokemon_GUI(GifRenderer r, PokemonBase pkmn, int id)
         {

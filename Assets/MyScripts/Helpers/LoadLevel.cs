@@ -16,7 +16,7 @@ public class LoadLevel : MonoBehaviour {
     /// <param name="n">Scene number in the build heiarchy</param>
     public void loadDesignatedLevelInt(int n)
     {
-        Debug.Log("PK: Loading Designated Level" + n);
+        Debug.Log("Loading Designated Level" + n);
         Console.WriteLine("PK: Loading Designeted Level" + n);
         SceneManager.LoadScene(n);
     }
@@ -29,7 +29,7 @@ public class LoadLevel : MonoBehaviour {
     /// <param name="s">Name of the scene to load</param>
     public void loadDesignatedLevelString(string s)
     {
-        Debug.Log("PK: Loading Designated Level" + s);
+        Debug.Log("Loading Designated Level" + s);
         Console.WriteLine("PK: Loading Designeted Level" + s);
         SceneManager.LoadScene(s);
     }
