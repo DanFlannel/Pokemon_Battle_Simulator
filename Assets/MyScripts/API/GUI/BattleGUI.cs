@@ -164,7 +164,6 @@ namespace FBG.Battle
             return TextPanel.GetComponentInChildren<Text>();
         }
 
-
         public void changePokemon_GUI(GifRenderer r, PokemonBase pkmn, int id)
         {
             updatePokemonPanel(pkmn);

@@ -228,6 +228,7 @@ namespace FBG.Battle
             {
                 redMoveIndex = index;
                 isRedSwapping = true;
+                StartCoroutine(routine.takeTurn());
             }
             else
             {
