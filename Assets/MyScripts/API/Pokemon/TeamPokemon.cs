@@ -348,6 +348,7 @@ namespace FBG.Base
                 }
             }
             Debug.Log(string.Format("{0} won!", teamName));
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.victory(teamName));
             //prompt victory panel
         }
     }

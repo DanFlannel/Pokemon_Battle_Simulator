@@ -8,8 +8,8 @@ using UnityEngine.UI;
 /// </summary>
 public class RandomBackground : MonoBehaviour {
 
-    public Texture2D[] backgrounds;
-    private RawImage raw;
+    public Sprite[] backgrounds;
+    public Image img;
     private int rnd;
 
 	// Use this for initialization
@@ -19,8 +19,7 @@ public class RandomBackground : MonoBehaviour {
 
     private void setRndBackground()
     {
-        raw = this.GetComponent<RawImage>();
         rnd = UnityEngine.Random.Range(0, backgrounds.Length);
-        raw.texture = backgrounds[rnd];
+        img.sprite = backgrounds[rnd];
     }
 }
