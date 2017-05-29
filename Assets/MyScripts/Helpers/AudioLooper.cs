@@ -3,12 +3,10 @@ using System.Collections;
 
 public class AudioLooper : MonoBehaviour
 {
-
-    //Length is 196.7804 (battle song)
-    //the intro part is about 3.7 seconds
-    //loop from about 15 seconds in to 120
     public AudioClip clip;
-    public AudioSource aSource;
+    private AudioSource aSource;
+
+    public int[] levels;
 
     public bool loopedOnce;
     public bool finished;
