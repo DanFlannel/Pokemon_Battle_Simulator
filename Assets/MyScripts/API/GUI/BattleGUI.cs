@@ -47,7 +47,10 @@ namespace FBG.Battle
                 {
                     if (swapBtns[i].GetComponentInChildren<Text>().text != sim.redTeam.pokemon[i].Name)
                     {
-                        swapBtns[i].GetComponentInChildren<Text>().text = sim.redTeam.pokemon[i].Name;
+                        PokemonBase pkmn = sim.redTeam.pokemon[i];
+                        Transform t = swapBtns[i].transform;
+                        swapButton swapBtn = new Battle.swapButton(t.Find("Info"));
+                        swapBtn.update(pkmn);
                     }
                 }
                 else
@@ -179,6 +182,64 @@ namespace FBG.Battle
 
             float sliderValue = (float)pkmn.curHp / (float)pkmn.maxHP;
             gui.slider.value = sliderValue;
+        }
+    }
+
+    public class swapButton
+    {
+        public Button btn;
+        public Image icon;
+        public Text name;
+        public Text statusA;
+        public Text hp;
+        public Slider healthBar;
+        public Text atk1;
+        public Text atk2;
+        public Text atk3;
+        public Text atk4;
+        
+
+        public swapButton(Transform t)
+        {
+            btn = t.GetComponent<Button>();
+            if (t.Find("Icon"))
+            {
+                Debug.Log("found icon");
+            }
+            //icon = t.Find("Icon").GetComponent<Image>();
+            name = t.Find("Name").GetComponent<Text>();
+            statusA = t.Find("StatusA").GetComponent<Text>();
+            hp = t.Find("Health").GetComponent<Text>();
+            healthBar = t.Find("Healthbar").GetComponent<Slider>();
+            atk1 = t.Find("Attack1").GetComponent<Text>();
+            atk2 = t.Find("Attack2").GetComponent<Text>();
+            atk3 = t.Find("Attack3").GetComponent<Text>();
+            atk4 = t.Find("Attack4").GetComponent<Text>();
+        }
+
+        public void update(PokemonBase pkmn)
+        {
+            if(pkmn.curHp <= 0)
+            {
+                btn.interactable = false;
+            }
+            float hpValue = (pkmn.curHp / pkmn.maxHP);
+
+            name.text = pkmn.Name;
+            string statusAText = pkmn.status_A.ToString();
+            if (pkmn.status_A == nonVolitileStatusEffects.none)
+            {
+                statusAText = "";
+            }
+            statusA.text = statusAText;
+            hp.text = string.Format("{0}/{1}", pkmn.curHp, pkmn.maxHP);
+            healthBar.value = hpValue;
+
+            atk1.text = pkmn.atkMoves[0];
+            atk2.text = pkmn.atkMoves[1];
+            atk3.text = pkmn.atkMoves[2];
+            atk4.text = pkmn.atkMoves[3];
+
         }
     }
 }
