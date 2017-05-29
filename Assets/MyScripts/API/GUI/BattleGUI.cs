@@ -188,7 +188,7 @@ namespace FBG.Battle
     public class swapButton
     {
         public Button btn;
-        public Image icon;
+        public RawImage icon;
         public Text name;
         public Text statusA;
         public Text hp;
@@ -202,11 +202,8 @@ namespace FBG.Battle
         public swapButton(Transform t)
         {
             btn = t.GetComponent<Button>();
-            if (t.Find("Icon"))
-            {
-                Debug.Log("found icon");
-            }
-            //icon = t.Find("Icon").GetComponent<Image>();
+
+            icon = t.Find("Icon").GetComponent<RawImage>();
             name = t.Find("Name").GetComponent<Text>();
             statusA = t.Find("StatusA").GetComponent<Text>();
             hp = t.Find("Health").GetComponent<Text>();
@@ -240,6 +237,11 @@ namespace FBG.Battle
             atk3.text = pkmn.atkMoves[2];
             atk4.text = pkmn.atkMoves[3];
 
+            string path = string.Format("Icons/{0}", pkmn.ID);
+            object o = Resources.Load(path);
+            Texture2D img = o as Texture2D;
+            icon.texture = img;
+            //icon.sprite = img;
         }
     }
 }
