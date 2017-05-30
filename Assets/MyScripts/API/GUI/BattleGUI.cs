@@ -30,6 +30,7 @@ namespace FBG.Battle
             toggleEndPanel(false);
             overlay.SetActive(false);
             infoPanel = new swapInfoPanel(swapPanel.transform.Find("Info_Panel").gameObject);
+            infoPanel.update(sim.redTeam.pokemon[0]);
         }
 
         public void checkButtonNames(PokemonBase pkmon)
@@ -101,6 +102,11 @@ namespace FBG.Battle
 
         public void swapButton()
         {
+            if(swapIndex == sim.redTeam.curIndex)
+            {
+                toggleSwapPanel();
+                return;
+            }
             if (swapIndex != sim.redTeam.curIndex && sim.redTeam.pokemon[swapIndex].curHp > 0 && !sim.redTeam.isBound)
             {
                 sim.swapPokemon(sim.redTeam, swapIndex);
