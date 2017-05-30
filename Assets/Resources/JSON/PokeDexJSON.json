@@ -1107,7 +1107,7 @@
             "eggGroups": [ "Bug" ]
         },
         {
-            "name": "venomot",
+            "name": "venomoth",
             "num": 49,
             "species": "Venomoth",
             "types": [ "Bug", "Poison" ],
