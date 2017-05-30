@@ -143,7 +143,9 @@ namespace FBG.Battle
 
         public bool redTeamAttack(int index)
         {
-            ClearLog.ClearLogConsole();
+#if UNITY_EDITOR
+            //ClearLog.ClearLogConsole();
+#endif
             redMoveIndex = index;
             if(redTeam.curPokemon.curPP[index] < 0)
             {
