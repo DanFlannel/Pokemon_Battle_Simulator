@@ -8,32 +8,60 @@
   __What is it?__
   ---
 
-  The Pokemon Battle Simulator is a powerful yet lightweight generation 1 battle simulator. The goal origionally was to have a mobile version available to attack basic AI with all of the attack moves and any pokemon in the game. I am looking to release this on iPhone and Android. 
+  The Pokemon Battle Simulator is a powerful yet lightweight generation 1 battle simulator. The goal origionally was to have a mobile version available to attack basic AI with all of the attack moves and any pokemon in the game. It's current goal is a cross platform multiplayer generation 1 battle system open for expansion into other generations. I will be releasing in order, web, desktop platforms, mobile, VR/AR!
   
-  __What is left?__
+  __RoadMap__
   ---
+  __Version 1__
+  - [x] Create Pokemon Jsons
+  - [x] Do inital battle calculations
+  - [x] Generate Pokemon Stats
+  - [x] Create Randomly Generated Pokemon Teams with random moves
+  - [x] Make a basic AI to play agianst
+  - [x] Mock up the GUI
+  - [x] Create Sprite Sheetsfrom GIFs
+  - [x] Program all generation 1 moves
+  - [x] Test the pokemon moves
+  - [x] Add swapping features
+  - [x] Generate Turn order properly
+  - [x] Implement priorities
+  - [x] Add crit ratio stages
+  - [x] Testing and debugging
+  - [x] Create a better GUI
+  - [x] Final Testing
+  - [ ] Public Web Release
+  - [ ] Private distribution of mobile alpha
   
-  Above states that the ideal pokemon game will use sprites but due to the recent popularity of pokemon go, and VR, I would like to implement all of the pokemon models in VR, I have noticed they aren't rigged so while this poses a <b>major</b> issue, we will see how I move forward. What is left is a basic mobile version, with basic AI and functionality for both android and iPhone. There was a download previously, there isn't now because I finished a second rework of the API (4/1/2017), and want to incorporate the final UI features before releasing. Future goals include either (team building and networking) or (implementing the 2D game). After completion of the mobile versions and the battle simulator's completion, I will re-evaluate the project's goals moving forward.
+  **Figure out a patching system for mobile devices**
   
-  __The Latest Version__
-  ---
-
-  Origional Gist commits can be found [here](https://gist.github.com/DanFlannel/3a784369da08a71bdb85)
-
+  __Version 2__
+  - [ ] Determine appropriate networking solution
+  - [ ] Create Server System
+  - [ ] Create network players
+  - [ ] Send network messages
+  - [ ] Test network calculations
+  - [ ] Create network matchmaking
+  - [ ] Test matchmaking
+  - [ ] Test matches
+  - [ ] Add network match button
+  - [ ] Final testing
+  - [ ] Release
+  
   
   **Licensing**
   ---
 
   Please see the file called LICENSE.txt
 
-  
   **Downloading**
   ---  
-  You must have Unity 5 installed, the current version is being built 
-  on 5.5.2
-  
+  You must have Unity 5.6.1.1f or any version higher installed.
   You should save this in its own folder, then go under open project in
   unity and navigate to the main folder of this project.
+  
+  **Contributing**
+  ---
+  Message me at fatbobbygaming@gmail.com if you are interested in becoming a contributor
 
   
   
