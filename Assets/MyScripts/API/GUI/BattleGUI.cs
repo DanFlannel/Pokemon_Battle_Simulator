@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using FBG.Base;
 using FBG.Attack;
+using FBG.Data;
+using FBG.JSON;
 
 namespace FBG.Battle
 {
@@ -15,6 +17,7 @@ namespace FBG.Battle
         public GameObject endPanel;
         public GameObject overlay;
         private BattleSimulator sim;
+        private swapInfoPanel infoPanel;
         public int swapIndex;
 
         public GameObject TextPanel;
@@ -26,6 +29,7 @@ namespace FBG.Battle
             toggleTextPanel(false);
             toggleEndPanel(false);
             overlay.SetActive(false);
+            infoPanel = new swapInfoPanel(swapPanel.transform.Find("Info_Panel").gameObject);
         }
 
         public void checkButtonNames(PokemonBase pkmon)
@@ -86,6 +90,7 @@ namespace FBG.Battle
 
         public void selectSwapPokemon(int index)
         {
+            infoPanel.update(sim.redTeam.pokemon[index]);
             if (sim.redTeam.pokemon[index].curHp <= 0)
             {
                 Debug.Log("Selecting dead pokemon");
@@ -243,5 +248,45 @@ namespace FBG.Battle
             icon.texture = img;
             //icon.sprite = img;
         }
+    }
+
+    public class swapInfoPanel
+    {
+        public GameObject go;
+        public Text name;
+        public RawImage icon;
+        public Text type1;
+        public Text type2;
+        public Text weightValue;
+        public Text heightValue;
+
+        public swapInfoPanel(GameObject go)
+        {
+            Transform t = go.transform;
+            name = t.Find("Name").GetComponent<Text>();
+            icon = t.Find("Icon").GetComponent<RawImage>();
+            type1 = t.Find("Type1").GetComponent<Text>();
+            type2 = t.Find("Type2").GetComponent<Text>();
+            weightValue = t.Find("WeightValue").GetComponent<Text>();
+            heightValue = t.Find("HeightValue").GetComponent<Text>();
+        }
+
+        public void update(PokemonBase pkmn)
+        {
+            name.text = pkmn.Name;
+
+            string path = string.Format("Icons/{0}", pkmn.ID);
+            object o = Resources.Load(path);
+            Texture2D img = o as Texture2D;
+            icon.texture = img;
+
+            PokemonJsonData data = DexHolder.pokeDex.getData(pkmn.Name);
+            type1.text = pkmn.type1;
+            type2.text = pkmn.type2;
+
+            heightValue.text = string.Format("{0} m", data.height);
+            weightValue.text = string.Format("{0} kg", data.weight);
+        }
+
     }
 }

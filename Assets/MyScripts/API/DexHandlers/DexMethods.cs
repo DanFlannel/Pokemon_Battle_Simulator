@@ -129,5 +129,22 @@ namespace FBG.Data
             }
             return null;
         }
+
+        public static PokemonJsonData getData(this PokedexData p, int i)
+        {
+            return p.pokemon[i];
+        }
+
+        public static PokemonJsonData getData(this PokedexData p, string name)
+        {
+            for(int i = 0; i < p.pokemon.Length; i++)
+            {
+                if(p.pokemon[i].name.ToLower() == name.ToLower())
+                {
+                    return p.pokemon[i];
+                }
+            }
+            return null;
+        }
     }
 }
