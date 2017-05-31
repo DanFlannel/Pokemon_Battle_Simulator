@@ -20,7 +20,7 @@ namespace FBG.Base
         public List<PokemonBase> pokemon = new List<PokemonBase>();
 
         public int teamSize;
-        public int curIndex;
+        public int curIndex = 0;
 
         public string teamName;
 
@@ -36,6 +36,7 @@ namespace FBG.Base
 
             GUIHolder = gui;
             guiRef = new GUIReferences(GUIHolder);
+            guiRef.reset_status();
             SetupTeamEffects();
         }
 
@@ -227,7 +228,7 @@ namespace FBG.Base
         private void applyBindDamage(PokemonBase self)
         {
             if (!isBound) { return; }
-            if(self.team.bindDamage == 0) { return; }
+            if (self.team.bindDamage == 0) { return; }
             string text = "";
             int damage = Mathf.RoundToInt(bindDamage);
 
@@ -302,28 +303,21 @@ namespace FBG.Base
         /// <returns></returns>
         private bool nvHaltingEffect()
         {
-            if (curPokemon.status_A != nonVolitileStatusEffects.none)
+            nonVolitleMove nv = Utilities.isMoveHaltedByNV(curPokemon);
+            if (nv.text != "")
             {
-                nonVolitleMove nv = Utilities.isMoveHaltedByNV(curPokemon);
-                if (nv.text != "")
-                {
-                    sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(nv.text, 2f));
-                    Debug.Log(string.Format("Halted: {0} Text: {1}", nv.isAffected, nv.text));
-                }
-                if (nv.isAffected)
-                {
-                    return true;
-                }
-
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(nv.text, 2f));
+                Debug.Log(string.Format("NV TEXT: {0} Text: {1}", nv.isAffected, nv.text));
             }
-            return false;
+            guiRef.updateStatus_A(curPokemon);
+            return nv.isAffected;
         }
 
         public bool checkTeam()
         {
-            for(int i = 0; i < pokemon.Count; i++)
+            for (int i = 0; i < pokemon.Count; i++)
             {
-                if(pokemon[i].curHp > 0)
+                if (pokemon[i].curHp > 0)
                 {
                     return true;
                 }
@@ -377,17 +371,39 @@ namespace FBG.Base
 
     public class GUIReferences
     {
+        private Transform gui;
         public Text name;
         public Text level;
         public Text health;
         public Slider slider;
+        public Text status_a;
 
-        public GUIReferences(GameObject gui)
+        public GUIReferences(GameObject go)
         {
-            name = gui.transform.Find("Name").GetComponent<Text>();
-            level = gui.transform.Find("Level").GetComponent<Text>();
-            health = gui.transform.Find("HealthValue").GetComponent<Text>();
+            gui = go.transform;
+            name = gui.Find("Name").GetComponent<Text>();
+            level = gui.Find("Level").GetComponent<Text>();
+            health = gui.Find("HealthValue").GetComponent<Text>();
             slider = gui.GetComponentInChildren<Slider>();
+            status_a = gui.Find("Status_A").GetComponent<Text>();
+        }
+
+        //this should be redone
+        public void updateStatus_A(PokemonBase pkmn)
+        {
+            string text = pkmn.status_A.ToString();
+            if (pkmn.status_A == nonVolitileStatusEffects.none)
+            {
+                reset_status();
+                return;
+            }
+            status_a.text = string.Format("{0}", text);
+        }
+
+        public void reset_status()
+        {
+            string text = "";
+            status_a.text = text;
         }
     }
 }

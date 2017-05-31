@@ -30,6 +30,7 @@ namespace FBG.Battle
         private BattleSimulator sim;
         private swapInfoPanel swapInfo;
         private moveInfoPanel moveInfo;
+        private List<swapButton> swapBtnInfo = new List<swapButton>();
 
         public void setSimulator(ref BattleSimulator sim)
         {
@@ -69,7 +70,7 @@ namespace FBG.Battle
                     {
                         PokemonBase pkmn = sim.redTeam.pokemon[i];
                         Transform t = swapBtns[i].transform;
-                        swapButton swapBtn = new Battle.swapButton(t.Find("Info"));
+                        swapButton swapBtn = new swapButton(t.Find("Info"));
                         swapBtn.update(pkmn);
                     }
                 }
@@ -77,6 +78,20 @@ namespace FBG.Battle
                 {
                     swapBtns[i].gameObject.SetActive(false);
                 }
+            }
+        }
+
+        private void checkSwapInfoButtons(Transform t, string name)
+        {
+            bool contains = false;
+            for(int i = 0; i < swapBtnInfo.Count; i++)
+            {
+
+            }
+            if (!contains)
+            {
+                swapButton swapBtn = new swapButton(t.Find("Info"));
+                swapBtnInfo.Add(swapBtn);
             }
         }
 
@@ -259,17 +274,23 @@ namespace FBG.Battle
 
         public void update(PokemonBase pkmn)
         {
+            Debug.Log("called update");
             if(pkmn.curHp <= 0)
             {
                 btn.interactable = false;
             }
             float hpValue = (pkmn.curHp / pkmn.maxHP);
+            Debug.Log(string.Format("hp value: {0}", hpValue));
 
             name.text = pkmn.Name;
             string statusAText = pkmn.status_A.ToString();
             if (pkmn.status_A == nonVolitileStatusEffects.none)
             {
                 statusAText = "";
+            }
+            else
+            {
+                Debug.Log("Status Text not none");
             }
             statusA.text = statusAText;
             hp.text = string.Format("{0}/{1}", pkmn.curHp, pkmn.maxHP);

@@ -186,6 +186,16 @@ namespace FBG.Battle
 
             string text = string.Format("{0} is now {1}!", target, ending);
             yield return StartCoroutine(displayText(text, 2f));
+
+            if(target == sim.redTeam.curPokemon.Name)
+            {
+                sim.redTeam.guiRef.updateStatus_A(sim.redTeam.curPokemon);
+            }
+            else
+            {
+                sim.blueTeam.guiRef.updateStatus_A(sim.blueTeam.curPokemon);
+            }
+
             yield return null;
         }
 
