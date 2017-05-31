@@ -199,7 +199,7 @@ namespace FBG.Attack
             if (checkTypes(target, Consts.Fire)) { return; }
             if (target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none)
+            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
             {
                 target.status_A = nonVolitileStatusEffects.burned;
                 target.nvCurDur = 0;
@@ -207,7 +207,7 @@ namespace FBG.Attack
                 moveRes.statusEffect = nonVolitileStatusEffects.burned.ToString();
                 moveRes.statusTarget = target.Name;
             }
-            else
+            else if (target.status_A != nonVolitileStatusEffects.none)
             {
                 moveRes.failed = true;
             }
@@ -224,14 +224,14 @@ namespace FBG.Attack
             if (checkTypes(target, Consts.Ice)) { return; }
             if (target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none)
+            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
             {
                 target.status_A = nonVolitileStatusEffects.frozen;
                 Debug.Log(string.Format("{0} is now frozen", target.Name));
                 moveRes.statusEffect = nonVolitileStatusEffects.frozen.ToString();
                 moveRes.statusTarget = target.Name;
             }
-            else
+            else if (target.status_A != nonVolitileStatusEffects.none)
             {
                 moveRes.failed = true;
             }
@@ -248,7 +248,7 @@ namespace FBG.Attack
             if (checkTypes(target, Consts.Electric)) { return; }
             if(target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none)
+            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
             {
                 target.status_A = nonVolitileStatusEffects.paralized;
                 changeStats(Consts.speed, -6, target);
@@ -256,7 +256,7 @@ namespace FBG.Attack
                 moveRes.statusEffect = nonVolitileStatusEffects.paralized.ToString();
                 moveRes.statusTarget = target.Name;
             }
-            else
+            else if (target.status_A != nonVolitileStatusEffects.none)
             {
                 moveRes.failed = true;
             }
@@ -273,7 +273,7 @@ namespace FBG.Attack
             if (checkTypes(target, Consts.Steel, Consts.Poison)) { return; }
             if (target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none)
+            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
             {
                 target.status_A = nonVolitileStatusEffects.poisioned;
                 target.nvCurDur = 0;
@@ -281,7 +281,7 @@ namespace FBG.Attack
                 moveRes.statusEffect = nonVolitileStatusEffects.poisioned.ToString();
                 moveRes.statusTarget = target.Name;
             }
-            else
+            else if (target.status_A != nonVolitileStatusEffects.none)
             {
                 moveRes.failed = true;
             }
@@ -298,7 +298,7 @@ namespace FBG.Attack
             if (!Chance_100(prob)) { return; }
             if (target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none)
+            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
             {
                 target.nvDur = duration + 1;
                 target.status_A = nonVolitileStatusEffects.sleep;
@@ -306,7 +306,7 @@ namespace FBG.Attack
                 moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
                 moveRes.statusTarget = target.Name;
             }
-            else
+            else if(target.status_A != nonVolitileStatusEffects.none)
             {
                 moveRes.failed = true;
             }
