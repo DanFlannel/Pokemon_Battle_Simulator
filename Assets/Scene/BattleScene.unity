@@ -3697,10 +3697,12 @@ MonoBehaviour:
   - {fileID: 44806489}
   - {fileID: 1495597060}
   swapPanel: {fileID: 808244892}
+  movePanel: {fileID: 137739173}
   endPanel: {fileID: 34460677}
   overlay: {fileID: 844619584}
+  textPanel: {fileID: 1535260020}
+  moveIndex: 0
   swapIndex: 0
-  TextPanel: {fileID: 1535260020}
 --- !u!114 &589560786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3713,7 +3715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTurnRunning: 0
-  teamSize: 6
+  teamSize: 1
   redIndex: 0
   blueIndex: 0
   moveHistory: []
@@ -4637,10 +4639,10 @@ RectTransform:
   m_Father: {fileID: 1264468408}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.062469006, y: 0.12491}
-  m_SizeDelta: {x: 1920, y: 1125.3}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &844619586
 MonoBehaviour:
@@ -8665,7 +8667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1535260021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8713,10 +8715,10 @@ RectTransform:
   m_Father: {fileID: 1264468408}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.12499, y: -450.98}
-  m_SizeDelta: {x: 1920, y: 223.05}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.5, y: -488.47995}
+  m_SizeDelta: {x: 0, y: -976.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1554217715
 GameObject:
