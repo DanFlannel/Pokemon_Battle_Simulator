@@ -183,7 +183,7 @@
         },
 
         {
-            "name": " wartortle",
+            "name": "wartortle",
             "num": 8,
             "species": "Wartortle",
             "types": [ "Water" ],
@@ -890,7 +890,7 @@
             "eggGroups": [ "Field" ]
         },
         {
-            "name": "jigglypuf",
+            "name": "jigglypuff",
             "num": 39,
             "species": "Jigglypuff",
             "types": [ "Normal", "Fairy" ],
