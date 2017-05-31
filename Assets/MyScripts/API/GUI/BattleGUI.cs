@@ -12,15 +12,24 @@ namespace FBG.Battle
     public class BattleGUI : MonoBehaviour
     {
         public Button[] atkBtns;
+
+        [Header("Swap info")]
         public Button[] swapBtns;
         public GameObject swapPanel;
+        
+        [Header("Panels")]
+        public GameObject movePanel;
         public GameObject endPanel;
         public GameObject overlay;
-        private BattleSimulator sim;
-        private swapInfoPanel infoPanel;
+        public GameObject textPanel;
+
+        [Header("Info")]
+        public int moveIndex;
         public int swapIndex;
 
-        public GameObject TextPanel;
+        private BattleSimulator sim;
+        private swapInfoPanel swapInfo;
+        private moveInfoPanel moveInfo;
 
         public void setSimulator(ref BattleSimulator sim)
         {
@@ -29,8 +38,14 @@ namespace FBG.Battle
             toggleTextPanel(false);
             toggleEndPanel(false);
             overlay.SetActive(false);
-            infoPanel = new swapInfoPanel(swapPanel.transform.Find("Info_Panel").gameObject);
-            infoPanel.update(sim.redTeam.pokemon[0]);
+
+            moveIndex = -1;
+
+            swapInfo = new swapInfoPanel(swapPanel.transform.Find("Info_Panel").gameObject);
+            swapInfo.update(sim.redTeam.pokemon[0]);
+
+            moveInfo = new moveInfoPanel(movePanel);
+            moveInfo.reset();
         }
 
         public void checkButtonNames(PokemonBase pkmon)
@@ -82,16 +97,29 @@ namespace FBG.Battle
                 return;
             }
 
-            if (!sim.redTeamAttack(index))
+            moveInfo.update(sim.redTeam.curPokemon, index);
+            if(moveIndex != index)
             {
+                moveIndex = index;
                 return;
             }
-            sim.blueTeamAttack();
+
+            if (!checkPP(index)) { return; }
+            sim.redTeamAttack(index);
+        }
+
+        private bool checkPP(int index)
+        {
+            if(sim.redTeam.curPokemon.curPP[index] > 0)
+            {
+                return true;
+            }
+            return false;
         }
 
         public void selectSwapPokemon(int index)
         {
-            infoPanel.update(sim.redTeam.pokemon[index]);
+            swapInfo.update(sim.redTeam.pokemon[index]);
             if (sim.redTeam.pokemon[index].curHp <= 0)
             {
                 Debug.Log("Selecting dead pokemon");
@@ -153,12 +181,12 @@ namespace FBG.Battle
 
         public void toggleTextPanel()
         {
-            TextPanel.SetActive(!TextPanel.activeInHierarchy);
+            textPanel.SetActive(!textPanel.activeInHierarchy);
         }
 
         public void toggleTextPanel(bool b)
         {
-            TextPanel.SetActive(b);
+            textPanel.SetActive(b);
         }
 
         public void toggleEndPanel()
@@ -175,7 +203,7 @@ namespace FBG.Battle
 
         public Text getDisplayText()
         {
-            return TextPanel.GetComponentInChildren<Text>();
+            return textPanel.GetComponentInChildren<Text>();
         }
 
         public void changePokemon_GUI(GifRenderer r, PokemonBase pkmn, int id)
@@ -294,5 +322,42 @@ namespace FBG.Battle
             weightValue.text = string.Format("{0} kg", data.weight);
         }
 
+    }
+
+    public class moveInfoPanel
+    {
+        public Transform panel;
+        public Text pp;
+        public Text type;
+        public Text cat;
+
+        public moveInfoPanel(GameObject go)
+        {
+            this.panel = go.transform;
+            pp = panel.Find("PP").GetComponent<Text>();
+            type = panel.Find("Type").GetComponent<Text>();
+            cat = panel.Find("Category").GetComponent<Text>();
+        }
+
+        public void update(PokemonBase pkmn, int index)
+        {
+            if(index == -1)
+            {
+                reset();
+                return;
+            }
+
+            pp.text = string.Format("PP: {0}/{1}", pkmn.curPP[index], pkmn.maxPP[index]);
+            attacks atk = DexHolder.attackDex.getAttack(pkmn.atkMoves[index]);
+            type.text = atk.type;
+            cat.text = atk.cat;
+        }
+
+        public void reset()
+        {
+            pp.text = "PP: ";
+            type.text = "Type";
+            cat.text = "Category";
+        }
     }
 }

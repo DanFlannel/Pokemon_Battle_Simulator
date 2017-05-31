@@ -192,6 +192,7 @@ namespace FBG.Battle
             isBlueSwapping = false;
             updatePokemonIndex();
             battleGUI.toggleTextPanel(false);
+            battleGUI.moveIndex = -1;
 
             print(string.Format("red team index: {0} blue team index {1}", redIndex, blueIndex));
         }
