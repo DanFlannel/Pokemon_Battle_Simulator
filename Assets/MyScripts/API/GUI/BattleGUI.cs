@@ -34,18 +34,18 @@ namespace FBG.Battle
         public void setSimulator(ref BattleSimulator sim)
         {
             this.sim = sim;
+            moveIndex = -1;
+
+            swapInfo = new swapInfoPanel(swapPanel.transform.Find("Info_Panel").gameObject);
+            swapInfo.update(sim.redTeam.curPokemon);
+
+            moveInfo = new moveInfoPanel(movePanel);
+            moveInfo.reset();
+
             toggleSwapPanel(false);
             toggleTextPanel(false);
             toggleEndPanel(false);
             overlay.SetActive(false);
-
-            moveIndex = -1;
-
-            swapInfo = new swapInfoPanel(swapPanel.transform.Find("Info_Panel").gameObject);
-            swapInfo.update(sim.redTeam.pokemon[0]);
-
-            moveInfo = new moveInfoPanel(movePanel);
-            moveInfo.reset();
         }
 
         public void checkButtonNames(PokemonBase pkmon)
@@ -168,15 +168,16 @@ namespace FBG.Battle
 
         public void toggleSwapPanel()
         {
-            //Debug.Log("Toggle swap panel");
             swapPanel.SetActive(!swapPanel.activeInHierarchy);
             updateSwapPanel();
+            swapInfo.update(sim.redTeam.curPokemon);
         }
 
         public void toggleSwapPanel(bool b)
         {
             swapPanel.SetActive(b);
             updateSwapPanel();
+            swapInfo.update(sim.redTeam.curPokemon);
         }
 
         public void toggleTextPanel()
