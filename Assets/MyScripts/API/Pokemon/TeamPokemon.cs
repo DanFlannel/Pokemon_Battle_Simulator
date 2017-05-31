@@ -227,11 +227,12 @@ namespace FBG.Base
         private void applyBindDamage(PokemonBase self)
         {
             if (!isBound) { return; }
-            string ending = "";
+            if(self.team.bindDamage == 0) { return; }
             string text = "";
             int damage = Mathf.RoundToInt(bindDamage);
-            ending = "bind";
-            text = string.Format("{0} was hurt by {1}", self.Name, ending);
+
+            text = string.Format("{0} was hurt by {1}", self.Name, self.team.bindName);
+
             Debug.Log(string.Format("Applying bind damage: {0} to {1}", bindDamage, self.Name));
 
             sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 2f));
@@ -318,6 +319,18 @@ namespace FBG.Base
             return false;
         }
 
+        public bool checkTeam()
+        {
+            for(int i = 0; i < pokemon.Count; i++)
+            {
+                if(pokemon[i].curHp > 0)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public void generateRandomTeam()
         {
             corePokemonData data;
@@ -350,9 +363,15 @@ namespace FBG.Base
                     return;
                 }
             }
-            Debug.Log(string.Format("{0} won!", teamName));
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.victory(teamName));
-            //prompt victory panel
+
+            string text = string.Format("{0} won!");
+            if (!checkTeam())
+            {
+                text = "It's a draw!";
+            }
+            Debug.Log(string.Format("{0}", text));
+
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.victory(text));
         }
     }
 

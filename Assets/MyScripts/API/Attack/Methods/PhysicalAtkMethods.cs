@@ -50,7 +50,7 @@ namespace FBG.Attack
         {
             int rnd = Random.Range(4, 5);
             float bindDmg = target.maxHP / 16f;
-            target.team.addBind(rnd, bindDmg);
+            target.team.addBind(rnd, bindDmg, "bind");
         }
 
         public void bite(PokemonBase target)
@@ -77,7 +77,7 @@ namespace FBG.Attack
         {
             int rnd = Random.Range(4, 5);
             float clampDmg = target.maxHP / 16f;
-            target.team.addBind(rnd, clampDmg);
+            target.team.addBind(rnd, clampDmg, "clamp");
         }
 
         public float cometPunch(string name)
@@ -464,7 +464,7 @@ namespace FBG.Attack
         {
             int rnd = Random.Range(4, 5);
             int dmg = (int)(target.curHp / 16f);
-            target.team.addBind(rnd, dmg);
+            target.team.addBind(rnd, dmg, "wrap");
 
         }
     }

@@ -94,7 +94,7 @@ public class SpecialAtkMethods : BaseMoves
     {
         int rnd = Random.Range(4, 5);
         float fSpingDmg = target.maxHP / 16f;
-        target.team.addBind(rnd, fSpingDmg);
+        target.team.addBind(rnd, fSpingDmg, "fire spin");
     }
 
     public void flameThrower(PokemonBase target)

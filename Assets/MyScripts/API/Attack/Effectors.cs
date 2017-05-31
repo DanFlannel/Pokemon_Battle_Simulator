@@ -39,7 +39,7 @@ namespace FBG.Attack
 
         public void turnEffect()
         {
-            target.team.addBind(1, 0);
+            target.team.addBind(1, 0, name);
             target.nextAttack = name;
             duration--;
         }

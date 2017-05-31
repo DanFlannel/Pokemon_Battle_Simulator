@@ -144,11 +144,14 @@ namespace FBG.Battle
 
         public void promptSwap(ref TeamPokemon team, bool isForced)
         {
+            //there are no pokemon left on the team so we are waiting until the end of the turn
+            if (!team.checkTeam()) { return; }
+
             Debug.Log("Called prompt swap");
-            if(team == sim.blueTeam)
+            if (team == sim.blueTeam)
             {
                 int index = team.getRndPokemon();
-                if(index == -1)
+                if (index == -1)
                 {
                     //Debug.Log("All enemies dead");
                     return;

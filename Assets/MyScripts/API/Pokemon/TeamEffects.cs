@@ -19,6 +19,7 @@ namespace FBG.Base
 
         public int bindDuration;
         public float bindDamage;
+        public string bindName;
 
         public void addMist()
         {
@@ -43,13 +44,14 @@ namespace FBG.Base
             reflectDur = dur;
         }
 
-        public void addBind(int dur, float dmg)
+        public void addBind(int dur, float dmg, string name)
         {
             if (isBound) { return; }
 
             isBound = true;
             bindDuration = dur;
             bindDamage = dmg;
+            bindName = name;
         }
 
         private void reduceLightScreen()

@@ -319,9 +319,8 @@ namespace FBG.Battle
 
         //Effects
 
-        public IEnumerator victory(string team)
+        public IEnumerator victory(string text)
         {
-            string text = string.Format("{0} won!", team);
             yield return StartCoroutine(displayText(text, 3f));
             sim.battleGUI.toggleEndPanel(true);
             yield return null;
