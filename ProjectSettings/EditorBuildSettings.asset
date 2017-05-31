@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scene/MainMenu.unity
     guid: 4c0008a51c6532848a29021b8d6c58ae
   - enabled: 1
-    path: Assets/Scene/battleSim_API_Test.unity
-    guid: 7127c5b4aa3829a4ab8ead7f7ad14fcc
+    path: Assets/Scene/BattleScene.unity
+    guid: cf1fb3202aaa91843919c66d029804ff
   - enabled: 1
     path: Assets/Scene/Credits.unity
     guid: 03aa22020410ef845b2ab6a04fb55885
