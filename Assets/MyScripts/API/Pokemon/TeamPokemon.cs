@@ -189,7 +189,11 @@ namespace FBG.Base
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.criticalHit());
                 }
             }
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
+
+            if (move.dmgReport.damage != 0)
+            {
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
+            }
         }
 
         private void applyHeal(MoveResults move)
