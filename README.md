@@ -30,7 +30,13 @@
   - [x] Create a better GUI
   - [x] Final Testing
   - [ ] Public Web Release
-  - [ ] Private distribution of mobile alpha
+  - [ ] Private distribution of android alpha
+  - [ ] Private distribution of IOS alpha
+  
+  __Version 1 Post Mortem__
+  - [ ] Documentation
+  - [ ] Refactor Attack Calculator
+  - [ ] Refactor where neccessary
   
   **Figure out a patching system for mobile devices**
   
