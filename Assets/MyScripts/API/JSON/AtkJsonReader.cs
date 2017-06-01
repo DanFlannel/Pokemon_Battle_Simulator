@@ -39,7 +39,7 @@ namespace FBG.JSON
             sw.Start();
 
             AttackData a = JsonUtility.FromJson<AttackData>(jsonFile.text);
-            //debugJson(a);
+            debugJson(a);
             sw.Stop();
             UnityEngine.Debug.Log("time to create atk json in ms: " + sw.ElapsedMilliseconds);
             return a;
@@ -52,9 +52,9 @@ namespace FBG.JSON
             for (int i = 0; i < a.attacks.Length; i++)
             {
                 //UnityEngine.Debug.Log(string.Format("{0} {1}",i, a.attacks[i].name));
-                if (a.attacks[i].critRatio != 0)
+                if (a.attacks[i].priority != 0)
                 {
-                    //UnityEngine.Debug.Log(string.Format("num: {0} name: {1} crit: {2}", a.attacks[i].num, a.attacks[i].name, a.attacks[i].critRatio));
+                    UnityEngine.Debug.Log(string.Format("num: {0} name: {1} priority: {2}", a.attacks[i].num, a.attacks[i].name, a.attacks[i].priority));
                     index++;
                 }
             }
