@@ -1957,7 +1957,7 @@ GameObject:
   - component: {fileID: 268598660}
   - component: {fileID: 268598659}
   m_Layer: 0
-  m_Name: Helper
+  m_Name: Helpers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
