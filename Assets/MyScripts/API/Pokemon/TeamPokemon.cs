@@ -52,6 +52,7 @@ namespace FBG.Base
             enemyTeam.hasLeechSeed = false;
             pokemon[index].nvCurDur = 0;
             sim.updatePokemonIndex();
+            sim.updateGUI(ref instance);
             Debug.Log(string.Format("cur index: {0}, curpokemon: {1}", curIndex, curPokemon.Name));
         }
 
@@ -91,9 +92,7 @@ namespace FBG.Base
 
             if (isSwapping)
             {
-                Debug.Log("Swapping Pokemon");
-                swap(index);
-                BattleSimulator.Instance.updateGUI(ref instance);
+                Debug.Log("Turn Move is swapping");
                 return;
             }
 
@@ -353,7 +352,7 @@ namespace FBG.Base
             {
                 if (enemyTeam.pokemon[i].curHp > 0)
                 {
-                    Debug.Log("found a healthy pokemon");
+                    //Debug.Log("found a healthy pokemon");
                     return;
                 }
             }

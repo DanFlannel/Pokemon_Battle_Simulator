@@ -194,7 +194,7 @@ namespace FBG.Battle
             battleGUI.toggleTextPanel(false);
             battleGUI.moveIndex = -1;
 
-            print(string.Format("red team index: {0} blue team index {1}", redIndex, blueIndex));
+            //print(string.Format("red team index: {0} blue team index {1}", redIndex, blueIndex));
         }
 
         public void updatePokemonIndex()
@@ -225,19 +225,28 @@ namespace FBG.Battle
             battleGUI.changePokemon_GUI(r, team.curPokemon, team.curPokemon.ID);
         }
 
-        public void swapPokemon(TeamPokemon team, int index)
+        public void swapPokemon(TeamPokemon team, int index, bool ignoreTurn)
         {
+            print(string.Format("{0} is swapping to {1} ignore: {2}", team.teamName, index, ignoreTurn));
             if (team == redTeam)
             {
                 redMoveIndex = index;
                 isRedSwapping = true;
-                StartCoroutine(routine.takeTurn());
+                if (!ignoreTurn)
+                {
+                    StartCoroutine(routine.takeTurn());
+                }
+                else
+                {
+                    team.swap(index);
+                }
             }
             else
             {
                 blueMoveIndex = index;
                 isBlueSwapping = true;
             }
+            battleGUI.ignoreTurn = false;
         }
     }
 }

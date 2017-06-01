@@ -15,6 +15,7 @@ namespace FBG.Battle
         public CoroutineList queue;
         private GameObject reference;
         public BattleSimulator sim;
+        public bool swapInput;
 
         public void Initalize(ref BattleSimulator sim)
         {
@@ -22,6 +23,7 @@ namespace FBG.Battle
             reference = new GameObject();
             reference.name = "CoroutineHelper";
             queue = reference.AddComponent<CoroutineList>();
+            swapInput = false;
         }
 
         public IEnumerator takeTurn()
@@ -63,7 +65,9 @@ namespace FBG.Battle
 
         private IEnumerator EndOfTurnPokemon(TurnOrder turn, int i)
         {
+
             PokemonBase pkmn = turn.speedDetermined[i].pokemon;
+            Debug.LogWarning(string.Format("{0}'s end of turn", pkmn.Name));
 
             pkmn.team.checkEffectors(pkmn);
             pkmn.team.endOfTurnDamage(pkmn);

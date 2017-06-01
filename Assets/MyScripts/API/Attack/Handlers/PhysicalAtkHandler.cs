@@ -44,6 +44,17 @@ namespace FBG.Attack
                     Debug.LogError("No physical attack with name " + name.ToLower() + " found");
                     break;
 
+#region Testing Attacks
+                //.. Testing Attacks
+                case "kill":
+                    kill();
+                    break;
+
+                case "kill all":
+                    killAll();
+                    break;
+#endregion
+
                 case "barrage":
                     damage = barrage(name);
                     break;

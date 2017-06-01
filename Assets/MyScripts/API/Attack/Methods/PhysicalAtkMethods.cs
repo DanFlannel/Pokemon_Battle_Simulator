@@ -7,6 +7,17 @@ namespace FBG.Attack
 {
     public class PhysicalAtkMethods : BaseMoves
     {
+        //testing attacks
+        public void kill() {
+            damage = 1000;
+        }
+
+        public void killAll()
+        {
+            damage = 1000;
+            recoil = 1000;
+        }
+
         public float barrage(string name)
         {
             return multiAttack(Random.Range(2, 5), name);
