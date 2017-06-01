@@ -1957,7 +1957,7 @@ GameObject:
   - component: {fileID: 268598660}
   - component: {fileID: 268598659}
   m_Layer: 0
-  m_Name: Helpers
+  m_Name: Helper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3777,6 +3777,7 @@ MonoBehaviour:
   textPanel: {fileID: 1535260020}
   moveIndex: 0
   swapIndex: 0
+  ignoreTurn: 0
 --- !u!114 &589560786
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -54,7 +54,7 @@ namespace FBG.JSON
                 //UnityEngine.Debug.Log(string.Format("{0} {1}",i, a.attacks[i].name));
                 if (a.attacks[i].priority != 0)
                 {
-                    UnityEngine.Debug.Log(string.Format("num: {0} name: {1} priority: {2}", a.attacks[i].num, a.attacks[i].name, a.attacks[i].priority));
+                    //UnityEngine.Debug.Log(string.Format("num: {0} name: {1} priority: {2}", a.attacks[i].num, a.attacks[i].name, a.attacks[i].priority));
                     index++;
                 }
             }
