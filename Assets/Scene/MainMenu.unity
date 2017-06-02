@@ -1020,10 +1020,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 1b93a212f582c2f4b9c095fcd15cc78e, type: 3}
   levels: 01000000
-  loopedOnce: 0
-  finished: 0
+  offset: 1
   loopStart: 4
   loopEnd: 72
+  curValue: 0
 --- !u!82 &1625888472
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1206,10 +1206,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 87fc5c2d2585a224e937d169ee1e182d, type: 3}
   levels: 0000000002000000
-  loopedOnce: 0
-  finished: 0
+  offset: 0
   loopStart: 4
-  loopEnd: 47
+  loopEnd: 47.5
+  curValue: 0
 --- !u!82 &1992529713
 AudioSource:
   m_ObjectHideFlags: 0

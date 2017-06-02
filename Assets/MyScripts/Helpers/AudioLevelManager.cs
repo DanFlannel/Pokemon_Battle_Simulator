@@ -40,7 +40,7 @@ public class AudioLevelManager : MonoBehaviour {
                     enable = true;
                 }
             }
-            gos[i].SetActive(enable);
+            al.enabled = enable;
         }
     }
 }

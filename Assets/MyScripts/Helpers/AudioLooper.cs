@@ -8,34 +8,32 @@ public class AudioLooper : MonoBehaviour
 
     public int[] levels;
 
-    public bool loopedOnce;
-    public bool finished;
-
+    public float offset;
     public float loopStart;
     public float loopEnd;
+    public float curValue;
+
+    private Coroutine routine;
 
     // Use this for initialization
-    void Start()
+    void OnEnable()
     {
         aSource = this.GetComponent<AudioSource>();
-        StartRoutine();
+        startAudio();
+    }
+
+    private void OnDisable()
+    {
+        stopAudio();
+        aSource.clip = null;
     }
 
     void Update()
     {
-        if (finished)
-        {
-            StartRoutine();
-        }
+        checkLoop();
     }
 
-    public void StartRoutine()
-    {
-        finished = false;
-        StartCoroutine(loopThis(loopStart, loopEnd));
-    }
-
-    public float Normalized(float n)
+    private float Normalized(float n)
     {
         float normalized;
 
@@ -44,30 +42,25 @@ public class AudioLooper : MonoBehaviour
         return normalized;
     }
 
-    IEnumerator loopThis(float TimeFrom, float TimeTo)
+    public void startAudio()
     {
         aSource.clip = clip;
-        if (loopedOnce)
+        aSource.Play();
+        aSource.time = offset;
+        //Debug.Log(string.Format("Audio starting at: {0}s", offset));
+    }
+
+    public void checkLoop()
+    {
+        curValue = aSource.time;
+        if(aSource.time > loopEnd)
         {
             aSource.time = loopStart;
         }
-        else
-        {
-            aSource.time = 0;
-            TimeFrom = 0;
-        }
+    }
 
-        loopedOnce = true;
-        if (!aSource.isPlaying)
-        {
-            aSource.Play();
-            yield return new WaitForSeconds(TimeTo - TimeFrom);
-            Debug.Log("Stopped the clip!");
-            aSource.Stop();
-            finished = true;
-        }
-
-        
-        yield return null;
+    public void stopAudio()
+    {
+        aSource.Stop();
     }
 }
