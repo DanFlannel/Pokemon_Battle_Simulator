@@ -53,6 +53,7 @@ namespace FBG.Base
             pokemon[index].nvCurDur = 0;
             sim.updatePokemonIndex();
             sim.updateGUI(ref instance);
+            string text = string.Format("go {0}!", pokemon[index].Name);
             Debug.Log(string.Format("cur index: {0}, curpokemon: {1}", curIndex, curPokemon.Name));
         }
 
@@ -92,6 +93,7 @@ namespace FBG.Base
 
             if (isSwapping)
             {
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.swapPokemon(curPokemon, index));
                 Debug.Log("Turn Move is swapping");
                 return;
             }

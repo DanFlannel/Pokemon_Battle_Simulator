@@ -313,8 +313,16 @@ namespace FBG.Battle
             yield return null;
         }
 
-        public IEnumerator swapPokemon()
+        public IEnumerator swapPokemon(PokemonBase cur, int index)
         {
+            string text = string.Format("{0} return.", cur.Name);
+            yield return StartCoroutine(displayText(text, 2f));
+
+            cur.team.swap(index);
+
+            text = string.Format("Go {0}!", cur.team.pokemon[index].Name);
+            yield return StartCoroutine(displayText(text, 2f));
+
             yield return null;
         }
 

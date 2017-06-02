@@ -79,7 +79,7 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
-  gpuSkinning: 1
+  gpuSkinning: 0
   graphicsJobs: 0
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
@@ -121,7 +121,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.52
+  bundleVersion: 1.01
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -146,7 +146,7 @@ PlayerSettings:
     tvOS: com.FatBobbyGaming.PokeProject
   buildNumber:
     iOS: 0
-  AndroidBundleVersionCode: 52
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
@@ -220,8 +220,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/danfl/Documents/GitHub/Pokemon_Battle_Simulator/Assets/Editor/PokeProject.keystore
-  AndroidKeyaliasName: libby
+  AndroidKeystoreName: C:/Users/danfl/Documents/GitHub/Pokemon_Battle_Simulator/Assets/Documentation/user.keystore
+  AndroidKeyaliasName: pokemon
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   androidEnableBanner: 1
@@ -669,12 +669,12 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 1
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 4c33e643-281b-45b6-9bba-915f4679557b
+  projectName: "Pok\xE9 Project"
+  organizationId: fat-bobby-gaming
   cloudEnabled: 0
   enableNewInputSystem: 0
