@@ -389,6 +389,16 @@ namespace FBG.Base
             status_a = gui.Find("Status_A").GetComponent<Text>();
         }
 
+        public void update(PokemonBase pkmn)
+        {
+            name.text = pkmn.Name;
+            level.text = string.Format("LVL {0}", pkmn.Level);
+            health.text = string.Format("{0}/{1}", pkmn.curHp, pkmn.maxHP);
+            updateStatus_A(pkmn);
+            float sliderValue = (float)pkmn.curHp / (float)pkmn.maxHP;
+            slider.value = sliderValue;
+        }
+
         //this should be redone
         public void updateStatus_A(PokemonBase pkmn)
         {

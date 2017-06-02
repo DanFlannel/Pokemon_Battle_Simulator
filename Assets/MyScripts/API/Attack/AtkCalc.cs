@@ -34,13 +34,15 @@ namespace FBG.Attack
             string atkType = MoveSets.attackList[atkIndex].type;
             int accuracy = MoveSets.attackList[atkIndex].accuracy;
 
+            //need to rethink this before damage report!
             MR.hit = checkAccuracy_and_Hit(self, tar, atkName, accuracy, atkCat);
+            MR.hit = checkSemiInvulnerable(MR);
 
             float baseDamage = GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
 
             MR.dmgReport = GenDmgReport(atkName, atkCat, baseDamage, tar, self, MR);
 
-            MR.hit = checkSemiInvulnerable(MR);
+
             return MR;
         }
 

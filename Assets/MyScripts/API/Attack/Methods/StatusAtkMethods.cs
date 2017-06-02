@@ -440,7 +440,7 @@ public class StatusAtkMethods : BaseMoves
             moveRes.ignoreSemiInvulerable = true;
         }
 
-        if (target.status_A == nonVolitileStatusEffects.none)
+        if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
         {
             target.status_A = nonVolitileStatusEffects.toxic;
             target.nvCurDur = 0;
@@ -448,7 +448,7 @@ public class StatusAtkMethods : BaseMoves
             moveRes.statusEffect = nonVolitileStatusEffects.toxic.ToString();
             moveRes.statusTarget = target.Name;
         }
-        else
+        else if (target.status_A != nonVolitileStatusEffects.none)
         {
             moveRes.failed = true;
         }

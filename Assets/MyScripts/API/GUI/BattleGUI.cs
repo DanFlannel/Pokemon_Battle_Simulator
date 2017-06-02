@@ -70,13 +70,12 @@ namespace FBG.Battle
             {
                 if (i < sim.teamSize)
                 {
-                    if (swapBtns[i].GetComponentInChildren<Text>().text != sim.redTeam.pokemon[i].Name)
-                    {
+ 
                         PokemonBase pkmn = sim.redTeam.pokemon[i];
                         Transform t = swapBtns[i].transform;
                         swapButton swapBtn = new swapButton(t.Find("Info"));
                         swapBtn.update(pkmn);
-                    }
+                    
                 }
                 else
                 {
@@ -232,7 +231,7 @@ namespace FBG.Battle
 
         public void changePokemon_GUI(GifRenderer r, PokemonBase pkmn, int id)
         {
-            updatePokemonPanel(pkmn);
+            pkmn.team.guiRef.update(pkmn);
             r.ChangeSprite(pkmn.Name, id);
         }
 
@@ -279,13 +278,13 @@ namespace FBG.Battle
 
         public void update(PokemonBase pkmn)
         {
-            Debug.Log("called update");
+            //Debug.Log("called update");
             if(pkmn.curHp <= 0)
             {
                 btn.interactable = false;
             }
-            float hpValue = (pkmn.curHp / pkmn.maxHP);
-            Debug.Log(string.Format("hp value: {0}", hpValue));
+            float hpValue = (float)pkmn.curHp / (float)pkmn.maxHP;
+            //Debug.Log(string.Format("hp value: {0}", hpValue));
 
             name.text = pkmn.Name;
             string statusAText = pkmn.status_A.ToString();
