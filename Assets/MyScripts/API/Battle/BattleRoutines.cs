@@ -329,6 +329,12 @@ namespace FBG.Battle
             yield return null;
         }
 
+        public IEnumerator forcedSwap(PokemonBase cur, int index)
+        {
+            yield return StartCoroutine(swapPokemon(cur, index));
+            sim.battleGUI.toggleTextPanel(false);
+        }
+
         /// <summary>
         /// Displaying the fainted text
         /// </summary>

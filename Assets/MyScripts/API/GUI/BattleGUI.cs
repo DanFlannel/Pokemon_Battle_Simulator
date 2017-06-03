@@ -16,7 +16,7 @@ namespace FBG.Battle
         [Header("Swap info")]
         public Button[] swapBtns;
         public GameObject swapPanel;
-        
+
         [Header("Panels")]
         public GameObject movePanel;
         public GameObject endPanel;
@@ -33,7 +33,6 @@ namespace FBG.Battle
         private BattleSimulator sim;
         private swapInfoPanel swapInfo;
         private moveInfoPanel moveInfo;
-        private List<swapButton> swapBtnInfo = new List<swapButton>();
 
         public void setSimulator(ref BattleSimulator sim)
         {
@@ -70,31 +69,15 @@ namespace FBG.Battle
             {
                 if (i < sim.teamSize)
                 {
- 
-                        PokemonBase pkmn = sim.redTeam.pokemon[i];
-                        Transform t = swapBtns[i].transform;
-                        swapButton swapBtn = new swapButton(t.Find("Info"));
-                        swapBtn.update(pkmn);
-                    
+                    PokemonBase pkmn = sim.redTeam.pokemon[i];
+                    Transform t = swapBtns[i].transform;
+                    swapButton swapBtn = new swapButton(t.Find("Info"));
+                    swapBtn.update(pkmn);
                 }
                 else
                 {
                     swapBtns[i].gameObject.SetActive(false);
                 }
-            }
-        }
-
-        private void checkSwapInfoButtons(Transform t, string name)
-        {
-            bool contains = false;
-            for(int i = 0; i < swapBtnInfo.Count; i++)
-            {
-
-            }
-            if (!contains)
-            {
-                swapButton swapBtn = new swapButton(t.Find("Info"));
-                swapBtnInfo.Add(swapBtn);
             }
         }
 
@@ -116,7 +99,7 @@ namespace FBG.Battle
             }
 
             moveInfo.update(sim.redTeam.curPokemon, index);
-            if(moveIndex != index)
+            if (moveIndex != index)
             {
                 moveIndex = index;
                 return;
@@ -128,7 +111,7 @@ namespace FBG.Battle
 
         private bool checkPP(int index)
         {
-            if(sim.redTeam.curPokemon.curPP[index] > 0)
+            if (sim.redTeam.curPokemon.curPP[index] > 0)
             {
                 return true;
             }
@@ -148,7 +131,7 @@ namespace FBG.Battle
 
         public void swapButton()
         {
-            if(swapIndex == sim.redTeam.curIndex)
+            if (swapIndex == sim.redTeam.curIndex)
             {
                 toggleSwapPanel();
                 return;
@@ -162,7 +145,7 @@ namespace FBG.Battle
 
         public void promptSwap(ref TeamPokemon team, bool ignore)
         {
-            //there are no pokemon left on the team so we are waiting until the end of the turn
+            //there are no pokemon left on the team so we are waiting until the end of the turn for the victory to play out
             if (!team.checkTeam()) { return; }
 
             Debug.Log("Called prompt swap");
@@ -259,11 +242,11 @@ namespace FBG.Battle
         public Text atk2;
         public Text atk3;
         public Text atk4;
-        
+
 
         public swapButton(Transform t)
         {
-            btn = t.GetComponent<Button>();
+            btn = t.parent.GetComponent<Button>();
 
             icon = t.Find("Icon").GetComponent<RawImage>();
             name = t.Find("Name").GetComponent<Text>();
@@ -279,7 +262,7 @@ namespace FBG.Battle
         public void update(PokemonBase pkmn)
         {
             //Debug.Log("called update");
-            if(pkmn.curHp <= 0)
+            if (pkmn.curHp <= 0)
             {
                 btn.interactable = false;
             }
@@ -370,7 +353,7 @@ namespace FBG.Battle
 
         public void update(PokemonBase pkmn, int index)
         {
-            if(index == -1)
+            if (index == -1)
             {
                 reset();
                 return;

@@ -159,7 +159,7 @@ namespace FBG.Base
 
         private void applyDamage(MoveResults move)
         {
-            if (move.statusAEffect != nonVolitileStatusEffects.none)
+            if (move.statusAEffect != nonVolitileStatusEffects.none && move.hit.sucess)
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(move.statusTarget, move.statusAEffect));
             }
@@ -176,6 +176,7 @@ namespace FBG.Base
                 {
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.substituteHit(enemyTeam.curPokemon));
                     enemyTeam.curPokemon.substituteHealth -= move.dmgReport.damage;
+
                     if (enemyTeam.curPokemon.substituteHealth <= 0)
                     {
                         sim.routine.queue.AddCoroutineToQueue(sim.routine.substituteFaded(enemyTeam.curPokemon));
@@ -189,10 +190,7 @@ namespace FBG.Base
                 {
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.criticalHit());
                 }
-            }
 
-            if (move.dmgReport.damage != 0)
-            {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
             }
         }
@@ -358,7 +356,7 @@ namespace FBG.Base
                 }
             }
 
-            string text = string.Format("{0} won!");
+            string text = string.Format("{0} won!", teamName);
             if (!checkTeam())
             {
                 text = "It's a draw!";

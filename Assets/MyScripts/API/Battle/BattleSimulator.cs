@@ -231,14 +231,15 @@ namespace FBG.Battle
             if (team == redTeam)
             {
                 redMoveIndex = index;
-                isRedSwapping = true;
                 if (!ignoreTurn)
                 {
+                    isRedSwapping = true;
                     StartCoroutine(routine.takeTurn());
                 }
                 else
                 {
-                    team.swap(index);
+                    StartCoroutine(routine.forcedSwap(team.curPokemon, index));
+                    //team.swap(index);
                 }
             }
             else
