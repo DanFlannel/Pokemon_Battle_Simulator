@@ -8,11 +8,6 @@ public class MoveResults
     public string name;
 
     /// <summary>
-    /// Did the attack hit
-    /// </summary>
-    public bool hit;
-
-    /// <summary>
     /// Did the attack crit
     /// </summary>
     public bool crit;
@@ -35,32 +30,26 @@ public class MoveResults
     /// <summary>
     /// the name of the status affect affed during the move
     /// </summary>
-    public string statusEffect;
+    public nonVolitileStatusEffects statusEffect;
 
     /// <summary>
     /// name of the pokemon being affected by the status effect
     /// </summary>
     public string statusTarget;
 
-    /// <summary>
-    /// boolean for weather the moves ignores the semi invulnerable status of the target pokemon
-    /// </summary>
-    public bool ignoreSemiInvulerable;
-
-    public HitProbability hitChance;
+    public HitProbability hit;
 
     public MoveResults(PokemonBase self, PokemonBase target, string s)
     {
         name = s;
 
-        hit = false;
         crit = false;
         flinched = false;
         failed = false;
 
-        statusEffect = "";
+        statusEffect = nonVolitileStatusEffects.none;
         statusTarget = "";
 
-        hitChance = new HitProbability(self, target, name);
+        hit = new HitProbability(self, target, name);
     }
 }

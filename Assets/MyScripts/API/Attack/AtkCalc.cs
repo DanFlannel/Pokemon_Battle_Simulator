@@ -30,18 +30,13 @@ namespace FBG.Attack
             Debug.LogWarning(string.Format(" {0} is using {1} ", self.Name, atkName));
 
             int atkIndex = getAttackListIndex(atkName);
-            string atkCat = MoveSets.attackList[atkIndex].cat;
-            string atkType = MoveSets.attackList[atkIndex].type;
-            int accuracy = MoveSets.attackList[atkIndex].accuracy;
-
-            //need to rethink this before damage report!
-            MR.hit = checkAccuracy_and_Hit(self, tar, atkName, accuracy, atkCat);
-            MR.hit = checkSemiInvulnerable(MR);
+            string atkCat = DexHolder.attackDex.getAttack(atkName).cat;
+            string atkType = DexHolder.attackDex.getAttack(atkName).type;
+            MR.crit = new CritCalculator(self, atkName).sucess;
 
             float baseDamage = GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
 
             MR.dmgReport = GenDmgReport(atkName, atkCat, baseDamage, tar, self, MR);
-
 
             return MR;
         }
@@ -215,11 +210,8 @@ namespace FBG.Attack
             }
 
             float critical = 1f;
-            int critProb = critChance(self, atkName);
-            //Debug.Log("Crit chance: 1 /" + critProb);
-            bool crit = isCrit(critProb);
-            mr.crit = crit;
-            if (crit)
+
+            if (mr.crit)
             {
                 Debug.Log("Critical HIT!");
                 critical = 1.5f;
@@ -310,19 +302,6 @@ namespace FBG.Attack
         }
 
         /// <summary>
-        /// Takes the index or location of the pokemon in the attack list so we can fetch the base attack power for that attack
-        /// <param name="index">the index of the move in the list of attacks</param>
-        /// <returns> the base damage of the move</returns>
-        /// </summary>
-        private static float baseAttackPower(int index)
-        {
-            float base_damage = 0;
-            base_damage = (float)MoveSets.attackList[index].power;
-            //Debug.Log("Base Damage: " + base_damage);
-            return base_damage;
-        }
-
-        /// <summary>
         ///  checks if the current attack is a STAB type attack or same type attack
         /// <param name="attackType">the attack type of the move being passed in</param>
         /// <param name="isPlayer">a boolean to see if the player is using the move or the enemy</param>
@@ -405,175 +384,6 @@ namespace FBG.Attack
                     break;
             }
             return modifier;
-        }
-
-        /// <summary>
-        /// This method takes in the acuracy of the pokemon and calculates if it hits or not and returns a boolean
-        /// value based on if it hits
-        /// <param name="accuracy">the accuracy of the move being passed in</param>
-        /// <returns>true if the move hit, false if it missed</returns>
-        /// </summary>
-        private static bool checkAccuracy_and_Hit(PokemonBase self, PokemonBase tar, string atkName, int accuracy, string cat)
-        {
-            if (cat == Consts.Status)
-            {
-                //Debug.Log("Status move, no accuracy check");
-                return true;
-            }
-
-            if (accuracy == 0)
-            {
-                Debug.Log("Has 0 accuracy: " + atkName);
-                return true;
-            }
-
-            float accStage = self.acc_stage;
-            float accMod = accStage + 3f;
-            if (accStage >= 1)
-            {
-                accMod *= 100;
-                accMod /= 3f;
-            }
-            else
-            {
-                accMod = 300f / accMod;
-
-            }
-
-            float evadeStage = tar.evasive_stage;
-            float evadeMod = evadeStage + 3;
-
-            if (evadeStage >= 1)
-            {
-                evadeMod = 300f / evadeMod;
-            }
-            else
-            {
-                evadeMod *= 100;
-                evadeMod /= 3f;
-            }
-
-            float prob = (accuracy) * (accMod / evadeMod);
-            if (ignoreAcc_Evade(atkName))
-            {
-                prob = accuracy;
-            }
-
-            //Debug.Log(string.Format("move acc {0} self acc {1} target evasion {2} total probability {3} * {4} = {5}", accuracy, accMod, evadeMod, (accuracy), (accMod / evadeMod), prob));
-
-            if (prob >= 100)
-            {
-                return true;
-            }
-            return Utilities.probability(prob, 100f);
-        }
-
-        /// <summary>
-        /// Calculates the 1/16 chance every move has for getting a critical strike
-        /// <param name="chance">the chance probability either (1/8) or (1/16)</param>
-        /// <returns>true if the move crit, false if it did not</returns>
-        ///</summary>
-        private static bool isCrit(int chance)
-        {
-            float divider = 1f / (float)chance;
-            divider *= 100f;
-            //Debug.Log("crit chance: " + divider);
-            return Utilities.probability(divider, 100f);
-        }
-
-        /// <summary>
-        /// Handles the crit ratio of the pokemon and of the attack move
-        /// </summary>
-        /// <param name="atkName"> the name of the attack</param>
-        /// <returns>the crit chance of the move either (1/8) or (1/16)</returns>
-        private static int critChance(PokemonBase self, string atkName)
-        {
-            int stage = self.critRatio_stage;
-            if (DexHolder.attackDex == null)
-            {
-                Debug.Log("Null attack dex?");
-            }
-            int atkratio = DexHolder.attackDex.GetCirtRatio(atkName);
-            int total = stage + atkratio;
-            int final;
-
-            if (atkratio != 0 || stage != 0)
-            {
-                Debug.Log(string.Format("stage: {0} attackRatio: {1} final: {2}", stage, atkratio, total));
-            }
-
-            switch (total)
-            {
-                default:
-                    final = 16;
-                    break;
-
-                case 0:
-                    final = 16;
-                    break;
-
-                case 1:
-                    final = 8;
-                    break;
-
-                case 2:
-                    final = 2;
-                    break;
-
-                case 3:
-                    final = 1;
-                    break;
-
-                case 4:
-                    final = 1;
-                    break;
-
-                case 5:
-                    final = 1;
-                    break;
-
-                case 6:
-                    final = 1;
-                    break;
-
-            }
-            return final;
-        }
-
-        /// <summary>
-        /// This checks if we ignore accuracy and evasion, simply using a string array that we define
-        /// </summary>
-        /// <param name="atkName"></param>
-        /// <returns></returns>
-        private static bool ignoreAcc_Evade(string atkName)
-        {
-            string name = atkName.ToLower();
-
-            string[] ignoreMoves = { "swift", "fissure", "guillotine", "horn drill" };
-            for (int i = 0; i < ignoreMoves.Length; i++)
-            {
-                if (name == ignoreMoves[i])
-                {
-                    Debug.Log("This move ignores accuracy and evasion");
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        /// <summary>
-        /// This checks for the semi-invulnerable condition (flying, undergouround ect...) and if the move ignores it.
-        /// </summary>
-        /// <param name="mr">move results</param>
-        /// <returns>a bool determining if the pokemon move hit</returns>
-        private static bool checkSemiInvulnerable(MoveResults mr)
-        {
-            bool hitCheck = mr.hit;
-            if (targetPokemon.position != pokemonPosition.normal)
-            {
-                hitCheck = mr.hit && mr.ignoreSemiInvulerable;
-            }
-            return hitCheck;
         }
     }
 }
