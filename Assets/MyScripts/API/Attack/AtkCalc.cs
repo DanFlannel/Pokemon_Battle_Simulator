@@ -21,7 +21,7 @@ namespace FBG.Attack
         /// </summary>
         public static MoveResults calculateAttack(PokemonBase tar, PokemonBase self, string atkName)
         {
-            MoveResults MR = new MoveResults(atkName);
+            MoveResults MR = new MoveResults(self, tar, atkName);
             targetPokemon = tar;
             thisPokemon = self;
 
@@ -72,14 +72,14 @@ namespace FBG.Attack
         /// <param name="self"></param>
         /// <param name="atkName"></param>
         /// <returns></returns>
-        public static float GenBaseDamage(PokemonBase self, string atkName)
+        public static float GenBaseDamage(string atkName)
         {
             int atkIndex = getAttackListIndex(atkName);
             string atkCat = MoveSets.attackList[atkIndex].cat;
             string atkType = MoveSets.attackList[atkIndex].type;
-            MoveResults MR = new MoveResults(atkName);
+            MoveResults MR = new MoveResults(thisPokemon, targetPokemon, atkName);
 
-            return GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
+            return GenBaseDamage(atkName, atkCat, atkType, atkIndex, thisPokemon, MR);
         }
 
         private static move_DmgReport GenDmgReport(string atkName, string atkCat, float baseDamage, PokemonBase tar, PokemonBase self, MoveResults MR)
@@ -559,7 +559,6 @@ namespace FBG.Attack
                 }
             }
             return false;
-
         }
 
         /// <summary>

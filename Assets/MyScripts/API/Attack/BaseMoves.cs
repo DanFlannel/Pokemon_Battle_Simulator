@@ -179,7 +179,7 @@ namespace FBG.Attack
             float damage = 0;
             for (int i = 0; i < rnd; i++)
             {
-                damage += AtkCalc.GenBaseDamage(AtkCalc.thisPokemon, name);
+                damage += AtkCalc.GenBaseDamage(name);
             }
             Debug.Log(string.Format("Hit {0} times", rnd));
             return damage;

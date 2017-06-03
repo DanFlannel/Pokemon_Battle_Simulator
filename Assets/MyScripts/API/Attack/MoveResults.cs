@@ -1,4 +1,6 @@
-﻿public class MoveResults
+﻿using FBG.Base;
+
+public class MoveResults
 {
     /// <summary>
     /// Name of the attack move
@@ -45,7 +47,9 @@
     /// </summary>
     public bool ignoreSemiInvulerable;
 
-    public MoveResults(string s)
+    public HitProbability hitChance;
+
+    public MoveResults(PokemonBase self, PokemonBase target, string s)
     {
         name = s;
 
@@ -57,7 +61,6 @@
         statusEffect = "";
         statusTarget = "";
 
-        ignoreSemiInvulerable = false;
-
+        hitChance = new HitProbability(self, target, name);
     }
 }
