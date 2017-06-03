@@ -199,12 +199,12 @@ namespace FBG.Attack
             if (checkTypes(target, Consts.Fire)) { return; }
             if (target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.status_A = nonVolitileStatusEffects.burned;
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now burned", target.Name));
-                moveRes.statusEffect = nonVolitileStatusEffects.burned.ToString();
+                moveRes.statusAEffect = nonVolitileStatusEffects.burned;
                 moveRes.statusTarget = target.Name;
             }
             else if (target.status_A != nonVolitileStatusEffects.none)
@@ -224,11 +224,11 @@ namespace FBG.Attack
             if (checkTypes(target, Consts.Ice)) { return; }
             if (target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.status_A = nonVolitileStatusEffects.frozen;
                 Debug.Log(string.Format("{0} is now frozen", target.Name));
-                moveRes.statusEffect = nonVolitileStatusEffects.frozen.ToString();
+                moveRes.statusAEffect = nonVolitileStatusEffects.frozen;
                 moveRes.statusTarget = target.Name;
             }
             else if (target.status_A != nonVolitileStatusEffects.none)
@@ -248,12 +248,12 @@ namespace FBG.Attack
             if (checkTypes(target, Consts.Electric)) { return; }
             if(target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.status_A = nonVolitileStatusEffects.paralized;
                 changeStats(Consts.speed, -6, target);
                 Debug.Log(string.Format("{0} is now paralized", target.Name));
-                moveRes.statusEffect = nonVolitileStatusEffects.paralized.ToString();
+                moveRes.statusAEffect = nonVolitileStatusEffects.paralized;
                 moveRes.statusTarget = target.Name;
             }
             else if (target.status_A != nonVolitileStatusEffects.none)
@@ -273,12 +273,12 @@ namespace FBG.Attack
             if (checkTypes(target, Consts.Steel, Consts.Poison)) { return; }
             if (target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.status_A = nonVolitileStatusEffects.poisioned;
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now poisoned", target.Name));
-                moveRes.statusEffect = nonVolitileStatusEffects.poisioned.ToString();
+                moveRes.statusAEffect = nonVolitileStatusEffects.poisioned;
                 moveRes.statusTarget = target.Name;
             }
             else if (target.status_A != nonVolitileStatusEffects.none)
@@ -298,12 +298,12 @@ namespace FBG.Attack
             if (!Chance_100(prob)) { return; }
             if (target.hasSubstitute) { return; }
 
-            if (target.status_A == nonVolitileStatusEffects.none && moveRes.hit)
+            if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.nvDur = duration + 1;
                 target.status_A = nonVolitileStatusEffects.sleep;
                 Debug.Log(string.Format("{0} is now asleep", target.Name));
-                moveRes.statusEffect = nonVolitileStatusEffects.sleep.ToString();
+                moveRes.statusAEffect = nonVolitileStatusEffects.sleep;
                 moveRes.statusTarget = target.Name;
             }
             else if(target.status_A != nonVolitileStatusEffects.none)
@@ -323,7 +323,7 @@ namespace FBG.Attack
             {
                 target.status_B = volitileStatusEffects.confused;
                 Debug.Log(string.Format("{0} is now confused", target.Name));
-                moveRes.statusEffect = volitileStatusEffects.confused.ToString();
+                moveRes.statusBEffect = volitileStatusEffects.confused;
                 moveRes.statusTarget = target.Name;
             }
         }
@@ -337,7 +337,7 @@ namespace FBG.Attack
             {
                 target.status_B = volitileStatusEffects.infatuated;
                 Debug.Log(string.Format("{0} is now infatuated", target.Name));
-                moveRes.statusEffect = volitileStatusEffects.infatuated.ToString();
+                moveRes.statusBEffect = volitileStatusEffects.infatuated;
                 moveRes.statusTarget = target.Name;
             }
         }
@@ -389,13 +389,7 @@ namespace FBG.Attack
             ignoreLightScreen = true;
             ignoreReflect = true;
 
-            int acc = target.Level - self.Level + 30;
-            if (Chance_100(acc))
-            {
-                return target.maxHP;
-            }
-            mr.hit = false;
-            return 0;
+            return target.maxHP;
         }
 
         public float levelBasedDamage(PokemonBase target)

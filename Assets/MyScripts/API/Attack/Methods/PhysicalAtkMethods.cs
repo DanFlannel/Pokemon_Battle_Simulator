@@ -25,8 +25,6 @@ namespace FBG.Attack
 
         public float bide(PokemonBase self, float baseDamage)
         {
-            moveRes.ignoreSemiInvulerable = true;
-
             if (self.atkStatus == attackStatus.normal)
             {
                 self.cachedDamage += (baseDamage * 2f);
@@ -178,11 +176,11 @@ namespace FBG.Attack
 
         public void earthQuake(PokemonBase target, float baseDamage)
         {
+            moveRes.hit.ignore(pokemonPosition.underground);
             damage = baseDamage;
             if (target.position == pokemonPosition.underground)
             {
                 damage *= 2f;
-                moveRes.ignoreSemiInvulerable = true;
             }
         }
 
@@ -197,10 +195,7 @@ namespace FBG.Attack
 
         public float fissure(PokemonBase target, PokemonBase self, MoveResults moveRes)
         {
-            if (target.position == pokemonPosition.underground)
-            {
-                moveRes.ignoreSemiInvulerable = true;
-            }
+            moveRes.hit.ignore(pokemonPosition.underground);
             return oneHitKO(target, self, moveRes);
         }
 
@@ -251,7 +246,7 @@ namespace FBG.Attack
         }
 
         public void highJumpKick(PokemonBase target) {
-            if (!moveRes.hit)
+            if (!moveRes.hit.sucess)
             {
                 recoil = target.maxHP / 2f;
             }
@@ -275,7 +270,7 @@ namespace FBG.Attack
         }
 
         public void jumpKick(PokemonBase target) {
-            if (!moveRes.hit)
+            if (!moveRes.hit.sucess)
             {
                 recoil = target.maxHP / 2f;
             }

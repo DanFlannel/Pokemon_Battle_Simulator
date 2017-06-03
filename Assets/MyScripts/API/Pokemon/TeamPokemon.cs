@@ -53,7 +53,6 @@ namespace FBG.Base
             pokemon[index].nvCurDur = 0;
             sim.updatePokemonIndex();
             sim.updateGUI(ref instance);
-            string text = string.Format("go {0}!", pokemon[index].Name);
             Debug.Log(string.Format("cur index: {0}, curpokemon: {1}", curIndex, curPokemon.Name));
         }
 
@@ -125,7 +124,7 @@ namespace FBG.Base
                 }
             }
 
-            if (!move.failed && move.hit)
+            if (!move.failed && move.hit.sucess)
             {
                 applyDamage(move);
                 applyHeal(move);
@@ -138,7 +137,7 @@ namespace FBG.Base
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.failedMove());
             }
 
-            if (!move.hit && !move.failed)
+            if (!move.hit.sucess && !move.failed)
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.missed(curPokemon));
             }
@@ -160,9 +159,9 @@ namespace FBG.Base
 
         private void applyDamage(MoveResults move)
         {
-            if (move.statusEffect != "")
+            if (move.statusAEffect != nonVolitileStatusEffects.none)
             {
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(move.statusTarget, move.statusEffect));
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(move.statusTarget, move.statusAEffect));
             }
 
             if (move.flinched)

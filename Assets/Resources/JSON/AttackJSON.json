@@ -7952,6 +7952,7 @@
       "pp": 10,
       "priority": 0,
       "flags": [ "snatch", "heal" ],
+      "target":  "self",
       "type": "Psychic",
       "contestType": "Cute"
     },

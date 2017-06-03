@@ -1,4 +1,5 @@
 ﻿using FBG.Base;
+using UnityEngine;
 
 public class MoveResults
 {
@@ -30,7 +31,9 @@ public class MoveResults
     /// <summary>
     /// the name of the status affect affed during the move
     /// </summary>
-    public nonVolitileStatusEffects statusEffect;
+    public nonVolitileStatusEffects statusAEffect;
+
+    public volitileStatusEffects statusBEffect;
 
     /// <summary>
     /// name of the pokemon being affected by the status effect
@@ -47,9 +50,10 @@ public class MoveResults
         flinched = false;
         failed = false;
 
-        statusEffect = nonVolitileStatusEffects.none;
+        statusAEffect = nonVolitileStatusEffects.none;
         statusTarget = "";
 
         hit = new HitProbability(self, target, name);
+        Debug.Log(string.Format("Hit calcualted: {0}", hit.sucess));
     }
 }

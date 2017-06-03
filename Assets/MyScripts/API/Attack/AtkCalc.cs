@@ -33,6 +33,7 @@ namespace FBG.Attack
             string atkCat = DexHolder.attackDex.getAttack(atkName).cat;
             string atkType = DexHolder.attackDex.getAttack(atkName).type;
             MR.crit = new CritCalculator(self, atkName).sucess;
+            
 
             float baseDamage = GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
 
@@ -82,17 +83,18 @@ namespace FBG.Attack
             move_DmgReport report = new move_DmgReport();
             switch (atkCat)
             {
-
                 case Consts.Status:
                     Debug.Log("Status Move");
                     StatusAtkHandler statAtk = new StatusAtkHandler(tar, self, ref MR);
                     report = statAtk.result(atkName);
                     break;
+
                 case Consts.Physical:
                     Debug.Log("Physical Move");
                     PhysicalAtkHandler physAtk = new PhysicalAtkHandler(tar, self, ref MR);
                     report = physAtk.result(atkName, baseDamage);
                     break;
+
                 case Consts.Special:
                     Debug.Log("Special Move");
                     SpecialAtkHandler spAtk = new SpecialAtkHandler(tar, self, ref MR);

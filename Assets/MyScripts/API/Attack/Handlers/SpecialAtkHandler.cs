@@ -186,7 +186,7 @@ namespace FBG.Attack
             }
             //Check for lightscreen to halve special attack damage
 
-            Debug.Log(string.Format(" dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4} hit {5}", damage, heal, recoil, stageName, stageDiff, moveRes.hit));
+            Debug.Log(string.Format(" dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4} hit {5}", damage, heal, recoil, stageName, stageDiff, moveRes.hit.sucess));
 
             if (target.team.hasLightScreen && !ignoreLightScreen)
             {

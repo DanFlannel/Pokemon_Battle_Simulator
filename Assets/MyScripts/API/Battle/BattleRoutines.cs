@@ -174,16 +174,16 @@ namespace FBG.Battle
         /// Text that is shown when the target pokemon gets a new on volitle status effect
         /// </summary>
         /// <param name="target">target pokemon</param>
-        /// <param name="statusName">name of the non volitle status</param>
+        /// <param name="status">name of the non volitle status</param>
         /// <returns></returns>
-        public IEnumerator addNV(string target, string statusName)
+        public IEnumerator addNV(string target, nonVolitileStatusEffects status)
         {
-            string ending = statusName;
-            if(statusName == nonVolitileStatusEffects.sleep.ToString())
+            string ending = status.ToString();
+            if(status == nonVolitileStatusEffects.sleep)
             {
                 ending = "asleep";
             }
-            if(statusName == nonVolitileStatusEffects.toxic.ToString())
+            if(status == nonVolitileStatusEffects.toxic)
             {
                 ending = "badly poisoned";
             }
@@ -191,13 +191,16 @@ namespace FBG.Battle
             string text = string.Format("{0} is now {1}!", target, ending);
             yield return StartCoroutine(displayText(text, 2f));
 
+
             if(target == sim.redTeam.curPokemon.Name)
             {
                 sim.redTeam.guiRef.updateStatus_A(sim.redTeam.curPokemon);
+                sim.redTeam.curPokemon.status_A = status;
             }
             else
             {
                 sim.blueTeam.guiRef.updateStatus_A(sim.blueTeam.curPokemon);
+                sim.blueTeam.curPokemon.status_A = status;
             }
 
             yield return null;

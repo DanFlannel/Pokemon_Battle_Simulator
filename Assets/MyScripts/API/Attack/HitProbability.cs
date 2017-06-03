@@ -16,6 +16,7 @@ public class HitProbability {
     private PokemonBase target;
 
     private pokemonPosition ignoreCase;
+    private bool ignoreAllSemi;
 
     public bool sucess;
 
@@ -24,7 +25,8 @@ public class HitProbability {
         this.self = self;
         this.target = target;
         this.attackName = attackName;
-        calculateHit();
+        ignoreAllSemi = false;
+        sucess = calculateHit();
     }
 
     private bool calculateHit()
@@ -32,21 +34,30 @@ public class HitProbability {
         //if we are targeting ourselves (status moves) or all (weather type moves) we automatically hit!
         if (targetSelf)
         {
+            //Debug.Log("hit because it targets self or all");
             return true;
         }
 
-        if(semiInvulnerable && ignoreCase != target.position)
+        if(!ignoreAllSemi && (semiInvulnerable && ignoreCase != target.position))
         {
+            //Debug.Log("reutrning false because the enemy is semi invulnerable");
             return false;
         }
-
+        //Debug.Log(string.Format("returning accuracy based hit: {0}", accuracyHit));
         return accuracyHit;
     }
 
     public void ignore(pokemonPosition pos)
     {
+        Debug.Log("Recalculating because of ignore semi invulerable clause");
         ignoreCase = pos;
-        calculateHit();
+        sucess = calculateHit();
+    }
+
+    public void ignore(bool b)
+    {
+        ignoreAllSemi = b;
+        sucess = calculateHit();
     }
 
 
@@ -114,7 +125,12 @@ public class HitProbability {
         }
 
         Debug.Log(string.Format("move acc {0} self acc {1} target evasion {2} total probability {3} * {4} = {5}", accuracy, accMod, evadeMod, (accuracy), (accMod / evadeMod), prob));
+
+        if (prob >= 100)
+        {
+            return true;
+        }
+
         return Utilities.probability(prob, 100f);
     }
-
 }

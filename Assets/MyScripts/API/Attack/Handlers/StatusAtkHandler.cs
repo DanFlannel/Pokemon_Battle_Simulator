@@ -285,7 +285,7 @@ namespace FBG.Attack
                     break;
 
             }
-            Debug.Log(string.Format("dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4} hit {5}", damage, heal, recoil, stageName, stageDiff, moveRes.hit));
+            Debug.Log(string.Format("dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4} hit {5}", damage, heal, recoil, stageName, stageDiff, moveRes.hit.sucess));
 
             ignoreLightScreen = false;
             ignoreReflect = false;
