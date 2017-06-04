@@ -59,9 +59,9 @@ namespace FBG.Attack
                     damage = barrage(name);
                     break;
 
-                //waits 2 turns then deals back double
+                //waits 2 turns then deals back double the damage it took
                 case "bide":                
-                    damage = bide(self, damage);
+                    bide(self, damage);
                     break;
 
                 case "bind":

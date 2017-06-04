@@ -13,28 +13,35 @@ namespace FBG.Debuggers
         public int index = 0;
         public bool matchCurIndex;
 
-        [Header("Pokemon Data")]
+        [Header("Pokemon Info")]
 
         public string pokeName;
         public int m_ID;
         public int m_Level;
         public int m_CurHP;
 
+        [Header("Pokemon Stats")]
         public int m_Attack;
         public int m_Defenese;
         public int m_SpecialAttack;
         public int m_SpecialDefense;
         public int m_Speed;
 
+        [Header("Attack Info")]
+        public int critRatio;
         public List<string> atkMoves = new List<string>();
         public dmgMult damageMultiplier;
 
+        [Header("Cached Info")]
         public string nextAttack;
+        public float cachedDamage;
+
+        [Header("")]
         public nonVolitileStatusEffects status_A;
         public pokemonPosition position;
         public attackStatus atkStatus;
 
-        public int critRatio;
+
 
         private BattleSimulator battlesim;
         private List<PokemonBase> pokemonTeamData = new List<PokemonBase>();
@@ -100,6 +107,7 @@ namespace FBG.Debuggers
             status_A = p.status_A;
             position = p.position;
             atkStatus = p.atkStatus;
+            cachedDamage = p.cachedDamage;
 
             damageMultiplier = p.damageMultiplier;
             nextAttack = p.nextAttack;

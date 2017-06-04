@@ -23,35 +23,45 @@ namespace FBG.Attack
             return multiAttack(Random.Range(2, 5), name);
         }
 
-        public float bide(PokemonBase self, float baseDamage)
+        public void bide(PokemonBase self, float baseDamage)
         {
             if (self.atkStatus == attackStatus.normal)
             {
-                self.cachedDamage += (baseDamage * 2f);
+                battleHistory hist = BattleSimulator.Instance.moveHistory.getLastEnemyAttack(self);
+                if(hist != null)
+                {
+                    self.cachedDamage += hist.MR.dmgReport.damage * 2f;
+                }
+
                 self.atkStatus = attackStatus.charging_2;
                 self.nextAttack = "bide";
-                return 0;
+                damage = 0;
             }
             else if (self.atkStatus == attackStatus.charging_2)
             {
+                battleHistory hist = BattleSimulator.Instance.moveHistory.getLastEnemyAttack(self);
+                if (hist != null)
+                {
+                    self.cachedDamage += hist.MR.dmgReport.damage * 2f;
+                }
+
                 self.atkStatus = attackStatus.charging;
-                self.cachedDamage += (baseDamage * 2f);
                 self.nextAttack = "bide";
-                return 0;
+                damage = 0;
 
             }
             else if (self.atkStatus == attackStatus.charging)
             {
                 ignoreReflect = true;
                 self.atkStatus = attackStatus.normal;
-                float damage = self.cachedDamage;
+                damage = self.cachedDamage;
                 self.cachedDamage = 0;
-                return damage;
+                Debug.Log(string.Format("Bide is doing: {0} damage", damage));
             }
             else
             {
                 Debug.Log("Bid Error");
-                return 0;
+                damage = 0;
             }
         }
 
@@ -107,12 +117,16 @@ namespace FBG.Attack
         public float counter(PokemonBase self, PokemonBase target, MoveResults mr, float damage)
         {
             ignoreReflect = true;
-
-            int index = BattleSimulator.Instance.moveHistory.Count - 1;
-            if (BattleSimulator.Instance.moveHistory[index].atkCategory == Consts.Physical)
+            battleHistory hist = BattleSimulator.Instance.moveHistory.getLastEnemyAttack(self);
+            if(hist == null)
+            {
+                mr.failed = true;
+                return 0;
+            }
+            if (hist.atkCategory == Consts.Physical)
             {
                 //Debug.Log("counter was sucessful!");
-                return BattleSimulator.Instance.moveHistory[index].MR.dmgReport.damage * 2f;
+                return hist.MR.dmgReport.damage * 2f;
             }
             else
             {

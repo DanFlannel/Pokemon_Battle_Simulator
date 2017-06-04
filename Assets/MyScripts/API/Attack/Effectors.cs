@@ -63,7 +63,6 @@ namespace FBG.Attack
         public void turnEffect()
         {
             //if we are hit by a direct contact our attack goes up by one stat
-            //how do I check if the last attack was a direct contact one?
             //Move battle history -> get move name -> check to see if it was a direct contact
 
             string prevAttack = BattleSimulator.Instance.moveHistory[BattleSimulator.Instance.moveHistory.Count - 1].attackName;

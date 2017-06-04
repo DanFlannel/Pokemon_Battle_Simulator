@@ -205,13 +205,13 @@ namespace FBG.Battle
 
         public void addMoveHistory(MoveResults res, PokemonBase attacker)
         {
-            battleHistory hist = new battleHistory(attacker.Name, res);
+            battleHistory hist = new battleHistory(attacker, res);
             moveHistory.Add(hist);
         }
 
         public void addMoveHistory(PokemonBase attacker, string moveName)
         {
-            battleHistory hist = new battleHistory(attacker.Name, moveName, attacker.status_A.ToString());
+            battleHistory hist = new battleHistory(attacker, moveName, attacker.status_A.ToString());
             moveHistory.Add(hist);
         }
 
