@@ -27,24 +27,13 @@ namespace FBG.Attack
         {
             if (self.atkStatus == attackStatus.normal)
             {
-                battleHistory hist = BattleSimulator.Instance.moveHistory.getLastEnemyAttack(self);
-                if(hist != null)
-                {
-                    self.cachedDamage += hist.MR.dmgReport.damage * 2f;
-                }
-
+                self.cachedDamage = self.curHp;
                 self.atkStatus = attackStatus.charging_2;
                 self.nextAttack = "bide";
                 damage = 0;
             }
             else if (self.atkStatus == attackStatus.charging_2)
             {
-                battleHistory hist = BattleSimulator.Instance.moveHistory.getLastEnemyAttack(self);
-                if (hist != null)
-                {
-                    self.cachedDamage += hist.MR.dmgReport.damage * 2f;
-                }
-
                 self.atkStatus = attackStatus.charging;
                 self.nextAttack = "bide";
                 damage = 0;
@@ -54,7 +43,7 @@ namespace FBG.Attack
             {
                 ignoreReflect = true;
                 self.atkStatus = attackStatus.normal;
-                damage = self.cachedDamage;
+                damage = (self.cachedDamage - self.curHp) * 2f;
                 self.cachedDamage = 0;
                 Debug.Log(string.Format("Bide is doing: {0} damage", damage));
             }
