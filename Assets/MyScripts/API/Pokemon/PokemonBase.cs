@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using FBG.Attack;
 using FBG.Data;
 using FBG.JSON;
+using UnityEngine;
 
 namespace FBG.Base
 {
@@ -102,7 +103,8 @@ namespace FBG.Base
             //need to set these to something before updaing them
             setStages();
             generatePokemonStats(Level);
-            randomNumbers = Utilities.generateRandomList(attackMoves.Count, 4);
+            randomNumbers = Utilities.generateRandomList(Name, attackMoves.Count, 4);
+            //Debug.Log(string.Format("Pokemon: {0} random numbers: {1} {2} {3} {4}", Name, randomNumbers[0], randomNumbers[1], randomNumbers[2], randomNumbers[3]));
             SetAttacks(attackMoves, randomNumbers);
             //Debug.Log(attackMoves.Count);
         }
@@ -168,11 +170,11 @@ namespace FBG.Base
         public void changeCritStage(int add)
         {
             critRatio_stage += add;
-            if(critRatio_stage > 6)
+            if (critRatio_stage > 6)
             {
                 critRatio_stage = 6;
             }
-            if(critRatio_stage < 0)
+            if (critRatio_stage < 0)
             {
                 critRatio_stage = 0;
             }

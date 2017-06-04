@@ -85,7 +85,7 @@ namespace FBG.Base
         /// </summary>
         /// <param name="attackMoves"></param>
         /// <returns></returns>
-        public static List<int> generateRandomList(int maxPossibility, int length)
+        public static List<int> generateRandomList(string name, int maxPossibility, int length)
         {
             List<int> rndNumberList = new List<int>();
 
@@ -125,9 +125,7 @@ namespace FBG.Base
                     rndNumberList.Add(numToAdd);
                 }
             }
-            //Debug.Log(string.Format("Name: {0} Total: {1} indexes: {2} {3} {4} {5}",
-            //    Name, totalPossibleMoves,
-            //    rndNumberList[0], rndNumberList[1], rndNumberList[2], rndNumberList[3]));
+            //Debug.Log(string.Format("RND Numbers: Name: {0} Max: {1} List: {2} {3} {4} {5}",name, maxPossibility,rndNumberList[0], rndNumberList[1], rndNumberList[2], rndNumberList[3]));
             return rndNumberList;
         }
 

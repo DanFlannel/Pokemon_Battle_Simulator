@@ -110,7 +110,7 @@ namespace FBG.Battle
             //battleGUI.changePokemon_GUI(blueSprite, blueTeam.curPokemon, blueTeam.curPokemon.ID);
 
             sw.Stop();
-            print(string.Format("Time to load {0}ms", sw.ElapsedMilliseconds));
+            print(string.Format("Simulator Loading Time {0}ms", sw.ElapsedMilliseconds));
         }
 
         void Update()

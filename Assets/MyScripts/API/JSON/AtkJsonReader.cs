@@ -41,7 +41,7 @@ namespace FBG.JSON
             AttackData a = JsonUtility.FromJson<AttackData>(jsonFile.text);
             debugJson(a);
             sw.Stop();
-            UnityEngine.Debug.Log("time to create atk json in ms: " + sw.ElapsedMilliseconds);
+            UnityEngine.Debug.Log(string.Format("AttackDex Load Time: {0}ms", sw.ElapsedMilliseconds));
             return a;
         }
 

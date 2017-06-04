@@ -22,7 +22,7 @@ namespace FBG.JSON
             createDamageMultipliers(p);
             //debugJson(p);
             sw.Stop();
-            UnityEngine.Debug.Log("time to create pokedex json in ms: " + sw.ElapsedMilliseconds);
+            UnityEngine.Debug.Log(string.Format("PokeDex Load Time: {0}ms ", sw.ElapsedMilliseconds));
             return p;
         }
 

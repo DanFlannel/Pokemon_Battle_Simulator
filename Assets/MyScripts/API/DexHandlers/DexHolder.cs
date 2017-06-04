@@ -25,8 +25,14 @@ namespace FBG.Data
                 instance = this;
             }
 
-            pokeDex = LibJsonReader.createPokeDex();
-            attackDex = AtkJsonReader.createAttackDex();
+            if (pokeDex == null)
+            {
+                pokeDex = LibJsonReader.createPokeDex();
+            }
+            if (attackDex == null)
+            {
+                attackDex = AtkJsonReader.createAttackDex();
+            }
         }
     }
 }
