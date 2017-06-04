@@ -9,27 +9,28 @@ namespace FBG.Battle
     [System.Serializable]
     public class battleHistory
     {
-        public PokemonBase attacker;
+        public PokemonBase self;
+        public PokemonBase target;
         public string attackName;
         public string atkCategory;
         public string atkType;
         public MoveResults MR;
         public string halted;
 
-        public battleHistory(PokemonBase pkmn, MoveResults res)
+        public battleHistory(PokemonBase self, MoveResults res, PokemonBase target)
         {
-            attacker = pkmn;
-            attackName = res.name;
+            this.self = self;
+            attackName = res.atkName;
             MR = res;
 
-            attacks move = DexHolder.attackDex.getAttack(res.name);
+            attacks move = DexHolder.attackDex.getAttack(res.atkName);
             atkType = move.type;
             atkCategory = move.cat;
         }
 
         public battleHistory(PokemonBase pkmn, string moveName, string haltingcondition)
         {
-            attacker = pkmn;
+            self = pkmn;
             attackName = moveName;
             halted = haltingcondition;
         }
@@ -42,9 +43,9 @@ namespace FBG.Battle
             Debug.Log(string.Format("{0} is searching for last enemy attack", pkmn.Name));
             for(int i = list.Count - 1; i >= 0; i--)
             {
-                if(list[i].attacker.Name != pkmn.Name && list[i].attacker.team != pkmn.team)
+                if(list[i].self.Name != pkmn.Name && list[i].self.team != pkmn.team)
                 {
-                    Debug.Log(string.Format("found prev enemy attack by: {0} move: {1} damage: {2}", list[i].attacker.Name, list[i].attackName, list[i].MR.dmgReport.damage));
+                    Debug.Log(string.Format("found prev enemy attack by: {0} move: {1} damage: {2}", list[i].self.Name, list[i].attackName, list[i].MR.dmgReport.damage));
                     return list[i];
                 }
             }

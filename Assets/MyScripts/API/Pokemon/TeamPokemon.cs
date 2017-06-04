@@ -94,9 +94,9 @@ namespace FBG.Base
             return result;
         }
 
-        public void takeTurn(int index, bool isSwapping, PokemonBase pkmn)
+        public void takeTurn(int index, bool isSwapping, PokemonBase target)
         {
-            Debug.LogWarning(string.Format("{0}'s turn", pkmn.Name));
+            Debug.LogWarning(string.Format("{0}'s turn", target.Name));
 
             if (isSwapping)
             {
@@ -105,7 +105,7 @@ namespace FBG.Base
                 return;
             }
 
-            if (!isAlive(pkmn))
+            if (!isAlive(target))
             {
                 return;
             }
@@ -117,14 +117,14 @@ namespace FBG.Base
             }
 
             MoveResults move = getMoveResults(index);
-            sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.name));
+            sim.routine.queue.AddCoroutineToQueue(sim.routine.usedMoveText(curPokemon.Name, move.atkName));
 
             if (enemyTeam.curPokemon.curHp <= 0)
             {
                 move.failed = true;
             }
 
-            if (DexHolder.attackDex.getAttack(move.name).cat == Consts.Status)
+            if (DexHolder.attackDex.getAttack(move.atkName).cat == Consts.Status)
             {
                 if (move.dmgReport.stageDelta != 0)
                 {
@@ -150,7 +150,7 @@ namespace FBG.Base
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.missed(curPokemon));
             }
 
-            BattleSimulator.Instance.addMoveHistory(move, curPokemon);
+            BattleSimulator.Instance.addMoveHistory(move, curPokemon, target);
         }
 
         public bool isAlive(PokemonBase pkmn)
@@ -175,7 +175,7 @@ namespace FBG.Base
 
             if (move.dmgReport.damage != 0)
             {
-                if (enemyTeam.curPokemon.substituteHealth > 0 && !DexHolder.attackDex.checkFlag(move.name, "authentic"))
+                if (enemyTeam.curPokemon.substituteHealth > 0 && !DexHolder.attackDex.checkFlag(move.atkName, "authentic"))
                 {
                     sim.routine.queue.AddCoroutineToQueue(sim.routine.substituteHit(enemyTeam.curPokemon));
                     enemyTeam.curPokemon.substituteHealth -= move.dmgReport.damage;
@@ -206,7 +206,7 @@ namespace FBG.Base
         {
             if (move.dmgReport.recoil == 0) { return; }
 
-            if (move.name.ToLower() != "substitute")
+            if (move.atkName.ToLower() != "substitute")
             {
                 string text = string.Format("{0} was hurt by recoil.", curPokemon.Name);
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.displayText(text, 1f));

@@ -203,9 +203,9 @@ namespace FBG.Battle
             redIndex = redTeam.curIndex;
         }
 
-        public void addMoveHistory(MoveResults res, PokemonBase attacker)
+        public void addMoveHistory(MoveResults res, PokemonBase attacker, PokemonBase target)
         {
-            battleHistory hist = new battleHistory(attacker, res);
+            battleHistory hist = new battleHistory(attacker, res, target);
             moveHistory.Add(hist);
         }
 

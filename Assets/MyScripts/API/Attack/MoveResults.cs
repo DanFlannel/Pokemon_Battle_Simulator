@@ -6,7 +6,7 @@ public class MoveResults
     /// <summary>
     /// Name of the attack move
     /// </summary>
-    public string name;
+    public string atkName;
 
     /// <summary>
     /// Did the attack crit
@@ -44,7 +44,7 @@ public class MoveResults
 
     public MoveResults(PokemonBase self, PokemonBase target, string s)
     {
-        name = s;
+        atkName = s;
 
         crit = false;
         flinched = false;
@@ -53,7 +53,7 @@ public class MoveResults
         statusAEffect = nonVolitileStatusEffects.none;
         statusTarget = "";
 
-        hit = new HitProbability(self, target, name);
+        hit = new HitProbability(self, target, atkName);
         Debug.Log(string.Format("Hit calcualted: {0}", hit.sucess));
     }
 }

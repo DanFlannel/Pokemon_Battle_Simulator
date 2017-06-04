@@ -133,7 +133,7 @@ namespace FBG.Battle
                 yield return StartCoroutine(criticalHit());
             }
 
-            yield return StartCoroutine(effectiveText(move.name, pkmn));
+            yield return StartCoroutine(effectiveText(move.atkName, pkmn));
 
             if (pkmn.curHp == 0)
             {
