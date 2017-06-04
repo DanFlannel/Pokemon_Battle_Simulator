@@ -53,6 +53,10 @@ namespace FBG.Attack
                 case "kill all":
                     killAll();
                     break;
+
+                case "kill last":
+                    kill();
+                    break;
 #endregion
 
                 case "barrage":

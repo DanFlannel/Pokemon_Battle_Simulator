@@ -512,6 +512,7 @@ namespace FBG.Attack
             #region Attack Tests
             attackList.Add(new attacks("Kill", Consts.Fairy, Consts.Physical, 10000, 100, 10));
             attackList.Add(new attacks("Kill All", Consts.Fairy, Consts.Physical, 10000, 100, 10));
+            attackList.Add(new attacks("Kill Last", Consts.Fairy, Consts.Physical, 10000, 100, 10));
 
             #endregion
 

@@ -7952,7 +7952,7 @@
       "pp": 10,
       "priority": 0,
       "flags": [ "snatch", "heal" ],
-      "target":  "self",
+      "target": "self",
       "type": "Psychic",
       "contestType": "Cute"
     },
@@ -11494,6 +11494,25 @@
       "target": "normal",
       "type": "Fairy",
       "contestType": "Cool"
+    },
+    {
+      "num": -3,
+      "accuracy": 100,
+      "basePower": 10000,
+      "category": "Physical",
+      "desc": "killing move",
+      "shortDesc": "killing move",
+      "id": "killlast",
+      "name": "kill last",
+      "pp": 10,
+      "priority": -1,
+      "flags": [],
+      "target": "normal",
+      "type": "Fairy",
+      "contestType": "Cool"
     }
+
+
+
   ]
 }
