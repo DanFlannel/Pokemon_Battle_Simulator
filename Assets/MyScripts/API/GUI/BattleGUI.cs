@@ -27,9 +27,6 @@ namespace FBG.Battle
         public int moveIndex;
         public int swapIndex;
 
-        [HideInInspector]
-        public bool ignoreTurn;
-
         private BattleSimulator sim;
         private swapInfoPanel swapInfo;
         private moveInfoPanel moveInfo;
@@ -38,7 +35,6 @@ namespace FBG.Battle
         {
             this.sim = sim;
             moveIndex = -1;
-            ignoreTurn = false;
 
             swapInfo = new swapInfoPanel(swapPanel.transform.Find("Info_Panel").gameObject);
             swapInfo.update(sim.redTeam.curPokemon);
@@ -107,6 +103,7 @@ namespace FBG.Battle
 
             if (!checkPP(index)) { return; }
             sim.redTeamAttack(index);
+
         }
 
         private bool checkPP(int index)
@@ -118,12 +115,14 @@ namespace FBG.Battle
             return false;
         }
 
+        //.. swapping
+
         public void selectSwapPokemon(int index)
         {
             swapInfo.update(sim.redTeam.pokemon[index]);
             if (sim.redTeam.pokemon[index].curHp <= 0)
             {
-                Debug.Log("Selecting dead pokemon");
+                //Debug.Log("Selecting dead pokemon");
                 return;
             }
             swapIndex = index;
@@ -131,42 +130,23 @@ namespace FBG.Battle
 
         public void swapButton()
         {
-            if (swapIndex == sim.redTeam.curIndex)
+            if (sim.redTeam.curPokemon.curHp <= 0)
             {
-                toggleSwapPanel();
-                return;
-            }
-            if (swapIndex != sim.redTeam.curIndex && sim.redTeam.pokemon[swapIndex].curHp > 0 && !sim.redTeam.isBound)
-            {
-                sim.swapPokemon(sim.redTeam, swapIndex, ignoreTurn);
-                toggleSwapPanel();
-            }
-        }
-
-        public void promptSwap(ref TeamPokemon team, bool ignore)
-        {
-            //there are no pokemon left on the team so we are waiting until the end of the turn for the victory to play out
-            if (!team.checkTeam()) { return; }
-
-            Debug.Log("Called prompt swap");
-            ignoreTurn = ignore;
-            if (team == sim.blueTeam)
-            {
-                int index = team.getRndPokemon();
-                if (index == -1)
+                if (swapIndex == sim.redTeam.curIndex)
                 {
-                    //Debug.Log("All enemies dead");
                     return;
                 }
-                Debug.Log(string.Format("prompting enemy swap {0} ", index));
-                team.swap(index);
-                sim.swapPokemon(team, index, ignoreTurn);
-                sim.updateGUI(ref team);
-                return;
+                else
+                {
+                    toggleSwapPanel();
+                }
             }
-            Debug.Log("Prompting player swap");
-            if (!swapPanel.activeInHierarchy)
+            else
             {
+                if(swapIndex != sim.redTeam.curIndex)
+                {
+                    sim.swapPokemon(sim.redTeam, swapIndex);
+                }
                 toggleSwapPanel();
             }
         }
@@ -176,6 +156,11 @@ namespace FBG.Battle
             swapPanel.SetActive(!swapPanel.activeInHierarchy);
             updateSwapPanel();
             swapInfo.update(sim.redTeam.curPokemon);
+            if (!swapPanel.activeInHierarchy)
+            {
+                Debug.Log("On Swap Input called");
+                sim.routine.OnSwapInput(swapIndex);
+            }
         }
 
         public void toggleSwapPanel(bool b)
@@ -183,7 +168,14 @@ namespace FBG.Battle
             swapPanel.SetActive(b);
             updateSwapPanel();
             swapInfo.update(sim.redTeam.curPokemon);
+            if (!b)
+            {
+                Debug.Log("On Swap Input called");
+                sim.routine.OnSwapInput(swapIndex);
+            }
         }
+
+        //..Panel Toggles
 
         public void toggleTextPanel()
         {

@@ -12,6 +12,12 @@ namespace FBG.Base
 {
     public class TeamPokemon : TeamEffects
     {
+        public enum TeamType
+        {
+            AI,
+            Player
+        };
+
         private TeamPokemon instance;
         private BattleSimulator sim;
         private GameObject GUIHolder;
@@ -23,16 +29,18 @@ namespace FBG.Base
         public int curIndex = 0;
 
         public string teamName;
+        public TeamType type;
 
         public GUIReferences guiRef;
         public PokemonBase curPokemon { get { return pokemon[curIndex]; } }
 
-        public TeamPokemon(int size, string name, ref BattleSimulator sim, GameObject gui)
+        public TeamPokemon(int size, string name, TeamType type, ref BattleSimulator sim, GameObject gui)
         {
             teamSize = size;
             instance = this;
             teamName = name;
             this.sim = sim;
+            this.type = type;
 
             GUIHolder = gui;
             guiRef = new GUIReferences(GUIHolder);
@@ -92,7 +100,7 @@ namespace FBG.Base
 
             if (isSwapping)
             {
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.swapPokemon(curPokemon, index));
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.swapPokemon(curPokemon, index, false));
                 Debug.Log("Turn Move is swapping");
                 return;
             }
@@ -147,11 +155,11 @@ namespace FBG.Base
 
         public bool isAlive(PokemonBase pkmn)
         {
+            //Debug.Log(string.Format("Checking if {0} is alive", pkmn.Name));
             if (pkmn.curHp <= 0)
             {
-                Debug.Log("Dead pokemon, prompting swap");
-                sim.battleGUI.promptSwap(ref instance, true);
-                hasLeechSeed = false;
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.swapPokemon(pkmn, 0, true));
+                pkmn.team.hasLeechSeed = false;
                 return false;
             }
             return true;
@@ -159,11 +167,6 @@ namespace FBG.Base
 
         private void applyDamage(MoveResults move)
         {
-            if (move.statusAEffect != nonVolitileStatusEffects.none && move.hit.sucess)
-            {
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(move.statusTarget, move.statusAEffect));
-            }
-
             if (move.flinched)
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.flinched(curPokemon));
@@ -184,14 +187,12 @@ namespace FBG.Base
                     return;
                 }
 
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, (int)move.dmgReport.damage));
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, (int)move.dmgReport.damage, move));
+            }
 
-                if (move.crit)
-                {
-                    sim.routine.queue.AddCoroutineToQueue(sim.routine.criticalHit());
-                }
-
-                sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.name, enemyTeam.curPokemon));
+            if (move.statusAEffect != nonVolitileStatusEffects.none && move.hit.sucess)
+            {
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.addNV(move.statusTarget, move.statusAEffect));
             }
         }
 

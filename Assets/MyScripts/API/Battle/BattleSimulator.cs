@@ -74,8 +74,8 @@ namespace FBG.Battle
 
         private void AI_RND_Battle(int size)
         {
-            TeamPokemon t1 = new TeamPokemon(teamSize, "player", ref instance, redGUI);
-            TeamPokemon t2 = new TeamPokemon(teamSize, "AI", ref instance, blueGUI);
+            TeamPokemon t1 = new TeamPokemon(teamSize, "player", TeamPokemon.TeamType.Player,  ref instance, redGUI);
+            TeamPokemon t2 = new TeamPokemon(teamSize, "AI", TeamPokemon.TeamType.AI, ref instance, blueGUI);
             setupTeamBattle(size, t1, t2);
         }
 
@@ -225,29 +225,20 @@ namespace FBG.Battle
             battleGUI.changePokemon_GUI(r, team.curPokemon, team.curPokemon.ID);
         }
 
-        public void swapPokemon(TeamPokemon team, int index, bool ignoreTurn)
+        public void swapPokemon(TeamPokemon team, int index)
         {
-            print(string.Format("{0} is swapping to {1} ignore: {2}", team.teamName, index, ignoreTurn));
+            print(string.Format("{0} is swapping to {1}", team.teamName, index));
             if (team == redTeam)
             {
                 redMoveIndex = index;
-                if (!ignoreTurn)
-                {
-                    isRedSwapping = true;
-                    StartCoroutine(routine.takeTurn());
-                }
-                else
-                {
-                    StartCoroutine(routine.forcedSwap(team.curPokemon, index));
-                    //team.swap(index);
-                }
+                isRedSwapping = true;
+                StartCoroutine(routine.takeTurn());
             }
             else
             {
                 blueMoveIndex = index;
                 isBlueSwapping = true;
             }
-            battleGUI.ignoreTurn = false;
         }
     }
 }

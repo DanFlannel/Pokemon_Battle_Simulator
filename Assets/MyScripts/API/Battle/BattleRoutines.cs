@@ -15,7 +15,9 @@ namespace FBG.Battle
         public CoroutineList queue;
         private GameObject reference;
         public BattleSimulator sim;
+
         public bool swapInput;
+        public int swapIndex;
 
         public void Initalize(ref BattleSimulator sim)
         {
@@ -29,6 +31,7 @@ namespace FBG.Battle
         public IEnumerator takeTurn()
         {
             sim.isTurnRunning = true;
+            swapInput = false;
             sim.blueTeamAttack();
 
             List<TurnInformation> info = new List<TurnInformation>();
@@ -65,7 +68,6 @@ namespace FBG.Battle
 
         private IEnumerator EndOfTurnPokemon(TurnOrder turn, int i)
         {
-
             PokemonBase pkmn = turn.speedDetermined[i].pokemon;
             Debug.LogWarning(string.Format("{0}'s end of turn", pkmn.Name));
 
@@ -80,13 +82,6 @@ namespace FBG.Battle
             team.EndOfTurn();
             team.victory();
             yield return StartCoroutine(queue.masterIEnumerator());
-            yield return null;
-        }
-
-        private IEnumerator checkPokemon(TurnOrder turn, int i)
-        {
-            PokemonBase pkmn = turn.order[i].pokemon;
-            pkmn.team.isAlive(pkmn);
             yield return null;
         }
 
@@ -120,8 +115,30 @@ namespace FBG.Battle
 
         public IEnumerator applyDamage(PokemonBase pkmn, int dmg)
         {
-            //Debug.Log("damage coroutine");
             yield return StartCoroutine(changeHealthbar(pkmn, -dmg));
+
+            if (pkmn.curHp == 0)
+            {
+                yield return StartCoroutine(faintedText(pkmn));
+            }
+            yield return null;
+        }
+
+        public IEnumerator applyDamage(PokemonBase pkmn, int dmg, MoveResults move)
+        {
+            yield return StartCoroutine(changeHealthbar(pkmn, -dmg));
+
+            if (move.crit)
+            {
+                yield return StartCoroutine(criticalHit());
+            }
+
+            yield return StartCoroutine(effectiveText(move.name, pkmn));
+
+            if (pkmn.curHp == 0)
+            {
+                yield return StartCoroutine(faintedText(pkmn));
+            }
             yield return null;
         }
 
@@ -136,6 +153,7 @@ namespace FBG.Battle
         {
             //Debug.Log("recoil coroutine");
             yield return StartCoroutine(changeHealthbar(pkmn, -recoil));
+            
             yield return null;
         }
 
@@ -258,7 +276,7 @@ namespace FBG.Battle
             else
             {
                 string delta = stageChange(move.dmgReport.stageDelta);
-                text = string.Format("{0}'s {1} {2}.", move.dmgReport.stagePokemon, move.dmgReport.stageName.ToUpper(), delta);
+                text = string.Format("{0}'s {1} {2}", move.dmgReport.stagePokemon, move.dmgReport.stageName.ToUpper(), delta);
             }
             yield return StartCoroutine(displayText(text, 2f));
             yield return null;
@@ -294,45 +312,33 @@ namespace FBG.Battle
             yield return null;
         }
 
-        //swapping or chaning pokemon
+        //Pokemon Effects
 
         public IEnumerator throwPokeball()
         {
             yield return null;
         }
 
-        public IEnumerator pokemonOut()
+        public IEnumerator pokemonOut(PokemonBase pkmn)
         {
+            yield return StartCoroutine(throwPokeball());
+
+            string text = string.Format("Go {0}!", pkmn.Name);
+            yield return StartCoroutine(displayText(text, 2f));
+
             yield return null;
         }
 
-        public IEnumerator pokemonReturn()
+        public IEnumerator pokemonReturn(PokemonBase pkmn)
         {
+            string text = string.Format("{0} return.", pkmn.Name);
+            yield return StartCoroutine(displayText(text, 2f));
             yield return null;
         }
 
         public IEnumerator pokemonFainted()
         {
             yield return null;
-        }
-
-        public IEnumerator swapPokemon(PokemonBase cur, int index)
-        {
-            string text = string.Format("{0} return.", cur.Name);
-            yield return StartCoroutine(displayText(text, 2f));
-
-            cur.team.swap(index);
-
-            text = string.Format("Go {0}!", cur.team.pokemon[index].Name);
-            yield return StartCoroutine(displayText(text, 2f));
-
-            yield return null;
-        }
-
-        public IEnumerator forcedSwap(PokemonBase cur, int index)
-        {
-            yield return StartCoroutine(swapPokemon(cur, index));
-            sim.battleGUI.toggleTextPanel(false);
         }
 
         /// <summary>
@@ -345,8 +351,64 @@ namespace FBG.Battle
             string text = string.Format("{0} fainted!", pkmn.Name);
             yield return StartCoroutine(displayText(text, 2f));
             yield return StartCoroutine(pokemonFainted());
+            yield return StartCoroutine(swapPokemon(pkmn, 0, true));
             yield return null;
         }
+
+
+        //..Swaping Pokemon
+
+        public IEnumerator swapPokemon(PokemonBase cur, int index, bool forced)
+        {
+            if(cur.team.type == TeamPokemon.TeamType.Player)
+            {
+                //open up the swap panel and wait for an input to be made
+                if (forced)
+                {
+                    Debug.Log("Forcing player switch");
+                    sim.battleGUI.toggleSwapPanel(true);
+                    yield return StartCoroutine(waitForSwapInput());
+                    index = swapIndex;
+                }
+                yield return StartCoroutine(pokemonReturn(cur));
+                cur.team.swap(index);
+                yield return StartCoroutine(pokemonOut(cur.team.pokemon[index]));
+            }
+            else
+            {
+                yield return StartCoroutine(AISwapPokemon(cur.team));
+            }
+        }
+
+        public IEnumerator AISwapPokemon(TeamPokemon team)
+        {
+            int index = team.getRndPokemon();
+            yield return StartCoroutine(pokemonReturn(team.curPokemon));
+            team.swap(index);
+            yield return StartCoroutine(pokemonOut(team.curPokemon));
+
+            yield return null;
+        }
+
+        public IEnumerator waitForSwapInput()
+        {
+            Debug.Log("Waiting for user Input");
+            while (!swapInput)
+            {
+                //Debug.Log("Waiting for user input");
+                yield return null;
+            }
+            swapInput = false;
+            yield return null;
+        }
+
+
+        public IEnumerator forcedSwap(PokemonBase cur, int index)
+        {
+            yield return StartCoroutine(swapPokemon(cur, index, true));
+        }
+
+
 
         //Effects
 
@@ -429,12 +491,6 @@ namespace FBG.Battle
             {
                 healthNum.text = string.Format("{0}/{1}", pkmn.curHp, pkmn.maxHP);
             }
-
-            if(pkmn.curHp == 0)
-            {
-                yield return StartCoroutine(faintedText(pkmn));
-            }
-
             yield return null;
         }
 
@@ -485,6 +541,12 @@ namespace FBG.Battle
                 text = "increased greatly!";
             }
             return text;
+        }
+
+        public void OnSwapInput(int index)
+        {
+            swapInput = true;
+            swapIndex = index;
         }
     }
 }
