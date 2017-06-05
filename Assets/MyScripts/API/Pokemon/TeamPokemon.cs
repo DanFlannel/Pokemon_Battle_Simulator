@@ -96,6 +96,14 @@ namespace FBG.Base
 
         public void takeTurn(int index, bool isSwapping, PokemonBase target)
         {
+            //catch for if we move second but die before we move, then we have already switched, therefore we used out turn and it is the end of it.
+            if(target != curPokemon)
+            {
+                Debug.Log(string.Format("Expected: {0} Actual: {1}", curPokemon.Name, target.Name));
+                target = curPokemon;
+                return;
+            }
+
             Debug.LogWarning(string.Format("{0}'s turn", target.Name));
 
             if (isSwapping)
@@ -107,6 +115,7 @@ namespace FBG.Base
 
             if (!isAlive(target))
             {
+                Debug.Log("Pokemon is dead");
                 return;
             }
 
@@ -155,7 +164,7 @@ namespace FBG.Base
 
         public bool isAlive(PokemonBase pkmn)
         {
-            //Debug.Log(string.Format("Checking if {0} is alive", pkmn.Name));
+            Debug.Log(string.Format("Checking if {0} is alive", pkmn.Name));
             if (pkmn.curHp <= 0)
             {
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.swapPokemon(pkmn, 0, true));
