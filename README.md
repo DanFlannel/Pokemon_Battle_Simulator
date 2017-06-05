@@ -29,13 +29,13 @@
   - [x] Testing and debugging
   - [x] Create a better GUI
   - [x] Final Testing
-  - [ ] Public Web Release
-  - [ ] Private distribution of android alpha
+  - [x] Public Web Release
+  - [x] Private distribution of android alpha
   - [ ] Private distribution of IOS alpha
   
   __Version 1 Post Mortem__
   - [ ] Documentation
-  - [ ] Refactor Attack Calculator
+  - [x] Refactor Attack Calculator
   - [ ] Refactor where neccessary
   
   **Figure out a patching system for mobile devices**
