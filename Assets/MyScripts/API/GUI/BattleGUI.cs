@@ -29,7 +29,7 @@ namespace FBG.Battle
 
         private BattleSimulator sim;
         private swapInfoPanel swapInfo;
-        private moveInfoPanel moveInfo;
+        public moveInfoPanel moveInfo;
 
         public void setSimulator(ref BattleSimulator sim)
         {
@@ -103,7 +103,6 @@ namespace FBG.Battle
 
             if (!checkPP(index)) { return; }
             sim.redTeamAttack(index);
-
         }
 
         private bool checkPP(int index)

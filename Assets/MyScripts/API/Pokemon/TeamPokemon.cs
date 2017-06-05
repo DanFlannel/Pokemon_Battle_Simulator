@@ -147,6 +147,7 @@ namespace FBG.Base
                 applyHeal(move);
                 applyRecoil(move);
                 curPokemon.curPP[index]--;
+                sim.battleGUI.moveInfo.update(sim.redTeam.curPokemon, index);
             }
 
             if (move.failed)
