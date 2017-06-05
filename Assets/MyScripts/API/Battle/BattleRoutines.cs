@@ -102,7 +102,7 @@ namespace FBG.Battle
             yield return null;
         }
 
-        //pokemon basic turn moves
+        //..Pokemon basic turn moves
 
         public IEnumerator usedMoveText(string pkName, string move)
         {
@@ -156,6 +156,8 @@ namespace FBG.Battle
             
             yield return null;
         }
+
+        //..Text Effects
 
         /// <summary>
         /// Shows how effective the attack was against the pokemon, only shows immune, not very effective and super effective moves
@@ -312,7 +314,7 @@ namespace FBG.Battle
             yield return null;
         }
 
-        //Pokemon Effects
+        //..Pokemon Effects
 
         public IEnumerator throwPokeball()
         {
@@ -360,6 +362,11 @@ namespace FBG.Battle
 
         public IEnumerator swapPokemon(PokemonBase cur, int index, bool forced)
         {
+            if (!cur.team.canSwitch())
+            {
+                yield break;
+            }
+             
             if(cur.team.type == TeamPokemon.TeamType.Player)
             {
                 //open up the swap panel and wait for an input to be made

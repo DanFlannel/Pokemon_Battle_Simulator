@@ -192,7 +192,6 @@ namespace FBG.Base
             spDefense_stage = 0;
             acc_stage = 0;
             evasive_stage = 0;
-
         }
 
         public void updateStatStage(string type, float multiplier)
@@ -205,26 +204,31 @@ namespace FBG.Base
                     Attack = (int)attackCalc + levelBonus;
                     Attack = (int)(Attack * multiplier);
                     break;
+
                 case "defense":
                     float defenseCalc = (float)baseDefense * levelCalc;
                     Defense = (int)defenseCalc + levelBonus;
                     Defense = (int)(Defense * multiplier);
                     break;
+
                 case "spAttack":
                     float spaBonus = (float)baseSpecial_Attack * levelCalc;
                     Special_Attack = (int)spaBonus + levelBonus;
                     Special_Attack = (int)(Special_Attack * multiplier);
                     break;
+
                 case "spDefense":
                     float spdBonus = (float)baseSpecial_Defense * levelCalc;
                     Special_Defense = (int)spdBonus + levelBonus;
                     Special_Defense = (int)(Special_Defense * multiplier);
                     break;
+
                 case "speed":
                     float spBonus = (float)baseSpeed * levelCalc;
                     Speed = (int)spBonus + levelBonus;
                     Speed = (int)(Speed * multiplier);
                     break;
+
                 default:
                     //Debug.Log("no type " + type + " found");
                     break;

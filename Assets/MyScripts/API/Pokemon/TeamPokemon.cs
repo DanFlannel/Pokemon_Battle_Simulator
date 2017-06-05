@@ -322,7 +322,7 @@ namespace FBG.Base
             return nv.isAffected;
         }
 
-        public bool checkTeam()
+        public bool canSwitch()
         {
             for (int i = 0; i < pokemon.Count; i++)
             {
@@ -368,7 +368,7 @@ namespace FBG.Base
             }
 
             string text = string.Format("{0} won!", teamName);
-            if (!checkTeam())
+            if (!canSwitch())
             {
                 text = "It's a draw!";
             }
