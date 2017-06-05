@@ -80,10 +80,24 @@ public class HitProbability {
     private int fetchAccuracy()
     {
         int acc = 0;
-        switch (attackName)
+        switch (attackName.ToLower())
         {
             default:
+                Debug.Log("Standard accuracy calculations");
                 acc = DexHolder.attackDex.getAttack(attackName).accuracy;
+
+                break;
+
+            case "fissure":
+                acc = ((self.Level - target.Level) + 30);
+                break;
+
+            case "guillotine":
+                acc = ((self.Level - target.Level) + 30);
+                break;
+
+            case "horndrill":
+                acc = ((self.Level - target.Level) + 30);
                 break;
         }
 

@@ -48,13 +48,28 @@ namespace FBG.Battle
             overlay.SetActive(false);
         }
 
-        public void checkButtonNames(PokemonBase pkmon)
+        public void checkButtons(PokemonBase pkmn)
         {
             for (int i = 0; i < atkBtns.Length; i++)
             {
-                if (pkmon.atkMoves[i] != atkBtns[i].GetComponentInChildren<Text>().text)
+                if (pkmn.atkMoves[i] != atkBtns[i].GetComponentInChildren<Text>().text)
                 {
-                    setButtonNames(pkmon.atkMoves);
+                    setButtonNames(pkmn.atkMoves);
+                }
+            }
+
+            //this is handling our next attack button pushing
+            for(int i = 0; i < atkBtns.Length; i++)
+            {
+                Button btn = atkBtns[i].GetComponent<Button>();
+                string btnName = atkBtns[i].GetComponentInChildren<Text>().text;
+                if (pkmn.nextAttack != "" && btnName.ToLower() != pkmn.nextAttack.ToLower())
+                {
+                    btn.interactable = false;
+                }
+                else
+                {
+                    btn.interactable = true;
                 }
             }
         }

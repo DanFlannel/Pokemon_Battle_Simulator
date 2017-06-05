@@ -23,17 +23,22 @@ namespace FBG.Attack
             return multiAttack(Random.Range(2, 5), name);
         }
 
+        //need to fix still this takes into account the 
         public void bide(PokemonBase self, float baseDamage)
         {
             if (self.atkStatus == attackStatus.normal)
             {
-                self.cachedDamage = self.curHp;
                 self.atkStatus = attackStatus.charging_2;
                 self.nextAttack = "bide";
                 damage = 0;
             }
             else if (self.atkStatus == attackStatus.charging_2)
             {
+                battleHistory hist = BattleSimulator.Instance.moveHistory.getLastEnemyAttack(self);
+                if (hist != null)
+                {
+                    self.cachedDamage += hist.MR.dmgReport.damage;
+                }
                 self.atkStatus = attackStatus.charging;
                 self.nextAttack = "bide";
                 damage = 0;
@@ -42,8 +47,13 @@ namespace FBG.Attack
             else if (self.atkStatus == attackStatus.charging)
             {
                 ignoreReflect = true;
+                battleHistory hist = BattleSimulator.Instance.moveHistory.getLastEnemyAttack(self);
+                if (hist != null)
+                {
+                    self.cachedDamage += hist.MR.dmgReport.damage;
+                }
                 self.atkStatus = attackStatus.normal;
-                damage = (self.cachedDamage - self.curHp) * 2f;
+                damage = self.cachedDamage * 2f;
                 self.cachedDamage = 0;
                 Debug.Log(string.Format("Bide is doing: {0} damage", damage));
             }

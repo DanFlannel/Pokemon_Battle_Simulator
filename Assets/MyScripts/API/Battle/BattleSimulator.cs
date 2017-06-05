@@ -100,7 +100,7 @@ namespace FBG.Battle
             BattleEnviornment.init();
 
             battleGUI = this.GetComponent<BattleGUI>();
-            battleGUI.checkButtonNames(redTeam.curPokemon);
+            battleGUI.checkButtons(redTeam.curPokemon);
             battleGUI.setSimulator(ref instance);
 
             //UnityEngine.Debug.Log(string.Format("{0} {1}", redTeam.curPokemon.Name, redTeam.curPokemon.ID));
@@ -116,7 +116,7 @@ namespace FBG.Battle
         void Update()
         {
             capPokemonIndex();
-            battleGUI.checkButtonNames(redTeam.curPokemon);
+            battleGUI.checkButtons(redTeam.curPokemon);
             //turnController();
         }
 

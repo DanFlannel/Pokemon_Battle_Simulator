@@ -409,11 +409,6 @@ namespace FBG.Battle
             yield return null;
         }
 
-        public IEnumerator forcedSwap(PokemonBase cur, int index)
-        {
-            yield return StartCoroutine(swapPokemon(cur, index, true));
-        }
-
         //Effects
 
         public IEnumerator victory(string text)

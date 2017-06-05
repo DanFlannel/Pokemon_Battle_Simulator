@@ -168,6 +168,7 @@ namespace FBG.Base
             Debug.Log(string.Format("Checking if {0} is alive", pkmn.Name));
             if (pkmn.curHp <= 0)
             {
+                Debug.Log("Calling swap from team pokemon");
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.swapPokemon(pkmn, 0, true));
                 pkmn.team.hasLeechSeed = false;
                 return false;
