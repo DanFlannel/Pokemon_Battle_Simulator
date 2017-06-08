@@ -408,7 +408,7 @@ public class StatusAtkMethods : BaseMoves
 
         if (target.status_A == nonVolitileStatusEffects.none)
         {
-            target.status_A = nonVolitileStatusEffects.toxic;
+            //target.status_A = nonVolitileStatusEffects.toxic;
             target.nvCurDur = 0;
             Debug.Log(string.Format("{0} is now badly posioned", target.Name));
             moveRes.statusAEffect = nonVolitileStatusEffects.toxic;

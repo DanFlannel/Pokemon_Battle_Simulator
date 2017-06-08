@@ -201,7 +201,7 @@ namespace FBG.Attack
 
             if (target.status_A == nonVolitileStatusEffects.none)
             {
-                target.status_A = nonVolitileStatusEffects.burned;
+                //target.status_A = nonVolitileStatusEffects.burned;
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now burned", target.Name));
                 moveRes.statusAEffect = nonVolitileStatusEffects.burned;
@@ -226,7 +226,7 @@ namespace FBG.Attack
 
             if (target.status_A == nonVolitileStatusEffects.none)
             {
-                target.status_A = nonVolitileStatusEffects.frozen;
+                //target.status_A = nonVolitileStatusEffects.frozen;
                 Debug.Log(string.Format("{0} is now frozen", target.Name));
                 moveRes.statusAEffect = nonVolitileStatusEffects.frozen;
                 moveRes.statusTarget = target.Name;
@@ -250,7 +250,7 @@ namespace FBG.Attack
 
             if (target.status_A == nonVolitileStatusEffects.none)
             {
-                target.status_A = nonVolitileStatusEffects.paralized;
+                //target.status_A = nonVolitileStatusEffects.paralized;
                 changeStats(Consts.speed, -6, target);
                 Debug.Log(string.Format("{0} is now paralized", target.Name));
                 moveRes.statusAEffect = nonVolitileStatusEffects.paralized;
@@ -275,7 +275,7 @@ namespace FBG.Attack
 
             if (target.status_A == nonVolitileStatusEffects.none)
             {
-                target.status_A = nonVolitileStatusEffects.poisioned;
+                //target.status_A = nonVolitileStatusEffects.poisioned;
                 target.nvCurDur = 0;
                 Debug.Log(string.Format("{0} is now poisoned", target.Name));
                 moveRes.statusAEffect = nonVolitileStatusEffects.poisioned;
@@ -301,7 +301,7 @@ namespace FBG.Attack
             if (target.status_A == nonVolitileStatusEffects.none)
             {
                 target.nvDur = duration + 1;
-                target.status_A = nonVolitileStatusEffects.sleep;
+                //target.status_A = nonVolitileStatusEffects.sleep;
                 Debug.Log(string.Format("{0} is now asleep", target.Name));
                 moveRes.statusAEffect = nonVolitileStatusEffects.sleep;
                 moveRes.statusTarget = target.Name;
@@ -321,7 +321,7 @@ namespace FBG.Attack
 
             if (target.status_B == volitileStatusEffects.none)
             {
-                target.status_B = volitileStatusEffects.confused;
+                //target.status_B = volitileStatusEffects.confused;
                 Debug.Log(string.Format("{0} is now confused", target.Name));
                 moveRes.statusBEffect = volitileStatusEffects.confused;
                 moveRes.statusTarget = target.Name;
@@ -335,7 +335,7 @@ namespace FBG.Attack
 
             if (target.status_B == volitileStatusEffects.none)
             {
-                target.status_B = volitileStatusEffects.infatuated;
+                //target.status_B = volitileStatusEffects.infatuated;
                 Debug.Log(string.Format("{0} is now infatuated", target.Name));
                 moveRes.statusBEffect = volitileStatusEffects.infatuated;
                 moveRes.statusTarget = target.Name;
