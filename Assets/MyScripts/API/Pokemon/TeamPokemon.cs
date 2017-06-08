@@ -165,7 +165,7 @@ namespace FBG.Base
 
         public bool isAlive(PokemonBase pkmn)
         {
-            Debug.Log(string.Format("Checking if {0} is alive", pkmn.Name));
+            //Debug.Log(string.Format("Checking if {0} is alive", pkmn.Name));
             if (pkmn.curHp <= 0)
             {
                 Debug.Log("Calling swap from team pokemon");

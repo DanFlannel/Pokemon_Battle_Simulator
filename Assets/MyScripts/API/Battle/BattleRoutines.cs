@@ -69,7 +69,7 @@ namespace FBG.Battle
         private IEnumerator EndOfTurnPokemon(TurnOrder turn, int i)
         {
             PokemonBase pkmn = turn.speedDetermined[i].pokemon;
-            Debug.LogWarning(string.Format("{0}'s end of turn", pkmn.Name));
+            //Debug.LogWarning(string.Format("{0}'s end of turn", pkmn.Name));
 
             pkmn.team.checkEffectors(pkmn);
             pkmn.team.endOfTurnDamage(pkmn);
@@ -214,13 +214,14 @@ namespace FBG.Battle
 
             if(target == sim.redTeam.curPokemon.Name)
             {
-                sim.redTeam.guiRef.updateStatus_A(sim.redTeam.curPokemon);
                 sim.redTeam.curPokemon.status_A = status;
+                sim.redTeam.guiRef.updateStatus_A(sim.redTeam.curPokemon);
+
             }
             else
             {
-                sim.blueTeam.guiRef.updateStatus_A(sim.blueTeam.curPokemon);
                 sim.blueTeam.curPokemon.status_A = status;
+                sim.blueTeam.guiRef.updateStatus_A(sim.blueTeam.curPokemon);
             }
 
             yield return null;

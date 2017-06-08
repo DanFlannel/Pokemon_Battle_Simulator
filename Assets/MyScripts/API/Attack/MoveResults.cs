@@ -54,6 +54,6 @@ public class MoveResults
         statusTarget = "";
 
         hit = new HitProbability(self, target, atkName);
-        Debug.Log(string.Format("Hit calcualted: {0}", hit.sucess));
+        //Debug.Log(string.Format("Hit calcualted: {0}", hit.sucess));
     }
 }

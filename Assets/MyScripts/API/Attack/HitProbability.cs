@@ -83,7 +83,7 @@ public class HitProbability {
         switch (attackName.ToLower())
         {
             default:
-                Debug.Log("Standard accuracy calculations");
+                //Debug.Log("Standard accuracy calculations");
                 acc = DexHolder.attackDex.getAttack(attackName).accuracy;
 
                 break;
