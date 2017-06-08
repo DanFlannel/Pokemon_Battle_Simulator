@@ -184,7 +184,7 @@ namespace FBG.Battle
             swapInfo.update(sim.redTeam.curPokemon);
             if (!b)
             {
-                Debug.Log("On Swap Input called");
+                //Debug.Log("On Swap Input called");
                 sim.routine.OnSwapInput(swapIndex);
             }
         }
