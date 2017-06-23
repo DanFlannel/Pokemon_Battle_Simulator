@@ -316,7 +316,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: af59cf981fcf6044d8cb5d3487d90039, type: 3}
   - {fileID: 21300000, guid: f0dc90f2cd9578d46b6758ae4b1e0cc9, type: 3}
   - {fileID: 21300000, guid: 53e0c78312b093241a29fdb5a07b5c0c, type: 3}
-  - {fileID: 21300000, guid: a9497a802a1b8ac4798dddf054290660, type: 3}
   - {fileID: 21300000, guid: ee8d5d72a45cdee4cab11de13876ab8f, type: 3}
   - {fileID: 21300000, guid: 305c5dccd3807ab458ab06c9cbe40bea, type: 3}
   img: {fileID: 647576983}

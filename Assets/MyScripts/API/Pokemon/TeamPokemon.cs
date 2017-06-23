@@ -171,6 +171,10 @@ namespace FBG.Base
                 Debug.Log("Calling swap from team pokemon");
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.swapPokemon(pkmn, 0, true));
                 pkmn.team.hasLeechSeed = false;
+
+                pkmn.team.isBound = false;
+                pkmn.team.bindDamage = 0;
+                pkmn.team.bindDuration = -1;
                 return false;
             }
             return true;
@@ -199,6 +203,11 @@ namespace FBG.Base
                 }
 
                 sim.routine.queue.AddCoroutineToQueue(sim.routine.applyDamage(enemyTeam.curPokemon, (int)move.dmgReport.damage, move));
+            }
+            else
+            {
+                //adding this because pokemon might be immune to attacks and therefore have no damage in the move
+                sim.routine.queue.AddCoroutineToQueue(sim.routine.effectiveText(move.atkName, enemyTeam.curPokemon));
             }
 
             if (move.statusAEffect != nonVolitileStatusEffects.none && move.hit.sucess)

@@ -168,8 +168,9 @@ namespace FBG.Battle
         public IEnumerator effectiveText(string atkName, PokemonBase target)
         {
             attacks attack = DexHolder.attackDex.getAttack(atkName);
+            //DamageMultipliers.getEffectiveness(targetPokemon.damageMultiplier, attackType);
             float multiplier = DamageMultipliers.getEffectiveness(target.damageMultiplier, attack.type);
-
+            Debug.Log(string.Format("Text multiplier {0}", multiplier));
             if (multiplier != 1)
             {
                 string text = "";
@@ -460,7 +461,7 @@ namespace FBG.Battle
             delta = checkDelta(pkmn, delta);
             Slider slider = pkmn.team.guiRef.slider;
             Text healthNum = pkmn.team.guiRef.health;
-            float speed = .01f;
+            float speed = .0125f;
             float dmgNormalized = ((pkmn.curHp + (float)delta) / pkmn.maxHP);
             //Debug.Log(string.Format("curhp: {0} delta: {1} formula: {2}/{3} res: {4}", pkmn.curHp, delta, pkmn.curHp + delta, pkmn.maxHP, dmgNormalized));
 
