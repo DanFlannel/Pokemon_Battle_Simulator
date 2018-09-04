@@ -30,7 +30,10 @@ public class AudioLooper : MonoBehaviour
 
     void Update()
     {
-        checkLoop();
+		if(this.enabled)
+		{
+			checkLoop();
+		}
     }
 
     private float Normalized(float n)
