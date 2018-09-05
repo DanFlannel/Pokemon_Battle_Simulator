@@ -1,0 +1,9 @@
+
+ - FAQ/Limitation: https://developer.worldweatheronline.com/api/faq.aspx
+ - Apply your API key: https://developer.worldweatheronline.com/signup.aspx
+
+API Page:
+http://developer.worldweatheronline.com/io-docs
+
+Documentation page:-
+http://developer.worldweatheronline.com/documentation
