@@ -631,8 +631,9 @@ PlayerSettings:
     iOS: 0
   allowUnsafeCode: 0
   additionalIl2CppArgs: 
-  scriptingRuntimeVersion: 0
-  apiCompatibilityLevelPerPlatform: {}
+  scriptingRuntimeVersion: 1
+  apiCompatibilityLevelPerPlatform:
+    WebGL: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Pokemon
