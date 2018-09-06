@@ -3,9 +3,7 @@
   <p align="center">
   <img src="https://docs.google.com/uc?export=download&id=0B4fjzCPc3y-bdGVMNnkySk1aMG8" alt="Pokeball" align="middle">
   </p>  
-  
-  __If you want to use this repository for your own works you must include my name in the credits and a link to this repository__
-  
+
   __What is it?__
   ---
 
