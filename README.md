@@ -15,6 +15,7 @@
   ---
 
   Please see the file called LICENSE.txt
+  <br>
   Please Contact me at dan.flanagan93@gmail.com if you are interested in using this for your own project
 
   **Downloading**
