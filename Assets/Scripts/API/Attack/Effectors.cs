@@ -23,7 +23,6 @@ namespace FBG.Attack
         public int duration { get; set; }
         public PokemonBase target { get; set; }
 
-
         public repeatAttack_Confused(string s, int dur, PokemonBase tar)
         {
             name = s;
@@ -58,7 +57,9 @@ namespace FBG.Attack
             target = tar;
         }
 
-        public void endEffect() { }
+        public void endEffect()
+        {
+        }
 
         public void turnEffect()
         {
@@ -101,7 +102,7 @@ namespace FBG.Attack
 
         public void turnEffect()
         {
-            //we disable the last move used by the target so... 
+            //we disable the last move used by the target so...
             //we find the index of the move and we disable that button?
             //we can't diable their only move (struggle) ect...
             if (target.atkMoves.Count == 1)

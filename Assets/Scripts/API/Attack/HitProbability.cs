@@ -4,8 +4,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitProbability {
-
+public class HitProbability
+{
     private bool accuracyHit { get { return checkAccuracy_and_Hit(self, target); } }
     private bool targetSelf { get { return ((DexHolder.attackDex.getAttackJsonData(attackName).target == "self") || (DexHolder.attackDex.getAttackJsonData(attackName).target == "all")); } }
     private int accuracy { get { return fetchAccuracy(); } }
@@ -38,7 +38,7 @@ public class HitProbability {
             return true;
         }
 
-        if(!ignoreAllSemi && (semiInvulnerable && ignoreCase != target.position))
+        if (!ignoreAllSemi && (semiInvulnerable && ignoreCase != target.position))
         {
             //Debug.Log("reutrning false because the enemy is semi invulnerable");
             return false;
@@ -59,7 +59,6 @@ public class HitProbability {
         ignoreAllSemi = b;
         sucess = calculateHit();
     }
-
 
     private bool ignoreAcc_Evade(string atkName)
     {
@@ -85,7 +84,6 @@ public class HitProbability {
             default:
                 //Debug.Log("Standard accuracy calculations");
                 acc = DexHolder.attackDex.getAttack(attackName).accuracy;
-
                 break;
 
             case "fissure":
@@ -116,7 +114,6 @@ public class HitProbability {
         else
         {
             accMod = 300f / accMod;
-
         }
 
         float evadeStage = tar.evasive_stage;

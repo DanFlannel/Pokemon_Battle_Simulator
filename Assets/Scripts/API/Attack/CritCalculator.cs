@@ -4,18 +4,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CritCalculator {
-
+public class CritCalculator
+{
     public bool sucess;
 
-	public CritCalculator(PokemonBase self, string atkName)
+    public CritCalculator(PokemonBase self, string atkName)
     {
         int critProb = critChance(self, atkName);
         //Debug.Log("Crit chance: 1 /" + critProb);
         bool crit = isCrit(critProb);
         sucess = crit;
     }
-
 
     /// <summary>
     /// Calculates the 1/16 chance every move has for getting a critical strike
@@ -80,7 +79,6 @@ public class CritCalculator {
             case 6:
                 final = 1;
                 break;
-
         }
         return final;
     }

@@ -283,7 +283,6 @@ namespace FBG.Attack
                 case "withdraw":
                     withdraw(self);
                     break;
-
             }
             Debug.Log(string.Format("dmg {0} heal {1} recoil {2} stageName {3} stageDiff {4} hit {5}", damage, heal, recoil, stageName, stageDiff, moveRes.hit.sucess));
 
@@ -292,6 +291,5 @@ namespace FBG.Attack
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff, stagePokemon);
             return report;
         }
-
     }
 }

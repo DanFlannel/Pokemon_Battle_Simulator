@@ -44,7 +44,8 @@ namespace FBG.Attack
                     Debug.LogError("No physical attack with name " + name.ToLower() + " found");
                     break;
 
-#region Testing Attacks
+                #region Testing Attacks
+
                 //.. Testing Attacks
                 case "kill":
                     kill();
@@ -57,14 +58,15 @@ namespace FBG.Attack
                 case "kill last":
                     kill();
                     break;
-#endregion
+
+                #endregion Testing Attacks
 
                 case "barrage":
                     damage = barrage(name);
                     break;
 
                 //waits 2 turns then deals back double the damage it took
-                case "bide":                
+                case "bide":
                     bide(self, damage);
                     break;
 
@@ -146,7 +148,7 @@ namespace FBG.Attack
                     earthQuake(target, damage);
                     break;
 
-                case "egg bomb":            //no additional effects 
+                case "egg bomb":            //no additional effects
                     eggBomb();
                     break;
 
@@ -377,6 +379,5 @@ namespace FBG.Attack
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff, stagePokemon);
             return report;
         }
-
     }
 }

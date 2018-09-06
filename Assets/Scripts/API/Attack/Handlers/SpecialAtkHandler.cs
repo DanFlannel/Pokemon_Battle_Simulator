@@ -16,7 +16,7 @@ namespace FBG.Attack
             setPokemon(tar, s, ref mr);
         }
 
-        public void setPokemon(PokemonBase tar, PokemonBase s, ref  MoveResults mr)
+        public void setPokemon(PokemonBase tar, PokemonBase s, ref MoveResults mr)
         {
             target = tar;
             self = s;
@@ -182,7 +182,6 @@ namespace FBG.Attack
                 case "water gun":           //no additional effect
                     waterGun();
                     break;
-
             }
             //Check for lightscreen to halve special attack damage
 
@@ -199,6 +198,5 @@ namespace FBG.Attack
             move_DmgReport report = new move_DmgReport(damage, heal, recoil, stageName, stageDiff, stagePokemon);
             return report;
         }
-
     }
 }

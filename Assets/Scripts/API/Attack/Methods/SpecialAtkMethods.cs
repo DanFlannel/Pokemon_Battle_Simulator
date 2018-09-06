@@ -19,7 +19,6 @@ public class SpecialAtkMethods : BaseMoves
         stageName = Consts.spDefense;
         stageDiff = -1;
         stagePokemon = target.Name;
-
     }
 
     public void auroraBeam(PokemonBase target)
@@ -111,7 +110,9 @@ public class SpecialAtkMethods : BaseMoves
         }
     }
 
-    public void hydroPump() { }
+    public void hydroPump()
+    {
+    }
 
     public void hyperBeam(PokemonBase self, string atkName, float baseDamage)
     {
@@ -197,15 +198,18 @@ public class SpecialAtkMethods : BaseMoves
         }
     }
 
-    public void surf(PokemonBase target) {
+    public void surf(PokemonBase target)
+    {
         moveRes.hit.ignore(pokemonPosition.underwater);
-        if(target.position == pokemonPosition.underwater)
+        if (target.position == pokemonPosition.underwater)
         {
             damage *= 2f;
         }
     }
 
-    public void swift() { }
+    public void swift()
+    {
+    }
 
     public void thunder(PokemonBase target)
     {
@@ -230,5 +234,7 @@ public class SpecialAtkMethods : BaseMoves
         isFrozen(target, 6.67f);
     }
 
-    public void waterGun() { }
+    public void waterGun()
+    {
+    }
 }

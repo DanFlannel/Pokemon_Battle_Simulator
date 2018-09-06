@@ -8,7 +8,6 @@ namespace FBG.Attack
 {
     public static class AtkCalc
     {
-
         public static PokemonBase targetPokemon;
         public static PokemonBase thisPokemon;
 
@@ -33,7 +32,6 @@ namespace FBG.Attack
             string atkCat = DexHolder.attackDex.getAttack(atkName).cat;
             string atkType = DexHolder.attackDex.getAttack(atkName).type;
             MR.crit = new CritCalculator(self, atkName).sucess;
-            
 
             float baseDamage = GenBaseDamage(atkName, atkCat, atkType, atkIndex, self, MR);
 
@@ -333,54 +331,71 @@ namespace FBG.Attack
                 case "normal":
                     modifier = targetPokemon.damageMultiplier.normal;
                     break;
+
                 case "fighting":
                     modifier = targetPokemon.damageMultiplier.fighting;
                     break;
+
                 case "flying":
                     modifier = targetPokemon.damageMultiplier.flying;
                     break;
+
                 case "poison":
                     modifier = targetPokemon.damageMultiplier.poison;
                     break;
+
                 case "ground":
                     modifier = targetPokemon.damageMultiplier.ground;
                     break;
+
                 case "rock":
                     modifier = targetPokemon.damageMultiplier.rock;
                     break;
+
                 case "bug":
                     modifier = targetPokemon.damageMultiplier.bug;
                     break;
+
                 case "ghost":
                     modifier = targetPokemon.damageMultiplier.ghost;
                     break;
+
                 case "steel":
                     modifier = targetPokemon.damageMultiplier.steel;
                     break;
+
                 case "fire":
                     modifier = targetPokemon.damageMultiplier.fire;
                     break;
+
                 case "water":
                     modifier = targetPokemon.damageMultiplier.water;
                     break;
+
                 case "grass":
                     modifier = targetPokemon.damageMultiplier.grass;
                     break;
+
                 case "electric":
                     modifier = targetPokemon.damageMultiplier.electric;
                     break;
+
                 case "psychic":
                     modifier = targetPokemon.damageMultiplier.psychic;
                     break;
+
                 case "ice":
                     modifier = targetPokemon.damageMultiplier.ice;
                     break;
+
                 case "dragon":
                     modifier = targetPokemon.damageMultiplier.dragon;
                     break;
+
                 case "dark":
                     modifier = targetPokemon.damageMultiplier.dark;
                     break;
+
                 case "fairy":
                     modifier = targetPokemon.damageMultiplier.fairy;
                     break;

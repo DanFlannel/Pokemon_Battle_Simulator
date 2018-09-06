@@ -153,7 +153,7 @@ public class StatusAtkMethods : BaseMoves
 
     public void leechSeed(PokemonBase target)
     {
-        if(checkTypes(target, Consts.Grass) || target.hasSubstitute)
+        if (checkTypes(target, Consts.Grass) || target.hasSubstitute)
         {
             moveRes.failed = true;
             return;
@@ -235,11 +235,10 @@ public class StatusAtkMethods : BaseMoves
     {
         int index = BattleSimulator.Instance.moveHistory.Count - 1;
         string mirrorAttack = BattleSimulator.Instance.moveHistory[index].attackName;
-        if(!DexHolder.attackDex.checkFlag(mirrorAttack, "mirror"))
+        if (!DexHolder.attackDex.checkFlag(mirrorAttack, "mirror"))
         {
             moveRes.failed = true;
             return;
-
         }
         AtkCalc.calculateAttack(target, self, mirrorAttack);
     }
@@ -330,7 +329,9 @@ public class StatusAtkMethods : BaseMoves
         heal = target.maxHP / 2f;
     }
 
-    public void splash() { }
+    public void splash()
+    {
+    }
 
     public void spore(PokemonBase target)
     {
@@ -386,7 +387,9 @@ public class StatusAtkMethods : BaseMoves
         stagePokemon = target.Name;
     }
 
-    public void teleport() { }
+    public void teleport()
+    {
+    }
 
     public void thunderWave(PokemonBase target)
     {
@@ -401,7 +404,7 @@ public class StatusAtkMethods : BaseMoves
     {
         if (checkTypes(target, Consts.Steel, Consts.Poison)) { return; }
 
-        if(checkTypes(self, Consts.Poison))
+        if (checkTypes(self, Consts.Poison))
         {
             moveRes.hit.ignore(true);
         }
