@@ -8,7 +8,8 @@ namespace FBG.Attack
     public class PhysicalAtkMethods : BaseMoves
     {
         //testing attacks
-        public void kill() {
+        public void kill()
+        {
             damage = 1000;
         }
 
@@ -23,7 +24,7 @@ namespace FBG.Attack
             return multiAttack(Random.Range(2, 5), name);
         }
 
-        //need to fix still this takes into account the 
+        //need to fix still this takes into account the
         public void bide(PokemonBase self, float baseDamage)
         {
             if (self.atkStatus == attackStatus.normal)
@@ -42,7 +43,6 @@ namespace FBG.Attack
                 self.atkStatus = attackStatus.charging;
                 self.nextAttack = "bide";
                 damage = 0;
-
             }
             else if (self.atkStatus == attackStatus.charging)
             {
@@ -117,7 +117,7 @@ namespace FBG.Attack
         {
             ignoreReflect = true;
             battleHistory hist = BattleSimulator.Instance.moveHistory.getLastEnemyAttack(self);
-            if(hist == null)
+            if (hist == null)
             {
                 mr.failed = true;
                 return 0;
@@ -135,9 +135,13 @@ namespace FBG.Attack
             }
         }
 
-        public void crabHammer() { }
+        public void crabHammer()
+        {
+        }
 
-        public void cut() { }
+        public void cut()
+        {
+        }
 
         public float dig(PokemonBase self, float damage)
         {
@@ -148,7 +152,6 @@ namespace FBG.Attack
                 self.cachedDamage = damage;
                 self.nextAttack = "dig";
                 return 0;
-
             }
             else if (self.atkStatus == attackStatus.charging)
             {
@@ -181,11 +184,14 @@ namespace FBG.Attack
             return multiAttack(Random.Range(2, 5), name);
         }
 
-        public void doubleEdge() {
+        public void doubleEdge()
+        {
             recoil = Mathf.Round(damage / 3f);
         }
 
-        public void drillPeck() { }
+        public void drillPeck()
+        {
+        }
 
         public void earthQuake(PokemonBase target, float baseDamage)
         {
@@ -197,9 +203,13 @@ namespace FBG.Attack
             }
         }
 
-        public void eggBomb() { }
+        public void eggBomb()
+        {
+        }
 
-        public void explosion() { }
+        public void explosion()
+        {
+        }
 
         public void firePunch(PokemonBase target)
         {
@@ -221,7 +231,6 @@ namespace FBG.Attack
                 self.cachedDamage = baseDamage;
                 self.nextAttack = "fly";
                 return 0;
-
             }
             else if (self.atkStatus == attackStatus.charging)
             {
@@ -258,14 +267,17 @@ namespace FBG.Attack
             isFlinched(target, 30);
         }
 
-        public void highJumpKick(PokemonBase target) {
+        public void highJumpKick(PokemonBase target)
+        {
             if (!moveRes.hit.sucess)
             {
                 recoil = target.maxHP / 2f;
             }
         }
 
-        public void hornAttack() { }
+        public void hornAttack()
+        {
+        }
 
         public float hornDrill(PokemonBase target, PokemonBase self, MoveResults res)
         {
@@ -282,29 +294,42 @@ namespace FBG.Attack
             isFrozen(target, 10);
         }
 
-        public void jumpKick(PokemonBase target) {
+        public void jumpKick(PokemonBase target)
+        {
             if (!moveRes.hit.sucess)
             {
                 recoil = target.maxHP / 2f;
             }
         }
 
-        public void karateChop() { }
+        public void karateChop()
+        {
+        }
 
-        public void leechLife() { }
+        public void leechLife()
+        {
+        }
 
         public void lowKick(PokemonBase self)
         {
             isFlinched(self, 30);
         }
 
-        public void megaKick() { }
+        public void megaKick()
+        {
+        }
 
-        public void megaPunch() { }
+        public void megaPunch()
+        {
+        }
 
-        public void payDay() { }
+        public void payDay()
+        {
+        }
 
-        public void peck() { }
+        public void peck()
+        {
+        }
 
         public float pinMissile(string name)
         {
@@ -316,9 +341,13 @@ namespace FBG.Attack
             isPosioned(target, 30);
         }
 
-        public void pound() { }
+        public void pound()
+        {
+        }
 
-        public void quickAttack() { }
+        public void quickAttack()
+        {
+        }
 
         public void rage(PokemonBase self, string name)
         {
@@ -333,21 +362,27 @@ namespace FBG.Attack
             self.effectors.Add(r);
         }
 
-        public void razorLeaf() { }
+        public void razorLeaf()
+        {
+        }
 
         public void rockSlide(PokemonBase target)
         {
             isFlinched(target, 30);
         }
 
-        public void rockThrow() { }
+        public void rockThrow()
+        {
+        }
 
         public void rollingKick(PokemonBase target)
         {
             isFlinched(target, 30);
         }
 
-        public void scratch() { }
+        public void scratch()
+        {
+        }
 
         public float seismicToss(PokemonBase target)
         {
@@ -365,7 +400,6 @@ namespace FBG.Attack
                 stageName = Consts.defense;
                 stageDiff = 1;
                 return 0;
-
             }
             else if (self.atkStatus == attackStatus.charging)
             {
@@ -389,7 +423,6 @@ namespace FBG.Attack
                 self.cachedDamage = damage;
                 self.nextAttack = "sky attack";
                 return 0;
-
             }
             if (self.atkStatus == attackStatus.charging)
             {
@@ -406,9 +439,13 @@ namespace FBG.Attack
             }
         }
 
-        public void slam() { }
+        public void slam()
+        {
+        }
 
-        public void slash() { }
+        public void slash()
+        {
+        }
 
         public float spikeCannon(string name)
         {
@@ -425,13 +462,17 @@ namespace FBG.Attack
             return damage;
         }
 
-        public void strength() { }
+        public void strength()
+        {
+        }
 
-        public void struggle(PokemonBase target) {
+        public void struggle(PokemonBase target)
+        {
             recoil = target.maxHP / 4f;
         }
 
-        public void submission() {
+        public void submission()
+        {
             recoil = Mathf.Round(damage / 4f);
         }
 
@@ -441,9 +482,12 @@ namespace FBG.Attack
             return target.curHp / 2f;
         }
 
-        public void tackle() { }
+        public void tackle()
+        {
+        }
 
-        public void takeDown() {
+        public void takeDown()
+        {
             recoil = Mathf.Round(damage / 4f);
         }
 
@@ -468,23 +512,28 @@ namespace FBG.Attack
             return multiAttack(2, name);
         }
 
-        public void viceGrip() { }
+        public void viceGrip()
+        {
+        }
 
-        public void vineWhip() { }
+        public void vineWhip()
+        {
+        }
 
         public void waterFall(PokemonBase target)
         {
             isFlinched(target, 20);
         }
 
-        public void wingAttack() { }
+        public void wingAttack()
+        {
+        }
 
         public void wrap(PokemonBase target)
         {
             int rnd = Random.Range(4, 5);
             int dmg = (int)(target.curHp / 16f);
             target.team.addBind(rnd, dmg, "wrap");
-
         }
     }
 }

@@ -6,8 +6,8 @@ using FBG.Data;
 
 namespace FBG.Attack
 {
-    public class BaseMoves {
-
+    public class BaseMoves
+    {
         public bool ignoreReflect { get; set; }
         public bool ignoreLightScreen { get; set; }
         public MoveResults moveRes { get; set; }
@@ -21,7 +21,7 @@ namespace FBG.Attack
 
         //.. Chaning Stats Methods
 
-        public  void changeStats(string type, int stageMod, PokemonBase target)
+        public void changeStats(string type, int stageMod, PokemonBase target)
         {
             if (target.team.hasMist && stageMod < 0)
             {
@@ -31,10 +31,7 @@ namespace FBG.Attack
             int newStage = getStatStage(type, target);
             newStage += stageMod;
 
-            if (newStage > 6)
-                newStage = 6;
-            if (newStage < -6)
-                newStage = -6;
+            newStage = (newStage + stageMod > 6) ? 6 : (newStage - stageMod < -6) ? -6 : newStage;
 
             setStatStage(type, newStage, target);
 
@@ -47,7 +44,7 @@ namespace FBG.Attack
             target.updateStatStage(type, multiplier);
         }
 
-        private  int getStatStage(string type, PokemonBase target)
+        private int getStatStage(string type, PokemonBase target)
         {
             int statStage = 0;
 
@@ -56,24 +53,31 @@ namespace FBG.Attack
                 case "attack":
                     statStage = target.attack_Stage;
                     break;
+
                 case "spAttack":
                     statStage = target.spAttack_Stage;
                     break;
+
                 case "defense":
                     statStage = target.defense_Stage;
                     break;
+
                 case "spDefense":
                     statStage = target.spDefense_stage;
                     break;
+
                 case "speed":
                     statStage = target.speed_stage;
                     break;
+
                 case "accuracy":
                     statStage = target.acc_stage;
                     break;
+
                 case "evasion":
                     statStage = target.evasive_stage;
                     break;
+
                 default:
                     Debug.Log("no type " + type + " found");
                     break;
@@ -82,7 +86,7 @@ namespace FBG.Attack
             return statStage;
         }
 
-        private  void setStatStage(string type, int newStage, PokemonBase target)
+        private void setStatStage(string type, int newStage, PokemonBase target)
         {
             switch (type)
             {
@@ -118,10 +122,9 @@ namespace FBG.Attack
                     Debug.LogError("no type " + type + " found");
                     break;
             }
-
         }
 
-        private  float stageToMultiplier_BaseStat(int stage)
+        private float stageToMultiplier_BaseStat(int stage)
         {
             float multiplier = 1f;
             switch (stage)
@@ -129,39 +132,51 @@ namespace FBG.Attack
                 case -6:
                     multiplier = .25f;
                     break;
+
                 case -5:
                     multiplier = .285f;
                     break;
+
                 case -4:
                     multiplier = .33f;
                     break;
+
                 case -3:
                     multiplier = .4f;
                     break;
+
                 case -2:
                     multiplier = .5f;
                     break;
+
                 case -1:
                     multiplier = .66f;
                     break;
+
                 case 0:
                     multiplier = 1;
                     break;
+
                 case 1:
                     multiplier = 1.5f;
                     break;
+
                 case 2:
                     multiplier = 2f;
                     break;
+
                 case 3:
                     multiplier = 2.5f;
                     break;
+
                 case 4:
                     multiplier = 3f;
                     break;
+
                 case 5:
                     multiplier = 3.5f;
                     break;
+
                 case 6:
                     multiplier = 4f;
                     break;
@@ -170,7 +185,7 @@ namespace FBG.Attack
         }
 
         /// <summary>
-        /// this method takes in the amount of times the attack gets calculated so that the total damage accounts for 
+        /// this method takes in the amount of times the attack gets calculated so that the total damage accounts for
         /// each attack as its own sperate attack rather than multiplying by the number
         /// </summary>
         public float multiAttack(int rnd, string name)
@@ -193,7 +208,7 @@ namespace FBG.Attack
         /// <param name="isPlayer">who is attacking</param>
         /// <param name="prob">the probability of being hit</param>
         /// <param name="duration">duration of the effect</param>
-        public  void isBurned(PokemonBase target, float prob)
+        public void isBurned(PokemonBase target, float prob)
         {
             if (!Chance_100(prob)) { return; }
             if (checkTypes(target, Consts.Fire)) { return; }
@@ -218,7 +233,7 @@ namespace FBG.Attack
         /// </summary>
         /// <param name="isPlayer">is the player attacking</param>
         /// <param name="prob">probability of getting frozen</param>
-        public  void isFrozen(PokemonBase target, float prob)
+        public void isFrozen(PokemonBase target, float prob)
         {
             if (!Chance_100(prob)) return;
             if (checkTypes(target, Consts.Ice)) { return; }
@@ -242,11 +257,11 @@ namespace FBG.Attack
         /// </summary>
         /// <param name="isPlayer">is the player attacking</param>
         /// <param name="prob">probability of landing this effect</param>
-        public  void isParalized(PokemonBase target, float prob)
+        public void isParalized(PokemonBase target, float prob)
         {
             if (!Chance_100(prob)) return;
             if (checkTypes(target, Consts.Electric)) { return; }
-            if(target.hasSubstitute) { return; }
+            if (target.hasSubstitute) { return; }
 
             if (target.status_A == nonVolitileStatusEffects.none)
             {
@@ -267,7 +282,7 @@ namespace FBG.Attack
         /// </summary>
         /// <param name="isPlayer"></param>
         /// <param name="prob"></param>
-        public  void isPosioned(PokemonBase target, float prob)
+        public void isPosioned(PokemonBase target, float prob)
         {
             if (!Chance_100(prob)) { return; }
             if (checkTypes(target, Consts.Steel, Consts.Poison)) { return; }
@@ -293,7 +308,7 @@ namespace FBG.Attack
         /// <param name="isPlayer">is the player attacking</param>
         /// <param name="prob">probability of it hitting</param>
         /// <param name="duration">duration pokemon is asleep for</param>
-        public  void isSleep(PokemonBase target, float prob, int duration)
+        public void isSleep(PokemonBase target, float prob, int duration)
         {
             if (!Chance_100(prob)) { return; }
             if (target.hasSubstitute) { return; }
@@ -306,7 +321,7 @@ namespace FBG.Attack
                 moveRes.statusAEffect = nonVolitileStatusEffects.sleep;
                 moveRes.statusTarget = target.Name;
             }
-            else if(target.status_A != nonVolitileStatusEffects.none)
+            else if (target.status_A != nonVolitileStatusEffects.none)
             {
                 moveRes.failed = true;
             }
@@ -314,7 +329,7 @@ namespace FBG.Attack
 
         //.. Status B
 
-        public  void isConfused(PokemonBase target, float prob, int duration)
+        public void isConfused(PokemonBase target, float prob, int duration)
         {
             if (!Chance_100(prob)) { return; }
             if (target.hasSubstitute) { return; }
@@ -329,7 +344,7 @@ namespace FBG.Attack
         }
 
         //I need to add gender to the PokemonBase before I can implement this
-        public  void isInfatuated(PokemonBase target, PokemonBase self, float prob)
+        public void isInfatuated(PokemonBase target, PokemonBase self, float prob)
         {
             if (!Chance_100(prob)) return;
 
@@ -344,13 +359,13 @@ namespace FBG.Attack
 
         //Other
 
-        public  void isFlinched(PokemonBase target, float prob)
+        public void isFlinched(PokemonBase target, float prob)
         {
             if (!Chance_100(prob)) return;
             target.isFlinched = true;
         }
 
-        public  float ChargingMove(PokemonBase self, string atkName, float dmg)
+        public float ChargingMove(PokemonBase self, string atkName, float dmg)
         {
             if (self.atkStatus == attackStatus.normal)
             {
@@ -358,7 +373,6 @@ namespace FBG.Attack
                 self.atkStatus = attackStatus.charging;
                 self.nextAttack = atkName;
                 dmg = 0;
-
             }
             else if (self.atkStatus == attackStatus.charging)
             {
@@ -369,7 +383,7 @@ namespace FBG.Attack
             return dmg;
         }
 
-        public  void ReChargeMove(PokemonBase self, string atkName, float dmg)
+        public void ReChargeMove(PokemonBase self, string atkName, float dmg)
         {
             if (self.atkStatus == attackStatus.normal)
             {
@@ -401,7 +415,7 @@ namespace FBG.Attack
 
         //.. info/helpers
 
-        public  bool hasEffector(PokemonBase target, string eName)
+        public bool hasEffector(PokemonBase target, string eName)
         {
             for (int i = 0; i < target.effectors.Count; i++)
             {
@@ -418,9 +432,9 @@ namespace FBG.Attack
             if (canBeSwapped(target))
             {
                 List<PokemonBase> pkmn = new List<PokemonBase>();
-                for(int i = 0; i < target.team.pokemon.Count; i++)
+                for (int i = 0; i < target.team.pokemon.Count; i++)
                 {
-                    if(target.team.pokemon[i].curHp > 0 && target.team.pokemon[i] != target.team.curPokemon)
+                    if (target.team.pokemon[i].curHp > 0 && target.team.pokemon[i] != target.team.curPokemon)
                     {
                         pkmn.Add(target.team.pokemon[i]);
                     }
@@ -433,7 +447,7 @@ namespace FBG.Attack
 
         private bool canBeSwapped(PokemonBase target)
         {
-            for(int i = 0; i < target.team.pokemon.Count; i++)
+            for (int i = 0; i < target.team.pokemon.Count; i++)
             {
                 if (target.team.pokemon[i].curHp > 0 && target.team.pokemon[i] != target.team.curPokemon)
                 {
@@ -459,7 +473,8 @@ namespace FBG.Attack
             }
             return chance;
         }
-    /// <summary>
+
+        /// <summary>
         /// Checks the type of the target pokemon against all of the strings passes in, checks both type1 and type2
         /// </summary>
         /// <param name="target">target pokemon</param>
