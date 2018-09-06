@@ -1,27 +1,30 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using FBG.Base;
-using FBG.Battle;
+﻿using System.Collections.Generic;
 
-namespace FBG.Debuggers
+using UnityEngine;
+
+using Base;
+using Battle;
+
+namespace Debuggers
 {
     public class PokemonDebugger : MonoBehaviour
     {
         [Header("Team Information")]
         public PokemonTeam curTeam = PokemonTeam.redTeam;
+
         public int index = 0;
         public bool matchCurIndex;
 
         [Header("Pokemon Info")]
-
         public string pokeName;
+
         public int m_ID;
         public int m_Level;
         public int m_CurHP;
 
         [Header("Pokemon Stats")]
         public int m_Attack;
+
         public int m_Defenese;
         public int m_SpecialAttack;
         public int m_SpecialDefense;
@@ -29,32 +32,33 @@ namespace FBG.Debuggers
 
         [Header("Attack Info")]
         public int critRatio;
+
         public List<string> atkMoves = new List<string>();
         public dmgMult damageMultiplier;
 
         [Header("Cached Info")]
         public string nextAttack;
+
         public float cachedDamage;
 
         [Header("")]
         public nonVolitileStatusEffects status_A;
+
         public pokemonPosition position;
         public attackStatus atkStatus;
-
-
 
         private BattleSimulator battlesim;
         private List<PokemonBase> pokemonTeamData = new List<PokemonBase>();
 
         // Use this for initialization
-        void Start()
+        private void Start()
         {
             battlesim = BattleSimulator.Instance;
             updateStats();
         }
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
             updateStats();
         }

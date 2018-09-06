@@ -1,8 +1,8 @@
-﻿using FBG.Base;
-using FBG.Data;
-using FBG.Battle;
+﻿using Base;
+using Data;
+using Battle;
 
-namespace FBG.Attack
+namespace Attack
 {
     public class Effectors { }
 

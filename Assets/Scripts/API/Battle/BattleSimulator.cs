@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
-using FBG.Base;
-using FBG.Attack;
-using FBG.JSON;
-using FBG.Data;
 
-namespace FBG.Battle
+using Base;
+using Attack;
+using JSON;
+using Data;
+
+namespace Battle
 {
     public class BattleSimulator : MonoBehaviour
     {
@@ -16,6 +17,7 @@ namespace FBG.Battle
 
         [Header("Information")]
         public bool isTurnRunning;
+
         public int teamSize = 6;
         public int redIndex;
         public int blueIndex;
@@ -27,10 +29,12 @@ namespace FBG.Battle
 
         [Header("Red Team")]
         public GifRenderer redSprite;
+
         public GameObject redGUI;
 
         [Header("Blue Team")]
         public GifRenderer blueSprite;
+
         public GameObject blueGUI;
 
         [HideInInspector]
@@ -74,7 +78,7 @@ namespace FBG.Battle
 
         private void AI_RND_Battle(int size)
         {
-            TeamPokemon t1 = new TeamPokemon(teamSize, "player", TeamPokemon.TeamType.Player,  ref instance, redGUI);
+            TeamPokemon t1 = new TeamPokemon(teamSize, "player", TeamPokemon.TeamType.Player, ref instance, redGUI);
             TeamPokemon t2 = new TeamPokemon(teamSize, "AI", TeamPokemon.TeamType.AI, ref instance, blueGUI);
             setupTeamBattle(size, t1, t2);
         }
@@ -113,7 +117,7 @@ namespace FBG.Battle
             print(string.Format("Simulator Loading Time {0}ms", sw.ElapsedMilliseconds));
         }
 
-        void Update()
+        private void Update()
         {
             capPokemonIndex();
             battleGUI.checkButtons(redTeam.curPokemon);
@@ -122,20 +126,20 @@ namespace FBG.Battle
 
         private void capPokemonIndex()
         {
-            if(redIndex > teamSize - 1)
+            if (redIndex > teamSize - 1)
             {
                 redIndex = teamSize - 1;
             }
-            if(blueIndex > teamSize -1)
+            if (blueIndex > teamSize - 1)
             {
                 blueIndex = teamSize - 1;
             }
 
-            if(redIndex < 0)
+            if (redIndex < 0)
             {
                 redIndex = 0;
             }
-            if(blueIndex < 0)
+            if (blueIndex < 0)
             {
                 blueIndex = 0;
             }
@@ -147,14 +151,14 @@ namespace FBG.Battle
             //ClearLog.ClearLogConsole();
 #endif
             redMoveIndex = index;
-            if(redTeam.curPokemon.curPP[index] < 0)
+            if (redTeam.curPokemon.curPP[index] < 0)
             {
                 return false;
             }
             print(string.Format("red team index: {0} blue team index {1}", redTeam.curIndex, blueTeam.curIndex));
 
             StartCoroutine(routine.takeTurn());
-            
+
             return true;
         }
 
@@ -218,7 +222,7 @@ namespace FBG.Battle
         public void updateGUI(ref TeamPokemon team)
         {
             GifRenderer r = redSprite;
-            if(team == blueTeam)
+            if (team == blueTeam)
             {
                 r = blueSprite;
             }

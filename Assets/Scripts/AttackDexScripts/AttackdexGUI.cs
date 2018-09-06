@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
-using System.Collections;
+
 using UnityEngine.UI;
-using FBG.JSON;
-using FBG.Data;
 
-public class AttackdexGUI : MonoBehaviour {
+using JSON;
+using Data;
 
+public class AttackdexGUI : MonoBehaviour
+{
     public int index;
     private AttackData moves;
     public Text tName;
@@ -19,10 +20,11 @@ public class AttackdexGUI : MonoBehaviour {
     public Text tContest;
     public Text tType;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    private void Start()
+    {
         moves = DexHolder.attackDex;
-	}
+    }
 
     public void UpdateInformation()
     {
@@ -36,7 +38,6 @@ public class AttackdexGUI : MonoBehaviour {
         tPriority.text = Priority();
         //tContest.text = ContestType();
         tType.text = AttackType();
-
     }
 
     public void UpdateInformation(int n)
@@ -88,7 +89,7 @@ public class AttackdexGUI : MonoBehaviour {
     private string Accuracy()
     {
         string final = moves.attacks[index].accuracy.ToString() + "%";
-        if(moves.attacks[index].category == Consts.Status)
+        if (moves.attacks[index].category == Consts.Status)
         {
             final = "-";
         }
@@ -105,7 +106,7 @@ public class AttackdexGUI : MonoBehaviour {
     {
         string final;
         int priority = moves.attacks[index].priority;
-        if(priority == 0)
+        if (priority == 0)
         {
             final = "none";
         }
@@ -124,7 +125,7 @@ public class AttackdexGUI : MonoBehaviour {
     public void NextAttack()
     {
         index++;
-        if(index >= moves.attacks.Length)
+        if (index >= moves.attacks.Length)
         {
             index = 0;
         }

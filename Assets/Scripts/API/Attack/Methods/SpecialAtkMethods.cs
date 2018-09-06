@@ -1,9 +1,8 @@
-﻿using FBG.Attack;
-using FBG.Base;
-using FBG.Data;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+
+using Attack;
+using Base;
+using Data;
 
 public class SpecialAtkMethods : BaseMoves
 {

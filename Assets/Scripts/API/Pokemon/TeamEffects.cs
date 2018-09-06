@@ -1,9 +1,8 @@
-﻿using FBG.Attack;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 
-namespace FBG.Base
+using Attack;
+
+namespace Base
 {
     public class TeamEffects
     {
@@ -118,7 +117,7 @@ namespace FBG.Base
 
         public bool isDamagingNV(nonVolitileStatusEffects nv)
         {
-             return (nv == nonVolitileStatusEffects.burned || nv == nonVolitileStatusEffects.poisioned || nv == nonVolitileStatusEffects.toxic);
+            return (nv == nonVolitileStatusEffects.burned || nv == nonVolitileStatusEffects.poisioned || nv == nonVolitileStatusEffects.toxic);
         }
 
         public void checkEffectors(PokemonBase self)
@@ -139,6 +138,5 @@ namespace FBG.Base
             }
             self.effectors = effects;
         }
-
     }
 }

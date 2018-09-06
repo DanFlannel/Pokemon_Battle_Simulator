@@ -1,11 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+
 using UnityEngine;
 
-namespace FBG.Base
+namespace Base
 {
-    public static class Utilities {
-
+    public static class Utilities
+    {
         /// <summary>
         /// this is only to check if this affects the pokemon moving
         /// </summary>
@@ -154,4 +154,3 @@ namespace FBG.Base
         }
     }
 }
-

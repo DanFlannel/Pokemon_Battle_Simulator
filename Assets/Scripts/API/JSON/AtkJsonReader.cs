@@ -1,14 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System;
+﻿using System;
 using UnityEngine;
 using System.Diagnostics;
 
-namespace FBG.JSON
+namespace JSON
 {
     public static class AtkJsonReader
     {
-
         /*
         List of flags and their descriptions:
         authentic: Ignores a target's substitute.

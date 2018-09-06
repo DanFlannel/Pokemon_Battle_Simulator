@@ -1,14 +1,14 @@
-﻿using FBG.Attack;
-using FBG.Battle;
-using FBG.Data;
-using FBG.JSON;
-using System;
-using System.Collections;
+﻿using System.Collections.Generic;
+
 using UnityEngine;
-using System.Collections.Generic;
 using UnityEngine.UI;
 
-namespace FBG.Base
+using Attack;
+using Battle;
+using Data;
+using JSON;
+
+namespace Base
 {
     public class TeamPokemon : TeamEffects
     {
@@ -97,7 +97,7 @@ namespace FBG.Base
         public void takeTurn(int index, bool isSwapping, PokemonBase target)
         {
             //catch for if we move second but die before we move, then we have already switched, therefore we used out turn and it is the end of it.
-            if(target != curPokemon)
+            if (target != curPokemon)
             {
                 Debug.Log(string.Format("Expected: {0} Actual: {1}", curPokemon.Name, target.Name));
                 target = curPokemon;

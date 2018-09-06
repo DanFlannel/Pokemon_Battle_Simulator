@@ -1,12 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace FBG.Data
+﻿namespace Data
 {
     public class DamageMultipliers
     {
         #region List of various arrays of damage multipliers
+
         private static dmgMult grass;
         private static dmgMult fire;
         private static dmgMult water;
@@ -25,7 +22,8 @@ namespace FBG.Data
         private static dmgMult ice;
         private static dmgMult rock;
         private static dmgMult steel;
-        #endregion
+
+        #endregion List of various arrays of damage multipliers
 
         public static void Init()
         {
@@ -445,7 +443,7 @@ namespace FBG.Data
             switch (cat)
             {
                 default:
-                    Debug.Log(string.Format("No type: {0} found", cat));
+                    UnityEngine.Debug.Log(string.Format("No type: {0} found", cat));
                     break;
 
                 case Consts.Bug:
@@ -531,6 +529,7 @@ namespace FBG.Data
                 case Consts.Bug:
                     type = bug;
                     break;
+
                 case Consts.Dark:
                     type = dark;
                     break;
@@ -578,6 +577,7 @@ namespace FBG.Data
                 case Consts.Normal:
                     type = normal;
                     break;
+
                 case Consts.Poison:
                     type = poison;
                     break;

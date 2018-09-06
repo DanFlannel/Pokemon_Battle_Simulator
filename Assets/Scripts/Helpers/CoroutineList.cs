@@ -1,6 +1,7 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+
+using UnityEngine;
 
 namespace CoroutineQueueHelper
 {
@@ -12,6 +13,7 @@ namespace CoroutineQueueHelper
     {
         //Singleton Variables
         private static CoroutineList instance;
+
         public static CoroutineList Instance { get { return instance; } }
 
         private List<IEnumerator> CoroutineQueue = new List<IEnumerator>();
@@ -38,7 +40,7 @@ namespace CoroutineQueueHelper
 
         public void StopQueue()
         {
-            StopCoroutine(masterIEnumerator());   
+            StopCoroutine(masterIEnumerator());
         }
 
         public void AddCoroutineToQueue(params IEnumerator[] addThis)
@@ -70,7 +72,7 @@ namespace CoroutineQueueHelper
         {
             return isRunning;
         }
-        
+
         public bool isFinished()
         {
             return !isRunning;
@@ -85,9 +87,9 @@ namespace CoroutineQueueHelper
         {
             isRunning = true;
             int i = 0;
-            while(i < CoroutineQueue.Count && isRunning)
+            while (i < CoroutineQueue.Count && isRunning)
             {
-                IEnumerator temp = CoroutineQueue[i];   
+                IEnumerator temp = CoroutineQueue[i];
                 yield return StartCoroutine(CoroutineQueue[i]);
                 i++;
             }

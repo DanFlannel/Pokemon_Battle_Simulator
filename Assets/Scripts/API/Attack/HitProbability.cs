@@ -1,8 +1,7 @@
-﻿using FBG.Base;
-using FBG.Data;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+
+using Base;
+using Data;
 
 public class HitProbability
 {

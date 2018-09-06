@@ -1,13 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace FBG.Data
+﻿namespace Data
 {
-
     public static class Consts
     {
-
         public const string Normal = "Normal";
         public const string Fighting = "Fighting";
         public const string Flying = "Flying";
@@ -27,7 +21,6 @@ namespace FBG.Data
         public const string Grass = "Grass";
         public const string Water = "Water";
 
-
         public const string defense = "defense";
         public const string attack = "attack";
         public const string spAttack = "spAttack";
@@ -35,7 +28,6 @@ namespace FBG.Data
         public const string speed = "speed";
         public const string accuracy = "accuracy";
         public const string evasion = "evasion";
-
 
         public const string Physical = "Physical";
         public const string Special = "Special";

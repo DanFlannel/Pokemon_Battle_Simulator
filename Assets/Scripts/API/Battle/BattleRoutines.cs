@@ -1,14 +1,17 @@
 ﻿using CoroutineQueueHelper;
-using FBG.Attack;
-using FBG.Base;
-using FBG.Data;
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace FBG.Battle
+using Attack;
+using Base;
+using Data;
+
+namespace Battle
 {
     public class BattleRoutines : MonoBehaviour
     {
@@ -53,7 +56,6 @@ namespace FBG.Battle
             yield return StartCoroutine(EndOfTurnTeam(sim.blueTeam));
 
             yield return StartCoroutine(resetTurn(sim));
-            
         }
 
         #region IEnumerators for the turn
@@ -63,7 +65,6 @@ namespace FBG.Battle
             PokemonBase pkmn = turn.order[i].pokemon;
             pkmn.team.takeTurn(turn.order[i].moveIndex, turn.order[i].isSwapping, pkmn);
             yield return StartCoroutine(queue.masterIEnumerator());
-
         }
 
         private IEnumerator EndOfTurnPokemon(TurnOrder turn, int i)
@@ -91,7 +92,7 @@ namespace FBG.Battle
             yield return null;
         }
 
-        #endregion
+        #endregion IEnumerators for the turn
 
         //tests
 
@@ -153,7 +154,7 @@ namespace FBG.Battle
         {
             //Debug.Log("recoil coroutine");
             yield return StartCoroutine(changeHealthbar(pkmn, -recoil));
-            
+
             yield return null;
         }
 
@@ -200,11 +201,11 @@ namespace FBG.Battle
         public IEnumerator addNV(string target, nonVolitileStatusEffects status)
         {
             string ending = status.ToString();
-            if(status == nonVolitileStatusEffects.sleep)
+            if (status == nonVolitileStatusEffects.sleep)
             {
                 ending = "asleep";
             }
-            if(status == nonVolitileStatusEffects.toxic)
+            if (status == nonVolitileStatusEffects.toxic)
             {
                 ending = "badly poisoned";
             }
@@ -212,12 +213,10 @@ namespace FBG.Battle
             string text = string.Format("{0} is now {1}!", target, ending);
             yield return StartCoroutine(displayText(text, 2f));
 
-
-            if(target == sim.redTeam.curPokemon.Name)
+            if (target == sim.redTeam.curPokemon.Name)
             {
                 sim.redTeam.curPokemon.status_A = status;
                 sim.redTeam.guiRef.updateStatus_A(sim.redTeam.curPokemon);
-
             }
             else
             {
@@ -273,7 +272,7 @@ namespace FBG.Battle
         public IEnumerator statusAffected(MoveResults move)
         {
             string text;
-            if(move.dmgReport.stagePokemon == "all")
+            if (move.dmgReport.stagePokemon == "all")
             {
                 text = string.Format("{0}", move.dmgReport.stageName);
             }
@@ -359,7 +358,6 @@ namespace FBG.Battle
             yield return null;
         }
 
-
         //..Swaping Pokemon
 
         public IEnumerator swapPokemon(PokemonBase cur, int index, bool forced)
@@ -368,8 +366,8 @@ namespace FBG.Battle
             {
                 yield break;
             }
-             
-            if(cur.team.type == TeamPokemon.TeamType.Player)
+
+            if (cur.team.type == TeamPokemon.TeamType.Player)
             {
                 //open up the swap panel and wait for an input to be made
                 if (forced)
@@ -503,11 +501,11 @@ namespace FBG.Battle
         /// <returns></returns>
         private int checkDelta(PokemonBase pkmn, int delta)
         {
-            if((pkmn.curHp + delta) <= 0)
+            if ((pkmn.curHp + delta) <= 0)
             {
                 delta = -pkmn.curHp;
             }
-            if((pkmn.curHp + delta) >= pkmn.maxHP)
+            if ((pkmn.curHp + delta) >= pkmn.maxHP)
             {
                 delta = pkmn.maxHP - pkmn.curHp;
             }
@@ -523,17 +521,20 @@ namespace FBG.Battle
         {
             string text;
 
-            if(delta <= -2)
+            if (delta <= -2)
             {
                 text = "decreased greatly!";
-            }else if (delta == -1)
+            }
+            else if (delta == -1)
             {
                 text = "decreased.";
-            }else if(delta == 0)
+            }
+            else if (delta == 0)
             {
                 text = "";
                 Debug.Log("Error found a 0 delta");
-            }else if(delta == 1)
+            }
+            else if (delta == 1)
             {
                 text = "increased.";
             }

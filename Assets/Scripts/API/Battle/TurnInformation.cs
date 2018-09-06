@@ -1,12 +1,10 @@
-﻿using FBG.Base;
-using FBG.Data;
-using System.Collections;
-using System.Collections.Generic;
+﻿using Base;
+using Data;
 
-
-namespace FBG.Battle {
-    public class TurnInformation {
-
+namespace Battle
+{
+    public class TurnInformation
+    {
         public int priority;
         public int speed;
         public bool isSwapping;
@@ -28,6 +26,5 @@ namespace FBG.Battle {
                 priority = DexHolder.attackDex.getAttackJsonData(pokemon.atkMoves[moveIndex]).priority;
             }
         }
-
     }
 }

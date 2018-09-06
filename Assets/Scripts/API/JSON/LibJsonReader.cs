@@ -1,12 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System;
+﻿using System;
 using System.Diagnostics;
-using UnityEngine;
-using FBG.Data;
-using FBG.Attack;
 
-namespace FBG.JSON
+using UnityEngine;
+
+using Data;
+using Attack;
+
+namespace JSON
 {
     public static class LibJsonReader
     {
@@ -89,7 +89,6 @@ namespace FBG.JSON
                 type2 = null;
             }
         }
-
     }
 
     [Serializable]
@@ -142,4 +141,3 @@ namespace FBG.JSON
         public int spe;
     }
 }
-

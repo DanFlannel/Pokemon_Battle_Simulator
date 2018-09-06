@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 /// <summary>
 /// This class is to create singletons of any gameobject it is attatched to
 /// </summary>
-public class DontDestroy : MonoBehaviour {
-
+public class DontDestroy : MonoBehaviour
+{
     private static DontDestroy instance = null;
 
     /// <summary>
@@ -19,7 +18,7 @@ public class DontDestroy : MonoBehaviour {
         }
     }
 
-    void Awake()
+    private void Awake()
     {
         //Destorys any copt object that was created when the scene loaded
         DontDestroyOnLoad(this);

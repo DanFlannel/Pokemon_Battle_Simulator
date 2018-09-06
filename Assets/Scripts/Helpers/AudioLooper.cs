@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class AudioLooper : MonoBehaviour
 {
@@ -16,7 +15,7 @@ public class AudioLooper : MonoBehaviour
     private Coroutine routine;
 
     // Use this for initialization
-    void OnEnable()
+    private void OnEnable()
     {
         aSource = this.GetComponent<AudioSource>();
         startAudio();
@@ -28,12 +27,12 @@ public class AudioLooper : MonoBehaviour
         aSource.clip = null;
     }
 
-    void Update()
+    private void Update()
     {
-		if(this.enabled)
-		{
-			checkLoop();
-		}
+        if (this.enabled)
+        {
+            checkLoop();
+        }
     }
 
     private float Normalized(float n)
@@ -56,7 +55,7 @@ public class AudioLooper : MonoBehaviour
     public void checkLoop()
     {
         curValue = aSource.time;
-        if(aSource.time > loopEnd)
+        if (aSource.time > loopEnd)
         {
             aSource.time = loopStart;
         }

@@ -1,6 +1,4 @@
-﻿
-
-namespace FBG.Battle
+﻿namespace Battle
 {
     public static class BattleEnviornment
     {

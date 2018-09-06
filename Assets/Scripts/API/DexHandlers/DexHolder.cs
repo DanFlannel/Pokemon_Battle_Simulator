@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using FBG.JSON;
+﻿using UnityEngine;
 
-namespace FBG.Data
+using JSON;
+
+namespace Data
 {
     public class DexHolder : MonoBehaviour
     {
@@ -14,7 +13,7 @@ namespace FBG.Data
         public static AttackData attackDex;
 
         // Use this for initialization
-        void Awake()
+        private void Awake()
         {
             if (instance != null && instance != this)
             {

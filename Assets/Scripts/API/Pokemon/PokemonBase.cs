@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using FBG.Attack;
-using FBG.Data;
-using FBG.JSON;
-using UnityEngine;
+﻿using System.Collections.Generic;
 
-namespace FBG.Base
+using Attack;
+using Data;
+using JSON;
+
+namespace Base
 {
     public class PokemonBase
     {

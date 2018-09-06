@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using FBG.Base;
+﻿using Base;
 
 public interface IAttackHandler
 {

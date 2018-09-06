@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
-using FBG.Base;
-using FBG.Data;
-using FBG.Battle;
 
-namespace FBG.Attack
+using Base;
+using Data;
+using Battle;
+
+namespace Attack
 {
     public class PhysicalAtkMethods : BaseMoves
     {

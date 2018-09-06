@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using FBG.Base;
-using FBG.Data;
+﻿using UnityEngine;
 
-namespace FBG.Attack
+using Base;
+using Data;
+
+namespace Attack
 {
     public static class AtkCalc
     {

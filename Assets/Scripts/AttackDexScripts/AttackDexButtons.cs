@@ -1,20 +1,18 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 
-public class AttackDexButtons : MonoBehaviour {
-
+public class AttackDexButtons : MonoBehaviour
+{
     public AttackdexGUI gui;
     private Button b;
     public int id;
 
-    void Awake()
+    private void Awake()
     {
         gui = GameObject.FindGameObjectWithTag("GUIScripts").GetComponent<AttackdexGUI>();
         b = this.GetComponent<Button>();
         AssignOnClick();
     }
-
 
     private void AssignOnClick()
     {
@@ -24,13 +22,13 @@ public class AttackDexButtons : MonoBehaviour {
        });
     }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    // Use this for initialization
+    private void Start()
+    {
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+    }
 }

@@ -1,11 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using FBG.JSON;
-using System.Linq;
-using FBG.Attack;
+﻿using System.Linq;
 
-namespace FBG.Data
+using UnityEngine;
+
+using JSON;
+using Attack;
+
+namespace Data
 {
     public static class DexMethods
     {
@@ -62,14 +62,13 @@ namespace FBG.Data
 
         public static attacks getAttack(this AttackData a, int id)
         {
-            if(id <= MoveSets.attackList.Count)
+            if (id <= MoveSets.attackList.Count)
             {
                 return MoveSets.attackList[id];
             }
             Debug.Log(string.Format("Attack id: {0} not found in {1} attacks", id, MoveSets.attackList.Count));
             return new attacks();
         }
-
 
         public static int GetCirtRatio(this AttackData a, string atkName)
         {
@@ -137,9 +136,9 @@ namespace FBG.Data
 
         public static PokemonJsonData getData(this PokedexData p, string name)
         {
-            for(int i = 0; i < p.pokemon.Length; i++)
+            for (int i = 0; i < p.pokemon.Length; i++)
             {
-                if(p.pokemon[i].name.ToLower() == name.ToLower())
+                if (p.pokemon[i].name.ToLower() == name.ToLower())
                 {
                     return p.pokemon[i];
                 }

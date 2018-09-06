@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using FBG.Data;
-using FBG.Base;
+﻿using UnityEngine;
 
-namespace FBG.Attack
+using Base;
+
+namespace Attack
 {
     public class SpecialAtkHandler : SpecialAtkMethods, IAttackHandler
     {

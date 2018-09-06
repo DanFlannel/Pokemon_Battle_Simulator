@@ -1,21 +1,23 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using FBG.Data;
 
-namespace FBG.Attack
+using UnityEngine;
+
+using Data;
+
+namespace Attack
 {
     public static class MoveSets
     {
-
         #region Declared Variables
+
         public static List<attacks> attackList = new List<attacks>();
         private static List<attackIndex> HM_List = new List<attackIndex>();
         private static List<attackIndex> TM_List = new List<attackIndex>();
         public static List<masterAttackList> master_attack_list = new List<masterAttackList>();    //master list of the lists of attacks
 
         #region TM names to number associating
+
         private const int MegaPunch = 1;
         private const int RazorWind = 2;
         private const int SwordsDance = 3;
@@ -66,17 +68,21 @@ namespace FBG.Attack
         private const int RockSlide = 48;
         private const int TriAttack = 49;
         private const int Substitute = 50;
-        #endregion
+
+        #endregion TM names to number associating
 
         #region HM names to number associating
+
         private const int Cut = 1;
         private const int Fly = 2;
         private const int Surf = 3;
         private const int Strength = 4;
         private const int Flash = 5;
-        #endregion
+
+        #endregion HM names to number associating
 
         #region Pokemon List 1-24
+
         private static List<attackIndex> BulbasarAttacks = new List<attackIndex>();
         private static List<attackIndex> IvysaurAttacks = new List<attackIndex>();
         private static List<attackIndex> VenusaurAttacks = new List<attackIndex>();
@@ -101,9 +107,11 @@ namespace FBG.Attack
         private static List<attackIndex> FearowAttacks = new List<attackIndex>();
         private static List<attackIndex> EkansAttacks = new List<attackIndex>();
         private static List<attackIndex> ArbokAttacks = new List<attackIndex>();
-        #endregion
+
+        #endregion Pokemon List 1-24
 
         #region Pokemon List 25-52
+
         private static List<attackIndex> PikachuAttacks = new List<attackIndex>();
         private static List<attackIndex> RaichuAttacks = new List<attackIndex>();
         private static List<attackIndex> SandshrewAttacks = new List<attackIndex>();
@@ -131,9 +139,11 @@ namespace FBG.Attack
         private static List<attackIndex> VenomothAttacks = new List<attackIndex>();
         private static List<attackIndex> DiglettAttacks = new List<attackIndex>();
         private static List<attackIndex> DugtrioAttacks = new List<attackIndex>();
-        #endregion
+
+        #endregion Pokemon List 25-52
 
         #region Pokemon List 53-76
+
         private static List<attackIndex> MeowthAttacks = new List<attackIndex>();
         private static List<attackIndex> PersianAttacks = new List<attackIndex>();
         private static List<attackIndex> PsyduckAttacks = new List<attackIndex>();
@@ -159,9 +169,11 @@ namespace FBG.Attack
         private static List<attackIndex> GeodudeAttacks = new List<attackIndex>();
         private static List<attackIndex> GravlerAttacks = new List<attackIndex>();
         private static List<attackIndex> GolemAttacks = new List<attackIndex>();
-        #endregion
+
+        #endregion Pokemon List 53-76
 
         #region Pokemon List 77-101
+
         private static List<attackIndex> PonytaAttacks = new List<attackIndex>();
         private static List<attackIndex> RapidashAttacks = new List<attackIndex>();
         private static List<attackIndex> SlowpokeAttacks = new List<attackIndex>();
@@ -187,9 +199,11 @@ namespace FBG.Attack
         private static List<attackIndex> KinglerAttacks = new List<attackIndex>();
         private static List<attackIndex> VoltorbAttacks = new List<attackIndex>();
         private static List<attackIndex> ElectrodeAttacks = new List<attackIndex>();
-        #endregion
+
+        #endregion Pokemon List 77-101
 
         #region Pokemon List 102-126
+
         private static List<attackIndex> ExeggcuteAttacks = new List<attackIndex>();
         private static List<attackIndex> ExegutorAttacks = new List<attackIndex>();
         private static List<attackIndex> CuboneAttacks = new List<attackIndex>();
@@ -215,9 +229,11 @@ namespace FBG.Attack
         private static List<attackIndex> JynxAttacks = new List<attackIndex>();
         private static List<attackIndex> ElectrabuzzAttacks = new List<attackIndex>();
         private static List<attackIndex> MagmarAttacks = new List<attackIndex>();
-        #endregion
+
+        #endregion Pokemon List 102-126
 
         #region Pokemon List 127-151
+
         private static List<attackIndex> PinsirAttacks = new List<attackIndex>();
         private static List<attackIndex> TaurosAttacks = new List<attackIndex>();
         private static List<attackIndex> MagikarpAttacks = new List<attackIndex>();
@@ -243,8 +259,10 @@ namespace FBG.Attack
         private static List<attackIndex> DragoniteAttacks = new List<attackIndex>();
         private static List<attackIndex> MewtwoAttacks = new List<attackIndex>();
         private static List<attackIndex> MewAttacks = new List<attackIndex>();
-        #endregion
-        #endregion
+
+        #endregion Pokemon List 127-151
+
+        #endregion Declared Variables
 
         public static void createAttackLibrary()
         {
@@ -262,6 +280,7 @@ namespace FBG.Attack
         #region PokemonAttackDatabase
 
         #region Init for Pokemon Attack Lists
+
         private static void init1_24()
         {
             Bulbasar();
@@ -436,9 +455,11 @@ namespace FBG.Attack
             MewTwo();
             Mew();
         }
-        #endregion
+
+        #endregion Init for Pokemon Attack Lists
 
         #region Attack Libraries (HM, TM, Library)
+
         private static void HMLibrary()
         {
             //There are a total of 5 HM moves in Generation 1 Pokemon
@@ -509,14 +530,17 @@ namespace FBG.Attack
         private static void attackLibrary()
         {
             //attackList.Add (new attacks ());
+
             #region Attack Tests
+
             attackList.Add(new attacks("Kill", Consts.Fairy, Consts.Physical, 10000, 100, 10));
             attackList.Add(new attacks("Kill All", Consts.Fairy, Consts.Physical, 10000, 100, 10));
             attackList.Add(new attacks("Kill Last", Consts.Fairy, Consts.Physical, 10000, 100, 10));
 
-            #endregion
+            #endregion Attack Tests
 
             #region Attacks 1 - 25
+
             attackList.Add(new attacks("Absorb", Consts.Grass, Consts.Special, 20, 100, 25));
             attackList.Add(new attacks("Acid", Consts.Poison, Consts.Special, 40, 100, 30));
             attackList.Add(new attacks("Acid Armor", Consts.Poison, Consts.Status, 0, 0, 20));
@@ -542,9 +566,11 @@ namespace FBG.Attack
             attackList.Add(new attacks("Conversion", Consts.Normal, Consts.Status, 0, 0, 30));
             attackList.Add(new attacks("Counter", Consts.Fighting, Consts.Physical, 0, 100, 20));
             attackList.Add(new attacks("Crabhammer", Consts.Water, Consts.Physical, 100, 90, 10));
-            #endregion
+
+            #endregion Attacks 1 - 25
 
             #region Attacks 26-50
+
             attackList.Add(new attacks("Cut", Consts.Normal, Consts.Physical, 50, 95, 30));
             attackList.Add(new attacks("Defense Curl", Consts.Normal, Consts.Status, 0, 0, 40));
             attackList.Add(new attacks("Dig", Consts.Ground, Consts.Physical, 80, 100, 10));
@@ -570,9 +596,11 @@ namespace FBG.Attack
             attackList.Add(new attacks("Fly", Consts.Flying, Consts.Physical, 90, 95, 15));
             attackList.Add(new attacks("Focus Energy", Consts.Normal, Consts.Status, 0, 0, 30));
             attackList.Add(new attacks("Fury Attack", Consts.Normal, Consts.Physical, 15, 85, 20));
-            #endregion
+
+            #endregion Attacks 26-50
 
             #region Attacks 51-75
+
             attackList.Add(new attacks("Fury Swipes", Consts.Normal, Consts.Physical, 18, 80, 15));
             attackList.Add(new attacks("Glare", Consts.Normal, Consts.Status, 0, 75, 30));
             attackList.Add(new attacks("Growl", Consts.Normal, Consts.Status, 0, 100, 40));
@@ -598,9 +626,11 @@ namespace FBG.Attack
             attackList.Add(new attacks("Leech Seed", Consts.Grass, Consts.Status, 0, 90, 10));
             attackList.Add(new attacks("Leer", Consts.Normal, Consts.Status, 0, 100, 30));
             attackList.Add(new attacks("Lick", Consts.Ghost, Consts.Physical, 30, 100, 30));
-            #endregion
+
+            #endregion Attacks 51-75
 
             #region Attacks 76 - 100
+
             attackList.Add(new attacks("Light Screen", Consts.Psychic, Consts.Status, 0, 0, 30));
             attackList.Add(new attacks("Lovely Kiss", Consts.Normal, Consts.Status, 0, 75, 10));
             attackList.Add(new attacks("Low Kick", Consts.Fighting, Consts.Physical, 50, 100, 20));
@@ -626,9 +656,11 @@ namespace FBG.Attack
             attackList.Add(new attacks("Psychic", Consts.Psychic, Consts.Special, 90, 100, 10));
             attackList.Add(new attacks("Psywave", Consts.Psychic, Consts.Special, 0, 80, 15));
             attackList.Add(new attacks("Quick Attack", Consts.Normal, Consts.Physical, 40, 100, 30));
-            #endregion
+
+            #endregion Attacks 76 - 100
 
             #region Attacks 101-125
+
             attackList.Add(new attacks("Rage", Consts.Normal, Consts.Physical, 20, 100, 20));
             attackList.Add(new attacks("Razor Leaf", Consts.Grass, Consts.Physical, 55, 95, 25));
             attackList.Add(new attacks("Razor Wind", Consts.Normal, Consts.Special, 80, 100, 10));
@@ -654,9 +686,11 @@ namespace FBG.Attack
             attackList.Add(new attacks("Sludge", Consts.Poison, Consts.Special, 65, 100, 20));
             attackList.Add(new attacks("Smog", Consts.Poison, Consts.Special, 30, 70, 20));
             attackList.Add(new attacks("SmokeScreen", Consts.Normal, Consts.Status, 0, 100, 20));
-            #endregion
+
+            #endregion Attacks 101-125
 
             #region Attacks 126-150
+
             attackList.Add(new attacks("Soft Boiled", Consts.Normal, Consts.Status, 0, 100, 20));
             attackList.Add(new attacks("Solar Beam", Consts.Grass, Consts.Special, 120, 100, 10));
             attackList.Add(new attacks("Sonic Boom", Consts.Normal, Consts.Special, 0, 90, 20));
@@ -682,9 +716,11 @@ namespace FBG.Attack
             attackList.Add(new attacks("Thrash", Consts.Normal, Consts.Physical, 120, 100, 10));
             attackList.Add(new attacks("Thunder", Consts.Electric, Consts.Special, 110, 70, 10));
             attackList.Add(new attacks("Thunder Punch", Consts.Electric, Consts.Physical, 75, 100, 15));
-            #endregion
+
+            #endregion Attacks 126-150
 
             #region Attacks 151-165
+
             attackList.Add(new attacks("Thunder Shock", Consts.Electric, Consts.Special, 40, 100, 30));
             attackList.Add(new attacks("Thunder Wave", Consts.Electric, Consts.Status, 0, 100, 20));
             attackList.Add(new attacks("Thunderbolt", Consts.Electric, Consts.Special, 90, 100, 15));
@@ -701,11 +737,13 @@ namespace FBG.Attack
             attackList.Add(new attacks("Withdraw", Consts.Water, Consts.Status, 0, 0, 40));
             attackList.Add(new attacks("Wrap", Consts.Normal, Consts.Physical, 15, 90, 20));
 
-            #endregion
+            #endregion Attacks 151-165
         }
-        #endregion
+
+        #endregion Attack Libraries (HM, TM, Library)
 
         #region Pokemon 1-24
+
         private static void Bulbasar()
         {
             BulbasarAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
@@ -729,7 +767,6 @@ namespace FBG.Attack
 
         private static void Ivysaur()
         {
-
             IvysaurAttacks.Add(new attackIndex(searchAttackList("Tackle"), 1));
             IvysaurAttacks.Add(new attackIndex(searchAttackList("Growl"), 1));
             IvysaurAttacks.Add(new attackIndex(searchAttackList("Leech Seed"), 1));
@@ -1107,7 +1144,8 @@ namespace FBG.Attack
             searchHMList(ArbokAttacks, hm);
             master_attack_list.Add(new masterAttackList("Arbok", ArbokAttacks));
         }
-        #endregion
+
+        #endregion Pokemon 1-24
 
         #region Pokemon 25-51
 
@@ -1559,9 +1597,11 @@ namespace FBG.Attack
             searchTMList(DugtrioAttacks, tm);
             master_attack_list.Add(new masterAttackList("Dugtrio", DugtrioAttacks));
         }
-        #endregion
+
+        #endregion Pokemon 25-51
 
         #region Pokemon 52-76
+
         private static void Meowth()
         {
             MeowthAttacks.Add(new attackIndex(searchAttackList("Growl"), 1));
@@ -2000,9 +2040,11 @@ namespace FBG.Attack
             searchHMList(GolemAttacks, hm);
             master_attack_list.Add(new masterAttackList("Golem", GolemAttacks));
         }
-        #endregion
+
+        #endregion Pokemon 52-76
 
         #region Pokemon 76-101
+
         private static void Ponyta()
         {
             PonytaAttacks.Add(new attackIndex(searchAttackList("Ember"), 1));
@@ -2110,7 +2152,6 @@ namespace FBG.Attack
             searchHMList(MagnetonAttacks, hm);
             master_attack_list.Add(new masterAttackList("Magneton", MagnetonAttacks));
             //Debug.LogWarning(string.Format("Magneton total attacks: {0}", MagnetonAttacks.Count));
-
         }
 
         private static void Farfetchd()
@@ -2342,7 +2383,6 @@ namespace FBG.Attack
             DrowzeeAttacks.Add(new attackIndex(searchAttackList("Psychic"), 32));
             DrowzeeAttacks.Add(new attackIndex(searchAttackList("Meditate"), 37));
 
-
             int[] tm = {MegaPunch,MegaKick, Toxic,BodySlam,TakeDown,DoubleEdge,Submission,Counter,SeismicToss,
             Rage,Psychic_TM,Teleport, Mimic,DoubleTeam,Reflect, Bide,Metronome,SkullBash,DreamEater,
             Rest,ThunderWave, Psywave,TriAttack, Substitute};
@@ -2443,9 +2483,11 @@ namespace FBG.Attack
             searchHMList(ElectrodeAttacks, hm);
             master_attack_list.Add(new masterAttackList("Electrode", ElectrodeAttacks));
         }
-        #endregion
+
+        #endregion Pokemon 76-101
 
         #region Pokemon 102-126
+
         private static void Exeggcute()
         {
             ExeggcuteAttacks.Add(new attackIndex(searchAttackList("Barrage"), 1));
@@ -2715,8 +2757,6 @@ namespace FBG.Attack
             master_attack_list.Add(new masterAttackList("Horsea", HorseaAttacks));
         }
 
-
-
         private static void Seadra()
         {
             SeadraAttacks.Add(new attackIndex(searchAttackList("Bubble"), 1));
@@ -2897,9 +2937,10 @@ namespace FBG.Attack
             master_attack_list.Add(new masterAttackList("Magmar", MagmarAttacks));
         }
 
-        #endregion
+        #endregion Pokemon 102-126
 
         #region Pokemon 127-151
+
         private static void Pinsir()
         {
             PinsirAttacks.Add(new attackIndex(searchAttackList("Vice Grip"), 1));
@@ -3071,7 +3112,6 @@ namespace FBG.Attack
             PorygonAttacks.Add(new attackIndex(searchAttackList("Recover"), 28));
             PorygonAttacks.Add(new attackIndex(searchAttackList("Agility"), 35));
             PorygonAttacks.Add(new attackIndex(searchAttackList("Tri Attack"), 42));
-
 
             int[] tm = {Toxic,BodySlam,TakeDown,DoubleEdge,IceBeam,Blizzard,HyperBeam,Rage,ThunderBolt,Thunder,Psychic_TM,Teleport,Mimic,DoubleTeam,Reflect,Bide,
             Swift,SkullBash,Rest,ThunderWave,Psywave,TriAttack, Substitute};
@@ -3328,11 +3368,13 @@ namespace FBG.Attack
             searchHMList(MewAttacks, hm);
             master_attack_list.Add(new masterAttackList("Mew", MewAttacks));
         }
-        #endregion
 
-        #endregion
+        #endregion Pokemon 127-151
+
+        #endregion PokemonAttackDatabase
 
         #region Searching Methods, Getters and Setters
+
         public static attacks searchAttackList(string sName)
         {
             for (int i = 0; i < attackList.Count; i++)
@@ -3379,7 +3421,6 @@ namespace FBG.Attack
             return TM_List[i];
         }
 
-
         private static void searchHMList(List<attackIndex> pokemon, int[] attacks)
         {
             for (int i = 0; i < attacks.Length; i++)
@@ -3394,7 +3435,6 @@ namespace FBG.Attack
             return HM_List[i];
         }
 
-
-        #endregion
+        #endregion Searching Methods, Getters and Setters
     }
 }

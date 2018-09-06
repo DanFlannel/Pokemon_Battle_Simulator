@@ -1,14 +1,13 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
+﻿using System;
+
+using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
 
 /// <summary>
 /// This class handles how the levels are loaded. Trying out asynchonization and other methods
 /// </summary>
-public class LoadLevel : MonoBehaviour {
-
+public class LoadLevel : MonoBehaviour
+{
     /// <summary>
     /// Loads the scene based on the scene number associated it within the build heiarchy
     /// This class is a bit riskier to use because of the fact that level numbers might change

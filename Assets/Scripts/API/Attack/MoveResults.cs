@@ -1,5 +1,4 @@
-﻿using FBG.Base;
-using UnityEngine;
+﻿using Base;
 
 public class MoveResults
 {

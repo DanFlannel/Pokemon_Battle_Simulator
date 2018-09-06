@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using FBG.Base;
-using FBG.Data;
-using FBG.Battle;
+﻿using UnityEngine;
 
-namespace FBG.Attack
+using Base;
+using Data;
+
+namespace Attack
 {
     public class PhysicalAtkHandler : PhysicalAtkMethods, IAttackHandler
     {

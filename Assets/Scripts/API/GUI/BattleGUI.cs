@@ -1,13 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.UI;
-using FBG.Base;
-using FBG.Attack;
-using FBG.Data;
-using FBG.JSON;
 
-namespace FBG.Battle
+using Base;
+using Data;
+using JSON;
+
+namespace Battle
 {
     public class BattleGUI : MonoBehaviour
     {
@@ -15,16 +15,19 @@ namespace FBG.Battle
 
         [Header("Swap info")]
         public Button[] swapBtns;
+
         public GameObject swapPanel;
 
         [Header("Panels")]
         public GameObject movePanel;
+
         public GameObject endPanel;
         public GameObject overlay;
         public GameObject textPanel;
 
         [Header("Info")]
         public int moveIndex;
+
         public int swapIndex;
 
         private BattleSimulator sim;
@@ -59,7 +62,7 @@ namespace FBG.Battle
             }
 
             //this is handling our next attack button pushing
-            for(int i = 0; i < atkBtns.Length; i++)
+            for (int i = 0; i < atkBtns.Length; i++)
             {
                 Button btn = atkBtns[i].GetComponent<Button>();
                 string btnName = atkBtns[i].GetComponentInChildren<Text>().text;
@@ -157,7 +160,7 @@ namespace FBG.Battle
             }
             else
             {
-                if(swapIndex != sim.redTeam.curIndex)
+                if (swapIndex != sim.redTeam.curIndex)
                 {
                     sim.swapPokemon(sim.redTeam, swapIndex);
                 }
@@ -249,7 +252,6 @@ namespace FBG.Battle
         public Text atk3;
         public Text atk4;
 
-
         public swapButton(Transform t)
         {
             btn = t.parent.GetComponent<Button>();
@@ -339,7 +341,6 @@ namespace FBG.Battle
             heightValue.text = string.Format("{0} m", data.height);
             weightValue.text = string.Format("{0} kg", data.weight);
         }
-
     }
 
     public class moveInfoPanel
