@@ -3,7 +3,7 @@
     {
       "num": 719,
       "accuracy": 100,
-      "basaePower": 195,
+      "basePower": 195,
       "category": "Special",
       "desc": "Has a very high chance for a critical hit.",
       "shortDesc": "Very high critical hit ratio.",
